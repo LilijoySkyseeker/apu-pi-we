@@ -60,6 +60,8 @@ A misheard digit gives a wrong number. A misheard *scale* word gives a wrong num
 
 ## Time and calendar
 
+**Provisional.** The user is reworking senary's calendar and timing (2026-10-08), which are currently anchored to Earth's day and year, in a separate session. Everything in this section follows senary as it stood at r19. Nothing else in the language should build on it until the rework lands; then re-read `src/senary_tables.py` and update the words here.
+
 - The day is 6⁷ **NAne**. Time of day is said as the fraction of the day, digit by digit after the point: **mon MImi KA DA KA** "at .343 of the day" = 15:00. Each further digit is six times finer, and seven digits give the exact time unit.
 - **Aya** "watch" = 6⁶ NAne = a sixth of a day (4 h), for everyday durations.
 - Leap years follow senary's 314/1296 accumulator rule (see `src/senary_tables.py`, `is_leap`).
