@@ -1,0 +1,15 @@
+S1. "Did you take my wallet?" Mara asked.
+S2. "I didn't take it. Tomas did."
+S3. "Tomas was at school all day."
+S4. "He came home at three and said he needed money for the bus."
+S5. "How much was in it?"
+S6. "Forty-two dollars and my bus card, I think. I'm not completely sure about the card."
+S7. "Didn't you lock your door?"
+S8. "No. I forgot."
+S9. "Could you please call him? His number is 0412 785 309."
+S10. Ben called. Tomas answered on the second ring.
+S11. Tomas told Ben that he would return the money the day after tomorrow.
+S12. "He didn't take the money," Ben said. "He took the card."
+S13. "If he loses that card, I'm telling Dad."
+S14. "Dad already knows. Tomas called him first."
+S15. Mara laughed. "Of course he did. He's smarter than both of us."

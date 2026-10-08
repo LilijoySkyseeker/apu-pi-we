@@ -26,7 +26,7 @@ Most of the grammar follows from these. The rules after them are the cases the p
 - **Harmless variants:** k and g may sound like "ch" and "j" before i and e; a vowel plus n may become a nasal vowel; consonants between vowels may soften. The vocabulary is built so these changes never merge two words.
 - **No tones.** Pitch is free for intonation and emotion.
 - **Interjections outside the system:** **mm** "heard you", **huh?** "say again".
-- **Writing:** plain lowercase, since stress is predictable. Teaching examples capitalize the stressed syllable: **Ewo**, **FIlo**, **LUgo**.
+- **Writing:** plain lowercase, since stress is predictable. Numbers are written with digits, so a written **o** is always "seen", never "6". Teaching examples capitalize the stressed syllable: **Ewo**, **FIlo**, **LUgo**.
 
 ## Words
 
@@ -38,18 +38,21 @@ Most of the grammar follows from these. The rules after them are the cases the p
 - **MUge** is "do", and also the causative "make". The order tells them apart: **MUge Upe tan** (result, then object) = "make this good, fix it"; **MUge tan Upe** (object, then manner) = "do this well".
 - Compounds are ordinary phrases that stuck; the established ones are listed in [../data/compounds.tsv](../data/compounds.tsv). To list nouns rather than modify one with another, use **yen** "and": **MOle yen WEde** "mother and father".
 - **Gender is a modifier**, stated once when it matters: **Ewo WUNgu FUta** "the commander, a woman". After that, **wan** carries her.
+- **Emphasis and contrast** have no special device yet. Back-translation test 02 showed parallel sentences carry contrast on their own ("**lon mu YIdu bu. TOmasa YIdu bu.**" = "*I* didn't take it, *Tomas* did"). Add a focus particle if a test shows contrast being lost.
 - **The curse word GEfo** fits any content-word slot: a verb (**ba GEfo me** "fuck you"), a modifier (**LUkan GEfo** "fucking head"), or after **yu** (**yu GEfo** "what the fuck").
+- **Loanwords** are adapted the same way as names and listed in the lexicon with field "loan": dollar → **DOla**.
 - **Names** are adapted: a foreign sound becomes the native sound listeners most often hear it as (th → f, per Miller & Nicely 1955), and a final consonant gets an echo vowel. Lilith → **LIlifi**.
 
 ## Rules the principles don't cover
 
-1. **Speech acts:** question **pin**, request **so**, instruct **ton**, advise **fan** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **ku** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so ku …** "please …"). Only a linker to the previous sentence may come before the particle (**gi tan, ton …** "so, do …"). A clause-final **pin** is a tag: "…, right?"
+1. **Speech acts:** question **pin**, request **so**, instruct **ton**, advise **fan** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **ku** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so ku …** "please …"). Only a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, ton …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **pin** is a tag: "…, right?"
 2. **Confidence is a number:** **ga** + digit = chance in 10 that the statement is true (**ga DAsa** = 7 in 10). A second digit handles extremes (**ga YAlu SAge** = 95%). **ga bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for.
 3. **Source is optional:** **o** seen, **fun** told, **san** inferred.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **Obu** "coming" / **mu Obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.
 5. **Questions:** question words stay where the answer would go: **me MOmu wun lon Oyi yu?** "you want me to say what?". They are built from parts: **yu** what, **Ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
 6. **Reference:**
-   - Once a second third person is in play, plain **wan** = the most recent person or animal that was the subject of a clause (if none yet, the most recent one mentioned), and **yi** = any other third person or thing. The rule is mechanical, so children can compute it and speaker and listener can't disagree. This is obligatory.
+   - **People and animals:** **wan** = the most recent person or animal that was the subject of a clause (if none yet, the most recent one mentioned); **yi** = the one before that, the next most recent *different* one. Anyone further back is named again. Two details: a pronoun never means the subject of its own clause (that's **nen**), so in "the dog saw him", *him* is the most recent subject *before* the dog; and a say-verb that frames a quote ("…," **BEne Oyi**) doesn't count, so a quote split by a speech tag keeps its references. The rule is mechanical, so children can compute it and speaker and listener can't disagree.
+   - **Things:** **bu** = "it", the most recent thing mentioned.
    - In reported speech or thought, **sun** = the person whose words are reported.
    - **gu** = anyone (generic); **me** is only ever the listener.
    - **nen** = self, for any person: **lon YONnu nen** "I held myself back", **FEme la … pi nen** "the feelings … of themselves".
@@ -57,6 +60,7 @@ Most of the grammar follows from these. The rules after them are the cases the p
    - **gun** + adjective: **GUyi gun KUdu** "the house is big" (**GUyi KUdu** is only "the big house").
    - **gun** + noun: **wan gun TIwu** "she is a child".
    - **gun** + **wun** clause: "is that…".
+   - **gun** + place phrase: "is at/in": **wan gun mon GUyi** "he is at home".
    - **gun** + verb = the resulting state: **gun TApi** "is closed".
    - After another verb, **gun** = "to be": **MOmu gun TIwu** "want to be a child".
    - Only at the very start of a sentence, with no subject, does **gun** mean "there is".
@@ -66,13 +70,15 @@ Most of the grammar follows from these. The rules after them are the cases the p
    - **do** alone = "first, beforehand".
    - **nin** + noun phrase = during (**nin DIli DAsa** "for seven days").
    - A phrase setting time or place may open the sentence (**mon MUyi fa, …** "at no time, …"). It sets the scene and changes no roles.
-9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
+9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **WUma wo DIli PU** "tomorrow after one day" = the day after tomorrow. Clock time is a label (**Aya pi KOse** "three o'clock"); a duration is a count (**Aya KO** "three hours"). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
 10. **Numbers** are base 10 and fully regular: 23 = "two ten three". Base 10 matches finger counting and the decimal system the modern world already runs on. Noun + number = count (**DIli DAsa** "seven days"); noun + **pi** + number = label or order (**LIte pi Ome** "step zero").
     - **Short forms** are used where the listener already knows a number is coming: right after a counted noun, after **ga**, or after another number word (**DIli TI LUbu KO** "23 days", **ga DA** = 7 in 10). Short forms are stressed, which also sets them apart from the unstressed grammar words.
-    - **Long forms** are used when nothing predicts the number: a number said on its own, after **pi**, after a verb, and in digit strings such as phone numbers and codes.
+    - **Long forms** are used when nothing predicts the number: a number said on its own, after **pi** or another preposition (**mon KOse** "at three"), after a verb, and in digit strings such as phone numbers and codes.
 11. **Dropped subjects** are allowed only when the subject repeats after **yen** / **ta**, or for the addressee of an instruction or request.
 12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks and a broken-off word ends in a dash.
 13. **Degree words** (**ke** more, **bi** very, **to** rather) come before what they modify: **ke KUdu** "bigger".
+    - **Comparison:** **ke** + adjective + **se** ("from") + the standard: **wan gun ke GOle se pen** "he is smarter than us". Most = **ke** … **se we** "more … than all".
+    - **How much, how many:** **WIfu yu** "number what": **gun NImo WIfu yu?** "how much money is there?"
 14. **Two objects:** verb + recipient + thing: **TOfo me NUta** "teach you fear".
 
 ## Grammar words
@@ -81,7 +87,7 @@ Most of the grammar follows from these. The rules after them are the cases the p
 |---|---|
 | Speech acts | question **pin** · request **so** · instruct **ton** · advise **fan** · intend **de** · warn **yo** · not literal **a** · exclaim **ba** · polite **ku** |
 | Operators | NOT **mu** · which? **yu** · unspecified **bo** · confidence **ga** · seen **o** · told **fun** · inferred **san** · only **na** · at least **den** |
-| Pronouns | I **lon** · you **me** · we incl. you **pen** · we excl. you **din** · he/she/it **wan** · obviative **yi** · logophoric **sun** · anyone **gu** · self **nen** |
+| Pronouns | I **lon** · you **me** · we incl. you **pen** · we excl. you **din** · he/she **wan** · the other one **yi** · it **bu** · logophoric **sun** · anyone **gu** · self **nen** |
 | Determiners | plural **la** · this **tan** · that **ben** · all **we** · some **in** · some-not-all **son** · none **fa** |
 | Degree | more **ke** · very **bi** · rather **to** |
 | Aspect | done **sin** · ongoing **le** · about to **win** |
@@ -102,7 +108,7 @@ Each digit's short form is the first syllable of its long form, so the shortenin
 
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv) holds 284 roots plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules (old-to-new map in `data/rename-2026-10-08.tsv`); from here on, existing words don't move.
+[../data/lexicon.tsv](../data/lexicon.tsv) holds 295 roots plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules (old-to-new map in `data/rename-2026-10-08.tsv`); from here on, existing words don't move.
 
 ## How much to trust the sound choices
 
