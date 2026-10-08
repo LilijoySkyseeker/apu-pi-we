@@ -1,6 +1,6 @@
 # Universal language
 
-A thought experiment: design the best universal human language from first principles. It's a hypothetical native language, with spoken and signed forms sharing one grammar. The goal is faithful transmission of thought, at a cost speakers will actually pay. Side use: flavor at the D&D table.
+A thought experiment: design the best universal human language for modern Earth from first principles. It's imagined as a native language that children grow up speaking. The goal is faithful transmission of thought, at a cost speakers will actually pay.
 
 The language has no name yet.
 

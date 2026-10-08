@@ -20,8 +20,6 @@ WE.excl	pron	3	so
 HE/SHE/IT	pron	8	lu
 OBVIATIVE	pron	2	tan
 LOGOPHOR	pron	1	gan
-SIDE.A	pron	0.5	ku
-SIDE.B	pron	0.5	sin
 PLURAL	det	4	in
 THIS	det	4	va
 THAT.dem	det	3	nun

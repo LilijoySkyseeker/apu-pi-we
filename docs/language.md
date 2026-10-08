@@ -2,64 +2,63 @@
 
 This is the current state. Reasons and history are in [design-log.md](design-log.md); evidence is in [../research/](../research/).
 
-**Goal:** faithful transmission of thought, at a cost speakers will actually pay. It's a hypothetical *native* language with two surfaces, speech and sign, sharing one grammar.
+**What it is:** a thought experiment in designing a universal human language for modern Earth from first principles. It's imagined as a *native* language, one that children grow up speaking, so the only fixed constraints are human: mouth, ear, memory, attention.
+
+**Goal:** faithful transmission of thought, at a cost speakers will actually pay. When features conflict, this decides.
+
+## Five principles
+
+Most of the grammar follows from these. The rules after them are the cases the principles don't cover.
+
+1. **The common case costs nothing.** Statements, ordinary belief, unknown source, the main character, and present-or-unspecified time are all unmarked. Only departures from the default cost a word. Frequent meanings get the shortest words.
+2. **Heads come first, and position carries role.** The order is subject, verb, object. Anything that modifies a word follows it: adjectives after nouns, verbs after nouns (**NIte TAlan YUyu** "intruding alien"), one verb after another (**KApo Ife** "sit thinking" = meditate), noun after noun (**BOzen NOwi** "snake fire" = dragon). Nothing moves, not even question words, so a listener who loses one word can still tell who did what.
+3. **Operators cover what follows them.** The speech-act particle at the start covers the sentence. NOT, confidence, source, ONLY, AT LEAST and degree words cover the clause when they start it, or a single word when placed before it.
+4. **Heavy goes last.** A noun's own modifiers come before its "of" phrase (**Ozi ban Owu on FEbu** "rather little knowledge of sticks"). In a causative, the result comes before the object (**Avu OPun vun** "make angry you"). Long clauses go to the end of the sentence ("there's a good idea: that one hits…"). Relative clauses have no end marker, so nothing may follow them in their phrase.
+5. **Doubling widens or strengthens.** **ze ze** = emergency. **san** = this sentence is not literal; **san san** = the whole turn.
 
 ## Sounds
 
 - **Vowels:** a e i o u.
-- **Consonants (15):** p b t d k g · m n · f v s z · l w y. Three places of articulation only (lips, tongue tip, back of tongue), because place is the cue noise destroys first.
+- **Consonants (15):** p b t d k g · m n · f v s z · l w y. Only three places in the mouth (lips, tongue tip, back of tongue), because place is the cue noise destroys first.
 - **Syllables:** (C)V(n). A vowel-only syllable may appear only at the start of a word. The only syllable-final consonant is n.
-- **Stress:** the first syllable of every content word. Grammar words are unstressed.
+- **Stress:** the first syllable of every content word; grammar words are unstressed. Stress marks where each content word begins.
 - **No tones.** Pitch is free for intonation and emotion.
-- **Syllable partition:** 58 syllables belong to grammar words, the rest to content words. A content word never contains a grammar syllable, so a grammar syllable heard is always a grammar word.
-- Interjections outside the system: **mm** "heard you", **huh?** "say again".
-- **Writing:** plain lowercase. Stress is fully predictable (first syllable of every content word; grammar words never), so normal writing needs no mark. Teaching examples capitalize the whole stressed syllable: **NIte**, **LANpu**, and for a vowel-first word just the vowel, **Ozi**.
+- **Interjections outside the system:** **mm** "heard you", **huh?** "say again".
+- **Writing:** plain lowercase, since stress is predictable. Teaching examples capitalize the stressed syllable: **NIte**, **LANpu**, **Ozi**.
 
-## Signs
+## Words
 
-- **Location** carries most contrasts: face/head, chin/neck, chest, space in front, the other hand.
-- **Handshapes:** flat, fist, index, spread, C-curve, O. Fine distinctions only near the face.
-- **Movement:** straight, arc, circle, repeated, contact.
-- **The face** carries speech act and confidence in parallel with the hands.
-- Signed words are their own forms, often iconic; they share meanings and grammar with speech, not sounds. Mirror-image antonyms (come/go) are allowed only for large path reversals.
+- Grammar words have one syllable; content words have two or more. Every meaning is a separate word that never changes: no endings, no agreement, no case, no gender.
+- Content words with similar or opposite meanings are given forms that sound as different as possible, because context can't tell them apart.
+- Compounds are ordinary phrases that stuck. To list nouns rather than modify one with another, use **gu** "and": **KOnu gu VUge** "mother and father".
+- **Names** are adapted: a foreign sound becomes the native sound listeners most often hear it as (th → f, per Miller & Nicely 1955), and a final consonant gets an echo vowel. Lilith → **LIlifi**.
 
-## Grammar
+## Rules the principles don't cover
 
-1. **Word shape tells category.** Grammar words have one syllable; content words two or more. Every meaning is a separate unchanging word: no endings, no agreement, no case.
-2. **Order:** [speech act] subject verb object. Modifiers follow what they modify. A noun's own modifiers come before its "of" phrase (**Ozi ban Owu on FEbu** "rather little knowledge of sticks").
-3. **Operators cover what follows them.** NOT, confidence, source, ONLY, AT.LEAST: at the start of a clause they cover the clause; before a word, that word.
-4. **Speech act first.** Statements are unmarked. Others open with a particle; only a linker to the previous sentence may come before it (**win va, gon …** "so, do …"). Doubling widens or strengthens: **ze ze** = emergency; **san** = this sentence is not literal, **san san** = the whole turn. A clause-final **yun** is a tag ("…, right?").
-5. **Confidence is a number:** **mon** + digit = chance in 10 that the statement is true (**mon Ayon** = 7 in 10). Second digit for extremes (**mon ENge NEnon** = 95%). **mon wan** = "don't know how sure". Unmarked = ordinary belief. Sign: digit held on the non-dominant hand during the clause.
-6. **Source is optional:** **kin** seen, **sun** told, **ven** inferred.
-7. **Answers echo the verb**, there are no words for yes and no: "Aren't you coming?" → **Ime** "coming" / **na Ime** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **zin** + verb = will do.
-8. **Reference:**
-   - Once a second third person is active, plain **lu** = the main character and **tan** (obviative) = anyone else. This is obligatory.
+1. **Speech acts:** question **yun**, request **fu**, instruct **gon**, advise **to** (the decision stays with you), intend **zin**, warn **ze**, not literal **san**, exclaim **dun**. Only a linker to the previous sentence may come before the particle (**win va, gon …** "so, do …"). A clause-final **yun** is a tag: "…, right?"
+2. **Confidence is a number:** **mon** + digit = chance in 10 that the statement is true (**mon Ayon** = 7 in 10). A second digit handles extremes (**mon ENge NEnon** = 95%). **mon wan** = "don't know how sure".
+3. **Source is optional:** **kin** seen, **sun** told, **ven** inferred.
+4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **Ime** "coming" / **na Ime** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **zin** + verb = will do.
+5. **Questions:** question words stay where the answer would go: **vun ZIzi yo e GAka mi?** "you want me to say what?". They are built from parts: **mi** what, **NIte mi** who, **win mi** why, **wo mi** how. **mi** inside a **yo** clause is an indirect question ("I don't know what I did").
+6. **Reference:**
+   - Once a second third person is in play, plain **lu** = the main character and **tan** = anyone else. This is obligatory, and it also separates "she" from "it".
    - In reported speech or thought, **gan** = the person whose words are reported.
-   - For crowded scenes, **ku** / **sin** = "this-side one" / "that-side one", with a point. In sign these are loci in space.
    - **pen** = anyone (generic); **vun** is only ever the listener.
-   - No grammatical gender.
-9. **"Is":** adjectives need **la** as a predicate (**Iwa la ZUvo** "the house is big"; **Iwa ZUvo** is only "the big house"). Without a subject, **la** = "there is".
-10. **Verbs can modify nouns** directly: **NIte TAlan YUyu** "intruding alien".
-11. **A prepositional phrase attaches to its clause's main verb**, never to a modifier.
-12. **Time:** tense optional. Aspect particles **fa** done, **gi** ongoing, **yan** about to. Time words name an anchor plus an offset; no "move forward" metaphors. Roots: **zume** today, **ili** tomorrow, **zafo** yesterday.
-13. **Compounds** are ordinary head-first phrases that stuck: **BOzen NOwi** "snake fire" = dragon. Noun + noun is always head + modifier; to list nouns, use **gu**: **KOnu gu VUge** "mother and father".
-14. **Numbers** are base 10, fully regular ("ten one" = 11), each two syllables. Noun + number = count (**ONo AYon** "seven days"); noun + **on** + number = label or order (**PEpa on DONma** "step zero").
-15. **Questions:** question words stay in place, so roles stay readable from position: **vun ZIzi yo e GAka mi?** "you want me to say what?". They compose: **mi** what, **NIte mi** who, **win mi** why, **wo mi** how. **mi** inside a **yo** clause is an indirect question ("I don't know what I did").
-16. **Causative:** **Avu** + result + object: **Avu OPun vun** "make you angry", **Avu Itu va** "fix this". The result comes first so a heavy object can go last; relative clauses have no end marker, so heavy phrases always go last.
-17. **la + verb** = the resulting state: **la FEson** "is closed".
-18. **Dropped subjects** only for the same subject after **gu** / **fen**, and for the addressee of an instruction or request.
-19. **Reflexive** = the same pronoun again: **e SIdo e** "I held myself back"; with obviation, a repeated **lu** or **tan** is always the same one.
-20. **zan** + noun phrase = during (**zan ONo AYon** "for seven days"). A verb after a preposition names the act (**gen FOta** "from leaving"). "So" = **win va** "because this".
-21. **Names** are adapted: a foreign sound becomes the native sound listeners most often hear it as (th → f, per Miller & Nicely), and a final consonant gets an echo vowel. Lilith → **LIlifi**.
-22. **Direct quotes** are framed by a say-verb; there is no quote particle.
+   - Reflexive = the same pronoun again: **e SIdo e** "I held myself back".
+7. **"Is":** an adjective used as a predicate needs **la** (**Iwa la ZUvo** "the house is big"; **Iwa ZUvo** is only "the big house"). Without a subject, **la** = "there is". **la** + verb = the resulting state (**la FEson** "is closed").
+8. **Prepositional phrases** attach to their clause's main verb, never to a modifier. A verb after a preposition names the act (**gen FOta** "from leaving"). **zan** + noun phrase = during (**zan ONo AYon** "for seven days").
+9. **Time:** tense is optional. Aspect: **fa** done, **gi** ongoing, **yan** about to. Time words name an anchor plus an offset, never a "move forward" metaphor. Roots: **ibo** now, **zume** today, **ili** tomorrow, **zafo** yesterday.
+10. **Numbers** are base 10 and fully regular ("ten one" = 11), with two syllables each. Base 10 matches finger counting and the decimal system the modern world already runs on. Noun + number = count (**ONo AYon** "seven days"); noun + **on** + number = label or order (**PEpa on DONma** "step zero").
+11. **Dropped subjects** are allowed only when the subject repeats after **gu** / **fen**, or for the addressee of an instruction or request.
+12. **Direct quotes** are framed by a say-verb; there's no quote particle.
 
 ## Grammar words
 
 | Group | Words |
 |---|---|
-| Speech acts | question **yun** · request **fu** · instruct **gon** · advise **to** · intend **zin** · warn **ze** · not-literal **san** · exclaim **dun** |
+| Speech acts | question **yun** · request **fu** · instruct **gon** · advise **to** · intend **zin** · warn **ze** · not literal **san** · exclaim **dun** |
 | Operators | NOT **na** · which? **mi** · unspecified **wan** · confidence **mon** · seen **kin** · told **sun** · inferred **ven** · only **bin** · at least **wun** |
-| Pronouns | I **e** · you **vun** · we incl. **nin** · we excl. **so** · he/she/it **lu** · obviative **tan** · logophoric **gan** · this-side **ku** · that-side **sin** · anyone **pen** |
+| Pronouns | I **e** · you **vun** · we incl. you **nin** · we excl. you **so** · he/she/it **lu** · obviative **tan** · logophoric **gan** · anyone **pen** |
 | Determiners | plural **in** · this **va** · that **nun** · all **len** · some **vi** · some-not-all **kon** · none **bon** |
 | Degree | more **u** · very **we** · rather **ban** |
 | Aspect | done **fa** · ongoing **gi** · about to **yan** |
@@ -67,17 +66,23 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 | Linkers | and **gu** · or **be** · but **fen** · if **ti** · because **win** · that (said that) **yo** · who/which **mu** · while **zan** |
 | Copula | is **la** |
 
+Determiners, like other modifiers, follow the noun: **Iwa va** "this house", **lu in** "they".
+
 ## Numbers
 
 0 **donma** · 1 **tugun** · 2 **suki** · 3 **wumun** · 4 **tumin** · 5 **nenon** · 6 **livan** · 7 **ayon** · 8 **digun** · 9 **enge** · 10 **newen** · 100 **tonvu** · 1000 **senni**
 
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv): 279 roots plus numbers, with semantic field and frequency tier. Add words with `tools/words.py`; existing words never move.
+[../data/lexicon.tsv](../data/lexicon.tsv) holds 279 roots plus numbers, each with its semantic field and frequency tier. Add words with `tools/words.py`; existing words never move.
+
+## How much to trust the sound choices
+
+The word forms were chosen by a mishearing model. Its consonant data are real: English listeners in noise (Miller & Nicely 1955). Its vowels, its l/w/y and its final -n are estimates. Its scores measure the model against itself and have not been checked against real listeners.
 
 ## Open questions
 
-- Only 4 free grammar syllables remain. Next grammar words need a plan (reshuffle content words, or two-syllable grammar words).
-- Do confirmation and speech-act particles survive native use, or erode?
-- The concept list and frequency tiers are judgment, not cross-linguistic frequency data.
-- Sign vocabulary exists only as principles and a few examples.
+- The test texts, the listener data and the concept list are all English-centred. "Universal" is a goal, not yet a result.
+- The vocabulary lacks modern-world concepts (machines, medicine, money systems, science).
+- Do confirmation and speech-act particles survive native use, or wear away?
+- The frequency tiers are judgment, not cross-linguistic data.

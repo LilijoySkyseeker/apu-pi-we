@@ -153,3 +153,17 @@ Worked: obviation replaced English's she/it animacy split; echo answers; reflexi
 Adopted: question words in place; **mi** in a **yo** clause = indirect question; clause-final **yun** = tag; **san** = sentence, **san san** = turn (replacing the pause-based standalone **san.**); noun + number = count, noun + **on** + number = label; causative **Avu** + result + object (relative clauses have no end marker, so heavy phrases go last); **la** + verb = resulting state; noun + noun is modifier, coordinate with **gu**; dropped subjects only for same-subject continuation and addressees; linkers may precede the act particle; **zan** + NP = during; name adaptation by confusion data (Lilith → **LIlifi**). Text 001 updated to the revised rules. 13 new roots, no new grammar words.
 
 The user can only supply English texts. Claude will add tests built around things English expresses badly (evidentiality, inclusive/exclusive "we", confidence, reported speech) so the tests don't only probe English's quirks.
+
+## First-principles review (2026-10-08)
+
+The user asked for a step back using their five steps. Findings: the learning goal was working (two devil's-advocate rounds changed the design); three Claude-added parts were weak; nothing independently measured the north star.
+
+Decisions (user approved):
+- **Goal narrowed:** a universal human language for modern Earth, as design and thought experiment. **D&D dropped**: a fantasy language and a modern-Earth language are different tasks. The table kit idea goes with it.
+- **Signs dropped:** text is the wrong medium to design them. Removed from the reference.
+- **Syllable partition deleted.** Stress already marks where content words begin; the partition duplicated it and had exhausted the grammar-word space. Existing words are unchanged; new words may use any syllable. Add back if a listening test shows grammar words misheard inside content words.
+- **Spatial pronouns ku/sin deleted:** never used, weakest evidence. Add back if a text has 3+ people that obviation and names can't keep apart.
+- **The optimizer's scores are model-internal**, not real-world results. The reference now says so.
+- **Base 10 re-sourced:** it was justified by sign-language finger counting; now by finger counting plus the decimal system modern Earth already uses.
+- **Reference rewritten** around five principles (common case free; heads first and position carries role; operators cover what follows; heavy last; doubling widens) plus 12 rules they don't cover.
+- **Next:** blind back-translation test to measure fidelity directly.

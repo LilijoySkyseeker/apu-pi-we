@@ -1,5 +1,8 @@
 """Add words to the language without disturbing existing ones, and measure texts.
 
+Grammar words and content words may share syllables (the old partition was dropped
+2026-10-08); stress marks where content words begin.
+
 data/grammar.tsv and data/lexicon.tsv are the source of truth. Existing words never
 move: in a living language, words are stable. New words take the best free form.
 
@@ -41,12 +44,11 @@ def split(form):
 
 
 def add_grammar(gloss, cls, freq):
-    grammar, lexicon = read("grammar.tsv"), read("lexicon.tsv")
-    gsyl = {IDX[g["form"]] for g in grammar}
-    csyl = {s for w in lexicon for s in split(w["form"])}
+    grammar = read("grammar.tsv")
+    taken = {IDX[g["form"]] for g in grammar}
     best, best_c = None, float("inf")
     for cand in range(len(SYL)):
-        if cand in gsyl or cand in csyl:
+        if cand in taken:
             continue
         c = 0.0
         for g in grammar:
@@ -60,13 +62,12 @@ def add_grammar(gloss, cls, freq):
             best, best_c = cand, c
     grammar.append({"gloss": gloss, "class": cls, "freq": freq, "form": SYL[best]})
     write("grammar.tsv", grammar, ["gloss", "class", "freq", "form"])
-    print(f"{gloss} = {SYL[best]}  (cost {best_c:.4f}; {len(SYL) - len(gsyl) - len(csyl) - 1} free syllables left)")
+    print(f"{gloss} = {SYL[best]}  (cost {best_c:.4f})")
 
 
 def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
-    grammar, lexicon = read("grammar.tsv"), read("lexicon.tsv")
-    gsyl = {IDX[g["form"]] for g in grammar}
-    content = [i for i in range(len(SYL)) if i not in gsyl]
+    lexicon = read("lexicon.tsv")
+    content = list(range(len(SYL)))
     if no_approximants:
         content = [i for i in content if SYLLABLES[i][0] not in APPROXIMANTS]
     second = [i for i in content if SYLLABLES[i][0] != ""]
