@@ -1,0 +1,44 @@
+N1. Nairobi | A: nayilobi | B: nayilobi
+N2. Beijing | A: peyitin | B: peyitin
+N3. London | A: landan | B: landan
+N4. Svetlana | A: sibitalana | B: subitulana
+N5. São Paulo | A: sanwapawulu | B: sanwupawulu
+N6. Kathmandu | A: katamandu | B: katumandu
+N7. Germany | A: damani | B: damani
+N8. Tokyo | A: toko | B: toko
+N9. Ngozi | A: nogosi | B: nugosi
+N10. Dmitri | A: dimitiliyi | B: dumituliyu
+N11. Kwame | A: kawame | B: kuwame
+N12. Björk | A: beyeleke | B: buyeluku
+N13. Aisha | A: ayisa | B: ayisa
+N14. Sydney | A: sidini | B: siduni
+N15. João | A: suwanwa | B: suwanwu
+N16. México | A: mekiko | B: mekiko
+N17. Moskva (Moscow) | A: masakaba | B: masukuba
+N18. François | A: falansawa | B: fulansuwa
+N19. Priya | A: piliya | B: puliya
+N20. Xi Jinping | A: sitinpin | B: sitinpin
+N21. Elizabeth | A: ilisabafa | B: ilisabafu
+N22. Hiroshi | A: silosi | B: silosi
+N23. Paris | A: pali | B: pali
+N24. Mumbai | A: munbayi | B: munbayi
+N25. Fatima | A: fatima | B: fatima
+N26. Cairo | A: kayilowu | B: kayilowu
+N27. Guadalupe | A: gawadalupe | B: guwadalupe
+N28. Wojciech | A: boyeteke | B: boyuteku
+N29. Jakarta | A: dakalata | B: dakaluta
+N30. Nguyen | A: niwiyan | B: nuwiyan
+N31. Brasil | A: balasiwi | B: bulasiwu
+N32. Muhammad | A: muwanmada | B: muwanmadu
+N33. Buenos Aires | A: bewenosayelese | B: buwenosayulesu
+N34. Olusegun | A: olusegun | B: olusegun
+N35. Amazon | A: amasan | B: amasan
+N36. Istanbul | A: isatanbulu | B: isutanbulu
+N37. Ingrid | A: ingilidi | B: ingulidu
+N38. Christopher | A: kilisatafala | B: kulisutafalu
+N39. Zeynep | A: seyenepe | B: seyunepu
+N40. Yuki | A: yuki | B: yuki
+N41. Siobhan | A: sibon | B: sibon
+N42. Thandiwe | A: tandiwe | B: tandiwe
+N43. Reykjavík | A: leyikabiki | B: leyikabiku
+N44. Lagos | A: leyigoso | B: leyigosu

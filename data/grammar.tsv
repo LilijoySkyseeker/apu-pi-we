@@ -62,3 +62,4 @@ AGENT	deriv	4	no
 RESULT	deriv	2	ge
 TOOL	deriv	3	du
 PLACE	deriv	3	pu
+NAME	name	4	en

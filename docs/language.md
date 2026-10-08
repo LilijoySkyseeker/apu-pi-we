@@ -40,8 +40,14 @@ Most of the grammar follows from these. The rules after them are the cases the p
 - **Gender is a modifier**, stated once when it matters: **Ewo WUNgu FUta** "the commander, a woman". After that, **wan** carries her.
 - **Emphasis and contrast** have no special device yet. Back-translation test 02 showed parallel sentences carry contrast on their own ("**lon mu YIdu bu. TOmasa YIdu bu.**" = "*I* didn't take it, *Tomas* did"). Add a focus particle if a test shows contrast being lost.
 - **The curse word GEfo** fits any content-word slot: a verb (**ba GEfo me** "fuck you"), a modifier (**LUkan GEfo** "fucking head"), or after **yu** (**yu GEfo** "what the fuck").
-- **Loanwords** are adapted the same way as names and listed in the lexicon with field "loan": dollar → **DOla**.
-- **Names** are adapted: a foreign sound becomes the native sound listeners most often hear it as (th → f, per Miller & Nicely 1955), and a final consonant gets an echo vowel. Lilith → **LIlifi**.
+- **Names** take the article **en**, always: **en MAla** "Mara". Many languages have such articles (Tagalog *si*, Māori *a*, Catalan *en*). With the article, a name that happens to sound like a word can't be mistaken for it, the way English copes with names like Rose or Baker.
+- **Names and loanwords are adapted by rule** (`tools/names.py`):
+  - Each foreign sound becomes the nearest native sound: r → l, v → b, z/sh/zh → s, th → f, dh → d, ch → t, j → d, kh → k. h and glottal sounds disappear, ng → n, and length, aspiration and tone are dropped.
+  - Two vowels in a row get a glide (y or w).
+  - A consonant that can't stand where it is gets an added **u**; consonants are never dropped. Names have at least two syllables.
+  - Examples: Lilith → **en LIlifu**, Christopher → **en KUlisutafalu**, London → **en LAndan**, Nairobi → **en NAyilobi**.
+  - In a blind test, a reader recovered 43 of 44 world names from their adapted forms. A fixed added vowel beat copying a nearby vowel, because it marks itself as "not in the original" (`tests/names-01/`).
+- **Loanwords** follow the same sound rules without the article, and are listed in the lexicon with field "loan": dollar → **DOla**. New concepts are normally built with the word-building markers instead; borrowing is for names of things that have no description, like brands.
 
 ## Word building
 
@@ -120,6 +126,7 @@ Four markers turn a verb, or a verb phrase, into a noun that names a role in the
 | Relations | of **pi** · at **mon** · to **tun** · from **se** · with **gan** · for **li** · before **ya** · after **wo** · like **fu** |
 | Linkers | and **yen** · or **lu** · but **un** · if **don** · because **gi** · that (said that) **wun** · who/which **man** · while **nin** |
 | Copula | is **gun** |
+| Names | name article **en** |
 
 Determiners, like other modifiers, follow the noun: **GUyi tan** "this house", **wan la** "they".
 

@@ -64,6 +64,7 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
 - **A3 decided (2026-10-08): both.** Digits have long forms for context-free use and short forms for running speech; each short form is the first syllable of its long form, so natural clipping is safe by construction. 10, 100 and 1000 stay long. Earlier data: In the model, the best one-syllable digits are misheard as another digit about 0.06% of the time, against near 0% for two-syllable digits, and they halve number length. But the model doesn't simulate a noise burst wiping out a whole syllable, which is exactly why the ICAO alphabet's one-syllable words failed in field tests. Options: keep two syllables; switch to one; or have both, with a short form for running speech and a long form for context-free numbers (as English has "oh" and "zero").
 - **A5 partly done.** Stress is now a pitch movement, the rhythm is syllable-timed with full vowels, and the vocabulary is drift-proofed. Focus/emphasis is still open: test it in the next back-translation before adding anything.
 - **A2 done (2026-10-08).** Four derivation markers plus relation-word coinage; A/B tested (`tests/wordbuilding-ab-01/`). Found: the one-syllable grammar space is full; new grammar words must be two syllables.
+- **A4 done (2026-10-08).** Name article **en**; rule-based adaptation with an added **u**; 43.5/44 world names recovered blind (`tests/names-01/`).
 - **A6 started.** Politeness particle **ku** adopted (outlet principle). Address terms and honorific levels are still undesigned.
 
 ## Recommended order

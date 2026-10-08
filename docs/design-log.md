@@ -222,3 +222,10 @@ The user chose to carry senary's system over as is and to keep the repos separat
 ## Word building (A2) (2026-10-08)
 
 Research (`research/notes/word-formation.md`): agent, action, result, place and instrument derivations are the most widespread; analytic languages grow a few near-grammatical heads; the opacity of "person sky" came from the missing relation, not the generic head. Design: four markers before a verb base: **no** doer, **ge** result/thing done-to, **du** tool, **pu** place. Noun bases must state their relation with a relation word. Blind A/B test (`tests/wordbuilding-ab-01/`): markers 71/76 vs generic heads 69/76, no real decoding difference. Kept for length and drift; **ge** narrowed to things after it misread "student" as "lesson"; persons acted on use **Ewo gun** + verb. The one-syllable grammar space is now full (69 of 70 slots), so future grammar words must be two syllables or compositional.
+
+## Names and loanwords (A4) (2026-10-08)
+
+Research (`research/notes/names-and-loans.md`) overturned the plan to give names a looser sound system. The Mara → *mala* collision came from r → l, not a final consonant; looser layers erode back to native sound rules (Japanese, Finnish); and collisions are common (about 1 in 20 two-syllable names lands on a word). Adopted:
+- the personal article **en** before every name (one of the last two free one-syllable slots);
+- deterministic adaptation (`tools/names.py`): nearest native sound, glides between vowels, consonants never dropped.
+Blind test (`tests/names-01/`): 44 world names; an added fixed **u** recovered about 43.5/44, copying a nearby vowel 42/44. Adopted **u** (it marks itself as added), plus a two-syllable minimum for names. Texts 002 and 003 updated (Lilith → **en LIlifu**, Tomas → **en TOmasu**, Ben → **en BEnu**). The one-syllable grammar space now has one slot left (nu/nun, which clashes with AGENT after drift).

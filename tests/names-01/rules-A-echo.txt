@@ -1,0 +1,4 @@
+The language has vowels a e i o u and consonants p b t d k g m n f s l w y (no r, v, z, h, sh, ch, th...). A syllable is a consonant (optional) + vowel, optionally ending in n; no other consonant can end a syllable. Names from other languages are adapted:
+- each foreign sound becomes the nearest native sound: r -> l, v -> b, z/sh/zh -> s, th -> f, dh -> d, ch/tch -> t, j (as in "jam") -> d, kh/x -> k, h and glottal sounds disappear, ng -> n, aspiration/length/tones are dropped; vowels map to the nearest of a e i o u (the neutral vowel "uh" becomes a);
+- two vowels in a row get a glide between them (y after i/e, w after u/o);
+- n (and m before another consonant) can end a syllable; any other consonant that has no vowel after it gets an added vowel that copies the nearest vowel of the word (the next vowel, or the previous one at the end of a word).

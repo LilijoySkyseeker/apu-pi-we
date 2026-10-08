@@ -26,7 +26,7 @@ I    you want that I   say what    "I— What do you want me to say?"
 SUku pi Ewo    WUNgu FUta  LEwe   BUda.
 face of person lead  woman become dark    The commander's face darkened.
 
-ba      LIlifi, me  Ewo    NUta!
+ba      en LIlifu, me  Ewo    NUta!
 EXCLAIM Lilith  you person fear    "Lilith, you coward!"
 
 lon NIba tun NEbe, FUno TUgan pi lon.
@@ -52,7 +52,7 @@ I   make stop it(OBV) like what    How did I make it stop?
 ba      NOsen LUmi! Ewo       WUNgu Oyi  fu    DINbu.
 EXCLAIM god   fire  commander say   like snake "Godfire,"    the commander hissed.
 
-me  GOyu PUme  nin    DIli NObi FI, LIlifi.
+me  GOyu PUme  nin    DIli NObi FI, en LIlifu.
 you sit  think during day  7     Lilith    "You meditated for a week, Lilith.
 
 min me  le      SInun nin    MUyi MINwe?
