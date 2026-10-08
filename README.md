@@ -8,6 +8,7 @@ The language has no name yet.
 
 - [docs/language.md](docs/language.md): the language as it stands now. Start here.
 - [docs/design-log.md](docs/design-log.md): decisions in order, with reasons.
+- [docs/roadmap.md](docs/roadmap.md): what a full language still needs, and in what order.
 - [research/](research/): evidence. `where-communication-fails.md` is the main report; `notes/` holds the raw research notes behind it and later rounds.
 - [data/](data/): `grammar.tsv` (grammar words), `lexicon.tsv` (roots and numbers), `antonyms.tsv`.
 - [texts/](texts/): stress-test translations, each with findings.
