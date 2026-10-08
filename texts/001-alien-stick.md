@@ -17,11 +17,11 @@ lon Oyi FEko:
 I   say true
 "Honestly:"
 
-lon PUme  wun  gun      GAson to     Upe  wun  gu  PAyon LUkan pi Ewo    YAye INwa  gan  KIma NEtu,
+lon PUme  wun  gun      GAson to     Upe  wun  go  PAyon LUkan pi Ewo    YAye INwa  gan  KIma NEtu,
 I   think that there-is idea  rather good that one hit   head  of person sky  enter with wood long
 "I think it's a pretty good idea to hit an intruding alien in the head with a stick,"
 
-yen gu  WUpi LUgo to     MEli  pi KIma, li  LUgo do     wun  Ewo    YAye gun mu  TIwu  FUta  pi gu.
+yen go  WUpi LUgo to     MEli  pi KIma, li  LUgo ya     wun  Ewo    YAye gun mu  TIwu  FUta  pi go.
 and one need know rather small of wood  for know before that person sky  is  not child woman of one
 "and you need only fairly basic stick-knowledge to first make sure the alien isn't your daughter."
 
@@ -29,15 +29,15 @@ ke   BAwe      li  GAson pi lon: ba      GEfo  me,  SOnu   pi Ewo    YAye la!
 more important for idea  of me:  EXCLAIM CURSE you, friend of person sky  PL
 "More to my point: fuck you, alien sympathizer!"
 
-LIte pi Ome li  NUme wo    Ewo    YAye la YIdu gu,
+LIte pi PO li  NUme wo    Ewo    YAye la YIdu go,
 way  of 0   for live after person sky  PL take one
 "Step zero in surviving an alien abduction"
 
-gun wun  gu  den      WAlo FIlo  LUkan DUnan GEfo  pi wan la,
+gun wun  go  pa       WAlo Alun  LUkan DUnan GEfo  pi wan la,
 is  that one at-least try  break head  moon  CURSE of it  PL
 "is at least trying to cave in their fucking moon heads"
 
-nin   wan la KObi gan  WIno  tun TEmu  SOti pi gu.
+nin   wan la KObi gan  WIno  tun KEmu  SOti pi go.
 while it  PL move with light to  place bed  of one
 "while they're beaming into your bedroom."
 ```
@@ -49,7 +49,7 @@ while it  PL move with light to  place bed  of one
 
 ## What the translation says that the English doesn't
 
-- **Two different "you"s.** The English uses "you" for the person being insulted ("fuck you") and also for anyone at all ("your daughter", "your bedroom"). The translation must choose: **me** is the listener, **gu** is anyone.
+- **Two different "you"s.** The English uses "you" for the person being insulted ("fuck you") and also for anyone at all ("your daughter", "your bedroom"). The translation must choose: **me** is the listener, **go** is anyone.
 - **The tone.** "san san." at the start marks the whole turn as a bit, so a reader can't take the call for violence literally.
 - **"I think" is opinion, not probability.** It's the verb *think* (**PUme**), not the confidence particle. The confidence particle is for chance of truth, and "is a good idea" isn't that kind of claim.
 
@@ -62,8 +62,8 @@ while it  PL move with light to  place bed  of one
 
 | # | Finding | Fix | Status |
 |---|---|---|---|
-| 1 | No way to say generic "you" / "one" | GENERIC pronoun **gu** | adopted |
-| 2 | No "pretty/fairly", "only", "at least" | **to** RATHER, **na** ONLY, **den** AT.LEAST; they scope over what follows, like all operators | adopted |
+| 1 | No way to say generic "you" / "one" | GENERIC pronoun **go** | adopted |
+| 2 | No "pretty/fairly", "only", "at least" | **to** RATHER, **na** ONLY, **pa** AT.LEAST; they scope over what follows, like all operators | adopted |
 | 3 | No "while" | **nin** WHILE | adopted |
 | 4 | No exclamations, insults or swearing | **ba** EXCLAIM speech act; one all-purpose curse root **gefo**, made with no l/w/y (swear words across languages tend to avoid these sounds: Lev-Ari & McKay 2023, from memory, to verify) | adopted |
 | 5 | Tone needs to cover more than one sentence | **a a** covers the speaker's whole turn (revised in 002; first a standalone **a.**). It ends with the turn, so no closing marker can go missing. | adopted |

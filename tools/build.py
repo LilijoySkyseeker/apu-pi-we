@@ -480,5 +480,108 @@ def numbers2(steps=300000, seed=11):
         print(f"{r['value']:>5}  {r['long']:<7} {r['short']}")
 
 
+# ---------------------------------------------------------------- numbers v3: base 6 (2026-10-08)
+NUMBER_WORDS = ["6", "36", "216", "6^4", "6^8", "6^12", "POINT", "MINUS"]
+
+
+def numbers3(seed=21):
+    """Base-6 numerals. Digits 0-5: one stressed open syllable each, no other form.
+    Place words 6, 36, 216, group words 6^4, 6^8, 6^12, and POINT and MINUS: two syllables.
+    Digits must not equal or nearly equal grammar words that can stand next to a number, and
+    a digit followed by such a grammar word (or another digit) must not sound like a content word."""
+    rx = __import__("re")
+    inv = Inventory([c for c in FULL if c != "z"])
+    grammar = read("grammar.tsv")
+    near = set(GROUPS_STRICT["det"].split() + GROUPS_STRICT["prep"].split() + GROUPS_STRICT["link"].split()
+               + GROUPS_STRICT["pred"].split() + GROUPS_STRICT["pron"].split() + ["UNSPEC", "CONF", "IT"])
+    gforms = {g["form"] for g in grammar}
+    near_forms = [g["form"] for g in grammar if g["gloss"] in near]
+    bad_keys = {inv.grammar_key(inv.idx[f]) for f in near_forms}
+    lex = [w for w in read("lexicon.tsv") if w["field"] != "number"]
+    split = lambda f: tuple(inv.idx[x] for x in rx.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", f))
+    content_keys = {inv.content_key(split(w["form"])) for w in lex}
+    near_syl = [(inv.idx[g["form"]], 10.0 if g["gloss"] == "NOT" else 1.0) for g in grammar if g["gloss"] in near]
+    devoice = {"b": "p", "d": "t", "g": "k"}
+    dkey = lambda i: devoice.get(inv.syl[i][0], inv.syl[i][0]) + {"e": "i", "o": "u"}.get(inv.syl[i][1], inv.syl[i][1])
+    cands = [i for i, x in enumerate(inv.syl) if x[0] != "" and x[2] == "" and inv.name[i] not in gforms
+             and inv.grammar_key(i) not in bad_keys]
+
+    def juncture_bad(sel):
+        bad = 0
+        for d in sel:
+            for f in near_forms + [inv.name[x] for x in sel]:
+                s2 = inv.idx[f]
+                if inv.syl[s2][0] != "" and inv.content_key((d, s2)) in content_keys:
+                    bad += 1
+        return bad
+
+    def cost(sel):
+        c = sum(inv.S[a, b] + inv.S[b, a] for i, a in enumerate(sel) for b in sel[i + 1:])
+        c += 10.0 * (len(sel) - len({dkey(a) for a in sel}))
+        c += 10.0 * (len(sel) - len({inv.syl[a][0] for a in sel}))  # different first consonants
+        for a in sel:
+            for u, w in near_syl:
+                c += w * (inv.S[a, u] + inv.S[u, a])
+        return c + 1.0 * juncture_bad(sel)
+
+    rng = random.Random(seed)
+    best, best_c = None, float("inf")
+    for restart in range(20):
+        sel = rng.sample(cands, 6)
+        cur = cost(sel)
+        for _ in range(4000):
+            k = rng.randrange(6); new = rng.choice(cands)
+            if new in sel:
+                continue
+            old = sel[k]; sel[k] = new
+            c = cost(sel)
+            if c <= cur:
+                cur = c
+            else:
+                sel[k] = old
+        if cur < best_c:
+            best, best_c = list(sel), cur
+    digits = best
+    print("juncture problems in digits:", juncture_bad(digits))
+
+    # two-syllable number words
+    taken = set(content_keys) | {inv.content_key((a, b)) for a in digits for b in digits}
+    other2 = np.array([split(w["form"]) for w in lex if len(split(w["form"])) == 2])
+    open_syl = [i for i, x in enumerate(inv.syl) if x[2] == ""]
+    pool = [(a, b) for a in open_syl for b in open_syl if inv.syl[b][0] != "" and inv.content_key((a, b)) not in taken
+            and a not in digits]
+    n = len(NUMBER_WORDS)
+    assign = rng.sample(range(len(pool)), n)
+
+    def wcost(i, k):
+        a, b = pool[k]
+        c = 10.0 * (inv.S[a, other2[:, 0]] * inv.S[b, other2[:, 1]] + inv.S[other2[:, 0], a] * inv.S[other2[:, 1], b]).sum()
+        for j in range(n):
+            if j != i:
+                x, y = pool[assign[j]]
+                c += 30.0 * (inv.S[a, x] * inv.S[b, y] + inv.S[x, a] * inv.S[y, b])
+                if inv.content_key((a, b)) == inv.content_key((x, y)):
+                    c += 1000
+        c += sum(3.0 * (inv.S[a, d] + inv.S[d, a]) for d in digits)  # first syllable unlike any digit
+        return c
+
+    for _ in range(60000):
+        i, k = rng.randrange(n), rng.randrange(len(pool))
+        if k in assign:
+            continue
+        if wcost(i, k) < wcost(i, assign[i]):
+            assign[i] = k
+    rows = [{"value": str(v), "kind": "digit", "form": inv.name[d]} for v, d in enumerate(digits)]
+    kinds = {"6": "place", "36": "place", "216": "place", "6^4": "group", "6^8": "group", "6^12": "group",
+             "POINT": "sign", "MINUS": "sign"}
+    for w, k in zip(NUMBER_WORDS, assign):
+        rows.append({"value": w, "kind": kinds[w], "form": inv.show(pool[k])})
+    write("numbers.tsv", rows, ["value", "kind", "form"])
+    lex += [{"gloss": r["value"], "field": "number", "tier": "3", "form": r["form"]} for r in rows if r["kind"] != "digit"]
+    write("lexicon.tsv", lex, ["gloss", "field", "tier", "form"])
+    for r in rows:
+        print(f"{r['value']:>6} {r['kind']:6} {r['form']}")
+
+
 if __name__ == "__main__":
-    {"scale": scale, "digits": digits, "build": build, "renumber": renumber, "numbers2": numbers2}[sys.argv[1]]()
+    {"scale": scale, "digits": digits, "build": build, "renumber": renumber, "numbers2": numbers2, "numbers3": numbers3}[sys.argv[1]]()

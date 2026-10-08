@@ -1,14 +1,15 @@
-value	long	short
-0	ome	o
-1	pumu	pu
-2	tiwe	ti
-3	kose	ko
-4	fidi	fi
-5	sage	sa
-6	bayi	ba
-7	dasa	da
-8	nobi	no
-9	yalu	ya
-10	lubu	
-100	gife	
-1000	mewu	
+value	kind	form
+0	digit	po
+1	digit	fi
+2	digit	sa
+3	digit	ka
+4	digit	da
+5	digit	te
+6	place	nobi
+36	place	miko
+216	place	niyu
+6^4	group	yiyo
+6^8	group	gife
+6^12	group	yuli
+POINT	sign	mimi
+MINUS	sign	guti

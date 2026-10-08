@@ -200,3 +200,13 @@ User chose option 3 for A3 (both forms), noting people will shorten numbers anyw
 ## Stress test 003 and back-translation test 02 (2026-10-08)
 
 Claude wrote an original passage (the user's supply of quotes ran out) aimed at emphasis, numbers, politeness, three-person reference and two undesigned probes. Blind result: content 80%, tone 97%, all pronouns right, contrasts understood with no focus device. Fixes: **bu** "it" for things; **yi** = next most recent different subject; speech tags don't count for tracking; time offsets name their unit and clock times are labels; if-clauses may precede the act particle; comparison (**ke … se**), "how much" (**WIfu yu**) and loanwords documented; numbers written with digits; roots hour, phone, car, card, bus, dollar (loan). Modern vocabulary is now the largest source of loss (roadmap B1).
+
+## Base 6; senary review; juncture fixes (2026-10-08)
+
+The user cloned an earlier project, senary (a base-6 measurement system designed "from first principles", the same intent as this language), and asked whether to combine. A subagent review (`research/notes/senary-review.md`) recommended borrowing ideas only, reading senary as worldbuilding with an opposite premise. The user clarified the shared intent, which exposed an inconsistency: this language voided legacy everywhere except the number base. The user chose premise 2 (legacy void).
+
+Three research passes (cognition, mathematics, typology) found no direct human evidence choosing among 6, 10 and 12. A transmission test with this language's own tools decided it: with one-syllable digits, base 6 is about 9× less likely than decimal to mishear a digit in a long number, despite 29% more digits. Decision record: `docs/number-base.md`. Changes:
+- Digits 0–5: **po fi sa ka da te**, one stressed syllable each, no long form. Place words 6 **NObi**, 36 **MIko**, 216 **NIyu**; groups 6⁴ **YIyo**, 6⁸ **GIfe**, 6¹² **YUli**; point **MImi**, minus **GUti**. Two readings (quantity; digit-by-digit in groups of four) from senary.
+- Confidence becomes sixths: **kon** + 0–6, seven levels (matches the ~7 usable bands for ordinary forecasters).
+- Juncture fixes (the senary review found them): no content word may begin with a digit syllable (10 content words moved); no two grammar words differ only by a final -n (10 grammar words moved). `tools/juncture.py` checks both and runs clean. Renames: `data/rename-base6-2026-10-08.tsv`.
+- Senary's digit sounds were not adopted: its one-vowel scheme tested ~400× more confusable.

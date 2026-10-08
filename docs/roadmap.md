@@ -70,3 +70,5 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
 A1 → A3 → A5 → A2 → A4 → A6 → A7, then B and C together. D runs alongside, whenever it's interesting.
 
 A1, A3 and A5 are cheap checks with the existing tools, and they test the sound system everything else sits on. A2 and A4 decide how the vocabulary grows. A6 and A7 are grammar additions best tested by targeted texts.
+- **Base reopened and decided (2026-10-08): base 6.** Premise 2 (legacy void) removed decimal's compatibility argument. Research plus a transmission test chose base 6; see `docs/number-base.md`. Digits are single one-syllable words; place and group words follow senary's 6⁴ grouping. A juncture check (`tools/juncture.py`, idea from the senary project) now runs clean.
+- **Senary merge, next:** bring in the measurement system's concepts (units on physical constants, scale words as unit multipliers, error-size principle, the two readings of a number), with words rebuilt under this language's rules.

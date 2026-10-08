@@ -25,10 +25,10 @@ def is_name(tok):
 
 
 def convert_token(tok):
-    m = re.fullmatch(r"([A-Za-z]+)(.*)", tok)
+    m = re.fullmatch(r"([^A-Za-z]*)([A-Za-z]+)(.*)", tok)
     if not m:
         return tok
-    word, rest = m.groups()
+    lead, word, rest = m.groups()
     low = word.lower()
     if low not in OLD:
         return tok
@@ -36,7 +36,7 @@ def convert_token(tok):
     if kind == "content":
         s = syllables(new)
         new = s[0].upper() + "".join(s[1:]) if word[:1].isupper() else new
-    return new + rest
+    return lead + new + rest
 
 
 def is_language(text):

@@ -43,10 +43,11 @@ def split(form):
 
 def add_grammar(gloss, cls, freq):
     grammar = read("grammar.tsv")
-    taken = {IDX[g["form"]] for g in grammar}
+    taken = {IDX[g["form"]] for g in grammar} | digit_syllables()
+    open_ = {(INV.syl[t][0], INV.syl[t][1]) for t in taken}  # no two grammar words differ only by final -n
     best, best_c = None, float("inf")
     for cand in range(len(SYL)):
-        if cand in taken:
+        if cand in taken or (INV.syl[cand][0], INV.syl[cand][1]) in open_:
             continue
         c = 0.0
         for g in grammar:
@@ -63,13 +64,22 @@ def add_grammar(gloss, cls, freq):
     print(f"{gloss} = {SYL[best]}  (cost {best_c:.4f})")
 
 
+def digit_syllables():
+    path = os.path.join(DATA, "numbers.tsv")
+    if not os.path.exists(path):
+        return set()
+    return {IDX[r["form"]] for r in read("numbers.tsv") if r["kind"] == "digit"}
+
+
 def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
     lexicon = read("lexicon.tsv")
-    content = list(range(len(SYL)))
+    digits = digit_syllables()  # no content word may begin with a digit (juncture safety)
+    content = [i for i in range(len(SYL)) if i not in digits]
     lexicon = [w for w in lexicon if w["gloss"] != gloss]
     if no_approximants:
         content = [i for i in content if INV.syl[i][0] not in APPROXIMANTS]
-    second = [i for i in content if INV.syl[i][0] != ""]
+    second = [i for i in range(len(SYL)) if INV.syl[i][0] != ""
+              and (not no_approximants or INV.syl[i][0] not in APPROXIMANTS)]
     taken = {INV.content_key(split(w["form"])) for w in lexicon}
     ex = np.array([split(w["form"]) for w in lexicon if len(split(w["form"])) == 2])
     ex_words = [w for w in lexicon if len(split(w["form"])) == 2]
@@ -110,10 +120,19 @@ if __name__ == "__main__":
     c = sub.add_parser("add-content"); c.add_argument("gloss"); c.add_argument("field"); c.add_argument("tier", type=int)
     c.add_argument("--antonym", action="append", default=[]); c.add_argument("--no-approximants", action="store_true")
     s = sub.add_parser("syllables"); s.add_argument("text")
+    m = sub.add_parser("move"); m.add_argument("glosses", nargs="+")
     a = p.parse_args()
     if a.cmd == "add-grammar":
         add_grammar(a.gloss, a.cls, a.freq)
     elif a.cmd == "add-content":
         add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants)
+    elif a.cmd == "move":  # re-place existing content words under the current rules
+        for gl in a.glosses:
+            w = next(x for x in read("lexicon.tsv") if x["gloss"] == gl)
+            ants = [l.split()[1] if l.split()[0] == gl else l.split()[0]
+                    for l in open(os.path.join(DATA, "antonyms.tsv")) if gl in l.split()]
+            old = w["form"]
+            add_content(gl, w["field"], int(w["tier"]), ())  # antonyms already recorded
+            print(f"  moved {gl}: {old}")
     else:
         print(syllables(a.text))

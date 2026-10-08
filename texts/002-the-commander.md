@@ -36,7 +36,7 @@ mon MUyi fa nin lon LUgo wan, Ewo WUNgu Agi FANse pi wan.
 at time none while I know her, commander lose calm of her
                                                      The commander had never lost her composure in the time I'd known her.
 
-SEpi      Eni   Obu  YObe tun DAbu  pi lon, ta  lon YONnu nen.
+SEpi      Eni   Obu  YObe tun FAde  pi lon, un  lon YONnu nen.
 apologize other come fast to  mouth of me,  but I   hold  self
                                                      Another apology rushed to my lips, but I held myself back.
 
@@ -52,10 +52,10 @@ I   make stop it(OBV) like what    How did I make it stop?
 ba      NOsen LUmi! Ewo       WUNgu Oyi  fu    DINbu.
 EXCLAIM god   fire  commander say   like snake "Godfire,"    the commander hissed.
 
-me  SAba PUme  nin    DIli DAsa, LIlifi.
+me  GOyu PUme  nin    DIli NObi FI, LIlifi.
 you sit  think during day  7     Lilith    "You meditated for a week, Lilith.
 
-pin me  le      SInun nin    MUyi MINwe?
+min me  le      SInun nin    MUyi MINwe?
 Q   you ONGOING dream during time whole    Were you daydreaming the whole time?"
 
 mu  SInun, lon—
@@ -72,16 +72,16 @@ and keep  thing small PL of self at  far    It was as if a switch flipped—all 
 
 BANga gun TApi  mon SUyon pi lon, lon KEya MUge Upe  tan,
 panic is  close at  belly of me,  I   must make good this,
-ta  lon gun ENpa MOti.
+un  lon gun ENpa MOti.
 but I   is  free again    The panic was locked in my stomach, I had to fix this, but I was free again.
 
-MIya BONko pi Ewo WUNgu LEwe SApo,
+MIya BONko pi Ewo WUNgu LEwe BEbu,
 look angry of commander become disgust,
-yen tan  MUge ke   KUdu BANga mon TEmu  Eni   pi SENmo DEgun in   man   KUwi yi se   LUgo pi lon.
+yen tan  MUge ke   KUdu BANga mon KEmu  Eni   pi SENmo DEgun in   man   KUwi yi se   LUgo pi lon.
 and this make more big  panic at  place other of wall  glass some which keep it from know of me
                                                      The commander's glare turned to disgust, which made the panic swell on the other side of whatever glass wall was keeping it from my consciousness.
 
-Ewo WUNgu, lon Oyi FANse, lon mu LUgo wun lon MUge yu, ta lon SEpi li wun lon YENwu me.
+Ewo WUNgu, lon Oyi FANse, lon mu LUgo wun lon MUge yu, un lon SEpi li wun lon YENwu me.
 commander, I say  calm, I not know that I do  what, but I apologize for that I offend you
                                                      "Commander," I spoke evenly, "I don't know what I did, but I apologize for offending you."
 
@@ -101,10 +101,10 @@ panic change bad,  while system of me  try  understand that what CURSE ONGOING h
 me  mu  MOmu gun TIwu  se   Eda, Ewo       WUNgu Oyi.
 you not want be  child from now, commander say   "You    don't want to be a child anymore," said the commander.
 
-gi      tan, ton      GItin MOle   yen WEde   pi me.
+gi      tan, tin      GItin MOle   yen WEde   pi me.
 because this INSTRUCT throw mother and father of you    "So get rid of your parents.
 
-yi        la    TOfo me, pin?
+yi        la    TOfo me, min?
 they(OBV) teach you, Q   It    was them, wasn't it?"
 ```
 
@@ -133,17 +133,17 @@ they(OBV) teach you, Q   It    was them, wasn't it?"
 |---|---|---|---|
 | 1 | Where do question words go? | In place (**me MOmu wun lon Oyi yu?** "you want me to say what?"). Moving them to the front would break "role from position", the noise-robustness argument for SVO. | adopted |
 | 2 | Indirect questions ("I don't know what I did") | **yu** inside a **wun** clause is an indirect question | adopted |
-| 3 | Tag questions ("It was them, wasn't it?") | A clause-final **pin** = "right?" A clause-initial **pin** stays an open question. | adopted |
+| 3 | Tag questions ("It was them, wasn't it?") | A clause-final **min** = "right?" A clause-initial **min** stays an open question. | adopted |
 | 4 | "Standalone **a.**" relied on hearing a pause, which is fragile | **a** = this sentence; **a a** = the whole turn. Doubling widens or strengthens, as with **yo yo**. | adopted, 001 updated |
-| 5 | "seven days" or "the seventh day"? **DIli DAsa** was both | Noun + number = count (**DIli DAsa** seven days). Noun + **pi** + number = label or order (**LIte pi Ome** step zero). | adopted, 001 updated |
+| 5 | "seven days" or "the seventh day"? The phrase for "day seven" was both | Noun + number = count (**DIli NObi FI** seven days, 6 + 1 in base 6). Noun + **pi** + number = label or order (**LIte pi PO** step zero). | adopted, 001 updated |
 | 6 | "You offended [whoever taught you that panic] angry": a relative clause has no end marker, so anything after it gets swallowed | Causative order is **MUge** + result + object: **MUge BONko me** "make angry you". Heavy phrases go last. | adopted |
 | 7 | Passive / resulting state ("was locked") | **gun** + verb = the resulting state: **gun TApi** "is closed" | adopted |
 | 8 | **MOle WEde** would mean "a fatherly mother" | Noun + noun is always modifier; coordinate with **yen**: **MOle yen WEde** parents | adopted |
-| 9 | Dropped subjects | Allowed only for the same subject after **yen** / **ta**, and for the addressee of an instruction or request | adopted |
+| 9 | Dropped subjects | Allowed only for the same subject after **yen** / **un**, and for the addressee of an instruction or request | adopted |
 | 10 | "So …" | **gi tan** "because this". No new word. | adopted |
 | 11 | "So, get rid of…": a linker before the speech-act particle | A linker to the previous sentence may come first | adopted |
 | 12 | Duration ("for a week") | **nin** + noun phrase = during | adopted |
 | 13 | A verb after a preposition ("from retreating") | It names the act: **se KUsa** | adopted |
 | 14 | Names with foreign sounds ("Lilith") | A foreign sound maps to the native sound listeners most often hear it as (Miller & Nicely: th → f). A final consonant gets an echo vowel. Lilith → **LIlifi**. | adopted |
-| 15 | Two content verbs in a row ("meditate" = **SAba PUme**) | Already covered: any content word can modify the one before it ("sit thinking") | observation |
+| 15 | Two content verbs in a row ("meditate" = **GOyu PUme**) | Already covered: any content word can modify the one before it ("sit thinking") | observation |
 | 16 | Metaphors (face darkened, froze, glass wall) | Translated literally. Whether they land is culture, not grammar. | observation |
