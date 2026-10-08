@@ -181,3 +181,14 @@ The user asked for the long-term sub-goals before going further, in case any wou
 ## Drift research; stress challenged (2026-10-08)
 
 The user challenged fixed stress and asked that natural evolution be weighed heavily and pre-empted. Three research passes: stress and sound change, grammaticalization and drift, designed languages that went native (`research/notes/`). Synthesis in `docs/drift.md`. Proposals awaiting the user: keep initial stress but realize it as pitch; drift-aware word scoring; consonant-distinct grammar words; computable lu/tan rule; politeness outlet; consider deleting /v/.
+
+## Drift-proofing applied; all words rebuilt (2026-10-08)
+
+User approved all six proposals. Done:
+- **Stress** is a pitch movement at the start of the first syllable, with no lengthening; the rhythm is syllable-timed with full vowels everywhere.
+- **Inventory:** /v/ deleted (rare, confusable with /b/, merges with /w/). /z/ deleted after the scale check (A1) showed it bought under 1% length and 4% confusion at 3,000 roots. 13 consonants remain: p b t d k g m n f s l w y.
+- **Drift-aware rebuild** (`tools/build.py`): all grammar and content words reassigned. Content words must stay distinct after predicted drift (later e/i and o/u merge, middle p/t/k voice, later -n lost, s/z merge). Grammar words that share a slot start with different consonants; words in the same wider position stay distinct after drift. Numbers re-placed as two open syllables. Old-to-new map: `data/rename-2026-10-08.tsv`. Texts and docs converted with `tools/convert.py`.
+- **wan/yi** (formerly lu/tan): **wan** = the most recent person or animal that was a subject; **yi** = any other third person or thing. Plain "most recent subject" failed on text 002 ("her face darkened" made the face the referent), so animacy was added; obviation in Algonquian is also about animates.
+- **Politeness particle ku** with no truth meaning. New principle 6: every social pressure gets its own outlet (emphasis: **ba**, **bi**, doubling; politeness: **ku**; negation renewal: **mu mu**).
+- `words.py` moved onto the new inventory and drift rules.
+- A3 (digit length) has data but no decision yet; see roadmap.

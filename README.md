@@ -13,7 +13,7 @@ The language has no name yet.
 - [research/](research/): evidence. `where-communication-fails.md` is the main report; `notes/` holds the raw research notes behind it and later rounds.
 - [data/](data/): `grammar.tsv` (grammar words), `lexicon.tsv` (roots and numbers), `antonyms.tsv`.
 - [texts/](texts/): stress-test translations, each with findings.
-- [tools/](tools/): `confusion.py` (mishearing model built on Miller & Nicely 1955), `words.py` (add words without moving existing ones; count syllables), `lexicon.py` (the historical v0 generator).
+- [tools/](tools/): `confusion.py` (mishearing model built on Miller & Nicely 1955), `build.py` (drift-aware rebuild of all words; scale and digit checks), `words.py` (add words without moving existing ones; count syllables), `convert.py` (carry texts over to renamed words), `lexicon.py` (the historical v0 generator).
 
 ## Tools
 
@@ -21,4 +21,4 @@ The tools need Python with numpy. On NixOS:
 
     cd tools
     nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py add-content river field 2'
-    nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py syllables "yun vun Aza BOzen NOwi"'
+    nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py syllables "pin me NAgu DINbu LUmi"'

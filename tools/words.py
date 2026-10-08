@@ -1,7 +1,9 @@
 """Add words to the language without disturbing existing ones, and measure texts.
 
 Grammar words and content words may share syllables (the old partition was dropped
-2026-10-08); stress marks where content words begin.
+2026-10-08); stress marks where content words begin. New content words must stay distinct
+from every existing word after predicted drift (see build.py and docs/drift.md).
+Note: add-grammar does not check the same-slot consonant rule; rebuild with build.py for that.
 
 data/grammar.tsv and data/lexicon.tsv are the source of truth. Existing words never
 move: in a living language, words are stable. New words take the best free form.
@@ -12,15 +14,11 @@ move: in a living language, words are stable. New words take the best free form.
 """
 import argparse, csv, os, re
 import numpy as np
-from confusion import CP, VP, CODA_MISS, SYLLABLES, syl_str
+from build import Inventory, FULL, TIER_FREQ, EFFORT
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
-SYL = [syl_str(s) for s in SYLLABLES]
-IDX = {s: i for i, s in enumerate(SYL)}
-S = np.array([[CP[a[0], b[0]] * VP[a[1], b[1]] * ((1 - CODA_MISS) if a[2] == b[2] else CODA_MISS)
-               for b in SYLLABLES] for a in SYLLABLES])  # S[i, j] = P(hear j | said i)
-TIER_FREQ = {5: 10, 4: 5, 3: 2.5, 2: 1.2, 1: 0.6}
-EFFORT = 0.02
+INV = Inventory([c for c in FULL if c != "z"])  # 13 consonants since 2026-10-08
+SYL, IDX, S = INV.name, INV.idx, INV.S
 APPROXIMANTS = {"l", "w", "j"}
 
 
@@ -57,7 +55,7 @@ def add_grammar(gloss, cls, freq):
             if g["gloss"] == "NOT":
                 w = 10.0
             c += w * (freq * S[cand, u] + float(g["freq"]) * S[u, cand])
-        c += EFFORT * freq * 0.4 * bool(SYLLABLES[cand][2])
+        c += EFFORT * freq * 0.4 * bool(INV.syl[cand][2])
         if c < best_c:
             best, best_c = cand, c
     grammar.append({"gloss": gloss, "class": cls, "freq": freq, "form": SYL[best]})
@@ -68,10 +66,11 @@ def add_grammar(gloss, cls, freq):
 def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
     lexicon = read("lexicon.tsv")
     content = list(range(len(SYL)))
+    lexicon = [w for w in lexicon if w["gloss"] != gloss]
     if no_approximants:
-        content = [i for i in content if SYLLABLES[i][0] not in APPROXIMANTS]
-    second = [i for i in content if SYLLABLES[i][0] != ""]
-    taken = {w["form"] for w in lexicon}
+        content = [i for i in content if INV.syl[i][0] not in APPROXIMANTS]
+    second = [i for i in content if INV.syl[i][0] != ""]
+    taken = {INV.content_key(split(w["form"])) for w in lexicon}
     ex = np.array([split(w["form"]) for w in lexicon if len(split(w["form"])) == 2])
     ex_words = [w for w in lexicon if len(split(w["form"])) == 2]
     weight = np.array([30.0 if w["gloss"] in antonyms else
@@ -83,13 +82,12 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
     for a in content:
         for b in second:
             form = SYL[a] + SYL[b]
-            if form in taken:
+            if INV.content_key((a, b)) in taken:
                 continue
             p_out = S[a, ex[:, 0]] * S[b, ex[:, 1]]
             p_in = S[ex[:, 0], a] * S[ex[:, 1], b]
             c = (weight * (f * p_out + efreq * p_in)).sum()
-            c += EFFORT * f * (0.4 * bool(SYLLABLES[a][2]) + 0.4 * bool(SYLLABLES[b][2])
-                               - 0.1 * (SYLLABLES[a][0] == ""))
+            c += EFFORT * f * (INV.length((a, b)) - 2.0)
             if c < best_c:
                 best, best_c = form, c
     lexicon.append({"gloss": gloss, "field": field, "tier": tier, "form": best})

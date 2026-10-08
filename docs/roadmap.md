@@ -58,6 +58,13 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
 - **D2. Dialects.** Eight billion speakers would split into dialects. What in the design slows divergence?
 - **D3. Acquisition.** Are any features unlearnable for children? Obviation, logophors and numeric confidence are learned late, but late isn't never.
 
+## Progress
+
+- **A1 done (2026-10-08).** At 3,000 synthetic roots under the drift rules, about 71% of roots (the rare ones) take three syllables, and the frequency-weighted average is 2.48 syllables per root. Dropping /z/ changed that by under 1% and confusion by 4%, so /z/ was deleted along with /v/. The sound system can carry a natural-size core vocabulary.
+- **A3 data in, decision open.** In the model, the best one-syllable digits are misheard as another digit about 0.06% of the time, against near 0% for two-syllable digits, and they halve number length. But the model doesn't simulate a noise burst wiping out a whole syllable, which is exactly why the ICAO alphabet's one-syllable words failed in field tests. Options: keep two syllables; switch to one; or have both, with a short form for running speech and a long form for context-free numbers (as English has "oh" and "zero").
+- **A5 partly done.** Stress is now a pitch movement, the rhythm is syllable-timed with full vowels, and the vocabulary is drift-proofed. Focus/emphasis is still open: test it in the next back-translation before adding anything.
+- **A6 started.** Politeness particle **ku** adopted (outlet principle). Address terms and honorific levels are still undesigned.
+
 ## Recommended order
 
 A1 → A3 → A5 → A2 → A4 → A6 → A7, then B and C together. D runs alongside, whenever it's interesting.
