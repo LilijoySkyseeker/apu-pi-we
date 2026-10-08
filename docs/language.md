@@ -11,7 +11,7 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 Most of the grammar follows from these. The rules after them are the cases the principles don't cover.
 
 1. **The common case costs nothing.** Statements, ordinary belief, unknown source, the main character, and present-or-unspecified time are all unmarked. Only departures from the default cost a word. Frequent meanings get the shortest words.
-2. **Heads come first, and position carries role.** The order is subject, verb, object. Anything that modifies a word follows it: adjectives after nouns, verbs after nouns (**Ewo YAye INwa** "intruding alien"), one verb after another (**GOyu PUme** "sit thinking" = meditate), noun after noun (**DINbu LUmi** "snake fire" = dragon). Nothing moves, not even question words, so a listener who loses one word can still tell who did what.
+2. **Heads come first, and position carries role.** The order is subject, verb, object. Anything that modifies a word follows it: adjectives after nouns, verbs after nouns (**Ewo NIba** "walking person"), one verb after another (**GOyu PUme** "sit thinking" = meditate), noun after noun (**DINbu LUmi** "snake fire" = dragon). Nothing moves, not even question words, so a listener who loses one word can still tell who did what.
 3. **Operators cover what follows them.** The speech-act particle at the start covers the sentence. NOT, confidence, source, ONLY, AT LEAST and degree words cover the clause when they start it, or a single word when placed before it.
 4. **Heavy goes last.** A noun's own modifiers come before its "of" phrase (**LUgo to MEli pi KIma** "rather little knowledge of sticks"). In a causative, the result comes before the object (**MUge BONko me** "make angry you"). Long clauses go to the end of the sentence ("there's a good idea: that one hits…"). Relative clauses have no end marker, so nothing may follow them in their phrase.
 5. **Doubling widens or strengthens.** **yo yo** = emergency. **a** = this sentence is not literal; **a a** = the whole turn. **mu mu** = emphatic NOT. **ku ku** = extra deference.
@@ -42,6 +42,30 @@ Most of the grammar follows from these. The rules after them are the cases the p
 - **The curse word GEfo** fits any content-word slot: a verb (**ba GEfo me** "fuck you"), a modifier (**LUkan GEfo** "fucking head"), or after **yu** (**yu GEfo** "what the fuck").
 - **Loanwords** are adapted the same way as names and listed in the lexicon with field "loan": dollar → **DOla**.
 - **Names** are adapted: a foreign sound becomes the native sound listeners most often hear it as (th → f, per Miller & Nicely 1955), and a final consonant gets an echo vowel. Lilith → **LIlifi**.
+
+## Word building
+
+Four markers turn a verb, or a verb phrase, into a noun that names a role in the action. A marker comes first, like any head. (A blind A/B test decoded these about as well as generic heads like "person teach": 71/76 vs 69/76. They are kept because they are shorter, and because generic heads would erode into exactly such markers anyway; see .)
+
+| Marker | Role | Example |
+|---|---|---|
+| **no** | the one who does it | **no FEbo** "one who answers" |
+| **ge** | the thing it's done to, or what it makes | **ge Iko** "what is told" = news, a report |
+| **du** | the thing used to do it | **du BUbo** "thing for laughing" = a joke |
+| **pu** | the place where it's done | **pu NIba** "place for walking" = a path |
+
+- **A person it's done to** uses the plain construction **Ewo gun** + verb, "person who is …ed": **Ewo gun TOfo** = student. In the test, **ge** for people was read as a thing ("lesson" for student), and the one-syllable grammar space is full, so there is no separate person marker.
+- **The base can be a whole verb phrase:** **no Isi se GUyi** "one who goes from home" = traveller.
+- **With a noun base, state the relation with a relation word:** **MUsu se YAye** "thing from the sky" = meteorite; **pu pi MAbo** "place of paper" = an office. The blind test showed that a bare noun + noun leaves the relation to guesswork, so it's used only for established compounds (`data/compounds.tsv`).
+- **No markers are needed for:**
+  - action and quality nouns: word position already does it;
+  - opposites: **mu**;
+  - causatives: **MUge**;
+  - small and big: **KUdu** etc.;
+  - gender: a modifier.
+
+  Add a marker only if a test shows one of these failing.
+- **Derived words that get frequent may be clipped into new two-syllable roots,** as drift predicts. When that happens, assign the clipped form with the optimizer.
 
 ## Rules the principles don't cover
 

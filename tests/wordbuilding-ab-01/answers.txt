@@ -1,0 +1,38 @@
+W1. telescope  | A: du NAgu LIni | B: MUsu NAgu LIni
+W2. refrigerator  | A: du WEki | B: MUsu WEki
+W3. heater  | A: du TIkun | B: MUsu TIkun
+W4. a piece of writing, text  | A: ge TUsi | B: MUsu gun TUsi
+W5. alien  | A: Ewo se YAye | B: Ewo YAye
+W6. pen  | A: du TUsi | B: MUsu TUsi
+W7. temple  | A: pu pi NOsen | B: KEmu NOsen
+W8. library  | A: pu LIlu | B: KEmu LIlu
+W9. factory, workshop  | A: pu SElo | B: KEmu SElo
+W10. message  | A: ge Oyi | B: MUsu gun Oyi
+W11. astronaut  | A: no Isi tun YAye | B: Ewo Isi tun YAye
+W12. writer  | A: no TUsi | B: Ewo TUsi
+W13. student  | A: ge TOfo | B: Ewo gun TOfo
+W14. kitchen  | A: pu SIten | B: KEmu SIten
+W15. toy  | A: du LUse | B: MUsu LUse
+W16. key  | A: du BENbi | B: MUsu BENbi
+W17. singer  | A: no YUyun | B: Ewo YUyun
+W18. market, shop  | A: pu BIka | B: KEmu BIka
+W19. farmer  | A: no GUge PINfe | B: Ewo GUge PINfe
+W20. gift  | A: ge NEke | B: MUsu gun NEke
+W21. school  | A: pu YEsa | B: KEmu YEsa
+W22. victim (one killed)  | A: ge Omen | B: Ewo gun Omen
+W23. cook (the person)  | A: no SIten | B: Ewo SIten
+W24. leader  | A: no WUNgu | B: Ewo WUNgu
+W25. vehicle  | A: du KObi | B: MUsu KObi
+W26. hospital  | A: pu YEma SImi | B: KEmu YEma SImi
+W27. restaurant  | A: pu NAwi | B: KEmu NAwi
+W28. product  | A: ge MUge | B: MUsu gun MUge
+W29. a building  | A: ge SElo | B: MUsu gun SElo
+W30. teacher  | A: no TOfo | B: Ewo TOfo
+W31. worker  | A: no DOku | B: Ewo DOku
+W32. seller, merchant  | A: no KOda | B: Ewo KOda
+W33. guard  | A: no YONnu | B: Ewo YONnu
+W34. bedroom  | A: pu WOpo | B: KEmu WOpo
+W35. clock  | A: du LUgo MUyi | B: MUsu LUgo MUyi
+W36. builder  | A: no SElo | B: Ewo SElo
+W37. knife  | A: du FONsu | B: MUsu FONsu
+W38. prisoner  | A: ge YONnu | B: Ewo gun YONnu

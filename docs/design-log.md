@@ -218,3 +218,7 @@ The user chose to carry senary's system over as is and to keep the repos separat
 - Scale words are number words (6⁴ **YIyo** … and new fractional groups 6⁻⁴ **KUfe**, 6⁻⁸ **BAfo**, plus **Unun** "power"); up/down pairs weighted as antonyms (error-size principle).
 - Time of day = fraction of the day, digit-read (15:00 = .343). "hour" re-glossed as **Aya** "watch" = 6⁶ NAne = a sixth of a day.
 - Open: week and month names.
+
+## Word building (A2) (2026-10-08)
+
+Research (`research/notes/word-formation.md`): agent, action, result, place and instrument derivations are the most widespread; analytic languages grow a few near-grammatical heads; the opacity of "person sky" came from the missing relation, not the generic head. Design: four markers before a verb base: **no** doer, **ge** result/thing done-to, **du** tool, **pu** place. Noun bases must state their relation with a relation word. Blind A/B test (`tests/wordbuilding-ab-01/`): markers 71/76 vs generic heads 69/76, no real decoding difference. Kept for length and drift; **ge** narrowed to things after it misread "student" as "lesson"; persons acted on use **Ewo gun** + verb. The one-syllable grammar space is now full (69 of 70 slots), so future grammar words must be two syllables or compositional.

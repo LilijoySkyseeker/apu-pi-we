@@ -58,3 +58,7 @@ EXCLAIM	act	1.5	ba
 SELF	pron	3.0	nen
 POLITE	act	3	ku
 IT	pron	5	bu
+AGENT	deriv	4	no
+RESULT	deriv	2	ge
+TOOL	deriv	3	du
+PLACE	deriv	3	pu

@@ -172,11 +172,13 @@ GROUPS_STRICT = {  # same slot: first consonant must differ
     "det": "PLURAL THIS THAT.dem ALL SOME PART NONE WH",
     "prep": "OF AT TO FROM WITH FOR BEFORE AFTER LIKE WHILE",
     "link": "AND OR BUT IF BECAUSE THAT.comp WHO.rel WHILE",
+    "deriv": "AGENT RESULT TOOL PLACE",
 }
 GROUPS_WIDE = {  # same wider position: must stay distinct after drift
     "start": "act link",
     "pre": "pred stance",
     "postnoun": "det prep",
+    "npstart": "pron deriv",
 }
 
 
