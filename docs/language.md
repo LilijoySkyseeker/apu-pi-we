@@ -28,7 +28,7 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 1. **Word shape tells category.** Grammar words have one syllable; content words two or more. Every meaning is a separate unchanging word: no endings, no agreement, no case.
 2. **Order:** [speech act] subject verb object. Modifiers follow what they modify. A noun's own modifiers come before its "of" phrase (**Ozi ban Owu on FEbu** "rather little knowledge of sticks").
 3. **Operators cover what follows them.** NOT, confidence, source, ONLY, AT.LEAST: at the start of a clause they cover the clause; before a word, that word.
-4. **Speech act first.** Statements are unmarked. Others open with a particle. **ze ze** = emergency. A standalone **san.** marks the speaker's whole turn as not literal.
+4. **Speech act first.** Statements are unmarked. Others open with a particle; only a linker to the previous sentence may come before it (**win va, gon …** "so, do …"). Doubling widens or strengthens: **ze ze** = emergency; **san** = this sentence is not literal, **san san** = the whole turn. A clause-final **yun** is a tag ("…, right?").
 5. **Confidence is a number:** **mon** + digit = chance in 10 that the statement is true (**mon Ayon** = 7 in 10). Second digit for extremes (**mon ENge NEnon** = 95%). **mon wan** = "don't know how sure". Unmarked = ordinary belief. Sign: digit held on the non-dominant hand during the clause.
 6. **Source is optional:** **kin** seen, **sun** told, **ven** inferred.
 7. **Answers echo the verb**, there are no words for yes and no: "Aren't you coming?" → **Ime** "coming" / **na Ime** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **zin** + verb = will do.
@@ -42,8 +42,16 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 10. **Verbs can modify nouns** directly: **NIte TAlan YUyu** "intruding alien".
 11. **A prepositional phrase attaches to its clause's main verb**, never to a modifier.
 12. **Time:** tense optional. Aspect particles **fa** done, **gi** ongoing, **yan** about to. Time words name an anchor plus an offset; no "move forward" metaphors. Roots: **zume** today, **ili** tomorrow, **zafo** yesterday.
-13. **Compounds** are ordinary head-first phrases that stuck: **BOzen NOwi** "snake fire" = dragon.
-14. **Numbers** are base 10, fully regular ("ten one" = 11), each two syllables.
+13. **Compounds** are ordinary head-first phrases that stuck: **BOzen NOwi** "snake fire" = dragon. Noun + noun is always head + modifier; to list nouns, use **gu**: **KOnu gu VUge** "mother and father".
+14. **Numbers** are base 10, fully regular ("ten one" = 11), each two syllables. Noun + number = count (**ONo AYon** "seven days"); noun + **on** + number = label or order (**PEpa on DONma** "step zero").
+15. **Questions:** question words stay in place, so roles stay readable from position: **vun ZIzi yo e GAka mi?** "you want me to say what?". They compose: **mi** what, **NIte mi** who, **win mi** why, **wo mi** how. **mi** inside a **yo** clause is an indirect question ("I don't know what I did").
+16. **Causative:** **Avu** + result + object: **Avu OPun vun** "make you angry", **Avu Itu va** "fix this". The result comes first so a heavy object can go last; relative clauses have no end marker, so heavy phrases always go last.
+17. **la + verb** = the resulting state: **la FEson** "is closed".
+18. **Dropped subjects** only for the same subject after **gu** / **fen**, and for the addressee of an instruction or request.
+19. **Reflexive** = the same pronoun again: **e SIdo e** "I held myself back"; with obviation, a repeated **lu** or **tan** is always the same one.
+20. **zan** + noun phrase = during (**zan ONo AYon** "for seven days"). A verb after a preposition names the act (**gen FOta** "from leaving"). "So" = **win va** "because this".
+21. **Names** are adapted: a foreign sound becomes the native sound listeners most often hear it as (th → f, per Miller & Nicely), and a final consonant gets an echo vowel. Lilith → **LIlifi**.
+22. **Direct quotes** are framed by a say-verb; there is no quote particle.
 
 ## Grammar words
 
@@ -65,7 +73,7 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv): 266 roots plus numbers, with semantic field and frequency tier. Add words with `tools/words.py`; existing words never move.
+[../data/lexicon.tsv](../data/lexicon.tsv): 279 roots plus numbers, with semantic field and frequency tier. Add words with `tools/words.py`; existing words never move.
 
 ## Open questions
 

@@ -143,3 +143,13 @@ The project moved out of the Obsidian vault into this repo. `docs/language.md` i
 - Stress test 001 (`texts/001-alien-stick.md`, a profane rant about hitting aliens with sticks): 131 syllables vs ~113 English; about equal speaking time given simpler syllables. Compounds covered every missing concept.
 - Adopted from it: generic pronoun **pen**; **ban** rather, **bin** only, **wun** at least; **zan** while; **dun** exclaim plus one curse root **fezi**; standalone **san.** covers a whole turn; prepositional phrases attach to the main verb; a noun's modifiers precede its "of" phrase; verbs can modify nouns; roots for today/tomorrow/yesterday.
 - Open: only 4 free grammar syllables remain.
+
+## Stress test 002: the commander (2026-10-08)
+
+Fiction excerpt with dialogue and inner states (`texts/002-the-commander.md`). 414 syllables vs ~337 English (+23%); about equal speaking time. Extra length comes from **on e** "my", the compound **NIte GOni** "commander", and explicit **Avu**; frequent compounds would clip into roots in real use, so no fix.
+
+Worked: obviation replaced English's she/it animacy split; echo answers; reflexive = repeated pronoun; compositional question words; an in-world oath (**dun VOnnu NOwi** "Godfire") grew from the curse system.
+
+Adopted: question words in place; **mi** in a **yo** clause = indirect question; clause-final **yun** = tag; **san** = sentence, **san san** = turn (replacing the pause-based standalone **san.**); noun + number = count, noun + **on** + number = label; causative **Avu** + result + object (relative clauses have no end marker, so heavy phrases go last); **la** + verb = resulting state; noun + noun is modifier, coordinate with **gu**; dropped subjects only for same-subject continuation and addressees; linkers may precede the act particle; **zan** + NP = during; name adaptation by confusion data (Lilith → **LIlifi**). Text 001 updated to the revised rules. 13 new roots, no new grammar words.
+
+The user can only supply English texts. Claude will add tests built around things English expresses badly (evidentiality, inclusive/exclusive "we", confidence, reported speech) so the tests don't only probe English's quirks.

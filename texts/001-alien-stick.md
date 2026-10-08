@@ -9,8 +9,8 @@ Capitals mark the stressed syllable (see "Writing" in docs/language.md). Normal 
 ## Translation
 
 ```
-san.
-NONLITERAL
+san san.
+NONLITERAL NONLITERAL
 (This whole turn is a bit.)
 
 e   GAka BUdu:
@@ -29,8 +29,8 @@ u    FOve      men MEni on e:  dun     FEzi  vun, MOpu   on NIte   TAlan in!
 more important for idea of me: EXCLAIM CURSE you, friend of person sky   PL
 "More to my point: fuck you, alien sympathizer!"
 
-PEpa DONma men BIve tun   NIte   TAlan in WIye pen,
-way  0     for live after person sky   PL take one
+PEpa on DONma men BIve tun   NIte   TAlan in WIye pen,
+way  of 0     for live after person sky   PL take one
 "Step zero in surviving an alien abduction"
 
 la yo   pen wun      NOnu LANpu PIbi YEta FEzi  on lu in,
@@ -50,7 +50,7 @@ while it PL move with light to place bed   of one
 ## What the translation says that the English doesn't
 
 - **Two different "you"s.** The English uses "you" for the person being insulted ("fuck you") and also for anyone at all ("your daughter", "your bedroom"). The translation must choose: **vun** is the listener, **pen** is anyone.
-- **The tone.** "san." at the start marks the whole turn as a bit, so a reader can't take the call for violence literally.
+- **The tone.** "san san." at the start marks the whole turn as a bit, so a reader can't take the call for violence literally.
 - **"I think" is opinion, not probability.** It's the verb *think* (**Ife**), not the confidence particle. The confidence particle is for chance of truth, and "is a good idea" isn't that kind of claim.
 
 ## What got lost
@@ -66,7 +66,7 @@ while it PL move with light to place bed   of one
 | 2 | No "pretty/fairly", "only", "at least" | **ban** RATHER, **bin** ONLY, **wun** AT.LEAST; they scope over what follows, like all operators | adopted |
 | 3 | No "while" | **zan** WHILE | adopted |
 | 4 | No exclamations, insults or swearing | **dun** EXCLAIM speech act; one all-purpose curse root **fezi**, made with no l/w/y (swear words across languages tend to avoid these sounds: Lev-Ari & McKay 2023, from memory, to verify) | adopted |
-| 5 | Tone needs to cover more than one sentence | A standalone **san.** covers the speaker's whole turn. It ends with the turn, so no closing marker can go missing. | adopted |
+| 5 | Tone needs to cover more than one sentence | **san san** covers the speaker's whole turn (revised in 002; first a standalone **san.**). It ends with the turn, so no closing marker can go missing. | adopted |
 | 6 | "alien entering with a stick" or "hit with a stick"? | A prepositional phrase attaches to its clause's main verb, never to a modifier | adopted |
 | 7 | "knowledge of [small stick]" or "[small knowledge] of stick"? | A noun's own modifiers come before its "of" phrase: **Ozi ban Owu on FEbu** | adopted |
 | 8 | "Intruder" without a relative clause | Verbs can modify nouns directly: **NIte TAlan YUyu** "intruding alien" | adopted |
