@@ -29,8 +29,8 @@ ke   BAwe      li  GAson pi lon: ba      GEfo  me,  SOnu   pi Ewo    YAye la!
 more important for idea  of me:  EXCLAIM CURSE you, friend of person sky  PL
 "More to my point: fuck you, alien sympathizer!"
 
-LIte pi WIfu li  NUme wo    Ewo    YAye la YIdu gu,
-way  of 0    for live after person sky  PL take one
+LIte pi Ome li  NUme wo    Ewo    YAye la YIdu gu,
+way  of 0   for live after person sky  PL take one
 "Step zero in surviving an alien abduction"
 
 gun wun  gu  den      WAlo FIlo  LUkan DUnan GEfo  pi wan la,

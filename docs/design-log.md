@@ -192,3 +192,7 @@ User approved all six proposals. Done:
 - **Politeness particle ku** with no truth meaning. New principle 6: every social pressure gets its own outlet (emphasis: **ba**, **bi**, doubling; politeness: **ku**; negation renewal: **mu mu**).
 - `words.py` moved onto the new inventory and drift rules.
 - A3 (digit length) has data but no decision yet; see roadmap.
+
+## Numbers: long and short forms (2026-10-08)
+
+User chose option 3 for A3 (both forms), noting people will shorten numbers anyway. So each digit's short form is the first syllable of its long form: the clipping drift is designed in. Short forms (one syllable, stressed) are used after a counted noun, after **ga**, or after another number word; long forms when nothing predicts a number (alone, after **pi**, after a verb, digit strings). 10/100/1000 keep only long forms and anchor number phrases. Short forms avoid every grammar word that can stand next to a number (determiners, prepositions, linkers, predicate words, pronouns), stay apart from NOT, and no two differ only by voicing. Built by `tools/build.py numbers2`; old-to-new map in `data/rename-numbers-2026-10-08.tsv`.

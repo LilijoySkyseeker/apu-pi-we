@@ -52,7 +52,7 @@ I   make stop it(OBV) like what    How did I make it stop?
 ba      NOsen LUmi! Ewo       WUNgu Oyi  fu    DINbu.
 EXCLAIM god   fire  commander say   like snake "Godfire,"    the commander hissed.
 
-me  SAba PUme  nin    DIli DOye, LIlifi.
+me  SAba PUme  nin    DIli DAsa, LIlifi.
 you sit  think during day  7     Lilith    "You meditated for a week, Lilith.
 
 pin me  le      SInun nin    MUyi MINwe?
@@ -135,7 +135,7 @@ they(OBV) teach you, Q   It    was them, wasn't it?"
 | 2 | Indirect questions ("I don't know what I did") | **yu** inside a **wun** clause is an indirect question | adopted |
 | 3 | Tag questions ("It was them, wasn't it?") | A clause-final **pin** = "right?" A clause-initial **pin** stays an open question. | adopted |
 | 4 | "Standalone **a.**" relied on hearing a pause, which is fragile | **a** = this sentence; **a a** = the whole turn. Doubling widens or strengthens, as with **yo yo**. | adopted, 001 updated |
-| 5 | "seven days" or "the seventh day"? **DIli DOye** was both | Noun + number = count (**DIli DOye** seven days). Noun + **pi** + number = label or order (**LIte pi WIfu** step zero). | adopted, 001 updated |
+| 5 | "seven days" or "the seventh day"? **DIli DAsa** was both | Noun + number = count (**DIli DAsa** seven days). Noun + **pi** + number = label or order (**LIte pi Ome** step zero). | adopted, 001 updated |
 | 6 | "You offended [whoever taught you that panic] angry": a relative clause has no end marker, so anything after it gets swallowed | Causative order is **MUge** + result + object: **MUge BONko me** "make angry you". Heavy phrases go last. | adopted |
 | 7 | Passive / resulting state ("was locked") | **gun** + verb = the resulting state: **gun TApi** "is closed" | adopted |
 | 8 | **MOle WEde** would mean "a fatherly mother" | Noun + noun is always modifier; coordinate with **yen**: **MOle yen WEde** parents | adopted |

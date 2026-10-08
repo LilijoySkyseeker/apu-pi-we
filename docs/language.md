@@ -30,7 +30,7 @@ Most of the grammar follows from these. The rules after them are the cases the p
 
 ## Words
 
-- Grammar words have one syllable; content words have two or more. Every meaning is a separate word that never changes: no endings, no agreement, no case, no gender.
+- Grammar words have one unstressed syllable; content words have two or more, stressed on the first. The one exception is the short digit forms: one syllable, stressed. Every meaning is a separate word that never changes: no endings, no agreement, no case, no gender.
 - Content words with similar or opposite meanings are given forms that sound as different as possible, because context can't tell them apart.
 - **Built for drift:** no two content words may become the same after the changes a language like this is likely to undergo: later syllables blurring e/i and o/u, middle consonants voicing, a final n melting away. Grammar words that can stand in the same slot start with different consonants, so they stay apart even if their vowels weaken.
 - **A word's role comes from its position.** Any content word can be a noun, verb or modifier: **SEpi** "apologize / an apology", **MIya BONko** "look angrily / an angry look". After a verb, a modifier describes the manner: **Oyi FANse** "say calmly".
@@ -44,7 +44,7 @@ Most of the grammar follows from these. The rules after them are the cases the p
 ## Rules the principles don't cover
 
 1. **Speech acts:** question **pin**, request **so**, instruct **ton**, advise **fan** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **ku** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so ku …** "please …"). Only a linker to the previous sentence may come before the particle (**gi tan, ton …** "so, do …"). A clause-final **pin** is a tag: "…, right?"
-2. **Confidence is a number:** **ga** + digit = chance in 10 that the statement is true (**ga DOye** = 7 in 10). A second digit handles extremes (**ga NAne KAwe** = 95%). **ga bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for.
+2. **Confidence is a number:** **ga** + digit = chance in 10 that the statement is true (**ga DAsa** = 7 in 10). A second digit handles extremes (**ga YAlu SAge** = 95%). **ga bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for.
 3. **Source is optional:** **o** seen, **fun** told, **san** inferred.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **Obu** "coming" / **mu Obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.
 5. **Questions:** question words stay where the answer would go: **me MOmu wun lon Oyi yu?** "you want me to say what?". They are built from parts: **yu** what, **Ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
@@ -64,10 +64,12 @@ Most of the grammar follows from these. The rules after them are the cases the p
    - A prepositional phrase attaches to its clause's main verb, never to a modifier.
    - A preposition can take a clause (**wo wan la YIdu gu** "after they take someone") or a verb that names the act (**se KUsa** "from leaving").
    - **do** alone = "first, beforehand".
-   - **nin** + noun phrase = during (**nin DIli DOye** "for seven days").
+   - **nin** + noun phrase = during (**nin DIli DAsa** "for seven days").
    - A phrase setting time or place may open the sentence (**mon MUyi fa, …** "at no time, …"). It sets the scene and changes no roles.
 9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
-10. **Numbers** are base 10 and fully regular ("ten one" = 11), with two syllables each. Base 10 matches finger counting and the decimal system the modern world already runs on. Noun + number = count (**DIli DOye** "seven days"); noun + **pi** + number = label or order (**LIte pi WIfu** "step zero").
+10. **Numbers** are base 10 and fully regular: 23 = "two ten three". Base 10 matches finger counting and the decimal system the modern world already runs on. Noun + number = count (**DIli DAsa** "seven days"); noun + **pi** + number = label or order (**LIte pi Ome** "step zero").
+    - **Short forms** are used where the listener already knows a number is coming: right after a counted noun, after **ga**, or after another number word (**DIli TI LUbu KO** "23 days", **ga DA** = 7 in 10). Short forms are stressed, which also sets them apart from the unstressed grammar words.
+    - **Long forms** are used when nothing predicts the number: a number said on its own, after **pi**, after a verb, and in digit strings such as phone numbers and codes.
 11. **Dropped subjects** are allowed only when the subject repeats after **yen** / **ta**, or for the addressee of an instruction or request.
 12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks and a broken-off word ends in a dash.
 13. **Degree words** (**ke** more, **bi** very, **to** rather) come before what they modify: **ke KUdu** "bigger".
@@ -91,7 +93,12 @@ Determiners, like other modifiers, follow the noun: **GUyi tan** "this house", *
 
 ## Numbers
 
-0 **wifu** · 1 **yufa** · 2 **neyo** · 3 **nobi** · 4 **udi** · 5 **kawe** · 6 **mimi** · 7 **doye** · 8 **mabo** · 9 **nane** · 10 **fade** · 100 **lida** · 1000 **bifi**
+| | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 100 | 1000 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| long | **ome** | **pumu** | **tiwe** | **kose** | **fidi** | **sage** | **bayi** | **dasa** | **nobi** | **yalu** | **lubu** | **gife** | **mewu** |
+| short | **o** | **pu** | **ti** | **ko** | **fi** | **sa** | **ba** | **da** | **no** | **ya** | | | |
+
+Each digit's short form is the first syllable of its long form, so the shortening people would do anyway is built in. 10, 100 and 1000 have only long forms; they act as stressed anchors inside a number phrase.
 
 ## Vocabulary
 
