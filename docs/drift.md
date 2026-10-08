@@ -1,0 +1,41 @@
+# Planning for drift
+
+A native language changes. The user asked (2026-10-08) to weigh this heavily: predict where the language will drift and design for it now. Evidence is in `research/notes/stress-and-sound-change.md`, `grammaticalization-and-drift.md` and `designed-languages-going-native.md`.
+
+## The main finding
+
+Most of the machinery for faithful transmission sits in the one-syllable grammar words: speech acts, NOT, confidence, source and reference. That is the layer that changes fastest. Function words are replaced fastest (Pagel et al. 2007), frequent words lose sounds fastest (Bybee 2002), and grammar changes about five times faster than basic vocabulary (Greenhill et al. 2017). The two-syllable content words are the slow, stable core.
+
+So drift-proofing is mostly about the grammar words.
+
+## Predicted drift, most likely and most harmful first
+
+| # | Drift | Evidence | Pre-emption |
+|---|---|---|---|
+| 1 | **Top confidence values become emphasis.** "mon newen" (10 in 10) comes to mean "really". | *literally*, *surely*, *no doubt* all bleached this way | Give emphasis its own outlet (**dun**, **we**, doubling) and teach it as *the* way to emphasise. Keep **mon** optional, so saying it carries information. Two digits keep a precise top end after "10" bleaches. |
+| 2 | **Politeness takes over hedges, questions and "advise".** | Hedges read as tact (Bonnefon & Villejoubert 2006); politeness inflation and T/V pronoun shifts | A dedicated politeness particle with no truth meaning, so the wear lands on it and not on **mon** or the speech acts. |
+| 3 | **Unstressed grammar words reduce and merge.** Vowels blur; words fuse onto neighbours. | Esperanto native speakers reduced grammar-word vowels (Bergen 2001); the morphological cycle | Grammar words that can occupy the same slot must differ by consonant, not only by vowel. Fusion is then harmless: it just turns particles into regular affixes. |
+| 4 | **The obligatory **lu/tan** rule gets simplified.** "Importance" can't be predicted by a learner, so children replace it. | Learners regularize what they can't predict (Hudson Kam & Newport 2005); natives drop redundant required marking | Write the rule children would arrive at: a structural default they can compute. |
+| 5 | **Later syllables of content words erode.** Initial stress was followed by loss of later vowels in Germanic, Old Irish, Latvian and Estonian. Finnish and Czech were protected by vowel-length contrasts, which this language lacks. | stress-and-sound-change notes | Score words against their likely *future* pronunciations: no pair may differ only in a later vowel, or only in the voicing of a middle consonant. 7 current pairs fail this. |
+| 6 | **Predictable sound changes:** k/g → ch/j before i/e; vowel + n → nasal vowel; middle consonants voice; w → v (24 cases vs 9 the other way in a rough count); z devoices. | Index Diachronica counts; Gurevich 2004 (92% of 230 lenitions merged nothing) | Declare harmless variants in advance ("ch" before i, nasal vowels, a soft v between vowels). Protect only the contrasts that keep words apart. |
+| 7 | **New grammar grows from content words:** "say" → quotative or hearsay, "go" → future, **fa** done → past, **va** this → "the". | Grammaticalization pathways (Heine & Kuteva) | Mostly let it happen; none of it harms fidelity. The language already has hearsay (**sun**), about-to (**yan**) and done (**fa**), so there's less pressure to invent them. |
+| 8 | **Negation wears down and gets reinforced** (Jespersen's cycle). | Common in Romance and Germanic | Sanction **na na** as the reinforcement in advance, so renewal stays inside the system. |
+| 9 | **Frequent compounds clip into new roots** (**NIte GOni** → a two-syllable word). | Zipf's law of abbreviation | Welcome it; assign clipped forms with the optimizer when a compound gets frequent. |
+
+## What can't be pre-empted
+
+- **Dialects.** One language for all of Earth splits regionally, as Latin did. Schools can stop changes people notice (Iceland ended a vowel merger by campaign), but not syntax (Iceland's "New Impersonal" spreads anyway).
+- **Sounds drift toward the founders' first languages** (Hebrew's "Founder Principle"). For a world language, the founders are everyone, so rare sounds are at risk. Of this inventory, **v** (27% of languages) and **z** (30%) are the rarest (PHOIBLE).
+- **Usage overrides the designer's word list.** Toki Pona's community reinstated words the author had dropped.
+
+## What's already drift-resistant
+
+Native Esperanto, Modern Hebrew and the creoles all moved toward what this design already has:
+- SVO order
+- no inflection
+- no tone
+- particles for aspect
+- optional tense
+- analytic possession ("grandfather of me")
+
+Fixed word order is among the most stable features (Dediu & Cysouw 2013), and inclusive/exclusive "we" is among the most stable distinctions (Greenhill et al. 2017).

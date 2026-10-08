@@ -177,3 +177,7 @@ Fixes: 14 documentation gaps closed in `docs/language.md`; reflexive **ku** (reu
 ## Roadmap (2026-10-08)
 
 The user asked for the long-term sub-goals before going further, in case any would change the foundation. `docs/roadmap.md` defines "full" as generative completeness (any text translatable without new grammar; any concept nameable by rule; the phonology can carry a natural-size lexicon). Seven challenges could touch the foundation: lexicon scale, derivation, number length, names and loans, prosody (focus, fast speech), politeness, deep embedding. Recommended order: A1, A3, A5, A2, A4, A6, A7.
+
+## Drift research; stress challenged (2026-10-08)
+
+The user challenged fixed stress and asked that natural evolution be weighed heavily and pre-empted. Three research passes: stress and sound change, grammaticalization and drift, designed languages that went native (`research/notes/`). Synthesis in `docs/drift.md`. Proposals awaiting the user: keep initial stress but realize it as pitch; drift-aware word scoring; consonant-distinct grammar words; computable lu/tan rule; politeness outlet; consider deleting /v/.
