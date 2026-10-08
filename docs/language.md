@@ -13,6 +13,7 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 - **No tones.** Pitch is free for intonation and emotion.
 - **Syllable partition:** 58 syllables belong to grammar words, the rest to content words. A content word never contains a grammar syllable, so a grammar syllable heard is always a grammar word.
 - Interjections outside the system: **mm** "heard you", **huh?** "say again".
+- **Writing:** plain lowercase. Stress is fully predictable (first syllable of every content word; grammar words never), so normal writing needs no mark. Teaching examples capitalize the whole stressed syllable: **NIte**, **LANpu**, and for a vowel-first word just the vowel, **Ozi**.
 
 ## Signs
 
@@ -25,19 +26,19 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 ## Grammar
 
 1. **Word shape tells category.** Grammar words have one syllable; content words two or more. Every meaning is a separate unchanging word: no endings, no agreement, no case.
-2. **Order:** [speech act] subject verb object. Modifiers follow what they modify. A noun's own modifiers come before its "of" phrase (**OZi ban OWu on FEbu** "rather little knowledge of sticks").
+2. **Order:** [speech act] subject verb object. Modifiers follow what they modify. A noun's own modifiers come before its "of" phrase (**Ozi ban Owu on FEbu** "rather little knowledge of sticks").
 3. **Operators cover what follows them.** NOT, confidence, source, ONLY, AT.LEAST: at the start of a clause they cover the clause; before a word, that word.
 4. **Speech act first.** Statements are unmarked. Others open with a particle. **ze ze** = emergency. A standalone **san.** marks the speaker's whole turn as not literal.
-5. **Confidence is a number:** **mon** + digit = chance in 10 that the statement is true (**mon ayon** = 7 in 10). Second digit for extremes (**mon enge nenon** = 95%). **mon wan** = "don't know how sure". Unmarked = ordinary belief. Sign: digit held on the non-dominant hand during the clause.
+5. **Confidence is a number:** **mon** + digit = chance in 10 that the statement is true (**mon Ayon** = 7 in 10). Second digit for extremes (**mon ENge NEnon** = 95%). **mon wan** = "don't know how sure". Unmarked = ordinary belief. Sign: digit held on the non-dominant hand during the clause.
 6. **Source is optional:** **kin** seen, **sun** told, **ven** inferred.
-7. **Answers echo the verb**, there are no words for yes and no: "Aren't you coming?" → **IME** "coming" / **na IME** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **zin** + verb = will do.
+7. **Answers echo the verb**, there are no words for yes and no: "Aren't you coming?" → **Ime** "coming" / **na Ime** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **zin** + verb = will do.
 8. **Reference:**
    - Once a second third person is active, plain **lu** = the main character and **tan** (obviative) = anyone else. This is obligatory.
    - In reported speech or thought, **gan** = the person whose words are reported.
    - For crowded scenes, **ku** / **sin** = "this-side one" / "that-side one", with a point. In sign these are loci in space.
    - **pen** = anyone (generic); **vun** is only ever the listener.
    - No grammatical gender.
-9. **"Is":** adjectives need **la** as a predicate (**IWa la ZUvo** "the house is big"; **IWa ZUvo** is only "the big house"). Without a subject, **la** = "there is".
+9. **"Is":** adjectives need **la** as a predicate (**Iwa la ZUvo** "the house is big"; **Iwa ZUvo** is only "the big house"). Without a subject, **la** = "there is".
 10. **Verbs can modify nouns** directly: **NIte TAlan YUyu** "intruding alien".
 11. **A prepositional phrase attaches to its clause's main verb**, never to a modifier.
 12. **Time:** tense optional. Aspect particles **fa** done, **gi** ongoing, **yan** about to. Time words name an anchor plus an offset; no "move forward" metaphors. Roots: **zume** today, **ili** tomorrow, **zafo** yesterday.
