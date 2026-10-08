@@ -23,3 +23,7 @@ The tools need Python with numpy. On NixOS:
     cd tools
     nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py add-content river field 2'
     nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py syllables "pin me NAgu DINbu LUmi"'
+
+## Related
+
+The measurement system is the senary system, which lives in the sibling repo `~/work/repos/senary`. That repo owns the quantities: unit definitions, exact values, constants and the calendar's arithmetic, with `src/senary_tables.py` as the source of truth. This repo owns the words (`docs/measurement.md`, `data/units.tsv`, `data/numbers.tsv`). Senary's calendar and timing are being reworked, so the time words here are provisional.
