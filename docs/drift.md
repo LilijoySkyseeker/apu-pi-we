@@ -22,8 +22,8 @@ So drift-proofing is mostly about the grammar words.
 | 6 | **Predictable sound changes:** k/g → ch/j before i/e; vowel + n → nasal vowel; middle consonants voice; w → v (24 cases vs 9 the other way in a rough count); z devoices. | Index Diachronica counts; Gurevich 2004 (92% of 230 lenitions merged nothing) | Declare harmless variants in advance ("ch" before i, nasal vowels, a soft v between vowels). Protect only the contrasts that keep words apart. |
 | 7 | **New grammar grows from content words:** "say" → quotative or hearsay, "go" → future, **sin** done → past, **tan** this → "the". | Grammaticalization pathways (Heine & Kuteva) | Mostly let it happen; none of it harms fidelity. The language already has hearsay (**fun**), about-to (**win**) and done (**sin**), so there's less pressure to invent them. |
 | 8 | **Negation wears down and gets reinforced** (Jespersen's cycle). | Common in Romance and Germanic | Sanction **mu mu** as the reinforcement in advance, so renewal stays inside the system. |
-| 10 | **Numbers get clipped** in running speech. | Users clip frequent long words | Adopted: each digit's short form is the first syllable of its long form, so clipping lands on a designed, tested form. |
 | 9 | **Frequent compounds clip into new roots** (**Ewo WUNgu** → a two-syllable word). | Zipf's law of abbreviation | Welcome it; assign clipped forms with the optimizer when a compound gets frequent. |
+| 10 | **Numbers get clipped** in running speech. | Users clip frequent long words | Adopted: each digit's short form is the first syllable of its long form, so clipping lands on a designed, tested form. |
 
 ## What can't be pre-empted
 
