@@ -10,10 +10,11 @@ The language has no name yet.
 - [docs/design-log.md](docs/design-log.md): decisions in order, with reasons.
 - [docs/roadmap.md](docs/roadmap.md): what a full language still needs, and in what order.
 - [docs/drift.md](docs/drift.md): how the language would change over generations, and how the design pre-empts it.
+- [docs/number-base.md](docs/number-base.md) and [docs/measurement.md](docs/measurement.md): why base 6, and how measurements are said. The measurement system itself (definitions, values) lives in the sibling repo `~/work/repos/senary`; this repo owns only the words.
 - [research/](research/): evidence. `where-communication-fails.md` is the main report; `notes/` holds the raw research notes behind it and later rounds.
 - [data/](data/): `grammar.tsv` (grammar words), `lexicon.tsv` (roots and numbers), `antonyms.tsv`.
 - [texts/](texts/): stress-test translations, each with findings.
-- [tools/](tools/): `confusion.py` (mishearing model built on Miller & Nicely 1955), `build.py` (drift-aware rebuild of all words; scale and digit checks), `words.py` (add words without moving existing ones; count syllables), `convert.py` (carry texts over to renamed words), `juncture.py` (word sequences that sound like other words), `base_test.py` (which number base survives noise best), `lexicon.py` (the historical v0 generator).
+- [tools/](tools/): `confusion.py` (mishearing model built on Miller & Nicely 1955), `build.py` (drift-aware rebuild of all words; scale and digit checks), `words.py` (add words without moving existing ones; count syllables), `convert.py` (carry texts over to renamed words), `juncture.py` (word sequences that sound like other words), `base_test.py` (which number base survives noise best), `units.py` (unit words for the senary units), `lexicon.py` (the historical v0 generator).
 
 ## Tools
 

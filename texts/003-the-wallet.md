@@ -43,8 +43,9 @@ I    not take it  Tomas  take it
 "TOmasa gun mon GUyi  YEsa  nin    DIli MINwe."
 Tomas   is  at  house learn during day  whole
 
-"wan Obu  tun GUyi  mon Aya  pi KA, yen Oyi wun  sun WUpi NImo  li  ENsu."
-he   come to  house at  hour of 3   and say that he  need money for bus
+"wan Obu  tun GUyi  mon MImi  KA DA KA, yen Oyi wun  sun WUpi NImo  li  ENsu."
+he   come to  house at  point 3  4  3,  and say that he  need money for bus
+                                                     (time of day as a fraction of the day: .343 = 15:00)
                                                      (sun: "he" = Tomas, whose words are reported)
 
 "gun     NImo  WIfu   yu   mon bu?"

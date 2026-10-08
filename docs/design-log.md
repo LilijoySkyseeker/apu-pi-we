@@ -210,3 +210,11 @@ Three research passes (cognition, mathematics, typology) found no direct human e
 - Confidence becomes sixths: **kon** + 0–6, seven levels (matches the ~7 usable bands for ordinary forecasters).
 - Juncture fixes (the senary review found them): no content word may begin with a digit syllable (10 content words moved); no two grammar words differ only by a final -n (10 grammar words moved). `tools/juncture.py` checks both and runs clean. Renames: `data/rename-base6-2026-10-08.tsv`.
 - Senary's digit sounds were not adopted: its one-vowel scheme tested ~400× more confusable.
+
+## Senary measurement system carried over (2026-10-08)
+
+The user chose to carry senary's system over as is and to keep the repos separate: senary for the math, this repo for the language. Division of work: senary owns definitions and values (`src/senary_tables.py`); this repo owns the words (`data/units.tsv`, `data/numbers.tsv`, `docs/measurement.md`).
+- Unit words: senary names were kept only if, after sound adaptation (r→l, v→w, z→s), they were no more confusable than the 90th percentile of ordinary words. Only *Wela* passed; adapted senary names were 10–270× more confusable than typical words (*fuka* "pressure" vs *futa* "woman"). Senary's README calls its names placeholders.
+- Scale words are number words (6⁴ **YIyo** … and new fractional groups 6⁻⁴ **KUfe**, 6⁻⁸ **BAfo**, plus **Unun** "power"); up/down pairs weighted as antonyms (error-size principle).
+- Time of day = fraction of the day, digit-read (15:00 = .343). "hour" re-glossed as **Aya** "watch" = 6⁶ NAne = a sixth of a day.
+- Open: week and month names.

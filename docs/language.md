@@ -70,7 +70,7 @@ Most of the grammar follows from these. The rules after them are the cases the p
    - **ya** alone = "first, beforehand".
    - **nin** + noun phrase = during (**nin DIli NObi FI** "for seven days").
    - A phrase setting time or place may open the sentence (**mon MUyi fa, …** "at no time, …"). It sets the scene and changes no roles.
-9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **WUma wo DIli FI** "tomorrow after one day" = the day after tomorrow. Clock time is a label (**Aya pi KA** "three o'clock"); a duration is a count (**Aya KA** "three hours"). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
+9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **WUma wo DIli FI** "tomorrow after one day" = the day after tomorrow. Time of day is the fraction of the day, read digit by digit (**mon MImi KA DA KA** "at .343 of the day" = 15:00); a duration is a count (**Aya KA** "three watches", 12 h). See [measurement.md](measurement.md). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
 10. **Numbers are base 6.** The six digits are one syllable each; there is no second form. Larger numbers are built from place words: 6 **NObi**, 36 **MIko**, 216 **NIyu**, and groups of four places, 6⁴ = 1296 **YIyo**, 6⁸ **GIfe**, 6¹² **YUli**, which play the role "thousand" and "million" play in decimal. Why base 6: `docs/number-base.md`.
     - **Quantity reading:** place words in descending order, each preceded by its digit; a digit 1 before a place word is dropped: 7 = **NObi FI** ("six one"), 42 = **MIko NObi** (36 + 6), 100 = **SA MIko DA NObi DA** (2·36 + 4·6 + 4).
     - **Digit reading:** digit by digit, in groups of four from the right. Used for identifiers, phone numbers, codes, clock times and dates, and whenever the exact digits matter more than the size. Fixed groups let a listener notice a missing digit.
@@ -105,9 +105,11 @@ Determiners, like other modifiers, follow the noun: **GUyi tan** "this house", *
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **po** | **fi** | **sa** | **ka** | **da** | **te** | **NObi** | **MIko** | **NIyu** | **YIyo** | **GIfe** | **YUli** | **MImi** | **GUti** |
 
+Fractional groups: 6⁻⁴ **KUfe**, 6⁻⁸ **BAfo**. Any other power: **Unun** "power" + exponent. Units and how to say measurements: [measurement.md](measurement.md).
+
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv) holds 295 roots plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules (old-to-new map in `data/rename-2026-10-08.tsv`); from here on, existing words don't move.
+[../data/lexicon.tsv](../data/lexicon.tsv) holds 315 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules (old-to-new map in `data/rename-2026-10-08.tsv`); from here on, existing words don't move.
 
 ## How much to trust the sound choices
 
