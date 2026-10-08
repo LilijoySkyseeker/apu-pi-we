@@ -19,7 +19,7 @@ clean	dirty
 near	far
 above	below
 inside	outside
-left	right
+left	right.side
 front	back
 day	night
 black	white

@@ -96,7 +96,7 @@ front	space	2	pewu
 near	space	3	nudi
 far	space	3	ate
 left	space	2	zuse
-right	space	2	tuge
+right.side	space	2	tuge
 road	space	3	zupu
 many	size	4	puvo
 few	size	3	pawi
@@ -291,3 +291,8 @@ wall	thing	2	fopu
 calm	mind	2	enmo
 free	quality	2	samun
 glass	thing	1	dimin
+answer	sense	3	ziyo
+system	thing	3	yayi
+offend	mind	2	lawo
+disgust	mind	2	musa
+panic	mind	2	wafa

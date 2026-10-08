@@ -2,6 +2,8 @@
 
 Source: a fiction excerpt supplied by the user (2026-10-08): dialogue, narration, inner states. Capitals mark stress (see "Writing" in `docs/language.md`).
 
+Revised after back-translation test 01 (`tests/backtranslation-01/`): new roots for panic, offend, disgust, system and answer, reflexive **ku**, and the commander introduced as a woman. Measurements below are from the first version.
+
 Pronouns: Lilith narrates (**e**). The commander is the main third person (**lu**), so everyone and everything else in the third person is obviative (**tan**): her reaction, the emotions, the parents.
 
 New roots for this text: now **ibo**, become **ole**, face **bowa**, apologize **yeba**, again **teye**, teach **bufo**, lead **goni**, dream **sefo**, dark **geli**, wall **fopu**, calm **enmo**, free **samun**, glass **dimin**.
@@ -21,8 +23,8 @@ and now you leave from leave                         "And now you retreat from r
 e— vun ZIzi yo   e GAka mi?
 I  you want that I say  what                         "I— What do you want me to say?"
 
-BOwa on NIte   GOni OLe    GEli.
-face of person lead become dark                      The commander's face darkened.
+BOwa on NIte   GOni DUli  OLe    GEli.
+face of person lead woman become dark                The commander's face darkened.
 
 dun     LIlifi, vun NIte   BOsi!
 EXCLAIM Lilith  you person fear                      "Lilith, you coward!"
@@ -34,15 +36,15 @@ yi DOye bon  zan   e Ozi  lu,  NIte GOni POlo ENmo on lu.
 at time none while I know her, commander lose calm of her
                                                      The commander had never lost her composure in the time I'd known her.
 
-YEba      SUyu  Ime  PAsa ke TAma  on e, fen e SIdo e.
-apologize other come fast to mouth of me, but I hold me
+YEba      SUyu  Ime  PAsa ke TAma  on e, fen e SIdo ku.
+apologize other come fast to mouth of me, but I hold self
                                                      Another apology rushed to my lips, but I held myself back.
 
-la       BOsi ZUvo yi ZIsa  on e.
-there-is fear big  at heart of me                    Panic in my chest.
+WAfa,  yi ZIsa  on e.
+panic, at heart of me                                Panic in my chest.
 
-lu  gi      Avu wo   va   win     mi?
-she ONGOING do  like this because what               Why was she reacting like this?
+lu  gi      ZIyo   wo   va   win     mi?
+she ONGOING answer like this because what            Why was she reacting like this?
 
 e Avu  WAsu tan     wo   mi?
 I make stop it(OBV) like what                        How did I make it stop?
@@ -65,35 +67,35 @@ commander look angry at me, and this make stop talk me at now
 
 la       wo   ti Osa   vi   SUwon: NUvu in len FOta,
 there-is like if thing some turn:  feel PL all leave
-gu  SIdo Osa   Owu   in on tan  in yi Ate.
-and keep thing small PL of them PL at far            It was as if a switch flipped—all the emotions drained away, leaving distant remnants of themselves.
+gu  SIdo Osa   Owu   in on ku   yi Ate.
+and keep thing small PL of self at far            It was as if a switch flipped—all the emotions drained away, leaving distant remnants of themselves.
 
-BOsi ZUvo la FEson yi MUnpi on e,  e YAnu Avu  Itu  va,
-fear big  is close at belly of me, I must make good this,
+WAfa  la FEson yi MUnpi on e,  e YAnu Avu  Itu  va,
+panic is close at belly of me, I must make good this,
 fen e la SAmun TEye.
 but I is free  again                                 The panic was locked in my stomach, I had to fix this, but I was free again.
 
-VOko OPun  on NIte GOni OLe    NUvu MOfe,
-look angry of commander become feel bad,
-gu  va   Avu  ZUvo u    BOsi ZUvo yi LInu  SUyu  on FOpu DImin vi   mu    POkun tan gen  Ozi  on e.
-and this make big  more fear big  at place other of wall glass some which keep  it  from know of me
+VOko OPun  on NIte GOni OLe    MUsa,
+look angry of commander become disgust,
+gu  va   Avu  u    ZUvo WAfa  yi LInu  SUyu  on FOpu DImin vi   mu    POkun tan gen  Ozi  on e.
+and this make more big  panic at place other of wall glass some which keep  it  from know of me
                                                      The commander's glare turned to disgust, which made the panic swell on the other side of whatever glass wall was keeping it from my consciousness.
 
-NIte GOni, e GAka ENmo, e na  Ozi  yo   e Avu mi,   fen e YEba      men yo   e Avu  OPun  vun.
-commander, I say  calm, I not know that I do  what, but I apologize for that I make angry you
+NIte GOni, e GAka ENmo, e na  Ozi  yo   e Avu mi,   fen e YEba      men yo   e LAwo   vun.
+commander, I say  calm, I not know that I do  what, but I apologize for that I offend you
                                                      "Commander," I spoke evenly, "I don't know what I did, but I apologize for offending you."
 
-vun na  Avu  OPun  e,  lu  GAka u    ENmo.
-you not make angry me, she say  more calm            "You didn't offend me," she said in a more neutral tone.
+vun na  LAwo   e,  lu  GAka u    ENmo.
+you not offend me, she say  more calm                "You didn't offend me," she said in a more neutral tone.
 
-vun Avu  OPun  NIte   mu  BUfo  vun BOsi ZUvo nun.
-you make angry person who teach you fear big  that   "You offended whoever taught you that panic response."
+vun LAwo   NIte   mu  BUfo  vun WAfa  nun.
+you offend person who teach you panic that           "You offended whoever taught you that panic response."
 
 e OLe    TINfo.
 I become ice                                         I froze up.
 
-BOsi ZUvo MAwa   MOfe, zan   LEvu on e  NOnu FOgo       mi   FEzi  gi      DIfo.
-fear big  change bad,  while body of me try  understand what CURSE ONGOING happen
+WAfa  MAwa   MOfe, zan   YAyi   on e  NOnu FOgo       yo   mi   FEzi  gi      DIfo.
+panic change bad,  while system of me try  understand that what CURSE ONGOING happen
                                                      The panic response warped awkwardly as my system tried to figure out what the fuck was going on.
 
 vun na  ZIzi la TAde  gen  Ibo, NIte GOni GAka.
@@ -120,7 +122,7 @@ they(OBV)  teach you, Q                              It was them, wasn't it?"
 
 - **Obviation did English's animacy work.** English separates the commander ("she") from her reaction ("it") by animacy. Here the commander is **lu** and everything else is **tan**, with no gender or animacy needed.
 - **Echo answers:** "No, I—" is **na SEfo, e—** ("not dreaming, I—"). The denial says *what* is denied.
-- **Reflexives come free:** **e SIdo e** "I held myself back". With obviation, a repeated third-person pronoun is always the same person.
+- **Reflexives:** first written as a repeated pronoun (**e SIdo e**). The back-translation test showed that fails when the subject is a noun, so the reflexive is now **ku** "self".
 - **Questions compose from parts:** why = **win mi** "because what", how = **wo mi** "like what", what = **mi**.
 - **An in-world oath grew from the curse system:** "Godfire" is **dun VOnnu NOwi**, EXCLAIM god fire. This is how a taboo vocabulary seeds itself.
 - **The hiss** became **GAka wo BOzen**, "say like a snake".

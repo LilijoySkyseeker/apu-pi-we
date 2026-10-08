@@ -167,3 +167,9 @@ Decisions (user approved):
 - **Base 10 re-sourced:** it was justified by sign-language finger counting; now by finger counting plus the decimal system modern Earth already uses.
 - **Reference rewritten** around five principles (common case free; heads first and position carries role; operators cover what follows; heavy last; doubling widens) plus 12 rules they don't cover.
 - **Next:** blind back-translation test to measure fidelity directly.
+
+## Back-translation test 01 (2026-10-08)
+
+First direct measurement of the north star (`tests/backtranslation-01/`). A fresh agent with only the reference and word lists back-translated texts 001 and 002; another scored them. Content 55/64 (86%), force and tone 58/64 (91%), no segment lost its core meaning. Most losses came from vocabulary gaps and translation choices; grammar cost about one point (reflexive). Caveats: AI reader and judge; some test phrases leaked into the reference as examples.
+
+Fixes: 14 documentation gaps closed in `docs/language.md`; reflexive **ku** (reusing the freed spatial-pronoun syllable); roots answer, system, offend, disgust, panic; `data/compounds.tsv`; gloss "right" renamed "right.side"; text 002 corrected and revised.
