@@ -49,6 +49,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 
   No `?` or `!`. The opening word (**min**, **yo**, **ba**) already says it, and earlier: like Spanish's opening ¿, a reader knows the sentence's shape before saying it. The user's reading test showed end marks steer the voice, but too late. No `-` (compounds are ordinary phrases in speech) and no `:` (in speech it's just a pause). Triggers to bring one back: `?`/`!` if readers or text-to-speech misplace intonation despite the opening word; `-` if established compounds get misread; `:` if a pause can't carry a construction.
 
+- **Words are written apart until the sound changes.** A phrase said fast (**apu pi we**) keeps its spaces, as English writes *going to* however it's said. Once a fused form actually loses or changes sounds, it is a new word: it gets checked with the word tools and written as one.
 - **Spelling follows the standard pronunciation.** The harmless variants (k sounding like "ch" before i, nasal vowels, softened middle consonants) are never written, so spelling stays one letter per sound.
 
 ## Words
