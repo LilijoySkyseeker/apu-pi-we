@@ -267,3 +267,13 @@ Four research passes (`research/notes/concept-sources.md`, `colexification.md`, 
 - Early vocabulary ranks categories, not words, and adds routines.
 
 Draft decision procedure in `docs/vocabulary-method.md`, with three points for the user: seed size (~300 + NSM primes instead of 500–800), lump/split thresholds, and colour (need over majority).
+
+## Seed vocabulary built (B1 step 3) (2026-10-08)
+
+`tools/concepts.py` ranks CLICS4's 1,740 concepts by area-balanced lineage coverage (`data/concept-ranking.tsv`). The seed is the top 300 plus the NSM primes: 330 rows in `data/concepts.tsv`, built by `tools/seed.py`, each with a decision and an evidence line.
+- 172 were already in the lexicon.
+- 37 are expressed by grammar and 13 by numbers.
+- 20 are compounds: the kin terms by the kinship rule, arm and leg parts, boy/girl.
+- 88 got new roots, tagged by topic area and opposites. These include the kinship roots sibling and spouse; arm, as a noted exception to the 20–50% band because no transparent derivation from "hand" exists; and the four compass directions (the lens).
+
+Added principle (user, 2026-10-08): basic words describe observation, not theory; boundaries resting on disproven beliefs get no lineage weight.

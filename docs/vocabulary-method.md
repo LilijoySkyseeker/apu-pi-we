@@ -1,6 +1,6 @@
 # Vocabulary method (roadmap B1, step 2): draft
 
-The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. **Draft:** three points marked **[decide]** need the user before the seed is built.
+The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the user on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py`).
 
 ## 1. Which concepts, in what order
 
@@ -41,6 +41,16 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
 4. **Never derive one meaning from another along a link only one family uses.** For example, don't build "know" from "see", which is an Indo-European habit.
 
 Every decision gets an evidence line in the concept table.
+
+## 3b. Observation, not theory (agreed with the user, 2026-10-08)
+
+Some word boundaries encode a belief about how the world works: "the sun *rises*", *lunatic*, *influenza*, *malaria*, "catch a cold", whales grouped with fish. Others encode perception or need (blue/green, arm/hand). Only the first kind can be outdated.
+- **Basic words describe what is experienced, not a theory of it.** "The sun appears", not "rises". An illness is named by its symptoms, not a supposed cause.
+- **Theory-laden concepts are built compositionally from observational words**, so they can be rebuilt when knowledge changes without disturbing the basic layer. Current science gets no special status either: it changes too.
+- **A lineage pattern that rests on a disproven belief gets no weight**, however common it is, and the concept table records why.
+- **Metaphors are chosen deliberately**, not inherited (English "heartbroken" keeps the heart as the seat of emotion).
+
+Perception-and-need boundaries are never "outdated". For them, science can only give a reason to pick a particular point on the efficient frontier. Colour is the test case: see `research/notes/colour-vision.md` once verified.
 
 ## 4. What to make cheap (the lens)
 

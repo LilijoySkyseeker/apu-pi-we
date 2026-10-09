@@ -1,0 +1,331 @@
+rank	concept	decision	expression	evidence
+1	BLOOD	existing	blood	coverage 0.9974, 246 families, 6 areas
+2	ONE	number	fi	coverage 0.9971, 246 families, 6 areas; base-6 digit
+3	BIG	existing	big	coverage 0.9971, 246 families, 6 areas
+4	EYE	existing	eye	coverage 0.9927, 245 families, 6 areas
+5	GOOD	existing	good	coverage 0.9927, 245 families, 6 areas
+6	MOON	existing	moon	coverage 0.9927, 245 families, 6 areas
+7	TWO	number	sa	coverage 0.9925, 245 families, 6 areas; digit
+8	WATER	existing	water	coverage 0.9907, 245 families, 6 areas
+9	WHITE	existing	white	coverage 0.9884, 245 families, 6 areas
+10	EAR	existing	ear	coverage 0.9883, 243 families, 6 areas
+11	TONGUE	existing	tongue	coverage 0.9883, 243 families, 6 areas
+12	HEAD	existing	head	coverage 0.9881, 244 families, 6 areas
+13	NOSE	existing	nose	coverage 0.9881, 244 families, 6 areas
+14	HAND	existing	hand	coverage 0.987, 243 families, 6 areas
+15	TOOTH	existing	tooth	coverage 0.9865, 243 families, 6 areas
+16	COLD	existing	cold	coverage 0.9846, 243 families, 6 areas
+17	STONE	existing	stone	coverage 0.9831, 244 families, 6 areas
+18	MOUTH	existing	mouth	coverage 0.9829, 242 families, 6 areas
+19	DOG	existing	dog	coverage 0.9814, 242 families, 6 areas
+20	RAIN (PRECIPITATION)	existing	rain	coverage 0.9811, 243 families, 6 areas
+21	DIE	existing	die	coverage 0.9811, 243 families, 6 areas
+22	SMALL	existing	small	coverage 0.9804, 243 families, 6 areas
+23	BREAST	root	breast	coverage 0.9802, 242 families, 6 areas
+24	THREE	number	ka	coverage 0.98, 242 families, 6 areas; digit
+25	STAR	existing	star	coverage 0.9792, 241 families, 6 areas
+26	HOUSE	existing	house	coverage 0.9791, 243 families, 6 areas
+27	NIGHT	existing	night	coverage 0.9787, 243 families, 6 areas
+28	I	grammar	lon	coverage 0.9786, 241 families, 6 areas
+29	FAR	existing	far	coverage 0.9786, 241 families, 6 areas
+30	EAT	existing	eat	coverage 0.9785, 243 families, 6 areas
+31	BAD	existing	bad	coverage 0.9784, 240 families, 6 areas
+32	SKIN	existing	skin	coverage 0.9782, 241 families, 6 areas
+33	MALE PERSON	existing	man	coverage 0.975, 243 families, 6 areas
+34	WHAT	grammar	yu	coverage 0.9747, 240 families, 6 areas; question word
+35	DRINK	existing	drink	coverage 0.9733, 242 families, 6 areas
+36	CRY	existing	cry	coverage 0.9732, 240 families, 6 areas
+37	SLEEP	existing	sleep	coverage 0.9726, 243 families, 6 areas
+38	WOMAN	existing	woman	coverage 0.9725, 240 families, 6 areas
+39	SEE	existing	see	coverage 0.9714, 242 families, 6 areas
+40	COME	existing	come	coverage 0.9701, 241 families, 6 areas
+41	STRIKE	existing	hit	coverage 0.97, 239 families, 6 areas
+42	WHO	grammar	Ewo yu	coverage 0.9695, 239 families, 6 areas; person what
+43	FOOT	existing	foot	coverage 0.9695, 237 families, 6 areas
+44	FIRE	existing	fire	coverage 0.9694, 240 families, 6 areas
+45	BELLY	existing	belly	coverage 0.9694, 237 families, 6 areas
+46	WIND	existing	wind	coverage 0.9681, 239 families, 6 areas
+47	BONE	existing	bone	coverage 0.9649, 240 families, 6 areas
+48	STAND	existing	stand	coverage 0.9639, 237 families, 6 areas
+49	BITE	root	bite	coverage 0.9637, 239 families, 6 areas
+50	NECK	root	neck	coverage 0.963, 238 families, 6 areas
+51	WE (INCLUSIVE)	grammar	pen	coverage 0.9624, 237 families, 6 areas; inclusive we
+52	NAME	existing	name	coverage 0.9622, 238 families, 6 areas
+53	SUN	existing	sun	coverage 0.962, 238 families, 6 areas
+54	ASH	existing	ash	coverage 0.9618, 237 families, 6 areas
+55	BLACK	existing	black	coverage 0.9603, 234 families, 6 areas
+56	LEAF	existing	leaf	coverage 0.9597, 237 families, 6 areas
+57	FALL	existing	fall	coverage 0.9595, 238 families, 6 areas
+58	THOU	grammar	me	coverage 0.9553, 237 families, 6 areas; you
+59	WHERE	grammar	KEmu yu	coverage 0.9553, 234 families, 6 areas; place what
+60	TREE	existing	tree	coverage 0.9535, 237 families, 6 areas
+61	GIVE	existing	give	coverage 0.9533, 236 families, 6 areas
+62	SIT	existing	sit	coverage 0.953, 236 families, 6 areas
+63	KILL	existing	kill	coverage 0.953, 235 families, 6 areas
+64	EARTH (SOIL)	existing	ground	coverage 0.9519, 233 families, 6 areas
+65	PATH	existing	road	coverage 0.9506, 233 families, 6 areas; PATH/ROAD lumped by 85% of families (upper bound)
+66	FLESH	existing	meat	coverage 0.9506, 231 families, 6 areas; FLESH/MEAT lumped by 87% of families (CLICS4, upper bound)
+67	EGG	existing	egg	coverage 0.9502, 234 families, 6 areas
+68	LIVER	root	liver	coverage 0.9485, 234 families, 6 areas
+69	SMOKE (EXHAUST)	existing	smoke	coverage 0.9479, 235 families, 6 areas
+70	TAIL	existing	tail	coverage 0.9461, 233 families, 6 areas
+71	RED	existing	red	coverage 0.9438, 236 families, 6 areas
+72	WE (EXCLUSIVE)	grammar	din	coverage 0.9424, 232 families, 6 areas; exclusive we
+73	HE	grammar	wan	coverage 0.9422, 229 families, 6 areas; no gender
+74	ALL	grammar	we	coverage 0.9402, 232 families, 6 areas
+75	HEART	existing	heart	coverage 0.9399, 234 families, 6 areas
+76	HEAR	existing	hear	coverage 0.9398, 234 families, 6 areas
+77	HEAVY	existing	heavy	coverage 0.9389, 230 families, 6 areas
+78	KNOW (SOMETHING)	existing	know	coverage 0.9378, 235 families, 6 areas
+79	BIRD	existing	bird	coverage 0.9364, 235 families, 6 areas
+80	SHE	grammar	wan	coverage 0.9364, 227 families, 6 areas; no gender
+81	SAY	existing	say	coverage 0.936, 229 families, 6 areas
+82	SAND	existing	sand	coverage 0.9357, 231 families, 6 areas
+83	NEAR	existing	near	coverage 0.9357, 231 families, 6 areas
+84	WING	existing	wing	coverage 0.9348, 231 families, 6 areas
+85	CLOUD	existing	cloud	coverage 0.9334, 228 families, 6 areas
+86	THAT	grammar	ben	coverage 0.9332, 226 families, 6 areas; determiner
+87	BE ALIVE	existing	live	coverage 0.9331, 229 families, 6 areas
+88	OLDER SISTER (OF MAN)	compound	sibling + old + female	coverage 0.932, 229 families, 6 areas
+89	LAUGH	existing	laugh	coverage 0.931, 226 families, 6 areas
+90	GO	existing	go	coverage 0.9308, 231 families, 6 areas
+91	HOT	existing	hot	coverage 0.9307, 232 families, 6 areas
+92	IT	grammar	bu	coverage 0.9307, 225 families, 6 areas
+93	FISH	existing	fish	coverage 0.9293, 226 families, 6 areas
+94	KNEE	root	knee	coverage 0.929, 229 families, 6 areas
+95	THIS	grammar	tan	coverage 0.9285, 225 families, 6 areas
+96	OLDER BROTHER (OF MAN)	compound	sibling + old + male	coverage 0.9278, 229 families, 6 areas; kinship rule: sibling + older/younger + male/female
+97	OLDER BROTHER (OF WOMAN)	compound	sibling + old + male	coverage 0.9278, 229 families, 6 areas; speaker's sex not marked
+98	YOUNGER SISTER (OF MAN)	compound	sibling + young + female	coverage 0.9278, 229 families, 6 areas
+99	YOUNGER SISTER (OF WOMAN)	compound	sibling + young + female	coverage 0.9278, 229 families, 6 areas
+100	DRY	existing	dry	coverage 0.9267, 224 families, 6 areas
+101	GRASS	root	grass	coverage 0.9252, 225 families, 6 areas
+102	BURNING	existing	burn	coverage 0.9245, 226 families, 6 areas
+103	LONG	existing	long	coverage 0.9235, 231 families, 6 areas
+104	OLDER SISTER (OF WOMAN)	compound	sibling + old + female	coverage 0.9232, 228 families, 6 areas
+105	FEATHER	root	feather	coverage 0.9226, 228 families, 6 areas
+106	BACK	existing	back	coverage 0.9212, 225 families, 6 areas
+107	ROOT	root	root	coverage 0.9194, 228 families, 6 areas
+108	YOUNGER BROTHER (OF WOMAN)	compound	sibling + young + male	coverage 0.9194, 226 families, 6 areas
+109	YOUNGER BROTHER (OF MAN)	compound	sibling + young + male	coverage 0.9194, 226 families, 6 areas
+110	SPIT	root	spit	coverage 0.9193, 226 families, 6 areas
+111	FLOWER	root	flower	coverage 0.9179, 222 families, 6 areas
+112	MOUNTAIN	existing	mountain	coverage 0.9176, 230 families, 6 areas
+113	THEY	grammar	wan la	coverage 0.9168, 227 families, 6 areas; he/she + plural
+114	FIVE	number	te	coverage 0.9162, 228 families, 6 areas; digit
+115	MANY	existing	many	coverage 0.9162, 231 families, 6 areas
+116	BURN (SOMETHING)	existing	burn	coverage 0.9141, 224 families, 6 areas
+117	HAIR	existing	hair	coverage 0.9141, 223 families, 6 areas
+118	RUN	existing	run	coverage 0.9123, 223 families, 6 areas
+119	UPPER LEG (THIGH)	compound	leg + above	coverage 0.912, 222 families, 6 areas; part of leg
+120	YOU	grammar	me	coverage 0.9106, 223 families, 6 areas
+121	LOUSE	root	louse	coverage 0.9096, 226 families, 6 areas
+122	SKY	existing	sky	coverage 0.9089, 228 families, 6 areas
+123	FINGERNAIL	root	nail	coverage 0.9079, 225 families, 6 areas
+124	RIVER	existing	river	coverage 0.9074, 224 families, 6 areas
+125	YELLOW	existing	yellow	coverage 0.9061, 228 families, 6 areas
+126	WET	existing	wet	coverage 0.9053, 223 families, 6 areas
+127	CARRY	existing	carry	coverage 0.9051, 221 families, 6 areas
+128	HIDE (CONCEAL)	existing	hide	coverage 0.9046, 220 families, 6 areas
+129	SHORT	existing	short	coverage 0.9039, 220 families, 6 areas
+130	NOT	grammar	mu	coverage 0.9026, 221 families, 6 areas
+131	NEW	existing	new	coverage 0.9024, 226 families, 6 areas
+132	SWIM	existing	swim	coverage 0.9004, 223 families, 6 areas
+133	TURN (SOMETHING)	existing	turn	coverage 0.8968, 218 families, 6 areas
+134	FLY (INSECT)	existing	fly	coverage 0.8936, 222 families, 6 areas
+135	DO	existing	do	coverage 0.8935, 216 families, 6 areas
+136	SMELL (PERCEIVE)	root	smell	coverage 0.8927, 220 families, 6 areas
+137	TIE	root	tie	coverage 0.8919, 223 families, 6 areas
+138	HIDE (ONESELF)	existing	hide	coverage 0.8907, 216 families, 6 areas
+139	VOMIT	root	vomit	coverage 0.8906, 219 families, 6 areas
+140	FOUR	number	da	coverage 0.89, 226 families, 6 areas; digit
+141	OLD (AGED)	existing	old	coverage 0.8897, 219 families, 6 areas
+142	TURN AROUND	existing	turn	coverage 0.889, 216 families, 6 areas
+143	DUST	root	dust	coverage 0.8867, 212 families, 6 areas
+144	FLY (MOVE THROUGH AIR)	existing	fly	coverage 0.8854, 222 families, 6 areas
+145	LOWER LEG	compound	leg + below	coverage 0.8853, 217 families, 6 areas
+146	DAY (NOT NIGHT)	existing	day	coverage 0.8847, 224 families, 6 areas
+147	OLD (USED)	existing	old	coverage 0.8844, 218 families, 6 areas
+148	YESTERDAY	existing	yesterday	coverage 0.8816, 218 families, 6 areas
+149	THROAT	root	throat	coverage 0.8805, 212 families, 6 areas
+150	THINK (REFLECT)	existing	think	coverage 0.8801, 218 families, 6 areas
+151	FAT (ORGANIC SUBSTANCE)	root	fat	coverage 0.8799, 219 families, 6 areas
+152	NOW	existing	now	coverage 0.8767, 212 families, 6 areas
+153	TAKE	existing	take	coverage 0.8759, 212 families, 6 areas
+154	HOW	grammar	fu yu	coverage 0.8744, 215 families, 6 areas; like what
+155	LIE DOWN	existing	lie.down	coverage 0.8739, 217 families, 6 areas
+156	BARK	root	bark	coverage 0.8737, 218 families, 6 areas
+157	SWEAT (SUBSTANCE)	root	sweat	coverage 0.8705, 209 families, 6 areas
+158	THINK (BELIEVE)	existing	think	coverage 0.8697, 216 families, 6 areas
+159	THIN (SLIM)	root	thin	coverage 0.8693, 215 families, 6 areas; opposite of thick
+160	ROPE	existing	rope	coverage 0.8689, 218 families, 6 areas
+161	THIN (OF SHAPE OF OBJECT)	root	thin	coverage 0.8677, 212 families, 6 areas
+162	STRONG	existing	strong	coverage 0.8674, 213 families, 6 areas
+163	BOY	compound	child + male	coverage 0.8643, 211 families, 6 areas; child male
+164	BLOW (OF WIND)	root	blow	coverage 0.8641, 217 families, 6 areas
+165	PERSON	existing	person	coverage 0.8632, 218 families, 6 areas
+166	HERE	grammar	KEmu tan	coverage 0.8628, 209 families, 6 areas; place this
+167	LOWER ARM	compound	arm + below	coverage 0.8612, 210 families, 6 areas
+168	FINGER	root	finger	coverage 0.8603, 217 families, 6 areas
+169	GROW	existing	grow	coverage 0.8599, 208 families, 6 areas
+170	NAVEL	root	navel	coverage 0.8566, 210 families, 6 areas
+171	GREEN	existing	green	coverage 0.8531, 221 families, 6 areas
+172	THUNDER	root	thunder	coverage 0.8524, 211 families, 6 areas
+173	COUGH	root	cough	coverage 0.8517, 210 families, 6 areas
+174	SHARP	existing	sharp	coverage 0.8509, 207 families, 6 areas
+175	UPPER ARM	compound	arm + above	coverage 0.8507, 208 families, 6 areas
+176	DARK	existing	dark	coverage 0.8494, 211 families, 6 areas
+177	ROTTEN	root	rotten	coverage 0.8491, 211 families, 6 areas
+178	FULL	existing	full	coverage 0.8469, 210 families, 6 areas
+179	BODY	existing	body	coverage 0.8468, 208 families, 6 areas
+180	BELOW OR UNDER	existing	below	coverage 0.846, 209 families, 6 areas
+181	WHEN	grammar	MUyi yu	coverage 0.8452, 209 families, 6 areas; time what
+182	DIRTY	existing	dirty	coverage 0.844, 210 families, 6 areas
+183	PISS	root	urinate	coverage 0.8433, 209 families, 6 areas
+184	GIRL	compound	child + female	coverage 0.8412, 204 families, 6 areas; child female
+185	LUNG	root	lung	coverage 0.8405, 202 families, 6 areas
+186	SMELL (STINK)	compound	smell + bad	coverage 0.8377, 205 families, 6 areas; smell + bad
+187	ABOVE	existing	above	coverage 0.8364, 205 families, 6 areas
+188	SOFT	existing	soft	coverage 0.8309, 200 families, 6 areas
+189	SHADE	root	shade	coverage 0.8285, 199 families, 6 areas
+190	BREATHE	root	breathe	coverage 0.8274, 202 families, 6 areas
+191	HARD	existing	hard	coverage 0.8265, 205 families, 6 areas
+192	THERE	grammar	KEmu ben	coverage 0.8251, 197 families, 6 areas; place that
+193	FAST	existing	fast	coverage 0.8158, 199 families, 6 areas
+194	THICK	existing	thick	coverage 0.8142, 208 families, 6 areas
+195	STRAIGHT	root	straight	coverage 0.8118, 202 families, 6 areas
+196	SUCK	root	suck	coverage 0.8096, 203 families, 6 areas
+197	SALTY	root	salty	coverage 0.8086, 198 families, 6 areas
+198	BEHIND	existing	back	coverage 0.8078, 198 families, 6 areas; body part doubles as direction
+199	LEFT	existing	left	coverage 0.8076, 201 families, 6 areas
+200	IN	grammar	mon / BEse	coverage 0.8049, 199 families, 6 areas; at / inside
+201	SEED	root	seed	coverage 0.8044, 205 families, 6 areas
+202	MILK	root	milk	coverage 0.8039, 193 families, 6 areas
+203	SEA	existing	sea	coverage 0.8023, 199 families, 6 areas
+204	TEN	number	NObi DA	coverage 0.8005, 206 families, 6 areas; 6+4
+205	BITTER	root	bitter	coverage 0.7983, 193 families, 6 areas; opposite of sweet
+206	RIGHT	existing	right.side	coverage 0.7928, 197 families, 6 areas
+207	RIPE	root	ripe	coverage 0.7919, 195 families, 6 areas
+208	SLOW	existing	slow	coverage 0.7865, 191 families, 6 areas
+209	PENIS	root	penis	coverage 0.7849, 194 families, 6 areas
+210	FEW	existing	few	coverage 0.7821, 193 families, 6 areas
+211	WANT	existing	want	coverage 0.7814, 197 families, 6 areas
+212	BLUNT	root	blunt	coverage 0.7804, 185 families, 6 areas; opposite of sharp
+213	SCARED	compound	BE + fear	coverage 0.7781, 194 families, 6 areas; is afraid; fear root exists
+214	SHIT (DEFECATE)	root	defecate	coverage 0.7752, 189 families, 6 areas
+215	ROUND	root	round	coverage 0.7749, 193 families, 6 areas
+216	WHY	grammar	gi yu	coverage 0.7743, 191 families, 6 areas; because what
+217	SIX	number	NObi	coverage 0.7732, 201 families, 6 areas; place word 6
+218	YEAR	existing	year	coverage 0.7711, 193 families, 6 areas
+219	ANGRY	existing	angry	coverage 0.7706, 186 families, 6 areas
+220	WIDE	existing	wide	coverage 0.7605, 190 families, 6 areas
+221	BRAIN	root	brain	coverage 0.7602, 182 families, 6 areas
+222	SWEET	root	sweet	coverage 0.7592, 188 families, 6 areas
+223	OUTSIDE	existing	outside	coverage 0.7587, 192 families, 6 areas
+224	SNEEZE	root	sneeze	coverage 0.7559, 183 families, 6 areas
+225	SEVEN	number	NObi FI	coverage 0.7527, 194 families, 6 areas; 6+1
+226	HORN (ANATOMY)	root	horn	coverage 0.7454, 188 families, 6 areas
+227	NINE	number	NObi KA	coverage 0.7452, 191 families, 6 areas; 6+3
+228	EIGHT	number	NObi SA	coverage 0.7437, 192 families, 6 areas; 6+2
+229	SMOOTH	root	smooth	coverage 0.7436, 181 families, 6 areas
+230	OTHER	existing	other	coverage 0.7434, 178 families, 6 areas
+231	BEFORE	grammar	ya	coverage 0.7412, 176 families, 6 areas
+232	LIP	root	lip	coverage 0.7408, 189 families, 6 areas
+233	TOUCH	root	touch	coverage 0.7384, 184 families, 6 areas
+234	YAWN	root	yawn	coverage 0.737, 177 families, 6 areas
+235	CRUSH	root	crush	coverage 0.737, 174 families, 6 areas
+236	IN FRONT OF	existing	front	coverage 0.7352, 183 families, 6 areas
+237	RAW	root	raw	coverage 0.7334, 175 families, 6 areas; opposite of ripe
+238	LIGHT (WEIGHT)	existing	light	coverage 0.7332, 177 families, 6 areas
+239	HAPPY	existing	happy	coverage 0.7322, 177 families, 6 areas
+240	DEEP	root	deep	coverage 0.7314, 176 families, 6 areas
+241	ANT	root	ant	coverage 0.7291, 181 families, 6 areas
+242	ANIMAL	existing	animal	coverage 0.7248, 178 families, 6 areas
+243	TESTICLES	root	testicles	coverage 0.7221, 173 families, 6 areas
+244	NARROW	root	narrow	coverage 0.7199, 180 families, 6 areas; opposite of wide
+245	OLD MAN	compound	man + old	coverage 0.7175, 175 families, 6 areas; man old
+246	BUTTOCKS	root	buttocks	coverage 0.7141, 173 families, 6 areas
+247	SOUR	root	sour	coverage 0.7134, 173 families, 6 areas
+248	FLAT	root	flat	coverage 0.7133, 172 families, 6 areas
+249	CROOKED	root	crooked	coverage 0.7131, 176 families, 6 areas; opposite of straight
+250	HIGH	root	high	coverage 0.7124, 174 families, 6 areas
+251	AFTERWARDS	grammar	wo tan	coverage 0.7117, 176 families, 6 areas; after this
+252	CORRECT (RIGHT)	root	correct	coverage 0.7072, 177 families, 6 areas
+253	TWENTY	number	KA NObi SA	coverage 0.7069, 182 families, 6 areas; 3×6+2
+254	WEAK	existing	weak	coverage 0.7063, 177 families, 6 areas
+255	SNORE	root	snore	coverage 0.7, 169 families, 6 areas
+256	QUIET	root	quiet	coverage 0.6981, 163 families, 6 areas
+257	EMPTY	existing	empty	coverage 0.6968, 174 families, 6 areas
+258	WORD	existing	word	coverage 0.6964, 167 families, 6 areas
+259	YOUNG	root	young	coverage 0.6898, 170 families, 6 areas; opposite of old
+260	BLUE	existing	blue	coverage 0.6847, 180 families, 6 areas
+261	TASTE	root	taste	coverage 0.6817, 166 families, 6 areas
+262	TOE	root	toe	coverage 0.6751, 171 families, 6 areas
+263	LIGHT (COLOR)	existing	light	coverage 0.6694, 164 families, 6 areas
+264	ELEVEN	number	NObi TE	coverage 0.6646, 171 families, 6 areas; 6+5
+265	TWELVE	number	SA NObi	coverage 0.6639, 169 families, 6 areas; 2×6
+266	VULVA	root	vulva	coverage 0.6639, 154 families, 6 areas
+267	CLEAN	existing	clean	coverage 0.6638, 159 families, 6 areas
+268	BEAUTIFUL	existing	beautiful	coverage 0.6632, 164 families, 6 areas
+269	NOTHING	grammar	MUsu fa	coverage 0.6588, 156 families, 6 areas; thing none
+270	SAD	existing	sad	coverage 0.6576, 163 families, 6 areas
+271	HALF	existing	half	coverage 0.6566, 162 families, 6 areas
+272	BECAUSE	grammar	gi	coverage 0.6528, 162 families, 6 areas
+273	SOME	grammar	in	coverage 0.6505, 162 families, 6 areas
+274	OLD WOMAN	compound	woman + old	coverage 0.6456, 156 families, 6 areas; woman old
+275	THEN	grammar	wo tan	coverage 0.6452, 149 families, 6 areas; after this
+276	IF	grammar	don	coverage 0.6296, 157 families, 6 areas
+277	BESIDE	root	side	coverage 0.6088, 152 families, 6 areas
+278	ROUGH	root	rough	coverage 0.6046, 145 families, 6 areas; opposite of smooth
+279	LOUD	root	loud	coverage 0.5978, 140 families, 6 areas; opposite of quiet
+280	FATHER	existing	father	coverage 0.571, 148 families, 6 areas
+281	SNAKE	existing	snake	coverage 0.5702, 147 families, 6 areas
+282	SAME	existing	same	coverage 0.5687, 132 families, 6 areas
+283	MOTHER	existing	mother	coverage 0.5681, 147 families, 6 areas
+284	UGLY	root	ugly	coverage 0.5559, 139 families, 6 areas; opposite of beautiful
+285	SHALLOW	root	shallow	coverage 0.5527, 132 families, 6 areas; opposite of deep
+286	SALT	existing	salt	coverage 0.5522, 141 families, 6 areas
+287	MEAT	existing	meat	coverage 0.5521, 142 families, 6 areas
+288	LEG	existing	leg	coverage 0.5514, 143 families, 6 areas
+289	LOW	root	low	coverage 0.5427, 131 families, 6 areas; opposite of high
+290	FART	root	fart	coverage 0.5409, 131 families, 6 areas
+291	WIFE	compound	spouse + female	coverage 0.5384, 138 families, 6 areas; spouse female; kinship rule: no sexed spouse roots
+292	ROAD	existing	road	coverage 0.5354, 138 families, 6 areas
+293	MOSQUITO	root	mosquito	coverage 0.5336, 139 families, 6 areas
+294	WALK	existing	walk	coverage 0.5324, 138 families, 6 areas
+295	BETWEEN	root	between	coverage 0.5295, 118 families, 6 areas
+296	WRONG	root	wrong	coverage 0.5291, 126 families, 6 areas; opposite of correct
+297	DIG	root	dig	coverage 0.5233, 135 families, 6 areas
+298	SHOULDER	root	shoulder	coverage 0.5227, 135 families, 6 areas
+299	NIPPLE	compound	breast + above	coverage 0.5169, 131 families, 6 areas; tip of breast
+300	SICK	existing	sick	coverage 0.5145, 131 families, 6 areas
+311	PART	grammar	kin	coverage 0.4737, 118 families, 6 areas
+358	INSIDE	existing	inside	coverage 0.4064, 107 families, 6 areas
+410	TRUE	existing	true	coverage 0.358, 85 families, 6 areas
+457	PEOPLE	grammar	Ewo la	coverage 0.3377, 86 families, 5 areas; person plural
+523	PLACE (POSITION)	existing	place	coverage 0.3212, 75 families, 6 areas
+551	THING	existing	thing	coverage 0.3146, 75 families, 6 areas
+644	FOR A LONG TIME	grammar	nin MUyi NEtu	coverage 0.294, 68 families, 6 areas; during long time
+714	TIME	existing	time	coverage 0.2753, 61 families, 6 areas
+856	MOVE	existing	move	coverage 0.2493, 62 families, 6 areas
+904	MORE	grammar	ke	coverage 0.2419, 60 families, 6 areas
+979	HAVE	existing	have	coverage 0.2309, 57 families, 6 areas
+991	FEEL	existing	feel	coverage 0.2296, 56 families, 6 areas
+1369	VERY	grammar	bi	coverage 0.1544, 24 families, 5 areas
+	AFTER	grammar	wo	NSM prime
+	BE ALIVE OR LIFE	existing	live / life	NSM prime
+	CAN	existing	can	NSM prime
+	HAPPEN	existing	happen	NSM prime
+	KIND (THING)	existing	kind	NSM prime
+	KNOW	existing	know	NSM prime
+	SHORT (TIME)	existing	short	NSM prime
+	SOMEONE	grammar	Ewo in	NSM prime; person some
+	THERE IS OR THERE ARE	grammar	gun	NSM prime; subjectless BE
+	THINK	existing	think	NSM prime
+	SIBLING	root	sibling	kinship rule: sibling without sex (efficient-semantics notes)
+	SPOUSE	root	spouse	kinship rule
+	ARM	root	arm	ARM/HAND lumped by 35% of families -> two words; no transparent derivation from 'hand' exists here, so a root (exception to the 20-50% band, noted)
+	NORTH	root	north	lens: both spatial frames cheap (research/notes/lens.md)
+	SOUTH	root	south	lens
+	EAST	root	east	lens
+	WEST	root	west	lens
