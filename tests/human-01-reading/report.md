@@ -15,3 +15,5 @@ The first human data in the project. The user, a native English speaker with a l
 - **Intonation habits:** the user used English energy and length on exclamations and a final rise on questions, and noted they only did so **because of the punctuation marks**.
 
 **Not covered:** perception by another listener; speed; children.
+
+**Follow-up, same day:** after declination was explained (stress peaks step down across a phrase, as English already does with "Mary wanted to buy a new car"), the user reread line 6. In their words, "the staircase was all that was needed… it now sounds not bouncy." So the bounce came from giving every word an equally high peak, and the specified declination fixes it.
