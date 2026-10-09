@@ -156,7 +156,6 @@ understand	mind	3	lafi
 mean	mind	3	yofu
 choose	mind	2	waka
 need	mind	4	wupi
-can	mind	5	lanu
 must	mind	3	keya
 try	mind	3	walo
 happy	mind	3	sogi
@@ -306,7 +305,6 @@ car	thing	3	tale
 6^-8	number	2	bafo
 POWER	number	2	unun
 unit.time	unit	4	nane
-unit.length	unit	4	ano
 unit.mass	unit	4	fomi
 unit.charge	unit	2	yoke
 unit.temperature.interval	unit	3	sigi
@@ -340,7 +338,6 @@ south	space	3	monna
 east	space	3	anyu
 west	space	3	munke
 breast	body	4	egu
-bite	action	4	nega
 neck	body	4	mogo
 liver	body	4	gudu
 knee	body	4	leyi
@@ -399,7 +396,6 @@ buttocks	body	2	nunfo
 sour	taste	2	tufun
 flat	quality	2	mawun
 crooked	quality	2	ginda
-high	space	2	pisan
 correct	quality	2	denku
 snore	action	2	nenmu
 quiet	quality	2	mange
@@ -462,7 +458,6 @@ block	time	3	boyo
 7	number	4	oma
 8	number	4	kefi
 9	number	4	mape
-10	number	4	webo
 100	number	4	loki
 1000	number	3	munno
 10^6	number	3	tonen
@@ -473,3 +468,8 @@ minute	loan	4	minitu
 second	loan	3	sekandu
 kilometre	loan	2	kilamita
 percent	loan	2	pasentu
+can	mind	5	lenu
+bite	action	4	lasu
+high	space	2	tisan
+10	number	4	yawu
+unit.length	unit	4	ago

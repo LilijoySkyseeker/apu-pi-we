@@ -373,3 +373,15 @@ I proposed a B6 plan (lexicon counts for rhyme and alliteration, demonstration p
 - **Senary** keeps all its words (now marked kind "senary" in `numbers.tsv`); a senary number is introduced with the loan **senali**. `measurement.md` is now "Senary vocabulary"; `number-base.md` is marked superseded.
 - **Borrowing (user):** technical and international words are taken from English through the sound rules, on demand, with no list (option A). International unit symbols pass through in writing. First loans in the lexicon: **awuwa** hour, **minitu** minute, **sekandu** second, **kilamita**, **pasentu**, **senali**. Flag recorded once: this favours English speakers in sound, not in meaning.
 - **Offensive-word filter (user):** `tools/offensive.py` streams Wiktionary (kaikki.org) for 34 major languages: entries tagged vulgar, offensive, slur or derogatory, plus taboo meanings (sex, genitals, excrement, urine, death) read from glosses: 32,910 pronunciations. Each is mapped into our sounds and compared with every word (exact, near after merging voicing and e/i, o/u, or prefix). Ranking keeps words whose *main* sense is offensive and that are common (wordfreq Zipf ≥ 2.5). The word tools now skip any form matching such a word; the new number words were coined through it. Existing words that match are listed for the user before anything moves.
+
+## Offensive-word moves (2026-10-09)
+
+Reviewed by hand from the filter's ranked list; user: "proceed as you see fit". Moved, with the tools, avoiding the old forms:
+- **lanu** → **lenu** "can" (Hindi/Urdu/Punjabi *lan(d)* "penis")
+- **nega** → **lasu** "bite" (German *Neger*, English n-word)
+- **pisan** → **tisan** "high" (German *pissen*)
+- **webo** → **yawu** "10" (Mexican Spanish *webo/huevo*, slang for testicle; coined hours earlier)
+- **ano** → **ago**, the senary length unit (Spanish/Italian *ano* "anus"); senary r23 changed its symbol An → Ag (PR #4)
+- **ku** → **nun** "polite" (Portuguese *cu* "arse", Vietnamese *cu* "penis"); **nun** was the one free form keeping the same-slot consonant rule.
+
+Kept: **lon** "I" (Vietnamese *lồn*), **pi** "of" (Mandarin *bī*; its high tone doesn't match our low unstressed **pi**), **go** "anyone" (Persian *goh*). No free one-syllable form exists for them; moving them means rebuilding all 64 grammar words, which would break the user's learning and every text. Add back (a full grammar rebuild with the filter) if a speaker of those languages finds it a real problem. Also kept as mild or comic: **wiwi** red (*wee-wee*), **tana** like (Tagalog *tanga*), **badin** lung (Tagalog *bading*), **kono** die (Spanish hears *cono*, not *coño*).

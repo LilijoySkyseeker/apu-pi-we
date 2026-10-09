@@ -151,7 +151,7 @@ Names always take **en**: **en mala** "Mara". Names are adapted to the sounds: L
 
 - **upe** hello ("good"), **upe leso** good morning, **upe isi** goodbye ("go well")
 - **lota** thanks, **sepi** sorry
-- **ku** makes anything polite: **so ku neke lon osa.** "Could you please give me water?" Add more for more: **ku ku**.
+- **nun** makes anything polite: **so nun neke lon osa.** "Could you please give me water?" Add more for more: **nun nun**.
 - **mm** "I heard you", **huh?** "say again"
 
 The first word of a sentence can say what kind of sentence it is. You'll mostly use these:
@@ -166,7 +166,7 @@ The first word of a sentence can say what kind of sentence it is. You'll mostly 
 | **yo** | warning; **yo yo** = emergency |
 | **ba** | exclamation |
 
-Being polite never means hinting. English softens a warning into "might want to check the stove"; here you say **yo ku** (warning, politely) and then the problem.
+Being polite never means hinting. English softens a warning into "might want to check the stove"; here you say **yo nun** (warning, politely) and then the problem.
 
 ## Lesson 9: Numbers
 
@@ -178,19 +178,19 @@ Numbers are base 10, like English, but completely regular.
 
 Yes, 6 is **ufo**. Enjoy it. 6–9 have two syllables because the language ran out of short sounds.
 
-**Place words:** **webo** 10, **loki** 100, **munno** 1000, **tonen** million, **siwin** billion. Say the digit, then the place word, biggest first. A 1 before a place word is dropped:
+**Place words:** **yawu** 10, **loki** 100, **munno** 1000, **tonen** million, **siwin** billion. Say the digit, then the place word, biggest first. A 1 before a place word is dropped:
 
 | Number | Said | Literally |
 |---|---|---|
-| 10 | **webo** | ten |
-| 12 | **webo sa** | ten two |
-| 15 | **webo te** | ten five |
-| 20 | **sa webo** | two ten |
-| 50 | **te webo** | five ten |
-| 99 | **mape webo mape** | nine ten nine |
+| 10 | **yawu** | ten |
+| 12 | **yawu sa** | ten two |
+| 15 | **yawu te** | ten five |
+| 20 | **sa yawu** | two ten |
+| 50 | **te yawu** | five ten |
+| 99 | **mape yawu mape** | nine ten nine |
 | 100 | **loki** | hundred |
-| 365 | **ka loki ufo webo te** | three hundred six ten five |
-| 2026 | **sa munno sa webo ufo** | two thousand two ten six |
+| 365 | **ka loki ufo yawu te** | three hundred six ten five |
+| 2026 | **sa munno sa yawu ufo** | two thousand two ten six |
 
 There are no teens, no "-ty", no irregular numbers at all. English makes you learn *eleven*, *twelve*, *fifteen* and *fifty* separately; here they fall out of the rule.
 
@@ -207,7 +207,7 @@ There are no teens, no "-ty", no irregular numbers at all. English makes you lea
 - **Offsets from now:** **wo nelon fi** "after one week" = next week; **ya dunan fi** "before one month" = a month ago.
 - **dili** day, **nelon** week, **dunan** month (also "moon"), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.
 - **Clock time is 24-hour, read as digits:** **mon fi te ka po** "at 15 30".
-- **Dates:** the month by number, then the day: **dunan pi webo, dili pi mape** "October 9". On its own, **dili pi** + 1–7 is a weekday, Monday = 1: **dili pi ka** "Wednesday".
+- **Dates:** the month by number, then the day: **dunan pi yawu, dili pi mape** "October 9". On its own, **dili pi** + 1–7 is a weekday, Monday = 1: **dili pi ka** "Wednesday".
 - **Age is time lived:** **lon nume fawu …** "I have lived … years".
 
 ## Lesson 11: Making words you don't have
@@ -238,7 +238,7 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 
 You can skip these at first. Learn them once the basics are easy.
 
-- **How sure you are, in tenths:** **kon oma wan obu** "7 in 10 she's coming" (likely). **kon webo** is certain, **kon po** impossible. It's optional; plain statements mean you believe them.
+- **How sure you are, in tenths:** **kon oma wan obu** "7 in 10 she's coming" (likely). **kon yawu** is certain, **kon po** impossible. It's optional; plain statements mean you believe them.
 - **How you know:** **o** "I saw it", **fen** "I was told", **san** "I worked it out". Also optional.
 
 ## Where to go next

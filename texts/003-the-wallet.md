@@ -1,5 +1,7 @@
 # Stress test 003: the wallet
 
+> Vocabulary as at the test date; later word changes are listed in `docs/design-log.md`.
+
 An original passage Claude wrote (2026-10-08) to test:
 - the rebuilt words
 - emphasis and contrast

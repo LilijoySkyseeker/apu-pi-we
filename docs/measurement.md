@@ -11,7 +11,7 @@ Apu Pi We's own numbers are base 10, and everyday measurement uses today's units
 | `~/work/repos/senary` | the quantities: unit definitions, exact values, constants, the calendar's arithmetic | `src/senary_tables.py` |
 | this repo | the words: unit names, number words, how measurements are said | `data/units.tsv`, `data/numbers.tsv`, this file |
 
-Neither repo copies the other's job. If senary changes a definition, nothing here changes unless a unit is added or removed. If this repo renames a word, senary's numbers are unaffected. Since senary r22 (2026-10-09) senary itself uses this language's words for every unit and prefix, and derives its written symbols from them (first two letters: **ano** → An; **sigi** takes Sg so it can't be read as SI). Its old working labels (Kena, Nira…) survive only in its pre-r22 history.
+Neither repo copies the other's job. If senary changes a definition, nothing here changes unless a unit is added or removed. If this repo renames a word, senary's numbers are unaffected. Since senary r22 (2026-10-09) senary itself uses this language's words for every unit and prefix, and derives its written symbols from them (first two letters: **ago** → Ag; **sigi** takes Sg so it can't be read as SI). Its old working labels (Kena, Nira…) survive only in its pre-r22 history.
 
 ## Unit words
 
@@ -20,7 +20,7 @@ Each senary name was kept only if, after adapting sounds the language lacks (r �
 | Quantity | Word | Senary's working label before r22 | Size |
 |---|---|---|---|
 | time | **nane** | Kena | 0.3086 s (a day is 6⁷ of them) |
-| length | **ano** | Nira | 1.530 m |
+| length | **ago** | Nira | 1.530 m |
 | mass | **fomi** | Woba | 1.513 kg |
 | charge | **yoke** | Vema | 0.7592 C |
 | temperature interval | **sigi** | Buda | 2.031 K |
@@ -45,16 +45,16 @@ Unnamed quantities are compounds of unit words, following the usual head-first r
 ## Saying a measurement
 
 The unit comes first and the number follows, like any counted noun:
-- **ano te** = 5 length units.
+- **ago te** = 5 length units.
 - **fomi sa nobi** = 2·6 = 12 mass units (senary place words).
 
 **Scale words are number words.** There are no separate prefixes:
 - 6⁴ **yiyo**, 6⁸ **gife**, 6¹² **yuli**
 - 6⁻⁴ **kufe**, 6⁻⁸ **bafo**, 6⁻¹² **genwi** (coined 2026-10-09 so the set is symmetric)
 
-So **ano te yiyo** = 5 × 1296 length units (about 9.9 km). Senary writes the same words as prefixes: yiyoAn.
+So **ago te yiyo** = 5 × 1296 length units (about 9.9 km). Senary writes the same words as prefixes: yiyoAg.
 
-**One generative rule, six shortcuts.** Any power at all is **unun** "power" + exponent: **ano te unun guti nobi** = 5 × 6⁻⁶ length units. The six scale words are shortcuts for the range where a wrong scale still looks believable; past 6^±12 a slip is absurd and gets noticed, so the plain rule is enough there (senary writes 6ⁿ). This replaced senary's generative prefix ladder in r22, agreed with the user on 2026-10-09: it needed no second set of digits, and direction is carried by a whole word instead of one vowel. Add more named steps if 6^±16 to 6^±24 keep coming up.
+**One generative rule, six shortcuts.** Any power at all is **unun** "power" + exponent: **ago te unun guti nobi** = 5 × 6⁻⁶ length units. The six scale words are shortcuts for the range where a wrong scale still looks believable; past 6^±12 a slip is absurd and gets noticed, so the plain rule is enough there (senary writes 6ⁿ). This replaced senary's generative prefix ladder in r22, agreed with the user on 2026-10-09: it needed no second set of digits, and direction is carried by a whole word instead of one vowel. Add more named steps if 6^±16 to 6^±24 keep coming up.
 
 ## Protecting against plausible wrong values
 

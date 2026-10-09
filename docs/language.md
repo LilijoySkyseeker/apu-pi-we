@@ -16,8 +16,8 @@ Most of the grammar follows from these. The rules after them are the cases the p
 2. **Heads come first, and position carries role.** The order is subject, verb, object. Anything that modifies a word follows it: adjectives after nouns, verbs after nouns (**ewo niba** "walking person"), one verb after another (**goyu pume** "sit thinking" = meditate), noun after noun (**tiwu futa** "child woman" = daughter). Nothing moves, not even question words, so a listener who loses one word can still tell who did what.
 3. **Operators cover what follows them.** The speech-act particle at the start covers the sentence. NOT, confidence, source, ONLY, AT LEAST and degree words cover the clause when they start it, or a single word when placed before it.
 4. **Heavy goes last.** A noun's own modifiers come before its "of" phrase (**lugo to meli pi kima** "rather little knowledge of sticks"). In a causative, the result comes before the object (**muge bonko me** "make angry you"). Long clauses go to the end of the sentence ("there's a good idea: that one hits…"). Relative clauses have no end marker, so nothing may follow them in their phrase.
-5. **Doubling widens or strengthens.** **yo yo** = emergency. **a** = this sentence is not literal; **a a** = the whole turn. **mu mu** = emphatic NOT. **ku ku** = extra deference.
-6. **Every social pressure gets its own outlet.** Emphasis has **ba**, **bi** and doubling; politeness has **ku**. People will always need to stress, soften and show respect. If those needs had no channel of their own, they would wear down the precision words instead (see [drift.md](drift.md)). So the confidence numbers are never used for emphasis, and the speech acts and hedges are never used for politeness.
+5. **Doubling widens or strengthens.** **yo yo** = emergency. **a** = this sentence is not literal; **a a** = the whole turn. **mu mu** = emphatic NOT. **nun nun** = extra deference.
+6. **Every social pressure gets its own outlet.** Emphasis has **ba**, **bi** and doubling; politeness has **nun**. People will always need to stress, soften and show respect. If those needs had no channel of their own, they would wear down the precision words instead (see [drift.md](drift.md)). So the confidence numbers are never used for emphasis, and the speech acts and hedges are never used for politeness.
 
 ## Sounds
 
@@ -118,7 +118,7 @@ These are built from existing words; no new grammar words were needed (roadmap B
 
   Tense doesn't change; **sin** marks a past event as usual. **don kon po lon sin isi, lon sin nagu wan** = "if I had gone, I would have seen her". There is no separate "would"; the main clause of a condition is understood as its consequence.
 - **Modality: three kinds of "can/must", kept apart.**
-  - Ability: **lanu** "can, be able to".
+  - Ability: **lenu** "can, be able to".
   - Obligation: **keya** "must, have to", **wupi** "need to".
   - Permission: **efon** "allow". "May" is **gun efon** "is allowed": **me gun efon nawi** "you may eat".
   - "Might" and "must" in the sense of *probably* are never modal verbs; they are confidence. "She must be home" is **kon mape wan gun mon guyi** (9 in 10). English "must" and "may" each mean two different things; here they can't.
@@ -128,7 +128,7 @@ These are built from existing words; no new grammar words were needed (roadmap B
   - **… lu … yu.** asks *which*: **me momu osa lu nimo yu.** "water or money, which do you want?" Answer by echoing the choice.
   - **lu X lu Y** is "either X or Y, not both", like French *ou… ou*. Plain **lu** allows both.
 - **Quantities.**
-  - About: **fu** + number (**ewo fu ka webo** "about 30 people").
+  - About: **fu** + number (**ewo fu ka yawu** "about 30 people").
   - Range: **se** X **tun** Y "from X to Y".
   - At least: **pa**. At most: **mu ke se** X "not more than X".
   - Part of a whole: X **pi** Y (**fi pi ka** "one of three", a third). Fractions: the point **mimi**.
@@ -146,13 +146,13 @@ These are built from existing words; no new grammar words were needed (roadmap B
 
 Evidence: `research/notes/politeness.md`.
 
-- **ku** adds politeness or deference and nothing else. Repeat it for more: **ku ku**, **ku ku ku**. It will wear down: every dedicated politeness word does (English *please*), and polite pronouns cycle every 150–300 years. When plain **ku** stops sounding polite, **ku ku** becomes the ordinary polite form. The renewal stays in its own slot.
-- **No polite pronouns and no speech levels.** **me** is "you" to anyone. Respect is **ku** plus how you address someone: a name (**en …**) or a role word before the name, e.g. **no tofo en mala** "Teacher Mara". Address words can be replaced when they wear out; pronouns can't.
+- **nun** adds politeness or deference and nothing else. Repeat it for more: **nun nun**, **nun nun nun**. It will wear down: every dedicated politeness word does (English *please*), and polite pronouns cycle every 150–300 years. When plain **nun** stops sounding polite, **nun nun** becomes the ordinary polite form. The renewal stays in its own slot.
+- **No polite pronouns and no speech levels.** **me** is "you" to anyone. Respect is **nun** plus how you address someone: a name (**en …**) or a role word before the name, e.g. **no tofo en mala** "Teacher Mara". Address words can be replaced when they wear out; pronouns can't.
 - **Politeness never changes what you're doing.**
-  - A polite instruction is **tin ku**; a very polite warning is **yo ku ku**.
+  - A polite instruction is **tin nun**; a very polite warning is **yo nun nun**.
   - Hints, questions, advice (**fon**) and low confidence numbers are never used to be polite. In accident reports the danger is a junior hinting where they should warn, and hints are judged *less* polite than clear requests anyway.
-  - The pattern crews rated most effective: state the problem, name the act, say what *we* need. **yo ku, osa le obu. fon ku, pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
-- **In an emergency (yo yo), ku isn't expected.** Leaving it out is urgent, not rude.
+  - The pattern crews rated most effective: state the problem, name the act, say what *we* need. **yo nun, osa le obu. fon nun, pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
+- **In an emergency (yo yo), nun isn't expected.** Leaving it out is urgent, not rude.
 - **Routines** (none is required; people in many languages rarely thank in everyday requests):
   - greeting: **upe**, optionally with the time of day (**upe leso** "good morning");
   - farewell: **upe isi** "go well";
@@ -161,8 +161,8 @@ Evidence: `research/notes/politeness.md`.
 
 ## Rules the principles don't cover
 
-1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **ku** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so ku …** "please …"). Only a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"
-2. **Confidence is a number of tenths:** **kon** + number = how many chances in 10 that the statement is true (**kon oma** = 7 in 10). **kon po** is impossible, **kon webo** (10 in 10) certain. Extremes take a digit after the point: **kon mape mimi te** = 9.5 in 10. **kon bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for. (Until 2026-10-09 the scale was sixths, sized to the about 7 bands forecasters can use without losing accuracy, Friedman et al. 2018; the user switched to tenths because percentages are familiar. Most speakers will use a few favourite values; that's expected.)
+1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **nun** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so nun …** "please …"). Only a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"
+2. **Confidence is a number of tenths:** **kon** + number = how many chances in 10 that the statement is true (**kon oma** = 7 in 10). **kon po** is impossible, **kon yawu** (10 in 10) certain. Extremes take a digit after the point: **kon mape mimi te** = 9.5 in 10. **kon bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for. (Until 2026-10-09 the scale was sixths, sized to the about 7 bands forecasters can use without losing accuracy, Friedman et al. 2018; the user switched to tenths because percentages are familiar. Most speakers will use a few favourite values; that's expected.)
 3. **Source is optional:** **o** seen, **fen** told, **san** inferred.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **obu** "coming" / **mu obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.
 5. **Questions:** question words stay where the answer would go: **me momu wun lon oyi yu.** "you want me to say what?". They are built from parts: **yu** what, **ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
@@ -187,12 +187,12 @@ Evidence: `research/notes/politeness.md`.
    - To give a *noun* a location, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river" (a bridge). A bare place phrase after a noun attaches to the verb instead (rule above).
    - **nin** + noun phrase = during (**nin dili oma** "for seven days").
    - A phrase setting time or place may open the sentence (**mon muyi fa, …** "at no time, …"). It sets the scene and changes no roles.
-9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **wuma wo dili fi** "tomorrow after one day" = the day after tomorrow. With no anchor, the anchor is now: **wo nelon fi** "after one week" = next week. Calendar and clock are today's: **dili** day, **nelon** week (7 days), **dunan** month (the same word as "moon", as in most language families), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**. Points in time are labels, read digit by digit: the clock in 24-hour time (**mon fi te ka po** "at 15 30"), the year (**fawu pi sa po sa ufo** "year 2026"), the month (**dunan pi webo** "month 10", October). A day of the month is said with its month (**dunan pi webo, dili pi mape** "October 9"); **dili pi** + 1–7 alone is a weekday, Monday = 1 (**dili pi ka** "Wednesday"). A duration is a count (**awuwa ka** "three hours"). Age is lived time: **lon nume fawu ka webo** "I have lived 30 years". The senary calendar has its own words: [measurement.md](measurement.md). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
-10. **Numbers are base 10** (user's ruling, 2026-10-09: base 10 is what the world uses; base 6 was the language's own system until then, see `docs/number-base.md`). Digits 0–5 are one syllable; 6–9 are two, because the one-syllable space is full of grammar words (like English "seven"). Place words: 10 **webo**, 100 **loki**, 1000 **munno**, a million **tonen**, a billion **siwin**.
-    - **Quantity reading:** place words in descending order, each preceded by its digit; a 1 before a place word is dropped: 15 = **webo te** ("ten five"), 50 = **te webo** ("five ten"), 42 = **da webo sa**, 2026 = **sa munno sa webo ufo**. There are no teens or irregular tens, so 15 and 50 can't be confused the way English *fifteen* and *fifty* are.
+9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **wuma wo dili fi** "tomorrow after one day" = the day after tomorrow. With no anchor, the anchor is now: **wo nelon fi** "after one week" = next week. Calendar and clock are today's: **dili** day, **nelon** week (7 days), **dunan** month (the same word as "moon", as in most language families), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**. Points in time are labels, read digit by digit: the clock in 24-hour time (**mon fi te ka po** "at 15 30"), the year (**fawu pi sa po sa ufo** "year 2026"), the month (**dunan pi yawu** "month 10", October). A day of the month is said with its month (**dunan pi yawu, dili pi mape** "October 9"); **dili pi** + 1–7 alone is a weekday, Monday = 1 (**dili pi ka** "Wednesday"). A duration is a count (**awuwa ka** "three hours"). Age is lived time: **lon nume fawu ka yawu** "I have lived 30 years". The senary calendar has its own words: [measurement.md](measurement.md). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
+10. **Numbers are base 10** (user's ruling, 2026-10-09: base 10 is what the world uses; base 6 was the language's own system until then, see `docs/number-base.md`). Digits 0–5 are one syllable; 6–9 are two, because the one-syllable space is full of grammar words (like English "seven"). Place words: 10 **yawu**, 100 **loki**, 1000 **munno**, a million **tonen**, a billion **siwin**.
+    - **Quantity reading:** place words in descending order, each preceded by its digit; a 1 before a place word is dropped: 15 = **yawu te** ("ten five"), 50 = **te yawu** ("five ten"), 42 = **da yawu sa**, 2026 = **sa munno sa yawu ufo**. There are no teens or irregular tens, so 15 and 50 can't be confused the way English *fifteen* and *fifty* are.
     - **Digit reading:** digit by digit, in groups of three from the right. Used for identifiers, phone numbers, codes, clock times and years, and whenever the exact digits matter more than the size.
     - **Fractions:** **mimi** "point" separates the fraction digits: 1/2 = **po mimi te**. A part of a whole: **fi pi ka** "one of three". **guti** = minus. **unun** = "times ten to the": **ka unun guti ufo** = 3 × 10⁻⁶.
-    - Noun + number = count (**dili oma** "seven days"); noun + **pi** + number = label or order (**lite pi po** "step zero"; **dunan pi webo** "month 10").
+    - Noun + number = count (**dili oma** "seven days"); noun + **pi** + number = label or order (**lite pi po** "step zero"; **dunan pi yawu** "month 10").
     - **Senary numbers** (for talking about the senary system) are marked with the borrowed word **senali** and read digit by digit: **senali sa po** = 20₆ = 12. Senary's own number and scale words are in [measurement.md](measurement.md).
 11. **Dropped subjects** are allowed only when the subject repeats after **yen** / **un**, or for the addressee of an instruction or request.
 12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks; a broken-off word just stops (there is no dash).
@@ -211,7 +211,7 @@ Evidence: `research/notes/politeness.md`.
 
 | Group | Words |
 |---|---|
-| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** · not literal **a** · exclaim **ba** · polite **ku** |
+| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** · not literal **a** · exclaim **ba** · polite **nun** |
 | Operators | NOT **mu** · which? **yu** · unspecified **bo** · confidence **kon** · seen **o** · told **fen** · inferred **san** · only **na** · at least **pa** |
 | Pronouns | I **lon** · you **me** · we incl. you **pen** · we excl. you **din** · he/she **wan** · the other one **yi** · it **bu** · logophoric **sun** · anyone **go** · self **nen** |
 | Determiners | plural **la** · this **tan** · that **ben** · all **we** · some **in** · some-not-all **kin** · none **fa** |
@@ -232,7 +232,7 @@ Determiners, like other modifiers, follow the noun: **guyi tan** "this house", *
 
 | 10 | 100 | 1000 | million | billion | point | minus | × 10 to the | senary |
 |---|---|---|---|---|---|---|---|---|
-| **webo** | **loki** | **munno** | **tonen** | **siwin** | **mimi** | **guti** | **unun** | **senali** |
+| **yawu** | **loki** | **munno** | **tonen** | **siwin** | **mimi** | **guti** | **unun** | **senali** |
 
 Measurements use borrowed unit words, unit first like any counted noun: **kilamita te** "5 km". Senary's units and scale words: [measurement.md](measurement.md).
 

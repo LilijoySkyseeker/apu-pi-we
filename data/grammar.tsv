@@ -56,7 +56,7 @@ AT.LEAST	op	1.0	pa
 WHILE	link	2.0	nin
 EXCLAIM	act	1.5	ba
 SELF	pron	3.0	nen
-POLITE	act	3	ku
+POLITE	act	3	nun
 IT	pron	5	bu
 AGENT	deriv	4	no
 RESULT	deriv	2	ge
