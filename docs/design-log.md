@@ -302,3 +302,7 @@ Five original texts (Lagos, Seoul, Mumbai, São Paulo, Cairo; `tests/vocabulary-
 ## Vocabulary test 03 (2026-10-08)
 
 Recipe, machine instructions, race report, neighbour complaint, storm warning (`tests/vocabulary-03-modern/`): essentially all correct. About 1 point lost to a missing word (onion → potato), so **onion** was added. Losses to missing words are falling: 2–3, then 1–1.5, then about 1. A pronoun slip by Claude (recency rule vs the natural pull to the topic) is noted as an open issue to watch.
+
+## Deep-layer criterion: convergence; time-stability as a check (2026-10-08)
+
+The user asked whether stability over long time spans is the best measure of base human experience. Answer, agreed: it's strong corroboration, but lineage breadth already integrates deep time. Time studies measure word-form survival, which mostly tracks frequency, and the agreement of independent signals is the better criterion. Check: the seed already held all of Holman's 40 most stable concepts and all but one of Pagel's 23 ultraconserved words; **worm** and **grind** added.

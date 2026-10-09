@@ -377,3 +377,5 @@ rank	concept	decision	expression	evidence
 312	POINTED	built/compound	sharp	batch 2; lumped with sharp
 315	NO	built/compound	mu / echo answer	batch 2; grammar
 1319	HARVEST	built/compound	gather + pi + food	batch 2; compound
+	WORM	root	worm	corroboration check: Pagel et al. 2013 ultraconserved list
+	GRIND	root	grind	corroboration check: Leipzig-Jakarta (Tadmor 2009)
