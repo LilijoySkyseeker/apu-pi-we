@@ -215,7 +215,7 @@ Determiners, like other modifiers, follow the noun: **guyi tan** "this house", *
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **po** | **fi** | **sa** | **ka** | **da** | **te** | **nobi** | **miko** | **niyu** | **yiyo** | **gife** | **yuli** | **mimi** | **guti** |
 
-Fractional groups: 6⁻⁴ **kufe**, 6⁻⁸ **bafo**. Any other power: **unun** "power" + exponent. Units and how to say measurements: [measurement.md](measurement.md).
+Fractional groups: 6⁻⁴ **kufe**, 6⁻⁸ **bafo**, 6⁻¹² **genwi**. Any other power: **unun** "power" + exponent. Units and how to say measurements: [measurement.md](measurement.md).
 
 ## Vocabulary
 

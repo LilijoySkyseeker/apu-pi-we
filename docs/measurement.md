@@ -9,13 +9,13 @@ The language's measurement system is the senary system, carried over on 2026-10-
 | `~/work/repos/senary` | the quantities: unit definitions, exact values, constants, the calendar's arithmetic | `src/senary_tables.py` |
 | this repo | the words: unit names, number words, how measurements are said | `data/units.tsv`, `data/numbers.tsv`, this file |
 
-Neither repo copies the other's job. If senary changes a definition, nothing here changes unless a unit is added or removed. If this repo renames a word, senary's numbers are unaffected. Senary's own words (Kena, Nira…) were declared placeholders in its README; this language's words replace them in speech.
+Neither repo copies the other's job. If senary changes a definition, nothing here changes unless a unit is added or removed. If this repo renames a word, senary's numbers are unaffected. Since senary r22 (2026-10-09) senary itself uses this language's words for every unit and prefix, and derives its written symbols from them (first two letters: **ano** → An; **sigi** takes Sg so it can't be read as SI). Its old working labels (Kena, Nira…) survive only in its pre-r22 history.
 
 ## Unit words
 
 Each senary name was kept only if, after adapting sounds the language lacks (r → l, v → w, z → s), it was no more confusable than the 90th percentile of ordinary words, and passed the drift and juncture rules. One name survived: *Wela*. The rest were re-picked by the optimizer. The worst original was *fuka* "pressure", about 270 times as confusable as a typical word, mostly with *futa* "woman". Built by `tools/units.py` (removed 2026-10-09 as single-use; in git history).
 
-| Quantity | Word | Senary's working label (r19) | Size |
+| Quantity | Word | Senary's working label before r22 | Size |
 |---|---|---|---|
 | time | **nane** | Kena | 0.3086 s (a day is 6⁷ of them) |
 | length | **ano** | Nira | 1.530 m |
@@ -48,15 +48,15 @@ The unit comes first and the number follows, like any counted noun:
 
 **Scale words are number words.** There are no separate prefixes:
 - 6⁴ **yiyo**, 6⁸ **gife**, 6¹² **yuli**
-- 6⁻⁴ **kufe**, 6⁻⁸ **bafo**
+- 6⁻⁴ **kufe**, 6⁻⁸ **bafo**, 6⁻¹² **genwi** (coined 2026-10-09 so the set is symmetric)
 
-So **ano te yiyo** = 5 × 1296 length units (about 9.9 km). This is senary's 6⁴ ladder, said with this language's words.
+So **ano te yiyo** = 5 × 1296 length units (about 9.9 km). Senary writes the same words as prefixes: yiyoAn.
 
-Beyond those, **unun** "power" + exponent: **ano te unun guti nobi** = 5 × 6⁻⁶ length units.
+**One generative rule, six shortcuts.** Any power at all is **unun** "power" + exponent: **ano te unun guti nobi** = 5 × 6⁻⁶ length units. The six scale words are shortcuts for the range where a wrong scale still looks believable; past 6^±12 a slip is absurd and gets noticed, so the plain rule is enough there (senary writes 6ⁿ). This replaced senary's generative prefix ladder in r22, agreed with the user on 2026-10-09: it needed no second set of digits, and direction is carried by a whole word instead of one vowel. Add more named steps if 6^±16 to 6^±24 keep coming up.
 
 ## Protecting against plausible wrong values
 
-A misheard digit gives a wrong number. A misheard *scale* word gives a wrong number of the right shape, off by 6⁴ or more, which is the error most likely to go unnoticed (senary's error-size principle). So each down-scale word was built as an "antonym" of its up-scale partner (**yiyo** / **kufe**, **gife** / **bafo**), which gives those pairs the strongest confusion weighting the optimizer has.
+A misheard digit gives a wrong number. A misheard *scale* word gives a wrong number of the right shape, off by 6⁴ or more, which is the error most likely to go unnoticed (senary's error-size principle). So each down-scale word was built as an "antonym" of its up-scale partner (**yiyo** / **kufe**, **gife** / **bafo**, **yuli** / **genwi**), which gives those pairs the strongest confusion weighting the optimizer has.
 
 ## Time and calendar
 
@@ -93,5 +93,5 @@ Senary's r20/r21 rework (2026-10-09) supplies the concepts: one continuous count
 ## Not carried over
 
 - **Senary's spoken numerals** (consonant = digit, vowel = role) tested about 400× more confusable than this language's digits (`docs/number-base.md`).
-- **Its unit names**, for the reasons above.
+- **Its unit names and prefix ladder**, for the reasons above. Senary now uses this language's words instead.
 - **Its process machinery** (generated specification, mutation tests). That stays in the senary repo, where the arithmetic lives.
