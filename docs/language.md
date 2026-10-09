@@ -1,6 +1,8 @@
-# The language: current reference
+# Apu Pi We: current reference
 
 This is the current state. Reasons and history are in [design-log.md](design-log.md); evidence is in [../research/](../research/).
+
+**Name:** **apu pi we** "everyone's language" (in English, Apu Pi We; chosen 2026-10-09). It follows the rule for naming any language, **apu pi** + whose it is, and it belongs to no people or place.
 
 **What it is:** a thought experiment in designing a universal human language for modern Earth from first principles. It's imagined as a *native* language, one that children grow up speaking, so the only fixed constraints are human: mouth, ear, memory, attention.
 
@@ -219,7 +221,7 @@ Fractional groups: 6⁻⁴ **kufe**, 6⁻⁸ **bafo**, 6⁻¹² **genwi**. Any o
 
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv) holds 447 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move.
+[../data/lexicon.tsv](../data/lexicon.tsv) holds 447 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. One root can cover senses that most language families lump: **apu** is both "word" and "language" (CLICS4, lumped in 47 of 71 families, 50.2% family-balanced; "tongue" = "language" is only 9.5%). A count keeps them apart: **apu fi** "one word". All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move.
 
 ## How much to trust the sound choices
 
