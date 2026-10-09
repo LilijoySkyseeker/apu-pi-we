@@ -65,7 +65,7 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
 - **A5 partly done.** Stress is now a pitch movement, the rhythm is syllable-timed with full vowels, and the vocabulary is drift-proofed. Focus/emphasis is still open: test it in the next back-translation before adding anything.
 - **A2 done (2026-10-08).** Four derivation markers plus relation-word coinage; A/B tested (`tests/wordbuilding-ab-01/`). Found: the one-syllable grammar space is full; new grammar words must be two syllables.
 - **A4 done (2026-10-08).** Name article **en**; rule-based adaptation with an added **u**; 43.5/44 world names recovered blind (`tests/names-01/`).
-- **A6 started.** Politeness particle **ku** adopted (outlet principle). Address terms and honorific levels are still undesigned.
+- **A6 done (2026-10-08).** Politeness through **ku** and address terms only; no polite pronouns or speech levels; politeness never changes the act. Blind test 20/20 on act and urgency (`tests/backtranslation-03-politeness/`).
 
 ## Recommended order
 

@@ -229,3 +229,16 @@ Research (`research/notes/names-and-loans.md`) overturned the plan to give names
 - the personal article **en** before every name (one of the last two free one-syllable slots);
 - deterministic adaptation (`tools/names.py`): nearest native sound, glides between vowels, consonants never dropped.
 Blind test (`tests/names-01/`): 44 world names; an added fixed **u** recovered about 43.5/44, copying a nearby vowel 42/44. Adopted **u** (it marks itself as added), plus a two-syllable minimum for names. Texts 002 and 003 updated (Lilith → **en LIlifu**, Tomas → **en TOmasu**, Ben → **en BEnu**). The one-syllable grammar space now has one slot left (nu/nun, which clashes with AGENT after drift).
+
+## Politeness (A6) (2026-10-08)
+
+Research (`research/notes/politeness.md`): first officers hint even in high-risk situations (Fischer & Orasanu); hints are rated less polite than clear requests (Blum-Kulka); polite pronouns wear down on a 150–300-year cycle, so a politeness word will inflate (English *please*); speech levels are receding where they exist. Design:
+- no polite pronouns and no speech levels;
+- **ku** freely repeatable, with inflation sanctioned;
+- respect through **ku** plus address terms;
+- politeness never changes the act, and hints, questions, **fon** and low confidence numbers are never politeness;
+- the problem / act / "we need" pattern;
+- no **ku** expected in **yo yo**;
+- routines: **Upe** greeting, **Upe Isi** farewell, **LOta** thanks (new root), **SEpi** sorry.
+
+Not adopted: an escalation convention and an urgent register beyond **yo yo** (add back if a test shows urgency lost). Blind test (`tests/backtranslation-03-politeness/`): content 19/20, act and urgency 20/20, politeness 19/20; politeness never blurred an act.

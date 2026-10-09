@@ -73,6 +73,23 @@ Four markers turn a verb, or a verb phrase, into a noun that names a role in the
   Add a marker only if a test shows one of these failing.
 - **Derived words that get frequent may be clipped into new two-syllable roots,** as drift predicts. When that happens, assign the clipped form with the optimizer.
 
+## Politeness and routines
+
+Evidence: `research/notes/politeness.md`.
+
+- **ku** adds politeness or deference and nothing else. Repeat it for more: **ku ku**, **ku ku ku**. It will wear down: every dedicated politeness word does (English *please*), and polite pronouns cycle every 150–300 years. When plain **ku** stops sounding polite, **ku ku** becomes the ordinary polite form. The renewal stays in its own slot.
+- **No polite pronouns and no speech levels.** **me** is "you" to anyone. Respect is **ku** plus how you address someone: a name (**en …**) or a role word before the name, e.g. **no TOfo en MAla** "Teacher Mara". Address words can be replaced when they wear out; pronouns can't.
+- **Politeness never changes what you're doing.**
+  - A polite instruction is **tin ku**; a very polite warning is **yo ku ku**.
+  - Hints, questions, advice (**fon**) and low confidence numbers are never used to be polite. In accident reports the danger is a junior hinting where they should warn, and hints are judged *less* polite than clear requests anyway.
+  - The pattern crews rated most effective: state the problem, name the act, say what *we* need. **yo ku: Osa le Obu. fon ku: pen WUpi Isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
+- **In an emergency (yo yo), ku isn't expected.** Leaving it out is urgent, not rude.
+- **Routines** (none is required; people in many languages rarely thank in everyday requests):
+  - greeting: **Upe**, optionally with the time of day (**Upe LEso** "good morning");
+  - farewell: **Upe Isi** "go well";
+  - thanks: **LOta**;
+  - sorry: **SEpi**.
+
 ## Rules the principles don't cover
 
 1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **ku** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so ku …** "please …"). Only a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"

@@ -1,0 +1,10 @@
+P1. Nurse: "Good morning, Doctor Okafor." (polite, respectful)
+P2. Doctor: "Good morning. Please sit down." (polite request)
+P3. Nurse: "Excuse me, I'm sorry to interrupt, but the patient's heart is slowing." (polite, but clearly a warning)
+P4. Doctor: "Thank you. Give him fluids now." (thanks; a plain, direct instruction)
+P5. Nurse: "With respect, Doctor, I think we need to stop the surgery." (very polite, but a clear recommendation to stop)
+P6. Nurse: "Stop! His heart has stopped!" (emergency; no politeness, and none expected)
+P7. Doctor: "I'm sorry. You were right." (apology)
+P8. Doctor: "Would you mind closing the door?" (polite request)
+P9. Nurse: "I'm afraid I can't do that." (polite refusal)
+P10. Doctor: "Thanks. Goodbye; see you tomorrow."
