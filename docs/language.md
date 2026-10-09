@@ -149,6 +149,7 @@ Evidence: `research/notes/politeness.md`.
    - A prepositional phrase attaches to its clause's main verb, never to a modifier.
    - A preposition can take a clause (**wo wan la YIdu go** "after they take someone") or a verb that names the act (**se KUsa** "from leaving").
    - **ya** alone = "first, beforehand".
+   - To give a *noun* a location, use a relative clause: **SOla man gun mon BIge pi YOlan** "the road that is above the river" (a bridge). A bare place phrase after a noun attaches to the verb instead (rule above).
    - **nin** + noun phrase = during (**nin DIli NObi FI** "for seven days").
    - A phrase setting time or place may open the sentence (**mon MUyi fa, …** "at no time, …"). It sets the scene and changes no roles.
 9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **WUma wo DIli FI** "tomorrow after one day" = the day after tomorrow. Time of day is the fraction of the day, read digit by digit (**mon MImi KA DA KA** "at .343 of the day" = 15:00); a duration is a count (**Aya KA** "three watches", 12 h). See [measurement.md](measurement.md). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.

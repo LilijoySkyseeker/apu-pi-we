@@ -294,3 +294,7 @@ The user noticed batch 2 leaned towards small-scale, low-technology life (scorpi
 - World layer: weighted by modern need, measured by blind tests on modern urban texts from many cultures. Built words by default.
 
 Six creature roots from batch 2 were demoted to descriptions (spider, turtle, frog, bat, scorpion, grasshopper; now in `data/compounds.tsv`). The lexicon is now 439 roots.
+
+## Vocabulary test 02: modern urban texts (2026-10-08)
+
+Five original texts (Lagos, Seoul, Mumbai, São Paulo, Cairo; `tests/vocabulary-02-modern/`). Almost everything came through, including modern abstractions built from parts: expensive, government, meeting, laptop, nurse, prescription, blood pressure, protest. About 1–1.5 points were lost to missing words (City Hall → Parliament, bread → grain), so **city** and **bread** were added and "internet" registered as a loan. A noun's location now takes a relative clause. The stop condition is not met yet.

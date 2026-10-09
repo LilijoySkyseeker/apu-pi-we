@@ -1,0 +1,22 @@
+Text L (a market in Lagos)
+L1. I called my cousin from the market.
+L2. Tomatoes are expensive today because the trucks are late.
+L3. She said she would send me money through her phone.
+
+Text S (a subway announcement in Seoul)
+S1. The next station is City Hall.
+S2. Doors open on the left.
+S3. Please give your seat to elderly passengers.
+
+Text M (an office email in Mumbai)
+M1. Dear team, the meeting is tomorrow morning.
+M2. Please bring the sales report and your laptops.
+M3. The internet in room 4 is not working.
+
+Text C (a clinic in São Paulo)
+C1. The nurse measured my blood pressure and gave me a prescription.
+C2. I must take one pill twice a day after eating.
+
+Text N (a news item in Cairo)
+N1. The government announced that the price of bread will not rise this year.
+N2. Thousands of workers protested near the bridge.
