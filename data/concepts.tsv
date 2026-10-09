@@ -329,3 +329,51 @@ rank	concept	decision	expression	evidence
 	SOUTH	root	south	lens
 	EAST	root	east	lens
 	WEST	root	west	lens
+324	FRUIT	root	fruit	batch 2; coverage 0.4463, 117 families, all 6 areas
+307	AIR	root	air	batch 2; coverage 0.4852, 120 families, all 6 areas
+305	FOG	root	fog	batch 2; coverage 0.494, 127 families, all 6 areas
+318	LIGHTNING	root	lightning	batch 2; coverage 0.4525, 119 families, all 6 areas
+322	LAKE	root	lake	batch 2; coverage 0.4488, 117 families, all 6 areas
+313	ROOF	root	roof	batch 2; coverage 0.4697, 122 families, all 6 areas
+331	CLIMB	root	climb	batch 2; coverage 0.4378, 110 families, all 6 areas
+345	SPLIT	root	split	batch 2; coverage 0.4187, 111 families, all 6 areas
+353	CHEW	root	chew	batch 2; coverage 0.4139, 107 families, all 6 areas
+366	SQUEEZE	root	squeeze	batch 2; coverage 0.3992, 103 families, all 6 areas
+400	SCRATCH	root	scratch	batch 2; coverage 0.3679, 93 families, all 6 areas
+486	SWELL	root	swell	batch 2; coverage 0.3302, 84 families, all 6 areas
+643	STAB	root	stab	batch 2; coverage 0.2942, 74 families, all 6 areas
+306	STEAL	root	steal	batch 2; coverage 0.4885, 124 families, all 6 areas
+308	HUNT	root	hunt	batch 2; coverage 0.4846, 122 families, all 6 areas
+314	SHOOT	root	shoot	batch 2; coverage 0.468, 119 families, all 6 areas
+317	FLOW	root	flow	batch 2; coverage 0.4544, 118 families, all 6 areas
+319	COUNT	root	count	batch 2; coverage 0.4524, 116 families, all 6 areas
+371	CHICKEN	root	chicken	batch 2; coverage 0.396, 100 families, all 6 areas
+372	INTESTINES	root	intestines	batch 2; coverage 0.3942, 102 families, all 6 areas
+388	FROG	root	frog	batch 2; coverage 0.3811, 94 families, all 6 areas
+394	ARMPIT	root	armpit	batch 2; coverage 0.373, 92 families, all 6 areas
+430	BASKET	root	basket	batch 2; coverage 0.3476, 91 families, all 6 areas
+452	TURTLE	root	turtle	batch 2; coverage 0.3397, 87 families, all 6 areas
+302	SPIDER	root	spider	batch 2; coverage 0.5077, 128 families, all 6 areas
+532	SCORPION	root	scorpion	batch 2; coverage 0.3185, 78 families, all 6 areas
+622	GRASSHOPPER	root	grasshopper	batch 2; coverage 0.2979, 70 families, all 6 areas
+379	BAT	root	bat	batch 2; coverage 0.3891, 102 families, all 6 areas
+326	CLOTHES	root	clothes	batch 2; coverage 0.4455, 110 families, all 6 areas
+733	GOAT	root	goat	on demand (tests/vocabulary-01): came back as 'cattle' from 'horned animals'
+1020	YAM	root	tuber	on demand (tests/vocabulary-01): came back as 'food' from 'food from the ground'
+921	RICE	root	rice	on demand (tests/vocabulary-01): came back as 'grain'
+832	FIELD	root	field	on demand (tests/vocabulary-01): read correctly from 'ground of plants', but long; frequent in farming talk
+	BOIL	root	boil	on demand (tests/vocabulary-01): read correctly from 'make very hot', kept as a root because frequent
+	REACH	root	reach	on demand (tests/vocabulary-01): needed 'cannot come to it' paraphrase
+572	GATHER	root	gather	on demand (tests/vocabulary-01): base for harvest
+301	KNIFE	built/compound	du FONsu (tool for cutting)	batch 2; built word; decoded correctly in tests/wordbuilding-ab-01
+360	AXE	built/compound	du SPLIT (tool for splitting)	batch 2; built word
+341	SPEAR	built/compound	du STAB (tool for stabbing)	batch 2; built word
+335	FIREWOOD	built/compound	wood + li + fire	batch 2; compound with relation
+399	STICK	built/compound	wood + long	batch 2; established compound
+362	NAPE (OF NECK)	built/compound	back + pi + neck	batch 2; compound
+320	GREY	built/compound	white + dark	batch 2; colour beyond the six basic terms: compound (method 3.1)
+647	SKIRT	built/compound	clothes + below	batch 2; compound
+370	CANOE	built/compound	boat	batch 2; lumped with boat
+312	POINTED	built/compound	sharp	batch 2; lumped with sharp
+315	NO	built/compound	mu / echo answer	batch 2; grammar
+1319	HARVEST	built/compound	gather + pi + food	batch 2; compound

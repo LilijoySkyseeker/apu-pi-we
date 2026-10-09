@@ -98,7 +98,7 @@ Mara laugh EXCLAIM other DONE do    other is  more smart from us
 | # | Finding | Fix | Status |
 |---|---|---|---|
 | 1 | **Contrast survived without any device.** The judge confirmed both "*I* didn't, *Tomas* did" and "not the money, the card" read as contrasts. | None needed. Add-back trigger: a test where contrast is lost. | observation |
-| 2 | "**WUma wo PUmu**" read as "tomorrow after one o'clock" | Offsets always name their unit (**wo DIli PU** "after one day"); clock times are labels (**Aya pi KOse**) | adopted |
+| 2 | "**WUma wo PUmu**" (base-10 forms of the time) read as "tomorrow after one o'clock" | Offsets always name their unit (**wo DIli FI** "after one day"); clock times are day fractions (**MImi KA DA KA**) | adopted |
 | 3 | "it" (the wallet) and "he" (Tomas) both used **yi**; with three people, **yi** didn't say which one | **bu** = "it" for things. **yi** = the next most recent different subject. Anyone further back is named. | adopted |
 | 4 | Do speech tags ("…," Ben said) reset pronoun tracking? | No: a say-verb framing a quote doesn't count | adopted |
 | 5 | An if-clause before the speech-act particle wasn't allowed | If/when clauses may come first, like scene-setting phrases | adopted |

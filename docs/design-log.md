@@ -277,3 +277,12 @@ Draft decision procedure in `docs/vocabulary-method.md`, with three points for t
 - 88 got new roots, tagged by topic area and opposites. These include the kinship roots sibling and spouse; arm, as a noted exception to the 20–50% band because no transparent derivation from "hand" exists; and the four compass directions (the lens).
 
 Added principle (user, 2026-10-08): basic words describe observation, not theory; boundaries resting on disproven beliefs get no lineage weight.
+
+## Vocabulary test 01, batch 2, checker (2026-10-08)
+
+The first everyday-text test (`tests/vocabulary-01/`) lost about 2–3 points to missing words (yam, goat, rice), which fired the agreed trigger. Batch 2 (`tools/seed_batch2.py`) added:
+- 29 roots from ranks 301–650 present in all six areas;
+- 7 on-demand roots;
+- 12 built words and compounds.
+
+The lexicon is now 445 roots. The test also caught two stale word forms in Claude's translation, the third such slip, so `tools/check.py` (roadmap C3) now flags unknown words; it also found stale names in reference examples. Colour verified (`research/notes/colour-vision.md`): separate blue rests on naming data and need, not eye physiology.
