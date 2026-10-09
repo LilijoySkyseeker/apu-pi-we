@@ -13,7 +13,7 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 Most of the grammar follows from these. The rules after them are the cases the principles don't cover.
 
 1. **The common case costs nothing.** Statements, ordinary belief, unknown source, the main character, and present-or-unspecified time are all unmarked. Only departures from the default cost a word. Frequent meanings get the shortest words.
-2. **Heads come first, and position carries role.** The order is subject, verb, object. Anything that modifies a word follows it: adjectives after nouns, verbs after nouns (**ewo niba** "walking person"), one verb after another (**goyu pume** "sit thinking" = meditate), noun after noun (**dinbu lumi** "snake fire" = dragon). Nothing moves, not even question words, so a listener who loses one word can still tell who did what.
+2. **Heads come first, and position carries role.** The order is subject, verb, object. Anything that modifies a word follows it: adjectives after nouns, verbs after nouns (**ewo niba** "walking person"), one verb after another (**goyu pume** "sit thinking" = meditate), noun after noun (**tiwu futa** "child woman" = daughter). Nothing moves, not even question words, so a listener who loses one word can still tell who did what.
 3. **Operators cover what follows them.** The speech-act particle at the start covers the sentence. NOT, confidence, source, ONLY, AT LEAST and degree words cover the clause when they start it, or a single word when placed before it.
 4. **Heavy goes last.** A noun's own modifiers come before its "of" phrase (**lugo to meli pi kima** "rather little knowledge of sticks"). In a causative, the result comes before the object (**muge bonko me** "make angry you"). Long clauses go to the end of the sentence ("there's a good idea: that one hits…"). Relative clauses have no end marker, so nothing may follow them in their phrase.
 5. **Doubling widens or strengthens.** **yo yo** = emergency. **a** = this sentence is not literal; **a a** = the whole turn. **mu mu** = emphatic NOT. **ku ku** = extra deference.
@@ -61,7 +61,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 - **Verb + verb:** if the first verb can take an object (want, try, need, must, can, start, stop, teach…), the second is that object: **walo alun** "try to break". Otherwise the second describes the first: **goyu pume** "sit thinking".
 - **muge** is "do", and also the causative "make". The order tells them apart: **muge upe tan** (result, then object) = "make this good, fix it"; **muge tan upe** (object, then manner) = "do this well".
 - Compounds are ordinary phrases that stuck; the established ones are listed in [../data/compounds.tsv](../data/compounds.tsv). To list nouns rather than modify one with another, use **yen** "and": **mole yen wede** "mother and father".
-- **Gender is a modifier**, stated once when it matters: **ewo wungu futa** "the commander, a woman". After that, **wan** carries her.
+- **Gender is a modifier**, stated once when it matters: **no wungu futa** "the commander, a woman". After that, **wan** carries her.
 - **Emphasis and contrast** have no special device yet. Back-translation test 02 showed parallel sentences carry contrast on their own ("**lon mu yidu bu. en tomasu yidu bu.**" = "*I* didn't take it, *Tomas* did"). Add a focus particle if a test shows contrast being lost.
 - **The curse word gefo** fits any content-word slot: a verb (**ba gefo me** "fuck you"), a modifier (**lukan gefo** "fucking head"), or after **yu** (**yu gefo** "what the fuck").
 - **Names** take the article **en**, always: **en mala** "Mara". Many languages have such articles (Tagalog *si*, Māori *a*, Catalan *en*). With the article, a name that happens to sound like a word can't be mistaken for it, the way English copes with names like Rose or Baker.
@@ -86,7 +86,7 @@ Four markers turn a verb, or a verb phrase, into a noun that names a role in the
 
 - **A person it's done to** uses the plain construction **ewo gun** + verb, "person who is …ed": **ewo gun tofo** = student. In the test, **ge** for people was read as a thing ("lesson" for student), and the one-syllable grammar space is full, so there is no separate person marker.
 - **The base can be a whole verb phrase:** **no isi se guyi** "one who goes from home" = traveller.
-- **With a noun base, state the relation with a relation word:** **musu se yaye** "thing from the sky" = meteorite; **pu pi mabo** "place of paper" = an office. The blind test showed that a bare noun + noun leaves the relation to guesswork, so it's used only for established compounds (`data/compounds.tsv`).
+- **With a noun base, link it with pi or make the relation a verb.** **pi** is the one relation word that stays with a noun: **pu pi mabo** "place of paper" = an office, **dinbu pi lumi** "snake of fire" = dragon. Any other relation needs a verb, because a bare relation phrase after a noun belongs to the clause's verb (rule 8): meteorite = **no dosi se yaye** "one that falls from the sky", alien = **no obu se yaye** "one who comes from the sky". The blind test showed that a bare noun + noun leaves the relation to guesswork, so it's used only for gender (**tiwu futa** daughter) and for compounds listed in `data/compounds.tsv`.
 - **No markers are needed for:**
   - action and quality nouns: word position already does it;
   - opposites: **mu**;
@@ -96,6 +96,16 @@ Four markers turn a verb, or a verb phrase, into a noun that names a role in the
 
   Add a marker only if a test shows one of these failing.
 - **Derived words that get frequent may be clipped into new two-syllable roots,** as drift predicts. When that happens, assign the clipped form with the optimizer.
+
+### How a new word is made
+
+The logic lives in how words combine, not in how roots sound. A root's sound is arbitrary on purpose: roots whose sounds followed their meanings (Wilkins 1668, Solresol) turn one misheard sound into a neighbouring meaning, the kind of error nobody notices, and their categories go stale. Real languages split the work the same way: arbitrary roots, with categories in the grammar.
+
+1. **Say it with words you have.** A verb idea takes a marker (**no**, **ge**, **du**, **pu**) and can bring its own relation phrases (**no isi se guyi** traveller). A noun idea links with **pi**, a verb or a relative clause (above). Most new concepts end here, modern ones included (government, prescription and orbit composed fine in the vocabulary tests).
+2. **A new root only when it's earned:** a basic concept that independent language lineages converge on, or a modern concept frequent enough that the phrase is a real cost, or a phrase that fails a blind test. When related senses compete for one root or two, the lump/split rule decides ([vocabulary-method.md](vocabulary-method.md)): **apu** is both "word" and "language", while **yesa** learn and **tofo** teach stay two roots (lumped in only 9.2% of families).
+3. **The tools choose the sound.** `tools/words.py add-content` picks the form least likely to be misheard as a related word, checks it against drift and juncture, and pushes opposites and same-slot alternatives apart (`--antonym`). Forms are never hand-picked.
+4. **Frequent phrases may later be clipped** into roots; the clipped form goes through step 3.
+5. **Names and loans** are adapted, not coined: `tools/names.py`, with **en** before names.
 
 ## Conditions, modality, choices and quantities
 

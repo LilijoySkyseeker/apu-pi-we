@@ -349,3 +349,13 @@ The user ruled that every senary name was temporary and asked for them to be red
 ## The name: apu pi we (2026-10-09)
 
 The lexicon had no word for "language". CLICS4 shows word/language lumped in 47 of 71 families (50.2% family-balanced), meeting the one-root threshold, while tongue/language is 9.5% (mostly Indo-European). So **apu** covers both. Any language is named **apu pi** + whose it is; this one belongs to everyone: **apu pi we** "everyone's language". The user approved; in English, Apu Pi We. Rejected: **apu pi ewo** (reads as "human language" in general) and an invented name (wouldn't follow the grammar). Caution recorded: the casual clip "Apu" is tied to The Simpsons in English.
+
+## How a new word is made; old compounds rebuilt (2026-10-09)
+
+Prompted by the user's question about how logically words are coined and connected. The answer, now written into `language.md` ("How a new word is made"): the logic lives in composition, roots are arbitrary on purpose (sound-meaning schemes like Wilkins' turn one misheard sound into a plausible neighbouring meaning). Audit fixes:
+- Pre-marker person compounds rebuilt: commander **no wungu**, coward **no nuta**, wizard **no wase**, warrior **no migi**, alien **no obu se yaye** (was **ewo yaye**, the type the blind test flagged).
+- **musu se yaye** (meteorite) broke rule 8, since a bare relation phrase after a noun belongs to the verb. Noun bases now link only with **pi**, a verb or a relative clause: meteorite **no dosi se yaye**, dragon **dinbu pi lumi**.
+- bedroom used **temu**, a word that doesn't exist: now **pu wopo**. frog had the same rule-8 problem: now **noso meli man lonfe yen niba**.
+- meditate used **saba**, also not a word: now **goyu pume**, as the reference already said.
+- Possibly redundant roots checked: LEARN/TEACH lumped in 9.2% of families (two roots stay); DIE/DEAD has no CLICS data (both stay).
+Texts 001 and 002 keep their test-time vocabulary, with a note.

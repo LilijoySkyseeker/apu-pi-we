@@ -1,6 +1,8 @@
 # Stress test 002: the commander
 
-Source: a fiction excerpt supplied by the user (2026-10-08): dialogue, narration, inner states. Capitals mark stress (see "Writing" in `docs/language.md`).
+> Vocabulary as at the test date. Since 2026-10-09 the coinage rules rebuilt some compounds: commander **ewo wungu** → **no wungu**, alien **ewo yaye** → **no obu se yaye** (`data/compounds.tsv`).
+
+Source: a fiction excerpt supplied by the user (2026-10-08): dialogue, narration, inner states.
 
 Revised after back-translation test 01 (`tests/backtranslation-01/`): new roots for panic, offend, disgust, system and answer, reflexive **nen**, and the commander introduced as a woman. Measurements below are from the first version.
 
