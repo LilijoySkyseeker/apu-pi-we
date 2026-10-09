@@ -69,6 +69,8 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
 
 - **A7 done (2026-10-08).** No clause-closing word; attachment rules plus pauses, two blind rounds correct (`tests/backtranslation-04-nesting/`). **Section A complete.**
 
+- **B2 done (2026-10-08).** Conditions, modality, comparison, choices, quantities and small function words, all built from existing words; blind coverage test 24/24 (`tests/grammar-coverage-01/`). Dates and clock time wait on the senary rework.
+
 ## Recommended order
 
 A1 → A3 → A5 → A2 → A4 → A6 → A7, then B and C together. D runs alongside, whenever it's interesting.

@@ -1,0 +1,24 @@
+G1. If he had come, I would have eaten.  (counterfactual: he did not come)
+G2. If he came (which is unlikely), I would eat.
+G3. If he comes, I will eat.  (open condition)
+G4. Mara must be at home.  (= she is very probably at home: about 5 in 6)
+G5. Mara must stay at home.  (= she is obliged to)
+G6. You may go.  (permission)
+G7. You can go.  (ability)
+G8. This house is bigger than that house, but smaller than ours (ours includes the listener).
+G9. Mara is the smartest of all.
+G10. Which do you want, fish or meat?  (choose one)
+G11. Do you want fish or meat?  (yes/no: any of them at all)
+G12. You get either fish or meat, not both.
+G13. About 36 people came.
+G14. I need from four to five bags.
+G15. Pay at most twelve.  (instruction; 12 = 2×6)
+G16. A third of the money is mine.
+G17. Don't open the door.
+G18. I also saw him.  (I, in addition to others... or: I also SAW him — "also" covers "saw him")
+G19. They saw each other.
+G20. I don't know whether he came.
+G21. Let's go home.
+G22. He hasn't eaten yet, but he is still sleeping.
+G23. She went to the market to buy fish.
+G24. I watched twice.

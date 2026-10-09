@@ -246,3 +246,14 @@ Not adopted: an escalation convention and an urgent register beyond **yo yo** (a
 ## Deep nesting (A7) (2026-10-08)
 
 Two blind rounds on contract language (`tests/backtranslation-04-nesting/`). Round 1: original nested sentences read fully correctly, but with plausibility doing work in three places. Added mechanical rules: relative clauses attach to the nearest noun; time/reason/condition clauses at the start belong to the main clause and at the end to the innermost clause; a pause goes wherever a phrase could run on (after a fronted clause, after a subject containing a clause, between a recipient and a long object). Round 2: five sentences, three plausibility-neutral, all correct. No clause-closing word adopted; add back if attachment fails in a test. **All seven foundation items (A1–A7) are now done.**
+
+## Remaining grammar (B2) (2026-10-08)
+
+All built from existing words; no new grammar words.
+- **Conditions** use the confidence scale: **don** open, **don kon FI** unlikely, **don kon PO** counterfactual; no "would".
+- **Modality** keeps three kinds apart: ability **LAnu**, obligation **KEya**/**WUpi**, permission **gun Efon** (new root "allow"). Epistemic "must/might" is always confidence.
+- **Comparison and choices:** less = more of the opposite; equality with **fu**; which-question **… lu … yu?** vs yes/no **min … lu …**; exclusive or **lu X lu Y**.
+- **Quantities:** about **fu** + number, range **se … tun**, at most **mu ke se**, part **X pi Y**, occasions **MUyi** + number.
+- **Small words:** **WAme** "also" (new root) scopes like **na**; each other **nen nen**; don't **tin mu**; let's **so pen**; whether **min** inside **wun**; purpose **li** + verb.
+
+Blind coverage test (`tests/grammar-coverage-01/`): 24/24. Dates and clock time stay provisional pending the senary calendar rework.

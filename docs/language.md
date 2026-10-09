@@ -73,6 +73,40 @@ Four markers turn a verb, or a verb phrase, into a noun that names a role in the
   Add a marker only if a test shows one of these failing.
 - **Derived words that get frequent may be clipped into new two-syllable roots,** as drift predicts. When that happens, assign the clipped form with the optimizer.
 
+## Conditions, modality, choices and quantities
+
+These are built from existing words; no new grammar words were needed (roadmap B2, 2026-10-08).
+
+- **Conditions use the confidence scale.** Plain **don** "if" is an open condition. Adding **kon** + digit says how likely the speaker thinks it is:
+  - **don kon PO** "if (and it isn't so)" is counterfactual;
+  - **don kon FI** is "if (unlikely)".
+
+  Tense doesn't change; **sin** marks a past event as usual. **don kon PO lon sin Isi, lon sin NAgu wan** = "if I had gone, I would have seen her". There is no separate "would"; the main clause of a condition is understood as its consequence.
+- **Modality: three kinds of "can/must", kept apart.**
+  - Ability: **LAnu** "can, be able to".
+  - Obligation: **KEya** "must, have to", **WUpi** "need to".
+  - Permission: **Efon** "allow". "May" is **gun Efon** "is allowed": **me gun Efon NAwi** "you may eat".
+  - "Might" and "must" in the sense of *probably* are never modal verbs; they are confidence. "She must be home" is **kon TE wan gun mon GUyi**. English "must" and "may" each mean two different things; here they can't.
+- **Comparison:** **ke** + adjective + **se** + standard (**ke KUdu se GUyi ben** "bigger than that house"). Less = more of the opposite (**ke MEli** "smaller"). Most = **se we** "than all". As … as = **fu** "like" (**KUdu fu bu** "as big as it").
+- **Choices.**
+  - **min … lu …** is a yes/no question about the whole "or": "do you want either?"
+  - **… lu … yu?** asks *which*: **me MOmu Osa lu NImo yu?** "water or money, which do you want?" Answer by echoing the choice.
+  - **lu X lu Y** is "either X or Y, not both", like French *ou… ou*. Plain **lu** allows both.
+- **Quantities.**
+  - About: **fu** + number (**Ewo fu MIko** "about 36 people").
+  - Range: **se** X **tun** Y "from X to Y".
+  - At least: **pa**. At most: **mu ke se** X "not more than X".
+  - Part of a whole: X **pi** Y (**FI pi KA** "one of three", a third). Fractions: the point **MImi**.
+  - Occasions: **MUyi** + number (**MUyi SA** "twice").
+- **Small words built from roots:**
+  - **WAme** "also" works like **na** "only": it covers what follows (**lon WAme NAgu wan** "I also saw her"; **lon NAgu WAme wan** "I saw her too").
+  - Each other = **nen nen** ("self" doubled widens to mutual).
+  - Don't = **tin mu** ….
+  - Let's = **so pen** … ("request: we").
+  - Not yet = **mu sin**; still = **le**.
+  - Whether: **min** inside a **wun** clause (**lon mu LUgo wun min …** "I don't know whether …").
+  - Purpose: **li** + verb "in order to" (**li BIka** "to buy").
+
 ## Politeness and routines
 
 Evidence: `research/notes/politeness.md`.
