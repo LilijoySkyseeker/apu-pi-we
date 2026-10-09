@@ -16,6 +16,9 @@ The user is mostly interested in the **method**, not the word list. So the deliv
 | Stop condition | Two fresh blind tests in a row lose under 1 point to missing words | Claude |
 | Cultural neutrality | **Strong rigor**: concepts and their boundaries come from cross-linguistic data, not English or Claude's intuition | user |
 | Order of building | Shared human experience first: concepts named across the most languages and learned earliest by children everywhere. Expansion follows the same criterion, so culture-specific distinctions arrive naturally as the vocabulary grows; there is no separate "richness" layer. | user (first principles of human experience) |
+| Weighting | By independent lineages (language families and long-contact areas), not by speakers. Each lineage is one independent experiment in carving human experience; speaker counts measure which societies expanded. | user (no speaker weighting) + Claude (lineage weighting) |
+| Target | Not pure neutrality (any vocabulary draws boundaries somewhere) but the efficient frontier: simplicity vs informativeness, weighted by how often humans need each distinction. Use the formal models only where published ones exist (colour, kinship, numbers, some spatial terms); elsewhere, the lineage-weighted majority. | Claude, agreed by user |
+| The lens | What a language makes cheap shapes what its speakers notice (modest but real effects on attention and memory). Which distinctions are cheap is chosen per domain, with evidence, as already done for confidence, source, reference and inclusive "we". | user (language as lens) + Claude |
 | Opposites and topic areas | Tagged for the optimizer, as now | existing method |
 | Tooling | Existing tools only; one data-extraction script if a dataset needs it. No new pipeline. | Claude, per the "automate last" rule |
 
