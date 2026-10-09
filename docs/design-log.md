@@ -257,3 +257,13 @@ All built from existing words; no new grammar words.
 - **Small words:** **WAme** "also" (new root) scopes like **na**; each other **nen nen**; don't **tin mu**; let's **so pen**; whether **min** inside **wun**; purpose **li** + verb.
 
 Blind coverage test (`tests/grammar-coverage-01/`): 24/24. Dates and clock time stay provisional pending the senary calendar rework.
+
+## Vocabulary research, step 1 (2026-10-08)
+
+Four research passes (`research/notes/concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`), with CLICS4, Concepticon, Lexibank, Glottolog and WALS downloaded and checked. Key findings:
+- Lineage coverage is measurable only for the top ~300 concepts; beyond that, the data reflects Indo-European-framed questionnaires.
+- CLICS4 lump rates need a family-balanced computation (`tools/clics_rates.awk`) and cross-checks where broad meanings were copied.
+- Efficiency models are filters, not generators. Colour and kinship have usable results; there's no majority kinship system to copy.
+- Early vocabulary ranks categories, not words, and adds routines.
+
+Draft decision procedure in `docs/vocabulary-method.md`, with three points for the user: seed size (~300 + NSM primes instead of 500–800), lump/split thresholds, and colour (need over majority).
