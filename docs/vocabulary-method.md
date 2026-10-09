@@ -51,4 +51,4 @@ To add:
 - **no** extra colour roots for the lens's sake (colour effects are small);
 - smell vocabulary only if tests show it's missed.
 
-**Evidence caveat:** the effect sizes behind the lens (Russian blues, spatial frames, Pirahã and Mundurukú number, Jahai smell) were stated from memory in the research and are **unverified**. Verify them before relying on them for any further lens decision.
+**Evidence (verified 2026-10-08, `research/notes/lens.md`):** the lens acts on tracking, memory and communication, not perception. Exact number is well established; spatial frames covary with language but causation is contested; colour effects are modest and the perceptual claims fail replication; smell naming effects are large. The choices above stand.
