@@ -359,3 +359,7 @@ Prompted by the user's question about how logically words are coined and connect
 - meditate used **saba**, also not a word: now **goyu pume**, as the reference already said.
 - Possibly redundant roots checked: LEARN/TEACH lumped in 9.2% of families (two roots stay); DIE/DEAD has no CLICS data (both stay).
 Texts 001 and 002 keep their test-time vocabulary, with a note.
+
+## B6 deleted (2026-10-09)
+
+I proposed a B6 plan (lexicon counts for rhyme and alliteration, demonstration poems and songs, a poetics section). The user: "the whole point of the art of a language is something that evolves from real use; any attempt to plan that out is missing the point." Agreed and deleted. The only part with a claim on survival, "does the design block play?", is better answered by use than by a study. Add-back trigger: real use hits something the design blocks. The roadmap's untested claim that five vowels make rhyme abundant went with it.

@@ -44,7 +44,7 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
   - spatial frames: left/right and north/south both available
 - **B4. Conversation routines:** greetings, thanks, leave-taking, address terms, turn-taking, backchannels.
 - **B5. Writing system:** script choice, numerals, punctuation, how names are written (original spelling vs adapted).
-- **B6. Art and play:** poetry (fixed stress makes meter easy; five vowels make rhyme abundant), puns, song. Deliberately unambiguous languages lose wordplay; this one keeps harmless ambiguity, so it shouldn't.
+- ~~**B6. Art and play.**~~ Deleted 2026-10-09 (user): a language's art evolves from real use, so planning it is a moonbase. Add back if real use shows the design *blocking* some kind of play people reach for (a pun, a song, a rhyme that can't be made).
 
 ## C. How we know it works
 
