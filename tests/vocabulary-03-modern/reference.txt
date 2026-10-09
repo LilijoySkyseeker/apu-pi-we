@@ -1,0 +1,22 @@
+Text R (a recipe)
+R1. Wash the rice and boil it in salted water until it is soft.
+R2. Chop the onions and fry them in oil.
+R3. Add the meat, a little sugar and some pepper; then serve it hot.
+
+Text I (ticket machine instructions, Mexico City)
+I1. Touch the screen to choose your language.
+I2. Insert coins or a card, then take your ticket.
+I3. If the machine does not work, ask a guard for help.
+
+Text P (a race report, Nairobi)
+P1. The runner from Kenya won the race, and her friend came second.
+P2. Thousands of fans cheered as she crossed the finish line.
+
+Text D (a complaint, Istanbul apartment)
+D1. Our neighbour plays loud music every night.
+D2. We complained to the building manager, but nothing changed.
+D3. Next time we will call the police.
+
+Text W (a storm warning, Manila)
+W1. A strong storm is coming from the sea; it will probably arrive tonight.
+W2. Stay inside, keep away from windows, and charge your phones.

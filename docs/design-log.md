@@ -298,3 +298,7 @@ Six creature roots from batch 2 were demoted to descriptions (spider, turtle, fr
 ## Vocabulary test 02: modern urban texts (2026-10-08)
 
 Five original texts (Lagos, Seoul, Mumbai, São Paulo, Cairo; `tests/vocabulary-02-modern/`). Almost everything came through, including modern abstractions built from parts: expensive, government, meeting, laptop, nurse, prescription, blood pressure, protest. About 1–1.5 points were lost to missing words (City Hall → Parliament, bread → grain), so **city** and **bread** were added and "internet" registered as a loan. A noun's location now takes a relative clause. The stop condition is not met yet.
+
+## Vocabulary test 03 (2026-10-08)
+
+Recipe, machine instructions, race report, neighbour complaint, storm warning (`tests/vocabulary-03-modern/`): essentially all correct. About 1 point lost to a missing word (onion → potato), so **onion** was added. Losses to missing words are falling: 2–3, then 1–1.5, then about 1. A pronoun slip by Claude (recency rule vs the natural pull to the topic) is noted as an open issue to watch.

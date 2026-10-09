@@ -1,0 +1,24 @@
+Five short modern texts. KEnya is a name.
+
+Text R (a recipe)
+R1. tin PENsi YEgon, yen BINla bu mon Osa LAge, tun bu gun TUtin.
+R2. tin FONsu TENgi KOwan la, yen SIten bu la mon GImen.
+R3. tin YAga FUyu, MUsu SInta MEli, yen YIkan TIkun in; wo tan, NEke bu TIkun.
+
+Text I (instructions on a ticket machine)
+I1. tin SANne DEgun li WAka LIsun pi me.
+I2. tin YAga NImo KOwan lu MIse mon BEse, wo tan YIdu MAbo pi KObi pi me.
+I3. don YEtu mu DOku, tin MIdo no KUwi li YEma.
+
+Text P (a sports report)
+P1. no GAbe se en KEnya sin YIyin GAbe, yen SOnu pi wan Obu pi SA.
+P2. Ewo fu SA YIyo man TAna wan Oyi DIbon, nin wan LIwon mon FUgi.
+
+Text D (a complaint between neighbours)
+D1. Ewo man PIyi GElu pi din MUge ge YUyun DIbon mon YAmi we.
+D2. din sin KEgu BONko tun no WUNgu pi ge SElo, un MUsu fa KUbo.
+D3. MUyi wo tan, din win YEbin no KUwi pi OTon.
+
+Text W (a storm warning)
+W1. LApo KONke le Obu se PUya; kon TE bu LIwon mon YAmi tan.
+W2. tin PIyi BEse, PIyi LIni se DEgun pi SENmo, yen MUge KEte LIga la pi me gan LUla.
