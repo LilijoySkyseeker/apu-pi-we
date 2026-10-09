@@ -286,3 +286,11 @@ The first everyday-text test (`tests/vocabulary-01/`) lost about 2–3 points to
 - 12 built words and compounds.
 
 The lexicon is now 445 roots. The test also caught two stale word forms in Claude's translation, the third such slip, so `tools/check.py` (roadmap C3) now flags unknown words; it also found stale names in reference examples. Colour verified (`research/notes/colour-vision.md`): separate blue rests on naming data and need, not eye physiology.
+
+## Two layers: deep human experience and the modern world (2026-10-08)
+
+The user noticed batch 2 leaned towards small-scale, low-technology life (scorpion, spear, canoe). The cause is that cross-linguistic concept lists were built to document traditional vocabulary, and lineage weighting amplifies New Guinea and South America. Decision (user): **modern text decides what's common and needed; base human existence stays the foundation.**
+- Deep layer: weighted by lineage.
+- World layer: weighted by modern need, measured by blind tests on modern urban texts from many cultures. Built words by default.
+
+Six creature roots from batch 2 were demoted to descriptions (spider, turtle, frog, bat, scorpion, grasshopper; now in `data/compounds.tsv`). The lexicon is now 439 roots.

@@ -349,14 +349,14 @@ rank	concept	decision	expression	evidence
 319	COUNT	root	count	batch 2; coverage 0.4524, 116 families, all 6 areas
 371	CHICKEN	root	chicken	batch 2; coverage 0.396, 100 families, all 6 areas
 372	INTESTINES	root	intestines	batch 2; coverage 0.3942, 102 families, all 6 areas
-388	FROG	root	frog	batch 2; coverage 0.3811, 94 families, all 6 areas
+388	FROG	compound	small animal of the water, with legs	batch 2; coverage 0.3811, 94 families, all 6 areas; demoted 2026-10-08 (user): world layer, low modern need, so a description instead of a root
 394	ARMPIT	root	armpit	batch 2; coverage 0.373, 92 families, all 6 areas
 430	BASKET	root	basket	batch 2; coverage 0.3476, 91 families, all 6 areas
-452	TURTLE	root	turtle	batch 2; coverage 0.3397, 87 families, all 6 areas
-302	SPIDER	root	spider	batch 2; coverage 0.5077, 128 families, all 6 areas
-532	SCORPION	root	scorpion	batch 2; coverage 0.3185, 78 families, all 6 areas
-622	GRASSHOPPER	root	grasshopper	batch 2; coverage 0.2979, 70 families, all 6 areas
-379	BAT	root	bat	batch 2; coverage 0.3891, 102 families, all 6 areas
+452	TURTLE	compound	slow animal	batch 2; coverage 0.3397, 87 families, all 6 areas; demoted 2026-10-08 (user): world layer, low modern need, so a description instead of a root
+302	SPIDER	compound	small animal of many legs	batch 2; coverage 0.5077, 128 families, all 6 areas; demoted 2026-10-08 (user): world layer, low modern need, so a description instead of a root
+532	SCORPION	compound	small animal that bites with its tail	batch 2; coverage 0.3185, 78 families, all 6 areas; demoted 2026-10-08 (user): world layer, low modern need, so a description instead of a root
+622	GRASSHOPPER	compound	small animal of the grass	batch 2; coverage 0.2979, 70 families, all 6 areas; demoted 2026-10-08 (user): world layer, low modern need, so a description instead of a root
+379	BAT	compound	one that flies at night	batch 2; coverage 0.3891, 102 families, all 6 areas; demoted 2026-10-08 (user): world layer, low modern need, so a description instead of a root
 326	CLOTHES	root	clothes	batch 2; coverage 0.4455, 110 families, all 6 areas
 733	GOAT	root	goat	on demand (tests/vocabulary-01): came back as 'cattle' from 'horned animals'
 1020	YAM	root	tuber	on demand (tests/vocabulary-01): came back as 'food' from 'food from the ground'
