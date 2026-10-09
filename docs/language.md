@@ -198,7 +198,7 @@ Fractional groups: 6⁻⁴ **KUfe**, 6⁻⁸ **BAfo**. Any other power: **Unun**
 
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv) holds 315 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules (old-to-new map in `data/rename-2026-10-08.tsv`); from here on, existing words don't move.
+[../data/lexicon.tsv](../data/lexicon.tsv) holds 445 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move.
 
 ## How much to trust the sound choices
 

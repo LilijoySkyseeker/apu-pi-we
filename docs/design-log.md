@@ -310,3 +310,17 @@ The user asked whether stability over long time spans is the best measure of bas
 ## Seed phase complete (B1) (2026-10-08)
 
 Vocabulary tests 04 and 05 (`tests/vocabulary-04-modern/`, `-05-modern/`) lost under 1 point and 0 points to missing words: two in a row, so the agreed stop condition holds. Loss to missing words across tests 01–05: 2–3, 1–1.5, about 1, under 1, 0. The lexicon stands at 445 roots. From here, words are added on demand. World-layer concepts are built from parts unless they're frequent; modern abstractions (government, prescription, allergy, orbit) have composed reliably.
+
+## First-principles review 2 (2026-10-09)
+
+Step back at the end of the seed phase. Findings:
+- On track.
+- The biggest weakness is that all ten blind tests used AI readers, which guess well from world knowledge. **No human has heard the language.**
+- Three Claude-added parts flagged: AI-reader fidelity as the measure, the unvalidated confusion model, and the wan/yi recency rule.
+
+Approved deletions:
+- single-use tools: `lexicon.py`, `convert.py`, `seed.py`, `seed_batch2.py`, `units.py`, `base_test.py`;
+- three dead functions in `build.py`;
+- the three old-to-new word maps.
+
+All are in git history (last present at commit 8c65afd); add back if a rebuild or rerun needs them. The user agreed to read sentences aloud as the first human check. Writing: the user chose to focus on the Latin transliteration for now (discussion below).

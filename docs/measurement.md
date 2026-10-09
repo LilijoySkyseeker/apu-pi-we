@@ -13,7 +13,7 @@ Neither repo copies the other's job. If senary changes a definition, nothing her
 
 ## Unit words
 
-Each senary name was kept only if, after adapting sounds the language lacks (r → l, v → w, z → s), it was no more confusable than the 90th percentile of ordinary words, and passed the drift and juncture rules. One name survived: *Wela*. The rest were re-picked by the optimizer. The worst original was *fuka* "pressure", about 270 times as confusable as a typical word, mostly with *futa* "woman". Built by `tools/units.py`.
+Each senary name was kept only if, after adapting sounds the language lacks (r → l, v → w, z → s), it was no more confusable than the 90th percentile of ordinary words, and passed the drift and juncture rules. One name survived: *Wela*. The rest were re-picked by the optimizer. The worst original was *fuka* "pressure", about 270 times as confusable as a typical word, mostly with *futa* "woman". Built by `tools/units.py` (removed 2026-10-09 as single-use; in git history).
 
 | Quantity | Word | Senary name | Size |
 |---|---|---|---|

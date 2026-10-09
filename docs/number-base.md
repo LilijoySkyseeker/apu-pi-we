@@ -1,6 +1,6 @@
 # Number base: why 6
 
-Decided 2026-10-08. The user chose premise 2: legacy conventions, including the decimal world, are void, as they already were for every other part of the language. So the base was chosen on merits. Evidence: `research/notes/base-cognition.md`, `base-mathematics.md`, `base-typology.md`, plus the transmission test below (`tools/base_test.py`).
+Decided 2026-10-08. The user chose premise 2: legacy conventions, including the decimal world, are void, as they already were for every other part of the language. So the base was chosen on merits. Evidence: `research/notes/base-cognition.md`, `base-mathematics.md`, `base-typology.md`, plus the transmission test below (`tools/base_test.py` (removed 2026-10-09 as single-use; in git history)).
 
 ## The deciding test: transmission through noise
 

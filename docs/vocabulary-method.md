@@ -1,6 +1,6 @@
 # Vocabulary method (roadmap B1, step 2): draft
 
-The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the user on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py`).
+The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the user on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py` and `seed_batch2.py`, removed 2026-10-09 as single-use; in git history).
 
 ## 1. Which concepts, in what order
 

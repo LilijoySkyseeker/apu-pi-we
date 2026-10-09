@@ -13,7 +13,7 @@
   - rice → "grain";
   - basket → "bag" (minor).
 
-  **That's more than the 1-point trigger**, so the seed grew (batch 2, `tools/seed_batch2.py`).
+  **That's more than the 1-point trigger**, so the seed grew (batch 2, `tools/seed_batch2.py`, since removed; in git history).
 - **Translator errors:** two words used stale forms from an earlier rebuild: **Ate** "far" and **ban** "rather". The reader flagged both as unknown. This was the third such slip, which triggered `tools/check.py` (roadmap C3).
 
 **Batch 2:**

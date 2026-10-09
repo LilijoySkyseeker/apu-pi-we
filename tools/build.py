@@ -9,9 +9,8 @@ Rules this enforces (see docs/drift.md):
 - As before: confusion weighted by meaning (antonyms > same field > other), frequent words short.
 
   python build.py scale            # roadmap A1: inventory comparison at ~3,000 roots
-  python build.py digits           # roadmap A3: one- vs two-syllable digits
   python build.py build [--no-z]   # rebuild data/grammar.tsv, data/lexicon.tsv
-  python build.py numbers2         # rebuild number words: long form = short form + 1 syllable
+  python build.py numbers3         # rebuild base-6 number words
 """
 import csv, math, os, random, sys
 import numpy as np
@@ -254,21 +253,6 @@ def optimize_grammar(inv, words, steps=400000, seed=3):
     return {gl[i]: int(assign[i]) for i in range(n)}, violations
 
 
-# ---------------------------------------------------------------- digits (A3)
-def digits():
-    inv = Inventory([c for c in FULL if c != "z"] if "--no-z" in sys.argv else FULL)
-    names = [str(d) for d in range(10)]
-    W = np.full((10, 10), 30.0); np.fill_diagonal(W, 0)
-    freq = np.ones(10)
-    for ln in (1, 2):
-        forms = optimize_content(inv, [(d, 1.0) for d in names], W, 200000, fixed_len=ln, max_len=ln)
-        conf = confusion_total(inv, forms, freq, W) / 10 / 30
-        worst = max(math.prod(inv.S[x, y] for x, y in zip(a, b)) + math.prod(inv.S[y, x] for x, y in zip(a, b))
-                    for i, a in enumerate(forms) for b in forms[i + 1:])
-        print(f"{ln}-syllable digits: {' '.join(inv.show(f) for f in forms)}  "
-              f"mean P(misheard as another digit) {conf:.4f}; worst pair {worst:.4f}")
-
-
 # ---------------------------------------------------------------- full build
 def read(name):
     with open(os.path.join(DATA, name)) as fh:
@@ -329,157 +313,6 @@ def build():
             fh.write(f"grammar\t{g['gloss']}\t{old_g.get(g['gloss'], '')}\t{g['form']}\n")
         for w in lex:
             fh.write(f"content\t{w['gloss']}\t{old_l[w['gloss']]}\t{w['form']}\n")
-
-
-def renumber(steps=200000, seed=5):
-    """Re-place the number words as two open syllables (CV.CV), far from each other and from all words."""
-    inv = Inventory([c for c in FULL if c != "z"])
-    lex = read("lexicon.tsv")
-    nums = [w for w in lex if w["field"] == "number"]
-    others = [w for w in lex if w["field"] != "number"]
-    split = lambda f: tuple(inv.idx[x] for x in __import__("re").findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", f))
-    taken = {inv.content_key(split(w["form"])) for w in others}
-    other2 = np.array([split(w["form"]) for w in others if len(split(w["form"])) == 2])
-    open_syl = [i for i, x in enumerate(inv.syl) if x[2] == ""]
-    pool = [(a, b) for a in open_syl for b in open_syl if inv.syl[b][0] != ""
-            and inv.content_key((a, b)) not in taken]
-    rng = random.Random(seed)
-    assign = rng.sample(range(len(pool)), len(nums))
-
-    def cost(i, k):
-        a, b = pool[k]
-        c = 10.0 * (inv.S[a, other2[:, 0]] * inv.S[b, other2[:, 1]] + inv.S[other2[:, 0], a] * inv.S[other2[:, 1], b]).sum()
-        keys = {inv.content_key(pool[assign[j]]) for j in range(len(nums)) if j != i}
-        if inv.content_key(pool[k]) in keys:
-            c += 1000
-        for j in range(len(nums)):
-            if j != i:
-                x, y = pool[assign[j]]
-                c += 30.0 * (inv.S[a, x] * inv.S[b, y] + inv.S[x, a] * inv.S[y, b])
-        return c
-
-    T0 = 0.01
-    for step in range(steps):
-        T = T0 * (1 - step / steps) + 1e-12
-        i, k = rng.randrange(len(nums)), rng.randrange(len(pool))
-        if k in assign:
-            continue
-        old = assign[i]
-        before = cost(i, old)
-        assign[i] = k
-        d = cost(i, k) - before
-        if not (d < 0 or rng.random() < math.exp(-d / T)):
-            assign[i] = old
-    for w, k in zip(nums, assign):
-        w["form"] = inv.show(pool[k])
-    write("lexicon.tsv", others + nums, ["gloss", "field", "tier", "form"])
-    print(" ".join(f"{w['gloss']}={w['form']}" for w in nums))
-
-
-
-
-# ---------------------------------------------------------------- numbers v2: long form = short form + 1 syllable
-def numbers2(steps=300000, seed=11):
-    """Short forms: one open syllable each, all 13 with different consonants, distinct from the grammar
-    words that can stand next to a number. Long form = short form + a second syllable, so clipping the
-    long form gives the short form. Writes data/numbers.tsv and updates the number rows of lexicon.tsv."""
-    inv = Inventory([c for c in FULL if c != "z"])
-    grammar = read("grammar.tsv")
-    near = set(GROUPS_STRICT["det"].split() + GROUPS_STRICT["prep"].split() + GROUPS_STRICT["link"].split()
-               + GROUPS_STRICT["pred"].split() + GROUPS_STRICT["pron"].split()
-               + ["UNSPEC", "CONF"])
-    gforms = {g["form"] for g in grammar}
-    bad_keys = {inv.grammar_key(inv.idx[g["form"]]) for g in grammar if g["gloss"] in near}
-    lex = read("lexicon.tsv")
-    nums = [w for w in lex if w["field"] == "number"]
-    others = [w for w in lex if w["field"] != "number"]
-    rx = __import__("re")
-    split = lambda f: tuple(inv.idx[x] for x in rx.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", f))
-    taken = {inv.content_key(split(w["form"])) for w in others}
-    other2 = np.array([split(w["form"]) for w in others if len(split(w["form"])) == 2])
-    rng = random.Random(seed)
-    onsets = [o for o in inv.onsets]
-    opts = {o: [i for i, x in enumerate(inv.syl) if x[0] == o and x[2] == ""
-                and inv.grammar_key(i) not in bad_keys] for o in onsets}
-    avail = [o for o in onsets if opts[o]]
-    near_syl = [(inv.idx[g["form"]], 10.0 if g["gloss"] == "NOT" else 1.0) for g in grammar if g["gloss"] in near]
-    assert len(avail) >= 10, avail
-    second = [i for i, x in enumerate(inv.syl) if x[0] != "" and x[2] == ""]
-    devoice = {"b": "p", "d": "t", "g": "k"}
-
-    def drift_short(i):  # inside a number phrase, voicing and later-vowel blur may merge short forms
-        o, v, _ = inv.syl[i]
-        return devoice.get(o, o) + {"e": "i", "o": "u"}.get(v, v)
-
-    def short_cost(sel):
-        c = sum(inv.S[a, b] + inv.S[b, a] for x, a in enumerate(sel) for b in sel[x + 1:])
-        keys = [drift_short(a) for a in sel]
-        c += 10.0 * (len(keys) - len(set(keys)))
-        c += 0.05 * sum(inv.syl[a][0] == "" for a in sel)  # vowel-only forms fuse first
-        for a in sel:  # stay far from grammar words that can stand next to a number; NOT counts most
-            for u, w in near_syl:
-                c += w * (inv.S[a, u] + inv.S[u, a])
-        return c
-
-    used = avail[:10]
-    sel = [rng.choice(opts[o]) for o in used]
-    best, best_c = list(sel), short_cost(sel)
-    for _ in range(40000):
-        k = rng.randrange(10)
-        old, old_o = sel[k], used[k]
-        spare = [o for o in avail if o not in used]
-        if spare and rng.random() < 0.3:
-            used[k] = rng.choice(spare)
-        sel[k] = rng.choice(opts[used[k]])
-        c = short_cost(sel)
-        if c <= best_c:
-            best, best_c = list(sel), c
-        else:
-            sel[k], used[k] = old, old_o
-    shorts = best
-    # 10, 100 and 1000 have no short form; they act as stressed two-syllable anchors in a number phrase
-    skeys = {drift_short(a) for a in shorts}
-    for _ in range(3):
-        cands = [i for i, x in enumerate(inv.syl) if x[0] != "" and x[2] == "" and i not in shorts
-                 and drift_short(i) not in skeys]
-        pick = min(cands, key=lambda i: sum(inv.S[i, a] + inv.S[a, i] for a in shorts))
-        shorts.append(pick); skeys.add(drift_short(pick))
-
-    def long_cost(i, b, longs):
-        a = shorts[i]
-        c = 10.0 * (inv.S[a, other2[:, 0]] * inv.S[b, other2[:, 1]]
-                    + inv.S[other2[:, 0], a] * inv.S[other2[:, 1], b]).sum()
-        for j, bj in enumerate(longs):
-            if j != i:
-                aj = shorts[j]
-                c += 30.0 * (inv.S[a, aj] * inv.S[b, bj] + inv.S[aj, a] * inv.S[bj, b])
-                if inv.content_key((a, b)) == inv.content_key((aj, bj)):
-                    c += 1000
-        if inv.content_key((a, b)) in taken:
-            c += 1000
-        return c
-
-    longs = [rng.choice(second) for _ in shorts]
-    for _ in range(steps // 10):
-        i, b = rng.randrange(len(shorts)), rng.choice(second)
-        if long_cost(i, b, longs) < long_cost(i, longs[i], longs):
-            longs[i] = b
-    # digits 0-9 get the ten most mutually distinct short forms; 10/100/1000 the rest
-    values = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "100", "1000"]
-    rows, old = [], {w["gloss"]: w["form"] for w in nums}
-    for v, i in zip(values, range(13)):
-        rows.append({"value": v, "long": inv.show((shorts[i], longs[i])),
-                     "short": inv.name[shorts[i]] if i < 10 else ""})
-    for w in nums:
-        w["form"] = next(r["long"] for r in rows if r["value"] == w["gloss"])
-    write("lexicon.tsv", others + nums, ["gloss", "field", "tier", "form"])
-    write("numbers.tsv", rows, ["value", "long", "short"])
-    with open(os.path.join(DATA, "rename-numbers-2026-10-08.tsv"), "w") as fh:
-        fh.write("kind\tgloss\told\tnew\n")
-        for w in nums:
-            fh.write(f"content\t{w['gloss']}\t{old[w['gloss']]}\t{w['form']}\n")
-    for r in rows:
-        print(f"{r['value']:>5}  {r['long']:<7} {r['short']}")
 
 
 # ---------------------------------------------------------------- numbers v3: base 6 (2026-10-08)
@@ -586,4 +419,4 @@ def numbers3(seed=21):
 
 
 if __name__ == "__main__":
-    {"scale": scale, "digits": digits, "build": build, "renumber": renumber, "numbers2": numbers2, "numbers3": numbers3}[sys.argv[1]]()
+    {"scale": scale, "build": build, "numbers3": numbers3}[sys.argv[1]]()
