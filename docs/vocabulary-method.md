@@ -5,7 +5,7 @@ The decision procedure for choosing concepts and drawing their boundaries. Built
 ## 1. Which concepts, in what order
 
 1. **Core pool: CLICS4 concepts ranked by area-balanced lineage coverage.** CLICS4 has 3,432 varieties in 247 families. Coverage is the share of each macro-area's families whose word lists name the concept, averaged over the six areas. Raw family counts would let New Guinea and the Americas dominate; area averaging corrects that.
-2. **Only the top ~300 are data-backed.** Beyond about rank 300 the counts reflect which questionnaires reached which regions, not which concepts languages name, and the questionnaires descend from Buck's 1949 Indo-European dictionary. **[decide]** The seed is therefore ~300 data-backed concepts plus the NSM primes not already covered, instead of the planned 500–800. Everything after that is added on demand from blind tests on texts from varied cultures and genres. Bring back the larger seed if the first tests lose more than 1 point to missing everyday words.
+2. **Only the top ~300 are data-backed.** Beyond about rank 300 the counts reflect which questionnaires reached which regions, not which concepts languages name, and the questionnaires descend from Buck's 1949 Indo-European dictionary. **Agreed (user, 2026-10-08):** the seed is therefore ~300 data-backed concepts plus the NSM primes not already covered, instead of the planned 500–800. Everything after that is added on demand from blind tests on texts from varied cultures and genres. Bring back the larger seed if the first tests lose more than 1 point to missing everyday words.
 3. **NSM primes** (Goddard's 63–65) are a checklist for function and logic concepts the lists omit (WANT, BECAUSE, IF, MAYBE), not a frequency source. Their universality is contested.
 4. **Children's early vocabulary** (Wordbank) is a second signal at the level of categories. It breaks ties near the top and admits social routines and interjections (hi, bye, no) that basic lists leave out. Onomatopoeia and baby words are left out. Add them back if tests lose points to missing interjections.
 
@@ -32,7 +32,7 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
    - **Kinship:** roots mother, father, child, sibling (no sex), spouse. Cheap optional modifiers for older/younger and male/female; everything else composed ("mother's sibling"). Kinship systems vary too much to copy: 410 systems among 487 languages.
    - **Numerals:** unchanged (base 6).
 2. **Frequent alternatives in the same slot, where confusing them changes what the listener does → two roots.** This is the "action-relevant misunderstanding" test made concrete: left/right, buy/sell, lend/borrow, give/take. It agrees with the Goldilocks finding that languages avoid lumping meanings that compete in context.
-3. **Otherwise, the family-balanced lump rate [decide: thresholds]:**
+3. **Otherwise, the family-balanced lump rate** (agreed by the user, 2026-10-08):
    - lumped by ≥ 50% → one root; the narrow sense is built when needed (e.g. moon/month);
    - 20–50% → two words, the less basic built transparently from the other;
    - < 20% → two unrelated roots (e.g. see/know 3%, eat/drink 7%, finger/toe 16%).
