@@ -34,7 +34,7 @@ Blind back-translation results are in `tests/backtranslation-02/`. The translati
 ## Translation
 
 ```
-"min me  yidu yufa nimo  pi lon?" en mala sin  mido.
+"min me  yidu yufa nimo  pi lon." en mala sin  mido.
 Q    you take bag  money of me    Mara DONE ask
 
 "lon mu  yidu bu. en tomasu yidu bu."
@@ -48,17 +48,17 @@ he   come to  house at  point 3  4  3,  and say that he  need money for bus
                                                      (time of day as a fraction of the day: .343 = 15:00)
                                                      (sun: "he" = Tomas, whose words are reported)
 
-"gun     nimo  wifu   yu   mon bu?"
+"gun     nimo  wifu   yu   mon bu."
 there-is money number what at  it
 
-"lon pume:  dola   miko nobi, yen kon  te mise ensu pi lon."
+"lon pume,  dola   miko nobi, yen kon  te mise ensu pi lon."
 I    think: dollar 36   6     and CONF 5  card bus  of me
                                                      (42 = 36 + 6; confidence covers only the card: 5 in 6)
 
-"min mu  me  udin beya pi me?" "mu udin. lon yakin."
+"min mu  me  udin beya pi me." "mu udin. lon yakin."
 Q    not you lock door of you  not lock  I   forget
 
-"so     ku     yebin wan. wifu   liga  pi wan gun: po, fi po da te, da ka sa ka, fi po ka ka."
+"so     ku     yebin wan. wifu   liga  pi wan gun, po, fi po da te, da ka sa ka, fi po ka ka."
 REQUEST POLITE call  him  number phone of him is:  0,  1  0  4  5,  4  3  3  2,  1  0  3  3
                                                      (the English number 0412 785 309 written in base 6, read digit by digit in groups of four)
 

@@ -20,13 +20,13 @@ NONLITERAL I   apologize for that I   apologize    "Sorry for saying sorry, then
 yen eda me  kusa  se   kusa.
 and now you leave from leave    "And now you retreat from retreating."
 
-lon— me  momu wun  lon oyi yu?
+lon— me  momu wun  lon oyi yu.
 I    you want that I   say what    "I— What do you want me to say?"
 
 suku pi ewo    wungu futa  lewe   buda.
 face of person lead  woman become dark    The commander's face darkened.
 
-ba      en lilifu, me  ewo    nuta!
+ba      en lilifu, me  ewo    nuta.
 EXCLAIM Lilith  you person fear    "Lilith, you coward!"
 
 lon niba tun nebe, funo tugan pi lon.
@@ -43,19 +43,19 @@ apologize other come fast to  mouth of me,  but I   hold  self
 banga, mon mala  pi lon.
 panic, at  heart of me    Panic in my chest.
 
-wan le      febo   fu   tan  gi      yu?
+wan le      febo   fu   tan  gi      yu.
 she ONGOING answer like this because what    Why was she reacting like this?
 
-lon muge bamo yi      fu   yu?
+lon muge bamo yi      fu   yu.
 I   make stop it(OBV) like what    How did I make it stop?
 
-ba      nosen lumi! ewo       wungu oyi  fu    dinbu.
+ba      nosen lumi. ewo       wungu oyi  fu    dinbu.
 EXCLAIM god   fire  commander say   like snake "Godfire,"    the commander hissed.
 
 me  goyu pume  nin    dili nobi fi, en lilifu.
 you sit  think during day  7     Lilith    "You meditated for a week, Lilith.
 
-min me  le      sinun nin    muyi minwe?
+min me  le      sinun nin    muyi minwe.
 Q   you ONGOING dream during time whole    Were you daydreaming the whole time?"
 
 mu  sinun, lon—
@@ -65,7 +65,7 @@ ewo wungu miya bonko mon lon, yen tan muge bamo kegu lon mon eda.
 commander look angry at me, and this make stop talk me at now
                                                      The commander fixed me with a glare that shut me up immediately.
 
-gun      fu   don musu  in   duko: feme la we  kusa,
+gun      fu   don musu  in   duko, feme la we  kusa,
 there-is like if  thing some turn: feel PL all leave
 yen yonnu musu  meli  la pi nen  mon lini.
 and keep  thing small PL of self at  far    It was as if a switch flipped—all the emotions drained away, leaving distant remnants of themselves.
@@ -104,7 +104,7 @@ you not want be  child from now, commander say   "You    don't want to be a chil
 gi      tan, tin      gitin mole   yen wede   pi me.
 because this INSTRUCT throw mother and father of you    "So get rid of your parents.
 
-yi        la    tofo me, min?
+yi        la    tofo me, min.
 they(OBV) teach you, Q   It    was them, wasn't it?"
 ```
 
@@ -131,7 +131,7 @@ they(OBV) teach you, Q   It    was them, wasn't it?"
 
 | # | Finding | Fix | Status |
 |---|---|---|---|
-| 1 | Where do question words go? | In place (**me momu wun lon oyi yu?** "you want me to say what?"). Moving them to the front would break "role from position", the noise-robustness argument for SVO. | adopted |
+| 1 | Where do question words go? | In place (**me momu wun lon oyi yu.** "you want me to say what?"). Moving them to the front would break "role from position", the noise-robustness argument for SVO. | adopted |
 | 2 | Indirect questions ("I don't know what I did") | **yu** inside a **wun** clause is an indirect question | adopted |
 | 3 | Tag questions ("It was them, wasn't it?") | A clause-final **min** = "right?" A clause-initial **min** stays an open question. | adopted |
 | 4 | "Standalone **a.**" relied on hearing a pause, which is fragile | **a** = this sentence; **a a** = the whole turn. Doubling widens or strengthens, as with **yo yo**. | adopted, 001 updated |

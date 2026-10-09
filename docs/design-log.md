@@ -333,3 +333,7 @@ The user's first reading check found three things:
 - in a sans-serif mobile font, **lon** "I" looked like "Ion": l, I and 1 collide.
 
 Decisions (user): the Latin transliteration is the script for now (it costs nothing to type; computing runs on it); all lowercase, names included; stress unwritten because predictable, so the **teaching capitals were dropped from all docs and texts**; digits 0–5 grouped in fours; punctuation with defined jobs (`,` `.` and quotes required; `?` `!` optional; `-` for compounds). A native script is deferred, with triggers.
+
+## Punctuation cut to three marks; declination (2026-10-09)
+
+Human test 01 showed end marks steer the voice, but too late; the opening word (**min**, **yo**, **ba**) already does it earlier, like Spanish ¿. Doghouse review (user approved): writing marks only what speech marks with the voice. So `,` `.` `" "` stay, and `?` `!` `-` `:` are deleted, with triggers. Texts and docs updated. The user's "bouncing" with runs of two-syllable words led to specifying **declination**: stress peaks step down across a phrase and reset at the next one. Two English phrases that the capitals-dropping script had lowercased by mistake ("No tones", "In an emergency") were restored.

@@ -24,7 +24,8 @@ Most of the grammar follows from these. The rules after them are the cases the p
 - **Syllables:** (C)V(n). A vowel-only syllable may appear only at the start of a word. The only syllable-final consonant is n.
 - **Stress:** the first syllable of every content word; grammar words are unstressed. Stress marks where each content word begins. The stressed syllable is said **higher in pitch, stepping down after it**, as English says WA-ter or MO-ther, but **not longer**, because listeners hear lengthening as the *end* of a word. Every syllable keeps its full vowel: the rhythm is syllable-timed, like Spanish or Japanese, not stress-timed like English.
 - **Harmless variants:** k and g may sound like "ch" and "j" before i and e; a vowel plus n may become a nasal vowel; consonants between vowels may soften. The vocabulary is built so these changes never merge two words.
-- **no tones.** Pitch is free for intonation and emotion. A question needs no rising tone, since the question word does that job; rising anyway is fine.
+- **Declination:** across a phrase, each stressed syllable is a little lower than the one before, so a run of words steps down like a staircase instead of bouncing at one height. Pitch resets at the next phrase (after a comma or a full stop). Nearly all languages do this; Finnish and Hungarian (first-syllable stress) and Japanese (downstep) are clear examples.
+- **No tones.** Pitch is free for intonation and emotion. A question needs no rising tone, since the question word does that job; rising anyway is fine.
 - **Interjections outside the system:** **mm** "heard you", **huh?** "say again".
 - **Writing:** see the Writing section below.
 
@@ -36,16 +37,15 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 - **All lowercase, names included.** The name article **en** marks names, so capitals carry nothing. A capital I never appears, which avoids the l/I/1 confusion of sans-serif fonts (found by the user's first reading check).
 - **Stress is not written**, because it's predictable: the first syllable of every word of two or more syllables is stressed, and so is each one-syllable digit (**po fi sa ka da te**). All other one-syllable words are unstressed grammar words. (Docs used capitals for stress until 2026-10-09.)
 - **Numbers** are written with the digits 0–5, grouped in fours from the point with a space (senary's grouping): `1045 4323`. **.** is the point. Where text mixes bases, mark base 6 with a subscript ₆ (or `_6` in plain text).
-- **Punctuation:**
+- **Punctuation: three marks only** (first-principles review with the user, 2026-10-09). Writing marks exactly what speech marks with the voice; everything else is carried by words.
 
 | Mark | Use |
 |---|---|
-| `,` | **required** wherever the pause rule calls for a pause; clause attachment depends on it |
-| `.` | **required** at the end of a sentence; which "he" is meant depends on sentence boundaries |
-| `" "` | **required** around quoted speech; the speech-tag rule needs the quote's edges |
-| `?` `!` | optional; the words **min**, **ba**, **yo** already say it |
-| `-` | optional, to join an established compound: `nite-goni` |
-| `:` | optional, to introduce a list or speech |
+| `,` | wherever the pause rule calls for a pause; clause attachment depends on it |
+| `.` | end of a sentence; which "he" is meant depends on sentence boundaries. (In numbers, `.` is the point; it always has digits on both sides.) |
+| `" "` | around quoted speech; the speech-tag rule needs the quote's edges, which speech marks by a change of voice |
+
+  No `?` or `!`. The opening word (**min**, **yo**, **ba**) already says it, and earlier: like Spanish's opening ¿, a reader knows the sentence's shape before saying it. The user's reading test showed end marks steer the voice, but too late. No `-` (compounds are ordinary phrases in speech) and no `:` (in speech it's just a pause). Triggers to bring one back: `?`/`!` if readers or text-to-speech misplace intonation despite the opening word; `-` if established compounds get misread; `:` if a pause can't carry a construction.
 
 - **Spelling follows the standard pronunciation.** The harmless variants (k sounding like "ch" before i, nasal vowels, softened middle consonants) are never written, so spelling stays one letter per sound.
 
@@ -111,7 +111,7 @@ These are built from existing words; no new grammar words were needed (roadmap B
 - **Comparison:** **ke** + adjective + **se** + standard (**ke kudu se guyi ben** "bigger than that house"). Less = more of the opposite (**ke meli** "smaller"). Most = **se we** "than all". As … as = **fu** "like" (**kudu fu bu** "as big as it").
 - **Choices.**
   - **min … lu …** is a yes/no question about the whole "or": "do you want either?"
-  - **… lu … yu?** asks *which*: **me momu osa lu nimo yu?** "water or money, which do you want?" Answer by echoing the choice.
+  - **… lu … yu.** asks *which*: **me momu osa lu nimo yu.** "water or money, which do you want?" Answer by echoing the choice.
   - **lu X lu Y** is "either X or Y, not both", like French *ou… ou*. Plain **lu** allows both.
 - **Quantities.**
   - About: **fu** + number (**ewo fu miko** "about 36 people").
@@ -137,8 +137,8 @@ Evidence: `research/notes/politeness.md`.
 - **Politeness never changes what you're doing.**
   - A polite instruction is **tin ku**; a very polite warning is **yo ku ku**.
   - Hints, questions, advice (**fon**) and low confidence numbers are never used to be polite. In accident reports the danger is a junior hinting where they should warn, and hints are judged *less* polite than clear requests anyway.
-  - The pattern crews rated most effective: state the problem, name the act, say what *we* need. **yo ku: osa le obu. fon ku: pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
-- **in an emergency (yo yo), ku isn't expected.** Leaving it out is urgent, not rude.
+  - The pattern crews rated most effective: state the problem, name the act, say what *we* need. **yo ku, osa le obu. fon ku, pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
+- **In an emergency (yo yo), ku isn't expected.** Leaving it out is urgent, not rude.
 - **Routines** (none is required; people in many languages rarely thank in everyday requests):
   - greeting: **upe**, optionally with the time of day (**upe leso** "good morning");
   - farewell: **upe isi** "go well";
@@ -151,14 +151,14 @@ Evidence: `research/notes/politeness.md`.
 2. **Confidence is a number of sixths:** **kon** + digit = how many chances in 6 that the statement is true (**kon da** = 4 in 6, about 67%). Seven levels, 0 to 6 (**kon nobi** = 6 in 6, certain), match the about 7 bands ordinary forecasters can use without losing accuracy (Friedman et al. 2018). Extremes take a digit after the point: **kon te mimi ka** = 5.3 in 6 in base 6, i.e. 5½ in 6, about 92%. **kon bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for.
 3. **Source is optional:** **o** seen, **fen** told, **san** inferred.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **obu** "coming" / **mu obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.
-5. **Questions:** question words stay where the answer would go: **me momu wun lon oyi yu?** "you want me to say what?". They are built from parts: **yu** what, **ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
+5. **Questions:** question words stay where the answer would go: **me momu wun lon oyi yu.** "you want me to say what?". They are built from parts: **yu** what, **ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
 6. **Reference:**
    - **People and animals:** **wan** = the most recent person or animal that was the subject of a clause (if none yet, the most recent one mentioned); **yi** = the one before that, the next most recent *different* one. Anyone further back is named again. Two details: a pronoun never means the subject of its own clause (that's **nen**), so in "the dog saw him", *him* is the most recent subject *before* the dog; and a say-verb that frames a quote ("…," **en benu oyi**) doesn't count, so a quote split by a speech tag keeps its references. The rule is mechanical, so children can compute it and speaker and listener can't disagree.
    - **Things:** **bu** = "it", the most recent thing mentioned.
    - In reported speech or thought, **sun** = the person whose words are reported.
    - **go** = anyone (generic); **me** is only ever the listener.
    - **nen** = self, for any person: **lon yonnu nen** "I held myself back", **feme la … pi nen** "the feelings … of themselves".
-7. **"Is" (gun):**
+7. **"Is" (gun),**
    - **gun** + adjective: **guyi gun kudu** "the house is big" (**guyi kudu** is only "the big house").
    - **gun** + noun: **wan gun tiwu** "she is a child".
    - **gun** + **wun** clause: "is that…".
@@ -183,7 +183,7 @@ Evidence: `research/notes/politeness.md`.
 12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks and a broken-off word ends in a dash.
 13. **Degree words** (**ke** more, **bi** very, **to** rather) come before what they modify: **ke kudu** "bigger".
     - **Comparison:** **ke** + adjective + **se** ("from") + the standard: **wan gun ke gole se pen** "he is smarter than us". Most = **ke** … **se we** "more … than all".
-    - **How much, how many:** **wifu yu** "number what": **gun nimo wifu yu?** "how much money is there?"
+    - **How much, how many:** **wifu yu** "number what": **gun nimo wifu yu.** "how much money is there?"
 14. **Two objects:** verb + recipient + thing: **tofo me nuta** "teach you fear".
 
 15. **Clause attachment** (tested on contract language, `tests/backtranslation-04-nesting/`):

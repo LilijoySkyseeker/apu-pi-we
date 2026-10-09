@@ -13,7 +13,7 @@ a          a.
 NONLITERAL NONLITERAL
 (This whole turn is a bit.)
 
-lon oyi feko:
+lon oyi feko,
 I   say true
 "Honestly:"
 
@@ -25,7 +25,7 @@ yen go  wupi lugo to     meli  pi kima, li  lugo ya     wun  ewo    yaye gun mu 
 and one need know rather small of wood  for know before that person sky  is  not child woman of one
 "and you need only fairly basic stick-knowledge to first make sure the alien isn't your daughter."
 
-ke   bawe      li  gason pi lon: ba      gefo  me,  sonu   pi ewo    yaye la!
+ke   bawe      li  gason pi lon, ba      gefo  me,  sonu   pi ewo    yaye la.
 more important for idea  of me:  EXCLAIM CURSE you, friend of person sky  PL
 "More to my point: fuck you, alien sympathizer!"
 
