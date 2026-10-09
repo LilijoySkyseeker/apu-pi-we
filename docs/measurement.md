@@ -15,7 +15,7 @@ Neither repo copies the other's job. If senary changes a definition, nothing her
 
 Each senary name was kept only if, after adapting sounds the language lacks (r → l, v → w, z → s), it was no more confusable than the 90th percentile of ordinary words, and passed the drift and juncture rules. One name survived: *Wela*. The rest were re-picked by the optimizer. The worst original was *fuka* "pressure", about 270 times as confusable as a typical word, mostly with *futa* "woman". Built by `tools/units.py` (removed 2026-10-09 as single-use; in git history).
 
-| Quantity | Word | Senary name | Size |
+| Quantity | Word | Senary's working label (r19) | Size |
 |---|---|---|---|
 | time | **nane** | Kena | 0.3086 s (a day is 6⁷ of them) |
 | length | **ano** | Nira | 1.530 m |
@@ -60,12 +60,35 @@ A misheard digit gives a wrong number. A misheard *scale* word gives a wrong num
 
 ## Time and calendar
 
-**Provisional.** The user is reworking senary's calendar and timing (2026-10-08), which are currently anchored to Earth's day and year, in a separate session. Everything in this section follows senary as it stood at r19. Nothing else in the language should build on it until the rework lands; then re-read `src/senary_tables.py` and update the words here.
+Senary's r20/r21 rework (2026-10-09) supplies the concepts: one continuous count of standard days from an epoch, local time as a view of it, an Earth calendar whose date is the number of days elapsed in the year, body time for anything about a body. Senary owns the arithmetic (`src/senary_tables.py`, Specification §11). The words below are this repo's alone; senary's names (Bana and the rest) are not used.
 
-- The day is 6⁷ **nane**. Time of day is said as the fraction of the day, digit by digit after the point: **mon mimi ka da ka** "at .343 of the day" = 15:00. Each further digit is six times finer, and seven digits give the exact time unit.
-- **aya** "watch" = 6⁶ nane = a sixth of a day (4 h), for everyday durations.
-- Leap years follow senary's 314/1296 accumulator rule (see `src/senary_tables.py`, `is_leap`).
-- **Not designed yet:** a week (6 days would be the natural choice) and month names.
+**The one idea speakers need:** every time point is an *amount elapsed* since the start of the thing that contains it. The clock is the part of the day that has passed; the date is the days of the year that have passed; the year is the years since year 0. So all three are said with the label rule (noun + **pi** + digits, digit reading), and a zero is a real value: the first day of the year is **dili pi po po po po**.
+
+| Concept | Said | Notes |
+|---|---|---|
+| day (standard or local) | **dili** | one word; on Earth they are the same length to 1 part in 10⁸ |
+| clock time | **mon mimi ka da ka** "at .343" = 15:00 | the fraction of the day; speakers give as many digits as they need |
+| date | **dili pi po te ka sa** "day 0532" | always four digits, zeros kept; first two digits are the block |
+| date and clock together | **dili pi po te ka sa mimi da** "day 0532.4" | the clock *is* the fraction of the date, so it is one number |
+| year | **fawu pi fi ka ka** "year 133" | counted from the Moon-landing year; year 133 began March 2026 |
+| week | **nelon** (new root) | six local days; which are for rest is local custom |
+| day of the week | **dili pi ka** "day 3" | one digit, 0–5; a date always has four, so the two can't be confused |
+| block | **boyo** (new root) | 36 days, the first two digits of the date: **boyo pi te** "block 05" |
+| watch | **aya** | 6⁶ nane, a sixth of a day (4 h); **aya pi ka** = the watch from noon to 16:00 |
+| leap year | **fawu netu** "long year" | senary's 314/1296 rule |
+| local time / local day | **muyi pi kemu** / **dili pi kemu** "time / day of the place" | the default; nobody says it unless comparing places |
+| the count | **sunbu pi muyi** "the count of time" | for records and machines; rarely spoken |
+| body time | **muyi pi gawo** "time of the body" | |
+| age | **nume** "live" + a duration: **lon nume fawu te nobi** "I have lived 30 years" | an age *is* lived body time, which is what the verb says |
+| seasons | **muyi** + quality: **muyi tikun** "hot time", **muyi weki** "cold time", **muyi pi gegi** "time of rain" | local, as senary says; each place names its own |
+
+**Relative time** uses the existing anchor-plus-offset rule; with no anchor, the anchor is now: **wo nelon fi** "after one week" = next week, **ya boyo fi** "a block ago", **nelon tan** "this week".
+
+**Durations** are counts of any unit: **nin aya sa** "for two watches", **nane yiyo te** "5 × 6⁴ nane" (about 33 minutes), **dili nobi fi** "seven days".
+
+**Why two new roots and no more.** *Week* and *block* name calendar-aligned periods that modern life is organised around (rest days, rent, wages, billing), and every language that has such periods has a short word for them. A phrase like **dili nobi** "six days" can't say "this week" as opposed to "the next six days". Everything else is a phrase built from existing words.
+
+**Deliberately without words** (concept is senary's; add a word if texts keep needing it): the epoch (say "year 0" or describe the Moon landing), the zero meridian, the traveller's view, solar longitude, lunar month (there is none; the Moon's phase is just **dunan**'s look). Body time and the count are phrases, and stay phrases unless they turn out to be frequent.
 
 ## Not carried over
 
