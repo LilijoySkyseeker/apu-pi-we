@@ -193,7 +193,7 @@ Evidence: `research/notes/politeness.md`.
     - **Fractions:** **mimi** "point" separates the fraction digits: 1/2 = **po mimi ka** (0.3 in base 6), 1/3 = **po mimi sa**. **guti** = minus.
     - Noun + number = count (**dili nobi fi** "seven days"); noun + **pi** + number = label or order (**lite pi po** "step zero"; **aya pi ka** "watch three", noon to 16:00).
 11. **Dropped subjects** are allowed only when the subject repeats after **yen** / **un**, or for the addressee of an instruction or request.
-12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks and a broken-off word ends in a dash.
+12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks; a broken-off word just stops (there is no dash).
 13. **Degree words** (**ke** more, **bi** very, **to** rather) come before what they modify: **ke kudu** "bigger".
     - **Comparison:** **ke** + adjective + **se** ("from") + the standard: **wan gun ke gole se pen** "he is smarter than us". Most = **ke** … **se we** "more … than all".
     - **How much, how many:** **wifu yu** "number what": **gun nimo wifu yu.** "how much money is there?"

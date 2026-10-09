@@ -10,6 +10,7 @@ The language has no name yet.
 - [docs/design-log.md](docs/design-log.md): decisions in order, with reasons.
 - [docs/roadmap.md](docs/roadmap.md): what a full language still needs, and in what order. [docs/vocabulary-plan.md](docs/vocabulary-plan.md) and [docs/vocabulary-method.md](docs/vocabulary-method.md): the agreed plan and the decision procedure for building the vocabulary.
 - [docs/drift.md](docs/drift.md): how the language would change over generations, and how the design pre-empts it.
+- [docs/learn.md](docs/learn.md): how to learn the language, for English speakers.
 - [docs/number-base.md](docs/number-base.md) and [docs/measurement.md](docs/measurement.md): why base 6, and how measurements are said. The measurement system itself (definitions, values) lives in the sibling repo `~/work/repos/senary`; this repo owns only the words.
 - [research/](research/): evidence. `where-communication-fails.md` is the main report; `notes/` holds the raw research notes behind it and later rounds.
 - [data/](data/): `grammar.tsv` (grammar words), `lexicon.tsv` (roots and numbers), `antonyms.tsv`.
