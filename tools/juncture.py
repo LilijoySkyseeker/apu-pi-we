@@ -15,7 +15,7 @@ import words as W
 inv = W.INV
 grammar = W.read("grammar.tsv")
 lex = [w for w in W.read("lexicon.tsv")]
-digits = [r["form"] for r in W.read("numbers.tsv") if r["kind"] == "digit"]
+digits = [r["form"] for r in W.read("numbers.tsv") if r["kind"] == "digit" and r["form"] in W.IDX]  # one-syllable digits; 6-9 behave like content words
 ckey = {inv.content_key(W.split(w["form"])): w for w in lex if len(W.split(w["form"])) >= 2}
 gforms = {g["form"]: g["gloss"] for g in grammar}
 problems = []

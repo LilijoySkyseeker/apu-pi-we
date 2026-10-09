@@ -4,7 +4,7 @@ Written 2026-10-09 for someone who speaks only English. The full rules are in [l
 
 ## Before you start
 
-- **The language is small and unfinished.** About 450 root words, 64 little grammar words, six digits. Your vocabulary hits its ceiling quickly, and that's normal here: when there's no word, you **describe** the thing. Describing is the core skill, not a fallback (lesson 11).
+- **The language is small and unfinished.** About 450 root words, 64 little grammar words, ten digits. Your vocabulary hits its ceiling quickly, and that's normal here: when there's no word, you **describe** the thing. Describing is the core skill, not a fallback (lesson 11).
 - **Nothing changes shape.** No verb endings, no plurals you must add, no "a/the", no gender, no irregular anything. Almost all the difficulty is in sounds, word order and numbers.
 - **There is no one else to talk to yet, except me.** Start any Claude session with "let's practise Apu Pi We at my level" and I'll talk with you, correct you, and explain. That's your conversation partner.
 - **When you hit a gap, tell me.** Real use is how the language grows. A gap you find is data, not failure.
@@ -15,7 +15,7 @@ A plan that fits 15–20 minutes a day:
 
 1. **Week 1:** lessons 1–4, and the 50 most common words (tiers 5 and 4 in the lexicon).
 2. **Week 2:** lessons 5–8, and the grammar-word table (the traps first).
-3. **Week 3:** lessons 9–10 (numbers and time). Count things in base 6 every day.
+3. **Week 3:** lessons 9–10 (numbers and time). Count things aloud every day.
 4. **Week 4 on:** lessons 11–12, the next 132 words (tier 3), and short conversations with me.
 
 Three habits matter more than the schedule:
@@ -49,7 +49,7 @@ The sounds are easy for an English speaker. The hard part is what English does *
 
 **Stress:**
 - **Words of two or more syllables are stressed on the first syllable**, always: **TO-tu** "dog", **GU-yi** "house". Stress is *higher pitch*, not extra length or loudness.
-- **One-syllable words are grammar words, said low and quick** (**lon**, **me**, **pi**, **mu**…). The six digits are the exception: they're stressed.
+- **One-syllable words are grammar words, said low and quick** (**lon**, **me**, **pi**, **mu**…). The digits 0–5 are the exception: they're stressed.
 - **Across a phrase, the stressed syllables step down like a staircase** and reset after a comma or full stop. English already does this; just don't fight it.
 - **Questions don't need a rising voice.** The first word already says it's a question. Rising anyway is fine.
 
@@ -168,37 +168,46 @@ The first word of a sentence can say what kind of sentence it is. You'll mostly 
 
 Being polite never means hinting. English softens a warning into "might want to check the stove"; here you say **yo ku** (warning, politely) and then the problem.
 
-## Lesson 9: Numbers in base 6
+## Lesson 9: Numbers
 
-This is the hardest part for anyone raised on base 10, because you have to stop translating.
+Numbers are base 10, like English, but completely regular.
 
-**The digits:** **po** 0, **fi** 1, **sa** 2, **ka** 3, **da** 4, **te** 5.
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|---|---|---|---|---|---|---|---|---|---|
+| **po** | **fi** | **sa** | **ka** | **da** | **te** | **ufo** | **oma** | **kefi** | **mape** |
 
-**Place words:** **nobi** 6, **miko** 36 (6×6), **niyu** 216. Build numbers digit + place word, biggest first. A 1 before a place word is dropped:
+Yes, 6 is **ufo**. Enjoy it. 6–9 have two syllables because the language ran out of short sounds.
 
-| Number | Said | Meaning |
+**Place words:** **webo** 10, **loki** 100, **munno** 1000, **tonen** million, **siwin** billion. Say the digit, then the place word, biggest first. A 1 before a place word is dropped:
+
+| Number | Said | Literally |
 |---|---|---|
-| 6 | **nobi** | six |
-| 7 | **nobi fi** | six and one |
-| 12 | **sa nobi** | two sixes |
-| 13 | **sa nobi fi** | two sixes and one |
-| 35 | **te nobi te** | five sixes and five |
-| 36 | **miko** | |
-| 42 | **miko nobi** | 36 + 6 |
+| 10 | **webo** | ten |
+| 12 | **webo sa** | ten two |
+| 15 | **webo te** | ten five |
+| 20 | **sa webo** | two ten |
+| 50 | **te webo** | five ten |
+| 99 | **mape webo mape** | nine ten nine |
+| 100 | **loki** | hundred |
+| 365 | **ka loki ufo webo te** | three hundred six ten five |
+| 2026 | **sa munno sa webo ufo** | two thousand two ten six |
 
-**Count on two hands.** Your right hand shows 0–5 ones, your left hand 0–5 sixes. Two hands count to 35 (**te nobi te**). Do it with real things every day (steps, cups, people on a bus) and **say the number in the language, never in English first**. The goal is to stop thinking "13" at all and think **sa nobi fi**.
+There are no teens, no "-ty", no irregular numbers at all. English makes you learn *eleven*, *twelve*, *fifteen* and *fifty* separately; here they fall out of the rule.
 
-- **Counting things:** the thing, then the number: **totu sa** "two dogs", **dili nobi fi** "seven days".
-- **Phone numbers and codes** are read digit by digit, in groups of four.
-- **Half** is **po mimi ka** (0.3 in base 6: **mimi** is the point). A third is **po mimi sa**.
+- **Counting things:** the thing, then the number: **totu sa** "two dogs", **dili oma** "seven days".
+- **Phone numbers, codes and years** are read digit by digit: **sa po sa ufo** for 2026 as a year.
+- **Half** is **po mimi te** (0.5: **mimi** is the point). A third is **fi pi ka** "one of three".
+- **Senary:** if you ever need a base-6 number, say **senali** first and read its digits.
 
 ## Lesson 10: Time
 
 - **Tense is optional.** Say when once, then stop marking it: **afe, lon nawi pasu.** "Yesterday, I ate food."
 - **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
 - **sin** done (**lon sin nawi** "I've eaten"), **le** in progress (**lon le nawi** "I'm eating"), **win** about to (**lon win kusa** "I'm about to leave").
-- **Offsets from now:** **wo nelon fi** "after one week" = next week; **ya boyo fi** "before one block" = a block ago. A **nelon** is a six-day week; a **boyo** is 36 days, the language's "month".
-- **Clock time is the fraction of the day,** read digit by digit after **mimi**: **mon mimi ka** "at .3" = noon, **mon mimi da** = 16:00. An **aya** "watch" is 4 hours.
+- **Offsets from now:** **wo nelon fi** "after one week" = next week; **ya dunan fi** "before one month" = a month ago.
+- **dili** day, **nelon** week, **dunan** month (also "moon"), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.
+- **Clock time is 24-hour, read as digits:** **mon fi te ka po** "at 15 30".
+- **Dates:** the month by number, then the day: **dunan pi webo, dili pi mape** "October 9". On its own, **dili pi** + 1–7 is a weekday, Monday = 1: **dili pi ka** "Wednesday".
 - **Age is time lived:** **lon nume fawu …** "I have lived … years".
 
 ## Lesson 11: Making words you don't have
@@ -229,7 +238,7 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 
 You can skip these at first. Learn them once the basics are easy.
 
-- **How sure you are, as a number of sixths:** **kon da wan obu** "4 in 6 she's coming" (likely). **kon nobi** is certain, **kon po** impossible. It's optional; plain statements mean you believe them.
+- **How sure you are, in tenths:** **kon oma wan obu** "7 in 10 she's coming" (likely). **kon webo** is certain, **kon po** impossible. It's optional; plain statements mean you believe them.
 - **How you know:** **o** "I saw it", **fen** "I was told", **san** "I worked it out". Also optional.
 
 ## Where to go next

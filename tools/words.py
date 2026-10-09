@@ -14,6 +14,7 @@ move: in a living language, words are stable. New words take the best free form.
 """
 import argparse, csv, os, re
 import numpy as np
+import offensive
 from build import Inventory, FULL, TIER_FREQ, EFFORT
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -47,7 +48,7 @@ def add_grammar(gloss, cls, freq):
     open_ = {(INV.syl[t][0], INV.syl[t][1]) for t in taken}  # no two grammar words differ only by final -n
     best, best_c = None, float("inf")
     for cand in range(len(SYL)):
-        if cand in taken or (INV.syl[cand][0], INV.syl[cand][1]) in open_:
+        if cand in taken or (INV.syl[cand][0], INV.syl[cand][1]) in open_ or offensive.blocked(SYL[cand]):
             continue
         c = 0.0
         for g in grammar:
@@ -68,7 +69,7 @@ def digit_syllables():
     path = os.path.join(DATA, "numbers.tsv")
     if not os.path.exists(path):
         return set()
-    return {IDX[r["form"]] for r in read("numbers.tsv") if r["kind"] == "digit"}
+    return {IDX[r["form"]] for r in read("numbers.tsv") if r["kind"] == "digit" and r["form"] in IDX}
 
 
 def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
@@ -92,7 +93,7 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
     for a in content:
         for b in second:
             form = SYL[a] + SYL[b]
-            if INV.content_key((a, b)) in taken:
+            if INV.content_key((a, b)) in taken or offensive.blocked(form):
                 continue
             p_out = S[a, ex[:, 0]] * S[b, ex[:, 1]]
             p_in = S[ex[:, 0], a] * S[ex[:, 1], b]

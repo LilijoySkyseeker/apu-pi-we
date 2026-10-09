@@ -11,7 +11,7 @@ The language has no name yet.
 - [docs/roadmap.md](docs/roadmap.md): what a full language still needs, and in what order. [docs/vocabulary-plan.md](docs/vocabulary-plan.md) and [docs/vocabulary-method.md](docs/vocabulary-method.md): the agreed plan and the decision procedure for building the vocabulary.
 - [docs/drift.md](docs/drift.md): how the language would change over generations, and how the design pre-empts it.
 - [docs/learn.md](docs/learn.md): how to learn the language, for English speakers.
-- [docs/number-base.md](docs/number-base.md) and [docs/measurement.md](docs/measurement.md): why base 6, and how measurements are said. The measurement system itself (definitions, values) lives in the sibling repo `~/work/repos/senary`; this repo owns only the words.
+- [docs/measurement.md](docs/measurement.md): words for the senary measurement system, which the language can talk about. [docs/number-base.md](docs/number-base.md): why the language was base 6 until 2026-10-09 (superseded).
 - [research/](research/): evidence. `where-communication-fails.md` is the main report; `notes/` holds the raw research notes behind it and later rounds.
 - [data/](data/): `grammar.tsv` (grammar words), `lexicon.tsv` (roots and numbers), `antonyms.tsv`.
 - [texts/](texts/): stress-test translations, each with findings.
@@ -27,4 +27,4 @@ The tools need Python with numpy. On NixOS:
 
 ## Related
 
-The measurement system is the senary system, which lives in the sibling repo `~/work/repos/senary`. That repo owns the quantities: unit definitions, exact values, constants and the calendar's arithmetic, with `src/senary_tables.py` as the source of truth. This repo owns the words (`docs/measurement.md`, `data/units.tsv`, `data/numbers.tsv`). Since senary r22, senary uses this repo's words for every unit and prefix. Time and calendar words: `docs/measurement.md`.
+The language's numbers are base 10 and its everyday units are today's, with borrowed names. The senary measurement system lives in the sibling repo `~/work/repos/senary`, which owns its quantities; this repo supplies its words (`docs/measurement.md`, `data/units.tsv`, the senary rows of `data/numbers.tsv`), so senary stays usable, for worldbuilding among other things.

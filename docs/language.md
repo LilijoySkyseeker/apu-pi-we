@@ -38,7 +38,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 - **Letters:** the 18 plain letters a b d e f g i k l m n o p s t u w y, one per sound, with no accents and no letter pairs. Only letters, never digits, inside words.
 - **All lowercase, names included.** The name article **en** marks names, so capitals carry nothing. A capital I never appears, which avoids the l/I/1 confusion of sans-serif fonts (found by the user's first reading check).
 - **Stress is not written**, because it's predictable: the first syllable of every word of two or more syllables is stressed, and so is each one-syllable digit (**po fi sa ka da te**). All other one-syllable words are unstressed grammar words. (Docs used capitals for stress until 2026-10-09.)
-- **Numbers** are written with the digits 0–5, grouped in fours from the point with a space (senary's grouping): `1045 4323`. **.** is the point. Where text mixes bases, mark base 6 with a subscript ₆ (or `_6` in plain text).
+- **Numbers** are written with the digits 0–9, grouped in threes from the point with a space: `1 250 000`. **.** is the point. International unit symbols pass through as they are (`5 km`, `20 °C`, `30%`) and are read aloud by their borrowed names. A senary number is marked with a subscript ₆ (or `_6` in plain text).
 - **Punctuation: three marks only** (first-principles review with the user, 2026-10-09). Writing marks exactly what speech marks with the voice; everything else is carried by words.
 
 | Mark | Use |
@@ -54,7 +54,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 
 ## Words
 
-- Grammar words have one unstressed syllable; content words have two or more, stressed on the first. The one exception is the six digits: one syllable, stressed. No content word begins with a digit's syllable, so a digit followed by a grammar word can never sound like a content word. Every meaning is a separate word that never changes: no endings, no agreement, no case, no gender.
+- Grammar words have one unstressed syllable; content words have two or more, stressed on the first. The one exception is the digits 0–5: one syllable, stressed (6–9 have two, like content words). No content word begins with one of those digit syllables, so a digit followed by a grammar word can never sound like a content word. Every meaning is a separate word that never changes: no endings, no agreement, no case, no gender.
 - Content words with similar or opposite meanings are given forms that sound as different as possible, because context can't tell them apart.
 - **Built for drift:** no two content words may become the same after the changes a language like this is likely to undergo: later syllables blurring e/i and o/u, middle consonants voicing, a final n melting away. Grammar words that can stand in the same slot start with different consonants, so they stay apart even if their vowels weaken.
 - **A word's role comes from its position.** Any content word can be a noun, verb or modifier: **sepi** "apologize / an apology", **miya bonko** "look angrily / an angry look". After a verb, a modifier describes the manner: **oyi fanse** "say calmly".
@@ -71,7 +71,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
   - A consonant that can't stand where it is gets an added **u**; consonants are never dropped. Names have at least two syllables.
   - Examples: Lilith → **en lilifu**, Christopher → **en kulisutafalu**, London → **en landan**, Nairobi → **en nayilobi**.
   - In a blind test, a reader recovered 43 of 44 world names from their adapted forms. A fixed added vowel beat copying a nearby vowel, because it marks itself as "not in the original" (`tests/names-01/`).
-- **Loanwords** follow the same sound rules without the article, and are listed in the lexicon with field "loan": dollar → **dola**. New concepts are normally built with the word-building markers instead; borrowing is for names of things that have no description, like brands.
+- **Technical and international words are borrowed from English** (user's ruling, 2026-10-09): units, devices, sciences, institutions, brands. Run the English word through the same sound rules, without the article: dollar → **dola**, minute → **minitu**, hour → **awuwa**, kilometre → **kilamita**, percent → **pasentu**. Borrowing replaces *describing*, not native words: if a native root exists (water, eat, fear), use it. A loan goes into the lexicon (field "loan") once it's common, and is checked against native words then; until that, an occasional near-collision is tolerated, as in every language.
 
 ## Word building
 
@@ -105,7 +105,8 @@ The logic lives in how words combine, not in how roots sound. A root's sound is 
 2. **A new root only when it's earned:** a basic concept that independent language lineages converge on, or a modern concept frequent enough that the phrase is a real cost, or a phrase that fails a blind test. When related senses compete for one root or two, the lump/split rule decides ([vocabulary-method.md](vocabulary-method.md)): **apu** is both "word" and "language", while **yesa** learn and **tofo** teach stay two roots (lumped in only 9.2% of families).
 3. **The tools choose the sound.** `tools/words.py add-content` picks the form least likely to be misheard as a related word, checks it against drift and juncture, and pushes opposites and same-slot alternatives apart (`--antonym`). Forms are never hand-picked.
 4. **Frequent phrases may later be clipped** into roots; the clipped form goes through step 3.
-5. **Names and loans** are adapted, not coined: `tools/names.py`, with **en** before names.
+5. **Names and loans** are adapted, not coined: `tools/names.py`, with **en** before names. A shared technical or international thing is borrowed from English rather than described (Words, above).
+6. **No word may sound like a common offensive word** in the world's most spoken languages. `tools/offensive.py` holds the list (from Wiktionary, 34 languages) and the word tools skip any form that matches.
 
 ## Conditions, modality, choices and quantities
 
@@ -120,14 +121,14 @@ These are built from existing words; no new grammar words were needed (roadmap B
   - Ability: **lanu** "can, be able to".
   - Obligation: **keya** "must, have to", **wupi** "need to".
   - Permission: **efon** "allow". "May" is **gun efon** "is allowed": **me gun efon nawi** "you may eat".
-  - "Might" and "must" in the sense of *probably* are never modal verbs; they are confidence. "She must be home" is **kon te wan gun mon guyi**. English "must" and "may" each mean two different things; here they can't.
+  - "Might" and "must" in the sense of *probably* are never modal verbs; they are confidence. "She must be home" is **kon mape wan gun mon guyi** (9 in 10). English "must" and "may" each mean two different things; here they can't.
 - **Comparison:** **ke** + adjective + **se** + standard (**ke kudu se guyi ben** "bigger than that house"). Less = more of the opposite (**ke meli** "smaller"). Most = **se we** "than all". As … as = **fu** "like" (**kudu fu bu** "as big as it").
 - **Choices.**
   - **min … lu …** is a yes/no question about the whole "or": "do you want either?"
   - **… lu … yu.** asks *which*: **me momu osa lu nimo yu.** "water or money, which do you want?" Answer by echoing the choice.
   - **lu X lu Y** is "either X or Y, not both", like French *ou… ou*. Plain **lu** allows both.
 - **Quantities.**
-  - About: **fu** + number (**ewo fu miko** "about 36 people").
+  - About: **fu** + number (**ewo fu ka webo** "about 30 people").
   - Range: **se** X **tun** Y "from X to Y".
   - At least: **pa**. At most: **mu ke se** X "not more than X".
   - Part of a whole: X **pi** Y (**fi pi ka** "one of three", a third). Fractions: the point **mimi**.
@@ -161,7 +162,7 @@ Evidence: `research/notes/politeness.md`.
 ## Rules the principles don't cover
 
 1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **ku** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so ku …** "please …"). Only a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"
-2. **Confidence is a number of sixths:** **kon** + digit = how many chances in 6 that the statement is true (**kon da** = 4 in 6, about 67%). Seven levels, 0 to 6 (**kon nobi** = 6 in 6, certain), match the about 7 bands ordinary forecasters can use without losing accuracy (Friedman et al. 2018). Extremes take a digit after the point: **kon te mimi ka** = 5.3 in 6 in base 6, i.e. 5½ in 6, about 92%. **kon bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for.
+2. **Confidence is a number of tenths:** **kon** + number = how many chances in 10 that the statement is true (**kon oma** = 7 in 10). **kon po** is impossible, **kon webo** (10 in 10) certain. Extremes take a digit after the point: **kon mape mimi te** = 9.5 in 10. **kon bo** = "don't know how sure". It is never used for emphasis; that's what **bi** and **ba** are for. (Until 2026-10-09 the scale was sixths, sized to the about 7 bands forecasters can use without losing accuracy, Friedman et al. 2018; the user switched to tenths because percentages are familiar. Most speakers will use a few favourite values; that's expected.)
 3. **Source is optional:** **o** seen, **fen** told, **san** inferred.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **obu** "coming" / **mu obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.
 5. **Questions:** question words stay where the answer would go: **me momu wun lon oyi yu.** "you want me to say what?". They are built from parts: **yu** what, **ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
@@ -184,14 +185,15 @@ Evidence: `research/notes/politeness.md`.
    - A preposition can take a clause (**wo wan la yidu go** "after they take someone") or a verb that names the act (**se kusa** "from leaving").
    - **ya** alone = "first, beforehand".
    - To give a *noun* a location, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river" (a bridge). A bare place phrase after a noun attaches to the verb instead (rule above).
-   - **nin** + noun phrase = during (**nin dili nobi fi** "for seven days").
+   - **nin** + noun phrase = during (**nin dili oma** "for seven days").
    - A phrase setting time or place may open the sentence (**mon muyi fa, …** "at no time, …"). It sets the scene and changes no roles.
-9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **wuma wo dili fi** "tomorrow after one day" = the day after tomorrow. With no anchor, the anchor is now: **wo nelon fi** "after one week" = next week. A time point is an amount elapsed, said as a label: the clock is the fraction of the day (**mon mimi ka da ka** "at .343" = 15:00), the date the days elapsed in the year, always four digits (**dili pi po te ka sa**), the year the years since year 0 (**fawu pi fi ka ka**), a weekday one digit (**dili pi ka**). A duration is a count (**aya ka** "three watches", 12 h). Age is lived time: **lon nume fawu te nobi** "I have lived 30 years". Words and the calendar: [measurement.md](measurement.md#time-and-calendar). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
-10. **Numbers are base 6.** The six digits are one syllable each; there is no second form. Larger numbers are built from place words: 6 **nobi**, 36 **miko**, 216 **niyu**, and groups of four places, 6⁴ = 1296 **yiyo**, 6⁸ **gife**, 6¹² **yuli**, which play the role "thousand" and "million" play in decimal. Why base 6: `docs/number-base.md`.
-    - **Quantity reading:** place words in descending order, each preceded by its digit; a digit 1 before a place word is dropped: 7 = **nobi fi** ("six one"), 42 = **miko nobi** (36 + 6), 100 = **sa miko da nobi da** (2·36 + 4·6 + 4).
-    - **Digit reading:** digit by digit, in groups of four from the right. Used for identifiers, phone numbers, codes, clock times and dates, and whenever the exact digits matter more than the size. Fixed groups let a listener notice a missing digit.
-    - **Fractions:** **mimi** "point" separates the fraction digits: 1/2 = **po mimi ka** (0.3 in base 6), 1/3 = **po mimi sa**. **guti** = minus.
-    - Noun + number = count (**dili nobi fi** "seven days"); noun + **pi** + number = label or order (**lite pi po** "step zero"; **aya pi ka** "watch three", noon to 16:00).
+9. **Time:** tense is optional. A narrative sets its time once (**afe …**, or **sin** on its first verb) and then leaves tense unmarked. Aspect: **sin** done, **le** ongoing, **win** about to. Time words name an anchor plus an offset, and the offset always names its unit: **wuma wo dili fi** "tomorrow after one day" = the day after tomorrow. With no anchor, the anchor is now: **wo nelon fi** "after one week" = next week. Calendar and clock are today's: **dili** day, **nelon** week (7 days), **dunan** month (the same word as "moon", as in most language families), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**. Points in time are labels, read digit by digit: the clock in 24-hour time (**mon fi te ka po** "at 15 30"), the year (**fawu pi sa po sa ufo** "year 2026"), the month (**dunan pi webo** "month 10", October). A day of the month is said with its month (**dunan pi webo, dili pi mape** "October 9"); **dili pi** + 1–7 alone is a weekday, Monday = 1 (**dili pi ka** "Wednesday"). A duration is a count (**awuwa ka** "three hours"). Age is lived time: **lon nume fawu ka webo** "I have lived 30 years". The senary calendar has its own words: [measurement.md](measurement.md). Never a "move forward" metaphor. Roots: **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
+10. **Numbers are base 10** (user's ruling, 2026-10-09: base 10 is what the world uses; base 6 was the language's own system until then, see `docs/number-base.md`). Digits 0–5 are one syllable; 6–9 are two, because the one-syllable space is full of grammar words (like English "seven"). Place words: 10 **webo**, 100 **loki**, 1000 **munno**, a million **tonen**, a billion **siwin**.
+    - **Quantity reading:** place words in descending order, each preceded by its digit; a 1 before a place word is dropped: 15 = **webo te** ("ten five"), 50 = **te webo** ("five ten"), 42 = **da webo sa**, 2026 = **sa munno sa webo ufo**. There are no teens or irregular tens, so 15 and 50 can't be confused the way English *fifteen* and *fifty* are.
+    - **Digit reading:** digit by digit, in groups of three from the right. Used for identifiers, phone numbers, codes, clock times and years, and whenever the exact digits matter more than the size.
+    - **Fractions:** **mimi** "point" separates the fraction digits: 1/2 = **po mimi te**. A part of a whole: **fi pi ka** "one of three". **guti** = minus. **unun** = "times ten to the": **ka unun guti ufo** = 3 × 10⁻⁶.
+    - Noun + number = count (**dili oma** "seven days"); noun + **pi** + number = label or order (**lite pi po** "step zero"; **dunan pi webo** "month 10").
+    - **Senary numbers** (for talking about the senary system) are marked with the borrowed word **senali** and read digit by digit: **senali sa po** = 20₆ = 12. Senary's own number and scale words are in [measurement.md](measurement.md).
 11. **Dropped subjects** are allowed only when the subject repeats after **yen** / **un**, or for the addressee of an instruction or request.
 12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks; a broken-off word just stops (there is no dash).
 13. **Degree words** (**ke** more, **bi** very, **to** rather) come before what they modify: **ke kudu** "bigger".
@@ -224,15 +226,19 @@ Determiners, like other modifiers, follow the noun: **guyi tan** "this house", *
 
 ## Numbers
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 36 | 216 | 6⁴ | 6⁸ | 6¹² | point | minus |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **po** | **fi** | **sa** | **ka** | **da** | **te** | **nobi** | **miko** | **niyu** | **yiyo** | **gife** | **yuli** | **mimi** | **guti** |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|---|---|---|---|---|---|---|---|---|---|
+| **po** | **fi** | **sa** | **ka** | **da** | **te** | **ufo** | **oma** | **kefi** | **mape** |
 
-Fractional groups: 6⁻⁴ **kufe**, 6⁻⁸ **bafo**, 6⁻¹² **genwi**. Any other power: **unun** "power" + exponent. Units and how to say measurements: [measurement.md](measurement.md).
+| 10 | 100 | 1000 | million | billion | point | minus | × 10 to the | senary |
+|---|---|---|---|---|---|---|---|---|
+| **webo** | **loki** | **munno** | **tonen** | **siwin** | **mimi** | **guti** | **unun** | **senali** |
+
+Measurements use borrowed unit words, unit first like any counted noun: **kilamita te** "5 km". Senary's units and scale words: [measurement.md](measurement.md).
 
 ## Vocabulary
 
-[../data/lexicon.tsv](../data/lexicon.tsv) holds 447 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. One root can cover senses that most language families lump: **apu** is both "word" and "language" (CLICS4, lumped in 47 of 71 families, 50.2% family-balanced; "tongue" = "language" is only 9.5%). A count keeps them apart: **apu fi** "one word". All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move.
+[../data/lexicon.tsv](../data/lexicon.tsv) holds 453 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. One root can cover senses that most language families lump: **apu** is both "word" and "language" (CLICS4, lumped in 47 of 71 families, 50.2% family-balanced; "tongue" = "language" is only 9.5%). A count keeps them apart: **apu fi** "one word". All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move.
 
 ## How much to trust the sound choices
 
@@ -241,6 +247,6 @@ The word forms were chosen by a mishearing model. Its consonant data are real: E
 ## Open questions
 
 - The test texts, the listener data and the concept list are all English-centred. "Universal" is a goal, not yet a result.
-- The vocabulary lacks modern-world concepts (machines, medicine, money systems, science).
+- Modern technical vocabulary is borrowed on demand; only a few loans are in the lexicon so far.
 - Do confirmation and speech-act particles survive native use, or wear away?
 - The frequency tiers are judgment, not cross-linguistic data.

@@ -1,6 +1,8 @@
-# Measurement
+# Senary vocabulary
 
-The language's measurement system is the senary system, carried over on 2026-10-08 at the user's request ("it's strong as is").
+Apu Pi We's own numbers are base 10, and everyday measurement uses today's units with borrowed names (`language.md`, rules 9–10). Since 2026-10-09 senary is a topic the language can talk about, for the user's worldbuilding among other things, not a system built into it (user's ruling). This file holds the words for it. From 2026-10-08 to 2026-10-09 senary was the language's own measurement system; the sections below were written then and still describe how senary is said.
+
+**Numbers in this file are senary.** In speech, put **senali** before a senary number whenever it isn't obvious (**senali sa po** = 20₆ = 12). The base-6 place and scale words (**nobi** 6, **miko** 36, **niyu** 216, **yiyo** 6⁴ …) are used only for senary.
 
 ## How the two repos divide the work
 
@@ -44,7 +46,7 @@ Unnamed quantities are compounds of unit words, following the usual head-first r
 
 The unit comes first and the number follows, like any counted noun:
 - **ano te** = 5 length units.
-- **fomi sa nobi** = 2·6 = 12 mass units.
+- **fomi sa nobi** = 2·6 = 12 mass units (senary place words).
 
 **Scale words are number words.** There are no separate prefixes:
 - 6⁴ **yiyo**, 6⁸ **gife**, 6¹² **yuli**
