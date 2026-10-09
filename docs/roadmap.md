@@ -71,6 +71,8 @@ So the target is a core of about 2,000–3,000 roots, plus rules that generate e
 
 - **B2 done (2026-10-08).** Conditions, modality, comparison, choices, quantities and small function words, all built from existing words; blind coverage test 24/24 (`tests/grammar-coverage-01/`). Dates and clock time wait on the senary rework.
 
+- **B1 seed phase done (2026-10-08).** 445 roots; stop condition met (tests 04–05). Further words on demand under the two-layer rule (`docs/vocabulary-plan.md`).
+
 ## Recommended order
 
 A1 → A3 → A5 → A2 → A4 → A6 → A7, then B and C together. D runs alongside, whenever it's interesting.

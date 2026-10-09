@@ -1,6 +1,6 @@
 # Vocabulary plan (roadmap B1)
 
-Agreed in discussion with the user, 2026-10-08. Nothing in this plan has been built yet.
+Agreed in discussion with the user, 2026-10-08. **Seed phase complete** (stop condition met by vocabulary tests 04 and 05); words are now added on demand.
 
 ## Goal and what it serves
 

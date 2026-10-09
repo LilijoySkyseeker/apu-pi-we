@@ -306,3 +306,7 @@ Recipe, machine instructions, race report, neighbour complaint, storm warning (`
 ## Deep-layer criterion: convergence; time-stability as a check (2026-10-08)
 
 The user asked whether stability over long time spans is the best measure of base human experience. Answer, agreed: it's strong corroboration, but lineage breadth already integrates deep time. Time studies measure word-form survival, which mostly tracks frequency, and the agreement of independent signals is the better criterion. Check: the seed already held all of Holman's 40 most stable concepts and all but one of Pagel's 23 ultraconserved words; **worm** and **grind** added.
+
+## Seed phase complete (B1) (2026-10-08)
+
+Vocabulary tests 04 and 05 (`tests/vocabulary-04-modern/`, `-05-modern/`) lost under 1 point and 0 points to missing words: two in a row, so the agreed stop condition holds. Loss to missing words across tests 01–05: 2–3, 1–1.5, about 1, under 1, 0. The lexicon stands at 445 roots. From here, words are added on demand. World-layer concepts are built from parts unless they're frequent; modern abstractions (government, prescription, allergy, orbit) have composed reliably.

@@ -1,0 +1,16 @@
+Text M (a science museum sign, Tokyo)
+M1. The light from that star left it long before there were people.
+M2. The Earth turns once a day, and goes around the sun once a year.
+
+Text P (a social media post, Lima)
+P1. Lost dog! Small and white, answers to Coco.
+P2. Last seen near the old market this morning.
+P3. Please share; thank you, everyone!
+
+Text H (a history book, West Africa)
+H1. Long ago, camels carried salt and gold across the desert to the great cities of the south.
+H2. Merchants grew rich, and scholars came from far away to study there.
+
+Text R (a hotel review, Istanbul)
+R1. The room was clean and the bed was comfortable, but the street was loud at night.
+R2. Breakfast was excellent. I would come back.

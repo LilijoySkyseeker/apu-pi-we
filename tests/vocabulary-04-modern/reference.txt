@@ -1,0 +1,19 @@
+Text F (two friends talking, Buenos Aires)
+F1. "Are you coming to the party tonight?"
+F2. "No, I can't. I have to study for an exam."
+F3. "Come on! It's only for a little while."
+F4. "Fine, but I'm leaving early."
+
+Text S (a school notice, Jakarta)
+S1. Parents are invited to the school's music evening.
+S2. Children should wear clean uniforms and bring a drink.
+S3. Please tell the teacher if your child has a food allergy.
+
+Text I (a radio health interview, Delhi)
+I1. "Doctor, why do so many people get sick when the weather changes?"
+I2. "The air becomes cold and dry, and viruses spread more easily in crowded places."
+I3. "Washing your hands often is the simplest protection."
+
+Text J (a job advertisement, Johannesburg)
+J1. We are looking for an experienced driver who speaks two languages.
+J2. Send your application by email.
