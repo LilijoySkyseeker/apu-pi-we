@@ -130,6 +130,12 @@ Evidence: `research/notes/politeness.md`.
     - **How much, how many:** **WIfu yu** "number what": **gun NImo WIfu yu?** "how much money is there?"
 14. **Two objects:** verb + recipient + thing: **TOfo me NUta** "teach you fear".
 
+15. **Clause attachment** (tested on contract language, `tests/backtranslation-04-nesting/`):
+    - A relative clause (**man …**) attaches to the nearest noun before it.
+    - A clause of time, reason or condition (**nin**, **ya**, **wo**, **gi**, **don** …) at the **start** of a sentence belongs to the main clause. At the **end**, it belongs to the innermost clause before it. So **nin LEso, lon sin MIya Ewo man SIgo** = "in the morning, I watched the person who came back" (the watching was in the morning), while **lon sin MIya Ewo man SIgo nin LEso** = "I watched the person who came back in the morning" (the coming back was in the morning).
+    - A pause (a comma in writing) goes wherever a phrase could otherwise run on. That means three places: after a fronted clause; at the end of a subject that contains a clause, before its verb (**no SANwa man … sin SEge, KEya UNfu …**); and between a recipient and a long object.
+    - There is no clause-closing word. Add one (two syllables, since the one-syllable space is full) if a blind test shows attachment failing despite these rules.
+
 ## Grammar words
 
 | Group | Words |

@@ -242,3 +242,7 @@ Research (`research/notes/politeness.md`): first officers hint even in high-risk
 - routines: **Upe** greeting, **Upe Isi** farewell, **LOta** thanks (new root), **SEpi** sorry.
 
 Not adopted: an escalation convention and an urgent register beyond **yo yo** (add back if a test shows urgency lost). Blind test (`tests/backtranslation-03-politeness/`): content 19/20, act and urgency 20/20, politeness 19/20; politeness never blurred an act.
+
+## Deep nesting (A7) (2026-10-08)
+
+Two blind rounds on contract language (`tests/backtranslation-04-nesting/`). Round 1: original nested sentences read fully correctly, but with plausibility doing work in three places. Added mechanical rules: relative clauses attach to the nearest noun; time/reason/condition clauses at the start belong to the main clause and at the end to the innermost clause; a pause goes wherever a phrase could run on (after a fronted clause, after a subject containing a clause, between a recipient and a long object). Round 2: five sentences, three plausibility-neutral, all correct. No clause-closing word adopted; add back if attachment fails in a test. **All seven foundation items (A1–A7) are now done.**

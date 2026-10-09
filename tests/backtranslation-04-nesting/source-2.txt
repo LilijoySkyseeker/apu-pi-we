@@ -1,0 +1,7 @@
+Sentences checking how clauses attach. MAla is a name. Some sentences are deliberately neutral, so that only the grammar can decide what attaches to what.
+
+C1. ya go NEke no SANwa du BENbi la man BENbi ge SElo, no SANwa man sin TUsi SUso tun ge TAyu man no KUwi GUyi sin SEge KEya UNfu NImo ya, man UNfu li ge Alun we man no MIya GEno nin no SANwa KUsa.
+C2. no YONnu sin NAgu LOwu man YIdu TAle nin GEgi.
+C3. nin GEgi, no YONnu sin NAgu LOwu man YIdu TAle.
+C4. en MAla sin NAgu SOnu pi no TOfo man YUyun.
+C5. lon sin NEke YUfa tun SOnu pi en MAla, man YUyun.

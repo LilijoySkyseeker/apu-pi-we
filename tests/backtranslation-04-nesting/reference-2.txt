@@ -1,0 +1,6 @@
+C1. Before the keys that open the building are given to the tenant, the tenant who signed the agreement that the landlord sent must pay the deposit, which covers any damage that the inspector finds when the tenant leaves.
+    (before-clause attaches to "must pay"; when-clause attaches to "finds"; "which covers…" attaches to the deposit)
+C2. The guard saw the man who took the car while it was raining.  (the TAKING was during the rain)
+C3. While it was raining, the guard saw the man who took the car.  (the SEEING was during the rain)
+C4. Mara saw the friend of the teacher who sings.  (the TEACHER sings)
+C5. I gave the bag to the friend of Mara, who sings.  (MARA sings)
