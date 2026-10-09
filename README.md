@@ -22,7 +22,7 @@ The tools need Python with numpy. On NixOS:
 
     cd tools
     nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py add-content river field 2'
-    nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py syllables "pin me NAgu DINbu LUmi"'
+    nix-shell -p 'python3.withPackages(ps: [ps.numpy])' --run 'python3 words.py syllables "min me nagu dinbu lumi"'
 
 ## Related
 

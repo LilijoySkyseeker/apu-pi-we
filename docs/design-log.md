@@ -324,3 +324,12 @@ Approved deletions:
 - the three old-to-new word maps.
 
 All are in git history (last present at commit 8c65afd); add back if a rebuild or rerun needs them. The user agreed to read sentences aloud as the first human check. Writing: the user chose to focus on the Latin transliteration for now (discussion below).
+
+## Writing spec; teaching capitals dropped (2026-10-09)
+
+The user's first reading check found three things:
+- my description of stress as a "pitch rise" read as question intonation (now: the stressed syllable is higher, stepping down after it, not longer);
+- questions need no rising tone;
+- in a sans-serif mobile font, **lon** "I" looked like "Ion": l, I and 1 collide.
+
+Decisions (user): the Latin transliteration is the script for now (it costs nothing to type; computing runs on it); all lowercase, names included; stress unwritten because predictable, so the **teaching capitals were dropped from all docs and texts**; digits 0–5 grouped in fours; punctuation with defined jobs (`,` `.` and quotes required; `?` `!` optional; `-` for compounds). A native script is deferred, with triggers.
