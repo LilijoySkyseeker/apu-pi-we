@@ -9,4 +9,4 @@ FILENAME=="languages.csv"{ if(FNR>1){f=$9; if(f=="") f="iso_" $1; fam[$1]=f}; ne
 { split($0,a,","); p=a[3]; if(!(p in pid)) next; k=p SUBSEP a[2]; if(!(k in val) || a[4]>val[k]) val[k]=a[4] }
 END{ for(k in val){split(k,b,SUBSEP); p=b[1]; v=val[k]; F=fam[b[2]]; n[p]++; s[p]+=v; fk=p SUBSEP F; fn[fk]++; fs[fk]+=v }
   for(k in fn){split(k,b,SUBSEP); p=b[1]; nf[p]++; frac[p]+=fs[k]/fn[k]; if(fs[k]>0) fp[p]++}
-  for(p in pid) printf "%s\tvar %d/%d\tfam %d/%d\tfam-bal %.1f%%\n", pid[p], s[p], n[p], fp[p], nf[p], 100*frac[p]/nf[p] }
+  for(p in pid) if(nf[p]) printf "%s\tvar %d/%d\tfam %d/%d\tfam-bal %.1f%%\n", pid[p], s[p], n[p], fp[p], nf[p], 100*frac[p]/nf[p] }
