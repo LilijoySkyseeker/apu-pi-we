@@ -22,9 +22,9 @@ Most of the grammar follows from these. The rules after them are the cases the p
 - **Vowels:** a e i o u.
 - **Consonants (13):** p b t d k g · m n · f s · l w y. Only three places in the mouth (lips, tongue tip, back of tongue), because place is the cue noise destroys first. /v/ and /z/ were deleted: both are rare worldwide, /v/ is easily confused with /b/ and tends to merge with /w/, and /s/–/z/ tends to merge. Removing /z/ cost almost nothing at a 3,000-root scale.
 - **Syllables:** (C)V(n). A vowel-only syllable may appear only at the start of a word. The only syllable-final consonant is n.
-- **Stress:** the first syllable of every content word; grammar words are unstressed. Stress marks where each content word begins. It is a pitch movement at the start of the syllable, not extra length, because listeners hear lengthening as the *end* of a word. Every syllable keeps its full vowel: the rhythm is syllable-timed, like Spanish or Japanese, not stress-timed like English.
+- **Stress:** the first syllable of every content word; grammar words are unstressed. Stress marks where each content word begins. The stressed syllable is said **higher in pitch, stepping down after it**, as English says WA-ter or MO-ther, but **not longer**, because listeners hear lengthening as the *end* of a word. Every syllable keeps its full vowel: the rhythm is syllable-timed, like Spanish or Japanese, not stress-timed like English.
 - **Harmless variants:** k and g may sound like "ch" and "j" before i and e; a vowel plus n may become a nasal vowel; consonants between vowels may soften. The vocabulary is built so these changes never merge two words.
-- **No tones.** Pitch is free for intonation and emotion.
+- **No tones.** Pitch is free for intonation and emotion. A question needs no rising tone, since the question word does that job; rising anyway is fine.
 - **Interjections outside the system:** **mm** "heard you", **huh?** "say again".
 - **Writing:** plain lowercase, since stress is predictable. Numbers are written with base-6 digits (0–5), so a written number is never confused with a word. Teaching examples capitalize the stressed syllable: **Ewo**, **Alun**, **LUgo**.
 
