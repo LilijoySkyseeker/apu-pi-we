@@ -169,6 +169,7 @@ Evidence: `research/notes/politeness.md`.
 6. **Reference:**
    - **People and animals:** **wan** = the most recent person or animal that was the subject of a clause (if none yet, the most recent one mentioned); **yi** = the one before that, the next most recent *different* one. Anyone further back is named again. Two details: a pronoun never means the subject of its own clause (that's **nen**), so in "the dog saw him", *him* is the most recent subject *before* the dog; and a say-verb that frames a quote ("…," **en benu oyi**) doesn't count, so a quote split by a speech tag keeps its references. The rule is mechanical, so children can compute it and speaker and listener can't disagree.
    - **Things:** **bu** = "it", the most recent thing mentioned.
+   - **Events, statements and situations:** **tan** and **ben** stand alone: **tan** for something nearer (just said, or here and now), **ben** for something further. **ben gun upe** "that's good"; **gi tan** "because of this" = so. A determiner right after a noun or pronoun still belongs to it, so after a recipient, use **tun**: **lon iko ben tun wan** "I told him that" (**lon iko wan ben** would be "I told that-him"). Added after `tests/economy-01-context/`, where every "that happened", "it was bad" and "I told him that" needed a noun.
    - In reported speech or thought, **sun** = the person whose words are reported.
    - **go** = anyone (generic); **me** is only ever the listener.
    - **nen** = self, for any person: **lon yonnu nen** "I held myself back", **feme la … pi nen** "the feelings … of themselves".
@@ -222,7 +223,7 @@ Evidence: `research/notes/politeness.md`.
 | Copula | is **gun** |
 | Names | name article **en** |
 
-Determiners, like other modifiers, follow the noun: **guyi tan** "this house", **wan la** "they".
+Determiners, like other modifiers, follow the noun: **guyi tan** "this house", **wan la** "they". **tan** and **ben** can also stand alone for an event, statement or situation (rule 6).
 
 ## Numbers
 

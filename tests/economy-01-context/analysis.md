@@ -89,3 +89,8 @@ is expensive (whole words and phrases), while what English forces is cheap
 - The English syllable count is heuristic.
 - The speaking-time estimate assumes Apu Pi We is spoken as fast as Japanese
   or Spanish, which is untested.
+
+## Follow-up
+
+- 2026-10-10: finding 1 fixed. **tan**/**ben** stand alone for events and
+  statements (`docs/language.md` rule 6).
