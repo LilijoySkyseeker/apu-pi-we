@@ -415,3 +415,7 @@ Against the yardstick's Restraint criterion ("design only what speakers can't ea
 - **The curse word gefo was deleted.** It was added after text 001, the user's own text with swearing, found no way to swear. Swearing gets its force from taboo, which a designer can't confer, and speakers coin swear words from taboo roots, which the lexicon has (**wento**, **bodu**, **kono**, **nosen**), with **ba**. Add back if speakers reach for a swear word and the language blocks them from making one. Texts 001 and 002 keep **gefo** as a record; the form is free again.
 - **nun's renewal path** ("nun nun becomes the ordinary polite form") moved to drift.md as a prediction.
 - **Kept:** the optional precision systems (tenths confidence, evidentials, eight speech acts, **sun**, inclusive/exclusive "we"), since they cost nothing unused and are on the watch list; the writing rules, which already have add-back triggers; sound and vocabulary design, which speakers can't easily fix later.
+
+## Testing stopped; rationale written (2026-10-10)
+
+The user stopped listening test 01: no available synthesiser produced a reliable word-initial g before u. The user asked for one document holding the why and how of every part, so a later session can replicate and tweak it: `docs/rationale.md`, organised by topic with sources ([user], [evidence], [Claude]), methods, parameters and what to touch when changing each part. language.md still wins where they differ.

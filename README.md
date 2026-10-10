@@ -2,11 +2,12 @@
 
 A thought experiment: design the best universal human language for modern Earth from first principles. It's imagined as a native language that children grow up speaking. The goal is faithful transmission of thought, at a cost speakers will actually pay.
 
-The language has no name yet.
+The language is called **apu pi we**, "everyone's language".
 
 ## Layout
 
 - [docs/language.md](docs/language.md): the language as it stands now. Start here.
+- [docs/rationale.md](docs/rationale.md): why each part is the way it is, how it was made, and how to rebuild or change it. Read this before changing anything.
 - [docs/design-log.md](docs/design-log.md): decisions in order, with reasons.
 - [docs/roadmap.md](docs/roadmap.md): what a full language still needs, and in what order. [docs/vocabulary-plan.md](docs/vocabulary-plan.md) and [docs/vocabulary-method.md](docs/vocabulary-method.md): the agreed plan and the decision procedure for building the vocabulary.
 - [docs/drift.md](docs/drift.md): how the language would change over generations, and how the design pre-empts it.
