@@ -5,10 +5,13 @@ a slot), plus control pairs it rates very distinct; synthesises each word with a
 voice (respelt so it says our sounds, stress on the first syllable); writes the trials to the
 user's vault and the answer key here. No added noise: the user adds noise when listening.
 
-  python make.py OUTDIR VOICE   (needs numpy, kokoro-onnx with its model files in /tmp/kk, ffmpeg)
+  python make.py OUTDIR VOICE   (needs numpy, mbrola with its voices, ffmpeg; VOICE e.g. it3)
 
-Version 2 (same day): the Spanish Piper voice read our spelling as Spanish text and "butchered" it
-(user). Kokoro (kokoro-onnx v1.0) takes phonemes directly, so each word is given as exact IPA.
+Version 3 (same day). v1: a Spanish Piper voice read our spelling as Spanish text and "butchered" it
+(user). v2: Kokoro took phonemes but its neural voices "sneak sounds that are not there into the
+words" (user). v3: MBROLA diphone synthesis plays exactly the phonemes given, with the durations and
+pitch given, and adds nothing. The Italian voice it3 lacks w+u and y+i (never recorded); the Spanish
+voice es2 has every sequence we need when our y is its "jj" (the y of Spanish "mayo").
 """
 import csv, itertools, os, random, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -16,9 +19,8 @@ sys.path.insert(0, os.path.join(HERE, "..", "..", "tools"))
 import words as W, build as B
 
 OUT, VOICE = sys.argv[1], sys.argv[2]
-from kokoro_onnx import Kokoro
-import soundfile as sf
-KOKORO = Kokoro("/tmp/kk/kokoro-v1.0.onnx", "/tmp/kk/voices-v1.0.bin")
+import shutil
+MBROLA_DB = os.path.join(os.path.dirname(os.path.dirname(shutil.which("mbrola"))), "share", "mbrola", "voices")
 rng = random.Random(1)
 S, IDX = W.S, W.IDX
 
@@ -56,10 +58,33 @@ controls = [("control", sc, a, b) for sc, a, b in rng.sample(low, 6)]
 allpairs = content + grammar_pairs + controls
 
 
-def ipa(form):
-    """Exact phonemes: one IPA symbol per letter (g -> ɡ, y -> j), stress on the first syllable.
-    Every word is said as a citation form, so one-syllable words are stressed too."""
-    return "ˈ" + form.replace("g", "ɡ").replace("y", "j")
+DUR = dict(p=80, t=80, k=85, b=70, d=70, g=70, m=70, n=70, f=100, s=105, l=60, w=55, j=55)
+Y = "jj" if VOICE.startswith(("es", "mx")) else "j"   # the voice's symbol for our y
+STRESSED = "1" if VOICE.startswith("it") else ""          # Italian voices record stressed vowels separately
+BASE, PEAK = 105, 140   # Hz: the stressed first syllable is higher and the rest step down (language.md, Sounds)
+
+
+def pho(form):
+    """MBROLA input for one word in citation form: every phoneme with its length in ms and pitch points.
+    Stress is pitch, not length: all vowels 110 ms, the last 140 ms (ordinary phrase-final lengthening)."""
+    syl = W.split(form)
+    lines = ["_ 150"]
+    for k, i in enumerate(syl):
+        onset, vowel, coda = W.INV.syl[i]
+        onset = {"y": Y, "j": Y}.get(onset, onset)   # the inventory writes our y as j
+        last = k == len(syl) - 1
+        if onset:
+            lines.append(f"{onset} {DUR[onset.replace('jj', 'j')]}")
+        v = vowel + (STRESSED if k == 0 else "")
+        if k == 0:
+            lines.append(f"{v} 110 10 {PEAK} 90 {PEAK - 15}")
+        else:
+            f0 = BASE - 6 * (k - 1)
+            lines.append(f"{v} {140 if last and not coda else 110} 50 {f0}")
+        if coda:
+            lines.append(f"n {DUR['n'] + (30 if last else 0)}")
+    lines.append("_ 150")
+    return "\n".join(lines) + "\n"
 
 
 os.makedirs(OUT, exist_ok=True)
@@ -75,9 +100,11 @@ while True:  # no pair on two trials in a row
         break
 for n, t in enumerate(trials, 1):
     t["n"] = n
-    wav = os.path.join("/tmp/kk", f"t{n:02d}.wav")
-    audio, sr = KOKORO.create(ipa(t["target"]), voice=VOICE, is_phonemes=True, speed=0.9)
-    sf.write(wav, audio, sr)
+    wav, ph = f"/tmp/kk/t{n:02d}.wav", f"/tmp/kk/t{n:02d}.pho"
+    open(ph, "w").write(pho(t["target"]))
+    r = subprocess.run(["mbrola", os.path.join(MBROLA_DB, VOICE, VOICE), ph, wav], capture_output=True, text=True)
+    if r.returncode or "Warning" in r.stderr or "rror" in r.stderr:
+        print("mbrola:", t["target"], r.stderr.strip()[:200])
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", "apad=pad_dur=0.3", "-b:a", "96k",
                     os.path.join(OUT, f"{VOICE}-t{n:02d}.mp3")], check=True)
 with open(os.path.join(HERE, f"key-{VOICE}.tsv"), "w", newline="") as fh:
@@ -87,7 +114,7 @@ with open(os.path.join(HERE, f"key-{VOICE}.tsv"), "w", newline="") as fh:
 lines = ["# Listening test 01", "",
          "For each clip, write which of the two words you heard: **A** or **B**. Guess if unsure; don't replay more than once. Each clip's word was picked at random, so a pair can be the same word both times.",
          "Play them with whatever background noise you like (a fan, a busy room, music); note what you used at the bottom.",
-         f"Voice: {VOICE} (Kokoro speech synthesiser, given each word's exact sounds). It is not a native speaker of the language.", ""]
+         f"Voice: MBROLA {VOICE}, a diphone synthesiser that plays exactly the sounds it is given, nothing added. It sounds robotic; that's the price of precision.", ""]
 for t in trials:
     a, b = sorted([t["a"], t["b"]])
     lines += [f"**{t['n']}.** ![[{VOICE}-t{t['n']:02d}.mp3]]", f"A: {a}  ·  B: {b}  ·  heard: ", ""]

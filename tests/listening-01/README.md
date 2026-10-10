@@ -4,7 +4,10 @@
 
 **Design:** 32 word pairs: the 20 content-word pairs the model rates most confusable, the 6 most confusable grammar-word pairs that share a slot, and 6 control pairs it rates very distinct. Each pair is played twice; each time its word is picked at random, and no pair appears twice in a row (64 trials). The listener picks A or B (two-alternative forced choice). The audio is clean; the user adds background noise when listening (user's choice).
 
-**Voice:** version 1 used a Spanish Piper voice reading respelt words; the user reported it "very much butchering" them, because it guesses pronunciation from spelling. Version 2 uses Kokoro (kokoro-onnx v1.0, model files from its GitHub release in /tmp/kk), which takes phonemes directly: each word is given as exact IPA (one symbol per letter, stress on the first syllable, every word in citation form). The test is built in three voices with identical trials (Spanish ef_dora, Italian if_sara, American English af_heart); the user picks the voice that sounds right on a sample page (`00-choose-a-voice.md`) and takes that one. It is still a synthesiser, not a speaker of the language.
+**Voice:** three tries on 2026-10-09.
+1. A Spanish Piper voice read respelt words as Spanish text: "very much butchering" them (user).
+2. Kokoro, given exact phonemes: its neural voices still "sneak sounds that are not there into the words" (user).
+3. **MBROLA diphone synthesis** (used): it plays exactly the phonemes given, with the durations and pitch given, and adds nothing. Each word is written out by hand in `make.py`: stressed first syllable higher in pitch, stepping down, not longer; all vowels 110 ms, the last 140 ms. The Italian voice lacked w+u and y+i; the Spanish voice **es2** has every sequence when our y is its "jj" (the y of *mayo*). Robotic, but nothing is inserted. The vault has a check page with known words (`00-check-the-voice.md`).
 
 **Files:** `make.py` builds the test; `key-<voice>.tsv` is the answer key (the same for all three voices) (the listener shouldn't read it). The test page and clips are in the user's vault: `Language/listening-test-01/`.
 
