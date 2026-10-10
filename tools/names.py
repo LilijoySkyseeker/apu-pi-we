@@ -5,7 +5,11 @@ hear it as (place-of-articulation confusions per Miller & Nicely where data exis
 loanword practice otherwise). Consonants are never dropped (research/notes/names-and-loans.md):
 a consonant that can't stand where it is gets an added vowel instead.
 
-  python names.py [default|echo]   # adapt the test list; the language uses default (added vowel u)
+  python names.py IPA [IPA ...]    # adapt names given as broad IPA (Marcus = maɹkəs, Jess = dʒɛs)
+  python names.py                  # adapt the names-01 test list
+  python names.py --echo           # the test list under the rejected echo rule (names-01 option A)
+The language uses the default rule (added vowel u). Until 2026-10-10 any argument other than
+"default" silently switched to the echo rule, so passing a name printed the demo list wrongly.
 """
 import re, sys
 import words as W
@@ -103,7 +107,18 @@ NAMES = [
 ]
 
 if __name__ == "__main__":
-    mode = sys.argv[1] if len(sys.argv) > 1 else "default"
+    args = sys.argv[1:]
+    mode = "echo" if "--echo" in args else "default"
+    args = [a for a in args if a != "--echo"]
+    if args:
+        for ipa in args:
+            try:
+                a = adapt(ipa, mode)
+            except ValueError as e:
+                sys.exit(f"{e}. Give the name in broad IPA, not spelling (Jess = dʒɛs).")
+            W.split(a)  # asserts the result is pronounceable in the language
+            print(ipa, a)
+        sys.exit()
     lex = W.read("lexicon.tsv")
     forms = {w["form"]: w["gloss"] for w in lex}
     keys = {W.INV.content_key(W.split(w["form"])): w["gloss"] for w in lex}

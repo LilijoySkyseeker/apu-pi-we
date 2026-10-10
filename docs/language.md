@@ -65,7 +65,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 - **Emphasis and contrast** have no special device yet. Back-translation test 02 showed parallel sentences carry contrast on their own ("**lon mu yidu bu. en tomasu yidu bu.**" = "*I* didn't take it, *Tomas* did"). Add a focus particle if a test shows contrast being lost.
 - **The curse word gefo** fits any content-word slot: a verb (**ba gefo me** "fuck you"), a modifier (**lukan gefo** "fucking head"), or after **yu** (**yu gefo** "what the fuck").
 - **Names** take the article **en**, always: **en mala** "Mara". Many languages have such articles (Tagalog *si*, Māori *a*, Catalan *en*). With the article, a name that happens to sound like a word can't be mistaken for it, the way English copes with names like Rose or Baker.
-- **Names and loanwords are adapted by rule** (`tools/names.py`):
+- **Names and loanwords are adapted by rule** (`tools/names.py`, given the name in broad IPA: `python3 names.py maɹkəs` → **malukasu**):
   - Each foreign sound becomes the nearest native sound: r → l, v → b, z/sh/zh → s, th → f, dh → d, ch → t, j → d, kh → k. h and glottal sounds disappear, ng → n, and length, aspiration and tone are dropped.
   - Two vowels in a row get a glide (y or w).
   - A consonant that can't stand where it is gets an added **u**; consonants are never dropped. Names have at least two syllables.
