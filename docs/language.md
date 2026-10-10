@@ -44,8 +44,8 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 | Mark | Use |
 |---|---|
 | `,` | wherever the pause rule calls for a pause; clause attachment depends on it |
-| `.` | end of a sentence; which "he" is meant depends on sentence boundaries. (In numbers, `.` is the point; it always has digits on both sides.) |
-| `" "` | around quoted speech; the speech-tag rule needs the quote's edges, which speech marks by a change of voice |
+| `.` | end of a sentence. (In numbers, `.` is the point; it always has digits on both sides.) |
+| `" "` | around quoted speech, whose edges speech marks by a change of voice |
 
   No `?` or `!`. The opening word (**min**, **yo**, **ba**) already says it, and earlier: like Spanish's opening ¿, a reader knows the sentence's shape before saying it. The user's reading test showed end marks steer the voice, but too late. No `-` (compounds are ordinary phrases in speech) and no `:` (in speech it's just a pause). Triggers to bring one back: `?`/`!` if readers or text-to-speech misplace intonation despite the opening word; `-` if established compounds get misread; `:` if a pause can't carry a construction.
 
@@ -167,7 +167,7 @@ Evidence: `research/notes/politeness.md`.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **obu** "coming" / **mu obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.
 5. **Questions:** question words stay where the answer would go: **me momu wun lon oyi yu.** "you want me to say what?". They are built from parts: **yu** what, **ewo yu** who, **gi yu** why, **fu yu** how. **yu** inside a **wun** clause is an indirect question ("I don't know what I did").
 6. **Reference:**
-   - **People and animals:** **wan** = the most recent person or animal that was the subject of a clause (if none yet, the most recent one mentioned); **yi** = the one before that, the next most recent *different* one. Anyone further back is named again. Two details: a pronoun never means the subject of its own clause (that's **nen**), so in "the dog saw him", *him* is the most recent subject *before* the dog; and a say-verb that frames a quote ("…," **en benu oyi**) doesn't count, so a quote split by a speech tag keeps its references. The rule is mechanical, so children can compute it and speaker and listener can't disagree.
+   - **People and animals:** **wan** = "he/she", the person or animal being talked about. **yi** = another one who *isn't* the topic: someone set against them or newly brought in (**wan nagu yi** "she saw him", where she is the one we're talking about). The listener finds them from context, as with "he" and "she" in every natural language; if it could be unclear, name them. A pronoun never means the subject of its own clause (that's **nen**). This is how obviation works where it is native: in Algonquian languages such as Cree, the speaker chooses which third person is in focus (the proximate) and every other one is obviative. (Until 2026-10-10 the rule was mechanical: **wan** = the most recent subject, **yi** = the one before, anyone further back named again. In casual talk that made speakers keep score and rename people English would just call "he": `tests/economy-01-context/`.)
    - **Things:** **bu** = "it", the thing being talked about. The listener finds it from context, as with "it" in every natural language; if that could be unclear, name the thing. (Until 2026-10-10 **bu** was the most recent thing mentioned. In casual talk that pointed at the wrong thing again and again, because "it" means the topic, not the last noun: `tests/economy-01-context/`.)
    - **That one:** **ben** alone = a thing that *isn't* the topic: one pointed at, or set against the topic. **min me momu bu lu ben yu.** "do you want it or that one?" German divides the work the same way: *es* tends to keep the topic, the demonstrative *das* tends to pick up the other one.
    - **Events, statements and situations:** **tan** and **ben** stand alone: **tan** for something nearer (just said, or here and now), **ben** for something further. **ben gun upe** "that's good"; **gi tan** "because of this" = so. A determiner right after a noun or pronoun still belongs to it, so after a recipient, use **tun**: **lon iko ben tun wan** "I told him that" (**lon iko wan ben** would be "I told that-him"). Added after `tests/economy-01-context/`, where every "that happened", "it was bad" and "I told him that" needed a noun.
@@ -252,7 +252,7 @@ The word forms were chosen by a mishearing model. Its consonant data are real: E
 
 - **Watch list** (where the conlang record predicts precision will bend; act only if use or a test shows it):
   - **kon** collapsing to a few favourite values;
-  - **wan**/**yi** drifting from "most recent subject" to "the topic" (Claude slipped this way in vocabulary test 03);
+  - **wan**, **yi** and **bu** now follow the topic (2026-10-10). Bring back a mechanical rule if a blind test shows listeners losing track where one would have helped;
   - the aspect words **le** and **win** going unused.
 - The test texts, the listener data and the concept list are all English-centred. "Universal" is a goal, not yet a result.
 - Modern technical vocabulary is borrowed on demand; only a few loans are in the lexicon so far.

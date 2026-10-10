@@ -96,3 +96,5 @@ is expensive (whole words and phrases), while what English forces is cheap
   statements (`docs/language.md` rule 6).
 - 2026-10-10: finding 2 fixed. **bu** = the thing being talked about,
   resolved by context; **ben** alone = "that one".
+- 2026-10-10: finding 3 fixed. **wan**/**yi** follow the topic, resolved by
+  context.

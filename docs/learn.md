@@ -99,8 +99,8 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 | **me** | you (anyone, any number) |
 | **pen** | we, including you |
 | **din** | we, not including you |
-| **wan** | he or she (the most recent person who did something) |
-| **yi** | the other one (the person before that) |
+| **wan** | he or she (the person being talked about) |
+| **yi** | the other one (someone who isn't the person being talked about) |
 | **bu** | it (the thing being talked about) |
 | **ben** | that one (a different thing); also "that" for something said or done: **ben gun upe** "that's good" |
 | **tan** | this, for something just said or here now: **gi tan** "so" |
@@ -112,7 +112,7 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 
 **pen / din:** English "we" hides whether the listener is included. Here you have to choose: **pen isi** "let's go, you and I" vs **din isi** "we're going (without you)".
 
-**wan and yi** follow a simple, mechanical rule: **wan** is the most recent person who was the subject of a clause, **yi** the one before. So in a story with two people, **wan** and **yi** keep them apart without names. Name someone again when there are three or more.
+**wan and yi** work like English "he" and "she", but split by focus instead of gender: **wan** is the person the conversation is about, **yi** is someone else. So in a story with two people, **wan** and **yi** keep them apart without names. Name someone again whenever it could be unclear.
 
 ## Lesson 6: Little words that look like English
 
