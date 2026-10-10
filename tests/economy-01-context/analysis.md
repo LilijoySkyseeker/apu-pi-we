@@ -100,3 +100,33 @@ is expensive (whole words and phrases), while what English forces is cheap
   context.
 - 2026-10-10: finding 4 fixed. Rule 11 now lets anything context supplies
   be left out, fragments included.
+
+## Retest after the four fixes (2026-10-10)
+
+Same source. A fresh agent translated it under the new rules
+(`translation-v2.md`). Two more fresh agents back-translated v1 (with the
+old `language.md`) and v2 (with the new one), never seeing the English
+(`back-v1.md`, `back-v2.md`). A judge scored both against the source
+without knowing which was which (`scores.md`).
+
+| | v1 (old rules) | v2 (new rules) |
+|---|---|---|
+| Syllables | 436 | 385 (−12%) |
+| Ratio to English (~284) | ~1.54 | ~1.36 |
+| Meaning, blind judge | 42/44 | 44/44 |
+| Reference errors | 0 | 0 |
+
+- **Leak:** four of the new rule's examples are lines from this test (2, 12,
+  17, 22). Excluding those lines, the saving is −10%.
+- **Clarity held.** Every pronoun and left-out word in v2 was resolved
+  correctly by a reader who had only the rules. v1's two lost points weren't
+  reference problems (turn 8 "should" read as "has to"; turn 20 "block" lost).
+- **Noise:** v1 and v2 had different translators. Some line-level swings are
+  translator choices: turn 19 is +6, turn 20 is −11, partly from **tapi**
+  "close" for "block". The direction is clear; the exact percentage isn't.
+- **The rest of the gap** is the part these fixes didn't target: missing
+  everyday words, the two-syllable minimum, and clock times.
+- **New ambiguities the translator raised** (`translation-v2.md`): what
+  counts as "nearer" for **tan**/**ben**; when a newly introduced person
+  takes **wan**. Both were left loose on purpose (Restraint). Also: "ha"
+  can't be written, since there is no h.
