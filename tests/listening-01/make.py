@@ -71,7 +71,12 @@ def pho(form):
     """MBROLA input for one word in citation form: every phoneme with its length in ms and pitch points.
     Stress is pitch, not length: all vowels 110 ms, the last 140 ms (ordinary phrase-final lengthening)."""
     syl = W.split(form)
-    lines = ["_ 150"]
+    # carrier phrase "oyi ___" ("say ___"): a word-initial stop after silence is heard only by its release,
+    # which these voices barely produce before u (the user heard guyi as "uuuu-yeee"); after a vowel the
+    # closure is a clear gap (g drops to 7% of the vowel's energy in id1)
+    lines = ["_ 150", f"{VOWELS.get('o', 'o')}{STRESSED} 110 10 125 90 115", f"{Y} 55", f"{VOWELS.get('i', 'i')} 100 50 100"]
+    if not W.INV.syl[syl[0]][0]:
+        lines.append("_ 60")   # vowel-initial word: a short break so it doesn't merge with "oyi"
     held_n = 0
     for k, i in enumerate(syl):
         onset, vowel, coda = W.INV.syl[i]
@@ -123,6 +128,7 @@ with open(os.path.join(HERE, f"key-{VOICE}.tsv"), "w", newline="") as fh:
 lines = ["# Listening test 01", "",
          "For each clip, write which of the two words you heard: **A** or **B**. Guess if unsure; don't replay more than once. Each clip's word was picked at random, so a pair can be the same word both times.",
          "Play them with whatever background noise you like (a fan, a busy room, music); note what you used at the bottom.",
+         f"Each clip says **oyi** (\"say\") and then the word; listen for the word after **oyi**.",
          f"Voice: MBROLA {VOICE}, a diphone synthesiser that plays exactly the sounds it is given, nothing added. It sounds robotic; that's the price of precision.", ""]
 for t in trials:
     a, b = sorted([t["a"], t["b"]])
