@@ -11,7 +11,9 @@ Version 3 (same day). v1: a Spanish Piper voice read our spelling as Spanish tex
 (user). v2: Kokoro took phonemes but its neural voices "sneak sounds that are not there into the
 words" (user). v3: MBROLA diphone synthesis plays exactly the phonemes given, with the durations and
 pitch given, and adds nothing. The Italian voice it3 lacks w+u and y+i (never recorded); the Spanish
-voice es2 has every sequence we need when our y is its "jj" (the y of Spanish "mayo").
+voice es2 has them but softens g and d (the user heard guyi as "uyi"); so does the Mexican mx1 between
+vowels, and its g before u has almost no release ("oooo-yeee"). The Indonesian voice id1 (used) has
+real stops: a voice bar then a clear release for b, d, g, and silence then a burst for k.
 """
 import csv, itertools, os, random, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -60,6 +62,7 @@ allpairs = content + grammar_pairs + controls
 
 DUR = dict(p=80, t=80, k=85, b=70, d=70, g=70, m=70, n=70, f=100, s=105, l=60, w=55, j=55)
 Y = "jj" if VOICE.startswith(("es", "mx")) else "j"   # the voice's symbol for our y
+VOWELS = {"id1": dict(a="V", e="e", i="I", o="Q", u="U")}.get(VOICE, {})   # Indonesian writes vowels in SAMPA
 STRESSED = "1" if VOICE.startswith("it") else ""          # Italian voices record stressed vowels separately
 BASE, PEAK = 105, 140   # Hz: the stressed first syllable is higher and the rest step down (language.md, Sounds)
 
@@ -69,20 +72,26 @@ def pho(form):
     Stress is pitch, not length: all vowels 110 ms, the last 140 ms (ordinary phrase-final lengthening)."""
     syl = W.split(form)
     lines = ["_ 150"]
+    held_n = 0
     for k, i in enumerate(syl):
         onset, vowel, coda = W.INV.syl[i]
         onset = {"y": Y, "j": Y}.get(onset, onset)   # the inventory writes our y as j
         last = k == len(syl) - 1
         if onset:
-            lines.append(f"{onset} {DUR[onset.replace('jj', 'j')]}")
-        v = vowel + (STRESSED if k == 0 else "")
+            lines.append(f"{onset} {DUR[onset.replace('jj', 'j')] + held_n}")
+            held_n = 0
+        v = VOWELS.get(vowel, vowel) + (STRESSED if k == 0 else "")
         if k == 0:
             lines.append(f"{v} 110 10 {PEAK} 90 {PEAK - 15}")
         else:
             f0 = BASE - 6 * (k - 1)
             lines.append(f"{v} {140 if last and not coda else 110} 50 {f0}")
         if coda:
-            lines.append(f"n {DUR['n'] + (30 if last else 0)}")
+            nxt = W.INV.syl[syl[k + 1]][0] if not last else None
+            if nxt == "n":      # n + n is one long n (a geminate); some voices have no n-n diphone
+                held_n = DUR["n"]
+            else:
+                lines.append(f"n {DUR['n'] + (30 if last else 0)}")
     lines.append("_ 150")
     return "\n".join(lines) + "\n"
 
