@@ -105,7 +105,7 @@ for n, t in enumerate(trials, 1):
     r = subprocess.run(["mbrola", os.path.join(MBROLA_DB, VOICE, VOICE), ph, wav], capture_output=True, text=True)
     if r.returncode or "Warning" in r.stderr or "rror" in r.stderr:
         print("mbrola:", t["target"], r.stderr.strip()[:200])
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", "apad=pad_dur=0.3", "-b:a", "96k",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", "loudnorm=I=-18,apad=pad_dur=0.3", "-b:a", "96k",
                     os.path.join(OUT, f"{VOICE}-t{n:02d}.mp3")], check=True)
 with open(os.path.join(HERE, f"key-{VOICE}.tsv"), "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=["n", "target", "a", "b", "kind", "model", "a_gloss", "b_gloss"], delimiter="\t",
