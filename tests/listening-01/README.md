@@ -12,3 +12,5 @@
 **Files:** `make.py` builds the test; `key-<voice>.tsv` is the answer key (the same for all three voices) (the listener shouldn't read it). The test page and clips are in the user's vault: `Language/listening-test-01/`.
 
 **Scoring (when answers come back):** accuracy per pair type, and whether errors fall on the pairs the model ranks highest. Prediction: content and grammar pairs have more errors than controls, and within them, more confusable pairs have more errors. If controls do as badly, or the ranking doesn't hold, the model needs real listener data before it chooses more words.
+
+**Excluded trials (2026-10-09):** with the carrier, the user hears "oyi" but guyi still as "uuuu-yeee": the voices give the closure before g but no release burst before u. Trials 26 and 37 (wupi/guti) and 40 and 53 (dunu/gudu) are skipped on the test page and excluded from scoring. Any other clip the user marks as wrong is excluded too.
