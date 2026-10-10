@@ -114,6 +114,8 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 
 **wan and yi** work like English "he" and "she", but split by focus instead of gender: **wan** is the person the conversation is about, **yi** is someone else. So in a story with two people, **wan** and **yi** keep them apart without names. Name someone again whenever it could be unclear.
 
+**Leave out what's obvious.** If the listener already knows who or what, you can drop it, like casual English but more so: **nagu me la mon dili pi ufo** "see you all Saturday", or just **mon fi mape po po** "at seven" as an answer. Say it in full when leaving it out could confuse.
+
 ## Lesson 6: Little words that look like English
 
 Many grammar words are spelled like English words and mean something else. Learn these as a set:

@@ -98,3 +98,5 @@ is expensive (whole words and phrases), while what English forces is cheap
   resolved by context; **ben** alone = "that one".
 - 2026-10-10: finding 3 fixed. **wan**/**yi** follow the topic, resolved by
   context.
+- 2026-10-10: finding 4 fixed. Rule 11 now lets anything context supplies
+  be left out, fragments included.

@@ -185,7 +185,7 @@ Evidence: `research/notes/politeness.md`.
 8. **Prepositions:**
    - A prepositional phrase attaches to its clause's main verb, never to a modifier.
    - A preposition can take a clause (**wo wan la yidu go** "after they take someone") or a verb that names the act (**se kusa** "from leaving").
-   - **ya** alone = "first, beforehand".
+   - **ya** alone = "first, beforehand"; any relation word may likewise drop its object when context supplies it (**wo** "after that", rule 11).
    - To give a *noun* a location, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river" (a bridge). A bare place phrase after a noun attaches to the verb instead (rule above).
    - **nin** + noun phrase = during (**nin dili oma** "for seven days").
    - A phrase setting time or place may open the sentence (**mon muyi fa, …** "at no time, …"). It sets the scene and changes no roles.
@@ -196,7 +196,7 @@ Evidence: `research/notes/politeness.md`.
     - **Fractions:** **mimi** "point" separates the fraction digits: 1/2 = **po mimi te**. A part of a whole: **fi pi ka** "one of three". **guti** = minus. **unun** = "times ten to the": **ka unun guti ufo** = 3 × 10⁻⁶.
     - Noun + number = count (**dili oma** "seven days"); noun + **pi** + number = label or order (**lite pi po** "step zero"; **dunan pi yawu** "month 10").
     - **Senary numbers** (for talking about the senary system) are marked with the borrowed word **senali** and read digit by digit: **senali sa po** = 20₆ = 12. Senary's own number and scale words are in [measurement.md](measurement.md).
-11. **Dropped subjects** are allowed only when the subject repeats after **yen** / **un**, or for the addressee of an instruction or request.
+11. **Leave out what context supplies.** Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word, even the verb. An answer or follow-up can be just the new part: **muyi yu, moti.** "what time, again?"; **kon te wo, fu sa sa po po.** "maybe after, around 22:00"; **fon [chips].** "maybe chips?"; **nagu me la mon dili pi ufo.** "see you all Saturday". When leaving something out could be unclear, say it. Mandarin, Japanese and Korean, which also have no endings to show who did what, drop subjects and objects the same way. (Until 2026-10-10 a subject could drop only after **yen**/**un** or for the addressee of an instruction or request. In casual talk that forced full sentences where English uses fragments: `tests/economy-01-context/`.)
 12. **Direct quotes** are framed by a say-verb; there's no quote particle. In writing, quotes take quotation marks; a broken-off word just stops (there is no dash).
 13. **Degree words** (**ke** more, **bi** very, **to** rather) come before what they modify: **ke kudu** "bigger".
     - **Comparison:** **ke** + adjective + **se** ("from") + the standard: **wan gun ke gole se pen** "he is smarter than us". Most = **ke** … **se we** "more … than all".
