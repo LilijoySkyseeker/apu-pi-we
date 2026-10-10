@@ -147,10 +147,10 @@ Two layers [user + Claude, 2026-10-08]:
 - **Stop condition:** two tests in a row losing <1 point to missing words (met at test 05, 445 roots).
 
 ### 5.4 Where boundaries go: lump or split
-In order: (1) a formal efficiency model where one exists (colour, kinship); (2) action-relevant same-slot alternatives get two roots (left/right, buy/sell); (3) **family-balanced lump rate** from CLICS4 (`tools/clics_rates.awk`): ≥50% one root, 20–50% one built from the other, <20% two roots; (4) never derive along a link only one family uses. The 50/20 cut points are arbitrary [Claude's research agent]; refine only on test evidence. Example: **apu** = word *and* language (50.2%); **dunan** = moon and month (69.6%).
+In order: (1) a formal efficiency model where one exists (colour, kinship); (2) action-relevant same-slot alternatives get two roots (left/right, buy/sell); (3) **family-balanced lump rate** from CLICS4 (`tools/clics_rates.awk`): ≥50% one root, 20–50% one built from the other, <20% two roots; (4) a shared English word is not evidence; (5) never derive along a link only one family uses. The 50/20 cut points are arbitrary [Claude's research agent]; refine only on test evidence. Example: **apu** = word *and* language (50.2%); **dunan** = moon and month (69.6%).
 - **Colour:** six roots (black, white, red, yellow, green, blue) from colour-naming data, not eye physiology; blue/green split rests on modern need. **Kinship:** mother, father, child, sibling, spouse; the rest composed (410 systems among 487 languages, too varied to copy).
 - **Observation, not theory** [user's question, 2026-10-08]: basic words name what's experienced ("the sun appears", illness by symptoms); theory-laden concepts are composed so they can be rebuilt.
-- **Known English leaks** (user's review, 2026-10-10, not yet fixed): **bina** fly (insect)/fly (move), **wino** light (weight)/light, **muyi** time/occasion; every root has a single English gloss.
+- **English leaks fixed** (2026-10-10): concepts had been matched to roots by English gloss, merging fly (insect)/fly (move) and three senses of "light", and **muyi** counted occasions. Now: **gekon** the insect fly, **gimu** occasion, pale = **mu buda** ("light, not heavy" was already **gamun**). Ambiguous glosses carry a second gloss (Kit advice), and the lump/split rule says a shared English word is not evidence (vocabulary-method §3.4).
 
 ### 5.5 Names, loans, borrowing (`tools/names.py`, `tests/names-01`)
 - Names take the article **en** [evidence: Tagalog *si*, Māori *a*] so a name that sounds like a word can't be misread.
@@ -219,7 +219,7 @@ Back-translation 01–04 (fidelity, politeness, nesting), grammar coverage, word
 ## 10. Known weaknesses (what a successor should doubt first)
 
 1. **Validated mostly by its own instruments:** the confusion model is scored against itself; blind readers are AI agents with world knowledge. One human has read it aloud; none has listened.
-2. **English-centred:** listener data, test texts, readers, single English glosses, technical loans. "Universal" is a goal, not a result.
+2. **English-centred:** listener data, test texts, readers, English glosses (ambiguous ones pinned with a second gloss since 2026-10-10), technical loans. "Universal" is a goal, not a result.
 3. **The full one-syllable space:** every future grammar word costs two syllables.
 4. **The watch list** (language.md, Open questions): confidence collapsing or used for emphasis, politeness taking over hedges, topic-based pronouns needing a mechanical fallback, aspect words unused.
 5. **Frequency tiers and lump/split thresholds are judgement**, not data.

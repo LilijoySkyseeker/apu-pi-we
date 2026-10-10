@@ -132,7 +132,7 @@ rank	concept	decision	expression	evidence
 131	NEW	existing	new	coverage 0.9024, 226 families, 6 areas
 132	SWIM	existing	swim	coverage 0.9004, 223 families, 6 areas
 133	TURN (SOMETHING)	existing	turn	coverage 0.8968, 218 families, 6 areas
-134	FLY (INSECT)	existing	fly	coverage 0.8936, 222 families, 6 areas
+134	FLY (INSECT)	root	fly, the insect	coverage 0.8936, 222 families, 6 areas; was matched to FLY (MOVE) by English gloss; FLY (INSECT)/FLY (MOVE) lumped in only 22 families (CLICS4 raw count, <10%) -> own root gekon (2026-10-10)
 135	DO	existing	do	coverage 0.8935, 216 families, 6 areas
 136	SMELL (PERCEIVE)	root	smell	coverage 0.8927, 220 families, 6 areas
 137	TIE	root	tie	coverage 0.8919, 223 families, 6 areas
@@ -236,7 +236,7 @@ rank	concept	decision	expression	evidence
 235	CRUSH	root	crush	coverage 0.737, 174 families, 6 areas
 236	IN FRONT OF	existing	front	coverage 0.7352, 183 families, 6 areas
 237	RAW	root	raw	coverage 0.7334, 175 families, 6 areas; opposite of ripe
-238	LIGHT (WEIGHT)	existing	light	coverage 0.7332, 177 families, 6 areas
+238	LIGHT (WEIGHT)	existing	light, not heavy	coverage 0.7332, 177 families, 6 areas; was matched to light (brightness) by English gloss; the root gamun already existed; LIGHT (RADIATION)/LIGHT (WEIGHT) lumped in 2 families (2026-10-10)
 239	HAPPY	existing	happy	coverage 0.7322, 177 families, 6 areas
 240	DEEP	root	deep	coverage 0.7314, 176 families, 6 areas
 241	ANT	root	ant	coverage 0.7291, 181 families, 6 areas
@@ -261,7 +261,7 @@ rank	concept	decision	expression	evidence
 260	BLUE	existing	blue	coverage 0.6847, 180 families, 6 areas
 261	TASTE	root	taste	coverage 0.6817, 166 families, 6 areas
 262	TOE	root	toe	coverage 0.6751, 171 families, 6 areas
-263	LIGHT (COLOR)	existing	light	coverage 0.6694, 164 families, 6 areas
+263	LIGHT (COLOR)	built/compound	mu dark	coverage 0.6694, 164 families, 6 areas; was matched to light (brightness) by English gloss; LIGHT (COLOR)/LIGHT (RADIATION) lumped in 13 families -> built, per the colour rule (six colour roots) (2026-10-10)
 264	ELEVEN	number	NObi TE	coverage 0.6646, 171 families, 6 areas; 6+5
 265	TWELVE	number	SA NObi	coverage 0.6639, 169 families, 6 areas; 2×6
 266	VULVA	root	vulva	coverage 0.6639, 154 families, 6 areas

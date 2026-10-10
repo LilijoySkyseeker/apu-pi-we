@@ -40,7 +40,8 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
    - < 20% → two unrelated roots (e.g. see/know 3%, eat/drink 7%, finger/toe 16%).
 
    The 50% and 20% cut points were proposed by the research agent and are arbitrary. Refine them only if tests show losses near a threshold. Where CLICS4 copies a broad meaning onto narrower ones (uncle, he/she, we), its rate is an upper bound; cross-check with WALS or Kinbank.
-4. **Never derive one meaning from another along a link only one family uses.** For example, don't build "know" from "see", which is an Indo-European habit.
+4. **A shared English word is not evidence for a lump** (2026-10-10). Two concepts that English happens to call the same thing (fly the insect / fly the verb, light / light) go through steps 1–3 like any other pair. The seed matched concepts to roots by English gloss and skipped this; glosses now carry a second gloss wherever the English is ambiguous.
+5. **Never derive one meaning from another along a link only one family uses.** For example, don't build "know" from "see", which is an Indo-European habit.
 
 Every decision gets an evidence line in the concept table.
 

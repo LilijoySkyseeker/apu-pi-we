@@ -1,7 +1,7 @@
 gloss	field	tier	form
 person	people	5	ewo
 child	people	4	tiwu
-man	people	3	lowu
+man, adult male	people	3	lowu
 woman	people	3	futa
 friend	people	3	sonu
 family	people	2	yonyo
@@ -25,11 +25,11 @@ heart	body	3	mala
 blood	body	2	makon
 bone	body	2	gipo
 skin	body	2	unne
-back	body	2	nebe
+back, of the body; behind	body	2	nebe
 belly	body	1	suyon
 water	nature	5	osa
 fire	nature	3	lumi
-ground	nature	3	fowo
+ground, earth or soil	nature	3	fowo
 stone	nature	3	lutu
 sky	nature	2	yaye
 sun	nature	3	giwe
@@ -39,24 +39,24 @@ rain	nature	3	gegi
 wind	nature	2	gulo
 tree	nature	3	gala
 leaf	nature	1	wonin
-wood	nature	2	kima
+wood, the material	nature	2	kima
 sea	nature	2	puya
 river	nature	2	yolan
 mountain	nature	2	genne
 sand	nature	1	digan
 smoke	nature	1	penso
 cloud	nature	1	lanba
-light	nature	3	wino
+light, brightness	nature	3	wino
 storm	nature	2	lapo
 snow	nature	1	binso
 ice	nature	1	nokun
 salt	nature	1	bunwu
 ash	nature	1	sulen
-plant	nature	2	pinfe
+plant, vegetation	nature	2	pinfe
 animal	animal	3	noso
 dog	animal	3	totu
 bird	animal	3	lodi
-fish	animal	3	woga
+fish, the animal	animal	3	woga
 horse	animal	2	anbo
 cow	animal	1	dunsa
 snake	animal	1	dinbu
@@ -79,9 +79,9 @@ weapon	thing	2	botan
 bed	thing	2	soti
 cup	thing	1	ladon
 thing	thing	5	musu
-day	time	4	dili
+day, daytime or 24 hours	time	4	dili
 night	time	3	yami
-time	time	4	muyi
+time, duration	time	4	muyi
 morning	time	2	leso
 evening	time	1	kegin
 moment	time	2	foke
@@ -92,18 +92,18 @@ below	space	3	deba
 front	space	2	sinye
 near	space	3	gelu
 far	space	3	lini
-left	space	2	funbe
-right.side	space	2	nata
+left, the side	space	2	funbe
+right, the side	space	2	nata
 road	space	3	sola
 many	size	4	feli
 few	size	3	uyo
 big	size	4	kudu
 small	size	4	meli
 long	size	3	netu
-short	size	2	eten
+short, not long	size	2	eten
 wide	size	1	tugan
 heavy	size	2	gogo
-light.weight	size	1	gamun
+light, not heavy	size	1	gamun
 thick	size	1	woten
 full	size	2	kete
 empty	size	2	tapun
@@ -112,18 +112,18 @@ whole	size	2	minwe
 good	quality	5	upe
 bad	quality	4	yomo
 new	quality	3	duwa
-old	quality	3	pani
+old, aged or worn	quality	3	pani
 true	quality	3	feko
 same	quality	3	kige
 other	quality	4	eni
 hot	quality	2	tikun
-cold	quality	2	weki
+cold, not hot	quality	2	weki
 wet	quality	1	wulon
 dry	quality	1	kilan
-hard	quality	2	gufu
+hard, not soft	quality	2	gufu
 soft	quality	1	tutin
 sharp	quality	1	tungi
-fast	quality	2	yobe
+fast, quick	quality	2	yobe
 slow	quality	2	gake
 strong	quality	2	konke
 weak	quality	1	nensi
@@ -146,17 +146,17 @@ think	mind	5	pume
 know	mind	5	lugo
 want	mind	5	momu
 feel	mind	4	feme
-like	mind	4	tana
+like, enjoy	mind	4	tana
 fear	mind	3	nuta
 hope	mind	2	ganin
 remember	mind	3	imu
 forget	mind	2	yakin
 learn	mind	3	yesa
 understand	mind	3	lafi
-mean	mind	3	yofu
+mean, signify	mind	3	yofu
 choose	mind	2	waka
 need	mind	4	wupi
-must	mind	3	keya
+must, have to	mind	3	keya
 try	mind	3	walo
 happy	mind	3	sogi
 angry	mind	2	bonko
@@ -168,27 +168,27 @@ tell	sense	4	iko
 ask	sense	3	mido
 talk	sense	3	kegu
 word	sense	4	apu
-call	sense	2	yebin
+call, phone or call to	sense	2	yebin
 show	sense	3	wuye
-look	sense	3	miya
+look, look at	sense	3	miya
 listen	sense	2	doma
 sing	sense	1	yuyun
 write	sense	2	tusi
 read	sense	2	lilu
 laugh	sense	2	bubo
-cry	sense	2	nowa
+cry, weep	sense	2	nowa
 go	motion	5	isi
 come	motion	5	obu
 move	motion	3	kobi
 walk	motion	2	niba
-run	motion	3	gabe
-fly	motion	2	bina
+run, on foot	motion	3	gabe
+fly, move through the air	motion	2	bina
 swim	motion	1	lonfe
-fall	motion	2	dosi
+fall, drop down	motion	2	dosi
 stand	motion	3	kolu
-lie.down	motion	2	anle
+lie, lie down	motion	2	anle
 enter	motion	2	inwa
-leave	motion	3	kusa
+leave, go away from	motion	3	kusa
 return	motion	3	sigo
 arrive	motion	2	liwon
 follow	motion	2	lefan
@@ -196,36 +196,36 @@ carry	motion	2	dinyo
 push	motion	1	dandi
 pull	motion	1	nunya
 throw	motion	1	gitin
-turn	motion	2	duko
+turn, rotate or turn around	motion	2	duko
 stop	motion	3	bamo
 start	motion	3	tuko
 wait	motion	3	sefu
 stay	motion	3	piyi
 do	action	5	muge
-have	action	5	ibe
+have, possess	action	5	ibe
 give	action	4	neke
 take	action	4	yidu
-get	action	3	dunu
+get, obtain	action	3	dunu
 put	action	3	yaga
 hold	action	2	yonnu
 use	action	3	bone
 find	action	3	geno
-lose	action	2	agi
+lose, misplace	action	2	agi
 keep	action	2	kuwi
 open	action	2	benbi
-close	action	2	tapi
+close, shut	action	2	tapi
 cut	action	2	fonsu
 hit	action	2	payon
 eat	action	4	nawi
 drink	action	3	koye
 sleep	action	3	wopo
 wake	action	2	unda
-work	action	4	doku
-play	action	3	luse
+work, labour	action	4	doku
+play, for fun	action	3	luse
 help	action	4	yema
 fight	action	2	migi
 die	action	3	kono
-live	action	4	nume
+live, be alive or dwell	action	4	nume
 grow	action	2	guge
 burn	action	2	onti
 buy	action	2	bika
@@ -238,8 +238,8 @@ hide	action	2	mibun
 change	action	3	kubo
 happen	action	4	muwo
 win	action	2	yiyin
-way	abstract	3	lite
-kind	abstract	3	niki
+way, method	abstract	3	lite
+kind, type	abstract	3	niki
 reason	abstract	2	ukun
 problem	abstract	3	batu
 idea	abstract	2	gason
@@ -249,7 +249,7 @@ war	abstract	1	pinpu
 peace	abstract	1	bonwi
 game	abstract	2	bufe
 life	abstract	3	pata
-power	abstract	2	lula
+power, strength or control	abstract	2	lula
 magic	abstract	2	wase
 god	abstract	1	nosen
 today	time	4	mefa
@@ -261,13 +261,13 @@ face	body	3	suku
 apologize	sense	3	sepi
 again	time	3	moti
 teach	mind	3	tofo
-lead	action	2	wungu
+lead, guide	action	2	wungu
 dream	mind	2	sinun
 dark	quality	2	buda
 wall	thing	2	senmo
 calm	mind	2	fanse
-free	quality	2	enpa
-glass	thing	1	degun
+free, not held or controlled	quality	2	enpa
+glass, the material	thing	1	degun
 answer	sense	3	febo
 system	thing	3	yile
 offend	mind	2	yenwu
@@ -277,7 +277,7 @@ bag	thing	2	yufa
 paper	thing	2	mabo
 lock	action	2	udin
 smart	mind	2	gole
-watch	time	4	aya
+watch, timepiece	time	4	aya
 phone	thing	3	liga
 card	thing	2	mise
 bus	thing	2	ensu
@@ -323,7 +323,7 @@ unit.information	unit	2	noyon
 unit.count.of.entities	unit	1	senan
 unit.particle.mass	unit	1	masin
 thank	sense	3	lota
-rent	action	2	sanwa
+rent, pay to use	action	2	sanwa
 agree	mind	3	tayu
 send	action	3	sege
 end	time	3	fugi
@@ -346,14 +346,14 @@ root	nature	3	yinki
 spit	action	3	kefa
 flower	nature	3	meyen
 louse	animal	3	akan
-nail	body	3	tolin
+nail, of a finger or toe	body	3	tolin
 smell	sense	3	kanko
 tie	action	3	manfu
 vomit	action	3	gabu
 dust	nature	3	awin
 throat	body	3	muban
-fat	body	3	gimen
-bark	nature	3	tase
+fat, body fat	body	3	gimen
+bark, of a tree	nature	3	tase
 sweat	body	3	tiwe
 thin	size	3	gunmo
 blow	action	3	nanyo
@@ -451,7 +451,7 @@ onion	nature	2	lengu
 worm	animal	3	enna
 grind	action	3	inke
 week	time	3	nelon
-block	time	3	boyo
+block, 36 days (senary)	time	3	boyo
 6^-12	number	2	genwi
 6	number	4	ufo
 7	number	4	oma
@@ -463,12 +463,14 @@ block	time	3	boyo
 10^9	number	2	siwin
 senary	loan	1	senali
 hour	loan	4	awuwa
-minute	loan	4	minitu
-second	loan	3	sekandu
+minute, of time	loan	4	minitu
+second, of time	loan	3	sekandu
 kilometre	loan	2	kilamita
 percent	loan	2	pasentu
-can	mind	5	lenu
+can, be able	mind	5	lenu
 bite	action	4	lasu
 high	space	2	tisan
 10	number	4	yawu
 unit.length	unit	4	ago
+fly, the insect	animal	2	gekon
+occasion, a time (three times)	time	3	gimu

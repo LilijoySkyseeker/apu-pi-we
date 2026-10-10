@@ -1,37 +1,37 @@
 good	bad
 big	small
-long	short
-hot	cold
-new	old
+long	short, not long
+hot	cold, not hot
+new	old, aged or worn
 come	go
 give	take
-open	close
-live	die
-find	lose
+open	close, shut
+live, be alive or dwell	die
+find	lose, misplace
 buy	sell
 many	few
 full	empty
-fast	slow
+fast, quick	slow
 strong	weak
-hard	soft
+hard, not soft	soft
 wet	dry
 clean	dirty
 near	far
 above	below
 inside	outside
-left	right.side
-front	back
-day	night
+left, the side	right, the side
+front	back, of the body; behind
+day, daytime or 24 hours	night
 black	white
 happy	sad
 remember	forget
 start	stop
-man	woman
+man, adult male	woman
 mother	father
 easy	difficult
-heavy	light.weight
+heavy	light, not heavy
 sit	stand
-enter	leave
+enter	leave, go away from
 same	other
 sun	moon
 push	pull
@@ -40,13 +40,13 @@ morning	evening
 friend	enemy
 war	peace
 go	return
-come	leave
-win	lose
+come	leave, go away from
+win	lose, misplace
 ask	tell
 want	fear
 yesterday	tomorrow
 teach	learn
-dark	light
+dark	light, brightness
 calm	angry
 lock	open
 6^-4	6^4
@@ -60,7 +60,7 @@ blunt	sharp
 raw	ripe
 narrow	wide
 crooked	straight
-young	old
+young	old, aged or worn
 rough	smooth
 loud	quiet
 ugly	beautiful

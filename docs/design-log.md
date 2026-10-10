@@ -419,3 +419,20 @@ Against the yardstick's Restraint criterion ("design only what speakers can't ea
 ## Testing stopped; rationale written (2026-10-10)
 
 The user stopped listening test 01: no available synthesiser produced a reliable word-initial g before u. The user asked for one document holding the why and how of every part, so a later session can replicate and tweak it: `docs/rationale.md`, organised by topic with sources ([user], [evidence], [Claude]), methods, parameters and what to touch when changing each part. language.md still wins where they differ.
+
+## English leaks fixed (2026-10-10)
+
+The user's review against the Language Construction Kit asked whether Apu Pi We is an English cipher. Verdict: grammar and sounds aren't English, but every root was defined by one English word, and the seed matched CLICS concepts to roots by English gloss, skipping the lump/split rule. Agreed fix (five parts, user):
+1. **Leaks.**
+   - The insect fly gets its own root, **gekon**: CLICS4 FLY (INSECT)/FLY (MOVE) is lumped in 22 families, under 10%.
+   - Occasions get **gimu** (**gimu sa** "twice"). **muyi** stays "time, duration"; French, German, Spanish and Mandarin all split these.
+   - "light, not heavy" already had its root, **gamun**; only the concept table pointed to **wino**. A duplicate coined by mistake this session was removed before use.
+   - Pale colour is built, **mu buda** "not dark", per the six-colour-root rule. LIGHT (COLOR)/LIGHT (RADIATION) is lumped in 13 families.
+   - The concept table's three rows record this.
+2. **Pinned glosses.**
+   - 51 ambiguous glosses now carry a second gloss fixing the sense, e.g. "hard, not soft", "like, enjoy", "kind, type", "second, of time", "bark, of a tree", "call, phone or call to".
+   - `antonyms.tsv` was updated to match. The concept table's expression column still uses the old one-word glosses, as a record of the seed.
+   - No form changed.
+3. **No new rule:** vocabulary-method §3.4 now says a shared English word is not evidence for a lump.
+4. A test that never touches English words: `tests/roundtrip-01-japanese/`.
+5. **No automation.** Add back a `words.py` check that refuses a gloss already in use unless it carries a sense, if a new English-pun leak is found.
