@@ -240,12 +240,18 @@ Measurements use borrowed unit words, unit first like any counted noun: **kilami
 
 [../data/lexicon.tsv](../data/lexicon.tsv) holds 453 roots (including 20 measurement units) plus numbers, each with its semantic field and frequency tier. [../data/compounds.tsv](../data/compounds.tsv) lists established compounds. Add words with `tools/words.py`. One root can cover senses that most language families lump: **apu** is both "word" and "language" (CLICS4, lumped in 47 of 71 families, 50.2% family-balanced; "tongue" = "language" is only 9.5%). A count keeps them apart: **apu fi** "one word". All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move.
 
+**The core is frozen (2026-10-09, agreed with the user).** The user is now learning the language, and the conlang record shows that churn loses learners (Ido) while a frozen core survives (Esperanto). From here, an existing word or rule changes only when real use or a test shows a problem, and new words come from what the user actually needs to say, made with the tools: Toki Pona's model of ratifying usage, with the user as the community. Known flaws accepted by the freeze: **lon** "I" matches a Vietnamese vulgarity, and digits 6–9 have two syllables.
+
 ## How much to trust the sound choices
 
 The word forms were chosen by a mishearing model. Its consonant data are real: English listeners in noise (Miller & Nicely 1955). Its vowels, its l/w/y, its final -n and the drift predictions are estimates. Its scores measure the model against itself and have not been checked against real listeners.
 
 ## Open questions
 
+- **Watch list** (where the conlang record predicts precision will bend; act only if use or a test shows it):
+  - **kon** collapsing to a few favourite values;
+  - **wan**/**yi** drifting from "most recent subject" to "the topic" (Claude slipped this way in vocabulary test 03);
+  - the aspect words **le** and **win** going unused.
 - The test texts, the listener data and the concept list are all English-centred. "Universal" is a goal, not yet a result.
 - Modern technical vocabulary is borrowed on demand; only a few loans are in the lexicon so far.
 - Do confirmation and speech-act particles survive native use, or wear away?
