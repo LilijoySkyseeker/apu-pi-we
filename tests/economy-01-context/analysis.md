@@ -94,3 +94,5 @@ is expensive (whole words and phrases), while what English forces is cheap
 
 - 2026-10-10: finding 1 fixed. **tan**/**ben** stand alone for events and
   statements (`docs/language.md` rule 6).
+- 2026-10-10: finding 2 fixed. **bu** = the thing being talked about,
+  resolved by context; **ben** alone = "that one".

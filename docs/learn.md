@@ -101,7 +101,9 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 | **din** | we, not including you |
 | **wan** | he or she (the most recent person who did something) |
 | **yi** | the other one (the person before that) |
-| **bu** | it (the most recent thing) |
+| **bu** | it (the thing being talked about) |
+| **ben** | that one (a different thing); also "that" for something said or done: **ben gun upe** "that's good" |
+| **tan** | this, for something just said or here now: **gi tan** "so" |
 | **wan la** | they |
 | **nen** | self: **lon miya nen** "I look at myself" |
 | **go** | anyone, people in general |
