@@ -5,15 +5,20 @@ a slot), plus control pairs it rates very distinct; synthesises each word with a
 voice (respelt so it says our sounds, stress on the first syllable); writes the trials to the
 user's vault and the answer key here. No added noise: the user adds noise when listening.
 
-  python make.py OUTDIR   (run from tools/ context: needs numpy, piper on PATH, ffmpeg)
+  python make.py OUTDIR VOICE   (needs numpy, kokoro-onnx with its model files in /tmp/kk, ffmpeg)
+
+Version 2 (same day): the Spanish Piper voice read our spelling as Spanish text and "butchered" it
+(user). Kokoro (kokoro-onnx v1.0) takes phonemes directly, so each word is given as exact IPA.
 """
 import csv, itertools, os, random, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "..", "tools"))
 import words as W, build as B
 
-OUT = sys.argv[1]
-VOICE = "/tmp/lt/es_ES-davefx-medium.onnx"
+OUT, VOICE = sys.argv[1], sys.argv[2]
+from kokoro_onnx import Kokoro
+import soundfile as sf
+KOKORO = Kokoro("/tmp/kk/kokoro-v1.0.onnx", "/tmp/kk/voices-v1.0.bin")
 rng = random.Random(1)
 S, IDX = W.S, W.IDX
 
@@ -51,12 +56,10 @@ controls = [("control", sc, a, b) for sc, a, b in rng.sample(low, 6)]
 allpairs = content + grammar_pairs + controls
 
 
-def spanish(form):
-    """Respell for the Spanish voice: hard g, w as u, acute accent on the first vowel (stress)."""
-    s = re.sub(r"g(?=[ei])", "gu", form).replace("w", "u")
-    if len(W.split(form)) >= 2:
-        s = re.sub(r"[aeiou]", lambda m: "áéíóú"["aeiou".index(m.group(0))], s, count=1)
-    return s
+def ipa(form):
+    """Exact phonemes: one IPA symbol per letter (g -> ɡ, y -> j), stress on the first syllable.
+    Every word is said as a citation form, so one-syllable words are stressed too."""
+    return "ˈ" + form.replace("g", "ɡ").replace("y", "j")
 
 
 os.makedirs(OUT, exist_ok=True)
@@ -72,24 +75,24 @@ while True:  # no pair on two trials in a row
         break
 for n, t in enumerate(trials, 1):
     t["n"] = n
-    wav = os.path.join("/tmp/lt", f"t{n:02d}.wav")
-    subprocess.run(["piper", "--model", VOICE, "--output_file", wav], input=spanish(t["target"]) + ".", text=True,
-                   check=True, capture_output=True)
+    wav = os.path.join("/tmp/kk", f"t{n:02d}.wav")
+    audio, sr = KOKORO.create(ipa(t["target"]), voice=VOICE, is_phonemes=True, speed=0.9)
+    sf.write(wav, audio, sr)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", "apad=pad_dur=0.3", "-b:a", "96k",
-                    os.path.join(OUT, f"t{n:02d}.mp3")], check=True)
-with open(os.path.join(HERE, "key.tsv"), "w", newline="") as fh:
+                    os.path.join(OUT, f"{VOICE}-t{n:02d}.mp3")], check=True)
+with open(os.path.join(HERE, f"key-{VOICE}.tsv"), "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=["n", "target", "a", "b", "kind", "model", "a_gloss", "b_gloss"], delimiter="\t",
                        lineterminator="\n")
     w.writeheader(); w.writerows(trials)
 lines = ["# Listening test 01", "",
          "For each clip, write which of the two words you heard: **A** or **B**. Guess if unsure; don't replay more than once. Each clip's word was picked at random, so a pair can be the same word both times.",
          "Play them with whatever background noise you like (a fan, a busy room, music); note what you used at the bottom.",
-         "The voice is a Spanish speech synthesiser reading our words, so it isn't a perfect speaker of the language.", ""]
+         f"Voice: {VOICE} (Kokoro speech synthesiser, given each word's exact sounds). It is not a native speaker of the language.", ""]
 for t in trials:
     a, b = sorted([t["a"], t["b"]])
-    lines += [f"**{t['n']}.** ![[t{t['n']:02d}.mp3]]", f"A: {a}  ·  B: {b}  ·  heard: ", ""]
+    lines += [f"**{t['n']}.** ![[{VOICE}-t{t['n']:02d}.mp3]]", f"A: {a}  ·  B: {b}  ·  heard: ", ""]
 lines += ["Noise used: ", ""]
-open(os.path.join(OUT, "listening-test-01.md"), "w").write("\n".join(lines))
+open(os.path.join(OUT, f"listening-test-01-{VOICE}.md"), "w").write("\n".join(lines))
 print(len(trials), "trials;", len(content), "content,", len(grammar_pairs), "grammar,", len(controls), "control pairs")
 for kind, sc, a, b in allpairs:
     print(f"{kind:8} {sc:.4f}  {a['form']} ({a['gloss']}) / {b['form']} ({b['gloss']})")
