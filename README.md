@@ -50,4 +50,4 @@ This is a work in progress, but issues are welcome: questions, gaps you hit whil
 
 ## Licence
 
-Public domain. Everything made for this project, text, data and code, is dedicated to the public domain under [CC0](LICENSE): use it for anything, no permission or credit needed. A few data files come from other projects and keep their own licences; see [data/SOURCES.md](data/SOURCES.md).
+Public domain. Everything made for this project (text, data and code) is dedicated to the public domain under [CC0](LICENSE): use it for anything, no permission or credit needed. A few data files come from other projects and keep their own licences; see [data/SOURCES.md](data/SOURCES.md).
