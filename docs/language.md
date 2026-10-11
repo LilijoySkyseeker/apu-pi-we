@@ -253,7 +253,7 @@ Added 2026-10-10 after multilanguage test 01: all 11 languages flagged stance wo
 | Copula | is **gun** |
 | Names | name article **en** |
 
-**Two-syllable operators** work like grammar words but are rarer, so they have two syllables (grammar rebuild, 2026-10-10, `grammar-rebuild-spec.md`): not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, the title **lanno**. Two one-syllable forms are kept free for future frequent needs (**san**, **pa**).
+**Two-syllable operators** work like grammar words but are rarer, so they have two syllables (grammar rebuild, 2026-10-10, `grammar-rebuild-spec.md`): not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, the title **lanno**. No one-syllable form is currently free: the two freed by the rebuild, **san** and **pa**, turned out to be unusable (both match the offensive filter, and **san** is one final -n away from the digit **sa**). A future frequent need takes a slot by swapping with the rarest holder.
 
 Determiners, like other modifiers, follow the noun: **guyi tan** "this house", **wan la** "they". **tan** and **ben** can also stand alone for an event, statement or situation (rule 6).
 
