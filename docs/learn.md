@@ -213,7 +213,7 @@ There are no teens, no "-ty", no irregular numbers at all. English makes you lea
 - **sin** done (**lon sin nawi** "I've eaten"), **le** in progress (**lon le nawi** "I'm eating"), **win** about to (**lon win kusa** "I'm about to leave").
 - **Offsets from now:** **wo nelon fi** "after one week" = next week; **ya dunan fi** "before one month" = a month ago.
 - **dili** day, **nelon** week, **dunan** month (also "moon"), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.
-- **Clock time is 24-hour, read as digits:** **mon fi te ka po** "at 15 30".
+- **Clock time works the way your culture does.** 12-hour: count the hour and minutes, add the part of the day if needed: **mon mape ka yawu pi yami** "at 9:30 at night" (**leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening, **yami** night). 24-hour: four digits, one at a time: **mon sa fi ka po** "at 21:30". Write the time the way your culture writes it.
 - **Dates:** the month by number, then the day: **dunan pi yawu, dili pi mape** "October 9". On its own, **dili pi** + 1–7 is a weekday, Monday = 1: **dili pi ka** "Wednesday".
 - **Age is time lived:** **lon nume fawu …** "I have lived … years".
 
