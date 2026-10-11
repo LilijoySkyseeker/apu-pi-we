@@ -611,3 +611,5 @@ A first-principles look at the language's goals. They were spread over five docu
 - **Example fixed:** **muyi yu, moti** "what time, again?" put **moti** after a final pause, where only stance or a call may go. Now two fragments: **muyi yu? moti?**
 - **Open, for the user:** anchor + offset (**wuma wo dili fi** "the day after tomorrow", 8.2) contradicts 4.4: inside a noun phrase only **pi** attaches to a noun, so in **to isi mon wuma wo dili fi** the **wo** phrase attaches to the verb.
 - **Open, small:** with nested relative clauses, does one pause close all of them? The parser assumes yes. No example nests.
+
+**Parser questions decided (user, 2026-10-11):** after a time, **wo**/**ya** belong to that time, joining the quantity exception in 4.4, so **to isi mon wuma wo dili fi** is "I go the day after tomorrow". A pause closes every open relative clause.

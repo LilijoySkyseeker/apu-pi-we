@@ -108,7 +108,7 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 
 ### 4.4 Clauses and relation phrases
 
-- **A relation phrase** (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun; give a noun any other relation with a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3) **se**, **tun** and **fu** belong to their number or adjective.
+- **A relation phrase** (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun; give a noun any other relation with a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3) **se**, **tun** and **fu** belong to their number or adjective; after a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".
 - **A relation word may drop its object** when context supplies it (**wo** "after that", **ya** "beforehand"). It then ends its clause or comes before a pause.
 - **A relation word can take a clause** (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").
 - **Clause attachment:**
@@ -181,7 +181,7 @@ Noun, content modifiers, number, **la**, determiner, **pi** phrase, relative cla
 - object: **mabo man me la yaga** "the papers you put";
 - place or time: end the clause with the relation word: **kemu man to nume mon** "the place where I live".
 
-A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun; to describe the head instead, put a quality before the **pi** phrase or use a new sentence. No word closes a relative clause; a pause closes it.
+A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun; to describe the head instead, put a quality before the **pi** phrase or use a new sentence. No word closes a relative clause; a pause closes it, and every relative clause still open.
 
 ### 5.4 Derived words
 
