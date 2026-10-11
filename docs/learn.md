@@ -246,7 +246,7 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 
 You can skip these at first. Learn them once the basics are easy.
 
-- **How sure you are, in tenths:** **kon oma wan obu** "7 in 10 she's coming" (likely). **kon yawu** is certain, **kon po** impossible. It's optional; plain statements mean you believe them.
+- **How sure you are, in sixths:** **kon da wan obu** "4 in 6 she's coming" (likely). **kon ka** is even odds, **kon te** very likely, **kon ufo** certain, **kon po** impossible. It's optional; plain statements mean you believe them.
 - **How you know:** **o** "I saw it", **fen** "I was told", **san** "I worked it out". Also optional.
 
 ## Where to go next
