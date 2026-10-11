@@ -25,7 +25,7 @@ MILD = {"derogatory", "pejorative"}
 TOPICS = {"Sex", "Sexuality", "Genitalia", "Prostitution", "Feces", "Excrement", "Urine", "Death"}
 TOPIC_GLOSS = re.compile(r"^(?:to )?(?:corpse|death|dead|die|feces|faeces|excrement|shit|urine|urinate|piss|penis|vagina|vulva|"
                          r"anus|testicles?|semen|sexual intercourse|copulate|have sex|menstruation|genitals?)\b", re.I)
-UA = {"Author-Agent": "conlang-thought-experiment/0.1 (offensive-word screen; local use)"}
+UA = {"User-Agent": "conlang-thought-experiment/0.1 (offensive-word screen; local use)"}
 
 # --- pronunciation -> this language's sounds (names.py's mapping, tolerant, no added vowels) ----------
 import names as N

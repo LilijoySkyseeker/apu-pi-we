@@ -88,7 +88,7 @@ Evidence on what happens when planned, revived or newly formed languages get nat
   - Speakers are young: 51% were under 20 in the 2022 census ([census results](https://tokiponacensus.github.io/results2022/), via search).
 - **Lojban.** No reliable usage study found.
   - The community's CLL-update tracker says modern usage defaults to *lo* where CLL used *le* ([issue #22](https://github.com/int19h/cll/issues/22)).
-  - The "xorlo" reform of descriptors is described as following "a natural shift in Lojban usage" ([Gleki](https://mw.lojban.org/papri/Author:Gleki/xorlo_as_seen_by_La_Gleki)).
+  - The "xorlo" reform of descriptors is described as following "a natural shift in Lojban usage" ([Gleki](https://mw.lojban.org/papri/User:Gleki/xorlo_as_seen_by_La_Gleki)).
   - These are weak community sources. No native speakers are documented.
 
 ## 7. Standards, schooling, media
