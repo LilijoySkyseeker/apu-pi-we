@@ -377,7 +377,7 @@ Clock time works the way your culture does, and both styles are always understoo
 
 On a 24-hour clock, read the four digits one at a time: **mon sa fi ka po** "at 21:30". For "around" a time, put **fu** before it: **mon fu minfi** "around noon". In writing, give the time the way your culture writes it.
 
-In a date the bigger unit comes first, with a comma between: the month by number, then the day. So **dunan pi yawu, dili pi mape** "October 9". A year is read digit by digit: **fawu pi sa po sa ufo** "2026". On its own, **dili pi** with a number from 1 to 7 is a weekday, counting Monday as 1: **dili pi ka** "Wednesday".
+In a date the bigger unit comes first, with a comma between: the month by number, then the day. So **dunan pi yawu, dili pi mape** "October 9". A year is read digit by digit: **fawu pi sa po sa ufo** "2026". On its own, **dili pi** with a number from 1 to 7 is a weekday, counting Monday as 1: **dili pi ka** "Wednesday". For a date without its month, add what it's the day of: **dili pi ka pi dunan** "the 3rd of the month".
 
 Age is time lived. **to nume fawu ka yawu** "I have lived 30 years" is how you say you're 30.
 

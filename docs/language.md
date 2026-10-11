@@ -279,7 +279,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
   - The 12-hour style counts the hour (1–12), then gives the minutes as two digits, then optionally **pi** + a part of the day: **mon mape ka po pi yami** "at 9:30 at night"; **mon yawu po sa** "at 10:02". On the hour, the hour is said alone: **mon yawu sa** "at 12".
   - The parts of the day are **leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening and **yami** night. Midnight is **yawu sa pi yami**.
   - For *about* a time, put **fu** before it: **mon fu minfi** "around noon".
-- A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month.
+- A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili pi ka pi dunan** "the 3rd (of the month)", **dili pi ka pi isi** "the third day of the trip".
 - Dates put the larger unit first, with a pause between: **dunan pi yawu, dili pi mape** "October 9". A weekday with a time is said the same way: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".
 - The senary calendar is described in [measurement.md](measurement.md).
 

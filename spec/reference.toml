@@ -1337,7 +1337,7 @@ type = "bullet"
 title = "Weekdays"
 gap = 0
 text = '''
-- A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month.'''
+- A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili pi ka pi dunan** "the 3rd (of the month)", **dili pi ka pi isi** "the third day of the trip".'''
 
 [[item]]
 id = "8.3.3"
