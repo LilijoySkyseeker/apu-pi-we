@@ -108,9 +108,9 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 - **Why particles, not inflection:** [evidence] native speakers of designed languages drop redundant mandatory morphology (Bergen 2001); isolating languages are where all successful auxlangs and creoles converged. Fusion of particles later is harmless because same-slot words differ by consonant.
 
 ### 4.3 Speech acts, confidence, source
-- **Speech-act particle first** (**min so tin fon de yo a ba**) [evidence, research round 1]: urgency and act carried by melody alone fail in noise and across cultures; aviation and medical reports show hints where warnings were needed. Initial position tells the listener the sentence's shape early (like Spanish ¿).
+- **Speech-act particle first** (**min so tin fon de yo genso ba**) [evidence, research round 1]: urgency and act carried by melody alone fail in noise and across cultures; aviation and medical reports show hints where warnings were needed. Initial position tells the listener the sentence's shape early (like Spanish ¿).
 - **Confidence as a number** (**kon** + 0–6, sixths) [evidence + user]: number-anchored probability was the strongest finding against miscommunication of stance (words like "likely" span huge ranges). Sixths match the ~7 bands forecasters can use (Friedman et al. 2018). The user switched to tenths on 2026-10-09 for familiarity and back to sixths on 2026-10-10: they fit the research, almost every value is one syllable, and exact percentages remain sayable with **pasentu**. Optional. Watch list: collapsing to favourite values.
-- **Source (evidentiality) optional** (**o fen san**) [evidence]: the case for obligatory evidentials was mixed to negative; Láadan made them obligatory and failed. Every marked dimension has an "unspecified" value (**bo**) so nothing forces false precision.
+- **Source (evidentiality) optional** (**wanme inwun wemen**) [evidence]: the case for obligatory evidentials was mixed to negative; Láadan made them obligatory and failed. Every marked dimension has an "unspecified" value (**bo**) so nothing forces false precision.
 - **No yes/no; echo answers** [evidence]: answers to negative questions are a documented failure ("yes" means opposite things across languages). Acknowledgement ladder from aviation: **mm** heard, echo understood, **de** will do.
 
 ### 4.4 Reference
@@ -123,7 +123,7 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 [user, yardstick layer 5] Anything context supplies may be left out, including verbs; fragments are grammatical (as in Mandarin, Japanese, Korean). Economy test 01: the language was ~1.5× English's syllables; the four fixes (tan/ben alone, bu topic, wan/yi topic, omission) cut 12% with meaning 44/44 on retest.
 
 ### 4.6 Smaller rules worth knowing the reason for
-- **Tense optional, aspect particles** (**sin le win**) [evidence]: native speakers and creoles keep preverbal aspect, drop compound tenses.
+- **Tense optional, aspect particles** (**sin le buntu**) [evidence]: native speakers and creoles keep preverbal aspect, drop compound tenses.
 - **Three modalities kept apart** (ability **lenu**, obligation **keya/wupi**, permission **efon**); epistemic "must/might" is confidence [evidence]: English *must/may* each mean two things.
 - **Conditions use confidence** (**don kon po** = counterfactual) [Claude]: no new grammar words needed.
 - **Clause attachment** (rule 15) [blind test on contract language, `backtranslation-04-nesting`]: position decides attachment; commas mark pauses where a phrase could run on. No clause-closing word; add a two-syllable one if attachment fails in a test.

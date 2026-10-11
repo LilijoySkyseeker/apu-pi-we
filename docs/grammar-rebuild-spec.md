@@ -43,7 +43,7 @@ meanings.
   measured frequency beats the rarest current holder. Rebuilds happen only in
   design; once the user starts learning, the freeze returns and natural
   clipping takes over (drift.md).
-- **Record frequency sources** in `grammar.tsv` (new column).
+- **Record frequency sources**: `tests/grammar-rebuild/frequency.tsv` (not a `grammar.tsv` column: the tools rewrite that file with fixed columns).
 - **No automatic check yet.** Trigger: the promotion rule gets missed again.
 
 ## Digits 6–9 (decided alongside: leave at two syllables)

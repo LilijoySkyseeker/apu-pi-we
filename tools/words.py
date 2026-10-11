@@ -42,13 +42,13 @@ def split(form):
     return [IDX[p] for p in parts]
 
 
-def add_grammar(gloss, cls, freq):
+def add_grammar(gloss, cls, freq, avoid=()):
     grammar = read("grammar.tsv")
     taken = {IDX[g["form"]] for g in grammar} | digit_syllables()
     open_ = {(INV.syl[t][0], INV.syl[t][1]) for t in taken}  # no two grammar words differ only by final -n
     best, best_c = None, float("inf")
     for cand in range(len(SYL)):
-        if cand in taken or (INV.syl[cand][0], INV.syl[cand][1]) in open_ or offensive.blocked(SYL[cand]):
+        if cand in taken or (INV.syl[cand][0], INV.syl[cand][1]) in open_ or offensive.blocked(SYL[cand]) or SYL[cand] in avoid:
             continue
         c = 0.0
         for g in grammar:
@@ -72,7 +72,7 @@ def digit_syllables():
     return {IDX[r["form"]] for r in read("numbers.tsv") if r["kind"] == "digit" and r["form"] in IDX}
 
 
-def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
+def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()):
     lexicon = read("lexicon.tsv")
     digits = digit_syllables()  # no content word may begin with a digit (juncture safety)
     content = [i for i in range(len(SYL)) if i not in digits]
@@ -93,7 +93,7 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False):
     for a in content:
         for b in second:
             form = SYL[a] + SYL[b]
-            if INV.content_key((a, b)) in taken or offensive.blocked(form):
+            if INV.content_key((a, b)) in taken or offensive.blocked(form) or form in avoid:
                 continue
             p_out = S[a, ex[:, 0]] * S[b, ex[:, 1]]
             p_in = S[ex[:, 0], a] * S[ex[:, 1], b]
@@ -118,15 +118,17 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
     g = sub.add_parser("add-grammar"); g.add_argument("gloss"); g.add_argument("cls"); g.add_argument("freq", type=float)
+    g.add_argument("--avoid", default="", help="comma-separated forms not to reuse (e.g. just-freed forms)")
     c = sub.add_parser("add-content"); c.add_argument("gloss"); c.add_argument("field"); c.add_argument("tier", type=int)
     c.add_argument("--antonym", action="append", default=[]); c.add_argument("--no-approximants", action="store_true")
+    c.add_argument("--avoid", default="", help="comma-separated forms not to reuse (e.g. just-freed forms)")
     s = sub.add_parser("syllables"); s.add_argument("text")
     m = sub.add_parser("move"); m.add_argument("glosses", nargs="+")
     a = p.parse_args()
     if a.cmd == "add-grammar":
-        add_grammar(a.gloss, a.cls, a.freq)
+        add_grammar(a.gloss, a.cls, a.freq, set(filter(None, a.avoid.split(","))))
     elif a.cmd == "add-content":
-        add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants)
+        add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants, set(filter(None, a.avoid.split(","))))
     elif a.cmd == "move":  # re-place existing content words under the current rules
         for gl in a.glosses:
             w = next(x for x in read("lexicon.tsv") if x["gloss"] == gl)

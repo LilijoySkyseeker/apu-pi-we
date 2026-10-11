@@ -544,3 +544,15 @@ Open: computer vocabulary (a batch via a UI and email translation), and whether 
 **Computer vocabulary (2026-10-10).** `tests/computer-vocab-01/`: interface strings plus a blind email thread showed 36 gaps. The translator defaulted to English loans. Checked against Mandarin, Spanish, Russian and Arabic, interfaces mostly reuse everyday words, so the fix is 15 everyday roots (seek, remove, share, connect, add, check, shake, sound, page, key, private, garbage, copy, adjust, document), 14 built words, and only 2 loans (camera, contact). Turn on/off = open/close, as Mandarin does. This answers the user's concern that the language had drifted English-ward here.
 
 **Comma test 01 (2026-10-10):** commas were stripped from three translations (85 comma uses) and the texts written chat-style. Blind readers lost meaning on 0 of 67 lines; context recovered every comma. No design change follows: the comma stays the precise option, droppable in chat (the user's principle: a precise way must exist, not always be used). One clarification came out of it: title + name takes no comma, because "…, en danisu" at the end reads as calling Denise. Limits: topic openers and names at the end were barely exercised. Add back a targeted test if real misreadings appear.
+
+## Grammar-space rebuild applied (user approved, 2026-10-10)
+
+Per `grammar-rebuild-spec.md`. Frequency was measured from everyday equivalents in 15 languages (`tests/grammar-rebuild/equivalents.tsv`, `frequency.tsv`; median Zipf from wordfreq). The equivalents were supplied by an agent, and morphology-only meanings are flagged as judgement.
+- **Promoted** (Zipf ≥ 5.8): also **wame → fe**, even **genfo → wi**, "you know" **iwun → a**, focus **fule → o**.
+- **Demoted** (Zipf ≤ 5.3): not literal **a → genso**, seen **o → wanme**, told **fen → inwun**, inferred **san → wemen**, at least **pa → konsin**, about to **win → buntu**.
+- **Protected** despite low measurements: **yo** (safety), **ba** (principle 6 outlet), **du**/**ge** (word-building, which can't be measured this way).
+- **Free:** two one-syllable forms (**san**, **pa**).
+
+All slot, drift, final-n and juncture checks are clean. `build.py` groups updated (new "end" group: **min** tag, **a**). `words.py` gained `--avoid` so content words never take a just-freed form; grammar slots may reuse freed grammar forms, since the space is finite. **o** and **a** change meaning (seen → focus, not literal → you know); nothing had been learned yet. The estimated saving is modest (about 5 syllables per 1,000 words); the main gain is short frequent operators and free slots. Noted, with no rule: 143 of 537 content words already sound like two grammar words, and stress separates them.
+
+Sources were left in `tests/grammar-rebuild/` rather than a new `grammar.tsv` column, because the tools rewrite `grammar.tsv` with fixed columns.

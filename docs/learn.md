@@ -30,10 +30,10 @@ The sounds are easy for an English speaker. The hard part is what English does *
 
 | Letter | Say it like | Watch out |
 |---|---|---|
-| **a** | *father* | |
+| **genso** | *father* | |
 | **e** | *bet* | never "ay" as in *day* |
 | **i** | *machine* | never "eye" |
-| **o** | *go*, but cut short | no "oo" glide at the end (Spanish *no*) |
+| **wanme** | *go*, but cut short | no "oo" glide at the end (Spanish *no*) |
 | **u** | *rule* | never "yoo" |
 | **p t k b d** | as in English | |
 | **g** | *get* | always hard, never *gem* |
@@ -128,12 +128,12 @@ Many grammar words are spelled like English words and mean something else. Learn
 | **we** | all | **ewo we** "all people", everyone |
 | **in** | some | **pasu in** "some food" |
 | **tason** | rather | **tason kudu** "rather big" |
-| **a** | not literal (joking, irony) | **a to bi sogi.** "I'm *so* happy." (sarcastic) |
+| **genso** | not literal (joking, irony) | **genso to bi sogi.** "I'm *so* happy." (sarcastic) |
 | **so** | please / request | **so neke to osa.** "Please give me water." |
 | **man** | who, which | **ewo man obu** "the person who comes" |
 | **sin** | done (finished) | **to sin nawi.** "I've eaten." |
 | **don** | if | |
-| **fen** | (I was) told | **fen wan kusa.** "She left, I'm told." |
+| **inwun** | (I was) told | **inwun wan kusa.** "She left, I'm told." |
 
 ## Lesson 7: Of, at, to, from, with
 
@@ -158,9 +158,9 @@ Names always take **en**: **en mala** "Mara". Names are adapted to the sounds: L
 - **nun** makes anything polite: **so nun neke to osa.** "Could you please give me water?" Add more for more: **nun nun**.
 - **Names keep their own spelling:** write **en denise**, not an adapted form, and say it as close to the real name as you can.
 - **Calling someone:** put the name or title first or last, with a comma: **en mala, tin obu.** "Mara, come." Titles go before the name and work when talking about someone too: **no tofo en mala** "Teacher Mara". **lanno** is the polite title for anyone, like Mr/Ms or sir/madam: **lanno en olusegun**, or just **lanno, …**. It also goes before a role or kin word: **lanno faba pi wede** "Uncle (father's sibling)", with respect.
-- **Stress in a word:** where English stresses a word for contrast, put **fule** before it: **fule en tomasu yidu bu** "*Tomas* took it"; **to fule unfu** "I *did* pay". **genfo** is "even": **genfo tiwu la obu** "even the children came".
+- **Stress in a word:** where English stresses a word for contrast, put **o** before it: **o en tomasu yidu bu** "*Tomas* took it"; **to o unfu** "I *did* pay". **wi** is "even": **wi tiwu la obu** "even the children came".
 - **Habits and accidents:** **manni** before a verb is "usually" (**to manni isi** "I usually go"). **mu gan momu** is "by accident", **gan momu** "on purpose". To set a topic, start with **pi X,** "as for X, …".
-- **Tone words at the end:** after a comma at the end of a sentence, **iwun** is "you know", **buni** is "okay?" (friendly, not a real question) and **donon** is "it turned out": **so pen isi, buni.** "Let's go, okay?"
+- **Tone words at the end:** after a comma at the end of a sentence, **a** is "you know", **buni** is "okay?" (friendly, not a real question) and **donon** is "it turned out": **so pen isi, buni.** "Let's go, okay?"
 - **mm** "I heard you", **huh?** "say again"
 
 The first word of a sentence can say what kind of sentence it is. You'll mostly use these:
@@ -212,7 +212,7 @@ There are no teens, no "-ty", no irregular numbers at all. English makes you lea
 
 - **Tense is optional.** Say when once, then stop marking it: **afe, to nawi pasu.** "Yesterday, I ate food."
 - **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
-- **sin** done (**to sin nawi** "I've eaten"), **le** in progress (**to le nawi** "I'm eating"), **win** about to (**to win kusa** "I'm about to leave").
+- **sin** done (**to sin nawi** "I've eaten"), **le** in progress (**to le nawi** "I'm eating"), **buntu** about to (**to buntu kusa** "I'm about to leave").
 - **Offsets from now:** **wo nelon fi** "after one week" = next week; **ya dunan fi** "before one month" = a month ago.
 - **dili** day, **nelon** week, **dunan** month (also "moon"), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.
 - **Clock time works the way your culture does.** 12-hour: count the hour and minutes, add the part of the day if needed: **mon mape ka yawu pi yami** "at 9:30 at night" (**leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening, **yami** night). 24-hour: four digits, one at a time: **mon sa fi ka po** "at 21:30". Write the time the way your culture writes it.
@@ -248,7 +248,7 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 You can skip these at first. Learn them once the basics are easy.
 
 - **How sure you are, in sixths:** **kon da wan obu** "4 in 6 she's coming" (likely). **kon ka** is even odds, **kon te** very likely, **kon ufo** certain, **kon po** impossible. It's optional; plain statements mean you believe them.
-- **How you know:** **o** "I saw it", **fen** "I was told", **san** "I worked it out". Also optional.
+- **How you know:** **wanme** "I saw it", **inwun** "I was told", **wemen** "I worked it out". Also optional.
 
 ## Where to go next
 

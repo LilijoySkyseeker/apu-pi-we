@@ -164,9 +164,10 @@ def scale(n_roots=3000, steps=1500000):
 
 # ---------------------------------------------------------------- grammar words
 GROUPS_STRICT = {  # same slot: first consonant must differ
-    "act": "Q REQUEST INSTRUCT ADVISE INTEND WARN NONLITERAL EXCLAIM POLITE",
-    "pred": "NOT BE DONE ONGOING SOON MORE VERY RATHER ONLY AT.LEAST",
-    "stance": "NOT CONF SEEN TOLD INFER UNSPEC ONLY AT.LEAST WH",
+    "act": "Q REQUEST INSTRUCT ADVISE INTEND WARN EXCLAIM POLITE",
+    "pred": "NOT BE DONE ONGOING MORE VERY ONLY ALSO EVEN FOCUS",
+    "stance": "NOT CONF UNSPEC ONLY WH ALSO EVEN FOCUS",
+    "end": "Q YOUKNOW",  # sentence-end stance position (2026-10-10)
     "pron": "I YOU WE.incl WE.excl HE/SHE/IT OBVIATIVE LOGOPHOR GENERIC SELF",
     "det": "PLURAL THIS THAT.dem ALL SOME PART NONE WH",
     "prep": "OF AT TO FROM WITH FOR BEFORE AFTER LIKE WHILE",
@@ -178,6 +179,7 @@ GROUPS_WIDE = {  # same wider position: must stay distinct after drift
     "pre": "pred stance",
     "postnoun": "det prep",
     "npstart": "pron deriv",
+    "finish": "end",
 }
 
 

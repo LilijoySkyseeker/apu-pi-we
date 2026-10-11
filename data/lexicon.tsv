@@ -328,7 +328,6 @@ agree	mind	3	tayu
 send	action	3	sege
 end	time	3	fugi
 allow	action	3	efon
-also	abstract	4	wame
 sibling	people	3	faba
 spouse	people	3	ofin
 arm	body	3	inyi
@@ -475,9 +474,6 @@ unit.length	unit	4	ago
 fly, the insect	animal	2	gekon
 occasion, a time (three times)	time	3	gimu
 honoured one, title of respect (sir, madam, Mr, Ms)	people	3	lanno
-focus, this one and not another; did indeed	abstract	4	fule
-even, at the far end of a scale	abstract	3	genfo
-as you know, you see (stance, sentence end)	abstract	4	iwun
 okay?, softens and invites agreement (stance, sentence end)	abstract	4	buni
 it turned out, surprisingly (stance, sentence end)	abstract	3	donon
 noon, midday	time	3	minfi
@@ -536,3 +532,9 @@ adjust, set	action	2	finsa
 document, file	thing	3	kemin
 camera	loan	2	kamela
 contact, address-book entry	loan	2	kontakutu
+not literally, joking (speech act)	abstract	1	genso
+seen, evidence by sight	abstract	1	wanme
+told, hearsay	abstract	1	inwun
+inferred, it seems	abstract	1	wemen
+at least	abstract	1	konsin
+about to, soon	time	2	buntu

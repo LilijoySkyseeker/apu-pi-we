@@ -5,14 +5,10 @@ INSTRUCT	act	1.5	tin
 ADVISE	act	1	fon
 INTEND	act	2	de
 WARN	act	0.5	yo
-NONLITERAL	act	0.5	a
 WH	op	3	yu
 UNSPEC	op	1	bo
 NOT	op	7	mu
 CONF	op	1.5	kon
-SEEN	op	0.5	o
-TOLD	op	0.8	fen
-INFER	op	0.5	san
 I	pron	10	to
 YOU	pron	8	me
 WE.incl	pron	3	pen
@@ -29,7 +25,6 @@ PART	det	1	kin
 NONE	det	1	fa
 DONE	asp	3	sin
 ONGOING	asp	2	le
-SOON	asp	1.5	win
 OF	rel	8	pi
 AT	rel	5	mon
 TO	rel	5	tun
@@ -51,7 +46,6 @@ VERY	degree	3	bi
 LIKE	rel	3	fu
 GENERIC	pron	3.0	go
 ONLY	op	3.0	na
-AT.LEAST	op	1.0	pa
 WHILE	link	2.0	nin
 EXCLAIM	act	1.5	ba
 SELF	pron	3.0	nen
@@ -62,3 +56,7 @@ RESULT	deriv	2	ge
 TOOL	deriv	3	du
 PLACE	deriv	3	pu
 NAME	name	4	en
+ALSO	op	4.0	fe
+EVEN	op	3.0	wi
+FOCUS	op	3.0	o
+YOUKNOW	act	3.0	a

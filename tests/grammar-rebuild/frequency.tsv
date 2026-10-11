@@ -1,0 +1,75 @@
+id	form	current_freq	langs_measured	langs_no_word	median_zipf	flag
+OF	pi	8	9	6	7.68	
+AND	yen	9	14	1	7.34	
+AT	mon	5	12	3	7.29	
+BE	gun	8	10	5	7.13	
+TO	tun	5	12	3	7.13	
+FROM	se	3	13	2	7.03	
+THAT.comp	wun	5	12	3	7.02	
+NOT	mu	7	15	0	6.93	
+FOR	li	3	14	1	6.85	
+THIS	tan	4	15	0	6.78	
+WITH	gan	3	14	1	6.76	
+I	to	10	15	0	6.66	
+WHO.rel	man	4	12	3	6.66	
+HE/SHE/IT	wan	8	15	0	6.57	
+ALSO	wame	(root)	13	2	6.54	
+Q	min	4	10	5	6.47	
+INTEND	de	2	5	10	6.46	judgement
+BUT	un	2	14	0	6.46	
+IT	bu	5	14	1	6.44	
+LIKE	fu	3	14	0	6.41	
+YOU	me	8	15	0	6.37	
+WE.excl	din	3	14	0	6.37	
+NONE	fa	1	13	0	6.35	
+OR	lu	2	15	0	6.33	
+WH	yu	3	15	0	6.3	
+WE.incl	pen	3	14	0	6.3	
+MORE	ke	3	15	0	6.29	
+THAT.dem	ben	3	15	0	6.25	
+IF	don	2	15	0	6.22	
+VERY	bi	3	15	0	6.19	
+ALL	we	3	15	0	6.19	
+AFTER	wo	1.5	15	0	6.12	
+ONLY	na	3.0	14	1	6.09	
+BEFORE	ya	1.5	15	0	6.08	
+GENERIC	go	3.0	15	0	6.06	
+SELF	nen	3.0	15	0	6.01	
+EVEN	genfo	(root)	15	0	5.99	
+BECAUSE	gi	1.5	14	0	5.98	
+DONE	sin	3	15	0	5.92	
+ONGOING	le	2	15	0	5.92	
+INSTRUCT	tin	1.5	1	14	5.88	judgement
+PLURAL	la	4	3	12	5.88	judgement
+YOUKNOW	iwun	(root)	14	0	5.85	
+OBVIATIVE	yi	2	15	0	5.84	
+AGENT	no	4	3	12	5.83	judgement
+FOCUS	fule	(root)	10	5	5.83	
+UNSPEC	bo	1	13	0	5.79	
+SOME	in	2	14	0	5.79	
+EACH	mesun	(root)	15	0	5.79	
+PLACE	pu	3	15	0	5.71	
+WHILE	nin	2.0	15	0	5.67	
+NAME	en	4	1	14	5.67	judgement
+LOGOPHOR	sun	1	14	0	5.62	
+ADVISE	fon	1	13	2	5.61	
+PART	kin	1	15	0	5.6	
+TITLE	lanno	(root)	15	0	5.45	
+REQUEST	so	2	15	0	5.44	
+POLITE	nun	3	13	2	5.44	
+ALMOST	nedin	(root)	15	0	5.39	
+CONF	kon	1.5	14	0	5.38	
+OKAY	buni	(root)	13	1	5.3	
+INFER	san	0.5	15	0	5.28	
+SOON	win	1.5	15	0	5.26	
+AT.LEAST	pa	1.0	15	0	5.26	
+RATHER	tason	(root)	15	0	5.25	
+TOLD	fen	0.8	13	2	5.09	
+HABITUAL	manni	(root)	15	0	5.09	
+TURNEDOUT	donon	(root)	14	1	4.96	
+EXCLAIM	ba	1.5	15	0	4.85	
+SEEN	o	0.5	14	1	4.85	
+WARN	yo	0.5	15	0	4.71	
+TOOL	du	3	14	0	4.56	
+NONLITERAL	a	0.5	15	0	4.46	
+RESULT	ge	2	0	15	0	judgement
