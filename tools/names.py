@@ -89,7 +89,7 @@ def adapt(ipa, epenthesis="default"):
             else:
                 out += s
     if len(re.findall(r"[aeiou]", out)) < 2:   # names have at least two syllables
-        out += "u"
+        out += ("y" if out[-1] in "ie" else "w") + "u" if out[-1] in "aeiou" else "u"  # glide, as for any vowel pair
     return out
 
 
