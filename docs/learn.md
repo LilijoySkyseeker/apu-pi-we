@@ -21,7 +21,7 @@ A plan that fits 15–20 minutes a day:
 Three habits matter more than the schedule:
 
 - **Say everything aloud.** Reading silently trains your eyes, not your mouth.
-- **Use spaced repetition for words.** [../data/lexicon.tsv](../data/lexicon.tsv) imports straight into Anki: map the `gloss` column to the front and `form` and `kind` to the back, and start with tier 5 and 4. The kind (thing, action or quality) matters; lesson 3 shows why. Do the same with [../data/grammar.tsv](../data/grammar.tsv).
+- **Use spaced repetition for words.** [../data/lexicon.tsv](../data/lexicon.tsv) imports straight into Anki: map the `gloss` column to the front and `form` to the back, and start with tier 5 and 4. Do the same with [../data/grammar.tsv](../data/grammar.tsv).
 - **Make your own sentences early,** even wrong ones. Bring them to me.
 
 ## Lesson 1: Sounds
@@ -95,19 +95,19 @@ This is the first real switch for English speakers: **a content word that descri
 To *say* something is big, use **gun** "is":
 
 - **guyi gun kudu.** "The house is big."
-- **guyi kudu** is "the big house", never "the house is big". This is the most common early mistake.
+- To say "the house is big" clearly, use **gun**: **guyi gun kudu**. Bare **guyi kudu** usually means "the big house".
 
-**Every word has a usual kind: a thing, an action or a quality.** The `kind` column of the lexicon tells you which. It shows the *clear* way to read a word that comes right after a noun. In casual talk people blur it and context sorts it out, so getting it "wrong" is never a mistake, just less clear:
+**What you mean picks the form.** When a word follows a noun, it might describe the noun or say what it does. To be clear, choose by what you mean:
 
-| Right after a noun | What it does | Example |
+| You mean | Say | Example |
 |---|---|---|
-| a quality | describes the noun | **ewo meli** "a small person" |
-| an action | is the verb: you've made a sentence | **ewo niba** "the person walks" |
-| a thing | only gender, or a set compound | **tiwu futa** "daughter" (child woman) |
+| it *is* something (a state) | **gun** + word | **guyi gun kudu** "the house is big" |
+| it *does* something | the word, plus **le** / **sin** / **manni** to be precise | **ewo le niba** "the person is walking" |
+| *which* one (a description) | **man** + word | **ewo man niba** "the person who walks" |
 
-So to be clear, "a walking person" is not **ewo niba**. Not sure of a word's kind? **man** always makes a description clear. Describe a noun with an action through **man** "who" (lesson 12): **ewo man niba** "the person who walks". Position can still give a word another job: an action word used as an object is a noun (**sepi** "apologise" or "an apology"), and a quality after a verb says how (below).
+In casual talk people just say **guyi kudu** or **ewo niba** and let context decide; that's never wrong. Position can also turn any word into a noun: as an object, **sepi** "apologise" becomes "an apology". A word right after a verb says how (below).
 
-**gun does more than qualities:**
+**gun does more than states:**
 - **gun** + noun: **wan gun tiwu.** "She is a child."
 - **gun** + place: **wan gun mon guyi.** "He's at home." (**mon** "at", lesson 7)
 - **gun** + action word = the state that results: **gun tapi** "is closed"

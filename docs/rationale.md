@@ -241,6 +241,8 @@ Decision rule for all of these [user]: where unrelated languages converge on a *
 | Writing: notation passes through, ? and ! allowed, capitals harmless | Text and computer use; usage bans became predictions (Restraint) | — |
 | Commas droppable in chat | Comma test: 0 of 67 lines lost meaning without them; a precise way must exist, not always be used [user] | Targeted test if names at the end or topic openers get misread |
 
+**Clear forms by meaning, not word kind** [user, 2026-10-11]. The last row of the interpersonal table here first became a rule (each root has a default kind; a quality after a noun describes it, an action after a subject is its verb), then a convention. Under the priority order it failed predictability: about 50 borderline words had an arbitrary kind. Now the speaker picks the form by what they mean: **gun** for a state, an aspect word for an event, **man** for a description. It works for any word, with nothing to memorise. Bare noun + word is left to context. Mandarin works the same way (很, 了/在, 的). The `kind` column was removed; add it back as a dictionary hint if learners keep asking how a word is typically used.
+
 ## 11. Known weaknesses (what a successor should doubt first)
 
 1. **Validated mostly by its own instruments:** the confusion model is scored against itself; blind readers are AI agents with world knowledge. One human has read it aloud; none has listened.

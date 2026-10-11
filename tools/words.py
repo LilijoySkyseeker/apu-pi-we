@@ -72,12 +72,7 @@ def digit_syllables():
     return {IDX[r["form"]] for r in read("numbers.tsv") if r["kind"] == "digit" and r["form"] in IDX}
 
 
-KIND = {"people": "thing", "body": "thing", "nature": "thing", "animal": "thing", "thing": "thing", "unit": "thing",
-        "loan": "thing", "space": "thing", "time": "thing", "abstract": "thing", "action": "action", "motion": "action",
-        "sense": "action", "mind": "action", "size": "quality", "quality": "quality", "color": "quality", "taste": "quality"}
-
-
-def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=(), kind=None):
+def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()):
     lexicon = read("lexicon.tsv")
     digits = digit_syllables()  # no content word may begin with a digit (juncture safety)
     content = [i for i in range(len(SYL)) if i not in digits]
@@ -106,8 +101,8 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()
             c += EFFORT * f * (INV.length((a, b)) - 2.0)
             if c < best_c:
                 best, best_c = form, c
-    lexicon.append({"gloss": gloss, "field": field, "tier": tier, "form": best, "kind": kind or KIND.get(field, "thing")})
-    write("lexicon.tsv", lexicon, ["gloss", "field", "tier", "form", "kind"])
+    lexicon.append({"gloss": gloss, "field": field, "tier": tier, "form": best})
+    write("lexicon.tsv", lexicon, ["gloss", "field", "tier", "form"])
     if antonyms:
         with open(os.path.join(DATA, "antonyms.tsv"), "a") as fh:
             for x in antonyms:
@@ -127,14 +122,13 @@ if __name__ == "__main__":
     c = sub.add_parser("add-content"); c.add_argument("gloss"); c.add_argument("field"); c.add_argument("tier", type=int)
     c.add_argument("--antonym", action="append", default=[]); c.add_argument("--no-approximants", action="store_true")
     c.add_argument("--avoid", default="", help="comma-separated forms not to reuse (e.g. just-freed forms)")
-    c.add_argument("--kind", choices=["thing", "action", "quality", "operator"], help="default role; otherwise from the field")
     s = sub.add_parser("syllables"); s.add_argument("text")
     m = sub.add_parser("move"); m.add_argument("glosses", nargs="+")
     a = p.parse_args()
     if a.cmd == "add-grammar":
         add_grammar(a.gloss, a.cls, a.freq, set(filter(None, a.avoid.split(","))))
     elif a.cmd == "add-content":
-        add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants, set(filter(None, a.avoid.split(","))), a.kind)
+        add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants, set(filter(None, a.avoid.split(","))))
     elif a.cmd == "move":  # re-place existing content words under the current rules
         for gl in a.glosses:
             w = next(x for x in read("lexicon.tsv") if x["gloss"] == gl)
