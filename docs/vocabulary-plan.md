@@ -49,3 +49,37 @@ Cultural neutrality matters from the very first word in a different way: in wher
 - The colexification (boundary) work is the part most likely to grow without limit. Each split or lump needs its evidence line in the concept table.
 - If research shows a dataset can't be used without building a pipeline, report that and choose a cheaper source rather than building one.
 - Add back the 2,000–3,000 target only if tests keep losing to missing words after the seed.
+
+## Words the tests found missing (noted 2026-10-10, not yet added)
+
+The normal process: these come from what tests actually needed. Each still
+goes through the vocabulary method (root, built word or phrase; lump/split)
+before it's added. Source in brackets: E = economy test 01, J = round-trip
+Japanese, M1 = multilang stage 1 inventories, M2 = multilang stage 2 round
+trips.
+
+- **Function and stance words:** even (M1 ×9, M2), almost (M1), each (M1,
+  M2 Vietnamese legal), suddenly (M1, M2), early (M2 Russian), late (E, M1,
+  M2), "it turned out" (M2 Arabic), "as expected of you" (J), formally (M2
+  Spanish).
+- **Feelings and states:** trust (M2 Hindi), love, miss, disappointed (M1),
+  "sorry" as sympathy, not apology (M1), hungry, tired (M1), pessimistic (M2
+  Arabic), bothersome / can't be bothered (J), strange (M2 Hindi), "poor
+  fellow" pity (M2 Hindi).
+- **Everyday life:** cheap, expensive (E, M1), rent as a noun (E), landlord,
+  neighbour (E, J, M2), kitchen (E), room (J), box (J), gate (M2
+  Vietnamese), storey / floor of a building (M2 Mandarin), basin (M2
+  Mandarin), oil (M2 English), midday / lunch (J, M2 Hindi), afternoon (J),
+  wedding (M2 Hindi), beard (M2 Hindi), warehouse (M2 Hindi), queue (M2
+  Arabic), part-time job (J, M2 Vietnamese), free of charge (J), law (M2
+  Mandarin), a right / entitlement (M2 Spanish), safety (M2 Mandarin), dock
+  someone's pay (M2 Hindi).
+- **Verbs found flattened:** move house (J), park (E), flood (E), yell (E),
+  text / message (E), demand (M2 Vietnamese), complain, criticise (M2
+  Vietnamese), block (E, M2 English).
+- **Loans used under the borrowing rule but not yet in the lexicon:** email,
+  photo, photocopy, stamp, train, petrol, licence, spreadsheet, navigation,
+  air conditioning, electricity, deadline, degree (°), truck, hospital,
+  driver, intern, transport, bicycle, elevator, battery, plug, socket,
+  screen, wire, euro, yuan, rupee, police, button, manga, Uber, WeChat,
+  Alipay, LINE.
