@@ -178,7 +178,7 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 - **No teens or irregular tens** (15 **yawu te**, 50 **te yawu**) [evidence]: English *fifteen/fifty* is a classic confusion; regular numerals help children.
 - **Digit reading** for identifiers in groups of three [evidence: aviation reads digits one by one].
 - **Calendar:** today's (7-day **nelon**, **dunan** month = moon, 24-hour clock read as digits); months and weekdays by number [user]. Points in time are labels (**pi** + number).
-- **Senary** is a topic [user]: its words live in `docs/measurement.md`, `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (`~/work/repos/senary`) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
+- **Senary** is a topic [user]: its words live in `docs/measurement.md`, `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
 
 ---
 

@@ -8,7 +8,7 @@ Apu Pi We's own numbers are base 10, and everyday measurement uses today's units
 
 | Repo | Owns | Source of truth |
 |---|---|---|
-| `~/work/repos/senary` | the quantities: unit definitions, exact values, constants, the calendar's arithmetic | `src/senary_tables.py` |
+| senary (its own repo, to be published) | the quantities: unit definitions, exact values, constants, the calendar's arithmetic | `src/senary_tables.py` |
 | this repo | the words: unit names, number words, how measurements are said | `data/units.tsv`, `data/numbers.tsv`, this file |
 
 Neither repo copies the other's job. If senary changes a definition, nothing here changes unless a unit is added or removed. If this repo renames a word, senary's numbers are unaffected. Since senary r22 (2026-10-09) senary itself uses this language's words for every unit and prefix, and derives its written symbols from them (first two letters: **ago** → Ag; **sigi** takes Sg so it can't be read as SI). Its old working labels (Kena, Nira…) survive only in its pre-r22 history.
