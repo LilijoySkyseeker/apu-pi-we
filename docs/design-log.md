@@ -505,3 +505,5 @@ Tabled item 2 is resolved by this.
 The clock item was resolved earlier by the clock decision.
 
 **Missing words, first batch (user, 2026-10-10).** 22 roots and 9 built words from the words the tests needed, each through the vocabulary method: a root for a basic or frequent concept, a built word where composition works, a phrase where it's rare. Pairs pushed apart: early/late, cheap/expensive. Law is lumped with **wabun** "rule". List and forms are in `vocabulary-plan.md`. Loans are next.
+
+**Loans (2026-10-10).** Thirteen loans went into the lexicon, each in its international form, which is the shared form, not necessarily English: **foto**, **yulo** euro, **polisu**, plus email, train, licence, electricity, degree, hospital, bicycle, battery, yuan and rupee. None collides with a native word or the offensive filter. Brands are names now, so they keep their own spelling. Words whose form isn't shared across languages (deadline, truck, screen, elevator…) are described instead.
