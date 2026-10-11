@@ -482,3 +482,25 @@ okay?, softens and invites agreement (stance, sentence end)	abstract	4	buni
 it turned out, surprisingly (stance, sentence end)	abstract	3	donon
 noon, midday	time	3	minfi
 afternoon	time	3	duwun
+almost, nearly	abstract	3	nedin
+each, every one separately	abstract	3	mesun
+suddenly	time	2	finbi
+late, after the expected time	time	3	yodun
+early, before the expected time	time	3	ganna
+trust, rely on	mind	3	gewan
+love	mind	3	wigen
+miss, feel the absence of	mind	2	sanku
+disappointed	mind	2	kinbo
+hungry	quality	3	monyu
+tired	quality	3	fadun
+strange, odd	quality	2	lenya
+safe, not in danger	quality	2	sonli
+expensive	quality	3	unwi
+cheap, low in price	quality	3	tanbu
+room, of a building	thing	3	fudon
+box, container	thing	2	nansa
+storey, floor level of a building	thing	2	sison
+oil, the liquid	thing	2	yunen
+marry, wedding	action	2	bedan
+a right, entitlement	abstract	2	sogan
+complain	sense	2	tayin

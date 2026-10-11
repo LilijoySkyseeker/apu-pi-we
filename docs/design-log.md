@@ -503,3 +503,5 @@ Tabled item 2 is resolved by this.
 - Labels under 100 are counted; years, 24-hour clock times and identifiers are read digit by digit.
 
 The clock item was resolved earlier by the clock decision.
+
+**Missing words, first batch (user, 2026-10-10).** 22 roots and 9 built words from the words the tests needed, each through the vocabulary method: a root for a basic or frequent concept, a built word where composition works, a phrase where it's rare. Pairs pushed apart: early/late, cheap/expensive. Law is lumped with **wabun** "rule". List and forms are in `vocabulary-plan.md`. Loans are next.

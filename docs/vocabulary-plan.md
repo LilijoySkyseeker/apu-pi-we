@@ -50,7 +50,11 @@ Cultural neutrality matters from the very first word in a different way: in wher
 - If research shows a dataset can't be used without building a pipeline, report that and choose a cheaper source rather than building one.
 - Add back the 2,000–3,000 target only if tests keep losing to missing words after the seed.
 
-## Words the tests found missing (noted 2026-10-10, not yet added)
+## Words the tests found missing (noted 2026-10-10)
+
+**Added 2026-10-10:** 22 roots: almost **nedin**, each **mesun**, suddenly **finbi**, late **yodun**, early **ganna**, trust **gewan**, love **wigen**, miss **sanku**, disappointed **kinbo**, hungry **monyu**, tired **fadun**, strange **lenya**, safe **sonli**, expensive **unwi**, cheap **tanbu**, room **fudon**, box **nansa**, storey **sison**, oil **yunen**, marry/wedding **bedan**, a right **sogan**, complain **tayin**; earlier the same day: even **genfo**, noon **minfi**, afternoon **duwun**, "it turned out" **donon**. Built words in `compounds.tsv`: landlord, neighbour, kitchen, warehouse, move house, park, yell, part-time work, free of charge. Lumped: law = **wabun** "rule". Left as phrases: formally, pessimistic, bothersome, pity, basin, gate, beard, queue, demand, criticise, block, flood, text, "sorry" as sympathy (**lon feme bayi li me**). Still to do: the loans below.
+
+The original list:
 
 The normal process: these come from what tests actually needed. Each still
 goes through the vocabulary method (root, built word or phrase; lump/split)
