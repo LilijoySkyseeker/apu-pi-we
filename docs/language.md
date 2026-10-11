@@ -119,7 +119,7 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 
 ### 4.5 Leaving things out
 
-- **Anything the listener can supply from context may be left out:** the subject, the object, the object of a relation word, the verb. An answer or follow-up can be just the new part: **muyi yu, moti.** "what time, again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".
+- **Anything the listener can supply from context may be left out:** the subject, the object, the object of a relation word, the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".
 - **Exception:** a clause that starts with **gun** and no subject means "there is" (4.7). To say "(it) is X", keep the subject: **bu gun nimo** "it's money". With **gun** left out too, a bare state is fine: **bi upe.** "very good."
 - When leaving something out could be unclear, say it.
 
