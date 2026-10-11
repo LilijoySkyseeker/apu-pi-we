@@ -6,6 +6,14 @@ This document states what the language is. Why each part is the way it is: [rati
 
 **What it is:** a designed language for humans who speak it natively, living within the world's existing cultures. Its own grammar is built for native speakers; where it meets a culture's conventions (clocks, calendars, units, names, customs) it carries them. Where conventions conflict and one must be chosen, it follows the international standard.
 
+**When goals conflict,** in this order:
+1. **Clarity:** a precise, unambiguous way to say anything always exists.
+2. **Predictability:** nothing arbitrary to memorise; rules follow from meaning.
+3. **Economy:** short and context-trusting for fluent speakers.
+4. **Reach:** it carries what the world's languages express.
+
+Any adult can learn it; explicitness for learners is never bought at the cost of fluent use.
+
 ---
 
 ## 1. Principles
