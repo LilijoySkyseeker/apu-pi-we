@@ -19,7 +19,7 @@ import spec as SPEC
 
 LEX = W.read("lexicon.tsv")
 # Two-syllable grammar words kept in the lexicon (language.md 13)
-OPS2 = {"genso", "wanme", "inwun", "wemen", "konsin", "nedin", "tason", "mesun", "manni", "buntu", "buni", "donon", "lanno"}
+OPS2 = {"genso", "wanme", "inwun", "wemen", "konsin", "nedin", "tason", "mesun", "manni", "buntu", "buni", "donon", "lanno", "anko", "nuwen"}
 NUMS = {r["form"] for r in W.read("numbers.tsv")} | {w["form"] for w in LEX if w["field"] == "number"}
 CONTENT = sorted({w["form"] for w in LEX} - OPS2 - NUMS)
 
@@ -58,7 +58,7 @@ ACT: "min" | "so" | "tin" | "fon" | "de" | "yo"
 SOURCE: "wanme" | "inwun" | "wemen"
 JOIN: "yen" | "lu" | "un"
 SUBLINK: "don" | "nin" | "wo" | "ya" | "gi"
-REL: "mon" | "tun" | "se" | "gan" | "li" | "ya" | "wo" | "fu" | "nin"
+REL: "anko" | "nuwen" | "mon" | "tun" | "se" | "gan" | "li" | "ya" | "wo" | "fu" | "nin"
 PHOP: "konsin" | "nedin" | "tason"
 DET: "la" | "tan" | "ben" | "we" | "in" | "kin" | "fa"
 PRON: "to" | "me" | "pen" | "din" | "wan" | "yi" | "sun" | "go" | "nen" | "bu"

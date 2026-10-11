@@ -272,6 +272,8 @@ The relation words come before their noun, as in English:
 - **fu** like, about
 - **nin** during
 - **ya** before, **wo** after (on their own they mean "beforehand" and "after that")
+- **anko** until: **to doku anko kegin.** "I work until evening."
+- **nuwen** without: **wan obu nuwen nimo.** "He came without money."
 
 **pi** is the only word that links one noun to another as a description (a list of nouns just uses **yen** "and"). English can build "house key" or "the road above the river" directly. Here "house key" needs **pi**: **tinli pi guyi** "house key" (key of house). Any other relation takes a **man** clause, which is explained in lesson 12: **sola man gun mon bige pi yolan** "the road above the river".
 

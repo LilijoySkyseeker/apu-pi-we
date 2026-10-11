@@ -475,7 +475,7 @@ id = "4.4.1"
 type = "bullet"
 title = "A relation phrase"
 text = '''
-- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".'''
+- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".'''
 
 [[item]]
 id = "4.4.2"
@@ -1733,7 +1733,7 @@ id = "13.2"
 type = "para"
 title = "Two-syllable operators"
 text = '''
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**.'''
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**. **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
 
 [[item]]
 id = "14"

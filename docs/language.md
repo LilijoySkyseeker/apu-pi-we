@@ -108,7 +108,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 
 ### 4.4 Clauses and relation phrases
 
-- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".
+- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".
 - A relation word may drop its object when context supplies it, as in **wo** "after that" and **ya** "beforehand". It then ends its clause or comes before a pause.
 - A relation word can take a clause (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").
 - A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".
@@ -371,7 +371,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 | Names | **en** |
 | Derivation | doer **no** · thing **ge** · tool **du** · place **pu** |
 
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**.
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**. **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
 
 ## 14. Vocabulary
 
