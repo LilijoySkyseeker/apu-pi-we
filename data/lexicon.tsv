@@ -33,7 +33,7 @@ ground, earth or soil	nature	3	fowo
 stone	nature	3	lutu
 sky	nature	2	yaye
 sun	nature	3	giwe
-moon	nature	2	dunan
+month; moon	nature	2	dunan
 star	nature	2	uwan
 rain	nature	3	gegi
 wind	nature	2	gulo
@@ -155,7 +155,7 @@ learn	mind	3	yesa
 understand	mind	3	lafi
 mean, signify	mind	3	yofu
 choose	mind	2	waka
-need	mind	4	wupi
+need; should	mind	4	wupi
 must, have to	mind	3	keya
 try	mind	3	walo
 happy	mind	3	sogi
@@ -167,7 +167,7 @@ say	sense	5	oyi
 tell	sense	4	iko
 ask	sense	3	mido
 talk	sense	3	kegu
-word	sense	4	apu
+word; language	sense	4	apu
 call, phone or call to	sense	2	yebin
 show	sense	3	wuye
 look, look at	sense	3	miya
@@ -201,7 +201,7 @@ stop	motion	3	bamo
 start	motion	3	tuko
 wait	motion	3	sefu
 stay	motion	3	piyi
-do	action	5	muge
+do; make	action	5	muge
 have, possess	action	5	ibe
 give	action	4	neke
 take	action	4	yidu
@@ -211,7 +211,7 @@ hold	action	2	yonnu
 use	action	3	bone
 find	action	3	geno
 lose, misplace	action	2	agi
-keep	action	2	kuwi
+keep; protect	action	2	kuwi
 open	action	2	benbi
 close, shut	action	2	tapi
 cut	action	2	fonsu
@@ -258,7 +258,7 @@ yesterday	time	3	afe
 now	time	5	eda
 become	action	4	lewe
 face	body	3	suku
-apologize	sense	3	sepi
+apologise	sense	3	sepi
 again	time	3	moti
 teach	mind	3	tofo
 lead, guide	action	2	wungu

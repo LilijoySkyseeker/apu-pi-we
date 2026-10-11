@@ -303,7 +303,7 @@ To call someone, put their name or title first, with a comma, to get their atten
 
 Titles go before the name with no comma, and they work when you're talking about someone too: **no tofo en mara** "Teacher Mara", **no tofo en mara sin oyi** "Teacher Mara said".
 
-**lanno** is the polite title for anyone, like Mr or Ms, or sir or madam: **lanno en olusegun**, or just **lanno, …** when you address someone. It can also go before a role or kin word to add respect: **lanno faba pi wede** "Uncle (father's sibling)". When it's clear who you mean, it works alone when you talk about someone: **lanno sin oyi** "the boss said". **lanno** shows respect for the person named, and it never means "you".
+**lanno** is the polite title for anyone, like Mr or Ms, or sir or madam: **lanno en olusegun**, or just **lanno, …** when you address someone. It can also go before a role or kin word to add respect: **lanno faba pi wede** "Uncle" or "Aunt" (father's sibling). When it's clear who you mean, it works alone when you talk about someone: **lanno sin oyi** "the honoured one said" (for a boss, say). **lanno** shows respect for the person named, and it never means "you".
 
 There's no "Mara, my teacher," construction. To describe someone, put a title before the name (**no tofo en mara**), use a **man** clause, or say it in a new sentence.
 

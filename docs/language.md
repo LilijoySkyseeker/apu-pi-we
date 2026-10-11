@@ -23,7 +23,7 @@ Any adult can learn it. Explicitness for learners is never bought at the cost of
 2. Heads come first, and position carries role. The order is subject, verb, object. A content word that describes a noun or a verb follows it. Words never move to show their role.
 3. Operators come before what they cover (section 6).
 4. Heavy goes last. A noun's own modifiers come before its **pi** "of" phrase, and long clauses go to the end. Nothing may follow a relative clause in its phrase.
-5. Doubling widens or strengthens any word except a digit in a number: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so".
+5. Doubling widens or strengthens any word except a digit in a number: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so". Doubled **mu** is always emphasis and never means "not not".
 6. Every social pressure has its own word: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.
 7. A precise way always exists, but it need not always be used. Anything the listener can supply may be left out (section 4.5), and any ambiguity can be removed by saying more.
 
@@ -33,7 +33,7 @@ Any adult can learn it. Explicitness for learners is never bought at the cost of
 - There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g).
 - A syllable has the shape (C)V(n). A syllable with no consonant before its vowel (**a**, **en**) occurs only at the start of a word. The only consonant that can end a syllable is n.
 - Words fall into three types by sound:
-  - grammar words have one unstressed syllable (table in section 13);
+  - grammar words have one unstressed syllable (table in section 13), except the two-syllable operators listed after that table, which are stressed on the first like content words;
   - the digits 0–5 have one stressed syllable;
   - every other word has two or more syllables and is stressed on the first.
 - Words never change form. There are no endings, no agreement, no case and no gender.
@@ -42,7 +42,7 @@ Any adult can learn it. Explicitness for learners is never bought at the cost of
 - There are no tones. Pitch carries only intonation and emotion. A question needs no rising tone, because its words make it a question, but rising anyway is fine.
 - Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. Grammar words keep their consonants.
 - **mm** "heard you", **huh?** "say again", and any other interjection or hesitation sound speakers use are outside the sound system and carry no grammar.
-- Native content words never begin with a digit's syllable (**po fi sa ka da te**). Loans are exempt.
+- Native content words never begin with an open syllable identical to a digit (**po fi sa ka da te**). Loans are exempt.
 
 ## 3. Writing
 
@@ -69,10 +69,10 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 
 | # | Slot | Contents | Section |
 |---|---|---|---|
-| 1 | Calling someone | a name, title, role or kin word, then a pause | 10.1 |
-| 2 | Opener | a linker to the previous sentence (**gi tan** "so"), then a scene-setting phrase (time, place) or topic **pi X**, then an **if**/**when** clause, each followed by a pause | 4.3 |
+| 1 | Calling someone | a person word (a name, a title, or a single role or kin word), then a pause | 10.1 |
+| 2 | Opener | a linker to the previous sentence (**gi tan** "so"), then a relation phrase that sets the scene (time, place) or a topic **pi X**, then an **if**/**when** clause, each followed by a pause | 4.3 |
 | 3 | Speech act | one particle; **genso** or **ba** may come before it | 7.1 |
-| 4 | Politeness | **nun** | 10.2 |
+| 4 | Politeness | **nun**, after the particle or in its place | 10.2 |
 | 5 | Clause operators | confidence **kon** + number, source **wanme**/**inwun**/**wemen** | 6.1 |
 | 6 | Subject | a noun phrase (section 5) | |
 | 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
@@ -82,7 +82,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 | 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
 | 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
 | 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
-| 14 | Calling someone | a pause, then a name, title, role or kin word | 10.1 |
+| 14 | Calling someone | a pause, then a person word | 10.1 |
 
 ### 4.2 The verb and its objects
 
@@ -100,11 +100,12 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 
 ### 4.3 Openers
 
-- A time or place phrase may open the sentence to set the scene: **mon minfi, …** "at noon, …". It changes no roles.
+- A linker is a word or phrase at the start that ties the sentence to the one before it, such as **gi tan** "so", **un** "but" or **yen** "and also".
+- Any relation phrase may open the sentence, followed by a pause. A time or place phrase there sets the scene: **mon minfi, …** "at noon, …". An opening phrase changes no roles.
 - A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to the pause, so it can be a list: **pi upe yen yomo,** "as for good and bad,".
 - An if/when clause is **don** "if", **nin** "while/when", **wo** "after", **ya** "before" or **gi** "because", followed by a clause.
 - When several of these open a sentence, they come in this order: linker, scene or topic, if/when clause. The speech-act particle follows them.
-- Only person words call someone. A fronted phrase that isn't a person word is a scene or topic phrase.
+- Only a person word (4.1) calls someone. A longer noun phrase before a pause is the subject (4.6), and a fronted relation phrase or **pi** phrase is a scene or topic phrase.
 
 ### 4.4 Clauses and relation phrases
 
@@ -113,12 +114,13 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 - A relation word can take a clause (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").
 - A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".
 - **yen** "and", **lu** "or" and **un** "but" join nouns, verbs, modifiers or clauses. Nouns in a list are joined with **yen**: **mole yen wede** "mother and father". **lu X lu Y** means "either X or Y, not both".
+- Verbs joined by **yen**, **lu** or **un** are separate predicates. Operators and aspect words before one of them cover only that verb, and an object after the last verb belongs to it: **wan mu nawi yen wopo** "she doesn't eat, and she sleeps"; **to nagu yen yidu bu** "I see (it) and take it".
 - A quote is framed by a say-verb, and in writing it goes in quotation marks. It is its own sentence with its own speech-act particle. Broken-off speech just stops.
 
 ### 4.5 Leaving things out
 
 - Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".
-- The exception is a clause that starts with **gun** and has no subject, which means "there is" (4.7). To say "(it) is X", keep the subject: **bu gun nimo** "it's money". With **gun** left out too, a bare state is fine: **bi upe.** "very good."
+- The exception is **gun** with no subject at the start of a sentence, which means "there is" (4.7). To say "(it) is X", keep the subject: **bu gun nimo** "it's money". With **gun** left out too, a bare state is fine: **bi upe.** "very good."
 - When leaving something out could be unclear, say it.
 
 ### 4.6 Pauses
@@ -129,7 +131,7 @@ A pause, written as a comma, goes wherever a phrase could otherwise run on. It b
 - after a subject that contains a clause or a phrasal derived word, before its verb (**no sanwa man … sin sege, keya unfu …**);
 - between a recipient and a long object;
 - between clauses joined by **yen**, **lu** or **un** when the first ends in a noun;
-- before a stance word;
+- before a stance word, and before the choice tag **yu** (4.8);
 - between a larger and a smaller calendar unit (**dunan pi yawu, dili pi mape**);
 - after a relative clause, to close it before more material.
 
@@ -137,19 +139,19 @@ In casual writing, pauses that context makes obvious may be dropped.
 
 ### 4.7 "Is": gun
 
-- **gun** goes before a state: **guyi gun kudu** "the house is big". Without it, **guyi kudu** is "the big house".
+- **gun** goes before a state: **guyi gun kudu** "the house is big". Without it, **guyi kudu** is normally read as "the big house".
 - **gun** goes before a noun: **wan gun tiwu** "she is a child".
 - **gun** goes before a place phrase: **wan gun mon guyi** "he is at home".
 - **gun** before an action word gives the resulting state: **gun tapi** "is closed".
 - **gun** before a **wun** clause means "is that …".
-- After another verb, and after **li**, **gun** is "to be": **momu gun tiwu** "want to be a child", **sogan li gun kuwi** "the right to be protected".
-- Anywhere else, **gun** at the start of a clause with no subject means "there is": **un, gun musu feli** "but there are many things".
+- After **man**, after another verb, after **li**, and after **yen**, **lu** or **un** joining verbs, a **gun** with no subject is "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **go ibe sogan li gun kuwi** "everyone has the right to be protected", **wan obu yen gun simi** "she came and is sick".
+- **gun** with no subject means "there is" only at the start of a sentence, right after an opener's pause, or at the start of a clause after **don**, **gi**, **nin**, **wo**, **ya** or **wun** (**don gun pasu** "if there is food"). Phrase operators, **kon** and aspect words in front of it count as part of that start: **mu gun pasu** "there's no food"; **un, gun musu feli** "but there are many things".
 
 ### 4.8 Questions and answers
 
 - A yes/no question starts with **min**. A **min** at the end of a clause is a tag, "…, right?".
 - Question words stay where the answer goes and need no **min**: **me momu wun to oyi yu.** "you want me to say what?"
-- Question words are built from **yu**: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **gi yu** why; **fu yu** how; **wifu yu** how many/much; **pi ewo yu** whose.
+- Question words are built from **yu**: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **gi yu** why; **fu yu** how; **wifu yu** how many/much; **pi ewo yu** whose. **wifu yu** follows its noun the way a number does: **ewo wifu yu** "how many people".
 - To offer a choice, ask **min … lu …** "either?", or ask **… lu …, yu** "which?" with a pause before **yu** so it isn't read as "which X". That second kind is answered by echoing the choice.
 - An indirect question puts **yu** or **min** inside a **wun** clause: **to mu lugo wun min …** "I don't know whether …".
 - Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. To acknowledge, **mm** says you heard, an echo says you understood, and **de** + verb says "will do".
@@ -165,19 +167,24 @@ A noun phrase runs in this order: noun, content modifiers, number, **la**, deter
 - Describing words follow the noun: **guyi kudu** "big house". For a clear description, use **man** (5.3).
 - Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
 - Noun + noun is used only for gender and for the compounds in `compounds.tsv`. Other relations use **pi** or a relative clause.
-- Numbers and times can stand alone as noun phrases: **mon yawu gun upe** "10 o'clock is fine".
-- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2"), and a label also gives a place in order: **gimu pi ka** "the third time", **ewo pi fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time".
+- Numbers and times can stand alone as noun phrases: **yawu gun upe** "ten is fine", **wuma gun upe** "tomorrow is fine".
+- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2"), and a label also gives a place in order: **gimu pi ka** "the third time", **ewo pi fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi**, the phrase is a part: **fi pi ka** "one of three".
 - The plural word **la** is optional. A count or context can show plurality.
 - There are no articles. Whether something is known or new is left to context, or shown with **tan**, **ben**, **bo** or a number.
-- Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three".
+- Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos".
 - **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it, and its phrase is the nearest single noun after it, so a list joined by **yen** or **lu** is outside it: **enpa pi pume yen lite pi nosen** is "freedom of thought, and religion". To cover every item, repeat the head: **enpa pi pume yen enpa pi lite pi nosen** "freedom of thought and freedom of religion".
+- "One's own" is **pi nen**: **to ibe guyi pi nen** "I have my own house". Since a **pi** phrase holds a single noun, two owners of one thing take a relative clause: **guyi man en mara yen en tomas ibe** "Mara and Tomas's house".
 
 ### 5.3 Relative clauses
 
 A relative clause is **man** + clause, placed after the noun. The noun fills the role missing from the clause:
 - subject: **ewo man niba** "the person who walks";
 - object: **mabo man me la yaga** "the papers you put";
-- place or time, with the relation word at the end of the clause: **kemu man to nume mon** "the place where I live".
+- place or time, with the relation word at the end of the clause: **kemu man to nume mon** "the place where I live";
+- any other relation, the same way: **yetu man to fonsu gan** "the tool I cut with";
+- "whose", with **pi wan** inside the clause pointing back to the noun: **ewo man guyi pi wan gun kudu** "the person whose house is big".
+
+If both the subject and the object are missing, the noun is the subject: **ewo man nagu** "the person who sees". For "the person I see", keep the subject: **ewo man to nagu**.
 
 A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. No word closes a relative clause. A pause closes it, along with every relative clause still open.
 
@@ -193,7 +200,7 @@ Four markers before a verb or verb phrase name a role in the action:
 | **pu** | the place | **pu niba** "place for walking" = a path |
 
 - A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word itself if its base has no noun: **du kuwi pi to** "my thing for keeping".
-- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause separates it from a following verb.
+- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause separates it from a following verb. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".
 - A person something is done to is **ewo man gun** + verb: **ewo man gun tofo** "a student".
 - A noun base is linked with **pi** or a verb: **pu pi mabo** "an office", **no obu se yaye** "an alien".
 - For opposites, **mu** + word means "not X" (**mu upe** "not good"), and a separate opposite root names the other pole (**yomo** "bad").
@@ -209,11 +216,11 @@ Clause operators start the clause (slot 5) and cover all of it.
 
 ### 6.2 Phrase operators
 
-Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**na mon funti, …** "only in the community, …"). Before the verb, they cover the predicate.
-- **mu** not (**to mu yidu bu** "I didn't take it"; **mu mu** emphatic);
+Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**na mon funti, …** "only in the community, …"). Before the verb, they cover the predicate, which is the verb with everything after it in its clause. To negate a single phrase, put **mu** before that phrase: **wan doku mu mon guyi** "she works, but not at home".
+- **mu** not (**to mu yidu bu** "I don't/didn't take it"; **mu mu** emphatic);
 - **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
 - to add a whole statement ("also, …"), start with **yen**; **fe** before the verb means the subject also does it;
-- **konsin** at least; **nedin** almost; **mesun** each;
+- **konsin** at least; **nedin** almost;
 - degree words **ke** more, **bi** very, **tason** rather (**ke kudu** "bigger"; **nimo ke uyo** "less money").
 - Before the verb, the order is phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**.
 
@@ -245,14 +252,14 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 - **donon** "it turned out" (against expectation): **wan gun no ibe guyi, donon.**
 - A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.**
 - If two stance words occur, **min** comes last.
-- Other words used in this position are stance words too.
+- Other words used in this position are stance words too. The choice tag **, yu** "which?" (4.8) has its own slot at the end and is not a stance word.
 
 ## 8. Time
 
 ### 8.1 Tense and aspect
 
-- Tense is optional. A time word or the first **sin** of a narrative sets the time, and later verbs stay unmarked. The future is shown by a time word or by context: **wuma gegi muwo** "it will rain tomorrow".
-- Aspect words come right before the verb. **sin** means done: with a past frame it is past, and with a future frame "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin** and **le** don't combine, so "was doing" is a past frame + **le**.
+- Tense is optional. A time word or the first **sin** of a narrative sets the frame, the time that what follows is about, and later verbs in that frame stay unmarked. The future is shown by a time word or by context: **mon wuma, gegi muwo** "it will rain tomorrow".
+- Aspect words come right before the verb. **sin** means done. With no frame set it reads as past. Inside a past frame it marks something already done by that time, "had done", and inside a future frame it is "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin** and **le** don't combine, so "was doing" is a past frame + **le**.
 - **mu sin** "not yet". For "didn't do", use a past frame + **mu** + verb.
 - **manni** "usually" marks habit. With a past frame it means "used to".
 - Intent is marked with **gan momu** "on purpose" and **mu gan momu** "by accident".
@@ -260,7 +267,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 ### 8.2 Time words
 
 - The time roots are **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month (also "moon"), **fawu** year; **muyi** time (a span or a point); **gimu** occasion (**gimu sa** "twice").
-- A time can be an anchor plus an offset, and the offset names its unit: **wuma wo dili fi** "the day after tomorrow". With no anchor, the anchor is now: **wo nelon fi** "next week", **ya dunan fi** "a month ago". Any time or event can be the anchor.
+- A time can be an anchor plus an offset, and the offset names its unit: **wuma wo dili fi** "the day after tomorrow". With no anchor, the offset counts from the current frame (8.1), which is now unless a story has set another time: **wo nelon fi** "a week from now, next week", **ya dunan fi** "a month ago". Any time or event can be the anchor.
 - A duration is a count: **awuwa ka** "three hours". **nin** + duration means "during, for" a span that frames the clause: **nin dili oma** "for seven days".
 - Age is lived time: **to nume fawu ka yawu** "I have lived 30 years".
 - Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.
@@ -290,7 +297,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 
 ### 9.2 Reading numbers
 
-- In the quantity reading, place words come in descending order, each preceded by its digit. A 1 before a place word is dropped, and zero places are skipped: 15 **yawu te**, 50 **te yawu**, 42 **da yawu sa**, 105 **loki te**. A group word takes a whole number before it: 250 000 = **sa loki te yawu munno**.
+- The place words are **yawu** 10, **loki** 100, **munno** 1000, **tonen** million and **siwin** billion. The last three are also group words. In the quantity reading, place words come in descending order, each preceded by its digit. A 1 before a place word is dropped, and zero places are skipped: 15 **yawu te**, 50 **te yawu**, 42 **da yawu sa**, 105 **loki te**. A group word takes a whole number before it: 250 000 = **sa loki te yawu munno**.
 - The digit reading says one digit at a time. It is used whenever the exact digits matter more than the size: for identifiers, phone numbers and codes (in groups of three from the right), and for years and 24-hour clock times (as one four-digit group).
 - Labels (noun + **pi** + number) under 100 use the quantity reading (**dili pi yawu da** "day 14"). Larger labels use the digit reading.
 - Decimals use **mimi** "point": 1.5 = **fi mimi te**. **guti** means minus. With **unun** "× 10 to the", **ka unun guti ufo** = 3 × 10⁻⁶.
@@ -308,14 +315,14 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 
 ### 10.1 Calling someone, titles, respect
 
-- You can call someone by name, title, role or kin word at the start (slot 1, for attention) or at the end (slot 14, to soften): **en mara, tin obu.** / **tin obu, en mara.**
+- You can call someone with a person word (a name, a title, or a single role or kin word) at the start (slot 1, for attention) or at the end (slot 14, to soften): **en mara, tin obu.** / **tin obu, en mara.**
 - Titles go before the name with no comma, and work both in address and in reference: **no tofo en mara** "Teacher Mara"; **no tofo en mara sin oyi** "Teacher Mara said".
-- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the boss said"). It marks respect for the person named and never means "you".
+- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named and never means "you".
 - There is no apposition. To describe someone, use a title before the name, a relative clause or a new sentence.
 
 ### 10.2 Politeness and routines
 
-- **nun** adds politeness or deference and nothing else. It goes right after the speech-act particle, or first in a statement: **so nun …** "please …". **nun nun** adds more.
+- **nun** adds politeness or deference and nothing else. It comes after any opener, right after the speech-act particle (**so nun …** "please …"), or where the particle would be in a statement. **nun nun** adds more.
 - There are no polite pronouns and no speech levels. **me** is "you" to anyone. Respect is carried by **lanno**, titles and **nun**.
 - Politeness never changes the act. A polite instruction is **tin nun**, and a polite warning is **yo nun**: **yo nun osa le obu. fon nun pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
 - In an emergency (**yo yo**), no **nun** is expected.
@@ -329,7 +336,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 - **sun**, in reported speech or thought, is the person whose words are reported.
 - **go** is anyone, people in general. **me** is only ever the listener and is never generic. An unknown doer is **ewo bo**.
 - **nen** is self. As an object it is reflexive (**to kuwi nen** "I keep myself"). After a noun or pronoun it means "in person" (**wan nen obu** "he came himself").
-- **pen** is we including you, and **din** is we not including you.
+- **pen** is we including you, and **din** is we not including you. **wan la** is "they" and **me la** "you all".
 - A pronoun never means the subject of its own clause; for that, use **nen**. The listener finds referents from context. If one could be unclear, name it.
 
 ## 11. Names, loans, new words
