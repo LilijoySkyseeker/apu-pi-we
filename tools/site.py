@@ -13,7 +13,7 @@ import markdown
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 OUT = os.path.join(ROOT, "build", "site")
-REPO = "https://github.com/LilijoySkyseeker/apu-pi-we"
+REPO = "https://github.com/LilijoySkyseeker/apupiwe"
 LINKS = {"../data/lexicon.tsv": "dictionary.md", "../data/grammar.tsv": "language.md#13-grammar-words",
          "../data/compounds.tsv": "dictionary.md#compounds"}
 # grammar.tsv glosses are short labels; these read better as hover text

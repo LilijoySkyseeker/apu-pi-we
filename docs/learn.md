@@ -10,7 +10,7 @@ Nothing changes shape. There are no verb endings, no plurals you have to add, no
 
 The language has very few speakers so far, so a practice partner is hard to find. An AI chat assistant does the job well: give it the [reference](language.md) and ask it to talk with you at your level, correct you and explain.
 
-When you hit a gap, something you can't find a way to say, please [report it](https://github.com/LilijoySkyseeker/apu-pi-we/issues). The language grows through real use, so every gap you find is useful.
+When you hit a gap, something you can't find a way to say, please [report it](https://github.com/LilijoySkyseeker/apupiwe/issues). The language grows through real use, so every gap you find is useful.
 
 ## How to study
 
@@ -25,7 +25,7 @@ This plan fits into 15 to 20 minutes a day.
 
 Three habits matter more than the schedule. Say everything aloud: reading silently trains your eyes, and you want to train your mouth.
 
-Use spaced repetition for words. The [word list](https://github.com/LilijoySkyseeker/apu-pi-we/blob/main/data/lexicon.tsv) (a tab-separated file) imports straight into Anki: map the `gloss` column to the front of the card and `form` to the back, and start with tiers 5 and 4. The [grammar words](https://github.com/LilijoySkyseeker/apu-pi-we/blob/main/data/grammar.tsv) work the same way.
+Use spaced repetition for words. The [word list](https://github.com/LilijoySkyseeker/apupiwe/blob/main/data/lexicon.tsv) (a tab-separated file) imports straight into Anki: map the `gloss` column to the front of the card and `form` to the back, and start with tiers 5 and 4. The [grammar words](https://github.com/LilijoySkyseeker/apupiwe/blob/main/data/grammar.tsv) work the same way.
 
 And make your own sentences early, even wrong ones, and try them out on a practice partner.
 
@@ -489,7 +489,7 @@ This sentence has many of these parts: **en mara, afe, kon da wan fe sin obu tun
 
 ## Where to go next
 
-The three [translated texts](https://github.com/LilijoySkyseeker/apu-pi-we/tree/main/texts) have word-by-word glosses. They were written with earlier versions of the language, so some of their words are out of date, and anything odd is worth checking against the lexicon.
+The three [translated texts](https://github.com/LilijoySkyseeker/apupiwe/tree/main/texts) have word-by-word glosses. They were written with earlier versions of the language, so some of their words are out of date, and anything odd is worth checking against the lexicon.
 
 The full reference is [language.md](language.md). Senary measurements and the senary calendar are in [measurement.md](measurement.md).
 

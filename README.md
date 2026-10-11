@@ -6,7 +6,7 @@ The idea: the world's languages have each, separately, worked out the same answe
 
 It is still being designed, so words and rules change.
 
-**Website: https://lilijoyskyseeker.github.io/apu-pi-we/** has the lessons, the full reference and a searchable dictionary.
+**Website: https://lilijoyskyseeker.github.io/apupiwe/** has the lessons, the full reference and a searchable dictionary.
 
 ## How it's built
 
