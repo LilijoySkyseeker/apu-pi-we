@@ -158,7 +158,7 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 ### 5.5 Names, loans, borrowing (`tools/names.py`, `tests/names-01`)
 - Names take the article **en** [evidence: Tagalog *si*, Māori *a*] so a name that sounds like a word can't be misread.
 - Adaptation: nearest native sound, glide between vowels, an added **u** for a stranded consonant (never drop one), ≥2 syllables. Blind test: 43/44 world names recovered; the fixed vowel beat copying a neighbour because it marks itself as added.
-- **Technical and international words are borrowed from English** [user, 2026-10-09]: "the most practical version is just using the existing words". Borrowing replaces describing, not native roots. Cost recorded: favours English speakers in sound, not meaning.
+- **Technical and international words are borrowed in their international form** [user, 2026-10-09; reworded 2026-10-10 by the coexistence tie-breaker]: "the most practical version is just using the existing words". In practice that is usually English, or Latin/Greek for sciences and SI units. Borrowing replaces describing, not native roots. Cost recorded: favours English speakers in sound, not meaning.
 
 ---
 

@@ -494,3 +494,12 @@ Tabled item 2 is resolved by this.
 **Names (user, 2026-10-10): keep the owner's spelling.** A personal name is written in its own Latin spelling or standard romanisation, lowercase after **en**, and said as close to the original as the speaker can, as most Latin-script languages do. The adapted form (`names.py`) is now the spoken fallback and stays the rule for loans. Places may keep an established adapted form beside the original. This fixes the costs the tests found: hard-to-recognise names, collisions, and the garbled 老周 → "Lao Dou". Also fixed in `names.py`: the two-syllable rule appended **u** without a glide (**tuu**, **beu** → **tuwu**, **beyu**). Documented ʋ → w.
 
 **Confidence back to sixths (user, 2026-10-10).** **kon** + 0–6. Reasons: the 0–6 scale gives the ~7 bands forecasters can use (Friedman et al. 2018); every value except certainty (**kon ufo**) is one syllable, where tenths put the common values 7–9 on two-syllable digits; and it's flavour. **kon** is part of the insides (grammar), so the native-speaker rule governs it, not the boundary tie-breaker. Exact probabilities use a number and **pasentu**. Examples were updated: "must be home" = **kon te**; the half-memory and "maybe" examples = **kon ka**. Earlier tests and texts keep tenths as records.
+
+**Coexistence pass finished, and the tabled clarifications written in (user, 2026-10-10).**
+- **Loans:** now "borrowed in their international form", the form most languages share (usually English, or Latin/Greek for sciences and SI units). The rule is the same in practice, but English is no longer its stated source.
+- **gun** at the start of any subjectless clause = "there is". "(It) is X" keeps its subject, the one exception to rule 11.
+- **a**/**ba** can go in front of another speech-act particle (rhetorical and indignant questions), in the order a/ba, particle, nun.
+- **de** commits only the speaker or their group; others' intentions are reported or stated with time words and **kon**.
+- Labels under 100 are counted; years, 24-hour clock times and identifiers are read digit by digit.
+
+The clock item was resolved earlier by the clock decision.
