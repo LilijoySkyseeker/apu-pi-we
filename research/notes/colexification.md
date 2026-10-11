@@ -57,7 +57,7 @@ The designed language changes the trade-off in one respect: regular word formati
 For a candidate pair A/B, in order:
 
 1. **Formal model first.** Colour, kinship, number and the spatial terms that have a published model: use the model's near-optimal system and stop. (Source: vocabulary plan.)
-2. **Contrast override → two roots.** Split if A and B are frequent **alternatives in the same slot**, so that taking one for the other changes what the hearer does (left/right, buy/sell, lend/borrow, give/take). This is the user's "action-relevant misunderstanding" test, made concrete with [9][10]. Record the slot in the concept table.
+2. **Contrast override → two roots.** Split if A and B are frequent **alternatives in the same slot**, so that taking one for the other changes what the hearer does (left/right, buy/sell, lend/borrow, give/take). This is the author's "action-relevant misunderstanding" test, made concrete with [9][10]. Record the slot in the concept table.
 3. **Otherwise follow lineages.** Use the CLICS⁴ family-balanced rate *r*; for pairs marked † or under ~30 families with data, cross-check against WALS, Kinbank or the WCS.
    - *r* ≥ 50% → **one root.** The narrow sense, when needed, is a regular derivative (MOON→MONTH, LEG→FOOT).
    - 20% ≤ *r* < 50% → **root + derivative**: two words, but the less basic one built transparently from the other (HAND→ARM, SEE→LOOK).
@@ -65,7 +65,7 @@ For a candidate pair A/B, in order:
 4. **No single-lineage metaphors.** Never build one sense from another along a link only one lineage uses (KNOW from SEE).
 5. **Evidence line**: *r*, families with data, source, any override. This is the doghouse guard in the plan.
 
-Parts and sources: steps 1, 3 and 5 come from the plan (user + Claude). Step 2 is the user's policy, with its test taken from [9][10]. **The 50/20 thresholds, the † cross-check and step 4 are Claude's additions.** The thresholds are arbitrary cut points: add back finer bands only if blind tests show losses at a band edge.
+Parts and sources: steps 1, 3 and 5 come from the plan (author + Claude). Step 2 is the author's policy, with its test taken from [9][10]. **The 50/20 thresholds, the † cross-check and step 4 are Claude's additions.** The thresholds are arbitrary cut points: add back finer bands only if blind tests show losses at a band edge.
 
 ## Sources
 

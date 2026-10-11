@@ -180,18 +180,18 @@ These are reasoning, evidence, history, dates, test references, rejected alterna
 3. L25: "because place is the cue noise destroys first. /v/ and /z/ were deleted: both are rare worldwide … Removing /z/ cost almost nothing at a 3,000-root scale."
 4. L27: "because listeners hear lengthening as the *end* of a word" (rationale).
 5. L29: "Nearly all languages do this; Finnish and Hungarian … and Japanese (downstep) are clear examples."
-6. L36: the whole paragraph: "Agreed with the user, 2026-10-09 … it costs nothing to type … A script designed from first principles is deferred. Add one if human tests show reading trouble…"
-7. L39: "(found by the user's first reading check)".
+6. L36: the whole paragraph: "Agreed with the author, 2026-10-09 … it costs nothing to type … A script designed from first principles is deferred. Add one if human tests show reading trouble…"
+7. L39: "(found by the author's first reading check)".
 8. L40: "(Docs used capitals for stress until 2026-10-09.)"
-9. L42: "(first-principles review with the user, 2026-10-09)" and "(2026-10-10, for text and computer use)".
-10. L50: "like Spanish's opening ¿ … The user's reading test showed end marks steer the voice, but too late … Triggers to bring one back: …"
+9. L42: "(first-principles review with the author, 2026-10-09)" and "(2026-10-10, for text and computer use)".
+10. L50: "like Spanish's opening ¿ … The author's reading test showed end marks steer the voice, but too late … Triggers to bring one back: …"
 11. L52: "it gets checked with the word tools" (process).
 12. L65: "Added 2026-10-10 after multilanguage test 01 (10 of 11 languages flagged focus; the round trips lost Spanish contrastive *yo* …), the trigger this bullet used to set."
 13. L66: "Many languages have such articles (Tagalog *si*, Māori *a*, Catalan *en*) … the way English copes with names like Rose or Baker."
 14. L67: "(2026-10-10, coexistence principle)" and "This is how English, Spanish, Indonesian and most Latin-script languages coexist with foreign names."
 15. L68: "`tools/names.py`, given the name in broad IPA: `python3 names.py maɹkəs`" (tool usage).
 16. L73: the whole bullet: "In a blind test, a reader recovered 43 of 44 world names … (`tests/names-01/`)."
-17. L74: "(user's ruling, 2026-10-09; reworded 2026-10-10 under the coexistence tie-breaker)" and "A loan goes into the lexicon (field "loan") once it's common, and is checked against native words then; until that, an occasional near-collision is tolerated" (process).
+17. L74: "(author's ruling, 2026-10-09; reworded 2026-10-10 under the coexistence tie-breaker)" and "A loan goes into the lexicon (field "loan") once it's common, and is checked against native words then; until that, an occasional near-collision is tolerated" (process).
 18. L78: "(A blind A/B test decoded these about as well as … 71/76 vs 69/76. They are kept because … see `tests/wordbuilding-ab-01/`.)"
 19. L87: "In the test, **ge** for people was read as a thing … and the one-syllable grammar space is full, so there is no separate person marker."
 20. L89: "The blind test showed that a bare noun + noun leaves the relation to guesswork".
@@ -234,7 +234,7 @@ These are reasoning, evidence, history, dates, test references, rejected alterna
     - "(the same word as 'moon', as in most language families)";
     - "(2026-10-10)" after the clock rule;
     - "Cultures number weekdays differently (Portuguese, Arabic, Hebrew and Vietnamese …), so the language follows the standard".
-50. L221: "(user's ruling, 2026-10-09: base 10 is what the world uses; base 6 was the language's own system until then, see `docs/number-base.md`)" and "because the one-syllable space is full of grammar words (like English 'seven')".
+50. L221: "(author's ruling, 2026-10-09: base 10 is what the world uses; base 6 was the language's own system until then, see `docs/number-base.md`)" and "because the one-syllable space is full of grammar words (like English 'seven')".
 51. L222: "so 15 and 50 can't be confused the way English *fifteen* and *fifty* are" (rationale).
 52. L227: "Mandarin, Japanese and Korean … drop subjects and objects the same way." and "(Until 2026-10-10 a subject could drop only after **yen**/**un** … `tests/economy-01-context/`.)"
 53. L234: "(tested on contract language, `tests/backtranslation-04-nesting/`)".
@@ -248,7 +248,7 @@ These are reasoning, evidence, history, dates, test references, rejected alterna
     - "as the Language Construction Kit advises";
     - "(CLICS4, lumped in 47 of 71 families, 50.2% family-balanced; 'tongue' = 'language' is only 9.5%)";
     - "All words were rebuilt once on 2026-10-08 under the drift rules; from here on, existing words don't move."
-57. L276: the whole paragraph (freeze history, Ido/Esperanto, the user's learning status, "Changes still go through the tools and the design log", the **lon** → **to** history). The two open flaws it names belong with open questions, not in the spec.
+57. L276: the whole paragraph (freeze history, Ido/Esperanto, the author's learning status, "Changes still go through the tools and the design log", the **lon** → **to** history). The two open flaws it names belong with open questions, not in the spec.
 58. L278–280: the whole "How much to trust the sound choices" section (Miller & Nicely 1955, model caveats).
 59. L282–293: the whole "Open questions" section, including the watch list. L288 also carries "(2026-10-10)".
 60. Scattered rationale clauses throughout the spec are reasoning, not rules, for example:

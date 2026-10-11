@@ -1,6 +1,6 @@
 # Comma test 01: what breaks when commas are dropped?
 
-Written 2026-10-10 before running. Principle (user): there should be a precise,
+Written 2026-10-10 before running. Principle (author): there should be a precise,
 unambiguous way to say something, not that it must always be used. So the
 question isn't "are commas required" but "which comma-carried distinctions
 break in chat-style text, where commas (and voice typing's missing commas)

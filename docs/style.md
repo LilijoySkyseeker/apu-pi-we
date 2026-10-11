@@ -1,6 +1,6 @@
 # Writing style for the public pages
 
-The user (the language's creator) approved this voice on 2026-10-11. Their words: "I want the whole thing to feel human written, to feel like a competent human wrote it, because that is more enjoyable to read." Their complaint about the earlier text: "it often reads as the AI style of including what something is not, not just defining what it is."
+The author (the language's creator) approved this voice on 2026-10-11. Their words: "I want the whole thing to feel human written, to feel like a competent human wrote it, because that is more enjoyable to read." Their complaint about the earlier text: "it often reads as the AI style of including what something is not, not just defining what it is."
 
 ## Voice
 

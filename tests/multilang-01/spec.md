@@ -1,12 +1,12 @@
 # Multilanguage test 01: what have we missed?
 
-Agreed with the user 2026-10-10, before any results. Goal: find gaps, not
+Agreed with the author 2026-10-10, before any results. Goal: find gaps, not
 score and not change anything.
 
 ## Languages
 
 The most spoken by total speakers (Ethnologue 2025), English included
-(user):
+(author):
 English, Mandarin, Hindi–Urdu (one spoken language), Spanish, Arabic
 (Egyptian for spoken scenes, Standard for formal and written), French,
 Bengali, Portuguese, Russian, Indonesian, Vietnamese. Vietnamese takes the

@@ -8,7 +8,7 @@ translator questions → 53 open), `inventory.md` (old vs new rule check),
   templates (586 → ~370 lines). Reasoning moved to `rationale.md` (new
   section 10), history to `design-log.md`, word-making to
   `vocabulary-method.md` section 5, the watch list to `drift.md`.
-- **Eight design decisions by the user:**
+- **Eight design decisions by the author:**
   1. operator scope (clause vs phrase operators);
   2. 12-hour minutes as two digits;
   3. a derived word's phrasal base runs to the end of its phrase;

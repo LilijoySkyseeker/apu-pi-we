@@ -1,8 +1,8 @@
 # Number base: why 6 (superseded)
 
-> **Superseded 2026-10-09.** The user ruled that base 10 stays the default in reality, and the language switched to base 10 (`language.md`, rule 10). This file records the base-6 decision and its evidence. Its transmission result still explains why digits 0–5 are one optimized syllable each; 6–9 got two syllables because no robust one-syllable forms were left.
+> **Superseded 2026-10-09.** The author ruled that base 10 stays the default in reality, and the language switched to base 10 (`language.md`, rule 10). This file records the base-6 decision and its evidence. Its transmission result still explains why digits 0–5 are one optimized syllable each; 6–9 got two syllables because no robust one-syllable forms were left.
 
-Decided 2026-10-08. The user chose premise 2: legacy conventions, including the decimal world, are void, as they already were for every other part of the language. So the base was chosen on merits. Evidence: `research/notes/base-cognition.md`, `base-mathematics.md`, `base-typology.md`, plus the transmission test below (`tools/base_test.py` (removed 2026-10-09 as single-use; in git history)).
+Decided 2026-10-08. The author chose premise 2: legacy conventions, including the decimal world, are void, as they already were for every other part of the language. So the base was chosen on merits. Evidence: `research/notes/base-cognition.md`, `base-mathematics.md`, `base-typology.md`, plus the transmission test below (`tools/base_test.py` (removed 2026-10-09 as single-use; in git history)).
 
 ## The deciding test: transmission through noise
 

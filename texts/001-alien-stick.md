@@ -2,7 +2,7 @@
 
 > Vocabulary as at the test date. Since 2026-10-09 the coinage rules rebuilt some compounds: commander **ewo wungu** → **no wungu**, alien **ewo yaye** → **no obu se yaye** (`data/compounds.tsv`). Later word changes (base 10, the offensive-word moves) are listed in `docs/design-log.md`.
 
-Source paragraph, supplied by the user (2026-10-08):
+Source paragraph, supplied by the author (2026-10-08):
 
 > If I'm being honest, I think hitting an alien intruder in the head with a stick is a pretty good idea and making sure the alien is not your daughter first requires a pretty basic level of stick expertise. More to the point I'm trying to make, fuck you, alien sympathizer. Step zero in surviving an alien abduction is at least trying to cave in their bitch ass moon heads while they're beaming into your bedroom.
 

@@ -102,7 +102,7 @@ About 216 lists are tagged "basic". Many are Swadesh derivatives [C].
 - **Concepticon list-counts as an ordering signal.** They are circular. Add back if CLICS4 lacks a concept that tests need.
 - **NoRaRe frequency norms and Dellert's measure.** They are not lineage-balanced. Add back if CLICS4 ties can't be broken.
 - **Lexibank.** CLICS4 is its balanced subset with counts already computed. Add back if a needed concept is missing from CLICS4's 1,730.
-- **The 500–800 seed target itself, proposed for the user to decide.** Shrink it to the **about 300 data-backed concepts plus the primes**, then go words-on-demand. Past rank 300 the "shared experience" criterion can't be measured, so ranks 300–800 would rest on questionnaire coverage. Add back the larger seed if the first blind tests lose more than 1 point to missing everyday words.
+- **The 500–800 seed target itself, proposed for the author to decide.** Shrink it to the **about 300 data-backed concepts plus the primes**, then go words-on-demand. Past rank 300 the "shared experience" criterion can't be measured, so ranks 300–800 would rest on questionnaire coverage. Add back the larger seed if the first blind tests lose more than 1 point to missing everyday words.
 
 ## Sources
 1. List, Cysouw, Forkel 2016, LREC: https://aclanthology.org/L16-1379/

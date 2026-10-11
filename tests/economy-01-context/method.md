@@ -6,7 +6,7 @@ Written 2026-10-10, before the source or translation existed.
 Apu Pi We force the speaker to say that English leaves to context, and the
 reverse?
 
-**Why:** the first-principles yardstick (`~/research/Language/language-first-principles-2026-10.md`)
+**Why:** the first-principles yardstick (the author's private notes)
 says a best language "can pick out any meaning without context, and lets
 context take over whenever it's available". A first review found Apu Pi We
 strong on the first half and weak on the second.

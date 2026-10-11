@@ -1,8 +1,8 @@
 # Apu Pi We
 
-Apu Pi We is a constructed language I'm building. The name means "everyone's language".
+Apu Pi We is a constructed language. The name means "everyone's language".
 
-The idea: the world's languages have each, separately, worked out the same answers to a lot of problems. Take those shared answers and build one language for children to grow up speaking. What would it look like? It's also meant to be a real language. I'm learning it, and you can too.
+The idea: the world's languages have each, separately, worked out the same answers to a lot of problems. Take those shared answers and build one language for children to grow up speaking. What would it look like? It's also meant to be a real language that people learn and use, and you can start today.
 
 It is still being designed, so words and rules change.
 

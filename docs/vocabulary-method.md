@@ -1,15 +1,15 @@
 # Vocabulary method (roadmap B1, step 2): draft
 
-The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the user on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py` and `seed_batch2.py`, removed 2026-10-09 as single-use; in git history).
+The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the author on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py` and `seed_batch2.py`, removed 2026-10-09 as single-use; in git history).
 
 ## 1. Which concepts, in what order
 
 1. **Core pool: CLICS4 concepts ranked by area-balanced lineage coverage.** CLICS4 has 3,432 varieties in 247 families. Coverage is the share of each macro-area's families whose word lists name the concept, averaged over the six areas. Raw family counts would let New Guinea and the Americas dominate; area averaging corrects that.
-2. **Only the top ~300 are data-backed.** Beyond about rank 300 the counts reflect which questionnaires reached which regions, not which concepts languages name, and the questionnaires descend from Buck's 1949 Indo-European dictionary. **Agreed (user, 2026-10-08):** the seed is therefore ~300 data-backed concepts plus the NSM primes not already covered, instead of the planned 500–800. Everything after that is added on demand from blind tests on texts from varied cultures and genres. Bring back the larger seed if the first tests lose more than 1 point to missing everyday words.
+2. **Only the top ~300 are data-backed.** Beyond about rank 300 the counts reflect which questionnaires reached which regions, not which concepts languages name, and the questionnaires descend from Buck's 1949 Indo-European dictionary. **Agreed (author, 2026-10-08):** the seed is therefore ~300 data-backed concepts plus the NSM primes not already covered, instead of the planned 500–800. Everything after that is added on demand from blind tests on texts from varied cultures and genres. Bring back the larger seed if the first tests lose more than 1 point to missing everyday words.
 3. **NSM primes** (Goddard's 63–65) are a checklist for function and logic concepts the lists omit (WANT, BECAUSE, IF, MAYBE), not a frequency source. Their universality is contested.
 4. **Children's early vocabulary** (Wordbank) is a second signal at the level of categories. It breaks ties near the top and admits social routines and interjections (hi, bye, no) that basic lists leave out. Onomatopoeia and baby words are left out. Add them back if tests lose points to missing interjections.
 
-**The deep-layer criterion is convergence of independent signals** (agreed with the user, 2026-10-08). Three signals are used: breadth across lineages, what children learn first, and survival over long time spans. Each has its own bias: fieldwork questionnaires, a Western-skewed child sample, and Eurasian-heavy reconstructions. Where they agree, the biases largely cancel. Lineage breadth already integrates deep time, since every family descends from an ancestor thousands of years old. Time-stability, meaning the survival of *word forms* (Holman 2008, Pagel et al. 2007/2013), is used as a corroboration check, not a separate ranking. It mostly tracks frequency of use, says nothing about the world layer, and also preserves words that are stable but no longer central (louse, bark, ashes). Check run 2026-10-08: the seed already covered all of Holman's 40 most stable concepts and all but one of Pagel's 23 "ultraconserved" words (worm); the Leipzig–Jakarta list added grind. Both were added.
+**The deep-layer criterion is convergence of independent signals** (agreed with the author, 2026-10-08). Three signals are used: breadth across lineages, what children learn first, and survival over long time spans. Each has its own bias: fieldwork questionnaires, a Western-skewed child sample, and Eurasian-heavy reconstructions. Where they agree, the biases largely cancel. Lineage breadth already integrates deep time, since every family descends from an ancestor thousands of years old. Time-stability, meaning the survival of *word forms* (Holman 2008, Pagel et al. 2007/2013), is used as a corroboration check, not a separate ranking. It mostly tracks frequency of use, says nothing about the world layer, and also preserves words that are stable but no longer central (louse, bark, ashes). Check run 2026-10-08: the seed already covered all of Holman's 40 most stable concepts and all but one of Pagel's 23 "ultraconserved" words (worm); the Leipzig–Jakarta list added grind. Both were added.
 
 Dropped sources, each with a trigger to bring it back:
 - Concepticon list counts: circular, since they reflect linguists' choices. Back if CLICS4 lacks a needed concept.
@@ -34,7 +34,7 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
    - **Kinship:** roots mother, father, child, sibling (no sex), spouse. Cheap optional modifiers for older/younger and male/female; everything else composed ("mother's sibling"). Kinship systems vary too much to copy: 410 systems among 487 languages.
    - **Numerals:** base 10 (language.md section 9).
 2. **Frequent alternatives in the same slot, where confusing them changes what the listener does → two roots.** This is the "action-relevant misunderstanding" test made concrete: left/right, buy/sell, lend/borrow, give/take. It agrees with the Goldilocks finding that languages avoid lumping meanings that compete in context.
-3. **Otherwise, the family-balanced lump rate** (agreed by the user, 2026-10-08):
+3. **Otherwise, the family-balanced lump rate** (agreed by the author, 2026-10-08):
    - lumped by ≥ 50% → one root; the narrow sense is built when needed (e.g. moon/month);
    - 20–50% → two words, the less basic built transparently from the other;
    - < 20% → two unrelated roots (e.g. see/know 3%, eat/drink 7%, finger/toe 16%).
@@ -45,7 +45,7 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
 
 Every decision gets an evidence line in the concept table.
 
-## 3b. Observation, not theory (agreed with the user, 2026-10-08)
+## 3b. Observation, not theory (agreed with the author, 2026-10-08)
 
 Some word boundaries encode a belief about how the world works: "the sun *rises*", *lunatic*, *influenza*, *malaria*, "catch a cold", whales grouped with fish. Others encode perception or need (blue/green, arm/hand). Only the first kind can be outdated.
 - **Basic words describe what is experienced, not a theory of it.** "The sun appears", not "rises". An illness is named by its symptoms, not a supposed cause.

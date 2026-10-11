@@ -2,9 +2,9 @@
 
 Written 2026-10-10 so a later session (or person) can understand why each part of Apu Pi We is the way it is, rebuild it, and change it safely.
 
-**How this differs from the other docs.** [language.md](language.md) says *what* the language is now. [design-log.md](design-log.md) records decisions in the order they happened, including dead ends. This file is organised by topic and gives, for each part of the design: the decision, **why** (with its source: the user, evidence, or Claude), **how** it was made (method, tool, parameters), and **how to change it** (which file, what else moves, the trigger that should make you change it). Where this file and language.md disagree, language.md wins and this file is out of date.
+**How this differs from the other docs.** [language.md](language.md) says *what* the language is now. [design-log.md](design-log.md) records decisions in the order they happened, including dead ends. This file is organised by topic and gives, for each part of the design: the decision, **why** (with its source: the author, evidence, or Claude), **how** it was made (method, tool, parameters), and **how to change it** (which file, what else moves, the trigger that should make you change it). Where this file and language.md disagree, language.md wins and this file is out of date.
 
-Source labels used below: **[user]** a ruling by the user; **[evidence]** research in `research/`; **[Claude]** Claude's own proposal, accepted by the user. Claude-sourced parts are the ones most worth questioning (the user's rule: Claude's own requirements are the most dangerous, because they sound reasoned).
+Source labels used below: **[author]** a ruling by the author; **[evidence]** research in `research/`; **[Claude]** Claude's own proposal, accepted by the author. Claude-sourced parts are the ones most worth questioning (the author's rule: Claude's own requirements are the most dangerous, because they sound reasoned).
 
 ---
 
@@ -14,26 +14,26 @@ Source labels used below: **[user]** a ruling by the user; **[evidence]** resear
 
 | Part | Source | Why |
 |---|---|---|
-| A universal human language for modern Earth, designed from first principles, as a thought experiment | [user] 2026-10-08 | The user's goal. A fantasy/D&D use was dropped: designing for fantasy and for modern Earth are different tasks. A signed surface was dropped: text is the wrong medium to design signs. |
+| A universal human language for modern Earth, designed from first principles, as a thought experiment | [author] 2026-10-08 | The author's goal. A fantasy/D&D use was dropped: designing for fantasy and for modern Earth are different tasks. A signed surface was dropped: text is the wrong medium to design signs. |
 | Imagined as a **native** language that children grow up speaking, not an auxiliary language for adults | [Claude, adopted] | Removes every adoption question (which killed every real auxlang; see the conlang report) and leaves only human constraints: mouth, ear, memory, attention, child acquisition. Consequence: "easy for adult X-speakers" is not a criterion; what learners and native speakers *do* to a design is. |
-| **Goal and priorities** (2026-10-11): a thought experiment in the best human language, built from what the world's languages share, for people who would grow up speaking it, and a real language its creator can learn, enjoy and share. Conflicts resolve as clarity > predictability > economy > reach; adult learnability is a gate | [user] | Replaces the original north star ("faithful transmission of thought, at a cost speakers will actually pay"). "Learnability" was split in two: predictability (no arbitrary memorisation) serves natives and learners alike and ranks high; explicitness for adults conflicts with fluent use and stays only a gate. The split comes from 2026-10-10: every native-first economy choice was backed by tests, and the one rejected rule (word kinds as a requirement) failed on arbitrariness, not difficulty. |
-| **The yardstick:** Reach, Economy, Clarity, Restraint, Gate | [user] 2026-10-10, built blind in `~/research/Language/language-first-principles-2026-10.md` | Makes "best" checkable. Its layer 5 adds what the north star lacked: *let context take over whenever it's available*. Restraint: *design only what speakers can't easily fix themselves*. Gate: an adult can learn it well enough to raise a native speaker. Since 2026-10-10 recent changes (omission, topic-based pronouns, usage bans removed) come from applying it. |
-| Premise 2: legacy conventions are void, base included | [user] 2026-10-08; **amended** 2026-10-09 | Amendment [user]: "in reality, base 10 will functionally remain the default". The language is base 10 with today's calendar and units; senary is a topic it can talk about (§7). |
-| Owned by Claude, the user along for the ride and learning | [user] | Claude drives and explains. The user's pushback is real review, not a request for reassurance. |
+| **Goal and priorities** (2026-10-11): a thought experiment in the best human language, built from what the world's languages share, for people who would grow up speaking it, and a real language its creator can learn, enjoy and share. Conflicts resolve as clarity > predictability > economy > reach; adult learnability is a gate | [author] | Replaces the original north star ("faithful transmission of thought, at a cost speakers will actually pay"). "Learnability" was split in two: predictability (no arbitrary memorisation) serves natives and learners alike and ranks high; explicitness for adults conflicts with fluent use and stays only a gate. The split comes from 2026-10-10: every native-first economy choice was backed by tests, and the one rejected rule (word kinds as a requirement) failed on arbitrariness, not difficulty. |
+| **The yardstick:** Reach, Economy, Clarity, Restraint, Gate | [author] 2026-10-10, built blind in the author's private notes | Makes "best" checkable. Its layer 5 adds what the north star lacked: *let context take over whenever it's available*. Restraint: *design only what speakers can't easily fix themselves*. Gate: an adult can learn it well enough to raise a native speaker. Since 2026-10-10 recent changes (omission, topic-based pronouns, usage bans removed) come from applying it. |
+| Premise 2: legacy conventions are void, base included | [author] 2026-10-08; **amended** 2026-10-09 | Amendment [author]: "in reality, base 10 will functionally remain the default". The language is base 10 with today's calendar and units; senary is a topic it can talk about (§7). |
+| Owned by Claude, the author along for the ride and learning | [author] | Claude drives and explains. The author's pushback is real review, not a request for reassurance. |
 
 ### 1.2 How decisions get made
 
 These are the working methods; reuse them to keep changes consistent.
 
-- **The user's five steps, in order** (from the user's global instructions): question the requirement and name its source → propose deletions, each with an add-back trigger → simplify what survives → speed up the feedback cycle → automate last. Every "add back if…" line in the docs is step 2's trigger.
-- **Doghouse vs dog owner** [user]: trace each part up to what the user actually cares about; parts that only serve other parts go. Deleted on this basis: signs, D&D, B6 "art and play" (art grows from use), adoption work.
-- **Insides for natives, boundary for every culture** [user, 2026-10-10]: native speakers still live in existing cultures (12-hour clocks in America, Sunday-first weeks, local names). So the language's insides (sounds, grammar, word-building) are optimised for native speakers, while where it meets culture (clocks, calendars, units, names, customs) it carries any culture's conventions and imposes none. English is the model: it carries both "9 pm" and "twenty-one hundred".
-- **Tie-breaker at the boundary** [user, 2026-10-10]: carry every culture's convention where they can coexist (12-hour and 24-hour clocks); where they conflict and the language must pick one, follow the international technical standard (weekdays: ISO 8601, Monday = 1). "In cases of ambiguity, lean towards the more technically correct option."
-- **Convergent function, free form** [user, 2026-10-10]: where unrelated languages independently converge on a *function*, the language needs it; where they split on the *form*, choose the cheapest form for native speakers. Count by lineages, not speakers. Example: respect is universal, graded pronouns are not (WALS 45), so the language gives respect a home (titles, **nun**) but no pronoun grades.
+- **The author's five steps, in order** (from the author's global instructions): question the requirement and name its source → propose deletions, each with an add-back trigger → simplify what survives → speed up the feedback cycle → automate last. Every "add back if…" line in the docs is step 2's trigger.
+- **Doghouse vs dog owner** [author]: trace each part up to what the author actually cares about; parts that only serve other parts go. Deleted on this basis: signs, D&D, B6 "art and play" (art grows from use), adoption work.
+- **Insides for natives, boundary for every culture** [author, 2026-10-10]: native speakers still live in existing cultures (12-hour clocks in America, Sunday-first weeks, local names). So the language's insides (sounds, grammar, word-building) are optimised for native speakers, while where it meets culture (clocks, calendars, units, names, customs) it carries any culture's conventions and imposes none. English is the model: it carries both "9 pm" and "twenty-one hundred".
+- **Tie-breaker at the boundary** [author, 2026-10-10]: carry every culture's convention where they can coexist (12-hour and 24-hour clocks); where they conflict and the language must pick one, follow the international technical standard (weekdays: ISO 8601, Monday = 1). "In cases of ambiguity, lean towards the more technically correct option."
+- **Convergent function, free form** [author, 2026-10-10]: where unrelated languages independently converge on a *function*, the language needs it; where they split on the *form*, choose the cheapest form for native speakers. Count by lineages, not speakers. Example: respect is universal, graded pronouns are not (WALS 45), so the language gives respect a home (titles, **nun**) but no pronoun grades.
 - **Evidence before design.** Each design area began with a research round (notes in `research/notes/`, labelled sourced / secondary / unverified). Tag claims honestly; several early "facts" were recalled and later corrected.
 - **Blind tests over argument.** A change that matters is tested by a fresh AI agent that hasn't seen the reasoning: it translates or back-translates, and a separate judge scores against rules fixed in advance (`tests/*/method.md` or the analysis files). Run `tools/check.py` on any text first: hand translations repeatedly used stale words.
-- **One problem at a time, with the user choosing between options.** For each finding: options with trade-offs, Claude's recommendation, the user's choice, the rejected options and an add-back trigger logged.
-- **Freeze lifted; still in design** (user, 2026-10-10): the 2026-10-09 freeze assumed the user was learning; they aren't yet, so words and rules may change when the design benefits, still through the tools and the log. Bring the freeze back when the user starts learning (churn loses learners: Ido vs Esperanto). Reopened flaws: two-syllable digits 6–9 and the full one-syllable grammar space. **lon** "I" (a Vietnamese vulgarity) was fixed on 2026-10-10: "I" is **to**, and "rather" became **tason**.
+- **One problem at a time, with the author choosing between options.** For each finding: options with trade-offs, Claude's recommendation, the author's choice, the rejected options and an add-back trigger logged.
+- **Freeze lifted; still in design** (author, 2026-10-10): the 2026-10-09 freeze assumed the author was learning; they aren't yet, so words and rules may change when the design benefits, still through the tools and the log. Bring the freeze back when the author starts learning (churn loses learners: Ido vs Esperanto). Reopened flaws: two-syllable digits 6–9 and the full one-syllable grammar space. **lon** "I" (a Vietnamese vulgarity) was fixed on 2026-10-10: "I" is **to**, and "rather" became **tason**.
 
 ---
 
@@ -46,8 +46,8 @@ These are the working methods; reuse them to keep changes consistent.
 | **/v/ and /z/ deleted** | [evidence] rare worldwide (PHOIBLE: 27% and 30%), /v/ confusable with /b/ and drifting toward /w/, /s/–/z/ merging; founders' sounds win (Hebrew) so rare sounds are at risk | `build.py scale`: removing /z/ cost almost nothing at 3,000 roots | Re-add in `FULL`; rebuild. |
 | Syllables **(C)V(n)**; vowel-only syllables only word-initially; **n** the only coda | [evidence] CV is universal and robust; one coda keeps words short without clusters | — | `Inventory` in `build.py`. |
 | No tones | [Claude] | Leaves pitch for intonation and emotion; tones are hard for adult learners (Gate) | — |
-| **Stress on the first syllable** of every content word; grammar words unstressed; stress is **higher pitch, not length** | [evidence] fixed initial stress marks word beginnings (Finnish, Hungarian); listeners hear lengthening as word *ends*. The user asked to weigh drift; the drift risk of initial stress (later syllables eroding) is handled by drift-proofing (§3.3) | Challenged by the user ("should stress be fixed?"), kept after research (`research/notes/stress-and-sound-change.md`) | — |
-| **Declination**: stressed peaks step down across a phrase, reset at a comma or full stop | [user's reading test] runs of two-syllable words made the voice "bounce" | Specified from how nearly all languages already behave | — |
+| **Stress on the first syllable** of every content word; grammar words unstressed; stress is **higher pitch, not length** | [evidence] fixed initial stress marks word beginnings (Finnish, Hungarian); listeners hear lengthening as word *ends*. The author asked to weigh drift; the drift risk of initial stress (later syllables eroding) is handled by drift-proofing (§3.3) | Challenged by the author ("should stress be fixed?"), kept after research (`research/notes/stress-and-sound-change.md`) | — |
+| **Declination**: stressed peaks step down across a phrase, reset at a comma or full stop | [author's reading test] runs of two-syllable words made the voice "bounce" | Specified from how nearly all languages already behave | — |
 | Harmless variants declared in advance (k/g → ch/j before i/e, nasal vowels, soft middle consonants) | [evidence] Gurevich 2004: 92% of 230 lenitions merged nothing | The vocabulary is built so these never merge two words (§3.3) | — |
 
 ---
@@ -63,10 +63,10 @@ This is the language's most distinctive machinery. Root **sounds are arbitrary o
 - **Consonants:** Miller & Nicely 1955, Table III (−6 dB S/N), renormalised over our consonants. Real data, but English listeners.
 - **Assumptions (marked `ASSUMPTION` in the code):** l/w/y confusions by place; missing vs weak onset; a vowel matrix where neighbours confuse most; `CODA_MISS = 0.08` (final n lost or added).
 - A syllable's confusion = consonant × vowel × coda; a word's = the product over syllables.
-- **Unvalidated** against real listeners. Listening test 01 tried; synthesisers couldn't produce reliable audio and the user stopped testing (2026-10-10). Treat model scores as relative, not absolute.
+- **Unvalidated** against real listeners. Listening test 01 tried; synthesisers couldn't produce reliable audio and the author stopped testing (2026-10-10). Treat model scores as relative, not absolute.
 
 ### 3.3 Drift-proofing (`docs/drift.md`, `build.py`)
-[user asked to weigh drift heavily; evidence] A native language changes; the fast-changing layer is the one-syllable grammar words, which carry most of the precision machinery.
+[author asked to weigh drift heavily; evidence] A native language changes; the fast-changing layer is the one-syllable grammar words, which carry most of the precision machinery.
 - **Content words** must stay distinct after predicted changes: later-syllable e/i and o/u merge, middle p/t/k voice, final -n is lost, s/z merge. Implemented as `Inventory.content_key`: two words with the same key can't coexist.
 - **Grammar words** that can fill the same slot start with **different consonants** (`GROUPS_STRICT` in `build.py`), so vowel reduction can't merge them; words in the same wider position stay distinct after drift (`GROUPS_WIDE`, `grammar_key`).
 - **No two grammar words differ only by a final -n** (it's the first thing to go).
@@ -83,7 +83,7 @@ For a new root it tries every two-syllable form not taken (after drift keys) and
 It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms are never hand-picked.** `add-grammar` does the same for one-syllable words but doesn't enforce the same-slot rule; only `build.py build` does (and a full rebuild breaks the freeze).
 
 ### 3.6 Offensive-word filter (`tools/offensive.py`, `data/offensive.tsv`)
-[user] 2026-10-09: no word should sound like an offensive word, or clash in a taboo topic, in major languages.
+[author] 2026-10-09: no word should sound like an offensive word, or clash in a taboo topic, in major languages.
 - **Data:** Wiktionary via kaikki.org extracts for 34 of the most spoken languages: entries tagged vulgar/offensive/slur/derogatory, plus taboo meanings (sex, genitals, excrement, urine, death) read from glosses. 32,910 pronunciations, each mapped into our sounds with the names.py mapping.
 - **Matching:** exact; near (voicing and e/i, o/u merged); prefix. **Ranking:** only words whose *first* sense is offensive and that are common (wordfreq Zipf ≥ 2.5) block a form. Run tools with `ps.wordfreq`, or every listed word counts as common.
 - **Review is by hand.** Most raw hits are noise; one-syllable grammar words match *something* in 34 languages almost always. Six words moved (lanu→lenu, nega→lasu, pisan→tisan, webo→yawu, ku→nun, ano→ago); lon/pi/go kept because no free one-syllable form exists.
@@ -93,7 +93,7 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 
 ## 4. Grammar
 
-### 4.1 Principles (language.md section 1; principle 7, "a precise way always exists; it need not always be used", is the user's rule)
+### 4.1 Principles (language.md section 1; principle 7, "a precise way always exists; it need not always be used", is the author's rule)
 | Principle | Source | Why |
 |---|---|---|
 | 1. The common case costs nothing | [evidence] Zipf's law of abbreviation; research round 1 | Statements, ordinary belief, unknown source, the topic and unspecified time are unmarked; only departures cost a word. |
@@ -109,18 +109,18 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 
 ### 4.3 Speech acts, confidence, source
 - **Speech-act particle first** (**min so tin fon de yo genso ba**) [evidence, research round 1]: urgency and act carried by melody alone fail in noise and across cultures; aviation and medical reports show hints where warnings were needed. Initial position tells the listener the sentence's shape early (like Spanish ¿).
-- **Confidence as a number** (**kon** + 0–6, sixths) [evidence + user]: number-anchored probability was the strongest finding against miscommunication of stance (words like "likely" span huge ranges). Sixths match the ~7 bands forecasters can use (Friedman et al. 2018). The user switched to tenths on 2026-10-09 for familiarity and back to sixths on 2026-10-10: they fit the research, almost every value is one syllable, and exact percentages remain sayable with **pasentu**. Optional. Watch list: collapsing to favourite values.
+- **Confidence as a number** (**kon** + 0–6, sixths) [evidence + author]: number-anchored probability was the strongest finding against miscommunication of stance (words like "likely" span huge ranges). Sixths match the ~7 bands forecasters can use (Friedman et al. 2018). The author switched to tenths on 2026-10-09 for familiarity and back to sixths on 2026-10-10: they fit the research, almost every value is one syllable, and exact percentages remain sayable with **pasentu**. Optional. Watch list: collapsing to favourite values.
 - **Source (evidentiality) optional** (**wanme inwun wemen**) [evidence]: the case for obligatory evidentials was mixed to negative; Láadan made them obligatory and failed. Every marked dimension has an "unspecified" value (**bo**) so nothing forces false precision.
 - **No yes/no; echo answers** [evidence]: answers to negative questions are a documented failure ("yes" means opposite things across languages). Acknowledgement ladder from aviation: **mm** heard, echo understood, **de** will do.
 
 ### 4.4 Reference
-- **wan / yi follow the topic** (2026-10-10) [user, from economy test 01]: **wan** = the person being talked about, **yi** = another, non-topic one, as Algonquian obviation does natively. Replaced a mechanical "most recent subject" rule [Claude, 2026-10-08] that made casual speakers keep score. The old rule rested on Hudson Kam & Newport (learners regularise *random* variation); topic-based reference isn't random.
+- **wan / yi follow the topic** (2026-10-10) [author, from economy test 01]: **wan** = the person being talked about, **yi** = another, non-topic one, as Algonquian obviation does natively. Replaced a mechanical "most recent subject" rule [Claude, 2026-10-08] that made casual speakers keep score. The old rule rested on Hudson Kam & Newport (learners regularise *random* variation); topic-based reference isn't random.
 - **bu** = the thing talked about; **ben** alone = "that one" (non-topic), **tan/ben** alone = an event or statement (as demonstratives do in nearly every language, Diessel 1999).
 - **pen / din** inclusive/exclusive "we" [evidence]: among the most stable distinctions (Greenhill et al. 2017) and English's "we" is a real ambiguity. **sun** logophor for reported speech. **nen** self.
 - Add-back trigger for a mechanical rule: a blind test shows listeners losing track where one would have caught it.
 
 ### 4.5 Omission (language.md 4.5)
-[user, yardstick layer 5] Anything context supplies may be left out, including verbs; fragments are grammatical (as in Mandarin, Japanese, Korean). Economy test 01: the language was ~1.5× English's syllables; the four fixes (tan/ben alone, bu topic, wan/yi topic, omission) cut 12% with meaning 44/44 on retest.
+[author, yardstick layer 5] Anything context supplies may be left out, including verbs; fragments are grammatical (as in Mandarin, Japanese, Korean). Economy test 01: the language was ~1.5× English's syllables; the four fixes (tan/ben alone, bu topic, wan/yi topic, omission) cut 12% with meaning 44/44 on retest.
 
 ### 4.6 Smaller rules worth knowing the reason for
 - **Tense optional, aspect particles** (**sin le buntu**) [evidence]: native speakers and creoles keep preverbal aspect, drop compound tenses.
@@ -144,47 +144,47 @@ Four markers **no** (doer), **ge** (thing done/made), **du** (tool), **pu** (pla
 Say it with words you have → a new root only when earned (convergent basic concept, frequent modern concept, or a phrase failing a blind test) → the tools choose the sound → frequent phrases may be clipped later → names and technical words are adapted, not coined → offensive filter.
 
 ### 5.3 Which concepts get roots (`docs/vocabulary-method.md`, `vocabulary-plan.md`)
-Two layers [user + Claude, 2026-10-08]:
-- **Deep layer (base human experience):** convergence of independent signals: area-balanced lineage coverage in CLICS4 (`tools/concepts.py`; New Guinea and the Americas would dominate raw counts), children's early vocabulary (Wordbank), time-stability as a check (Holman 2008, Pagel 2007). The user rejected weighting by speaker numbers: weight by *lineage*. Only the top ~300 CLICS concepts are data-backed; the seed stopped there plus NSM primes.
-- **World layer (modern need):** measured by blind tests on modern urban texts; built words by default. Prompted by the user noticing the lists' bias toward low-technology life.
+Two layers [author + Claude, 2026-10-08]:
+- **Deep layer (base human experience):** convergence of independent signals: area-balanced lineage coverage in CLICS4 (`tools/concepts.py`; New Guinea and the Americas would dominate raw counts), children's early vocabulary (Wordbank), time-stability as a check (Holman 2008, Pagel 2007). The author rejected weighting by speaker numbers: weight by *lineage*. Only the top ~300 CLICS concepts are data-backed; the seed stopped there plus NSM primes.
+- **World layer (modern need):** measured by blind tests on modern urban texts; built words by default. Prompted by the author noticing the lists' bias toward low-technology life.
 - **Stop condition:** two tests in a row losing <1 point to missing words (met at test 05, 445 roots).
 
 ### 5.4 Where boundaries go: lump or split
 In order: (1) a formal efficiency model where one exists (colour, kinship); (2) action-relevant same-slot alternatives get two roots (left/right, buy/sell); (3) **family-balanced lump rate** from CLICS4 (`tools/clics_rates.awk`): ≥50% one root, 20–50% one built from the other, <20% two roots; (4) a shared English word is not evidence; (5) never derive along a link only one family uses. The 50/20 cut points are arbitrary [Claude's research agent]; refine only on test evidence. Example: **apu** = word *and* language (50.2%); **dunan** = moon and month (69.6%).
 - **Colour:** six roots (black, white, red, yellow, green, blue) from colour-naming data, not eye physiology; blue/green split rests on modern need. **Kinship:** mother, father, child, sibling, spouse; the rest composed (410 systems among 487 languages, too varied to copy).
-- **Observation, not theory** [user's question, 2026-10-08]: basic words name what's experienced ("the sun appears", illness by symptoms); theory-laden concepts are composed so they can be rebuilt.
+- **Observation, not theory** [author's question, 2026-10-08]: basic words name what's experienced ("the sun appears", illness by symptoms); theory-laden concepts are composed so they can be rebuilt.
 - **English leaks fixed** (2026-10-10): concepts had been matched to roots by English gloss, merging fly (insect)/fly (move) and three senses of "light", and **muyi** counted occasions. Now: **gekon** the insect fly, **gimu** occasion, pale = **mu buda** ("light, not heavy" was already **gamun**). Ambiguous glosses carry a second gloss (Kit advice), and the lump/split rule says a shared English word is not evidence (vocabulary-method §3.4).
 
 ### 5.5 Names, loans, borrowing (`tools/names.py`, `tests/names-01`)
 - Names take the article **en** [evidence: Tagalog *si*, Māori *a*] so a name that sounds like a word can't be misread.
 - Adaptation: nearest native sound, glide between vowels, an added **u** for a stranded consonant (never drop one), ≥2 syllables. Blind test: 43/44 world names recovered; the fixed vowel beat copying a neighbour because it marks itself as added.
-- **Technical and international words are borrowed in their international form** [user, 2026-10-09; reworded 2026-10-10 by the coexistence tie-breaker]: "the most practical version is just using the existing words". In practice that is usually English, or Latin/Greek for sciences and SI units. Borrowing replaces describing, not native roots. Cost recorded: favours English speakers in sound, not meaning.
+- **Technical and international words are borrowed in their international form** [author, 2026-10-09; reworded 2026-10-10 by the coexistence tie-breaker]: "the most practical version is just using the existing words". In practice that is usually English, or Latin/Greek for sciences and SI units. Borrowing replaces describing, not native roots. Cost recorded: favours English speakers in sound, not meaning.
 
 ---
 
 ## 6. Writing (`research/notes`, human test 01)
-- **Latin transliteration** [user]: costs nothing to type; computing runs on it. A native script is deferred.
-- **All lowercase** [user's reading check]: l/I/1 collide in mobile fonts; **en** already marks names.
+- **Latin transliteration** [author]: costs nothing to type; computing runs on it. A native script is deferred.
+- **All lowercase** [author's reading check]: l/I/1 collide in mobile fonts; **en** already marks names.
 - **Stress unwritten** (predictable). Teaching capitals were dropped.
-- **Three punctuation marks** (`,` `.` `" "`) [user + Claude doghouse review]: writing marks only what speech marks with the voice. ? ! were dropped because the opening particle says it earlier; the user's reading test showed end marks steer the voice too late. Triggers to bring each back are in language.md.
-- **Words written apart until the sound changes** [user's fusion question].
+- **Three punctuation marks** (`,` `.` `" "`) [author + Claude doghouse review]: writing marks only what speech marks with the voice. ? ! were dropped because the opening particle says it earlier; the author's reading test showed end marks steer the voice too late. Triggers to bring each back are in language.md.
+- **Words written apart until the sound changes** [author's fusion question].
 
 ---
 
 ## 7. Numbers, time, measurement
 
-- **Base 10** [user, 2026-10-09]. History: base 6 was chosen first [Claude + evidence, `docs/number-base.md`]: a transmission test showed six one-syllable digits can be made far less confusable than ten (0.26% vs 2.3% wrong-digit rate for a 10-digit ID). The user ruled reality stays base 10; the 0–5 digits kept their optimised forms.
+- **Base 10** [author, 2026-10-09]. History: base 6 was chosen first [Claude + evidence, `docs/number-base.md`]: a transmission test showed six one-syllable digits can be made far less confusable than ten (0.26% vs 2.3% wrong-digit rate for a 10-digit ID). The author ruled reality stays base 10; the 0–5 digits kept their optimised forms.
 - **Digits 6–9 two syllables** (**ufo oma kefi mape**): no free robust one-syllable forms (only **fe**, **nu**; closed syllables collided with **fi**). Built as content words pushed apart from each other and from number words.
 - **No teens or irregular tens** (15 **yawu te**, 50 **te yawu**) [evidence]: English *fifteen/fifty* is a classic confusion; regular numerals help children.
 - **Digit reading** for identifiers in groups of three [evidence: aviation reads digits one by one].
-- **Calendar:** today's (7-day **nelon**, **dunan** month = moon, 24-hour clock read as digits); months and weekdays by number [user]. Points in time are labels (**pi** + number).
-- **Senary** is a topic [user]: its words live in `docs/measurement.md`, `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
+- **Calendar:** today's (7-day **nelon**, **dunan** month = moon, 24-hour clock read as digits); months and weekdays by number [author]. Points in time are labels (**pi** + number).
+- **Senary** is a topic [author]: its words live in `docs/measurement.md`, `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
 
 ---
 
 ## 8. The name
 
-**apu pi we** "everyone's language" [Claude proposed, user approved]: any language is **apu pi** + whose it is, and this one belongs to no people or place. Required **apu** to cover "language" (CLICS4: 50.2% of families lump word/language). Rejected: **apu pi ewo** (reads as "human language" in general), an invented name (wouldn't follow the grammar).
+**apu pi we** "everyone's language" [Claude proposed, author approved]: any language is **apu pi** + whose it is, and this one belongs to no people or place. Required **apu** to cover "language" (CLICS4: 50.2% of families lump word/language). Rejected: **apu pi ewo** (reads as "human language" in general), an invented name (wouldn't follow the grammar).
 
 ---
 
@@ -216,13 +216,13 @@ wordfreq is needed for the offensive filter's frequency ranking. `clics_rates.aw
 - **Change sounds or syllable shape:** requires a full rebuild; treat as a new language version.
 
 ### 9.4 Tests that exist
-Back-translation 01–04 (fidelity, politeness, nesting), grammar coverage, word-building A/B, names, vocabulary 01–05, economy 01 (context), human reading 01 (the user aloud). Listening 01 was built but stopped: no available synthesiser (Piper, Kokoro, MBROLA in four voices) produced a reliable word-initial g before u, and the user stopped testing (2026-10-10). Its lesson for a rerun: use a human reader, or a cloud TTS that accepts IPA, with a carrier phrase.
+Back-translation 01–04 (fidelity, politeness, nesting), grammar coverage, word-building A/B, names, vocabulary 01–05, economy 01 (context), human reading 01 (the author aloud). Listening 01 was built but stopped: no available synthesiser (Piper, Kokoro, MBROLA in four voices) produced a reliable word-initial g before u, and the author stopped testing (2026-10-10). Its lesson for a rerun: use a human reader, or a cloud TTS that accepts IPA, with a carrier phrase.
 
 ---
 
 ## 10. The interpersonal layer, culture and text
 
-Decision rule for all of these [user]: where unrelated languages converge on a *function*, provide it; where they split on the *form*, choose the cheapest form, optional rather than obligatory, carried in words rather than intonation (so speech and writing carry the same thing). Evidence: multilanguage test 01 (`tests/multilang-01/`).
+Decision rule for all of these [author]: where unrelated languages converge on a *function*, provide it; where they split on the *form*, choose the cheapest form, optional rather than obligatory, carried in words rather than intonation (so speech and writing carry the same thing). Evidence: multilanguage test 01 (`tests/multilang-01/`).
 
 | Part | Why | Rejected / add-back |
 |---|---|---|
@@ -240,9 +240,9 @@ Decision rule for all of these [user]: where unrelated languages converge on a *
 | Loans in their international form; brands keep spelling; computer words mostly everyday roots | Major non-English languages build interface words from everyday words (搜索, *buscar*); English loans were an English-centred default | — |
 | Confidence in sixths | 7 values match the bands forecasters can use; almost every value one syllable | Tenths (familiarity) |
 | Writing: notation passes through, ? and ! allowed, capitals harmless | Text and computer use; usage bans became predictions (Restraint) | — |
-| Commas droppable in chat | Comma test: 0 of 67 lines lost meaning without them; a precise way must exist, not always be used [user] | Targeted test if names at the end or topic openers get misread |
+| Commas droppable in chat | Comma test: 0 of 67 lines lost meaning without them; a precise way must exist, not always be used [author] | Targeted test if names at the end or topic openers get misread |
 
-**Clear forms by meaning, not word kind** [user, 2026-10-11]. The last row of the interpersonal table here first became a rule (each root has a default kind; a quality after a noun describes it, an action after a subject is its verb), then a convention. Under the priority order it failed predictability: about 50 borderline words had an arbitrary kind. Now the speaker picks the form by what they mean: **gun** for a state, an aspect word for an event, **man** for a description. It works for any word, with nothing to memorise. Bare noun + word is left to context. Mandarin works the same way (很, 了/在, 的). The `kind` column was removed; add it back as a dictionary hint if learners keep asking how a word is typically used.
+**Clear forms by meaning, not word kind** [author, 2026-10-11]. The last row of the interpersonal table here first became a rule (each root has a default kind; a quality after a noun describes it, an action after a subject is its verb), then a convention. Under the priority order it failed predictability: about 50 borderline words had an arbitrary kind. Now the speaker picks the form by what they mean: **gun** for a state, an aspect word for an event, **man** for a description. It works for any word, with nothing to memorise. Bare noun + word is left to context. Mandarin works the same way (很, 了/在, 的). The `kind` column was removed; add it back as a dictionary hint if learners keep asking how a word is typically used.
 
 ## 11. Known weaknesses (what a successor should doubt first)
 

@@ -3,15 +3,15 @@
 Picks the word pairs the model rates most confusable (content words, and grammar words that share
 a slot), plus control pairs it rates very distinct; synthesises each word with a Spanish Piper
 voice (respelt so it says our sounds, stress on the first syllable); writes the trials to the
-user's vault and the answer key here. No added noise: the user adds noise when listening.
+author's vault and the answer key here. No added noise: the author adds noise when listening.
 
   python make.py OUTDIR VOICE   (needs numpy, mbrola with its voices, ffmpeg; VOICE e.g. it3)
 
 Version 3 (same day). v1: a Spanish Piper voice read our spelling as Spanish text and "butchered" it
-(user). v2: Kokoro took phonemes but its neural voices "sneak sounds that are not there into the
-words" (user). v3: MBROLA diphone synthesis plays exactly the phonemes given, with the durations and
+(author). v2: Kokoro took phonemes but its neural voices "sneak sounds that are not there into the
+words" (author). v3: MBROLA diphone synthesis plays exactly the phonemes given, with the durations and
 pitch given, and adds nothing. The Italian voice it3 lacks w+u and y+i (never recorded); the Spanish
-voice es2 has them but softens g and d (the user heard guyi as "uyi"); so does the Mexican mx1 between
+voice es2 has them but softens g and d (the author heard guyi as "uyi"); so does the Mexican mx1 between
 vowels, and its g before u has almost no release ("oooo-yeee"). The Indonesian voice id1 (used) has
 real stops: a voice bar then a clear release for b, d, g, and silence then a burst for k.
 """
@@ -72,7 +72,7 @@ def pho(form):
     Stress is pitch, not length: all vowels 110 ms, the last 140 ms (ordinary phrase-final lengthening)."""
     syl = W.split(form)
     # carrier phrase "oyi ___" ("say ___"): a word-initial stop after silence is heard only by its release,
-    # which these voices barely produce before u (the user heard guyi as "uuuu-yeee"); after a vowel the
+    # which these voices barely produce before u (the author heard guyi as "uuuu-yeee"); after a vowel the
     # closure is a clear gap (g drops to 7% of the vowel's energy in id1)
     lines = ["_ 150", f"{VOWELS.get('o', 'o')}{STRESSED} 110 10 125 90 115", f"{Y} 55", f"{VOWELS.get('i', 'i')} 100 50 100"]
     if not W.INV.syl[syl[0]][0]:

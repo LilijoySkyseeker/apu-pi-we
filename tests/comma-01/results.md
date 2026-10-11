@@ -17,7 +17,7 @@
   comma; the docs now say so explicitly.
 - **Reading:** context recovered every dropped comma. The predicted breaks
   didn't happen in practice, so the comma stays the precise option, and chat
-  can drop it, as the user's principle allows.
+  can drop it, as the author's principle allows.
 - **Limits:** the texts weren't built to stress the risky cases: a topic
   opener never occurred, and a name at the end only once. The readers are AI
   agents, who are strong at using context. Add back a targeted test if real

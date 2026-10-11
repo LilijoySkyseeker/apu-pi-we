@@ -1,7 +1,7 @@
 # Apu Pi We: reference
 <!-- Generated from spec/reference.toml by tools/spec.py build. Edit the spec, not this file. -->
 
-This document states what the language is. The reasons for each part are in [rationale.md](rationale.md), its history is in [design-log.md](design-log.md), and the word lists are in [../data/](../data/).
+This document states what the language is. The reasons for each part are in [rationale.md](rationale.md), its history is in [design-log.md](design-log.md), and the word lists are in the [data folder](https://github.com/LilijoySkyseeker/apu-pi-we/tree/main/data).
 
 The language is called **apu pi we** "everyone's language", in English Apu Pi We. Any language is named with **apu pi** followed by whose language it is.
 

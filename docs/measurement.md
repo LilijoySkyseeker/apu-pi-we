@@ -1,6 +1,6 @@
 # Senary vocabulary
 
-Apu Pi We's own numbers are base 10, and everyday measurement uses today's units with borrowed names (`language.md`, rules 9–10). Since 2026-10-09 senary is a topic the language can talk about, for the user's worldbuilding among other things, not a system built into it (user's ruling). This file holds the words for it. From 2026-10-08 to 2026-10-09 senary was the language's own measurement system; the sections below were written then and still describe how senary is said.
+Apu Pi We's own numbers are base 10, and everyday measurement uses today's units with borrowed names (`language.md`, rules 9–10). Since 2026-10-09 senary is a topic the language can talk about, for the author's worldbuilding among other things, not a system built into it (author's ruling). This file holds the words for it. From 2026-10-08 to 2026-10-09 senary was the language's own measurement system; the sections below were written then and still describe how senary is said.
 
 **Numbers in this file are senary.** In speech, put **senali** before a senary number whenever it isn't obvious (**senali sa po** = 20₆ = 12). The base-6 place and scale words (**nobi** 6, **miko** 36, **niyu** 216, **yiyo** 6⁴ …) are used only for senary.
 
@@ -54,7 +54,7 @@ The unit comes first and the number follows, like any counted noun:
 
 So **ago te yiyo** = 5 × 1296 length units (about 9.9 km). Senary writes the same words as prefixes: yiyoAg.
 
-**One generative rule, six shortcuts.** Any power at all is **unun** "power" + exponent: **ago te unun guti nobi** = 5 × 6⁻⁶ length units. The six scale words are shortcuts for the range where a wrong scale still looks believable; past 6^±12 a slip is absurd and gets noticed, so the plain rule is enough there (senary writes 6ⁿ). This replaced senary's generative prefix ladder in r22, agreed with the user on 2026-10-09: it needed no second set of digits, and direction is carried by a whole word instead of one vowel. Add more named steps if 6^±16 to 6^±24 keep coming up.
+**One generative rule, six shortcuts.** Any power at all is **unun** "power" + exponent: **ago te unun guti nobi** = 5 × 6⁻⁶ length units. The six scale words are shortcuts for the range where a wrong scale still looks believable; past 6^±12 a slip is absurd and gets noticed, so the plain rule is enough there (senary writes 6ⁿ). This replaced senary's generative prefix ladder in r22, agreed with the author on 2026-10-09: it needed no second set of digits, and direction is carried by a whole word instead of one vowel. Add more named steps if 6^±16 to 6^±24 keep coming up.
 
 ## Protecting against plausible wrong values
 

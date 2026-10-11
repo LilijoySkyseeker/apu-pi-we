@@ -1,6 +1,6 @@
 # Grammar-space rebuild: spec
 
-Agreed with the user 2026-10-10. The language is still in design (freeze
+Agreed with the author 2026-10-10. The language is still in design (freeze
 lifted), so this is the cheapest time for it.
 
 ## Goal
@@ -30,7 +30,7 @@ meanings.
 4. **Stability penalty:** moving a form costs something, so only clear gains
    move. Fixed: **to** "I", digits 0–5.
 5. **Review gate:** a table of promoted, demoted and unchanged words with the
-   syllable saving goes to the user before anything is applied.
+   syllable saving goes to the author before anything is applied.
 6. **Validation after applying:** `juncture.py`, `check.py` on every doc
    example, one blind round trip.
 7. **Migration:** span-aware replacement in the docs (as for **lon** →
@@ -38,10 +38,10 @@ meanings.
 
 ## Planning for future issues
 
-- ~~**Keep 2–3 one-syllable slots free**~~ Dropped (user, 2026-10-10): a frequent new meaning takes a slot by swapping with the rarest holder under the promotion rule, which worked cleanly in the rebuild. Add back if a frequent need appears and no swap gives it a clean form.
+- ~~**Keep 2–3 one-syllable slots free**~~ Dropped (author, 2026-10-10): a frequent new meaning takes a slot by swapping with the rarest holder under the promotion rule, which worked cleanly in the rebuild. Add back if a frequent need appears and no swap gives it a clean form.
 - **Promotion rule:** a meaning earns a one-syllable form only when its
   measured frequency beats the rarest current holder. Rebuilds happen only in
-  design; once the user starts learning, the freeze returns and natural
+  design; once the author starts learning, the freeze returns and natural
   clipping takes over (drift.md).
 - **Record frequency sources**: `tests/grammar-rebuild/frequency.tsv` (not a `grammar.tsv` column: the tools rewrite that file with fixed columns).
 - **No automatic check yet.** Trigger: the promotion rule gets missed again.

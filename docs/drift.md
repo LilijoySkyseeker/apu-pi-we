@@ -1,6 +1,6 @@
 # Planning for drift
 
-A native language changes. The user asked (2026-10-08) to weigh this heavily: predict where the language will drift and design for it now. Evidence is in `research/notes/stress-and-sound-change.md`, `grammaticalization-and-drift.md` and `designed-languages-going-native.md`.
+A native language changes. The author asked (2026-10-08) to weigh this heavily: predict where the language will drift and design for it now. Evidence is in `research/notes/stress-and-sound-change.md`, `grammaticalization-and-drift.md` and `designed-languages-going-native.md`.
 
 ## The main finding
 

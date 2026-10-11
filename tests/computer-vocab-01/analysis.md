@@ -6,7 +6,7 @@ problem (`email.txt`). A fresh translator marked 36 gaps (`translation.md`).
 
 **The translator's default was English loans** (*kamupuyutalu*, *fayilu*,
 *kopi*, *insutolu*, *supamu*, *bulawusa*). The sources were English, and the
-user had just flagged English focus. Checked against Mandarin, Spanish,
+author had just flagged English focus. Checked against Mandarin, Spanish,
 Russian and Arabic, most interface words are **everyday words reused**
 (搜索/*buscar*/искать "seek", 删除/*borrar*/حذف "remove", 下载/*descargar*
 "down-load", 设置/*ajustes* "set/adjust"), and "computer" is usually built as

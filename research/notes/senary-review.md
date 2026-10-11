@@ -1,6 +1,6 @@
 # Review: the senary measurement system, and what this language should take from it
 
-Written 2026-10-08. Sources: `~/work/repos/senary` (README, primer, specification, rationale, notes §6A–§6I, §11.5, §17–§18, both reviews, `research/*.py`, `src/verify.py`). I ran B's three research scripts and its verify suite, and ran a quick juncture check on this repo's word lists (script kept in `/tmp/junc/`, not committed). **[inferred]** marks conclusions I drew rather than read.
+Written 2026-10-08. Sources: the senary repo (README, primer, specification, rationale, notes §6A–§6I, §11.5, §17–§18, both reviews, `research/*.py`, `src/verify.py`). I ran B's three research scripts and its verify suite, and ran a quick juncture check on this repo's word lists (script kept in `/tmp/junc/`, not committed). **[inferred]** marks conclusions I drew rather than read.
 
 ## 1. What B is
 

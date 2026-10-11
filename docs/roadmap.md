@@ -1,11 +1,11 @@
 # Roadmap
 
-Agreed with the user 2026-10-10. The earlier roadmap (sections A–D) is done or
+Agreed with the author 2026-10-10. The earlier roadmap (sections A–D) is done or
 superseded; it's in git history and the design log.
 
 **Why the project goes public:** to share it because it's cool, with people
 who don't want a git repo or a markdown file. Others using or contributing is
-a happy surprise, not a goal. It will later live on the user's own site,
+a happy surprise, not a goal. It will later live on the author's own site,
 skyseekerlabs.net, among other projects. So: a plain static site that can move
 there by copying a folder, and no adoption or governance machinery.
 
@@ -20,7 +20,7 @@ there by copying a folder, and no adoption or governance machinery.
    - **Fresh-eyes read** by a new agent, merged with the translators'
      ambiguity lists and `tests/regression-01/results.md`.
    - **Two piles:** clarifications, which Claude fixes and logs; design
-     changes, which go to the user as one list.
+     changes, which go to the author as one list.
    - **Learner guide** brought in line with the reference.
 2. **Spec as structured source:** *2a done 2026-10-11:* `spec/reference.toml` (223 items with stable ids) generates `docs/language.md` (`tools/spec.py build/check/examples`). *2b done 2026-10-11:* `tools/parse.py`,
    a parser over grammar words that every example passes with one reading,

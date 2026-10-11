@@ -7,7 +7,7 @@ title = "# Apu Pi We: reference"
 id = "0.1"
 type = "para"
 text = '''
-This document states what the language is. The reasons for each part are in [rationale.md](rationale.md), its history is in [design-log.md](design-log.md), and the word lists are in [../data/](../data/).'''
+This document states what the language is. The reasons for each part are in [rationale.md](rationale.md), its history is in [design-log.md](design-log.md), and the word lists are in the [data folder](https://github.com/LilijoySkyseeker/apu-pi-we/tree/main/data).'''
 
 [[item]]
 id = "0.2"

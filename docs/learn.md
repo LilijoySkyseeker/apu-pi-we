@@ -1,6 +1,6 @@
 # Learning Apu Pi We: a guide for English speakers
 
-This guide was written on 2026-10-09 for someone who speaks only English. The full rules are in the [language reference](language.md). Here you'll find the order to learn them in, the parts English makes hard, and how to practise.
+This guide is for English speakers. The full rules are in the [language reference](language.md). Here you'll find the order to learn them in, the parts English makes hard, and how to practise.
 
 ## Before you start
 
@@ -8,9 +8,9 @@ The language is small and unfinished. It has about 480 root words and two dozen 
 
 Nothing changes shape. There are no verb endings, no plurals you have to add, no "a" or "the", no gender and nothing irregular. Almost all the difficulty is in sounds, word order and numbers.
 
-There's no one else to talk to yet except Claude. Start any Claude session with "let's practise Apu Pi We at my level", and Claude will talk with you, correct you and explain. That's your conversation partner.
+The language has very few speakers so far, so a practice partner is hard to find. An AI chat assistant does the job well: give it the [reference](language.md) and ask it to talk with you at your level, correct you and explain.
 
-When you hit a gap, mention it to Claude. The language grows through real use, so every gap you find is useful data.
+When you hit a gap, something you can't find a way to say, please [report it](https://github.com/LilijoySkyseeker/apu-pi-we/issues). The language grows through real use, so every gap you find is useful.
 
 ## How to study
 
@@ -21,13 +21,13 @@ This plan fits into 15 to 20 minutes a day.
 | 1 | 1–4 | the 61 most common words (tiers 5 and 4 in the lexicon) |
 | 2 | 5–8 | the grammar-word table, traps first |
 | 3 | 9–10, numbers and time | count things aloud every day |
-| 4 on | 11–14 | the next 181 words (tier 3), and short conversations with Claude |
+| 4 on | 11–14 | the next 181 words (tier 3), and short conversations with a practice partner |
 
 Three habits matter more than the schedule. Say everything aloud: reading silently trains your eyes, and you want to train your mouth.
 
-Use spaced repetition for words. The [lexicon](../data/lexicon.tsv) imports straight into Anki: map the `gloss` column to the front of the card and `form` to the back, and start with tiers 5 and 4. The [grammar words](../data/grammar.tsv) work the same way.
+Use spaced repetition for words. The [word list](https://github.com/LilijoySkyseeker/apu-pi-we/blob/main/data/lexicon.tsv) (a tab-separated file) imports straight into Anki: map the `gloss` column to the front of the card and `form` to the back, and start with tiers 5 and 4. The [grammar words](https://github.com/LilijoySkyseeker/apu-pi-we/blob/main/data/grammar.tsv) work the same way.
 
-And make your own sentences early, even wrong ones, and bring them to Claude.
+And make your own sentences early, even wrong ones, and try them out on a practice partner.
 
 ## Lesson 1: Sounds
 
@@ -279,7 +279,7 @@ Two nouns side by side are used only for gender (**tiwu futa**) and for the fixe
 
 To give something to someone, put the verb first, then who gets it, then what: **neke to osa** "give me water". But **tan** or **ben** right after a noun or pronoun belongs to it, so **to iko wan ben** is "I told that-him". To make "that" the thing given, use **tun**: **to iko ben tun wan.** "I told that to him."
 
-Names always take **en** and keep their owner's spelling: **en mara**, **en lilith**. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Claude can work out yours if you ask.
+Names always take **en** and keep their owner's spelling: **en mara**, **en lilith**. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name.
 
 ## Lesson 8: Being polite, and everyday phrases
 
@@ -489,8 +489,8 @@ This sentence has many of these parts: **en mara, afe, kon da wan fe sin obu tun
 
 ## Where to go next
 
-The three [translated texts](../texts/) have word-by-word glosses. They were written with earlier versions of the language, so some of their words are out of date, and anything odd is worth checking against the lexicon.
+The three [translated texts](https://github.com/LilijoySkyseeker/apu-pi-we/tree/main/texts) have word-by-word glosses. They were written with earlier versions of the language, so some of their words are out of date, and anything odd is worth checking against the lexicon.
 
 The full reference is [language.md](language.md). Senary measurements and the senary calendar are in [measurement.md](measurement.md).
 
-And for conversation, start a Claude session and say **upe**.
+And for conversation, find a practice partner and say **upe**.
