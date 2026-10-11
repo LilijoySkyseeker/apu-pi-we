@@ -38,7 +38,7 @@ meanings.
 
 ## Planning for future issues
 
-- **Keep 2–3 one-syllable slots free** for the next high-frequency need.
+- ~~**Keep 2–3 one-syllable slots free**~~ Dropped (user, 2026-10-10): a frequent new meaning takes a slot by swapping with the rarest holder under the promotion rule, which worked cleanly in the rebuild. Add back if a frequent need appears and no swap gives it a clean form.
 - **Promotion rule:** a meaning earns a one-syllable form only when its
   measured frequency beats the rarest current holder. Rebuilds happen only in
   design; once the user starts learning, the freeze returns and natural
