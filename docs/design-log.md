@@ -480,3 +480,11 @@ Item 2 is what prompted the review: a speaker in a 12-hour culture lives with 12
 ## Coexisting with existing cultures (user, 2026-10-10)
 
 Even native speakers live inside existing cultures: American 12-hour clocks, Sunday-first weeks, names like Denise. Principle: **the insides are built for native speakers; the boundary with culture carries any culture's conventions and imposes none.** These are different rules for different parts, not a trade-off between native and current speakers, because both live in the same cultures. Up for review under it: the 24-hour-only clock, Monday = day 1, name adaptation, and English as the only source of technical loans.
+
+**Clock (user, 2026-10-10), the first item under the coexistence principle.** Both systems are carried:
+- **24-hour:** four digits read one at a time (**po mape po po**).
+- **12-hour:** hour and minutes counted, plus a part of the day with **pi** (**mape ka yawu pi yami** "nine thirty at night"). This is the form nearly every language uses for 12-hour times: *de la noche*, 午後, 晚上, *raat ke*. The part of the day drops when context supplies it.
+- **New roots:** **minfi** noon, **duwun** afternoon. Midnight is "twelve at night".
+- **Writing:** the local clock notation passes through like unit symbols, which also removes the colon problem.
+
+Tabled item 2 is resolved by this.
