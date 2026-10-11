@@ -76,9 +76,10 @@ def dictionary_html(lex, gram, comp):
                       f'<td>{html.escape(c["literal"])}</td></tr>' for c in sorted(comp, key=lambda c: c["form"]))
     opts = "".join(f"<option>{f}</option>" for f in fields) + '<option value="grammar">grammar words</option><option value="compound">compounds</option>'
     return f'''<h1 id="dictionary">Dictionary</h1>
-<p>{len(lex)} roots and loans, {len(gram)} grammar words, {len(comp)} compounds.
-<b>Common</b> runs from 5 (learn first) to 1. Click a column heading to sort. How grammar words are used:
-<a href="language.html#13-grammar-words">reference, section 13</a>.</p>
+<p>There are {len(lex)} root words and loans, {len(gram)} grammar words and {len(comp)} compounds.
+The Common column runs from 5, the words to learn first, down to 1. Type in the box to filter, or click a
+column heading to sort. The grammar words are explained in <a href="language.html#13-grammar-words">section 13
+of the reference</a>.</p>
 <p class="filter"><input id="dict-filter" type="search" placeholder="filter: word or meaning" autocomplete="off">
 <select id="dict-field"><option value="">all topics</option>{opts}</select> <span id="dict-count"></span></p>
 <table class="dict sortable" id="dict"><thead><tr><th>Word</th><th>Meaning</th><th>Topic</th><th>Common</th><th>Opposite</th></tr></thead>
@@ -117,6 +118,9 @@ def md_to_html(text, pages):
 
 TITLES = {"language": "the reference", "rationale": "why it is this way", "design-log": "changelog",
           "measurement": "senary measurement", "learn": "learner guide", "dictionary": "dictionary"}
+NOTES = {"rationale", "design-log"}
+NOTES_BANNER = ('<p class="notes">These are the project\'s working notes, kept for whoever works on the language next, '
+                'which is often an AI assistant. They are dense, but the reasons for everything are here.</p>')
 NAV = [("index", "Home"), ("learn", "Learn"), ("language", "Reference"), ("dictionary", "Dictionary"),
        ("rationale", "Design")]
 SECTION = {"design-log": "rationale", "measurement": "rationale"}
@@ -125,12 +129,13 @@ SECTION = {"design-log": "rationale", "measurement": "rationale"}
 def page(name, title, body, toc, prev=None, nxt=None, extra=""):
     current = SECTION.get(name, "learn" if name.startswith("learn") else name)
     nav = " ".join(f'<a href="{n}.html"{" class=here" if n == current else ""}>{t}</a>' for n, t in NAV)
+    lesson = name.startswith("learn-")
     def flat(tokens):
         for t in tokens:
             yield t
             yield from flat(t["children"])
     items = [f'<li class="l{t["level"]}"><a href="#{t["id"]}">{t["name"]}</a></li>'
-             for t in flat(toc) if t["level"] == 2 or (t["level"] == 3 and name == "language")]
+             for t in flat(toc) if t["level"] == 2 or (t["level"] == 3 and (name == "language" or lesson))]
     side = f'<nav class="toc"><b>On this page</b><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
     pn = ""
     if prev or nxt:
@@ -185,6 +190,8 @@ def build():
     titles = dict((n, t) for n, t, _ in sources)
     for name, title, text in sources:
         body, toc = md_to_html(text, names)
+        if name in NOTES:
+            body = body.replace("</h1>", "</h1>" + NOTES_BANNER, 1)
         if name == "rationale":
             body += '<p class="also">Also: <a href="design-log.html">changelog</a> · <a href="measurement.html">senary measurement</a></p>'
         i = order.index(name) if name in order else None

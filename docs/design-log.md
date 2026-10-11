@@ -615,3 +615,12 @@ A first-principles look at the language's goals. They were spread over five docu
 **Parser questions decided (user, 2026-10-11):** after a time, **wo**/**ya** belong to that time, joining the quantity exception in 4.4, so **to isi mon wuma wo dili fi** is "I go the day after tomorrow". A pause closes every open relative clause.
 
 **Licence (user, 2026-10-11):** everything made for the project is public domain under CC0, code included; third-party data files keep their own licences (`data/SOURCES.md`). As Esperanto and Lojban did with their basics: no conditions on anyone who builds on it.
+
+**Public pages rewritten in a human voice (user, 2026-10-11).** The user found the site read as AI-written, especially the habit of saying what something is not. The learner guide, the reference prose (`spec/reference.toml`), the home page and the dictionary intro were reworded to `docs/style.md`. The working notes (this log, the rationale, tests, research) keep their terse style and are labelled as working notes on the site. No rule changed: the parser and the example list are identical before and after, and two independent rule-by-rule comparisons found 11 meaning slips, all fixed. Unclear spots both rewriters found in the original, left for a later pass:
+- 2.3: does a Vn syllable (**en**, **un**, **in**) count as "vowel-only"?
+- 9.3.4: the gloss "more … than all" belongs to **ke** + quality + **se we**, not to **se we** alone.
+- 12.2: does "(for anyone)" apply to **wupi** only or to both obligation words?
+- 4.6: the pause between joined clauses names **yen**/**un** but not **lu**.
+- 11.5: "(flat 3B)" is unexplained.
+- learn.md lesson 4: the **genso to gun bi sogi** example doesn't show **genso** before another particle, which is what it illustrates.
+- learn.md lesson 7: "**pi** is the only word that joins one noun to another" reads as clashing with **yen** in lists.
