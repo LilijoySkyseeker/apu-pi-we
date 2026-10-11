@@ -1,0 +1,68 @@
+/* Plain and dense on purpose: system fonts, underlined links, thin rules, no decoration. */
+:root { --bg: #fff; --fg: #111; --dim: #555; --rule: #bbb; --head: #e8e8e0; --link: #0645ad; --visited: #663399; --hi: #ffef9e; --zebra: #f6f6f2; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #161616; --fg: #ddd; --dim: #999; --rule: #444; --head: #262622; --link: #8cb4ff; --visited: #c7a3ff; --hi: #5a4a00; --zebra: #1d1d1b; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 Verdana, "DejaVu Sans", Geneva, sans-serif; }
+a { color: var(--link); }
+a:visited { color: var(--visited); }
+b, strong { font-weight: bold; }
+code { font: 0.9em "DejaVu Sans Mono", Consolas, monospace; }
+:target { background: var(--hi); }
+
+header { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3em 1.2em; padding: 0.4em 1em; background: var(--head); border-bottom: 1px solid var(--rule); position: sticky; top: 0; z-index: 2; }
+header .site { font-weight: bold; color: var(--fg); text-decoration: none; }
+header nav a { margin-right: 0.8em; }
+header nav a.here { color: var(--fg); font-weight: bold; text-decoration: none; }
+.search { margin-left: auto; position: relative; }
+.search input { font: inherit; width: 16em; padding: 0.1em 0.3em; border: 1px solid var(--rule); background: var(--bg); color: var(--fg); }
+#hits { position: absolute; right: 0; top: 1.8em; width: min(32em, 92vw); max-height: 70vh; overflow: auto; margin: 0; padding: 0; list-style: none; background: var(--bg); border: 1px solid var(--rule); }
+#hits li a, #results li a { display: block; padding: 0.25em 0.5em; text-decoration: none; color: var(--fg); }
+#hits li.on a { background: var(--hi); }
+#hits small, #results small { color: var(--dim); }
+
+.wrap { display: flex; max-width: 72em; margin: 0 auto; }
+main { flex: 1; min-width: 0; max-width: 46em; padding: 0.5em 1.2em 2em; }
+.toc { width: 15em; flex: none; padding: 0.8em 0 1em 1em; font-size: 13px; position: sticky; top: 2.4em; align-self: flex-start; max-height: calc(100vh - 2.6em); overflow: auto; }
+.toc ul { list-style: none; margin: 0.3em 0; padding: 0; }
+.toc li { margin: 0.15em 0; }
+.toc li.l3 { padding-left: 1em; }
+
+h1, h2, h3, h4 { font-family: Georgia, "Times New Roman", serif; font-weight: bold; line-height: 1.25; margin: 1.3em 0 0.4em; }
+h1 { font-size: 1.7em; border-bottom: 1px solid var(--rule); padding-bottom: 0.15em; }
+h2 { font-size: 1.35em; border-bottom: 1px solid var(--rule); }
+h3 { font-size: 1.12em; }
+.headerlink { margin-left: 0.3em; color: var(--dim) !important; text-decoration: none; visibility: hidden; }
+h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .headerlink { visibility: visible; }
+li { margin: 0.2em 0; }
+ul, ol { padding-left: 1.5em; }
+blockquote { margin: 0.5em 0; padding-left: 1em; border-left: 3px solid var(--rule); color: var(--dim); }
+pre { overflow-x: auto; padding: 0.5em; border: 1px solid var(--rule); background: var(--zebra); }
+
+table { border-collapse: collapse; margin: 0.6em 0; font-size: 14px; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--rule); padding: 0.2em 0.5em; text-align: left; vertical-align: top; }
+th { background: var(--head); }
+tbody tr:nth-child(even) { background: var(--zebra); }
+table.sortable th { cursor: pointer; user-select: none; }
+th[aria-sort="ascending"]::after { content: " ▲"; }
+th[aria-sort="descending"]::after { content: " ▼"; }
+table.dict td:first-child a { text-decoration: none; }
+.filter input { font: inherit; width: 18em; padding: 0.1em 0.3em; border: 1px solid var(--rule); background: var(--bg); color: var(--fg); }
+.filter select { font: inherit; background: var(--bg); color: var(--fg); border: 1px solid var(--rule); }
+#dict-count { color: var(--dim); }
+b[title] { border-bottom: 1px dotted var(--dim); cursor: help; }
+
+.pn { display: flex; justify-content: space-between; margin-top: 2em; padding-top: 0.5em; border-top: 1px solid var(--rule); }
+.also { margin-top: 2em; }
+footer { padding: 0.8em 1em; border-top: 1px solid var(--rule); color: var(--dim); font-size: 13px; }
+
+@media (max-width: 52em) {
+  .toc { display: none; }
+  header { position: static; }
+  .search { margin-left: 0; width: 100%; }
+  .search input { width: 100%; }
+  main { padding: 0.3em 0.8em 2em; }
+}
+@media print { header, .toc, footer, .pn { display: none; } }

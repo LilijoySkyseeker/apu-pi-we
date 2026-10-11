@@ -25,7 +25,7 @@ there by copying a folder, and no adoption or governance machinery.
 2. **Spec as structured source:** *2a done 2026-10-11:* `spec/reference.toml` (223 items with stable ids) generates `docs/language.md` (`tools/spec.py build/check/examples`). *2b done 2026-10-11:* `tools/parse.py`,
    a parser over grammar words that every example passes with one reading,
    and that lists readings to check "a precise way exists".
-3. **Generated static site:** *built 2026-10-11 (`tools/site.py`, MkDocs Material, output in `build/site`); hosted on GitHub Pages from `LilijoySkyseeker/apu-pi-we`, rebuilt on every push.* reference, dictionary, learner guide
+3. **Generated static site:** *built 2026-10-11 (`tools/site.py`, plain HTML and CSS via python-markdown, output in `build/site`); hosted on GitHub Pages from `LilijoySkyseeker/apu-pi-we`, rebuilt on every push.* reference, dictionary, learner guide
    (handwritten, examples checked), texts, design principles, changelog.
 4. **Public:** licences checked first (Wiktionary-derived `offensive.tsv`
    is CC BY-SA, the CLICS-derived data CC BY), README, a short
