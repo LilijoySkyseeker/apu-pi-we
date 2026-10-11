@@ -2,7 +2,7 @@
 
   python make_page.py   # rerun after any change to translation.md
 """
-import os
+import os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "..", "examples", "01-udhr.md")
@@ -47,6 +47,8 @@ for name, paras in en.items():
     assert len(paras) == len(apu[name]), name
     lines.append(f"## {heading(name)} {{.apu}}\n")
     for a, e in zip(apu[name], paras):
+        # "1." alone between quotes would start a new list each time and show as 1; escape it to keep the number.
+        a, e = (re.sub(r"^(\d+)\. ", r"\1\\. ", x) for x in (a, e))
         lines += [a, "{.apu}", "", "> " + e, ""]
 open(OUT, "w").write("\n".join(lines))
 print("wrote", OUT)
