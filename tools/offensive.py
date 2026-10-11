@@ -173,6 +173,12 @@ def counts(r):
 _BLOCK = None
 
 
+# Forms moved by hand review (design-log "Offensive-word moves", 2026-10-09). The ranked filter
+# doesn't block them, so without this list the word tools could pick them again (webo was
+# re-picked on 2026-10-10).
+REJECTED = {"lanu", "nega", "pisan", "webo", "ano", "ku"}
+
+
 def blocked(form):
     """True if a candidate form exactly or nearly matches a common, strongly offensive word (main sense).
     Run with wordfreq installed, or every listed word counts as common and more forms are blocked."""
@@ -182,7 +188,7 @@ def blocked(form):
         exact = {f for f in fs if len(f) >= 2}
         near = {key(f) for f in fs if len(f) >= 3} | {key(f + "u") for f in fs if len(f) >= 3 and f[-1] not in "aeiou"}
         _BLOCK = (exact, near)
-    return form in _BLOCK[0] or key(form) in _BLOCK[1]
+    return form in REJECTED or form in _BLOCK[0] or key(form) in _BLOCK[1]
 
 
 def ours():
