@@ -33,3 +33,5 @@ A competent human writer explaining a language to a curious English-speaking adu
 ## Where it applies
 
 The public pages: `docs/learn.md`, the reference (`spec/reference.toml`, which generates `docs/language.md`), `README.md`, `site/index.md` and the dictionary intro in `tools/site.py`. The working notes (rationale, design log, tests, research) are written for whoever works on the language next and don't follow it.
+
+Everything in the repo, working notes included, reads as a public project: the creator is "the author", there are no paths on anyone's machine, and nothing assumes the reader's setup.
