@@ -507,3 +507,15 @@ The clock item was resolved earlier by the clock decision.
 **Missing words, first batch (user, 2026-10-10).** 22 roots and 9 built words from the words the tests needed, each through the vocabulary method: a root for a basic or frequent concept, a built word where composition works, a phrase where it's rare. Pairs pushed apart: early/late, cheap/expensive. Law is lumped with **wabun** "rule". List and forms are in `vocabulary-plan.md`. Loans are next.
 
 **Loans (2026-10-10).** Thirteen loans went into the lexicon, each in its international form, which is the shared form, not necessarily English: **foto**, **yulo** euro, **polisu**, plus email, train, licence, electricity, degree, hospital, bicycle, battery, yuan and rupee. None collides with a native word or the offensive filter. Brands are names now, so they keep their own spelling. Words whose form isn't shared across languages (deadline, truck, screen, elevator…) are described instead.
+
+## Content-layer gaps (user, 2026-10-10)
+
+From multilanguage test 01, by the decision rule:
+- **Topic opener:** **pi X,** at the start = "as for X". It does the passive's main job: the thing acted on stays the topic, with the agent still named. Every language can do this; only 162 of 373 have a passive (WALS 107). No new word.
+- **Habitual:** **manni** "usually", an operator before the verb, flagged by 5 of 11 languages.
+- **Intent:** **gan momu** "on purpose", **mu gan momu** "by accident", built phrases in `compounds.tsv`.
+
+**Left out**, each with the add-back trigger "a round trip loses meaning to it":
+- good or bad luck for the person affected (Vietnamese *bị/được*, Mandarin 被), which can already be said as "a bad thing happened to me";
+- result complements, where the Mandarin round trip lost only 1 point;
+- articles.

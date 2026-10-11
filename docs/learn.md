@@ -159,6 +159,7 @@ Names always take **en**: **en mala** "Mara". Names are adapted to the sounds: L
 - **Names keep their own spelling:** write **en denise**, not an adapted form, and say it as close to the real name as you can.
 - **Calling someone:** put the name or title first or last, with a comma: **en mala, tin obu.** "Mara, come." Titles go before the name and work when talking about someone too: **no tofo en mala** "Teacher Mara". **lanno** is the polite title for anyone, like Mr/Ms or sir/madam: **lanno en olusegun**, or just **lanno, …**. It also goes before a role or kin word: **lanno faba pi wede** "Uncle (father's sibling)", with respect.
 - **Stress in a word:** where English stresses a word for contrast, put **fule** before it: **fule en tomasu yidu bu** "*Tomas* took it"; **lon fule unfu** "I *did* pay". **genfo** is "even": **genfo tiwu la obu** "even the children came".
+- **Habits and accidents:** **manni** before a verb is "usually" (**lon manni isi** "I usually go"). **mu gan momu** is "by accident", **gan momu** "on purpose". To set a topic, start with **pi X,** "as for X, …".
 - **Tone words at the end:** after a comma at the end of a sentence, **iwun** is "you know", **buni** is "okay?" (friendly, not a real question) and **donon** is "it turned out": **so pen isi, buni.** "Let's go, okay?"
 - **mm** "I heard you", **huh?** "say again"
 
