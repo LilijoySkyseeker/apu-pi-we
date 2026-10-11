@@ -49,3 +49,22 @@ didn't probe).
 Every agent is prompted in the target language; each step is a fresh agent;
 the back-translator never sees the source. The grammar and lexicon are in
 English. That can't be avoided, so it's noted.
+
+## Stage 2 scope (agreed 2026-10-10, after stage 1)
+
+Seven scenes aimed at the stage 1 themes, each switching between two
+registers. Writers aren't told the themes, only the registers.
+
+| Language | Registers |
+|---|---|
+| Vietnamese | casual ↔ hierarchical |
+| Hindi–Urdu | hierarchical ↔ narrative |
+| Arabic (Egyptian) | casual ↔ hierarchical |
+| Russian | casual ↔ persuasive |
+| Mandarin | narrative ↔ written for a stranger |
+| English | persuasive ↔ narrative |
+| Spanish | written for a stranger ↔ persuasive |
+
+The judge sees the source, the translation (with glosses) and the
+back-translation, scores 0–2 per line, labels each loss L/T/E, and checks the
+language's stage 1 top gaps: did each occur, and did it survive?
