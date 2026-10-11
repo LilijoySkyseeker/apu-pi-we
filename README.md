@@ -4,7 +4,7 @@ Apupiwe is a constructed language. Say it **AH-poo-pee-weh** ([ˈapupiwe]): stre
 
 The idea: the world's languages have each, separately, worked out the same answers to a lot of problems. Take those shared answers and build one language for children to grow up speaking. What would it look like? It's also meant to be a real language that people learn and use, and you can start today.
 
-It is still being designed, so words and rules change.
+It is still being designed, so words and rules change. It's designed by its author together with Claude, an AI assistant: Claude does most of the research, drafting and testing, and the author decides the questions that shape the language.
 
 **Website: https://lilijoyskyseeker.github.io/apupiwe/** has the lessons, the full reference and a searchable dictionary.
 

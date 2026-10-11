@@ -4,7 +4,7 @@ This guide is for English speakers. The full rules are in the [language referenc
 
 ## Before you start
 
-The language is small and unfinished. It has about 480 root words and two dozen borrowed international words, plus 61 one-syllable grammar words, 13 two-syllable ones and the number words. Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
+The language is small and unfinished. It has 483 root words and 23 borrowed international words, plus the number words and the words of the optional senary (base-6) measurement system. On top of those come 61 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
 
 Nothing changes shape. There are no verb endings, no plurals you have to add, no "a" or "the", no gender and nothing irregular. Almost all the difficulty is in sounds, word order and numbers.
 
@@ -18,10 +18,10 @@ This plan fits into 15 to 20 minutes a day.
 
 | Week | Lessons | Alongside |
 |---|---|---|
-| 1 | 1–4 | the 61 most common words (tiers 5 and 4 in the lexicon) |
-| 2 | 5–8 | the grammar-word table, traps first |
+| 1 | 1–4 | the 58 most common words, marked 5 and 4 in the Common column of the [dictionary](dictionary.md) |
+| 2 | 5–8 | the [grammar-word table](language.md#13-grammar-words), starting with the little words that look like English from lesson 6 |
 | 3 | 9–10, numbers and time | count things aloud every day |
-| 4 on | 11–14 | the next 181 words (tier 3), and short conversations with a practice partner |
+| 4 on | 11–14 | the next 176 words, marked 3 in the Common column, and short conversations with a practice partner |
 
 Three habits matter more than the schedule. Say everything aloud: reading silently trains your eyes, and you want to train your mouth.
 
@@ -80,13 +80,15 @@ A sentence goes in the same order as in English: who, then the verb, then what.
 - **me momu osa.** "You want water."
 - **wan nawi pasu.** "She eats food." (**wan** is both "she" and "he")
 
-There is no "a" or "the", and the verb never changes: **to nagu**, **wan nagu**, **pen nagu** ("we see"). Plural usually goes unmarked. You add **la** only when it matters, as in **totu la** "dogs", or you give the number: **totu sa** "two dogs".
+There is no "a" or "the", and the verb never changes: **to nagu**, **wan nagu**, **pen nagu** ("we see"). Plural usually goes unmarked. You add **la** only when it matters, as in **totu la** "dogs", or you give the number: **totu sa** "two dogs" (numbers come in lesson 9).
 
 When two verbs come in a row, it depends on the first one. If it takes an object (want, try, need, can, start, stop, like, help…), the second verb is that object, as in **to momu isi.** "I want to go." and **walo alun** "try to break". With any other verb, the second one describes the first: **goyu pume** "sit thinking".
 
 **muge** "do, make" has two patterns. With a result and then a thing, it means to make the thing that way: **muge upe tan** "fix this" (make good this). With a thing and then a how, it means to do the thing that way: **muge tan upe** "do this well".
 
-A comma marks a pause. It goes after anything that opens the sentence, as in **afe, to nawi pasu.** "Yesterday, I ate food." It also goes around a name you're calling. The full list is in lesson 12.
+A comma marks a pause. It goes after anything that opens the sentence, as in **afe, to nawi pasu.** "Yesterday, I ate food." The time word **afe** "yesterday" sets the time, so **nawi** "eat" stays as it is. Tense is optional (lesson 10).
+
+A comma also goes around a name you're calling. The full list is in lesson 12.
 
 ## Lesson 3: Describing words come after
 
@@ -96,6 +98,8 @@ In English the describing word comes first: *big house*. Here a content word tha
 - **totu tan** "this dog"
 - **ewo meli** "a small person"
 
+A content word is one with a meaning of its own, the name of a thing, an action or a quality. The small grammar words, like **to** and **la**, each have their own place.
+
 To say that the house *is* big, put **gun** "is" in between: **guyi gun kudu.** "The house is big." Without **gun**, **guyi kudu** is usually heard as "the big house".
 
 More generally, a word after a noun can describe it, say what it is, or say what it does. You pick the form by what you mean:
@@ -103,7 +107,7 @@ More generally, a word after a noun can describe it, say what it is, or say what
 | You mean | Say | Example |
 |---|---|---|
 | it *is* something | **gun** + word | **guyi gun kudu** "the house is big" |
-| it *does* something | the word, with **le**, **sin** or **manni** to be exact | **ewo le niba** "the person is walking" |
+| it *does* something | the word, with **le**, **sin** or **manni** to be exact (aspect words, lesson 10) | **ewo le niba** "the person is walking" |
 | *which* one | **man** + word | **ewo man niba** "the person who walks" |
 
 In everyday talk people often leave these out, say **guyi kudu** or **ewo niba**, and trust the listener. That's always allowed, and it works whenever the context makes it clear. The table is for when it doesn't.
@@ -120,7 +124,7 @@ Position can also make any word a noun. As an object, **sepi** "apologise" becom
 - after another verb, it means "to be": **momu gun tiwu** "want to be a child"
 - with no subject, it means "there is": **gun musu feli.** "There are many things."
 
-When several things follow a noun, they go in this order: describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **man** clause. For example, **guyi kudu sa la tan** "these two big houses". You'll meet **pi** phrases in lesson 7 and **man** clauses in lesson 12.
+When several things follow a noun, they go in this order: describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **man** clause. For example, **guyi kudu sa la tan** "these two big houses". A number and **la** can go together, but once there's a number **la** is optional, so **guyi kudu sa tan** means the same. You'll meet **pi** phrases in lesson 7 and **man** clauses in lesson 12.
 
 Gender is an ordinary describing word, and you only use it when it matters: **tiwu futa** "daughter", **tiwu lowu** "son".
 
@@ -137,7 +141,7 @@ The word for "not" is **mu**, and it goes before what it denies: **to mu lugo.**
 - **wi tiwu la obu.** "Even the children came."
 - **wi don** "even if"
 
-Where English stresses a word for contrast, you put **o** before it: **o en tomas yidu bu.** "*Tomas* took it." Before the verb, **o** insists: **to o unfu.** "I *did* pay."
+Where English stresses a word for contrast, you put **o** before it: **o en tomas yidu bu.** "*Tomas* took it." Here **en** marks a name (lesson 7) and **bu** is "it". Before the verb, **o** insists: **to o unfu.** "I *did* pay."
 
 ### Questions and answers
 
@@ -162,17 +166,17 @@ A few more question words:
 | **mon muyi yu** | when (at what time) |
 | **totu yu** | which dog |
 | **wifu yu** | how many, how much |
-| **pi ewo yu** | whose |
+| **pi ewo yu** | whose (of what person) |
 
 So **me nume mon kemu yu.** "Where do you live?"
 
 A choice can be offered two ways: **min me momu osa lu pasu.** "Do you want water or food (either one)?" and **me momu osa lu pasu yu.** "Which do you want, water or food?" Answer by echoing your choice: **osa**.
 
-Questions can also sit inside a sentence: **to mu lugo wun min wan obu.** "I don't know whether she's coming." **to mu lugo wun ewo yu obu.** "I don't know who is coming."
+Questions can also sit inside a sentence, after **wun** "that", which introduces a clause: **to mu lugo wun min wan obu.** "I don't know whether she's coming." **to mu lugo wun ewo yu obu.** "I don't know who is coming."
 
 ### What kind of sentence it is
 
-A particle near the start says what kind of sentence it is. It comes after any name you're calling and after any opener such as **afe,**. A sentence without a particle is a plain statement.
+A particle near the start says what kind of sentence it is. It comes after any opener such as **afe,** and after any name you're calling (lesson 8). A sentence without a particle is a plain statement.
 
 | | |
 |---|---|
@@ -180,7 +184,7 @@ A particle near the start says what kind of sentence it is. It comes after any n
 | **so** | request ("would you…?"). With "we" it means "let's", as in **so pen isi** "let's go", and with someone else it's a wish |
 | **tin** | instruction ("do this") |
 | **fon** | advice ("I'd suggest…; your call") |
-| **de** | "I'll…" (I intend), or "we will" for your group: **de din** |
+| **de** | "I'll…" (I intend), or "we will" for your group: **de din**, with **din** "we, not you" from lesson 5 |
 | **yo** | warning, and **yo yo** is an emergency |
 | **ba** | exclamation |
 | **genso** | not literal (joking, irony) |
@@ -212,6 +216,8 @@ For a request, use **so**: **so neke to osa.** "Give me water?" "Please" is **so
 | **go** | anyone, people in general |
 
 Watch out for **me**. It means "you", and for a while you'll trip over it, both reading it and saying it. It only ever means the person you're talking to. When English uses "you" for people in general, as in "you never know", the word is **go**.
+
+For "my" and "your", use **pi** "of" after the noun: "my house" is **guyi pi to** (house of me), and "your house" is **guyi pi me**. There's more on **pi** in lesson 7.
 
 English "we" hides whether the listener is included. Here you have to choose between **pen** and **din**: **so pen isi** "let's go (you and I)" or **din isi** "we're going (without you)".
 
@@ -339,7 +345,7 @@ Phone numbers, codes and years are read digit by digit too, so 2026 as a year is
 
 **mimi** is the decimal point, so **fi mimi te** is 1.5, and **guti** is minus. Half is **timon**. As a number, 0.5 is **po mimi te**. A third is **fi pi ka** "one of three".
 
-If you ever need a base-6 number, say **senali** first and then read its digits.
+If you ever need a base-6 number, say **senali** first and then read its digits. The [dictionary](dictionary.md) also lists base-6 words such as **nobi** and **miko**. They belong to the optional senary measurement system, and ordinary counting doesn't use them.
 
 ### Amounts and comparing
 
@@ -491,7 +497,7 @@ This sentence has many of these parts: **en mara, afe, kon da wan fe sin obu tun
 
 ## Where to go next
 
-The three [translated texts](https://github.com/LilijoySkyseeker/apupiwe/tree/main/texts) have word-by-word glosses. They were written with earlier versions of the language, so some of their words are out of date, and anything odd is worth checking against the lexicon.
+The [Examples](examples.md) page has the Universal Declaration of Human Rights in Apupiwe, with the English under each paragraph. Tap or point at any word to see what it means.
 
 The full reference is [language.md](language.md). Senary measurements and the senary calendar are in [measurement.md](measurement.md).
 

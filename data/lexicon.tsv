@@ -65,7 +65,7 @@ egg	animal	2	tika
 wing	animal	1	yunbi
 tail	animal	1	kenlo
 meat	animal	2	fuyu
-house	thing	4	guyi
+house, home	thing	4	guyi
 door	thing	2	beya
 food	thing	4	pasu
 tool	thing	2	yetu
@@ -282,12 +282,12 @@ phone	thing	3	liga
 card	thing	2	mise
 bus	thing	2	ensu
 dollar	loan	3	dola
-senary.6	number	3	nobi
-senary.36	number	3	miko
-senary.216	number	3	niyu
-6^4	number	3	yiyo
-6^8	number	3	gife
-6^12	number	3	yuli
+senary.6	number	1	nobi
+senary.36	number	1	miko
+senary.216	number	1	niyu
+6^4	number	1	yiyo
+6^8	number	1	gife
+6^12	number	1	yuli
 POINT	number	3	mimi
 MINUS	number	3	guti
 mouth	body	3	fade
@@ -300,26 +300,26 @@ kill	action	2	omen
 build	action	2	selo
 disgust	mind	2	bebu
 car	thing	3	tale
-6^-4	number	3	kufe
-6^-8	number	2	bafo
+6^-4	number	1	kufe
+6^-8	number	1	bafo
 POWER	number	2	unun
-unit.time	unit	4	nane
-unit.mass	unit	4	fomi
-unit.charge	unit	2	yoke
-unit.temperature.interval	unit	3	sigi
-unit.angle	unit	3	meno
-unit.frequency	unit	2	kanwi
-unit.force	unit	2	sandu
-unit.pressure	unit	2	ogen
-unit.energy	unit	3	kisu
-unit.power	unit	3	geye
-unit.voltage	unit	2	kewen
+unit.time	unit	1	nane
+unit.mass	unit	1	fomi
+unit.charge	unit	1	yoke
+unit.temperature.interval	unit	1	sigi
+unit.angle	unit	1	meno
+unit.frequency	unit	1	kanwi
+unit.force	unit	1	sandu
+unit.pressure	unit	1	ogen
+unit.energy	unit	1	kisu
+unit.power	unit	1	geye
+unit.voltage	unit	1	kewen
 unit.resistance	unit	1	gansu
 unit.capacitance	unit	1	wela
 unit.inductance	unit	1	kokan
 unit.magnetic.flux.density	unit	1	sobon
-unit.temperature.scale	unit	3	tilo
-unit.information	unit	2	noyon
+unit.temperature.scale	unit	1	tilo
+unit.information	unit	1	noyon
 unit.count.of.entities	unit	1	senan
 unit.particle.mass	unit	1	masin
 thank	sense	3	lota
@@ -451,7 +451,7 @@ worm	animal	3	enna
 grind	action	3	inke
 week	time	3	nelon
 block, 36 days (senary)	time	3	boyo
-6^-12	number	2	genwi
+6^-12	number	1	genwi
 6	number	4	ufo
 7	number	4	oma
 8	number	4	kefi
@@ -470,7 +470,7 @@ can, be able	mind	5	lenu
 bite	action	4	lasu
 high	space	2	tisan
 10	number	4	yawu
-unit.length	unit	4	ago
+unit.length	unit	1	ago
 fly, the insect	animal	2	gekon
 occasion, a time (three times)	time	3	gimu
 honoured one, title of respect (sir, madam, Mr, Ms)	people	3	lanno

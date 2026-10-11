@@ -658,3 +658,11 @@ A first-principles look at the language's goals. They were spread over five docu
 - **anko** "until" and **nuwen** "without": two-syllable relation words. "Until" measured high enough for one syllable, but its equivalents also mean "to, up to, even" in several languages, and a one-syllable slot would mean demoting **kon**; not a clear gain. **ya** "before" lost the end point and **gan X fa** cost three syllables.
 - "Against" gets no relation word: protection is **se** "from", "against the law" is **alun wabun**, and opposing is the new verb **ninsu** "oppose", as most measured languages use a verb or noun.
 - The tool first picked **fule** for "oppose", the focus word freed in the rebuild; redone with `--avoid` (content words never take freed forms).
+
+**Website, checked by two simulated readers (author, 2026-10-11).** Two fresh agents used the live site, one as a curious visitor from Reddit and one as a beginner doing lessons 1–4 (the beginner's five test sentences were all correct). The author asked for all their fixes:
+- Home page: a glossed first look (Article 1 of the UDHR), Examples in the link list, and a plain line that the language is designed with Claude, an AI assistant, with the author deciding the questions that shape it (also in the README). The visitor found the AI role two clicks deep and noted that readers who find it late feel misled.
+- A short "Why is it like this?" page (`docs/why.md`, the Design menu's first page): ten questions visitors ask, each answered in a few sentences with a link into the design notes.
+- Dictionary: honest counts (483 roots, 23 loans, numbers and senary units listed apart), the digits 0–5 added, plain glosses for number and senary words, number pairs dropped from the Opposite column (they are sound-distinctness pairs, not opposites), **guyi** glossed "house, home".
+- Lexicon: senary unit and senary number words moved to tier 1, since the learner guide's "learn first" tiers had put **ago**, **fomi** and **nane** on week-1 flashcards. Tiers only weight new word forms; no form moved.
+- Learner guide: counts matched to the data, pointers at the first use of words and rules explained later, possession shown in lesson 5, and "where to go next" pointing to Examples.
+- Not done: audio. Add-back trigger: a voice the author is happy with.

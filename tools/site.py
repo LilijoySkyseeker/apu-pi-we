@@ -48,16 +48,46 @@ def split_learn(text):
     return intro, lessons
 
 
+NUMBER_GLOSS = {"0": "zero", "1": "one", "2": "two", "3": "three", "4": "four", "5": "five", "6": "six",
+                "7": "seven", "8": "eight", "9": "nine", "10": "ten", "100": "hundred", "1000": "thousand",
+                "10^6": "million", "10^9": "billion", "POINT": "point (decimal)", "MINUS": "minus",
+                "POWER": "times ten to the power of"}
+
+
+def plain_gloss(w, units):
+    """lexicon.tsv glosses for numbers and senary units are tool keys; say them in plain English."""
+    g = w["gloss"]
+    if w["field"] == "unit" and w["form"] in units:
+        u = units[w["form"]]
+        return f"senary unit of {u['quantity']} ({u['si']})"
+    if w["field"] == "number":
+        if g in NUMBER_GLOSS:
+            return NUMBER_GLOSS[g]
+        sup = str.maketrans("0123456789-", "⁰¹²³⁴⁵⁶⁷⁸⁹⁻")
+        n = g.replace("senary.", "")
+        if "^" in n:
+            n = "6" + n.split("^")[1].translate(sup)
+        return f"{n} (senary)"
+    return g
+
+
 def words():
     """Every word with its meaning, for the dictionary and hover glosses."""
     lex = tsv("lexicon.tsv")
+    units = {u["form"]: u for u in tsv("units.tsv")}
     form = {w["gloss"]: w["form"] for w in lex}
+    plain = {w["gloss"] for w in lex if w["field"] not in ("number", "unit")}
     opp = {}
+    # antonyms.tsv also lists number pairs kept apart in sound; only real opposites go in the dictionary
     for a, b in (r.values() for r in tsv("antonyms.tsv")):
-        if a in form and b in form:
+        if a in plain and b in plain:
             opp[a], opp[b] = form[b], form[a]
     for w in lex:
         w["opposite"] = opp.get(w["gloss"], "")
+        w["gloss"] = plain_gloss(w, units)
+    # the digits 0-5 live only in numbers.tsv; the learner looks for them here too
+    lex += [{"gloss": NUMBER_GLOSS[n["value"]], "field": "number", "tier": "5", "form": n["form"], "opposite": ""}
+            for n in tsv("numbers.tsv") if n["kind"] == "digit" and int(n["value"]) <= 5]
     gram = [{"form": g["form"], "gloss": GRAMMAR_GLOSS.get(g["gloss"], g["gloss"].lower()), "class": g["class"]}
             for g in tsv("grammar.tsv")]
     return lex, gram, tsv("compounds.tsv")
@@ -76,7 +106,9 @@ def dictionary_html(lex, gram, comp):
                       f'<td>{html.escape(c["literal"])}</td></tr>' for c in sorted(comp, key=lambda c: c["form"]))
     opts = "".join(f"<option>{f}</option>" for f in fields) + '<option value="grammar">grammar words</option><option value="compound">compounds</option>'
     return f'''<h1 id="dictionary">Dictionary</h1>
-<p>There are {len(lex)} root words and loans, {len(gram)} grammar words and {len(comp)} compounds.
+<p>There are {sum(w["field"] not in ("loan", "number", "unit") for w in lex)} root words, {sum(w["field"] == "loan" for w in lex)} loans,
+the numbers, {sum(w["field"] == "unit" for w in lex)} units of the optional senary measurement system, {len(gram)} grammar words
+and {len(comp)} compounds.
 The Common column runs from 5, the words to learn first, down to 1. Type in the box to filter, or click a
 column heading to sort. The grammar words are explained in <a href="language.html#13-grammar-words">section 13
 of the reference</a>.</p>
@@ -122,8 +154,8 @@ NOTES = {"rationale", "design-log"}
 NOTES_BANNER = ('<p class="notes">These are the project\'s working notes, kept for whoever works on the language next, '
                 'which is often an AI assistant. They are dense, but the reasons for everything are here.</p>')
 NAV = [("index", "Home"), ("learn", "Learn"), ("language", "Reference"), ("dictionary", "Dictionary"), ("examples", "Examples"),
-       ("rationale", "Design")]
-SECTION = {"design-log": "rationale", "measurement": "rationale"}  # pages shown under another menu item
+       ("why", "Design")]
+SECTION = {"rationale": "why", "design-log": "why", "measurement": "why"}  # pages shown under another menu item
 
 
 def page(name, title, body, toc, prev=None, nxt=None, extra=""):
@@ -183,7 +215,7 @@ def build():
     lesson_list = "\n## Lessons\n\n" + "\n".join(f"- [{t}]({n}.md)" for n, t, _ in lessons) + "\n"
     sources = [("index", "Home", read("site/index.md")), ("learn", "Learn", intro + lesson_list)]
     sources += [(n, t, b) for n, t, b in lessons]
-    sources += [("language", "Reference", read("docs/language.md")), ("rationale", "Why it is this way", read("docs/rationale.md")),
+    sources += [("language", "Reference", read("docs/language.md")), ("why", "Why is it like this?", read("docs/why.md")), ("rationale", "Design notes", read("docs/rationale.md")),
                 ("design-log", "Changelog", read("docs/design-log.md")), ("measurement", "Senary measurement", read("docs/measurement.md"))]
     # examples/*.md: one page each, listed on examples.html in the order of their file names
     ex_dir = os.path.join(ROOT, "examples")

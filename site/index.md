@@ -4,12 +4,32 @@ Apupiwe is a constructed language. Say it **AH-poo-pee-weh** ([ˈapupiwe]): stre
 
 It starts from a question. The world's languages have each worked out many of the same answers on their own, so what would you get if you took those shared answers and built one language from them, for children to grow up speaking? It's also a real language, and you can learn it here.
 
-It is still being designed, so words and rules change from time to time.
+It is still being designed, so words and rules change from time to time. It's designed by its author together with Claude, an AI assistant: Claude does most of the research, drafting and testing, and the author decides the questions that shape the language.
+
+## A first look
+
+Article 1 of the Universal Declaration of Human Rights:
+
+**ewo we tuko nume gan enpa, yen ibe bawe kige yen sogan kige. wan la lenu pume, yen lenu lugo musu upe yen musu yomo. wan la keya muge nen nen fu faba la.**
+
+    ewo     we   tuko   nume  gan   enpa,  yen  ibe   bawe        kige  yen  sogan  kige.
+    person  all  start  live  with  free   and  have  importance  same  and  right  same
+
+    wan  la  lenu  pume,  yen  lenu  lugo  musu   upe   yen  musu   yomo.
+    3    PL  can   think  and  can   know  thing  good  and  thing  bad
+
+    wan  la  keya  muge  nen nen     fu    faba     la.
+    3    PL  must  do    each.other  like  sibling  PL
+
+"All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood." The [whole declaration](example-01-udhr.md) is on the Examples page, with the English under each paragraph.
+
+## Where to go
 
 - [Learn it](learn.md) in fourteen short lessons written for English speakers.
 - The [reference](language.md) has every rule, with examples.
 - The [dictionary](dictionary.md) lists every word. Type in it to filter, or press / anywhere on the site to search.
-- The [design notes](rationale.md) explain why things are the way they are, and the [changelog](design-log.md) records every decision.
+- [Examples](examples.md): longer texts, where you can tap any word to see its meaning.
+- [Why is it like this?](why.md) answers the questions people ask first. The [design notes](rationale.md) explain every decision, and the [changelog](design-log.md) records when each was made.
 
 ## How it's built
 
