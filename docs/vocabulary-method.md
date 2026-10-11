@@ -23,7 +23,7 @@ For each concept, in order:
 2. If it's a doer, thing done or made, tool or place of an existing verb, it's a **built word** (`no`, `ge`, `du`, `pu`).
 3. If it's in the core pool and languages typically use a single unanalysable word for it (WOLD simplicity), it's a **root**.
 4. Otherwise it's a **compound with a stated relation** (`se`, `pi`, `li`, …).
-5. **Loans** only for names and brands.
+5. **Loans** only where the world shares a form (language.md section 11); names and brands keep their own spelling.
 
 ## 3. Where boundaries go (lump or split)
 
@@ -32,7 +32,7 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
 1. **A published efficiency model exists** (colour, kinship, numerals): the model plus human need decide, per the agreed target.
    - **Colour (decided, verified 2026-10-08, `research/notes/colour-vision.md`):** six basic roots (black, white, red, yellow, green, blue). The support is from colour *naming*, not eye physiology. The best-example colours in 110 unwritten languages cluster near these six, and every system with more than five basic terms separates blue and green. The "opponent channels" argument doesn't hold: the elementary hues don't line up with the eye's channels (Webster et al. 2000). Lumping green and blue (57% in WALS, a sample of mostly small societies) is a coarser cut of the same perceptual space, driven by low need ("there simply are not that many natural blue objects", Gibson et al. 2017), not a perceptual error. So separate blue rests on need plus naming data. Other colours are compounds (grey = white + dark). Stopping at six is a deliberate root-budget choice; industrial languages often have about 11 basic terms (unverified). Add roots if tests show colour meaning lost.
    - **Kinship:** roots mother, father, child, sibling (no sex), spouse. Cheap optional modifiers for older/younger and male/female; everything else composed ("mother's sibling"). Kinship systems vary too much to copy: 410 systems among 487 languages.
-   - **Numerals:** unchanged (base 6).
+   - **Numerals:** base 10 (language.md section 9).
 2. **Frequent alternatives in the same slot, where confusing them changes what the listener does → two roots.** This is the "action-relevant misunderstanding" test made concrete: left/right, buy/sell, lend/borrow, give/take. It agrees with the Goldilocks finding that languages avoid lumping meanings that compete in context.
 3. **Otherwise, the family-balanced lump rate** (agreed by the user, 2026-10-08):
    - lumped by ≥ 50% → one root; the narrow sense is built when needed (e.g. moon/month);

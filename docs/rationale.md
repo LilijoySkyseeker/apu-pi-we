@@ -42,7 +42,7 @@ These are the working methods; reuse them to keep changes consistent.
 | Decision | Why | How it was made | To change it |
 |---|---|---|---|
 | Vowels **a e i o u** | [evidence] the most common and most dispersed 5-vowel system (vowel dispersion, Liljencrants & Lindblom 1972) | — | Any vowel change rebuilds all words (`build.py build`), breaking the freeze. |
-| 13 consonants **p b t d k g m n f s l w y**; only three places (lips, tongue tip, back) | [evidence] Miller & Nicely 1955: place of articulation is the cue noise destroys first; voicing and nasality survive to −12 dB | Inventory compared at a 3,000-root scale (`build.py scale`): the inventory must leave room for that many distinct two-syllable words | `build.py` `FULL`. |
+| 13 consonants **p b t d k g m n f s l w y**; places: lips, tongue tip, tongue body (y), back | [evidence] Miller & Nicely 1955: place of articulation is the cue noise destroys first; voicing and nasality survive to −12 dB | Inventory compared at a 3,000-root scale (`build.py scale`): the inventory must leave room for that many distinct two-syllable words | `build.py` `FULL`. |
 | **/v/ and /z/ deleted** | [evidence] rare worldwide (PHOIBLE: 27% and 30%), /v/ confusable with /b/ and drifting toward /w/, /s/–/z/ merging; founders' sounds win (Hebrew) so rare sounds are at risk | `build.py scale`: removing /z/ cost almost nothing at 3,000 roots | Re-add in `FULL`; rebuild. |
 | Syllables **(C)V(n)**; vowel-only syllables only word-initially; **n** the only coda | [evidence] CV is universal and robust; one coda keeps words short without clusters | — | `Inventory` in `build.py`. |
 | No tones | [Claude] | Leaves pitch for intonation and emotion; tones are hard for adult learners (Gate) | — |
@@ -93,7 +93,7 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 
 ## 4. Grammar
 
-### 4.1 Six principles (language.md)
+### 4.1 Principles (language.md section 1; principle 7, "a precise way always exists; it need not always be used", is the user's rule)
 | Principle | Source | Why |
 |---|---|---|
 | 1. The common case costs nothing | [evidence] Zipf's law of abbreviation; research round 1 | Statements, ordinary belief, unknown source, the topic and unspecified time are unmarked; only departures cost a word. |
@@ -119,14 +119,14 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 - **pen / din** inclusive/exclusive "we" [evidence]: among the most stable distinctions (Greenhill et al. 2017) and English's "we" is a real ambiguity. **sun** logophor for reported speech. **nen** self.
 - Add-back trigger for a mechanical rule: a blind test shows listeners losing track where one would have caught it.
 
-### 4.5 Omission (rule 11)
+### 4.5 Omission (language.md 4.5)
 [user, yardstick layer 5] Anything context supplies may be left out, including verbs; fragments are grammatical (as in Mandarin, Japanese, Korean). Economy test 01: the language was ~1.5× English's syllables; the four fixes (tan/ben alone, bu topic, wan/yi topic, omission) cut 12% with meaning 44/44 on retest.
 
 ### 4.6 Smaller rules worth knowing the reason for
 - **Tense optional, aspect particles** (**sin le buntu**) [evidence]: native speakers and creoles keep preverbal aspect, drop compound tenses.
 - **Three modalities kept apart** (ability **lenu**, obligation **keya/wupi**, permission **efon**); epistemic "must/might" is confidence [evidence]: English *must/may* each mean two things.
 - **Conditions use confidence** (**don kon po** = counterfactual) [Claude]: no new grammar words needed.
-- **Clause attachment** (rule 15) [blind test on contract language, `backtranslation-04-nesting`]: position decides attachment; commas mark pauses where a phrase could run on. No clause-closing word; add a two-syllable one if attachment fails in a test.
+- **Clause attachment** (language.md 4.4) [blind test on contract language, `backtranslation-04-nesting`]: position decides attachment; commas mark pauses where a phrase could run on. No clause-closing word; add a two-syllable one if attachment fails in a test.
 - **Comparison "more X from Y"** (**ke … se**) [Claude]: reuses existing words.
 - **Time: anchor + offset, offset names its unit** [evidence]: relative-time metaphors ("move the meeting forward") are a documented ambiguity.
 
@@ -138,9 +138,9 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 ## 5. Words and vocabulary
 
 ### 5.1 Word building (`tests/wordbuilding-ab-01`)
-Four markers **no** (doer), **ge** (thing done/made), **du** (tool), **pu** (place) [evidence: the most widespread derivations; analytic languages all grow such heads from nouns]. Blind A/B: markers 71/76 vs generic heads 69/76; kept because shorter, and generic heads erode into markers anyway. Patient person = **ewo gun** + verb (**ge** was read as a thing). Noun bases link with **pi** or a verb, never a bare relation phrase (rule 8 would attach it to the verb). Bare noun+noun leaves the relation to guesswork (Štekauer; the blind test), so only for gender and listed compounds.
+Four markers **no** (doer), **ge** (thing done/made), **du** (tool), **pu** (place) [evidence: the most widespread derivations; analytic languages all grow such heads from nouns]. Blind A/B: markers 71/76 vs generic heads 69/76; kept because shorter, and generic heads erode into markers anyway. Patient person = **ewo man gun** + verb (**ge** was read as a thing). Noun bases link with **pi** or a verb, never a bare relation phrase (rule 8 would attach it to the verb). Bare noun+noun leaves the relation to guesswork (Štekauer; the blind test), so only for gender and listed compounds.
 
-### 5.2 How a new word is made (language.md)
+### 5.2 How a new word is made (vocabulary-method.md section 5)
 Say it with words you have → a new root only when earned (convergent basic concept, frequent modern concept, or a phrase failing a blind test) → the tools choose the sound → frequent phrases may be clipped later → names and technical words are adapted, not coined → offensive filter.
 
 ### 5.3 Which concepts get roots (`docs/vocabulary-method.md`, `vocabulary-plan.md`)
@@ -232,7 +232,7 @@ Decision rule for all of these [user]: where unrelated languages converge on a *
 | Stance position at sentence end; **a**, **buni**, **donon** | All 11 languages flagged stance; without seeds, **min**/**kon**/**ba** get pressed into it (principle 6) | Add more seeds if that happens anyway |
 | Topic opener **pi X,** | Every language can make the thing acted on the topic; only 162 of 373 have a passive (WALS 107) | Passive, result complements, articles: add back if a round trip loses meaning to them |
 | **manni** habitual; **gan momu** on purpose | Flagged by 5 and 6 languages; built or short words, no endings | — |
-| **tan**/**ben** alone for events; **bu**/**wan**/**yi** by topic; omission (rule 11) | Economy test 01: casual talk needs them; topic-based reference and dropping what context supplies are how Mandarin, Japanese, Korean and Algonquian work | Mechanical reference: add back if listeners lose track |
+| **tan**/**ben** alone for events; **bu**/**wan**/**yi** by topic; omission (language.md 4.5) | Economy test 01: casual talk needs them; topic-based reference and dropping what context supplies are how Mandarin, Japanese, Korean and Algonquian work | Mechanical reference: add back if listeners lose track |
 | Clock: both 12- and 24-hour | Speakers live in existing cultures; the two systems can coexist | — |
 | Weekdays ISO 8601 | Cultures' numbering conflicts (Monday = 1 or 2); tie-breaker: when conventions conflict, follow the international standard | Named weekdays: the 7-day week is itself one culture's |
 | Names keep their owner's spelling | Adapted names collided and became unrecognisable; most Latin-script languages keep spelling | — |
@@ -246,5 +246,5 @@ Decision rule for all of these [user]: where unrelated languages converge on a *
 1. **Validated mostly by its own instruments:** the confusion model is scored against itself; blind readers are AI agents with world knowledge. One human has read it aloud; none has listened.
 2. **English-centred:** listener data, test texts, readers, English glosses (ambiguous ones pinned with a second gloss since 2026-10-10), technical loans. "Universal" is a goal, not a result.
 3. **The full one-syllable space:** every future grammar word costs two syllables.
-4. **The watch list** (language.md, Open questions): confidence collapsing or used for emphasis, politeness taking over hedges, topic-based pronouns needing a mechanical fallback, aspect words unused.
+4. **The watch list** (drift.md): confidence collapsing or used for emphasis, politeness taking over hedges, topic-based pronouns needing a mechanical fallback, aspect words unused.
 5. **Frequency tiers and lump/split thresholds are judgement**, not data.

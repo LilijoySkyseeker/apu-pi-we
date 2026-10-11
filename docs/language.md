@@ -14,7 +14,7 @@ This document states what the language is. Why each part is the way it is: [rati
 2. **Heads come first, and position carries role.** Subject, verb, object. Content words that describe a noun follow it; content words that describe a verb follow it. Words never move to show their role.
 3. **Operators come before what they cover** (section 6).
 4. **Heavy goes last.** A noun's own modifiers come before its **pi** "of" phrase; long clauses go to the end; nothing may follow a relative clause in its phrase.
-5. **Doubling widens or strengthens** any word: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so".
+5. **Doubling widens or strengthens** any word (not digits in a number): **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so".
 6. **Every social pressure has its own word:** emphasis **ba**, **bi**; politeness **nun**; respect **lanno**; stance (section 7).
 7. **A precise way always exists; it need not always be used.** Anything the listener can supply may be left out (section 4.5), and any ambiguity can be removed by saying more.
 
@@ -27,16 +27,17 @@ This document states what the language is. Why each part is the way it is: [rati
   - grammar words: one syllable, unstressed (table, section 13);
   - digits 0–5: one syllable, stressed;
   - every other word: two or more syllables, stressed on the first.
+- **Words never change form:** no endings, no agreement, no case, no gender.
 - **Stress** is higher pitch on the stressed syllable, stepping down after it, not extra length. Rhythm is syllable-timed.
 - **Declination:** across a phrase, each stressed syllable is a little lower than the one before; pitch resets after a pause.
-- **No tones.** Pitch carries intonation and emotion only.
+- **No tones.** Pitch carries intonation and emotion only. A question needs no rising tone (its words make it a question); rising anyway is fine.
 - **Harmless variants,** inside content words only: k and g may sound like "ch" and "j" before i and e; a vowel plus n may become a nasal vowel; consonants between vowels may soften. Grammar words keep their consonants.
 - **Outside the sound system:** **mm** "heard you", **huh?** "say again", and any other interjection or hesitation sound speakers use; they carry no grammar.
 - **Native content words** never begin with a digit's syllable (**po fi sa ka da te**). Loans are exempt.
 
 ## 3. Writing
 
-- **Letters:** a b d e f g i k l m n o p s t u w y, one per sound, no accents. Spelling follows the standard pronunciation; the harmless variants are not written. Stress is not written.
+- **Letters:** a b d e f g i k l m n o p s t u w y, one per sound, no accents; never digits inside a word. Spelling follows the standard pronunciation; the harmless variants are not written. Stress is not written.
 - **Lowercase** is the standard. Capitals carry no meaning and are harmless.
 - **Marks that carry grammar:**
 
@@ -47,8 +48,8 @@ This document states what the language is. Why each part is the way it is: [rati
   | `" "` | around quoted speech |
 
   `?` and `!` are allowed and add nothing; `-` and `:` are not used in the language's own words.
-- **Passes through as written:** digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, personal and brand names (section 11). They are read aloud as the speaker's culture reads them, or by their borrowed names (sections 9.3, 11).
-- **Numbers in writing:** digits, grouped in threes with a space (`1 250 000`), `.` as the decimal point. A senary number is marked `₆` (or `_6`).
+- **Passes through as written:** digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3); clock notation in the speaker's clock style (8.3); other notation as the speaker's culture reads it.
+- **Numbers in writing:** digits, grouped in threes from the decimal point with a space (`1 250 000`), `.` as the decimal point. A senary number is marked `₆` (or `_6`).
 - **Word boundaries:** words are written apart; a phrase said fast keeps its spaces until a fused form actually changes sound and becomes a new word.
 
 ## 4. The sentence
@@ -94,14 +95,14 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 
 ### 4.4 Clauses and relation phrases
 
-- **A relation phrase** (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun; give a noun any other relation with a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons (9.3) and quantities (9.2) **se**, **tun** and **fu** belong to their number or adjective.
+- **A relation phrase** (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun; give a noun any other relation with a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3) **se**, **tun** and **fu** belong to their number or adjective.
 - **A relation word may drop its object** when context supplies it (**wo** "after that", **ya** "beforehand"). It then ends its clause or comes before a pause.
 - **A relation word can take a clause** (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").
 - **Clause attachment:**
   - a relative clause attaches to the nearest noun before it;
-  - a time, reason or condition clause at the **start** of a sentence belongs to the main clause; at the **end**, to the innermost clause before it: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning".
+  - a time, reason or condition clause at the **start** of a sentence belongs to the main clause; at the **end**, to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning".
 - **Joining:** **yen** "and", **lu** "or", **un** "but" join nouns, verbs, modifiers or clauses. To list nouns rather than modify one with another, use **yen**: **mole yen wede** "mother and father". **lu X lu Y** = "either X or Y, not both".
-- **Quotes:** framed by a say-verb; quotation marks in writing. A quote is its own sentence with its own speech-act particle.
+- **Quotes:** framed by a say-verb; quotation marks in writing. A quote is its own sentence with its own speech-act particle. Broken-off speech just stops.
 
 ### 4.5 Leaving things out
 
@@ -140,7 +141,7 @@ In casual writing, pauses that context makes obvious may be dropped.
 - **Question words** are built: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **gi yu** why; **fu yu** how; **wifu yu** how many/much; **pi ewo yu** whose.
 - **Choices:** **min … lu …** "either?"; **… lu … yu** "which?" (answer by echoing the choice).
 - **Indirect question:** **yu** or **min** inside a **wun** clause: **to mu lugo wun min …** "I don't know whether …".
-- **Answers echo the verb;** there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered **gun** / **mu gun**. Acknowledgment: **mm** heard; an echo understood; **de** + verb "will do".
+- **Answers echo the verb;** there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. Acknowledgment: **mm** heard; an echo understood; **de** + verb "will do".
 
 ## 5. The noun phrase
 
@@ -156,7 +157,7 @@ Noun, content modifiers, number, **la**, determiner, **pi** phrase, relative cla
 - **Number:** noun + number = a count (**dili oma** "seven days"); noun + **pi** + number = a label (**kemin pi sa** "document 2").
 - **Plural la** is optional; a count or context can show plurality.
 - **There are no articles.** Known vs new is left to context, or shown with **tan**, **ben**, **bo** or a number.
-- **Determiners** (table, section 13) follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something". A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". Part of a whole: determiner or number + **pi** + noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three".
+- **Determiners** (table, section 13), and **mesun** "each", follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it, so to give a recipient a standalone determiner as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". Part of a whole: determiner or number + **pi** + noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three".
 - **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it.
 
 ### 5.3 Relative clauses
@@ -198,7 +199,7 @@ They start the clause (slot 5) and cover all of it.
 They cover the word or phrase right after them; before the verb they cover the predicate.
 - **mu** not (**to mu yidu bu** "I didn't take it"; **mu mu** emphatic);
 - **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
-- **konsin** at least; **nedin** almost; **mesun** each (after its noun: **pu nume mesun** "each home");
+- **konsin** at least; **nedin** almost; **mesun** each;
 - degree words **ke** more, **bi** very, **tason** rather (**ke kudu** "bigger"; **nimo ke uyo** "less money").
 - **Order before the verb:** phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**.
 
@@ -217,9 +218,8 @@ They cover the word or phrase right after them; before the verb they cover the p
 | **ba** | exclamation: surprise or strong feeling |
 | **genso** | not literal (irony, joking); **genso genso** the whole turn |
 
-- A statement has no particle.
-- **genso** or **ba** may come before another particle: **genso min me lugo** "as if you'd know"; **ba min** a surprised or indignant question.
-- One particle covers one sentence.
+- A statement has no particle. Each sentence has one speech act.
+- **genso** or **ba** may modify it from in front of its particle: **genso min me lugo** "as if you'd know"; **ba min** a surprised or indignant question.
 - Someone else's intention is reported (**inwun**) or stated with time words and **kon**; **de** is only for the speaker's own commitment.
 
 ### 7.2 Stance (slot 13)
@@ -258,7 +258,7 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
   - **12-hour:** the hour counted (1–12), then the minutes as two digits, then optionally **pi** + part of the day: **mon mape ka po pi yami** "at 9:30 at night"; **mon yawu po sa** "at 10:02"; on the hour, the hour alone: **mon yawu sa** "at 12".
   - **Parts of the day:** **leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening, **yami** night; midnight = **yawu sa pi yami**.
   - **About** a time: **fu** before it: **mon fu minfi** "around noon".
-- **Weekdays:** **dili pi** + 1–7, Monday = 1 (ISO 8601): **dili pi ka** "Wednesday".
+- **Weekdays:** **dili pi** + 1–7 on its own, Monday = 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month.
 - **Dates:** larger unit first, a pause between: **dunan pi yawu, dili pi mape** "October 9"; a weekday with a time: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".
 - **Senary calendar:** [measurement.md](measurement.md).
 
@@ -277,7 +277,7 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
 ### 9.2 Reading numbers
 
 - **Quantity reading:** place words in descending order, each preceded by its digit; a 1 before a place word is dropped; zero places are skipped: 15 **yawu te**, 50 **te yawu**, 42 **da yawu sa**, 105 **loki te**. A group word takes a whole number before it: 250 000 = **sa loki te yawu munno**.
-- **Digit reading:** one digit at a time, for identifiers, phone numbers and codes (in groups of three from the right), and for years and 24-hour clock times (as one four-digit group).
+- **Digit reading:** one digit at a time, whenever the exact digits matter more than the size: identifiers, phone numbers and codes (in groups of three from the right), years and 24-hour clock times (as one four-digit group).
 - **Labels** (noun + **pi** + number) under 100 use the quantity reading (**dili pi yawu da** "day 14"); larger labels use digit reading.
 - **Decimals:** **mimi** "point": 1.5 = **fi mimi te**. **guti** minus; **unun** "× 10 to the": **ka unun guti ufo** = 3 × 10⁻⁶.
 - **Senary numbers:** **senali** + digits: **senali sa po** = 20₆ = 12.
@@ -311,9 +311,9 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
 
 - **wan** "he/she": the person or animal being talked about. **yi** another one who isn't the topic: **wan nagu yi** "she saw him". A newcomer is **yi** or named until the speaker makes them the topic.
 - **bu** "it": the thing being talked about. **ben** alone: a thing that isn't the topic: **min me momu bu lu ben yu.** "this one or that one?"
-- **tan** / **ben** alone for an event, statement or situation: **tan** nearer (what I'm saying, here and now), **ben** further (what you said, an earlier event): **ben gun upe** "that's good"; **gi tan** "so". After a recipient, use **tun**: **to iko ben tun wan** "I told him that".
+- **tan** / **ben** alone for an event, statement or situation: **tan** nearer (what I'm saying, here and now), **ben** further (what you said, an earlier event): **ben gun upe** "that's good"; **gi tan** "so". (For a recipient, see 5.2.)
 - **sun** in reported speech or thought: the person whose words are reported.
-- **go** anyone, people in general; an unknown doer is **ewo bo**.
+- **go** anyone, people in general; **me** is only ever the listener, never generic. An unknown doer is **ewo bo**.
 - **nen** self: as object, reflexive (**to kuwi nen** "I keep myself"); after a noun or pronoun, "in person" (**wan nen obu** "he came himself").
 - **pen** we including you, **din** we not including you.
 - A pronoun never means the subject of its own clause (that's **nen**). The listener finds referents from context; if it could be unclear, name them.
@@ -326,14 +326,14 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
   - two vowels in a row get a glide: y after i or e, w otherwise;
   - a consonant that can't stand where it is gets an added **u**;
   - the result has at least two syllables (glide included: **tuwu**).
-- **Loans** (no **en**) only where the world shares a form, taken in that international form: **dola** dollar, **minitu**, **kilamita**, **pasentu**, **intalunetu**, **imeyilu**, **kamela**, **foto**. Everything else is said with native words, built words or phrases.
+- **Loans** (no **en**) only where the world shares a form, taken in that international form; a loan enters the lexicon once it is common, and until then near-collisions are tolerated: **dola** dollar, **minitu**, **kilamita**, **pasentu**, **intalunetu**, **imeyilu**, **kamela**, **foto**. Everything else is said with native words, built words or phrases.
 - **Computers and interfaces** use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**, settings **ge finsa la**, computer **du sunbu** (`compounds.tsv`). **doku** "work" covers a machine working.
 - **Letters as labels** (flat 3B) pass through and are read as the speaker's culture reads them.
 - **New words** are made by the method in [vocabulary-method.md](vocabulary-method.md).
 
 ## 12. Conditions and modality
 
-- **Conditions:** **don** "if" + clause. **don kon po** "if (and it isn't so)" is counterfactual: **don kon po to sin isi, to sin nagu wan** "if I had gone, I would have seen her". The main clause is the consequence; there is no "would".
+- **Conditions:** **don** "if" + clause. **kon** + number after **don** says how likely the condition is: **don kon fi** "if (unlikely)"; **don kon po** "if (and it isn't so)" is counterfactual: **don kon po to sin isi, to sin nagu wan** "if I had gone, I would have seen her". The main clause is the consequence; there is no "would".
 - **Modality, three kinds:** ability **lenu** "can"; obligation **keya** "must", **wupi** "need to, should" (for anyone); permission **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).
 - **Purpose:** **li** + verb "in order to": **li bika** "to buy".
 - **Let's:** **so pen** …; **don't:** **tin mu** ….
@@ -363,4 +363,4 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
 
 - [../data/lexicon.tsv](../data/lexicon.tsv): roots and loans, each with a field and a frequency tier (1 rare – 5 most common). [../data/grammar.tsv](../data/grammar.tsv): grammar words. [../data/numbers.tsv](../data/numbers.tsv): number words. [../data/compounds.tsv](../data/compounds.tsv): established compounds.
 - A gloss with a second gloss after a comma fixes the sense: **gufu** "hard, not soft". A root means that sense only.
-- One root may cover senses most language families lump: **apu** "word; language".
+- One root may cover senses most language families lump: **apu** "word; language"; context tells them apart.

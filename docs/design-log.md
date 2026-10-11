@@ -566,3 +566,27 @@ Sources were left in `tests/grammar-rebuild/` rather than a new `grammar.tsv` co
 ## Documentation and publishing plan (user, 2026-10-10)
 
 The docs have two readers, AI and humans; the spec lives as a structured source with checks, and the human docs are generated from it (doxygen-style). Specs state the current design only; reasoning goes to the rationale and history to the changelog. The project goes public to share it because it's cool; contributions are welcome but not sought. It will later move to skyseekerlabs.net. Order: consistency pass → structured spec + parser → static site → public. See `roadmap.md`.
+
+## Consistency pass, phase 1 (2026-10-10)
+
+- **Inputs:** a fresh-eyes read (27 contradictions, 32 gaps, 23 stale examples, 60 non-spec passages, 24 structure issues) and a triage of 152 translator questions (49 clarifications, 4 design issues) (`tests/consistency-01/`).
+- **Seven design decisions approved by the user:**
+  1. operator scope: clause operators (confidence, source) vs phrase operators (**mu**, **na**, **fe**, **wi**, **o**, degree, **konsin**, **nedin**, **manni**);
+  2. 12-hour minutes as two digits (**yawu po sa** 10:02);
+  3. a derived word's phrasal base runs to the end of its phrase;
+  4. loans exempt from the digit-syllable rule;
+  5. interjections pass through unspelled;
+  6. letter labels pass through;
+  7. "enough" **tonya**.
+- **The reference rewritten as pure spec** around sentence and noun-phrase slot templates.
+  - Reasoning moved to the rationale, history here, word-making to vocabulary-method section 5, the watch list to drift.md.
+  - Clarifications from the triage written in: question words, aspect combinations, standalone determiners, part-of-whole, relative clauses with non-subject gaps, the pause list, **ewo bo** for an unknown doer, **ewo man gun** for a patient, **tan** = mine/here vs **ben** = yours/earlier, and others.
+  - Harmless sound variants restricted to content words.
+  - Names in examples use their owners' spelling.
+- **Data:**
+  - 13 ambiguous glosses pinned; **lowu**/**futa** = "male"/"female" for gender;
+  - **muyi** "time, a span or a point";
+  - **wan** labelled he/she;
+  - compounds **park.a.car** and **bat.the.animal**.
+- **A rule inventory (old vs new) found 13 lost rules, 11 unlisted changes and 7 contradictions.** The lost rules were restored, 6 of the 7 contradictions fixed, and the unlisted changes are the triage clarifications above.
+- **Open, for the user:** noun + content word (**ewo niba**, **guyi kudu**), clause or phrase. This was ambiguous in the old reference too.
