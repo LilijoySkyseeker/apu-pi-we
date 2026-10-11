@@ -308,7 +308,7 @@ def build():
     print(f"content words: {n}; 3-syllable: {sum(len(f) == 3 for f in forms)}; "
           f"confusion per word {confusion_total(inv, forms, freq, W) / freq.sum():.5f}")
     write("grammar.tsv", grammar, ["gloss", "class", "freq", "form"])
-    write("lexicon.tsv", lex, ["gloss", "field", "tier", "form"])
+    write("lexicon.tsv", lex, ["gloss", "field", "tier", "form", "kind"])
     with open(os.path.join(DATA, "rename-2026-10-08.tsv"), "w") as fh:
         fh.write("kind\tgloss\told\tnew\n")
         for g in grammar:
@@ -415,7 +415,7 @@ def numbers3(seed=21):
         rows.append({"value": w, "kind": kinds[w], "form": inv.show(pool[k])})
     write("numbers.tsv", rows, ["value", "kind", "form"])
     lex += [{"gloss": r["value"], "field": "number", "tier": "3", "form": r["form"]} for r in rows if r["kind"] != "digit"]
-    write("lexicon.tsv", lex, ["gloss", "field", "tier", "form"])
+    write("lexicon.tsv", lex, ["gloss", "field", "tier", "form", "kind"])
     for r in rows:
         print(f"{r['value']:>6} {r['kind']:6} {r['form']}")
 

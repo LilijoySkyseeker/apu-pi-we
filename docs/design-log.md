@@ -590,3 +590,5 @@ The docs have two readers, AI and humans; the spec lives as a structured source 
   - compounds **park.a.car** and **bat.the.animal**.
 - **A rule inventory (old vs new) found 13 lost rules, 11 unlisted changes and 7 contradictions.** The lost rules were restored, 6 of the 7 contradictions fixed, and the unlisted changes are the triage clarifications above.
 - **Open, for the user:** noun + content word (**ewo niba**, **guyi kudu**), clause or phrase. This was ambiguous in the old reference too.
+
+**Noun + content word decided (user, option A, 2026-10-10):** each root has a default kind (thing, action, quality, operator), recorded in a new `kind` column of `lexicon.tsv` (field-based, with per-word decisions for the mind, time, sense and space fields). A quality after a noun describes it, and **gun** makes it a predicate. An action after a subject is the verb, and **man** makes it describe a noun. A thing after a noun is only gender or a listed compound. This is how Indonesian, Thai and Mandarin handle the same word order. `words.py add-content` takes `--kind` (default from the field) and keeps the column.

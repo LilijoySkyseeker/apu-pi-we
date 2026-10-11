@@ -77,8 +77,11 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 
 ### 4.2 The verb and its objects
 
-- **A content word's role comes from its position.** Any content word can be a noun, a verb or a modifier: **sepi** "apologise / an apology".
-- **After a subject, the next content word is the verb:** **ewo niba** "the person walks". To describe a noun with a verb, use a relative clause: **ewo man niba** "the person who walks" (5.3).
+- **Each root has a default kind:** thing, action or quality (the `kind` column of `lexicon.tsv`). Position and two markers decide its role:
+  - after a noun, a **quality** describes it: **guyi kudu** "the big house". To say the noun *is* so, use **gun**: **guyi gun kudu** "the house is big".
+  - after a subject, an **action** is the verb: **ewo niba** "the person walks". To describe a noun with an action, use **man**: **ewo man niba** "the person who walks" (5.3).
+  - a **thing** right after a noun is only gender or a listed compound (5.2).
+  - Any root can still take another role by position: an action as the object or with a derivation marker is a noun (**sepi** "apologise / an apology"); a quality after a verb is the manner.
 - **Object or manner:** a content word after the verb is its object if the verb takes one, otherwise its manner: **oyi fanse** "say calmly". To mark manner unambiguously after an object, put it after the object: **nawi pasu yobe**.
 - **Two objects:** recipient, then thing: **tofo me nuta** "teach you fear".
 - **Verb + verb:** if the first verb takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second describes the first: **goyu pume** "sit thinking".
@@ -151,7 +154,7 @@ Noun, content modifiers, number, **la**, determiner, **pi** phrase, relative cla
 
 ### 5.2 Parts
 
-- **Content modifiers** follow the noun: **guyi kudu** "big house".
+- **Quality words** follow the noun and describe it: **guyi kudu** "big house". An action word describes a noun only through **man** (5.3).
 - **Gender** is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
 - **Noun + noun** is used only for gender and for the compounds in `compounds.tsv`. For other relations, use **pi** or a relative clause.
 - **Number:** noun + number = a count (**dili oma** "seven days"); noun + **pi** + number = a label (**kemin pi sa** "document 2").
@@ -361,6 +364,6 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
 
 ## 14. Vocabulary
 
-- [../data/lexicon.tsv](../data/lexicon.tsv): roots and loans, each with a field and a frequency tier (1 rare – 5 most common). [../data/grammar.tsv](../data/grammar.tsv): grammar words. [../data/numbers.tsv](../data/numbers.tsv): number words. [../data/compounds.tsv](../data/compounds.tsv): established compounds.
+- [../data/lexicon.tsv](../data/lexicon.tsv): roots and loans, each with a field, a frequency tier (1 rare – 5 most common) and a default kind (thing, action, quality, operator; section 4.2). [../data/grammar.tsv](../data/grammar.tsv): grammar words. [../data/numbers.tsv](../data/numbers.tsv): number words. [../data/compounds.tsv](../data/compounds.tsv): established compounds.
 - A gloss with a second gloss after a comma fixes the sense: **gufu** "hard, not soft". A root means that sense only.
 - One root may cover senses most language families lump: **apu** "word; language"; context tells them apart.
