@@ -120,7 +120,7 @@ Position can also make any word a noun. As an object, **sepi** "apologise" becom
 
 - with a noun: **wan gun tiwu.** "She is a child."
 - with a place: **wan gun mon guyi.** "He's at home." (**mon** "at", lesson 7)
-- with an action word, it gives the state that results: **gun tapi** "is closed"
+- with an action word, it gives the state of whoever the action is done to: **gun tapi** "is closed", **wan gun kuwi** "she is protected". So **to gun nuta** is "I am feared"; to say "I'm afraid", use the plain verb, **to nuta** (I fear)
 - after another verb, it means "to be": **momu gun tiwu** "want to be a child"
 - with no subject, it means "there is": **gun musu feli.** "There are many things."
 

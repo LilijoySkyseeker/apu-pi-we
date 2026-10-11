@@ -355,7 +355,7 @@ type = "bullet"
 title = "What you mean picks the clear form"
 text = '''
 - For any content word, what you mean decides the clear form:
-  - for a state ("is big", "is afraid"), use **gun** + word: **guyi gun kudu** "the house is big", **to gun nuta** "I'm afraid";
+  - for a state ("is big", "is closed"), use **gun** + word: **guyi gun kudu** "the house is big". A feeling named by an action word is said with the plain verb: **to nuta** "I'm afraid" (I fear);
   - for an event ("walks", "is walking", "walked"), use the word as the verb, with an aspect word when precision matters: **ewo le niba** "the person is walking", **ewo manni niba** "the person (usually) walks", **ewo sin niba** "the person walked";
   - for a description of a noun ("the person who walks", "the house that is big"), use **man**: **ewo man niba**, **guyi man gun kudu**.'''
 
@@ -676,7 +676,7 @@ type = "bullet"
 title = "gun"
 gap = 0
 text = '''
-- **gun** before an action word gives the resulting state: **gun tapi** "is closed".'''
+- **gun** before an action word gives the state of whoever undergoes the action: **gun tapi** "is closed", **wan gun kuwi** "she is protected", **to gun nuta** "I am feared". This holds for every action word, feelings included; the one who feels takes the plain verb (**to nuta** "I'm afraid").'''
 
 [[item]]
 id = "4.7.5"

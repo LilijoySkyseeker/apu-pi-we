@@ -87,7 +87,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 ### 4.2 The verb and its objects
 
 - For any content word, what you mean decides the clear form:
-  - for a state ("is big", "is afraid"), use **gun** + word: **guyi gun kudu** "the house is big", **to gun nuta** "I'm afraid";
+  - for a state ("is big", "is closed"), use **gun** + word: **guyi gun kudu** "the house is big". A feeling named by an action word is said with the plain verb: **to nuta** "I'm afraid" (I fear);
   - for an event ("walks", "is walking", "walked"), use the word as the verb, with an aspect word when precision matters: **ewo le niba** "the person is walking", **ewo manni niba** "the person (usually) walks", **ewo sin niba** "the person walked";
   - for a description of a noun ("the person who walks", "the house that is big"), use **man**: **ewo man niba**, **guyi man gun kudu**.
 - A bare noun followed by a word (**guyi kudu**, **ewo niba**) may be a description or a statement. Context decides, and the clear forms above remove any doubt.
@@ -142,7 +142,7 @@ In casual writing, pauses that context makes obvious may be dropped.
 - **gun** goes before a state: **guyi gun kudu** "the house is big". Without it, **guyi kudu** is normally read as "the big house".
 - **gun** goes before a noun: **wan gun tiwu** "she is a child".
 - **gun** goes before a place phrase: **wan gun mon guyi** "he is at home".
-- **gun** before an action word gives the resulting state: **gun tapi** "is closed".
+- **gun** before an action word gives the state of whoever undergoes the action: **gun tapi** "is closed", **wan gun kuwi** "she is protected", **to gun nuta** "I am feared". This holds for every action word, feelings included; the one who feels takes the plain verb (**to nuta** "I'm afraid").
 - **gun** before a **wun** clause means "is that …".
 - After **man**, after another verb, after **li**, and after **yen**, **lu** or **un** joining verbs, a **gun** with no subject is "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **go ibe sogan li gun kuwi** "everyone has the right to be protected", **wan obu yen gun simi** "she came and is sick".
 - **gun** with no subject means "there is" only at the start of a sentence, right after an opener's pause, or at the start of a clause after **don**, **gi**, **nin**, **wo**, **ya** or **wun** (**don gun pasu** "if there is food"). Phrase operators, **kon** and aspect words in front of it count as part of that start: **mu gun pasu** "there's no food"; **un, gun musu feli** "but there are many things".
