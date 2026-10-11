@@ -642,3 +642,12 @@ A first-principles look at the language's goals. They were spread over five docu
 - Tabled: a measured pass on "without", "against" and "until" as grammar words, by the grammar-rebuild procedure.
 
 **English name: Apupiwe (author, 2026-10-11).** Outside the language the name is one word, Apupiwe, as conlangs and natural languages usually have, and it is easier to search and say. Inside the language it stays **apu pi we**, since every language name is the phrase **apu pi** + whose language it is, as German is *Deutsch* in German. The author then renamed the repo to `apupiwe`, so the site moved to lilijoyskyseeker.github.io/apupiwe.
+
+**Clarifications (2026-10-11, author cleared Claude to settle these).** None changes how the language works; each makes a rule say what it already meant.
+- 2.3: the syllable rule now says "no consonant before its vowel" (**a**, **en**) instead of "vowel-only", so Vn syllables are clearly covered.
+- 4.6: the pause between joined clauses ending in a noun applies to **lu** too; it prevents the same noun-list misreading as with **yen** and **un**.
+- 9.3: "most" has its own example, **ke kudu se we** "biggest", so the gloss no longer sits on **se we** alone.
+- 11.5: "flat 3B" is now "apartment 3B".
+- 12.2: dropped the unexplained "(for anyone)" after **wupi**.
+- 6.2: phrase operators also cover a phrase that opens the sentence (**na mon funti, …**).
+- learn.md: lesson 4 says **genso** can stand before a plain statement (its example did that); lesson 7 says **pi** is the only word that links nouns *as a description*, lists use **yen**; lesson 13 points out **mu keya** "don't have to" vs **keya mu** "must not".

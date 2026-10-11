@@ -31,7 +31,7 @@ Any adult can learn it. Explicitness for learners is never bought at the cost of
 
 - The vowels are a e i o u. Every syllable keeps its full vowel.
 - There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g).
-- A syllable has the shape (C)V(n). A vowel-only syllable occurs only at the start of a word. The only consonant that can end a syllable is n.
+- A syllable has the shape (C)V(n). A syllable with no consonant before its vowel (**a**, **en**) occurs only at the start of a word. The only consonant that can end a syllable is n.
 - Words fall into three types by sound:
   - grammar words have one unstressed syllable (table in section 13);
   - the digits 0–5 have one stressed syllable;
@@ -128,7 +128,7 @@ A pause, written as a comma, goes wherever a phrase could otherwise run on. It b
 - after an opener (linker, scene, topic, if/when clause);
 - after a subject that contains a clause or a phrasal derived word, before its verb (**no sanwa man … sin sege, keya unfu …**);
 - between a recipient and a long object;
-- between clauses joined by **yen**/**un** when the first ends in a noun;
+- between clauses joined by **yen**, **lu** or **un** when the first ends in a noun;
 - before a stance word;
 - between a larger and a smaller calendar unit (**dunan pi yawu, dili pi mape**);
 - after a relative clause, to close it before more material.
@@ -209,7 +209,7 @@ Clause operators start the clause (slot 5) and cover all of it.
 
 ### 6.2 Phrase operators
 
-Phrase operators cover the word or phrase right after them. Before the verb, they cover the predicate.
+Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**na mon funti, …** "only in the community, …"). Before the verb, they cover the predicate.
 - **mu** not (**to mu yidu bu** "I didn't take it"; **mu mu** emphatic);
 - **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
 - to add a whole statement ("also, …"), start with **yen**; **fe** before the verb means the subject also does it;
@@ -301,7 +301,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 - For "about", put **fu** before the number: **ewo fu ka yawu** "about 30 people".
 - A range is **se** X **tun** Y. "At least" is **konsin** X, and "at most" is **mu ke se** X.
 - "Enough" is **tonya**.
-- A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", use **ke** + quality + **se we** "more … than all". For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").
+- A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", compare with everything: **ke kudu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").
 - Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km". The native unit roots in the lexicon belong to the senary system ([measurement.md](measurement.md)).
 
 ## 10. People
@@ -342,13 +342,13 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
   - the result has at least two syllables, counting a glide (**tuwu**).
 - Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dola** dollar, **minitu**, **kilamita**, **pasentu**, **intalunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.
 - Computers and interfaces use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**, settings **ge finsa la**, computer **du sunbu** (`compounds.tsv`). **doku** "work" covers a machine working.
-- Letters used as labels (flat 3B) pass through and are read as the speaker's culture reads them.
+- Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.
 - New words are made by the method in [vocabulary-method.md](vocabulary-method.md).
 
 ## 12. Conditions and modality
 
 - A condition is **don** "if" + clause. **kon** + number after **don** says how likely the condition is: **don kon fi** "if (unlikely)". **don kon po** "if (and it isn't so)" is counterfactual: **don kon po to sin isi, to sin nagu wan** "if I had gone, I would have seen her". The main clause is the consequence, and there is no "would".
-- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should" (for anyone); and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).
+- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).
 - Purpose is **li** + verb, "in order to": **li bika** "to buy".
 - "Let's" is **so pen** …, and "don't" is **tin mu** ….
 

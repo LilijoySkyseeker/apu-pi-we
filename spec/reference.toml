@@ -166,7 +166,7 @@ type = "bullet"
 title = "Syllables"
 gap = 0
 text = '''
-- A syllable has the shape (C)V(n). A vowel-only syllable occurs only at the start of a word. The only consonant that can end a syllable is n.'''
+- A syllable has the shape (C)V(n). A syllable with no consonant before its vowel (**a**, **en**) occurs only at the start of a word. The only consonant that can end a syllable is n.'''
 
 [[item]]
 id = "2.4"
@@ -594,7 +594,7 @@ id = "4.6.6"
 type = "bullet"
 gap = 0
 text = '''
-- between clauses joined by **yen**/**un** when the first ends in a noun;'''
+- between clauses joined by **yen**, **lu** or **un** when the first ends in a noun;'''
 
 [[item]]
 id = "4.6.7"
@@ -999,7 +999,7 @@ text = '''
 id = "6.2.1"
 type = "para"
 text = '''
-Phrase operators cover the word or phrase right after them. Before the verb, they cover the predicate.'''
+Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**na mon funti, …** "only in the community, …"). Before the verb, they cover the predicate.'''
 
 [[item]]
 id = "6.2.2"
@@ -1427,7 +1427,7 @@ type = "bullet"
 title = "Comparison"
 gap = 0
 text = '''
-- A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", use **ke** + quality + **se we** "more … than all". For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").'''
+- A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", compare with everything: **ke kudu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").'''
 
 [[item]]
 id = "9.3.5"
@@ -1650,7 +1650,7 @@ type = "bullet"
 title = "Letters as labels"
 gap = 0
 text = '''
-- Letters used as labels (flat 3B) pass through and are read as the speaker's culture reads them.'''
+- Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.'''
 
 [[item]]
 id = "11.6"
@@ -1681,7 +1681,7 @@ type = "bullet"
 title = "Modality, three kinds"
 gap = 0
 text = '''
-- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should" (for anyone); and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).'''
+- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).'''
 
 [[item]]
 id = "12.3"

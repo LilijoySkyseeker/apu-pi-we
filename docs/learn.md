@@ -189,7 +189,7 @@ A command needs **tin**: **tin obu.** "Come." On its own, **obu.** is a statemen
 
 For a request, use **so**: **so neke to osa.** "Give me water?" "Please" is **so nun**, which you'll meet in lesson 8.
 
-**genso** and **ba** can go in front of another particle. **ba min** is a surprised or indignant question. With **genso** you get things like **genso min me lugo.** "As if you'd know." and **genso to gun bi sogi.** "I'm *so* happy." (sarcastic)
+**genso** and **ba** can go in front of another particle, and **genso** can also go in front of a plain statement. **ba min** is a surprised or indignant question. With **genso** you get things like **genso min me lugo.** "As if you'd know." and **genso to gun bi sogi.** "I'm *so* happy." (sarcastic)
 
 **de** is only for your own plans, or your group's. To talk about someone else's plan, use a time word or **kon** "how sure" (lesson 13).
 
@@ -273,7 +273,7 @@ The relation words come before their noun, as in English:
 - **nin** during
 - **ya** before, **wo** after (on their own they mean "beforehand" and "after that")
 
-**pi** is the only word that joins one noun to another. English can build "house key" or "the road above the river" directly. Here "house key" needs **pi**: **tinli pi guyi** "house key" (key of house). Any other relation takes a **man** clause, which is explained in lesson 12: **sola man gun mon bige pi yolan** "the road above the river".
+**pi** is the only word that links one noun to another as a description (a list of nouns just uses **yen** "and"). English can build "house key" or "the road above the river" directly. Here "house key" needs **pi**: **tinli pi guyi** "house key" (key of house). Any other relation takes a **man** clause, which is explained in lesson 12: **sola man gun mon bige pi yolan** "the road above the river".
 
 Two nouns side by side are used only for gender (**tiwu futa**) and for the fixed compounds in the [compounds list](../data/compounds.tsv).
 
@@ -441,7 +441,7 @@ A quote follows a say-verb and is a full sentence with its own particle: **wan o
 
 ## Lesson 13: Can, must, maybe
 
-**lenu** is "can": **to lenu lonfe.** "I can swim." **keya** is "must", and **wupi** is "need to" or "should": **pen wupi isi.** "We need to go." **efon** is "allow": **me gun efon nawi** "you may eat" (you are allowed to eat). **li** with a verb means "in order to": **li bika** "to buy".
+**lenu** is "can": **to lenu lonfe.** "I can swim." **keya** is "must", and **wupi** is "need to" or "should": **pen wupi isi.** "We need to go." Watch where **mu** "not" goes, since it covers what comes right after it: **mu keya** is "don't have to", and **keya mu** is "must not". **efon** is "allow": **me gun efon nawi** "you may eat" (you are allowed to eat). **li** with a verb means "in order to": **li bika** "to buy".
 
 ### How sure you are, in sixths
 
