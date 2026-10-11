@@ -1,0 +1,21 @@
+# Site settings. Build with: tools/site.py (it stages the pages, then runs mkdocs).
+site_name: Apu Pi We
+site_description: A thought experiment in the best human language, built from what the world's languages share.
+docs_dir: ../build/site-src
+site_dir: ../build/site
+use_directory_urls: false
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - scheme: slate
+      toggle: {icon: material/weather-sunny, name: Light mode}
+markdown_extensions:
+  - toc: {permalink: true}
+  - tables
+  - attr_list
