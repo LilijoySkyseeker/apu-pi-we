@@ -146,8 +146,9 @@ def page(name, title, body, toc, prev=None, nxt=None, extra=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · Apu Pi We</title>
 <link rel="stylesheet" href="style.css">
+<script>try {{ var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; }} catch (e) {{}}</script>
 </head><body>
-<header><a class="site" href="index.html">Apu Pi We</a> <nav>{nav} <a href="{REPO}">Source</a></nav>
+<header><a class="site" href="index.html">Apu Pi We</a> <nav>{nav} <a href="{REPO}">Source</a> <button id="theme" type="button" hidden>dark</button></nav>
 <form class="search" action="search.html" role="search"><input id="q" name="q" type="search" placeholder="search  ( / )" autocomplete="off" aria-label="Search"><ol id="hits" hidden></ol></form></header>
 <div class="wrap">{side}<main>
 {body}
@@ -166,7 +167,7 @@ def plain(fragment):
 def sections(name, title, body):
     """Search entries: one per h1-h3 section."""
     out = []
-    for m in re.finditer(r'<h([123]) id="([^"]+)">(.*?)</h\1>(.*?)(?=<h[123] id=|\Z)', body, re.S):
+    for m in re.finditer(r'<h([123])[^>]*? id="([^"]+)"[^>]*>(.*?)</h\1>(.*?)(?=<h[123][ >]|\Z)', body, re.S):
         head = plain(re.sub(r'<a class="headerlink".*?</a>', "", m.group(3)))
         out.append({"t": head, "p": title, "u": f"{name}.html#{m.group(2)}", "x": plain(m.group(4))[:2000]})
     return out

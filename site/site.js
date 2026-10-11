@@ -1,6 +1,19 @@
 // Search (press / anywhere), hover meanings for words, and the dictionary's filter and sort.
 // Every page reads fine without this file.
 (function () {
+  // Light/dark toggle: starts from the system setting, remembers a choice.
+  var tb = document.getElementById("theme"), root = document.documentElement;
+  function dark() {
+    return root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+  function label() { tb.textContent = dark() ? "light" : "dark"; }
+  tb.hidden = false; label();
+  tb.addEventListener("click", function () {
+    root.dataset.theme = dark() ? "light" : "dark";
+    try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+    label();
+  });
+
   var data = null, waiting = [];
   function load(cb) {
     if (data) return cb(data);

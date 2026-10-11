@@ -1,8 +1,11 @@
 /* Plain and dense on purpose: system fonts, underlined links, thin rules, no decoration. */
 :root { --bg: #fff; --fg: #111; --dim: #555; --rule: #bbb; --head: #e8e8e0; --link: #0645ad; --visited: #663399; --hi: #ffef9e; --zebra: #f6f6f2; }
+/* Dark follows the system unless the header button chose a theme (data-theme on <html>). */
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #161616; --fg: #ddd; --dim: #999; --rule: #444; --head: #262622; --link: #8cb4ff; --visited: #c7a3ff; --hi: #5a4a00; --zebra: #1d1d1b; }
+  :root:not([data-theme="light"]) { --bg: #161616; --fg: #ddd; --dim: #999; --rule: #444; --head: #262622; --link: #8cb4ff; --visited: #c7a3ff; --hi: #5a4a00; --zebra: #1d1d1b; }
 }
+:root[data-theme="dark"] { --bg: #161616; --fg: #ddd; --dim: #999; --rule: #444; --head: #262622; --link: #8cb4ff; --visited: #c7a3ff; --hi: #5a4a00; --zebra: #1d1d1b; }
+#theme { font: inherit; color: var(--link); background: none; border: none; padding: 0; text-decoration: underline; cursor: pointer; }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 Verdana, "DejaVu Sans", Geneva, sans-serif; }

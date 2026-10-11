@@ -1,6 +1,6 @@
 # Apu Pi We
 
-Apu Pi We is a constructed language. The name means "everyone's language".
+Apu Pi We is a constructed language. Say it **AH-poo pee weh** ([ˈapu pi we]): stress only the first syllable, and say *we* like "wet" without the t. The name means "everyone's language".
 
 The idea: the world's languages have each, separately, worked out the same answers to a lot of problems. Take those shared answers and build one language for children to grow up speaking. What would it look like? It's also meant to be a real language that people learn and use, and you can start today.
 

@@ -42,8 +42,8 @@ predicate: phop* "manni"? asp* C det* ("pi" np)* relcl? obj? (obj | "," longobj)
 longobj: np
 obj: np
 gunarg: np obj? | relp | "wun" clause
-trail: relp | ","? subcl | "wun" "min"? clop* clause | "li" C obj?
-relp: phop* REL (np | np predicate | relp)
+trail: relp | ","? subcl | "wun" "min"? clop* clause
+relp: phop* REL (np | np predicate | relp) | "li" C obj  // li + verb + its object: purpose
 np: phop* head det* ("pi" np)* relcl? (JOIN np)?
 head: PRON | NAME | "lanno"? C N? | C ("ke" | "bi" | PHOP) C | DERIV C? (np | relp)? | DERIV "pi" np | N | DET | "yu" | "lanno" NAME?
 relcl: "man" clause REL?
