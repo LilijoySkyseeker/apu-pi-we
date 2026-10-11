@@ -807,7 +807,7 @@ type = "bullet"
 title = "Number"
 gap = 0
 text = '''
-- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2").'''
+- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2"), and a label also gives a place in order: **gimu pi ka** "the third time", **ewo pi fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time".'''
 
 [[item]]
 id = "5.2.6"

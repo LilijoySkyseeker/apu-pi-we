@@ -331,7 +331,7 @@ The place words are **yawu** 10, **loki** 100, **munno** 1000, **tonen** million
 
 Nothing is irregular, and there are no teens and no "-ty". English makes you learn *eleven*, *twelve*, *fifteen* and *fifty* one by one, but here they fall out of the rule. **munno**, **tonen** and **siwin** take a whole number in front, as in the last row.
 
-To count things, put the number after the thing: **totu sa** "two dogs", **dili oma** "seven days". A label puts **pi** between the thing and the number: **dili pi yawu da** "day 14", **dunan pi yawu** "month 10" (October). From 100 up, a label is read digit by digit.
+To count things, put the number after the thing: **totu sa** "two dogs", **dili oma** "seven days". A label puts **pi** between the thing and the number: **dili pi yawu da** "day 14", **dunan pi yawu** "month 10" (October). Labels also give order, so there are no separate words like "third": **gimu pi ka** "the third time", **ewo pi fi** "the first person", and with **fugi** "end", **gimu pi fugi** "the last time". From 100 up, a label is read digit by digit.
 
 Phone numbers, codes and years are read digit by digit too, so 2026 as a year is **sa po sa ufo**. Phone numbers and codes are grouped in threes from the right.
 

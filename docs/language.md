@@ -166,7 +166,7 @@ A noun phrase runs in this order: noun, content modifiers, number, **la**, deter
 - Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
 - Noun + noun is used only for gender and for the compounds in `compounds.tsv`. Other relations use **pi** or a relative clause.
 - Numbers and times can stand alone as noun phrases: **mon yawu gun upe** "10 o'clock is fine".
-- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2").
+- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2"), and a label also gives a place in order: **gimu pi ka** "the third time", **ewo pi fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time".
 - The plural word **la** is optional. A count or context can show plurality.
 - There are no articles. Whether something is known or new is left to context, or shown with **tan**, **ben**, **bo** or a number.
 - Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three".

@@ -651,3 +651,5 @@ A first-principles look at the language's goals. They were spread over five docu
 - 12.2: dropped the unexplained "(for anyone)" after **wupi**.
 - 6.2: phrase operators also cover a phrase that opens the sentence (**na mon funti, …**).
 - learn.md: lesson 4 says **genso** can stand before a plain statement (its example did that); lesson 7 says **pi** is the only word that links nouns *as a description*, lists use **yen**; lesson 13 points out **mu keya** "don't have to" vs **keya mu** "must not".
+
+**Ordinals (author, 2026-10-11).** A label (noun + **pi** + number) also gives a place in order: **gimu pi ka** "the third time"; "last" is **pi fugi**. Most languages build ordinals from numbers with one fixed marker (Mandarin *dì-*, Indonesian *ke-*, Swahili *-a*), and the label already is that marker. Chosen over an ordinal word (would need a grammar slot, and label vs position rarely differ in practice) and a separate root for "first" (memorisation for no saving). Closes the ordinal gap open since the restructure A/B.
