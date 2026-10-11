@@ -2,9 +2,9 @@
 
 The United Nations adopted the Universal Declaration of Human Rights in 1948. It is the most translated document in the world, which makes it a good first long text for any language. This translation was made from the English and checked against the French, which is equally official.
 
-Each paragraph is followed by the original English. Point at or tap an Apu Pi We word to see what it means.
+Each paragraph is followed by the original English. Point at or tap an Apupiwe word to see what it means.
 
-Some ideas in the declaration don't have a single word in Apu Pi We yet, so they are described. Religion is **lite pi nosen** "the way of God", a court is **pu pi wabun** "a place of law", and the United Nations is **funti pi gigin la** "the group of countries".
+Some ideas in the declaration don't have a single word in Apupiwe yet, so they are described. Religion is **lite pi nosen** "the way of God", a court is **pu pi wabun** "a place of law", and the United Nations is **funti pi gigin la** "the group of countries".
 
 The English text is from the United Nations, as published by the UDHR in Unicode project.
 
@@ -12,7 +12,7 @@ The English text is from the United Nations, as published by the UDHR in Unicode
 
 ## tuko pi kemin {.apu}
 
-ewo mesun pi yonyo pi ewo we ibe bawe pi ewo gi wan gun ewo. ewo we fe ibe sogan kige. go mu lenu yidu bu la se wan. mon fowo minwe, yinki pi enpa gun wun ewo we tayu tan. ben fe gun yinki pi denku, yen gun yinki pi bonwi.
+ewo mesun pi yonyo pi ewo we ibe bawe pi ewo gi wan gun ewo. ewo we fe ibe sogan kige. go mu lenu yidu bu la se wan. mon fowo minwe, yinki pi enpa gun wun ewo we tayu tan. ben fe gun yinki pi kidun, yen gun yinki pi bonwi.
 {.apu}
 
 > Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,
@@ -94,7 +94,7 @@ go mu gun efon muge bi wekun go gan momu. go fe mu gun efon muge go bi yomo, lu 
 
 ## wabun pi 6 {.apu}
 
-mon kemu we, go ibe sogan li wabun la pume wan fu ewo.
+mon kemu we, go ibe sogan li gun ewo li wabun.
 {.apu}
 
 > Everyone has the right to recognition everywhere as a person before the law.
@@ -122,7 +122,7 @@ don wabun denku mu efon, go mu gun efon yidu go, lu yonnu go, lu muge kusa go se
 
 ## wabun pi 10 {.apu}
 
-don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma denku wan. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu la tan pi wabun keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
+don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma kidun wan. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu la tan pi wabun keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
 {.apu}
 
 > Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
@@ -172,19 +172,19 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 ## wabun pi 15 {.apu}
 
-1\. go ibe sogan li ibe gigin.
+1\. go ibe sogan li gun ewo pi gigin bo.
 {.apu}
 
 > 1\. Everyone has the right to a nationality.
 
-2\. don wabun denku mu efon, go mu gun efon yidu gigin pi wan se wan, lu yidu sogan man wan ibe li kubo gigin pi nen.
+2\. don wabun denku mu efon, go mu gun efon yidu sogan man wan ibe li gun ewo pi gigin pi nen, lu yidu sogan man wan ibe li lewe ewo pi gigin eni.
 {.apu}
 
 > 2\. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.
 
 ## wabun pi 16 {.apu}
 
-1\. don lowu lu futa sin guge, wan ibe sogan li bedan. wan fe ibe sogan li tuko yonyo. niki pi ewo mu lenu bamo tan. gigin fe mu lenu bamo tan. lite pi nosen fe mu lenu bamo tan. lowu yen futa ibe sogan kige li bedan. wan la fe ibe sogan kige nin bedan. wan la fe ibe sogan kige mon fugi pi bedan.
+1\. don lowu lu futa sin guge, wan ibe sogan li bedan. wan fe ibe sogan li tuko yonyo. niki pi ewo mu lenu bamo tan. wi don wan la gun ewo pi gigin eni, ben fe mu lenu bamo tan. lite pi nosen fe mu lenu bamo tan. lowu yen futa ibe sogan kige li bedan. wan la fe ibe sogan kige nin bedan. wan la fe ibe sogan kige mon fugi pi bedan.
 {.apu}
 
 > 1\. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution.
@@ -263,7 +263,7 @@ go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man 
 
 ## wabun pi 23 {.apu}
 
-1\. go ibe sogan li doku. wan fe ibe sogan li waka enpa doku pi nen. wan fe ibe sogan li doku man gun denku yen upe. wan fe ibe sogan li gigin kuwi wan se mu ibe doku.
+1\. go ibe sogan li doku. wan fe ibe sogan li waka enpa doku pi nen. wan fe ibe sogan li doku man gun kidun yen upe. wan fe ibe sogan li gigin kuwi wan se mu ibe doku.
 {.apu}
 
 > 1\. Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment.
@@ -273,7 +273,7 @@ go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man 
 
 > 2\. Everyone, without any discrimination, has the right to equal pay for equal work.
 
-3\. ewo man doku, ibe sogan li nimo man gun denku yen upe. wan yen yonyo pi wan keya lenu nume gan bawe pi ewo gan nimo tan. don wan wupi bu, ewo we yen gigin fe keya yema wan fu lite eni.
+3\. ewo man doku, ibe sogan li nimo man gun kidun yen upe. wan yen yonyo pi wan keya lenu nume gan bawe pi ewo gan nimo tan. don wan wupi bu, ewo we yen gigin fe keya yema wan fu lite eni.
 {.apu}
 
 > 3\. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection.
@@ -285,19 +285,19 @@ go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man 
 
 ## wabun pi 24 {.apu}
 
-go ibe sogan li bamo doku. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu keya doku awuwa bi feli. tan fe gun wun wan ibe dili enpa gan nimo moti moti.
+go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu keya doku awuwa bi feli. tan fe gun wun wan ibe dili enpa gan nimo moti moti.
 {.apu}
 
 > Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.
 
 ## wabun pi 25 {.apu}
 
-1\. go yen yonyo pi wan ibe sogan li ibe tonya li pata upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi, lu mu lenu doku, lu gun pani, lu ofin pi wan sin kono, lu mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li yema se ewo we yen gigin.
+1\. go yen yonyo pi wan ibe sogan li ibe tonya li pata upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi, lu mu lenu doku, lu gun pani, lu ofin pi wan sin kono, lu mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li gun yema se ewo we yen gigin.
 {.apu}
 
 > 1\. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.
 
-2\. mole yen tiwu ibe sogan li kuwi ke feli, yen ibe sogan li yema ke feli. pi tiwu we, wi don mole pi wan la yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi kige wan la.
+2\. mole yen tiwu ibe sogan li gun kuwi ke feli, yen ibe sogan li gun yema ke feli. pi tiwu we, wi don mole pi wan la yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi kige wan la.
 {.apu}
 
 > 2\. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.
@@ -345,7 +345,7 @@ go ibe sogan li yile man sogan we pi kemin tan lenu lewe feko minwe mon. yile ta
 
 > 1\. Everyone has duties to the community in which alone the free and full development of his personality is possible.
 
-2\. nin go bone sogan pi nen, na wabun la gun efon muge ke uyo sogan pi wan. wabun la gun efon muge ben na li ukun sa. ukun fi gun wun go tayu sogan pi ewo eni, yen dundi bu la. mon ewo we man waka no wungu pi nen, ukun eni gun wun ewo we kuwi denku lite upe, yen kuwi bonwi, yen kuwi upe pi ewo we.
+2\. nin go bone sogan pi nen, na wabun la gun efon muge ke uyo sogan pi wan. wabun la gun efon muge ben na li ukun sa. ukun fi gun wun go tayu sogan pi ewo eni, yen dundi bu la. mon ewo we man waka no wungu pi nen, ukun eni gun wun ewo we kuwi kidun lite upe, yen kuwi bonwi, yen kuwi upe pi ewo we.
 {.apu}
 
 > 2\. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society.

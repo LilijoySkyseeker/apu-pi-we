@@ -257,3 +257,27 @@ Checked all 42 sentences with **pi** and **yen**/**lu** against 5.2 (a **pi** ph
 - Art 26.2: **funti we pi lite pi nosen lu ge pume feko** → **funti we pi lite pi nosen lu funti we pi ge pume feko**. It strictly read "all religious groups, or belief".
 - Checks: `check.py --text` finds no unknown words. Parser unchanged at 152 one reading, 24 several and 2 no parse (the same Art 5 and Art 11.2 gaps).
 - Preamble 6, Art 26.2: **dundi enpa bawe yen sogan pi ewo** → **dundi sogan pi ewo yen enpa bawe**. A quality right after a verb is its manner (4.2), so it read "respect freely"; a noun first avoids that.
+
+## Revision 6 (joined-verbs rule)
+
+Checked all 18 sentences where verbs joined by **yen**/**lu**/**un** are followed by a phrase or clause against 4.4 (a phrase or clause at the end belongs to the last verb only). In every one, the trailing part was meant for the last verb only, or each verb already has its own copy (Art 5, 11.2, 18, 22 **li tan**). Openers (Preamble 2, Art 2.2, 9, 12, 14.2, 15.2, 25.1, 29.2, 29.3) already cover all their verbs.
+- No changes.
+- Borderline, unchanged: Art 29.1 **go lenu guge enpa yen minwe na mon funti**. **enpa yen minwe** is meant as two manner words, which 4.4 doesn't cover. If **minwe** is read as a joined verb ("and is whole"), "only in the community" would cover only it. The parser gives one reading, the same shape as the rule's example.
+- Checks: `check.py --text` finds no unknown words. Parser: 150 one reading, 26 several, 2 no parse (the same Art 5 and Art 11.2 gaps). Revision 5 reported 152/24; Preamble 6 and Art 26.2 (**dundi sogan pi ewo yen enpa bawe**) now have 2 readings each. This revision changed no text, so that difference comes from Revision 5's last fix or the current parser edits.
+
+## Revision 7 (passive after li, nationality, yenbo, kidun)
+
+- Preamble 1: justice **yinki pi denku** → **yinki pi kidun**. Bare **kidun** as the noun, the same way **enpa** "free" is "freedom" in **yinki pi enpa** next to it; no **lite**/**musu** needed.
+- Art 6: **go ibe sogan li wabun la pume wan fu ewo** → **go ibe sogan li gun ewo li wabun** "the right to be a person before the law" (**li wabun** as in Art 7). One reading (was 2).
+- Art 10: fair hearing **doma denku wan** → **doma kidun wan**.
+- Art 15.1: **sogan li ibe gigin** → **sogan li gun ewo pi gigin bo**.
+- Art 15.2: **yidu gigin pi wan se wan, lu yidu sogan man wan ibe li kubo gigin pi nen** → **yidu sogan man wan ibe li gun ewo pi gigin pi nen, lu yidu sogan man wan ibe li lewe ewo pi gigin eni** "take the right he has to be a person of his country, or the right he has to become a person of another country". A relative clause, because **sogan pi wan li …** would hang **li** on **yidu** (4.4).
+- Art 16.1: **gigin fe mu lenu bamo tan** (read as "the state can't stop this") → **wi don wan la gun ewo pi gigin eni, ben fe mu lenu bamo tan** "even if they are people of another country, that can't stop this either".
+- Art 23.1, 23.3: **man gun denku yen upe** → **man gun kidun yen upe** (just conditions, just pay).
+- Art 24: **sogan li bamo doku** → **sogan li yenbo**.
+- Art 25.1: **sogan li yema se ewo we yen gigin** → **sogan li gun yema se …** "to be helped by", so the right-holder can't be read as the helper.
+- Art 25.2: **sogan li kuwi ke feli, … li yema ke feli** → **li gun kuwi ke feli, … li gun yema ke feli**. Mothers and children are now the ones protected and helped. The second sentence keeps **ewo we kuwi kige wan la**, since it names society as the protector.
+- Art 29.2: just requirements **kuwi denku lite upe** → **kuwi kidun lite upe**.
+- Not changed: **wabun denku** "a proper law" for "arbitrary" (Art 9, 12, 15.2, 17.2). It means lawful, not justice; swapping it for **kidun** is a separate choice. Art 3 **sonli** and the doer-named rights (Art 7, 12, 16.3, 23.1, 25.2 second sentence, 27.2) keep their doer.
+- Not used: **go mu keya gun V** for "no one shall be V-ed". In this text **mu keya** is "doesn't have to" (Art 20.2 **go mu keya inwa funti**), so it would read "no one has to be held", not a ban. The active **go mu gun efon V** stays (Art 4, 5, 9, 17.2).
+- Checks: `check.py --text` finds no unknown words. Parser: 151 one reading, 25 several, 2 no parse (the same Art 5 and Art 11.2 gaps). Every new sentence parses with one reading, except Art 25.1, which keeps its earlier 2 (Y attachment of **yen gigin** after **se**).

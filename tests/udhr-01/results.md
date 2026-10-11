@@ -10,7 +10,7 @@ The author asked for the Universal Declaration of Human Rights as the site's fir
 | Paragraphs fully kept / core kept / wrong | 31 / 27 / 0 | 46 / 12 / 0 |
 | Losses by cause: missing word / grammar / translator | 8 / 6 / 13 | 3 / 3 / 6 |
 
-v3 fixed the six translator losses of v2; not re-scored.
+v3 fixed the six translator losses of v2. Revisions 4–7 applied the rules decided afterwards (pi is one noun, joined verbs, **li gun** "to be", nationality, **yenbo**, **kidun**). Not re-scored since v2.
 
 **New roots:** **dundi** respect/honour, **gigin** country/nation (design log).
 
