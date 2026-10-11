@@ -172,7 +172,7 @@ So **me nume mon kemu yu.** "Where do you live?"
 
 A choice can be offered two ways: **min me momu osa lu pasu.** "Do you want water or food (either one)?" and **me momu osa lu pasu yu.** "Which do you want, water or food?" Answer by echoing your choice: **osa**.
 
-Questions can also sit inside a sentence, after **wun** "that", which introduces a clause: **to mu lugo wun min wan obu.** "I don't know whether she's coming." **to mu lugo wun ewo yu obu.** "I don't know who is coming."
+Questions can also sit inside a sentence, after **wun** "that", which introduces a clause: **to mu lugo wun min wan obu.** "I don't know whether she's coming." **to mu lugo wun min ewo yu obu.** "I don't know who is coming." The **min** is what makes it a question inside the sentence. Without it, **me momu wun to oyi yu** is a real question: "You want me to say what?"
 
 ### What kind of sentence it is
 

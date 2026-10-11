@@ -153,7 +153,7 @@ In casual writing, pauses that context makes obvious may be dropped.
 - Question words stay where the answer goes and need no **min**: **me momu wun to oyi yu.** "you want me to say what?"
 - Question words are built from **yu**: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **gi yu** why; **fu yu** how; **wifu yu** how many/much; **pi ewo yu** whose. **wifu yu** follows its noun the way a number does: **ewo wifu yu** "how many people".
 - To offer a choice, ask **min … lu …** "either?", or ask **… lu …, yu** "which?" with a pause before **yu** so it isn't read as "which X". That second kind is answered by echoing the choice.
-- An indirect question puts **yu** or **min** inside a **wun** clause: **to mu lugo wun min …** "I don't know whether …".
+- An indirect question starts its **wun** clause with **min**, with or without a question word: **to mu lugo wun min wan obu** "I don't know whether she's coming", **to mu lugo wun min ewo yu obu** "I don't know who is coming". Without **min**, a question word anywhere in the sentence makes the whole sentence a question: **me momu wun to oyi yu** "you want me to say what?"
 - Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. To acknowledge, **mm** says you heard, an echo says you understood, and **de** + verb says "will do".
 
 ## 5. The noun phrase
