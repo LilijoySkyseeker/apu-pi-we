@@ -8,6 +8,7 @@ one reading under the pause rules (4.6).
 
   python parse.py               # every example in spec/reference.toml: no parse / several readings
   python parse.py "to o unfu"   # one sentence and its readings
+  python parse.py --file F      # every sentence in a text (headings and {.attr} lines skipped)
 
 Needs lark: nix-shell -p 'python3.withPackages(ps: [ps.lark])'
 """
@@ -32,19 +33,19 @@ choice: "yu"
 end: ","? stance | "," call
 call: np
 opener: "gi" "tan" | JOIN | relp | "pi" np | subcl
-subcl: SUBLINK clop* clause
+subcl: phop* SUBLINK clop* clause
 actp: ("genso" | "ba")? ACT "nun"* | "nun"+
 clop: "kon" (N | "bo") | SOURCE
 clause: (np | heavy)? predicate (","? JOIN (np | heavy)? predicate)*
 heavy: np ","
-predicate: phop* "manni"? asp* C det* ("pi" np)* relcl? obj? (obj | "," longobj)? trail* | phop* "gun" gunarg trail*
+predicate: phop* "manni"? asp* C det* ("pi" np)* relcl? obj? (obj | "," longobj)? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
 longobj: np
 obj: np
-gunarg: np | relp | "wun" clause
-trail: relp | ","? subcl | "wun" clop* clause | "li" C
+gunarg: np obj? | relp | "wun" clause
+trail: relp | ","? subcl | "wun" "min"? clop* clause | "li" C obj?
 relp: phop* REL (np | np predicate | relp)
 np: phop* head det* ("pi" np)* relcl? (JOIN np)?
-head: PRON | NAME | "lanno"? C N? | DERIV C? (np | relp)? | DERIV "pi" np | N | DET | "yu" | "lanno" NAME?
+head: PRON | NAME | "lanno"? C N? | C ("ke" | "bi" | PHOP) C | DERIV C? (np | relp)? | DERIV "pi" np | N | DET | "yu" | "lanno" NAME?
 relcl: "man" clause REL?
 date: C "pi" N "," C "pi" N
 stance: "min" | "a" | "buni" | "donon"
@@ -168,6 +169,22 @@ def parse(sentence):
 
 
 if __name__ == "__main__":
+    if sys.argv[1:2] == ["--file"]:
+        # A text file: every line that isn't a heading or a {.attr} line is Apu Pi We prose.
+        counts, worst = {0: 0, 1: 0, 2: 0}, []
+        for line in open(sys.argv[2]):
+            line = re.sub(r"^\d+\. ", "", line.strip())
+            if not line or line.startswith(("#", "{")):
+                continue
+            for s in clean(line):
+                n, t = parse(s)
+                counts[min(n, 2)] += 1
+                if n != 1:
+                    worst.append((n, s))
+        print(f"one reading: {counts[1]}   several readings: {counts[2]}   no parse: {counts[0]}")
+        for n, s in worst:
+            print(f"  {n}  {s}")
+        sys.exit()
     if len(sys.argv) > 1:
         for s in clean(" ".join(sys.argv[1:])):
             n, t = parse(s)

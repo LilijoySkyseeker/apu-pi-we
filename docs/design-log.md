@@ -624,3 +624,9 @@ A first-principles look at the language's goals. They were spread over five docu
 - 11.5: "(flat 3B)" is unexplained.
 - learn.md lesson 4: the **genso to gun bi sogi** example doesn't show **genso** before another particle, which is what it illustrates.
 - learn.md lesson 7: "**pi** is the only word that joins one noun to another" reads as clashing with **yen** in lists.
+
+**UDHR translation, new roots (author asked for the declaration as an example page, adding words as needed, 2026-10-11).** A terminology pass over the whole text (`tests/udhr-01/terms.md`, 92 concepts) found every concept sayable with existing words, but two earn roots:
+- **dundi** "respect, honour": no word existed; the workarounds needed three different phrases up to 7 syllables, and all eight check languages (Mandarin, Hindi, Arabic, Spanish, Russian, Indonesian, Swahili, Japanese) have a simple word. Dignity is built from it. RESPECT is not in CLICS, so the evidence is typological, not colexification. Remove trigger: blind readers get respect and dignity right from phrases alone.
+- **gigin** "country, nation": CLICS lumps country with land in about 43% of families, so the method's default is to build it from **fowo** ("land of a people", 5 syllables). Overridden on frequency: it appears about 28 times in the declaration and is common in modern text in every language (the modern-layer rule). Remove trigger: the phrase proves cheap in real use.
+- Kept as phrases, with add-back triggers in terms.md: be born, judge, boundary. No loans: no candidate form is shared by all eight check languages.
+- Open grammar questions from the pass: "without", "against" and "until" have no word (workarounds: **gan X fa**, **se** or a direct object, **ya** + clause); a noun taking **li** ("a right *to*"); **gun** + verb as a general passive is used but not stated.

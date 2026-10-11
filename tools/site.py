@@ -121,13 +121,13 @@ TITLES = {"language": "the reference", "rationale": "why it is this way", "desig
 NOTES = {"rationale", "design-log"}
 NOTES_BANNER = ('<p class="notes">These are the project\'s working notes, kept for whoever works on the language next, '
                 'which is often an AI assistant. They are dense, but the reasons for everything are here.</p>')
-NAV = [("index", "Home"), ("learn", "Learn"), ("language", "Reference"), ("dictionary", "Dictionary"),
+NAV = [("index", "Home"), ("learn", "Learn"), ("language", "Reference"), ("dictionary", "Dictionary"), ("examples", "Examples"),
        ("rationale", "Design")]
-SECTION = {"design-log": "rationale", "measurement": "rationale"}
+SECTION = {"design-log": "rationale", "measurement": "rationale"}  # pages shown under another menu item
 
 
 def page(name, title, body, toc, prev=None, nxt=None, extra=""):
-    current = SECTION.get(name, "learn" if name.startswith("learn") else name)
+    current = SECTION.get(name, "learn" if name.startswith("learn") else "examples" if name.startswith("example") else name)
     nav = " ".join(f'<a href="{n}.html"{" class=here" if n == current else ""}>{t}</a>' for n, t in NAV)
     lesson = name.startswith("learn-")
     def flat(tokens):
@@ -184,6 +184,15 @@ def build():
     sources += [(n, t, b) for n, t, b in lessons]
     sources += [("language", "Reference", read("docs/language.md")), ("rationale", "Why it is this way", read("docs/rationale.md")),
                 ("design-log", "Changelog", read("docs/design-log.md")), ("measurement", "Senary measurement", read("docs/measurement.md"))]
+    # examples/*.md: one page each, listed on examples.html in the order of their file names
+    ex_dir = os.path.join(ROOT, "examples")
+    ex = []
+    for f in sorted(os.listdir(ex_dir)) if os.path.isdir(ex_dir) else []:
+        if f.endswith(".md") and f != "index.md":
+            text = read(f"examples/{f}")
+            ex.append(("example-" + f[:-3], text.splitlines()[0].lstrip("# "), text))
+    ex_index = read("examples/index.md") + "\n" + "\n".join(f"- [{t}]({n}.md)" for n, t, _ in ex) + "\n"
+    sources += [("examples", "Examples", ex_index)] + ex
     names = {n for n, _, _ in sources} | {"dictionary"}
     index = []
     order = ["learn"] + [n for n, _, _ in lessons]

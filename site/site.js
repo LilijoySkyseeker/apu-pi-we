@@ -82,6 +82,37 @@
     });
   });
 
+  // Example texts: every known word in a paragraph marked {.apu} shows its meaning on hover or tap.
+  var apu = document.querySelectorAll(".apu");
+  if (apu.length) load(function (d) {
+    var tip = document.createElement("div");
+    tip.id = "tip"; tip.hidden = true; document.body.appendChild(tip);
+    [].forEach.call(apu, function (el) {
+      var walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodes = [];
+      while (walk.nextNode()) nodes.push(walk.currentNode);
+      nodes.forEach(function (n) {
+        var frag = document.createDocumentFragment();
+        n.textContent.split(/([a-z]+)/).forEach(function (part) {
+          if (d.words[part]) {
+            var w = document.createElement("span");
+            w.className = "w"; w.textContent = part; w.title = d.words[part];
+            frag.appendChild(w);
+          } else frag.appendChild(document.createTextNode(part));
+        });
+        n.parentNode.replaceChild(frag, n);
+      });
+    });
+    document.addEventListener("click", function (ev) {
+      var w = ev.target.closest && ev.target.closest(".w");
+      if (!w) { tip.hidden = true; return; }
+      var r = w.getBoundingClientRect();
+      tip.textContent = w.textContent + ": " + w.title;
+      tip.style.left = Math.max(4, Math.min(r.left + scrollX, scrollX + innerWidth - 260)) + "px";
+      tip.style.top = (r.bottom + scrollY + 4) + "px";
+      tip.hidden = false;
+    });
+  });
+
   // Dictionary: filter as you type, by topic, and sort any table by clicking its heading.
   var f = document.getElementById("dict-filter"), field = document.getElementById("dict-field");
   if (f) {

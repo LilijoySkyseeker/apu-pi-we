@@ -52,6 +52,11 @@ table.dict td:first-child a { text-decoration: none; }
 .filter input { font: inherit; width: 18em; padding: 0.1em 0.3em; border: 1px solid var(--rule); background: var(--bg); color: var(--fg); }
 .filter select { font: inherit; background: var(--bg); color: var(--fg); border: 1px solid var(--rule); }
 #dict-count { color: var(--dim); }
+.apu { font-size: 1.05em; margin-bottom: 0.2em; }
+.apu + blockquote { margin-top: 0; }
+.w { cursor: pointer; }
+.w:hover { background: var(--hi); }
+#tip { position: absolute; z-index: 3; max-width: 250px; padding: 0.2em 0.5em; background: var(--bg); border: 1px solid var(--fg); font-size: 14px; }
 b[title] { border-bottom: 1px dotted var(--dim); cursor: help; }
 
 .pn { display: flex; justify-content: space-between; margin-top: 2em; padding-top: 0.5em; border-top: 1px solid var(--rule); }
