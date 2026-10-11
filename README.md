@@ -46,8 +46,8 @@ Senary, a base-six measurement system, is a sibling project. Apu Pi We has words
 
 ## Contributing
 
-This is a work in progress, but issues are welcome: questions, gaps you hit while using the language, or mistakes you spot.
+This is a work in progress, but issues are welcome: questions, gaps you hit while using the language, or mistakes you spot. Anything you contribute is released under CC0 too.
 
 ## Licence
 
-Text and data are [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), and the code in `tools/` is MIT. Some data comes from other projects; see [data/SOURCES.md](data/SOURCES.md) and [LICENSE](LICENSE).
+Public domain. Everything made for this project, text, data and code, is dedicated to the public domain under [CC0](LICENSE): use it for anything, no permission or credit needed. A few data files come from other projects and keep their own licences; see [data/SOURCES.md](data/SOURCES.md).

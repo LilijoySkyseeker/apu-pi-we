@@ -148,7 +148,7 @@ def page(name, title, body, toc, prev=None, nxt=None, extra=""):
 {body}
 {pn}{extra}
 </main></div>
-<footer>Still in design: words and rules may change. Text CC BY-SA 4.0 · <a href="{REPO}">source</a> · <a href="{REPO}/issues">report a problem</a></footer>
+<footer>Still in design: words and rules may change. Public domain (CC0) · <a href="{REPO}">source</a> · <a href="{REPO}/issues">report a problem</a></footer>
 <script src="site.js"></script>
 </body></html>
 '''

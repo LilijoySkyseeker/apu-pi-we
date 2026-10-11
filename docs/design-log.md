@@ -613,3 +613,5 @@ A first-principles look at the language's goals. They were spread over five docu
 - **Open, small:** with nested relative clauses, does one pause close all of them? The parser assumes yes. No example nests.
 
 **Parser questions decided (user, 2026-10-11):** after a time, **wo**/**ya** belong to that time, joining the quantity exception in 4.4, so **to isi mon wuma wo dili fi** is "I go the day after tomorrow". A pause closes every open relative clause.
+
+**Licence (user, 2026-10-11):** everything made for the project is public domain under CC0, code included; third-party data files keep their own licences (`data/SOURCES.md`). As Esperanto and Lojban did with their basics: no conditions on anyone who builds on it.
