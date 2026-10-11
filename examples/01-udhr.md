@@ -17,7 +17,7 @@ ewo mesun pi yonyo pi ewo we ibe bawe pi ewo gi wan gun ewo. ewo we fe ibe sogan
 
 > Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,
 
-ewo la mu dundi sogan pi ewo. wan la fe bebu bu la. gi tan, wan la sin muge musu bi yomo. gi ewo we lugo upe yen yomo, musu tan la muge bonko wan la. ewo la ganin wun fowo minwe lewe upe. mon fowo tan, go oyi enpa, yen ibe ge pume feko enpa. mon bu, go fe mu nuta, yen ibe tonya. ganin tan gun ke tisan se we, yen ewo bo sin iko ben tun ewo we.
+ewo la mu dundi sogan pi ewo. wan la fe bebu bu la. gi tan, wan la sin muge musu bi yomo. gi ewo we lugo musu upe yen musu yomo, musu tan la muge bonko wan la. ewo la ganin wun fowo minwe lewe upe. mon fowo tan, go oyi enpa, yen ibe ge pume feko enpa. mon bu, go fe mu nuta, yen ibe tonya. ganin tan gun ke tisan se we, yen ewo bo sin iko ben tun ewo we.
 {.apu}
 
 > Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people,
@@ -54,7 +54,7 @@ gi tan, fanmu pi funti pi gigin la iko kemin pi sogan pi ewo we tun ewo we. ewo 
 
 ## wabun pi 1 {.apu}
 
-ewo we tuko nume gan enpa, yen ibe bawe kige yen sogan kige. wan la lenu pume, yen lenu lugo upe yen yomo. wan la keya muge nen nen fu faba la.
+ewo we tuko nume gan enpa, yen ibe bawe kige yen sogan kige. wan la lenu pume, yen lenu lugo musu upe yen musu yomo. wan la keya muge nen nen fu faba la.
 {.apu}
 
 > All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
