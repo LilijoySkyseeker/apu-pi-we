@@ -97,7 +97,7 @@ To *say* something is big, use **gun** "is":
 - **guyi gun kudu.** "The house is big."
 - **guyi kudu** is "the big house", never "the house is big". This is the most common early mistake.
 
-**Every word has a kind: a thing, an action or a quality.** The `kind` column of the lexicon tells you which. The kind decides what a word does right after a noun:
+**Every word has a usual kind: a thing, an action or a quality.** The `kind` column of the lexicon tells you which. It shows the *clear* way to read a word that comes right after a noun. In casual talk people blur it and context sorts it out, so getting it "wrong" is never a mistake, just less clear:
 
 | Right after a noun | What it does | Example |
 |---|---|---|
@@ -105,7 +105,7 @@ To *say* something is big, use **gun** "is":
 | an action | is the verb: you've made a sentence | **ewo niba** "the person walks" |
 | a thing | only gender, or a set compound | **tiwu futa** "daughter" (child woman) |
 
-So "a walking person" is not **ewo niba**. Describe a noun with an action through **man** "who" (lesson 12): **ewo man niba** "the person who walks". Position can still give a word another job: an action word used as an object is a noun (**sepi** "apologise" or "an apology"), and a quality after a verb says how (below).
+So to be clear, "a walking person" is not **ewo niba**. Not sure of a word's kind? **man** always makes a description clear. Describe a noun with an action through **man** "who" (lesson 12): **ewo man niba** "the person who walks". Position can still give a word another job: an action word used as an object is a noun (**sepi** "apologise" or "an apology"), and a quality after a verb says how (below).
 
 **gun does more than qualities:**
 - **gun** + noun: **wan gun tiwu.** "She is a child."

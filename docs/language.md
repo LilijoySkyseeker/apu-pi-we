@@ -48,8 +48,8 @@ This document states what the language is. Why each part is the way it is: [rati
   | `" "` | around quoted speech |
 
   `?` and `!` are allowed and add nothing; `-` and `:` are not used in the language's own words.
-- **Passes through as written:** digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3); clock notation in the speaker's clock style (8.3); other notation as the speaker's culture reads it.
-- **Numbers in writing:** digits, grouped in threes from the decimal point with a space (`1 250 000`), `.` as the decimal point. A senary number is marked `₆` (or `_6`).
+- **Passes through as written:** chat abbreviations and interjections (ok, lol), digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3); clock notation in the speaker's clock style (8.3); other notation as the speaker's culture reads it.
+- **Numbers in writing:** ordinary writing uses digits (this reference spells numbers out only to show how they are said), grouped in threes from the decimal point with a space (`1 250 000`), `.` as the decimal point. A senary number is marked `₆` (or `_6`).
 - **Word boundaries:** words are written apart; a phrase said fast keeps its spaces until a fused form actually changes sound and becomes a new word.
 
 ## 4. The sentence
@@ -77,12 +77,13 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 
 ### 4.2 The verb and its objects
 
-- **Each root has a default kind:** thing, action or quality (the `kind` column of `lexicon.tsv`). Position and two markers decide its role:
+- **Each root has a usual kind:** thing, action or quality (the `kind` column of `lexicon.tsv`). The kinds give the **clear way** to read a content word after a noun; in casual speech context may blur them, and that is never an error:
   - after a noun, a **quality** describes it: **guyi kudu** "the big house". To say the noun *is* so, use **gun**: **guyi gun kudu** "the house is big".
   - after a subject, an **action** is the verb: **ewo niba** "the person walks". To describe a noun with an action, use **man**: **ewo man niba** "the person who walks" (5.3).
   - a **thing** right after a noun is only gender or a listed compound (5.2).
+  - When unsure of a word's kind, **man** makes any description clear (**ewo man niba**, **guyi man gun kudu**), and an aspect word makes any verb clear (**ewo le niba**).
   - Any root can still take another role by position: an action as the object or with a derivation marker is a noun (**sepi** "apologise / an apology"); a quality after a verb is the manner.
-- **Manner:** a quality right after the verb describes the action: **oyi fanse** "say calmly". It comes before the object: **nawi yobe pasu** "eat food quickly" (a quality after the object describes the object: **nawi pasu yobe** "eat fast food").
+- **Manner:** a quality right after the verb describes the action (the clear position): **oyi fanse** "say calmly". It comes before the object: **nawi yobe pasu** "eat food quickly" (a quality after the object describes the object: **nawi pasu yobe** "eat fast food").
 - **Two objects:** recipient, then thing: **tofo me nuta** "teach you fear".
 - **Verb + verb:** if the first verb takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second describes the first: **goyu pume** "sit thinking".
 - **muge** "do; make": **muge** + result + object = "make (it) so": **muge upe tan** "fix this"; **muge** + object + manner = "do (it) so": **muge tan upe** "do this well".
@@ -142,7 +143,7 @@ In casual writing, pauses that context makes obvious may be dropped.
 - **Yes/no question:** **min** at the start. A clause-final **min** is a tag "…, right?".
 - **Question words stay where the answer goes**, and need no **min**: **me momu wun to oyi yu.** "you want me to say what?"
 - **Question words** are built: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **gi yu** why; **fu yu** how; **wifu yu** how many/much; **pi ewo yu** whose.
-- **Choices:** **min … lu …** "either?"; **… lu … yu** "which?" (answer by echoing the choice).
+- **Choices:** **min … lu …** "either?"; **… lu …, yu** "which?", with a pause before **yu** so it isn't read as "which X" (answer by echoing the choice).
 - **Indirect question:** **yu** or **min** inside a **wun** clause: **to mu lugo wun min …** "I don't know whether …".
 - **Answers echo the verb;** there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. Acknowledgment: **mm** heard; an echo understood; **de** + verb "will do".
 
@@ -154,9 +155,10 @@ Noun, content modifiers, number, **la**, determiner, **pi** phrase, relative cla
 
 ### 5.2 Parts
 
-- **Quality words** follow the noun and describe it: **guyi kudu** "big house". An action word describes a noun only through **man** (5.3).
+- **Quality words** follow the noun and describe it: **guyi kudu** "big house". To describe a noun with an action word, use **man** (5.3).
 - **Gender** is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
 - **Noun + noun** is used only for gender and for the compounds in `compounds.tsv`. For other relations, use **pi** or a relative clause.
+- **Numbers and times** can stand alone as noun phrases: **mon yawu gun upe** "10 o'clock is fine".
 - **Number:** noun + number = a count (**dili oma** "seven days"); noun + **pi** + number = a label (**kemin pi sa** "document 2").
 - **Plural la** is optional; a count or context can show plurality.
 - **There are no articles.** Known vs new is left to context, or shown with **tan**, **ben**, **bo** or a number.
@@ -170,7 +172,7 @@ Noun, content modifiers, number, **la**, determiner, **pi** phrase, relative cla
 - object: **mabo man me la yaga** "the papers you put";
 - place or time: end the clause with the relation word: **kemu man to nume mon** "the place where I live".
 
-No word closes a relative clause; a pause closes it.
+A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun; to describe the head instead, put a quality before the **pi** phrase or use a new sentence. No word closes a relative clause; a pause closes it.
 
 ### 5.4 Derived words
 
@@ -183,6 +185,7 @@ Four markers before a verb or verb phrase name a role in the action:
 | **du** | the thing used | **du bubo** "thing for laughing" = a joke |
 | **pu** | the place | **pu niba** "place for walking" = a path |
 
+- A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word if its base has no noun: **du kuwi pi to** "my thing for keeping".
 - The base may be a verb phrase: **no isi se guyi** "one who goes from home" = traveller. It runs to the end of its phrase, like a relative clause; a pause separates it from a following verb.
 - A person something is done to: **ewo man gun** + verb: **ewo man gun tofo** "a student".
 - With a noun base, link with **pi** or a verb: **pu pi mabo** "an office", **no obu se yaye** "an alien".
@@ -202,6 +205,7 @@ They start the clause (slot 5) and cover all of it.
 They cover the word or phrase right after them; before the verb they cover the predicate.
 - **mu** not (**to mu yidu bu** "I didn't take it"; **mu mu** emphatic);
 - **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
+- to add a whole statement ("also, …"), start with **yen**; **fe** before the verb means the subject also does it;
 - **konsin** at least; **nedin** almost; **mesun** each;
 - degree words **ke** more, **bi** very, **tason** rather (**ke kudu** "bigger"; **nimo ke uyo** "less money").
 - **Order before the verb:** phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**.
@@ -313,7 +317,7 @@ After a pause at the end, a word comments on the whole sentence, whatever its sp
 ### 10.3 Reference
 
 - **wan** "he/she": the person or animal being talked about. **yi** another one who isn't the topic: **wan nagu yi** "she saw him". A newcomer is **yi** or named until the speaker makes them the topic.
-- **bu** "it": the thing being talked about. **ben** alone: a thing that isn't the topic: **min me momu bu lu ben yu.** "this one or that one?"
+- **bu** "it": the thing being talked about. **ben** alone: a thing that isn't the topic: **me momu bu lu ben, yu.** "this one or that one?"
 - **tan** / **ben** alone for an event, statement or situation: **tan** nearer (what I'm saying, here and now), **ben** further (what you said, an earlier event): **ben gun upe** "that's good"; **gi tan** "so". (For a recipient, see 5.2.)
 - **sun** in reported speech or thought: the person whose words are reported.
 - **go** anyone, people in general; **me** is only ever the listener, never generic. An unknown doer is **ewo bo**.
