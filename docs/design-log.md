@@ -436,3 +436,17 @@ The user's review against the Language Construction Kit asked whether Apu Pi We 
 3. **No new rule:** vocabulary-method §3.4 now says a shared English word is not evidence for a lump.
 4. A test that never touches English words: `tests/roundtrip-01-japanese/`.
 5. **No automation.** Add back a `words.py` check that refuses a gloss already in use unless it carries a sense, if a new English-pun leak is found.
+
+## The interpersonal layer: decisions before design (2026-10-10)
+
+From multilanguage test 01, decided with the user step by step:
+- **Decision rule** (user confirmed): where unrelated languages independently converge on a *function*, the language needs it; where they split on the *form*, choose the cheapest form for native speakers. Count by independent lineages, not by speakers.
+- **Ability, not obligation** (user): the language must let speakers signal relationship and stance when they want, not force every sentence to declare it.
+- **In words, not intonation** (user): speech and writing must carry the same meaning. Written English had to invent emoji and tone tags because the channel dropped intonation (Dresner & Herring 2010). The language already does this for speech acts (**min**, **yo**).
+- **Left out** (forms that evolution split on): graded "you" (136 of 207 languages have none, WALS 45), gender (254 of 378 have none in pronouns, WALS 44), honorific vocabulary (a handful of languages), register vocabulary layers (they come from each language's borrowing history). Add-back triggers:
+  - graded "you": speakers with an address slot and **nun** still can't avoid sounding rude;
+  - gender: listeners lose track of who's who where topic, **yi** and names don't help;
+  - honorific vocabulary: the title mechanism proves too blunt;
+  - register layers: formal texts are misread as casual or the reverse.
+- **Three rooms to design** (functions that converge): (1) a place for stance words; (2) a place for direct address, with titles that also work when referring to someone, which covers respect for third persons; (3) focus and contrast. Design the room and leave the content to speakers, except for the minimum needed to make each room usable.
+- Missing words from all the tests are noted in `vocabulary-plan.md` for the normal process.
