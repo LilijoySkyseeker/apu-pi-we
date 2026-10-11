@@ -22,7 +22,7 @@ there by copying a folder, and no adoption or governance machinery.
    - **Two piles:** clarifications, which Claude fixes and logs; design
      changes, which go to the user as one list.
    - **Learner guide** brought in line with the reference.
-2. **Spec as structured source:** rules as data (id, statement, examples);
+2. **Spec as structured source:** *2a done 2026-10-11:* `spec/reference.toml` (223 items with stable ids) generates `docs/language.md` (`tools/spec.py build/check/examples`). *2b next:* rules as data (id, statement, examples);
    a parser that every example must pass, and that can list readings to check
    "a precise way exists".
 3. **Generated static site:** reference, dictionary, learner guide

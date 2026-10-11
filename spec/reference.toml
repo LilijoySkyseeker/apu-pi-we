@@ -1,0 +1,1766 @@
+# The Apu Pi We reference spec: the source of docs/language.md.
+# Edit here, then run: tools/spec.py build. Ids are stable: headings "4.2", items "4.2.3".
+
+title = "# Apu Pi We: reference"
+
+[[item]]
+id = "0.1"
+type = "para"
+text = '''
+This document states what the language is. Why each part is the way it is: [rationale.md](rationale.md). How it got here: [design-log.md](design-log.md). Word lists: [../data/](../data/).'''
+
+[[item]]
+id = "0.2"
+type = "para"
+title = "Name"
+text = '''
+**Name:** **apu pi we** "everyone's language" (English: Apu Pi We). Any language is named **apu pi** + whose it is.'''
+
+[[item]]
+id = "0.3"
+type = "para"
+title = "What it is"
+text = '''
+**What it is:** a designed language for humans who speak it natively, living within the world's existing cultures. Its own grammar is built for native speakers; where it meets a culture's conventions (clocks, calendars, units, names, customs) it carries them. Where conventions conflict and one must be chosen, it follows the international standard.'''
+
+[[item]]
+id = "0.4"
+type = "para"
+title = "When goals conflict"
+text = '''
+**When goals conflict,** in this order:'''
+
+[[item]]
+id = "0.5"
+type = "numbered"
+title = "Clarity"
+gap = 0
+text = '''
+1. **Clarity:** a precise, unambiguous way to say anything always exists.'''
+
+[[item]]
+id = "0.6"
+type = "numbered"
+title = "Predictability"
+gap = 0
+text = '''
+2. **Predictability:** nothing arbitrary to memorise; rules follow from meaning.'''
+
+[[item]]
+id = "0.7"
+type = "numbered"
+title = "Economy"
+gap = 0
+text = '''
+3. **Economy:** short and context-trusting for fluent speakers.'''
+
+[[item]]
+id = "0.8"
+type = "numbered"
+title = "Reach"
+gap = 0
+text = '''
+4. **Reach:** it carries what the world's languages express.'''
+
+[[item]]
+id = "0.9"
+type = "para"
+text = '''
+Any adult can learn it; explicitness for learners is never bought at the cost of fluent use.'''
+
+[[item]]
+id = "0.10"
+type = "rule"
+text = '''
+---'''
+
+[[item]]
+id = "1"
+type = "heading"
+level = 2
+title = "Principles"
+text = '''
+## 1. Principles'''
+
+[[item]]
+id = "1.1"
+type = "numbered"
+title = "The common case costs nothing"
+text = '''
+1. **The common case costs nothing.** Statements, ordinary belief, unknown source, the topic, and present or unspecified time are unmarked. Frequent meanings have the shortest words.'''
+
+[[item]]
+id = "1.2"
+type = "numbered"
+title = "Heads come first, and position carries role"
+gap = 0
+text = '''
+2. **Heads come first, and position carries role.** Subject, verb, object. Content words that describe a noun follow it; content words that describe a verb follow it. Words never move to show their role.'''
+
+[[item]]
+id = "1.3"
+type = "numbered"
+title = "Operators come before what they cover"
+gap = 0
+text = '''
+3. **Operators come before what they cover** (section 6).'''
+
+[[item]]
+id = "1.4"
+type = "numbered"
+title = "Heavy goes last"
+gap = 0
+text = '''
+4. **Heavy goes last.** A noun's own modifiers come before its **pi** "of" phrase; long clauses go to the end; nothing may follow a relative clause in its phrase.'''
+
+[[item]]
+id = "1.5"
+type = "numbered"
+title = "Doubling widens or strengthens"
+gap = 0
+text = '''
+5. **Doubling widens or strengthens** any word (not digits in a number): **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so".'''
+
+[[item]]
+id = "1.6"
+type = "numbered"
+title = "Every social pressure has its own word"
+gap = 0
+text = '''
+6. **Every social pressure has its own word:** emphasis **ba**, **bi**; politeness **nun**; respect **lanno**; stance (section 7).'''
+
+[[item]]
+id = "1.7"
+type = "numbered"
+title = "A precise way always exists; it need not always be used"
+gap = 0
+text = '''
+7. **A precise way always exists; it need not always be used.** Anything the listener can supply may be left out (section 4.5), and any ambiguity can be removed by saying more.'''
+
+[[item]]
+id = "2"
+type = "heading"
+level = 2
+title = "Sounds"
+text = '''
+## 2. Sounds'''
+
+[[item]]
+id = "2.1"
+type = "bullet"
+title = "Vowels"
+text = '''
+- **Vowels:** a e i o u. Every syllable keeps its full vowel.'''
+
+[[item]]
+id = "2.2"
+type = "bullet"
+title = "Consonants (13)"
+gap = 0
+text = '''
+- **Consonants (13):** p b t d k g · m n · f s · l w y. Places: lips (p b m w, and f with lip and teeth), tongue tip (t d n s l), tongue body (y), back of the tongue (k g).'''
+
+[[item]]
+id = "2.3"
+type = "bullet"
+title = "Syllables"
+gap = 0
+text = '''
+- **Syllables:** (C)V(n). A vowel-only syllable occurs only at the start of a word. The only syllable-final consonant is n.'''
+
+[[item]]
+id = "2.4"
+type = "bullet"
+title = "Word types by sound"
+gap = 0
+text = '''
+- **Word types by sound:**
+  - grammar words: one syllable, unstressed (table, section 13);
+  - digits 0–5: one syllable, stressed;
+  - every other word: two or more syllables, stressed on the first.'''
+
+[[item]]
+id = "2.5"
+type = "bullet"
+title = "Words never change form"
+gap = 0
+text = '''
+- **Words never change form:** no endings, no agreement, no case, no gender.'''
+
+[[item]]
+id = "2.6"
+type = "bullet"
+title = "Stress"
+gap = 0
+text = '''
+- **Stress** is higher pitch on the stressed syllable, stepping down after it, not extra length. Rhythm is syllable-timed.'''
+
+[[item]]
+id = "2.7"
+type = "bullet"
+title = "Declination"
+gap = 0
+text = '''
+- **Declination:** across a phrase, each stressed syllable is a little lower than the one before; pitch resets after a pause.'''
+
+[[item]]
+id = "2.8"
+type = "bullet"
+title = "No tones"
+gap = 0
+text = '''
+- **No tones.** Pitch carries intonation and emotion only. A question needs no rising tone (its words make it a question); rising anyway is fine.'''
+
+[[item]]
+id = "2.9"
+type = "bullet"
+title = "Harmless variants"
+gap = 0
+text = '''
+- **Harmless variants,** inside content words only: k and g may sound like "ch" and "j" before i and e; a vowel plus n may become a nasal vowel; consonants between vowels may soften. Grammar words keep their consonants.'''
+
+[[item]]
+id = "2.10"
+type = "bullet"
+title = "Outside the sound system"
+gap = 0
+text = '''
+- **Outside the sound system:** **mm** "heard you", **huh?** "say again", and any other interjection or hesitation sound speakers use; they carry no grammar.'''
+
+[[item]]
+id = "2.11"
+type = "bullet"
+title = "Native content words"
+gap = 0
+text = '''
+- **Native content words** never begin with a digit's syllable (**po fi sa ka da te**). Loans are exempt.'''
+
+[[item]]
+id = "3"
+type = "heading"
+level = 2
+title = "Writing"
+text = '''
+## 3. Writing'''
+
+[[item]]
+id = "3.1"
+type = "bullet"
+title = "Letters"
+text = '''
+- **Letters:** a b d e f g i k l m n o p s t u w y, one per sound, no accents; never digits inside a word. Spelling follows the standard pronunciation; the harmless variants are not written. Stress is not written.'''
+
+[[item]]
+id = "3.2"
+type = "bullet"
+title = "Lowercase"
+gap = 0
+text = '''
+- **Lowercase** is the standard. Capitals carry no meaning and are harmless.'''
+
+[[item]]
+id = "3.3"
+type = "bullet"
+title = "Marks that carry grammar"
+gap = 0
+text = '''
+- **Marks that carry grammar:**
+
+  | Mark | Use |
+  |---|---|
+  | `,` | a pause (section 4.6) |
+  | `.` | end of a sentence; between digits, the decimal point |
+  | `" "` | around quoted speech |
+
+  `?` and `!` are allowed and add nothing; `-` and `:` are not used in the language's own words.'''
+
+[[item]]
+id = "3.4"
+type = "bullet"
+title = "Passes through as written"
+gap = 0
+text = '''
+- **Passes through as written:** chat abbreviations and interjections (ok, lol), digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3); clock notation in the speaker's clock style (8.3); other notation as the speaker's culture reads it.'''
+
+[[item]]
+id = "3.5"
+type = "bullet"
+title = "Numbers in writing"
+gap = 0
+text = '''
+- **Numbers in writing:** ordinary writing uses digits (this reference spells numbers out only to show how they are said), grouped in threes from the decimal point with a space (`1 250 000`), `.` as the decimal point. A senary number is marked `₆` (or `_6`).'''
+
+[[item]]
+id = "3.6"
+type = "bullet"
+title = "Word boundaries"
+gap = 0
+text = '''
+- **Word boundaries:** words are written apart; a phrase said fast keeps its spaces until a fused form actually changes sound and becomes a new word.'''
+
+[[item]]
+id = "4"
+type = "heading"
+level = 2
+title = "The sentence"
+text = '''
+## 4. The sentence'''
+
+[[item]]
+id = "4.1"
+type = "heading"
+level = 3
+title = "Template"
+text = '''
+### 4.1 Template'''
+
+[[item]]
+id = "4.1.1"
+type = "para"
+text = '''
+A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) is required.'''
+
+[[item]]
+id = "4.1.2"
+type = "table"
+text = '''
+| # | Slot | Contents | Section |
+|---|---|---|---|
+| 1 | Calling someone | a name, title, role or kin word, then a pause | 10.1 |
+| 2 | Opener | a linker to the previous sentence (**gi tan** "so"), then a scene-setting phrase (time, place) or topic **pi X**, then an **if**/**when** clause, each followed by a pause | 4.3 |
+| 3 | Speech act | one particle; **genso** or **ba** may come before it | 7.1 |
+| 4 | Politeness | **nun** | 10.2 |
+| 5 | Clause operators | confidence **kon** + number, source **wanme**/**inwun**/**wemen** | 6.1 |
+| 6 | Subject | a noun phrase (section 5) | |
+| 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
+| 8 | Verb | one verb, or verb + verb (4.2) | |
+| 9 | Manner | a word describing the action | 4.2 |
+| 10 | Objects | recipient, then thing | 4.2 |
+| 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
+| 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
+| 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
+| 14 | Calling someone | a pause, then a name, title, role or kin word | 10.1 |'''
+
+[[item]]
+id = "4.2"
+type = "heading"
+level = 3
+title = "The verb and its objects"
+text = '''
+### 4.2 The verb and its objects'''
+
+[[item]]
+id = "4.2.1"
+type = "bullet"
+title = "What you mean picks the clear form"
+text = '''
+- **What you mean picks the clear form,** for any content word:
+  - **a state** ("is big", "is afraid"): **gun** + word: **guyi gun kudu** "the house is big", **to gun nuta** "I'm afraid";
+  - **an event** ("walks", "is walking", "walked"): the word as the verb, with an aspect word when precision matters: **ewo le niba** "the person is walking", **ewo manni niba** "the person (usually) walks", **ewo sin niba** "the person walked";
+  - **a description** of a noun ("the person who walks", "the house that is big"): **man**: **ewo man niba**, **guyi man gun kudu**.'''
+
+[[item]]
+id = "4.2.2"
+type = "bullet"
+title = "Bare noun + word"
+gap = 0
+text = '''
+- **Bare noun + word** (**guyi kudu**, **ewo niba**) may be a description or a statement; context decides, and the clear forms above remove any doubt.'''
+
+[[item]]
+id = "4.2.3"
+type = "bullet"
+title = "Any content word can take any role by position"
+gap = 0
+text = '''
+- **Any content word can take any role by position:** as an object or with a derivation marker it is a noun (**sepi** "apologise / an apology").'''
+
+[[item]]
+id = "4.2.4"
+type = "bullet"
+title = "Manner"
+gap = 0
+text = '''
+- **Manner:** a word right after the verb describes the action: **oyi fanse** "say calmly". It comes before the object: **nawi yobe pasu** "eat food quickly" (after the object, a word describes the object: **nawi pasu yobe** "eat fast food").'''
+
+[[item]]
+id = "4.2.5"
+type = "bullet"
+title = "Two objects"
+gap = 0
+text = '''
+- **Two objects:** recipient, then thing: **tofo me nuta** "teach you fear".'''
+
+[[item]]
+id = "4.2.6"
+type = "bullet"
+title = "Verb + verb"
+gap = 0
+text = '''
+- **Verb + verb:** if the first verb takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second describes the first: **goyu pume** "sit thinking".'''
+
+[[item]]
+id = "4.2.7"
+type = "bullet"
+title = "muge"
+gap = 0
+text = '''
+- **muge** "do; make": **muge** + result + object = "make (it) so": **muge upe tan** "fix this"; **muge** + object + manner = "do (it) so": **muge tan upe** "do this well".'''
+
+[[item]]
+id = "4.2.8"
+type = "bullet"
+title = "Command"
+gap = 0
+text = '''
+- **Command:** a command needs **tin** (or **so** for a request). Without a particle a sentence is a statement.'''
+
+[[item]]
+id = "4.3"
+type = "heading"
+level = 3
+title = "Openers"
+text = '''
+### 4.3 Openers'''
+
+[[item]]
+id = "4.3.1"
+type = "bullet"
+title = "Scene-setting"
+text = '''
+- **Scene-setting:** a time or place phrase may open the sentence: **mon minfi, …** "at noon, …". It changes no roles.'''
+
+[[item]]
+id = "4.3.2"
+type = "bullet"
+title = "Topic"
+gap = 0
+text = '''
+- **Topic:** **pi** + a noun phrase at the start = "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading.'''
+
+[[item]]
+id = "4.3.3"
+type = "bullet"
+title = "If/when clause"
+gap = 0
+text = '''
+- **If/when clause:** **don** "if", **nin** "while/when", **wo** "after", **ya** "before", **gi** "because" + clause.'''
+
+[[item]]
+id = "4.3.4"
+type = "bullet"
+title = "Order"
+gap = 0
+text = '''
+- **Order** when several open a sentence: linker, scene or topic, if/when clause; then the speech-act particle.'''
+
+[[item]]
+id = "4.3.5"
+type = "bullet"
+title = "Only person words call someone"
+gap = 0
+text = '''
+- **Only person words call someone.** A fronted phrase that isn't a person word is a scene or topic phrase.'''
+
+[[item]]
+id = "4.4"
+type = "heading"
+level = 3
+title = "Clauses and relation phrases"
+text = '''
+### 4.4 Clauses and relation phrases'''
+
+[[item]]
+id = "4.4.1"
+type = "bullet"
+title = "A relation phrase"
+text = '''
+- **A relation phrase** (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun; give a noun any other relation with a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3) **se**, **tun** and **fu** belong to their number or adjective.'''
+
+[[item]]
+id = "4.4.2"
+type = "bullet"
+title = "A relation word may drop its object"
+gap = 0
+text = '''
+- **A relation word may drop its object** when context supplies it (**wo** "after that", **ya** "beforehand"). It then ends its clause or comes before a pause.'''
+
+[[item]]
+id = "4.4.3"
+type = "bullet"
+title = "A relation word can take a clause"
+gap = 0
+text = '''
+- **A relation word can take a clause** (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").'''
+
+[[item]]
+id = "4.4.4"
+type = "bullet"
+title = "Clause attachment"
+gap = 0
+text = '''
+- **Clause attachment:**
+  - a relative clause attaches to the nearest noun before it;
+  - a time, reason or condition clause at the **start** of a sentence belongs to the main clause; at the **end**, to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning".'''
+
+[[item]]
+id = "4.4.5"
+type = "bullet"
+title = "Joining"
+gap = 0
+text = '''
+- **Joining:** **yen** "and", **lu** "or", **un** "but" join nouns, verbs, modifiers or clauses. To list nouns rather than modify one with another, use **yen**: **mole yen wede** "mother and father". **lu X lu Y** = "either X or Y, not both".'''
+
+[[item]]
+id = "4.4.6"
+type = "bullet"
+title = "Quotes"
+gap = 0
+text = '''
+- **Quotes:** framed by a say-verb; quotation marks in writing. A quote is its own sentence with its own speech-act particle. Broken-off speech just stops.'''
+
+[[item]]
+id = "4.5"
+type = "heading"
+level = 3
+title = "Leaving things out"
+text = '''
+### 4.5 Leaving things out'''
+
+[[item]]
+id = "4.5.1"
+type = "bullet"
+title = "Anything the listener can supply from context may be left out"
+text = '''
+- **Anything the listener can supply from context may be left out:** the subject, the object, the object of a relation word, the verb. An answer or follow-up can be just the new part: **muyi yu, moti.** "what time, again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".'''
+
+[[item]]
+id = "4.5.2"
+type = "bullet"
+title = "Exception"
+gap = 0
+text = '''
+- **Exception:** a clause that starts with **gun** and no subject means "there is" (4.7). To say "(it) is X", keep the subject: **bu gun nimo** "it's money". With **gun** left out too, a bare state is fine: **bi upe.** "very good."'''
+
+[[item]]
+id = "4.5.3"
+type = "bullet"
+gap = 0
+text = '''
+- When leaving something out could be unclear, say it.'''
+
+[[item]]
+id = "4.6"
+type = "heading"
+level = 3
+title = "Pauses"
+text = '''
+### 4.6 Pauses'''
+
+[[item]]
+id = "4.6.1"
+type = "para"
+text = '''
+A pause (a comma in writing) goes wherever a phrase could otherwise run on. Its places:'''
+
+[[item]]
+id = "4.6.2"
+type = "bullet"
+gap = 0
+text = '''
+- after someone called at the start, and before someone called at the end;'''
+
+[[item]]
+id = "4.6.3"
+type = "bullet"
+gap = 0
+text = '''
+- after an opener (linker, scene, topic, if/when clause);'''
+
+[[item]]
+id = "4.6.4"
+type = "bullet"
+gap = 0
+text = '''
+- after a subject that contains a clause or a phrasal derived word, before its verb (**no sanwa man … sin sege, keya unfu …**);'''
+
+[[item]]
+id = "4.6.5"
+type = "bullet"
+gap = 0
+text = '''
+- between a recipient and a long object;'''
+
+[[item]]
+id = "4.6.6"
+type = "bullet"
+gap = 0
+text = '''
+- between clauses joined by **yen**/**un** when the first ends in a noun;'''
+
+[[item]]
+id = "4.6.7"
+type = "bullet"
+gap = 0
+text = '''
+- before a stance word;'''
+
+[[item]]
+id = "4.6.8"
+type = "bullet"
+gap = 0
+text = '''
+- between a larger and a smaller calendar unit (**dunan pi yawu, dili pi mape**);'''
+
+[[item]]
+id = "4.6.9"
+type = "bullet"
+gap = 0
+text = '''
+- after a relative clause, to close it before more material.'''
+
+[[item]]
+id = "4.6.10"
+type = "para"
+text = '''
+In casual writing, pauses that context makes obvious may be dropped.'''
+
+[[item]]
+id = "4.7"
+type = "heading"
+level = 3
+title = "\"Is\": gun"
+text = '''
+### 4.7 "Is": gun'''
+
+[[item]]
+id = "4.7.1"
+type = "bullet"
+title = "gun"
+text = '''
+- **gun** + state: **guyi gun kudu** "the house is big" (**guyi kudu** is "the big house").'''
+
+[[item]]
+id = "4.7.2"
+type = "bullet"
+title = "gun"
+gap = 0
+text = '''
+- **gun** + noun: **wan gun tiwu** "she is a child".'''
+
+[[item]]
+id = "4.7.3"
+type = "bullet"
+title = "gun"
+gap = 0
+text = '''
+- **gun** + place phrase: **wan gun mon guyi** "he is at home".'''
+
+[[item]]
+id = "4.7.4"
+type = "bullet"
+title = "gun"
+gap = 0
+text = '''
+- **gun** + action word = the resulting state: **gun tapi** "is closed".'''
+
+[[item]]
+id = "4.7.5"
+type = "bullet"
+title = "gun"
+gap = 0
+text = '''
+- **gun** + **wun** clause: "is that …".'''
+
+[[item]]
+id = "4.7.6"
+type = "bullet"
+gap = 0
+text = '''
+- After another verb, **gun** = "to be": **momu gun tiwu** "want to be a child".'''
+
+[[item]]
+id = "4.7.7"
+type = "bullet"
+title = "gun"
+gap = 0
+text = '''
+- **gun** at the start of a clause with no subject = "there is": **un, gun musu feli** "but there are many things".'''
+
+[[item]]
+id = "4.8"
+type = "heading"
+level = 3
+title = "Questions and answers"
+text = '''
+### 4.8 Questions and answers'''
+
+[[item]]
+id = "4.8.1"
+type = "bullet"
+title = "Yes/no question"
+text = '''
+- **Yes/no question:** **min** at the start. A clause-final **min** is a tag "…, right?".'''
+
+[[item]]
+id = "4.8.2"
+type = "bullet"
+title = "Question words stay where the answer goes"
+gap = 0
+text = '''
+- **Question words stay where the answer goes**, and need no **min**: **me momu wun to oyi yu.** "you want me to say what?"'''
+
+[[item]]
+id = "4.8.3"
+type = "bullet"
+title = "Question words"
+gap = 0
+text = '''
+- **Question words** are built: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **gi yu** why; **fu yu** how; **wifu yu** how many/much; **pi ewo yu** whose.'''
+
+[[item]]
+id = "4.8.4"
+type = "bullet"
+title = "Choices"
+gap = 0
+text = '''
+- **Choices:** **min … lu …** "either?"; **… lu …, yu** "which?", with a pause before **yu** so it isn't read as "which X" (answer by echoing the choice).'''
+
+[[item]]
+id = "4.8.5"
+type = "bullet"
+title = "Indirect question"
+gap = 0
+text = '''
+- **Indirect question:** **yu** or **min** inside a **wun** clause: **to mu lugo wun min …** "I don't know whether …".'''
+
+[[item]]
+id = "4.8.6"
+type = "bullet"
+title = "Answers echo the verb;"
+gap = 0
+text = '''
+- **Answers echo the verb;** there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. Acknowledgment: **mm** heard; an echo understood; **de** + verb "will do".'''
+
+[[item]]
+id = "5"
+type = "heading"
+level = 2
+title = "The noun phrase"
+text = '''
+## 5. The noun phrase'''
+
+[[item]]
+id = "5.1"
+type = "heading"
+level = 3
+title = "Template"
+text = '''
+### 5.1 Template'''
+
+[[item]]
+id = "5.1.1"
+type = "para"
+text = '''
+Noun, content modifiers, number, **la**, determiner, **pi** phrase, relative clause: **guyi kudu sa la tan pi en mara man …**. Titles and **lanno** come before the noun (10.1); phrase operators before the whole phrase (6.2).'''
+
+[[item]]
+id = "5.2"
+type = "heading"
+level = 3
+title = "Parts"
+text = '''
+### 5.2 Parts'''
+
+[[item]]
+id = "5.2.1"
+type = "bullet"
+title = "Describing words"
+text = '''
+- **Describing words** follow the noun: **guyi kudu** "big house". For a clear description, use **man** (5.3).'''
+
+[[item]]
+id = "5.2.2"
+type = "bullet"
+title = "Gender"
+gap = 0
+text = '''
+- **Gender** is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".'''
+
+[[item]]
+id = "5.2.3"
+type = "bullet"
+title = "Noun + noun"
+gap = 0
+text = '''
+- **Noun + noun** is used only for gender and for the compounds in `compounds.tsv`. For other relations, use **pi** or a relative clause.'''
+
+[[item]]
+id = "5.2.4"
+type = "bullet"
+title = "Numbers and times"
+gap = 0
+text = '''
+- **Numbers and times** can stand alone as noun phrases: **mon yawu gun upe** "10 o'clock is fine".'''
+
+[[item]]
+id = "5.2.5"
+type = "bullet"
+title = "Number"
+gap = 0
+text = '''
+- **Number:** noun + number = a count (**dili oma** "seven days"); noun + **pi** + number = a label (**kemin pi sa** "document 2").'''
+
+[[item]]
+id = "5.2.6"
+type = "bullet"
+title = "Plural la"
+gap = 0
+text = '''
+- **Plural la** is optional; a count or context can show plurality.'''
+
+[[item]]
+id = "5.2.7"
+type = "bullet"
+title = "There are no articles"
+gap = 0
+text = '''
+- **There are no articles.** Known vs new is left to context, or shown with **tan**, **ben**, **bo** or a number.'''
+
+[[item]]
+id = "5.2.8"
+type = "bullet"
+title = "Determiners"
+gap = 0
+text = '''
+- **Determiners** (table, section 13), and **mesun** "each", follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it, so to give a recipient a standalone determiner as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". Part of a whole: determiner or number + **pi** + noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three".'''
+
+[[item]]
+id = "5.2.9"
+type = "bullet"
+title = "pi"
+gap = 0
+text = '''
+- **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it.'''
+
+[[item]]
+id = "5.3"
+type = "heading"
+level = 3
+title = "Relative clauses"
+text = '''
+### 5.3 Relative clauses'''
+
+[[item]]
+id = "5.3.1"
+type = "para"
+title = "man"
+text = '''
+**man** + clause after the noun. The noun fills the missing role:'''
+
+[[item]]
+id = "5.3.2"
+type = "bullet"
+gap = 0
+text = '''
+- subject: **ewo man niba** "the person who walks";'''
+
+[[item]]
+id = "5.3.3"
+type = "bullet"
+gap = 0
+text = '''
+- object: **mabo man me la yaga** "the papers you put";'''
+
+[[item]]
+id = "5.3.4"
+type = "bullet"
+gap = 0
+text = '''
+- place or time: end the clause with the relation word: **kemu man to nume mon** "the place where I live".'''
+
+[[item]]
+id = "5.3.5"
+type = "para"
+text = '''
+A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun; to describe the head instead, put a quality before the **pi** phrase or use a new sentence. No word closes a relative clause; a pause closes it.'''
+
+[[item]]
+id = "5.4"
+type = "heading"
+level = 3
+title = "Derived words"
+text = '''
+### 5.4 Derived words'''
+
+[[item]]
+id = "5.4.1"
+type = "para"
+text = '''
+Four markers before a verb or verb phrase name a role in the action:'''
+
+[[item]]
+id = "5.4.2"
+type = "table"
+text = '''
+| Marker | Role | Example |
+|---|---|---|
+| **no** | the one who does it | **no febo** "one who answers" |
+| **ge** | the thing done or made | **ge iko** "what is told" = news |
+| **du** | the thing used | **du bubo** "thing for laughing" = a joke |
+| **pu** | the place | **pu niba** "place for walking" = a path |'''
+
+[[item]]
+id = "5.4.3"
+type = "bullet"
+text = '''
+- A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word if its base has no noun: **du kuwi pi to** "my thing for keeping".'''
+
+[[item]]
+id = "5.4.4"
+type = "bullet"
+gap = 0
+text = '''
+- The base may be a verb phrase: **no isi se guyi** "one who goes from home" = traveller. It runs to the end of its phrase, like a relative clause; a pause separates it from a following verb.'''
+
+[[item]]
+id = "5.4.5"
+type = "bullet"
+gap = 0
+text = '''
+- A person something is done to: **ewo man gun** + verb: **ewo man gun tofo** "a student".'''
+
+[[item]]
+id = "5.4.6"
+type = "bullet"
+gap = 0
+text = '''
+- With a noun base, link with **pi** or a verb: **pu pi mabo** "an office", **no obu se yaye** "an alien".'''
+
+[[item]]
+id = "5.4.7"
+type = "bullet"
+gap = 0
+text = '''
+- Opposites: **mu** + word = "not X" (**mu upe** "not good"); a separate opposite root names the other pole (**yomo** "bad").'''
+
+[[item]]
+id = "6"
+type = "heading"
+level = 2
+title = "Operators"
+text = '''
+## 6. Operators'''
+
+[[item]]
+id = "6.1"
+type = "heading"
+level = 3
+title = "Clause operators"
+text = '''
+### 6.1 Clause operators'''
+
+[[item]]
+id = "6.1.1"
+type = "para"
+text = '''
+They start the clause (slot 5) and cover all of it.'''
+
+[[item]]
+id = "6.1.2"
+type = "bullet"
+title = "Confidence"
+gap = 0
+text = '''
+- **Confidence:** **kon** + a number of sixths = the chance in 6 the statement is true: **kon po** impossible, **kon fi** unlikely, **kon sa** doubtful, **kon ka** even odds, **kon da** likely, **kon te** very likely, **kon ufo** certain; **kon te mimi te** 5.5 in 6; **kon bo** "don't know how sure". An unmarked statement is believed. Exact probabilities use a number and **pasentu**.'''
+
+[[item]]
+id = "6.1.3"
+type = "bullet"
+title = "Source"
+gap = 0
+text = '''
+- **Source:** **wanme** seen, **inwun** told, **wemen** inferred. Optional.'''
+
+[[item]]
+id = "6.1.4"
+type = "bullet"
+gap = 0
+text = '''
+- "Might" and "must" meaning *probably* are confidence: "She must be home" = **kon te wan gun mon guyi**.'''
+
+[[item]]
+id = "6.2"
+type = "heading"
+level = 3
+title = "Phrase operators"
+text = '''
+### 6.2 Phrase operators'''
+
+[[item]]
+id = "6.2.1"
+type = "para"
+text = '''
+They cover the word or phrase right after them; before the verb they cover the predicate.'''
+
+[[item]]
+id = "6.2.2"
+type = "bullet"
+title = "mu"
+gap = 0
+text = '''
+- **mu** not (**to mu yidu bu** "I didn't take it"; **mu mu** emphatic);'''
+
+[[item]]
+id = "6.2.3"
+type = "bullet"
+title = "na"
+gap = 0
+text = '''
+- **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");'''
+
+[[item]]
+id = "6.2.4"
+type = "bullet"
+gap = 0
+text = '''
+- to add a whole statement ("also, …"), start with **yen**; **fe** before the verb means the subject also does it;'''
+
+[[item]]
+id = "6.2.5"
+type = "bullet"
+title = "konsin"
+gap = 0
+text = '''
+- **konsin** at least; **nedin** almost; **mesun** each;'''
+
+[[item]]
+id = "6.2.6"
+type = "bullet"
+gap = 0
+text = '''
+- degree words **ke** more, **bi** very, **tason** rather (**ke kudu** "bigger"; **nimo ke uyo** "less money").'''
+
+[[item]]
+id = "6.2.7"
+type = "bullet"
+title = "Order before the verb"
+gap = 0
+text = '''
+- **Order before the verb:** phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**.'''
+
+[[item]]
+id = "7"
+type = "heading"
+level = 2
+title = "Speech acts and stance"
+text = '''
+## 7. Speech acts and stance'''
+
+[[item]]
+id = "7.1"
+type = "heading"
+level = 3
+title = "Speech acts (slot 3)"
+text = '''
+### 7.1 Speech acts (slot 3)'''
+
+[[item]]
+id = "7.1.1"
+type = "table"
+text = '''
+| Particle | Act |
+|---|---|
+| **min** | yes/no question |
+| **so** | request; with another subject, a wish (**so to nagu** "let me see"; **so nosen kuwi me** "may God keep you") |
+| **tin** | instruction (**tin mu** "don't") |
+| **fon** | advice; the decision stays with the listener |
+| **de** | the speaker (or the group the speaker speaks for) commits: **de din** "we will" |
+| **yo** | warning; **yo yo** emergency |
+| **ba** | exclamation: surprise or strong feeling |
+| **genso** | not literal (irony, joking); **genso genso** the whole turn |'''
+
+[[item]]
+id = "7.1.2"
+type = "bullet"
+text = '''
+- A statement has no particle. Each sentence has one speech act.'''
+
+[[item]]
+id = "7.1.3"
+type = "bullet"
+title = "genso"
+gap = 0
+text = '''
+- **genso** or **ba** may modify it from in front of its particle: **genso min me lugo** "as if you'd know"; **ba min** a surprised or indignant question.'''
+
+[[item]]
+id = "7.1.4"
+type = "bullet"
+gap = 0
+text = '''
+- Someone else's intention is reported (**inwun**) or stated with time words and **kon**; **de** is only for the speaker's own commitment.'''
+
+[[item]]
+id = "7.2"
+type = "heading"
+level = 3
+title = "Stance (slot 13)"
+text = '''
+### 7.2 Stance (slot 13)'''
+
+[[item]]
+id = "7.2.1"
+type = "para"
+text = '''
+After a pause at the end, a word comments on the whole sentence, whatever its speech act:'''
+
+[[item]]
+id = "7.2.2"
+type = "bullet"
+title = "min"
+gap = 0
+text = '''
+- **min** "…, right?" (checks);'''
+
+[[item]]
+id = "7.2.3"
+type = "bullet"
+title = "a"
+gap = 0
+text = '''
+- **a** "as you know, you see" (shared ground): **wan sin oyi bu, a.**;'''
+
+[[item]]
+id = "7.2.4"
+type = "bullet"
+title = "buni"
+gap = 0
+text = '''
+- **buni** "okay?" (softens, invites agreement): **so pen isi, buni.**;'''
+
+[[item]]
+id = "7.2.5"
+type = "bullet"
+title = "donon"
+gap = 0
+text = '''
+- **donon** "it turned out" (against expectation): **wan gun no ibe guyi, donon.**'''
+
+[[item]]
+id = "7.2.6"
+type = "bullet"
+gap = 0
+text = '''
+- A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.**'''
+
+[[item]]
+id = "7.2.7"
+type = "bullet"
+gap = 0
+text = '''
+- If two stance words occur, **min** comes last.'''
+
+[[item]]
+id = "7.2.8"
+type = "bullet"
+gap = 0
+text = '''
+- Other words used in this position are stance words too.'''
+
+[[item]]
+id = "8"
+type = "heading"
+level = 2
+title = "Time"
+text = '''
+## 8. Time'''
+
+[[item]]
+id = "8.1"
+type = "heading"
+level = 3
+title = "Tense and aspect"
+text = '''
+### 8.1 Tense and aspect'''
+
+[[item]]
+id = "8.1.1"
+type = "bullet"
+title = "Tense is optional"
+text = '''
+- **Tense is optional.** A time word or a narrative's first **sin** sets the time; later verbs stay unmarked. The future is shown by a time word or context: **wuma gegi muwo** "it will rain tomorrow".'''
+
+[[item]]
+id = "8.1.2"
+type = "bullet"
+title = "Aspect"
+gap = 0
+text = '''
+- **Aspect** (right before the verb): **sin** done (with a past frame: past; with a future frame: "will have"); **le** ongoing, also "still"; **buntu** about to. **sin** and **le** don't combine: "was doing" = a past frame + **le**.'''
+
+[[item]]
+id = "8.1.3"
+type = "bullet"
+title = "mu sin"
+gap = 0
+text = '''
+- **mu sin** "not yet". "Didn't do" = a past frame + **mu** + verb.'''
+
+[[item]]
+id = "8.1.4"
+type = "bullet"
+title = "Habit"
+gap = 0
+text = '''
+- **Habit:** **manni** "usually"; with a past frame, "used to".'''
+
+[[item]]
+id = "8.1.5"
+type = "bullet"
+title = "Intent"
+gap = 0
+text = '''
+- **Intent:** **gan momu** "on purpose", **mu gan momu** "by accident".'''
+
+[[item]]
+id = "8.2"
+type = "heading"
+level = 3
+title = "Time words"
+text = '''
+### 8.2 Time words'''
+
+[[item]]
+id = "8.2.1"
+type = "bullet"
+title = "Roots"
+text = '''
+- **Roots:** **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month (also "moon"), **fawu** year; **muyi** time (a span or a point); **gimu** occasion (**gimu sa** "twice").'''
+
+[[item]]
+id = "8.2.2"
+type = "bullet"
+title = "Anchor + offset"
+gap = 0
+text = '''
+- **Anchor + offset:** the offset names its unit: **wuma wo dili fi** "the day after tomorrow". With no anchor, the anchor is now: **wo nelon fi** "next week", **ya dunan fi** "a month ago". Any time or event can be the anchor.'''
+
+[[item]]
+id = "8.2.3"
+type = "bullet"
+title = "Duration"
+gap = 0
+text = '''
+- **Duration** is a count: **awuwa ka** "three hours". **nin** + duration = "during, for" a span that frames the clause: **nin dili oma** "for seven days".'''
+
+[[item]]
+id = "8.2.4"
+type = "bullet"
+title = "Age"
+gap = 0
+text = '''
+- **Age** is lived time: **to nume fawu ka yawu** "I have lived 30 years".'''
+
+[[item]]
+id = "8.2.5"
+type = "bullet"
+title = "Hours, minutes, seconds"
+gap = 0
+text = '''
+- **Hours, minutes, seconds** are borrowed: **awuwa**, **minitu**, **sekandu**.'''
+
+[[item]]
+id = "8.3"
+type = "heading"
+level = 3
+title = "Clock, calendar, dates"
+text = '''
+### 8.3 Clock, calendar, dates'''
+
+[[item]]
+id = "8.3.1"
+type = "bullet"
+title = "The clock follows the speaker's culture;"
+text = '''
+- **The clock follows the speaker's culture;** both styles are always understood.
+  - **24-hour:** four digits read one at a time: **mon po mape ka po** "at 09:30", **mon sa fi ka po** "at 21:30".
+  - **12-hour:** the hour counted (1–12), then the minutes as two digits, then optionally **pi** + part of the day: **mon mape ka po pi yami** "at 9:30 at night"; **mon yawu po sa** "at 10:02"; on the hour, the hour alone: **mon yawu sa** "at 12".
+  - **Parts of the day:** **leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening, **yami** night; midnight = **yawu sa pi yami**.
+  - **About** a time: **fu** before it: **mon fu minfi** "around noon".'''
+
+[[item]]
+id = "8.3.2"
+type = "bullet"
+title = "Weekdays"
+gap = 0
+text = '''
+- **Weekdays:** **dili pi** + 1–7 on its own, Monday = 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month.'''
+
+[[item]]
+id = "8.3.3"
+type = "bullet"
+title = "Dates"
+gap = 0
+text = '''
+- **Dates:** larger unit first, a pause between: **dunan pi yawu, dili pi mape** "October 9"; a weekday with a time: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".'''
+
+[[item]]
+id = "8.3.4"
+type = "bullet"
+title = "Senary calendar"
+gap = 0
+text = '''
+- **Senary calendar:** [measurement.md](measurement.md).'''
+
+[[item]]
+id = "9"
+type = "heading"
+level = 2
+title = "Numbers"
+text = '''
+## 9. Numbers'''
+
+[[item]]
+id = "9.1"
+type = "heading"
+level = 3
+title = "Digits and place words"
+text = '''
+### 9.1 Digits and place words'''
+
+[[item]]
+id = "9.1.1"
+type = "table"
+text = '''
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|---|---|---|---|---|---|---|---|---|---|
+| **po** | **fi** | **sa** | **ka** | **da** | **te** | **ufo** | **oma** | **kefi** | **mape** |'''
+
+[[item]]
+id = "9.1.2"
+type = "table"
+text = '''
+| 10 | 100 | 1000 | million | billion | point | minus | × 10 to the |
+|---|---|---|---|---|---|---|---|
+| **yawu** | **loki** | **munno** | **tonen** | **siwin** | **mimi** | **guti** | **unun** |'''
+
+[[item]]
+id = "9.2"
+type = "heading"
+level = 3
+title = "Reading numbers"
+text = '''
+### 9.2 Reading numbers'''
+
+[[item]]
+id = "9.2.1"
+type = "bullet"
+title = "Quantity reading"
+text = '''
+- **Quantity reading:** place words in descending order, each preceded by its digit; a 1 before a place word is dropped; zero places are skipped: 15 **yawu te**, 50 **te yawu**, 42 **da yawu sa**, 105 **loki te**. A group word takes a whole number before it: 250 000 = **sa loki te yawu munno**.'''
+
+[[item]]
+id = "9.2.2"
+type = "bullet"
+title = "Digit reading"
+gap = 0
+text = '''
+- **Digit reading:** one digit at a time, whenever the exact digits matter more than the size: identifiers, phone numbers and codes (in groups of three from the right), years and 24-hour clock times (as one four-digit group).'''
+
+[[item]]
+id = "9.2.3"
+type = "bullet"
+title = "Labels"
+gap = 0
+text = '''
+- **Labels** (noun + **pi** + number) under 100 use the quantity reading (**dili pi yawu da** "day 14"); larger labels use digit reading.'''
+
+[[item]]
+id = "9.2.4"
+type = "bullet"
+title = "Decimals"
+gap = 0
+text = '''
+- **Decimals:** **mimi** "point": 1.5 = **fi mimi te**. **guti** minus; **unun** "× 10 to the": **ka unun guti ufo** = 3 × 10⁻⁶.'''
+
+[[item]]
+id = "9.2.5"
+type = "bullet"
+title = "Senary numbers"
+gap = 0
+text = '''
+- **Senary numbers:** **senali** + digits: **senali sa po** = 20₆ = 12.'''
+
+[[item]]
+id = "9.3"
+type = "heading"
+level = 3
+title = "Amounts and comparison"
+text = '''
+### 9.3 Amounts and comparison'''
+
+[[item]]
+id = "9.3.1"
+type = "bullet"
+title = "About"
+text = '''
+- **About:** **fu** + number: **ewo fu ka yawu** "about 30 people".'''
+
+[[item]]
+id = "9.3.2"
+type = "bullet"
+title = "Range"
+gap = 0
+text = '''
+- **Range:** **se** X **tun** Y. **At least** **konsin** X; **at most** **mu ke se** X.'''
+
+[[item]]
+id = "9.3.3"
+type = "bullet"
+title = "Enough"
+gap = 0
+text = '''
+- **Enough:** **tonya**.'''
+
+[[item]]
+id = "9.3.4"
+type = "bullet"
+title = "Comparison"
+gap = 0
+text = '''
+- **Comparison:** **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". Most: **ke** + quality + **se we** "more … than all". Less: **ke** + the opposite (**ke meli** "smaller"). As … as: **fu** (**kudu fu bu** "as big as it").'''
+
+[[item]]
+id = "9.3.5"
+type = "bullet"
+title = "Measurements"
+gap = 0
+text = '''
+- **Measurements:** borrowed international unit names, unit first like any counted noun: **kilamita te** "5 km". The native unit roots in the lexicon belong to the senary system ([measurement.md](measurement.md)).'''
+
+[[item]]
+id = "10"
+type = "heading"
+level = 2
+title = "People"
+text = '''
+## 10. People'''
+
+[[item]]
+id = "10.1"
+type = "heading"
+level = 3
+title = "Calling someone, titles, respect"
+text = '''
+### 10.1 Calling someone, titles, respect'''
+
+[[item]]
+id = "10.1.1"
+type = "bullet"
+title = "Calling someone"
+text = '''
+- **Calling someone** by name, title, role or kin word: at the start (slot 1, attention) or the end (slot 14, softening): **en mara, tin obu.** / **tin obu, en mara.**'''
+
+[[item]]
+id = "10.1.2"
+type = "bullet"
+title = "Titles"
+gap = 0
+text = '''
+- **Titles** go before the name, with no comma, and work in address and reference: **no tofo en mara** "Teacher Mara"; **no tofo en mara sin oyi** "Teacher Mara said".'''
+
+[[item]]
+id = "10.1.3"
+type = "bullet"
+title = "lanno"
+gap = 0
+text = '''
+- **lanno** is the title of respect, without gender: before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle"); alone in address (**lanno, so nun …** "Sir/Madam, please …"); alone in reference when context shows who (**lanno sin oyi** "the boss said"). It marks respect for the person named; it never means "you".'''
+
+[[item]]
+id = "10.1.4"
+type = "bullet"
+title = "There is no apposition"
+gap = 0
+text = '''
+- **There is no apposition:** describe someone with a title before the name, a relative clause, or a new sentence.'''
+
+[[item]]
+id = "10.2"
+type = "heading"
+level = 3
+title = "Politeness and routines"
+text = '''
+### 10.2 Politeness and routines'''
+
+[[item]]
+id = "10.2.1"
+type = "bullet"
+title = "nun"
+text = '''
+- **nun** adds politeness or deference and nothing else. It goes right after the speech-act particle, or first in a statement: **so nun …** "please …"; **nun nun** more.'''
+
+[[item]]
+id = "10.2.2"
+type = "bullet"
+title = "No polite pronouns and no speech levels"
+gap = 0
+text = '''
+- **No polite pronouns and no speech levels:** **me** is "you" to anyone. Respect is carried by **lanno**, titles and **nun**.'''
+
+[[item]]
+id = "10.2.3"
+type = "bullet"
+title = "Politeness never changes the act"
+gap = 0
+text = '''
+- **Politeness never changes the act:** a polite instruction is **tin nun**; a polite warning is **yo nun**: **yo nun osa le obu. fon nun pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."'''
+
+[[item]]
+id = "10.2.4"
+type = "bullet"
+title = "In an emergency (yo yo)"
+gap = 0
+text = '''
+- **In an emergency (yo yo)** no **nun** is expected.'''
+
+[[item]]
+id = "10.2.5"
+type = "bullet"
+title = "Routines"
+gap = 0
+text = '''
+- **Routines** are fixed formulas: greeting **upe**, **upe leso** "good morning"; farewell **upe isi** "go well"; thanks **lota**; sorry **sepi**; with politeness, **nun** first: **nun upe leso**.'''
+
+[[item]]
+id = "10.3"
+type = "heading"
+level = 3
+title = "Reference"
+text = '''
+### 10.3 Reference'''
+
+[[item]]
+id = "10.3.1"
+type = "bullet"
+title = "wan"
+text = '''
+- **wan** "he/she": the person or animal being talked about. **yi** another one who isn't the topic: **wan nagu yi** "she saw him". A newcomer is **yi** or named until the speaker makes them the topic.'''
+
+[[item]]
+id = "10.3.2"
+type = "bullet"
+title = "bu"
+gap = 0
+text = '''
+- **bu** "it": the thing being talked about. **ben** alone: a thing that isn't the topic: **me momu bu lu ben, yu.** "this one or that one?"'''
+
+[[item]]
+id = "10.3.3"
+type = "bullet"
+title = "tan"
+gap = 0
+text = '''
+- **tan** / **ben** alone for an event, statement or situation: **tan** nearer (what I'm saying, here and now), **ben** further (what you said, an earlier event): **ben gun upe** "that's good"; **gi tan** "so". (For a recipient, see 5.2.)'''
+
+[[item]]
+id = "10.3.4"
+type = "bullet"
+title = "sun"
+gap = 0
+text = '''
+- **sun** in reported speech or thought: the person whose words are reported.'''
+
+[[item]]
+id = "10.3.5"
+type = "bullet"
+title = "go"
+gap = 0
+text = '''
+- **go** anyone, people in general; **me** is only ever the listener, never generic. An unknown doer is **ewo bo**.'''
+
+[[item]]
+id = "10.3.6"
+type = "bullet"
+title = "nen"
+gap = 0
+text = '''
+- **nen** self: as object, reflexive (**to kuwi nen** "I keep myself"); after a noun or pronoun, "in person" (**wan nen obu** "he came himself").'''
+
+[[item]]
+id = "10.3.7"
+type = "bullet"
+title = "pen"
+gap = 0
+text = '''
+- **pen** we including you, **din** we not including you.'''
+
+[[item]]
+id = "10.3.8"
+type = "bullet"
+gap = 0
+text = '''
+- A pronoun never means the subject of its own clause (that's **nen**). The listener finds referents from context; if it could be unclear, name them.'''
+
+[[item]]
+id = "11"
+type = "heading"
+level = 2
+title = "Names, loans, new words"
+text = '''
+## 11. Names, loans, new words'''
+
+[[item]]
+id = "11.1"
+type = "bullet"
+title = "Names"
+text = '''
+- **Names** take **en**: **en mara**. A personal or brand name keeps its owner's spelling, lowercase, even with letters the language lacks: **en denise**, **en xi jinping**, **en nguyen**, **en wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names: **en london**; an established adapted form may be used instead: **en landan**. Names aren't used as verbs.'''
+
+[[item]]
+id = "11.2"
+type = "bullet"
+title = "Adapted form"
+gap = 0
+text = '''
+- **Adapted form** (`tools/names.py`): the spoken fallback for a name, and the form of every loan:
+  - each foreign sound becomes the nearest native sound: r → l, v → b, ʋ → w, z/sh/zh → s, th → f, dh → d, ch → t, j → d, kh → k; h and glottal sounds disappear; ng → n; length, aspiration and tone are dropped; ə, ʌ, æ → a;
+  - two vowels in a row get a glide: y after i or e, w otherwise;
+  - a consonant that can't stand where it is gets an added **u**;
+  - the result has at least two syllables (glide included: **tuwu**).'''
+
+[[item]]
+id = "11.3"
+type = "bullet"
+title = "Loans"
+gap = 0
+text = '''
+- **Loans** (no **en**) only where the world shares a form, taken in that international form; a loan enters the lexicon once it is common, and until then near-collisions are tolerated: **dola** dollar, **minitu**, **kilamita**, **pasentu**, **intalunetu**, **imeyilu**, **kamela**, **foto**. Everything else is said with native words, built words or phrases.'''
+
+[[item]]
+id = "11.4"
+type = "bullet"
+title = "Computers and interfaces"
+gap = 0
+text = '''
+- **Computers and interfaces** use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**, settings **ge finsa la**, computer **du sunbu** (`compounds.tsv`). **doku** "work" covers a machine working.'''
+
+[[item]]
+id = "11.5"
+type = "bullet"
+title = "Letters as labels"
+gap = 0
+text = '''
+- **Letters as labels** (flat 3B) pass through and are read as the speaker's culture reads them.'''
+
+[[item]]
+id = "11.6"
+type = "bullet"
+title = "New words"
+gap = 0
+text = '''
+- **New words** are made by the method in [vocabulary-method.md](vocabulary-method.md).'''
+
+[[item]]
+id = "12"
+type = "heading"
+level = 2
+title = "Conditions and modality"
+text = '''
+## 12. Conditions and modality'''
+
+[[item]]
+id = "12.1"
+type = "bullet"
+title = "Conditions"
+text = '''
+- **Conditions:** **don** "if" + clause. **kon** + number after **don** says how likely the condition is: **don kon fi** "if (unlikely)"; **don kon po** "if (and it isn't so)" is counterfactual: **don kon po to sin isi, to sin nagu wan** "if I had gone, I would have seen her". The main clause is the consequence; there is no "would".'''
+
+[[item]]
+id = "12.2"
+type = "bullet"
+title = "Modality, three kinds"
+gap = 0
+text = '''
+- **Modality, three kinds:** ability **lenu** "can"; obligation **keya** "must", **wupi** "need to, should" (for anyone); permission **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).'''
+
+[[item]]
+id = "12.3"
+type = "bullet"
+title = "Purpose"
+gap = 0
+text = '''
+- **Purpose:** **li** + verb "in order to": **li bika** "to buy".'''
+
+[[item]]
+id = "12.4"
+type = "bullet"
+title = "Let's"
+gap = 0
+text = '''
+- **Let's:** **so pen** …; **don't:** **tin mu** ….'''
+
+[[item]]
+id = "13"
+type = "heading"
+level = 2
+title = "Grammar words"
+text = '''
+## 13. Grammar words'''
+
+[[item]]
+id = "13.1"
+type = "table"
+text = '''
+| Group | Words |
+|---|---|
+| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** · exclaim **ba** |
+| Politeness | **nun** |
+| Clause operator | confidence **kon** |
+| Phrase operators | not **mu** · only **na** · also **fe** · even **wi** · focus **o** |
+| Degree | more **ke** · very **bi** |
+| Aspect | done **sin** · ongoing **le** |
+| Sentence end | tag **min** · "you know" **a** |
+| Pronouns | I **to** · you **me** · we incl. **pen** · we excl. **din** · he/she **wan** · the other one **yi** · it **bu** · logophoric **sun** · anyone **go** · self **nen** |
+| Determiners | plural **la** · this **tan** · that **ben** · all **we** · some **in** · some-not-all **kin** · none **fa** · unspecified **bo** · which/what **yu** |
+| Relations | of **pi** · at **mon** · to **tun** · from/than **se** · with **gan** · for **li** · before **ya** · after **wo** · like/about **fu** · during **nin** |
+| Linkers | and **yen** · or **lu** · but **un** · if **don** · because **gi** · that **wun** · who/which **man** · while **nin** · before **ya** · after **wo** |
+| Copula | is **gun** |
+| Names | **en** |
+| Derivation | doer **no** · thing **ge** · tool **du** · place **pu** |'''
+
+[[item]]
+id = "13.2"
+type = "para"
+title = "Two-syllable operators"
+text = '''
+**Two-syllable operators** (stressed on the first syllable): not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**.'''
+
+[[item]]
+id = "14"
+type = "heading"
+level = 2
+title = "Vocabulary"
+text = '''
+## 14. Vocabulary'''
+
+[[item]]
+id = "14.1"
+type = "bullet"
+text = '''
+- [../data/lexicon.tsv](../data/lexicon.tsv): roots and loans, each with a field and a frequency tier (1 rare – 5 most common). [../data/grammar.tsv](../data/grammar.tsv): grammar words. [../data/numbers.tsv](../data/numbers.tsv): number words. [../data/compounds.tsv](../data/compounds.tsv): established compounds.'''
+
+[[item]]
+id = "14.2"
+type = "bullet"
+gap = 0
+text = '''
+- A gloss with a second gloss after a comma fixes the sense: **gufu** "hard, not soft". A root means that sense only.'''
+
+[[item]]
+id = "14.3"
+type = "bullet"
+gap = 0
+text = '''
+- One root may cover senses most language families lump: **apu** "word; language"; context tells them apart.'''

@@ -1,4 +1,5 @@
 # Apu Pi We: reference
+<!-- Generated from spec/reference.toml by tools/spec.py build. Edit the spec, not this file. -->
 
 This document states what the language is. Why each part is the way it is: [rationale.md](rationale.md). How it got here: [design-log.md](design-log.md). Word lists: [../data/](../data/).
 

@@ -6,7 +6,7 @@ The language is called **apu pi we**, "everyone's language". **Status:** still i
 
 ## Layout
 
-- [docs/language.md](docs/language.md): the language as it stands now. Start here.
+- [docs/language.md](docs/language.md): the language as it stands now. Start here. It is generated from [spec/reference.toml](spec/reference.toml), the source of truth: edit the spec, then run `tools/spec.py build` (`check` verifies they match; `examples` lists every example with its rule id).
 - [docs/rationale.md](docs/rationale.md): why each part is the way it is, how it was made, and how to rebuild or change it. Read this before changing anything.
 - [docs/design-log.md](docs/design-log.md): decisions in order, with reasons.
 - [docs/roadmap.md](docs/roadmap.md): what happens next (consistency pass, structured spec, static site, going public). [docs/grammar-rebuild-spec.md](docs/grammar-rebuild-spec.md): how one-syllable grammar forms are assigned. [docs/vocabulary-plan.md](docs/vocabulary-plan.md) and [docs/vocabulary-method.md](docs/vocabulary-method.md): the agreed plan and the decision procedure for building the vocabulary.
