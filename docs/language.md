@@ -68,8 +68,8 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 | 6 | Subject | a noun phrase (section 5) | |
 | 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
 | 8 | Verb | one verb, or verb + verb (4.2) | |
-| 9 | Objects | recipient, then thing | 4.2 |
-| 10 | Manner | a content word describing the verb | 4.2 |
+| 9 | Manner | a quality describing the verb | 4.2 |
+| 10 | Objects | recipient, then thing | 4.2 |
 | 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
 | 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
 | 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
@@ -82,7 +82,7 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
   - after a subject, an **action** is the verb: **ewo niba** "the person walks". To describe a noun with an action, use **man**: **ewo man niba** "the person who walks" (5.3).
   - a **thing** right after a noun is only gender or a listed compound (5.2).
   - Any root can still take another role by position: an action as the object or with a derivation marker is a noun (**sepi** "apologise / an apology"); a quality after a verb is the manner.
-- **Object or manner:** a content word after the verb is its object if the verb takes one, otherwise its manner: **oyi fanse** "say calmly". To mark manner unambiguously after an object, put it after the object: **nawi pasu yobe**.
+- **Manner:** a quality right after the verb describes the action: **oyi fanse** "say calmly". It comes before the object: **nawi yobe pasu** "eat food quickly" (a quality after the object describes the object: **nawi pasu yobe** "eat fast food").
 - **Two objects:** recipient, then thing: **tofo me nuta** "teach you fear".
 - **Verb + verb:** if the first verb takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second describes the first: **goyu pume** "sit thinking".
 - **muge** "do; make": **muge** + result + object = "make (it) so": **muge upe tan** "fix this"; **muge** + object + manner = "do (it) so": **muge tan upe** "do this well".
@@ -91,7 +91,7 @@ A sentence fills these slots in this order. Only the verb (or a fragment, 4.5) i
 ### 4.3 Openers
 
 - **Scene-setting:** a time or place phrase may open the sentence: **mon minfi, …** "at noon, …". It changes no roles.
-- **Topic:** **pi** + a noun phrase at the start = "as for X": **pi tale la, no kuwi guyi yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading.
+- **Topic:** **pi** + a noun phrase at the start = "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading.
 - **If/when clause:** **don** "if", **nin** "while/when", **wo** "after", **ya** "before", **gi** "because" + clause.
 - **Order** when several open a sentence: linker, scene or topic, if/when clause; then the speech-act particle.
 - **Only person words call someone.** A fronted phrase that isn't a person word is a scene or topic phrase.
