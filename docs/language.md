@@ -36,10 +36,10 @@ Most of the grammar follows from these. The rules after them are the cases the p
 Agreed with the user, 2026-10-09. The Latin transliteration is the language's script for now: it costs nothing to type on any keyboard or phone, and computing runs on it. A script designed from first principles is deferred. Add one if human tests show reading trouble, or when there's a way to work on visual design together.
 
 - **Letters:** (names and passed-through symbols aside) the 18 plain letters a b d e f g i k l m n o p s t u w y, one per sound, with no accents and no letter pairs. Only letters, never digits, inside words.
-- **All lowercase, names included.** The name article **en** marks names, so capitals carry nothing. A capital I never appears, which avoids the l/I/1 confusion of sans-serif fonts (found by the user's first reading check).
+- **Lowercase is the standard, and capitals carry nothing.** The name article **en** marks names, so a capital adds no meaning, and any capital (a phone's automatic one included) is harmless. Lowercase avoids the l/I/1 confusion of sans-serif fonts (found by the user's first reading check).
 - **Stress is not written**, because it's predictable: the first syllable of every word of two or more syllables is stressed, and so is each one-syllable digit (**po fi sa ka da te**). All other one-syllable words are unstressed grammar words. (Docs used capitals for stress until 2026-10-09.)
 - **Numbers** are written with the digits 0–9, grouped in threes from the point with a space: `1 250 000`. **.** is the point. International unit symbols and the local clock notation pass through as they are (`5 km`, `20 °C`, `30%`, `21:30`, `9:30 pm`) and are read aloud by their borrowed names. A senary number is marked with a subscript ₆ (or `_6` in plain text).
-- **Punctuation: three marks only** (first-principles review with the user, 2026-10-09). Writing marks exactly what speech marks with the voice; everything else is carried by words.
+- **Punctuation: three marks carry the grammar** (first-principles review with the user, 2026-10-09). Writing marks exactly what speech marks with the voice; everything else is carried by words. Other notation passes through as it is (2026-10-10, for text and computer use): links, email addresses, @handles, #tags, emoji, code, file names, ISO dates (`2026-10-10`), like unit symbols and clock notation.
 
 | Mark | Use |
 |---|---|
@@ -47,7 +47,7 @@ Agreed with the user, 2026-10-09. The Latin transliteration is the language's sc
 | `.` | end of a sentence. (In numbers, `.` is the point; it always has digits on both sides.) |
 | `" "` | around quoted speech, whose edges speech marks by a change of voice |
 
-  No `?` or `!`. The opening word (**min**, **yo**, **ba**) already says it, and earlier: like Spanish's opening ¿, a reader knows the sentence's shape before saying it. The user's reading test showed end marks steer the voice, but too late. No `-` (compounds are ordinary phrases in speech) and no `:` (in speech it's just a pause). Triggers to bring one back: `?`/`!` if readers or text-to-speech misplace intonation despite the opening word; `-` if established compounds get misread; `:` if a pause can't carry a construction.
+  `?` and `!` are not needed but allowed: the opening word (**min**, **yo**, **ba**) already says it, and earlier: like Spanish's opening ¿, a reader knows the sentence's shape before saying it. The user's reading test showed end marks steer the voice, but too late. No `-` (compounds are ordinary phrases in speech) and no `:` (in speech it's just a pause). Triggers to bring one back: `?`/`!` if readers or text-to-speech misplace intonation despite the opening word; `-` if established compounds get misread; `:` if a pause can't carry a construction.
 
 - **Words are written apart until the sound changes.** A phrase said fast (**apu pi we**) keeps its spaces, as English writes *going to* however it's said. Once a fused form actually loses or changes sounds, it is a new word: it gets checked with the word tools and written as one.
 - **Spelling follows the standard pronunciation.** The harmless variants (k sounding like "ch" before i, nasal vowels, softened middle consonants) are never written, so spelling stays one letter per sound.

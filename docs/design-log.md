@@ -531,3 +531,12 @@ The user said they haven't started learning the language outside these sessions 
 **Digits 6–9 stay two syllables; grammar rebuild specced (user, 2026-10-10).** See `grammar-rebuild-spec.md`. Digits: robustness favours fewer one-syllable digits (the transmission test, the ICAO lesson), and sixths took them out of confidence. Rebuild: reassign one-syllable forms by measured frequency, with a stability penalty, keeping 2–3 slots free, under a recorded promotion rule.
 
 **Grammar rebuild tabled (user, 2026-10-10)** before the frequency step, pending a first-principles look at text and computer communication. Ready to resume: `grammar-rebuild-spec.md` and `tests/grammar-rebuild/meanings.tsv`.
+
+## Text and computer use (user, 2026-10-10)
+
+First-principles review. The language already suits text and machines: plain ASCII, spelling that matches sound, predictable stress, no word endings, spaces between words, stance in words. Changes:
+- **Writing:** other notation passes through (links, emails, @handles, #tags, emoji, code, file names, ISO dates), as unit symbols do.
+- **? and !** are "not needed but allowed". The old ban was a usage ban, which the Restraint review had already turned into predictions.
+- **Capitals carry nothing,** so a phone's automatic capital is harmless.
+
+Open: computer vocabulary (a batch via a UI and email translation), and whether grammar that rests on commas survives chat, which often drops them (under discussion with the user).
