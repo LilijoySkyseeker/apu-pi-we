@@ -44,7 +44,8 @@ obj: np
 gunarg: np obj? | relp | "wun" clause
 trail: relp | ","? subcl | "wun" "min"? clop* clause
 relp: phop* REL (np | np predicate | relp) | "li" C obj  // li + verb + its object: purpose
-np: phop* head det* ("pi" np)* relcl? (JOIN np)?
+np: phop* head det* ("pi" npi)* relcl? (JOIN np)?
+npi: phop* head det* ("pi" npi)* relcl?  // a pi phrase is one noun: a yen/lu list stays outside it (5.2)
 head: PRON | NAME | "lanno"? C N? | C ("ke" | "bi" | PHOP) C | DERIV C? (np | relp)? | DERIV "pi" np | N | DET | "yu" | "lanno" NAME?
 relcl: "man" clause REL?
 date: C "pi" N "," C "pi" N
@@ -52,7 +53,7 @@ stance: "min" | "a" | "buni" | "donon"
 phop: PHOP | "o" | "mu" | "fe" | "wi" | "na" | "ke" | "bi"
 asp: "sin" | "le" | "buntu"
 det: DET | "mesun" | "yu" | "bo" | "nen"
-fragment: np | date | predicate | relp | subcl | stance | clop+ clause? | actp clause?
+fragment: np | date | predicate | relp | subcl | "pi" np | stance | clop+ clause? | actp clause?
 ACT: "min" | "so" | "tin" | "fon" | "de" | "yo"
 SOURCE: "wanme" | "inwun" | "wemen"
 JOIN: "yen" | "lu" | "un"

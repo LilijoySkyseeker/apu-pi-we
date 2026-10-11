@@ -17,7 +17,7 @@ ewo we keya yema li gigin la lewe sonu pi nen nen.
 mon kemin pi funti pi gigin la, ewo la pi funti tan sin oyi moti wun sun gewan sogan bawe pi ewo, yen sun gewan bawe pi ewo, yen sun gewan wun lowu yen futa ibe sogan kige. wan la fe sin waka yema li ewo we guge. wan la fe sin waka yema li ewo we nume ke upe. wan la fe sin waka yema li ewo we ibe enpa ke feli.
 {.apu}
 
-gigin la pi funti pi gigin la sin oyi "de din doku gan funti pi gigin la li ewo we dundi enpa bawe yen sogan pi ewo. de din fe doku gan bu li ewo we kuwi bu la."
+gigin la pi funti pi gigin la sin oyi "de din doku gan funti pi gigin la li ewo we dundi sogan pi ewo yen enpa bawe. de din fe doku gan bu li ewo we kuwi bu la."
 {.apu}
 
 lafi kige pi sogan tan la gun ke bawe se we li gigin la lenu muge minwe ge oyi ben.
@@ -36,7 +36,7 @@ ewo we tuko nume gan enpa, yen ibe bawe kige yen sogan kige. wan la lenu pume, y
 go ibe sogan we pi kemin tan. musu fa kubo tan. niki pi ewo lu niki pi unne lu lowu lu futa lu apu lu lite pi nosen lu gigin lu funti man wan obu se, mu kubo tan. musu pi wan lu tuko nume pi wan lu musu eni lu ge pume pi wungu lu ge pume eni, fe mu kubo tan.
 {.apu}
 
-pi gigin lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu wungu nen, lu bu ibe lula ke uyo fu lite eni, lula pi bu fe mu kubo tan.
+pi gigin pi wan lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu wungu nen, lu bu ibe lula ke uyo fu lite eni, lula pi bu fe mu kubo tan.
 {.apu}
 
 ## Article 3
@@ -76,7 +76,7 @@ don wabun denku mu efon, go mu gun efon yidu go, lu yonnu go, lu muge kusa go se
 
 ## Article 10
 
-don pu pi wabun la waka fu sogan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma denku wan. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu la tan pi wabun keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
+don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma denku wan. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu la tan pi wabun keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
 {.apu}
 
 ## Article 11
@@ -166,7 +166,7 @@ go ibe sogan li ibe enpa ge pume, yen ibe sogan li oyi enpa. sogan tan fe gun so
 
 ## Article 22
 
-go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man gun fu nimo. wan fe ibe sogan man gun fu ewo we. wan fe ibe sogan man gun fu lite pi nume pi funti. wan wupi bu la li kuwi bawe pi nen. wan fe wupi bu la li guge enpa. gigin pi wan doku li tan, yen gigin la doku gan nen nen li tan. gigin mesun doku li tan fu yile yen musu yen nimo pi nen.
+go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man gun fu nimo. wan fe ibe sogan man gun fu ewo we. wan fe ibe sogan man gun fu lite pi nume pi funti. wan wupi bu la li kuwi bawe pi nen. wan fe wupi bu la li guge enpa. gigin pi wan doku li tan, yen gigin la doku gan nen nen li tan. gigin mesun doku li tan fu yile pi nen yen musu pi nen yen nimo pi nen.
 {.apu}
 
 ## Article 23
@@ -193,7 +193,7 @@ go ibe sogan li bamo doku. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan
 1. go yen yonyo pi wan ibe sogan li ibe tonya li pata upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi, lu mu lenu doku, lu gun pani, lu ofin pi wan sin kono, lu mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li yema se ewo we yen gigin.
 {.apu}
 
-2. mole yen tiwu ibe sogan li kuwi ke feli, yen ibe sogan li yema ke feli. pi tiwu we, wi don mole yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi kige wan la.
+2. mole yen tiwu ibe sogan li kuwi ke feli, yen ibe sogan li yema ke feli. pi tiwu we, wi don mole pi wan la yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi kige wan la.
 {.apu}
 
 ## Article 26
@@ -201,7 +201,7 @@ go ibe sogan li bamo doku. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan
 1. go ibe sogan li yesa. go mu keya unfu li konsin tofo pi tuko. tiwu we keya dunu tofo pi tuko. ewo we keya lenu dunu tofo pi doku. ewo we fe keya lenu inwa kige tofo tisan fu lenu pi nen.
 {.apu}
 
-2. tofo keya yema li ewo guge minwe. bu fe keya yema li go ke dundi enpa bawe yen sogan pi ewo. bu keya yema li gigin we lafi nen nen yen gun sonu yen efon wun eni pume eni. tan fe gun feko li funti we pi niki pi ewo. tan fe gun feko li funti we pi lite pi nosen lu ge pume feko. bu fe keya yema doku pi funti pi gigin la li kuwi bonwi.
+2. tofo keya yema li ewo guge minwe. bu fe keya yema li go ke dundi sogan pi ewo yen enpa bawe. bu keya yema li gigin we lafi nen nen yen gun sonu yen efon wun eni pume eni. tan fe gun feko li funti we pi niki pi ewo. tan fe gun feko li funti we pi lite pi nosen lu funti we pi ge pume feko. bu fe keya yema doku pi funti pi gigin la li kuwi bonwi.
 {.apu}
 
 3. mole yen wede ibe sogan li waka niki pi tofo pi tiwu pi nen. waka pi wan la gun ke bawe se waka pi ewo eni.

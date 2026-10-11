@@ -101,7 +101,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 ### 4.3 Openers
 
 - A time or place phrase may open the sentence to set the scene: **mon minfi, …** "at noon, …". It changes no roles.
-- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading.
+- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to the pause, so it can be a list: **pi upe yen yomo,** "as for good and bad,".
 - An if/when clause is **don** "if", **nin** "while/when", **wo** "after", **ya** "before" or **gi** "because", followed by a clause.
 - When several of these open a sentence, they come in this order: linker, scene or topic, if/when clause. The speech-act particle follows them.
 - Only person words call someone. A fronted phrase that isn't a person word is a scene or topic phrase.
@@ -170,7 +170,7 @@ A noun phrase runs in this order: noun, content modifiers, number, **la**, deter
 - The plural word **la** is optional. A count or context can show plurality.
 - There are no articles. Whether something is known or new is left to context, or shown with **tan**, **ben**, **bo** or a number.
 - Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three".
-- **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it.
+- **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it, and its phrase is the nearest single noun after it, so a list joined by **yen** or **lu** is outside it: **enpa pi pume yen lite pi nosen** is "freedom of thought, and religion". To cover every item, repeat the head: **enpa pi pume yen enpa pi lite pi nosen** "freedom of thought and freedom of religion".
 
 ### 5.3 Relative clauses
 

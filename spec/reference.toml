@@ -436,7 +436,7 @@ type = "bullet"
 title = "Topic"
 gap = 0
 text = '''
-- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading.'''
+- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to the pause, so it can be a list: **pi upe yen yomo,** "as for good and bad,".'''
 
 [[item]]
 id = "4.3.3"
@@ -839,7 +839,7 @@ type = "bullet"
 title = "pi"
 gap = 0
 text = '''
-- **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it.'''
+- **pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it, and its phrase is the nearest single noun after it, so a list joined by **yen** or **lu** is outside it: **enpa pi pume yen lite pi nosen** is "freedom of thought, and religion". To cover every item, repeat the head: **enpa pi pume yen enpa pi lite pi nosen** "freedom of thought and freedom of religion".'''
 
 [[item]]
 id = "5.3"

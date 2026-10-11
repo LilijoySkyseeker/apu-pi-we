@@ -246,3 +246,14 @@ This revision fixes the six translator-choice (T) losses in `scores-2.md`. Nothi
 ## Revision 4 (2026-10-11)
 
 - Preamble 2 and Art 1: **lugo upe yen yomo** → **lugo musu upe yen musu yomo**. A quality right after a verb is its manner (4.2), so the old text strictly read "know well and badly"; both blind back-translations flagged it. "Good things and bad things" is the clear form.
+
+## Revision 5 (pi scope rule)
+
+Checked all 42 sentences with **pi** and **yen**/**lu** against 5.2 (a **pi** phrase is one noun; a list stays outside it). A topic **pi** at the start (4.3) takes a whole noun phrase, so **pi upe yen yomo** (Art 18) and **pi gason yen ge iko** (Art 19) are unchanged.
+- Art 2.2: **pi gigin lu kemu pi wan** → **pi gigin pi wan lu kemu pi wan**. "His" now covers the country too, not only the territory.
+- Art 10: **sogan yen ge keya pi wan** → **sogan pi wan yen ge keya pi wan**. It strictly read "rights, and his obligations".
+- Art 22: **fu yile yen musu yen nimo pi nen** → **fu yile pi nen yen musu pi nen yen nimo pi nen**. "Its own" now covers the system and things too. The 3 readings that remain are only the Y attachment of **yen** after the **fu** phrase.
+- Art 25.2: **mole yen wede pi wan la** → **mole pi wan la yen wede pi wan la**. It strictly read "a mother, and their father".
+- Art 26.2: **funti we pi lite pi nosen lu ge pume feko** → **funti we pi lite pi nosen lu funti we pi ge pume feko**. It strictly read "all religious groups, or belief".
+- Checks: `check.py --text` finds no unknown words. Parser unchanged at 152 one reading, 24 several and 2 no parse (the same Art 5 and Art 11.2 gaps).
+- Preamble 6, Art 26.2: **dundi enpa bawe yen sogan pi ewo** → **dundi sogan pi ewo yen enpa bawe**. A quality right after a verb is its manner (4.2), so it read "respect freely"; a noun first avoids that.

@@ -37,7 +37,7 @@ mon kemin pi funti pi gigin la, ewo la pi funti tan sin oyi moti wun sun gewan s
 
 > Whereas the peoples of the United Nations have in the Charter reaffirmed their faith in fundamental human rights, in the dignity and worth of the human person and in the equal rights of men and women and have determined to promote social progress and better standards of life in larger freedom,
 
-gigin la pi funti pi gigin la sin oyi "de din doku gan funti pi gigin la li ewo we dundi enpa bawe yen sogan pi ewo. de din fe doku gan bu li ewo we kuwi bu la."
+gigin la pi funti pi gigin la sin oyi "de din doku gan funti pi gigin la li ewo we dundi sogan pi ewo yen enpa bawe. de din fe doku gan bu li ewo we kuwi bu la."
 {.apu}
 
 > Whereas Member States have pledged themselves to achieve, in co‐operation with the United Nations, the promotion of universal respect for and observance of human rights and fundamental freedoms,
@@ -66,7 +66,7 @@ go ibe sogan we pi kemin tan. musu fa kubo tan. niki pi ewo lu niki pi unne lu l
 
 > Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.
 
-pi gigin lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu wungu nen, lu bu ibe lula ke uyo fu lite eni, lula pi bu fe mu kubo tan.
+pi gigin pi wan lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu wungu nen, lu bu ibe lula ke uyo fu lite eni, lula pi bu fe mu kubo tan.
 {.apu}
 
 > Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non‐self‐governing or under any other limitation of sovereignty.
@@ -122,7 +122,7 @@ don wabun denku mu efon, go mu gun efon yidu go, lu yonnu go, lu muge kusa go se
 
 ## wabun pi 10 {.apu}
 
-don pu pi wabun la waka fu sogan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma denku wan. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu la tan pi wabun keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
+don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma denku wan. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu la tan pi wabun keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
 {.apu}
 
 > Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
@@ -256,7 +256,7 @@ go ibe sogan li ibe enpa ge pume, yen ibe sogan li oyi enpa. sogan tan fe gun so
 
 ## wabun pi 22 {.apu}
 
-go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man gun fu nimo. wan fe ibe sogan man gun fu ewo we. wan fe ibe sogan man gun fu lite pi nume pi funti. wan wupi bu la li kuwi bawe pi nen. wan fe wupi bu la li guge enpa. gigin pi wan doku li tan, yen gigin la doku gan nen nen li tan. gigin mesun doku li tan fu yile yen musu yen nimo pi nen.
+go gun fi pi ewo we, yen ibe sogan li dunu yema se ewo we. wan fe ibe sogan man gun fu nimo. wan fe ibe sogan man gun fu ewo we. wan fe ibe sogan man gun fu lite pi nume pi funti. wan wupi bu la li kuwi bawe pi nen. wan fe wupi bu la li guge enpa. gigin pi wan doku li tan, yen gigin la doku gan nen nen li tan. gigin mesun doku li tan fu yile pi nen yen musu pi nen yen nimo pi nen.
 {.apu}
 
 > Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.
@@ -297,7 +297,7 @@ go ibe sogan li bamo doku. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan
 
 > 1\. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.
 
-2\. mole yen tiwu ibe sogan li kuwi ke feli, yen ibe sogan li yema ke feli. pi tiwu we, wi don mole yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi kige wan la.
+2\. mole yen tiwu ibe sogan li kuwi ke feli, yen ibe sogan li yema ke feli. pi tiwu we, wi don mole pi wan la yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi kige wan la.
 {.apu}
 
 > 2\. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.
@@ -309,7 +309,7 @@ go ibe sogan li bamo doku. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan
 
 > 1\. Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.
 
-2\. tofo keya yema li ewo guge minwe. bu fe keya yema li go ke dundi enpa bawe yen sogan pi ewo. bu keya yema li gigin we lafi nen nen yen gun sonu yen efon wun eni pume eni. tan fe gun feko li funti we pi niki pi ewo. tan fe gun feko li funti we pi lite pi nosen lu ge pume feko. bu fe keya yema doku pi funti pi gigin la li kuwi bonwi.
+2\. tofo keya yema li ewo guge minwe. bu fe keya yema li go ke dundi sogan pi ewo yen enpa bawe. bu keya yema li gigin we lafi nen nen yen gun sonu yen efon wun eni pume eni. tan fe gun feko li funti we pi niki pi ewo. tan fe gun feko li funti we pi lite pi nosen lu funti we pi ge pume feko. bu fe keya yema doku pi funti pi gigin la li kuwi bonwi.
 {.apu}
 
 > 2\. Education shall be directed to the full development of the human personality and to the strengthening of respect for human rights and fundamental freedoms. It shall promote understanding, tolerance and friendship among all nations, racial or religious groups, and shall further the activities of the United Nations for the maintenance of peace.
