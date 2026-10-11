@@ -13,7 +13,7 @@ CONF	op	1.5	kon
 SEEN	op	0.5	o
 TOLD	op	0.8	fen
 INFER	op	0.5	san
-I	pron	10	lon
+I	pron	10	to
 YOU	pron	8	me
 WE.incl	pron	3	pen
 WE.excl	pron	3	din
@@ -51,7 +51,6 @@ VERY	degree	3	bi
 LIKE	rel	3	fu
 GENERIC	pron	3.0	go
 ONLY	op	3.0	na
-RATHER	degree	2.0	to
 AT.LEAST	op	1.0	pa
 WHILE	link	2.0	nin
 EXCLAIM	act	1.5	ba

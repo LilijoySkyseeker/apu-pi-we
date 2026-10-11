@@ -81,7 +81,7 @@ Senary's r20/r21 rework (2026-10-09) supplies the concepts: one continuous count
 | local time / local day | **muyi pi kemu** / **dili pi kemu** "time / day of the place" | the default; nobody says it unless comparing places |
 | the count | **sunbu pi muyi** "the count of time" | for records and machines; rarely spoken |
 | body time | **muyi pi gawo** "time of the body" | |
-| age | **nume** "live" + a duration: **lon nume fawu te nobi** "I have lived 30 years" | an age *is* lived body time, which is what the verb says |
+| age | **nume** "live" + a duration: **to nume fawu te nobi** "I have lived 30 years" | an age *is* lived body time, which is what the verb says |
 | seasons | **muyi** + quality: **muyi tikun** "hot time", **muyi weki** "cold time", **muyi pi gegi** "time of rain" | local, as senary says; each place names its own |
 
 **Relative time** uses the existing anchor-plus-offset rule; with no anchor, the anchor is now: **wo nelon fi** "after one week" = next week, **ya boyo fi** "a block ago", **nelon tan** "this week".

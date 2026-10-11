@@ -42,14 +42,14 @@ The sounds are easy for an English speaker. The hard part is what English does *
 | **w y** | *we*, *yes* | always consonants |
 
 - **Every letter is said, every time.** **ewo** "person" is *e-wo*, three sounds, two syllables. **apu** is *a-pu*.
-- **The only consonant that ends a syllable is n:** **lon** "I", **kegin** "evening".
+- **The only consonant that ends a syllable is n:** **to** "I", **kegin** "evening".
 - **The one-letter-per-sound rule has no exceptions.** If you can read it, you can say it.
 
 **The big English habit to break: don't swallow unstressed vowels.** English turns most unstressed vowels into "uh" (*banana* = buh-NA-nuh). Here every vowel keeps its full sound: **apu** is "AH-poo", not "AH-puh"; **dili** "day" is "DEE-lee", not "DIL-ee". Think Spanish or Japanese: even, clear syllables.
 
 **Stress:**
 - **Words of two or more syllables are stressed on the first syllable**, always: **TO-tu** "dog", **GU-yi** "house". Stress is *higher pitch*, not extra length or loudness.
-- **One-syllable words are grammar words, said low and quick** (**lon**, **me**, **pi**, **mu**…). The digits 0–5 are the exception: they're stressed.
+- **One-syllable words are grammar words, said low and quick** (**to**, **me**, **pi**, **mu**…). The digits 0–5 are the exception: they're stressed.
 - **Across a phrase, the stressed syllables step down like a staircase** and reset after a comma or full stop. English already does this; just don't fight it.
 - **Questions don't need a rising voice.** The first word already says it's a question. Rising anyway is fine.
 
@@ -59,11 +59,11 @@ The sounds are easy for an English speaker. The hard part is what English does *
 
 The order is **who + does + what**, like English:
 
-- **lon nagu totu.** "I see a dog." / "I see the dog."
+- **to nagu totu.** "I see a dog." / "I see the dog."
 - **me momu osa.** "You want water."
 - **wan nawi pasu.** "She eats food." (or "he": **wan** is both)
 
-There is no "a" or "the", and the verb never changes: **lon nagu**, **wan nagu**, **pen nagu** ("we see"). Plural is usually left out; add **la** only if it matters (**totu la** "dogs"), or just give the number (**totu sa** "two dogs").
+There is no "a" or "the", and the verb never changes: **to nagu**, **wan nagu**, **pen nagu** ("we see"). Plural is usually left out; add **la** only if it matters (**totu la** "dogs"), or just give the number (**totu sa** "two dogs").
 
 ## Lesson 3: Describing words come after
 
@@ -82,7 +82,7 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 
 ## Lesson 4: No, questions and answers
 
-- **NOT** is **mu**, before what it denies: **lon mu lugo.** "I don't know."
+- **NOT** is **mu**, before what it denies: **to mu lugo.** "I don't know."
 - **Yes/no questions start with min:** **min me momu osa.** "Do you want water?"
 - **There are no words for yes and no. You answer by repeating the verb:** **momu** "(I) want (it)", **mu momu** "(I) don't want (it)". This feels strange for a week and then very natural.
 - **Question words stay where the answer goes.** English moves *what* to the front; this language doesn't:
@@ -95,7 +95,7 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 
 | | |
 |---|---|
-| **lon** | I, me |
+| **to** | I, me |
 | **me** | you (anyone, any number) |
 | **pen** | we, including you |
 | **din** | we, not including you |
@@ -105,7 +105,7 @@ Degree words are the one thing that goes *before*: **bi kudu** "very big", **ke 
 | **ben** | that one (a different thing); also "that" for something said or done: **ben gun upe** "that's good" |
 | **tan** | this, for something just said or here now: **gi tan** "so" |
 | **wan la** | they |
-| **nen** | self: **lon miya nen** "I look at myself" |
+| **nen** | self: **to miya nen** "I look at myself" |
 | **go** | anyone, people in general |
 
 **Watch me: it means "you", not "me".** Expect to trip on this for a while.
@@ -127,11 +127,11 @@ Many grammar words are spelled like English words and mean something else. Learn
 | **go** | anyone | |
 | **we** | all | **ewo we** "all people", everyone |
 | **in** | some | **pasu in** "some food" |
-| **to** | rather | **to kudu** "rather big" |
-| **a** | not literal (joking, irony) | **a lon bi sogi.** "I'm *so* happy." (sarcastic) |
-| **so** | please / request | **so neke lon osa.** "Please give me water." |
+| **tason** | rather | **tason kudu** "rather big" |
+| **a** | not literal (joking, irony) | **a to bi sogi.** "I'm *so* happy." (sarcastic) |
+| **so** | please / request | **so neke to osa.** "Please give me water." |
 | **man** | who, which | **ewo man obu** "the person who comes" |
-| **sin** | done (finished) | **lon sin nawi.** "I've eaten." |
+| **sin** | done (finished) | **to sin nawi.** "I've eaten." |
 | **don** | if | |
 | **fen** | (I was) told | **fen wan kusa.** "She left, I'm told." |
 
@@ -139,15 +139,15 @@ Many grammar words are spelled like English words and mean something else. Learn
 
 The relation words come before their noun, as in English:
 
-- **pi** of: **guyi pi lon** "my house" (house of me); **guyi pi en mala** "Mara's house"
+- **pi** of: **guyi pi to** "my house" (house of me); **guyi pi en mala** "Mara's house"
 - **mon** at, in: **wan gun mon guyi.** "She's at home."
-- **tun** to: **lon isi tun guyi.** "I'm going home."
+- **tun** to: **to isi tun guyi.** "I'm going home."
 - **se** from: **wan obu se guyi.** "He comes from home."
-- **gan** with: **lon isi gan me.** "I'm going with you."
+- **gan** with: **to isi gan me.** "I'm going with you."
 - **li** for: **li me** "for you"
 - **ya** before, **wo** after
 
-Giving something to someone: **verb + who gets it + what**: **neke lon osa** "give me water".
+Giving something to someone: **verb + who gets it + what**: **neke to osa** "give me water".
 
 Names always take **en**: **en mala** "Mara". Names are adapted to the sounds: Lilith becomes **en lilifu**. Ask me to adapt yours.
 
@@ -155,11 +155,11 @@ Names always take **en**: **en mala** "Mara". Names are adapted to the sounds: L
 
 - **upe** hello ("good"), **upe leso** good morning, **upe isi** goodbye ("go well")
 - **lota** thanks, **sepi** sorry
-- **nun** makes anything polite: **so nun neke lon osa.** "Could you please give me water?" Add more for more: **nun nun**.
+- **nun** makes anything polite: **so nun neke to osa.** "Could you please give me water?" Add more for more: **nun nun**.
 - **Names keep their own spelling:** write **en denise**, not an adapted form, and say it as close to the real name as you can.
 - **Calling someone:** put the name or title first or last, with a comma: **en mala, tin obu.** "Mara, come." Titles go before the name and work when talking about someone too: **no tofo en mala** "Teacher Mara". **lanno** is the polite title for anyone, like Mr/Ms or sir/madam: **lanno en olusegun**, or just **lanno, …**. It also goes before a role or kin word: **lanno faba pi wede** "Uncle (father's sibling)", with respect.
-- **Stress in a word:** where English stresses a word for contrast, put **fule** before it: **fule en tomasu yidu bu** "*Tomas* took it"; **lon fule unfu** "I *did* pay". **genfo** is "even": **genfo tiwu la obu** "even the children came".
-- **Habits and accidents:** **manni** before a verb is "usually" (**lon manni isi** "I usually go"). **mu gan momu** is "by accident", **gan momu** "on purpose". To set a topic, start with **pi X,** "as for X, …".
+- **Stress in a word:** where English stresses a word for contrast, put **fule** before it: **fule en tomasu yidu bu** "*Tomas* took it"; **to fule unfu** "I *did* pay". **genfo** is "even": **genfo tiwu la obu** "even the children came".
+- **Habits and accidents:** **manni** before a verb is "usually" (**to manni isi** "I usually go"). **mu gan momu** is "by accident", **gan momu** "on purpose". To set a topic, start with **pi X,** "as for X, …".
 - **Tone words at the end:** after a comma at the end of a sentence, **iwun** is "you know", **buni** is "okay?" (friendly, not a real question) and **donon** is "it turned out": **so pen isi, buni.** "Let's go, okay?"
 - **mm** "I heard you", **huh?** "say again"
 
@@ -210,14 +210,14 @@ There are no teens, no "-ty", no irregular numbers at all. English makes you lea
 
 ## Lesson 10: Time
 
-- **Tense is optional.** Say when once, then stop marking it: **afe, lon nawi pasu.** "Yesterday, I ate food."
+- **Tense is optional.** Say when once, then stop marking it: **afe, to nawi pasu.** "Yesterday, I ate food."
 - **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday.
-- **sin** done (**lon sin nawi** "I've eaten"), **le** in progress (**lon le nawi** "I'm eating"), **win** about to (**lon win kusa** "I'm about to leave").
+- **sin** done (**to sin nawi** "I've eaten"), **le** in progress (**to le nawi** "I'm eating"), **win** about to (**to win kusa** "I'm about to leave").
 - **Offsets from now:** **wo nelon fi** "after one week" = next week; **ya dunan fi** "before one month" = a month ago.
 - **dili** day, **nelon** week, **dunan** month (also "moon"), **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.
 - **Clock time works the way your culture does.** 12-hour: count the hour and minutes, add the part of the day if needed: **mon mape ka yawu pi yami** "at 9:30 at night" (**leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening, **yami** night). 24-hour: four digits, one at a time: **mon sa fi ka po** "at 21:30". Write the time the way your culture writes it.
 - **Dates:** the month by number, then the day: **dunan pi yawu, dili pi mape** "October 9". On its own, **dili pi** + 1–7 is a weekday, Monday = 1: **dili pi ka** "Wednesday".
-- **Age is time lived:** **lon nume fawu …** "I have lived … years".
+- **Age is time lived:** **to nume fawu …** "I have lived … years".
 
 ## Lesson 11: Making words you don't have
 
@@ -238,9 +238,9 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 
 - **yen** and, **lu** or, **un** but
 - **don** if, **gi** because, **nin** while
-- **wun** that (**lon pume wun …** "I think that …")
+- **wun** that (**to pume wun …** "I think that …")
 - **man** who/which (**ewo man obu** "the person who comes")
-- **Put a comma where you'd pause:** after a clause that opens the sentence (**don me obu, lon sogi.** "If you come, I'll be happy."), and after a long subject.
+- **Put a comma where you'd pause:** after a clause that opens the sentence (**don me obu, to sogi.** "If you come, I'll be happy."), and after a long subject.
 - **Whether a clause goes first or last changes what it attaches to.** At the start, it belongs to the main sentence. At the end, it belongs to the nearest clause. Full rule: [language.md](language.md), rule 15.
 
 ## Two things English doesn't have

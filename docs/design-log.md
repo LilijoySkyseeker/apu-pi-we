@@ -523,3 +523,7 @@ From multilanguage test 01, by the decision rule:
 ## Freeze lifted (user, 2026-10-10)
 
 The user said they haven't started learning the language outside these sessions and consider it still in design, so the 2026-10-09 freeze is tentatively removed. Its only source was protecting a learner. Changes still go through the tools and the design log. **Trigger to restore it: the user starts learning.** Reopened: **lon** "I" (Vietnamese vulgarity, now observed in a test), two-syllable digits 6–9, the full one-syllable grammar space. The watch list stays, since it records predictions, not freeze rules.
+
+## lon "I" replaced by to (user, 2026-10-10)
+
+**lon** matched a Vietnamese vulgarity, and multilanguage test 01 showed it said to an elder. With the freeze lifted it could change. No one-syllable form was free: every open syllable is taken, a digit, or a final **-n** away from a grammar word. So "I" took the short form of a rare word. Donors were filtered by the pronoun slot (a first consonant not used by another pronoun: f, t, k or b), the offensive filter (**fa**, **ke**, **kin**, **tan** were blocked), the final-**n** rule (**ta** was blocked by **tan**) and drift (**bo** would merge with **bu** "it"). That left **to** "rather", freq 2. "rather" became the two-syllable root **tason**. Cost recorded: **to** looks like the English preposition, an interference like **me** "you". All doc examples were updated in Apu Pi We spans only; old tests and texts keep **lon** as records.
