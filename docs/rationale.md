@@ -33,7 +33,7 @@ These are the working methods; reuse them to keep changes consistent.
 - **Evidence before design.** Each design area began with a research round (notes in `research/notes/`, labelled sourced / secondary / unverified). Tag claims honestly; several early "facts" were recalled and later corrected.
 - **Blind tests over argument.** A change that matters is tested by a fresh AI agent that hasn't seen the reasoning: it translates or back-translates, and a separate judge scores against rules fixed in advance (`tests/*/method.md` or the analysis files). Run `tools/check.py` on any text first: hand translations repeatedly used stale words.
 - **One problem at a time, with the user choosing between options.** For each finding: options with trade-offs, Claude's recommendation, the user's choice, the rejected options and an add-back trigger logged.
-- **Words are stable; the core is frozen** (2026-10-09) [Claude, agreed]: an existing word or rule changes only when real use or a test shows a problem. Why: the user is learning the language, and the conlang record shows churn loses learners (Ido) while a frozen core survives (Esperanto). Known accepted flaws: **lon** "I" (a Vietnamese vulgarity) and two-syllable digits 6–9.
+- **Freeze lifted; still in design** (user, 2026-10-10): the 2026-10-09 freeze assumed the user was learning; they aren't yet, so words and rules may change when the design benefits, still through the tools and the log. Bring the freeze back when the user starts learning (churn loses learners: Ido vs Esperanto). Reopened flaws: **lon** "I" (a Vietnamese vulgarity), two-syllable digits 6–9, the full one-syllable grammar space.
 
 ---
 

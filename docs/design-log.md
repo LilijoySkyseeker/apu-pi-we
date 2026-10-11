@@ -519,3 +519,7 @@ From multilanguage test 01, by the decision rule:
 - good or bad luck for the person affected (Vietnamese *bị/được*, Mandarin 被), which can already be said as "a bad thing happened to me";
 - result complements, where the Mandarin round trip lost only 1 point;
 - articles.
+
+## Freeze lifted (user, 2026-10-10)
+
+The user said they haven't started learning the language outside these sessions and consider it still in design, so the 2026-10-09 freeze is tentatively removed. Its only source was protecting a learner. Changes still go through the tools and the design log. **Trigger to restore it: the user starts learning.** Reopened: **lon** "I" (Vietnamese vulgarity, now observed in a test), two-syllable digits 6–9, the full one-syllable grammar space. The watch list stays, since it records predictions, not freeze rules.
