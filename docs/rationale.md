@@ -1,6 +1,6 @@
 # Why and how: the design rationale
 
-Written 2026-10-10 so a later session (or person) can understand why each part of Apu Pi We is the way it is, rebuild it, and change it safely.
+Written 2026-10-10 so a later session (or person) can understand why each part of Apupiwe is the way it is, rebuild it, and change it safely.
 
 **How this differs from the other docs.** [language.md](language.md) says *what* the language is now. [design-log.md](design-log.md) records decisions in the order they happened, including dead ends. This file is organised by topic and gives, for each part of the design: the decision, **why** (with its source: the author, evidence, or Claude), **how** it was made (method, tool, parameters), and **how to change it** (which file, what else moves, the trigger that should make you change it). Where this file and language.md disagree, language.md wins and this file is out of date.
 

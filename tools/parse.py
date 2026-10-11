@@ -171,7 +171,7 @@ def parse(sentence):
 
 if __name__ == "__main__":
     if sys.argv[1:2] == ["--file"]:
-        # A text file: every line that isn't a heading or a {.attr} line is Apu Pi We prose.
+        # A text file: every line that isn't a heading or a {.attr} line is Apupiwe prose.
         counts, worst = {0: 0, 1: 0, 2: 0}, []
         for line in open(sys.argv[2]):
             line = re.sub(r"^\d+\. ", "", line.strip())

@@ -1,6 +1,6 @@
-# Apu Pi We
+# Apupiwe
 
-Apu Pi We is a constructed language. Say it **AH-poo pee weh** ([ˈapu pi we]): stress only the first syllable, and say *we* like "wet" without the t. The name means "everyone's language".
+Apupiwe is a constructed language. Say it **AH-poo-pee-weh** ([ˈapupiwe]): stress only the first syllable, and say the last one like "wet" without the t. In the language itself it's **apu pi we**, "everyone's language".
 
 The idea: the world's languages have each, separately, worked out the same answers to a lot of problems. Take those shared answers and build one language for children to grow up speaking. What would it look like? It's also meant to be a real language that people learn and use, and you can start today.
 
@@ -10,7 +10,7 @@ It is still being designed, so words and rules change.
 
 ## How it's built
 
-Every language has to solve the same problems: naming things, saying who did what to whom, asking, being polite, counting. Languages in families that never met have often landed on the same solutions. Apu Pi We starts from that. Where unrelated languages agree on what a language needs, it has it. Where they disagree on how to do it, it takes the simplest way. Languages are counted by family, not by number of speakers, so a solution found independently on different continents outweighs one that is merely spoken by many people.
+Every language has to solve the same problems: naming things, saying who did what to whom, asking, being polite, counting. Languages in families that never met have often landed on the same solutions. Apupiwe starts from that. Where unrelated languages agree on what a language needs, it has it. Where they disagree on how to do it, it takes the simplest way. Languages are counted by family, not by number of speakers, so a solution found independently on different continents outweighs one that is merely spoken by many people.
 
 The sounds are built on the world's most common system of five vowels, in syllables almost anyone can say. The basic words are the meanings named in the most language families, drawn from a database of over 3,000 languages, and the meanings people use most get the shortest words, with frequency measured across 15 languages.
 
@@ -52,7 +52,7 @@ The tools need Python 3 with numpy. `parse.py` also needs lark, `site.py` needs 
 
 ## Related
 
-Senary, a base-six measurement system, is a sibling project. Apu Pi We has words for it (`docs/measurement.md`). It will be published here too.
+Senary, a base-six measurement system, is a sibling project. Apupiwe has words for it (`docs/measurement.md`). It will be published here too.
 
 ## Contributing
 

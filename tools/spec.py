@@ -6,7 +6,7 @@ headings "4.2", items inside them "4.2.3" (intro items "0.n").
 
   python spec.py build      # write docs/language.md from spec/reference.toml
   python spec.py check      # fail if docs/language.md differs from what build would write
-  python spec.py examples   # list every example (rule id, Apu Pi We, English) as TSV
+  python spec.py examples   # list every example (rule id, Apupiwe, English) as TSV
 """
 import os, re, sys, tomllib
 

@@ -1,11 +1,11 @@
-# Apu Pi We: reference
+# Apupiwe: reference
 <!-- Generated from spec/reference.toml by tools/spec.py build. Edit the spec, not this file. -->
 
 This document states what the language is. The reasons for each part are in [rationale.md](rationale.md), its history is in [design-log.md](design-log.md), and the word lists are in the [data folder](https://github.com/LilijoySkyseeker/apu-pi-we/tree/main/data).
 
-The language is called **apu pi we** "everyone's language", in English Apu Pi We. It is said [ˈapu pi we], roughly AH-poo pee weh, with only the first syllable stressed. Any language is named with **apu pi** followed by whose language it is.
+The language calls itself **apu pi we** "everyone's language", said [ˈapu pi we], roughly AH-poo pee weh, with only the first syllable stressed. Its name in English and other languages is one word, Apupiwe, said the same way. Any language is named with **apu pi** followed by whose language it is.
 
-Apu Pi We is a designed language for people who speak it natively, within the world's existing cultures. Its own grammar is built for native speakers. Where it meets a culture's conventions, such as clocks, calendars, units, names and customs, it carries them. Where conventions conflict and one must be chosen, it follows the international standard.
+Apupiwe is a designed language for people who speak it natively, within the world's existing cultures. Its own grammar is built for native speakers. Where it meets a culture's conventions, such as clocks, calendars, units, names and customs, it carries them. Where conventions conflict and one must be chosen, it follows the international standard.
 
 When its goals conflict, they rank in this order:
 1. Clarity. A precise, unambiguous way to say anything always exists.

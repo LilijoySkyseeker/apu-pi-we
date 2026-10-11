@@ -12,7 +12,7 @@ A competent human writer explaining a language to a curious English-speaking adu
 - Say each thing once.
 - Define what a thing *is*. Use a contrast or a negative only when a reader would otherwise very likely get it wrong, and then say it once, plainly.
 - Write paragraphs of two to four sentences. Use a list only for real lists (sets of examples, parallel items). Use a table where a comparison really helps.
-- Keep bold for Apu Pi We words. Use italics sparingly for emphasis.
+- Keep bold for Apupiwe words. Use italics sparingly for emphasis.
 - Put a cross-reference at the end of a sentence in plain words ("more in lesson 7"), at most one per paragraph.
 - Vary sentence length the way people do.
 

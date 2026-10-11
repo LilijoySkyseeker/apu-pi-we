@@ -1,6 +1,6 @@
 # Senary vocabulary
 
-Apu Pi We's own numbers are base 10, and everyday measurement uses today's units with borrowed names (`language.md`, rules 9–10). Since 2026-10-09 senary is a topic the language can talk about, for the author's worldbuilding among other things, not a system built into it (author's ruling). This file holds the words for it. From 2026-10-08 to 2026-10-09 senary was the language's own measurement system; the sections below were written then and still describe how senary is said.
+Apupiwe's own numbers are base 10, and everyday measurement uses today's units with borrowed names (`language.md`, rules 9–10). Since 2026-10-09 senary is a topic the language can talk about, for the author's worldbuilding among other things, not a system built into it (author's ruling). This file holds the words for it. From 2026-10-08 to 2026-10-09 senary was the language's own measurement system; the sections below were written then and still describe how senary is said.
 
 **Numbers in this file are senary.** In speech, put **senali** before a senary number whenever it isn't obvious (**senali sa po** = 20₆ = 12). The base-6 place and scale words (**nobi** 6, **miko** 36, **niyu** 216, **yiyo** 6⁴ …) are used only for senary.
 

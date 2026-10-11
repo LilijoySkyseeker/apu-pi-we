@@ -1,4 +1,4 @@
-# Learning Apu Pi We: a guide for English speakers
+# Learning Apupiwe: a guide for English speakers
 
 This guide is for English speakers. The full rules are in the [language reference](language.md). Here you'll find the order to learn them in, the parts English makes hard, and how to practise.
 

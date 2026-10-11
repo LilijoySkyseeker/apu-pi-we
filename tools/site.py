@@ -144,11 +144,11 @@ def page(name, title, body, toc, prev=None, nxt=None, extra=""):
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(title)} · Apu Pi We</title>
+<title>{html.escape(title)} · Apupiwe</title>
 <link rel="stylesheet" href="style.css">
 <script>try {{ var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; }} catch (e) {{}}</script>
 </head><body>
-<header><a class="site" href="index.html">Apu Pi We</a> <nav>{nav} <a href="{REPO}">Source</a> <button id="theme" type="button" hidden>dark</button></nav>
+<header><a class="site" href="index.html">Apupiwe</a> <nav>{nav} <a href="{REPO}">Source</a> <button id="theme" type="button" hidden>dark</button></nav>
 <form class="search" action="search.html" role="search"><input id="q" name="q" type="search" placeholder="search  ( / )" autocomplete="off" aria-label="Search"><ol id="hits" hidden></ol></form></header>
 <div class="wrap">{side}<main>
 {body}

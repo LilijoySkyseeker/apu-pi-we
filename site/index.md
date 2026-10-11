@@ -1,6 +1,6 @@
-# Apu Pi We
+# Apupiwe
 
-Apu Pi We is a constructed language. Say it **AH-poo pee weh** ([ˈapu pi we]): stress only the first syllable, and say *we* like "wet" without the t. The name means "everyone's language".
+Apupiwe is a constructed language. Say it **AH-poo-pee-weh** ([ˈapupiwe]): stress only the first syllable, and say the last one like "wet" without the t. In the language itself it's **apu pi we**, "everyone's language".
 
 It starts from a question. The world's languages have each worked out many of the same answers on their own, so what would you get if you took those shared answers and built one language from them, for children to grow up speaking? It's also a real language, and you can learn it here.
 
@@ -13,7 +13,7 @@ It is still being designed, so words and rules change from time to time.
 
 ## How it's built
 
-Every language has to solve the same problems: naming things, saying who did what to whom, asking, being polite, counting. Languages in families that never met have often landed on the same solutions. Apu Pi We starts from that. Where unrelated languages agree on what a language needs, it has it. Where they disagree on how to do it, it takes the simplest way. Languages are counted by family, not by number of speakers, so a solution found independently on different continents outweighs one that is merely spoken by many people.
+Every language has to solve the same problems: naming things, saying who did what to whom, asking, being polite, counting. Languages in families that never met have often landed on the same solutions. Apupiwe starts from that. Where unrelated languages agree on what a language needs, it has it. Where they disagree on how to do it, it takes the simplest way. Languages are counted by family, not by number of speakers, so a solution found independently on different continents outweighs one that is merely spoken by many people.
 
 The sounds are built on the world's most common system of five vowels, in syllables almost anyone can say. The basic words are the meanings named in the most language families, drawn from a database of over 3,000 languages, and the meanings people use most get the shortest words, with frequency measured across 15 languages.
 

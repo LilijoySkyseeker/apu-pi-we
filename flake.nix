@@ -1,5 +1,5 @@
 {
-  description = "Apu Pi We: tools for the language";
+  description = "Apupiwe: tools for the language";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
