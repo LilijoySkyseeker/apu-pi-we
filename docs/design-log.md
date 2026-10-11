@@ -488,3 +488,5 @@ Even native speakers live inside existing cultures: American 12-hour clocks, Sun
 - **Writing:** the local clock notation passes through like unit symbols, which also removes the colon problem.
 
 Tabled item 2 is resolved by this.
+
+**Weekdays (user, 2026-10-10): keep numbers, anchored to ISO 8601 (Monday = 1).** Named weekdays (option A) were rejected because the 7-day week is itself one culture's convention; borrowing English names (B) was rejected because it favours one culture. The user's tie-breaker, now a principle: carry every culture's convention where they coexist; where they conflict and one must be picked, follow the international technical standard. The learner guide already says Monday = 1.
