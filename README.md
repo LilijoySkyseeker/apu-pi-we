@@ -1,8 +1,10 @@
-# Apu Pi We, a universal language
+# Apu Pi We
 
-A thought experiment: design the best universal human language for modern Earth from first principles. It's imagined as a native language that children grow up speaking. The goal is faithful transmission of thought, at a cost speakers will actually pay.
+A thought experiment in the best human language, built from what the world's languages share, for people who would grow up speaking it; and a real language its creator can learn, enjoy and share.
 
-The language is called **apu pi we**, "everyone's language". **Status:** still in design; nothing is frozen until the user starts learning it.
+The language is called **apu pi we**, "everyone's language". **Status:** still in design; words and rules may change.
+
+**Read it as a website:** <https://lilijoyskyseeker.github.io/apu-pi-we/> (lessons, reference, dictionary). It is rebuilt from this repo on every push.
 
 ## Layout
 
@@ -30,3 +32,11 @@ The tools need Python with numpy. On NixOS:
 ## Related
 
 The language's numbers are base 10 and its everyday units are today's, with borrowed names. The senary measurement system lives in the sibling repo `~/work/repos/senary`, which owns its quantities; this repo supplies its words (`docs/measurement.md`, `data/units.tsv`, the senary rows of `data/numbers.tsv`), so senary stays usable, for worldbuilding among other things.
+
+## Contributing
+
+Work in progress. Issues are welcome: questions, gaps you hit while using the language, mistakes in the docs. To change a rule, edit `spec/reference.toml` and run `tools/spec.py build`; `tools/parse.py` checks the examples.
+
+## Licence
+
+Text and data: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Code in `tools/`: MIT. Third-party data and its sources: [data/SOURCES.md](data/SOURCES.md). See [LICENSE](LICENSE).

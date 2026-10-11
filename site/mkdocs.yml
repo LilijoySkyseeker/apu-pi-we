@@ -1,6 +1,10 @@
 # Site settings. Build with: tools/site.py (it stages the pages, then runs mkdocs).
 site_name: Apu Pi We
 site_description: A thought experiment in the best human language, built from what the world's languages share.
+site_url: https://lilijoyskyseeker.github.io/apu-pi-we/
+repo_url: https://github.com/LilijoySkyseeker/apu-pi-we
+repo_name: apu-pi-we
+copyright: Text CC BY-SA 4.0. Still in design; words and rules may change.
 docs_dir: ../build/site-src
 site_dir: ../build/site
 use_directory_urls: false
