@@ -129,7 +129,7 @@ don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan 
 
 ## wabun pi 11 {.apu}
 
-1\. don ewo bo oyi wun yi sin alun wabun, wabun la keya muge yi fu ewo man mu alun bu. tan gun feko ya pu pi wabun la wuye wun yi sin alun bu. pu pi wabun la keya wuye ben fu wabun mon doma man ewo we lenu nagu. mon doma tan, bu la keya neke yi musu we man yi wupi li kuwi nen.
+1\. don ewo bo oyi wun yi sin alun wabun, wabun la keya muge yi fu ewo man mu alun bu. tan gun feko anko pu pi wabun la wuye wun yi sin alun bu. pu pi wabun la keya wuye ben fu wabun mon doma man ewo we lenu nagu. mon doma tan, bu la keya neke yi musu we man yi wupi li kuwi nen.
 {.apu}
 
 > 1\. Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence.
@@ -165,7 +165,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 > 1\. Everyone has the right to seek and to enjoy in other countries asylum from persecution.
 
-2\. don ewo bo oyi wun yi sin alun wabun, yen ukun feko pi ben gun wun yi sin alun wabun, yen alun tan mu gun fu wungu, yi mu lenu bone sogan tan. don ewo bo oyi wun yi sin muge musu bo, yen ukun feko pi ben gun wun musu tan alun ge momu pi funti pi gigin la, lu alun gason bawe pi bu, yi fe mu lenu bone sogan tan.
+2\. don ewo bo oyi wun yi sin alun wabun, yen ukun feko pi ben gun wun yi sin alun wabun, yen alun tan mu gun fu wungu, yi mu lenu bone sogan tan. don ewo bo oyi wun yi sin muge musu bo, yen ukun feko pi ben gun wun musu tan ninsu ge momu pi funti pi gigin la, lu ninsu gason bawe pi bu, yi fe mu lenu bone sogan tan.
 {.apu}
 
 > 2\. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.
@@ -184,7 +184,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 ## wabun pi 16 {.apu}
 
-1\. don lowu lu futa sin guge, wan ibe sogan li bedan. wan fe ibe sogan li tuko yonyo. niki pi ewo mu lenu bamo tan. wi don wan la gun ewo pi gigin eni, ben fe mu lenu bamo tan. lite pi nosen fe mu lenu bamo tan. lowu yen futa ibe sogan kige li bedan. wan la fe ibe sogan kige nin bedan. wan la fe ibe sogan kige mon fugi pi bedan.
+1\. don lowu lu futa sin guge, wan ibe sogan li bedan. wan fe ibe sogan li tuko yonyo. wan la ibe sogan tan la nuwen bamo man gun fu niki pi ewo lu gigin lu lite pi nosen. lowu yen futa ibe sogan kige li bedan. wan la fe ibe sogan kige nin bedan. wan la fe ibe sogan kige mon fugi pi bedan.
 {.apu}
 
 > 1\. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution.
@@ -201,7 +201,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 ## wabun pi 17 {.apu}
 
-1\. go ibe sogan li ibe musu gan ewo fa. wan fe ibe sogan li ibe musu gan ewo eni.
+1\. go ibe sogan li ibe musu nuwen ewo eni. wan fe ibe sogan li ibe musu gan ewo eni.
 {.apu}
 
 > 1\. Everyone has the right to own property alone as well as in association with others.
@@ -213,7 +213,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 ## wabun pi 18 {.apu}
 
-go ibe sogan li pume enpa. pi upe yen yomo, wan fe ibe sogan li pume enpa. wan fe ibe sogan li ibe enpa lite pi nosen lu ge pume feko. sogan tan fe gun sogan li kubo lite pi nosen lu ge pume feko. wan fe ibe sogan li wuye enpa lite pi nosen lu ge pume feko. wan lenu muge ben gan ewo fa. wan fe lenu muge ben gan ewo eni. wan lenu muge ben mon kemu kunsu, lu muge ben mon kemu mu kunsu. tofo yen muge yen dundi nosen yen kuwi gun lite pi wuye bu la.
+go ibe sogan li pume enpa. pi upe yen yomo, wan fe ibe sogan li pume enpa. wan fe ibe sogan li ibe enpa lite pi nosen lu ge pume feko. sogan tan fe gun sogan li kubo lite pi nosen lu ge pume feko. wan fe ibe sogan li wuye enpa lite pi nosen lu ge pume feko. wan lenu muge ben nuwen ewo eni. wan fe lenu muge ben gan ewo eni. wan lenu muge ben mon kemu kunsu, lu muge ben mon kemu mu kunsu. tofo yen muge yen dundi nosen yen kuwi gun lite pi wuye bu la.
 {.apu}
 
 > Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance.
@@ -350,7 +350,7 @@ go ibe sogan li yile man sogan we pi kemin tan lenu lewe feko minwe mon. yile ta
 
 > 2\. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society.
 
-3\. don go bone sogan tan la, yen ben alun ge momu pi funti pi gigin la, lu alun gason bawe pi bu, go mu mu gun efon muge ben.
+3\. don go bone sogan tan la, yen ben ninsu ge momu pi funti pi gigin la, lu ninsu gason bawe pi bu, go mu mu gun efon muge ben.
 {.apu}
 
 > 3\. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.
