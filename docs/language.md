@@ -6,7 +6,7 @@ This is the current state. Reasons and history are in [design-log.md](design-log
 
 **What it is:** a thought experiment in designing a universal human language for modern Earth from first principles. It's imagined as a *native* language, one that children grow up speaking, so the only fixed constraints are human: mouth, ear, memory, attention.
 
-**Goal:** faithful transmission of thought, at a cost speakers will actually pay. When features conflict, this decides.
+**Goal:** faithful transmission of thought, at a cost speakers will actually pay. When features conflict, this decides. Its speakers live within the world's existing cultures, so where the language meets culture (clocks, calendars, units, names, customs), it carries any culture's conventions and imposes none.
 
 ## Six principles
 

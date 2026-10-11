@@ -476,3 +476,7 @@ From multilanguage test 01, decided with the user step by step:
 5. Labels under 100 use the counted form; years, clock times and identifiers are read digit by digit.
 
 Item 2 is what prompted the review: a speaker in a 12-hour culture lives with 12-hour clocks.
+
+## Coexisting with existing cultures (user, 2026-10-10)
+
+Even native speakers live inside existing cultures: American 12-hour clocks, Sunday-first weeks, names like Denise. Principle: **the insides are built for native speakers; the boundary with culture carries any culture's conventions and imposes none.** These are different rules for different parts, not a trade-off between native and current speakers, because both live in the same cultures. Up for review under it: the 24-hour-only clock, Monday = day 1, name adaptation, and English as the only source of technical loans.
