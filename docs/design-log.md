@@ -467,3 +467,12 @@ From multilanguage test 01, decided with the user step by step:
 **Retest of the interpersonal layer and two follow-ups (user, 2026-10-10).** `tests/multilang-01/retest/`: the targets moved from lost or inferred to marked in the text. Japanese stance: 6 of 14 particles carried in-text, where before all collapsed onto **min**. Hindi–Urdu respect: 26 of 45 in-text, where before 0 of ~10. Spanish contrast: 6 of 8 in-text, 0 lost. Follow-ups:
 - **lanno** now goes before any person word (name, role, kin word), and alone it can refer to someone clear from context. All three translators asked for this, and Hindi lost respect for unnamed people.
 - Japanese っけ (half-remembered "wasn't it?") is **kon** + the **min** tag, documented as an example. **min** was doing its own job (checking); the missing part, uncertainty, already has **kon**. So the stance watch-list trigger didn't really fire.
+
+**Tabled (2026-10-10), pending a first-principles review of how the language coexists with existing cultures:** five clarifications from the multilanguage translators, proposed but not yet written in:
+1. **gun** at the start of any clause means "there is"; to say "(it) is X", keep the subject.
+2. Clock times as four digits (`0900`), and digits in ordinary writing.
+3. **a**/**ba** can go in front of another speech-act word (rhetorical or indignant questions).
+4. **de** commits only the speaker or their group.
+5. Labels under 100 use the counted form; years, clock times and identifiers are read digit by digit.
+
+Item 2 is what prompted the review: a speaker in a 12-hour culture lives with 12-hour clocks.
