@@ -38,10 +38,12 @@ actp: ("genso" | "ba")? ACT "nun"* | "nun"+
 clop: "kon" (N | "bo") | SOURCE
 clause: (np | heavy)? predicate (","? JOIN (np | heavy)? predicate)*
 heavy: np ","
-predicate: phop* "manni"? asp* C det* ("pi" np)* relcl? obj? (obj | "," longobj)? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
+predicate: phop* "manni"? asp* C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
+// C (phop+ C): verb, operator, verb, as in keya mu neke "must not give"
+result: phop* C  // after a pronoun object: muge go bi yomo, "make/do it so" (4.2)
 longobj: np
 obj: np
-gunarg: np obj? | relp | "wun" clause
+gunarg: np obj? result? | relp | "wun" clause
 trail: relp | ","? subcl | "wun" "min"? clop* clause
 relp: phop* REL (np | np predicate | relp) | "li" C obj | "li" "gun" gunarg  // li + verb + its object: purpose
 np: phop* head det* ("pi" npi)* relcl? (JOIN np)?
