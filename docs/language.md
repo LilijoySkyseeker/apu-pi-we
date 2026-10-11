@@ -167,6 +167,17 @@ Added 2026-10-10 after multilanguage test 01: five of seven translators had to g
 - **Titles** go before the name, and title + name is an ordinary noun phrase: it works when speaking *to* someone and *about* them. **no tofo en mala** "Teacher Mara"; **no tofo en mala sin oyi** "Teacher Mara said". Kin words work the same way (**mole** "Mother").
 - **lanno** is the title of respect, with no gender: before a name (**lanno en gupta** "Mr/Ms Gupta", Hindi *Gupta-ji*), or alone when speaking to someone (**lanno, so nun …** "Sir/Madam, please …"). It gives respect its own word, so speakers don't turn "old" or "leader" into titles (English *sir* and Spanish *señor* both come from Latin *senior* "elder"), which would blur those words (principle 6). It marks respect for the person named; **nun** marks politeness toward the listener, and the two combine freely.
 
+## Stance at the end of the sentence
+
+Added 2026-10-10 after multilanguage test 01: all 11 languages flagged stance words (Japanese じゃん/ね, Indonesian *kan*/*ya*, Russian же/ведь, Vietnamese *mà*/*nhé*, English "you know"), and in the Japanese round trip they all collapsed onto **min**.
+
+- **The end of the sentence, after a pause, is where stance goes.** A word there comments on the whole sentence: how the speaker places it with the listener. Stance lives in words, not intonation, so speech and writing carry the same thing. The tag **"…, min"** ("…, right?") was the first word in this position. Openers like "well", "so" and "anyway" use the linker position at the start instead.
+- **Three seed words** for the jobs languages converge on most:
+  - **iwun** "as you know, you see": shared ground. **wan sin oyi bu, iwun.** "He said so, you know."
+  - **buni** "okay?": softens and invites agreement without asking for information (that's **min**). **so pen isi, buni.** "Let's go, okay?"
+  - **donon** "it turned out, surprisingly": counter to what was expected. **wan gun no ibe guyi, donon.** "He turned out to be the landlord."
+- **The rest grows here.** Speakers will make more stance words by putting ordinary words in this position, as English turned "you know" into a particle: fillers, reminders, insisting, "wasn't it?" for a half-memory. They're seeded only so that **min**, **kon** and **ba** don't get pressed into these jobs and wear down (principle 6). Watch list: if a test shows that happening anyway, seed the job it's being used for.
+
 ## Rules the principles don't cover
 
 1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **nun** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so nun …** "please …"). Only a name or title used to call someone, a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"
@@ -260,6 +271,7 @@ The word forms were chosen by a mishearing model. Its consonant data are real: E
 
 - **Watch list** (where the conlang record predicts precision will bend; act only if use or a test shows it):
   - **kon** collapsing to a few favourite values;
+  - **min**, **kon** or **ba** pressed into stance jobs despite the stance words;
   - **kon** used for emphasis, or questions, hedges and low **kon** used for politeness (drift.md items 1–2), which would blur what they carry;
   - **wan**, **yi** and **bu** now follow the topic (2026-10-10). Bring back a mechanical rule if a blind test shows listeners losing track where one would have helped;
   - the aspect words **le** and **win** going unused.
