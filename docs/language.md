@@ -111,7 +111,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 - A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**) at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".
 - A relation word may drop its object when context supplies it, as in **wo** "after that" and **ya** "beforehand". It then ends its clause or comes before a pause.
 - A relation word can take a clause (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").
-- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning".
+- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".
 - **yen** "and", **lu** "or" and **un** "but" join nouns, verbs, modifiers or clauses. Nouns in a list are joined with **yen**: **mole yen wede** "mother and father". **lu X lu Y** means "either X or Y, not both".
 - A quote is framed by a say-verb, and in writing it goes in quotation marks. It is its own sentence with its own speech-act particle. Broken-off speech just stops.
 
@@ -142,8 +142,8 @@ In casual writing, pauses that context makes obvious may be dropped.
 - **gun** goes before a place phrase: **wan gun mon guyi** "he is at home".
 - **gun** before an action word gives the resulting state: **gun tapi** "is closed".
 - **gun** before a **wun** clause means "is that …".
-- After another verb, use **gun** "to be": **momu gun tiwu** "want to be a child".
-- **gun** at the start of a clause with no subject means "there is": **un, gun musu feli** "but there are many things".
+- After another verb, and after **li**, **gun** is "to be": **momu gun tiwu** "want to be a child", **sogan li gun kuwi** "the right to be protected".
+- Anywhere else, **gun** at the start of a clause with no subject means "there is": **un, gun musu feli** "but there are many things".
 
 ### 4.8 Questions and answers
 

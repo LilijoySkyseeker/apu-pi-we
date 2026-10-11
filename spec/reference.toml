@@ -499,7 +499,7 @@ type = "bullet"
 title = "Clause attachment"
 gap = 0
 text = '''
-- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning".'''
+- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".'''
 
 [[item]]
 id = "4.4.5"
@@ -675,7 +675,7 @@ id = "4.7.6"
 type = "bullet"
 gap = 0
 text = '''
-- After another verb, use **gun** "to be": **momu gun tiwu** "want to be a child".'''
+- After another verb, and after **li**, **gun** is "to be": **momu gun tiwu** "want to be a child", **sogan li gun kuwi** "the right to be protected".'''
 
 [[item]]
 id = "4.7.7"
@@ -683,7 +683,7 @@ type = "bullet"
 title = "gun"
 gap = 0
 text = '''
-- **gun** at the start of a clause with no subject means "there is": **un, gun musu feli** "but there are many things".'''
+- Anywhere else, **gun** at the start of a clause with no subject means "there is": **un, gun musu feli** "but there are many things".'''
 
 [[item]]
 id = "4.8"

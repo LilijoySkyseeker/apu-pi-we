@@ -37,3 +37,4 @@ there by copying a folder, and no adoption or governance machinery.
 - wiki software: non-git people want to edit;
 - contribution governance: a real group forms;
 - CI: the build is stable and the repo is public.
+- tools on the website (tabled 2026-10-11): a word-by-word gloss page is cheap and first in line; the parser in the browser waits until learners ask whether their sentences are grammatical; the name adapter until people ask how to say their name.

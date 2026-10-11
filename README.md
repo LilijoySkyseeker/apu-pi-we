@@ -8,6 +8,12 @@ It is still being designed, so words and rules change.
 
 **Website: https://lilijoyskyseeker.github.io/apu-pi-we/** has the lessons, the full reference and a searchable dictionary.
 
+## How it's built
+
+Every language has to solve the same problems: naming things, saying who did what to whom, asking, being polite, counting. Languages in families that never met have often landed on the same solutions. Apu Pi We starts from that. Where unrelated languages agree on what a language needs, it has it. Where they disagree on how to do it, it takes the simplest way. Languages are counted by family, not by number of speakers, so a solution found independently in Africa, Asia and the Americas outweighs one that is merely spoken by many people.
+
+That's why it has five vowels, the most common system in the world, and syllables almost anyone can say. Its basic words are the meanings named in the most language families, drawn from a database of over 3,000 languages. The meanings people use most get the shortest words, measured across 15 languages. Words never change form, as in Chinese or Yoruba. It has separate words for "we including you" and "we not including you", a distinction many languages make and English doesn't.
+
 ## What it looks like
 
 ```

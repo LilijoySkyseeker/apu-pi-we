@@ -54,7 +54,7 @@ Cultural neutrality matters from the very first word in a different way: in wher
 
 **Added 2026-10-10:** 22 roots: almost **nedin**, each **mesun**, suddenly **finbi**, late **yodun**, early **ganna**, trust **gewan**, love **wigen**, miss **sanku**, disappointed **kinbo**, hungry **monyu**, tired **fadun**, strange **lenya**, safe **sonli**, expensive **unwi**, cheap **tanbu**, room **fudon**, box **nansa**, storey **sison**, oil **yunen**, marry/wedding **bedan**, a right **sogan**, complain **tayin**; earlier the same day: even **genfo**, noon **minfi**, afternoon **duwun**, "it turned out" **donon**. Built words in `compounds.tsv`: landlord, neighbour, kitchen, warehouse, move house, park, yell, part-time work, free of charge. Lumped: law = **wabun** "rule". Left as phrases: formally, pessimistic, bothersome, pity, basin, gate, beard, queue, demand, criticise, block, flood, text, "sorry" as sympathy (**to feme bayi li me**). Loans added the same day, in their international form (**foto**, not English "photo"; **yulo** euro; **polisu**): email, photo, train, licence, electricity, degree, hospital, bicycle, battery, euro, yuan, rupee, police. Brands (Uber, WeChat, Alipay, LINE) follow the name rule. Not loans, because their form isn't shared internationally, so they're described: deadline, truck, screen, plug, socket, wire, elevator, petrol, air conditioning, spreadsheet, navigation, intern, driver, transport, stamp, photocopy.
 
-**Added 2026-10-11 (UDHR):** respect/honour **dundi**, country/nation **gigin** (design log).
+**Added 2026-10-11 (UDHR):** respect/honour **dundi**, country/nation **gigin**, rest **yenbo**, fair/just **kidun** (design log).
 
 The original list:
 
