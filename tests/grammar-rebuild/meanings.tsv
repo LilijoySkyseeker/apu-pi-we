@@ -1,0 +1,75 @@
+id	form	meaning
+Q	min	yes/no question marker (sentence-initial particle; also tag "..., right?")
+REQUEST	so	request: "please do", "could you"
+INSTRUCT	tin	instruction/imperative: "do this"
+ADVISE	fon	advice: "you should", "maybe you could"
+INTEND	de	speaker commits: "I will", "I'll do it"
+WARN	yo	warning: "watch out", "careful"
+NONLITERAL	a	"just kidding", "not literally", irony
+EXCLAIM	ba	exclamation: "wow", "what a..."
+POLITE	nun	"please" (pure politeness)
+NOT	mu	not, no (negation)
+BE	gun	is/are (copula); "there is"
+DONE	sin	already; completed (perfective)
+ONGOING	le	still; in progress ("-ing")
+SOON	win	about to; going to (soon)
+MORE	ke	more; -er (comparative)
+VERY	bi	very
+ONLY	na	only, just
+AT.LEAST	pa	at least
+CONF	kon	"probably", "I think", "likely" (graded confidence)
+SEEN	o	evidential: "I saw (that)", "evidently"
+TOLD	fen	hearsay: "they say", "apparently", "I heard"
+INFER	san	inference: "it seems", "must have"
+UNSPEC	bo	unspecified: "some ... or other", "whatever", "any"
+WH	yu	what (question word)
+I	to	I, me
+YOU	me	you
+WE.incl	pen	we (including you)
+WE.excl	din	we (not you)
+HE/SHE/IT	wan	he, she
+OBVIATIVE	yi	the other one (another third person)
+LOGOPHOR	sun	"he himself" in reported speech (he said HE would...)
+GENERIC	go	one, anyone, people in general
+SELF	nen	self, -self
+IT	bu	it
+PLURAL	la	plural marker / "they" (with he/she)
+THIS	tan	this
+THAT.dem	ben	that (demonstrative)
+ALL	we	all, every
+SOME	in	some
+PART	kin	some but not all
+NONE	fa	none, no (determiner)
+OF	pi	of
+AT	mon	at, in, on (location/time)
+TO	tun	to, toward
+FROM	se	from; also "than"
+WITH	gan	with
+FOR	li	for, in order to
+BEFORE	ya	before, ago
+AFTER	wo	after, later
+LIKE	fu	like, as; about (approximately)
+AND	yen	and
+OR	lu	or
+BUT	un	but
+IF	don	if
+BECAUSE	gi	because
+THAT.comp	wun	that (complementizer: "said that ...")
+WHO.rel	man	who, which (relative pronoun)
+WHILE	nin	while, during
+NAME	en	(name article; no ordinary equivalent)
+AGENT	no	-er, one who (agent noun)
+RESULT	ge	what is done/made (result noun)
+TOOL	du	tool for, thing for
+PLACE	pu	place for, place where
+FOCUS	fule	focus/contrast: "it is X (not Y)", "did indeed"
+EVEN	genfo	even
+ALSO	wame	also, too
+HABITUAL	manni	usually
+YOUKNOW	iwun	"you know", "as you know", "after all"
+OKAY	buni	"okay?", "alright?" (softening tag)
+TURNEDOUT	donon	"it turned out", "surprisingly"
+RATHER	tason	rather, quite, somewhat
+ALMOST	nedin	almost, nearly
+EACH	mesun	each, every one
+TITLE	lanno	Mr/Ms, sir/madam (respect title)
