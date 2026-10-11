@@ -450,3 +450,9 @@ From multilanguage test 01, decided with the user step by step:
   - register layers: formal texts are misread as casual or the reverse.
 - **Three rooms to design** (functions that converge): (1) a place for stance words; (2) a place for direct address, with titles that also work when referring to someone, which covers respect for third persons; (3) focus and contrast. Design the room and leave the content to speakers, except for the minimum needed to make each room usable.
 - Missing words from all the tests are noted in `vocabulary-plan.md` for the normal process.
+
+**Room 1 done: direct address and titles (user chose A + B + C, 2026-10-10).**
+- (A) A name or title used to call someone goes first (before the speech-act particle) or last, set off by a pause.
+- (B) Title + name is an ordinary noun phrase, usable in address and reference; respect for a third person rides on it.
+- (C) **lanno**, a gender-neutral title of respect, works before a name or alone as "sir/madam". It's a dedicated outlet (principle 6): otherwise "old" or "leader" would be pressed into service, as Latin *senior* became *sir* and *señor*. Rejected: rules only, leaving titles to speakers (the room would start empty).
+- Add-back trigger for a graded "you": speakers with **lanno**, address and **nun** still can't avoid sounding rude.

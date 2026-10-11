@@ -146,7 +146,7 @@ These are built from existing words; no new grammar words were needed (roadmap B
 Evidence: `research/notes/politeness.md`.
 
 - **nun** adds politeness or deference and nothing else. Repeat it for more: **nun nun**, **nun nun nun**. It will wear down, as every dedicated politeness word does ([drift.md](drift.md)).
-- **No polite pronouns and no speech levels.** **me** is "you" to anyone. Respect is **nun** plus how you address someone: a name (**en …**) or a role word before the name, e.g. **no tofo en mala** "Teacher Mara". Address words can be replaced when they wear out; pronouns can't.
+- **No polite pronouns and no speech levels.** **me** is "you" to anyone. Respect is **nun** plus how you address someone (Direct address and titles, below). Address words can be replaced when they wear out; pronouns can't.
 - **Politeness doesn't need to change what you're doing.**
   - A polite instruction is **tin nun**; a very polite warning is **yo nun nun**.
   - So a polite speaker never *has* to hint, ask or hedge instead. In accident reports the danger is a junior hinting where they should warn, and hints are judged *less* polite than clear requests anyway. Speakers will still use questions and hedges to be polite, as in every language; that's on the watch list.
@@ -158,9 +158,17 @@ Evidence: `research/notes/politeness.md`.
   - thanks: **lota**;
   - sorry: **sepi**.
 
+## Direct address and titles
+
+Added 2026-10-10 after multilanguage test 01: five of seven translators had to guess where a name used in address goes, and respect for people being talked about was lost (Hindi–Urdu: none of ten instances carried).
+
+- **Calling someone** by name, title, role or kin word goes at the **start** of the sentence (before the speech-act particle) or at the **end**, set off by a pause (a comma in writing). At the start it calls for attention; at the end it softens or adds warmth. **en mala, tin obu.** "Mara, come." **tin obu, en mala.** "Come, Mara." A subject is only followed by a pause when it contains a clause, so a short noun phrase plus a pause at the start is someone being addressed.
+- **Titles** go before the name, and title + name is an ordinary noun phrase: it works when speaking *to* someone and *about* them. **no tofo en mala** "Teacher Mara"; **no tofo en mala sin oyi** "Teacher Mara said". Kin words work the same way (**mole** "Mother").
+- **lanno** is the title of respect, with no gender: before a name (**lanno en gupta** "Mr/Ms Gupta", Hindi *Gupta-ji*), or alone when speaking to someone (**lanno, so nun …** "Sir/Madam, please …"). It gives respect its own word, so speakers don't turn "old" or "leader" into titles (English *sir* and Spanish *señor* both come from Latin *senior* "elder"), which would blur those words (principle 6). It marks respect for the person named; **nun** marks politeness toward the listener, and the two combine freely.
+
 ## Rules the principles don't cover
 
-1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **nun** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so nun …** "please …"). Only a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"
+1. **Speech acts:** question **min**, request **so**, instruct **tin**, advise **fon** (the decision stays with you), intend **de**, warn **yo**, not literal **a**, exclaim **ba**. **nun** adds politeness or deference and nothing else: it changes no truth, confidence or speech act. It goes right after the speech-act particle, or first in a statement (**so nun …** "please …"). Only a name or title used to call someone, a linker to the previous sentence, a scene-setting phrase, or an **if**/**when** clause may come before the particle (**gi tan, tin …** "so, do …"; **don …, de …** "if …, I will …"). A clause-final **min** is a tag: "…, right?"
 2. **Confidence is a number of tenths:** **kon** + number = how many chances in 10 that the statement is true (**kon oma** = 7 in 10). **kon po** is impossible, **kon yawu** (10 in 10) certain. Extremes take a digit after the point: **kon mape mimi te** = 9.5 in 10. **kon bo** = "don't know how sure". Emphasis has its own words, **bi** and **ba**. (Until 2026-10-09 the scale was sixths, sized to the about 7 bands forecasters can use without losing accuracy, Friedman et al. 2018; the user switched to tenths because percentages are familiar. Most speakers will use a few favourite values; that's expected.)
 3. **Source is optional:** **o** seen, **fen** told, **san** inferred.
 4. **There are no words for yes and no; answers echo the verb.** "Aren't you coming?" → **obu** "coming" / **mu obu** "not coming". Acknowledgment: **mm** = heard, an echo = understood, **de** + verb = will do.

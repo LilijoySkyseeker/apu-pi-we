@@ -156,6 +156,7 @@ Names always take **en**: **en mala** "Mara". Names are adapted to the sounds: L
 - **upe** hello ("good"), **upe leso** good morning, **upe isi** goodbye ("go well")
 - **lota** thanks, **sepi** sorry
 - **nun** makes anything polite: **so nun neke lon osa.** "Could you please give me water?" Add more for more: **nun nun**.
+- **Calling someone:** put the name or title first or last, with a comma: **en mala, tin obu.** "Mara, come." Titles go before the name and work when talking about someone too: **no tofo en mala** "Teacher Mara". **lanno** is the polite title for anyone, like Mr/Ms or sir/madam: **lanno en gupta**, or just **lanno, …**.
 - **mm** "I heard you", **huh?** "say again"
 
 The first word of a sentence can say what kind of sentence it is. You'll mostly use these:
