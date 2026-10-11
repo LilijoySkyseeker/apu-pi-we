@@ -38,7 +38,7 @@ A few things about it:
 - `tools/`: Python scripts that make and check words and build the reference and the website.
 - `tests/`, `texts/`, `research/`: translation tests, sample texts and the research behind the choices.
 
-The tools need Python 3 with numpy. `parse.py` also needs lark and `site.py` needs markdown.
+The tools need Python 3 with numpy. `parse.py` also needs lark, `site.py` needs markdown and `offensive.py` needs wordfreq. With Nix, `nix develop` (or direnv) gives a shell with all of them.
 
 ## Related
 

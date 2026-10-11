@@ -191,9 +191,9 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 ## 9. Rebuilding or tweaking it
 
 ### 9.1 Environment
-Python with numpy, on NixOS through nix-shell, run from `tools/`:
+Python with numpy, from the repo flake (`nix develop`, or direnv via `.envrc`), run from `tools/`:
 
-    nix-shell -p 'python3.withPackages(ps: [ps.numpy ps.wordfreq])' --run 'python3 words.py add-content GLOSS FIELD TIER [--antonym GLOSS]'
+    python words.py add-content GLOSS FIELD TIER [--antonym GLOSS]
 
 wordfreq is needed for the offensive filter's frequency ranking. `clics_rates.awk` needs the CLICS4 CLDF tables (download from Zenodo/clld; not kept in the repo).
 

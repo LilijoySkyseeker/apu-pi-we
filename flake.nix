@@ -1,0 +1,22 @@
+{
+  description = "Apu Pi We: tools for the language";
+
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+  outputs = { self, nixpkgs }:
+    let
+      system = "x86_64-linux";
+      pkgs = nixpkgs.legacyPackages.${system};
+    in {
+      devShells.${system}.default = pkgs.mkShell {
+        packages = [
+          (pkgs.python3.withPackages (ps: [
+            ps.numpy     # words.py, build.py
+            ps.wordfreq  # offensive.py
+            ps.lark      # parse.py
+            ps.markdown  # site.py
+          ]))
+        ];
+      };
+    };
+}
