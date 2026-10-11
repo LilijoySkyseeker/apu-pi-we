@@ -219,7 +219,29 @@ Back-translation 01–04 (fidelity, politeness, nesting), grammar coverage, word
 
 ---
 
-## 10. Known weaknesses (what a successor should doubt first)
+## 10. The interpersonal layer, culture and text
+
+Decision rule for all of these [user]: where unrelated languages converge on a *function*, provide it; where they split on the *form*, choose the cheapest form, optional rather than obligatory, carried in words rather than intonation (so speech and writing carry the same thing). Evidence: multilanguage test 01 (`tests/multilang-01/`).
+
+| Part | Why | Rejected / add-back |
+|---|---|---|
+| Address position (first or last, with a pause) | 5 of 7 translators had to guess; calling someone is universal | — |
+| **lanno**, gender-neutral title, also before role and kin words | Respect for people named is near-universal; its own word stops "old"/"leader" being pressed into titles (*senior* → *sir*, *señor*); Hindi lost all 10 respect markers without it | Graded "you": 136 of 207 languages lack it (WALS 45). Add back if speakers can't avoid sounding rude |
+| Focus **o** ("*Tomas* took it", "I *did* pay") | 10 of 11 languages mark contrast; stress doesn't survive writing; moving words breaks fixed order | — |
+| **fe** also, **wi** even, **nedin** almost, **mesun** each | Missing operators the tests needed; one-syllable forms by measured frequency (grammar rebuild) | — |
+| Stance position at sentence end; **a**, **buni**, **donon** | All 11 languages flagged stance; without seeds, **min**/**kon**/**ba** get pressed into it (principle 6) | Add more seeds if that happens anyway |
+| Topic opener **pi X,** | Every language can make the thing acted on the topic; only 162 of 373 have a passive (WALS 107) | Passive, result complements, articles: add back if a round trip loses meaning to them |
+| **manni** habitual; **gan momu** on purpose | Flagged by 5 and 6 languages; built or short words, no endings | — |
+| **tan**/**ben** alone for events; **bu**/**wan**/**yi** by topic; omission (rule 11) | Economy test 01: casual talk needs them; topic-based reference and dropping what context supplies are how Mandarin, Japanese, Korean and Algonquian work | Mechanical reference: add back if listeners lose track |
+| Clock: both 12- and 24-hour | Speakers live in existing cultures; the two systems can coexist | — |
+| Weekdays ISO 8601 | Cultures' numbering conflicts (Monday = 1 or 2); tie-breaker: when conventions conflict, follow the international standard | Named weekdays: the 7-day week is itself one culture's |
+| Names keep their owner's spelling | Adapted names collided and became unrecognisable; most Latin-script languages keep spelling | — |
+| Loans in their international form; brands keep spelling; computer words mostly everyday roots | Major non-English languages build interface words from everyday words (搜索, *buscar*); English loans were an English-centred default | — |
+| Confidence in sixths | 7 values match the bands forecasters can use; almost every value one syllable | Tenths (familiarity) |
+| Writing: notation passes through, ? and ! allowed, capitals harmless | Text and computer use; usage bans became predictions (Restraint) | — |
+| Commas droppable in chat | Comma test: 0 of 67 lines lost meaning without them; a precise way must exist, not always be used [user] | Targeted test if names at the end or topic openers get misread |
+
+## 11. Known weaknesses (what a successor should doubt first)
 
 1. **Validated mostly by its own instruments:** the confusion model is scored against itself; blind readers are AI agents with world knowledge. One human has read it aloud; none has listened.
 2. **English-centred:** listener data, test texts, readers, English glosses (ambiguous ones pinned with a second gloss since 2026-10-10), technical loans. "Universal" is a goal, not a result.

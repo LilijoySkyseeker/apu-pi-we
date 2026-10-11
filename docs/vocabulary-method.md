@@ -65,3 +65,15 @@ To add:
 - smell vocabulary only if tests show it's missed.
 
 **Evidence (verified 2026-10-08, `research/notes/lens.md`):** the lens acts on tracking, memory and communication, not perception. Exact number is well established; spatial frames covary with language but causation is contested; colour effects are modest and the perceptual claims fail replication; smell naming effects are large. The choices above stand.
+
+## 5. How a new word is made
+
+Moved here from the reference (2026-10-10), which now states only what words are.
+
+1. **Say it with words you have.** A verb idea takes a derivation marker (**no**, **ge**, **du**, **pu**) and can bring its own relation phrases (**no isi se guyi** traveller). A noun idea links with **pi**, a verb or a relative clause. Most new concepts end here.
+2. **A new root only when it's earned:** a basic concept that independent lineages converge on, a modern concept frequent enough that the phrase is a real cost, or a phrase that fails a blind test. Lump or split by section 3.
+3. **The tools choose the sound:** `tools/words.py add-content GLOSS FIELD TIER [--antonym GLOSS] [--avoid FORMS]` picks the form least likely to be misheard as a related word, checks drift and juncture, skips offensive and hand-rejected forms, and pushes opposites apart. Forms are never hand-picked. Then run `tools/juncture.py`.
+4. **Frequent phrases may later be clipped** into roots; the clipped form goes through step 3.
+5. **Names keep their owner's spelling; loans are adapted** with `tools/names.py` (broad IPA in), and only where the world shares a form.
+6. **No word may sound like a common offensive word** in the world's most spoken languages (`tools/offensive.py`, Wiktionary data, 34 languages, plus the `REJECTED` list).
+7. **One-syllable grammar forms** go by measured frequency: a meaning earns one only by beating the rarest current holder (`grammar-rebuild-spec.md`).

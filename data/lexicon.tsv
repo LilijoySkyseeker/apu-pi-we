@@ -1,8 +1,8 @@
 gloss	field	tier	form
 person	people	5	ewo
 child	people	4	tiwu
-man, adult male	people	3	lowu
-woman	people	3	futa
+man, male	people	3	lowu
+woman, female	people	3	futa
 friend	people	3	sonu
 family	people	2	yonyo
 mother	people	3	mole
@@ -81,7 +81,7 @@ cup	thing	1	ladon
 thing	thing	5	musu
 day, daytime or 24 hours	time	4	dili
 night	time	3	yami
-time, duration	time	4	muyi
+time, a span or a point (not an occasion)	time	4	muyi
 morning	time	2	leso
 evening	time	1	kegin
 moment	time	2	foke
@@ -235,7 +235,7 @@ wash	action	1	pensi
 cook	action	2	siten
 wear	action	2	yunko
 hide	action	2	mibun
-change	action	3	kubo
+change, make or become different	action	3	kubo
 happen	action	4	muwo
 win	action	2	yiyin
 way, method	abstract	3	lite
@@ -244,7 +244,7 @@ reason	abstract	2	ukun
 problem	abstract	3	batu
 idea	abstract	2	gason
 story	abstract	2	weyu
-rule	abstract	2	wabun
+rule, regulation or law	abstract	2	wabun
 war	abstract	1	pinpu
 peace	abstract	1	bonwi
 game	abstract	2	bufe
@@ -341,13 +341,13 @@ liver	body	4	gudu
 knee	body	4	leyi
 grass	nature	3	tunmu
 feather	animal	3	suba
-root	nature	3	yinki
+root, of a plant	nature	3	yinki
 spit	action	3	kefa
 flower	nature	3	meyen
 louse	animal	3	akan
 nail, of a finger or toe	body	3	tolin
-smell	sense	3	kanko
-tie	action	3	manfu
+smell, sense or give off an odour	sense	3	kanko
+tie, fasten with a knot	action	3	manfu
 vomit	action	3	gabu
 dust	nature	3	awin
 throat	body	3	muban
@@ -355,7 +355,7 @@ fat, body fat	body	3	gimen
 bark, of a tree	nature	3	tase
 sweat	body	3	tiwe
 thin	size	3	gunmo
-blow	action	3	nanyo
+blow, of air	action	3	nanyo
 finger	body	3	linma
 navel	body	3	wuwu
 thunder	nature	3	seyun
@@ -363,7 +363,7 @@ cough	action	3	dowin
 rotten	quality	3	yuson
 urinate	action	3	tibin
 lung	body	3	badin
-shade	nature	3	situ
+shade, shadow from light	nature	3	situ
 breathe	action	3	togun
 straight	quality	3	fongo
 suck	action	3	maman
@@ -392,7 +392,7 @@ testicles	body	2	bosun
 narrow	size	2	banlu
 buttocks	body	2	nunfo
 sour	taste	2	tufun
-flat	quality	2	mawun
+flat, level	quality	2	mawun
 crooked	quality	2	ginda
 correct	quality	2	denku
 snore	action	2	nenmu
@@ -439,10 +439,10 @@ clothes	thing	2	lonne
 goat	animal	2	elen
 tuber	nature	2	tengi
 rice	nature	2	yegon
-field	nature	2	sekan
+field, open land	nature	2	sekan
 boil	action	2	binla
 reach	motion	2	wonku
-gather	action	2	fanmu
+gather, bring or come together	action	2	fanmu
 internet	loan	2	intalunetu
 city	space	3	oton
 bread	thing	3	sowe
@@ -538,3 +538,4 @@ told, hearsay	abstract	1	inwun
 inferred, it seems	abstract	1	wemen
 at least	abstract	1	konsin
 about to, soon	time	2	buntu
+enough, as much as needed	abstract	3	tonya

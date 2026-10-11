@@ -42,3 +42,15 @@ Native Esperanto, Modern Hebrew and the creoles all moved toward what this desig
 - analytic possession ("grandfather of me")
 
 Fixed word order is among the most stable features (Dediu & Cysouw 2013), and inclusive/exclusive "we" is among the most stable distinctions (Greenhill et al. 2017).
+
+## Watch list
+
+Moved here from the reference (2026-10-10). These are predictions, not rules; act only if use or a test shows them.
+
+- **kon** collapsing to a few favourite values, or being used for emphasis.
+- Questions, hedges and low **kon** used for politeness, blurring what they carry.
+- **min**, **kon** or **ba** pressed into stance jobs despite the stance words.
+- **wan**, **yi** and **bu** follow the topic. Bring back a mechanical rule if a blind test shows listeners losing track where one would have helped.
+- The aspect words **le** and **buntu** going unused.
+- Whether confirmation and speech-act particles survive native use or wear away.
+- Grammar words that share a first consonant across different positions (**wan**/**wun**, **man**/**mon**, **to**/**tun**/**tan**) and voicing pairs (**pi**/**bi**, **ke**/**ge**) merging in fast speech. Position separates them now; act if a listening test shows confusion.

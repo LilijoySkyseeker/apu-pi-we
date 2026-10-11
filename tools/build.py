@@ -168,7 +168,7 @@ GROUPS_STRICT = {  # same slot: first consonant must differ
     "pred": "NOT BE DONE ONGOING MORE VERY ONLY ALSO EVEN FOCUS",
     "stance": "NOT CONF UNSPEC ONLY WH ALSO EVEN FOCUS",
     "end": "Q YOUKNOW",  # sentence-end stance position (2026-10-10)
-    "pron": "I YOU WE.incl WE.excl HE/SHE/IT OBVIATIVE LOGOPHOR GENERIC SELF",
+    "pron": "I YOU WE.incl WE.excl HE/SHE OBVIATIVE LOGOPHOR GENERIC SELF",
     "det": "PLURAL THIS THAT.dem ALL SOME PART NONE WH",
     "prep": "OF AT TO FROM WITH FOR BEFORE AFTER LIKE WHILE",
     "link": "AND OR BUT IF BECAUSE THAT.comp WHO.rel WHILE",
