@@ -166,6 +166,7 @@ Added 2026-10-10 after multilanguage test 01: five of seven translators had to g
 - **Calling someone** by name, title, role or kin word goes at the **start** of the sentence (before the speech-act particle) or at the **end**, set off by a pause (a comma in writing). At the start it calls for attention; at the end it softens or adds warmth. **en mala, tin obu.** "Mara, come." **tin obu, en mala.** "Come, Mara." A subject is only followed by a pause when it contains a clause, so a short noun phrase plus a pause at the start is someone being addressed.
 - **Titles** go before the name, and title + name is an ordinary noun phrase: it works when speaking *to* someone and *about* them. **no tofo en mala** "Teacher Mara"; **no tofo en mala sin oyi** "Teacher Mara said". Kin words work the same way (**mole** "Mother").
 - **lanno** is the title of respect, with no gender: before a name (**lanno en olusegun** "Mr/Ms Olusegun", like Hindi *-ji* or Japanese *-san*), or alone when speaking to someone (**lanno, so nun …** "Sir/Madam, please …"). It gives respect its own word, so speakers don't turn "old" or "leader" into titles (English *sir* and Spanish *señor* both come from Latin *senior* "elder"), which would blur those words (principle 6). It marks respect for the person named; **nun** marks politeness toward the listener, and the two combine freely.
+- **lanno before any person word** (added 2026-10-10 after the retest; all three translators asked): before a role or kin word as well as a name, it marks respect for that person: **lanno no ibe guyi** "the (respected) landlord", **lanno faba pi lon** "my uncle" (Hindi *chacha-ji*), **lanno tiwu futa pi wan** "his daughter", said with respect. Alone, it can refer to someone when context makes clear who: **lanno sin oyi** "the boss/sir said", as Hindi uses *sir* about a superior. It still marks the person, never the listener; that's **nun**.
 
 ## Stance at the end of the sentence
 
@@ -175,6 +176,7 @@ Added 2026-10-10 after multilanguage test 01: all 11 languages flagged stance wo
 - **Three seed words** for the jobs languages converge on most:
   - **iwun** "as you know, you see": shared ground. **wan sin oyi bu, iwun.** "He said so, you know."
   - **buni** "okay?": softens and invites agreement without asking for information (that's **min**). **so pen isi, buni.** "Let's go, okay?"
+  - **A half-remembered "wasn't it?"** (Japanese っけ) needs no word of its own: low confidence plus the tag. **kon te wan sin oyi bu, min.** "He said that, didn't he? (I'm not sure)"
   - **donon** "it turned out, surprisingly": counter to what was expected. **wan gun no ibe guyi, donon.** "He turned out to be the landlord."
 - **The rest grows here.** Speakers will make more stance words by putting ordinary words in this position, as English turned "you know" into a particle: fillers, reminders, insisting, "wasn't it?" for a half-memory. They're seeded only so that **min**, **kon** and **ba** don't get pressed into these jobs and wear down (principle 6). Watch list: if a test shows that happening anyway, seed the job it's being used for.
 
