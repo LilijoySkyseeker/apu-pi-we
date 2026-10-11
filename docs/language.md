@@ -108,6 +108,10 @@ The logic lives in how words combine, not in how roots sound. A root's sound is 
 5. **Names** keep their owner's spelling, with **en** before them; **loans** are adapted, not coined (`tools/names.py`, also the spoken fallback for names). A shared technical or international thing is borrowed in its international form rather than described (Words, above).
 6. **No word may sound like a common offensive word** in the world's most spoken languages. `tools/offensive.py` holds the list (from Wiktionary, 34 languages) and the word tools skip any form that matches.
 
+## Computers and text
+
+Added 2026-10-10 (`tests/computer-vocab-01/`). Interfaces mostly reuse everyday words, as Mandarin, Spanish, Russian and Arabic do, rather than borrowing English computer terms: search **ditun** "seek", delete **nuton** "remove", share **peton**, copy **gayen**, add **ginni**, download **dunu** "get", install **yaga** "put", turn on/off **benbi**/**tapi** "open/close" (as Mandarin 开/关). Built words for the rest are in `compounds.tsv`: computer **du sunbu** "thing for counting" (Mandarin 计算机, Arabic حاسوب), account **ge sunbu** (Spanish *cuenta*, Arabic حساب), settings **ge finsa la**, spam **imeyilu bekin** "garbage email". Loans only where the world shares a form (**intalunetu**, **imeyilu**, **kamela**, **kontakutu**); brands (Wi-Fi, Bluetooth, app names) keep their own spelling. **doku** "work" also means a machine working, as in Mandarin and German.
+
 ## Conditions, modality, choices and quantities
 
 These are built from existing words; no new grammar words were needed (roadmap B2, 2026-10-08).

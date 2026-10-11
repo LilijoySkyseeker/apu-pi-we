@@ -1,0 +1,71 @@
+Settings
+Wi-Fi
+Bluetooth
+Notifications
+Sound and vibration
+Display and brightness
+Battery
+Storage
+Privacy and security
+Password
+Account
+Sign in
+Sign out
+Create an account
+Forgot your password?
+Search
+Save
+Save as
+Open
+Close
+Delete
+Delete this file? This can't be undone.
+Cancel
+OK
+Copy
+Paste
+Cut
+Undo
+Redo
+Share
+Download
+Upload
+Install
+Update available
+Restart now
+Turn off
+File
+Folder
+New folder
+Rename
+Attach a file
+Send
+Reply
+Reply all
+Forward
+Inbox
+Draft
+Sent
+Trash
+Spam
+Contacts
+Camera
+Photos
+Screenshot
+Loading...
+No internet connection
+Try again
+Something went wrong
+Page not found
+Your changes have been saved
+Are you sure you want to leave this page?
+Allow access to your location?
+Enable two-step verification
+Low battery
+Charging
+Airplane mode
+Volume
+Mute
+Keyboard
+Language
+Help

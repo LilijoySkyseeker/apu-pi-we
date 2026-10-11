@@ -220,7 +220,7 @@ eat	action	4	nawi
 drink	action	3	koye
 sleep	action	3	wopo
 wake	action	2	unda
-work, labour	action	4	doku
+work, labour; of a machine, function	action	4	doku
 play, for fun	action	3	luse
 help	action	4	yema
 fight	action	2	migi
@@ -519,3 +519,20 @@ rupee	loan	2	lupi
 police	loan	3	polisu
 usually, habitually	time	3	manni
 rather, somewhat	abstract	2	tason
+seek, search for	action	3	ditun
+remove, erase	action	3	nuton
+share, let others have too	action	3	peton
+connect, join	action	3	penyu
+add, put in more	action	3	ginni
+check, verify	action	3	loban
+shake, vibrate	motion	2	susin
+sound, noise	nature	3	ninge
+page, sheet	thing	3	lunyu
+key, button	thing	3	tinli
+private, not for others	quality	2	kunsu
+garbage, trash	thing	2	bekin
+copy, make the same again	action	3	gayen
+adjust, set	action	2	finsa
+document, file	thing	3	kemin
+camera	loan	2	kamela
+contact, address-book entry	loan	2	kontakutu

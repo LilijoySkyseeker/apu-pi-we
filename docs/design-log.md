@@ -540,3 +540,5 @@ First-principles review. The language already suits text and machines: plain ASC
 - **Capitals carry nothing,** so a phone's automatic capital is harmless.
 
 Open: computer vocabulary (a batch via a UI and email translation), and whether grammar that rests on commas survives chat, which often drops them (under discussion with the user).
+
+**Computer vocabulary (2026-10-10).** `tests/computer-vocab-01/`: interface strings plus a blind email thread showed 36 gaps. The translator defaulted to English loans. Checked against Mandarin, Spanish, Russian and Arabic, interfaces mostly reuse everyday words, so the fix is 15 everyday roots (seek, remove, share, connect, add, check, shake, sound, page, key, private, garbage, copy, adjust, document), 14 built words, and only 2 loans (camera, contact). Turn on/off = open/close, as Mandarin does. This answers the user's concern that the language had drifted English-ward here.

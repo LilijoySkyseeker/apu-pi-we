@@ -1,0 +1,23 @@
+From: Dana Morales
+Hi Kevin, I can't open the budget spreadsheet you shared with me this morning.
+When I click the link, it just says "You need permission" and asks me to request access.
+I already sent a request, but nothing happened.
+Could you check the sharing settings when you get a chance?
+
+From: Kevin Park
+Sorry about that, Dana.
+I think I shared it with your personal Gmail address instead of your work account by mistake.
+I just added your work email as an editor, so it should open now.
+If it still doesn't work, try signing out of Google and signing back in with your work login.
+
+From: Dana Morales
+Thanks, the file opens now, but it's really slow and keeps freezing when I scroll.
+My laptop fan is also running loud, so maybe the problem is on my end.
+Should I download a copy and open it in Excel instead?
+
+From: Kevin Park
+Please don't download it, because then we'll end up with two versions that don't match.
+Try closing your other browser tabs and clearing your cache first.
+If that doesn't help, restart your laptop and make sure your updates are installed.
+The sheet has a lot of formulas, so it can be a bit heavy on older machines.
+Let me know if it's still freezing and I'll ask IT to take a look.
