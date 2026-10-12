@@ -30,6 +30,7 @@ Best is whatever exchanges meaning best, at a cost its speakers will pay.
   - **The method:** building from what many languages share (B5). Convergence across unrelated languages is evidence of what works, and it keeps the language fair to every culture.
 - **C2.** The language's insides are built for native speakers, who learn it once and use it for life. Today's speakers are protected by the guarantees and by coexistence: it carries the conventions of the cultures it lives in, and where those conflict and one must be chosen, it follows the international standard.
 - **C3.** When two forms cost about the same, prefer the one that doesn't sound like a common offensive word in a major language. This never overrides a cheaper or clearer form.
+- **C4.** Agreement among languages doesn't count where it rests on a belief about the world now known to be wrong (the sun "rises"). There, the language describes what is observed instead, without building today's theories into its basic words either.
 
 ## Hard limits
 

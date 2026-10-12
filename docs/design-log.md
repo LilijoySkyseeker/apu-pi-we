@@ -683,3 +683,4 @@ The author stepped back before any sharing or learning: write a short goal for t
 - The offensive-word check becomes a tie-breaker, never overriding a cheaper or clearer form. The current tools still treat it as a hard block; that gap is for the review to weigh.
 - Senary compatibility is dropped from the goal: the language is not tailored to the projects that use it.
 - Measurements and pass marks are kept out of the goal; they go in a separate evaluation-methods document.
+- Added the same day (author): **C4**, agreement among languages doesn't count where it rests on a belief now known to be wrong (the sun "rises"); describe what is observed, without building today's theories into basic words either. This restores the 2026-10-08 "observation, not theory" rule, missed in the first draft of the goal.
