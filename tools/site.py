@@ -149,13 +149,13 @@ def md_to_html(text, pages):
 
 
 TITLES = {"language": "the reference", "rationale": "why it is this way", "design-log": "changelog",
-          "measurement": "senary measurement", "learn": "learner guide", "dictionary": "dictionary"}
+          "measurement": "senary measurement", "goal": "the goal", "learn": "learner guide", "dictionary": "dictionary"}
 NOTES = {"rationale", "design-log"}
 NOTES_BANNER = ('<p class="notes">These are the project\'s working notes, kept for whoever works on the language next, '
                 'which is often an AI assistant. They are dense, but the reasons for everything are here.</p>')
 NAV = [("index", "Home"), ("learn", "Learn"), ("language", "Reference"), ("dictionary", "Dictionary"), ("examples", "Examples"),
        ("why", "Design")]
-SECTION = {"rationale": "why", "design-log": "why", "measurement": "why"}  # pages shown under another menu item
+SECTION = {"goal": "why", "rationale": "why", "design-log": "why", "measurement": "why"}  # pages shown under another menu item
 
 
 def page(name, title, body, toc, prev=None, nxt=None, extra=""):
@@ -215,7 +215,7 @@ def build():
     lesson_list = "\n## Lessons\n\n" + "\n".join(f"- [{t}]({n}.md)" for n, t, _ in lessons) + "\n"
     sources = [("index", "Home", read("site/index.md")), ("learn", "Learn", intro + lesson_list)]
     sources += [(n, t, b) for n, t, b in lessons]
-    sources += [("language", "Reference", read("docs/language.md")), ("why", "Why is it like this?", read("docs/why.md")), ("rationale", "Design notes", read("docs/rationale.md")),
+    sources += [("language", "Reference", read("docs/language.md")), ("goal", "The goal", read("docs/goal.md")), ("why", "Why is it like this?", read("docs/why.md")), ("rationale", "Design notes", read("docs/rationale.md")),
                 ("design-log", "Changelog", read("docs/design-log.md")), ("measurement", "Senary measurement", read("docs/measurement.md"))]
     # examples/*.md: one page each, listed on examples.html in the order of their file names
     ex_dir = os.path.join(ROOT, "examples")

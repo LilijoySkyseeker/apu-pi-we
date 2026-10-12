@@ -1,6 +1,6 @@
 # Why is it like this?
 
-Short answers to the questions people ask first. The full reasoning behind every decision is in the [design notes](rationale.md), and the [changelog](design-log.md) records when and why each one was made.
+Short answers to the questions people ask first. What the language is for is in [the goal](goal.md). The full reasoning behind every decision is in the [design notes](rationale.md), and the [changelog](design-log.md) records when and why each one was made.
 
 ## Who made it?
 

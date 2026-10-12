@@ -29,7 +29,7 @@ Article 1 of the Universal Declaration of Human Rights:
 - The [reference](language.md) has every rule, with examples.
 - The [dictionary](dictionary.md) lists every word. Type in it to filter, or press / anywhere on the site to search.
 - [Examples](examples.md): longer texts, where you can tap any word to see its meaning.
-- [Why is it like this?](why.md) answers the questions people ask first. The [design notes](rationale.md) explain every decision, and the [changelog](design-log.md) records when each was made.
+- [The goal](goal.md) says what the language is for. [Why is it like this?](why.md) answers the questions people ask first. The [design notes](rationale.md) explain every decision, and the [changelog](design-log.md) records when each was made.
 
 ## How it's built
 
@@ -43,4 +43,4 @@ Apupiwe is designed as [the best language for people who would grow up speaking 
 
 [Native speakers always change their language](https://github.com/LilijoySkyseeker/apupiwe/blob/main/docs/drift.md#whats-already-drift-resistant), so this one is built for it. The most-used words are already short, nothing is irregular, and words are chosen to stay distinct even after the sound changes speakers are likely to make. It also has to [live alongside the world's cultures](design-log.md#coexisting-with-existing-cultures-author-2026-10-10). It carries local conventions such as clocks, calendars, units and names, and where they conflict it follows the international standard.
 
-Underneath it all is one aim: getting meaning across correctly, at a cost speakers will actually pay. When the goals pull against each other, they're settled in [a fixed order](design-log.md#goals-and-priorities-author-2026-10-11): clarity first, then predictability, then economy, then reach. And a precise way to say anything must always exist, even when everyday speech doesn't use it.
+Underneath it all is one aim: getting meaning across correctly, at a cost speakers will actually pay. Some things are guarantees that must always hold, such as a precise way to say anything, even when everyday speech doesn't use it. Everything else is a cost, kept as low as possible for someone who speaks it all their life. [The goal](goal.md) sets this out in full.

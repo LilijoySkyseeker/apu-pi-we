@@ -674,3 +674,12 @@ A first-principles look at the language's goals. They were spread over five docu
 **Indirect questions (author, 2026-10-11).** **min** at the start of a **wun** clause marks an embedded question, yes/no or with a question word (**to mu lugo wun min ewo yu obu** "I don't know who is coming"); without it, a question word anywhere makes the whole sentence a question. As Japanese *ka* and Korean *-nji* mark embedded questions. Chosen over letting the main verb decide (Mandarin's way; needs a list of knowing/asking verbs) and over context (no clear form).
 
 **dili pi + 1–7 (author, 2026-10-11).** On its own it is the weekday (Monday = 1). A date gives its month, or says what it is the day of: **dili pi ka pi dunan** "the 3rd of the month", **dili pi ka pi isi** "the third day of the trip". Chosen over a separate weekday head (Mandarin's *xīngqī*; in this language **nelon pi ka** would collide with "the third week") and over context.
+
+## The goal (author, 2026-10-11)
+
+The author stepped back before any sharing or learning: write a short goal for the language itself, then review the whole language against it with cold, adversarial reviewers. To keep the goal free of the current design, a cold agent drafted it from the author's own messages only (every message from the design sessions, verbatim, kept outside the repo), never seeing the language. The author and Claude then edited it together: `docs/goal.md`.
+- The old ranking (clarity > predictability > economy > reach) is replaced. Meaning getting through is the aim; the other criteria are guarantees that must hold (precision, robustness to mishearing, writing matching speech, coverage, surviving change, adult learnability), costs minimised together for a lifetime speaker (everyday effort plus learning effort), and the method (build from what languages share).
+- Native speakers set the insides; today's speakers are protected by the guarantees and by coexistence, with international standards (formal or de facto, e.g. the Latin alphabet) followed where they exist.
+- The offensive-word check becomes a tie-breaker, never overriding a cheaper or clearer form. The current tools still treat it as a hard block; that gap is for the review to weigh.
+- Senary compatibility is dropped from the goal: the language is not tailored to the projects that use it.
+- Measurements and pass marks are kept out of the goal; they go in a separate evaluation-methods document.

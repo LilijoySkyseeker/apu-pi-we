@@ -7,13 +7,7 @@ The language calls itself **apu pi we** "everyone's language", said [ˈapu pi we
 
 Apupiwe is a designed language for people who speak it natively, within the world's existing cultures. Its own grammar is built for native speakers. Where it meets a culture's conventions, such as clocks, calendars, units, names and customs, it carries them. Where conventions conflict and one must be chosen, it follows the international standard.
 
-When its goals conflict, they rank in this order:
-1. Clarity. A precise, unambiguous way to say anything always exists.
-2. Predictability. Nothing is arbitrary to memorise, and rules follow from meaning.
-3. Economy. For fluent speakers, it is short and trusts context.
-4. Reach. It carries what the world's languages express.
-
-Any adult can learn it. Explicitness for learners is never bought at the cost of fluent use.
+What the language is for, and how its criteria are weighed against each other, is set out in [the goal](goal.md).
 
 ---
 

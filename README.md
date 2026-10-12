@@ -20,7 +20,7 @@ Apupiwe is designed as [the best language for people who would grow up speaking 
 
 [Native speakers always change their language](docs/drift.md#whats-already-drift-resistant), so this one is built for it. The most-used words are already short, nothing is irregular, and words are chosen to stay distinct even after the sound changes speakers are likely to make. It also has to [live alongside the world's cultures](docs/design-log.md#coexisting-with-existing-cultures-author-2026-10-10). It carries local conventions such as clocks, calendars, units and names, and where they conflict it follows the international standard.
 
-Underneath it all is one aim: getting meaning across correctly, at a cost speakers will actually pay. When the goals pull against each other, they're settled in [a fixed order](docs/design-log.md#goals-and-priorities-author-2026-10-11): clarity first, then predictability, then economy, then reach. And a precise way to say anything must always exist, even when everyday speech doesn't use it.
+Underneath it all is one aim: getting meaning across correctly, at a cost speakers will actually pay. Some things are guarantees that must always hold, such as a precise way to say anything, even when everyday speech doesn't use it. Everything else is a cost, kept as low as possible for someone who speaks it all their life. [The goal](docs/goal.md) sets this out in full.
 
 ## What it looks like
 
@@ -44,6 +44,7 @@ A few things about it:
 
 ## What's in this repo
 
+- `docs/goal.md`: what the language is for; everything else answers to it.
 - `docs/learn.md`: the lessons, also on the website.
 - `docs/language.md`: the full reference. It's generated from `spec/reference.toml`, so edit that and run `tools/spec.py build`.
 - `docs/rationale.md`: why things are the way they are.
