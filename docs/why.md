@@ -8,7 +8,7 @@ Apupiwe is designed by its author together with Claude, an AI assistant, startin
 
 ## Why is 6 "ufo", with two syllables, when 0 to 5 have one?
 
-The language started out counting in sixes. A test of read-aloud ID numbers showed that six one-syllable digits can be made far harder to mishear than ten: 0.26% of digits came out wrong, against 2.3%. Then the author ruled that the world counts in tens and will keep doing so, so the language does too. The digits 0 to 5 kept their carefully chosen one-syllable forms. There was no room left for four more one-syllable words that stay just as distinct, so 6 to 9 have two (**ufo oma kefi mape**). Two syllables also survive a burst of noise better, the same reason radio operators say "niner" for nine. [More on numbers](rationale.md#7-numbers-time-measurement).
+The language started out counting in sixes. A test of read-aloud ID numbers showed that six one-syllable digits can be made far harder to mishear than ten: 0.26% of digits came out wrong, against 2.3%. Then the author ruled that the world counts in tens and will keep doing so, so the language does too. The digits 0 to 5 kept their carefully chosen one-syllable forms. There was no room left for four more one-syllable words that stay just as distinct, so 6 to 9 have two (**ufo oma kefi mape**). [More on numbers](rationale.md#7-numbers-time-measurement).
 
 ## Why does the describing word come after the noun?
 
