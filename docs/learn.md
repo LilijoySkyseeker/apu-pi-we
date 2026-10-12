@@ -122,7 +122,7 @@ Position can also make any word a noun. As an object, **sepi** "apologise" becom
 - with a place: **wan gun mon guyi.** "He's at home." (**mon** "at", lesson 7)
 - with an action word, it gives the state of whoever the action is done to: **gun tapi** "is closed", **wan gun kuwi** "she is protected". So **to gun nuta** is "I am feared"; to say "I'm afraid", use the plain verb, **to nuta** (I fear)
 - after another verb, it means "to be": **momu gun tiwu** "want to be a child"
-- with no subject, it means "there is": **gun musu feli.** "There are many things."
+- with no subject, it means "(it) is": **gun nimo** "(it's) money". "There is" uses **ibe** "have" instead: **ibe musu feli.** "There are many things." (With a subject, **to ibe pasu** is "I have food".)
 
 When several things follow a noun, they go in this order: describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **man** clause. For example, **guyi kudu sa la tan** "these two big houses". A number and **la** can go together, but once there's a number **la** is optional, so **guyi kudu sa tan** means the same. You'll meet **pi** phrases in lesson 7 and **man** clauses in lesson 12.
 
@@ -231,7 +231,7 @@ An unknown person is **ewo bo** "someone": **ewo bo yidu bu.** "Someone took it.
 
 When the listener already knows who or what you mean, you can leave it out. Casual English does this too, but this language does it more: **wuma, nagu me.** "See you tomorrow." (**wuma** "tomorrow"). Asked **me momu yu.**, you can answer with just **osa.** "Water." Say it in full when leaving it out could confuse.
 
-A clause that starts with **gun** and has no subject means "there is" (lesson 3). So to say "it's money", keep the subject: **bu gun nimo.** If you drop **gun** as well, a bare state is fine: **bi upe.** "Very good."
+You can drop the subject before **gun** too: **gun nimo** "(it's) money". If you drop **gun** as well, a bare state is fine: **bi upe.** "Very good." "There is" is **ibe** with no subject (lesson 3).
 
 ## Lesson 6: Little words that look like English
 

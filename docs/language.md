@@ -114,7 +114,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 ### 4.5 Leaving things out
 
 - Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".
-- The exception is **gun** with no subject at the start of a sentence, which means "there is" (4.7). To say "(it) is X", keep the subject: **bu gun nimo** "it's money". With **gun** left out too, a bare state is fine: **bi upe.** "very good."
+- **gun** with no subject is "(it) is", like any verb with its subject left out: **gun nimo** "(it's) money". With **gun** left out too, a bare state is fine: **bi upe.** "very good." "There is" is **ibe** "have" with no subject (4.7).
 - When leaving something out could be unclear, say it.
 
 ### 4.6 Pauses
@@ -138,8 +138,8 @@ In casual writing, pauses that context makes obvious may be dropped.
 - **gun** goes before a place phrase: **wan gun mon guyi** "he is at home".
 - **gun** before an action word gives the state of whoever undergoes the action: **gun tapi** "is closed", **wan gun kuwi** "she is protected", **to gun nuta** "I am feared". This holds for every action word, feelings included; the one who feels takes the plain verb (**to nuta** "I'm afraid").
 - **gun** before a **wun** clause means "is that …".
-- After **man**, after another verb, after **li**, and after **yen**, **lu** or **un** joining verbs, a **gun** with no subject is "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **go ibe sogan li gun kuwi** "everyone has the right to be protected", **wan obu yen gun simi** "she came and is sick".
-- **gun** with no subject means "there is" only at the start of a sentence, right after an opener's pause, or at the start of a clause after **don**, **gi**, **nin**, **wo**, **ya** or **wun** (**don gun pasu** "if there is food"). Phrase operators, **kon** and aspect words in front of it count as part of that start: **mu gun pasu** "there's no food"; **un, gun musu feli** "but there are many things".
+- **gun** with no subject is always "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **go ibe sogan li gun kuwi** "everyone has the right to be protected", **wan obu yen gun simi** "she came and is sick".
+- "There is" is **ibe** "have" with no subject: **ibe pasu** "there's food", **mu ibe pasu** "there's no food", **un, ibe musu feli** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".
 
 ### 4.8 Questions and answers
 
