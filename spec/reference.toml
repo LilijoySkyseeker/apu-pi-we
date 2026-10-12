@@ -296,8 +296,8 @@ text = '''
 | 6 | Subject | a noun phrase (section 5) | |
 | 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
 | 8 | Verb | one verb, or verb + verb (4.2) | |
-| 9 | Manner | a word describing the action | 4.2 |
-| 10 | Objects | recipient, then thing | 4.2 |
+| 9 | Objects | recipient, then thing | 4.2 |
+| 10 | Manner | how it is done: **fu** + word after an object, a bare word after a verb with no object | 4.2 |
 | 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
 | 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
 | 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
@@ -343,7 +343,7 @@ type = "bullet"
 title = "Manner"
 gap = 0
 text = '''
-- A word right after the verb describes the action: **oyi fanse** "say calmly". It comes before the object, as in **nawi yobe pasu** "eat food quickly". After the object, a word describes the object: **nawi pasu yobe** "eat fast food".'''
+- How something is done comes after the verb and its objects, with **fu** "like": **nawi pasu fu yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".'''
 
 [[item]]
 id = "4.2.5"
@@ -367,7 +367,7 @@ type = "bullet"
 title = "muge"
 gap = 0
 text = '''
-- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then a manner, it means "do (it) so": **muge tan upe** "do this well".'''
+- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then **fu** + a manner, it means "do (it) so": **muge tan fu upe** "do this well".'''
 
 [[item]]
 id = "4.2.8"

@@ -71,8 +71,8 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 | 6 | Subject | a noun phrase (section 5) | |
 | 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
 | 8 | Verb | one verb, or verb + verb (4.2) | |
-| 9 | Manner | a word describing the action | 4.2 |
-| 10 | Objects | recipient, then thing | 4.2 |
+| 9 | Objects | recipient, then thing | 4.2 |
+| 10 | Manner | how it is done: **fu** + word after an object, a bare word after a verb with no object | 4.2 |
 | 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
 | 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
 | 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
@@ -86,10 +86,10 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
   - for a description of a noun ("the person who walks", "the house that is big"), use **man**: **ewo man niba**, **guyi man gun kudu**.
 - A bare noun followed by a word (**guyi kudu**, **ewo niba**) may be a description or a statement. Context decides, and the clear forms above remove any doubt.
 - Any content word can take any role by its position. As an object, or with a derivation marker, it is a noun (**sepi** "apologise / an apology").
-- A word right after the verb describes the action: **oyi fanse** "say calmly". It comes before the object, as in **nawi yobe pasu** "eat food quickly". After the object, a word describes the object: **nawi pasu yobe** "eat fast food".
+- How something is done comes after the verb and its objects, with **fu** "like": **nawi pasu fu yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".
 - With two objects, the recipient comes first and then the thing: **tofo me nuta** "teach you fear".
 - When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking".
-- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then a manner, it means "do (it) so": **muge tan upe** "do this well".
+- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then **fu** + a manner, it means "do (it) so": **muge tan fu upe** "do this well".
 - A command needs **tin**, or **so** for a request. Without a particle, a sentence is a statement.
 
 ### 4.3 Openers

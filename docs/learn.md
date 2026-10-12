@@ -112,7 +112,7 @@ More generally, a word after a noun can describe it, say what it is, or say what
 
 In everyday talk people often leave these out, say **guyi kudu** or **ewo niba**, and trust the listener. That's always allowed, and it works whenever the context makes it clear. The table is for when it doesn't.
 
-How something is done goes straight after the verb, before the object: **oyi fanse** "say calmly", **nawi yobe pasu** "eat food quickly". Put the same word after the object and it describes the object instead, so **nawi pasu yobe** is "eat fast food".
+How something is done goes after the verb and its object, with **fu** "like" in front: **nawi pasu fu yobe** "eat food quickly". Without **fu**, a word right after the object describes the object, so **nawi pasu yobe** is "eat fast food". With no object, the bare word is enough: **oyi fanse** "say calmly".
 
 Position can also make any word a noun. As an object, **sepi** "apologise" becomes "an apology".
 
@@ -486,7 +486,7 @@ A full sentence has a fixed order. You'll rarely use every part, and only the ve
 7. small operator words, **manni**, then **sin**/**le**/**buntu**
 8. the verb (or verb + verb)
 9. who gets it, then what
-10. how (a describing word)
+10. how (**fu** + a describing word, or a bare describing word when there's no object)
 11. relation phrases (**mon**, **tun**, **se**, **gan**, **li** …)
 12. a clause at the end (**gi**, **don**, **wun** …)
 13. a comma, then a tone word (**a**, **buni**, **donon**, **min**)
