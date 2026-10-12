@@ -205,12 +205,12 @@ Radio procedure fixes a gap in natural language: isolated, context-free tokens h
 
 ### Inferences
 - Five design principles fall out of the alphabet's history:
-  1. Every token in a closed set should be multi-syllabic, so several features differ at once.
+  1. Every token in a closed set should be multi-syllabic, so several features differ at once. (This is from the *letter* alphabet. ICAO's own digits are mostly one syllable; fower, seven and niner have two for distinctness, not for surviving a lost syllable. Don't cite it as an ICAO rule for digits; added 2026-10-12 after the fact-check, C44.)
   2. The tokens should differ in stressed-vowel and syllable-count patterns, not just in consonant place.
   3. They should be tested on the whole set at once, because confusions are pairwise.
   4. They should be tested with speakers of many L1s.
   5. They should be tested both in isolation and in context.
-- "Fifteen/fifty" is a typical natural-language failure. The two words differ mainly in the final syllable (/tiːn/ versus /ti/) and in stress position, which noise and accent erode. Digit-by-digit transmission gets around this by turning a weak suffix contrast into two independent, maximally distinct digit words.
+- "Fifteen/fifty" is a typical natural-language failure (documented for learners of English, in ESL work and a BSRLM study; not in aviation or phone research; added 2026-10-12 after the fact-check, C45). The two words differ mainly in the final syllable (/tiːn/ versus /ti/) and in stress position, which noise and accent erode. Digit-by-digit transmission gets around this by turning a weak suffix contrast into two independent, maximally distinct digit words.
 - Noise intensifies existing confusions rather than creating new ones. So a confusion matrix measured at moderate noise is a valid design tool, and confusable pairs can be found before deployment.
 
 ### Gaps

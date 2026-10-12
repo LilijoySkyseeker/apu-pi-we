@@ -25,6 +25,22 @@ Research notes, 2026-10-08. Labels: **[S]** sourced (read in this session), **[D
 
 LEFT/RIGHT is colexified in **one** language in the whole database. [D]
 
+**Recomputed 2026-10-12 after the fact-check (C36: "family-balanced rates could not be recomputed"; FINGER/TOE anomaly).** CLICS4 v1.0 from Zenodo (record 19608447), `clics_rates.awk` unchanged. CLICS4 pair names: LANGUAGE/WORD, SEE/KNOW (SOMETHING), SUN/DAY (NOT NIGHT). [D]
+
+| Pair | Varieties lumping / with both concepts | Families lumping / with data | Family-balanced | Family bootstrap 95% | Families with ≥2 varieties only | Area-balanced |
+|---|---|---|---|---|---|---|
+| LANGUAGE/WORD (**apu**) | 116/446 | 47/71 | **50.2%** | 40–61% | 40.7% (36 fams) | 49.7% |
+| MOON/MONTH (**dunan**) | 430/688 | 60/75 | **69.6%** | 61–78% | 70.8% | 77.9% |
+| FINGER/TOE | 153/1026 | 39/168 | **15.7%** | 11–21% | 14.3% | 17.5% |
+| EAT/DRINK | 108/2848 | 33/240 | **7.2%** | 4–10% | 4.7% | 7.6% |
+| SEE/KNOW | 49/2524 | 19/231 | **2.9%** | 1–5% | 2.3% | 2.2% |
+
+(Bootstrap: 5,000 resamples of families. Area-balanced: mean over macro-areas of the family-balanced rate. Same run reproduces the §1 table: WOOD/TREE 50.0, LEG/FOOT 53.1, ARM/HAND 34.9, BLUE/GREEN 28.8, SUN/DAY 20.0, SKIN/BARK 16.4.) None of these pairs involves a copied broad concept (`etc/split-concepts.tsv`).
+- **Every claimed rate reproduces exactly.** The fact-check worked from the raw link counts, which can't give these rates (see the oddity below).
+- **Thresholds:** MOON/MONTH stays well above 50% on every variant. FINGER/TOE, EAT/DRINK and SEE/KNOW stay below 20% (FINGER/TOE's upper bootstrap bound touches 21%). **LANGUAGE/WORD is a coin flip:** 49% of bootstrap resamples fall below 50%; dropping one-variety families gives 40.7%; area balancing gives 49.7%. Its point estimate is over the line, its evidence isn't. Families: Indo-European 0/63 varieties, Sino-Tibetan 16/50, Nakh-Daghestanian 7/66, Uralic 14/39; 35 of the 71 families have one variety, and 21 of those lump, each counting as 100%.
+- **The raw-count oddity is explained by denominators.** CLICS's link counts (FINGER/TOE 155 forms, LANGUAGE/WORD 117) count only lumping languages. The rate divides by languages that have *both* concepts: LANGUAGE is elicited far less often, so LANGUAGE/WORD has data in 446 varieties and 71 families against FINGER/TOE's 1,026 and 168. 116 of 446 (26%) is a much larger share than 153 of 1,026 (15%), and family balancing raises it further because many of LANGUAGE/WORD's families are single lumping varieties.
+- **Consequence for decisions:** **dunan** (moon = month) stands. **apu** = word + language is not settled by the rule: under the 20–50% band "language" would be built from **apu**, and the name **apu pi we** would only get longer. One root is a defensible reading; it's the author's call.
+
 **Disagreement between sources: BLUE/GREEN.** In the WCS sample (WALS 134A, 120 languages), **71%** of languages lump green with blue in some way [7]; CLICS⁴ gives 29%. The WCS sample favours small, tropical communities, and word lists probably skip colour terms often. For colour, use the formal model, not CLICS (§4). [S/I]
 
 ## 2. Why languages colexify

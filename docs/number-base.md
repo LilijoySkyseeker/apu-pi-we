@@ -1,6 +1,6 @@
 # Number base: why 6 (superseded)
 
-> **Superseded 2026-10-09.** The author ruled that base 10 stays the default in reality, and the language switched to base 10 (`language.md`, rule 10). This file records the base-6 decision and its evidence. Its transmission result still explains why digits 0–5 are one optimized syllable each; 6–9 got two syllables because no robust one-syllable forms were left.
+> **Superseded 2026-10-09.** The author ruled that base 10 stays the default in reality, and the language switched to base 10 (`language.md`, rule 10). This file records the base-6 decision and its evidence. Its transmission result still explains why digits 0–5 are one optimized syllable each; 6–9 got two syllables because no robust one-syllable forms were left. *(2026-10-12: the test's figures were for ideal sets, not the adopted digits; see the correction under the table.)*
 
 Decided 2026-10-08. The author chose premise 2: legacy conventions, including the decimal world, are void, as they already were for every other part of the language. So the base was chosen on merits. Evidence: `research/notes/base-cognition.md`, `base-mathematics.md`, `base-typology.md`, plus the transmission test below (`tools/base_test.py` (removed 2026-10-09 as single-use; in git history)).
 
@@ -18,6 +18,14 @@ For each base, the optimizer found the best set of one-syllable digit words unde
 With only six digit words, each can be made very different from the others. That more than pays for the 29% more digits base 6 needs. Two-syllable digits are near zero in every base, but they double the length. Base 6 gets near-two-syllable reliability at one syllable per digit. So the language drops the long/short digit forms: each digit has a single one-syllable word.
 
 **Senary's own digit scheme** (one vowel for all digits; the consonant carries the digit) scored 0.087, about 400 times worse than the optimized set. Distinctions carried by consonant alone are fragile. So the language takes senary's base and structure but not its digit sounds.
+
+**Correction 2026-10-12 (review: fact-check internal-test table, defence, verdict "re-run or withdraw").** Rerun of `base_test.py` (from git `a3071f4`) with today's `confusion.py` and `build.Inventory`, both unchanged since then; scratch scripts outside the repo.
+- **The table reproduces exactly** (base 6: 0.00020 per digit, 0.26% per 10-digit ID; base 10: 0.00235, 2.3%). The model didn't change.
+- **But it scored ideal, unconstrained sets** (base 6: **ma ku ga li fe bu**), not the digits the language took. **ku**, **li**, **bu** were already grammar words. The adopted 0–5 came from `build.py numbers3`, which also excluded grammar-word forms and their drift keys, penalised closeness to grammar words, and required distinct first consonants and drift keys.
+- **Adopted 0–5 (po fi sa ka da te): 0.0185 per digit** (0.0187 renormalised over the inventory), about 90× the published 0.0002 and 8× the ideal ten-digit set the test rejected. This is the defence's 0.0185. Worst pairs: ka→sa 0.028, sa→ka 0.021, po→ka 0.011, sa→da 0.011, ka→te 0.010.
+- **Today's 0–9 (po fi sa ka da te ufo oma kefi mape): 0.011 per digit, ≈10.6% chance of at least one wrong digit in a 10-digit ID**, if digits are equally frequent. 6–9 are ≈0 against each other. A one-syllable digit heard as a two-syllable one (or a lost syllable) isn't modelled at all, so 6–9's real risk is unmeasured.
+- Senary's scheme (0.087, figure not re-run) is then about 5× the adopted set, not 400×.
+- So "0–5 kept their optimised forms" (header) and "six one-syllable digits far more robust than ten" don't describe the language's digits. The comparison would need each base re-run under the same grammar-word constraints; not done, since base 6 is superseded. All figures are from the unvalidated model (rationale §3.2): relative at best, and a human listening test outranks them.
 
 **Caveat:** this is the confusion model's own estimate. It doesn't simulate a noise burst deleting a whole syllable, so digit strings are read in fixed groups of four, which makes a missing digit noticeable.
 

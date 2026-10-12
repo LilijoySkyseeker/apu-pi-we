@@ -61,7 +61,7 @@ Tags: **[read]** = primary text read; **[abs]** = abstract or publisher summary;
   - **German**: *Ihr* > *Er/Sie* > *Sie*, each a new layer [2nd].
   - **Korean**: *tangsin* became an honorific 2nd-person pronoun in the late 18th century and "now has no higher status than *ne*" [read, Yoon 2021].
   - **Japanese**: *kisama* and *omae* were once respectful and are now rude [2nd, non-scholarly; dates **UNVERIFIED**].
-  - **Rate**: about 150–300 years per cycle.
+  - **Rate**: irregular; no source was found for a fixed cycle, and some systems held 300–400 years (*usted*, German *Sie*, English *you*). *(Corrected 2026-10-12 after the fact-check, C32: was "about 150–300 years per cycle", which had no source.)*
   - **Brown & Gilman 1960**: European T/V shifted from a power semantic to a solidarity semantic [2nd].
 - **Mechanism (Yoon 2021, read).** Frequent polite forms suffer "attrition of value". Open-class address terms can simply be replaced, but pronouns are a closed class, so the result is a *paradigm gap* (pronoun avoidance). Also: "Lowering is easy; raising is hard". First-person *humble* forms (Korean *ce*) stay stable.
 - **A dedicated politeness morpheme does bleach.**
@@ -105,7 +105,7 @@ Tags: **[read]** = primary text read; **[abs]** = abstract or publisher summary;
 
 The parts, with their sources (⊕ = added by me):
 
-1. **No T/V, no speech levels** (source: WALS, Yoon, Korean/Javanese decline). Polite pronouns inflate on a 150–300-year cycle, and because pronouns are closed-class they can't be renewed. Let deference live in **ku** and in open-class address (names, titles), where turnover is cheap. *Add-back trigger:* back-translations show speakers coining honorific pronoun substitutes or avoiding **me** ("you") toward superiors.
+1. **No T/V, no speech levels** (source: WALS, Yoon, Korean/Javanese decline). Polite pronouns inflate (irregularly; the "150–300-year cycle" once here had no source, cut 2026-10-12, C32), and because pronouns are closed-class they can't be renewed. Let deference live in **ku** and in open-class address (names, titles), where turnover is cheap. *Add-back trigger:* back-translations show speakers coining honorific pronoun substitutes or avoiding **me** ("you") toward superiors.
 2. **Expect ku to inflate, and design for containment, not prevention** (source: *please*). Predicted path: bare **tin** comes to sound curt, **so ku** becomes neutral, **ku ku** becomes polite. Keep **ku** freely iterable so renewal happens by stacking inside its own slot. The failure to watch for is renewal by *recruiting* hedges, questions, **fon** or low confidence digits.
 3. **The real leak is speech-act choice, not the words added.** Subordinates downgrade the *act* (hint, statement, or **fon** instead of **tin**/**yo**), and urgency doesn't remove this (Fischer: hints persist at high risk; Linde: mitigation "never disappears"). **ku** alone doesn't stop it. Remedies:
    - (a) State as a norm that **yo ku ku** / **tin ku ku** are fully polite. Deference lives in ku, so no one needs to downgrade the act. Blum-Kulka's finding supports this: clarity is part of politeness.

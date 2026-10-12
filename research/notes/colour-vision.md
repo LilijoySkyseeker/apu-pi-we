@@ -36,7 +36,7 @@ Legend: **[primary]** means I read it in the paper's text. **[abstract/secondary
   - It is more likely with larger populations and greater cultural complexity. [abstract/secondary] — [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8476573/)
   - Hardy, Werner, Regier, Kay & Frederick 2023 replied that colour constancy compensates for lens yellowing. They cite Japanese and Nafaanra, which split grue with no fall in UV. [primary] — [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9892488/)
   - Josserand et al.'s reply concedes that "lens brunescence alone is unlikely to explain" the pattern. [primary] — [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9892588/)
-- **Communicative need.** Gibson et al. 2017 (PNAS) found that warm colours are always communicated better than cool colours, in every language they studied. "Industrialization, which creates objects distinguishable solely based on color, increases color usefulness." They suggest there "simply are not that many natural blue objects." [abstract/secondary] — [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5635863)
+- **Communicative need.** Gibson et al. 2017 (PNAS) found that warm colours are always communicated better than cool colours, in every language they studied. "Industrialization, which creates objects distinguishable solely based on color, increases color usefulness." They suggest few natural objects are distinguished by blue (paraphrase: the often-quoted "simply are not that many natural blue objects" could not be located in the paper by the 2026-10-12 fact-check, C38, so don't quote it). [abstract/secondary] — [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5635863)
 
 **Verdict (inferred):** grue is a coarser partition of the same perceptual space, not a perceptual error. The best explanation is low need, linked to technology and society size. UV may add a small effect. Nobody serious argues that grue speakers cannot see the difference.
 
@@ -46,9 +46,9 @@ The support is moderate, and it comes from naming data, not from neurophysiology
 
 - **For:**
   - The six foci are near-universal.
-  - Every system that grows past five terms splits green from blue.
+  - Most systems that grow past five terms split green from blue. *(Corrected 2026-10-12 after the fact-check, C38: was "every system"; brown or purple can appear before the green/blue split, so six-term systems with grue exist.)*
   - Grue is explained by low need, not by a different way of seeing.
   - For speakers in industrial settings, where colour often tells objects apart, a separate blue fits the communicative need. That is a principled choice, not a legacy one.
 - **Against:**
   - Don't justify the six with the cone-opponent axes. Only red lines up with a cardinal pole, and unique hues vary widely between people.
-  - Vision science gives no reason to stop at six. Stages VI and VII add brown, purple, pink, orange and grey, and industrialised languages typically have about 11 basic terms (Berlin & Kay 1969 [UNVERIFIED count]). Six is a size choice, so its source should be stated: learnability, or a minimal root budget.
+  - Vision science gives no reason to stop at six. Stages VI and VII add brown, purple, pink, orange and grey, and industrialised languages typically have up to 11 basic terms, some 12 (Berlin & Kay 1969; count checked 2026-10-12 by the fact-check, C38). Six is a size choice, so its source should be stated: learnability, or a minimal root budget.

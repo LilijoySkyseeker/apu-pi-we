@@ -57,7 +57,7 @@ Compiled 2026-10-08. Status tags: **[S]** read in the source text or abstract, *
   - Order features "tend to fall in the fast rate category".
   - Slow features are abstract ones, such as "is there an inclusive/exclusive distinction?", which the authors call "less available to speaker reflection".
   - Clusivity and gender are highly stable. Definite articles and numeral classifiers are unstable.
-- **Dediu & Cysouw 2013** (7 methods, WALS) [S]: across methods, word-order features are the *most* stable, especially adjective–noun and genitive–noun order.
+- **Dediu & Cysouw 2013** (7 methods, WALS) [S]: across methods, word-order features are the *most* stable, especially adjective–noun and genitive–noun order. This is stability of *which* order a language has, not of fixed vs free order; don't cite it for "fixed order is stable" *(added 2026-10-12 after the fact-check, C14)*.
 - **The conflict between them** is probably sampling: one family versus world-wide aggregates [S, Greenhill].
 - **Takeaway** [I]: basic content words are the slow core. Particles, overt categories and anything speakers can consciously notice change fastest. Head-modifier order is probably safe.
 

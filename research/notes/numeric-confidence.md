@@ -26,6 +26,7 @@ Compiled 2026-10-08. Status tags: **[S]** sourced (read in the cited text or abs
   - Precision gains were predicted by an hour of training, teamwork and practice. Numeracy and education didn't predict them.
   - Left unconstrained, forecasters mostly answered in steps of 5 points.
   - Caveat: the sample was not ordinary people (83% male, highly educated volunteers).
+  - The paper's own conclusion: coarsening "consistently sacrifices predictive accuracy". So it supports "seven bins cost ordinary forecasters little", not "about seven bins is what people can use", and it gives no reason to prefer sixths over tenths (added 2026-10-12 after the fact-check, C21).
 - **Fischhoff & Bruine de Bruin 1999**: open-ended probability questions produce an excess of "50" answers, used as "fifty-fifty", meaning "no idea". The spike vanishes when the response scale has explicit options [S].
 - Words are far fuzzier: "possible" spans 63 points for some physicians [S, Dhami & Mandel].
 
@@ -72,7 +73,7 @@ Each case is covered above:
 
 **Does it work?** Mostly yes [I]:
 - Receivers want numbers.
-- Untrained people can use about 7 levels with no loss, and skilled people about 11, so 0–10 is the right ceiling.
+- Untrained people lose little at 7 levels (0.5%), and skilled people can use about 11, so 0–10 is the right ceiling *(was "with no loss"; 2026-10-12, C21)*.
 - Real organisations have used out-of-10 scales with good calibration.
 - Unschooled adults and young children have the underlying intuition.
 

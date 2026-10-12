@@ -149,6 +149,7 @@ The ICAO/NATO alphabet (final 1956) is the best-documented engineered vocabulary
 
   — [same (read)](https://www.governmentattic.org/4docs/ICAO-WordSpellingAlphabet_1959.pdf)
 - Polysyllables are deliberate redundancy. Losing one or two syllables of PROPAGANDA still identifies P, whereas a noise burst can wipe out a monosyllable and force a repeat. The four worst words in the old US-UK list (QUEEN, KING, GEORGE, JIG) were monosyllables. A mix of 1-, 2- and 3-syllable words increases variety and reduces confusability. — [same (read)](https://www.governmentattic.org/4docs/ICAO-WordSpellingAlphabet_1959.pdf)
+  - This is about *letter* code words. It is not ICAO's reason for any digit's length: its digits are mostly one syllable. An "ICAO lesson" that two-syllable digits survive a lost syllable was built on this and is withdrawn (added 2026-10-12 after the fact-check, C44).
 - Interaction with digits:
   - "Most errors are intra-set, i.e., digits with digits and letters with letters."
   - NAN was replaced by NICKEL in 1944 "because of confusion with NINE and NINER". This is evidence that "niner" was already in use by WWII.
@@ -184,7 +185,7 @@ The ICAO/NATO alphabet (final 1956) is the best-documented engineered vocabulary
 ### Gaps
 - No primary ICAO or ITU document was found that gives the original rationale or test data for "tree/fower/fife/niner". The 1959 report addresses letters, not digit pronunciations, beyond showing "niner" predates 1944.
 - I did not retrieve the effect-size tables from the 1959 report; the OCR is too degraded. Only the significance statements are recoverable.
-- ICAO Doc 4444 (PANS-ATM) phraseology chapter: not retrieved. Specific rules, e.g. "all numbers in a frequency transmitted digit by digit except whole hundreds/thousands", are from general knowledge and are not cited.
+- ICAO Doc 4444 (PANS-ATM) phraseology chapter: not retrieved. Specific rules, e.g. "all numbers in a frequency transmitted digit by digit except whole hundreds/thousands", are from general knowledge and are not cited. (The digit-by-digit rule is ICAO Annex 10 Vol II 5.2.1.4, per the fact-check, C44a, 2026-10-12 after the fact-check.)
 
 ## 3. Maritime: IMO SMCP / Seaspeak and explicit speech-act markers
 

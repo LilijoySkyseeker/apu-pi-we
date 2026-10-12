@@ -48,8 +48,18 @@ meanings.
 
 ## Digits 6–9 (decided alongside: leave at two syllables)
 
-The base-6 transmission test found six one-syllable digits far more robust
-than ten (0.26% vs 2.3% wrong-digit rate on a 10-digit ID). A two-syllable
-digit survives a noise burst that wipes one syllable (the ICAO lesson).
-Confidence no longer uses 6–9. Add back if a spoken test shows number
+The real reason: no free robust one-syllable form was left (design log, base
+10). Confidence no longer uses 6–9. Add back if a spoken test shows number
 readings too slow.
+
+*Corrected 2026-10-12 after the fact-check (C44) and the review's digit
+recheck (`number-base.md`).* Cut: "The base-6 transmission test found six
+one-syllable digits far more robust than ten (0.26% vs 2.3% wrong-digit rate
+on a 10-digit ID)": those figures were for ideal digit sets the language never
+used; today's 0–5 score 0.0185 per digit in the same unvalidated model. Cut:
+"A two-syllable digit survives a noise burst that wipes one syllable (the ICAO
+lesson)": ICAO gives no such reason. Its digits are mostly one syllable (wun,
+too, tree, fife, six, ait); fower, seven and niner have two for distinctness
+(niner vs German *nein* and "five"). The burst argument is from ICAO's 1959
+report on the *spelling alphabet* (letter code words), and the confusion model
+doesn't simulate a lost syllable, so it is untested for digits.

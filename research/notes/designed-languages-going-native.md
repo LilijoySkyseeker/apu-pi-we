@@ -72,7 +72,7 @@ Evidence on what happens when planned, revived or newly formed languages get nat
   - When homonyms were filtered out (a stand-in for expressivity pressure), compositional morphemes emerged, plus a few frequent irregulars.
 - **Kirby, Tamariz, Cornish & Smith 2015** (Cognition 141:87–102): structure comes from "a trade-off between pressures for compressibility (imposed during learning) and expressivity (imposed during communication)". Sourced: abstract.
 - **Smith & Wonnacott 2010** (Cognition 116:444–9): chains, but not isolated learners, made unpredictable plural marking predictable "by lexicalising the choice of plural marker". Variation gets conditioned rather than deleted. Sourced: abstract.
-- **Hudson Kam & Newport 2005** (LLD 1:151–195): with inconsistently used determiners, "children, but not adults, regularized". Sourced: search abstract.
+- **Hudson Kam & Newport 2005** (LLD 1:151–195): with inconsistently used determiners, "children, but not adults, regularized". Sourced: search abstract. Their 2009 follow-up found adults regularize too when the variation is complex and scattered, so "children, not adults" holds for this paper only. *(corrected 2026-10-12 after the fact-check, C24.)*
 - **Fedzechkina, Jaeger & Newport 2012** (PNAS 109:17897–902). Sourced: [PMC3497763](https://pmc.ncbi.nlm.nih.gov/articles/PMC3497763/).
   - The input language had optional case marking independent of animacy.
   - Learners shifted case marking onto *atypical* arguments, such as animate objects, recreating differential object marking.
@@ -82,7 +82,7 @@ Evidence on what happens when planned, revived or newly formed languages get nat
 ## 6. Toki Pona and Lojban
 
 - **Toki Pona.** Community usage overrode the design. Sources: Wikipedia, [Toki Pona](https://en.wikipedia.org/wiki/Toki_Pona); community wiki [sona pona](https://sona.pona.la/wiki/number_of_words).
-  - Words that the 2014 book (*pu*) dropped (*leko, monsuta, kipisi*) stayed in use. They were reinstated, along with *oko*, as *nimi ku suli* in the 2021 dictionary.
+  - Words that the 2014 book (*pu*) dropped (*leko, monsuta, kipisi*) stayed in use. They were reinstated, along with *oko* (which *pu* had listed as a synonym, not dropped), as *nimi ku suli* in the 2021 dictionary. *(corrected 2026-10-12 after the fact-check, C48.)*
   - The 2021 dictionary was built from Discord surveys of "10–30 participants" each. Its methodology has been criticized.
   - The 2024 Linku survey has 118 core words (≥90% of speakers), 13 common, 10 uncommon and 40 obscure. Lang's minimalism held at roughly 120 core words, but the lexicon grew at the edges.
   - Speakers are young: 51% were under 20 in the 2022 census ([census results](https://tokiponacensus.github.io/results2022/), via search).
@@ -96,7 +96,7 @@ Evidence on what happens when planned, revived or newly formed languages get nat
 - **Icelandic.** Friðriksson 2008 (Gothenburg PhD, 108 informants) concludes that Icelandic "can still be characterized as a stable language". Sourced: search abstract.
   - Change still runs under purism. The "dative sickness" has been "for decades… a pet peeve" (Angantýsson & Friðriksson 2023, [Acta Didactica Norden](https://journals.uio.no/adnorden/article/download/9736/8882)).
   - The New Impersonal is "predominantly used by children and diminishes with increased parent education" (Maling & Sigurjónsdóttir 2002, JCGL 5:97–142; survey of 1,731 students; search abstract).
-  - Schools *can* kill a sound change. In 1929, 42% of Reykjavík children had flámæli (a vowel merger). A school campaign ran 1940–60, backed by the national radio broadcaster (RÚV), and the merger was gone among children by 1960. Secondary: [Wikipedia, Flámæli](https://en.wikipedia.org/wiki/Fl%C3%A1m%C3%A6li).
+  - Schools *can* kill a sound change. In 1929, 42% of Reykjavík children had flámæli (a vowel shift, at most a near-merger; "merger" was loose, corrected 2026-10-12 after the fact-check, C47). A school campaign ran 1940–60, backed by the national radio broadcaster (RÚV), and the merger was gone among children by 1960. Secondary: [Wikipedia, Flámæli](https://en.wikipedia.org/wiki/Fl%C3%A1m%C3%A6li).
 - **Media doesn't level dialects.** Labov finds the dialects of US cities "more different from each other than they were a hundred years ago". Source: [UVA Press, *Dialect Diversity in America*](https://www.upress.virginia.edu/title/4510/) and search summary of the *Atlas*.
   - TV is a weak accelerant, not a leveller. Engagement with *EastEnders* added to contact and local meaning in Glaswegian TH-fronting (Stuart-Smith et al. 2013, Language 89:501–36, [abstract](https://strathprints.strath.ac.uk/44403/)).
 - **Lexical rates.** Frequency explains "approximately 50%" of the variation in replacement rates: frequent words change slowly (Pagel, Atkinson & Meade 2007, Nature 449:717–20). Small numerals are the most stable of all (Pagel & Meade 2018). Larger populations gain words faster, and smaller ones lose more (Bromham et al. 2015, PNAS 112:2097–102). All abstracts via Europe PMC.
@@ -112,14 +112,14 @@ Evidence on what happens when planned, revived or newly formed languages get nat
 
 **Changed:**
 1. **Phonology, almost always toward the founders' L1.** Hebrew's pharyngeals and alveolar r went. Esperanto stress followed the adstrate. Prescribed sounds are the least durable design layer.
-2. **Unstressed grammatical words reduce** toward schwa or cliticize (Bergen).
-3. **Redundant obligatory marking erodes or becomes conditional.** Examples: the Esperanto accusative when word order already does the work, Hebrew gender polarity and construct state, and Fedzechkina's optional case moving to atypical arguments.
+2. **Unstressed grammatical words reduce** toward schwa or cliticize (Bergen; in only ~5% of cases by the fact-check's reading, 8 children, corrected 2026-10-12 after the fact-check, C17).
+3. **Redundant obligatory marking erodes or becomes conditional.** Examples: the Esperanto accusative when word order already does the work (weak: in Bergen's children its loss tracked whether their other native language marks case, i.e. transfer; Lindstedt's children kept it; corrected 2026-10-12 after the fact-check, C17), Hebrew gender polarity and construct state, and Fedzechkina's optional case moving to atypical arguments.
 4. **Rarely used compound or periphrastic tense/aspect forms disappear** (Bergen). Temporal devices are built over cohorts, and in NSL tense never appeared (Kocab).
 5. **Synthetic forms become analytic** (Hebrew possession).
 6. **Lexicon is set by usage, not by the designer** (Toki Pona; Ben-Yehuda's r).
 
 **Lessons:**
-- **Ship it pre-nativized.** Lindstedt's point is that L2 use had already naturalized Esperanto, so natives changed little. The conlang's choices already match creole outcomes (SVO, no inflection, no tone, preverbal aspect, optional tense). That is drift pre-empted. *Inferred.*
+- **Ship it pre-nativized.** Lindstedt's point is that L2 use had already naturalized Esperanto, so natives changed little. The conlang's choices already match the creole prototype (SVO, no inflection, no tone, preverbal aspect, optional tense), which not every creole fits (Saramaccan has tone and morphology) and which partly reflects substrates (Blasi et al. 2017). Native Esperanto and Hebrew are not evidence for it: Hebrew stayed inflected, and native Esperanto was no more SVO than L2 Esperanto. *Inferred; corrected 2026-10-12 after the fact-check, C15.*
 - **Pre-reduce grammar words.** Unstressed one-syllable particles will reduce anyway. Keep their vowels maximally distinct, or expect **yun/fu/gon/to** to merge in fast speech. *Inferred from Bergen and Hebrew.*
 - **Audit every *obligatory* distinction for redundancy.** Obligatory marking that context or word order makes redundant gets dropped or made conditional. The obligatory **lu/tan** rule is the top candidate; natives will likely mark it only when there is real ambiguity (Winters; Fedzechkina). Consider writing it as "obligatory when ambiguous", the form learners would converge on anyway. *Inferred.*
 - **Graded scales compress.** Expect **mon** + digit to settle on a few conventional values, as in Kirby 2008's underspecification under learning pressure. Test it with an iterated-learning pilot. *Inferred.*
