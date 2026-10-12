@@ -18,12 +18,12 @@ What the language is for, and how its criteria are weighed against each other, i
 3. Operators come before what they cover (section 6).
 4. Heavy goes last. A noun's own modifiers come before its **pi** "of" phrase, and long clauses go to the end. Nothing may follow a relative clause in its phrase.
 5. Doubling widens or strengthens any word except a digit in a number: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so". Doubled **mu** is always emphasis and never means "not not".
-6. Every social pressure has its own word: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.
+6. Emphasis, politeness, respect and stance have words of their own: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.
 7. A precise way always exists, but it need not always be used. Anything the listener can supply may be left out (section 4.5), and any ambiguity can be removed by saying more.
 
 ## 2. Sounds
 
-- The vowels are a e i o u. Every syllable keeps its full vowel.
+- The vowels are a e i o u. In the reference pronunciation, every syllable keeps its full vowel.
 - There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g).
 - A syllable has the shape (C)V(n). A syllable with no consonant before its vowel (**a**, **en**) occurs only at the start of a word. The only consonant that can end a syllable is n.
 - Words fall into three types by sound:
@@ -31,10 +31,10 @@ What the language is for, and how its criteria are weighed against each other, i
   - the digits 0–5 have one stressed syllable;
   - every other word has two or more syllables and is stressed on the first.
 - Words never change form. There are no endings, no agreement, no case and no gender.
-- Stress is a higher pitch on the stressed syllable, stepping down after it. It does not make the syllable longer. The rhythm is syllable-timed.
+- Stress is a higher pitch on the stressed syllable, stepping down after it. In the reference pronunciation it does not lengthen the syllable, and the rhythm is syllable-timed.
 - Across a phrase, each stressed syllable is a little lower than the one before (declination), and pitch resets after a pause.
 - There are no tones. Pitch carries only intonation and emotion. A question needs no rising tone, because its words make it a question, but rising anyway is fine.
-- Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. Grammar words keep their consonants.
+- Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation, grammar words keep their consonants.
 - **mm** "heard you", **huh?** "say again", and any other interjection or hesitation sound speakers use are outside the sound system and carry no grammar.
 - Native content words never begin with an open syllable identical to a digit (**po fi sa ka da te**). Loans are exempt.
 
@@ -50,7 +50,7 @@ What the language is for, and how its criteria are weighed against each other, i
   | `.` | end of a sentence; between digits, the decimal point |
   | `" "` | around quoted speech |
 
-  `?` and `!` are allowed and add nothing. `-` and `:` are not used in the language's own words.
+  `?` and `!` are allowed. In the reference variety the words already show what they would mark, so they carry no grammar of their own. `-` and `:` are not used in the language's own words.
 - Some things pass through as written: chat abbreviations and interjections (ok, lol), digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, and personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3) and clock notation in the speaker's clock style (8.3). Other notation is read as the speaker's culture reads it.
 - Ordinary writing uses digits for numbers. This reference spells numbers out only to show how they are said. Digits are grouped in threes from the decimal point with a space (`1 250 000`), and `.` is the decimal point.
 - Words are written apart. A phrase said fast keeps its spaces until a fused form actually changes sound and becomes a new word.
@@ -235,7 +235,7 @@ Phrase operators cover the word or phrase right after them, including a phrase t
 
 - A statement has no particle. Each sentence has one speech act.
 - **genso** or **ba** may modify the act from in front of its particle: **genso min me lugo** "as if you'd know"; **ba min** is a surprised or indignant question.
-- Someone else's intention is reported (**inwun**) or stated with time words and **kon**; **de** is only for the speaker's own commitment.
+- Someone else's intention is reported (**inwun**) or stated with time words and **kon**; in the reference variety, **de** is for the speaker's own commitment.
 
 ### 7.2 Stance (slot 13)
 
@@ -309,7 +309,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 
 - You can call someone with a person word (a name, a title, or a single role or kin word) at the start (slot 1, for attention) or at the end (slot 14, to soften): **en mara, tin obu.** / **tin obu, en mara.**
 - Titles go before the name with no comma, and work both in address and in reference: **no tofo en mara** "Teacher Mara"; **no tofo en mara sin oyi** "Teacher Mara said".
-- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named and never means "you".
+- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named. In the reference variety it is a title, not a word for "you".
 - There is no apposition. To describe someone, use a title before the name, a relative clause or a new sentence.
 
 ### 10.2 Politeness and routines
@@ -326,7 +326,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 - **bu** "it" is the thing being talked about. **ben** alone is a thing that isn't the topic: **me momu bu lu ben, yu.** "this one or that one?"
 - **tan** or **ben** alone stands for an event, statement or situation. **tan** is nearer (what I'm saying, here and now), and **ben** further (what you said, an earlier event): **ben gun upe** "that's good"; **gi tan** "so". For a recipient, see 5.2.
 - **sun**, in reported speech or thought, is the person whose words are reported.
-- **go** is anyone, people in general. **me** is only ever the listener and is never generic. An unknown doer is **ewo bo**.
+- **go** is anyone, people in general. In the reference variety, **me** is the listener only; for people in general, use **go**. An unknown doer is **ewo bo**.
 - **nen** is self. As an object it is reflexive (**to kuwi nen** "I keep myself"). After a noun or pronoun it means "in person" (**wan nen obu** "he came himself").
 - **pen** is we including you, and **din** is we not including you. **wan la** is "they" and **me la** "you all".
 - A pronoun never means the subject of its own clause; for that, use **nen**. The listener finds referents from context. If one could be unclear, name it.

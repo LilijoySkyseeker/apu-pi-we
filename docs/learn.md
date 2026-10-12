@@ -309,7 +309,7 @@ There's no "Mara, my teacher," construction. To describe someone, put a title be
 
 A tone word can go at the end of a sentence, after a comma. **a** is "you know", **buni** is a friendly "okay?" that isn't a real question, **donon** is "it turned out", and **min** checks, like "…, right?": **so pen isi, buni.** "Let's go, okay?" If two come together, **min** goes last. For "wasn't it?" when you half remember something, you can say **kon ka wan sin oyi bu, min.** "She said it, didn't she?" (**kon ka** "maybe", lesson 13)
 
-Being polite never means hinting. English softens a warning into "might want to check the stove". Here you say **yo nun** (warning, politely) and then the problem: **yo nun osa le obu. fon nun pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
+To make a warning or advice polite, add **nun** after the particle, then say the problem: **yo nun osa le obu. fon nun pen wupi isi.** "(Warning, politely) the water is coming. (Advice, politely) we need to go."
 
 ## Lesson 9: Numbers
 

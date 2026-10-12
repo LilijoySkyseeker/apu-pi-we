@@ -86,10 +86,10 @@ text = '''
 [[item]]
 id = "1.6"
 type = "numbered"
-title = "Every social pressure has its own word"
+title = "Words for social meaning"
 gap = 0
 text = '''
-6. Every social pressure has its own word: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.'''
+6. Emphasis, politeness, respect and stance have words of their own: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.'''
 
 [[item]]
 id = "1.7"
@@ -112,7 +112,7 @@ id = "2.1"
 type = "bullet"
 title = "Vowels"
 text = '''
-- The vowels are a e i o u. Every syllable keeps its full vowel.'''
+- The vowels are a e i o u. In the reference pronunciation, every syllable keeps its full vowel.'''
 
 [[item]]
 id = "2.2"
@@ -155,7 +155,7 @@ type = "bullet"
 title = "Stress"
 gap = 0
 text = '''
-- Stress is a higher pitch on the stressed syllable, stepping down after it. It does not make the syllable longer. The rhythm is syllable-timed.'''
+- Stress is a higher pitch on the stressed syllable, stepping down after it. In the reference pronunciation it does not lengthen the syllable, and the rhythm is syllable-timed.'''
 
 [[item]]
 id = "2.7"
@@ -179,7 +179,7 @@ type = "bullet"
 title = "Harmless variants"
 gap = 0
 text = '''
-- Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. Grammar words keep their consonants.'''
+- Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation, grammar words keep their consonants.'''
 
 [[item]]
 id = "2.10"
@@ -234,7 +234,7 @@ text = '''
   | `.` | end of a sentence; between digits, the decimal point |
   | `" "` | around quoted speech |
 
-  `?` and `!` are allowed and add nothing. `-` and `:` are not used in the language's own words.'''
+  `?` and `!` are allowed. In the reference variety the words already show what they would mark, so they carry no grammar of their own. `-` and `:` are not used in the language's own words.'''
 
 [[item]]
 id = "3.4"
@@ -1103,7 +1103,7 @@ id = "7.1.4"
 type = "bullet"
 gap = 0
 text = '''
-- Someone else's intention is reported (**inwun**) or stated with time words and **kon**; **de** is only for the speaker's own commitment.'''
+- Someone else's intention is reported (**inwun**) or stated with time words and **kon**; in the reference variety, **de** is for the speaker's own commitment.'''
 
 [[item]]
 id = "7.2"
@@ -1464,7 +1464,7 @@ type = "bullet"
 title = "lanno"
 gap = 0
 text = '''
-- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named and never means "you".'''
+- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named. In the reference variety it is a title, not a word for "you".'''
 
 [[item]]
 id = "10.1.4"
@@ -1566,7 +1566,7 @@ type = "bullet"
 title = "go"
 gap = 0
 text = '''
-- **go** is anyone, people in general. **me** is only ever the listener and is never generic. An unknown doer is **ewo bo**.'''
+- **go** is anyone, people in general. In the reference variety, **me** is the listener only; for people in general, use **go**. An unknown doer is **ewo bo**.'''
 
 [[item]]
 id = "10.3.6"
