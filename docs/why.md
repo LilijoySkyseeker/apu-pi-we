@@ -28,7 +28,7 @@ Most of the world's languages don't mark gender in their pronouns, and those tha
 
 ## Why do you say how sure you are in sixths?
 
-Words like "probably" and "likely" mean very different things to different people. A number doesn't. **kon** plus a number from 0 to 6 gives seven steps, about as many as forecasters can reliably use, and every step but certainty is a one-syllable digit. It also suits a language whose digits once counted in sixes. [The confidence scale](language.md#61-clause-operators).
+Words like "probably" and "likely" mean very different things to different people. A number doesn't. **kon** plus a number from 0 to 6 gives seven steps, and every step but certainty is a one-syllable digit. It also suits a language whose digits once counted in sixes. [The confidence scale](language.md#61-clause-operators).
 
 ## Why does one word mean both "moon" and "month"?
 
