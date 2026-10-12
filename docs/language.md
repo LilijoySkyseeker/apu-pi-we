@@ -96,7 +96,7 @@ A sentence fills these slots in this order. Only the verb, or a fragment (4.5), 
 
 - A linker is a word or phrase at the start that ties the sentence to the one before it, such as **gi tan** "so", **un** "but" or **yen** "and also".
 - Any relation phrase may open the sentence, followed by a pause. A time or place phrase there sets the scene: **mon minfi, …** "at noon, …". An opening phrase changes no roles.
-- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to the pause, so it can be a list: **pi upe yen yomo,** "as for good and bad,".
+- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, no kuwi guyi, yidu bu la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to its pause, or to **kiyo** "end of phrase", so it can be a list: **pi upe yen yomo,** "as for good and bad,".
 - An if/when clause is **don** "if", **nin** "while/when", **wo** "after", **ya** "before" or **gi** "because", followed by a clause.
 - When several of these open a sentence, they come in this order: linker, scene or topic, if/when clause. The speech-act particle follows them.
 - Only a person word (4.1) calls someone. A longer noun phrase before a pause is the subject (4.6), and a fronted relation phrase or **pi** phrase is a scene or topic phrase.
@@ -127,7 +127,7 @@ A pause, written as a comma, goes wherever a phrase could otherwise run on. It b
 - between clauses joined by **yen**, **lu** or **un** when the first ends in a noun;
 - before a stance word, and before the choice tag **yu** (4.8);
 - between a larger and a smaller calendar unit (**dunan pi yawu, dili pi mape**);
-- after a relative clause, to close it before more material.
+- after a relative clause, to close it before more material (or **kiyo**, 5.3).
 
 In casual writing, pauses that context makes obvious may be dropped.
 
@@ -180,7 +180,7 @@ A relative clause is **man** + clause, placed after the noun. The noun fills the
 
 If both the subject and the object are missing, the noun is the subject: **ewo man nagu** "the person who sees". For "the person I see", keep the subject: **ewo man to nagu**.
 
-A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. No word closes a relative clause. A pause closes it, along with every relative clause still open.
+A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyo** "end of phrase", closes it, along with every relative clause still open: **to sin miya ewo man sigo kiyo nin leso** "I watched the person who came back, in the morning". **kiyo** is optional; use it where a missed pause could mislead.
 
 ### 5.4 Derived words
 
@@ -194,7 +194,7 @@ Four markers before a verb or verb phrase name a role in the action:
 | **pu** | the place | **pu niba** "place for walking" = a path |
 
 - A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word itself if its base has no noun: **du kuwi pi to** "my thing for keeping".
-- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause separates it from a following verb. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".
+- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".
 - A person something is done to is **ewo man gun** + verb: **ewo man gun tofo** "a student".
 - A noun base is linked with **pi** or a verb: **pu pi mabo** "an office", **no obu se yaye** "an alien".
 - For opposites, **mu** + word means "not X" (**mu upe** "not good"), and a separate opposite root names the other pole (**yomo** "bad").
@@ -370,7 +370,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 | Names | **en** |
 | Derivation | doer **no** · thing **ge** · tool **du** · place **pu** |
 
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**. **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**. **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
 
 ## 14. Vocabulary
 

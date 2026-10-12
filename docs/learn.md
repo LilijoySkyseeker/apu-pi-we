@@ -417,7 +417,7 @@ A **man** clause after a noun describes it, the way "who", "which" and "where" d
 
 For a place or time, end the clause with the relation word: **kemu man to nume mon** "the place where I live" (place that I live at).
 
-A comma closes a **man** clause, since there's no word for the job, and nothing else in the phrase can come after it.
+A **man** clause runs on until something closes it: a comma in writing, a pause in speech, or the word **kiyo** "end of phrase". **to sin miya ewo man sigo kiyo nin leso.** "I watched the person who came back, in the morning." Without **kiyo** or the comma, "in the morning" would belong to the coming back. Nothing else in the phrase can come after a closed **man** clause.
 
 ### Opening a sentence
 

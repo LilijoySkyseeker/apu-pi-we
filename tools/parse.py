@@ -19,7 +19,7 @@ import spec as SPEC
 
 LEX = W.read("lexicon.tsv")
 # Two-syllable grammar words kept in the lexicon (language.md 13)
-OPS2 = {"genso", "wanme", "inwun", "wemen", "konsin", "nedin", "tason", "mesun", "manni", "buntu", "buni", "donon", "lanno", "anko", "nuwen"}
+OPS2 = {"genso", "wanme", "inwun", "wemen", "konsin", "nedin", "tason", "mesun", "manni", "buntu", "buni", "donon", "lanno", "anko", "nuwen", "kiyo"}
 NUMS = {r["form"] for r in W.read("numbers.tsv")} | {w["form"] for w in LEX if w["field"] == "number"}
 CONTENT = sorted({w["form"] for w in LEX} - OPS2 - NUMS)
 
@@ -85,8 +85,8 @@ def chunk(sentence):
     i = 0
     while i < len(words):
         w = words[i]
-        if w == ",":
-            out.append(w); i += 1; continue
+        if w in (",", "kiyo"):  # kiyo "end of phrase" does what a pause does (5.3)
+            out.append(","); i += 1; continue
         if out and w == out[-1] and w not in ("C", "N"):
             i += 1
             continue
