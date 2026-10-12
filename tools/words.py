@@ -82,6 +82,9 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()
     second = [i for i in range(len(SYL)) if INV.syl[i][0] != ""
               and (not no_approximants or INV.syl[i][0] not in APPROXIMANTS)]
     taken = {INV.content_key(split(w["form"])) for w in lexicon}
+    # senary.tsv: words set aside for the senary measurement system, outside the core; their forms stay reserved
+    if os.path.exists(os.path.join(DATA, "senary.tsv")):
+        taken |= {INV.content_key(split(w["form"])) for w in read("senary.tsv")}
     ex = np.array([split(w["form"]) for w in lexicon if len(split(w["form"])) == 2])
     ex_words = [w for w in lexicon if len(split(w["form"])) == 2]
     weight = np.array([30.0 if w["gloss"] in antonyms else

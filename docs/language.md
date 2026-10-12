@@ -52,7 +52,7 @@ What the language is for, and how its criteria are weighed against each other, i
 
   `?` and `!` are allowed and add nothing. `-` and `:` are not used in the language's own words.
 - Some things pass through as written: chat abbreviations and interjections (ok, lol), digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, and personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3) and clock notation in the speaker's clock style (8.3). Other notation is read as the speaker's culture reads it.
-- Ordinary writing uses digits for numbers. This reference spells numbers out only to show how they are said. Digits are grouped in threes from the decimal point with a space (`1 250 000`), and `.` is the decimal point. A senary number is marked `₆` (or `_6`).
+- Ordinary writing uses digits for numbers. This reference spells numbers out only to show how they are said. Digits are grouped in threes from the decimal point with a space (`1 250 000`), and `.` is the decimal point.
 - Words are written apart. A phrase said fast keeps its spaces until a fused form actually changes sound and becomes a new word.
 
 ## 4. The sentence
@@ -275,7 +275,6 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
   - For *about* a time, put **fu** before it: **mon fu minfi** "around noon".
 - A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili pi ka pi dunan** "the 3rd (of the month)", **dili pi ka pi isi** "the third day of the trip".
 - Dates put the larger unit first, with a pause between: **dunan pi yawu, dili pi mape** "October 9". A weekday with a time is said the same way: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".
-- The senary calendar is described in [measurement.md](measurement.md).
 
 ## 9. Numbers
 
@@ -295,7 +294,6 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 - The digit reading says one digit at a time. It is used whenever the exact digits matter more than the size: for identifiers, phone numbers and codes (in groups of three from the right), and for years and 24-hour clock times (as one four-digit group).
 - Labels (noun + **pi** + number) under 100 use the quantity reading (**dili pi yawu da** "day 14"). Larger labels use the digit reading.
 - Decimals use **mimi** "point": 1.5 = **fi mimi te**. **guti** means minus. With **unun** "× 10 to the", **ka unun guti ufo** = 3 × 10⁻⁶.
-- A senary number is **senali** + digits: **senali sa po** = 20₆ = 12.
 
 ### 9.3 Amounts and comparison
 
@@ -303,7 +301,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 - A range is **se** X **tun** Y. "At least" is **konsin** X, and "at most" is **mu ke se** X.
 - "Enough" is **tonya**.
 - A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", compare with everything: **ke kudu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").
-- Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km". The native unit roots in the lexicon belong to the senary system ([measurement.md](measurement.md)).
+- Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km".
 
 ## 10. People
 

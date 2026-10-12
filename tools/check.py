@@ -11,7 +11,7 @@ import re, sys
 import words as W
 
 KNOWN = ({g["form"] for g in W.read("grammar.tsv")} | {w["form"] for w in W.read("lexicon.tsv")}
-         | {r["form"] for r in W.read("numbers.tsv")})
+         | {r["form"] for r in W.read("numbers.tsv")} | {w["form"] for w in W.read("senary.tsv")})
 
 
 def unknown(text):

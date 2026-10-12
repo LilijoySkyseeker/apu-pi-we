@@ -684,3 +684,9 @@ The author stepped back before any sharing or learning: write a short goal for t
 - Senary compatibility is dropped from the goal: the language is not tailored to the projects that use it.
 - Measurements and pass marks are kept out of the goal; they go in a separate evaluation-methods document.
 - Added the same day (author): **C4**, agreement among languages doesn't count where it rests on a belief now known to be wrong (the sun "rises"); describe what is observed, without building today's theories into basic words either. This restores the 2026-10-08 "observation, not theory" rule, missed in the first draft of the goal.
+
+## Review repairs (author, from 2026-10-12)
+
+The cold review (`~/work/apupiwe-review/`, copied to the author's notes) found the language should be kept with repairs. The author is working through the judge's list one decision at a time.
+
+**1a. Senary words out of the core.** The 31 words of the senary measurement system (20 unit roots, 9 base-6 number words, **senali**, **boyo**) move from `lexicon.tsv` to `data/senary.tsv`, and the 9 base-6 rows leave `numbers.tsv`. They lost their source when the goal dropped senary compatibility (N6). They stay recorded and their forms stay reserved (`words.py` treats them as taken), so they aren't forgotten or given a second meaning, but they no longer shape the core language. The reference and lessons no longer teach them; `docs/measurement.md` still describes them. Building senary's own vocabulary is a future task.

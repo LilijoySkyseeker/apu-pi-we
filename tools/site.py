@@ -107,7 +107,7 @@ def dictionary_html(lex, gram, comp):
     opts = "".join(f"<option>{f}</option>" for f in fields) + '<option value="grammar">grammar words</option><option value="compound">compounds</option>'
     return f'''<h1 id="dictionary">Dictionary</h1>
 <p>There are {sum(w["field"] not in ("loan", "number", "unit") for w in lex)} root words, {sum(w["field"] == "loan" for w in lex)} loans,
-the numbers, {sum(w["field"] == "unit" for w in lex)} units of the optional senary measurement system, {len(gram)} grammar words
+the numbers, {len(gram)} grammar words
 and {len(comp)} compounds.
 The Common column runs from 5, the words to learn first, down to 1. Type in the box to filter, or click a
 column heading to sort. The grammar words are explained in <a href="language.html#13-grammar-words">section 13

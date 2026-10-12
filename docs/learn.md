@@ -4,7 +4,7 @@ This guide is for English speakers. The full rules are in the [language referenc
 
 ## Before you start
 
-The language is small and unfinished. It has 483 root words and 23 borrowed international words, plus the number words and the words of the optional senary (base-6) measurement system. On top of those come 61 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
+The language is small and unfinished. It has 482 root words and 22 borrowed international words, plus the number words. On top of those come 61 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
 
 Nothing changes shape. There are no verb endings, no plurals you have to add, no "a" or "the", no gender and nothing irregular. Almost all the difficulty is in sounds, word order and numbers.
 
@@ -21,7 +21,7 @@ This plan fits into 15 to 20 minutes a day.
 | 1 | 1–4 | the 58 most common words, marked 5 and 4 in the Common column of the [dictionary](dictionary.md) |
 | 2 | 5–8 | the [grammar-word table](language.md#13-grammar-words), starting with the little words that look like English from lesson 6 |
 | 3 | 9–10, numbers and time | count things aloud every day |
-| 4 on | 11–14 | the next 176 words, marked 3 in the Common column, and short conversations with a practice partner |
+| 4 on | 11–14 | the next 175 words, marked 3 in the Common column, and short conversations with a practice partner |
 
 Three habits matter more than the schedule. Say everything aloud: reading silently trains your eyes, and you want to train your mouth.
 
@@ -345,7 +345,6 @@ Phone numbers, codes and years are read digit by digit too, so 2026 as a year is
 
 **mimi** is the decimal point, so **fi mimi te** is 1.5, and **guti** is minus. Half is **timon**. As a number, 0.5 is **po mimi te**. A third is **fi pi ka** "one of three".
 
-If you ever need a base-6 number, say **senali** first and then read its digits. The [dictionary](dictionary.md) also lists base-6 words such as **nobi** and **miko**. They belong to the optional senary measurement system, and ordinary counting doesn't use them.
 
 ### Amounts and comparing
 
@@ -499,6 +498,6 @@ This sentence has many of these parts: **en mara, afe, kon da wan fe sin obu tun
 
 The [Examples](examples.md) page has the Universal Declaration of Human Rights in Apupiwe, with the English under each paragraph. Tap or point at any word to see what it means.
 
-The full reference is [language.md](language.md). Senary measurements and the senary calendar are in [measurement.md](measurement.md).
+The full reference is [language.md](language.md).
 
 And for conversation, find a practice partner and say **upe**.

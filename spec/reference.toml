@@ -250,7 +250,7 @@ type = "bullet"
 title = "Numbers in writing"
 gap = 0
 text = '''
-- Ordinary writing uses digits for numbers. This reference spells numbers out only to show how they are said. Digits are grouped in threes from the decimal point with a space (`1 250 000`), and `.` is the decimal point. A senary number is marked `₆` (or `_6`).'''
+- Ordinary writing uses digits for numbers. This reference spells numbers out only to show how they are said. Digits are grouped in threes from the decimal point with a space (`1 250 000`), and `.` is the decimal point.'''
 
 [[item]]
 id = "3.6"
@@ -1310,14 +1310,6 @@ text = '''
 - Dates put the larger unit first, with a pause between: **dunan pi yawu, dili pi mape** "October 9". A weekday with a time is said the same way: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".'''
 
 [[item]]
-id = "8.3.4"
-type = "bullet"
-title = "Senary calendar"
-gap = 0
-text = '''
-- The senary calendar is described in [measurement.md](measurement.md).'''
-
-[[item]]
 id = "9"
 type = "heading"
 level = 2
@@ -1389,14 +1381,6 @@ text = '''
 - Decimals use **mimi** "point": 1.5 = **fi mimi te**. **guti** means minus. With **unun** "× 10 to the", **ka unun guti ufo** = 3 × 10⁻⁶.'''
 
 [[item]]
-id = "9.2.5"
-type = "bullet"
-title = "Senary numbers"
-gap = 0
-text = '''
-- A senary number is **senali** + digits: **senali sa po** = 20₆ = 12.'''
-
-[[item]]
 id = "9.3"
 type = "heading"
 level = 3
@@ -1441,7 +1425,7 @@ type = "bullet"
 title = "Measurements"
 gap = 0
 text = '''
-- Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km". The native unit roots in the lexicon belong to the senary system ([measurement.md](measurement.md)).'''
+- Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km".'''
 
 [[item]]
 id = "10"
