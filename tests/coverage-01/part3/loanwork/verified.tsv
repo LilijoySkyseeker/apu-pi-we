@@ -9,7 +9,7 @@ sofa	ta	yes	சோபா sōpā	OpenSubtitles ta 50k list: சோபா rank 966
 sofa	sw	no	sofa	Leipzig swa_community_2017: sofa 2 vs kochi 10 + makochi 5 (Wiktionary has both, kochi < couch); kochi is the everyday word, sofa ~7x rarer
 sofa	qu	unknown	-	not in freq-qu, Leipzig que, Wiktionary, Laime 2007, or qu.wikipedia (Wikidata Q131514 has no qu label)
 lamp	bn	no	ল্যাম্প lyāmp	OpenSubtitles bn 50k: বাতি 46 + বাতিটা 6 vs ল্যাম্প 4 (rank 28885); sfreq-bn বাতি rank 4673; Wiktionary gives বাতি "lamp, light"
-lamp	qu	unknown	-	no lámpara form in freq-qu, Leipzig que, Wiktionary or Laime 2007; Wikidata Q1138737 has no qu label
+lamp	qu	yes	lampara	WOLD (Gómez-Rendón 2009, Imbabura Quechua): "the lamp or torch" = lampara, clearly borrowed; not in Leipzig que or Laime 2007
 tomato	ha	yes	tumatur, tumatir	freq-ha rank 4670 (tumatur); Leipzig hau: tumatur 11, tumatir 3
 toast	hi	yes	टोस्ट ṭosṭ	Wiktionary Hindi टोस्ट "toast (toasted bread)"; sfreq-hi rank 3300 (senses mixed with "cheers" toast)
 toast	bn	yes	টোস্ট ṭosṭ	OpenSubtitles bn 50k rank 9441 (count 18, plus টোস্টের 2), sense not separable from drinking toast; english-bangla.com Bengali headword টোস্ট noun "toast"
@@ -29,3 +29,18 @@ professor	id	yes	profesor	freq-id rank 2350, sfreq-id rank 1516, OpenSubtitles i
 professor	bn	yes	প্রফেসর prophesar	freq-bn rank 2475, sfreq-bn rank 742 (native অধ্যাপক 1210 / 4678)
 professor	ta	no	-	native பேராசிரியர் freq-ta rank 1073, sfreq-ta 3705, subtitle list 3723; no spelling of the loan in any ta list
 professor	ha	yes	farfesa	freq-ha rank 1208; Leipzig hau Farfesa 73, farfesa 4, Farfesan 9
+professor	qu	no	profesor	Leipzig que: profesor only 2 (running text, sentences 1831, 1852) vs native yachachiq 21 + inflected ~30 more, amawta 15; Laime 2007 "yachachiq. s. Profesor"
+project	ta	no	-	native திட்டம் freq-ta rank 147, sfreq-ta 427 (subtitles 41 tokens); no spelling of the loan in any ta list
+project	qu	yes	proyecto	Leipzig que: 1 running-text use ("kay proyectota", sentence 4791), plus 1 in a Spanish name; Laime 2007 native yuyarisqa unattested in Leipzig (weak, single token)
+code	id	yes	kode	freq-id rank 840, sfreq-id 1160; Wiktionary Indonesian kode "code" (system of rules / converted representation)
+code	tl	yes	code	freq-fil rank 668 (code, senses mixed); Wiktionary kodigo (law code, secret code, cheat sheet) does not cover computer code; koda not found
+code	bn	yes	কোড koḍ	freq-bn rank 2071, sfreq-bn 1047 (subtitle 50k: 281 tokens plus inflections)
+code	ta	no	-	native குறியீடு freq-ta rank 2538, sfreq-ta 684 (subtitles 26 + 8); loan only கோட் 2 in subtitles, ambiguous with "coat"
+code	fa	yes	کد kod	freq-fa rank 769, sfreq-fa 2734; Wiktionary Persian کد "code" (from French)
+code	sw	no	kodi	Wiktionary Swahili kodi = "fee, tax, rent" (Leipzig 1504 tokens are the tax sense); computer code is msimbo (Wiktionary "source code"; Leipzig "HTML ... msimbo")
+code	qu	unknown	-	Leipzig que has only "Código" inside a Spanish name; no Quechua dictionary or Wiktionary entry either way
+democracy	yo	no	dẹmọkrasi	loan not in Leipzig yor; "Demokratiki" there (2, freq-yo rank 4671) is the US party name; yo text uses native Tòṣèlúaráìlú (Wikidata Q7174 Òṣèlúaráìlú); Wiktionary ijọba alagbada
+democracy	qu	yes	dimukratiya	freq-qu rank 3068; Leipzig que dimukratiya 6, Dimukratiku 4 in running text ("parlamintu dimukratiyam"); native gloss akllanakuspa kamachinakuy also used
+design	tl	yes	disenyo	freq-fil rank 1224 (plus design 3553); tl subtitle list rank 1569; Wiktionary Tagalog disenyo "design"
+design	bn	yes	ডিজাইন ḍijāin	freq-bn rank 2227, sfreq-bn 3360; subtitle 50k ডিজাইন 69 vs native নকশা 59
+design	ta	unknown	-	no டிசைன் in ta freq/sfreq/subtitle lists or Wiktionary; native வடிவமைப்பு freq-ta 3993 but subtitles only 1
