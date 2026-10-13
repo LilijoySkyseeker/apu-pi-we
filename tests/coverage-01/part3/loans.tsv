@@ -15,7 +15,7 @@ helicopter	12/20 (16 lenient)	6 (no AM) (7 lenient)	pass	[helikopter]	elikoputel
 tractor	15/20 (18 lenient)	all 7	pass	[traktar]	tulakutalu	15 strict, 18 lenient; second vowel a/ə 8 (ja ko th hi bn ta sw ha) over o 5
 yogurt	10/20 (11 lenient)	5 (no SA SSA)	fail			10 strict, 11 lenient; South and West Asia keep their own word for an old local food (dahī, māst, laban)
 sofa	12/20 (14 lenient)	5 (no WA SSA) (6 lenient)	pass, borderline	[sofa]	sofa	12 strict, 14 lenient; WA uses the canapé family (fa ar tr + fr canapé, 4 in 2 regions)
-park	9/20 (10 lenient)	5 (no EA SSA)	fail			9 strict, 10 lenient; East Asia shares the Sino form 公園 kōen/gongwon/công viên (4)
+park	8/20 (10 lenient)	5 (no EA SSA)	fail			8 strict, 10 lenient; East Asia shares the Sino form 公園 kōen/gongwon/công viên (4)
 pasta	9/20 (11 lenient)	5 (no SSA AM)	fail			9 strict, 11 lenient; competing family makaroni (ar tr ru sw, 4 in 3 regions)
 lamp	9/20 (13 lenient)	5 (no EA SSA) (6 lenient)	borderline	[lampa]	lanpa	9 strict, 13 lenient; the loan often means only a bulb or oil lamp (ja ko ar), a narrower sense
 penguin	15/20 (16 lenient)	all 7	pass	[peŋgwin]	penguwin	15 strict, all 7 regions; [peŋgwin] and [peŋguin] tie and adapt the same
@@ -38,3 +38,13 @@ circus	15/20 (16 lenient)	all 7	pass	[sirkas]	silukasu	15 strict, all 7 regions;
 T-shirt	10/20 (13 lenient)	5 (no SEA AM) (6 lenient)	borderline	[tiʃart]	tisalutu	10 strict, 13 lenient
 music	9/20 (11 lenient)	4 (no EA SA AM) (6 lenient)	fail			9 strict, 11 lenient; Sino 音乐 (4) and Sanskrit saṅgīt (hi bn) families
 university	7/20 (9 lenient)	4 (no EA SA AM) (6 lenient)	fail			7 strict, 9 lenient; Sino 大学 (4), Sanskrit viśvavidyālay (hi bn), jāmiʿa (ar ha); "big school" is a common build (sw qu, zh 大学 "great learning")
+video	16/20 (19 lenient)	6 (no EA) (7 lenient)	pass	[video]	bideyo	16 strict, 19 lenient; median second vowel tie e 8 / i 8, lenient ja ko sw break it for e
+bank	15/20	6 (no EA)	pass	[banki]	banki	15, 6 regions; EA and mainland SEA share Sino 銀行 (zh ja ko vi, 4)
+office	9/20 (14 lenient)	6 (no EA) (7 lenient)	borderline	[ofis]	ofisu	9 strict, 14 lenient; the gap is spoken English "office" beside a formal native word (ja ko th hi ta)
+program	13/20 (15 lenient)	all 7	pass	[program]	pulogulamu	13 strict, 15 lenient, all 7 regions
+technology	12/20 (15 lenient)	6 (no EA) (7 lenient)	pass, borderline	[teknolodʒi]	tekunolodi	12 strict, 15 lenient; median consonant dʒ is a plurality (dʒ 4, x/h 3, ʒ 2, g 2); final -i/-ia tie 6/6, shorter taken
+computer	15/20 (16 lenient)	6 (no AM) (7 lenient)	pass	[kompjutar]	konpuyutalu	15 strict, 16 lenient; first vowel tie o 7 / a 7; long adapted form; du sunbu exists in compounds.tsv
+business	2/20 (7 lenient)	2 (SEA EU) (5 lenient)	fail			2 strict, 7 lenient; Sanskrit vyāpār (hi ta) and Arabic tijāra (ar fa) families regional
+hotel	15/20 (17 lenient)	all 7	pass	[hotel]	otelu	15 strict, 17 lenient, all 7 regions; in hi ta sw the word also or mainly means "restaurant"
+energy	10/20 (12 lenient)	5 (no SA SSA) (6 lenient)	borderline	[enerdʒi]	eneludi	10 strict, 12 lenient (spoken Hindi/Bengali); SSA and most of Asia use native "power" words
+sport	5/20 (8 lenient)	3 (EA WA EU) (6 lenient)	fail			5 strict, 8 lenient; most languages use "game/play" or "exercise" words

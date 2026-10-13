@@ -462,7 +462,7 @@ Asia is solid; West Asia and France use the kanape/canapé family instead (4 lan
 | Thai | สวน(สาธารณะ) sǔan | ✗ | Wt |
 | Indonesian | taman | ✗ | Wt |
 | Tagalog | parke | ✓ | Wt |
-| Hindi | पार्क pārk (Wt gives formal उद्यान udyān) | ✓ | M* |
+| Hindi | उद्यान udyān (formal); spoken पार्क pārk | ✗ (✓ lenient) | Wt, M |
 | Bengali | পার্ক pārk | ✓ | Wt |
 | Tamil | பூங்கா pūngā; spoken "park" | ✗ (✓ lenient) | Wt, M |
 | Persian | پارک pārk | ✓ | Wt |
@@ -476,7 +476,7 @@ Asia is solid; West Asia and France use the kanape/canapé family instead (4 lan
 | Yoruba | ọgbà | ✗ | M |
 | Quechua | parque (Spanish loan) | ✓ | M |
 
-**9/20 (10 lenient); regions 5 (no EA SSA) → fail.**
+**8/20 (10 lenient); regions 5 (no EA SSA) → fail.**
 
 ### pasta (Wt: [pasta](https://en.wiktionary.org/wiki/pasta#Translations), "dough")
 | Lang | Everyday word | Shared | src |
@@ -1065,3 +1065,271 @@ Median second vowel a (ja hi bn) is only a plurality (e fa sw, ø/œ tr fr); r k
 | Quechua | jatun yachay wasi "big learning house" | ✗ (✓ lenient) | Wt |
 
 **7/20 (9 lenient); regions 4 (no EA SA AM) (6 lenient) → fail.**
+
+### video (Wt: [video](https://en.wiktionary.org/wiki/video#Translations), "television show, movie")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 视频 shìpín | ✗ | Wt |
+| Japanese | 動画 dōga (online); ビデオ bideo | ✗ (✓ lenient) | Wt |
+| Korean | 영상 yeongsang; 비디오 bidio | ✗ (✓ lenient) | Wt |
+| Vietnamese | video, vi-đê-ô | ✓ | Wt, M* |
+| Thai | วิดีโอ widiioo | ✓ | Wt |
+| Indonesian | video | ✓ | Wt |
+| Tagalog | video | ✓ | M |
+| Hindi | वीडियो vīḍiyo | ✓ | Wt |
+| Bengali | ভিডিও bhiḍio | ✓ | Wt |
+| Tamil | வீடியோ vīṭiyō | ✓ | M |
+| Persian | ویدیو vidiyo | ✓ | Wt |
+| Arabic | فيديو fīdyū | ✓ | Wt |
+| Turkish | video | ✓ | Wt |
+| Russian | видео video | ✓ | Wt |
+| Spanish | vídeo, video | ✓ | Wt |
+| French | vidéo | ✓ | Wt |
+| Swahili | filamu (Wt); video in speech | ✗ (✓ lenient) | Wt, M |
+| Hausa | bidiyo | ✓ | M |
+| Yoruba | fídíò | ✓ | M |
+| Quechua | video (Spanish loan) | ✓ | M |
+
+**16/20 (19 lenient); regions 6 (no EA) (7 lenient) → pass.** Median [video] → *bideyo*.
+Second vowel: e (vi id tl tr ru es fr qu) 8 against i/j (th hi bn ta fa ar ha yo) 8; the lenient forms (ja bideo, ko bidio, sw video) favour e. [vidio] would give *bidiyo*.
+
+### bank (Wt: [bank](https://en.wiktionary.org/wiki/bank#Translations), "institution")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 银行 yínháng | ✗ | Wt |
+| Japanese | 銀行 ginkō | ✗ | Wt |
+| Korean | 은행 eunhaeng | ✗ | Wt |
+| Vietnamese | ngân hàng (nhà băng dated) | ✗ | Wt |
+| Thai | ธนาคาร thanaakhaan | ✗ | Wt |
+| Indonesian | bank | ✓ | Wt |
+| Tagalog | bangko | ✓ | Wt |
+| Hindi | बैंक baiṅk | ✓ | Wt |
+| Bengali | ব্যাংক byāṅk | ✓ | Wt |
+| Tamil | வங்கி vaṅki | ✓ | Wt |
+| Persian | بانک bānk | ✓ | Wt |
+| Arabic | بنك bank, مصرف maṣrif | ✓ | Wt |
+| Turkish | banka | ✓ | Wt |
+| Russian | банк bank | ✓ | Wt |
+| Spanish | banco | ✓ | Wt |
+| French | banque | ✓ | Wt |
+| Swahili | benki | ✓ | Wt |
+| Hausa | banki | ✓ | Wt |
+| Yoruba | báńkì | ✓ | M |
+| Quechua | banco (Spanish loan) | ✓ | M |
+
+**15/20; regions 6 (no EA) → pass.** Median [banki] → *banki*.
+Median: a final vowel in 8 of 15 forms (i: ta sw ha yo 4, o: tl es qu 3, a: tr), so [banki]; the consonant-final forms (id hi bn fa ar ru fr) are 7, so [bank] → *banku* is one vote away.
+
+### office (Wt: [office](https://en.wiktionary.org/wiki/office#Translations), "room(s) or building used for non-manual work")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 办公室 bàngōngshì | ✗ | Wt |
+| Japanese | 事務所 jimusho; オフィス ofisu | ✗ (✓ lenient) | Wt |
+| Korean | 사무실 samusil; 오피스 opiseu | ✗ (✓ lenient) | Wt |
+| Vietnamese | văn phòng | ✗ | Wt |
+| Thai | สำนักงาน samnákngaan; spoken ออฟฟิศ ɔ́ɔfít | ✗ (✓ lenient) | Wt |
+| Indonesian | kantor | ✗ | Wt |
+| Tagalog | opisina | ✓ | Wt |
+| Hindi | कार्यालय kāryālay (formal); spoken ऑफ़िस ŏfis | ✗ (✓ lenient) | Wt, M |
+| Bengali | অফিস ophis, দপ্তর daptar | ✓ | Wt |
+| Tamil | அலுவலகம் aluvalakam; spoken ஆபீஸ் āpīs | ✗ (✓ lenient) | Wt, M |
+| Persian | دفتر daftar (آفیس āfis in Afghanistan) | ✗ | Wt |
+| Arabic | مكتب maktab | ✗ | Wt |
+| Turkish | ofis, büro | ✓ | Wt, M* |
+| Russian | офис ofis, контора | ✓ | Wt |
+| Spanish | oficina | ✓ | Wt |
+| French | bureau | ✗ | Wt |
+| Swahili | ofisi, afisi | ✓ | Wt |
+| Hausa | ofis | ✓ | M |
+| Yoruba | ọ́fíìsì | ✓ | M |
+| Quechua | oficina (Spanish loan) | ✓ | M |
+
+**9/20 (14 lenient); regions 6 (no EA) (7 lenient) → borderline.** Median [ofis] → *ofisu*.
+Median of all 14 cognates [ofis].
+
+### program (Wt: [program](https://en.wiktionary.org/wiki/program#Translations), "software application")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 程序 chéngxù, 应用 | ✗ | Wt |
+| Japanese | プログラム puroguramu | ✓ | Wt |
+| Korean | 프로그램 peurogeuraem | ✓ | Wt |
+| Vietnamese | chương trình | ✗ | Wt |
+| Thai | โปรแกรม proograem | ✓ | Wt |
+| Indonesian | program | ✓ | Wt |
+| Tagalog | programa | ✓ | M |
+| Hindi | प्रोग्राम progrām | ✓ | Wt |
+| Bengali | প্রোগ্রাম progrām | ✓ | Wt |
+| Tamil | நிரல் niral; spoken program | ✗ (✓ lenient) | M |
+| Persian | برنامه barnāme; پروگرام porogrām | ✗ (✓ lenient) | Wt |
+| Arabic | برنامج barnāmaj (< Persian barnāme) | ✗ | Wt |
+| Turkish | program | ✓ | Wt |
+| Russian | программа programma | ✓ | Wt |
+| Spanish | programa | ✓ | Wt |
+| French | programme | ✓ | Wt |
+| Swahili | programu | ✓ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | programa (Spanish loan) | ✓ | M |
+
+**13/20 (15 lenient); regions all 7 → pass.** Median [program] → *pulogulamu*.
+Median: consonant-final (th id hi bn tr fr ko) 7 against -a (tl ru es qu) 4 and -u (ja sw) 2.
+
+### technology (Wt: [technology](https://en.wiktionary.org/wiki/technology#Translations), "the study of or a collection of techniques")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 技术 jìshù, 科技 | ✗ | Wt |
+| Japanese | 技術 gijutsu; テクノロジー tekunorojī | ✗ (✓ lenient) | Wt |
+| Korean | 기술 gisul; 테크놀로지 | ✗ (✓ lenient) | Wt |
+| Vietnamese | công nghệ, kỹ thuật | ✗ | Wt |
+| Thai | เทคโนโลยี theknooloyii | ✓ | Wt |
+| Indonesian | teknologi | ✓ | Wt |
+| Tagalog | teknolohiya | ✓ | Wt |
+| Hindi | टैक्नोलॉजी ṭaiknolojī (formal प्रौद्योगिकी) | ✓ | Wt |
+| Bengali | প্রযুক্তি prajukti; spoken technology | ✗ (✓ lenient) | Wt, M |
+| Tamil | தொழில்நுட்பம் toḻilnuṭpam | ✗ | Wt |
+| Persian | تکنولوژی teknoloži (official فناوری fanāvari) | ✓ | Wt, M* |
+| Arabic | تكنولوجيا teknolōjyā, تقنية taqniya | ✓ | Wt |
+| Turkish | teknoloji | ✓ | Wt |
+| Russian | технология texnologija | ✓ | Wt |
+| Spanish | tecnología | ✓ | Wt |
+| French | technologie | ✓ | Wt |
+| Swahili | teknolojia | ✓ | Wt |
+| Hausa | fasaha | ✗ | M |
+| Yoruba | ìmọ̀-ẹ̀rọ | ✗ | M |
+| Quechua | tecnología (Spanish loan) | ✓ | M |
+
+**12/20 (15 lenient); regions 6 (no EA) (7 lenient) → pass, borderline.** Median [teknolodʒi] → *tekunolodi*.
+Median: the consonant before the last vowel is dʒ (hi ar tr sw) 4, x/h (tl es qu) 3, ʒ (fa fr) 2, g (id ru) 2; the ending -i (th id hi fa tr fr) and -ia (tl ar ru es sw qu) tie 6/6; I took the shorter.
+
+### computer (Wt: [computer](https://en.wiktionary.org/wiki/computer#Translations), "programmable electronic device")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 电脑 diànnǎo | ✗ | Wt |
+| Japanese | コンピューター konpyūtā, パソコン | ✓ | Wt |
+| Korean | 컴퓨터 keompyuteo | ✓ | Wt |
+| Vietnamese | máy tính | ✗ | Wt |
+| Thai | คอมพิวเตอร์ khɔmphiwtəə, คอม | ✓ | Wt |
+| Indonesian | komputer | ✓ | Wt |
+| Tagalog | kompyuter | ✓ | Wt |
+| Hindi | कंप्यूटर kampyūṭar (formal संगणक) | ✓ | Wt, M* |
+| Bengali | কম্পিউটার kampiuṭār | ✓ | Wt |
+| Tamil | கணினி kaṇiṉi, கம்ப்யூட்டர் kampyūṭṭar | ✓ | Wt, M* |
+| Persian | کامپیوتر kāmpyuter (official رایانه rāyāne) | ✓ | Wt |
+| Arabic | كمبيوتر kambyūtar (formal حاسوب ḥāsūb) | ✓ | Wt, M* |
+| Turkish | bilgisayar | ✗ | Wt |
+| Russian | компьютер komp'juter | ✓ | Wt |
+| Spanish | computadora (Latin America), ordenador (Spain) | ✓ | Wt, M* |
+| French | ordinateur | ✗ | Wt |
+| Swahili | kompyuta | ✓ | Wt |
+| Hausa | kwamfuta (Wt na'ura "machine") | ✓ | M* |
+| Yoruba | kọ̀ǹpútà | ✓ | Wt |
+| Quechua | antañiqiq (coinage); computadora in bilingual speech | ✗ (✓ lenient) | Wt, M |
+
+**15/20 (16 lenient); regions 6 (no AM) (7 lenient) → pass.** Median [kompjutar] → *konpuyutalu*.
+First vowel ties: o (ja th id tl es sw yo) against a (hi bn ta fa ar ru ha); [kampjutar] gives *kanpuyutalu*. Either way 5 syllables, against the existing compound *du sunbu*.
+
+### business (Wt: [business](https://en.wiktionary.org/wiki/business#Translations), "commercial enterprise or establishment")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 企业 qǐyè, 生意 shēngyi | ✗ | Wt |
+| Japanese | 事業 jigyō, 企業; ビジネス bijinesu | ✗ (✓ lenient) | Wt, M |
+| Korean | 사업 saeop; 비즈니스 bijeuniseu | ✗ (✓ lenient) | Wt, M |
+| Vietnamese | doanh nghiệp, kinh doanh | ✗ | Wt |
+| Thai | ธุรกิจ thurakìt | ✗ | Wt |
+| Indonesian | bisnis, usaha (Wt perusahaan "company") | ✓ | M* |
+| Tagalog | negosyo; Taglish bisnes | ✗ (✓ lenient) | Wt, M |
+| Hindi | व्यापार vyāpār, व्यवसाय; spoken बिज़नेस | ✗ (✓ lenient) | Wt, M |
+| Bengali | ব্যবসা byabsā | ✗ | Wt |
+| Tamil | வியாபாரம் viyāpāram | ✗ | M |
+| Persian | تجارت tejārat; بیزینس colloquial | ✗ (✓ lenient) | Wt, M |
+| Arabic | تجارة tijāra, شركة šarika | ✗ | Wt |
+| Turkish | iş, işletme | ✗ | Wt |
+| Russian | бизнес biznes | ✓ | Wt |
+| Spanish | negocio (bisnes rare) | ✗ | Wt |
+| French | affaires, entreprise (le business colloquial) | ✗ | Wt |
+| Swahili | biashara | ✗ | Wt |
+| Hausa | kasuwanci | ✗ | M |
+| Yoruba | òwò | ✗ | M |
+| Quechua | (no data) | ✗ | M |
+
+**2/20 (7 lenient); regions 2 (SEA EU) (5 lenient) → fail.**
+
+### hotel (Wt: [hotel](https://en.wiktionary.org/wiki/hotel#Translations), "establishment providing accommodation")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 酒店 jiǔdiàn, 宾馆 bīnguǎn | ✗ | Wt |
+| Japanese | ホテル hoteru | ✓ | Wt |
+| Korean | 호텔 hotel | ✓ | Wt |
+| Vietnamese | khách sạn | ✗ | Wt |
+| Thai | โรงแรม roongrɛɛm | ✗ | Wt |
+| Indonesian | hotel | ✓ | Wt |
+| Tagalog | hotel | ✓ | Wt |
+| Hindi | होटल hoṭal | ✓ | Wt |
+| Bengali | হোটেল hoṭel | ✓ | Wt |
+| Tamil | ஹோட்டல் hōṭṭal | ✓ | Wt |
+| Persian | هتل hotel | ✓ | Wt |
+| Arabic | فندق funduq; colloquial أوتيل ōtēl | ✗ (✓ lenient) | Wt |
+| Turkish | otel | ✓ | Wt |
+| Russian | гостиница gostinica; отель otel' | ✗ (✓ lenient) | Wt |
+| Spanish | hotel | ✓ | Wt |
+| French | hôtel | ✓ | Wt |
+| Swahili | hoteli (also "restaurant") | ✓ | Wt |
+| Hausa | hotel, otal | ✓ | Wt |
+| Yoruba | hòtẹ́ẹ̀lì | ✓ | M |
+| Quechua | hotel (Spanish loan) | ✓ | M |
+
+**15/20 (17 lenient); regions all 7 → pass.** Median [hotel] → *otelu*.
+In Indian English, Hindi, Tamil and Swahili "hotel/hoteli" commonly means an eating house, so the shared form is broader than the English sense. names.py drops h: [hotel] → *otelu*.
+
+### energy (Wt: [energy](https://en.wiktionary.org/wiki/energy#Translations), "physics")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 能量 néngliàng | ✗ | Wt |
+| Japanese | エネルギー enerugī | ✓ | Wt |
+| Korean | 에너지 eneoji | ✓ | Wt |
+| Vietnamese | năng lượng | ✗ | Wt |
+| Thai | พลังงาน phalang-ngaan | ✗ | Wt |
+| Indonesian | energi | ✓ | Wt |
+| Tagalog | enerhiya | ✓ | M |
+| Hindi | ऊर्जा ūrjā; spoken energy | ✗ (✓ lenient) | Wt, M |
+| Bengali | শক্তি śakti; spoken energy | ✗ (✓ lenient) | Wt, M |
+| Tamil | ஆற்றல் āṟṟal | ✗ | M |
+| Persian | انرژی enerži | ✓ | Wt |
+| Arabic | طاقة ṭāqa | ✗ | Wt |
+| Turkish | enerji | ✓ | Wt |
+| Russian | энергия energija | ✓ | Wt |
+| Spanish | energía | ✓ | Wt |
+| French | énergie | ✓ | Wt |
+| Swahili | nishati | ✗ | M |
+| Hausa | kuzari | ✗ | Wt |
+| Yoruba | agbára | ✗ | M |
+| Quechua | energía (Spanish loan) | ✓ | M |
+
+**10/20 (12 lenient); regions 5 (no SA SSA) (6 lenient) → borderline.** Median [enerdʒi] → *eneludi*.
+Many languages lump energy with "power, strength" (th phalang, hi śakti, bn śakti, ha kuzari, yo agbára), which the lexicon may already have. Median consonant: dʒ (ko tr hi bn) 4, g (ja id ru) 3, x/h (tl es qu) 3, ʒ (fa fr) 2.
+
+### sport (Wt: [sport](https://en.wiktionary.org/wiki/sport#Translations), "any athletic activity that uses physical skills")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 运动 yùndòng | ✗ | Wt |
+| Japanese | スポーツ supōtsu | ✓ | Wt |
+| Korean | 스포츠 seupocheu, 운동 undong | ✓ | Wt |
+| Vietnamese | thể thao | ✗ | Wt |
+| Thai | กีฬา kiilaa | ✗ | Wt |
+| Indonesian | olahraga | ✗ | Wt |
+| Tagalog | palakasan; Taglish sports | ✗ (✓ lenient) | Wt, M |
+| Hindi | खेल khel; spoken sports | ✗ (✓ lenient) | Wt |
+| Bengali | খেলা khelā | ✗ | Wt |
+| Tamil | விளையாட்டு viḷaiyāṭṭu | ✗ | Wt |
+| Persian | ورزش varzeš | ✗ | Wt |
+| Arabic | رياضة riyāḍa | ✗ | Wt |
+| Turkish | spor | ✓ | Wt |
+| Russian | спорт sport | ✓ | Wt |
+| Spanish | deporte (same etymon, not heard as the same word) | ✗ | Wt |
+| French | sport | ✓ | Wt |
+| Swahili | michezo; spoti | ✗ (✓ lenient) | Wt |
+| Hausa | wasanni | ✗ | M |
+| Yoruba | eré ìdárayá | ✗ | M |
+| Quechua | pukllay "game" | ✗ | M |
+
+**5/20 (8 lenient); regions 3 (EA WA EU) (6 lenient) → fail.**
