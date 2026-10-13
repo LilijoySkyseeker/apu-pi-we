@@ -44,3 +44,61 @@ democracy	qu	yes	dimukratiya	freq-qu rank 3068; Leipzig que dimukratiya 6, Dimuk
 design	tl	yes	disenyo	freq-fil rank 1224 (plus design 3553); tl subtitle list rank 1569; Wiktionary Tagalog disenyo "design"
 design	bn	yes	ডিজাইন ḍijāin	freq-bn rank 2227, sfreq-bn 3360; subtitle 50k ডিজাইন 69 vs native নকশা 59
 design	ta	unknown	-	no டிசைன் in ta freq/sfreq/subtitle lists or Wiktionary; native வடிவமைப்பு freq-ta 3993 but subtitles only 1
+design	qu	no	diseño	no diseño form in Leipzig que; Wiktionary Quechua chantay "form, design" (en Wiktionary translation for design: chantay)
+station	ha	yes	tasha	freq-ha tashar rank 1685, tashoshin 2912, tasha 3892; Leipzig hau station sense ("tashar jiragen ruwa", "tasha mai ba da lantarki"); etymology tasha < Eng. station per Newman 2000 (JALL 21) reviewing Skinner 1996
+station	qu	no	estación	Leipzig que: native coinage kaynaku 3, glossed "(kastilla simipi: estación)" (sentence 9988); loan only as istasyun 1, inside a Madrid station name
+model	tl	yes	modelo	freq-fil modelo rank 1441, model 3145; tl subtitle list 1877; Wiktionary Tagalog modelo "model, fashion model"
+model	bn	yes	মডেল maḍel	freq-bn rank 1262, sfreq-bn 3955 (subtitle 50k: 57 + inflections)
+model	tr	yes	model	freq-tr rank 1246 (modeli 1915), sfreq-tr 3445; Wiktionary Turkish model incl. "miniature; simplified representation"
+model	qu	unknown	-	no modelo form in Leipzig que or Wiktionary; Laime 2007 gives wallpama, wanki "Modelo", themselves barely attested
+philosophy	ha	yes	falsafa	freq-ha rank 3465; Leipzig hau falsafa 14, falsafar 5, Falsafa 4; Wiktionary Hausa falsafa "philosophy" (< Arabic)
+philosophy	qu	no	filosofía	qu.wikipedia article Yachay wayllukuy (Q5891); Leipzig que wayllukuy 6, Philosophiya 1 (as an alternative name), filosofía only in Spanish names
+channel	id	yes	kanal, channel	Wiktionary Indonesian kanal incl. "channel (radio frequency band)"; OpenSubtitles id 50k channel 396 + kanal 189 vs saluran 2182 (saluran broader); freq-id channel rank 3761
+channel	tl	yes	channel	freq-fil rank 2171; tl subtitle list rank 2341 (4 tokens, plus channels 1)
+channel	ta	yes	சேனல் cēṉal	freq-ta rank 5626, sfreq-ta 3486 (plus சேனல்கள் 3972); native அலைவரிசை only 2 in subtitles
+channel	qu	unknown	-	Leipzig que has kanal only for waterways (Panama kanalta, Suez Kanalpa); Laime 2007 kanal (<C) "canal, conducto"; no source for the broadcasting sense
+cigarette	ha	yes	(taba) sigari	Leipzig hau "taba sigari" in 3 of 4 smoking contexts (15533 "masu shan taba Sigari"); WOLD Hausa gives táabàa alone for "the cigarette"
+cigarette	yo	yes	siga	Wiktionary Yoruba siga "cigarette; cigar" (from English cigar); not in the small Leipzig yor corpus
+cigarette	qu	no	cigarro	WOLD (Gómez-Rendón 2009, Imbabura Quechua): "the cigarette" = tabaku (< Spanish tabaco, not cigarro); no cigarro form in Leipzig que
+campaign	ha	yes	kamfe, kamfen	freq-ha kamfen rank 3011, kamfe 3999; Leipzig hau kamfen 22, kamfe 14 in election-campaign sense ("kamfe a lokacin zabe")
+campaign	qu	yes	kampaña	Leipzig que: kampañatam 2 in running text ("kampañatam qallarirqan", sentences 2384, 20297); other hits are Spanish names
+chemistry	ha	yes	kemistiri (kimiyya = science)	Leipzig hau: chemistry is "kimiyyan Kemistiri" / "kimiyyar kemistry" (10693, 19860); kimiyya itself means science in general (kimiyyar harshe, kimiyyar halittu), freq-ha rank 949
+chemistry	yo	yes	kemistri	freq-yo rank 1607; Leipzig yor Kemistri 6, kemistri 3 in running text ("Ebun Nobel ninu Kemistri", "onimo kemistri")
+chemistry	qu	no	química	Leipzig que: running text uses native Chhaqru-Yachay, glossed against Spanish (sentence 6685); Química only in Spanish institution names
+pilot	qu	unknown	-	no piloto form in freq-qu, Leipzig que, Wiktionary or Laime 2007; no other Quechua word found either
+cream	tl	yes	krema, cream	Wiktionary Tagalog krema incl. "cream; butterfat; milkfat (of milk)"; freq-fil cream rank 899 (senses mixed)
+cream	sw	yes	krimu	Leipzig swa krimu 20, mostly skin cream but dairy sense attested ("Mafuta ya maziwa hutolewa ... kuwa krimu au siagi", 154080; cream liqueur 114046); native malai 2
+cream	qu	unknown	-	no crema form in Leipzig que (only names), Wiktionary or Laime 2007 dairy sense; no source either way
+platform	th	yes	แพลตฟอร์ม phlɛ́tfɔɔm	th.wikipedia article "แพลตฟอร์มคอมพิวเตอร์" (Wikidata Q241317); it24hrs.com IT-vocabulary list (citing ORST transliteration rules, NECTEC) gives แพลตฟอร์ม for IT "platform"; not in th freq/subtitle lists, Leipzig th unsegmented
+platform	id	yes	platform	Wiktionary Indonesian platform with two computing senses (KBBI cited); freq-id rank 3283; subtitle 50k 247
+platform	tl	yes	platform	freq-fil rank 2600 (English spelling; computing sense not separable); plataporma not found in any source
+platform	bn	yes	প্ল্যাটফর্ম plyāṭfôrm	bn.wikipedia article "কম্পিউটিং প্ল্যাটফর্ম" (Wikidata Q241317); OpenSubtitles bn 50k: প্ল্যাটফর্ম 11, প্ল্যাটফর্মে 3, প্লাটফর্ম(এ) 9; railway sense likely dominant, computing sense not separable; no native rival found
+platform	ta	no	-	native தளம் freq-ta rank 1367, sfreq-ta 1692 (also தளத்தில் 1340); no spelling of the loan in any ta list
+platform	fa	yes	پلتفرم platform	used as the term in Persian web text ("پلتفرم چیست" explainers: karlancer.com/blog/platform-meaning, chabokacademy.com/platform); formal Academy terms سکو / بن‌سازه (fa.wikipedia "بن‌سازه رایانش", Q241317); not in fa freq/subtitle lists
+platform	qu	no	plataforma	qu.wikipedia article "Patapata (antañiqiy)" for computing platform (Q241317); no plataforma form in Leipzig que
+studio	vi	yes	studio	freq-vi rank 2778; OpenSubtitles vi 50k rank 6919 (68 tokens); native phòng thu (viwiki "Phòng thu", Q746369) beside it
+studio	th	yes	สตูดิโอ satuudio	OpenSubtitles th 50k rank 19545 (20); Leipzig tha 2 (+1 compound); th Wikidata label สตูดิโอแอนิเมชัน (Q1107679)
+studio	id	yes	studio	freq-id rank 3682, sfreq-id 3888; subtitle 50k 1035 + inflections
+studio	tl	yes	studio	freq-fil rank 2964; tl subtitle list 4809 (istudyo not found)
+studio	hi	yes	स्टूडियो sṭūḍiyo	freq-hi rank 3562; OpenSubtitles hi 50k rank 6066
+studio	bn	yes	স্টুডিও sṭuḍio	OpenSubtitles bn 50k: স্টুডিওতে 9, স্টুডিও 5, স্টুডিওর 3; bn Wikidata label রেকর্ডিং স্টুডিও (Q746369)
+studio	ta	unknown	-	no ஸ்டுடியோ in ta freq/sfreq/subtitle lists or Wiktionary; ta.wikipedia uses it only in studio names (சத்தியா ஸ்டுடியோஸ்), generic article titled திரைப்பட படப்பிடிப்பு வளாகம்
+studio	qu	unknown	-	Leipzig que estudio/istudyay forms mean "study"; no recording/film studio sense in any Quechua source
+profile	ko	yes	프로필 peuropil	freq-ko rank 3705; OpenSubtitles ko 50k 프로필을 19, 프로필 12; Wiktionary Korean 프로필 "summary of information about a person"
+profile	vi	yes	profile	freq-vi rank 4345 beside native hồ sơ (sơ 811, syllable counts); weak: low absolute frequency
+profile	th	yes	โปรไฟล์ proofaai	weak: Leipzig tha 1 (news headline 47232 "โปรไฟล์ซู้ดยอด"); not in th subtitle list; no native rival found (ประวัติ = history/record)
+profile	id	yes	profil	freq-id rank 3102 (profile 5248), sfreq-id 5353; subtitle 50k profil 669 + inflections
+profile	tl	yes	profile	freq-fil rank 1990; tl subtitle list rank 2070
+profile	hi	yes	प्रोफ़ाइल profāil	freq-hi rank 5000 (प्रोफाइल); OpenSubtitles hi 50k rank 6895 (प्रोफ़ाइल 4) + 19273
+profile	bn	yes	প্রোফাইল profāil	freq-bn rank 4232; OpenSubtitles bn 50k rank 6486 (30) + প্রোফাইলের 4
+profile	ta	unknown	-	no spelling of the loan in ta freq/sfreq/subtitle lists, Wiktionary or web search; native சுயவிவரத்தை only 2 in subtitles
+profile	fa	yes	پروفایل profāyl	freq-fa rank 4190; OpenSubtitles fa 50k rank 29458 (43)
+profile	ar	yes	بروفايل brōfāyl	colloquial web usage only ("صورة البروفايل" on sudaneseonline.com forum; ujeeb.com "ما معنى البروفايل"; ar.wikipedia disambiguation بروفيل); not in ar freq/subtitle lists, where formal ملف (file) dominates; weak
+profile	tr	yes	profil	freq-tr rank 5257; OpenSubtitles tr 50k profil 1192, profili 826, profilini 582
+profile	qu	unknown	-	no perfil form in freq-qu, Leipzig que, Wiktionary or Laime 2007; no Quechua word found either
+pope	ta	yes	போப் pōp	Dinakaran and News7 Tamil headlines "போப் பிரான்சிஸ் மறைவு" (dinakaran.com, news7tamil.live, 2025); ta.wikipedia and Catholic usage திருத்தந்தை (Q19546); not in ta freq/subtitle lists
+pope	ha	yes	Fafaroma, Paparoma	Leipzig hau Fafaroma 4, Fafaroman 1, Paparoma 1 ("Fafaroma Francis", 7738); Wikidata Q19546 ha label Paparoma
+pope	yo	yes	Pópù, Popu	freq-yo popu rank 3598; Leipzig yor Popu 3 in running text ("je Popu Ìjọ Kátólìkì"); yo.wikipedia article Pópù (Q19546)
+pope	qu	yes	(Tayta) Papa	Leipzig que Papa 76, Papam 62, mostly "Tayta Papam karqan" (was pope); Wikidata Q19546 qu label "Tayta Papa"
+physics	yo	yes	fisiyiki	freq-yo rank 2655; Leipzig yor fisiyiki 4, Fisiyiki 1, Fisiki 1, Fisiiki 1 in running text ("Ebun Nobel ninu Fisiyiki"); yo.wikipedia Físíksì (Q413)
+physics	qu	no	física	qu.wikipedia article Pachaykamay (Q413); Leipzig que pachaykamay(pi) 38; física only in a Spanish name and one Spanish adjective
