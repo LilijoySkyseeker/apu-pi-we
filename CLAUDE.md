@@ -18,6 +18,7 @@ Apupiwe (in the language **apu pi we**) is a thought experiment in the best huma
 - The author decides anything that shapes the language. Agents research, draft and recommend. Present each decision in full: the problem, an example, the options and a recommendation, one at a time.
 - Design by the goal's order: question every requirement and name its source (a person or a concrete external constraint); prefer deleting a part, with the trigger that would bring it back; simplify only what survives; automate last.
 - Log every decision in `design-log.md`: what was decided, by whom, why, what was rejected, and where it changed the reference, lessons or grammar. Keep the reasoning in the repo, not only in a chat.
+- Track all open work in `docs/roadmap.md`, with its source: queued questions, review findings not yet taken up, small fixes. Anything found along the way (a gap a test turns up, a question tabled for later) goes there when it's found, not only into a chat, a working folder outside the repo, or a report. When work is done, move it to "Done" and log the decision.
 
 ## Changing things
 

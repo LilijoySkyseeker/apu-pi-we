@@ -1,0 +1,21 @@
+Daktari: Hello, ma'am.
+Mama: I'm well, doctor.
+Daktari: What problem do you have?
+Mama: My child is sick.
+Daktari: How are they sick?
+Mama: They have a stomach ache, and they keep vomiting.
+Daktari: Do they feel hot or cold?
+Mama: They feel very hot, and they are also shivering.
+Daktari: When did it start?
+Mama: It started two days ago.
+Daktari: Do they have watery stools?
+Mama: Yes, they also have watery stools.
+Daktari: How old are they?
+Mama: Three years and six months.
+Daktari: All right, I will give them medicine to drink, and an injection of medicine.
+Daktari: As for this medicine, they take one teaspoon, three times each day.
+They take it for one week, and I'll see them again in a week.
+Mama: How much money do I pay?
+Daktari: You pay after the child feels well.
+Mama: Thank you.
+Daktari: Goodbye.
