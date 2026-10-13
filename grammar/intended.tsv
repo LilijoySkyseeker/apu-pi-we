@@ -186,3 +186,7 @@ to mu sin nawi	[S to mu sin nawi]	yes
 en xi_jinping sin oyi	[S [NP en xi_jinping] sin oyi]	yes	a name runs to the next grammar word (11.1); gf_check joins its words
 to nawi pasu , yen wopo	[S to nawi pasu , yen wopo]	yes	
 wan sin oyi bu , a min	[S wan sin oyi bu] , a min	yes	
+obu	obu	no	
+tin mu kusa	tin [S mu kusa]	yes	
+to mu ibe totu fa	[S to mu ibe [NP totu fa]]	no	
+to sin le nawi	[S to sin le nawi]	yes	

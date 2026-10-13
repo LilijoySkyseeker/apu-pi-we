@@ -6,7 +6,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     (R=ResEng), Prelude in {
 
   param
-    AspT = ASimple | APast | AProg | AHabit | ASoon ;
+    AspT = ASimple | APast | AProg | APastProg | AHabit | ASoon ;
     ActT = AStmt | AQuest | AReq | AInstr | ASub ;
     Mode = MCN | MNP ;
 
@@ -47,7 +47,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     DetR : Type = {sg, pl : SyntaxEng.Det ; alone : SyntaxEng.NP ; post : Str} ;
     strNP : Str -> SyntaxEng.NP = \s -> lin NP {s = \\_ => s ; a = R.agrP3 R.Sg} ;  -- no inflection: safe for runtime strings
     it0 : SyntaxEng.NP = strNP "{it}" ;
-    tns : AspT -> Tense = \t -> case t of {APast => pastTense ; _ => presentTense} ;
+    tns : AspT -> Tense = \t -> case t of {APast | APastProg => pastTense ; _ => presentTense} ;
     pol : Bool -> Pol = \b -> case b of {True => negativePol ; False => positivePol} ;
     vps : SyntaxEng.VP -> AspT -> Bool -> E.VPS = \v,t,n -> E.MkVPS (mkTemp (tns t) simultaneousAnt) (pol n) v ;
     vpr : SyntaxEng.VP -> AspT -> Bool -> VPr = \v,t,n -> {vp = v ; t = t ; neg = n ; vps = vps v t n ; conj = False} ;
@@ -134,7 +134,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     UseVPo v = v ;
     ConjVP a c b = b ** {vps = E.ConjVPS c (E.BaseVPS a.vps b.vps) ; conj = True} ;
     PredVP h a v =
-      let v1 : SyntaxEng.VP = case a.t of {AProg => progressiveVP v.vp ;
+      let v1 : SyntaxEng.VP = case a.t of {AProg | APastProg => progressiveVP v.vp ;
                                            ASoon => mkVP (P.mkAdV "about to") v.vp ;
                                            _ => v.vp} ;
           v2 : SyntaxEng.VP = case h.hab of {True => mkVP (P.mkAdV "usually") v1 ; False => v1} in
@@ -147,7 +147,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
       vpr (case h.hab of {True => mkVP (P.mkAdV "usually") v1 ; False => v1}) ASimple True ;
     NoHab = {hab = False} ; Manni = {hab = True} ;
     NoAsp = {t = ASimple} ; SomeAsp a = a ;
-    Sin = {t = APast} ; Le = {t = AProg} ; Buntu = {t = ASoon} ;
+    Sin = {t = APast} ; Le = {t = AProg} ; Buntu = {t = ASoon} ; SinLe = {t = APastProg} ;
     Mu = op True [] ; Na = op False "only" ; Fe = op False "also" ; Wi = op False "even" ;
     O = op False "INDEED" ; Konsin = op False "at least" ; Nedin = op False "almost" ;
     Ke = op False "more" ; Bi = op False "very" ; Tason = op False "rather" ;

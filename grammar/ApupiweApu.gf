@@ -144,7 +144,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     StillNot h v = v ** {s = h.s ++ "le" ++ "mu" ++ v.s ; w1 = False} ;
     NoHab = {s = [] ; e = True} ; Manni = {s = "manni" ; e = False} ;
     NoAsp = {s = [] ; e = True} ; SomeAsp a = {s = a.s ; e = False} ;
-    Sin = ss "sin" ; Le = ss "le" ; Buntu = ss "buntu" ;
+    Sin = ss "sin" ; Le = ss "le" ; Buntu = ss "buntu" ; SinLe = ss ("sin" ++ "le") ;
     Mu = op "mu" ; Na = op "na" ; Fe = op "fe" ; Wi = op "wi" ; O = op "o" ;
     Konsin = op "konsin" ; Nedin = op "nedin" ;
     Ke = {s = "ke" ; ke = True} ; Bi = op "bi" ; Tason = op "tason" ;

@@ -15,11 +15,11 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 The author works through the judge's repair list one decision at a time; each decision is in `design-log.md` under "Review repairs". Changes are committed but **not pushed until the batch ends**, so the public site doesn't churn.
 
-Done so far: senary words out of the core; "never" rules restated as the reference variety; evidence corrected; **kiyo**; "there is" = **ibe**; manner as a **fu** phrase; "not yet" = **le mu**; labels with **mena** (and the neighbour guard); **kon bo** "maybe"; the word-decision ladders; loans re-formed or replaced (L4); metric units as one set; no fusing and no designed shortening; seed-then-release vocabulary; boundaries measured against modern use.
+Done so far: senary words out of the core; "never" rules restated as the reference variety; evidence corrected; **kiyo**; "there is" = **ibe**; manner as a **fu** phrase; "not yet" = **le mu**; labels with **mena** (and the neighbour guard); **kon bo** "maybe"; the word-decision ladders; **mu … fa** as one negation; casual bare-verb commands; **sin le**; a base of about 1,500 roots; loans re-formed or replaced (L4); metric units as one set; no fusing and no designed shortening; seed-then-release vocabulary; boundaries measured against modern use.
 
 ### In progress: vocabulary coverage (`tests/coverage-01/`)
 
-Measuring how many roots the base needs, and which, from modern text and speech in 20 languages plus children's first words. First run done; a cleaner rerun is running. Then: set the size with the author, run the boundary cases (Part 3: moon/month, word/language, religion, the 20–50% band), and make the new roots in one batch (Part 4). See `tests/coverage-01/README.md`.
+Measured: the base will be about 1,500 roots (decided 2026-10-13). Next: run the boundary cases (Part 3: moon/month, word/language, religion, the 20–50% band), and make the new roots in one batch (Part 4). See `tests/coverage-01/README.md`.
 
 ### Queued for the author
 
@@ -34,7 +34,7 @@ Measuring how many roots the base needs, and which, from modern text and speech 
 
 From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdicts). Each goes to the author as its own question.
 
-- **Core grammar:** state **mu … fa** as single negation; list pronoun retention (**… mon bu**) as the precise oblique relative; accept a subjectless bare verb as the casual command (**tin** precise, and for prohibitions); one time root "later"; allow **sin le**; **tun** as the normal recipient marker when the thing is a pronoun or determiner; describe the type choice honestly (one coherent head-initial isolating type).
+- **Core grammar:** list pronoun retention (**… mon bu**) as the precise oblique relative; one time root "later" (may come with the coverage roots); **tun** as the normal recipient marker when the thing is a pronoun or determiner; describe the type choice honestly (one coherent head-initial isolating type).
 - **Vocabulary:** split **tinli** (key / button) and **yebin** (call / phone), English-shaped lumps; allow bare noun + noun as a loose compound with **pi**/**man** as the precise form.
 - **Precision:** list **nen nen** as lexicalised; mark **fon**/**de**/**yo** as candidates for deletion (add-back: a human-read corpus where warnings or commitments are misread without them); teach **sin**'s frame-relativity and the **to gun nuta** trap early in the lessons.
 - **Sounds and word forms:** no grammar-word contrast may rest on a declared harmless variant; the empty-CV rule stated as an explicit constraint for new grammar words; a digit-vs-grammar-word confusion check; digits 0–5 decided after the listening test.

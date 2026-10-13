@@ -374,7 +374,7 @@ type = "bullet"
 title = "Command"
 gap = 0
 text = '''
-- A command needs **tin**, or **so** for a request. Without a particle, a sentence is a statement.'''
+- A command uses **tin**, or **so** for a request. In casual speech a bare verb with no subject is also a command (**obu!** "come!"); **tin** is the precise form, and "don't" always needs it: **tin mu kusa** "don't leave". Otherwise a sentence without a particle is a statement.'''
 
 [[item]]
 id = "4.3"
@@ -1012,7 +1012,7 @@ type = "bullet"
 title = "mu"
 gap = 0
 text = '''
-- **mu** not (**to mu yidu bu** "I don't/didn't take it"; **mu mu** emphatic);'''
+- **mu** not (**to mu yidu bu** "I don't/didn't take it"; **mu mu** emphatic). With **fa** "none" it is still one negation, not two: **to mu ibe totu fa** "I don't have any dogs";'''
 
 [[item]]
 id = "6.2.3"
@@ -1200,7 +1200,7 @@ type = "bullet"
 title = "Aspect"
 gap = 0
 text = '''
-- Aspect words come right before the verb. **sin** means done. With no frame set it reads as past. Inside a past frame it marks something already done by that time, "had done", and inside a future frame it is "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin** and **le** don't combine, so "was doing" is a past frame + **le**.'''
+- Aspect words come right before the verb. **sin** means done. With no frame set it reads as past. Inside a past frame it marks something already done by that time, "had done", and inside a future frame it is "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin le** is "was doing, had been doing": ongoing before now, or before the time being talked about (**to sin le nawi** "I was eating").'''
 
 [[item]]
 id = "8.1.3"

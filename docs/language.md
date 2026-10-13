@@ -91,7 +91,7 @@
 - <span id="r-4-2-5"></span>With two objects, the recipient comes first and then the thing: **tofo me nuta** "teach you fear".
 - <span id="r-4-2-6"></span>When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking". Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi tun guyi** "want to go home".
 - <span id="r-4-2-7"></span>**muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then a **fu** phrase saying how, it means "do (it) so": **muge tan fu upe** "do this well".
-- <span id="r-4-2-8"></span>A command needs **tin**, or **so** for a request. Without a particle, a sentence is a statement.
+- <span id="r-4-2-8"></span>A command uses **tin**, or **so** for a request. In casual speech a bare verb with no subject is also a command (**obu!** "come!"); **tin** is the precise form, and "don't" always needs it: **tin mu kusa** "don't leave". Otherwise a sentence without a particle is a statement.
 
 ### 4.3 Openers
 
@@ -214,7 +214,7 @@
 ### 6.2 Phrase operators
 
 <span id="r-6-2-1"></span>Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**na mon funti, …** "only in the community, …"). Before the verb, they cover the predicate, which is the verb with everything after it in its clause. To negate a single phrase, put **mu** before that phrase: **wan doku mu mon guyi** "she works, but not at home".
-- <span id="r-6-2-2"></span>**mu** not (**to mu yidu bu** "I don't/didn't take it"; **mu mu** emphatic);
+- <span id="r-6-2-2"></span>**mu** not (**to mu yidu bu** "I don't/didn't take it"; **mu mu** emphatic). With **fa** "none" it is still one negation, not two: **to mu ibe totu fa** "I don't have any dogs";
 - <span id="r-6-2-3"></span>**na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas sin yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
 - <span id="r-6-2-4"></span>to add a whole statement ("also, …"), start with **yen**; **fe** before the verb means the subject also does it;
 - <span id="r-6-2-5"></span>**konsin** at least; **nedin** almost;
@@ -258,7 +258,7 @@
 ### 8.1 Tense and aspect
 
 - <span id="r-8-1-1"></span>Tense is optional. A time word or the first **sin** of a narrative sets the frame, the time that what follows is about, and later verbs in that frame stay unmarked. The future is shown by a time word or by context: **mon wuma, gegi muwo** "it will rain tomorrow".
-- <span id="r-8-1-2"></span>Aspect words come right before the verb. **sin** means done. With no frame set it reads as past. Inside a past frame it marks something already done by that time, "had done", and inside a future frame it is "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin** and **le** don't combine, so "was doing" is a past frame + **le**.
+- <span id="r-8-1-2"></span>Aspect words come right before the verb. **sin** means done. With no frame set it reads as past. Inside a past frame it marks something already done by that time, "had done", and inside a future frame it is "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin le** is "was doing, had been doing": ongoing before now, or before the time being talked about (**to sin le nawi** "I was eating").
 - <span id="r-8-1-3"></span>"Not yet" is **le mu** "still not", as in Mandarin *hái méi* and German *noch nicht*: **to le mu nawi** "I haven't eaten yet". Here the aspect word comes before **mu**, which covers only the verb. **mu sin** is "not done, didn't": **to mu sin nawi** "I didn't eat".
 - <span id="r-8-1-4"></span>**manni** "usually" marks habit. With a past frame it means "used to".
 - <span id="r-8-1-5"></span>Intent is marked with **gan momu** "on purpose" and **mu gan momu** "by accident".

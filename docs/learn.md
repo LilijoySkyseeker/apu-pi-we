@@ -189,7 +189,7 @@ A particle near the start says what kind of sentence it is. It comes after any o
 | **ba** | exclamation |
 | **genso** | not literal (joking, irony) |
 
-A command needs **tin**: **tin obu.** "Come." On its own, **obu.** is a statement, "(someone) comes". "Don't" is **tin mu**: **tin mu kusa.** "Don't leave." [§4.2.8](language.md#r-4-2-8) [§12.4](language.md#r-12-4)
+A command uses **tin**: **tin obu.** "Come." Among friends a bare verb works too, **obu!**, the way English says "Come!". "Don't" is **tin mu**: **tin mu kusa.** "Don't leave." [§4.2.8](language.md#r-4-2-8) [§12.4](language.md#r-12-4)
 
 For a request, use **so**: **so neke to osa.** "Give me water?" "Please" is **so nun**, which you'll meet in lesson 8. [§4.2.8](language.md#r-4-2-8) [§10.2.1](language.md#r-10-2-1)
 
@@ -263,7 +263,7 @@ Many grammar words are spelled like English words and mean something else. Learn
 | **sin** | done (finished) | **to sin nawi.** "I've eaten." [§8.1.2](language.md#r-8-1-2) |
 | **don** | if | [§12.1](language.md#r-12-1) |
 
-There are no words for "a" and "the". Usually context is enough. When it matters, use **tan** "this", **ben** "that", **bo** "some (unspecified)" or a number, as in **ewo bo** "someone" and **musu bo** "something". These words go after the noun. Some can stand alone as a noun: **we** "all, everyone", **in** "some", **fa** "none". For part of a whole, put the word or a number before **pi** and the noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three". [§5.2.7](language.md#r-5-2-7) [§5.2.8](language.md#r-5-2-8) [§5.2.5](language.md#r-5-2-5)
+There are no words for "a" and "the". Usually context is enough. When it matters, use **tan** "this", **ben** "that", **bo** "some (unspecified)" or a number, as in **ewo bo** "someone" and **musu bo** "something". These words go after the noun. Some can stand alone as a noun: **we** "all, everyone", **in** "some", **fa** "none". For part of a whole, put the word or a number before **pi** and the noun: **kin pi foto la** "some of the photos", **fi pi ka** "one of three". With **mu**, **fa** doesn't cancel it out: **to mu ibe totu fa** "I don't have any dogs". [§5.2.7](language.md#r-5-2-7) [§5.2.8](language.md#r-5-2-8) [§5.2.5](language.md#r-5-2-5) [§6.2.2](language.md#r-6-2-2)
 
 ## Lesson 7: Of, at, to, from, with
 
@@ -365,7 +365,7 @@ Tense is optional. Say when it happens the first time, and after that stop marki
 
 Three small words show where an action stands. **sin** means done: **to sin nawi** "I've eaten". **le** means in progress, and also "still": **to le nawi** "I'm eating". **buntu** means about to: **to buntu kusa** "I'm about to leave". [§8.1.2](language.md#r-8-1-2)
 
-"Not yet" is "still not", **le mu**, the way Mandarin and German say it: **to le mu nawi.** "I haven't eaten yet." **mu sin** is "didn't": **to mu sin nawi.** "I didn't eat." **sin** and **le** don't combine, so "I was eating" is a past time word plus **le**: **afe, to le nawi.** [§8.1.3](language.md#r-8-1-3) [§8.1.2](language.md#r-8-1-2)
+"Not yet" is "still not", **le mu**, the way Mandarin and German say it: **to le mu nawi.** "I haven't eaten yet." **mu sin** is "didn't": **to mu sin nawi.** "I didn't eat." "I was eating" is **sin le**, done and ongoing together: **to sin le nawi.** [§8.1.3](language.md#r-8-1-3) [§8.1.2](language.md#r-8-1-2)
 
 For habits, put **manni** before the verb. On its own it means "usually", as in **to manni isi** "I usually go", and with a past time word it means "used to". For intent, **gan momu** is "on purpose" and **mu gan momu** "by accident". [§8.1.4](language.md#r-8-1-4) [§8.1.5](language.md#r-8-1-5)
 

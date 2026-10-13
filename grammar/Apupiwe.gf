@@ -105,6 +105,7 @@ abstract Apupiwe = Lex ** {
     NoAsp : AspOpt ;                       -- 8.1.1 tense is optional; 1.1
     SomeAsp : Asp -> AspOpt ;              -- 8.1.2 aspect words come right before the verb
     Sin, Le, Buntu : Asp ;                 -- 8.1.2
+    SinLe : Asp ;                          -- 8.1.2 sin le "was doing, had been doing"
     Mu, Na, Fe, Wi, O, Konsin, Nedin : Op ;   -- 6.2.2-6.2.5
     Ke, Bi, Tason : Op ;                   -- 6.2.6 degree
     MuMu : Op ;                            -- 1.5 emphatic not
