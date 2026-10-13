@@ -1,0 +1,1875 @@
+uni_lemma	languages	category	# of 30 languages with uni_lemma items (Wordbank WS forms; dialects merged; sounds and routines excluded)
+cow	30	animals
+duck	30	animals
+mouse	30	animals
+fish (animal)	30	animals
+dog	30	animals
+sheep	30	animals
+bird	30	animals
+bicycle	30	vehicles
+doll	30	toys
+book	30	toys
+ball	30	toys
+ice cream	30	food_drink
+cake	30	food_drink
+soup	30	food_drink
+meat	30	food_drink
+milk	30	food_drink
+apple	30	food_drink
+chocolate	30	food_drink
+egg	30	food_drink
+bread	30	food_drink
+water (beverage)	30	food_drink
+hat	30	clothing
+shoe	30	clothing
+sock	30	clothing
+nose	30	body_parts
+eye	30	body_parts
+tongue	30	body_parts
+head	30	body_parts
+kitchen	30	furniture_rooms
+window	30	furniture_rooms
+door	30	furniture_rooms
+chair	30	furniture_rooms
+spoon	30	household
+bottle	30	household
+knife	30	household
+soap	30	household
+pillow	30	household
+rain	30	outside
+flower	30	outside
+tree	30	outside
+grass	30	outside
+doctor	30	people
+grandma	30	people
+play	30	action_words
+read	30	action_words
+wash	30	action_words
+cry	30	action_words
+eat	30	action_words
+today	30	time_words
+now	30	time_words
+dirty	30	descriptive_words
+cold	30	descriptive_words
+this	30	pronouns
+why	30	question_words
+there	30	locations
+here	30	locations
+monkey	29	animals
+horse	29	animals
+elephant	29	animals
+butterfly	29	animals
+animal	29	animals
+lion	29	animals
+frog	29	animals
+car	29	vehicles
+train	29	vehicles
+bus	29	vehicles
+truck	29	vehicles
+airplane	29	vehicles
+orange (food)	29	food_drink
+banana	29	food_drink
+pants	29	clothing
+tooth	29	body_parts
+knee	29	body_parts
+mouth	29	body_parts
+hair	29	body_parts
+finger	29	body_parts
+table	29	furniture_rooms
+paper	29	household
+blanket	29	household
+box	29	household
+sun	29	outside
+moon	29	outside
+wind	29	outside
+star	29	outside
+uncle	29	people
+friend	29	people
+grandpa	29	people
+baby	29	people
+jump	29	action_words
+sit	29	action_words
+write	29	action_words
+walk	29	action_words
+give	29	action_words
+help	29	action_words
+run	29	action_words
+fall	29	action_words
+tomorrow	29	time_words
+night	29	time_words
+dark	29	descriptive_words
+clean (description)	29	descriptive_words
+sick	29	descriptive_words
+red	29	descriptive_words
+who	29	question_words
+what	29	question_words
+how	29	question_words
+where (question)	29	question_words
+cloud	29	outside
+cat	28	animals
+tiger	28	animals
+giraffe	28	animals
+boat	28	vehicles
+motorcycle	28	vehicles
+potato	28	food_drink
+button	28	clothing
+coat	28	clothing
+face	28	body_parts
+ear	28	body_parts
+cheek	28	body_parts
+bathroom	28	furniture_rooms
+bed	28	furniture_rooms
+TV	28	furniture_rooms
+scissors	28	household
+medicine	28	household
+towel	28	household
+aunt	28	people
+daddy	28	people
+mommy	28	people
+drink (action)	28	action_words
+sing	28	action_words
+sleep	28	action_words
+buy	28	action_words
+break	28	action_words
+dance	28	action_words
+push	28	action_words
+swim	28	action_words
+yesterday	28	time_words
+hot	28	descriptive_words
+black	28	descriptive_words
+big	28	descriptive_words
+heavy	28	descriptive_words
+green	28	descriptive_words
+empty	28	descriptive_words
+white	28	descriptive_words
+1SG	28	pronouns
+2SG	28	pronouns
+more	28	quantifiers
+and	28	connecting_words
+but	28	connecting_words
+bee	27	animals
+pig	27	animals
+bear	27	animals
+ant	27	animals
+bunny	27	animals
+balloon	27	toys
+bucket	27	toys
+juice	27	food_drink
+cheese	27	food_drink
+coffee	27	food_drink
+carrot	27	food_drink
+diaper	27	clothing
+sweater	27	clothing
+pajamas	27	clothing
+chin	27	body_parts
+tummy	27	body_parts
+refrigerator	27	furniture_rooms
+stairs	27	furniture_rooms
+radio	27	furniture_rooms
+money	27	household
+glasses	27	household
+fork	27	household
+telephone	27	household
+hammer	27	household
+store	27	outside
+school	27	outside
+house	27	outside
+swing (object)	27	outside
+sky	27	outside
+boy	27	people
+open (action)	27	action_words
+throw	27	action_words
+take	27	action_words
+put	27	action_words
+cut	27	action_words
+wait	27	action_words
+close	27	action_words
+say	27	action_words
+good	27	descriptive_words
+broken	27	descriptive_words
+new	27	descriptive_words
+3SG	27	pronouns
+1PL	27	pronouns
+because	27	connecting_words
+helicopter	27	vehicles
+leg	27	body_parts
+tractor	26	vehicles
+yogurt	26	food_drink
+candy	26	food_drink
+food	26	food_drink
+jam	26	food_drink
+underpants	26	clothing
+scarf	26	clothing
+dress (object)	26	clothing
+shirt	26	clothing
+hand	26	body_parts
+belly button	26	body_parts
+couch	26	furniture_rooms
+key	26	household
+toothbrush	26	household
+camera	26	household
+cup	26	household
+trash	26	household
+plate	26	household
+snow	26	outside
+park	26	outside
+church	26	outside
+slide (object)	26	outside
+teacher	26	people
+sister	26	people
+brother	26	people
+child's own name	26	people
+bite	26	action_words
+hit	26	action_words
+blow	26	action_words
+pull	26	action_words
+clean (action)	26	action_words
+morning	26	time_words
+day	26	time_words
+bad	26	descriptive_words
+happy	26	descriptive_words
+fast	26	descriptive_words
+blue	26	descriptive_words
+2SG.POSS	26	pronouns
+when (question)	26	question_words
+under	26	locations
+same	26	quantifiers
+turtle	26	animals
+toy (object)	26	toys
+beans	26	food_drink
+slipper	26	clothing
+picture	26	household
+see	26	action_words
+that	26	pronouns
+all	26	quantifiers
+wolf	25	animals
+butter	25	food_drink
+pasta	25	food_drink
+salt	25	food_drink
+butt	25	body_parts
+washing machine	25	furniture_rooms
+lamp	25	household
+brush (object)	25	household
+street	25	outside
+girl	25	people
+look	25	action_words
+draw	25	action_words
+kick	25	action_words
+go	25	action_words
+stand	25	action_words
+kiss	25	action_words
+soft	25	descriptive_words
+full	25	descriptive_words
+tired	25	descriptive_words
+outside	25	locations
+fish (food)	25	food_drink
+room	25	furniture_rooms
+work (action)	25	action_words
+chicken (animal)	24	animals
+penguin	24	animals
+peas	24	food_drink
+tomato	24	food_drink
+nut	24	food_drink
+jacket	24	clothing
+penis	24	body_parts
+comb (object)	24	household
+zoo	24	outside
+work (place)	24	outside
+child	24	people
+police	24	people
+want	24	action_words
+touch	24	action_words
+climb	24	action_words
+listen	24	action_words
+later	24	time_words
+dry (description)	24	descriptive_words
+yellow	24	descriptive_words
+wet (description)	24	descriptive_words
+old	24	descriptive_words
+1PL.POSS	24	pronouns
+inside	24	locations
+donkey	24	animals
+zebra	24	animals
+grapes	24	food_drink
+garden	24	outside
+long	24	descriptive_words
+1SG.POSS	24	pronouns
+which (question)	24	question_words
+fly (animal)	23	animals
+strawberry	23	food_drink
+tea	23	food_drink
+shoulder	23	body_parts
+shower	23	furniture_rooms
+vacuum	23	furniture_rooms
+clock	23	household
+potty	23	household
+home	23	outside
+tickle	23	action_words
+stop	23	action_words
+paint (action)	23	action_words
+find	23	action_words
+hide	23	action_words
+high	23	descriptive_words
+hungry	23	descriptive_words
+3PL	23	pronouns
+broom	23	household
+pool	23	outside
+hear	23	action_words
+rice	23	food_drink
+none	23	quantifiers
+owl	22	animals
+squirrel	22	animals
+blocks	22	toys
+present	22	toys
+chips	22	food_drink
+bib	22	clothing
+foot	22	body_parts
+garage	22	furniture_rooms
+sink	22	furniture_rooms
+basket	22	household
+glass	22	household
+snowman	22	outside
+forest	22	outside
+beach	22	outside
+drive	22	action_words
+hug	22	action_words
+catch	22	action_words
+after	22	time_words
+slow	22	descriptive_words
+hard	22	descriptive_words
+down	22	locations
+in	22	locations
+shovel	22	outside
+roof	22	outside
+do	22	action_words
+finish	22	action_words
+show	22	action_words
+behind	22	locations
+cook	22	action_words
+rooster	21	animals
+snake	21	animals
+puzzle	21	toys
+pancake	21	food_drink
+cookie	21	food_drink
+shorts	21	clothing
+tights	21	clothing
+belt	21	clothing
+living room	21	furniture_rooms
+stone	21	outside
+flag	21	outside
+man	21	people
+cover (action)	21	action_words
+swing (action)	21	action_words
+feed	21	action_words
+bring	21	action_words
+first	21	descriptive_words
+up	21	locations
+goose	21	animals
+chicken (food)	21	food_drink
+glove	21	clothing
+arm	21	body_parts
+bowl	21	household
+drawer	21	furniture_rooms
+talk	21	action_words
+wake	21	action_words
+thirsty	21	descriptive_words
+skirt	21	clothing
+stroller	20	vehicles
+oven	20	furniture_rooms
+bag	20	household
+sand	20	outside
+party	20	outside
+quiet	20	descriptive_words
+little (description)	20	descriptive_words
+3SG.POSS	20	pronouns
+many	20	quantifiers
+so	20	connecting_words
+crocodile	20	animals
+stick	20	toys
+sandwich	20	food_drink
+necklace	20	clothing
+light (object)	20	household
+ladder	20	outside
+clown	20	people
+have	20	action_words
+lick	20	action_words
+with	20	locations
+pear	20	food_drink
+game	19	toys
+sausage	19	food_drink
+pizza	19	food_drink
+zipper	19	clothing
+lip	19	body_parts
+hurry	19	action_words
+taste	19	action_words
+carry	19	action_words
+before	19	time_words
+sad	19	descriptive_words
+if	19	connecting_words
+bug	19	animals
+deer	19	animals
+tissue	19	household
+stove	19	furniture_rooms
+wipe	19	action_words
+2PL	19	pronouns
+pen	19	toys
+like	19	action_words
+neck	19	body_parts
+raisin	18	food_drink
+bathtub	18	furniture_rooms
+closet	18	furniture_rooms
+glue (object)	18	household
+playground	18	outside
+person	18	people
+pour	18	action_words
+sweep	18	action_words
+laugh	18	action_words
+fix	18	action_words
+clap	18	action_words
+nice	18	descriptive_words
+brown	18	descriptive_words
+on	18	locations
+other	18	quantifiers
+story	18	toys
+boots	18	clothing
+be	18	action_words
+think	18	action_words
+cute	18	descriptive_words
+orange (description)	18	descriptive_words
+another	18	quantifiers
+pretty	18	descriptive_words
+out	18	locations
+goat	18	animals
+firetruck	17	vehicles
+porridge	17	food_drink
+sauce	17	food_drink
+cucumber	17	food_drink
+gum	17	food_drink
+sugar	17	food_drink
+bedroom	17	furniture_rooms
+pot	17	household
+hold	17	action_words
+tear	17	action_words
+naughty	17	descriptive_words
+sleepy	17	descriptive_words
+above	17	locations
+melon	17	food_drink
+love	17	action_words
+spill	17	action_words
+angry	17	descriptive_words
+a lot	17	quantifiers
+watermelon	17	food_drink
+soda	17	food_drink
+spider	16	animals
+pacifier	16	household
+mirror	16	household
+firefighter	16	people
+smile	16	action_words
+dry (action)	16	action_words
+build	16	action_words
+shake	16	action_words
+careful	16	descriptive_words
+last	16	descriptive_words
+then	16	connecting_words
+crayon	16	toys
+corn	16	food_drink
+lollipop	16	food_drink
+pet's name	16	people
+awake	16	descriptive_words
+some	16	quantifiers
+movie	16	places
+fox	15	animals
+bun	15	food_drink
+toast	15	food_drink
+toe	15	body_parts
+breast	15	body_parts
+balcony	15	furniture_rooms
+carpet	15	household
+gas station	15	outside
+yard	15	outside
+knock	15	action_words
+ride	15	action_words
+get	15	action_words
+evening	15	time_words
+these	15	pronouns
+again	15	connecting_words
+bubbles	15	toys
+water (not beverage)	15	outside
+rock (object)	15	outside
+circus	15	places
+people	15	people
+scared	15	descriptive_words
+next to	15	locations
+far	15	locations
+little (amount)	15	quantifiers
+also	15	connecting_words
+t-shirt	15	clothing
+hose	15	outside
+to	15	prepositions
+back (location)	15	locations
+sea	15	places
+nail (body part)	15	body_parts
+one	15	quantifiers
+mosquito	14	animals
+sled	14	vehicles
+cereal	14	food_drink
+vagina	14	body_parts
+nail (object)	14	household
+drop	14	action_words
+make	14	action_words
+splash	14	action_words
+away	14	locations
+beside	14	locations
+hamburger	14	food_drink
+french fries	14	food_drink
+sandal	14	clothing
+plant	14	household
+can (auxiliary)	14	action_words
+come	14	action_words
+time	14	time_words
+for	14	locations
+clothes	14	clothing
+road	14	outside
+kindergarten	14	places
+pen/pencil	13	toys
+cracker	13	food_drink
+floor	13	furniture_rooms
+beautiful	13	descriptive_words
+lamb	13	animals
+play dough	13	toys
+jeans	13	clothing
+purse	13	household
+slide (action)	13	action_words
+stay	13	action_words
+hurt (description)	13	descriptive_words
+yucky	13	descriptive_words
+at	13	locations
+not	13	quantifiers
+ham	13	food_drink
+computer	13	furniture_rooms
+watch (action)	13	action_words
+nothing	13	quantifiers
+ambulance	13	vehicles
+fruit	13	food_drink
+back (body part)	13	body_parts
+sneaker	13	clothing
+pencil	13	toys
+loud	13	descriptive_words
+ladybug	12	animals
+pudding	12	food_drink
+umbrella	12	household
+sandbox	12	outside
+call	12	action_words
+sweet	12	descriptive_words
+popcorn	12	food_drink
+watch (object)	12	household
+sidewalk	12	outside
+farm	12	places
+babysitter's name	12	people
+sticky	12	descriptive_words
+poor	12	descriptive_words
+tonight	12	time_words
+2PL.POSS	12	pronouns
+over	12	locations
+of	12	locations
+the	12	quantifiers
+hen	12	animals
+market	12	places
+nurse	12	people
+hurt (action)	12	action_words
+know	12	action_words
+near	12	locations
+honey	12	food_drink
+small	12	descriptive_words
+chick	11	animals
+teddybear	11	toys
+swimsuit	11	clothing
+armchair	11	furniture_rooms
+high chair	11	furniture_rooms
+ice	11	outside
+picnic	11	outside
+woman	11	people
+leave	11	action_words
+remove	11	action_words
+3PL.POSS	11	pronouns
+around	11	locations
+dish	11	household
+napkin	11	household
+country	11	places
+share	11	action_words
+by	11	locations
+hippopotamus	11	animals
+hospital	11	places
+comb (action)	11	action_words
+REFL	11	pronouns
+crow	11	animals
+mountain	11	outside
+wall	11	outside
+fly (action)	11	action_words
+toilet	11	furniture_rooms
+bath	11	furniture_rooms
+from	11	prepositions
+pony	11	animals
+cabbage	10	food_drink
+babysitter	10	people
+windy	10	descriptive_words
+noisy	10	descriptive_words
+below	10	locations
+already	10	connecting_words
+chalk	10	toys
+crib	10	furniture_rooms
+mailman	10	people
+try	10	action_words
+finished	10	descriptive_words
+a	10	quantifiers
+toothpaste	10	household
+short	10	descriptive_words
+those	10	pronouns
+cupboard	10	furniture_rooms
+lift (action)	10	action_words
+snail	10	animals
+pigeon	10	animals
+spaghetti	10	food_drink
+chase	10	action_words
+puppy	10	animals
+any	10	descriptive_words (adverbs)
+faucet	10	household
+get up	10	action_words
+boot	9	clothing
+shout	9	action_words
+fine	9	descriptive_words
+better	9	descriptive_words
+in front	9	locations
+or	9	connecting_words
+turkey	9	animals
+tricycle	9	vehicles
+bench	9	furniture_rooms
+dryer	9	furniture_rooms
+lawn mower	9	outside
+camping	9	places
+all gone	9	descriptive_words
+too	9	quantifiers
+fire	9	outside
+leaf	9	outside
+shampoo	9	furniture_rooms
+river	9	places
+enter	9	action_words
+ugly	9	descriptive_words
+fat	9	descriptive_words
+afternoon	9	time_words
+gun	9	toys
+eyebrow	9	body_parts
+drink (beverage)	9	food_drink
+jar	9	household
+ankle	9	body_parts
+can	9	helping_verbs
+thumb	9	body_parts
+wallet	9	household
+was	9	helping_verbs
+hedgehog	8	animals
+vitamin	8	food_drink
+mitten	8	clothing
+corridor	8	furniture_rooms
+photo	8	household
+nursery	8	outside
+fit	8	action_words
+dress (action)	8	action_words
+soon	8	time_words
+much	8	quantifiers
+pumpkin	8	food_drink
+basement	8	furniture_rooms
+lady	8	people
+brush (action)	8	action_words
+turn	8	action_words
+peach	8	food_drink
+drum (object)	8	toys
+lie down	8	action_words
+spinach	8	food_drink
+lemon	8	food_drink
+tangerine	8	food_drink
+town	8	places
+wear	8	action_words
+bathe	8	action_words
+sour	8	descriptive_words
+mop (object)	8	household
+pretend	8	action_words
+a little	8	locations_quantities_adverbs
+keep	8	action_words
+two	8	quantifiers
+three	8	quantifiers
+is	8	helping_verbs
+should	8	helping_verbs
+spade	7	toys
+salad	7	food_drink
+rocking chair	7	furniture_rooms
+cloth	7	household
+pick	7	action_words
+together	7	locations
+beads	7	clothing
+play pen	7	furniture_rooms
+wheel	7	outside
+turn on	7	action_words
+strong	7	descriptive_words
+round	7	descriptive_words
+pastry	7	food_drink
+tray	7	household
+soil	7	outside
+parrot	7	animals
+tracksuit	7	clothing
+bell	7	furniture_rooms
+tell	7	action_words
+smell	7	action_words
+bitter	7	descriptive_words
+front	7	locations
+every	7	quantifiers
+dumpling	7	food_drink
+hate	7	action_words
+mushroom	7	food_drink
+biscuit	7	food_drink
+poop	7	action_words
+early	7	time_words
+must	7	helping_verbs
+kitty	7	animals
+rag	7	household
+warm	7	descriptive_words
+smart	7	descriptive_words (adjectives)
+bump	7	action_words
+need	7	helping_verbs
+worm	6	animals
+berry	6	food_drink
+tuna	6	food_drink
+card	6	household
+puddle	6	outside
+tall	6	descriptive_words
+go out	6	locations
+coke	6	food_drink
+popsicle	6	food_drink
+penny	6	household
+look for	6	action_words
+spit	6	action_words
+asleep	6	descriptive_words
+jelly	6	food_drink
+tape (object)	6	household
+iron (object)	6	household
+field	6	places
+godfather	6	people
+cousin	6	people
+turn off	6	action_words
+purple	6	descriptive_words
+between	6	prepositions
+cherry	6	food_drink
+meatball	6	food_drink
+remote control	6	household
+remember	6	action_words
+ask	6	action_words
+difficult	6	descriptive_words
+1SG.REFL	6	pronouns
+cockroach	6	animals
+dolphin	6	animals
+crane	6	vehicles
+kiwi	6	food_drink
+elevator	6	furniture_rooms
+hang	6	action_words
+pee	6	action_words
+when (conjunction)	6	connecting_words
+sweets	6	food_drink
+sheet	6	clothing
+stool	6	furniture_rooms
+off	6	locations
+each	6	quantifiers
+dinosaur	6	animals
+elbow	6	body_parts
+forehead	6	body_parts
+back	6	body_parts
+late	6	time_words
+microwave	6	household
+city	6	places
+fight	6	action_words
+top	6	locations
+cocoa	6	food_drink
+will	6	helping_verbs
+sparrow	6	animals
+moose	5	animals
+clay	5	toys
+lemonade	5	food_drink
+overalls	5	clothing
+porch	5	furniture_rooms
+curtain	5	household
+skate (action)	5	action_words
+cough	5	action_words
+open (description)	5	locations
+panda	5	animals
+donut	5	food_drink
+cheerios	5	food_drink
+pipe	5	outside
+cowboy	5	people
+stir	5	action_words
+choose	5	action_words
+hot dog	5	food_drink
+throat	5	body_parts
+earring	5	clothing
+newspaper	5	household
+candle	5	household
+godmother	5	people
+tie (action)	5	action_words
+thin	5	descriptive_words
+wrong	5	quantifiers
+camel	5	animals
+pretzel	5	food_drink
+onion	5	food_drink
+teapot	5	household
+mud	5	outside
+smoke	5	outside
+lake	5	outside
+understand	5	action_words
+begin	5	action_words
+put on	5	action_words
+taxi	5	vehicles
+digger	5	vehicles
+noodles	5	food_drink
+vegetable	5	food_drink
+vest	5	clothing
+coin	5	household
+CD	5	household
+restaurant	5	places
+sir	5	people
+middle	5	locations
+how many	5	question_words
+search	5	action_words
+ship	5	vehicles
+rope	5	toys
+pepper	5	food_drink
+palm	5	body_parts
+mug	5	household
+farmer	5	people
+ok	5	descriptive_words (adjectives)
+on top	5	prepositions
+swimming pool	5	outside
+lose	5	action_words
+gentle	5	descriptive_words
+2SG.REFL	5	pronouns
+very	5	quantifiers
+plum	5	food_drink
+cream	5	food_drink
+go up	5	action_words
+four	5	quantifiers
+color (action)	5	action_words
+tasty	5	descriptive_words
+piano	5	toys
+rake (object)	5	toys
+something	5	pronouns
+ground	5	places
+jeep	5	vehicles
+postman	5	people
+light (description)	5	descriptive_words
+wanna	5	helping_verbs
+tram	5	vehicles
+let	5	helping_verbs
+drip	5	action_words
+yummy	5	descriptive_words
+battery	5	household
+salty	5	descriptive_words
+grocery	5	places
+wish	5	action_words
+bat (object)	4	toys
+hot chocolate	4	food_drink
+jug	4	household
+flower pot	4	household
+sponge	4	household
+painting	4	household
+don't	4	action_words
+roll (action)	4	action_words
+wave	4	action_words
+press	4	action_words
+closed	4	locations
+few	4	quantifiers
+everyone	4	quantifiers
+muffin	4	food_drink
+snowsuit	4	clothing
+owie	4	body_parts
+watering can	4	outside
+get off	4	action_words
+pick up	4	action_words
+stuck	4	descriptive_words
+seal (animal)	4	animals
+peanut	4	food_drink
+greet	4	action_words
+different	4	descriptive_words
+pink	4	descriptive_words
+well (modifier)	4	quantifiers
+yes	4	quantifiers
+olive	4	food_drink
+bracelet	4	clothing
+eyelash	4	body_parts
+bridge	4	outside
+outing	4	places
+sibling	4	people
+fill	4	action_words
+wet (action)	4	action_words
+escape	4	action_words
+save	4	action_words
+teach	4	action_words
+count	4	action_words
+forget	4	action_words
+tire (action)	4	action_words
+ready	4	descriptive_words
+noon	4	time_words
+caterpillar	4	animals
+papaya	4	food_drink
+chopstick	4	household
+no	4	action_words
+spicy	4	descriptive_words
+enough	4	descriptive_words
+how much	4	question_words
+police car	4	vehicles
+beer	4	food_drink
+3SG.REFL	4	pronouns
+lizard	4	animals
+cart	4	vehicles
+mango	4	food_drink
+toilet paper	4	household
+hole	4	outside
+dream	4	action_words
+quick	4	descriptive_words (adjectives)
+afraid	4	descriptive_words (adjectives)
+everything	4	descriptive_words (adverbs)
+dessert	4	food_drink
+seagull	4	animals
+ring (object)	4	clothing
+chimney	4	furniture_rooms
+shelf	4	furniture_rooms
+sneeze	4	action_words
+cool (description)	4	descriptive_words
+crazy	4	descriptive_words
+gloves	4	clothing
+pie	4	food_drink
+puree	4	food_drink
+handkerchief	4	household
+tape	4	household
+keys	4	household
+scary	4	descriptive_words
+fun	4	descriptive_words
+painful	4	descriptive_words
+carousel	4	outside
+cradle	4	household
+video	4	household
+learn	4	action_words
+grab	4	action_words
+shed	4	outside
+bush	4	outside
+win	4	action_words
+paint (object)	4	toys
+cap	4	clothing
+terrace	4	furniture_rooms
+strange	4	descriptive_words
+move	4	action_words
+peel	4	action_words
+smelly	4	descriptive_words
+policeman	4	people
+it	4	pronouns
+dig	4	action_words
+trolley	4	vehicles
+raspberry	4	food_drink
+allow	4	action_words
+pan	4	household
+am	4	helping_verbs
+about	4	locations
+pickle	3	food_drink
+blouse	3	clothing
+ceiling	3	furniture_rooms
+doorbell	3	household
+boil	3	action_words
+speak	3	action_words
+less	3	quantifiers
+peanut butter	3	food_drink
+compote	3	food_drink
+jello	3	food_drink
+mustache	3	body_parts
+ribbon	3	household
+step	3	furniture_rooms
+get on	3	action_words
+dump	3	action_words
+as	3	locations
+beard	3	body_parts
+skate (object)	3	toys
+firewood	3	outside
+furniture	3	furniture_rooms
+patio	3	furniture_rooms
+bank	3	places
+miss	3	action_words
+burn	3	action_words
+tough	3	descriptive_words
+slowly	3	quantifiers
+stork	3	animals
+robot	3	toys
+kite	3	toys
+salami	3	food_drink
+pocket	3	clothing
+hair clip	3	clothing
+heart	3	body_parts
+fingernail	3	body_parts
+radiator	3	furniture_rooms
+neighbor	3	places
+theater	3	places
+soldier	3	people
+king	3	people
+princess	3	people
+be scared	3	action_words
+die	3	action_words
+squeeze	3	action_words
+tighten	3	action_words
+put in	3	action_words
+swallow	3	action_words
+disgusting	3	descriptive_words
+funny	3	descriptive_words
+only	3	quantifiers
+crab	3	animals
+alligator	3	animals
+shrimp	3	animals
+shark	3	animals
+nugget	3	food_drink
+snack	3	food_drink
+soy sauce	3	food_drink
+sticker	3	toys
+air conditioner	3	household
+fan	3	household
+plug	3	household
+seesaw	3	outside
+library	3	places
+you	3	people
+driver	3	people
+start	3	time_words
+on top of	3	locations
+scold	3	action_words
+pinch	3	action_words
+bright	3	descriptive_words
+one two three	3	quantifiers
+guitar	3	toys
+branch	3	outside_places
+avocado	3	food_drink
+orange juice	3	food_drink
+ginger	3	food_drink
+shawl	3	clothing
+suit	3	clothing
+receive	3	action_words
+daytime	3	time_words
+without	3	descriptive_words (adverbs)
+can (object)	3	household
+calm	3	descriptive_words
+3PL.REFL	3	pronouns
+would	3	helping_verbs
+such	3	connecting_words
+whale	3	animals
+lettuce	3	food_drink
+pineapple	3	food_drink
+persimmon	3	food_drink
+baby food	3	food_drink
+fireplace	3	furniture_rooms
+gate	3	furniture_rooms
+witch	3	people
+five	3	quantifiers
+block	3	toys
+blueberry	3	food_drink
+cot	3	furniture_rooms
+path	3	outside
+fear	3	action_words
+tiny	3	descriptive_words
+rat	3	animals
+sweet potato	3	food_drink
+trampoline	3	outside
+syrup	3	household
+descend	3	action_words
+grow	3	action_words
+whose	3	question_words
+until	3	locations
+light (action)	3	action_words
+quietly	3	descriptive_words (adjectives)
+swan	3	animals
+calf	3	animals
+chicken	3	animals
+bacon	3	food_drink
+cross	3	clothing
+fog	3	outside
+hairdresser	3	people
+clever	3	descriptive_words
+place	3	locations
+has to	3	helping_verbs
+bin	3	household
+applesauce	3	food_drink
+lock (action)	3	action_words
+friends' names	3	people
+tofu	3	food_drink
+go down	3	action_words
+spin	3	action_words
+prick	3	action_words
+insert	3	action_words
+crawl	3	action_words
+follow	3	action_words
+song	3	toys
+pitiful	3	descriptive_words
+dragon	3	animals
+dustpan	3	household
+cannot	3	helping_verbs
+apron	3	clothing
+cover (object)	3	household
+music	3	household
+tower	3	outside
+dirty (action)	3	action_words
+cottage cheese	3	food_drink
+downtown	3	places
+alone	3	descriptive_words
+tail	3	body_parts
+did	3	helping_verbs
+could	3	helping_verbs
+trash can	3	household
+forward	3	locations
+marker	3	toys
+daughter	3	people
+son	3	people
+take out	3	action_words
+wet	3	descriptive_words (adverbs)
+no one	3	quantifiers
+are	3	helping_verbs
+lend	3	action_words
+like this	3	descriptive_words (adverbs)
+sleeve	2	clothing
+hood	2	clothing
+smock	2	clothing
+sauna	2	furniture_rooms
+vase	2	household
+lotion	2	household
+cabin	2	outside
+post office	2	outside
+fetch	2	action_words
+bake	2	action_words
+caress	2	action_words
+muddy	2	descriptive_words
+sharp	2	descriptive_words
+brave	2	descriptive_words
+rainy	2	descriptive_words
+vanilla	2	food_drink
+attach	2	action_words
+rock (action)	2	action_words
+bang	2	action_words
+glue (action)	2	action_words
+able	2	descriptive_words
+sometimes	2	time_words
+similar	2	quantifiers
+ox	2	animals
+tortilla	2	food_drink
+office	2	places
+lower (action)	2	action_words
+quiet (action)	2	action_words
+dine	2	action_words
+silly	2	descriptive_words
+quickly	2	quantifiers
+eagle	2	animals
+puppet	2	toys
+yogurt drink	2	food_drink
+ketchup	2	food_drink
+body	2	body_parts
+bandaid	2	household
+earth	2	outside
+pine cone	2	outside
+wood	2	outside
+barber	2	people
+resemble	2	action_words
+take away	2	action_words
+opposite	2	descriptive_words
+someone	2	pronouns
+thing	2	pronouns
+maybe	2	quantifiers
+even	2	quantifiers
+peacock	2	animals
+kefir	2	food_drink
+raincoat	2	clothing
+straw	2	household
+garbage	2	household
+thunder	2	outside
+station	2	places
+parking lot	2	places
+amusement park	2	places
+I	2	people
+my	2	people
+we	2	people
+end	2	time_words
+earlier	2	time_words
+into	2	locations
+squat	2	action_words
+fragrant	2	descriptive_words
+yum yum	2	descriptive_words
+half	2	quantifiers
+is that okay?	2	question_words
+what time	2	question_words
+children	2	people
+bat (animal)	2	animals
+coconut	2	food_drink
+cassava	2	food_drink
+samosa	2	food_drink
+kale	2	food_drink
+letter	2	household
+stick (object)	2	household
+machete	2	outside
+maid	2	people
+herder	2	people
+slip	2	action_words
+care	2	action_words
+rotten	2	descriptive_words (adjectives)
+alert	2	descriptive_words (adjectives)
+POSS	2	pronouns
+great grandpa	2	people
+great grandma	2	people
+sting	2	action_words
+sorry	2	descriptive_words
+friendly	2	descriptive_words
+through	2	locations
+had	2	helping_verbs
+steak	2	food_drink
+wine	2	food_drink
+hair dryer	2	household
+teacher's name	2	people
+erase	2	action_words
+scream	2	action_words
+hour	2	time_words
+shoelace	2	clothing
+orange	2	food_drink
+cutlet	2	food_drink
+cooker	2	furniture_rooms
+immediately	2	time_words
+ditch	2	outside
+spray	2	action_words
+lost	2	descriptive_words
+mad	2	descriptive_words
+panther	2	animals
+bull	2	animals
+alphabet	2	toys
+football	2	toys
+croquette	2	food_drink
+plaza	2	outside
+laundry	2	household
+easy	2	descriptive_words
+almost	2	locations
+board game	2	toys
+mat	2	household
+robin	2	animals
+drink (object)	2	food_drink
+turnip	2	food_drink
+map	2	household
+playroom	2	furniture_rooms
+dentist	2	people
+rip	2	action_words
+bark	2	action_words
+joke	2	action_words
+foggy	2	descriptive_words
+bold	2	descriptive_words
+messy	2	descriptive_words
+bottom	2	locations
+across	2	locations
+piece	2	quantifiers
+will be	2	helping_verbs
+lemme	2	helping_verbs
+foam	2	toys
+undershirt	2	clothing
+drawing	2	household
+playpen	2	furniture_rooms
+baker	2	places
+child's name	2	people
+large	2	descriptive_words
+tender	2	descriptive_words
+rich	2	descriptive_words
+hunt	2	action_words
+in front of	2	locations
+be able	2	helping_verbs
+have to	2	helping_verbs
+therefore	2	connecting_words
+macaroni	2	food_drink
+chew	2	action_words
+suck	2	action_words
+use	2	action_words
+blink	2	action_words
+stack (action)	2	action_words
+rinse	2	action_words
+sell	2	action_words
+point	2	action_words
+poke	2	action_words
+twist	2	action_words
+tie (object)	2	action_words
+queue	2	action_words
+send	2	action_words
+exchange	2	action_words
+microphone	2	toys
+itchy	2	descriptive_words
+low	2	descriptive_words
+mean	2	descriptive_words
+dragonfly	2	animals
+basin	2	household
+hanger	2	household
+tunnel	2	outside
+fountain	2	outside
+not allowed	2	helping_verbs
+wardrobe	2	furniture_rooms
+tv	2	furniture_rooms
+him	2	pronouns
+gorilla	2	animals
+swallow (animal)	2	animals
+voice recorder	2	household
+stereo	2	household
+gas	2	furniture_rooms
+towards	2	directions
+green beans	2	food_drink
+trumpet	2	toys
+bidet	2	furniture_rooms
+pump (object)	2	outside
+lawn	2	outside
+bar	2	places
+tight	2	descriptive_words
+lips	2	body_parts
+subway	2	vehicles
+croissant	2	food_drink
+stupid	2	descriptive_words
+just	2	time_words
+board	2	household
+screwdriver	2	household
+reverse	2	action_words
+pat	2	action_words
+lay	2	action_words
+how (connecting	2	connecting_words
+where (conjunction)	2	connecting_words
+which (connecting)	2	connecting_words
+backpack	2	household
+pavement	2	outside
+repair	2	action_words
+breathe	2	action_words
+beetle	2	animals
+locomotive	2	vehicles
+icicle	2	outside
+guest	2	people
+naked	2	descriptive_words (adjectives)
+real	2	descriptive_words (adjectives)
+along	2	locations
+what kind	2	question_words
+were	2	helping_verbs
+however	2	connecting_words
+marbles	2	toys
+year	2	time_words
+yet	2	descriptive_words (adverbs)
+mole	2	animals
+pond	2	outside
+nasty	2	descriptive_words
+rabbit	2	animals
+drum	2	toys
+radish	2	food_drink
+light	2	furniture_rooms
+vacuum cleaner	2	household
+get out	2	action_words
+turn around	2	action_words
+dislike	2	descriptive_words
+side	2	locations
+once	2	quantifiers
+clementine	2	food_drink
+lighter	2	household
+pass	2	action_words
+whistle (action)	2	action_words
+fence	2	outside
+ghost	2	people
+live	2	action_words
+somewhere	2	locations
+licorice	1	food_drink
+ski (action)	1	action_words
+tease	1	action_words
+sled (action)	1	action_words
+pet (action)	1	action_words
+wink	1	action_words
+crash	1	action_words
+watch out	1	action_words
+standing	1	descriptive_words
+atole	1	food_drink
+chili	1	food_drink
+smoothie	1	food_drink
+quesadilla	1	food_drink
+taco	1	food_drink
+colors	1	toys
+matches	1	household
+cigarette	1	household
+rug	1	household
+drain (object)	1	outside
+grill (object)	1	outside
+bookshelf	1	furniture_rooms
+hill	1	places
+factory	1	places
+priest	1	people
+family	1	people
+accompany	1	action_words
+lunch (action)	1	action_words
+breakfast (action)	1	action_words
+mistake	1	action_words
+gain	1	action_words
+dangerous	1	descriptive_words
+kayak	1	vehicles
+sailboat	1	vehicles
+notebook	1	toys
+whistle (object)	1	toys
+apricot	1	food_drink
+pomegranate	1	food_drink
+chickpea	1	food_drink
+tarhana	1	food_drink
+headband	1	clothing
+cotton	1	household
+coffee table	1	furniture_rooms
+accident	1	outside
+dust	1	outside
+traffic	1	outside
+wedding	1	places
+bride	1	people
+get hungry	1	action_words
+scatter	1	action_words
+crush	1	action_words
+travel	1	action_words
+bleed	1	action_words
+mix	1	action_words
+detach	1	action_words
+explode	1	action_words
+shh	1	action_words
+thirst	1	action_words
+inflate	1	action_words
+gather	1	action_words
+snap	1	action_words
+hollow	1	descriptive_words
+solid	1	descriptive_words
+anybody	1	pronouns
+ahead	1	locations
+most	1	quantifiers
+probably	1	quantifiers
+always	1	quantifiers
+clam	1	animals
+guava	1	food_drink
+soy milk	1	food_drink
+helmet	1	clothing
+mask	1	clothing
+traffic light	1	outside
+rainbow	1	outside
+building	1	places
+your	1	people
+he	1	people
+his	1	people
+family name	1	people
+boss	1	people
+other people	1	people
+our	1	people
+miss (address)	1	people
+they	1	people
+their	1	people
+dismantle	1	action_words
+dishwasher	1	furniture_rooms
+stomp	1	action_words
+bed bug	1	animals
+pilaf	1	food_drink
+alcohol	1	food_drink
+bottle opener	1	household
+hoe (object)	1	outside
+wife	1	people
+nap	1	action_words
+tag	1	outside
+business	1	places
+tumble	1	action_words
+grumpy	1	descriptive_words
+hair tie	1	clothing
+perfume	1	household
+pharmacy	1	places
+fluffy	1	descriptive_words
+fool	1	descriptive_words
+ten	1	quantifiers
+nine	1	quantifiers
+eight	1	quantifiers
+six	1	quantifiers
+seven	1	quantifiers
+seal	1	animals
+glue	1	toys
+sneakers	1	clothing
+chewing gum	1	food_drink
+stomach	1	body_parts
+cellar	1	furniture_rooms
+baby chair	1	furniture_rooms
+watch	1	household
+nail	1	household
+swing	1	outside
+shop	1	places
+promise	1	action_words
+cut (action)	1	action_words
+self	1	pronouns
+guinea pig	1	animals
+llama	1	animals
+pelican	1	animals
+octopus	1	animals
+trickster	1	people
+nephew	1	people
+goal	1	toys
+racket	1	toys
+broccoli	1	food_drink
+passion fruit	1	food_drink
+plantain	1	food_drink
+onesie	1	clothing
+blender	1	household
+cushion	1	household
+suburb	1	household
+value (action)	1	action_words
+cool (action)	1	action_words
+gift (action)	1	action_words
+skip	1	action_words
+flirtatious	1	descriptive_words
+horrible	1	descriptive_words
+liar	1	descriptive_words
+obedient	1	descriptive_words
+either	1	quantifiers
+sardine	1	food_drink
+can opener	1	household
+severe	1	descriptive_words (adjectives)
+neigh	1	prepositions
+back (preposition)	1	prepositions
+van	1	vehicles
+hurley	1	toys
+kettle	1	household
+tap	1	household
+preschool	1	places
+best	1	descriptive_words
+gone	1	descriptive_words
+type	1	quantifiers
+isn't	1	helping_verbs
+did not	1	helping_verbs
+leopard	1	animals
+bead	1	toys
+chocolate mousse	1	food_drink
+beverage	1	food_drink
+sprinkles	1	food_drink
+pantyhose	1	clothing
+dummy	1	clothing
+mess	1	household
+piggy bank	1	household
+washcloth	1	household
+heater/fireplace	1	furniture_rooms
+fridge/freezer	1	furniture_rooms
+daycare	1	places
+butcher	1	places
+female	1	people
+all done	1	descriptive_words
+is sleeping	1	descriptive_words
+noise	1	descriptive_words
+fixed	1	descriptive_words
+divide	1	action_words
+act like	1	action_words
+indicate	1	action_words
+to throw	1	action_words
+to hurry up	1	action_words
+try on	1	action_words
+puzzle (action)	1	action_words
+iron (action)	1	action_words
+see you tomorrow	1	time_words
+see you later	1	time_words
+not do	1	helping_verbs
+video recorder	1	household
+in the mornings	1	time_words
+pork	1	food_drink
+beef	1	food_drink
+bounce	1	action_words
+spread	1	action_words
+grasp	1	action_words
+itch	1	action_words
+scratch	1	action_words
+guess	1	action_words
+fold	1	action_words
+chop	1	action_words
+bully	1	action_words
+borrow	1	action_words
+uncover	1	action_words
+dumb	1	descriptive_words
+smooth	1	descriptive_words
+slippery	1	descriptive_words
+comfortable	1	descriptive_words
+sunny	1	descriptive_words
+clumsy	1	descriptive_words
+miserable	1	descriptive_words
+grey	1	descriptive_words
+minibus	1	vehicles
+ruler	1	household
+eraser	1	household
+heel	1	body_parts
+ball pit	1	places
+mall	1	places
+bus stop	1	places
+whatever	1	quantifiers
+slice of	1	classifiers
+times	1	classifiers
+stick of	1	classifiers
+layer of	1	classifiers
+pack of	1	classifiers
+can you?	1	question_words
+unwilling	1	helping_verbs
+this morning	1	time_words
+just now	1	time_words
+though	1	connecting_words
+carrots	1	food_drink
+flowerpot	1	household
+call on phone	1	action_words
+village	1	places
+some more	1	articles
+mine	1	pronouns
+i	1	pronouns
+me	1	pronouns
+her	1	pronouns
+brighten	1	action_words
+hop	1	action_words
+return	1	action_words
+sound (action)	1	action_words
+rub	1	action_words
+flip	1	action_words
+support	1	action_words
+amuse	1	action_words
+bend	1	action_words
+tug	1	action_words
+go around	1	action_words
+hope	1	action_words
+liver (food)	1	food_drink
+sprouts	1	food_drink
+scallion	1	food_drink
+flour	1	food_drink
+vinegar	1	food_drink
+brain	1	body_parts
+magpie	1	animals
+cricket	1	animals
+well-behaved	1	descriptive_words
+aggrieved	1	descriptive_words
+REFL.POSS	1	pronouns
+suspenders	1	clothing
+zucchini	1	food_drink
+tortellini	1	food_drink
+oil	1	food_drink
+playhouse	1	toys
+fawn	1	animals
+thermometer	1	household
+doorman	1	people
+answer	1	action_words
+has	1	helping_verbs
+1PL.REFL	1	pronouns
+workplace	1	outside
+earrings	1	clothing
+hazelnut	1	food_drink
+granola	1	food_drink
+paprika	1	food_drink
+pliers	1	household
+attic	1	furniture_rooms
+switch	1	action_words
+weak	1	descriptive_words
+smeared	1	descriptive_words
+neat	1	descriptive_words
+midmorning	1	time_words
+right (question)	1	question_words
+might	1	helping_verbs
+used to	1	helping_verbs
+rather	1	connecting_words
+hare	1	animals
+ski (object)	1	toys
+caviar	1	food_drink
+nightgown	1	clothing
+fur	1	body_parts
+saw	1	household
+quilt	1	household
+set	1	action_words
+said	1	connecting_words
+wasp	1	animals
+lunchbox	1	food_drink
+paper towel	1	household
+backyard	1	outside
+quit	1	action_words
+moist	1	descriptive_words
+upset	1	descriptive_words
+poor thing	1	descriptive_words
+instead of	1	locations
+against	1	locations
+up in	1	locations
+piglet	1	animals
+album	1	toys
+mold	1	toys
+beet	1	food_drink
+sour cream	1	food_drink
+pill	1	household
+birch	1	outside
+fir	1	outside
+well (object)	1	outside
+frost	1	outside
+greenhouse	1	outside
+pine	1	outside
+bathhouse	1	places
+mother's name	1	people
+father's name	1	people
+invite	1	action_words
+go potty	1	action_words
+smear	1	action_words
+name	1	action_words
+collect	1	action_words
+toy (description)	1	descriptive_words (adjectives)
+in no way	1	descriptive_words (adverbs)
+from here	1	locations
+from there	1	locations
+to here	1	locations
+to there	1	locations
+gravy	1	food_drink
+gingerbread	1	food_drink
+wheelbarrow	1	household
+chestnut	1	outside
+acorn	1	outside
+group	1	places
+concert	1	places
+ring (action)	1	action_words
+terrible	1	descriptive_words
+further	1	locations
+closer	1	locations
+both	1	quantifiers
+allowed	1	helping_verbs
+have been	1	helping_verbs
+don't want	1	helping_verbs
+how (connecting)	1	connecting_words
+toad	1	animals
+sweatshirt	1	clothing
+cell phone	1	household
+join	1	action_words
+launch	1	action_words
+frighten	1	action_words
+waste	1	action_words
+grimy	1	descriptive_words
+else	1	connecting_words
+detergent	1	household
+cuddle	1	action_words
+refuel	1	action_words
+go for a walk	1	action_words
+koala	1	animals
+bat	1	toys
+eggplant	1	food_drink
+buttocks	1	body_parts
+nail (finger)	1	body_parts
+arrive	1	action_words
+become	1	action_words
+square	1	descriptive_words
+next	1	locations
+right	1	locations
+oink	1	sounds2
+hello	1	conversations
+reindeer	1	animals
+coat hanger	1	household
+squash	1	food_drink
+mayonnaise	1	food_drink
+nutella	1	food_drink
+congratulate	1	action_words
+insect	1	animals
+Pencil	1	toys
+clothing	1	clothing
+phone	1	household
+dining room	1	furniture_rooms
+sofa	1	furniture_rooms
+open	1	action_words
+feel	1	action_words
+handsome	1	descriptive_words
+calf (animal)	1	animals
+kitten	1	animals
+dress	1	clothing
+wave (action)	1	action_words
+joke (action)	1	action_words
+kind	1	descriptive_words
+light (decription)	1	descriptive_words
+aound	1	locations
+really	1	quantifiers
+will (auxiliary)	1	helping_verbs
+beaver	1	animals
+paw	1	animals
+slug	1	animals
+wing	1	animals
+beak	1	animals
+rocket	1	vehicles
+lunch	1	food_drink
+braid (object)	1	body_parts
+snot	1	body_parts
+bone	1	household
+ladle	1	household
+lace (object)	1	household
+outlet	1	household
+sign	1	outside
+rail	1	outside
+exercise	1	action_words
+wrap	1	action_words
+trample	1	action_words
+release	1	action_words
+melt	1	action_words
+flush	1	action_words
+shine	1	action_words
+flow	1	action_words
+yawn	1	action_words
+childish	1	descriptive_words
+drawn	1	descriptive_words
+elsewhere	1	locations
+whether	1	connecting_words
+walker	1	household
+needle	1	household
+wooden ladle	1	household
+fair	1	places
+chimney sweep	1	people
+garbage man	1	people
+flee	1	action_words
+winter	1	descriptive_words
+nowhere	1	locations
+too much	1	quantifiers
+pita	1	food_drink
+schnitzel	1	food_drink
+tablecloth	1	furniture_rooms
+shutter	1	furniture_rooms
+sprinkler	1	outside
+bus station	1	places
+bless	1	action_words
+change	1	action_words
+rest	1	action_words
+excellent	1	descriptive_words
+moment	1	time_words
+boogeyman	1	people
+niece	1	people
+gut	1	body_parts
+neighborhood	1	household
+flood (action)	1	action_words
+on (description)	1	descriptive_words
+little	1	articles
+dress shoe	1	clothing
+dried seaweed	1	food_drink
+kimchi	1	food_drink
+rice cake	1	food_drink
+hip	1	body_parts
+blood	1	body_parts
+waist	1	body_parts
+boulder	1	outside
+apartment	1	places
+often	1	quantifiers
+entire	1	quantifiers
+thief	1	people
+younger sibling	1	people
+adult	1	people
+prince	1	people
+where from	1	question_words
+study	1	action_words
+get cut	1	action_words
+come out	1	action_words
+put down	1	action_words
+float	1	action_words
+don't know	1	action_words
+smash	1	action_words
+pull out	1	action_words
+load	1	action_words
+shoot	1	action_words
+give me	1	action_words
+stamp (action)	1	action_words
+burst	1	action_words
+fry	1	action_words
+bloom	1	action_words
+ticklish	1	descriptive_words
+hot (weather)	1	descriptive_words
+hot (temperature)	1	descriptive_words
+bored	1	descriptive_words
+dim	1	descriptive_words
+there is	1	descriptive_words
+everyday	1	time_words
+lunchtime	1	time_words

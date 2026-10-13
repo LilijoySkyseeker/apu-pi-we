@@ -1,0 +1,511 @@
+cow	30	cow	content	dunsa	
+duck	30	duck	content	none	
+mouse	30	mouse	content	none	
+fish (animal)	30	fish	content	woga	
+dog	30	dog	content	totu	
+sheep	30	sheep	content	none	
+bird	30	bird	content	lodi	
+bicycle	30	bicycle	content	siwa pi pifo	
+doll	30	doll	content	none	
+book	30	book	content	ingo	
+ball	30	ball	content	none	
+ice cream	30	ice cream	content	none	
+cake	30	cake	content	none	
+soup	30	soup	content	none	
+meat	30	meat	content	fuyu	
+milk	30	milk	content	tunlo	
+apple	30	apple	content	none	
+chocolate	30	chocolate	content	none	
+egg	30	egg	content	tika	
+bread	30	bread	content	sowe	
+water (beverage)	30	water	content	osa	
+hat	30	hat	content	none	
+shoe	30	shoe	content	none	
+sock	30	sock	content	none	
+nose	30	nose	content	danki	
+eye	30	eye	content	funo	
+tongue	30	tongue	content	lisun	
+head	30	head	content	lukan	
+kitchen	30	kitchen	content	pu siten	
+window	30	window	content	none	
+door	30	door	content	beya	
+chair	30	chair	content	none	
+spoon	30	spoon	content	none	
+bottle	30	bottle	content	none	
+knife	30	knife	content	none	
+soap	30	soap	content	none	
+pillow	30	pillow	content	none	
+rain	30	rain	content	gegi	
+flower	30	flower	content	meyen	
+tree	30	tree	content	gala	
+grass	30	grass	content	tunmu	
+doctor	30	doctor	content	none	
+grandma	30	grandmother	content	none	grandma; merged with grandmother
+play	30	play	content	luse	
+read	30	read	content	lilu	
+wash	30	wash	content	pensi	
+cry	30	cry	content	nowa	
+eat	30	eat	content	nawi	
+today	30	today	content	mefa	
+now	30	now	grammar	eda	
+dirty	30	dirty	content	bodu	
+cold	30	cold	content	weki	
+this	30	this	grammar	tan	
+why	30	why	grammar	yu	WH + ukun
+there	30	there	grammar	none	compose pu ben
+here	30	here	grammar	none	compose pu tan
+monkey	29	monkey	content	none	
+horse	29	horse	content	anbo	
+elephant	29	elephant	content	none	
+butterfly	29	butterfly	content	none	
+animal	29	animal	content	noso	
+lion	29	lion	content	none	
+frog	29	frog	content	noso meli man lonfe yen niba	
+car	29	car	content	tale	
+train	29	train	content	siwa netu	
+bus	29	bus	content	ensu	
+truck	29	truck	content	none	
+airplane	29	airplane	content	none	
+orange (food)	29	orange	content	none	fruit
+banana	29	banana	content	none	
+pants	29	trousers	content	none	pants; merged with trousers
+tooth	29	tooth	content	fonma	
+knee	29	knee	content	leyi	
+mouth	29	mouth	content	fade	
+hair	29	hair	content	sonfa	
+finger	29	finger	content	linma	
+table	29	table	content	none	
+paper	29	paper	content	mabo	
+blanket	29	blanket	content	none	
+box	29	box	content	nansa	
+sun	29	sun	content	giwe	
+moon	29	moon	content	dunan	
+wind	29	wind	content	gulo	
+star	29	star	content	uwan	
+uncle	29	uncle	content	none	
+friend	29	friend	content	sonu	
+grandpa	29	grandfather	content	none	grandpa; merged with grandfather
+baby	29	baby	content	none	near child (tiwu)
+jump	29	jump	content	none	
+sit	29	sit	content	goyu	
+write	29	write	content	tusi	
+walk	29	walk	content	niba	
+give	29	give	content	neke	
+help	29	help	content	yema	
+run	29	run	content	gabe	
+fall	29	fall	content	dosi	
+tomorrow	29	tomorrow	content	wuma	
+night	29	night	content	yami	
+dark	29	dark	content	buda	
+clean (description)	29	clean	content	inan	
+sick	29	sick	content	simi	
+red	29	red	content	wiwi	
+who	29	who	grammar	yu	WH + ewo
+what	29	what	grammar	yu	WH
+how	29	how	grammar	yu	WH + lite
+where (question)	29	where	grammar	yu	WH + kemu
+cloud	29	cloud	content	lanba	
+cat	28	cat	content	none	
+tiger	28	tiger	content	none	
+giraffe	28	giraffe	content	none	
+boat	28	boat	content	binnu	
+motorcycle	28	motorcycle	content	none	
+potato	28	potato	content	none	
+button	28	button	content	none	clothing button; tinli is a device key/button
+coat	28	coat	content	none	
+face	28	face	content	suku	
+ear	28	ear	content	wisa	
+cheek	28	cheek	content	none	
+bathroom	28	bathroom	content	none	
+bed	28	bed	content	soti	
+TV	28	television	content	none	TV; merged with television
+scissors	28	scissors	content	none	
+medicine	28	medicine	content	none	
+towel	28	towel	content	none	
+aunt	28	aunt	content	none	
+daddy	28	father	content	wede	daddy; merged with father
+mommy	28	mother	content	mole	mommy; merged with mother
+drink (action)	28	drink	content	koye	
+sing	28	sing	content	yuyun	
+sleep	28	sleep	content	wopo	
+buy	28	buy	content	bika	
+break	28	break	content	alun	
+dance	28	dance	content	none	
+push	28	push	content	dandi	
+swim	28	swim	content	lonfe	
+yesterday	28	yesterday	content	afe	
+hot	28	hot	content	tikun	
+black	28	black	content	tago	
+big	28	big	content	kudu	
+heavy	28	heavy	content	gogo	
+green	28	green	content	gisu	
+empty	28	empty	content	tapun	
+white	28	white	content	pinda	
+1SG	28	I	grammar	to	
+2SG	28	you	grammar	me	
+more	28	more	grammar	ke	
+and	28	and	grammar	yen	
+but	28	but	grammar	un	
+bee	27	bee	content	none	
+pig	27	pig	content	none	
+bear	27	bear	content	none	animal
+ant	27	ant	content	tonde	
+bunny	27	rabbit	content	none	bunny; merged with rabbit
+balloon	27	balloon	content	none	
+bucket	27	bucket	content	none	
+juice	27	juice	content	none	
+cheese	27	cheese	content	none	
+coffee	27	coffee	content	none	
+carrot	27	carrot	content	none	
+diaper	27	diaper	content	none	
+sweater	27	sweater	content	none	
+pajamas	27	pajamas	content	none	
+chin	27	chin	content	none	
+tummy	27	belly	content	suyon	tummy; merged with belly
+refrigerator	27	fridge	content	none	refrigerator
+stairs	27	stairs	content	none	near ladder
+radio	27	radio	content	none	
+money	27	money	content	nimo	
+glasses	27	glasses	content	none	
+fork	27	fork	content	none	
+telephone	27	phone	content	liga	telephone; merged with phone
+hammer	27	hammer	content	none	
+store	27	shop	content	none	store; merged with shop
+school	27	school	content	none	
+house	27	house	content	guyi	
+swing (object)	27	swing	content	none	
+sky	27	sky	content	yaye	
+boy	27	boy	content	none	
+open (action)	27	open	content	benbi	
+throw	27	throw	content	gitin	
+take	27	take	content	yidu	
+put	27	put	content	yaga	
+cut	27	cut	content	fonsu	
+wait	27	wait	content	sefu	
+close	27	close	content	tapi	shut
+say	27	say	content	oyi	
+good	27	good	content	upe	
+broken	27	break	content	alun	broken; merged with break
+new	27	new	content	duwa	
+3SG	27	he/she	grammar	wan	3SG; 'it' is bu
+1PL	27	we	grammar	pen,din	WE.incl / WE.excl
+because	27	because	grammar	gi	
+helicopter	27	helicopter	content	none	
+leg	27	leg	content	bendo	
+tractor	26	tractor	content	none	
+yogurt	26	yogurt	content	none	
+candy	26	candy	content	none	
+food	26	food	content	pasu	
+jam	26	jam	content	none	
+underpants	26	underwear	content	none	underpants; merged with underwear
+scarf	26	scarf	content	none	
+dress (object)	26	dress	content	none	garment; near clothes (lonne)
+shirt	26	shirt	content	none	
+hand	26	hand	content	kiti	
+belly button	26	navel	content	wuwu	belly button; merged with navel
+couch	26	sofa	content	none	couch; merged with sofa
+key	26	key	content	tinli	
+toothbrush	26	toothbrush	content	none	
+camera	26	camera	content	kamela	
+cup	26	cup	content	ladon	
+trash	26	garbage	content	bekin	trash; merged with garbage
+plate	26	plate	content	none	
+snow	26	snow	content	binso	
+park	26	park	content	none	
+church	26	church	content	none	
+slide (object)	26	slide	content	none	playground slide
+teacher	26	teacher	content	none	
+sister	26	sister	content	faba	sibling
+brother	26	brother	content	faba	sibling
+child's own name	26	child's own name	name	none	
+bite	26	bite	content	lasu	
+hit	26	hit	content	payon	
+blow	26	blow	content	nanyo	
+pull	26	pull	content	nunya	
+clean (action)	26	clean	content	inan	clean (action); merged with clean
+morning	26	morning	content	leso	
+day	26	day	content	dili	
+bad	26	bad	content	yomo	
+happy	26	happy	content	sogi	
+fast	26	fast	content	yobe	
+blue	26	blue	content	deta	
+2SG.POSS	26	yours	grammar	me	2SG possessive
+when (question)	26	when	grammar	yu	WH + muyi
+under	26	below	content	deba	under; merged with below
+same	26	same	content	kige	
+turtle	26	turtle	content	noso gake	
+toy (object)	26	toy	content	none	
+beans	26	bean	content	none	
+slipper	26	slipper	content	none	
+picture	26	picture	content	none	
+see	26	see	content	nagu	
+that	26	that	grammar	ben	demonstrative
+all	26	all	grammar	we	
+wolf	25	wolf	content	none	
+butter	25	butter	content	none	
+pasta	25	pasta	content	none	
+salt	25	salt	content	bunwu	
+butt	25	buttocks	content	nunfo	butt; merged with buttocks
+washing machine	25	washing machine	content	none	
+lamp	25	lamp	content	none	
+brush (object)	25	brush	content	none	
+street	25	road	content	sola	street; merged with road
+girl	25	girl	content	none	
+look	25	look	content	miya	
+draw	25	draw	content	none	
+kick	25	kick	content	none	
+go	25	go	content	isi	
+stand	25	stand	content	kolu	
+kiss	25	kiss	content	none	
+soft	25	soft	content	tutin	
+full	25	full	content	kete	
+tired	25	tired	content	fadun	
+outside	25	outside	content	aban	
+fish (food)	25	fish	content	woga	fish as food
+room	25	room	content	fudon	
+work (action)	25	work	content	doku	
+chicken (animal)	24	chicken	content	yiban	
+penguin	24	penguin	content	none	
+peas	24	pea	content	none	
+tomato	24	tomato	content	none	
+nut	24	nut	content	none	
+jacket	24	jacket	content	none	near coat
+penis	24	penis	content	wento	
+comb (object)	24	comb	content	none	
+zoo	24	zoo	content	none	
+work (place)	24	workplace	content	none	work (place); compose pu doku
+child	24	child	content	tiwu	
+police	24	police	content	polisu	
+want	24	want	content	momu	
+touch	24	touch	content	sanne	
+climb	24	climb	content	falan	
+listen	24	listen	content	doma	
+later	24	later	grammar	none	near wo (AFTER)
+dry (description)	24	dry	content	kilan	
+yellow	24	yellow	content	bilun	
+wet (description)	24	wet	content	wulon	
+old	24	old	content	pani	
+1PL.POSS	24	ours	grammar	pen,din	1PL possessive
+inside	24	inside	content	bese	
+donkey	24	donkey	content	none	
+zebra	24	zebra	content	none	
+grapes	24	grape	content	none	
+garden	24	garden	content	none	
+long	24	long	content	netu	
+1SG.POSS	24	mine	grammar	to	1SG possessive
+which (question)	24	which	grammar	yu	WH
+fly (animal)	23	fly (insect)	content	gekon	
+strawberry	23	strawberry	content	none	
+tea	23	tea	content	none	
+shoulder	23	shoulder	content	sonyu	
+shower	23	shower	content	none	
+vacuum	23	vacuum cleaner	content	none	
+clock	23	clock	content	aya	
+potty	23	potty	content	none	
+home	23	house	content	guyi	home; merged with house
+tickle	23	tickle	content	none	
+stop	23	stop	content	bamo	
+paint (action)	23	paint	content	none	
+find	23	find	content	geno	
+hide	23	hide	content	mibun	
+high	23	high	content	tisan	
+hungry	23	hungry	content	monyu	
+3PL	23	they	grammar	none	compose wan la
+broom	23	broom	content	none	
+pool	23	pool	content	none	
+hear	23	hear	content	nulu	
+rice	23	rice	content	yegon	
+none	23	nothing	grammar	fa	none; merged with nothing
+owl	22	owl	content	none	
+squirrel	22	squirrel	content	none	
+blocks	22	block	content	none	toy blocks
+present	22	gift	content	none	present; merged with gift
+chips	22	chips	content	none	
+bib	22	bib	content	none	
+foot	22	foot	content	pifo	
+garage	22	garage	content	none	
+sink	22	sink	content	none	basin
+basket	22	basket	content	kanga	
+glass	22	glass	content	none	drinking glass; near cup (ladon); degun is the material
+snowman	22	snowman	content	none	
+forest	22	forest	content	none	
+beach	22	beach	content	none	
+drive	22	drive	content	none	
+hug	22	hug	content	none	
+catch	22	catch	content	none	
+after	22	after	grammar	wo	
+slow	22	slow	content	gake	
+hard	22	hard	content	gufu	
+down	22	below	content	deba	down; merged with below
+in	22	inside	content	bese	in; merged with inside
+shovel	22	spade	content	none	shovel; merged with spade
+roof	22	roof	content	kuwun	
+do	22	do	content	muge	
+finish	22	end	content	fugi	finish; merged with end
+show	22	show	content	wuye	
+behind	22	behind	content	nebe	
+cook	22	cook	content	siten	
+rooster	21	chicken	content	yiban	rooster; merged with chicken
+snake	21	snake	content	dinbu	
+puzzle	21	puzzle	content	none	
+pancake	21	pancake	content	none	
+cookie	21	cookie	content	none	
+shorts	21	shorts	content	none	
+tights	21	tights	content	none	
+belt	21	belt	content	none	
+living room	21	living room	content	none	
+stone	21	stone	content	lutu	
+flag	21	flag	content	none	
+man	21	man	content	lowu	
+cover (action)	21	cover	content	none	
+swing (action)	21	swing	content	none	
+feed	21	feed	content	none	near eat (nawi)
+bring	21	bring	content	none	compose dinyo obu
+first	21	first	grammar	mena	ordinal fi mena
+up	21	above	content	bige	up; merged with above
+goose	21	goose	content	none	
+chicken (food)	21	chicken	content	yiban	chicken as food
+glove	21	glove	content	none	
+arm	21	arm	content	inyi	
+bowl	21	bowl	content	none	
+drawer	21	drawer	content	none	
+talk	21	speak	content	kegu	talk; merged with speak
+wake	21	wake	content	unda	
+thirsty	21	thirst	content	none	thirsty; merged with thirst
+skirt	21	skirt	content	none	
+stroller	20	stroller	content	none	
+oven	20	oven	content	none	
+bag	20	bag	content	yufa	
+sand	20	sand	content	digan	
+party	20	party	content	none	celebration
+quiet	20	quiet	content	mange	
+little (description)	20	small	content	meli	little; merged with small
+3SG.POSS	20	his/her	grammar	wan	3SG possessive
+many	20	many	grammar	feli	quantifier
+so	20	so	grammar	none	therefore/thus
+crocodile	20	crocodile	content	none	
+stick	20	stick	content	kima netu	
+sandwich	20	sandwich	content	none	
+necklace	20	necklace	content	none	
+light (object)	20	lamp	content	none	light (object); merged with lamp
+ladder	20	ladder	content	none	
+clown	20	clown	content	none	
+have	20	have	content	ibe	
+lick	20	lick	content	none	
+with	20	with	grammar	gan	WITH
+pear	20	pear	content	none	
+game	19	game	content	bufe	
+sausage	19	sausage	content	none	
+pizza	19	pizza	content	none	
+zipper	19	zipper	content	none	
+lip	19	lip	content	gonge	
+hurry	19	hurry	content	none	
+taste	19	taste	content	tenmi	
+carry	19	carry	content	dinyo	
+before	19	before	grammar	ya	
+sad	19	sad	content	bayi	
+if	19	if	grammar	don	
+bug	19	insect	content	sunni	bug; merged with insect
+deer	19	deer	content	none	
+tissue	19	tissue	content	none	paper tissue
+stove	19	stove	content	none	
+wipe	19	wipe	content	none	
+2PL	19	you (plural)	grammar	none	compose me la
+pen	19	pen	content	none	
+like	19	like	content	tana	enjoy
+neck	19	neck	content	mogo	
+raisin	18	raisin	content	none	
+bathtub	18	bathtub	content	none	
+closet	18	wardrobe	content	none	closet; merged with wardrobe
+glue (object)	18	glue	content	none	
+playground	18	playground	content	none	
+person	18	person	content	ewo	
+pour	18	pour	content	none	
+sweep	18	sweep	content	none	
+laugh	18	laugh	content	bubo	
+fix	18	repair	content	none	fix; merged with repair
+clap	18	clap	content	none	
+nice	18	pleasant	content	none	nice; merged with pleasant
+brown	18	brown	content	none	
+on	18	on	grammar	none	near mon (AT), bige (above)
+other	18	other	grammar	eni	
+story	18	story	content	weyu	
+boots	18	boot	content	none	
+be	18	be	grammar	gun	copula
+think	18	think	content	pume	
+cute	18	cute	content	none	
+orange (description)	18	orange (colour)	content	none	colour sense
+another	18	other	grammar	eni	another; merged with other
+pretty	18	beautiful	content	sesa	pretty; merged with beautiful
+out	18	outside	content	aban	out; merged with outside
+goat	18	goat	content	elen	
+firetruck	17	fire truck	content	none	
+porridge	17	porridge	content	none	
+sauce	17	sauce	content	none	
+cucumber	17	cucumber	content	none	
+gum	17	chewing gum	content	none	
+sugar	17	sugar	content	none	
+bedroom	17	bedroom	content	pu wopo	
+pot	17	pot	content	none	cooking pot
+hold	17	hold	content	yonnu	
+tear	17	tear	content	none	rip
+naughty	17	naughty	content	none	
+sleepy	17	sleepy	content	none	near tired (fadun)
+above	17	above	content	bige	
+melon	17	melon	content	none	
+love	17	love	content	wigen	
+spill	17	spill	content	none	
+angry	17	angry	content	bonko	
+a lot	17	many	grammar	feli	a lot; merged with many
+watermelon	17	watermelon	content	none	
+soda	17	soda	content	none	
+spider	16	spider	content	noso meli pi bendo feli	
+pacifier	16	pacifier	content	none	
+mirror	16	mirror	content	none	
+firefighter	16	firefighter	content	none	
+smile	16	smile	content	none	
+dry (action)	16	dry	content	kilan	dry (action); merged with dry
+build	16	build	content	selo	
+shake	16	shake	content	susin	
+careful	16	careful	content	none	
+last	16	last	content	none	final/previous
+then	16	then	grammar	none	sequence/at that time
+crayon	16	crayon	content	none	
+corn	16	maize	content	none	corn; merged with maize
+lollipop	16	lollipop	content	none	
+pet's name	16	pet's name	name	none	
+awake	16	wake	content	unda	awake; merged with wake
+some	16	some	grammar	in	SOME
+movie	16	film	content	none	movie; merged with film
+fox	15	fox	content	none	
+bun	15	bun	content	none	
+toast	15	toast	content	none	toasted bread
+toe	15	toe	content	gonmi	
+breast	15	breast	content	egu	
+balcony	15	balcony	content	none	
+carpet	15	carpet	content	none	
+gas station	15	gas station	content	none	
+yard	15	yard	content	none	
+knock	15	knock	content	none	
+ride	15	ride	content	none	
+get	15	get	content	dunu	
+evening	15	evening	content	kegin	
+these	15	this	grammar	tan	these; merged with this (tan la)
+again	15	again	grammar	moti	
+bubbles	15	bubble	content	none	
+water (not beverage)	15	water	content	osa	
+rock (object)	15	stone	content	lutu	rock; merged with stone
+circus	15	circus	content	none	
+people	15	person	content	ewo	people; merged with person
+scared	15	fear	content	nuta	scared; merged with fear
+next to	15	near	content	gelu	next to; merged with near
+far	15	far	content	lini	
+little (amount)	15	few	grammar	uyo	little (amount); merged with few
+also	15	also	grammar	fe	
+t-shirt	15	T-shirt	content	none	
+hose	15	hose	content	none	
+to	15	to	grammar	tun	TO
+back (location)	15	behind	content	nebe	back (location); merged with behind
+sea	15	sea	content	puya	
+nail (body part)	15	nail	content	tolin	of finger/toe
+one	15	one	grammar	fi	

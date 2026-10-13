@@ -32,3 +32,13 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - [x] All four back-translations done. Lengths (measure.py): base 5,190 syllables; 1000 95%; 1500 95%; 2000 92%. Placeholder uses 272 / 353 / 411 (117 / 169 / 202 distinct). Caveat: each size had its own translator agent, so style varies between sizes.
 - [ ] Scoring: two agents (texts 01–10 → part2/scores-a.tsv, 11–20 → scores-b.tsv; details part2/scores-detail/NN.md). Then the author sheet.
 - [x] Scoring done: `RESULTS.md` (copied to the author's notes). Exact 89.6 / 89.9 / 90.9 / 92.4 %; length 100 / 95 / 95 / 92 %. Waiting on the author: their judging sheet (`~/research/Language/apupiwe-coverage/judging-sheet.md`, texts 01 05 09 15 19, A = base, B = 2000) and the next-step decision.
+
+## Rerun (option a, author 2026-10-13)
+
+- [x] Speech added to Part 1: OpenSubtitles 2018 lists (hermitdave/FrequencyWords) for 15 languages (tl skipped: mostly English), cached in `~/work/cache/coverage/subs/`; `concepts.py speech`; each language's share is the mean of its text and speech shares (`--text-only` for the old list). Home words moved up (salad 6,961 → 2,152, towel 14,953 → 2,517, lemon 8,103 → 4,265) but not all (pepper, torch, fork).
+- [x] Deep layer: Wordbank WS checklists (30 languages with uni_lemma; cached in `~/work/cache/coverage/wordbank/`) → `wordbank.tsv`; 511 concepts on at least half the lists.
+- [x] Merge: `merged-add.tsv` (328 labels; 180 new uncovered), `wordbank-merged.tsv` (511; 93 new uncovered); canon.txt 2,608.
+- [x] Root lists in `part2b/roots-N.txt` (235 uncovered deep-layer concepts, then 1,611 frequency; roots-1000 shares 286 of 484 with the first run; no root today for duck, sheep, apple, hat, shoe, chair, window, table, spoon, knife, soap…): uncovered deep-layer (Wordbank ≥ 15 languages) concepts first, then frequency candidates by the new rank, until N.
+- [ ] Translate (running: T1 01–05, T2 06–10, T3 11–15, T4 16–20; prompts made from `prompts/translate2.md` with {TEXTS}, {AGENT}): 4 agents × 5 texts, each doing base → 1000 → 1500 → 2000 by editing its own previous version (`prompts/translate2.md`). Then back-translate (one cold agent per size, `prompts/back.md` with part2b paths), score (2 agents), measure.
+- [ ] Author: phrase guesses (`~/research/Language/apupiwe-coverage/phrase-guesses.md`; key in `guess/items.tsv`).
+- AI guesses (blank sheet) in guess/ai-guesses.tsv: 26–27 of 30 right (misses: cash → banknote, bank card → credit card (close), doctor → nurse, printer → keyboard). Don't show the author until their sheet is done. (guess/ai-guesses-contaminated.tsv saw the author's first six answers.)

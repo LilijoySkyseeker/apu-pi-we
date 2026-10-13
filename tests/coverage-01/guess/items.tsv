@@ -1,0 +1,31 @@
+n	literal	context	phrase	answer	source
+1	black drink	at a café, offered along with no. 2	koye tago	coffee	03 base
+2	drink of leaves	at a café	koye pi wonin	tea	03 base
+3	sweet thing	you put it in no. 1	musu sinta	sugar	03 base
+4	cold box	in the kitchen; you keep food in it	nansa weki	fridge	01/06
+5	fat of milk	a recipe: melt it in the pan	gimen pi tunlo	butter	19
+6	water of food	a restaurant: the first course	osa pi pasu	soup	05 base
+7	eating-tool of teeth	a recipe: beat the eggs with it	du nawi pi fonma	fork	19
+8	flat container	a recipe: heat it on the stove	nansa mawun	frying pan	19
+9	sweet ice	a restaurant: for dessert	nokun sinta	ice cream	05
+10	red drink	a restaurant: ordered with the fish	koye wiwi	(red) wine	05 base
+11	black seed	a recipe: add salt and this	yikan tago	(black) pepper	19
+12	sour fruit	a restaurant: tea with this	tanun tufun	lemon	05
+13	glass container	a restaurant: one of these of no. 10	nansa degun	bottle	05
+14	long cart of below	getting around a big city	siwa netu pi deba	subway	12/13
+15	foot cart that has power	a taxi ride in Nairobi	siwa pi pifo man ibe lula	motorcycle	15 base
+16	money of paper	paying in a shop	nimo pi mabo	cash	12
+17	card of money	you lost it: call your bank	mise pi nimo	bank card	16
+18	turning tool	opening up a computer	du duko	screwdriver	20
+19	light tool	looking inside a computer	du wino	flashlight	20
+20	wind tool	advice for a heat wave	du gulo	fan	18
+21	erasing tool	cleaning the gold contacts on a computer card	du nuton	eraser	20
+22	room-cold tool	advice for a heat wave	du weki fudon	air conditioner	18
+23	one who helps the sick	at a clinic	no yema simi	doctor	01 base
+24	thing for helping the sick	the clinic gives it to the child	du yema simi	medicine	01 base
+25	one who carries food	at a restaurant	no dinyo pasu	waiter	05
+26	moved eggs	the title of a recipe	tika kobi	scrambled eggs	19
+27	raw plants	a restaurant: a starter	pinfe bewon	salad	05
+28	writing tool	a list of computer equipment	du tusi	printer	20
+29	moving tool	a list of computer equipment	du kobi	(computer) mouse	20
+30	watery pooping	at a clinic: the child has this	desin osa	diarrhea	01 base

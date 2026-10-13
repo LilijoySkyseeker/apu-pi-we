@@ -70,6 +70,27 @@ def freq(code):
     print(code, len(rows), "words", flush=True)
 
 
+SUBS = {"zh": "zh_cn", "ja": "ja", "ko": "ko", "vi": "vi", "th": "th", "id": "id", "hi": "hi", "bn": "bn", "ta": "ta",
+        "fa": "fa", "ar": "ar", "tr": "tr", "ru": "ru", "es": "es", "fr": "fr"}  # OpenSubtitles 2018 (tl: mostly English, skipped)
+
+
+def speech(code):
+    """Speech-like frequencies: OpenSubtitles 2018 lists (hermitdave/FrequencyWords), cached in CACHE/subs."""
+    if code not in SUBS:
+        return
+    counts = collections.Counter()
+    for line in open(os.path.join(CACHE, "subs", f"{SUBS[code]}_50k.txt"), encoding="utf-8"):
+        parts = line.split()
+        if len(parts) == 2 and WORDLIKE.match(parts[0]):
+            counts[parts[0].lower()] += int(parts[1])
+    total = sum(counts.values())
+    with open(os.path.join(DATA, f"sfreq-{code}.tsv"), "w") as f:
+        f.write("word\tfreq\n")
+        for w, c in counts.most_common(N):
+            f.write(f"{w}\t{c / total:.3e}\n")
+    print(code, "speech", min(N, len(counts)), "words", flush=True)
+
+
 def kaikki(name):
     path = os.path.join(CACHE, f"kaikki-{name}.jsonl.gz")
     if not os.path.exists(path):
@@ -112,7 +133,11 @@ FORM_GLOSS = re.compile(r"\b(form|plural|spelling|stem|inflection|participle|ten
 
 def gloss(code):
     name, _ = LANGS[code]
-    words = [l.split("\t")[0] for l in open(os.path.join(DATA, f"freq-{code}.tsv")).read().split("\n")[1:] if l]
+    words = []
+    for fn in (f"freq-{code}.tsv", f"sfreq-{code}.tsv"):  # text and, where there is one, speech
+        if os.path.exists(os.path.join(DATA, fn)):
+            words += [l.split("\t")[0] for l in open(os.path.join(DATA, fn)).read().split("\n")[1:] if l]
+    words = list(dict.fromkeys(words))
     want = {norm(code, w) for w in words}
     senses = {}                      # lemma (lowercase) -> list of (pos, label)
     lemma_of = collections.defaultdict(list)  # surface form -> lemmas
@@ -174,27 +199,38 @@ def gloss(code):
     print(f"{code}: {len(words) - unmatched}/{len(words)} words matched", flush=True)
 
 
+SPEECH = True
+
+
 def build():
     shares = {}
     for code in LANGS:
         path = os.path.join(DATA, f"gloss-{code}.tsv")
         if not os.path.exists(path):
             continue
-        fr = dict(l.split("\t") for l in open(os.path.join(DATA, f"freq-{code}.tsv")).read().split("\n")[1:] if l)
-        sc = collections.Counter()
+        gl = {}
         for l in open(path).read().split("\n")[1:]:
-            if not l:
+            if l:
+                w, _, labs = l.split("\t")
+                gl[w] = [x for x in labs.split(" | ") if x]
+        per_source = []
+        for fn in (f"freq-{code}.tsv", f"sfreq-{code}.tsv"):
+            fp = os.path.join(DATA, fn)
+            if not os.path.exists(fp) or (fn.startswith("s") and not SPEECH):
                 continue
-            w, _, labs = l.split("\t")
-            labs = [x for x in labs.split(" | ") if x]
-            if not labs:
-                continue
-            wt = [1 / (i + 1) for i in range(len(labs))]
-            for lab, x in zip(labs, wt):
-                if lab != "#fn":
-                    sc[lab] += float(fr[w]) * x / sum(wt)
-        total = sum(sc.values())
-        shares[code] = {k: v / total for k, v in sc.items()}
+            fr = dict(l.split("\t") for l in open(fp).read().split("\n")[1:] if l)
+            sc = collections.Counter()
+            for w, f in fr.items():
+                labs = gl.get(w, [])
+                wt = [1 / (i + 1) for i in range(len(labs))]
+                for lab, x in zip(labs, wt):
+                    if lab != "#fn":
+                        sc[lab] += float(f) * x / sum(wt)
+            total = sum(sc.values())
+            per_source.append({k: v / total for k, v in sc.items()})
+        # one vote per language: text and speech shares averaged
+        keys = set().union(*per_source)
+        shares[code] = {k: sum(s.get(k, 0) for s in per_source) / len(per_source) for k in keys}
     floor = 1e-7
     concepts = set().union(*[s.keys() for s in shares.values()])
     rows = []
@@ -212,10 +248,15 @@ def build():
 
 
 if __name__ == "__main__":
+    SPEECH = "--text-only" not in sys.argv
+    sys.argv = [a for a in sys.argv if a != "--text-only"]
     cmd, args = sys.argv[1], sys.argv[2:] or list(LANGS)
     if cmd == "freq":
         for c in args:
             freq(c)
+    elif cmd == "speech":
+        for c in args:
+            speech(c)
     elif cmd == "gloss":
         for c in args:
             gloss(c)
