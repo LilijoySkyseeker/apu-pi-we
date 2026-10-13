@@ -22,6 +22,7 @@ LEX = W.read("lexicon.tsv")
 OPS2 = {"genso", "wanme", "inwun", "wemen", "konsin", "nedin", "tason", "mesun", "manni", "buntu", "buni", "donon", "lanno", "anko", "nuwen", "kiyo"}
 NUMS = {r["form"] for r in W.read("numbers.tsv")} | {w["form"] for w in LEX if w["field"] == "number"}
 CONTENT = sorted({w["form"] for w in LEX} - OPS2 - NUMS)
+NAME_ENDS = {r["form"] for r in W.read("grammar.tsv")} | OPS2 | NUMS
 
 
 GRAMMAR = r"""
@@ -38,13 +39,13 @@ actp: ("genso" | "ba")? ACT "nun"* | "nun"+
 clop: "kon" (N | "bo") | SOURCE
 clause: (np | heavy)? predicate (","? JOIN (np | heavy)? predicate)*
 heavy: np ","
-predicate: phop* "manni"? asp* C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
-// C (phop+ C): verb, operator, verb, as in keya mu neke "must not give"
+predicate: phop* "manni"? (asp* | "le" "mu") C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
+// C (phop+ C): verb, operator, verb, as in keya mu neke "must not give"; le mu "still not" (8.1.3)
 result: phop* C  // after a pronoun object: muge go bi yomo, "make/do it so" (4.2)
 longobj: np
 obj: np
 gunarg: np obj? result? | relp | "wun" clause
-trail: relp | ","? subcl | "wun" "min"? clop* clause
+trail: ","? relp | ","? subcl | "wun" "min"? clop* clause
 relp: phop* REL (np | np predicate | relp) | "li" C obj | "li" "gun" gunarg  // li + verb + its object: purpose
 np: phop* head det* ("pi" npi)* relcl? (JOIN np)?
 npi: phop* head det* ("pi" npi)* relcl?  // a pi phrase is one noun: a yen/lu list stays outside it (5.2)
@@ -91,7 +92,11 @@ def chunk(sentence):
             i += 1
             continue
         if w == "en" and i + 1 < len(words):
-            out.append("NAME"); i += 2; continue
+            # a name runs to the next grammar word or pause (11.1)
+            i += 2
+            while i < len(words) and words[i] != "," and words[i] not in NAME_ENDS:
+                i += 1
+            out.append("NAME"); continue
         if w in NUMS:
             kind = "N"
         elif w in CONTENT or w.startswith("[") or w not in GRAMMAR_WORDS:

@@ -1,9 +1,15 @@
 # Questions for the author (from building the core grammar, phase 2)
 
+All twelve resolved by the author on 2026-10-12 (design log: "Grammar clarifications" and the decisions before it);
+each question says how, and the grammar now follows the answer.
+
 Each one is a place where the reference is unclear, or an example needs a rule the reference doesn't state.
 The grammar works around each as noted; nothing here was decided for you.
 
 ## 1. ibe with no subject: always "there is"? (4.7.7, 4.5.1)
+
+**Resolved (author, 2026-10-12): (a).** Subjectless **ibe** is always "there is" (4.7.7 says so); the UDHR names
+the subject where it meant "(they) have". Grammar unchanged: one tree.
 
 4.7.7 says "there is" is **ibe** with no subject, and 4.5.1 lets any subject drop. So **ibe pasu** could be
 "there's food" or "(they) have food". The UDHR uses the second: **ewo we … , yen ibe bawe kige** "(they) have
@@ -15,6 +21,10 @@ equal dignity".
 
 ## 2. Is manner just fu "like" + a word? (4.2.4, 4.4.1, template slots 10-11)
 
+**Resolved (author, 2026-10-12): (a).** Manner is the ordinary **fu** relation phrase; the manner slot is gone and
+the template has 13 slots. A bare word after a verb with no object stays (**oyi fanse**). Grammar: `FuManner`
+removed; `Manner` keeps only the bare word.
+
 Manner is **fu** + word (slot 10), and **fu** "like" is also a relation word (slot 11). Since any word can be
 a thing, **fu yobe** is also "like speed". So there are two analyses of one meaning, and the slot order
 can't be enforced: **nawi pasu mon guyi fu yobe** parses, with **fu yobe** as a relation phrase.
@@ -25,6 +35,10 @@ can't be enforced: **nawi pasu mon guyi fu yobe** parses, with **fu yobe** as a 
 
 ## 3. Verb + verb: what do later phrases attach to? (4.2.6, 4.4.4)
 
+**Resolved (author, 2026-10-12): (a).** Later phrases go with the second, nearest verb (4.2.6, example **momu isi
+tun guyi**). Grammar: `ComplVV` and `GunVV` take a whole verb phrase, and a flag stops phrases attaching to the
+first verb.
+
 In **momu isi mon guyi**, does **mon guyi** go with **isi** ("want [to go home]") or with **momu**?
 - Options: (a) innermost, the second verb, like 4.4.4's rule for clauses. (b) the first verb.
 - Recommendation: (a). It's consistent with 4.4.4 and with how speakers of most languages hear it.
@@ -32,6 +46,9 @@ In **momu isi mon guyi**, does **mon guyi** go with **isi** ("want [to go home]"
   first verb. One reading either way, so this is easy to switch.
 
 ## 4. "whose" for things and plurals (5.3.7)
+
+**Resolved (author, 2026-10-12): (a).** **pi** + the pronoun that fits: **pi wan**, **pi bu**, **pi wan la** (5.3.7).
+Grammar: `RelWhose` takes all three.
 
 5.3.7 says **pi wan** inside the clause points back to the noun. **wan** is a person or animal (10.3.1).
 What about a thing (**guyi man beya pi bu gun tapi** "the house whose door is closed") or a plural
@@ -42,6 +59,12 @@ What about a thing (**guyi man beya pi bu gun tapi** "the house whose door is cl
 
 ## 5. Names of more than one word (11.1)
 
+**Resolved (author, 2026-10-12): neither option.** A name after **en** runs until the next grammar word or pause;
+names are written with no grammar words inside (11.1). So a content word right after a name needs a grammar
+word or a pause first: **o en tomas yidu bu** became **o en tomas sin yidu bu**, and **guyi man en mara yen en tomas
+ibe** became **guyi man en mara yen to ibe**. Grammar: `tools/gf_check.py` joins a name's words into one token
+before parsing (the rule is about where a name ends, so it lives in the tokenizer); `tools/parse.py` does the same.
+
 **en xi jinping**: where does a name end? A name keeps its owner's spelling, so the next word may be a
 name word or Apupiwe (**en tomas yidu bu**).
 - Options: (a) a name of more than one word is followed by a pause or **kiyo**, like an open phrase.
@@ -50,6 +73,9 @@ name word or Apupiwe (**en tomas yidu bu**).
 - Grammar now: a name is one word after **en**.
 
 ## 6. Examples made only of grammar words: utterances or citations? (6.1.2, 6.2.3, 7.1.1, 8.1.3, 12.1)
+
+**Resolved (author, 2026-10-12): (a) for all.** They are citations, not sentences; the checker already treats
+them so. (**mu sin** is now "not done, didn't"; "not yet" is **le mu**, also a citation.)
 
 **tin mu** "don't", **de din** "we will", **mu sin** "not yet", **wi don** "even if", **kon bo**, **don kon fi**.
 Some read as answers with the verb left out (4.5.1): "Will you come?" → **de din**. The grammar can't take
@@ -63,6 +89,8 @@ Some read as answers with the verb left out (4.5.1): "Will you come?" → **de d
 
 ## 7. The pause between joined verbs (4.6.6, 4.4.7)
 
+**Resolved (author, 2026-10-12): (a).** 4.6.6 now says so (**to nawi pasu, yen wopo**). Grammar unchanged.
+
 4.6.6 puts a pause between clauses joined by **yen**, **lu** or **un** when the first ends in a noun. Does
 this hold for verbs joined without a second subject (4.4.7)? Without the pause, **to nawi pasu yen wopo**
 reads **pasu yen wopo** as a list (or **pasu** as a manner word: "eat foodly and sleep"); with it,
@@ -72,6 +100,12 @@ reads **pasu yen wopo** as a list (or **pasu** as a manner word: "eat foodly and
 - Grammar now: (a).
 
 ## 8. Which pauses are optional? (4.6.5, 4.4.4, 5.3.5)
+
+**Resolved (author, 2026-10-12).** The 4.6.5 pause between a recipient and the thing is optional, recommended when
+the thing is several words or has a relative clause; **kiyo** closes only relative clauses, phrasal derived words
+and topics, not trailing clauses (4.4.4, 5.3.5). Grammar: `ComplV3P` allows the optional pause after a closed
+recipient; **kiyo** unchanged. Still strict elsewhere: no pause between joined verbs or clauses when the first
+ends in a verb or quality, and none inside a noun list (the UDHR was adjusted to fit).
 
 The grammar is strict: a pause goes only where something open must be closed, and in the fixed places 4.6
 lists (after openers and calls, before stance, in dates, between joined clauses after a noun).
@@ -85,6 +119,9 @@ lists (after openers and calls, before stance, in dates, between joined clauses 
 
 ## 9. gi + noun phrase (4.8.3, 4.3.6, 4.4.1, 13.1)
 
+**Resolved (author, 2026-10-12): (a), keeping gi tan as a linker.** **gi** "because of" is in the relation-word
+lists (4.4.1, 13.1). Grammar unchanged: at the start of a sentence **gi tan ,** is read only as the linker.
+
 **gi yu** "why" and **gi tan** "so" use **gi** with a noun phrase, but **gi** is listed only as a linker
 taking a clause, not among the relation words (4.4.1, 13.1).
 - Options: (a) **gi** is also a relation word, "because of", in the 4.4.1 list. Then a sentence-initial
@@ -96,6 +133,8 @@ taking a clause, not among the relation words (4.4.1, 13.1).
 
 ## 10. gun + action word + verb (12.2, 4.7.4, 4.2.6)
 
+**Resolved (author, 2026-10-12): (a).** Stated in 12.2. Grammar: `GunVV` (now with the attachment of question 3).
+
 **me gun efon nawi** "you may eat" needs the undergoer's state (**gun efon** "be allowed", 4.7.4) to take a
 verb as its object (4.2.6). Each rule is stated, but not the combination.
 - Options: (a) state it: **gun** + an action word that takes an object can take a verb as that object.
@@ -105,10 +144,15 @@ verb as its object (4.2.6). Each rule is stated, but not the combination.
 
 ## 11. Two stance words (7.2.7)
 
+**Resolved (author, 2026-10-12): one pause before both** (**wan sin oyi bu, a min.**; 7.2.7). Grammar: `StanceMin`
+changed to match.
+
 "If two stance words occur, **min** comes last": one pause before both, or one before each?
 - Grammar now: one before each (**…, a, min**). No example uses it.
 
 ## 12. dunan: time word or nature word? (8.2.1; data)
+
+**Resolved (author, 2026-10-12): (a).** **dunan** is in field "time" in `lexicon.tsv`; `TIME_EXTRA` no longer lists it.
 
 8.2.1 lists **dunan** "month" among the time roots; `lexicon.tsv` puts it in the field "nature" (moon). The
 grammar needs time words for 4.4.1 (wo/ya after a time) and for dates (8.3.3).

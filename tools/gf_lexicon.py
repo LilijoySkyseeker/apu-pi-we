@@ -23,10 +23,10 @@ DATA = os.path.join(ROOT, "data")
 OUT = os.path.join(ROOT, "grammar")
 
 # The two-syllable operators kept in lexicon.tsv (language.md 13.2): grammar words, not content words.
-OPS2 = set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo".split())
+OPS2 = set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo dife".split())
 GENDER = {"futa", "lowu"}            # 5.2.2, 5.4.4
 RESULT = {"muge"}                    # 4.2.7
-TIME_EXTRA = {"awuwa", "minitu", "sekandu", "dunan"}  # 8.2.5 loans; 8.2.1 lists dunan (field "nature": moon)
+TIME_EXTRA = {"awuwa", "minitu", "sekandu"}  # 8.2.5 loans
 VERBISH = {"action", "motion", "sense", "mind"}
 ADJISH = {"quality", "size", "color", "taste"}
 # English where the gloss's first sense gives a poor word for a role.

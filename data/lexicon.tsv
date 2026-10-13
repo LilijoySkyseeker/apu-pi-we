@@ -33,7 +33,7 @@ ground, earth or soil	nature	3	fowo
 stone	nature	3	lutu
 sky	nature	2	yaye
 sun	nature	3	giwe
-month; moon	nature	2	dunan
+month; moon	time	2	dunan
 star	nature	2	uwan
 rain	nature	3	gegi
 wind	nature	2	gulo
@@ -516,3 +516,4 @@ until, up to (a time or point)	time	3	anko
 without	abstract	3	nuwen
 oppose, be against	action	3	ninsu
 end of phrase (closes a relative clause, phrasal derived word or topic)	abstract	3	kiyo
+number label, ordinal (day 3, the third)	abstract	3	dife

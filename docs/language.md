@@ -72,13 +72,12 @@
 | 5 | Clause operators | confidence **kon** + number, source **wanme**/**inwun**/**wemen** | 6.1 |
 | 6 | Subject | a noun phrase (section 5) | |
 | 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
-| 8 | Verb | one verb, or verb + verb (4.2) | |
+| 8 | Verb | one verb, or verb + verb; with no object, a bare word right after the verb says how | 4.2 |
 | 9 | Objects | recipient, then thing | 4.2 |
-| 10 | Manner | how it is done: **fu** + word after an object, a bare word after a verb with no object | 4.2 |
-| 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
-| 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
-| 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
-| 14 | Calling someone | a pause, then a person word | 10.1 |
+| 10 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li**, **fu** … + noun phrase or clause; **fu** + a word says how | 4.4, 4.2 |
+| 11 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
+| 12 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
+| 13 | Calling someone | a pause, then a person word | 10.1 |
 
 ### 4.2 The verb and its objects
 
@@ -88,10 +87,10 @@
   - for a description of a noun ("the person who walks", "the house that is big"), use **man**: **ewo man niba**, **guyi man gun kudu**.
 - <span id="r-4-2-2"></span>A bare noun followed by a word (**guyi kudu**, **ewo niba**) may be a description or a statement. Context decides, and the clear forms above remove any doubt.
 - <span id="r-4-2-3"></span>Any content word can take any role by its position. As an object, or with a derivation marker, it is a noun (**sepi** "apologise / an apology").
-- <span id="r-4-2-4"></span>How something is done comes after the verb and its objects, with **fu** "like": **nawi pasu fu yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".
+- <span id="r-4-2-4"></span>How something is done is said with **fu** "like", an ordinary relation phrase after the verb and its objects: **nawi pasu fu yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".
 - <span id="r-4-2-5"></span>With two objects, the recipient comes first and then the thing: **tofo me nuta** "teach you fear".
-- <span id="r-4-2-6"></span>When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking".
-- <span id="r-4-2-7"></span>**muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then **fu** + a manner, it means "do (it) so": **muge tan fu upe** "do this well".
+- <span id="r-4-2-6"></span>When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking". Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi tun guyi** "want to go home".
+- <span id="r-4-2-7"></span>**muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then a **fu** phrase saying how, it means "do (it) so": **muge tan fu upe** "do this well".
 - <span id="r-4-2-8"></span>A command needs **tin**, or **so** for a request. Without a particle, a sentence is a statement.
 
 ### 4.3 Openers
@@ -105,17 +104,17 @@
 
 ### 4.4 Clauses and relation phrases
 
-- <span id="r-4-4-1"></span>A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".
+- <span id="r-4-4-1"></span>A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, **gi** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow". **gi** with a noun phrase gives **gi yu** "why" and **gi tan** "so" (because of this).
 - <span id="r-4-4-2"></span>A relation word may drop its object when context supplies it, as in **wo** "after that" and **ya** "beforehand". It then ends its clause or comes before a pause.
 - <span id="r-4-4-3"></span>A relation word can take a clause (**wo wan la yidu ewo bo** "after they took someone") or an action noun (**se kusa** "from leaving").
-- <span id="r-4-4-4"></span>A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".
+- <span id="r-4-4-4"></span>A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first (**kiyo** doesn't, 5.3): **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".
 - <span id="r-4-4-5"></span>**yen** "and", **lu** "or" and **un** "but" join nouns, verbs, modifiers or clauses. Nouns in a list are joined with **yen**: **mole yen wede** "mother and father". **lu X lu Y** means "either X or Y, not both".
 - <span id="r-4-4-7"></span>Verbs joined by **yen**, **lu** or **un** are separate predicates. Operators and aspect words before one of them cover only that verb, and an object after the last verb belongs to it: **wan mu nawi yen wopo** "she doesn't eat, and she sleeps"; **to nagu yen yidu bu** "I see (it) and take it".
 - <span id="r-4-4-6"></span>A quote is framed by a say-verb, and in writing it goes in quotation marks. It is its own sentence with its own speech-act particle. Broken-off speech just stops.
 
 ### 4.5 Leaving things out
 
-- <span id="r-4-5-1"></span>Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".
+- <span id="r-4-5-1"></span>Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili dife ufo.** "see you all Saturday".
 - <span id="r-4-5-2"></span>**gun** with no subject is "(it) is", like any verb with its subject left out: **gun nimo** "(it's) money". With **gun** left out too, a bare state is fine: **bi upe.** "very good." "There is" is **ibe** "have" with no subject (4.7).
 - <span id="r-4-5-3"></span>When leaving something out could be unclear, say it.
 
@@ -125,10 +124,10 @@
 - <span id="r-4-6-2"></span>after someone called at the start, and before someone called at the end;
 - <span id="r-4-6-3"></span>after an opener (linker, scene, topic, if/when clause);
 - <span id="r-4-6-4"></span>after a subject that contains a clause or a phrasal derived word, before its verb (**no sanwa man … sin sege, keya unfu …**);
-- <span id="r-4-6-5"></span>between a recipient and a long object;
-- <span id="r-4-6-6"></span>between clauses joined by **yen**, **lu** or **un** when the first ends in a noun;
+- <span id="r-4-6-5"></span>between a recipient and the thing, where it helps: it is optional, and recommended when the thing is several words long or has a relative clause;
+- <span id="r-4-6-6"></span>between clauses joined by **yen**, **lu** or **un** when the first ends in a noun, and the same between joined verbs (4.4.7): **to nawi pasu, yen wopo** "I eat food, and sleep";
 - <span id="r-4-6-7"></span>before a stance word, and before the choice tag **yu** (4.8);
-- <span id="r-4-6-8"></span>between a larger and a smaller calendar unit (**dunan pi yawu, dili pi mape**);
+- <span id="r-4-6-8"></span>between a larger and a smaller calendar unit (**dunan dife yawu, dili dife mape**);
 - <span id="r-4-6-9"></span>after a relative clause, to close it before more material (or **kiyo**, 5.3).
 
 <span id="r-4-6-10"></span>In casual writing, pauses that context makes obvious may be dropped.
@@ -141,7 +140,7 @@
 - <span id="r-4-7-4"></span>**gun** before an action word gives the state of whoever undergoes the action: **gun tapi** "is closed", **wan gun kuwi** "she is protected", **to gun nuta** "I am feared". This holds for every action word, feelings included; the one who feels takes the plain verb (**to nuta** "I'm afraid").
 - <span id="r-4-7-5"></span>**gun** before a **wun** clause means "is that …".
 - <span id="r-4-7-6"></span>**gun** with no subject is always "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **go ibe sogan li gun kuwi** "everyone has the right to be protected", **wan obu yen gun simi** "she came and is sick".
-- <span id="r-4-7-7"></span>"There is" is **ibe** "have" with no subject: **ibe pasu** "there's food", **mu ibe pasu** "there's no food", **un, ibe musu feli** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".
+- <span id="r-4-7-7"></span>"There is" is **ibe** "have" with no subject, and **ibe** with no subject always means "there is": **ibe pasu** "there's food", **mu ibe pasu** "there's no food", **un, ibe musu feli** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".
 
 ### 4.8 Questions and answers
 
@@ -164,12 +163,12 @@
 - <span id="r-5-2-2"></span>Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
 - <span id="r-5-2-3"></span>Noun + noun is used only for gender and for the compounds in `compounds.tsv`. Other relations use **pi** or a relative clause.
 - <span id="r-5-2-4"></span>Numbers and times can stand alone as noun phrases: **yawu gun upe** "ten is fine", **wuma gun upe** "tomorrow is fine".
-- <span id="r-5-2-5"></span>A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2"), and a label also gives a place in order: **gimu pi ka** "the third time", **ewo pi fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi**, the phrase is a part: **fi pi ka** "one of three".
+- <span id="r-5-2-5"></span>A noun followed by a number is a count (**dili oma** "seven days"). A noun + **dife** + number is a label (**kemin dife sa** "document 2"), and a label also gives a place in order: **gimu dife ka** "the third time", **ewo dife fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **fi pi ka** "one of three".
 - <span id="r-5-2-6"></span>The plural word **la** is optional. A count or context can show plurality.
 - <span id="r-5-2-7"></span>There are no articles. Whether something is known or new is left to context, or shown with **tan**, **ben**, **bo** or a number.
 - <span id="r-5-2-8"></span>Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos".
 - <span id="r-5-2-9"></span>**pi** "of" links a noun to a noun: **guyi pi en mara** "Mara's house". Each **pi** attaches to the nearest noun before it, and its phrase is the nearest single noun after it, so a list joined by **yen** or **lu** is outside it: **enpa pi pume yen lite pi nosen** is "freedom of thought, and religion". To cover every item, repeat the head: **enpa pi pume yen enpa pi lite pi nosen** "freedom of thought and freedom of religion".
-- <span id="r-5-2-10"></span>"One's own" is **pi nen**: **to ibe guyi pi nen** "I have my own house". Since a **pi** phrase holds a single noun, two owners of one thing take a relative clause: **guyi man en mara yen en tomas ibe** "Mara and Tomas's house".
+- <span id="r-5-2-10"></span>"One's own" is **pi nen**: **to ibe guyi pi nen** "I have my own house". Since a **pi** phrase holds a single noun, two owners of one thing take a relative clause: **guyi man en mara yen to ibe** "Mara's and my house".
 
 ### 5.3 Relative clauses
 
@@ -178,11 +177,11 @@
 - <span id="r-5-3-3"></span>object: **mabo man me la yaga** "the papers you put";
 - <span id="r-5-3-4"></span>place or time, with the relation word at the end of the clause: **kemu man to nume mon** "the place where I live";
 - <span id="r-5-3-6"></span>any other relation, the same way: **yetu man to fonsu gan** "the tool I cut with";
-- <span id="r-5-3-7"></span>"whose", with **pi wan** inside the clause pointing back to the noun: **ewo man guyi pi wan gun kudu** "the person whose house is big".
+- <span id="r-5-3-7"></span>"whose", with **pi** + the pronoun that fits the noun (**pi wan**, **pi bu**, **pi wan la**) inside the clause pointing back to it: **ewo man guyi pi wan gun kudu** "the person whose house is big", **guyi man beya pi bu gun tapi** "the house whose door is closed".
 
 <span id="r-5-3-8"></span>If both the subject and the object are missing, the noun is the subject: **ewo man nagu** "the person who sees". For "the person I see", keep the subject: **ewo man to nagu**.
 
-<span id="r-5-3-5"></span>A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyo** "end of phrase", closes it, along with every relative clause still open: **to sin miya ewo man sigo kiyo nin leso** "I watched the person who came back, in the morning". **kiyo** is optional; use it where a missed pause could mislead.
+<span id="r-5-3-5"></span>A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyo** "end of phrase", closes it, along with every relative clause still open: **to sin miya ewo man sigo kiyo nin leso** "I watched the person who came back, in the morning". **kiyo** is optional; use it where a missed pause could mislead. It closes only the phrases that run on: relative clauses, phrasal derived words (5.4) and topics (4.3). A trailing clause (4.4.4) is closed by a pause.
 
 ### 5.4 Derived words
 
@@ -208,7 +207,7 @@
 ### 6.1 Clause operators
 
 <span id="r-6-1-1"></span>Clause operators start the clause (slot 5) and cover all of it.
-- <span id="r-6-1-2"></span>Confidence is **kon** + a number of sixths, the chance in 6 that the statement is true: **kon po** impossible, **kon fi** unlikely, **kon sa** doubtful, **kon ka** even odds, **kon da** likely, **kon te** very likely, **kon ufo** certain; **kon te mimi te** 5.5 in 6; **kon bo** "don't know how sure". An unmarked statement is believed. Exact probabilities use a number and **pasentu**.
+- <span id="r-6-1-2"></span>Confidence is **kon** + a number of sixths, the chance in 6 that the statement is true: **kon po** impossible, **kon fi** unlikely, **kon sa** doubtful, **kon ka** even odds, **kon da** likely, **kon te** very likely, **kon ufo** certain; **kon te mimi te** 5.5 in 6; **kon bo** "maybe, possibly", with no particular chance in mind: **kon bo wan obu** "maybe she's coming". An unmarked statement is believed. Exact probabilities use a number and **pasentu**.
 - <span id="r-6-1-3"></span>Source is optional: **wanme** seen, **inwun** told, **wemen** inferred.
 - <span id="r-6-1-4"></span>"Might" and "must" in the sense of *probably* are a matter of confidence: "She must be home" is **kon te wan gun mon guyi**.
 
@@ -216,11 +215,11 @@
 
 <span id="r-6-2-1"></span>Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**na mon funti, …** "only in the community, …"). Before the verb, they cover the predicate, which is the verb with everything after it in its clause. To negate a single phrase, put **mu** before that phrase: **wan doku mu mon guyi** "she works, but not at home".
 - <span id="r-6-2-2"></span>**mu** not (**to mu yidu bu** "I don't/didn't take it"; **mu mu** emphatic);
-- <span id="r-6-2-3"></span>**na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
+- <span id="r-6-2-3"></span>**na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas sin yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");
 - <span id="r-6-2-4"></span>to add a whole statement ("also, …"), start with **yen**; **fe** before the verb means the subject also does it;
 - <span id="r-6-2-5"></span>**konsin** at least; **nedin** almost;
 - <span id="r-6-2-6"></span>degree words **ke** more, **bi** very, **tason** rather (**ke kudu** "bigger"; **nimo ke uyo** "less money").
-- <span id="r-6-2-7"></span>Before the verb, the order is phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**.
+- <span id="r-6-2-7"></span>Before the verb, the order is phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**. The one exception is **le mu** "still not" (8.1).
 
 ## 7. Speech acts and stance
 
@@ -243,7 +242,7 @@
 - <span id="r-7-1-3"></span>**genso** or **ba** may modify the act from in front of its particle: **genso min me lugo** "as if you'd know"; **ba min** is a surprised or indignant question.
 - <span id="r-7-1-4"></span>Someone else's intention is reported (**inwun**) or stated with time words and **kon**; in the reference variety, **de** is for the speaker's own commitment.
 
-### 7.2 Stance (slot 13)
+### 7.2 Stance (slot 12)
 
 <span id="r-7-2-1"></span>After a pause at the end, a word can comment on the whole sentence, whatever its speech act:
 - <span id="r-7-2-2"></span>**min** "…, right?" (checks);
@@ -251,7 +250,7 @@
 - <span id="r-7-2-4"></span>**buni** "okay?" (softens, invites agreement): **so pen isi, buni.**;
 - <span id="r-7-2-5"></span>**donon** "it turned out" (against expectation): **wan gun no ibe guyi, donon.**
 - <span id="r-7-2-6"></span>A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.**
-- <span id="r-7-2-7"></span>If two stance words occur, **min** comes last.
+- <span id="r-7-2-7"></span>If two stance words occur, one pause comes before both, and **min** comes last: **wan sin oyi bu, a min.** "she said it, you know, right?"
 - <span id="r-7-2-8"></span>Other words used in this position are stance words too. The choice tag **, yu** "which?" (4.8) has its own slot at the end and is not a stance word.
 
 ## 8. Time
@@ -260,7 +259,7 @@
 
 - <span id="r-8-1-1"></span>Tense is optional. A time word or the first **sin** of a narrative sets the frame, the time that what follows is about, and later verbs in that frame stay unmarked. The future is shown by a time word or by context: **mon wuma, gegi muwo** "it will rain tomorrow".
 - <span id="r-8-1-2"></span>Aspect words come right before the verb. **sin** means done. With no frame set it reads as past. Inside a past frame it marks something already done by that time, "had done", and inside a future frame it is "will have". **le** means ongoing, and also "still". **buntu** means about to. **sin** and **le** don't combine, so "was doing" is a past frame + **le**.
-- <span id="r-8-1-3"></span>**mu sin** "not yet". For "didn't do", use a past frame + **mu** + verb.
+- <span id="r-8-1-3"></span>"Not yet" is **le mu** "still not", as in Mandarin *hái méi* and German *noch nicht*: **to le mu nawi** "I haven't eaten yet". Here the aspect word comes before **mu**, which covers only the verb. **mu sin** is "not done, didn't": **to mu sin nawi** "I didn't eat".
 - <span id="r-8-1-4"></span>**manni** "usually" marks habit. With a past frame it means "used to".
 - <span id="r-8-1-5"></span>Intent is marked with **gan momu** "on purpose" and **mu gan momu** "by accident".
 
@@ -279,8 +278,8 @@
   - The 12-hour style counts the hour (1–12), then gives the minutes as two digits, then optionally **pi** + a part of the day: **mon mape ka po pi yami** "at 9:30 at night"; **mon yawu po sa** "at 10:02". On the hour, the hour is said alone: **mon yawu sa** "at 12".
   - The parts of the day are **leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening and **yami** night. Midnight is **yawu sa pi yami**.
   - For *about* a time, put **fu** before it: **mon fu minfi** "around noon".
-- <span id="r-8-3-2"></span>A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili pi ka pi dunan** "the 3rd (of the month)", **dili pi ka pi isi** "the third day of the trip".
-- <span id="r-8-3-3"></span>Dates put the larger unit first, with a pause between: **dunan pi yawu, dili pi mape** "October 9". A weekday with a time is said the same way: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".
+- <span id="r-8-3-2"></span>A weekday is **dili dife** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili dife ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili dife ka pi dunan** "the 3rd (of the month)", **dili dife ka pi isi** "the third day of the trip".
+- <span id="r-8-3-3"></span>Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan dife yawu, dili dife mape** "October 9". A weekday with a time is said the same way: **dili dife te, mon …**. Years are read digit by digit: **fawu dife sa po sa ufo** "2026".
 
 ## 9. Numbers
 
@@ -302,7 +301,7 @@
 
 - <span id="r-9-2-1"></span>The place words are **yawu** 10, **loki** 100, **munno** 1000, **tonen** million and **siwin** billion. The last three are also group words. In the quantity reading, place words come in descending order, each preceded by its digit. A 1 before a place word is dropped, and zero places are skipped: 15 **yawu te**, 50 **te yawu**, 42 **da yawu sa**, 105 **loki te**. A group word takes a whole number before it: 250 000 = **sa loki te yawu munno**.
 - <span id="r-9-2-2"></span>The digit reading says one digit at a time. It is used whenever the exact digits matter more than the size: for identifiers, phone numbers and codes (in groups of three from the right), and for years and 24-hour clock times (as one four-digit group).
-- <span id="r-9-2-3"></span>Labels (noun + **pi** + number) under 100 use the quantity reading (**dili pi yawu da** "day 14"). Larger labels use the digit reading.
+- <span id="r-9-2-3"></span>Labels (noun + **dife** + number) under 100 use the quantity reading (**dili dife yawu da** "day 14"). Larger labels use the digit reading.
 - <span id="r-9-2-4"></span>Decimals use **mimi** "point": 1.5 = **fi mimi te**. **guti** means minus. With **unun** "× 10 to the", **ka unun guti ufo** = 3 × 10⁻⁶.
 
 ### 9.3 Amounts and comparison
@@ -317,7 +316,7 @@
 
 ### 10.1 Calling someone, titles, respect
 
-- <span id="r-10-1-1"></span>You can call someone with a person word (a name, a title, or a single role or kin word) at the start (slot 1, for attention) or at the end (slot 14, to soften): **en mara, tin obu.** / **tin obu, en mara.**
+- <span id="r-10-1-1"></span>You can call someone with a person word (a name, a title, or a single role or kin word) at the start (slot 1, for attention) or at the end (slot 13, to soften): **en mara, tin obu.** / **tin obu, en mara.**
 - <span id="r-10-1-2"></span>Titles go before the name with no comma, and work both in address and in reference: **no tofo en mara** "Teacher Mara"; **no tofo en mara sin oyi** "Teacher Mara said".
 - <span id="r-10-1-3"></span>**lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno en olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, so nun …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named. In the reference variety it is a title, not a word for "you".
 - <span id="r-10-1-4"></span>There is no apposition. To describe someone, use a title before the name, a relative clause or a new sentence.
@@ -343,7 +342,7 @@
 
 ## 11. Names, loans, new words
 
-- <span id="r-11-1"></span>Names take **en**: **en mara**. A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **en denise**, **en xi jinping**, **en nguyen**, **en wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **en london**, though an established adapted form may be used instead: **en landan**. Names aren't used as verbs.
+- <span id="r-11-1"></span>Names take **en**: **en mara**. A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **en denise**, **en xi jinping**, **en nguyen**, **en wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **en london**, though an established adapted form may be used instead: **en landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **en xi jinping sin oyi** "Xi Jinping said".
 - <span id="r-11-2"></span>The adapted form (`tools/names.py`) is the spoken fallback for a name and the form of every loan. It is made like this:
   - each foreign sound becomes the nearest native sound: r → l, v → b, ʋ → w, z/sh/zh → s, th → f, dh → d, ch → t, j → d, kh → k; h and glottal sounds disappear; ng → n; length, aspiration and tone are dropped; ə, ʌ, æ → a;
   - two vowels in a row get a glide between them, y after i or e and w otherwise;
@@ -357,7 +356,7 @@
 ## 12. Conditions and modality
 
 - <span id="r-12-1"></span>A condition is **don** "if" + clause. **kon** + number after **don** says how likely the condition is: **don kon fi** "if (unlikely)". **don kon po** "if (and it isn't so)" is counterfactual: **don kon po to sin isi, to sin nagu wan** "if I had gone, I would have seen her". The main clause is the consequence, and there is no "would".
-- <span id="r-12-2"></span>There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).
+- <span id="r-12-2"></span>There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).
 - <span id="r-12-3"></span>Purpose is **li** + verb, "in order to": **li bika** "to buy".
 - <span id="r-12-4"></span>"Let's" is **so pen** …, and "don't" is **tin mu** ….
 
@@ -376,13 +375,13 @@
 | Sentence end | tag **min** · "you know" **a** |
 | Pronouns | I **to** · you **me** · we incl. **pen** · we excl. **din** · he/she **wan** · the other one **yi** · it **bu** · logophoric **sun** · anyone **go** · self **nen** |
 | Determiners | plural **la** · this **tan** · that **ben** · all **we** · some **in** · some-not-all **kin** · none **fa** · unspecified **bo** · which/what **yu** |
-| Relations | of **pi** · at **mon** · to **tun** · from/than **se** · with **gan** · for **li** · before **ya** · after **wo** · like/about **fu** · during **nin** |
+| Relations | of **pi** · at **mon** · to **tun** · from/than **se** · with **gan** · for **li** · before **ya** · after **wo** · like/about **fu** · during **nin** · because of **gi** |
 | Linkers | and **yen** · or **lu** · but **un** · if **don** · because **gi** · that **wun** · who/which **man** · while **nin** · before **ya** · after **wo** |
 | Copula | is **gun** |
 | Names | **en** |
 | Derivation | doer **no** · thing **ge** · tool **du** · place **pu** |
 
-<span id="r-13-2"></span>These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**. **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
+<span id="r-13-2"></span>These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **dife**. **dife** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
 
 ## 14. Vocabulary
 

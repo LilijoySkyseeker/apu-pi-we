@@ -34,12 +34,13 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     Digs = {s : Str ; n2, n3 : Bool} ;            -- at least 2, 3 digits
     Rel, VPs = Ph ;
     Cl, Cl0 = {s : Str ; e : End ; p : Bool ; sj : Bool} ;   -- sj: has a subject
-    VP, VPo, VPa, VPm = {s : Str ; e : End ; p : Bool ; et, ek, w1 : Bool} ;
+    VP, VPo, VPa, VPm = {s : Str ; e : End ; p : Bool ; et, ek, w1, vv : Bool} ;
       -- et: ends in a time phrase; ek: ends in a ke-comparative without its standard; w1: a single verb
-    VPc = {s : Str ; e : End ; p : Bool ; et, ek, bare, tobj : Bool} ;
+      -- vv: ends in a verb that is the object of the verb before it, so later phrases go with it (4.2.6)
+    VPc = {s : Str ; e : End ; p : Bool ; et, ek, bare, tobj, vv : Bool} ;
       -- bare: the verb alone; tobj: the verb takes an object (4.2.6)
-    Manner = {s : Str ; e : End ; p : Bool ; bare, vm : Bool} ;
-      -- bare: may only follow a verb with no object (4.2.4); vm: a verb describing a verb (4.2.6)
+    Manner = {s : Str ; e : End ; p : Bool ; vm : Bool} ;
+      -- follows only a verb with no object (4.2.4); vm: a verb describing a verb (4.2.6)
     AP = {s : Str ; e : End ; p : Bool ; act, ek, gd : Bool} ;
       -- act: a bare action root (4.7.4); gd: a gender word (5.4.4)
     Adv = {s : Str ; e : End ; p : Bool ; et, wy, sc, cd, se : Bool} ;
@@ -65,10 +66,10 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     joinPause : End -> Str = \e -> case e of {EN | EG | EM | EC => "," ; ER | ED => "," | "kiyo" ; EV => []} ;
     joinP : Ph -> Bool -> Bool = \x,b -> orB (orB x.p (orB (opn x.e) (nounEnd x.e))) b ;
     no : {s : Str} = {s = Predef.nonExist} ;
-    vpa : Str -> End -> Bool -> Bool -> Bool -> {s : Str ; e : End ; p : Bool ; et, ek, w1 : Bool} =
-      \s,e,p,et,ek -> {s = s ; e = e ; p = p ; et = et ; ek = ek ; w1 = False} ;
-    vpc : Str -> End -> Bool -> Bool -> Bool -> Bool -> {s : Str ; e : End ; p : Bool ; et, ek, bare, tobj : Bool} =
-      \s,e,p,et,ek,t -> {s = s ; e = e ; p = p ; et = et ; ek = ek ; bare = False ; tobj = t} ;
+    vpa : Str -> End -> Bool -> Bool -> Bool -> {s : Str ; e : End ; p : Bool ; et, ek, w1, vv : Bool} =
+      \s,e,p,et,ek -> {s = s ; e = e ; p = p ; et = et ; ek = ek ; w1 = False ; vv = False} ;
+    vpc : Str -> End -> Bool -> Bool -> Bool -> Bool -> {s : Str ; e : End ; p : Bool ; et, ek, bare, tobj, vv : Bool} =
+      \s,e,p,et,ek,t -> {s = s ; e = e ; p = p ; et = et ; ek = ek ; bare = False ; tobj = t ; vv = False} ;
     npr : Str -> End -> Bool -> Bool -> {s : Str ; e : End ; p : Bool ; tm, ba, dt, ns, hn, cnt, rs : Bool} =
       \s,e,p,tm -> {s = s ; e = e ; p = p ; tm = tm ; ba = False ; dt = False ; ns = False ; hn = True ; cnt = False ; rs = False} ;
     gend : Bool -> End = \g -> case g of {True => EG ; False => EV} ;
@@ -93,7 +94,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     LannoCall c = ss ("lanno" ++ c.s) ;
     NoTail = ss [] ;
     StanceTail st = ss ("," ++ st.s) ;
-    StanceMin st = case st.m of {True => no ; False => ss ("," ++ st.s ++ "," ++ "min")} ;
+    StanceMin st = case st.m of {True => no ; False => ss ("," ++ st.s ++ "min")} ;
     ChoiceYu = ss ("," ++ "yu") ;
     MinSt = {s = "min" ; m = True} ; ASt = {s = "a" ; m = False} ;
     Buni = {s = "buni" ; m = False} ; Donon = {s = "donon" ; m = False} ;
@@ -140,6 +141,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       <True, True> => v ** {s = h.s ++ a.s ++ v.s} ;
       _ => v ** {s = h.s ++ a.s ++ v.s ; w1 = False}} ;
     OpVP o v = v ** {s = o.s ++ v.s ; w1 = False} ;
+    StillNot h v = v ** {s = h.s ++ "le" ++ "mu" ++ v.s ; w1 = False} ;
     NoHab = {s = [] ; e = True} ; Manni = {s = "manni" ; e = False} ;
     NoAsp = {s = [] ; e = True} ; SomeAsp a = {s = a.s ; e = False} ;
     Sin = ss "sin" ; Le = ss "le" ; Buntu = ss "buntu" ;
@@ -150,23 +152,22 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
 
     UseVPm v = v ;
     -- 4.4.1: after a time, wo and ya belong to that time; 9.3.4: after ke + quality, se is its standard
-    AdvVP v a = case <a.wy, v.et> of {
-      <True, True> => vpa Predef.nonExist EV False False False ;
-      _ => case <a.se, v.ek> of {
-        <True, True> => vpa Predef.nonExist EV False False False ;
-        _ => vpa (seq v a.s) a.e (pz v a.p) a.et False}} ;
-    UseVPc v = {s = v.s ; e = v.e ; p = v.p ; et = v.et ; ek = v.ek ; w1 = v.bare} ;
-    MannerVP v m = case <m.bare, v.bare> of {
-      <True, False> => vpa Predef.nonExist EV False False False ;
-      _ => case <m.vm, v.tobj> of {
-        <True, True> => vpa Predef.nonExist EV False False False ;
-        _ => vpa (seq v m.s) m.e (pz v m.p) False False}} ;
-    FuManner a = {s = "fu" ++ a.s ; e = a.e ; p = a.p ; bare = False ; vm = False} ;
-    BareManner a = {s = a.s ; e = gend a.gd ; p = False ; bare = True ; vm = False} ;
-    VManner v = {s = v.s ; e = gend v.gd ; p = False ; bare = True ; vm = True} ;
+    -- 4.2.6: after a verb that is the object of the verb before it, phrases go with that verb (ComplVV)
+    AdvVP v a = case <a.wy, v.et, a.se, v.ek, v.vv> of {
+      <True, True, _, _, _> => vpa Predef.nonExist EV False False False ;
+      <_, _, True, True, _> => vpa Predef.nonExist EV False False False ;
+      <_, _, _, _, True> => vpa Predef.nonExist EV False False False ;
+      _ => vpa (seq v a.s) a.e (pz v a.p) a.et False} ;
+    UseVPc v = {s = v.s ; e = v.e ; p = v.p ; et = v.et ; ek = v.ek ; w1 = v.bare ; vv = v.vv} ;
+    MannerVP v m = case <v.bare, m.vm, v.tobj> of {
+      <False, _, _> => vpa Predef.nonExist EV False False False ;
+      <_, True, True> => vpa Predef.nonExist EV False False False ;
+      _ => vpa (seq v m.s) m.e (pz v m.p) False False} ;
+    BareManner a = {s = a.s ; e = gend a.gd ; p = False ; vm = False} ;
+    VManner v = {s = v.s ; e = gend v.gd ; p = False ; vm = True} ;
 
     -- et: wo/ya after a time word belong to it (4.4.1), whatever its role
-    UseV v = {s = v.s ; e = gend v.gd ; p = False ; et = v.tm ; ek = False ; bare = True ; tobj = v.obj} ;
+    UseV v = {s = v.s ; e = gend v.gd ; p = False ; et = v.tm ; ek = False ; bare = True ; tobj = v.obj ; vv = False} ;
     ComplV v np = case andB v.res np.rs of {
       False => vpc (v.s ++ np.s) np.e np.p np.tm False v.obj ;
       True => vpc Predef.nonExist EV False False False False} ;
@@ -174,8 +175,12 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     ComplV3 v r t = case <t.dt, andB t.ns r.cnt> of {
       <False, False> => vpc (v.s ++ seq r t.s) t.e (pz r t.p) t.tm False v.obj ;
       _ => vpc Predef.nonExist EV False False False False} ;
+    -- 4.6.5: a pause between a closed recipient and the thing is optional (an open one needs it: ComplV3)
+    ComplV3P v r t = case <opn r.e, t.dt> of {
+      <False, False> => vpc (v.s ++ r.s ++ "," ++ t.s) t.e True t.tm False v.obj ;
+      _ => vpc Predef.nonExist EV False False False False} ;
     ComplVV v c = case v.obj of {
-      True => vpc (v.s ++ c.s) c.e c.p c.et c.ek v.obj ;
+      True => (vpc (v.s ++ c.s) c.e c.p c.et c.ek v.obj) ** {vv = True} ;
       False => vpc Predef.nonExist EV False False False False} ;
     ComplWun v c = vpc (v.s ++ "wun" ++ c.s) EC c.p False False v.obj ;
     ComplWunMin v c = vpc (v.s ++ "wun" ++ "min" ++ c.s) EC c.p False False v.obj ;
@@ -195,7 +200,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       True => vpc ("gun" ++ v.s) EV False False False False ;
       False => vpc Predef.nonExist EV False False False False} ;
     GunVV v c = case <v.act, v.obj> of {
-      <True, True> => vpc ("gun" ++ v.s ++ c.s) c.e c.p c.et c.ek False ;
+      <True, True> => (vpc ("gun" ++ v.s ++ c.s) c.e c.p c.et c.ek False) ** {vv = True} ;
       _ => vpc Predef.nonExist EV False False False False} ;
     GunWun c = vpc ("gun" ++ "wun" ++ c.s) EC c.p False False False ;
 
@@ -252,10 +257,10 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       True => (npr d.s EN False False) ** {dt = True ; hn = False} ;
       False => npr Predef.nonExist EV False False} ;
     LabelQ q n = case q.hn of {
-      True => q ** {s = seq q ("pi" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
+      True => q ** {s = seq q ("dife" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
       False => npr Predef.nonExist EV False False} ;
     LabelDigs q n = case <q.hn, n.n3> of {
-      <True, True> => q ** {s = seq q ("pi" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
+      <True, True> => q ** {s = seq q ("dife" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
       _ => npr Predef.nonExist EV False False} ;
     Clock24 a b c d = (npr (a.s ++ b.s ++ c.s ++ d.s) EN False True) ** {ns = True} ;
     Clock12 h a b = case h.hr of {
@@ -273,10 +278,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     NenD = {s = "nen" ; alone = False} ;
 
     PlainNP q = q ;
-    -- 5.2.5: noun + pi + number is a label, so a pi phrase after a noun never starts with a number
-    PiNP q n = case <q.hn, n.ns> of {
-      <True, True> => npr Predef.nonExist EV False False ;
-      _ => q ** {s = seq q ("pi" ++ n.s) ; e = n.e ; p = pz q n.p ; cnt = n.cnt}} ;
+    PiNP q n = q ** {s = seq q ("pi" ++ n.s) ; e = n.e ; p = pz q n.p ; cnt = n.cnt} ;
     RelNP q r = case r.p of {
       False => q ** {s = seq q r.s ; e = ER ; p = pz q False ; tm = False ; cnt = False} ;
       True => npr Predef.nonExist EV False False} ;
@@ -308,7 +310,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       <False, False> => {s = "man" ++ np.s ++ v.s ++ pr.s ; e = ER ; p = False} ;
       _ => {s = Predef.nonExist ; e = ER ; p = False}} ;
     RelWhose q v = case pz q v.p of {
-      False => {s = "man" ++ q.s ++ "pi" ++ "wan" ++ v.s ; e = ER ; p = False} ;
+      False => {s = "man" ++ q.s ++ "pi" ++ ("wan" | "bu" | "wan" ++ "la") ++ v.s ; e = ER ; p = False} ;
       True => {s = Predef.nonExist ; e = ER ; p = False}} ;
     SlashV v = {s = v.s ; e = EV ; p = False} ;
     SlashV3 v r = {s = v.s ++ r.s ; e = r.e ; p = r.p} ;

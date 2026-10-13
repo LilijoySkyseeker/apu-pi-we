@@ -295,13 +295,12 @@ text = '''
 | 5 | Clause operators | confidence **kon** + number, source **wanme**/**inwun**/**wemen** | 6.1 |
 | 6 | Subject | a noun phrase (section 5) | |
 | 7 | Phrase operators, habit, aspect | e.g. **mu**, **fe**, **manni**, **sin** | 6.2, 8.1 |
-| 8 | Verb | one verb, or verb + verb (4.2) | |
+| 8 | Verb | one verb, or verb + verb; with no object, a bare word right after the verb says how | 4.2 |
 | 9 | Objects | recipient, then thing | 4.2 |
-| 10 | Manner | how it is done: **fu** + word after an object, a bare word after a verb with no object | 4.2 |
-| 11 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause | 4.4 |
-| 12 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
-| 13 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
-| 14 | Calling someone | a pause, then a person word | 10.1 |'''
+| 10 | Relation phrases | **mon**, **tun**, **se**, **gan**, **li**, **fu** … + noun phrase or clause; **fu** + a word says how | 4.4, 4.2 |
+| 11 | Trailing clause | **wun**, **gi**, **don**, **nin** … clause | 4.4 |
+| 12 | Stance | a pause, then **min**, **a**, **buni**, **donon** … | 7.2 |
+| 13 | Calling someone | a pause, then a person word | 10.1 |'''
 
 [[item]]
 id = "4.2"
@@ -343,7 +342,7 @@ type = "bullet"
 title = "Manner"
 gap = 0
 text = '''
-- How something is done comes after the verb and its objects, with **fu** "like": **nawi pasu fu yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".'''
+- How something is done is said with **fu** "like", an ordinary relation phrase after the verb and its objects: **nawi pasu fu yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".'''
 
 [[item]]
 id = "4.2.5"
@@ -359,7 +358,7 @@ type = "bullet"
 title = "Verb + verb"
 gap = 0
 text = '''
-- When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking".'''
+- When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking". Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi tun guyi** "want to go home".'''
 
 [[item]]
 id = "4.2.7"
@@ -367,7 +366,7 @@ type = "bullet"
 title = "muge"
 gap = 0
 text = '''
-- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then **fu** + a manner, it means "do (it) so": **muge tan fu upe** "do this well".'''
+- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe tan** "fix this". Followed by an object and then a **fu** phrase saying how, it means "do (it) so": **muge tan fu upe** "do this well".'''
 
 [[item]]
 id = "4.2.8"
@@ -445,7 +444,7 @@ id = "4.4.1"
 type = "bullet"
 title = "A relation phrase"
 text = '''
-- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow".'''
+- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, **gi** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow". **gi** with a noun phrase gives **gi yu** "why" and **gi tan** "so" (because of this).'''
 
 [[item]]
 id = "4.4.2"
@@ -469,7 +468,7 @@ type = "bullet"
 title = "Clause attachment"
 gap = 0
 text = '''
-- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first: **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".'''
+- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first (**kiyo** doesn't, 5.3): **nin leso, to sin miya ewo man sigo** "in the morning, I watched the person who came back"; **to sin miya ewo man sigo nin leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **yen**, **lu** or **un** belongs to the last of them, and at the start it covers them all: **wan doku yen nawi mon guyi** "he works, and eats at home"; **mon guyi, wan doku yen nawi** "at home, he works and eats".'''
 
 [[item]]
 id = "4.4.5"
@@ -508,7 +507,7 @@ id = "4.5.1"
 type = "bullet"
 title = "Anything the listener can supply from context may be left out"
 text = '''
-- Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili pi ufo.** "see you all Saturday".'''
+- Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili dife ufo.** "see you all Saturday".'''
 
 [[item]]
 id = "4.5.2"
@@ -565,14 +564,14 @@ id = "4.6.5"
 type = "bullet"
 gap = 0
 text = '''
-- between a recipient and a long object;'''
+- between a recipient and the thing, where it helps: it is optional, and recommended when the thing is several words long or has a relative clause;'''
 
 [[item]]
 id = "4.6.6"
 type = "bullet"
 gap = 0
 text = '''
-- between clauses joined by **yen**, **lu** or **un** when the first ends in a noun;'''
+- between clauses joined by **yen**, **lu** or **un** when the first ends in a noun, and the same between joined verbs (4.4.7): **to nawi pasu, yen wopo** "I eat food, and sleep";'''
 
 [[item]]
 id = "4.6.7"
@@ -586,7 +585,7 @@ id = "4.6.8"
 type = "bullet"
 gap = 0
 text = '''
-- between a larger and a smaller calendar unit (**dunan pi yawu, dili pi mape**);'''
+- between a larger and a smaller calendar unit (**dunan dife yawu, dili dife mape**);'''
 
 [[item]]
 id = "4.6.9"
@@ -661,7 +660,7 @@ type = "bullet"
 title = "gun"
 gap = 0
 text = '''
-- "There is" is **ibe** "have" with no subject: **ibe pasu** "there's food", **mu ibe pasu** "there's no food", **un, ibe musu feli** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".'''
+- "There is" is **ibe** "have" with no subject, and **ibe** with no subject always means "there is": **ibe pasu** "there's food", **mu ibe pasu** "there's no food", **un, ibe musu feli** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".'''
 
 [[item]]
 id = "4.8"
@@ -785,7 +784,7 @@ type = "bullet"
 title = "Number"
 gap = 0
 text = '''
-- A noun followed by a number is a count (**dili oma** "seven days"). Noun + **pi** + number is a label (**kemin pi sa** "document 2"), and a label also gives a place in order: **gimu pi ka** "the third time", **ewo pi fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi**, the phrase is a part: **fi pi ka** "one of three".'''
+- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **dife** + number is a label (**kemin dife sa** "document 2"), and a label also gives a place in order: **gimu dife ka** "the third time", **ewo dife fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **fi pi ka** "one of three".'''
 
 [[item]]
 id = "5.2.6"
@@ -825,7 +824,7 @@ type = "bullet"
 title = "Own, joint owners"
 gap = 0
 text = '''
-- "One's own" is **pi nen**: **to ibe guyi pi nen** "I have my own house". Since a **pi** phrase holds a single noun, two owners of one thing take a relative clause: **guyi man en mara yen en tomas ibe** "Mara and Tomas's house".'''
+- "One's own" is **pi nen**: **to ibe guyi pi nen** "I have my own house". Since a **pi** phrase holds a single noun, two owners of one thing take a relative clause: **guyi man en mara yen to ibe** "Mara's and my house".'''
 
 [[item]]
 id = "5.3"
@@ -875,7 +874,7 @@ id = "5.3.7"
 type = "bullet"
 gap = 0
 text = '''
-- "whose", with **pi wan** inside the clause pointing back to the noun: **ewo man guyi pi wan gun kudu** "the person whose house is big".'''
+- "whose", with **pi** + the pronoun that fits the noun (**pi wan**, **pi bu**, **pi wan la**) inside the clause pointing back to it: **ewo man guyi pi wan gun kudu** "the person whose house is big", **guyi man beya pi bu gun tapi** "the house whose door is closed".'''
 
 [[item]]
 id = "5.3.8"
@@ -887,7 +886,7 @@ If both the subject and the object are missing, the noun is the subject: **ewo m
 id = "5.3.5"
 type = "para"
 text = '''
-A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyo** "end of phrase", closes it, along with every relative clause still open: **to sin miya ewo man sigo kiyo nin leso** "I watched the person who came back, in the morning". **kiyo** is optional; use it where a missed pause could mislead.'''
+A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyo** "end of phrase", closes it, along with every relative clause still open: **to sin miya ewo man sigo kiyo nin leso** "I watched the person who came back, in the morning". **kiyo** is optional; use it where a missed pause could mislead. It closes only the phrases that run on: relative clauses, phrasal derived words (5.4) and topics (4.3). A trailing clause (4.4.4) is closed by a pause.'''
 
 [[item]]
 id = "5.4"
@@ -976,7 +975,7 @@ type = "bullet"
 title = "Confidence"
 gap = 0
 text = '''
-- Confidence is **kon** + a number of sixths, the chance in 6 that the statement is true: **kon po** impossible, **kon fi** unlikely, **kon sa** doubtful, **kon ka** even odds, **kon da** likely, **kon te** very likely, **kon ufo** certain; **kon te mimi te** 5.5 in 6; **kon bo** "don't know how sure". An unmarked statement is believed. Exact probabilities use a number and **pasentu**.'''
+- Confidence is **kon** + a number of sixths, the chance in 6 that the statement is true: **kon po** impossible, **kon fi** unlikely, **kon sa** doubtful, **kon ka** even odds, **kon da** likely, **kon te** very likely, **kon ufo** certain; **kon te mimi te** 5.5 in 6; **kon bo** "maybe, possibly", with no particular chance in mind: **kon bo wan obu** "maybe she's coming". An unmarked statement is believed. Exact probabilities use a number and **pasentu**.'''
 
 [[item]]
 id = "6.1.3"
@@ -1021,7 +1020,7 @@ type = "bullet"
 title = "na"
 gap = 0
 text = '''
-- **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");'''
+- **na** only; **fe** also; **wi** even (**wi don** "even if"); **o** focus, "this one, not another" (**o en tomas sin yidu bu** "*Tomas* took it"; before the verb it insists: **to o unfu** "I *did* pay");'''
 
 [[item]]
 id = "6.2.4"
@@ -1051,7 +1050,7 @@ type = "bullet"
 title = "Order before the verb"
 gap = 0
 text = '''
-- Before the verb, the order is phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**.'''
+- Before the verb, the order is phrase operators, then **manni**, then aspect, then the verb: **to fe manni le doku**. The one exception is **le mu** "still not" (8.1).'''
 
 [[item]]
 id = "7"
@@ -1109,9 +1108,9 @@ text = '''
 id = "7.2"
 type = "heading"
 level = 3
-title = "Stance (slot 13)"
+title = "Stance (slot 12)"
 text = '''
-### 7.2 Stance (slot 13)'''
+### 7.2 Stance (slot 12)'''
 
 [[item]]
 id = "7.2.1"
@@ -1163,7 +1162,7 @@ id = "7.2.7"
 type = "bullet"
 gap = 0
 text = '''
-- If two stance words occur, **min** comes last.'''
+- If two stance words occur, one pause comes before both, and **min** comes last: **wan sin oyi bu, a min.** "she said it, you know, right?"'''
 
 [[item]]
 id = "7.2.8"
@@ -1206,10 +1205,10 @@ text = '''
 [[item]]
 id = "8.1.3"
 type = "bullet"
-title = "mu sin"
+title = "Not yet"
 gap = 0
 text = '''
-- **mu sin** "not yet". For "didn't do", use a past frame + **mu** + verb.'''
+- "Not yet" is **le mu** "still not", as in Mandarin *hái méi* and German *noch nicht*: **to le mu nawi** "I haven't eaten yet". Here the aspect word comes before **mu**, which covers only the verb. **mu sin** is "not done, didn't": **to mu sin nawi** "I didn't eat".'''
 
 [[item]]
 id = "8.1.4"
@@ -1299,7 +1298,7 @@ type = "bullet"
 title = "Weekdays"
 gap = 0
 text = '''
-- A weekday is **dili pi** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili pi ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili pi ka pi dunan** "the 3rd (of the month)", **dili pi ka pi isi** "the third day of the trip".'''
+- A weekday is **dili dife** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili dife ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili dife ka pi dunan** "the 3rd (of the month)", **dili dife ka pi isi** "the third day of the trip".'''
 
 [[item]]
 id = "8.3.3"
@@ -1307,7 +1306,7 @@ type = "bullet"
 title = "Dates"
 gap = 0
 text = '''
-- Dates put the larger unit first, with a pause between: **dunan pi yawu, dili pi mape** "October 9". A weekday with a time is said the same way: **dili pi te, mon …**. Years are read digit by digit: **fawu pi sa po sa ufo** "2026".'''
+- Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan dife yawu, dili dife mape** "October 9". A weekday with a time is said the same way: **dili dife te, mon …**. Years are read digit by digit: **fawu dife sa po sa ufo** "2026".'''
 
 [[item]]
 id = "9"
@@ -1370,7 +1369,7 @@ type = "bullet"
 title = "Labels"
 gap = 0
 text = '''
-- Labels (noun + **pi** + number) under 100 use the quantity reading (**dili pi yawu da** "day 14"). Larger labels use the digit reading.'''
+- Labels (noun + **dife** + number) under 100 use the quantity reading (**dili dife yawu da** "day 14"). Larger labels use the digit reading.'''
 
 [[item]]
 id = "9.2.4"
@@ -1448,7 +1447,7 @@ id = "10.1.1"
 type = "bullet"
 title = "Calling someone"
 text = '''
-- You can call someone with a person word (a name, a title, or a single role or kin word) at the start (slot 1, for attention) or at the end (slot 14, to soften): **en mara, tin obu.** / **tin obu, en mara.**'''
+- You can call someone with a person word (a name, a title, or a single role or kin word) at the start (slot 1, for attention) or at the end (slot 13, to soften): **en mara, tin obu.** / **tin obu, en mara.**'''
 
 [[item]]
 id = "10.1.2"
@@ -1604,7 +1603,7 @@ id = "11.1"
 type = "bullet"
 title = "Names"
 text = '''
-- Names take **en**: **en mara**. A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **en denise**, **en xi jinping**, **en nguyen**, **en wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **en london**, though an established adapted form may be used instead: **en landan**. Names aren't used as verbs.'''
+- Names take **en**: **en mara**. A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **en denise**, **en xi jinping**, **en nguyen**, **en wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **en london**, though an established adapted form may be used instead: **en landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **en xi jinping sin oyi** "Xi Jinping said".'''
 
 [[item]]
 id = "11.2"
@@ -1671,7 +1670,7 @@ type = "bullet"
 title = "Modality, three kinds"
 gap = 0
 text = '''
-- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). Probability is confidence (6.1).'''
+- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).'''
 
 [[item]]
 id = "12.3"
@@ -1712,7 +1711,7 @@ text = '''
 | Sentence end | tag **min** · "you know" **a** |
 | Pronouns | I **to** · you **me** · we incl. **pen** · we excl. **din** · he/she **wan** · the other one **yi** · it **bu** · logophoric **sun** · anyone **go** · self **nen** |
 | Determiners | plural **la** · this **tan** · that **ben** · all **we** · some **in** · some-not-all **kin** · none **fa** · unspecified **bo** · which/what **yu** |
-| Relations | of **pi** · at **mon** · to **tun** · from/than **se** · with **gan** · for **li** · before **ya** · after **wo** · like/about **fu** · during **nin** |
+| Relations | of **pi** · at **mon** · to **tun** · from/than **se** · with **gan** · for **li** · before **ya** · after **wo** · like/about **fu** · during **nin** · because of **gi** |
 | Linkers | and **yen** · or **lu** · but **un** · if **don** · because **gi** · that **wun** · who/which **man** · while **nin** · before **ya** · after **wo** |
 | Copula | is **gun** |
 | Names | **en** |
@@ -1723,7 +1722,7 @@ id = "13.2"
 type = "para"
 title = "Two-syllable operators"
 text = '''
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**. **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **dife**. **dife** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
 
 [[item]]
 id = "14"

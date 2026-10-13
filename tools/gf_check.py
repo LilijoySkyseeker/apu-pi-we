@@ -17,7 +17,8 @@ and whether the reference presents it as the precise form (then it must have one
 
 Examples that aren't sentences: 2.10 (mm, huh?) is outside the grammar; an example made only of grammar
 or number words that doesn't parse is a word citation, checked against the word lists. "…" and a
-trailing pause stand for the rest of a sentence and are filled with FILLER.
+trailing pause stand for the rest of a sentence and are filled with FILLER. A name's words are joined
+into one token (tokens()), since a name runs to the next grammar word or pause (11.1).
 
   python tools/gf_check.py              # every example; exit 1 if one fails to parse or misses its reading
   python tools/gf_check.py -v           # also list every structural reading
@@ -50,7 +51,7 @@ def read(path):
 LEX = {r["form"]: r for r in read(os.path.join(ROOT, "data", "lexicon.tsv"))}
 GRAMMAR_WORDS = ({r["form"] for r in read(os.path.join(ROOT, "data", "grammar.tsv"))}
                  | {r["form"] for r in read(os.path.join(ROOT, "data", "numbers.tsv"))}
-                 | set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo".split())
+                 | set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo dife".split())
                  | {w for w, r in LEX.items() if r["field"] == "number"})
 
 
@@ -71,7 +72,15 @@ def gf(cmds):
 
 
 def tokens(sentence):
-    return sentence.replace(",", " , ").split()
+    """Words and pauses. A name runs from en to the next grammar word or pause (11.1), so its words
+    are joined into one token for the grammar's String: en xi jinping sin oyi -> en xi_jinping sin oyi."""
+    out = []
+    for w in sentence.replace(",", " , ").split():
+        if len(out) >= 2 and out[-2] == "en" and w != "," and w not in GRAMMAR_WORDS:
+            out[-1] += "_" + w
+        else:
+            out.append(w)
+    return out
 
 
 def sentences(apu):

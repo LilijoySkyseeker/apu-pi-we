@@ -38,7 +38,7 @@ def heading(name):
     """Section headings in Apupiwe, as other translations use their own language."""
     if name == "Preamble":
         return "tuko pi kemin"  # beginning of the document
-    return "wabun pi " + name.split()[1]  # Article 5 -> rule 5 (noun + pi + number is a label)
+    return "wabun dife " + name.split()[1]  # Article 5 -> rule 5 (noun + dife + number is a label)
 
 
 title = open(os.path.join(HERE, "translation.md")).readline().lstrip("# ").strip()

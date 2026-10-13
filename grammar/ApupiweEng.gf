@@ -93,7 +93,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     LannoCall c = {s = "honoured" ++ c.s} ;
     NoTail = {s = []} ;
     StanceTail st = {s = "," ++ st.s} ;
-    StanceMin st = {s = "," ++ st.s ++ "," ++ "right?"} ;
+    StanceMin st = {s = "," ++ st.s ++ "right?"} ;
     ChoiceYu = {s = "," ++ "which?"} ;
     MinSt = {s = "right?"} ; ASt = {s = "you know"} ; Buni = {s = "okay?"} ; Donon = {s = "it turned out"} ;
 
@@ -124,7 +124,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     GensoM = {s = "{not literally}"} ; BaM = {s = "{indignantly}"} ;
 
     MkCl cf sr c = {s = \\a => cf.s ++ sr.s ++ c.s ! a} ;
-    NoConf = {s = []} ; Kon n = {s = "{" ++ n.s ++ "in 6}"} ; KonBo = {s = "{unsure how likely}"} ;
+    NoConf = {s = []} ; Kon n = {s = "{" ++ n.s ++ "in 6}"} ; KonBo = {s = "{maybe}"} ;
     NoSrc = {s = []} ; Wanme = {s = "{seen}"} ; Inwun = {s = "{I'm told}"} ; Wemen = {s = "{it seems}"} ;
 
     PredCl np v = {s = clause np True v} ;
@@ -142,6 +142,9 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     OpVP o v = case o.neg of {
       True => vpr v.vp v.t True ;
       False => vpr (mkVP o.adv v.vp) v.t v.neg} ;
+    StillNot h v =
+      let v1 : SyntaxEng.VP = mkVP (P.mkAdV "yet") v.vp in
+      vpr (case h.hab of {True => mkVP (P.mkAdV "usually") v1 ; False => v1}) ASimple True ;
     NoHab = {hab = False} ; Manni = {hab = True} ;
     NoAsp = {t = ASimple} ; SomeAsp a = a ;
     Sin = {t = APast} ; Le = {t = AProg} ; Buntu = {t = ASoon} ;
@@ -154,13 +157,13 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     AdvVP v a = {vp = mkVP v.vp a} ;
     UseVPc v = v ;
     MannerVP v m = {vp = mkVP v.vp m.adv} ;
-    FuManner a = {adv = a.adv} ;
     BareManner a = {adv = SyntaxEng.mkAdv a} ;
     VManner v = {adv = sAdv (gerund v)} ;
 
     UseV v = {vp = mkVP v} ;
     ComplV v np = {vp = mkVP (P.mkV2 v) np} ;
     ComplV3 v r t = {vp = mkVP (P.mkV3 v) r t} ;
+    ComplV3P v r t = {vp = mkVP (P.mkV3 v) r t} ;
     ComplVV v c = {vp = mkVP (P.mkVV v) c.vp} ;
     ComplWun v c = {vp = mkVP (P.mkVS v) (lin S {s = c.s ! ASub})} ;
     ComplWunMin v c = {vp = mkVP (P.mkVS v) (lin S {s = "whether" ++ c.s ! ASub})} ;
