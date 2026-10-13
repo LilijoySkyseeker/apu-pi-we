@@ -2,6 +2,25 @@
 
 The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the author on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py` and `seed_batch2.py`, removed 2026-10-09 as single-use; in git history).
 
+## 0. The word-decision ladders (author, 2026-10-12)
+
+Every word decision is two decisions: where a meaning's boundaries go, and what form its word takes. Go down each ladder; the first rung that applies decides. Derived from `docs/goal.md`: hard limits hold first; C4 overrides agreement; the aim (B1) outranks the method (B5), which is evidence of what works and the default for everything else. Sections 1–5 below are how rung 4 and the form rungs are carried out.
+
+**Ladder 1: where a meaning begins and ends**
+1. **An international standard (L3):** use its boundaries, as currently defined by the field. A standard's name may carry an old belief in its origin (*oxygen* "acid-maker", *malaria* "bad air"); that doesn't count, because a borrowed name is a label, not a claim. Trigger to revisit: a standard known to be wrong and not revised by its field.
+2. **A known-wrong belief (C4):** agreement among languages doesn't count; describe what is observed, without building today's theories into basic words.
+3. **Lumping costs meaning in ordinary use (B1, B3):** split when the two meanings are frequent, come up in the same contexts, and either confusing them changes what people do (left/right, buy/sell) or context often fails to tell them apart. Science matters here only by telling what things actually are; a scientific distinction alone is not a reason to split.
+4. **Otherwise, the world's languages (B5):** family-balanced lump rate ≥50% one word; 20–50% two, one built from the other; <20% two roots (section 3).
+5. **A word of its own** only when saying it as a phrase would be a real cost (C1): frequent in modern text or basic experience.
+
+**Ladder 2: what form the word takes**
+1. **An international standard form (L3):** adapted to the sounds.
+2. **A form the world shares (L4):** a loan only if it passes the panel test, adapted from the panel's median pronunciation, not from English.
+3. **Built from existing words,** when the result is short and clear (section 5).
+4. **A new root** from `tools/words.py`: hard to mishear, drift-safe, length by frequency; sounding like an offensive word elsewhere only breaks ties (C3).
+
+The existing lexicon gets one review pass against these ladders (pending; moon/month, word/language and "religion" are known candidates).
+
 ## 1. Which concepts, in what order
 
 1. **Core pool: CLICS4 concepts ranked by area-balanced lineage coverage.** CLICS4 has 3,432 varieties in 247 families. Coverage is the share of each macro-area's families whose word lists name the concept, averaged over the six areas. Raw family counts would let New Guinea and the Americas dominate; area averaging corrects that.
