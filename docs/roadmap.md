@@ -28,6 +28,22 @@ Measuring how many roots the base needs, and which, from modern text and speech 
 - **Name-boundary regression** (RB1): under the 11.1 clarification a content word right after a name joins the name; the grammar is also stricter than the reference about pauses between joined verbs and inside noun lists.
 - **Short-word layer:** desk fixes (fa vs sa, **manni**/**konsin** renames, a same-slot bug in `build.py`) and planning a human listening test, the review's first priority.
 - **Shared meanings** (moon/month, word/language): decided by the modern-use rung (Part 3 of the coverage measurement).
+- **Boundary candidates** from the ladder screening (`tests/lexicon-ladder-01/boundaries.md`), strongest first: religion (**lite pi nosen**, theistic); **nume**/**pata** live/life (merge?); **kuwi** keep/protect; **apu** word/language; **mido** ask/request; **agi** lose; **dili** day/daytime/24 hours; **wupi** need/should; **wabun** rule/law; **lula** power; **bendo**/**pifo** and **gala**/**kima** (merge?); the 20–50% band; **dunan** (keep). These go through Part 3's modern-use signals.
+
+### Judge's repairs not yet taken up
+
+From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdicts). Each goes to the author as its own question.
+
+- **Core grammar:** state **mu … fa** as single negation; list pronoun retention (**… mon bu**) as the precise oblique relative; accept a subjectless bare verb as the casual command (**tin** precise, and for prohibitions); one time root "later"; allow **sin le**; **tun** as the normal recipient marker when the thing is a pronoun or determiner; describe the type choice honestly (one coherent head-initial isolating type).
+- **Vocabulary:** split **tinli** (key / button) and **yebin** (call / phone), English-shaped lumps; allow bare noun + noun as a loose compound with **pi**/**man** as the precise form.
+- **Precision:** list **nen nen** as lexicalised; mark **fon**/**de**/**yo** as candidates for deletion (add-back: a human-read corpus where warnings or commitments are misread without them); teach **sin**'s frame-relativity and the **to gun nuta** trap early in the lessons.
+- **Sounds and word forms:** no grammar-word contrast may rest on a declared harmless variant; the empty-CV rule stated as an explicit constraint for new grammar words; a digit-vs-grammar-word confusion check; digits 0–5 decided after the listening test.
+- **Evidence:** re-run or withdraw the base-transmission numbers; one frequency source per optional subsystem; where possible a rater who isn't a Claude model.
+
+### Small fixes (no decision needed)
+
+- `tools/check.py` doesn't read plain `.txt` files (it only reads code blocks and bold); add a plain-text mode.
+- RB1 leftovers: residual UDHR readings (Art 25.2, 26.2); the guide's root count; grammar function name `LabelNP` → `LabelQ`.
 
 ### Before the batch is pushed
 
