@@ -22,10 +22,9 @@ So an Apupiwe sentence can be parsed into meaning trees, and each tree can be sa
 
 ## How content words fit
 
-Two rules depend on a word's kind of meaning: **gun** + a word gives the undergoer's state only for action words, and verb + verb depends on whether the first verb takes an object. The lexicon gains one small column for these two features; it records meaning, not a word class, and is used only where a rule needs it.
-
-
 Content words have no fixed word class: one word can be a thing, an event or a quality depending on how it's used. GF needs types, so the generated lexicon gives each root one function per role it can play (thing, event, quality), all with the same Apupiwe form. A bare content word then parses as each role it could fill, which is exactly the ambiguity the language intends; markers (**gun**, aspect words, **man**, **fu**) select one. The English side of each role comes from the word's gloss.
+
+Two rules depend on a word's kind of meaning: **gun** + a word gives the undergoer's state only for action words, and verb + verb depends on whether the first verb takes an object. The lexicon gains one small column for these two features; it records meaning, not a word class, and is used only where a rule needs it.
 
 ## Parts
 
