@@ -100,3 +100,315 @@ n	concept	status	route	field	tier	antonym	note
 98	bean	keep	root	food	2		
 99	slipper	keep	root	clothing	1		
 100	picture	keep	root	thing	3		image, drawing, portrait; foto is a photograph only
+101	wolf	keep	root	animal	1		
+102	butter	keep	root	food	2		
+103	pasta	keep	loan?	food	2		pasta/pasuta/makarna/makaroni; Chinese miàntiáo differs
+104	washing machine	keep	root	home	2		du pensi possible; frequent home appliance
+105	lamp	keep	loan?	home	2		lampa/lámpara/lampe/lampu/ranpu/lamba; dēng, taa differ
+106	brush	keep	root	home	2		includes toothbrush (90)
+107	girl	covered:tiwu futa		people	3		gender is a modifier (language.md 5.2); same as daughter; matches boy (79)
+108	draw	keep	root	action	2		make a picture; pull is nunya
+109	kick	keep	root	action	2		
+110	kiss	keep	root	action	2		
+111	penguin	keep	loan?	animal	1		pingvin/pingüino/pengin/penguin; qǐ'é differs
+112	pea	keep	root	food	1		
+113	tomato	keep	loan?	food	2		tomat/tomate/tomato/tamatar/domates; xīhóngshì, nyanya differ
+114	nut	keep	root	food	1		
+115	jacket	merge:coat		clothing	2		coat (47) covers outer garments incl. jacket
+116	comb	keep	root	home	1		
+117	zoo	keep	root	place	1		pu noso possible; dōbutsuen, kebun binatang are native compounds
+118	workplace	covered:pu doku		work	2		place for working (derived word, language.md 5.4)
+119	donkey	keep	root	animal	1		
+120	zebra	keep	loan?	animal	1		zebra/cebra/zèbre/zebra; shimauma, bānmǎ, punda milia differ
+121	grape	keep	root	food	2		
+122	garden	keep	root	place	2		
+123	strawberry	keep	root	food	1		
+124	tea	keep	loan?	food	3		cha/chai/çay/shai/chá dominate; te/teh/tea second form; panel decides between the two
+125	shower	keep	root	home	2		dush/ducha/douche vs shower/shawā; two forms, mandi differs
+126	vacuum cleaner	keep	root	home	1		
+127	potty	merge:toilet		home	1		a child's toilet; toilet is 926
+128	tickle	keep	root	action	1		
+129	paint	keep	root	action	2		paint, painting; draw (108) is line-making
+130	broom	keep	root	home	1		
+131	pool	covered:pu lonfe		place	2		swimming pool = place for swimming (derived word)
+132	owl	keep	root	animal	1		
+133	squirrel	keep	root	animal	1		
+134	block	split	root	thing	1		1: toy building block (children's word); 2: obstruct, hinder (134.b), from the frequency labels
+134.b	block (obstruct)	keep	root	action	2		obstruct, hinder
+135	gift	keep	root	thing	3		present; ge neke "what is given" is broader
+136	chips	keep	root	food	1		fries or crisps
+137	bib	keep	root	clothing	1		
+138	garage	keep	loan?	home	2		garaj/garage/gareji/garasi/gareji/garazh; chēkù differs
+139	sink	keep	root	home	2		basin; the verb sink is separate
+140	snowman	covered:ewo pi binso		thing	1		phrase (ladder 1.5) "person of snow"; not in compounds.tsv
+141	forest	keep	root	nature	3		includes jungle, grove
+142	beach	keep	root	nature	2		includes shore, coast
+143	drive	keep	root	action	3		drive, steer a vehicle
+144	hug	keep	root	action	2		embrace
+145	catch	keep	root	action	3		catch, capture, seize
+146	spade	keep	root	thing	1		shovel
+147	puzzle	keep	root	thing	1		pazl/pazuru/puzzle but rompecabezas, pīntú, yapboz differ
+148	pancake	keep	root	food	1		
+149	cookie	keep	loan?	food	2		biscuit: biskuit/bisküvi/biskwiti/bisuketto/biskvit; galleta, bǐnggān differ
+150	shorts	keep	loan?	clothing	1		shorty/shōto/short/şort/shorts; celana pendek differs
+151	tights	keep	root	clothing	1		
+152	belt	keep	root	clothing	2		
+153	living room	keep	root	home	2		sala/gostinaya/ima/kètīng are own words
+154	flag	keep	root	thing	2		banner
+155	cover	keep	root	action	2	open	cover, lid (du + cover)
+156	feed	covered:neke pasu		action	2		give food
+157	bring	keep	root	motion	4		come carrying; most languages have a root (traer, prinesti, leta)
+158	goose	keep	root	animal	1		
+159	glove	keep	root	clothing	1		
+160	bowl	keep	root	home	2		
+161	drawer	keep	root	home	1		
+162	thirst	keep	root	quality	2		thirsty; matches hungry (monyu)
+163	skirt	keep	root	clothing	2		
+164	stroller	keep	root	thing	1		pram
+165	oven	keep	root	home	2		
+166	party	split	root	society	3		1: celebration, gathering; 2: political party (166.b)
+166.b	party (political)	keep	loan?	society	2		partiya/partido/parti/partai/pārṭī; dǎng, hizb, seitō, chama differ
+167	crocodile	keep	root	animal	1		wani, èyú, buaya, mamba differ
+168	stick	covered:kima netu		thing	2		compounds.tsv "wood long"
+169	sandwich	keep	loan?	food	2		sendvich/sándwich/sandoitchi/sandviç/sandwichi; sānmíngzhì
+170	necklace	keep	root	clothing	1		
+171	ladder	keep	root	thing	1		
+172	clown	keep	root	people	1		
+173	lick	keep	root	action	1		
+174	pear	keep	root	food	1		
+175	sausage	keep	root	food	1		
+176	pizza	keep	loan?	food	2		pizza/pitstsa/piza/pīsā/bǐsà
+177	zipper	keep	root	clothing	1		
+178	hurry	keep	root	motion	2		rush
+179	deer	keep	root	animal	1		
+180	tissue	keep	root	home	1		paper tissue
+181	stove	keep	root	home	2		cooker; oven is 165
+182	wipe	keep	root	action	2		
+183	pen	keep	root	thing	2		
+184	raisin	covered:grape kilan		food	1		phrase "dry grape" as pútáogān, kuru üzüm, hoshibudō; grape is 121
+185	bathtub	keep	root	home	1		
+186	wardrobe	keep	root	home	1		closet
+187	glue	keep	root	thing	1		
+188	playground	covered:pu luse		place	2		place for playing (derived word)
+189	pour	keep	root	action	2		
+190	sweep	keep	root	action	1		
+191	repair	keep	root	action	3	break	fix, restore
+192	clap	keep	root	action	1		
+193	pleasant	keep	root	quality	2	unpleasant	nice; narrower than upe good
+194	brown	covered:bilun buda		color	2		phrase "dark yellow"; six colour roots (method 3.1, author 2026-10-08), other colours compound; add a root if tests lose colour meaning
+195	boot	keep	root	clothing	1		
+196	cute	keep	root	quality	2		
+197	orange (colour)	merge:orange		color	2		named after the fruit (33), as naranja, orenji, chéngsè; six colour roots (method 3.1)
+198	fire truck	covered:truck pi lumi		transport	1		phrase "truck of fire"; truck is 31
+199	porridge	keep	root	food	1		
+200	sauce	keep	loan?	food	2		sous/salsa/sōsu/saus/sos/sauce; jiàng differs
+201	cucumber	keep	root	food	1		
+202	chewing gum	keep	root	food	1		
+203	sugar	keep	loan?	food	2		sukkar/azúcar/sakhar/sucre/şeker/shakkar/sukari; satō, táng, gula differ
+204	bedroom	covered:pu wopo		home	2		compounds.tsv "place for sleeping"
+205	pot	keep	root	home	2		cooking pot, saucepan
+206	tear	split	root	body	1		1: teardrop; 2: tear, rip (206.b)
+206.b	tear (rip)	keep	root	action	2		pull apart; cut is fonsu, split is buyan
+207	naughty	keep	root	quality	1		
+208	sleepy	covered:momu wopo		quality	2		want to sleep, as tener sueño; tired is fadun
+209	melon	keep	root	food	1		
+210	spill	keep	root	action	1		
+211	watermelon	keep	root	food	1		own root in most languages (sandía, arbuz); xīguā compound
+212	soda	keep	loan?	food	1		soda/sōda/soda; gazirovka, qìshuǐ, refresco differ
+213	spider	keep	root	animal	1		compounds.tsv phrase is 9 syllables (as frog, 29)
+214	pacifier	keep	root	thing	1		dummy
+215	mirror	keep	root	home	2		
+216	firefighter	covered:no migi lumi		people	1		derived "one who fights fire"; phrase
+217	smile	keep	root	sense	3		laugh is bubo
+218	last	keep	root	abstract	4		last, final; first is mena fi (grammar)
+219	crayon	keep	root	thing	1		
+220	maize	keep	root	food	2		corn
+221	lollipop	merge:candy		food	1		candy (83) includes lollipop
+222	film	keep	loan?	tech	3		film/fil'm/firumu/filem/filamu/fīlm; diànyǐng, eiga, película differ
+223	fox	keep	root	animal	1		
+224	bun	covered:sowe meli		food	1		phrase "small bread"; bread is sowe
+225	toast	keep	loan?	food	1		toasted bread: tost/tostada/tōsuto/toast; roti bakar, kǎo miànbāo differ; the drinking salute is rare
+226	balcony	keep	loan?	home	1		balkon/balcón/barukonī/balkon; yángtái differs
+227	carpet	keep	root	home	1		rug
+228	gas station	keep	root	place	2		fuel station; fuel is 846
+229	yard	keep	root	home	2		courtyard
+230	knock	keep	root	action	1		
+231	ride	keep	root	motion	2		ride a horse, bike or vehicle
+232	bubble	keep	root	thing	1		
+233	circus	keep	loan?	society	1		tsirk/circo/sākasu/sirkus/sirk/sarakasi; mǎxì differs
+234	T-shirt	keep	loan?	clothing	2		tīshatsu/tişört/T xùshān/tisharṭ; futbolka, camiseta, kaos differ
+235	hose	keep	root	thing	1		
+236	world	keep	root	space	4		world, global
+237	question	keep	root	sense	4	answer	ge mido "what is asked" exists; frequent, root per ladder 2.3; question act is min
+238	son	covered:tiwu lowu		people	3		compounds.tsv
+239	government	keep	root	society	4		administration, authorities
+240	news	keep	root	society	4		
+241	song	keep	root	sense	3		ge yuyun "what is sung" exists; frequent, root per ladder 2.3
+242	music	keep	loan?	art	4		musiqa/música/muzyka/musik/müzik/muziki; ongaku, yīnyuè, sangīt differ
+243	history	keep	root	abstract	3		tārīkh/istoriya/sejarah/rekishi differ
+244	age	grammar		time	3		age is lived time, nume fawu N (language.md 8.2.4)
+245	team	keep	root	society	3		squad
+246	company	keep	root	work	4		firm, corporation
+247	different	keep	root	quality	4	same	mu kige "not same" exists (as bù tóng); frequent, root per ladder 2.3
+248	king	keep	root	society	3		monarch, emperor, sultan; gender is a modifier
+249	hospital	keep	root	health	3		compound pu yema simi exists; ladder 0 names hospitals as baseline
+250	state	split	root	society	3		1: the state, polity; 2: state, condition (250.b); country gigin is the nation, province is 350
+250.b	state (condition)	merge:condition		abstract	3		same as 341
+251	plan	keep	root	mind	3		strategy, planning
+252	birth	keep	root	action	3	die	be born, give birth
+253	date	split			3		1: calendar date (253); 2: romantic date (253.b)
+253.a	date (calendar)	grammar		time	3		a date is a dili label (language.md 8.3.3); "what date" = dili mena yu
+253.b	date (romantic)	keep	root	society	2		
+254	decide	keep	root	mind	4		decision; choose waka is picking among options
+255	university	keep	loan?	society	3		universitet/universidad/universitas/üniversite/yunivarsiti; daigaku, dàxué, jāmi'a, chuo kikuu differ
+256	education	keep	root	society	3		tofo teach and yesa learn are the acts
+257	science	keep	root	abstract	3		
+258	situation	keep	root	abstract	3		
+259	video	keep	loan?	tech	3		video/bideo/vidiyo; shìpín differs
+260	special	keep	root	quality	3	normal	
+261	voice	keep	root	sense	3		
+262	next	keep	root	time	4		time offsets are wo + unit (8.2.2); "next" in a series has no word
+263	member	keep	root	society	3		
+264	leader	keep	root	people	3		boss, manager, chief; no wungu exists (compounds: commander); frequent, root per ladder 2.3
+265	bank	keep	loan?	money	3		bank/banco/banque/bank/benki/bank; ginkō, yínháng differ
+266	service	keep	root	society	3		servis/servicio/sābisu partly shared; layanan, fúwù differ
+267	direction	keep	root	space	3		
+268	point	keep	root	space	3		point, dot; decimal point is mimi
+269	office	keep	loan?	work	3		ofis/ofisi/ofisu/office/oficina; kantor, bàngōngshì differ
+270	explain	keep	root	sense	3		
+271	line	keep	root	space	3		line, stripe, row
+272	mind	keep	root	mind	3		intellect; think is pume
+273	politics	keep	root	society	3		politika/política vs siyasa/siyaset/siasa: two forms
+274	opinion	keep	root	mind	3		point of view, belief
+275	price	keep	root	money	3		cost, fee
+276	report	keep	root	sense	3		
+277	daughter	covered:tiwu futa		people	3		compounds.tsv
+278	general	split	root	quality	3	special	1: general, overall; 2: army general (278.b)
+278.b	general (military)	keep	root	society	1		military rank
+279	future	keep	root	time	3	past	
+280	case	split	root	abstract	3		1: case, instance; 2: legal case (280.b); container sense is nansa
+280.b	case (legal)	keep	root	society	2		lawsuit
+281	election	keep	root	society	3		elect; choose waka is broader
+282	promise	keep	root	sense	3		oath, vow
+283	society	keep	root	society	3		
+284	program	keep	loan?	tech	3		programma/programa/puroguramu/program/programu; chéngxù differs
+285	support	keep	root	action	3		back up; help yema is broader
+286	experience	keep	root	mind	3		
+287	letter	split	root	thing	3		1: letter, mail; 2: letter of the alphabet (287.b)
+287.b	letter (alphabet)	keep	root	sense	2		
+288	past	keep	root	time	3	future	
+289	minister	keep	root	society	2		
+290	gold	keep	root	nature	2		
+291	technology	keep	loan?	tech	3		tekhnologiya/tecnología/teknoloji/teknologi/tekunorojī/teknolojia; jìshù differs
+292	attack	keep	root	action	3		raid, assault
+293	computer	keep	loan?	tech	3		kompyuter/konpyūta/komputer/kompyuta; diànnǎo, ordenador, ḥāsūb differ; du sunbu exists (compounds.tsv)
+294	position	keep	root	space	2		posture, post; location is kemu
+295	court	keep	root	society	3		law court
+296	health	keep	root	health	3	sick	healthy
+297	season	keep	root	time	3		
+298	visit	keep	root	motion	3		
+299	class	split	root	society	3		1: school class; 2: social class (299.b); kind is niki
+299.b	class (social)	keep	root	society	2		
+300	soldier	keep	root	people	3		no migi exists (compounds: warrior); frequent, root per ladder 2.3
+301	level	keep	root	abstract	3		degree, rank; storey is sison, flat is mawun
+302	foreign	keep	root	society	3		foreigner, abroad
+303	culture	keep	root	society	3		kul'tura/cultura/kültür vs bunka, wénhuà, thaqāfa, utamaduni
+304	village	keep	root	place	3	city	
+305	series	keep	root	abstract	2		
+306	quality	keep	root	abstract	3		
+307	space	split	root	space	3		1: space, room to fit; 2: outer space (307.b)
+307.b	space (outer)	keep	root	nature	2		beyond the sky; yaye is the sky as seen
+308	committee	keep	root	society	2		council, commission
+309	art	keep	root	art	3		
+310	army	keep	root	society	3		military, troops
+311	distance	keep	root	space	3		how far; lini far is the quality
+312	island	keep	root	nature	2		
+313	clear	keep	root	quality	3		obvious; also transparent
+314	organization	keep	root	society	3		association, institution, agency
+315	market	keep	root	money	3		
+316	prepare	keep	root	action	3		muge wonwe "make ready" exists; frequent, root per ladder 2.3
+317	business	keep	loan?	work	3		biznes/bisnis/bijinesu/business; negocio, shāngyè, tijāra differ
+318	century	covered:fawu loki		time	2		100 years; the Nth century is fawu loki mena N
+319	economy	keep	root	money	3		ekonomika/ekonomi vs keizai, jīngjì, iqtiṣād, uchumi
+320	nature	keep	root	nature	3		the natural world, natural
+321	interest	split	root	mind	3		1: interest, curiosity (interesting); 2: interest on money (321.b)
+321.b	interest (money)	keep	root	money	2		
+322	weather	keep	root	nature	3		
+323	middle	keep	root	space	3		centre; between is lifin
+324	message	keep	root	sense	3		
+325	accident	keep	root	abstract	3		crash; "by accident" is mu gan momu
+326	community	keep	root	society	3		
+327	queen	covered:king futa		society	2		gender is a modifier (language.md 5.2); king is 248
+328	process	keep	root	abstract	3		procedure
+329	attention	keep	root	mind	3		pay attention
+330	value	keep	root	money	3		worth, valuable
+331	secret	keep	root	abstract	3		private kunsu and hide mibun are near
+332	public	keep	root	society	3	private, not for others	
+333	district	merge:region		space	2		a part of a city or country; ranks of administrative units vary by country
+334	hotel	keep	loan?	place	3		hotel/otel'/hoteru/otel/hoteli/hoṭal; jiǔdiàn, funduq differ
+335	candidate	keep	root	society	2		
+336	serious	keep	root	quality	3		severe
+337	meeting	keep	root	society	3		conference, assembly; gather fanmu is the act
+338	international	keep	root	society	3		
+339	kingdom	covered:gigin pi king		society	2		phrase "country of a king"; empire, realm
+340	speech	keep	root	sense	3		discourse, sermon
+341	condition	keep	root	abstract	3		state, condition; "on condition" is don
+342	region	keep	root	space	3		zone, area, territory
+343	building	keep	root	home	3		ge selo "what is built" exists; frequent, root per ladder 2.3
+344	union	keep	root	society	3		alliance, unite, trade union
+345	information	keep	root	tech	3		informatsiya/información/informasi vs xìnxī, jōhō, ma'lūmāt, habari
+346	religion	keep	root	religion	2		lexicon review candidate (method §0)
+347	lesson	keep	root	society	3		a teaching session; class (299) is the group
+348	energy	keep	loan?	tech	3		energiya/energía/enerji/energi/enerugī; néngliàng, ṭāqa, nishati, ūrjā differ
+349	form	keep	root	abstract	3		format, a form to fill in; shape is 523
+350	province	keep	root	society	2		state, prefecture; first-level region of a country
+351	welcome	covered:upe obu		sense	3		phrase "well come" as bienvenido, hoş geldiniz; routines 10.2.5; not yet listed there
+352	real	keep	root	quality	3		reality, genuine; true feko is about statements
+353	danger	keep	root	abstract	3	safe, not in danger	risk
+354	official	keep	root	society	2		civil servant, officially
+355	vote	keep	root	society	3		
+356	hero	keep	root	people	2		protagonist
+357	communication	keep	root	sense	3		communicate, telecommunication
+358	limit	keep	root	abstract	3		restriction, boundary
+359	policy	keep	root	society	3		
+360	increase	keep	root	action	3		grow guge and add ginni are near
+361	operation	keep	root	abstract	2		undertaking; surgery is 733
+362	doubt	keep	root	mind	3		
+363	translate	keep	root	sense	3		
+364	create	keep	root	action	3		muge make is broader
+365	republic	keep	root	society	2		respublika/república vs jumhūriyya/cumhuriyet/jamhuri, gònghéguó, kyōwakoku
+366	Saturday	grammar		time	3		dili mena ufo (language.md 8.3.2)
+367	Sunday	grammar		time	3		dili mena oma (language.md 8.3.2)
+368	sex	keep	root	body	3		intercourse, sexual; gender is 658
+369	electricity	keep	root	tech	3		compounds.tsv lula pi mufin; frequent, root per ladder 2.3
+370	actor	keep	root	people	2		
+371	Monday	grammar		time	3		dili mena fi (language.md 8.3.2)
+372	example	keep	root	abstract	3		sample, instance
+373	sport	keep	loan?	society	3		sport/spor/supōtsu/esporte; deporte, olahraga, yùndòng, riyāḍa, michezo differ
+374	newspaper	keep	root	thing	2		gazeta/gazete/gazeti partly shared
+375	event	keep	root	abstract	3		incident, phenomenon
+376	record	keep	root	sense	2		recording
+377	rise	keep	root	motion	3	fall, drop down	go up; get up is kolu/unda
+378	modern	keep	root	quality	2		new duwa is broader
+379	expert	keep	root	people	2		specialist
+380	judge	keep	root	society	3		judgement, referee
+381	planet	keep	standard	nature	2		IAU 2006 definition fixes the concept; form planeta/planet vs wakusei, xíngxīng, sayyāra
+382	possible	keep	root	abstract	3	impossible	possibility; can lenu is ability, kon is confidence
+383	machine	keep	loan?	tech	3		mashina/máquina/makine/mesin/mashine; jīqì, kikai differ
+384	industry	keep	root	work	2		
+385	debt	keep	root	money	2		
+386	president	keep	loan?	society	3		prezident/presidente/presiden/prezidan; ra'īs, zǒngtǒng, daitōryō differ
+387	activity	keep	root	abstract	3		
+388	test	keep	root	society	3		exam, quiz; check loban is to verify
+389	address	keep	root	space	3		postal or email address
+390	map	keep	root	thing	2		
+391	birthday	keep	root	time	3		no standard phrase; compounds in most languages but frequent
+392	account	covered:ge sunbu		money	2		compounds.tsv "what is counted"
+393	Friday	grammar		time	3		dili mena te (language.md 8.3.2)
+394	threaten	keep	root	sense	2		threat
+395	structure	keep	root	abstract	2		framework; system yile is near
+396	governor	keep	root	society	2		
+397	defeat	keep	root	action	3	win	lose a contest; agi is misplace
+398	product	keep	root	work	3		goods, merchandise
+399	generation	keep	root	people	2		
+400	director	merge:leader		work	3		head of an organisation (264)

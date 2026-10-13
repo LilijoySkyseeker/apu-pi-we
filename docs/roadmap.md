@@ -26,7 +26,7 @@ Measured: the base will be about 1,500 roots (decided 2026-10-13). Next: run the
 A background deep dive into the design, engineering and principles of other international auxiliary and engineered languages, and what happened to them, to learn what to do and what not to do. Output `research/notes/auxlangs.md`; findings that bear on a decision get queued here.
 - Widened (author, 2026-10-13): the first survey list was too mainstream. Also cover less-known designs, and read two essays that track this project's direction: Jörg Rhiemeier, [auxlang design](https://www.joerg-rhiemeier.de/Conlang/auxlang-design.html), and [vecderg, auxlangs 2](https://www.vecderg.com/articles/auxlangs2). Opinions aimed at adult learners weigh less here (the language is built for natives, C2).
 - **Globasa in depth** (author, 2026-10-13: "a lot of ideas we should steal"): its design, vocabulary method, grammar, tooling and community, each idea judged against the goal. Output `research/notes/globasa.md`.
-- **Sound symbolism as a tie-breaker** (author, 2026-10-13): the evidence (e.g. cross-language sound–meaning associations), its strength, and whether it could break ties between equally good forms, like C3. Output `research/notes/sound-symbolism.md`.
+- **Sound symbolism as a tie-breaker:** researched (`research/notes/sound-symbolism.md`): robust only for shape (bouba/kiki) and size; small effects; no *r* in Apupiwe. Decide at the final placement: a narrow tie-break for ~10–20 size and shape words (now movable), or nothing.
 - **"We don't know what we don't know"** (author, 2026-10-13): after the surveys, an idea-generation pass looking for considerations and unusual ideas nobody has raised yet. It may find nothing.
 
 ### Queued for the author
