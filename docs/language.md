@@ -114,7 +114,7 @@
 
 ### 4.5 Leaving things out
 
-- <span id="r-4-5-1"></span>Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili dife ufo.** "see you all Saturday".
+- <span id="r-4-5-1"></span>Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili mena ufo.** "see you all Saturday".
 - <span id="r-4-5-2"></span>**gun** with no subject is "(it) is", like any verb with its subject left out: **gun nimo** "(it's) money". With **gun** left out too, a bare state is fine: **bi upe.** "very good." "There is" is **ibe** "have" with no subject (4.7).
 - <span id="r-4-5-3"></span>When leaving something out could be unclear, say it.
 
@@ -127,7 +127,7 @@
 - <span id="r-4-6-5"></span>between a recipient and the thing, where it helps: it is optional, and recommended when the thing is several words long or has a relative clause;
 - <span id="r-4-6-6"></span>between clauses joined by **yen**, **lu** or **un** when the first ends in a noun, and the same between joined verbs (4.4.7): **to nawi pasu, yen wopo** "I eat food, and sleep";
 - <span id="r-4-6-7"></span>before a stance word, and before the choice tag **yu** (4.8);
-- <span id="r-4-6-8"></span>between a larger and a smaller calendar unit (**dunan dife yawu, dili dife mape**);
+- <span id="r-4-6-8"></span>between a larger and a smaller calendar unit (**dunan mena yawu, dili mena mape**);
 - <span id="r-4-6-9"></span>after a relative clause, to close it before more material (or **kiyo**, 5.3).
 
 <span id="r-4-6-10"></span>In casual writing, pauses that context makes obvious may be dropped.
@@ -163,7 +163,7 @@
 - <span id="r-5-2-2"></span>Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
 - <span id="r-5-2-3"></span>Noun + noun is used only for gender and for the compounds in `compounds.tsv`. Other relations use **pi** or a relative clause.
 - <span id="r-5-2-4"></span>Numbers and times can stand alone as noun phrases: **yawu gun upe** "ten is fine", **wuma gun upe** "tomorrow is fine".
-- <span id="r-5-2-5"></span>A noun followed by a number is a count (**dili oma** "seven days"). A noun + **dife** + number is a label (**kemin dife sa** "document 2"), and a label also gives a place in order: **gimu dife ka** "the third time", **ewo dife fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **fi pi ka** "one of three".
+- <span id="r-5-2-5"></span>A noun followed by a number is a count (**dili oma** "seven days"). A noun + **mena** + number is a label (**kemin mena sa** "document 2"), and a label also gives a place in order: **gimu mena ka** "the third time", **ewo mena fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **fi pi ka** "one of three".
 - <span id="r-5-2-6"></span>The plural word **la** is optional. A count or context can show plurality.
 - <span id="r-5-2-7"></span>There are no articles. Whether something is known or new is left to context, or shown with **tan**, **ben**, **bo** or a number.
 - <span id="r-5-2-8"></span>Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos".
@@ -278,8 +278,8 @@
   - The 12-hour style counts the hour (1–12), then gives the minutes as two digits, then optionally **pi** + a part of the day: **mon mape ka po pi yami** "at 9:30 at night"; **mon yawu po sa** "at 10:02". On the hour, the hour is said alone: **mon yawu sa** "at 12".
   - The parts of the day are **leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening and **yami** night. Midnight is **yawu sa pi yami**.
   - For *about* a time, put **fu** before it: **mon fu minfi** "around noon".
-- <span id="r-8-3-2"></span>A weekday is **dili dife** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili dife ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili dife ka pi dunan** "the 3rd (of the month)", **dili dife ka pi isi** "the third day of the trip".
-- <span id="r-8-3-3"></span>Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan dife yawu, dili dife mape** "October 9". A weekday with a time is said the same way: **dili dife te, mon …**. Years are read digit by digit: **fawu dife sa po sa ufo** "2026".
+- <span id="r-8-3-2"></span>A weekday is **dili mena** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili mena ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili mena ka pi dunan** "the 3rd (of the month)", **dili mena ka pi isi** "the third day of the trip".
+- <span id="r-8-3-3"></span>Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan mena yawu, dili mena mape** "October 9". A weekday with a time is said the same way: **dili mena te, mon …**. Years are read digit by digit: **fawu mena sa po sa ufo** "2026".
 
 ## 9. Numbers
 
@@ -301,7 +301,7 @@
 
 - <span id="r-9-2-1"></span>The place words are **yawu** 10, **loki** 100, **munno** 1000, **tonen** million and **siwin** billion. The last three are also group words. In the quantity reading, place words come in descending order, each preceded by its digit. A 1 before a place word is dropped, and zero places are skipped: 15 **yawu te**, 50 **te yawu**, 42 **da yawu sa**, 105 **loki te**. A group word takes a whole number before it: 250 000 = **sa loki te yawu munno**.
 - <span id="r-9-2-2"></span>The digit reading says one digit at a time. It is used whenever the exact digits matter more than the size: for identifiers, phone numbers and codes (in groups of three from the right), and for years and 24-hour clock times (as one four-digit group).
-- <span id="r-9-2-3"></span>Labels (noun + **dife** + number) under 100 use the quantity reading (**dili dife yawu da** "day 14"). Larger labels use the digit reading.
+- <span id="r-9-2-3"></span>Labels (noun + **mena** + number) under 100 use the quantity reading (**dili mena yawu da** "day 14"). Larger labels use the digit reading.
 - <span id="r-9-2-4"></span>Decimals use **mimi** "point": 1.5 = **fi mimi te**. **guti** means minus. With **unun** "× 10 to the", **ka unun guti ufo** = 3 × 10⁻⁶.
 
 ### 9.3 Amounts and comparison
@@ -381,7 +381,7 @@
 | Names | **en** |
 | Derivation | doer **no** · thing **ge** · tool **du** · place **pu** |
 
-<span id="r-13-2"></span>These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **dife**. **dife** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
+<span id="r-13-2"></span>These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
 
 ## 14. Vocabulary
 

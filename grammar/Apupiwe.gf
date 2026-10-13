@@ -167,7 +167,7 @@ abstract Apupiwe = Lex ** {
     TitleName : CN -> String -> NPq ;      -- 10.1.2 title before the name; 5.4.4
     NumQ : Num -> NPq ;                    -- 5.2.4 a number alone
     DetQ : Det -> NPq ;                    -- 5.2.8 a determiner alone; 4.8.2 yu "what"
-    LabelQ : NPq -> Sub100 -> NPq ;        -- 5.2.5, 9.2.3 noun + dife + number: a label (quantity reading)
+    LabelQ : NPq -> Sub100 -> NPq ;        -- 5.2.5, 9.2.3 noun + mena + number: a label (quantity reading)
     LabelDigs : NPq -> Digs -> NPq ;       -- 9.2.3, 8.3.3 larger labels: digit reading
     Clock24 : Digit -> Digit -> Digit -> Digit -> NPq ;  -- 8.3.1 24-hour style
     Clock12 : Sub100 -> Digit -> Digit -> NPq ;          -- 8.3.1 12-hour style: hour, then two digits

@@ -72,6 +72,21 @@ def digit_syllables():
     return {IDX[r["form"]] for r in read("numbers.tsv") if r["kind"] == "digit" and r["form"] in IDX}
 
 
+def neighbour_clashes(neighbours):
+    """Forms that would share a syllable with a fixed neighbour where the two touch: a word that
+    usually follows `before` words must not start with their first or last syllable (dili X → no di-, li-),
+    and one usually followed by `after` words must not end in their first syllable (X ka → no -ka)."""
+    before, after = neighbours
+    firsts = {split(w)[0] for w in before} | {split(w)[-1] for w in before}
+    lasts = {split(w)[0] for w in after}
+    out = set()
+    for a in range(len(SYL)):
+        for b in range(len(SYL)):
+            if a in firsts or b in lasts or SYL[b].rstrip("n") in {SYL[i] for i in lasts}:
+                out.add(SYL[a] + SYL[b])
+    return out
+
+
 def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()):
     lexicon = read("lexicon.tsv")
     digits = digit_syllables()  # no content word may begin with a digit (juncture safety)
@@ -125,13 +140,17 @@ if __name__ == "__main__":
     c = sub.add_parser("add-content"); c.add_argument("gloss"); c.add_argument("field"); c.add_argument("tier", type=int)
     c.add_argument("--antonym", action="append", default=[]); c.add_argument("--no-approximants", action="store_true")
     c.add_argument("--avoid", default="", help="comma-separated forms not to reuse (e.g. just-freed forms)")
+    c.add_argument("--after", default="", help="comma-separated words the new word usually follows (it won't start with their first or last syllable)")
+    c.add_argument("--before", default="", help="comma-separated words the new word usually precedes (it won't end with their first syllable)")
     s = sub.add_parser("syllables"); s.add_argument("text")
     m = sub.add_parser("move"); m.add_argument("glosses", nargs="+")
     a = p.parse_args()
     if a.cmd == "add-grammar":
         add_grammar(a.gloss, a.cls, a.freq, set(filter(None, a.avoid.split(","))))
     elif a.cmd == "add-content":
-        add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants, set(filter(None, a.avoid.split(","))))
+        avoid = set(filter(None, a.avoid.split(",")))
+        avoid |= neighbour_clashes((list(filter(None, a.after.split(","))), list(filter(None, a.before.split(",")))))
+        add_content(a.gloss, a.field, a.tier, a.antonym, a.no_approximants, avoid)
     elif a.cmd == "move":  # re-place existing content words under the current rules
         for gl in a.glosses:
             w = next(x for x in read("lexicon.tsv") if x["gloss"] == gl)

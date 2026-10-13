@@ -27,7 +27,7 @@ rule	fingerprint	lessons
 12.3	5692e9590b46	Lesson 13: Can, must, maybe
 12.4	9c2b143213ea	Lesson 4: Not, questions, answers and commands
 13.1	6b847e7de4d0	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
-13.2	e46877a0606c	Lesson 7: Of, at, to, from, with
+13.2	a498ca198153	Lesson 7: Of, at, to, from, with
 2.1	bfc2c02d2ac6	Lesson 1: Sounds
 2.10	73d366a29c8e	Lesson 8: Being polite, and everyday phrases
 2.2	d66885653a38	Lesson 1: Sounds
@@ -63,7 +63,7 @@ rule	fingerprint	lessons
 4.4.4	4ee1c0182c7b	Lesson 12: Longer sentences
 4.4.5	4b149c186051	Lesson 12: Longer sentences; Lesson 6: Little words that look like English
 4.4.6	6f86802956c8	Lesson 12: Longer sentences
-4.5.1	65bdae5d321e	Lesson 5: Pronouns
+4.5.1	2fa19788136c	Lesson 5: Pronouns
 4.5.2	7b1c0dec366b	Lesson 3: Describing words come after; Lesson 5: Pronouns
 4.5.3	138fa7a176dc	Lesson 5: Pronouns
 4.6.1	1c258e01ac39	Lesson 12: Longer sentences
@@ -74,7 +74,7 @@ rule	fingerprint	lessons
 4.6.5	43d6b2c242e4	Lesson 12: Longer sentences
 4.6.6	3e5dee213281	Lesson 12: Longer sentences
 4.6.7	14531f8d5f2c	Lesson 12: Longer sentences
-4.6.8	0e6f15d929d0	Lesson 12: Longer sentences
+4.6.8	c92904375d43	Lesson 12: Longer sentences
 4.6.9	69d37693ad2f	Lesson 12: Longer sentences
 4.7.1	2cb1c37e1b25	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
 4.7.2	f531017c32d0	Lesson 3: Describing words come after
@@ -91,7 +91,7 @@ rule	fingerprint	lessons
 5.1.1	9a336c2b934f	Lesson 3: Describing words come after
 5.2.2	7e6925c1964b	Lesson 3: Describing words come after
 5.2.3	05c4cb7f5e9e	Lesson 12: Longer sentences; Lesson 7: Of, at, to, from, with
-5.2.5	6d6146d99a9a	Lesson 6: Little words that look like English; Lesson 9: Numbers
+5.2.5	d3fe82ce210b	Lesson 6: Little words that look like English; Lesson 9: Numbers
 5.2.6	d7fe6a6368c9	Lesson 2: First sentences; Lesson 3: Describing words come after
 5.2.7	90ec2ce505f4	Before you start; Lesson 2: First sentences; Lesson 6: Little words that look like English
 5.2.8	dbc749e6e747	Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
@@ -138,12 +138,12 @@ rule	fingerprint	lessons
 8.2.4	a20b66c1c93e	Lesson 10: Time
 8.2.5	0fb6936f5c25	Lesson 10: Time
 8.3.1	5166b4f76188	Lesson 10: Time
-8.3.2	6e628a3918bb	Lesson 10: Time
-8.3.3	000721d0888c	Lesson 10: Time
+8.3.2	04853d0f8ef0	Lesson 10: Time
+8.3.3	adc531fbed44	Lesson 10: Time
 9.1.1	02b05b896adf	Lesson 9: Numbers
 9.2.1	e74b18782dbd	Lesson 9: Numbers
 9.2.2	fa8eb5b1ede8	Lesson 9: Numbers
-9.2.3	4385a1c88af4	Lesson 9: Numbers
+9.2.3	e62b4e7805b5	Lesson 9: Numbers
 9.2.4	957b01797d53	Lesson 9: Numbers
 9.3.1	32883d403457	Lesson 9: Numbers
 9.3.2	d696f23a3c40	Lesson 9: Numbers

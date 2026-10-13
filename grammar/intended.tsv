@@ -40,7 +40,7 @@ wan mu nawi yen wopo	[S wan mu nawi yen wopo]	yes
 to nagu yen yidu bu	[S to nagu yen yidu bu]	yes	
 muyi yu	[NP muyi yu]	no	
 moti	moti	no	
-nagu me la mon dili dife ufo	[S nagu [NP me la] [ADV mon [NP dili dife ufo]]]	no	
+nagu me la mon dili mena ufo	[S nagu [NP me la] [ADV mon [NP dili mena ufo]]]	no	
 gun nimo	[S gun nimo]	no	
 bi upe	[AP bi upe]	no	a bare state (4.5.2)
 ibe	ibe	no	
@@ -68,9 +68,9 @@ no wungu futa	[NP [NP no wungu] futa]	no
 yawu gun upe	[S yawu gun upe]	no	
 wuma gun upe	[S wuma gun upe]	no	
 dili oma	[NP dili oma]	no	
-kemin dife sa	[NP kemin dife sa]	yes	
-gimu dife ka	[NP gimu dife ka]	yes	
-ewo dife fi	[NP ewo dife fi]	yes	
+kemin mena sa	[NP kemin mena sa]	yes	
+gimu mena ka	[NP gimu mena ka]	yes	
+ewo mena fi	[NP ewo mena fi]	yes	
 gimu pi fugi	[NP gimu pi fugi]	yes	
 fi pi ka	[NP fi pi ka]	yes	
 guyi tan	[NP guyi tan]	no	
@@ -130,12 +130,12 @@ mon mape ka po pi yami	[ADV mon [NP [NP mape ka po] pi yami]]	yes
 mon yawu po sa	[ADV mon [NP yawu po sa]]	yes	
 mon yawu sa	[ADV mon [NP yawu sa]]	yes	
 mon fu minfi	[ADV mon [NP fu minfi]]	yes	
-dili dife ka	[NP dili dife ka]	yes	
-dili dife ka pi dunan	[NP [NP dili dife ka] pi dunan]	yes	
-dili dife ka pi isi	[NP [NP dili dife ka] pi isi]	yes	
-dunan dife yawu , dili dife mape	[NP [NP dunan dife yawu] , [NP dili dife mape]]	yes	
-fawu dife sa po sa ufo	[NP fawu dife sa po sa ufo]	yes	
-dili dife yawu da	[NP dili dife yawu da]	yes	
+dili mena ka	[NP dili mena ka]	yes	
+dili mena ka pi dunan	[NP [NP dili mena ka] pi dunan]	yes	
+dili mena ka pi isi	[NP [NP dili mena ka] pi isi]	yes	
+dunan mena yawu , dili mena mape	[NP [NP dunan mena yawu] , [NP dili mena mape]]	yes	
+fawu mena sa po sa ufo	[NP fawu mena sa po sa ufo]	yes	
+dili mena yawu da	[NP dili mena yawu da]	yes	
 ewo fu ka yawu	[NP ewo fu ka yawu]	no	
 ke kudu se guyi ben	[AP ke kudu se [NP guyi ben]]	no	
 ke kudu se we	[AP ke kudu se we]	no	

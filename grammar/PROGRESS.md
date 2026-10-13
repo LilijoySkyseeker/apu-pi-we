@@ -30,9 +30,9 @@ Phase 2 goal met: `direnv exec . python3 tools/gf_check.py` exits 0 (about 17 s)
 - 2026-10-12: roles.tsv; gf_lexicon.py; abstract + Apu + Eng; gf_check.py; intended.tsv; all examples pass;
   QUESTIONS.md; UDHR probe (see below).
 - 2026-10-12 (rule batch 1, task RB1): the author's answers to QUESTIONS.md and four rule decisions applied.
-  Grammar: FuManner merged into the fu relation phrase; LabelQ/LabelDigs use dife, PiNP's label guard gone;
+  Grammar: FuManner merged into the fu relation phrase; LabelQ/LabelDigs use mena, PiNP's label guard gone;
   StillNot (le mu); ComplVV/GunVV take a VPa, flag vv stops later phrases attaching to the first verb;
-  ComplV3P (optional 4.6.5 pause); RelWhose pi wan|bu|wan la; StanceMin ", a min"; dife not a content root
+  ComplV3P (optional 4.6.5 pause); RelWhose pi wan|bu|wan la; StanceMin ", a min"; mena not a content root
   (gf_lexicon OPS2); dunan field time. gf_check joins a name's words into one token (11.1).
   Result: 194/194 sentence examples parse with the intended reading, 97/97 precise forms have 1 structural reading.
   UDHR: 176/176 parse (quotes parsed as their own sentences).

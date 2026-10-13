@@ -177,7 +177,7 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 - **Digits 6–9 two syllables** (**ufo oma kefi mape**): no free robust one-syllable forms (only **fe**, **nu**; closed syllables collided with **fi**). Built as content words pushed apart from each other and from number words.
 - **No teens or irregular tens** (15 **yawu te**, 50 **te yawu**) [evidence]: English *fifteen/fifty* is a known confusion (documented for learners of English, not in aviation or phone research); regular numerals help children learn to count (Miller, Smith, Zhu & Zhang 1995) *(corrected 2026-10-12 after the fact-check, C45: was "a classic confusion")*.
 - **Digit reading** for identifiers in groups of three [evidence: aviation reads digits one by one].
-- **Calendar:** today's (7-day **nelon**, **dunan** month = moon, 24-hour clock read as digits); months and weekdays by number [author]. Points in time are labels (noun + **dife** + number; **pi** + number until 2026-10-12).
+- **Calendar:** today's (7-day **nelon**, **dunan** month = moon, 24-hour clock read as digits); months and weekdays by number [author]. Points in time are labels (noun + **mena** + number; **pi** + number until 2026-10-12).
 - **Senary** is a topic [author]: its words live in `docs/measurement.md`, `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
 
 ---

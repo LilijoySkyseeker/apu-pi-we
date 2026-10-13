@@ -52,14 +52,14 @@ gi tan, fanmu pi funti pi gigin la iko kemin pi sogan pi ewo we tun ewo we. ewo 
 
 > Now, therefore, The General Assembly Proclaims this Universal Declaration of Human Rights as a common standard of achievement for all peoples and all nations, to the end that every individual and every organ of society, keeping this Declaration constantly in mind, shall strive by teaching and education to promote respect for these rights and freedoms and by progressive measures, national and international, to secure their universal and effective recognition and observance, both among the peoples of Member States themselves and among the peoples of territories under their jurisdiction.
 
-## wabun dife 1 {.apu}
+## wabun mena 1 {.apu}
 
 ewo we tuko nume gan enpa, yen wan la ibe bawe kige yen sogan kige. wan la lenu pume, yen lenu lugo musu upe yen musu yomo. wan la keya muge nen nen fu faba la.
 {.apu}
 
 > All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 
-## wabun dife 2 {.apu}
+## wabun mena 2 {.apu}
 
 go ibe sogan we pi kemin tan. musu fa kubo tan. niki pi ewo lu niki pi unne lu lowu lu futa lu apu lu lite pi nosen lu gigin lu funti man wan obu se, mu kubo tan. musu pi wan lu tuko nume pi wan lu musu eni lu ge pume pi wungu lu ge pume eni, fe mu kubo tan.
 {.apu}
@@ -71,63 +71,63 @@ pi gigin pi wan lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu
 
 > Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non‐self‐governing or under any other limitation of sovereignty.
 
-## wabun dife 3 {.apu}
+## wabun mena 3 {.apu}
 
 pata yen enpa yen sonli gun sogan pi go.
 {.apu}
 
 > Everyone has the right to life, liberty and the security of person.
 
-## wabun dife 4 {.apu}
+## wabun mena 4 {.apu}
 
 go mu gun efon yonnu ewo li doku mu enpa. go fe mu gun efon ibe ewo, lu bika ewo, lu koda ewo. tan gun feko li niki mesun.
 {.apu}
 
 > No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.
 
-## wabun dife 5 {.apu}
+## wabun mena 5 {.apu}
 
 go mu gun efon muge bi wekun go gan momu. go fe mu gun efon muge go bi yomo, lu muge go mu fu ewo, lu muge go fu musu. tan gun feko wi li wekun pi wabun.
 {.apu}
 
 > No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.
 
-## wabun dife 6 {.apu}
+## wabun mena 6 {.apu}
 
 mon kemu we, go ibe sogan li gun ewo li wabun.
 {.apu}
 
 > Everyone has the right to recognition everywhere as a person before the law.
 
-## wabun dife 7 {.apu}
+## wabun mena 7 {.apu}
 
 ewo we gun kige li wabun, yen wan la ibe sogan li wabun la kuwi wan la fu kige. ewo we fe ibe sogan li wabun la kuwi wan la fu kige se ewo man mu muge wan la fu kige fu kemin tan mu efon. wan la fe ibe sogan li wabun la kuwi wan la se ewo man walo li ewo eni muge ben.
 {.apu}
 
 > All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.
 
-## wabun dife 8 {.apu}
+## wabun mena 8 {.apu}
 
 don ewo bo alun sogan bawe man wabun eni lu wabun bawe pi gigin neke yi, yi ibe sogan li pu pi wabun pi gigin o muge upe ben.
 {.apu}
 
 > Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law.
 
-## wabun dife 9 {.apu}
+## wabun mena 9 {.apu}
 
 don wabun denku mu efon, go mu gun efon yidu go, lu yonnu go, lu muge kusa go se gigin pi wan.
 {.apu}
 
 > No one shall be subjected to arbitrary arrest, detention or exile.
 
-## wabun dife 10 {.apu}
+## wabun mena 10 {.apu}
 
 don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan sin alun wabun, wan ibe sogan li pu pi wabun la doma wan fu kidun. pu pi wabun la keya doma wan nin ewo we lenu nagu. pu pi wabun la tan keya gun kige li we, yen keya gun enpa. tan gun kige li ewo we.
 {.apu}
 
 > Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
 
-## wabun dife 11 {.apu}
+## wabun mena 11 {.apu}
 
 1\. don ewo bo oyi wun yi sin alun wabun, wabun la keya muge yi fu ewo man mu alun bu. tan gun feko anko pu pi wabun la wuye wun yi sin alun bu. pu pi wabun la keya wuye ben fu wabun mon doma man ewo we lenu nagu. mon doma tan, bu la keya neke yi musu we man yi wupi li kuwi nen.
 {.apu}
@@ -139,14 +139,14 @@ don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan 
 
 > 2\. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.
 
-## wabun dife 12 {.apu}
+## wabun mena 12 {.apu}
 
 pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wan, lu inwa yonyo pi wan, lu inwa guyi pi wan, lu inwa ge sege pi wan. ewo eni fe mu gun efon alun dundi pi wan, lu alun suso upe pi wan. go ibe sogan li wabun la kuwi wan se ben.
 {.apu}
 
 > No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.
 
-## wabun dife 13 {.apu}
+## wabun mena 13 {.apu}
 
 1\. go ibe sogan li kobi enpa mon bese pi gigin man wan piyi mon. wan fe ibe sogan li nume enpa mon bese pi bu.
 {.apu}
@@ -158,7 +158,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 > 2\. Everyone has the right to leave any country, including his own, and to return to his country.
 
-## wabun dife 14 {.apu}
+## wabun mena 14 {.apu}
 
 1\. go ibe sogan li ditun pu sonli mon gigin eni, don ewo la fesun wan li muge wekun wan. wan fe ibe sogan li nume mon pu sonli tan.
 {.apu}
@@ -170,7 +170,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 > 2\. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.
 
-## wabun dife 15 {.apu}
+## wabun mena 15 {.apu}
 
 1\. go ibe sogan li gun ewo pi gigin bo.
 {.apu}
@@ -182,7 +182,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 > 2\. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.
 
-## wabun dife 16 {.apu}
+## wabun mena 16 {.apu}
 
 1\. don lowu lu futa sin guge, wan ibe sogan li bedan. wan fe ibe sogan li tuko yonyo. wan la ibe sogan la tan nuwen bamo man gun fu niki pi ewo lu gigin lu lite pi nosen. lowu yen futa ibe sogan kige li bedan. wan la fe ibe sogan kige nin bedan. wan la fe ibe sogan kige mon fugi pi bedan.
 {.apu}
@@ -199,7 +199,7 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 > 3\. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.
 
-## wabun dife 17 {.apu}
+## wabun mena 17 {.apu}
 
 1\. go ibe sogan li ibe musu nuwen ewo eni. wan fe ibe sogan li ibe musu gan ewo eni.
 {.apu}
@@ -211,21 +211,21 @@ pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wa
 
 > 2\. No one shall be arbitrarily deprived of his property.
 
-## wabun dife 18 {.apu}
+## wabun mena 18 {.apu}
 
 go ibe sogan li pume enpa. pi upe yen yomo, wan fe ibe sogan li pume enpa. wan fe ibe sogan li ibe lite pi nosen lu ge pume feko fu enpa. sogan tan fe gun sogan li kubo lite pi nosen lu ge pume feko. wan fe ibe sogan li wuye lite pi nosen lu ge pume feko fu enpa. wan lenu muge ben nuwen ewo eni. wan fe lenu muge ben gan ewo eni. wan lenu muge ben mon kemu kunsu, lu muge ben mon kemu mu kunsu. tofo yen muge yen dundi nosen yen kuwi gun lite man go wuye bu la gan.
 {.apu}
 
 > Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance.
 
-## wabun dife 19 {.apu}
+## wabun mena 19 {.apu}
 
 go ibe sogan li ibe ge pume fu enpa, yen go ibe sogan li oyi enpa. sogan tan fe gun sogan li ewo eni mu muge wan fu yomo gi wan pume musu bo. pi gason yen ge iko, sogan tan fe gun wun wan lenu ditun bu la, yen lenu dunu bu la, yen lenu peton bu la. wan lenu muge tan gan du iko we. lifin pi gigin la mu bamo ben.
 {.apu}
 
 > Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.
 
-## wabun dife 20 {.apu}
+## wabun mena 20 {.apu}
 
 1\. go ibe sogan li fanmu enpa gan bonwi. wan fe ibe sogan li selo funti gan bonwi. wan fe ibe sogan li inwa funti fu enpa.
 {.apu}
@@ -237,7 +237,7 @@ go ibe sogan li ibe ge pume fu enpa, yen go ibe sogan li oyi enpa. sogan tan fe 
 
 > 2\. No one may be compelled to belong to an association.
 
-## wabun dife 21 {.apu}
+## wabun mena 21 {.apu}
 
 1\. go ibe sogan li wungu gigin pi nen gan ewo eni. wan nen lenu muge tan, lu no wungu man go waka enpa, lenu muge tan li wan.
 {.apu}
@@ -254,14 +254,14 @@ go ibe sogan li ibe ge pume fu enpa, yen go ibe sogan li oyi enpa. sogan tan fe 
 
 > 3\. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.
 
-## wabun dife 22 {.apu}
+## wabun mena 22 {.apu}
 
 go gun fi pi ewo we, yen go ibe sogan li dunu yema se ewo we. wan fe ibe sogan man gun fu nimo. wan fe ibe sogan man gun fu ewo we. wan fe ibe sogan man gun fu lite pi nume pi funti. wan wupi bu la li kuwi bawe pi nen. wan fe wupi bu la li guge enpa. gigin pi wan doku li tan, yen gigin la doku gan nen nen li tan. gigin mesun doku li tan fu yile pi nen yen musu pi nen yen nimo pi nen.
 {.apu}
 
 > Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.
 
-## wabun dife 23 {.apu}
+## wabun mena 23 {.apu}
 
 1\. go ibe sogan li doku. wan fe ibe sogan li waka doku pi nen fu enpa. wan fe ibe sogan li doku man gun kidun yen upe. wan fe ibe sogan li gigin kuwi wan se mu ibe doku.
 {.apu}
@@ -283,14 +283,14 @@ go gun fi pi ewo we, yen go ibe sogan li dunu yema se ewo we. wan fe ibe sogan m
 
 > 4\. Everyone has the right to form and to join trade unions for the protection of his interests.
 
-## wabun dife 24 {.apu}
+## wabun mena 24 {.apu}
 
 go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu keya doku awuwa bi feli. tan fe gun wun wan ibe dili enpa gan nimo moti moti.
 {.apu}
 
 > Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.
 
-## wabun dife 25 {.apu}
+## wabun mena 25 {.apu}
 
 1\. go yen yonyo pi wan ibe sogan li ibe tonya li pata upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi lu mu lenu doku, lu gun pani lu ofin pi wan sin kono lu wan mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li gun yema se ewo we yen gigin.
 {.apu}
@@ -302,7 +302,7 @@ go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu 
 
 > 2\. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.
 
-## wabun dife 26 {.apu}
+## wabun mena 26 {.apu}
 
 1\. go ibe sogan li yesa. go mu keya unfu li konsin tofo pi tuko. tiwu we keya dunu tofo pi tuko. ewo we keya lenu dunu tofo pi doku. ewo we fe keya lenu inwa tofo tisan fu lenu pi nen fu kige.
 {.apu}
@@ -319,7 +319,7 @@ go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu 
 
 > 3\. Parents have a prior right to choose the kind of education that shall be given to their children.
 
-## wabun dife 27 {.apu}
+## wabun mena 27 {.apu}
 
 1\. go ibe sogan li inwa lite pi nume pi funti man wan nume mon kiyo fu enpa. wan fe ibe sogan li tana ge muge li sesa. wan fe ibe sogan li inwa guge pi lugo. wan fe ibe sogan li dunu upe pi guge tan.
 {.apu}
@@ -331,14 +331,14 @@ go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu 
 
 > 2\. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.
 
-## wabun dife 28 {.apu}
+## wabun mena 28 {.apu}
 
 go ibe sogan li yile man sogan we pi kemin tan lenu lewe feko minwe mon. yile tan gun yile pi ewo we, yen gun yile lifin pi gigin la.
 {.apu}
 
 > Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.
 
-## wabun dife 29 {.apu}
+## wabun mena 29 {.apu}
 
 1\. go lenu guge enpa yen minwe na mon funti. gi tan, go ibe ge keya li funti man wan nume mon.
 {.apu}
@@ -355,7 +355,7 @@ go ibe sogan li yile man sogan we pi kemin tan lenu lewe feko minwe mon. yile ta
 
 > 3\. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.
 
-## wabun dife 30 {.apu}
+## wabun mena 30 {.apu}
 
 fa pi kemin tan yofu wun gigin bo lu funti bo lu ewo bo ibe sogan li muge musu bo li alun fi pi sogan pi kemin tan.
 {.apu}

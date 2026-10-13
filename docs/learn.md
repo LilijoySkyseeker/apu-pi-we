@@ -344,7 +344,7 @@ The place words are **yawu** 10, **loki** 100, **munno** 1000, **tonen** million
 
 Nothing is irregular, and there are no teens and no "-ty". English makes you learn *eleven*, *twelve*, *fifteen* and *fifty* one by one, but here they fall out of the rule. **munno**, **tonen** and **siwin** take a whole number in front, as in the last row. [§9.2.1](language.md#r-9-2-1)
 
-To count things, put the number after the thing: **totu sa** "two dogs", **dili oma** "seven days". A label puts **dife** between the thing and the number: **dili dife yawu da** "day 14", **dunan dife yawu** "month 10" (October). Labels also give order, so there are no separate words like "third": **gimu dife ka** "the third time", **ewo dife fi** "the first person". "Last" uses **pi** "of" and **fugi** "end": **gimu pi fugi** "the last time". From 100 up, a label is read digit by digit. [§5.2.5](language.md#r-5-2-5) [§9.2.3](language.md#r-9-2-3)
+To count things, put the number after the thing: **totu sa** "two dogs", **dili oma** "seven days". A label puts **mena** between the thing and the number: **dili mena yawu da** "day 14", **dunan mena yawu** "month 10" (October). Labels also give order, so there are no separate words like "third": **gimu mena ka** "the third time", **ewo mena fi** "the first person". "Last" uses **pi** "of" and **fugi** "end": **gimu pi fugi** "the last time". From 100 up, a label is read digit by digit. [§5.2.5](language.md#r-5-2-5) [§9.2.3](language.md#r-9-2-3)
 
 Phone numbers, codes and years are read digit by digit too, so 2026 as a year is **sa po sa ufo**. Phone numbers and codes are grouped in threes from the right. [§9.2.2](language.md#r-9-2-2)
 
@@ -381,7 +381,7 @@ Clock time works the way your culture does, and both styles are always understoo
 
 On a 24-hour clock, read the four digits one at a time: **mon sa fi ka po** "at 21:30". For "around" a time, put **fu** before it: **mon fu minfi** "around noon". In writing, give the time the way your culture writes it. [§8.3.1](language.md#r-8-3-1) [§3.4](language.md#r-3-4)
 
-Dates are labels with **dife** (lesson 9), and the bigger unit comes first, with a comma between: the month by number, then the day. So **dunan dife yawu, dili dife mape** "October 9". A year is read digit by digit: **fawu dife sa po sa ufo** "2026". On its own, **dili dife** with a number from 1 to 7 is a weekday, counting Monday as 1: **dili dife ka** "Wednesday". For a date without its month, add what it's the day of: **dili dife ka pi dunan** "the 3rd of the month". [§8.3.3](language.md#r-8-3-3) [§8.3.2](language.md#r-8-3-2)
+Dates are labels with **mena** (lesson 9), and the bigger unit comes first, with a comma between: the month by number, then the day. So **dunan mena yawu, dili mena mape** "October 9". A year is read digit by digit: **fawu mena sa po sa ufo** "2026". On its own, **dili mena** with a number from 1 to 7 is a weekday, counting Monday as 1: **dili mena ka** "Wednesday". For a date without its month, add what it's the day of: **dili mena ka pi dunan** "the 3rd of the month". [§8.3.3](language.md#r-8-3-3) [§8.3.2](language.md#r-8-3-2)
 
 Age is time lived. **to nume fawu ka yawu** "I have lived 30 years" is how you say you're 30. [§8.2.4](language.md#r-8-2-4)
 
@@ -442,7 +442,7 @@ Put a comma where you'd pause: [§4.6.1](language.md#r-4-6-1)
 - between who gets something and the thing given, if it helps; it's optional, and worth it when the thing is long or has a **man** clause [§4.6.5](language.md#r-4-6-5)
 - between clauses or verbs joined by **yen**, **lu** or **un** when the first ends in a noun: **to nawi pasu, yen wopo.** "I eat food, and sleep." [§4.6.6](language.md#r-4-6-6)
 - before a tone word at the end (lesson 8), and before **yu** when it asks "which?" (lesson 4) [§4.6.7](language.md#r-4-6-7)
-- between month and day (**dunan dife yawu, dili dife mape**) [§4.6.8](language.md#r-4-6-8)
+- between month and day (**dunan mena yawu, dili mena mape**) [§4.6.8](language.md#r-4-6-8)
 - after a **man** clause, to close it before more words [§4.6.9](language.md#r-4-6-9)
 
 In casual writing you can drop commas that are obvious. [§4.6.10](language.md#r-4-6-10)

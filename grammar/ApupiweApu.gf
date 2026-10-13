@@ -257,10 +257,10 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       True => (npr d.s EN False False) ** {dt = True ; hn = False} ;
       False => npr Predef.nonExist EV False False} ;
     LabelQ q n = case q.hn of {
-      True => q ** {s = seq q ("dife" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
+      True => q ** {s = seq q ("mena" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
       False => npr Predef.nonExist EV False False} ;
     LabelDigs q n = case <q.hn, n.n3> of {
-      <True, True> => q ** {s = seq q ("dife" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
+      <True, True> => q ** {s = seq q ("mena" ++ n.s) ; e = EN ; p = pz q False ; cnt = True} ;
       _ => npr Predef.nonExist EV False False} ;
     Clock24 a b c d = (npr (a.s ++ b.s ++ c.s ++ d.s) EN False True) ** {ns = True} ;
     Clock12 h a b = case h.hr of {

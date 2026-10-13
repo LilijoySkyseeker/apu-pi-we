@@ -507,7 +507,7 @@ id = "4.5.1"
 type = "bullet"
 title = "Anything the listener can supply from context may be left out"
 text = '''
-- Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili dife ufo.** "see you all Saturday".'''
+- Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili mena ufo.** "see you all Saturday".'''
 
 [[item]]
 id = "4.5.2"
@@ -585,7 +585,7 @@ id = "4.6.8"
 type = "bullet"
 gap = 0
 text = '''
-- between a larger and a smaller calendar unit (**dunan dife yawu, dili dife mape**);'''
+- between a larger and a smaller calendar unit (**dunan mena yawu, dili mena mape**);'''
 
 [[item]]
 id = "4.6.9"
@@ -784,7 +784,7 @@ type = "bullet"
 title = "Number"
 gap = 0
 text = '''
-- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **dife** + number is a label (**kemin dife sa** "document 2"), and a label also gives a place in order: **gimu dife ka** "the third time", **ewo dife fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **fi pi ka** "one of three".'''
+- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **mena** + number is a label (**kemin mena sa** "document 2"), and a label also gives a place in order: **gimu mena ka** "the third time", **ewo mena fi** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **fi pi ka** "one of three".'''
 
 [[item]]
 id = "5.2.6"
@@ -1298,7 +1298,7 @@ type = "bullet"
 title = "Weekdays"
 gap = 0
 text = '''
-- A weekday is **dili dife** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili dife ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili dife ka pi dunan** "the 3rd (of the month)", **dili dife ka pi isi** "the third day of the trip".'''
+- A weekday is **dili mena** + 1–7 on its own, with Monday as 1 (ISO 8601): **dili mena ka** "Wednesday". A day of the month is said with its month; without one, say whose day it is: **dili mena ka pi dunan** "the 3rd (of the month)", **dili mena ka pi isi** "the third day of the trip".'''
 
 [[item]]
 id = "8.3.3"
@@ -1306,7 +1306,7 @@ type = "bullet"
 title = "Dates"
 gap = 0
 text = '''
-- Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan dife yawu, dili dife mape** "October 9". A weekday with a time is said the same way: **dili dife te, mon …**. Years are read digit by digit: **fawu dife sa po sa ufo** "2026".'''
+- Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan mena yawu, dili mena mape** "October 9". A weekday with a time is said the same way: **dili mena te, mon …**. Years are read digit by digit: **fawu mena sa po sa ufo** "2026".'''
 
 [[item]]
 id = "9"
@@ -1369,7 +1369,7 @@ type = "bullet"
 title = "Labels"
 gap = 0
 text = '''
-- Labels (noun + **dife** + number) under 100 use the quantity reading (**dili dife yawu da** "day 14"). Larger labels use the digit reading.'''
+- Labels (noun + **mena** + number) under 100 use the quantity reading (**dili mena yawu da** "day 14"). Larger labels use the digit reading.'''
 
 [[item]]
 id = "9.2.4"
@@ -1722,7 +1722,7 @@ id = "13.2"
 type = "para"
 title = "Two-syllable operators"
 text = '''
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **dife**. **dife** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **gan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
 
 [[item]]
 id = "14"

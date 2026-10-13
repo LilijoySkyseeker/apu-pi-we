@@ -51,7 +51,7 @@ def read(path):
 LEX = {r["form"]: r for r in read(os.path.join(ROOT, "data", "lexicon.tsv"))}
 GRAMMAR_WORDS = ({r["form"] for r in read(os.path.join(ROOT, "data", "grammar.tsv"))}
                  | {r["form"] for r in read(os.path.join(ROOT, "data", "numbers.tsv"))}
-                 | set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo dife".split())
+                 | set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo mena".split())
                  | {w for w, r in LEX.items() if r["field"] == "number"})
 
 
