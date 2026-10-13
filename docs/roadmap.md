@@ -64,6 +64,10 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **Culture-bound vocabulary beyond religion** (author, 2026-10-13): check holidays, food, titles, kinship, clothing, law and other domains for the same frequency bias found in religion, and apply the principle (shared concepts in the core; each culture names its own) where it fits.
 
+- **Religion core words rest on the skewed list** (bias audit, 2026-10-13): soul, miracle and devil became core partly by their coverage-frequency rank (533, 1,029, 1,070), from the same list the religion decision says over-ranks Christian terms because Bible translations dominate web text in smaller languages. Re-check them with that bias controlled (ranks with Bible-heavy corpora left out, or the panel count alone). Also check "religion" itself: as one category it is arguably a 19th-century European export (Japanese *shūkyō* was coined for it in the 1870s); see whether the panel languages' everyday words for it are old or modern coinages before it keeps a core root.
+
+- **Coverage texts lean European** (bias audit, 2026-10-13): 11 of the 20 texts in `tests/coverage-01/texts/` are Spanish (3), French, Russian, Portuguese or English (2 each). None is in Korean, Vietnamese, Thai, Tagalog, Bengali, Tamil, Persian, Hausa, Yoruba or Quechua, so South-East Asia, South Asia and Africa have one language each and the Americas none. These texts measured the base size (about 1,500 roots) and which missing words cost meaning. Rebalance toward one or two per panel region before the next measurement, or note the skew where the size decision is cited.
+
 - **Gaps found by the ladder pass** (2026-10-13): "parent" has no root (only **mole yen wede**) while "sibling" has a sexless root; "lie, say what is untrue" has no root (needed for "liar").
 
 
