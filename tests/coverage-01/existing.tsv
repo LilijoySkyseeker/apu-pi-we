@@ -1,0 +1,655 @@
+form	gloss	kind
+ewo	person	root
+tiwu	child	root
+lowu	man, male	root
+futa	woman, female	root
+sonu	friend	root
+yonyo	family	root
+mole	mother	root
+wede	father	root
+suso	name	root
+funti	group	root
+biton	enemy	root
+gawo	body	root
+lukan	head	root
+funo	eye	root
+wisa	ear	root
+danki	nose	root
+fonma	tooth	root
+lisun	tongue	root
+sonfa	hair	root
+kiti	hand	root
+pifo	foot	root
+bendo	leg	root
+mala	heart	root
+makon	blood	root
+gipo	bone	root
+unne	skin	root
+nebe	back, of the body; behind	root
+suyon	belly	root
+osa	water	root
+lumi	fire	root
+fowo	ground, earth or soil	root
+lutu	stone	root
+yaye	sky	root
+giwe	sun	root
+dunan	month; moon	root
+uwan	star	root
+gegi	rain	root
+gulo	wind	root
+gala	tree	root
+wonin	leaf	root
+kima	wood, the material	root
+puya	sea	root
+yolan	river	root
+genne	mountain	root
+digan	sand	root
+penso	smoke	root
+lanba	cloud	root
+wino	light, brightness	root
+lapo	storm	root
+binso	snow	root
+nokun	ice	root
+bunwu	salt	root
+sulen	ash	root
+pinfe	plant, vegetation	root
+noso	animal	root
+totu	dog	root
+lodi	bird	root
+woga	fish, the animal	root
+anbo	horse	root
+dunsa	cow	root
+dinbu	snake	root
+sunni	insect	root
+tika	egg	root
+yunbi	wing	root
+kenlo	tail	root
+fuyu	meat	root
+guyi	house, home	root
+beya	door	root
+pasu	food	root
+yetu	tool	root
+tenbe	rope	root
+binnu	boat	root
+siwa	cart	root
+demi	cloth	root
+nimo	money	root
+ingo	book	root
+botan	weapon	root
+soti	bed	root
+ladon	cup	root
+musu	thing	root
+dili	day, daytime or 24 hours	root
+yami	night	root
+muyi	time, a span or a point (not an occasion)	root
+leso	morning	root
+kegin	evening	root
+foke	moment	root
+bese	inside	root
+aban	outside	root
+bige	above	root
+deba	below	root
+sinye	front	root
+gelu	near	root
+lini	far	root
+funbe	left, the side	root
+nata	right, the side	root
+sola	road	root
+feli	many	root
+uyo	few	root
+kudu	big	root
+meli	small	root
+netu	long	root
+eten	short, not long	root
+tugan	wide	root
+gogo	heavy	root
+gamun	light, not heavy	root
+woten	thick	root
+kete	full	root
+tapun	empty	root
+timon	half	root
+minwe	whole	root
+upe	good	root
+yomo	bad	root
+duwa	new	root
+pani	old, aged or worn	root
+feko	true	root
+kige	same	root
+eni	other	root
+tikun	hot	root
+weki	cold, not hot	root
+wulon	wet	root
+kilan	dry	root
+gufu	hard, not soft	root
+tutin	soft	root
+tungi	sharp	root
+yobe	fast, quick	root
+gake	slow	root
+konke	strong	root
+nensi	weak	root
+inan	clean	root
+bodu	dirty	root
+sesa	beautiful	root
+bawe	important	root
+bunle	easy	root
+gofa	difficult	root
+wonwe	ready	root
+simi	sick	root
+fafin	dead	root
+tago	black	root
+pinda	white	root
+wiwi	red	root
+gisu	green	root
+bilun	yellow	root
+deta	blue	root
+pume	think	root
+lugo	know	root
+momu	want	root
+feme	feel	root
+tana	like, enjoy	root
+nuta	fear	root
+ganin	hope	root
+imu	remember	root
+yakin	forget	root
+yesa	learn	root
+lafi	understand	root
+yofu	mean, signify	root
+waka	choose	root
+wupi	need; should	root
+keya	must, have to	root
+walo	try	root
+sogi	happy	root
+bonko	angry	root
+wekun	pain	root
+nagu	see	root
+nulu	hear	root
+oyi	say	root
+iko	tell	root
+mido	ask	root
+kegu	talk	root
+apu	word; language	root
+yebin	call, phone or call to	root
+wuye	show	root
+miya	look, look at	root
+doma	listen	root
+yuyun	sing	root
+tusi	write	root
+lilu	read	root
+bubo	laugh	root
+nowa	cry, weep	root
+isi	go	root
+obu	come	root
+kobi	move	root
+niba	walk	root
+gabe	run, on foot	root
+bina	fly, move through the air	root
+lonfe	swim	root
+dosi	fall, drop down	root
+kolu	stand	root
+anle	lie, lie down	root
+inwa	enter	root
+kusa	leave, go away from	root
+sigo	return	root
+liwon	arrive	root
+lefan	follow	root
+dinyo	carry	root
+dandi	push	root
+nunya	pull	root
+gitin	throw	root
+duko	turn, rotate or turn around	root
+bamo	stop	root
+tuko	start	root
+sefu	wait	root
+piyi	stay	root
+muge	do; make	root
+ibe	have, possess	root
+neke	give	root
+yidu	take	root
+dunu	get, obtain	root
+yaga	put	root
+yonnu	hold	root
+bone	use	root
+geno	find	root
+agi	lose, misplace	root
+kuwi	keep; protect	root
+benbi	open	root
+tapi	close, shut	root
+fonsu	cut	root
+payon	hit	root
+nawi	eat	root
+koye	drink	root
+wopo	sleep	root
+unda	wake	root
+doku	work, labour; of a machine, function	root
+luse	play, for fun	root
+yema	help	root
+migi	fight	root
+kono	die	root
+nume	live, be alive or dwell	root
+guge	grow	root
+onti	burn	root
+bika	buy	root
+koda	sell	root
+unfu	pay	root
+pensi	wash	root
+siten	cook	root
+yunko	wear	root
+mibun	hide	root
+kubo	change, make or become different	root
+muwo	happen	root
+yiyin	win	root
+lite	way, method	root
+niki	kind, type	root
+ukun	reason	root
+batu	problem	root
+gason	idea	root
+weyu	story	root
+wabun	rule, regulation or law	root
+pinpu	war	root
+bonwi	peace	root
+bufe	game	root
+pata	life	root
+lula	power, strength or control	root
+wase	magic	root
+nosen	god	root
+mefa	today	root
+wuma	tomorrow	root
+afe	yesterday	root
+eda	now	root
+lewe	become	root
+suku	face	root
+sepi	apologise	root
+moti	again	root
+tofo	teach	root
+wungu	lead, guide	root
+sinun	dream	root
+buda	dark	root
+senmo	wall	root
+fanse	calm	root
+enpa	free, not held or controlled	root
+degun	glass, the material	root
+febo	answer	root
+yile	system	root
+yenwu	offend	root
+banga	panic	root
+wifu	number	root
+yufa	bag	root
+mabo	paper	root
+udin	lock	root
+gole	smart	root
+aya	watch, timepiece	root
+liga	phone	root
+mise	card	root
+ensu	bus	root
+dolalu	dollar	loan
+mimi	POINT	root
+guti	MINUS	root
+fade	mouth	root
+fawu	year	root
+kemu	place	root
+bayi	sad	root
+goyu	sit	root
+alun	break	root
+omen	kill	root
+selo	build	root
+bebu	disgust	root
+tale	car	root
+unun	POWER	root
+lota	thank	root
+sanwa	rent, pay to use	root
+tayu	agree	root
+sege	send	root
+fugi	end	root
+efon	allow	root
+faba	sibling	root
+ofin	spouse	root
+inyi	arm	root
+soto	north	root
+monna	south	root
+anyu	east	root
+munke	west	root
+egu	breast	root
+mogo	neck	root
+gudu	liver	root
+leyi	knee	root
+tunmu	grass	root
+suba	feather	root
+yinki	root, of a plant	root
+kefa	spit	root
+meyen	flower	root
+akan	louse	root
+tolin	nail, of a finger or toe	root
+kanko	smell, sense or give off an odour	root
+manfu	tie, fasten with a knot	root
+gabu	vomit	root
+awin	dust	root
+muban	throat	root
+gimen	fat, body fat	root
+tase	bark, of a tree	root
+tiwe	sweat	root
+gunmo	thin	root
+nanyo	blow, of air	root
+linma	finger	root
+wuwu	navel	root
+seyun	thunder	root
+dowin	cough	root
+yuson	rotten	root
+tibin	urinate	root
+badin	lung	root
+situ	shade, shadow from light	root
+togun	breathe	root
+fongo	straight	root
+maman	suck	root
+lage	salty	root
+yikan	seed	root
+tunlo	milk	root
+finlu	bitter	root
+bubin	ripe	root
+wento	penis	root
+linfa	blunt	root
+desin	defecate	root
+kowan	round	root
+lemon	brain	root
+sinta	sweet	root
+tinne	sneeze	root
+yansi	horn	root
+windi	smooth	root
+gonge	lip	root
+sanne	touch	root
+ganpa	yawn	root
+monpa	crush	root
+bewon	raw	root
+lawan	deep	root
+tonde	ant	root
+bosun	testicles	root
+banlu	narrow	root
+nunfo	buttocks	root
+tufun	sour	root
+mawun	flat, level	root
+ginda	crooked	root
+denku	correct	root
+nenmu	snore	root
+mange	quiet	root
+loyen	young	root
+tenmi	taste	root
+gonmi	toe	root
+kedon	vulva	root
+sanfi	side	root
+nilen	rough	root
+dibon	loud	root
+lanli	ugly	root
+lante	shallow	root
+linku	low	root
+paben	fart	root
+gonte	mosquito	root
+lifin	between	root
+gagan	wrong	root
+wenfe	dig	root
+sonyu	shoulder	root
+tanun	fruit	root
+wunta	air	root
+baken	fog	root
+mufin	lightning	root
+nenwa	lake	root
+kuwun	roof	root
+falan	climb	root
+buyan	split	root
+sofen	chew	root
+donbo	squeeze	root
+sumin	scratch	root
+tingu	swell	root
+kunwa	stab	root
+bunsi	steal	root
+fesun	hunt	root
+onlo	shoot	root
+magan	flow	root
+sunbu	count	root
+yiban	chicken	root
+gusen	intestines	root
+senke	armpit	root
+kanga	basket	root
+lonne	clothes	root
+elen	goat	root
+tengi	tuber	root
+yegon	rice	root
+sekan	field, open land	root
+binla	boil	root
+wonku	reach	root
+fanmu	gather, bring or come together	root
+intelunetu	internet	loan
+oton	city	root
+sowe	bread	root
+lengu	onion	root
+enna	worm	root
+inke	grind	root
+nelon	week	root
+ufo	6	root
+oma	7	root
+kefi	8	root
+mape	9	root
+loki	100	root
+munno	1000	root
+tonen	10^6	root
+siwin	10^9	root
+awuwa	hour	loan
+minitu	minute, of time	loan
+sekandu	second, of time	loan
+kilometulu	kilometre	loan
+lenu	can, be able	root
+lasu	bite	root
+tisan	high	root
+yawu	10	root
+gekon	fly, the insect	root
+gimu	occasion, a time (three times)	root
+lanno	honoured one, title of respect (sir, madam, Mr, Ms)	root
+buni	okay?, softens and invites agreement (stance, sentence end)	root
+donon	it turned out, surprisingly (stance, sentence end)	root
+minfi	noon, midday	root
+duwun	afternoon	root
+nedin	almost, nearly	root
+mesun	each, every one separately	root
+finbi	suddenly	root
+yodun	late, after the expected time	root
+ganna	early, before the expected time	root
+gewan	trust, rely on	root
+wigen	love	root
+sanku	miss, feel the absence of	root
+kinbo	disappointed	root
+monyu	hungry	root
+fadun	tired	root
+lenya	strange, odd	root
+sonli	safe, not in danger	root
+unwi	expensive	root
+tanbu	cheap, low in price	root
+fudon	room, of a building	root
+nansa	box, container	root
+sison	storey, floor level of a building	root
+yunen	oil, the liquid	root
+bedan	marry, wedding	root
+sogan	a right, entitlement	root
+tayin	complain	root
+imeyilu	email	loan
+foto	photo	loan
+diguli	degree (°)	loan
+batali	battery	loan
+yulo	euro	loan
+yuwan	yuan	loan
+lupi	rupee	loan
+polisu	police	loan
+manni	usually, habitually	root
+tason	rather, somewhat	root
+ditun	seek, search for	root
+nuton	remove, erase	root
+peton	share, let others have too	root
+penyu	connect, join	root
+ginni	add, put in more	root
+loban	check, verify	root
+susin	shake, vibrate	root
+ninge	sound, noise	root
+lunyu	page, sheet	root
+tinli	key, button	root
+kunsu	private, not for others	root
+bekin	garbage, trash	root
+gayen	copy, make the same again	root
+finsa	adjust, set	root
+kemin	document, file	root
+kamela	camera	loan
+genso	not literally, joking (speech act)	root
+wanme	seen, evidence by sight	root
+inwun	told, hearsay	root
+wemen	inferred, it seems	root
+konsin	at least	root
+buntu	about to, soon	root
+tonya	enough, as much as needed	root
+dundi	respect, honour	root
+gigin	country, nation	root
+yenbo	rest, take a break	root
+kidun	fair, just	root
+anko	until, up to (a time or point)	root
+nuwen	without	root
+ninsu	oppose, be against	root
+kiyo	end of phrase (closes a relative clause, phrasal derived word or topic)	root
+mena	number label, ordinal (day 3, the third)	root
+metulu	metre	loan
+sentimetulu	centimetre	loan
+milimetulu	millimetre	loan
+gulamu	gram	loan
+kilogulamu	kilogram	loan
+litulu	litre	loan
+no obu se yaye	alien	phrase
+no wungu	commander	phrase
+no nuta	coward	phrase
+no wase	wizard	phrase
+no migi	warrior	phrase
+tiwu futa	daughter	phrase
+tiwu lowu	son	phrase
+mole yen wede	parents	phrase
+dinbu pi lumi	dragon	phrase
+kima netu	stick	phrase
+pu wopo	bedroom	phrase
+goyu pume	meditate	phrase
+tun nebe	backward	phrase
+noso meli pi bendo feli	spider	phrase
+noso gake	turtle	phrase
+noso meli man lonfe yen niba	frog	phrase
+no bina mon yami	bat.the.animal	phrase
+noso meli man lasu gan kenlo	scorpion	phrase
+noso meli pi tunmu	grasshopper	phrase
+fawu netu	leap.year	phrase
+muyi pi kemu	local.time	phrase
+sunbu pi muyi	the.count	phrase
+muyi pi gawo	body.time	phrase
+muyi tikun	summer	phrase
+muyi weki	winter	phrase
+muyi pi gegi	rainy.season	phrase
+apu pi we	the.language	phrase
+no ibe guyi	landlord	phrase
+no nume gelu	neighbour	phrase
+pu siten	kitchen	phrase
+pu kuwi	warehouse	phrase
+kubo pu nume	move.house	phrase
+yaga tale	park.a.car	phrase
+oyi dibon	yell	phrase
+doku pi timon	part.time.work	phrase
+go mu unfu	free.of.charge	phrase
+gan momu	on.purpose	phrase
+mu gan momu	by.accident	phrase
+du sunbu	computer	phrase
+du wuye	screen	phrase
+apu pi udin	password	phrase
+ge sunbu	account	phrase
+ge finsa la	settings	phrase
+du penyu	link	phrase
+nansa pi kemin	folder	phrase
+tinli la	keyboard	phrase
+muge sigo	undo	phrase
+muge duwa	update	phrase
+kobi lunyu	scroll	phrase
+sege tun bige	upload	phrase
+foto pi du wuye	screenshot	phrase
+imeyilu bekin	spam	phrase
+siwa netu	train	phrase
+du efon	licence	phrase
+lula pi mufin	electricity	phrase
+pu yema simi	hospital	phrase
+siwa pi pifo	bicycle	phrase
+suso la	contacts (phone list)	phrase
+min	Q	grammar
+so	REQUEST	grammar
+tin	INSTRUCT	grammar
+fon	ADVISE	grammar
+de	INTEND	grammar
+yo	WARN	grammar
+yu	WH	grammar
+bo	UNSPEC	grammar
+mu	NOT	grammar
+kon	CONF	grammar
+to	I	grammar
+me	YOU	grammar
+pen	WE.incl	grammar
+din	WE.excl	grammar
+wan	HE/SHE	grammar
+yi	OBVIATIVE	grammar
+sun	LOGOPHOR	grammar
+la	PLURAL	grammar
+tan	THIS	grammar
+ben	THAT.dem	grammar
+we	ALL	grammar
+in	SOME	grammar
+kin	PART	grammar
+fa	NONE	grammar
+sin	DONE	grammar
+le	ONGOING	grammar
+pi	OF	grammar
+mon	AT	grammar
+tun	TO	grammar
+se	FROM	grammar
+gan	WITH	grammar
+li	FOR	grammar
+ya	BEFORE	grammar
+wo	AFTER	grammar
+yen	AND	grammar
+lu	OR	grammar
+un	BUT	grammar
+don	IF	grammar
+gi	BECAUSE	grammar
+wun	THAT.comp	grammar
+man	WHO.rel	grammar
+gun	BE	grammar
+ke	MORE	grammar
+bi	VERY	grammar
+fu	LIKE	grammar
+go	GENERIC	grammar
+na	ONLY	grammar
+nin	WHILE	grammar
+ba	EXCLAIM	grammar
+nen	SELF	grammar
+nun	POLITE	grammar
+bu	IT	grammar
+no	AGENT	grammar
+ge	RESULT	grammar
+du	TOOL	grammar
+pu	PLACE	grammar
+en	NAME	grammar
+fe	ALSO	grammar
+wi	EVEN	grammar
+o	FOCUS	grammar
+a	YOUKNOW	grammar
+po	0	number
+fi	1	number
+sa	2	number
+ka	3	number
+da	4	number
+te	5	number
+ufo	6	number
+oma	7	number
+kefi	8	number
+mape	9	number
+yawu	10	number
+loki	100	number
+munno	1000	number
+tonen	10^6	number
+siwin	10^9	number
+mimi	POINT	number
+guti	MINUS	number
+unun	POWER	number
