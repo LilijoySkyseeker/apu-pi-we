@@ -416,7 +416,7 @@ field, open land	nature	2	sekan
 boil	action	2	binla
 reach	motion	2	wonku
 gather, bring or come together	action	2	fanmu
-internet	loan	2	intalunetu
+internet	loan	2	intelunetu
 city	space	3	oton
 bread	thing	3	sowe
 onion	nature	2	lengu
@@ -434,7 +434,7 @@ week	time	3	nelon
 hour	loan	4	awuwa
 minute, of time	loan	4	minitu
 second, of time	loan	3	sekandu
-kilometre	loan	2	kilamita
+kilometre	loan	2	kilometulu
 percent	loan	2	pasentu
 can, be able	mind	5	lenu
 bite	action	4	lasu
@@ -517,3 +517,9 @@ without	abstract	3	nuwen
 oppose, be against	action	3	ninsu
 end of phrase (closes a relative clause, phrasal derived word or topic)	abstract	3	kiyo
 number label, ordinal (day 3, the third)	abstract	3	mena
+metre	loan	2	metulu
+centimetre	loan	2	sentimetulu
+millimetre	loan	2	milimetulu
+gram	loan	2	gulamu
+kilogram	loan	2	kilogulamu
+litre	loan	2	litulu

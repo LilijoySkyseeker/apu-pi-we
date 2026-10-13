@@ -473,6 +473,9 @@ abstract Lex = {
     guge_N : N ;  -- grow
     guge_V : V ;  -- grow
     guge_A : A ;  -- grow
+    gulamu_N : N ;  -- gram
+    gulamu_V : V ;  -- gram
+    gulamu_A : A ;  -- gram
     gulo_N : N ;  -- wind
     gulo_V : V ;  -- wind
     gulo_A : A ;  -- wind
@@ -509,9 +512,9 @@ abstract Lex = {
     inke_N : N ;  -- grind
     inke_V : V ;  -- grind
     inke_A : A ;  -- grind
-    intalunetu_N : N ;  -- internet
-    intalunetu_V : V ;  -- internet
-    intalunetu_A : A ;  -- internet
+    intelunetu_N : N ;  -- internet
+    intelunetu_V : V ;  -- internet
+    intelunetu_A : A ;  -- internet
     inwa_N : N ;  -- enter
     inwa_V : V ;  -- enter
     inwa_A : A ;  -- enter
@@ -563,12 +566,15 @@ abstract Lex = {
     kige_N : N ;  -- same
     kige_V : V ;  -- same
     kige_A : A ;  -- same
-    kilamita_N : N ;  -- kilometre
-    kilamita_V : V ;  -- kilometre
-    kilamita_A : A ;  -- kilometre
     kilan_N : N ;  -- dry
     kilan_V : V ;  -- dry
     kilan_A : A ;  -- dry
+    kilogulamu_N : N ;  -- kilogram
+    kilogulamu_V : V ;  -- kilogram
+    kilogulamu_A : A ;  -- kilogram
+    kilometulu_N : N ;  -- kilometre
+    kilometulu_V : V ;  -- kilometre
+    kilometulu_A : A ;  -- kilometre
     kima_N : N ;  -- wood, the material
     kima_V : V ;  -- wood, the material
     kima_A : A ;  -- wood, the material
@@ -704,6 +710,9 @@ abstract Lex = {
     lite_N : N ;  -- way, method
     lite_V : V ;  -- way, method
     lite_A : A ;  -- way, method
+    litulu_N : N ;  -- litre
+    litulu_V : V ;  -- litre
+    litulu_A : A ;  -- litre
     liwon_N : N ;  -- arrive
     liwon_V : V ;  -- arrive
     liwon_A : A ;  -- arrive
@@ -782,6 +791,9 @@ abstract Lex = {
     meli_N : N ;  -- small
     meli_V : V ;  -- small
     meli_A : A ;  -- small
+    metulu_N : N ;  -- metre
+    metulu_V : V ;  -- metre
+    metulu_A : A ;  -- metre
     meyen_N : N ;  -- flower
     meyen_V : V ;  -- flower
     meyen_A : A ;  -- flower
@@ -794,6 +806,9 @@ abstract Lex = {
     migi_N : N ;  -- fight
     migi_V : V ;  -- fight
     migi_A : A ;  -- fight
+    milimetulu_N : N ;  -- millimetre
+    milimetulu_V : V ;  -- millimetre
+    milimetulu_A : A ;  -- millimetre
     minfi_N : N ;  -- noon, midday
     minfi_V : V ;  -- noon, midday
     minfi_A : A ;  -- noon, midday
@@ -1049,6 +1064,9 @@ abstract Lex = {
     senmo_N : N ;  -- wall
     senmo_V : V ;  -- wall
     senmo_A : A ;  -- wall
+    sentimetulu_N : N ;  -- centimetre
+    sentimetulu_V : V ;  -- centimetre
+    sentimetulu_A : A ;  -- centimetre
     sepi_N : N ;  -- apologise
     sepi_V : V ;  -- apologise
     sepi_A : A ;  -- apologise

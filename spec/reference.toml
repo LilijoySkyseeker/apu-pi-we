@@ -1424,7 +1424,7 @@ type = "bullet"
 title = "Measurements"
 gap = 0
 text = '''
-- Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km".'''
+- Measurements use the metric system's unit names, borrowed as one set and built the way the system builds them: a prefix (**kilo**, **senti**, **mili**) run together with a unit (**metulu** metre, **gulamu** gram, **litulu** litre): **kilometulu** kilometre, **kilogulamu** kilogram, **sentimetulu** centimetre. The unit comes first, like any counted noun: **kilometulu te** "5 km".'''
 
 [[item]]
 id = "10"
@@ -1623,7 +1623,7 @@ type = "bullet"
 title = "Loans"
 gap = 0
 text = '''
-- Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dola** dollar, **minitu**, **kilamita**, **pasentu**, **intalunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.'''
+- Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dola** dollar, **minitu**, **kilometulu**, **pasentu**, **intelunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.'''
 
 [[item]]
 id = "11.4"

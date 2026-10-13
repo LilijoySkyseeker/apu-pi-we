@@ -357,7 +357,7 @@ Phone numbers, codes and years are read digit by digit too, so 2026 as a year is
 
 **fu** before a number means "about": **ewo fu ka yawu** "about 30 people". A range is **se** … **tun**: **se te tun yawu** "from 5 to 10". For limits you have **konsin ka** "at least 3" and **mu ke se ka** "not more than 3", which is how you say "at most". And for "enough" there's **pasu tonya** "enough food". [§9.3.1](language.md#r-9-3-1) [§9.3.2](language.md#r-9-3-2) [§9.3.3](language.md#r-9-3-3)
 
-Units have their international names and come first, like any counted thing: **kilamita te** "5 km". [§9.3.5](language.md#r-9-3-5)
+Units have their metric names, built like the metric system builds them: **kilo** + **metulu** "metre" is **kilometulu**, and the same goes for **kilogulamu** "kilogram" and **sentimetulu** "centimetre". They come first, like any counted thing: **kilometulu te** "5 km". [§9.3.5](language.md#r-9-3-5)
 
 ## Lesson 10: Time
 
@@ -404,7 +404,7 @@ For opposites, **mu** plus a word gives "not X" (**mu upe** "not good"), and man
 
 Ready-made compounds, such as **du sunbu** "computer" ("thing for counting"), are in the [compounds list](../data/compounds.tsv). [§11.4](language.md#r-11-4)
 
-Things the whole world names the same way are borrowed in their international form, without **en**: **foto** photo, **imeyilu** email, **intalunetu** internet, **dola** dollar, **kilamita** kilometre. [§11.3](language.md#r-11-3)
+Things the whole world names the same way are borrowed in their international form, without **en**: **foto** photo, **imeyilu** email, **intelunetu** internet, **dola** dollar, **kilometulu** kilometre. [§11.3](language.md#r-11-3)
 
 Computer words are everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**. [§11.4](language.md#r-11-4)
 

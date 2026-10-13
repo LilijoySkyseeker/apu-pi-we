@@ -310,7 +310,7 @@
 - <span id="r-9-3-2"></span>A range is **se** X **tun** Y. "At least" is **konsin** X, and "at most" is **mu ke se** X.
 - <span id="r-9-3-3"></span>"Enough" is **tonya**.
 - <span id="r-9-3-4"></span>A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", compare with everything: **ke kudu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").
-- <span id="r-9-3-5"></span>Measurements use borrowed international unit names, with the unit first like any counted noun: **kilamita te** "5 km".
+- <span id="r-9-3-5"></span>Measurements use the metric system's unit names, borrowed as one set and built the way the system builds them: a prefix (**kilo**, **senti**, **mili**) run together with a unit (**metulu** metre, **gulamu** gram, **litulu** litre): **kilometulu** kilometre, **kilogulamu** kilogram, **sentimetulu** centimetre. The unit comes first, like any counted noun: **kilometulu te** "5 km".
 
 ## 10. People
 
@@ -348,7 +348,7 @@
   - two vowels in a row get a glide between them, y after i or e and w otherwise;
   - a consonant that can't stand where it is gets an added **u**;
   - the result has at least two syllables, counting a glide (**tuwu**).
-- <span id="r-11-3"></span>Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dola** dollar, **minitu**, **kilamita**, **pasentu**, **intalunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.
+- <span id="r-11-3"></span>Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dola** dollar, **minitu**, **kilometulu**, **pasentu**, **intelunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.
 - <span id="r-11-4"></span>Computers and interfaces use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**, settings **ge finsa la**, computer **du sunbu** (`compounds.tsv`). **doku** "work" covers a machine working.
 - <span id="r-11-5"></span>Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.
 - <span id="r-11-6"></span>New words are made by the method in [vocabulary-method.md](vocabulary-method.md).
