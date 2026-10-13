@@ -54,3 +54,4 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - [x] Loan candidates through the 20-language panel (43 pass, 11 pass-borderline, 27 borderline, 28 fail; `part3/loans.md`; hand judgments in `part3/loanwork/`) (`tests/lexicon-ladder-01/panel.py`).
 - [ ] Boundary cases (Part 3): moon/month, word/language, religion, the screening's candidates, the 20–50% band, with the modern-use signals.
 - [ ] Author approves the list in batches.
+- [x] Loan panel decided (`part3/loans-final.tsv`). Concept-list work left: the remaining boundary cases, the ladder-pass approval (843 keep / 93 covered / 36 merge / 27 split / 19 grammar), Globasa items that touch the list (imitative words, grammar-word guard).

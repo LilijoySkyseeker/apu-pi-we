@@ -8,6 +8,8 @@ Proposals only; no word was changed. Candidates: the 109 rows of `ladder.tsv` (t
 - **Pattern 2 (2026-10-13): memory columns need a source** (frequency lists, the foreign word's Wiktionary entry, a dictionary); only deciding columns are checked; no blanket Quechua assumption.
 - **Pattern 3 (2026-10-13): two shapes are one form when their adapted forms keep the same consonants** (pope/papa together; channel/kanal, mosque/masjid apart).
 
+- **The rest (2026-10-13):** thin deciding columns fail (project, campaign, sofa, platform); the five-times rival rule is accepted; median ties by region count, then length; shared short forms tested and preferred; loans keep their forms and roots move; mile not core; pound a currency loan; pope and mosque each tradition's own word. Final list: `loans-final.tsv` (62 pass, plus pound as a currency).
+
 ## Method
 
 The same as `tests/lexicon-ladder-01/loans.md` ("How this was done"), unchanged:

@@ -1,0 +1,110 @@
+concept	count/regions	verdict	adapted	note
+ice cream	11/5	fail	ayisukulimu	
+soup	11/6	fail		
+chocolate	20/7	pass	tokolatu	
+doctor	13/5	pass	dokutolu	
+banana	5/2	fail		
+giraffe	11/4	fail	silafa	
+motorcycle	14/6	pass	moto	short form moto tested (decision 4)
+television	19/7	pass	telebisuyon	test the shared short form (TV/tele) (decision 4)
+coffee	20/7	pass	kafe	
+sweater	14/6	pass	suwetalu	
+pajamas	16/7	pass	pidama	
+radio	18/7	pass	ladiyo	
+helicopter	16/7	pass	elikoputelu	
+tractor	18/7	pass	tulakutalu	
+yogurt	11/5	fail		
+sofa	12/4	fail	sofa	fail (decision 1: the 12th vote rests on three Tamil subtitle tokens)
+park	10/5	fail		
+pasta	11/5	fail		
+lamp	12/6	pass	lanpa	
+penguin	16/7	pass	penguwin	
+tomato	12/7	pass	tomate	
+zebra	10/5	fail		
+tea	14/6	pass	tayu	
+garage	17/7	pass	galasu	
+cookie	16/6	pass	bisukuwitu	
+shorts	10/5	fail		
+party (political)	9/5	fail		
+sandwich	19/7	pass	sanduwitu	
+pizza	20/7	pass	pisa	
+sauce	16/6	pass at 12 after the shape rule	sosu	pass at 12 after the shape rule (salsa form apart)
+sugar	13/6	pass	sukalu	
+soda	5/4	fail		
+film	11/5	fail		
+toast	13/5	pass	tosutu	
+balcony	15/6	pass	balukon	
+circus	16/7	pass	silukasu	
+T-shirt	13/6	pass	tisalutu	
+music	11/6	fail		
+university	9/6	fail		
+video	19/7	pass	bideyo	
+bank	15/6	pass	banki	
+office	13/6	pass	ofisu	
+program	13/6	pass	pulogulamu	
+technology	15/7	pass	tekunolodi	
+computer	16/7	pass	konpuyutalu	
+business	7/5	fail		
+hotel	17/7	pass	otelu	
+energy	11/5	fail	eneludi	
+sport	8/6	fail		
+machine	14/6	pass	masina	
+president	7/4	fail		
+data	9/6	fail		
+professor	11/5	fail	pulofesolu	
+project	12/6	fail	puloyekutu	fail (decision 1: the 12th vote rests on one Quechua token)
+beer	13/6	pass	biyalu	
+code	13/5	pass	kodu	
+website	14/6	pass	sayitu	
+democracy	11/5	fail	demokulasiya	
+bomb	15/6	pass	bonba	
+design	12/5	pass	disayin	
+station	11/5	fail	sutasuyon	
+captain	17/7	pass	kaputan	
+model	14/6	pass	modelu	
+virus	17/7	pass	bilusu	
+restaurant	12/6	pass	lesutolan	
+ticket	11/5	fail		
+budget	10/5	fail		
+league	15/7	pass	liga	
+album	17/7	pass	alubumu	
+philosophy	11/5	fail	filusafa	
+channel	12/6	fail	tanelu	fail (shape rule: only the channel form counts, 7)
+robot	18/7	pass	lobotu	
+mile	18/7	not core	milu	not core (decision 6: outside the metric standard; borrowed by those who use it)
+pound	14/6	loan as a currency only	pawundu	loan as a currency only (decision 6); the weight is not core
+cigarette	13/5	pass	sigaletu	
+club	17/7	pass	kulabu	
+campaign	12/6	fail	kanpana	fail (decision 1: the 12th vote rests on two Quechua tokens)
+taxi	19/7	pass	takusi	
+gas	19/7	pass	gasu	
+museum	9/5	fail		
+alcohol	8/4	fail		
+engine	7/3	fail		
+chemistry	12/4	pass	kimiya	pass (Hausa column corrected: kemistiri, attested)
+guitar	20/7	pass	gitalu	
+metal	6/4	fail		
+climate	8/4	fail		
+gene	15/7	pass	denu	
+pilot	11/5	fail	pilotu	
+fashion	10/4	fail		
+plastic	16/7	pass	pulasutiku	
+bar	18/7	pass	balu	
+version	11/6	fail		
+cinema	16/6	pass	sinema	
+fuel	6/3	fail		
+cream	11/6	fail	kulimu	
+passport	15/7	pass	pasupolutu	
+platform	12/5	fail	pulatufolumu	fail (decision 1: several deciding columns weak)
+engineer	14/6	pass	indiniyalu	
+vaccine	14/6	pass	bakusin	
+tunnel	9/5	fail		
+toilet	10/5	fail		
+studio	15/6	pass	sutudiyo	
+profile	14/5	pass	pulofilu	
+pope	15/6	tradition	papa	tradition (religion decision: each tradition's own word)
+piano	17/7	pass	piyano	
+physics	11/4	fail	fisika	
+mosque	16/7	tradition	masudidu	tradition (religion decision: each tradition's own word)
+medal	14/6	pass	medala	
+mask	14/6	pass	masuka	
