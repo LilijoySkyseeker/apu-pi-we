@@ -5,7 +5,7 @@ Working note, started 2026-10-13. Task: `auxlangs-prompt.md` in this folder.
 ## Progress
 
 - [x] Read Apupiwe's goal, reference, rationale and design log; read the earlier conlang report (`research/reports/Conlang design principles compared.md`) and the fact-check of it (`research/reviews/cold-review-2026-10/reports/A6-factcheck.md`, C15, C18, C22, C44, C46, C48), so this note doesn't repeat claims already shown wrong.
-- [~] Research launched (six parallel agents), in parallel by group: (1) Volapük, Esperanto, Ido; (2) Occidental, Novial, Interlingua, Basic English, Glosa; (3) Loglan, Lojban, Toki Pona, a priori schemes (Wilkins, Solresol, Ro, aUI, Ithkuil); (4) Kotava, Globasa, Pandunia, Sambahsa, Lidepla, Elefen; (5) controls: Tok Pisin, ICAO English, Simplified Technical English, Modern Hebrew, Indonesian; (6) cross-cutting evidence: learnability studies, speaker counts, histories.
+- [~] Research relaunched 2026-10-13 after an interrupted run (first run's helpers lost). Six helpers write to `auxlangs-parts/1..6-*.md` as they go; each ends with `STATUS: complete`. Groups: (1) Volapük, Esperanto, Ido; (2) Occidental, Novial, Interlingua, Basic English, Glosa; (3) Loglan, Lojban, Toki Pona, a priori schemes (Wilkins, Solresol, Ro, aUI, Ithkuil); (4) Kotava, Globasa, Pandunia, Sambahsa, Lidepla, Elefen; (5) controls: Tok Pisin, ICAO English, Simplified Technical English, Modern Hebrew, Indonesian; (6) cross-cutting evidence: learnability studies, speaker counts, histories.
 - [x] Section 0, Apupiwe in brief
 - [ ] Per-language sections
 - [ ] Synthesis 1: recurring patterns
