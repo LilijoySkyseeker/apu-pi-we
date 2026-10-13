@@ -1,0 +1,22 @@
+Doctor: Hello, ma'am?
+Mother: I'm well, doctor.
+Doctor: What's the problem?
+Mother: My child is sick.
+Doctor: How is she sick?
+Mother: She has pain in her belly, and she keeps vomiting.
+Doctor: Does she feel hot or cold?
+Mother: She feels very hot, and she is also shaking.
+Doctor: When did it start?
+Mother: It started two days ago.
+Doctor: Is she passing watery stools?
+Mother: Yes, watery stools too.
+Doctor: How old is she?
+Mother: Three years and six months.
+Doctor: Good.
+I will give her an injection of medicine, and medicine to drink.
+Doctor: As for this medicine, she takes one small spoonful, three times each day.
+She takes it for one week, and in a week I will see her again.
+Mother: How much do I pay?
+Doctor: You pay after the child is feeling well.
+Mother: Thank you.
+Doctor: Goodbye.

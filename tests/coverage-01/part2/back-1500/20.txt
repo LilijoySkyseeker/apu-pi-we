@@ -1,0 +1,22 @@
+Step by step
+
+Before anything else, prepare the place where you will fix up the computer, and follow these tips:
+- I suggest using a wide table with nothing on top of it;
+- if you think it's better, work standing up, so you can move more freely;
+- choose a place with a lot of light.
+
+Gather the materials you need:
+- a Phillips screwdriver.
+- a cleaning brush with fine bristles (it can be a paintbrush).
+- heat paste (you can buy it at a computer shop).
+- a cleaning cloth or cleaning paper.
+- a white school eraser.
+- a blower.
+- a flat screwdriver (if you like).
+- a light (if you like).
+- a liquid that cleans connectors (if you like).
+- carbon powder or sewing-machine oil (if you like).
+
+Step 1 - open the computer
+1. Remove all the cables from the computer (mouse, keyboard, screen, power, network, phone, printer, and others).
+2. Open the computer box (some people wrongly call it the "CPU"), remove the screws at the back (some only have squeeze clips), and remove the metal cover.

@@ -1,0 +1,17 @@
+Assistant: Good morning, how can I help you?
+Janet: I'm Janet King, and I have an appointment with Mr. Hugo Moreno at 9:00 in the morning.
+Assistant: Mr. Hugo hasn't arrived yet, but please have a seat.
+Shall I get you a small coffee?
+Sometimes Mr. Hugo doesn't arrive before 9:30.
+Janet: Thank you very much, that's very kind of you, but I'd like tea.
+Assistant: Very well.
+How much sugar?
+Janet: No sugar, please.
+It's already 9:30.
+Is Mr. Moreno about to arrive?
+Assistant: No one knows.
+He has no rule about time, but he will certainly come.
+Where are you from?
+Janet: I'm from Chicago, but now I'm in Chile with a peace group.
+Assistant: And what is the peace group?
+Look, Mr. Hugo is coming.

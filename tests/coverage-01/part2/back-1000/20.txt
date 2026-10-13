@@ -1,0 +1,22 @@
+Step by step
+
+First of all, prepare the place where you're going to fix the computer, following these ideas:
+- it's best to use a wide table with nothing on it;
+- if you think it's better, work standing up, so you can move more freely;
+- choose a place with a lot of light.
+
+Gather the things you need:
+- a Phillips-type screwdriver.
+- a brush with fine hairs (it can be an art brush).
+- thermal grease (which you can buy at a computer shop).
+- a cleaning cloth or cleaning paper.
+- a white school eraser.
+- a blower.
+- a flat screwdriver (if you want).
+- a light (if you want).
+- cleaning fluid for connections (if you want).
+- black powder or sewing machine oil (if you want).
+
+Step 1 - Open the computer
+1. Remove all the cables from the computer (mouse, keyboard, screen, power, network, phone, printer, and other things).
+2. Open the computer's box (some people call it the "CPU", wrongly), by taking the small iron tools off its back (some only have a holding piece), and take off the iron cover.
