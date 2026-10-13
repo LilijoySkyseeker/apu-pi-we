@@ -60,6 +60,8 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 ### Checks
 
+- **The language's name is settled last** (author, 2026-10-13: the name doesn't have to be kept). **apu pi we** depends on the forms of "language" (**apu**), **pi** (in a voicing pair flagged by the auxlang survey) and **we**; after the short-word redo and the final placement, decide whether to keep or pin the name or let it follow the words. Renaming would also touch the repository, the site address and the README.
+
 - **Culture-bound vocabulary beyond religion** (author, 2026-10-13): check holidays, food, titles, kinship, clothing, law and other domains for the same frequency bias found in religion, and apply the principle (shared concepts in the core; each culture names its own) where it fits.
 
 - **Gaps found by the ladder pass** (2026-10-13): "parent" has no root (only **mole yen wede**) while "sibling" has a sexless root; "lie, say what is untrue" has no root (needed for "liar").
@@ -72,7 +74,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 ### Before the batch is pushed
 
-- Public-page fixes deferred during the batch: the Esperanto/creole sentence in "How it's built" (fact-check C15, C17, C18); `why.md` digit figures (0.26% / 2.3% describe a modelled ideal set); "most families lump apu" (about half, 40–61%); learn.md "ran out of short sounds"; clusivity "among the most stable" (Austronesian only).
+- Public-page fixes deferred during the batch: the Esperanto/creole sentence in "How it's built" (fact-check C15, C17, C18); `why.md` digit figures (0.26% / 2.3% describe a modelled ideal set); learn.md "ran out of short sounds"; clusivity "among the most stable" (Austronesian only).
 - Re-check the UDHR translation against the batch's rules.
 - Rebuild the site and check it.
 

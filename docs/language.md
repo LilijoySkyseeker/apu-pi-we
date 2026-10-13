@@ -387,4 +387,4 @@
 
 - <span id="r-14-1"></span>[../data/lexicon.tsv](../data/lexicon.tsv) lists roots and loans, each with a field and a frequency tier (1 rare – 5 most common). [../data/grammar.tsv](../data/grammar.tsv) lists the grammar words, [../data/numbers.tsv](../data/numbers.tsv) the number words and [../data/compounds.tsv](../data/compounds.tsv) the established compounds.
 - <span id="r-14-2"></span>A gloss with a second gloss after a comma fixes the sense: **gufu** "hard, not soft". A root means that sense only.
-- <span id="r-14-3"></span>One root may cover senses that most language families lump together: **apu** "word; language". Context tells them apart.
+- <span id="r-14-3"></span>One root may cover senses that most language families lump together: **muge** "do; make". Context tells them apart.

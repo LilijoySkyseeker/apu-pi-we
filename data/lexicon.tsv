@@ -167,7 +167,7 @@ say	sense	5	oyi
 tell	sense	4	iko
 ask	sense	3	mido
 talk	sense	3	kegu
-word; language	sense	4	apu
+language	sense	4	apu
 call, phone or call to	sense	2	yebin
 show	sense	3	wuye
 look, look at	sense	3	miya

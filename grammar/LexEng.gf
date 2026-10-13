@@ -27,9 +27,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     anyu_N = P.mkN "east" ;
     anyu_V = P.mkV "east" ;
     anyu_A = P.mkA "east" ;
-    apu_N = D.word_N ;
-    apu_V = D.word_V ;
-    apu_A = P.mkA "wording" ;
+    apu_N = D.language_N ;
+    apu_V = P.mkV "language" ;
+    apu_A = P.mkA "language" ;
     awin_N = D.dust_N ;
     awin_V = D.dust_V ;
     awin_A = P.mkA "dusting" ;

@@ -29,9 +29,9 @@ abstract Lex = {
     anyu_N : N ;  -- east
     anyu_V : V ;  -- east
     anyu_A : A ;  -- east
-    apu_N : N ;  -- word; language
-    apu_V : V ;  -- word; language
-    apu_A : A ;  -- word; language
+    apu_N : N ;  -- language
+    apu_V : V ;  -- language
+    apu_A : A ;  -- language
     awin_N : N ;  -- dust
     awin_V : V ;  -- dust
     awin_A : A ;  -- dust
