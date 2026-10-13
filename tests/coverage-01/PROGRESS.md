@@ -50,7 +50,7 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 
 ## Settling the concept list (author, 2026-10-13: order = concept list → short words → place all ~1,500 once)
 
-- [ ] Ladder pass over the 983 candidates (`prompts/ladder.md` → `part3/ladder.tsv`): keep / grammar / name / covered / merge / split; route standard / loan? / root; field, tier, antonym.
+- [x] Ladder pass over the 983 candidates (843 keep: 730 root, 109 loan?, 4 standard; 93 covered; 36 merge; 27 split; 19 grammar) (`prompts/ladder.md` → `part3/ladder.tsv`): keep / grammar / name / covered / merge / split; route standard / loan? / root; field, tier, antonym.
 - [ ] Loan candidates through the 20-language panel (`tests/lexicon-ladder-01/panel.py`).
 - [ ] Boundary cases (Part 3): moon/month, word/language, religion, the screening's candidates, the 20–50% band, with the modern-use signals.
 - [ ] Author approves the list in batches.

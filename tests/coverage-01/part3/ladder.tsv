@@ -412,3 +412,608 @@ n	concept	status	route	field	tier	antonym	note
 398	product	keep	root	work	3		goods, merchandise
 399	generation	keep	root	people	2		
 400	director	merge:leader		work	3		head of an organisation (264)
+401	origin	keep	root	abstract	2		beginning, source; start tuko is the act
+402	interview	keep	root	sense	2		
+403	goal	keep	root	mind	3		aim, purpose; purpose clause is li + verb; the football goal is a separate sense
+404	period	keep	root	time	3		era, interval; muyi is any span
+405	prince	covered:tiwu pi king		society	1		kinship composed (method 3.1); princess the same
+406	exist	grammar		abstract	3		"there is" is ibe with no subject (language.md 4.7.7)
+407	race	split	root	society	2		1: race, contest; 2: race of people (407.b)
+407.b	race (people)	keep	root	society	2		C4: biological races are known-wrong; describe as ancestry or ethnic group; root for the social category
+408	writer	covered:no tusi		people	2		one who writes (derived word); author
+409	data	keep	loan?	tech	3		data/datos/donnée/dēta/data; dannye, veri, shùjù, bayānāt differ
+410	artist	covered:no art		people	2		one who does art (derived word, as no wase); art is 309
+411	professor	keep	loan?	society	2		professor/profesor/professeur/profesör/profesa/purofessā; jiàoshòu, kyōju, ustādh differ
+412	literature	keep	root	art	2		
+413	slave	keep	root	society	2		
+414	notice	keep	root	sense	3		become aware of; a posted notice is a sign (438)
+415	alone	keep	root	quality	3		lonely, solo; only na is a focus operator
+416	announce	keep	root	sense	2		declare
+417	spring	split			2		1: the season (417); 2: water spring (417.b)
+417.a	spring (season)	covered:muyi pi meyen		time	2		phrase "time of flowers"; seasons are compounds (compounds.tsv summer, winter)
+417.b	spring (water)	keep	root	nature	1		water source; a coil spring is rare
+418	project	keep	loan?	work	3		proyekt/proyecto/projet/proje/proyek/purojekuto; xiàngmù, mashrū', mradi differ
+419	vehicle	keep	root	transport	2		van; car tale and cart siwa are kinds
+420	article	keep	root	sense	2		a written piece; article of law
+421	May	grammar		time	2		dunan mena te (language.md 8.3.3); modal "may" is efon or kon
+422	present	covered:eda		time	3		the present time is now; a gift is 135, to present is wuye show
+423	beer	keep	loan?	food	2		bier/biru/bira/bīra/píjiǔ; pivo, cerveza differ
+424	parliament	keep	root	society	2		congress, senate
+425	center	merge:middle		space	3		central, core (323)
+426	code	keep	loan?	tech	2		kod/código/code/kōdo/kode/kodi; dàimǎ, ramz differ
+427	pressure	keep	root	abstract	2		physical or social
+428	website	keep	loan?	tech	3		site: sayt/sitio/site/saito/situs; wǎngzhàn, mawqi', tovuti differ
+429	democracy	keep	loan?	society	2		demokratiya/democracia/demokrasi/dīmuqrāṭiyya/demokrasia; mínzhǔ, minshushugi differ
+430	commander	covered:no wungu		society	2		compounds.tsv "one who leads"
+431	colonel	keep	root	society	1		military rank
+432	unit	keep	root	abstract	2		unit of measure
+433	scene	keep	root	art	2		
+434	festival	keep	root	society	2		feast
+435	style	keep	root	art	2		stil'/estilo/sutairu partly shared; gaya, fēnggé, uslūb differ
+436	bomb	keep	loan?	society	2		bomba/bombe/bom/bomba; zhàdàn, bakudan, qunbula differ
+437	sin	keep	root	religion	2		
+438	sign	keep	root	sense	3		signal, symbol, mark
+439	design	keep	loan?	work	2		dizayn/dezain/desain/diseño; shèjì differs
+440	bridge	keep	root	place	3		
+441	secretary	keep	root	work	2		
+442	soul	keep	root	religion	2		spirit; a cultural concept, not a claim (C4 note)
+443	pregnant	keep	root	body	2		
+444	user	covered:no bone		people	2		one who uses (derived word)
+445	constitution	keep	root	society	2		
+446	revolution	keep	root	society	2		
+447	theory	keep	root	abstract	2		teoriya/teori vs riron, lǐlùn, naẓariyya
+448	chapter	keep	root	sense	2		sura
+449	subject	keep	root	abstract	3		topic, theme; school subject
+450	analyze	keep	root	mind	2		analysis
+451	network	keep	root	tech	3		net, web
+452	student	keep	root	people	3	teacher	pupil; no yesa exists; frequent, root per ladder 2.3
+453	appearance	keep	root	sense	2		look
+454	circle	keep	root	space	2		round kowan is the quality
+455	arrest	keep	root	society	2		detain
+456	wine	keep	root	food	2		
+457	match	split	root	society	2		1: match, contest; 2: matchstick (457.b)
+457.b	match (fire)	keep	root	thing	1		matchstick
+458	station	keep	loan?	place	3		stantsiya/estación/station/stasiun/istasyon/stesheni/sutēshon; zhàn, eki differ
+459	iron	keep	root	nature	2		the metal; the clothes iron is rare
+460	silver	keep	root	nature	1		
+461	color	keep	root	color	3		
+462	set	covered:finsa		action	3		adjust, set; put is yaga; a set of things is funti group
+463	capital	keep	root	society	2		capital city; financial capital is rare
+464	magazine	keep	root	thing	2		
+465	winter	covered:muyi weki		time	2		compounds.tsv "time cold"
+466	captain	keep	loan?	society	2		kapitan/capitán/kapten/kaptan/kapteni/kyaputen/kaptān
+467	player	covered:no luse		people	2		one who plays (derived word)
+468	luck	keep	root	abstract	3		fortune, lucky
+469	stage	split	root	abstract	2		1: stage, phase; 2: theatre stage (469.b)
+469.b	stage (theatre)	keep	root	art	1		platform
+470	honey	keep	root	food	2		
+471	independent	covered:enpa		society	2		"free, not held or controlled" is the same concept; independence
+472	react	keep	root	action	2		reaction
+473	size	keep	root	size	3		dimension, magnitude
+474	model	keep	loan?	abstract	2		model'/modelo/moderu/model; móxíng differs
+475	prove	keep	root	mind	3		proof, evidence
+476	measure	keep	root	action	2		measurement
+477	summer	covered:muyi tikun		time	2		compounds.tsv "time hot"
+478	mathematics	keep	root	abstract	2		arithmetic
+479	crisis	keep	root	society	2		krizis/crisis/krisis/kriz vs wēijī, azma, kiki
+480	step	keep	root	motion	2		step, pace
+481	library	covered:guyi pi ingo		place	2		phrase "house of books" as túshūguǎn, kütüphane, toshokan
+482	virus	keep	loan?	health	2		virus/uirusu/virüs/virusi/fayrūs/vāyras; bìngdú differs
+483	worker	keep	root	work	3		employee; no doku exists; frequent, root per ladder 2.3
+484	pass	keep	root	motion	3		go past or through; pass a test
+485	role	keep	root	abstract	2		
+486	branch	keep	root	nature	2		of a tree; branch office by metaphor
+487	pray	keep	root	religion	2		prayer, worship
+488	crime	keep	root	society	3		criminal
+489	target	merge:goal		mind	2		what is aimed at; tsel', objetivo, mùbiāo, mokuhyō cover both (403)
+490	travel	keep	root	motion	3		trip, journey; isi go is broader
+491	ring	keep	root	clothing	2		finger ring; a phone ringing is yebin
+492	pair	keep	root	number	2		couple
+493	restaurant	keep	loan?	food	3		restoran/restaurante/resutoran/resṭorān; cāntīng, maṭ'am, mgahawa differ
+494	transfer	keep	root	action	2		
+495	palace	keep	root	place	1		
+496	source	merge:origin		abstract	2		same labels "origin, source" (401)
+497	direct	keep	root	quality	2		directly
+498	mayor	keep	root	society	2		
+499	population	keep	root	society	2		
+500	corner	keep	root	space	2		
+501	detective	keep	root	people	1		
+502	bullet	keep	root	thing	2		
+503	ministry	keep	root	society	2		government department
+504	hall	keep	root	home	2		large room, corridor
+505	ticket	keep	loan?	thing	3		tiket/chiketto/tikiti/ṭikaṭ vs bilet/billete; piào, tadhkira differ
+506	principle	keep	root	abstract	2		rule wabun is near
+507	budget	keep	loan?	money	2		byudzhet/budget/bajet/bütçe/bajeti; presupuesto, yùsuàn, yosan differ
+508	breakfast	keep	root	food	3		pasu pi leso possible (as zǎofàn); frequent, root per ladder 2.3
+509	witness	keep	root	society	2		testimony
+510	customer	keep	root	money	3		client, buyer; no bika exists; frequent, root per ladder 2.3
+511	league	keep	loan?	society	1		liga/ligue/rīgu/lig/ligi; liánsài differs
+512	serve	keep	root	action	2		serve food, serve people; help yema is broader
+513	temperature	keep	standard	nature	2		SI quantity (kelvin, °C); temperatura/temperatur vs ondo, wēndù, ḥarāra; degree is diguli
+514	brave	keep	root	quality	2	fear	courage; coward is no nuta
+515	benefit	keep	root	abstract	2		advantage
+516	standard	keep	root	abstract	2		norm
+517	owner	covered:no ibe		people	2		one who has (derived word, as landlord no ibe guyi)
+518	escape	keep	root	motion	2		flee
+519	album	keep	loan?	art	1		al'bom/álbum/arubamu/album/albüm; zhuānjí differs
+520	seat	covered:pu goyu		home	2		place for sitting (derived word); chair is 17
+521	demand	keep	root	sense	2		ask mido is broader
+522	challenge	keep	root	abstract	2		
+523	shape	keep	root	space	3		form
+524	tax	keep	root	money	2		
+525	personal	covered:pi nen		quality	2		"of oneself"; private is kunsu
+526	philosophy	keep	loan?	abstract	2		filosofiya/filosofía/filsafat/felsefe/falsafa; zhéxué, tetsugaku differ
+527	course	keep	root	society	2		course of study
+528	original	keep	root	quality	2		
+529	matter	keep	root	abstract	3		affair, issue (as Chinese shì); physical matter is rare
+530	master	keep	root	people	2		lord
+531	content	keep	root	abstract	2		what is inside, of a text or file
+532	profit	keep	root	money	2		
+533	divide	keep	root	action	2		division; split buyan is to break apart
+534	rich	keep	root	quality	3	poor	wealth
+535	channel	keep	loan?	tech	2		kanal/canal/channeru/kanal/chaneli; píndào differs
+536	cell	keep	root	body	2		biological cell; a phone is liga
+537	major	keep	root	quality	2		main, chief; army rank is rare
+538	sentence	keep	root	sense	3		sentence, clause; a court sentence is rare
+539	identity	keep	root	society	2		ID
+540	advertisement	keep	root	work	2		reklama/reklam vs iklan/i'lān, kōkoku, guǎnggào
+541	officer	merge:official		society	2		person with authority (354)
+542	suit	keep	root	clothing	1		the garment; lawsuit is 280.b
+543	tourism	merge:travel		society	2		travel for pleasure (490); tourist is 925
+544	bill	keep	root	money	2		invoice; a law bill is rare
+545	appointment	keep	root	time	2		scheduled meeting
+546	regret	keep	root	mind	2		repent
+547	base	keep	root	abstract	3		basis, basic, foundation
+548	robot	keep	loan?	tech	2		robot/robotto/roboti; jīqìrén differs
+549	spirit	keep	root	religion	2		ghost; soul (442) is a person's own
+550	joke	keep	root	sense	2		genso marks a joking speech act
+551	net	merge:network		thing	2		set', red, wǎng, ağ cover both (451)
+552	fund	keep	root	money	2		
+553	view	keep	root	sense	2		scenery, perspective
+554	desert	keep	root	nature	2		
+555	mile	keep	loan?	number	1		not SI (L3 uses metric); used in US, UK; milya/milla/mairu
+556	skill	keep	root	mind	2		talent
+557	poet	covered:no poem		people	1		one who makes poems (derived word); poem is 628
+558	figure	merge:shape		space	2		a body's shape (523); a figure as a number is wifu
+559	pound	keep	loan?	money	1		currency (ISO 4217 GBP, EGP); funt/libra/paund/jineeh
+560	cigarette	keep	loan?	thing	2		sigareta/cigarrillo/sigaret/sigara/shigaretto/sijāra/sigreṭ; xiāngyān, rokok differ
+561	contact	covered:yebin		sense	2		get in touch is call; a phone contact is suso (compounds.tsv)
+562	praise	keep	root	sense	2		
+563	continue	keep	root	action	3	stop	proceed; le marks ongoing
+564	press	split			2		1: press, push on (564.a); 2: the press, news media (564.b)
+564.a	press (push)	covered:dandi		action	2		push
+564.b	press (media)	keep	root	society	2		
+565	citizen	keep	root	society	2		citizenship
+566	Wednesday	grammar		time	3		dili mena ka (language.md 8.3.2)
+567	club	keep	loan?	society	2		klub/club/kurabu/kulüp/klabu/jùlèbù; nādī differs
+568	factory	covered:pu muge		work	2		place for making (derived word), as gōngchǎng, kōjō
+569	habit	keep	root	mind	2		routine; manni marks habit on a verb
+570	childhood	covered:muyi pi tiwu		time	2		phrase "time of child"
+571	title	keep	root	sense	2		heading; the respect title is lanno
+572	divorce	keep	root	society	2	marry, wedding	
+573	negative	keep	root	quality	2	positive	
+574	compare	keep	root	mind	2		comparison
+575	pocket	keep	root	clothing	1		
+576	driver	covered:no drive		people	2		one who drives (derived word); drive is 143
+577	character	keep	root	mind	2		personality; a story's character
+578	establish	keep	root	action	2		found, set up; start tuko is broader
+579	politician	covered:no politics		people	2		one who does politics (derived word); politics is 273
+580	March	grammar		time	2		dunan mena ka (language.md 8.3.3)
+581	expression	keep	root	sense	2		phrase, facial expression
+582	job	keep	root	work	3		occupation, profession; work doku is the activity
+583	list	keep	root	sense	2		
+584	fresh	keep	root	quality	2	rotten	
+585	screen	keep	root	tech	3		compounds.tsv du wuye; frequent, root per ladder 2.3
+586	angel	keep	root	religion	1		
+587	campaign	keep	loan?	society	2		kampaniya/campaña/kanpēn/kampanye/kampanya/kampeni; huódòng differs
+588	universe	keep	root	nature	2		
+589	define	keep	root	sense	2		definition
+590	cancer	keep	root	health	2		rak/cáncer/kanker/kanser vs saraṭān, gan, ái
+591	arrange	keep	root	action	2		organize
+592	resolution	merge:decide		society	2		a formal decision (254)
+593	sense	keep	root	mind	2		good sense, a sense organ; meaning is yofu
+594	score	keep	root	society	2		points; score a goal
+595	imagine	keep	root	mind	3		imagination, fantasy
+596	saint	keep	root	religion	1		
+597	crown	keep	root	thing	1		
+598	fault	keep	root	abstract	2		flaw, defect
+599	taxi	keep	loan?	transport	2		taksi/taxi/takushī/teksi/taksi; chūzūchē differs
+600	wound	keep	root	body	2		injury
+601	representative	covered:no represent		society	2		one who represents (derived word); proxy, spokesperson; represent is 942
+602	muscle	keep	root	body	2		
+603	pure	keep	root	quality	2		purity; clean inan is near
+604	gas	keep	loan?	nature	2		gaz/gas/gasu/gesi/gāz; qìtǐ differs
+605	tense	keep	root	mind	1	calm	strained, nervous; grammatical tense is rare
+606	supply	keep	root	action	2		provision
+607	bow	split	root	action	1		1: bow, bend the body; 2: bow, the weapon (607.b)
+607.b	bow (weapon)	keep	root	thing	1		
+608	effect	keep	root	abstract	3		impact, result
+609	adult	keep	root	people	3	child	grown-up; matches baby (40)
+610	sacrifice	keep	root	religion	1		offering
+611	expect	keep	root	mind	3		hope ganin is near
+612	museum	keep	loan?	place	2		muzey/museo/musée/muzium/müze/myūziyam; bówùguǎn, matḥaf, makumbusho differ
+613	approach	keep	root	motion	2		come near; method sense is lite
+614	chest	covered:egu		body	2		breast and chest are one word in pecho, grud', mune; a box is nansa
+615	comment	keep	root	sense	2		remark
+616	invite	keep	root	sense	2		invitation
+617	alcohol	keep	loan?	food	2		alkogol'/alcohol/alkohol/alkol/arukōru/kuḥūl; jiǔ, pombe differ
+618	discuss	keep	root	sense	3		debate; talk kegu is broader
+619	bishop	keep	root	religion	1		
+620	professional	keep	root	work	2		
+621	prison	keep	root	society	2		jail
+622	element	keep	root	abstract	2		chemical element (IUPAC) or a part
+623	invest	keep	root	money	2		investment
+624	foundation	merge:base		abstract	2		basis (547); a charity foundation is an organization
+625	knight	keep	root	society	1		
+626	novel	keep	root	art	2		story weyu is broader
+627	gate	covered:beya		home	2		door and gate are one word in mén, bāb, puerta, pintu
+628	poem	keep	root	art	2		poetry
+629	nurse	keep	root	health	2		
+630	engine	keep	loan?	tech	2		motor/mōtā/mota/motor; fādòngjī, enjin differ
+631	finance	covered:pi nimo		money	2		financial = of money
+632	Tuesday	grammar		time	3		dili mena sa (language.md 8.3.2)
+633	rose	keep	root	nature	1		the flower; as a verb form it is rise (377)
+634	wise	keep	root	mind	2		wisdom; smart gole is quick thinking
+635	coin	keep	root	money	2		
+636	guest	keep	root	people	2	host	visitor
+637	care	keep	root	action	3		look after; keep/protect kuwi is near
+638	local	covered:pi kemu		space	2		"of the place", as compounds.tsv local time
+639	chemistry	keep	loan?	abstract	1		khimiya/química/kimia/kimya/kemia/kīmiyā'; huàxué, kagaku differ
+640	mark	merge:sign		sense	2		sign, mark (438)
+641	statistics	keep	root	abstract	1		
+642	patient	split			2		1: a sick person in care (642.a); 2: patient, enduring (642.b)
+642.a	patient (sick person)	covered:ewo simi		health	2		phrase "sick person"
+642.b	patient (enduring)	keep	root	mind	2		
+643	worry	keep	root	mind	3		concern, anxious; fear nuta is near
+644	material	keep	root	thing	2		substance
+645	traffic	keep	root	transport	2		
+646	consciousness	keep	root	mind	1		
+647	protest	keep	root	society	2		oppose ninsu is the stance
+648	contribute	keep	root	action	2		contribution
+649	lieutenant	keep	root	society	1		military rank
+650	publish	keep	root	sense	2		
+651	poor	keep	root	quality	3	rich	poverty
+652	raise	keep	root	action	3		lift
+653	guitar	keep	loan?	art	1		gitara/guitarra/gitā/gitar/gitaa/jítā/gīṭār
+654	statement	covered:ge oyi		sense	2		what is said (derived word)
+655	prisoner	keep	root	society	1		captive
+656	proud	keep	root	mind	2		pride, arrogance
+657	perform	keep	root	action	2		performance
+658	gender	keep	root	people	2		sex as a category; man lowu, woman futa
+659	gun	covered:du onlo		thing	2		tool for shooting (derived word)
+660	claim	keep	root	sense	2		
+661	hell	keep	root	religion	1		
+662	guarantee	keep	root	sense	1		
+663	terrorism	keep	root	society	2		terrorizm/terorisme vs irhāb, kǒngbù, ugaidi
+664	airport	keep	root	transport	3		pu bina possible; baseline like train, hospital (ladder 0)
+665	exchange	keep	root	action	2		
+666	nerve	keep	root	body	1		
+667	virgin	keep	root	body	1		
+668	busy	keep	root	quality	3		occupied
+669	hole	keep	root	space	2		
+670	board	keep	root	thing	2		plank; board of directors is a group
+671	punish	keep	root	society	2		penalty
+672	cross	keep	root	motion	2		go across; the cross shape is rare
+673	civilization	keep	root	society	1		
+674	grain	keep	root	food	2		cereal grain; seed yikan is broader
+675	metal	keep	loan?	nature	2		metall/metal/metaru/metali; jīnshǔ, kinzoku, ma'dan differ
+676	progress	keep	root	abstract	2		
+677	popular	keep	root	quality	2		
+678	engineering	keep	root	work	1		
+679	fail	keep	root	action	3	success	failure
+680	liquid	keep	root	nature	2		
+681	needle	keep	root	thing	1		
+682	plot	keep	root	art	1		story plot; conspiracy
+683	oxygen	keep	standard	nature	1		IUPAC element; form from the symbol name (oksigen/oxígeno/oksijen vs sanso, yǎng)
+684	charge	keep	root	tech	2		charge a battery; a fee is price (275)
+685	throne	covered:pu goyu pi king		society	1		phrase "seat of the king"
+686	rank	merge:level		society	2		a position on a scale (301)
+687	climate	keep	loan?	nature	2		klimat/clima/climat/iklim (via Arabic); qìhòu, kikō, manākh differ
+688	signature	keep	root	sense	2		sign one's name
+689	essay	keep	root	sense	1		
+690	passenger	keep	root	transport	2		
+691	term	keep	root	sense	2		a word for a concept; a span is period (404)
+692	introduce	keep	root	sense	2		introduction
+693	spy	keep	root	people	1		
+694	Thursday	grammar		time	3		dili mena da (language.md 8.3.2)
+695	positive	keep	root	quality	2	negative	
+696	fever	keep	root	health	2		
+697	rape	keep	root	society	1		
+698	wave	keep	root	nature	2		of water; waving a hand
+699	damage	keep	root	action	2		harm; break alun is broader
+700	wheel	keep	root	thing	2		
+701	reward	keep	root	abstract	2		prize, award
+702	bride	covered:futa no bedan		people	1		phrase "woman who marries"; gender is a modifier
+703	border	keep	root	space	2		boundary; limit (358) is abstract
+704	poison	keep	root	health	2		venom, toxin
+705	symptom	keep	root	health	1		
+706	loan	keep	root	money	2		money lent; rent sanwa is paying to use
+707	reference	keep	root	sense	1		
+708	opportunity	keep	root	abstract	2		chance
+709	miracle	keep	root	religion	1		magic wase is near
+710	cabinet	split	root	society	1		1: government cabinet; 2: cupboard (710.b)
+710.b	cabinet (cupboard)	merge:wardrobe		home	1		storage furniture (186)
+711	capacity	keep	root	size	1		
+712	square	split	root	space	2		1: the shape; 2: town square (712.b)
+712.b	square (place)	keep	root	place	2		plaza
+713	psychology	keep	root	abstract	1		psikhologiya/psikologi vs xīnlǐxué, shinrigaku, 'ilm al-nafs
+714	shock	keep	root	mind	2		shocked; panic banga is near
+715	angle	keep	root	space	1		
+716	medium	keep	root	size	2		middle-sized; mass media is press (564.b)
+717	scholar	keep	root	people	1		learned person; expert (379) is skill
+718	rare	keep	root	quality	2		scarce
+719	deposit	keep	root	money	1		
+720	mission	keep	root	work	2		
+721	trick	keep	root	action	2		
+722	lawyer	keep	root	society	2		attorney
+723	appear	keep	root	motion	3		emerge; "the sun appears" (method 3b)
+724	steel	keep	root	nature	1		
+725	farm	keep	root	work	2		farming, cultivation
+726	essence	keep	root	abstract	1		gist
+727	tower	keep	root	place	2		
+728	strike	split			2		1: strike, hit (728.a); 2: labour strike (728.b)
+728.a	strike (hit)	covered:payon		action	2		hit
+728.b	strike (labour)	keep	root	work	1		
+729	tip	split			2		1: pointed end (729.a); 2: gratuity (729.b); advice is fon
+729.a	tip (end)	merge:point		space	2		(268)
+729.b	tip (gratuity)	keep	root	money	1		
+730	priest	keep	root	religion	2		
+731	servant	keep	root	people	1		
+732	lover	keep	root	people	3		girlfriend, boyfriend, partner; no wigen "one who loves" is ambiguous
+733	surgery	keep	root	health	2		operation
+734	reader	covered:no lilu		people	2		one who reads (derived word)
+735	gene	keep	loan?	health	1		gen/gene/jīn/jīyīn; idenshi differs
+736	forehead	keep	root	body	2		brow
+737	singer	covered:no yuyun		people	2		one who sings (derived word)
+738	behave	keep	root	action	2		conduct, behaviour
+739	devil	keep	root	religion	1		demon
+740	majority	keep	root	abstract	2		ke feli "more" phrases are near
+741	average	keep	root	number	2		mean
+742	treasure	keep	root	money	1		
+743	flood	keep	root	nature	2		
+744	former	keep	root	time	2		ex-; ya "before" is a relation word
+745	vegetable	keep	root	food	2		
+746	destination	covered:pu liwon		space	1		place for arriving (derived word)
+747	continent	keep	root	space	1		
+748	lecture	merge:lesson		society	2		a teaching talk (347)
+749	extreme	keep	root	quality	1		bi "very" is degree
+750	row	merge:line		space	2		line, row (271)
+751	farmer	covered:no farm		people	2		one who farms (derived word); farm is 725
+752	diamond	keep	root	nature	1		
+753	presence	keep	root	abstract	1		being there
+754	trial	keep	root	society	2		court trial; try is walo
+755	heaven	keep	root	religion	2		paradise; the sky as seen is yaye
+756	shield	keep	root	thing	1		
+757	sure	grammar		mind	3		certain = kon ufo (language.md 6.1.2)
+758	edition	keep	root	sense	1		
+759	menstruation	keep	root	body	2		
+760	balance	keep	root	abstract	2		
+761	pilot	keep	loan?	transport	1		pilot/piloto/pilote/pairotto/pāylaṭ; fēixíngyuán, ṭayyār, rubani differ
+762	corpse	covered:gawo fafin		body	1		"dead body"
+763	sword	keep	root	thing	1		
+764	investigate	keep	root	mind	2		research, inquiry; seek ditun and check loban are near
+765	invent	keep	root	action	1		invention; create (364) is broader
+766	context	keep	root	abstract	2		
+767	messenger	keep	root	people	1		envoy
+768	solve	keep	root	mind	2		solution
+769	camp	keep	root	place	1		
+770	womb	keep	root	body	1		
+771	print	keep	root	action	2		
+772	sum	keep	root	number	2		total; add is ginni
+773	layer	keep	root	space	1		
+774	headquarters	covered:pu wungu		work	1		place for leading (derived word)
+775	compound	keep	root	abstract	1		
+776	application	split	root	tech	3		1: software app; 2: request, applying (776.b)
+776.b	application (request)	keep	root	sense	2		apply for a job
+777	bless	keep	root	religion	2		blessing
+778	missile	keep	root	thing	1		
+779	broadcast	keep	root	tech	1		
+780	factor	keep	root	abstract	2		
+781	pole	keep	root	thing	1		post; geographic pole
+782	handle	keep	root	thing	1		
+783	corruption	keep	root	society	2		
+784	grandchild	covered:tiwu pi tiwu		people	2		kinship composed (method 3.1)
+785	edge	keep	root	space	2		rim; side sanfi is near
+786	dawn	keep	root	time	1		
+787	believe	keep	root	mind	3		faith, belief; trust gewan is near
+788	host	keep	root	people	1	guest	
+789	fashion	keep	loan?	society	1		moda/mode/fasshon/moda; shízhuāng differs
+790	relationship	keep	root	society	3		relation
+791	regular	keep	root	quality	2		
+792	ceremony	keep	root	society	2		ritual
+793	amount	keep	root	number	2		quantity
+794	temple	keep	root	religion	2		shrine
+795	grave	keep	root	religion	2		tomb
+796	spread	keep	root	action	2		diffusion
+797	script	keep	root	sense	1		
+798	innocent	keep	root	society	2		
+799	plastic	keep	loan?	thing	2		plastik/plástico/purasuchikku/plastiki/blāstīk; sùliào differs
+800	volume	keep	root	size	1		loudness; book volume
+801	giant	covered:ewo bi kudu		people	1		phrase "very big person"; huge is bi kudu
+802	noble	keep	root	society	1		
+803	fan	split	root	people	2		1: fan, supporter, admirer; 2: cooling fan (803.b)
+803.b	fan (device)	keep	root	home	1		
+804	plain	split	root	quality	2		1: plain, simple; 2: plain, flat land (804.b)
+804.b	plain (land)	covered:sekan mawun		nature	1		phrase "flat open land"
+805	credit	keep	root	money	2		
+806	bar	keep	loan?	place	2		drinking place: bar/bā/baa/jiǔbā; a metal bar is rare
+807	repeat	keep	root	action	2		repetition; moti "again" is near
+808	responsible	keep	root	society	2		responsibility, duty
+809	manage	keep	root	work	2		management; lead wungu is near
+810	release	keep	root	action	2	hold	let go; free enpa is the state
+811	agent	merge:representative		work	1		one who acts for another (601)
+812	princess	covered:tiwu futa pi king		society	1		kinship composed (method 3.1), as prince (405)
+813	agriculture	merge:farm		work	2		farming, cultivation (725)
+814	department	keep	root	work	2		part of an organisation
+815	tradition	keep	root	society	2		custom, traditional
+816	experiment	keep	root	abstract	1		test (388) is checking
+817	media	merge:press (media)		society	2		(564.b)
+818	federation	merge:union		society	1		union of states (344)
+819	last night	grammar		time	2		time phrase yami pi afe "night of yesterday" (language.md 8.2)
+820	contract	keep	root	work	2		agree tayu is the act
+821	exercise	keep	root	health	2		physical exercise; a school exercise
+822	suicide	covered:omen nen		action	1		"kill self" (nen reflexive, language.md 10.3.6)
+823	countryside	keep	root	place	2	city	rural
+824	version	keep	loan?	abstract	2		versiya/versión/bājon/versi/versiyon; bǎnběn, toleo differ
+825	champion	covered:no yiyin		people	1		one who wins (derived word); winner
+826	thief	covered:no bunsi		people	2		one who steals (derived word)
+827	describe	keep	root	sense	2		description
+828	guard	covered:no kuwi		people	2		one who protects (derived word); guardian
+829	emergency	keep	root	abstract	2		danger (353) is broader
+830	reform	keep	root	society	1		change kubo is broader
+831	insurance	keep	root	money	2		
+832	perfect	keep	root	quality	2		
+833	property	covered:ge ibe		money	2		what one has (derived word); real estate is a phrase with land
+834	joint	keep	root	body	1		of the body; "joint" as shared is gan
+835	stress	merge:pressure		mind	2		yālì, ḍaghṭ cover both (427); loan stress/sutoresu/stres is also widespread
+836	rate	keep	root	number	1		ratio, speed, rate of pay
+837	mass	keep	standard	nature	1		SI quantity (kilogram); crowd and church Mass are rare
+838	mention	keep	root	sense	2		refer to
+839	cinema	keep	loan?	art	2		kino/cine/cinéma/sinema/sīnimā; diànyǐngyuàn, eigakan differ
+840	fence	keep	root	home	1		wall senmo is solid
+841	blind	keep	root	body	2		
+842	available	keep	root	quality	2		ready wonwe is near
+843	fool	keep	root	people	2	smart	idiot
+844	drunk	keep	root	quality	1		
+845	turn off	covered:tapi		action	2		language.md 11.4 turn on/off benbi/tapi
+846	fuel	keep	loan?	thing	2		petrol, gasoline: benzin/bensin/petroli/gasorin/gasolina; two forms
+847	competition	keep	root	society	2		contest, tournament; race (407) is a speed contest
+848	excuse	keep	root	sense	1		justification; "excuse me" is sepi
+849	satisfied	keep	root	mind	2		satisfaction
+850	detail	keep	root	abstract	2		
+851	scientist	covered:no science		people	2		one who does science (derived word); researcher
+852	ambassador	keep	root	society	1		
+853	improve	keep	root	action	2		muge ke upe "make better" exists
+854	settle	keep	root	action	1		settle down, settlement
+855	eternity	covered:we muyi		time	1		"all time"; eternal
+856	wheat	keep	root	food	2		
+857	unity	merge:union		society	1		being one, solidarity (344)
+858	cream	keep	loan?	food	1		krem/crema/crème/kurīmu/krim/krimu; nǎiyóu differs
+859	tribe	keep	root	society	2		
+860	aspect	keep	root	abstract	1		side sanfi is physical
+861	anniversary	keep	root	time	1		
+862	holiday	keep	root	time	3		vacation; rest yenbo is near
+863	grade	keep	root	society	2		school mark, school year
+864	spend	keep	root	money	3		expense; pay unfu is near
+865	glory	covered:dundi		religion	1		respect, honour
+866	prophet	keep	root	religion	1		
+867	complex	keep	root	quality	2		complicated; difficult gofa is near
+868	logic	keep	root	mind	1		reasoning; reason ukun is a cause
+869	normal	keep	root	quality	3	special	ordinary
+870	passport	keep	loan?	society	2		pasport/pasaporte/paspor/pasaport/pasipoti/pasupōto; hùzhào, jawāz differ
+871	practice	keep	root	action	2		practise, training
+872	mud	keep	root	nature	1		
+873	income	keep	root	money	2		revenue
+874	circuit	keep	root	tech	1		
+875	copper	keep	root	nature	1		
+876	band	keep	root	art	1		music group
+877	formula	keep	root	abstract	1		
+878	honest	keep	root	quality	2		sincere; true feko is about statements
+879	curse	keep	root	religion	1		
+880	port	keep	root	place	2		harbour
+881	evolution	keep	root	nature	1		evolve
+882	platform	keep	loan?	tech	2		platforma/plataforma/plateforme/platform/purattohōmu; píngtái, jukwaa differ
+883	promotion	keep	root	work	1		at work; marketing
+884	liar	covered:no lie		people	1		one who lies (derived word); the verb lie, say what is untrue, is missing from the lexicon (884.b)
+884.b	lie (untruth)	keep	root	sense	3	true	say what one knows is false; not in the 983 list, found through liar
+885	pulse	keep	root	body	1		
+886	surface	keep	root	space	2		
+887	edit	keep	root	action	2		adjust finsa and change kubo are broader
+888	reputation	keep	root	society	1		
+889	certificate	keep	root	society	1		diploma; document kemin is broader
+890	trap	keep	root	thing	1		
+891	relative	covered:ewo pi yonyo		people	2		phrase "person of the family"
+892	confess	keep	root	sense	2		admit, acknowledge
+893	engineer	keep	loan?	work	2		inzhener/ingeniero/insinyur/injinia vs muhandis/mühendis; gōngchéngshī differs
+894	instrument	keep	root	thing	1		musical instrument; tool yetu is broader
+895	prime minister	covered:minister kudu		society	2		phrase "big minister" as waziri mkuu; minister is 289
+896	single	keep	root	people	2		unmarried; one alone is na fi
+897	shift	keep	root	work	1		work shift
+898	atmosphere	keep	root	nature	1		air layer, mood; air wunta is near
+899	argument	keep	root	sense	2		dispute, argue; fight migi is physical
+900	access	keep	root	abstract	2		enter inwa is near
+901	victim	keep	root	people	2		
+902	arrow	keep	root	thing	1		
+903	offer	keep	root	sense	2		give neke is the act of handing over
+904	volunteer	keep	root	work	1		
+905	coach	keep	root	people	1		trainer; teacher (95) is near
+906	frame	keep	root	thing	1		picture frame; framework is structure (395)
+907	conclusion	keep	root	abstract	1		end fugi is broader
+908	pollution	keep	root	nature	2		dirty bodu is the quality
+909	withdraw	keep	root	motion	1		retreat, take out money; leave kusa is broader
+910	background	keep	root	space	1		
+911	famous	keep	root	quality	2		fame, celebrity
+912	opposite	keep	root	abstract	2		oppose ninsu is the stance
+913	note	keep	root	sense	2		written note; musical note
+914	register	keep	root	sense	1		registration
+915	idol	keep	root	religion	1		also pop idol
+916	trade	keep	root	money	2		commerce
+917	valley	keep	root	nature	1		
+918	young man	covered:lowu loyen		people	2		"man young"; gender and age are modifiers
+919	warrior	covered:no migi		people	1		compounds.tsv "one who fights"
+920	violence	keep	root	society	2		violent
+921	vaccine	keep	loan?	health	2		vaktsina/vacuna/vaccin/vaksin/wakuchin; aşı, chanjo, yìmiáo, ṭīkā differ
+922	tunnel	keep	loan?	transport	1		tunnel'/túnel/tünel/tonneru; suìdào, terowongan, nafaq differ
+923	treat	keep	root	health	2		treatment, therapy
+924	transaction	merge:exchange		money	1		an exchange of money (665)
+925	tourist	covered:no travel		people	2		one who travels (derived word); travel is 490
+926	toilet	keep	loan?	home	3		tualet/toilet/toire/tuvalet; cèsuǒ, choo, ḥammām differ
+927	tight	keep	root	quality	1		
+928	suspect	keep	root	mind	2		suspicion
+929	success	keep	root	abstract	3	fail	succeed
+930	studio	keep	loan?	art	1		studiya/estudio/studio/sutajio/stüdyo
+931	strict	keep	root	quality	1		
+932	sphere	keep	root	space	1		round kowan is the quality
+933	software	merge:program		tech	2		programs (284)
+934	shame	keep	root	mind	2		ashamed
+935	September	grammar		time	2		dunan mena mape (language.md 8.3.3)
+936	sensitive	keep	root	quality	1		
+937	senator	keep	root	society	1		
+938	schedule	keep	root	time	2		timetable; plan (251) is broader
+939	satellite	keep	root	tech	1		
+940	review	keep	root	sense	2		check loban is near
+941	retire	keep	root	work	1		retirement
+942	represent	keep	root	society	2		representation; representative is no + this (601)
+943	reflection	keep	root	sense	1		reflect light or thought
+944	recognize	keep	root	mind	2		identify; know lugo is broader
+945	receipt	keep	root	money	1		
+946	ratio	merge:rate		number	1		proportion (836)
+947	prostitute	keep	root	people	1		
+948	profile	keep	loan?	tech	1		profil'/perfil/profil/purofīru; wasifu differs
+949	priority	keep	root	abstract	1		important bawe is the quality
+950	principal	merge:major		quality	1		main (537); a school principal is a leader
+951	prevent	keep	root	action	2		stop bamo is near
+952	presentation	covered:ge wuye		sense	1		what is shown (derived word)
+953	post	split			2		1: post, mail (953.a); 2: an online post (953.b); a job post is position
+953.a	post (mail)	merge:letter		thing	2		letter, mail (287)
+953.b	post (online)	merge:message		tech	2		a published message (324)
+954	pope	keep	loan?	religion	1		papa/pape/paus/bābā; jiàohuáng, kyōkō differ
+955	pipe	keep	root	thing	1		tube
+956	pink	covered:wiwi pinda		color	1		phrase "red white"; six colour roots (method 3.1)
+957	pillar	keep	root	home	1		column
+958	piano	keep	loan?	art	1		piano/pianino/piyano/biyānū; gāngqín differs
+959	physics	keep	loan?	abstract	1		fizika/física/fisika/fizik/fizikia/fīziyā'; wùlǐ, butsuri differ
+960	permanent	keep	root	time	1		
+961	pearl	keep	root	nature	1		
+962	patience	merge:patient (enduring)		mind	1		(642.b)
+963	parent	covered:mole yen wede		people	3		compounds.tsv parents; one parent is mole lu wede; flag: sibling has a sexless root and parent does not
+964	organism	covered:musu man nume		nature	1		phrase "thing that lives"
+965	organ	keep	root	body	1		body organ; musical organ is rare
+966	orbit	keep	root	space	1		
+967	old man	covered:lowu pani		people	2		"man old"; gender and age are modifiers
+968	October	grammar		time	2		dunan mena yawu (language.md 8.3.3)
+969	native	keep	root	society	1		local (638) is near
+970	mystery	keep	root	abstract	1		secret (331) is hidden on purpose
+971	mosque	keep	loan?	religion	1		masjid/mezquita/mosquée/mescit/msikiti/mosuku; mechet', qīngzhēnsì differ
+972	moral	keep	root	society	1		ethics
+973	monster	keep	root	religion	1		
+974	mix	keep	root	action	2		mixture
+975	merit	keep	root	abstract	1		
+976	medal	keep	loan?	society	1		medal'/medalla/médaille/medali/madalya/medaru/mīdāliya; jiǎngpái differs
+977	mask	keep	loan?	thing	1		maska/máscara/masque/masker/maske/masuku; kǒuzhào, barakoa differ
+978	link	covered:du penyu		tech	2		compounds.tsv "thing for connecting"
+979	lack	covered:mu ibe		abstract	2		"not have"; without is nuwen
+980	June	grammar		time	2		dunan mena ufo (language.md 8.3.3)
+981	July	grammar		time	2		dunan mena oma (language.md 8.3.3)
+982	journalist	covered:no report		people	2		one who reports (derived word); report is 276
+983	January	grammar		time	2		dunan mena fi (language.md 8.3.3)

@@ -50,6 +50,8 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 ### Checks
 
+- **Gaps found by the ladder pass** (2026-10-13): "parent" has no root (only **mole yen wede**) while "sibling" has a sexless root; "lie, say what is untrue" has no root (needed for "liar").
+
 - **Speakers' own borrowings** (author, 2026-10-13): real use will import words from speakers' languages with their original sounds. Check that the grammar, sounds and spelling handle such words (names already keep their spelling with **en**; ordinary words have no rule yet).
 
 ### Small fixes (no decision needed)
