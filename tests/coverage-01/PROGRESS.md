@@ -16,5 +16,8 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 
 ## Part 2–4
 
-- [ ] Part 2 texts: background agent collecting 20 openly licensed everyday texts (5 talk, 5 chat, 5 news, 5 howto; ≥8 original languages) into `texts/`, log `texts/LOG.md`, resumable.
+- [x] Part 2 texts (20 saved; 12 original languages; 18 English versions are the collector's own translations, talk texts are scripted Peace Corps course dialogues 1991–2013; details in texts/LOG.md): collected 20 openly licensed everyday texts (5 talk, 5 chat, 5 news, 5 howto; ≥8 original languages) into `texts/`, log `texts/LOG.md`, resumable.
 - Part 3 first look (2026-10-13): moon/month in modern frequency data — one word in id, fil, fa, tr, th, sw, ha, qu, ko(달; months counted with 월); zh splits in use (月亮/月份); split from the start in ar, es, fr, hi, bn, ta, vi.
+- Part 2 prompts written: `prompts/translate.md` (per N; placeholders ⟨concept⟩ from `part2/roots-N.txt`), `prompts/back.md` (cold reader, one agent per N so no reader sees two versions of a text), `prompts/score.md` (exact / vaguer / wrong / missing per meaning unit; vaguer counts as a loss, fixing test 05's "big animal of the sand" = camel leniency).
+- [ ] Make `part2/roots-N.txt` for N = 1000, 1500, 2000 from `merged.tsv`: current roots + top uncovered content concepts by rank until the total is N (N = current ≈ 500 needs no file).
+- [ ] Translate (4 sizes) → back-translate (4 agents) → score → syllable counts → author sheet (~5 texts, two sizes).

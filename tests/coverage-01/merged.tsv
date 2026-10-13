@@ -1,0 +1,2400 @@
+1	be	be	grammar	gun	copula
+2	year	year	content	fawu	
+3	time	time	content	muyi	
+4	day	day	content	dili	
+5	go	go	content	isi	
+6	more	more	grammar	ke	
+7	do	do	content	muge	
+8	new	new	content	duwa	
+9	today	today	content	mefa	
+10	now	now	grammar	eda	
+11	woman	woman	content	futa	
+12	here	here	grammar	none	compose pu tan
+13	name	name	content	suso	
+14	give	give	content	neke	
+15	say	say	content	oyi	
+16	person	person	content	ewo	
+17	life	life	content	pata	
+18	work	work	content	doku	
+19	first	first	grammar	mena	ordinal fi mena
+20	child	child	content	tiwu	
+21	number	number	content	wifu	
+22	why	why	grammar	yu	WH + ukun
+23	world	world	content	none	
+24	all	all	grammar	we	
+25	country	country	content	gigin	
+26	only	only	grammar	na	
+27	thing	thing	content	musu	
+28	family	family	content	yonyo	
+29	water	water	content	osa	
+30	people	person	content	ewo	merged with person
+31	place	place	content	kemu	
+32	school	school	content	none	
+33	father	father	content	wede	
+34	man	man	content	lowu	
+35	end	end	content	fugi	
+36	mother	mother	content	mole	
+37	money	money	content	nimo	
+38	system	system	content	yile	
+39	friend	friend	content	sonu	
+40	government	government	content	none	
+41	question	question	content	none	result noun of ask (ge mido)
+42	month	month	content	dunan	
+43	language	language	content	apu	
+44	week	week	content	nelon	
+45	moon	moon	content	dunan	
+46	group	group	content	funti	
+47	always	always	grammar	none	
+48	have	have	content	ibe	
+49	good	good	content	upe	
+50	book	book	content	ingo	
+51	body	body	content	gawo	
+52	take	take	content	yidu	
+53	help	help	content	yema	
+54	head	head	content	lukan	
+55	one	one	grammar	fi	
+56	know	know	content	lugo	
+57	hand	hand	content	kiti	
+58	death	die	content	kono	noun; merged with die
+59	news	news	content	none	
+60	face	face	content	suku	
+61	again	again	grammar	moti	
+62	wife	wife	content	ofin	spouse
+63	side	side	content	sanfi	
+64	company	company	content	none	business firm
+65	night	night	content	yami	
+66	no	no	grammar	mu	negative answer
+67	history	history	content	none	
+68	second	second	grammar	mena	ordinal; time unit is sekandu
+69	law	law	content	wabun	
+70	house	house	content	guyi	
+71	love	love	content	wigen	
+72	how	how	grammar	yu	WH + lite
+73	outside	outside	content	aban	
+74	very	very	grammar	bi	
+75	word	word	content	apu	
+76	make	make	content	muge	
+77	write	write	content	tusi	
+78	change	change	content	kubo	
+79	song	song	content	none	result noun of sing (ge yuyun)
+80	national	country	content	gigin	adjective; merged with country
+81	cause	cause	content	ukun	noun sense = reason; verb not covered
+82	state	state	content	none	polity sense
+83	eye	eye	content	funo	
+84	team	team	content	none	kind of group (funti)
+85	age	age	content	none	
+86	son	son	content	tiwu lowu	
+87	hour	hour	content	awuwa	
+88	war	war	content	pinpu	
+89	play	play	content	luse	
+90	heart	heart	content	mala	
+91	live	live	content	nume	
+92	small	small	content	meli	
+93	use	use	content	bone	
+94	there	there	grammar	none	compose pu ben
+95	reason	reason	content	ukun	
+96	important	important	content	bawe	
+97	different	different	content	none	compose mu kige
+98	music	music	content	none	
+99	minute	minute	content	minitu	
+100	member	member	content	none	
+101	politics	politics	content	none	
+102	food	food	content	pasu	
+103	date	date	content	none	calendar date
+104	need	need	content	wupi	
+105	eat	eat	content	nawi	
+106	return	return	content	sigo	
+107	become	become	content	lewe	
+108	together	together	grammar	none	near gan WITH
+109	police	police	content	polisu	
+110	order	order	content	none	command or sequence, ambiguous
+111	leader	leader	content	no wungu	
+112	earth	earth	content	fowo	planet/ground
+113	video	video	content	none	
+114	birth	birth	content	none	
+115	university	university	content	none	
+116	knowledge	know	content	lugo	noun; merged with know
+117	decision	decide	content	none	noun; near choose (waka)
+118	old	old	content	pani	
+119	tell	tell	content	iko	
+120	die	die	content	kono	
+121	south	south	content	monna	
+122	science	science	content	none	
+123	light	light	content	wino	brightness; 'not heavy' is gamun
+124	well	good	content	upe	adverb well; merged with good
+125	show	show	content	wuye	
+126	king	king	content	none	
+127	season	season	content	none	
+128	yesterday	yesterday	content	afe	
+129	bring	bring	content	none	compose dinyo obu
+130	tomorrow	tomorrow	content	wuma	
+131	blood	blood	content	makon	
+132	so	so	grammar	none	therefore/thus
+133	education	education	content	none	near teach (tofo)
+134	river	river	content	yolan	
+135	attack	attack	content	none	
+136	society	society	content	none	
+137	same	same	content	kige	
+138	voice	voice	content	none	
+139	teacher	teacher	content	none	compose no tofo
+140	technology	technology	content	none	
+141	open	open	content	benbi	
+142	hope	hope	content	ganin	
+143	level	level	content	none	
+144	special	special	content	none	
+145	health	health	content	none	
+146	red	red	content	wiwi	
+147	right	right	content	nata	side; also correct (denku), entitlement (sogan)
+148	story	story	content	weyu	
+149	difference	different	content	none	noun; merged with different
+150	minister	minister	content	none	
+151	point	point	content	none	mimi is decimal point only
+152	strength	strong	content	konke,lula	noun; merged with strong
+153	plan	plan	content	none	
+154	room	room	content	fudon	
+155	election	election	content	none	
+156	bank	bank	content	none	
+157	force	force	content	lula	
+158	sun	sun	content	giwe	
+159	long	long	content	netu	
+160	internet	internet	content	intelunetu	
+161	husband	husband	content	ofin	spouse
+162	hospital	hospital	content	pu yema simi	
+163	service	service	content	none	
+164	report	report	content	none	
+165	village	village	content	none	
+166	doctor	doctor	content	none	
+167	committee	committee	content	none	
+168	opinion	opinion	content	none	near think (pume)
+169	read	read	content	lilu	
+170	office	office	content	none	
+171	economy	economy	content	none	
+172	party	party	content	none	political or celebration
+173	last	last	content	none	final/previous
+174	animal	animal	content	noso	
+175	production	make	content	muge	production; merged with make
+176	little	small	content	meli	merged with small
+177	nation	country	content	gigin	merged with country
+178	support	support	content	none	near help (yema)
+179	find	find	content	geno	
+180	culture	culture	content	none	
+181	court	court	content	none	
+182	truth	true	content	feko	noun; merged with true
+183	future	future	content	none	
+184	pay	pay	content	unfu	
+185	general	general	content	none	ambiguous adj/military rank
+186	page	page	content	lunyu	
+187	morning	morning	content	leso	
+188	series	series	content	none	
+189	price	price	content	none	
+190	fire	fire	content	lumi	
+191	army	army	content	none	
+192	letter	letter	content	none	mail or alphabet letter
+193	daughter	daughter	content	tiwu futa	
+194	experience	experience	content	none	
+195	business	business	content	none	
+196	program	program	content	none	
+197	bad	bad	content	yomo	
+198	beautiful	beautiful	content	sesa	
+199	rule	rule	content	wabun	
+200	television	television	content	none	
+201	front	front	content	sinye	
+202	peace	peace	content	bonwi	
+203	road	road	content	sola	
+204	community	community	content	none	
+205	case	case	content	none	instance or legal case
+206	class	class	content	none	school class or category
+207	half	half	grammar	timon	fraction
+208	space	space	content	none	room or outer space
+209	gold	gold	content	none	
+210	back	back	content	nebe	
+211	when	when	grammar	yu	WH + muyi; also conjunction
+212	mind	mind	content	none	
+213	situation	situation	content	none	
+214	organization	organization	content	none	
+215	evening	evening	content	kegin	
+216	mouth	mouth	content	fade	
+217	explain	explain	content	none	
+218	direction	direction	content	none	
+219	tree	tree	content	gala	
+220	rain	rain	content	gegi	
+221	dream	dream	content	sinun	
+222	computer	computer	content	du sunbu	
+223	sleep	sleep	content	wopo	
+224	follow	follow	content	lefan	
+225	foot	foot	content	pifo	
+226	west	west	content	munke	
+227	writing	write	content	tusi	noun; merged with write
+228	muslim	Muslim	name	none	religious identity
+229	third	third	grammar	mena	ordinal
+230	line	line	content	none	
+231	art	art	content	none	
+232	market	market	content	none	
+233	sell	sell	content	koda	
+234	even	even	grammar	wi	
+235	foreign	foreign	content	none	
+236	district	district	content	none	
+237	young	young	content	loyen	
+238	next	next	content	none	
+239	free	free	content	enpa	not held; free of charge is go mu unfu
+240	position	position	content	none	
+241	east	east	content	anyu	
+242	religion	religion	content	none	
+243	middle	middle	content	none	
+244	then	then	grammar	none	sequence/at that time
+245	send	send	content	sege	
+246	province	province	content	none	
+247	past	past	content	none	
+248	yes	yes	grammar	none	
+249	arm	arm	content	inyi	
+250	leave	leave	content	kusa	
+251	soldier	soldier	content	no migi	warrior
+252	meet	meet	content	fanmu	come together
+253	white	white	content	pinda	
+254	understand	understand	content	lafi	
+255	process	process	content	none	
+256	island	island	content	none	
+257	come	come	content	obu	
+258	information	information	content	none	
+259	girl	girl	content	none	tiwu futa means daughter
+260	lesson	lesson	content	none	
+261	increase	increase	content	none	near add (ginni)
+262	condition	condition	content	none	
+263	quality	quality	content	none	
+264	door	door	content	beya	
+265	union	union	content	none	
+266	north	north	content	soto	
+267	visit	visit	content	none	
+268	god	god	content	nosen	
+269	city	city	content	oton	
+270	public	public	content	none	opposite of private (kunsu)
+271	early	early	content	ganna	
+272	ask	ask	content	mido	
+273	distance	distance	content	none	near far (lini)
+274	century	century	content	none	
+275	policy	policy	content	none	
+276	idea	idea	content	gason	
+277	talk	speak	content	kegu	talk; merged with speak
+278	natural	nature	content	none	adjective; merged with nature
+279	region	region	content	none	
+280	call	call	content	yebin	
+281	event	event	content	none	near happen (muwo)
+282	medicine	medicine	content	none	
+283	hear	hear	content	nulu	
+284	forget	forget	content	yakin	
+285	win	win	content	yiyin	
+286	buy	buy	content	bika	
+287	energy	energy	content	none	near power (lula)
+288	goal	goal	content	none	aim or sports goal
+289	interest	interest	content	none	
+290	black	black	content	tago	
+291	actor	actor	content	none	
+292	air	air	content	wunta	
+293	kill	kill	content	omen	
+294	dance	dance	content	none	
+295	dollar	dollar	content	dolalu	
+296	top	top	content	bige	above
+297	game	game	content	bufe	
+298	sky	sky	content	yaye	
+299	field	field	content	sekan	
+300	many	many	grammar	feli	quantifier
+301	international	international	content	none	
+302	drink	drink	content	koye	
+303	still	still	grammar	none	
+304	speech	speech	content	none	
+305	sound	sound	content	ninge	
+306	product	product	content	none	
+307	left	left	content	funbe	side
+308	before	before	grammar	ya	
+309	beauty	beautiful	content	sesa	noun; merged with beautiful
+310	literature	literature	content	none	
+311	star	star	content	uwan	
+312	accident	accident	content	none	mu gan momu is adverb 'by accident'
+313	candidate	candidate	content	none	
+314	sport	sport	content	none	
+315	stop	stop	content	bamo	
+316	example	example	content	none	
+317	fruit	fruit	content	tanun	
+318	beginning	start	content	tuko	noun; merged with start
+319	value	value	content	none	
+320	please	please	grammar	so,nun	REQUEST / POLITE
+321	deep	deep	content	lawan	
+322	attention	attention	content	none	
+323	where	where	grammar	yu	WH + kemu
+324	fear	fear	content	nuta	
+325	street	road	content	sola	merged with road
+326	industry	industry	content	none	
+327	parliament	parliament	content	none	
+328	bus	bus	content	ensu	
+329	result	result	content	ge	RESULT nominalizer
+330	lose	lose	content	agi	misplace; losing a contest not covered
+331	green	green	content	gisu	
+332	form	form	content	none	shape or document form
+333	church	church	content	none	
+334	short	short	content	eten	
+335	hair	hair	content	sonfa	
+336	republic	republic	content	none	
+337	nature	nature	content	none	
+338	message	message	content	none	
+339	youth	young	content	loyen	noun; merged with young
+340	dog	dog	content	totu	
+341	feel	feel	content	feme	
+342	weather	weather	content	none	
+343	record	record	content	none	
+344	clear	clear	content	none	
+345	queen	queen	content	none	
+346	horse	horse	content	anbo	
+347	kingdom	kingdom	content	none	
+348	judge	judge	content	none	
+349	official	official	content	none	
+350	easy	easy	content	bunle	
+351	problem	problem	content	batu	
+352	explanation	explain	content	none	noun; merged with explain
+353	happen	happen	content	muwo	
+354	vote	vote	content	none	
+355	user	user	content	none	compose no bone
+356	limit	limit	content	none	
+357	fall	fall	content	dosi	
+358	constitution	constitution	content	none	
+359	website	website	content	none	
+360	park	park	content	none	noun; verb 'park a car' is yaga tale
+361	meeting	meeting	content	none	
+362	wall	wall	content	senmo	
+363	thought	think	content	pume	noun; merged with think
+364	artist	artist	content	none	
+365	mountain	mountain	content	genne	
+366	turn	turn	content	duko	
+367	account	account	content	ge sunbu	
+368	origin	origin	content	none	
+369	ball	ball	content	none	
+370	speed	fast	content	yobe	noun; merged with fast
+371	flower	flower	content	meyen	
+372	fish	fish	content	woga	
+373	network	network	content	none	
+374	feeling	feel	content	feme	noun; merged with feel
+375	creation	create	content	none	noun; merged with create
+376	electricity	electricity	content	lula pi mufin	
+377	design	design	content	none	
+378	great	big	content	kudu	merged with big; also 'excellent'
+379	study	learn	content	yesa	merged with learn
+380	communication	communication	content	none	
+381	rise	rise	content	none	
+382	modern	modern	content	none	near new (duwa)
+383	soon	soon	grammar	buntu	
+384	promise	promise	content	none	
+385	weight	heavy	content	gogo	noun; merged with heavy
+386	sea	sea	content	puya	
+387	project	project	content	none	
+388	sit	sit	content	goyu	
+389	article	article	content	none	
+390	boy	boy	content	none	tiwu lowu means son
+391	defeat	defeat	content	none	
+392	coffee	coffee	content	none	
+393	run	run	content	gabe	
+394	student	student	content	none	
+395	hold	hold	content	yonnu	
+396	interview	interview	content	none	
+397	wait	wait	content	sefu	
+398	create	create	content	none	near make (muge)
+399	skin	skin	content	unne	
+400	secret	secret	content	none	near private (kunsu)
+401	victory	win	content	yiyin	noun; merged with win
+402	bird	bird	content	lodi	
+403	scene	scene	content	none	
+404	director	director	content	none	
+405	vehicle	vehicle	content	none	generic; cart (siwa) and car (tale) exist
+406	translation	translate	content	none	noun; merged with translate
+407	telephone	phone	content	liga	merged with phone
+408	loss	lose	content	agi	noun; merged with lose
+409	writer	writer	content	none	compose no tusi
+410	player	player	content	none	compose no luse
+411	activity	activity	content	none	
+412	structure	structure	content	none	
+413	democracy	democracy	content	none	
+414	operation	operation	content	none	
+415	expert	expert	content	none	
+416	birthday	birthday	content	none	
+417	document	document	content	kemin	
+418	percent	percent	grammar	none	number
+419	chapter	chapter	content	none	
+420	american	American	name	none	
+421	complete	complete	content	minwe	whole; verb sense near sin DONE
+422	data	data	content	none	
+423	paper	paper	content	mabo	
+424	forest	forest	content	none	
+425	walk	walk	content	niba	
+426	generation	generation	content	none	
+427	machine	machine	content	none	
+428	memory	remember	content	imu	noun; merged with remember
+429	difficult	difficult	content	gofa	
+430	spring	spring	content	none	season or water source
+431	sunday	Sunday	content	none	
+432	sing	sing	content	yuyun	
+433	weapon	weapon	content	botan	
+434	plant	plant	content	pinfe	
+435	saturday	Saturday	content	none	
+436	may	May	content	none	probably the month (modal would gloss as can)
+437	cup	cup	content	ladon	
+438	bridge	bridge	content	none	
+439	existence	exist	content	none	noun; merged with exist; near gun BE
+440	appearance	appearance	content	none	
+441	possibility	possible	content	none	noun; merged with possible
+442	monday	Monday	content	none	
+443	map	map	content	none	
+444	reality	real	content	none	noun; merged with real
+445	full	full	content	kete	
+446	debt	debt	content	none	
+447	hero	hero	content	none	
+448	festival	festival	content	none	
+449	building	building	content	none	near house (guyi)
+450	hotel	hotel	content	none	
+451	key	key	content	tinli	
+452	leaf	leaf	content	wonin	
+453	professor	professor	content	none	near teacher
+454	think	think	content	pume	
+455	subject	subject	content	none	topic or school subject
+456	ministry	ministry	content	none	
+457	leg	leg	content	bendo	
+458	population	population	content	none	
+459	address	address	content	none	
+460	announcement	announce	content	none	noun; merged with announce
+461	race	race	content	none	contest or ethnic group
+462	crisis	crisis	content	none	
+463	table	table	content	none	
+464	analysis	analyze	content	none	noun; merged with analyze
+465	card	card	content	mise	
+466	blue	blue	content	deta	
+467	governor	governor	content	none	
+468	real	real	content	none	near true (feko)
+469	kind	kind	content	niki	type sense
+470	collection	gather	content	fanmu	collection; merged with gather
+471	newspaper	newspaper	content	none	
+472	color	color	content	none	
+473	revolution	revolution	content	none	
+474	serious	serious	content	none	
+475	part	part	content	kin	PART
+476	ear	ear	content	wisa	
+477	round	round	content	kowan	
+478	meaning	mean	content	yofu	noun; merged with mean
+479	match	match	content	none	contest
+480	period	period	content	none	
+481	cat	cat	content	none	
+482	enemy	enemy	content	biton	
+483	measure	measure	content	none	
+484	zone	region	content	none	merged with region
+485	daytime	day	content	dili	daytime; merged with day
+486	penis	penis	content	wento	
+487	set	set	content	none	put or group, ambiguous
+488	danger	danger	content	none	opposite of safe (sonli)
+489	friday	Friday	content	none	
+490	move	move	content	kobi	
+491	association	organization	content	none	merged with organization
+492	demand	demand	content	none	near ask/want
+493	lead	lead	content	wungu	
+494	standard	standard	content	none	
+495	reaction	react	content	none	noun; merged with react
+496	brain	brain	content	lemon	
+497	library	library	content	none	
+498	sex	sex	content	none	
+499	train	train	content	siwa netu	vehicle sense
+500	control	control	content	lula	
+501	lie	lie	content	anle	lie down; 'tell a lie' not covered
+502	threat	threaten	content	none	noun; merged with threaten
+503	pressure	pressure	content	none	
+504	worker	worker	content	none	compose no doku
+505	unit	unit	content	none	
+506	prince	prince	content	none	
+507	style	style	content	none	
+508	central	center	content	none	adjective; merged with center
+509	radio	radio	content	none	
+510	station	station	content	none	
+511	capital	capital	content	none	city or money
+512	challenge	challenge	content	none	
+513	slave	slave	content	none	
+514	share	share	content	peton	
+515	wind	wind	content	gulo	
+516	count	count	content	sunbu	
+517	winter	winter	content	muyi weki	
+518	summer	summer	content	muyi tikun	
+519	league	league	content	none	
+520	request	ask	content	mido,so	request; merged with ask
+521	course	course	content	none	
+522	center	center	content	none	
+523	late	late	content	yodun	
+524	really	really	grammar	none	truly/intensifier
+525	arrival	arrive	content	liwon	noun; merged with arrive
+526	theory	theory	content	none	
+527	planet	planet	content	none	
+528	mayor	mayor	content	none	
+529	pair	pair	content	none	
+530	marriage	marry	content	bedan	noun; merged with marry
+531	independence	independent	content	none	noun; near free (enpa)
+532	power	power	content	lula	
+533	code	code	content	none	
+534	notice	notice	content	none	
+535	source	source	content	none	
+536	neck	neck	content	mogo	
+537	tongue	tongue	content	lisun	
+538	soul	soul	content	none	
+539	clean	clean	content	inan	
+540	mathematics	mathematics	content	none	
+541	importance	important	content	bawe	noun; merged with important
+542	sugar	sugar	content	none	
+543	size	size	content	none	
+544	original	original	content	none	
+545	employee	worker	content	none	merged with worker
+546	sexual	sex	content	none	adjective; merged with sex
+547	milk	milk	content	tunlo	
+548	hit	hit	content	payon	
+549	species	kind	content	niki	species; merged with kind
+550	temperature	temperature	content	none	
+551	magazine	magazine	content	none	
+552	sign	sign	content	none	
+553	tooth	tooth	content	fonma	
+554	dead	dead	content	fafin	
+555	often	often	grammar	none	near manni (usually)
+556	respect	respect	content	dundi	
+557	agreement	agree	content	tayu	noun; merged with agree
+558	start	start	content	tuko	
+559	true	true	content	feko	
+560	chinese	Chinese	name	none	
+561	file	file	content	kemin	
+562	circle	circle	content	none	near round (kowan)
+563	virus	virus	content	none	
+564	yellow	yellow	content	bilun	
+565	direct	direct	content	none	
+566	prepare	prepare	content	none	near ready (wonwe)
+567	strong	strong	content	konke	
+568	window	window	content	none	
+569	cover	cover	content	none	
+570	fast	fast	content	yobe	
+571	wealth	rich	content	none	wealth; merged with rich
+572	degree	degree	content	diguli	unit sense; academic degree not covered
+573	arrive	arrive	content	liwon	
+574	act	do	content	muge	act; merged with do
+575	shape	shape	content	none	
+576	christian	Christian	name	none	
+577	album	album	content	none	
+578	silver	silver	content	none	
+579	final	last	content	none	merged with last
+580	benefit	benefit	content	none	
+581	role	role	content	none	
+582	principle	principle	content	none	
+583	doubt	doubt	content	none	
+584	advertisement	advertisement	content	none	
+585	private	private	content	kunsu	
+586	smile	smile	content	none	near laugh (bubo)
+587	title	title	content	none	
+588	philosophy	philosophy	content	none	
+589	budget	budget	content	none	
+590	branch	branch	content	none	
+591	root	root	content	yinki	
+592	egg	egg	content	tika	
+593	iron	iron	content	none	
+594	military	army	content	none	adjective; merged with army
+595	nose	nose	content	danki	
+596	taste	taste	content	tenmi	
+597	female	woman	content	futa	female; merged with woman
+598	test	test	content	none	near check (loban)
+599	transfer	transfer	content	none	near send (sege)
+600	justice	fair	content	kidun	justice; merged with fair
+601	tea	tea	content	none	
+602	tourism	tourism	content	none	
+603	palace	palace	content	none	
+604	proof	prove	content	none	noun; merged with prove
+605	sentence	sentence	content	none	clause or court sentence
+606	signal	sign	content	none	signal; merged with sign
+607	straight	straight	content	fongo	
+608	list	list	content	none	
+609	factory	factory	content	none	
+610	channel	channel	content	none	
+611	rest	rest	content	yenbo	break sense; 'remainder' not covered
+612	welcome	welcome	content	none	
+613	serve	serve	content	none	
+614	type	kind	content	niki	type; merged with kind
+615	heat	hot	content	tikun	heat; merged with hot
+616	bomb	bomb	content	none	
+617	hall	hall	content	none	
+618	commander	commander	content	no wungu	
+619	courage	brave	content	none	courage; merged with brave
+620	whole	whole	content	minwe	
+621	dark	dark	content	buda	
+622	master	master	content	none	
+623	figure	figure	content	none	
+624	matter	matter	content	none	affair/issue
+625	seat	seat	content	none	near sit (goyu)
+626	crime	crime	content	none	
+627	target	target	content	none	
+628	pregnant	pregnant	content	none	
+629	stage	stage	content	none	
+630	division	divide	content	none	noun; merged with divide
+631	salt	salt	content	bunwu	
+632	politician	politician	content	none	
+633	oil	oil	content	yunen	
+634	hello	hello	grammar	none	greeting
+635	base	base	content	none	
+636	cold	cold	content	weki	
+637	learn	learn	content	yesa	
+638	identity	identity	content	none	
+639	arrest	arrest	content	none	
+640	model	model	content	none	
+641	seed	seed	content	yikan	
+642	cell	cell	content	none	
+643	individual	person	content	ewo	individual; merged with person
+644	club	club	content	none	
+645	friendship	friend	content	sonu	noun; merged with friend
+646	lake	lake	content	nenwa	
+647	secretary	secretary	content	none	
+648	ticket	ticket	content	none	
+649	citizen	citizen	content	none	
+650	breath	breathe	content	togun	noun; merged with breathe
+651	sweet	sweet	content	sinta	
+652	look	look	content	miya	
+653	break	break	content	alun	
+654	throw	throw	content	gitin	
+655	corner	corner	content	none	
+656	lion	lion	content	none	
+657	tax	tax	content	none	
+658	breast	breast	content	egu	
+659	press	press	content	none	media or push
+660	childhood	childhood	content	none	compose muyi pi tiwu
+661	customer	customer	content	none	
+662	character	character	content	none	
+663	view	view	content	none	
+664	campaign	campaign	content	none	
+665	fund	fund	content	none	
+666	restaurant	restaurant	content	none	
+667	way	way	content	lite	
+668	ground	ground	content	fowo	
+669	net	net	content	none	
+670	representative	representative	content	none	
+671	protection	protect	content	kuwi	noun; merged with protect
+672	issue	problem	content	batu	issue; merged with problem
+673	definition	define	content	none	noun; merged with define
+674	comparison	compare	content	none	noun; merged with compare
+675	poet	poet	content	none	
+676	fourth	fourth	grammar	mena	ordinal
+677	tense	tense	content	none	verb tense or nervous, ambiguous
+678	ice	ice	content	nokun	
+679	method	way	content	lite	method; merged with way
+680	other	other	grammar	eni	
+681	category	kind	content	niki	category; merged with kind
+682	lady	woman	content	futa	lady; merged with woman
+683	alone	alone	content	none	near na ONLY
+684	drawing	draw	content	none	noun; merged with draw
+685	owner	owner	content	none	compose no ibe
+686	land	land	content	fowo	
+687	area	region	content	none	area; merged with region
+688	effect	effect	content	none	
+689	symbol	sign	content	none	symbol; merged with sign
+690	travel	travel	content	none	
+691	poetry	poem	content	none	poetry; merged with poem
+692	human	person	content	ewo	human; merged with person
+693	boss	leader	content	no wungu	boss; merged with leader
+694	skill	skill	content	none	
+695	camera	camera	content	kamela	
+696	chemistry	chemistry	content	none	
+697	stand	stand	content	kolu	
+698	statistics	statistics	content	none	
+699	rose	rose	content	none	
+700	bed	bed	content	soti	
+701	be born	birth	content	none	merged with birth
+702	begin	start	content	tuko	begin; merged with start
+703	teach	teach	content	tofo	
+704	smoke	smoke	content	penso	
+705	finance	finance	content	none	
+706	contribution	contribute	content	none	noun; merged with contribute
+707	contact	contact	content	none	suso la is only the phone list
+708	step	step	content	none	
+709	heavy	heavy	content	gogo	
+710	desire	want	content	momu	desire; merged with want
+711	comment	comment	content	none	
+712	equal	same	content	kige	equal; merged with same
+713	car	car	content	tale	
+714	copy	copy	content	gayen	
+715	hard	hard	content	gufu	not soft; 'difficult' is gofa
+716	spirit	spirit	content	none	
+717	cut	cut	content	fonsu	
+718	bone	bone	content	gipo	
+719	wednesday	Wednesday	content	none	
+720	sin	sin	content	none	
+721	build	build	content	selo	
+722	novel	novel	content	none	
+723	best	good	content	upe	best; superlative of good
+724	difficulty	difficult	content	gofa	noun; merged with difficult
+725	prison	prison	content	none	
+726	drive	drive	content	none	
+727	wing	wing	content	yunbi	
+728	wish	want	content	momu	wish; merged with want
+729	bag	bag	content	yufa	
+730	scientific	science	content	none	adjective; merged with science
+731	museum	museum	content	none	
+732	male	man	content	lowu	male; merged with man
+733	wear	wear	content	yunko	
+734	rice	rice	content	yegon	
+735	bill	bill	content	none	
+736	expression	expression	content	none	
+737	saint	saint	content	none	
+738	habit	habit	content	none	near manni (usually)
+739	chair	chair	content	none	
+740	speak	speak	content	kegu	
+741	opposition	oppose	content	ninsu	noun; merged with oppose
+742	territory	region	content	none	territory; merged with region
+743	cancer	cancer	content	none	
+744	garden	garden	content	none	
+745	see	see	content	nagu	
+746	like	like	content	tana,fu	enjoy (tana); similar to (fu)
+747	wine	wine	content	none	
+748	universe	universe	content	none	
+749	guest	guest	content	none	
+750	resolution	resolution	content	none	
+751	sand	sand	content	digan	
+752	march	March	content	none	month (or walk)
+753	negative	negative	content	none	
+754	foundation	foundation	content	none	
+755	roof	roof	content	kuwun	
+756	imagination	imagine	content	none	noun; merged with imagine
+757	content	content	content	none	
+758	put	put	content	yaga	
+759	connection	connect	content	penyu	noun; merged with connect
+760	expectation	expect	content	none	noun; merged with expect
+761	punishment	punish	content	none	noun; merged with punish
+762	investment	invest	content	none	noun; merged with invest
+763	honey	honey	content	none	
+764	gas	gas	content	none	
+765	gate	gate	content	none	near door (beya)
+766	element	element	content	none	
+767	technique	way	content	lite	technique; merged with way
+768	desert	desert	content	none	
+769	consider	think	content	pume	consider; merged with think
+770	praise	praise	content	none	
+771	pass	pass	content	none	
+772	beer	beer	content	none	
+773	construction	build	content	selo	construction; merged with build
+774	sacrifice	sacrifice	content	none	
+775	screen	screen	content	du wuye	
+776	occupation	job	content	none	occupation; merged with job
+777	reach	reach	content	wonku	
+778	personality	character	content	none	personality; merged with character
+779	carry	carry	content	dinyo	
+780	discussion	discuss	content	none	noun; near speak (kegu)
+781	bottle	bottle	content	none	
+782	stone	stone	content	lutu	
+783	residence	house	content	guyi	residence; merged with house
+784	authority	power	content	lula	authority; merged with power
+785	consciousness	consciousness	content	none	
+786	fresh	fresh	content	none	
+787	poem	poem	content	none	
+788	meat	meat	content	fuyu	
+789	manager	leader	content	no wungu	manager; merged with leader
+790	performance	performance	content	none	
+791	suit	suit	content	none	
+792	statement	statement	content	none	
+793	cook	cook	content	siten	
+794	bottom	bottom	content	deba	below
+795	security	safe	content	sonli	security; merged with safe
+796	profit	profit	content	none	
+797	photograph	photo	content	foto	merged with photo
+798	term	term	content	none	
+799	popularity	popular	content	none	noun; merged with popular
+800	civilization	civilization	content	none	
+801	chief	leader	content	no wungu	chief; merged with leader
+802	present	present	content	none	gift or current time, ambiguous
+803	prayer	pray	content	none	noun; merged with pray
+804	pound	pound	content	none	unit or currency
+805	burn	burn	content	onti	
+806	flow	flow	content	magan	
+807	engine	engine	content	none	
+808	object	thing	content	musu	object; merged with thing
+809	joke	joke	content	none	genso marks speech as joking
+810	traffic	traffic	content	none	
+811	touch	touch	content	sanne	
+812	cloud	cloud	content	lanba	
+813	completely	completely	grammar	none	degree adverb; near minwe
+814	grass	grass	content	tunmu	
+815	poverty	poor	content	none	poverty; merged with poor
+816	height	high	content	tisan	height; merged with high
+817	protest	protest	content	none	
+818	supply	supply	content	none	
+819	fever	fever	content	none	
+820	low	low	content	linku	
+821	climate	climate	content	none	
+822	bow	bow	content	none	bend or weapon
+823	boat	boat	content	binnu	
+824	luck	luck	content	none	
+825	establishment	establish	content	none	noun; merged with establish
+826	criminal	crime	content	none	criminal; merged with crime
+827	local	local	content	none	
+828	guarantee	guarantee	content	none	
+829	block	block	content	none	
+830	suddenly	suddenly	content	finbi	
+831	chest	chest	content	none	near breast (egu)
+832	mine	mine	grammar	to	possessive pronoun; or excavation
+833	close	close	content	tapi,gelu	shut (tapi); near (gelu)
+834	claim	claim	content	none	
+835	baby	baby	content	none	near child (tiwu)
+836	mark	mark	content	none	
+837	fly	fly	content	bina,gekon	verb (bina); insect (gekon)
+838	officer	officer	content	none	
+839	mirror	mirror	content	none	
+840	adult	adult	content	none	
+841	function	function	content	doku	of a machine
+842	angel	angel	content	none	
+843	box	box	content	nansa	
+844	divide	divide	content	none	
+845	elephant	elephant	content	none	
+846	material	material	content	none	
+847	approach	approach	content	none	near near (gelu)
+848	thursday	Thursday	content	none	
+849	kitchen	kitchen	content	pu siten	
+850	sense	sense	content	none	
+851	publication	publish	content	none	noun; merged with publish
+852	psychology	psychology	content	none	
+853	enter	enter	content	inwa	
+854	municipality	city	content	oton	municipality; merged with city
+855	tuesday	Tuesday	content	none	
+856	length	long	content	netu	length; merged with long
+857	major	major	content	none	
+858	crown	crown	content	none	
+859	airport	airport	content	none	
+860	lot	many	grammar	feli	a lot; merged with many
+861	terrorism	terrorism	content	none	
+862	moment	moment	content	foke	
+863	search	seek	content	ditun	search; merged with seek
+864	wisdom	wise	content	none	wisdom; near smart (gole)
+865	emperor	king	content	none	emperor; merged with king
+866	hunger	hungry	content	monyu	noun; merged with hungry
+867	beloved	love	content	wigen	beloved; merged with love
+868	captain	captain	content	none	
+869	cost	price	content	none	cost; merged with price
+870	exchange	exchange	content	none	
+871	miss	miss	content	sanku	feel absence; 'miss a target' not covered
+872	ring	ring	content	none	
+873	glass	glass	content	degun	material; drinking glass near cup
+874	positive	positive	content	none	
+875	loan	loan	content	none	
+876	wave	wave	content	none	
+877	academy	school	content	none	academy; merged with school
+878	board	board	content	none	
+879	signature	signature	content	none	
+880	essay	essay	content	none	
+881	throat	throat	content	muban	
+882	preparation	prepare	content	none	noun; merged with prepare
+883	permission	allow	content	efon	permission; merged with allow
+884	reader	reader	content	none	compose no lilu
+885	shoulder	shoulder	content	sonyu	
+886	german	German	name	none	
+887	guitar	guitar	content	none	
+888	raise	raise	content	none	
+889	progress	progress	content	none	
+890	fault	fault	content	none	blame or defect
+891	rare	rare	content	none	
+892	fight	fight	content	migi	
+893	rank	rank	content	none	
+894	battle	fight	content	migi	battle; merged with fight
+895	mission	mission	content	none	
+896	gender	gender	content	none	
+897	cross	cross	content	none	
+898	divorce	divorce	content	none	
+899	drop	fall	content	dosi	drop; merged with fall
+900	near	near	content	gelu	
+901	worry	worry	content	none	near fear (nuta)
+902	addition	add	content	ginni	addition; merged with add
+903	majority	majority	content	none	
+904	tour	travel	content	none	tour; merged with travel
+905	purchase	buy	content	bika	purchase; merged with buy
+906	square	square	content	none	
+907	scholar	scholar	content	none	
+908	introduction	introduce	content	none	noun; merged with introduce
+909	capacity	capacity	content	none	
+910	symptom	symptom	content	none	
+911	pure	pure	content	none	
+912	floor	floor	content	sison	storey; floor surface not covered
+913	witness	witness	content	none	
+914	passenger	passenger	content	none	
+915	cabinet	cabinet	content	none	
+916	continent	continent	content	none	
+917	get	get	content	dunu	
+918	grandfather	grandfather	content	none	
+919	bullet	bullet	content	none	
+920	appear	appear	content	none	
+921	pocket	pocket	content	none	
+922	command	order	content	tin	command; merged with order; INSTRUCT speech act
+923	knight	knight	content	none	
+924	snake	snake	content	dinbu	
+925	care	care	content	none	
+926	soft	soft	content	tutin	
+927	understanding	understand	content	lafi	noun; merged with understand
+928	thank you	thank	content	lota	
+929	depth	deep	content	lawan	depth; merged with deep
+930	singer	singer	content	none	compose no yuyun
+931	engineering	engineering	content	none	
+932	treasure	treasure	content	none	
+933	colonel	colonel	content	none	
+934	means	way	content	lite	means; merged with way
+935	edition	edition	content	none	
+936	opening	open	content	benbi	noun; merged with open
+937	coin	coin	content	none	
+938	reference	reference	content	none	
+939	flood	flood	content	none	
+940	plot	plot	content	none	
+941	high	high	content	tisan	
+942	tail	tail	content	kenlo	
+943	pilot	pilot	content	none	
+944	bear	bear	content	none	animal or carry, ambiguous
+945	vegetable	vegetable	content	none	
+946	save	save	content	kuwi	keep/protect; rescue sense
+947	devil	devil	content	none	
+948	murder	kill	content	omen	murder; merged with kill
+949	average	average	content	none	
+950	alcohol	alcohol	content	none	
+951	lawyer	lawyer	content	none	
+952	flat	flat	content	mawun	
+953	paint	paint	content	none	
+954	escape	escape	content	none	
+955	flag	flag	content	none	
+956	poison	poison	content	none	
+957	row	row	content	none	
+958	surgery	surgery	content	none	
+959	former	former	content	none	
+960	lover	lover	content	none	compose no wigen
+961	mile	mile	content	none	
+962	tip	tip	content	none	
+963	menstruation	menstruation	content	none	
+964	fail	fail	content	none	
+965	rape	rape	content	none	
+966	tower	tower	content	none	
+967	essence	essence	content	none	
+968	observation	look	content	miya	observation; merged with look
+969	liquid	liquid	content	none	
+970	wake up	wake	content	unda	
+971	invitation	invite	content	none	noun; merged with invite
+972	rook	-	bad	none	likely sense error (chess piece) for tower/castle words
+973	medium	medium	content	none	
+974	metal	metal	content	none	
+975	knee	knee	content	leyi	
+976	invite	invite	content	none	
+977	lecture	lecture	content	none	
+978	grow	grow	content	guge	
+979	needle	needle	content	none	
+980	broadcast	broadcast	content	none	
+981	bicycle	bicycle	content	siwa pi pifo	
+982	trial	trial	content	none	
+983	opportunity	opportunity	content	none	
+984	compare	compare	content	none	
+985	print	print	content	none	
+986	bishop	bishop	content	none	
+987	poor	poor	content	none	
+988	breakfast	breakfast	content	none	
+989	corruption	corruption	content	none	
+990	steel	steel	content	none	
+991	border	border	content	none	
+992	application	application	content	none	
+993	equipment	tool	content	yetu	equipment; merged with tool
+994	growth	grow	content	guge	growth; merged with grow
+995	sum	sum	content	none	
+996	arrange	arrange	content	none	
+997	join	connect	content	penyu	join; merged with connect
+998	sample	example	content	none	sample; merged with example
+999	balance	balance	content	none	
+1000	dry	dry	content	kilan	
+1001	relationship	relationship	content	none	
+1002	conduct	behave	content	none	conduct; merged with behave
+1003	extreme	extreme	content	none	
+1004	amount	amount	content	none	
+1005	sword	sword	content	none	
+1006	dimension	size	content	none	dimension; merged with size
+1007	shock	shock	content	none	
+1008	injury	wound	content	none	injury; merged with wound
+1009	correct	correct	content	denku	
+1010	charge	charge	content	none	
+1011	worship	pray	content	none	worship; merged with pray
+1012	factor	factor	content	none	
+1013	layer	layer	content	none	
+1014	headquarters	headquarters	content	none	
+1015	comrade	friend	content	sonu	comrade; merged with friend
+1016	heaven	heaven	content	none	near sky (yaye)
+1017	intelligence	smart	content	gole	intelligence; merged with smart
+1018	dawn	dawn	content	none	near morning (leso)
+1019	handle	handle	content	none	
+1020	painting	paint	content	none	painting; merged with paint
+1021	invention	invent	content	none	noun; merged with invent
+1022	few	few	grammar	uyo	quantifier
+1023	fair	fair	content	kidun	
+1024	foreigner	foreign	content	none	foreigner; merged with foreign
+1025	sorry	sorry	content	sepi	apologise
+1026	fashion	fashion	content	none	
+1027	remove	remove	content	nuton	
+1028	almost	almost	grammar	nedin	
+1029	beat	hit	content	payon	beat; merged with hit
+1030	regular	regular	content	none	near manni (usually)
+1031	edge	edge	content	none	
+1032	spread	spread	content	none	
+1033	plastic	plastic	content	none	
+1034	damage	damage	content	none	near break (alun)
+1035	reward	reward	content	none	
+1036	bar	bar	content	none	
+1037	plate	plate	content	none	
+1038	political	politics	content	none	adjective; merged with politics
+1039	blow	blow	content	nanyo	of air; 'a blow' not covered
+1040	president	president	content	none	
+1041	credit	credit	content	none	
+1042	plain	plain	content	none	simple or flat land, ambiguous
+1043	immediately	immediately	grammar	none	near eda
+1044	manage	manage	content	none	near lead (wungu)
+1045	strike	strike	content	none	hit or labour strike
+1046	after	after	grammar	wo	
+1047	not	not	grammar	mu	
+1048	movement	move	content	kobi	noun; merged with move
+1049	want	want	content	momu	
+1050	brother	brother	content	faba	sibling
+1051	possible	possible	content	none	
+1052	inside	inside	content	bese	
+1053	exist	exist	content	none	
+1054	personal	personal	content	none	near private (kunsu)
+1055	choose	choose	content	waka	
+1056	action	do	content	muge	action; merged with do
+1057	institute	organization	content	none	institute; merged with organization
+1058	keep	keep	content	kuwi	
+1059	responsibility	responsible	content	none	noun; merged with responsible
+1060	media	media	content	none	
+1061	federation	federation	content	none	
+1062	certain	sure	content	none	certain; also 'a certain' (bo/in)
+1063	release	release	content	none	near free (enpa)
+1064	wood	wood	content	kima	
+1065	agriculture	agriculture	content	none	
+1066	watch	watch	content	aya,miya	timepiece (aya); look at (miya)
+1067	shop	shop	content	none	
+1068	version	version	content	none	
+1069	happiness	happy	content	sogi	happiness; merged with happy
+1070	police officer	police	content	polisu	merged with police
+1071	topic	subject	content	none	topic; merged with subject
+1072	slowly	slow	content	gake	adverb; merged with slow
+1073	flight	fly	content	bina	flight; merged with fly
+1074	traditional	tradition	content	none	adjective; merged with tradition
+1075	stay	stay	content	piyi	
+1076	agent	agent	content	none	
+1077	perfect	perfect	content	none	
+1078	property	property	content	none	
+1079	choice	choose	content	waka	choice; merged with choose
+1080	snow	snow	content	binso	
+1081	daily	day	content	dili	daily; merged with day
+1082	self	self	grammar	nen	
+1083	intention	intend	content	de	intention; INTEND marker
+1084	score	score	content	none	
+1085	rate	rate	content	none	
+1086	dangerous	danger	content	none	dangerous; merged with danger
+1087	driver	driver	content	none	
+1088	continuation	continue	content	none	noun; merged with continue
+1089	champion	champion	content	none	
+1090	agency	organization	content	none	agency; merged with organization
+1091	department	department	content	none	
+1092	democratic	democracy	content	none	adjective; merged with democracy
+1093	entry	enter	content	inwa	entry; merged with enter
+1094	strategy	plan	content	none	strategy; merged with plan
+1095	afternoon	afternoon	content	duwun	
+1096	mass	mass	content	none	
+1097	mention	mention	content	none	near say (oyi)
+1098	japanese	Japanese	name	none	
+1099	countryside	countryside	content	none	
+1100	cinema	cinema	content	none	
+1101	tool	tool	content	yetu	
+1102	reading	read	content	lilu	noun; merged with read
+1103	robot	robot	content	none	
+1104	contract	contract	content	none	
+1105	experiment	experiment	content	none	
+1106	continue	continue	content	none	
+1107	description	describe	content	none	noun; merged with describe
+1108	terrorist	terrorism	content	none	terrorist; merged with terrorism
+1109	concept	idea	content	gason	concept; merged with idea
+1110	grain	grain	content	none	near seed (yikan)
+1111	exercise	exercise	content	none	
+1112	resistance	oppose	content	ninsu	resistance; merged with oppose
+1113	sometimes	sometimes	grammar	none	
+1114	professional	professional	content	none	
+1115	detail	detail	content	none	
+1116	insurance	insurance	content	none	
+1117	discovery	find	content	geno	discovery; merged with find
+1118	risk	danger	content	none	risk; merged with danger
+1119	crowd	crowd	content	funti	group of people
+1120	instruction	order	content	tin	instruction; merged with order
+1121	powerful	strong	content	konke	powerful; merged with strong
+1122	desk	table	content	none	desk; merged with table
+1123	check	check	content	loban	
+1124	cigarette	cigarette	content	none	
+1125	abundant	many	grammar	feli	abundant; merged with many
+1126	context	context	content	none	
+1127	limited	limit	content	none	limited; merged with limit
+1128	ability	can	grammar	lenu	ability; merged with can
+1129	healthy	health	content	none	healthy; merged with health
+1130	muscle	muscle	content	none	
+1131	oh	oh	grammar	ba	EXCLAIM
+1132	distribution	share	content	peton	distribution; merged with share
+1133	appointment	appointment	content	none	
+1134	chicken	chicken	content	yiban	
+1135	silence	quiet	content	mange	silence; merged with quiet
+1136	finger	finger	content	linma	
+1137	lip	lip	content	gonge	
+1138	aspect	aspect	content	none	
+1139	calm	calm	content	fanse	
+1140	interesting	interest	content	none	interesting; merged with interest
+1141	reform	reform	content	none	
+1142	administration	government	content	none	administration; merged with government
+1143	holiday	holiday	content	none	
+1144	conversation	speak	content	kegu	conversation; merged with speak
+1145	oxygen	oxygen	content	none	
+1146	transport	carry	content	dinyo	transport; merged with carry
+1147	scientist	scientist	content	none	
+1148	juice	juice	content	none	
+1149	bread	bread	content	sowe	
+1150	pride	proud	content	none	pride; merged with proud
+1151	ancient	old	content	pani	ancient; merged with old
+1152	russian	Russian	name	none	
+1153	knife	knife	content	none	
+1154	prophet	prophet	content	none	
+1155	uncle	uncle	content	none	
+1156	fuel	fuel	content	none	
+1157	stress	stress	content	none	
+1158	agree	agree	content	tayu	
+1159	sir	sir	content	lanno	
+1160	concern	worry	content	none	concern; merged with worry
+1161	volume	volume	content	none	
+1162	girlfriend	lover	content	none	girlfriend; merged with lover
+1163	separate	separate	content	buyan	split apart
+1164	journey	travel	content	none	journey; merged with travel
+1165	pour	pour	content	none	
+1166	bride	bride	content	none	
+1167	guard	guard	content	none	compose no kuwi
+1168	discover	find	content	geno	discover; merged with find
+1169	double	double	grammar	none	
+1170	trouble	problem	content	batu	trouble; merged with problem
+1171	simple	easy	content	bunle	simple; merged with easy
+1172	income	income	content	none	
+1173	pleasure	happy	content	sogi	pleasure; merged with happy
+1174	grade	grade	content	none	
+1175	temple	temple	content	none	
+1176	apple	apple	content	none	
+1177	copper	copper	content	none	
+1178	band	band	content	none	
+1179	tiger	tiger	content	none	
+1180	formula	formula	content	none	
+1181	improvement	improve	content	none	noun; merged with improve
+1182	port	port	content	none	
+1183	platform	platform	content	none	
+1184	investigation	investigate	content	none	noun; merged with investigate
+1185	sharp	sharp	content	tungi	
+1186	available	available	content	none	
+1187	promotion	promotion	content	none	
+1188	section	part	content	kin	section; merged with part
+1189	wound	wound	content	none	
+1190	surface	surface	content	none	
+1191	complex	complex	content	none	
+1192	practice	practice	content	none	
+1193	ocean	sea	content	puya	ocean; merged with sea
+1194	satisfaction	satisfied	content	none	noun; merged with satisfied
+1195	dignity	respect	content	dundi	dignity/honour; merged with respect
+1196	womb	womb	content	none	
+1197	forehead	forehead	content	none	
+1198	grandchild	grandchild	content	none	
+1199	behind	behind	content	nebe	
+1200	recent	new	content	duwa	recent; merged with new
+1201	darkness	dark	content	buda	darkness; merged with dark
+1202	instrument	instrument	content	none	
+1203	host	host	content	none	
+1204	necessity	need	content	wupi	necessity; merged with need
+1205	believe	believe	content	none	near trust (gewan)
+1206	presence	presence	content	none	
+1207	prime minister	prime minister	content	none	
+1208	single	single	content	none	
+1209	hide	hide	content	mibun	
+1210	freedom	free	content	enpa	freedom; merged with free
+1211	image	picture	content	none	image; merged with picture
+1212	script	script	content	none	writing system
+1213	careful	careful	content	none	
+1214	miracle	miracle	content	none	near magic (wase)
+1215	lord	master	content	none	lord; merged with master
+1216	spend	spend	content	none	near pay (unfu)
+1217	farmer	farmer	content	none	
+1218	management	manage	content	none	management; merged with manage
+1219	victim	victim	content	none	
+1220	regret	regret	content	none	
+1221	aim	goal	content	none	aim; merged with goal
+1222	invent	invent	content	none	
+1223	hole	hole	content	none	
+1224	trust	trust	content	gewan	
+1225	strange	strange	content	lenya	
+1226	noun	-	bad	none	likely sense error: name words (nom, nomen) glossed as noun
+1227	attempt	try	content	walo	attempt; merged with try
+1228	angle	angle	content	none	
+1229	ok	okay	grammar	buni	agreement particle; buni is sentence-final 'okay?'
+1230	web	internet	content	intelunetu	web; merged with internet
+1231	solution	solve	content	none	solution; merged with solve
+1232	warning	warn	content	yo	warning; WARN marker
+1233	conclusion	conclusion	content	none	
+1234	dear	love	content	wigen	dear; merged with love
+1235	catch	catch	content	none	
+1236	gun	gun	content	none	kind of weapon (botan)
+1237	nerve	nerve	content	none	
+1238	background	background	content	none	
+1239	trick	trick	content	none	
+1240	excellent	good	content	upe	excellent; merged with good
+1241	servant	servant	content	none	
+1242	chemical	chemistry	content	none	chemical; merged with chemistry
+1243	defend	protect	content	kuwi	defend; merged with protect
+1244	edit	edit	content	none	
+1245	gift	gift	content	none	
+1246	pole	pole	content	none	
+1247	settle	settle	content	none	
+1248	author	writer	content	none	author; merged with writer
+1249	opposite	opposite	content	none	
+1250	debate	discuss	content	none	debate; merged with discuss
+1251	rock	stone	content	lutu	rock; merged with stone
+1252	capture	catch	content	none	capture; merged with catch
+1253	relation	relationship	content	none	merged with relationship
+1254	chance	opportunity	content	none	chance; merged with opportunity
+1255	shadow	shadow	content	situ	
+1256	note	note	content	none	
+1257	ready	ready	content	wonwe	
+1258	atmosphere	atmosphere	content	none	
+1259	blessing	bless	content	none	noun; merged with bless
+1260	messenger	messenger	content	none	
+1261	volunteer	volunteer	content	none	
+1262	employment	job	content	none	employment; merged with job
+1263	register	register	content	none	
+1264	mistake	wrong	content	gagan	mistake; merged with wrong
+1265	tall	high	content	tisan	tall; merged with high
+1266	anger	angry	content	bonko	anger; merged with angry
+1267	reveal	show	content	wuye	reveal; merged with show
+1268	young man	young man	content	none	compose lowu loyen
+1269	withdraw	withdraw	content	none	
+1270	wheel	wheel	content	none	
+1271	wheat	wheat	content	none	
+1272	western	west	content	munke	western; merged with west
+1273	wedding	marry	content	bedan	wedding; merged with marry
+1274	weak	weak	content	nensi	
+1275	wash	wash	content	pensi	
+1276	virgin	virgin	content	none	
+1277	valley	valley	content	none	
+1278	vaccine	vaccine	content	none	
+1279	urine	urinate	content	tibin	urine; merged with urinate
+1280	unity	unity	content	none	
+1281	treatment	treat	content	none	treatment; merged with treat
+1282	treat	treat	content	none	
+1283	translate	translate	content	none	
+1284	transition	change	content	kubo	transition; merged with change
+1285	transaction	transaction	content	none	
+1286	training	teach	content	tofo	training; merged with teach
+1287	tourist	tourist	content	none	
+1288	total	sum	content	none	total; merged with sum
+1289	tissue	tissue	content	none	
+1290	throne	throne	content	none	
+1291	testicle	testicles	content	bosun	
+1292	ten	ten	grammar	yawu	number
+1293	tear	tear	content	none	teardrop or rip, ambiguous
+1294	teaching	teach	content	tofo	teaching; merged with teach
+1295	taxi	taxi	content	none	near car (tale)
+1296	suicide	suicide	content	none	
+1297	suggestion	advise	content	fon	suggestion; ADVISE marker
+1298	success	success	content	none	
+1299	substance	material	content	none	substance; merged with material
+1300	studio	studio	content	none	
+1301	stick	stick	content	kima netu	
+1302	steal	steal	content	bunsi	
+1303	soup	soup	content	none	
+1304	software	software	content	none	
+1305	sister	sister	content	faba	sibling
+1306	shower	shower	content	none	
+1307	shoe	shoe	content	none	
+1308	shift	shift	content	none	
+1309	shield	shield	content	none	
+1310	sheep	sheep	content	none	
+1311	shame	shame	content	none	
+1312	september	September	content	none	
+1313	separation	separate	content	buyan	separation; merged with separate
+1314	selection	choose	content	waka	selection; merged with choose
+1315	safety	safe	content	sonli	safety; merged with safe
+1316	safe	safe	content	sonli	
+1317	review	review	content	none	near check (loban)
+1318	resemble	resemble	content	fu	LIKE
+1319	researcher	scientist	content	none	researcher; merged with scientist
+1320	reputation	reputation	content	none	
+1321	representation	represent	content	none	noun; merged with represent
+1322	remember	remember	content	imu	
+1323	remain	stay	content	piyi	remain; merged with stay
+1324	relative	relative	content	none	family member; near yonyo
+1325	reflection	reflection	content	none	
+1326	recommendation	advise	content	fon	recommendation; merged with advise
+1327	recognition	recognize	content	none	noun; merged with recognize
+1328	receive	get	content	dunu	receive; merged with get
+1329	receipt	receipt	content	none	
+1330	ratio	ratio	content	none	
+1331	quarter	quarter	grammar	none	fraction
+1332	pull	pull	content	nunya	
+1333	publish	publish	content	none	
+1334	profile	profile	content	none	
+1335	produce	make	content	muge	produce; merged with make
+1336	prize	reward	content	none	prize; merged with reward
+1337	prisoner	prisoner	content	none	
+1338	priority	priority	content	none	
+1339	principal	principal	content	none	
+1340	priest	priest	content	none	
+1341	presentation	presentation	content	none	
+1342	post	post	content	none	
+1343	possession	have	content	ibe	possession; merged with have
+1344	pollution	pollution	content	none	
+1345	political party	party	content	none	political party; merged with party
+1346	pipe	pipe	content	none	
+1347	pink	pink	content	none	
+1348	pillar	pillar	content	none	
+1349	piece	part	content	kin	piece; merged with part
+1350	picture	picture	content	none	
+1351	piano	piano	content	none	
+1352	phenomenon	event	content	none	phenomenon; merged with event
+1353	permanent	permanent	content	none	
+1354	period of time	time	content	muyi	span; merged with time
+1355	perfection	perfect	content	none	perfection; merged with perfect
+1356	pen	pen	content	none	
+1357	pearl	pearl	content	none	
+1358	peaceful	peace	content	bonwi	peaceful; merged with peace
+1359	patient	patient	content	none	sick person or adj, ambiguous
+1360	patience	patience	content	none	
+1361	passport	passport	content	none	
+1362	parent	parent	content	mole yen wede	
+1363	pain	pain	content	wekun	
+1364	organ	organ	content	none	
+1365	orange	orange	content	none	
+1366	option	choose	content	waka	option; merged with choose
+1367	once	once	grammar	none	compose fi gimu
+1368	old man	old man	content	none	compose lowu pani
+1369	offer	offer	content	none	
+1370	october	October	content	none	
+1371	normal	normal	content	none	near manni (usually)
+1372	noble	noble	content	none	
+1373	never	never	grammar	none	compose mu + always
+1374	necessary	need	content	wupi	necessary; merged with need
+1375	native	native	content	none	
+1376	motive	reason	content	ukun	motive; merged with reason
+1377	mosque	mosque	content	none	
+1378	moral	moral	content	none	
+1379	missile	missile	content	none	
+1380	merit	merit	content	none	
+1381	medal	medal	content	none	
+1382	measurement	measure	content	none	measurement; merged with measure
+1383	lucky	luck	content	none	lucky; merged with luck
+1384	lower	low	content	linku	lower; merged with low
+1385	loud	loud	content	dibon	
+1386	logic	logic	content	none	
+1387	liver	liver	content	gudu	
+1388	link	link	content	du penyu	
+1389	lie down	lie	content	anle	lie down; merged with lie
+1390	laugh	laugh	content	bubo	
+1391	ladder	ladder	content	none	
+1392	lack	lack	content	none	near nuwen (without)
+1393	kick	kick	content	none	
+1394	just	just	grammar	na	only sense; also fair
+1395	june	June	content	none	
+1396	july	July	content	none	
+1397	journalist	journalist	content	none	
+1398	joint	joint	content	none	
+1399	jew	Jew	name	none	
+1400	january	January	content	none	
+1401	italian	Italian	name	none	
+1402	interpretation	interpret	content	none	noun; merged with interpret
+1403	interior	inside	content	bese	interior; merged with inside
+1404	innocent	innocent	content	none	
+1405	influence	influence	content	none	
+1406	independent	independent	content	none	
+1407	import	import	content	none	
+1408	ideal	ideal	content	none	
+1409	humanity	person	content	ewo	humanity; merged with person
+1410	hot	hot	content	tikun	
+1411	horn	horn	content	yansi	
+1412	honor	respect	content	dundi	honor; merged with respect
+1413	honest	honest	content	none	near true (feko)
+1414	home	house	content	guyi	home; merged with house
+1415	hill	hill	content	none	near mountain (genne)
+1416	hat	hat	content	none	
+1417	happy	happy	content	sogi	
+1418	handwriting	write	content	tusi	handwriting; merged with write
+1419	guide	lead	content	wungu	guide; merged with lead
+1420	grave	grave	content	none	
+1421	glory	glory	content	none	
+1422	giant	giant	content	none	near big (kudu)
+1423	ghost	spirit	content	none	ghost; merged with spirit
+1424	genus	kind	content	niki	genus; likely sense of 'kind/sort' words
+1425	genre	kind	content	niki	genre; merged with kind
+1426	gene	gene	content	none	
+1427	gain	get	content	dunu	gain; merged with get
+1428	french	French	name	none	
+1429	frame	frame	content	none	
+1430	formation	formation	content	none	
+1431	formal	formal	content	none	
+1432	firm	company	content	none	firm; merged with company
+1433	finish	end	content	fugi	finish; merged with end
+1434	fine	good	content	upe	fine; merged with good (also 'penalty')
+1435	financial	finance	content	none	financial; merged with finance
+1436	film	film	content	none	
+1437	fence	fence	content	none	
+1438	february	February	content	none	
+1439	fate, destiny	fate	content	none	
+1440	fan	fan	content	none	
+1441	fame	famous	content	none	fame; merged with famous
+1442	faith	believe	content	none	faith; merged with believe
+1443	failure	fail	content	none	failure; merged with fail
+1444	fact	fact	content	none	near true (feko)
+1445	explosion	explode	content	none	noun; merged with explode
+1446	expensive	expensive	content	unwi	
+1447	expect	expect	content	none	
+1448	excuse	excuse	content	none	near apologise (sepi)
+1449	excellence	good	content	upe	excellence; merged with good
+1450	evolution	evolution	content	none	
+1451	evidence	prove	content	none	evidence; merged with prove
+1452	ever	ever	grammar	none	
+1453	establish	establish	content	none	
+1454	equality	same	content	kige	equality; merged with same
+1455	environment	environment	content	none	
+1456	entrance	enter	content	inwa	entrance; merged with enter
+1457	enough	enough	grammar	tonya	
+1458	enjoy	like	content	tana	enjoy; merged with like
+1459	english	English	name	none	
+1460	engineer	engineer	content	none	
+1461	empty	empty	content	tapun	
+1462	emotion	feel	content	feme	emotion; merged with feel
+1463	emergency	emergency	content	none	
+1464	effective	effective	content	none	
+1465	editor	editor	content	none	
+1466	economics	economy	content	none	economics; merged with economy
+1467	duty	duty	content	none	
+1468	dust	dust	content	awin	
+1469	drug	medicine	content	none	drug; merged with medicine
+1470	domain	domain	content	none	
+1471	discrimination	discrimination	content	none	
+1472	discipline	discipline	content	none	
+1473	digital	digital	content	none	
+1474	develop	develop	content	none	
+1475	destroy	destroy	content	none	near break (alun)
+1476	destination	destination	content	none	
+1477	deposit	deposit	content	none	
+1478	delivery	deliver	content	none	delivery; merged with deliver
+1479	deliver	deliver	content	none	
+1480	decline	decline	content	none	
+1481	declaration	announce	content	none	declaration; merged with announce
+1482	december	December	content	none	
+1483	decade	decade	content	none	
+1484	custom	tradition	content	none	custom; merged with tradition
+1485	current	current	content	none	present or flow, ambiguous
+1486	cultural	culture	content	none	cultural; merged with culture
+1487	cry	cry	content	nowa	
+1488	convention	convention	content	none	
+1489	contain	contain	content	none	
+1490	consent	agree	content	tayu	consent; merged with agree
+1491	congress	parliament	content	none	congress; merged with parliament
+1492	conflict	fight	content	migi	conflict; merged with fight
+1493	compound	compound	content	none	
+1494	compose	compose	content	none	
+1495	complaint	complain	content	tayin	complaint; merged with complain
+1496	competition	competition	content	none	
+1497	communist	communist	content	none	
+1498	coal	coal	content	none	
+1499	coach	coach	content	none	
+1500	cloth	cloth	content	demi	
+1501	circuit	circuit	content	none	
+1502	chocolate	chocolate	content	none	
+1503	cheese	cheese	content	none	
+1504	cheek	cheek	content	none	
+1505	characteristic	characteristic	content	none	
+1506	chain	chain	content	none	
+1507	certificate	certificate	content	none	
+1508	ceremony	ceremony	content	none	
+1509	cause, reason	reason	content	ukun	merged with reason
+1510	castle	castle	content	none	
+1511	camp	camp	content	none	
+1512	calculation	calculate	content	sunbu	calculation; count
+1513	calculate	calculate	content	sunbu	count
+1514	cake	cake	content	none	
+1515	busy	busy	content	none	
+1516	bright	light	content	wino	bright; merged with light
+1517	bribe	bribe	content	none	
+1518	big, large	big	content	kudu	merged with big
+1519	big	big	content	kudu	
+1520	belief	believe	content	none	belief; merged with believe
+1521	battery	battery	content	batali	
+1522	banana	banana	content	none	
+1523	avoid	avoid	content	none	
+1524	august	August	content	none	
+1525	arrow	arrow	content	none	
+1526	argument	argument	content	none	quarrel or reasoning
+1527	architecture	architecture	content	none	
+1528	approximately	approximately	grammar	none	
+1529	approval	allow	content	efon	approval; merged with allow
+1530	appeal	appeal	content	none	
+1531	answer	answer	content	febo	
+1532	anniversary	anniversary	content	none	
+1533	ambassador	ambassador	content	none	
+1534	also	also	grammar	fe	
+1535	already	already	grammar	sin	DONE aspect
+1536	alliance	union	content	none	alliance; merged with union
+1537	advice	advise	content	fon	advice; merged with advise
+1538	advantage	benefit	content	none	advantage; merged with benefit
+1539	add	add	content	ginni	
+1540	acquaintance	acquaintance	content	none	
+1541	ace	-	bad	none	likely sense error: Romance 'as' (article) glossed as ace
+1542	written	write	content	tusi	written; merged with write
+1543	worthy	worthy	content	none	
+1544	wolf	wolf	content	none	
+1545	will	will	grammar	none	future modal; or volition
+1546	waste	waste	content	none	near garbage (bekin)
+1547	visible	see	content	nagu	visible; merged with see
+1548	violence	violence	content	none	
+1549	verse	verse	content	none	
+1550	various	different	content	none	various; merged with different
+1551	valuable	value	content	none	valuable; merged with value
+1552	update	update	content	muge duwa	
+1553	universal	universal	content	none	
+1554	united	union	content	none	united; merged with union
+1555	two	two	grammar	sa	
+1556	turn off	turn off	content	none	
+1557	try	try	content	walo	
+1558	trip	travel	content	none	trip; merged with travel
+1559	tribe	tribe	content	none	
+1560	trap	trap	content	none	
+1561	transportation	carry	content	dinyo	transportation; merged with carry
+1562	tradition	tradition	content	none	
+1563	trade	trade	content	none	
+1564	town, city	city	content	oton	merged with city
+1565	too	also	grammar	fe	too; 'excessively' sense not covered
+1566	tight	tight	content	none	
+1567	tie	tie	content	manfu	
+1568	thousand	thousand	grammar	munno	
+1569	text	text	content	none	
+1570	testimony	witness	content	none	testimony; merged with witness
+1571	tennis	tennis	content	none	
+1572	technical	technology	content	none	technical; merged with technology
+1573	tank	tank	content	none	
+1574	talent	skill	content	none	talent; merged with skill
+1575	swim	swim	content	lonfe	
+1576	surrender	surrender	content	none	
+1577	superior	superior	content	none	
+1578	sum, total	sum	content	none	
+1579	suffer	suffer	content	none	near pain (wekun)
+1580	succeed	success	content	none	succeed; merged with success
+1581	strict	strict	content	none	
+1582	storm	storm	content	lapo	
+1583	stone, rock	stone	content	lutu	
+1584	stomach	belly	content	suyon	stomach; merged with belly
+1585	stock	stock	content	none	
+1586	status	status	content	none	
+1587	spouse	spouse	content	ofin	
+1588	sphere	sphere	content	none	
+1589	solve	solve	content	none	
+1590	solid	hard	content	gufu	solid; merged with hard
+1591	social	society	content	none	social; merged with society
+1592	smooth	smooth	content	windi	
+1593	slow	slow	content	gake	
+1594	site	place	content	kemu	site; merged with place
+1595	shit	shit	content	desin	noun of defecate; also expletive
+1596	setting	setting	content	ge finsa la	configuration sense
+1597	server	server	content	none	
+1598	sensitive	sensitive	content	none	
+1599	sensation	feel	content	feme	sensation; merged with feel
+1600	senator	senator	content	none	
+1601	seek	seek	content	ditun	
+1602	schedule	schedule	content	none	
+1603	scandal	scandal	content	none	
+1604	satisfy	satisfied	content	none	satisfy; merged with satisfied
+1605	satellite	satellite	content	none	
+1606	salary	salary	content	none	near pay (unfu)
+1607	rubber	rubber	content	none	
+1608	route	road	content	sola	route; merged with road
+1609	retirement	retire	content	none	noun; merged with retire
+1610	reserve	reserve	content	none	
+1611	research	investigate	content	none	research; merged with investigate
+1612	repetition	repeat	content	none	noun; near again (moti)
+1613	repeat	repeat	content	none	near again (moti)
+1614	rent	rent	content	sanwa	
+1615	religious	religion	content	none	religious; merged with religion
+1616	registration	register	content	none	noun; merged with register
+1617	reduction	decrease	content	none	reduction; merged with decrease
+1618	reception	reception	content	none	
+1619	quickly	fast	content	yobe	quickly; merged with fast
+1620	push	push	content	dandi	
+1621	purpose	goal	content	none	purpose; merged with goal
+1622	prove	prove	content	none	
+1623	protect	protect	content	kuwi	
+1624	probability	possible	content	none	probability; merged with possible
+1625	prison, jail	prison	content	none	merged with prison
+1626	prevention	prevent	content	none	noun; merged with prevent
+1627	prevent	prevent	content	none	
+1628	pregnancy	pregnant	content	none	pregnancy; merged with pregnant
+1629	precious	value	content	none	precious; merged with value
+1630	potential	possible	content	none	potential; merged with possible
+1631	potato	potato	content	none	kind of tuber (tengi)
+1632	portion	part	content	kin	portion; merged with part
+1633	portal	portal	content	none	
+1634	popular	popular	content	none	
+1635	plane	airplane	content	none	plane; flat-surface sense not covered
+1636	pity	pity	content	none	
+1637	pig	pig	content	none	
+1638	physics	physics	content	none	
+1639	photo	photo	content	foto	
+1640	perhaps	maybe	grammar	none	perhaps; near wemen (inferred)
+1641	penalty	punish	content	none	penalty; merged with punish
+1642	peak	top	content	bige	peak; merged with top
+1643	payment	pay	content	unfu	payment; merged with pay
+1644	pattern	pattern	content	none	
+1645	path	road	content	sola	path; merged with road
+1646	output	output	content	none	
+1647	organism	organism	content	none	
+1648	orbit	orbit	content	none	
+1649	online	online	content	none	
+1650	observe	look	content	miya	observe; merged with look
+1651	november	November	content	none	
+1652	neighbour	neighbour	content	no nume gelu	
+1653	multiple	many	grammar	feli	multiple; merged with many
+1654	mud	mud	content	none	
+1655	mouse	mouse	content	none	
+1656	motorcycle	motorcycle	content	none	
+1657	motion	move	content	kobi	motion; merged with move
+1658	most	most	grammar	none	superlative; near ke (MORE)
+1659	monkey	monkey	content	none	
+1660	meter	metre	content	metulu	
+1661	mechanism	machine	content	none	mechanism; merged with machine
+1662	mail	letter	content	none	mail; merged with letter
+1663	lung	lung	content	badin	
+1664	lonely	alone	content	none	lonely; merged with alone
+1665	lock	lock	content	udin	
+1666	load	load	content	none	
+1667	lineage	family	content	yonyo	lineage; merged with family
+1668	like this	like this	grammar	none	compose fu tan
+1669	lightning	lightning	content	mufin	
+1670	legend	story	content	weyu	legend; merged with story
+1671	leather	leather	content	none	
+1672	learning	learn	content	yesa	learning; merged with learn
+1673	leadership	lead	content	wungu	leadership; merged with lead
+1674	later	later	grammar	none	near wo (AFTER)
+1675	last night	last night	content	none	compose yami + afe
+1676	large	big	content	kudu	large; merged with big
+1677	labor	work	content	doku	labor; merged with work
+1678	known	know	content	lugo	known; merged with know
+1679	kiss	kiss	content	none	
+1680	joy	happy	content	sogi	joy; merged with happy
+1681	investigate	investigate	content	none	
+1682	intend	intend	content	de	
+1683	insult	offend	content	yenwu	insult; merged with offend
+1684	institution	organization	content	none	institution; merged with organization
+1685	inspiration	inspiration	content	none	
+1686	insect	insect	content	sunni	
+1687	inheritance	inherit	content	none	inheritance; merged with inherit
+1688	indian	Indian	name	none	
+1689	index	index	content	none	
+1690	improve	improve	content	none	
+1691	impression	impression	content	none	
+1692	impossible	possible	content	none	impossible; negation of possible
+1693	implementation	implementation	content	none	
+1694	identification	identity	content	none	identification; merged with identity
+1695	hunt	hunt	content	fesun	
+1696	historical	history	content	none	historical; merged with history
+1697	hey	hey	grammar	none	attention-getter
+1698	hell	hell	content	none	
+1699	hearts	heart	content	mala	plural/card suit; merged with heart
+1700	hearing	hear	content	nulu	hearing; merged with hear
+1701	hatred	hate	content	none	hatred; merged with hate
+1702	harm	damage	content	none	harm; merged with damage
+1703	greeting	hello	grammar	none	greeting; merged with hello
+1704	goat	goat	content	elen	
+1705	gift, present	gift	content	none	merged with gift
+1706	gentleman	man	content	lowu,lanno	gentleman; merged with man
+1707	gather	gather	content	fanmu	
+1708	fun	fun	content	none	
+1709	frequent	often	grammar	none	frequent; merged with often
+1710	fraud	fraud	content	none	
+1711	founder	founder	content	none	
+1712	forward	forward	content	none	opposite of tun nebe (backward)
+1713	fool	fool	content	none	
+1714	following	next	content	none	following; merged with next
+1715	fold	fold	content	none	
+1716	flour	flour	content	none	
+1717	float	float	content	none	
+1718	fit	fit	content	none	
+1719	finally	finally	grammar	none	
+1720	fill	fill	content	none	near full (kete)
+1721	fifth	fifth	grammar	mena	ordinal
+1722	fat	fat	content	gimen	body fat; adjective 'fat' not covered
+1723	farm	farm	content	none	
+1724	far	far	content	lini	
+1725	famous	famous	content	none	
+1726	familiar	familiar	content	none	
+1727	false	wrong	content	gagan	false; merged with wrong
+1728	extra	extra	content	none	
+1729	external	outside	content	aban	external; merged with outside
+1730	export	export	content	none	
+1731	explode	explode	content	none	
+1732	exit	leave	content	kusa	exit; merged with leave
+1733	execution	execution	content	none	
+1734	evil	bad	content	yomo	evil; merged with bad
+1735	european	European	name	none	
+1736	euro	euro	content	yulo	
+1737	especially	especially	grammar	none	
+1738	error	wrong	content	gagan	error; merged with wrong
+1739	era	period	content	none	era; merged with period
+1740	episode	episode	content	none	
+1741	encounter	meet	content	fanmu	encounter; merged with meet
+1742	empire	kingdom	content	none	empire; merged with kingdom
+1743	emerge	appear	content	none	emerge; merged with appear
+1744	embassy	embassy	content	none	
+1745	elect	election	content	none	elect; merged with election
+1746	elder brother	brother	content	faba	elder brother; merged with brother
+1747	economic	economy	content	none	economic; merged with economy
+1748	eastern	east	content	anyu	eastern; merged with east
+1749	earthquake	earthquake	content	none	
+1750	drunk	drunk	content	none	
+1751	drama	drama	content	none	
+1752	dispute	argument	content	none	dispute; merged with argument
+1753	disease	sick	content	simi	disease; merged with sick
+1754	disappear	disappear	content	none	
+1755	dirty	dirty	content	bodu	
+1756	diamond	diamond	content	none	
+1757	dialect	language	content	apu	dialect; merged with language
+1758	diagnosis	diagnosis	content	none	
+1759	device	tool	content	yetu	device; merged with tool
+1760	development	develop	content	none	development; merged with develop
+1761	dependence	depend	content	none	dependence; merged with depend
+1762	decrease	decrease	content	none	
+1763	decide	decide	content	none	
+1764	cycle	cycle	content	none	
+1765	cute	cute	content	none	near beautiful (sesa)
+1766	criticism	criticize	content	none	criticism; merged with criticize
+1767	creator	creator	content	none	
+1768	cream	cream	content	none	
+1769	cow	cow	content	dunsa	
+1770	council	committee	content	none	council; merged with committee
+1771	corpse	corpse	content	none	compose gawo fafin
+1772	cool	cold	content	weki	cool; merged with cold
+1773	controversy	argument	content	none	controversy; merged with argument
+1774	consumption	use	content	bone	consumption; merged with use
+1775	consideration	think	content	pume	consideration; merged with think
+1776	confession	confess	content	none	noun; merged with confess
+1777	conference	meeting	content	none	conference; merged with meeting
+1778	concert	concert	content	none	
+1779	composition	compose	content	none	composition; merged with compose
+1780	completion	end	content	fugi	completion; merged with end
+1781	common	common	content	none	
+1782	commission	committee	content	none	commission; merged with committee
+1783	comfortable	comfortable	content	none	
+1784	comedy	comedy	content	none	
+1785	combination	connect	content	penyu	combination; merged with connect
+1786	column	pillar	content	none	column; merged with pillar
+1787	collar	collar	content	none	
+1788	clothes	clothes	content	lonne	
+1789	climb	climb	content	falan	
+1790	civil	civil	content	none	
+1791	championship	competition	content	none	championship; merged with competition
+1792	celebration	celebrate	content	none	celebration; merged with celebrate
+1793	celebrate	celebrate	content	none	
+1794	ceiling	ceiling	content	none	near roof (kuwun)
+1795	cave	cave	content	none	
+1796	carbon	carbon	content	none	
+1797	calendar	calendar	content	none	
+1798	cable	cable	content	none	
+1799	button	button	content	tinli	
+1800	burden	burden	content	none	near heavy (gogo)
+1801	breed	breed	content	none	
+1802	brand	brand	content	none	
+1803	boyfriend	lover	content	none	boyfriend; merged with lover
+1804	blind	blind	content	none	
+1805	bit	small	content	meli	a bit; merged with small
+1806	belt	belt	content	none	
+1807	bell	bell	content	none	
+1808	beach	beach	content	none	
+1809	basket	basket	content	kanga	
+1810	basis	base	content	none	basis; merged with base
+1811	axis	axis	content	none	
+1812	attend	attend	content	none	
+1813	at all	at all	grammar	none	
+1814	associate	associate	content	none	
+1815	assistant	assistant	content	none	compose no yema
+1816	assembly	meeting	content	none	assembly; merged with meeting
+1817	arrangement	arrange	content	none	noun; merged with arrange
+1818	april	April	content	none	
+1819	appoint	appoint	content	none	
+1820	announce	announce	content	none	
+1821	altitude	high	content	tisan	altitude; merged with high
+1822	almost, nearly	almost	grammar	nedin	merged with almost
+1823	ally	ally	content	none	
+1824	alive	live	content	nume	alive; merged with live
+1825	advance	advance	content	none	
+1826	acting	acting	content	none	
+1827	acquisition	get	content	dunu	acquisition; merged with get
+1828	acid	acid	content	none	near sour (tufun)
+1829	achievement	achieve	content	none	noun; merged with achieve
+1830	achieve	achieve	content	none	
+1831	accusation	accuse	content	none	noun; merged with accuse
+1832	access	access	content	none	
+1833	acceptance	accept	content	none	noun; merged with accept
+1834	accept	accept	content	none	
+1835	accent	accent	content	none	
+1836	above	above	content	bige	
+1837	younger brother	brother	content	faba	younger brother; merged with brother
+1838	worm	worm	content	enna	
+1839	wise	wise	content	none	
+1840	winner	champion	content	none	winner; merged with champion
+1841	wild	wild	content	none	
+1842	wide	wide	content	tugan	
+1843	what	what	grammar	yu	WH
+1844	weakness	weak	content	nensi	noun; merged with weak
+1845	way, manner	way	content	lite	merged with way
+1846	warrior	warrior	content	no migi	
+1847	warn	warn	content	yo	
+1848	warm	warm	content	none	near hot (tikun)
+1849	vision	vision	content	none	
+1850	virtue	virtue	content	none	
+1851	variable	variable	content	none	
+1852	useful	useful	content	none	near use (bone)
+1853	urban	city	content	oton	urban; merged with city
+1854	upper	above	content	bige	upper; merged with above
+1855	unique	unique	content	none	
+1856	ugly	ugly	content	lanli	
+1857	tweet	tweet	content	none	
+1858	tunnel	tunnel	content	none	
+1859	tube	pipe	content	none	tube; merged with pipe
+1860	treasury	treasury	content	none	
+1861	track	track	content	none	
+1862	town	city	content	oton	town; merged with city
+1863	tone	tone	content	none	
+1864	ton	ton	content	none	
+1865	tomb	grave	content	none	tomb; merged with grave
+1866	toilet	toilet	content	none	
+1867	tired	tired	content	fadun	
+1868	threaten	threaten	content	none	
+1869	thorough	thorough	content	none	
+1870	this	this	grammar	tan	
+1871	thief	thief	content	none	compose no bunsi
+1872	thanks	thank	content	lota	merged with thank
+1873	temporary	temporary	content	none	
+1874	task	task	content	none	near work (doku)
+1875	tape	tape	content	none	
+1876	take off	take off	content	none	
+1877	sweetness	sweet	content	sinta	noun; merged with sweet
+1878	sweetheart	lover	content	none	sweetheart; merged with lover
+1879	surely	sure	content	none	surely; merged with sure
+1880	summon	call	content	yebin	summon; merged with call
+1881	summit	top	content	bige	summit; merged with top
+1882	sultan	king	content	none	sultan; merged with king
+1883	suitable	suitable	content	none	
+1884	sudden	suddenly	content	finbi	merged with suddenly
+1885	successful	success	content	none	successful; merged with success
+1886	subtract	subtract	content	guti	MINUS
+1887	substitute	substitute	content	none	
+1888	string	rope	content	tenbe	string; merged with rope
+1889	stranger	stranger	content	none	near strange (lenya)
+1890	store	shop	content	none	store; 'keep in store' not included
+1891	steam	steam	content	none	
+1892	stability	stability	content	none	
+1893	spoon	spoon	content	none	
+1894	spiritual	spirit	content	none	spiritual; merged with spirit
+1895	spider	spider	content	noso meli pi bendo feli	
+1896	specialist	expert	content	none	specialist; merged with expert
+1897	soviet	Soviet	name	none	
+1898	solitude	alone	content	none	solitude; merged with alone
+1899	smell	smell	content	kanko	
+1900	slightly	slightly	grammar	tason	somewhat
+1901	skirt	skirt	content	none	
+1902	sixth	sixth	grammar	mena	ordinal
+1903	sincere	honest	content	none	sincere; merged with honest
+1904	similar	resemble	content	fu	similar; merged with resemble
+1905	silk	silk	content	none	
+1906	sign, mark	sign	content	none	merged with sign
+1907	sight	see	content	nagu	sight; merged with see
+1908	shout	yell	content	oyi dibon	shout; merged with yell
+1909	shot	shoot	content	onlo	shot; merged with shoot
+1910	shop, store	shop	content	none	merged with shop
+1911	shooting	shoot	content	onlo	shooting; merged with shoot
+1912	shirt	shirt	content	none	
+1913	ship	boat	content	binnu	ship; merged with boat
+1914	sheet	page	content	lunyu	sheet; merged with page
+1915	sexy	sex	content	none	sexy; merged with sex
+1916	severe	serious	content	none	severe; merged with serious
+1917	seven	seven	grammar	oma	
+1918	senior	old	content	pani	senior; merged with old
+1919	scenery	view	content	none	scenery; merged with view
+1920	scenario	scenario	content	none	
+1921	scale	scale	content	none	
+1922	sail	sail	content	none	
+1923	sad	sad	content	bayi	
+1924	romantic	love	content	wigen	romantic; merged with love
+1925	roman	Roman	name	none	
+1926	rocket	rocket	content	none	
+1927	ripe	ripe	content	bubin	
+1928	ride	ride	content	none	
+1929	rich	rich	content	none	
+1930	rhythm	rhythm	content	none	
+1931	revolutionary	revolution	content	none	revolutionary; merged with revolution
+1932	reverse	reverse	content	none	near return (sigo)
+1933	response	answer	content	febo	response; merged with answer
+1934	represent	represent	content	none	
+1935	reporter	journalist	content	none	reporter; merged with journalist
+1936	repair	repair	content	none	
+1937	remainder	remainder	content	none	
+1938	regulation	rule	content	wabun	regulation; merged with rule
+1939	regional	region	content	none	regional; merged with region
+1940	refusal	refuse	content	none	refusal; merged with refuse
+1941	refugee	refugee	content	none	
+1942	recognize	recognize	content	none	
+1943	recently	new	content	duwa	recently; merged with new
+1944	rear	back	content	nebe	rear; merged with back
+1945	rapid	fast	content	yobe	rapid; merged with fast
+1946	raid	attack	content	none	raid; merged with attack
+1947	quite	rather	grammar	tason	quite
+1948	quiet	quiet	content	mange	
+1949	qualification	qualification	content	none	
+1950	pump	pump	content	none	
+1951	protein	protein	content	none	
+1952	protector	guard	content	none	protector; merged with guard
+1953	prosperous	rich	content	none	prosperous; merged with rich
+1954	prosperity	rich	content	none	prosperity; merged with rich
+1955	propaganda	propaganda	content	none	
+1956	profession	job	content	none	profession; merged with job
+1957	producer	producer	content	none	
+1958	processing	process	content	none	processing; merged with process
+1959	procedure	process	content	none	procedure; merged with process
+1960	printing	print	content	none	printing; merged with print
+1961	princess	princess	content	none	
+1962	primary	primary	content	none	
+1963	prescription	prescription	content	none	
+1964	pray	pray	content	none	
+1965	pork	pork	content	none	compose meat of pig
+1966	pope	pope	content	none	
+1967	pool	pool	content	none	
+1968	pleasant	pleasant	content	none	near good (upe)
+1969	playing card	card	content	mise	playing card; merged with card
+1970	pillow	pillow	content	none	
+1971	physical	body	content	gawo	physical; merged with body
+1972	phone	phone	content	liga	
+1973	phase	stage	content	none	phase; merged with stage
+1974	perform	perform	content	none	
+1975	pension	pension	content	none	
+1976	pawn	-	bad	none	likely sense error (chess piece) for peon/labourer words
+1977	pause	stop	content	bamo	pause; merged with stop
+1978	password	password	content	apu pi udin	
+1979	passage	passage	content	none	
+1980	partner	partner	content	none	
+1981	particle	particle	content	none	
+1982	parents	parent	content	mole yen wede	merged with parent
+1983	pardon	forgive	content	none	pardon; merged with forgive
+1984	package	package	content	none	
+1985	pace	fast	content	yobe	pace; merged with fast
+1986	own	own	content	ibe,nen	possess (ibe); one's own (nen)
+1987	overcome	overcome	content	none	
+1988	out	outside	content	aban	out; merged with outside
+1989	originally	origin	content	none	originally; merged with origin
+1990	organisation	organization	content	none	merged with organization
+1991	order, command	order	content	tin	merged with order
+1992	operate	operate	content	none	
+1993	only, just	only	grammar	na	merged with only
+1994	omen	omen	content	none	
+1995	old person	old person	content	none	compose ewo pani
+1996	okay	okay	grammar	buni	
+1997	occasion	occasion	content	gimu	
+1998	obstacle	obstacle	content	none	
+1999	objection	oppose	content	ninsu	objection; merged with oppose
+2000	obey	obey	content	none	
+2001	noise	sound	content	ninge	noise; merged with sound
+2002	neighborhood	neighborhood	content	none	
+2003	navy	navy	content	none	
+2004	name of the latin script letter l/l	-	bad	none	letter-name artifact
+2005	myth	story	content	weyu	myth; merged with story
+2006	mystery	mystery	content	none	
+2007	mode	way	content	lite	mode; merged with way
+2008	mix	mix	content	none	
+2009	mild	mild	content	none	
+2010	mercy	pity	content	none	mercy; merged with pity
+2011	menu	menu	content	none	
+2012	mean	mean	content	yofu	signify sense
+2013	meal	food	content	pasu	meal; merged with food
+2014	mature	ripe	content	bubin	mature; merged with ripe
+2015	marketing	marketing	content	none	
+2016	manly	man	content	lowu	manly; merged with man
+2017	man, male	man	content	lowu	merged with man
+2018	makeup	makeup	content	none	
+2019	maintenance	maintain	content	none	noun; near keep (kuwi)
+2020	main	primary	content	none	main; merged with primary
+2021	loyal	loyal	content	none	
+2022	long time	long time	content	none	compose muyi netu
+2023	location	place	content	kemu	location; merged with place
+2024	lifetime	life	content	pata	lifetime; merged with life
+2025	lieutenant	lieutenant	content	none	
+2026	less	less	grammar	none	compose mu ke?
+2027	legal	law	content	wabun	legal; merged with law
+2028	lawsuit	lawsuit	content	none	
+2029	laughter	laugh	content	bubo	laughter; merged with laugh
+2030	latest	new	content	duwa	latest; merged with new
+2031	laboratory	laboratory	content	none	
+2032	kidney	kidney	content	none	
+2033	khan	king	content	none	khan; merged with king
+2034	jungle	forest	content	none	jungle; merged with forest
+2035	jewish	Jew	name	none	jewish; merged with Jew
+2036	item	thing	content	musu	item; merged with thing
+2037	invest	invest	content	none	
+2038	introduce	introduce	content	none	
+2039	intervention	intervention	content	none	
+2040	interval	period	content	none	interval; merged with period
+2041	intensity	intensity	content	none	
+2042	intelligent	smart	content	gole	intelligent; merged with smart
+2043	input	input	content	none	
+2044	inform	tell	content	iko	inform; merged with tell
+2045	industrial	industry	content	none	industrial; merged with industry
+2046	immigration	immigration	content	none	
+2047	imitate	copy	content	gayen	imitate; merged with copy
+2048	imam	imam	content	none	
+2049	idol	idol	content	none	
+2050	identical	same	content	kige	identical; merged with same
+2051	housing	house	content	guyi	housing; merged with house
+2052	household	family	content	yonyo	household; merged with family
+2053	honesty	honest	content	none	honesty; merged with honest
+2054	holy, sacred	holy	content	none	merged with holy
+2055	holy	holy	content	none	
+2056	harsh	harsh	content	none	
+2057	guidance	lead	content	wungu	guidance; merged with lead
+2058	greek	Greek	name	none	
+2059	grandmother	grandmother	content	none	
+2060	graduate	graduate	content	none	
+2061	goodness	good	content	upe	goodness; merged with good
+2062	good luck	luck	content	none	good luck; merged with luck
+2063	give birth	birth	content	none	give birth; merged with birth
+2064	gathering	gather	content	fanmu	gathering; merged with gather
+2065	gang	group	content	funti	gang; merged with group
+2066	funny	funny	content	none	near laugh (bubo)
+2067	framework	structure	content	none	framework; merged with structure
+2068	four	four	grammar	da	
+2069	forum	forum	content	none	
+2070	fortune	luck	content	none	fortune; merged with luck
+2071	form, shape	shape	content	none	merged with shape
+2072	follower	follower	content	none	compose no lefan
+2073	flesh	meat	content	fuyu	flesh; merged with meat
+2074	feather	feather	content	suba	
+2075	fate	fate	content	none	
+2076	fake	fake	content	none	
+2077	faculty	faculty	content	none	
+2078	extremely	very	grammar	bi	extremely; merged with very
+2079	extension	extension	content	none	
+2080	expose	show	content	wuye	expose; merged with show
+2081	exhibition	show	content	wuye	exhibition; merged with show
+2082	executive	executive	content	none	
+2083	excuse me	sorry	content	sepi	excuse me; merged with sorry
+2084	exception	exception	content	none	
+2085	exceed	exceed	content	none	
+2086	examine	check	content	loban	examine; merged with check
+2087	exactly	exactly	grammar	none	
+2088	eternity	eternity	content	none	
+2089	envy	envy	content	none	
+2090	envoy	messenger	content	none	envoy; merged with messenger
+2091	elder	old	content	pani	elder; merged with old
+2092	ego	self	grammar	nen	ego; merged with self
+2093	drinking	drink	content	koye	noun; merged with drink
+2094	draw	draw	content	none	
+2095	download	download	content	none	
+2096	domestic	domestic	content	none	
+2097	doll	doll	content	none	
+2098	distribute	share	content	peton	distribute; merged with share
+2099	display	show	content	wuye	display; merged with show
+2100	directly	direct	content	none	directly; merged with direct
+2101	digit	number	content	wifu	digit; merged with number
+2102	diet	diet	content	none	
+2103	dictionary	dictionary	content	none	
+2104	determination	determination	content	none	
+2105	destruction	destroy	content	none	destruction; merged with destroy
+2106	destiny, fate	fate	content	none	merged with fate
+2107	depression	depression	content	none	
+2108	departure	leave	content	kusa	departure; merged with leave
+2109	demon	devil	content	none	demon; merged with devil
+2110	define	define	content	none	
+2111	defense	protect	content	kuwi	defense; merged with protect
+2112	deed	do	content	muge	deed; merged with do
+2113	dam	dam	content	none	
+2114	custody	custody	content	none	
+2115	curtain	curtain	content	none	
+2116	curse	curse	content	none	
+2117	cure	heal	content	none	cure; merged with heal
+2118	cry, to weep	cry	content	nowa	merged with cry
+2119	cruel	cruel	content	none	
+2120	criticize	criticize	content	none	
+2121	crazy	crazy	content	none	
+2122	crack	crack	content	buyan	split
+2123	crab	crab	content	none	
+2124	cotton	cotton	content	none	
+2125	cooperation	cooperate	content	none	noun; merged with cooperate
+2126	contest	competition	content	none	contest; merged with competition
+2127	consume	use	content	bone	consume; merged with use
+2128	consultation	advise	content	fon	consultation; merged with advise
+2129	constantly	always	grammar	none	constantly; merged with always
+2130	constant	always	grammar	none	constant; merged with always
+2131	consequence	result	content	ge	consequence; merged with result
+2132	confusion	confusion	content	none	
+2133	conductor	conductor	content	none	
+2134	concentration	concentration	content	none	
+2135	compete	competition	content	none	compete; merged with competition
+2136	commercial	business	content	none	commercial; merged with business
+2137	college	university	content	none	college; merged with university
+2138	collect	gather	content	fanmu	collect; merged with gather
+2139	clothing	clothes	content	lonne	merged with clothes
+2140	clothes, clothing	clothes	content	lonne	merged with clothes
+2141	clinic	hospital	content	pu yema simi	clinic; merged with hospital
+2142	click	click	content	none	
+2143	classical	classical	content	none	
+2144	civilian	civilian	content	none	
+2145	circulation	circulation	content	none	
+2146	cheap	cheap	content	tanbu	
+2147	chat	speak	content	kegu	chat; merged with speak
+2148	chart	chart	content	none	
+2149	charcoal	charcoal	content	none	
+2150	centre	center	content	none	merged with center
+2151	cash	money	content	nimo	cash; merged with money
+2152	carry out	do	content	muge	carry out; merged with do
+2153	can	can	grammar	lenu	modal
+2154	buddha	Buddha	name	none	
+2155	bud	bud	content	none	
+2156	brown	brown	content	none	
+2157	breathe	breathe	content	togun	
+2158	brass	brass	content	none	
+2159	borrow	borrow	content	none	near rent (sanwa)
+2160	bond	bond	content	none	
+2161	blame	blame	content	none	
+2162	black person	black person	content	none	
+2163	biological	biology	content	none	biological; merged with biology
+2164	bench	bench	content	none	
+2165	beam	beam	content	none	
+2166	bay	bay	content	none	
+2167	basic	base	content	none	basic; merged with base
+2168	aviation	aviation	content	none	
+2169	automatic	automatic	content	none	
+2170	attribute	characteristic	content	none	attribute; merged with characteristic
+2171	attraction	attraction	content	none	
+2172	athlete	athlete	content	none	
+2173	assemble	gather	content	fanmu	assemble; merged with gather
+2174	ash	ash	content	sulen	
+2175	armed	weapon	content	botan	armed; merged with weapon
+2176	arab	Arab	name	none	
+2177	approve	allow	content	efon	approve; merged with allow
+2178	appropriate	suitable	content	none	appropriate; merged with suitable
+2179	another	other	grammar	eni	another; merged with other
+2180	ancestor	ancestor	content	none	
+2181	alternative	alternative	content	none	near other (eni)
+2182	agenda	agenda	content	none	
+2183	affair	matter	content	none	affair; merged with matter
+2184	adventure	adventure	content	none	
+2185	adoption	adopt	content	none	noun; merged with adopt
+2186	admit	confess	content	none	admit; merged with confess
+2187	administrator	leader	content	no wungu	administrator; merged with leader
+2188	adjust	adjust	content	finsa	
+2189	active	active	content	none	
+2190	acknowledge	confess	content	none	acknowledge; merged with confess
+2191	accuse	accuse	content	none	
+2192	abdomen	belly	content	suyon	abdomen; merged with belly
+2193	wrestling	wrestling	content	none	
+2194	wow	wow	grammar	ba	EXCLAIM
+2195	worth	value	content	none	worth; merged with value
+2196	workshop	workshop	content	none	
+2197	wire	wire	content	none	
+2198	width	wide	content	tugan	width; merged with wide
+2199	wide, broad	wide	content	tugan	merged with wide
+2200	while	while	grammar	nin	
+2201	welfare	welfare	content	none	
+2202	weigh	weigh	content	none	near heavy (gogo)
+2203	weed	weed	content	none	
+2204	wealth, riches	rich	content	none	wealth; merged with rich
+2205	weak, feeble	weak	content	nensi	merged with weak
+2206	warehouse	warehouse	content	pu kuwi	
+2207	ward	ward	content	none	
+2208	waist	waist	content	none	
+2209	vitamin	vitamin	content	none	
+2210	violent	violence	content	none	violent; merged with violence
+2211	vicinity	near	content	gelu	vicinity; merged with near
+2212	verb	-	bad	none	likely sense error: 'word' words (verbum) glossed as verb
+2213	venom	poison	content	none	venom; merged with poison
+2214	velocity	fast	content	yobe	velocity; merged with fast
+2215	vagina	vagina	content	kedon	vulva
+2216	usually	usually	grammar	manni	
+2217	usual	usually	grammar	manni	usual; merged with usually
+2218	urinate	urinate	content	tibin	
+2219	urgent	urgent	content	none	
+2220	unripe	ripe	content	bubin	unripe; negation of ripe
+2221	unknown	know	content	lugo	unknown; negation of know
+2222	unite	union	content	none	unite; merged with union
+2223	uniform	uniform	content	none	
+2224	turn on	turn on	content	none	
+2225	turmeric	turmeric	content	none	
+2226	tune	tune	content	none	
+2227	truly	really	grammar	none	truly; merged with really
+2228	transmission	transmission	content	none	
+2229	tragedy	tragedy	content	none	
+2230	trace	trace	content	none	
+2231	toy	toy	content	none	
+2232	torture	torture	content	none	
+2233	tobacco	tobacco	content	none	
+2234	three	three	grammar	ka	
+2235	thread	thread	content	none	near rope (tenbe)
+2236	thigh	thigh	content	none	
+2237	thickness	thick	content	woten	thickness; merged with thick
+2238	thesis	thesis	content	none	
+2239	theme	subject	content	none	theme; merged with subject
+2240	thank	thank	content	lota	
+2241	test, examination	test	content	none	merged with test
+2242	tenth	tenth	grammar	mena	ordinal
+2243	tent	tent	content	none	
+2244	take away	remove	content	nuton	take away; merged with remove
+2245	tag	tag	content	none	
+2246	syllable	syllable	content	none	
+2247	sweat	sweat	content	tiwe	
+2248	suspicion	suspect	content	none	suspicion; merged with suspect
+2249	survive	live	content	nume	survive; merged with live
+2250	survey	survey	content	none	
+2251	surround	surround	content	none	
+2252	supervision	supervision	content	none	
+2253	sunlight	light	content	wino	sunlight; merged with light
+2254	summary	summary	content	none	
+2255	such	like this	grammar	none	such; merged with like this
+2256	subordinate	subordinate	content	none	
+2257	stupid	stupid	content	none	opposite of smart (gole)
+2258	struggle	fight	content	migi	struggle; merged with fight
+2259	sting	sting	content	lasu	bite
+2260	statue	statue	content	none	
+2261	standing	stand	content	kolu	standing; merged with stand
+2262	stamp	stamp	content	none	
+2263	staff	staff	content	none	
+2264	stadium	stadium	content	none	
+2265	spot	place	content	kemu	spot; merged with place
+2266	split	split	content	buyan	
+2267	specific	specific	content	none	
+2268	speaker	speaker	content	none	
+2269	spaniard	Spanish	name	none	Spaniard
+2270	southern	south	content	monna	southern; merged with south
+2271	source, origin	source	content	none	merged with source
+2272	soul, spirit	soul	content	none	merged with soul
+2273	solidarity	unity	content	none	solidarity; merged with unity
+2274	sole	sole	content	none	only or foot sole, ambiguous
+2275	socialist	socialism	content	none	socialist; merged with socialism
+2276	socialism	socialism	content	none	
+2277	simultaneously	simultaneously	grammar	nin	WHILE
+2278	silent	quiet	content	mange	silent; merged with quiet
+2279	should	should	grammar	wupi	modal
+2280	shore	beach	content	none	shore; merged with beach
+2281	shoot	shoot	content	onlo	
+2282	shine	shine	content	none	near light (wino)
+2283	shelter	shelter	content	none	
+2284	shake	shake	content	susin	
+2285	shadow, shade	shadow	content	situ	merged with shadow
+2286	seventh	seventh	grammar	mena	ordinal
+2287	session	meeting	content	none	session; merged with meeting
+2288	sequence	order	content	none	sequence; merged with order
+2289	sensitivity	sensitive	content	none	sensitivity; merged with sensitive
+2290	senate	parliament	content	none	senate; merged with parliament
+2291	semen	semen	content	none	
+2292	self-confidence	self-confidence	content	none	
+2293	select	choose	content	waka	select; merged with choose
+2294	sector	part	content	kin	sector; merged with part
+2295	seal	seal	content	none	
+2296	saddle	saddle	content	none	
+2297	rust	rust	content	none	
+2298	rumor	rumor	content	inwun	hearsay
+2299	royal	king	content	none	royal; merged with king
+2300	rotation	turn	content	duko	rotation; merged with turn
+2301	roll	roll	content	none	
+2302	rich person	rich	content	none	rich person; merged with rich
+2303	revelation	show	content	wuye	revelation; merged with show
+2304	retire	retire	content	none	
+2305	restriction	limit	content	none	restriction; merged with limit
+2306	responsible	responsible	content	none	
+2307	resources	resource	content	none	merged with resource
+2308	resource	resource	content	none	
+2309	resist	oppose	content	ninsu	resist; merged with oppose
+2310	reside	live	content	nume	reside; merged with live
+2311	rescue	save	content	kuwi	rescue; merged with save
+2312	removal	remove	content	nuton	removal; merged with remove
+2313	reminder	remember	content	imu	reminder; merged with remember
+2314	regime	government	content	none	regime; merged with government
+2315	reduce	decrease	content	none	reduce; merged with decrease
+2316	recovery	recovery	content	none	near heal
+2317	recite	recite	content	none	
+2318	recipe	recipe	content	none	
+2319	rebel	rebel	content	none	
+2320	realize	understand	content	lafi	realize; merged with understand
+2321	real estate	property	content	none	real estate; merged with property
+2322	rather	rather	grammar	tason	
+2323	railway	railway	content	none	
+2324	quotient	quotient	content	none	
+2325	quantity	amount	content	none	quantity; merged with amount
+2326	put on	wear	content	yunko	put on; merged with wear
+2327	pursue	follow	content	lefan	pursue; merged with follow
+2328	purity	pure	content	none	purity; merged with pure
+2329	provision	supply	content	none	provision; merged with supply
+2330	prostitute	prostitute	content	none	
+2331	proposal	advise	content	fon	proposal; merged with advise
+2332	proportion	ratio	content	none	proportion; merged with ratio
+2333	proper	suitable	content	none	proper; merged with suitable
+2334	pronunciation	pronunciation	content	none	
+2335	prohibition	forbid	content	none	prohibition; merged with forbid
+2336	progressive	progress	content	none	progressive; merged with progress
+2337	probably	probably	grammar	none	near wemen (inferred)
+2338	prime	primary	content	none	prime; merged with primary
+2339	previously	before	grammar	ya	previously; merged with before
+2340	previous	before	grammar	ya	previous; merged with before
+2341	present, gift	gift	content	none	merged with gift
+2342	preference	prefer	content	none	compose tana ke
+2343	precedent	precedent	content	none	
+2344	practical	practical	content	none	
+2345	power, strength	power	content	lula	merged with power
+2346	powder	powder	content	none	
+2347	poster	poster	content	none	
+2348	port, harbor	port	content	none	merged with port
+2349	pond	lake	content	nenwa	pond; merged with lake
+2350	point of view	opinion	content	none	point of view; merged with opinion
+2351	plus	plus	grammar	ginni	add
+2352	plough	plough	content	none	
+2353	pick up	take	content	yidu	pick up; merged with take
+2354	phylum	kind	content	niki	phylum; likely sense of 'kind/sort' words
+2355	phrase	phrase	content	none	
+2356	photography	photo	content	foto	photography; merged with photo
+2357	petal	petal	content	none	
+2358	perspective	view	content	none	perspective; merged with view
+2359	personally	self	grammar	nen	personally; merged with self
+2360	permanence	permanent	content	none	permanence; merged with permanent
+2361	peel	peel	content	none	
+2362	paternal aunt	aunt	content	none	paternal aunt; merged with aunt
+2363	patch	patch	content	none	
+2364	pass away	die	content	kono	pass away; merged with die
+2365	particular	specific	content	none	particular; merged with specific
+2366	participate	participate	content	none	
+2367	participant	participant	content	none	
+2368	parallel	parallel	content	none	
+2369	pants, trousers	trousers	content	none	
+2370	panel	panel	content	none	
+2371	pain, ache	pain	content	wekun	merged with pain
+2372	pack	pack	content	none	
+2373	over	above	content	bige	over; merged with above
+2374	outer space	space	content	none	outer space; merged with space
+2375	origin, source	origin	content	none	merged with origin
+2376	organic	organic	content	none	
+2377	ordinary	normal	content	none	ordinary; merged with normal
+2378	oppose	oppose	content	ninsu	
+2379	onion	onion	content	lengu	
+2380	olympic	Olympic	name	none	
+2381	offspring	child	content	tiwu	offspring; merged with child
+2382	occupy	occupy	content	none	
+2383	obtain	get	content	dunu	obtain; merged with get
+2384	obligatory	must	grammar	keya	obligatory; merged with must
+2385	nurse	nurse	content	none	
+2386	nun	nun	content	none	
+2387	nuclear	nuclear	content	none	
+2388	nu	-	bad	none	likely Romanian 'nu' (no) or Greek letter, not a concept
+2389	nowadays	now	grammar	eda	nowadays; merged with now
+2390	not at all	not	grammar	mu	not at all; emphatic negation
+2391	noon, midday	noon	content	minfi	merged with noon
+2392	noon	noon	content	minfi	
+2393	nine	nine	grammar	mape	
+2394	nice	pleasant	content	none	nice; merged with pleasant
+2395	new year	new year	content	none	
+2396	nest	nest	content	none	
+2397	negotiate	negotiate	content	none	
+2398	necklace	necklace	content	none	
+2399	necessarily	must	grammar	keya	necessarily; merged with must
+2400	nearby	near	content	gelu	nearby; merged with near
