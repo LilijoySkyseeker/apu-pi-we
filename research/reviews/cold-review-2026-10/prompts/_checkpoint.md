@@ -1,0 +1,3 @@
+Usage limits may cut your run short, so work in checkpoints. Create your report file early, and update it after each section or batch rather than once at the end. Keep a "Progress" section at the top that lists what's done and what's left. If your report file already exists with a Progress section, an earlier run of this task was interrupted: read it and continue from where it left off, rather than starting over. Remove the Progress section only when the report is complete.
+
+The reports folder also holds other reviewers' work. Never open any file there except your own report: reviews must stay independent of each other.
