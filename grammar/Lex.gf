@@ -224,9 +224,9 @@ abstract Lex = {
     duko_N : N ;  -- turn, rotate or turn around
     duko_V : V ;  -- turn, rotate or turn around
     duko_A : A ;  -- turn, rotate or turn around
-    dunan_N : N ;  -- month; moon
-    dunan_V : V ;  -- month; moon
-    dunan_A : A ;  -- month; moon
+    dunan_N : N ;  -- month
+    dunan_V : V ;  -- month
+    dunan_A : A ;  -- month
     dundi_N : N ;  -- respect, honour
     dundi_V : V ;  -- respect, honour
     dundi_A : A ;  -- respect, honour

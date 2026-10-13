@@ -1,0 +1,102 @@
+n	concept	status	route	field	tier	antonym	note
+1	duck	keep	root	animal	2		children's first word
+2	mouse	keep	root	animal	2		computer mouse by a widespread metaphor
+3	sheep	keep	root	animal	2		
+4	bicycle	keep	root	transport	3		compound siwa pi pifo exists; frequent modern concept, root per ladder 2.3
+5	doll	keep	root	thing	2		
+6	ball	keep	root	thing	3		
+7	ice cream	keep	loan?	food	2		aisukurimu/es krim/aiskrimu/āys krīm; helado, morozhenoe differ
+8	cake	keep	root	food	2		keki/kek widespread but torta/pastel/dàngāo differ
+9	soup	keep	loan?	food	2		sup/sopa/supu/sūpu/shorba; Chinese tāng differs
+10	apple	keep	root	food	2		
+11	chocolate	keep	loan?	food	2		chocolate/shokolad/chokoreto/qiǎokèlì
+12	hat	keep	root	clothing	2		headwear incl. cap
+13	shoe	keep	root	clothing	3		
+14	sock	keep	root	clothing	2		
+15	kitchen	keep	root	home	3		derived pu siten (compounds.tsv); frequent, root per ladder 2.3
+16	window	keep	root	home	3		
+17	chair	keep	root	home	3		seat (520) is any place to sit
+18	spoon	keep	root	home	2		
+19	bottle	keep	root	home	2		
+20	knife	keep	root	home	2		
+21	soap	keep	root	home	2		
+22	pillow	keep	root	home	2		
+23	doctor	keep	loan?	health	3		doktor/doctor/daktari/dokter; isha, yīshēng, ṭabīb differ
+24	grandmother	covered:mole pi mole / mole pi wede		people	3		kinship is composed (method 3.1), side always stated; flag: children's first word, add back a root if tests lose meaning
+25	monkey	keep	root	animal	2		
+26	elephant	keep	root	animal	2		
+27	butterfly	keep	root	animal	2		
+28	lion	keep	root	animal	2		
+29	frog	keep	root	animal	2		compounds.tsv has a 9-syllable phrase; children's first word
+30	train	keep	root	transport	3		compound siwa netu exists; ladder 0 names trains as baseline
+31	truck	keep	root	transport	2		
+32	airplane	keep	root	transport	3		plane, aircraft, jet
+33	orange	keep	root	food	2		the fruit; colour is 197
+34	banana	keep	loan?	food	2		banana/banan/banāna; xiāngjiāo, mawz, ndizi, pisang differ
+35	trousers	keep	root	clothing	3		pants
+36	table	keep	root	home	3		includes desk
+37	blanket	keep	root	home	2		
+38	uncle	covered:faba pi wede / faba pi mole		people	2		parent's sibling (method 3.1; language.md 10.1.3 uses faba pi wede); lowu if male
+39	grandfather	covered:wede pi mole / wede pi wede		people	3		kinship composed (method 3.1); same flag as grandmother
+40	baby	keep	root	people	3	adult	infant; tiwu is child/offspring
+41	jump	keep	root	motion	3		
+42	cat	keep	root	animal	3		
+43	tiger	keep	root	animal	2		
+44	giraffe	keep	loan?	animal	1		zarāfa/jirafa/zhiraf/jirāf/jerapah; Chinese, Japanese, Swahili differ
+45	motorcycle	keep	loan?	transport	2		moto/mototsikl/mōtābaiku/sepeda motor; pikipiki, mótuōchē partly
+46	potato	keep	root	food	2		a tuber (tengi) but a staple of its own
+47	coat	keep	root	clothing	2		outer garment; includes jacket (115)
+48	cheek	keep	root	body	2		
+49	bathroom	keep	root	home	3		washing room; toilet is 926
+50	television	keep	loan?	tech	3		TV/televizor/terebi/televisi/tilfāz; diànshì differs
+51	scissors	keep	root	home	2		
+52	medicine	keep	root	health	3		drug, pill
+53	towel	keep	root	home	2		
+54	aunt	covered:faba pi wede / faba pi mole		people	2		same as uncle: sibling has no sex; futa if female (method 3.1)
+55	dance	keep	root	action	3		
+56	bee	keep	root	animal	2		
+57	pig	keep	root	animal	2		
+58	bear	keep	root	animal	2		the animal; carry is dinyo
+59	rabbit	keep	root	animal	2		
+60	balloon	keep	root	thing	2		
+61	bucket	keep	root	home	2		
+62	juice	keep	root	food	2		
+63	cheese	keep	root	food	2		
+64	coffee	keep	loan?	food	3		kofe/café/kahawa/kōhī/kāfēi/qahwa
+65	carrot	keep	root	food	1		
+66	diaper	keep	root	clothing	2		
+67	sweater	keep	loan?	clothing	2		sviter/suéter/sētā/sweta/sweter; máoyī, kanza differ
+68	pajamas	keep	loan?	clothing	1		pijama/pizhama/pajama
+69	chin	keep	root	body	2		
+70	fridge	keep	root	home	3		
+71	stairs	keep	root	home	2		
+72	radio	keep	loan?	tech	2		radio/radiyo/rajio/redio; shōuyīnjī differs
+73	glasses	keep	root	thing	2		spectacles
+74	fork	keep	root	home	2		
+75	hammer	keep	root	thing	1		
+76	shop	keep	root	place	3		store; pu bika possible but frequent
+77	school	keep	root	place	4		
+78	swing	keep	root	thing	1		playground swing; the motion is tier 1
+79	boy	covered:tiwu lowu		people	3		gender is a modifier (language.md 5.2); same form as son
+80	helicopter	keep	loan?	transport	1		helikopter/herikoputā/hilikūbtar/helikopta; vertolyot, zhíshēngjī differ
+81	tractor	keep	loan?	transport	1		traktor/tractor/torakutā/tuōlājī
+82	yogurt	keep	loan?	food	1		yogurt/yogurt/yōguruto; suānnǎi, dahī differ
+83	candy	keep	root	food	2		sweets; includes lollipop (221)
+84	jam	keep	root	food	1		
+85	underwear	keep	root	clothing	2		
+86	scarf	keep	root	clothing	1		
+87	dress	keep	root	clothing	2		the garment; clothes is lonne
+88	shirt	keep	root	clothing	2		
+89	sofa	keep	loan?	home	2		sofa/shāfā/sofā/sofa
+90	toothbrush	merge:brush		home	2		brush pi fonma
+91	plate	keep	root	home	2		dish
+92	park	keep	loan?	place	3		park/parque/pāku; gōngyuán differs; parking a car is yaga tale
+93	church	keep	root	religion	2		
+94	slide	split	root	thing	1		1: playground slide; 2: slide, slip over a surface (94.b)
+94.b	slide (slip)	keep	root	motion	2		move smoothly over a surface; slip
+95	teacher	keep	root	people	3	student	derived no tofo exists; frequent, root per ladder 2.3
+96	turtle	keep	root	animal	1		compound noso gake (slow animal) is not exact
+97	toy	keep	root	thing	3		du luse possible; frequent child word
+98	bean	keep	root	food	2		
+99	slipper	keep	root	clothing	1		
+100	picture	keep	root	thing	3		image, drawing, portrait; foto is a photograph only

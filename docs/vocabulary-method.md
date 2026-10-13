@@ -22,7 +22,7 @@ Every word decision is two decisions: where a meaning's boundaries go, and what 
 3. **Built from existing words,** when the concept isn't frequent enough for a word of its own (ladder 1, rung 5) and the result is clear (section 5). A frequent concept gets its own root even if it's new to history: trains and hospitals are baseline concepts for a language made now. Anyone who doesn't know a word can still build a phrase for it.
 4. **A new root** from `tools/words.py`: hard to mishear, drift-safe, length by frequency; sounding like an offensive word elsewhere only breaks ties (C3).
 
-The existing lexicon gets one review pass against these ladders (pending; moon/month, word/language and "religion" are known candidates).
+The existing lexicon gets one review pass against these ladders (pending; word/language and "religion" are known candidates; moon/month split 2026-10-13).
 
 ## 1. Which concepts, in what order
 
@@ -57,7 +57,7 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
    - **Numerals:** base 10 (language.md section 9).
 2. **Frequent alternatives in the same slot, where confusing them changes what the listener does → two roots.** This is the "action-relevant misunderstanding" test made concrete: left/right, buy/sell, lend/borrow, give/take. It agrees with the Goldilocks finding that languages avoid lumping meanings that compete in context.
 3. **Otherwise, the family-balanced lump rate** (agreed by the author, 2026-10-08):
-   - lumped by ≥ 50% → one root; the narrow sense is built when needed (e.g. moon/month);
+   - lumped by ≥ 50% → one root; the narrow sense is built when needed;
    - 20–50% → two words, the less basic built transparently from the other;
    - < 20% → two unrelated roots (e.g. see/know 3%, eat/drink 7%, finger/toe 16%; recomputed 2026-10-12 from CLICS4 v1.0 with `clics_rates.awk`: 2.9%, 7.2%, 15.7%, all clear of the 20% line; moon/month 69.6% robust; word/language 50.2% reproduces but is undecided by the rule, see `research/notes/colexification.md`).
 

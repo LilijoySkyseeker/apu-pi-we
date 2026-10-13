@@ -30,9 +30,9 @@ Most of the world's languages don't mark gender in their pronouns, and those tha
 
 Words like "probably" and "likely" mean very different things to different people. A number doesn't. **kon** plus a number from 0 to 6 gives seven steps, and every step but certainty is a one-syllable digit. It also suits a language whose digits once counted in sixes. [The confidence scale](language.md#61-clause-operators).
 
-## Why does one word mean both "moon" and "month"?
+## Many languages use one word for "moon" and "month". Why doesn't this one?
 
-Where the world's languages draw the lines between meanings decided where this one does. When more than half of the language families use one word for two meanings, it gets one word too. Moon and month share a word in about 70% of families, so here they are both **dunan**. [How word boundaries are drawn](rationale.md#54-where-boundaries-go-lump-or-split).
+Where the world's languages draw the lines between meanings is the starting point, and about 70% of language families do use one word for both, from the days when months were counted by the moon. But today's calendar month has nothing to do with the moon, and the languages that kept one word are drawing the line in everyday use: Mandarin says 月亮 for the moon and 个月 for a month, Korean counts months with a different word, Yoruba has *oṣupa* and *oṣù*. When agreement among languages comes from an older way of life, how people talk now decides. So **dunan** is the month, and the moon has its own word. [How word boundaries are drawn](rationale.md#54-where-boundaries-go-lump-or-split).
 
 ## Why only five vowels, and why does only n end a syllable?
 

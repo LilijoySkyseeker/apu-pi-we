@@ -373,7 +373,7 @@ Before the verb, things go in this order: small operator words, then **manni**, 
 
 To count from now, use **wo** and **ya**. **wo nelon fi** "after one week" is next week, and **ya dunan fi** "before one month" is a month ago. Any time can be the starting point: **wuma wo dili fi** "the day after tomorrow". [§8.2.2](language.md#r-8-2-2)
 
-The units of time are **dili** day, **nelon** week, **dunan** month (also "moon") and **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**. [§8.2.1](language.md#r-8-2-1) [§8.2.5](language.md#r-8-2-5)
+The units of time are **dili** day, **nelon** week, **dunan** month and **fawu** year. Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**. [§8.2.1](language.md#r-8-2-1) [§8.2.5](language.md#r-8-2-5)
 
 A length of time is a count: **awuwa ka** "three hours". **nin** with a length means "for": **nin dili oma** "for seven days". **gimu** is an occasion: **gimu sa** "twice". [§8.2.3](language.md#r-8-2-3) [§8.2.1](language.md#r-8-2-1)
 

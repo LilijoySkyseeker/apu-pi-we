@@ -1239,7 +1239,7 @@ id = "8.2.1"
 type = "bullet"
 title = "Roots"
 text = '''
-- The time roots are **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month (also "moon"), **fawu** year; **muyi** time (a span or a point); **gimu** occasion (**gimu sa** "twice").'''
+- The time roots are **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month, **fawu** year; **muyi** time (a span or a point); **gimu** occasion (**gimu sa** "twice").'''
 
 [[item]]
 id = "8.2.2"
