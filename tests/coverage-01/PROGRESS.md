@@ -46,3 +46,4 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - [ ] Rerun back-translation running: one cold agent per size (prompts /tmp/back2-N.md = prompts/back.md with part2b paths). Then scoring (2 agents, scores-a/b in part2b).
 - [x] Rerun back-translations done. [ ] Scoring running (prompts/score2-a.md and the -b twin; prompts/back2-base.md is the back-translation prompt, same for each size).
 - [x] Rerun scored: exact 84.4 / 88.1 / 90.2 / 89.7 %; knee ≈ 1,500 (RESULTS.md). Next: author sets the size; then Part 3 (boundaries) and Part 4 (forms).
+- [x] Part 4 strategy measurement: re-placing everything (C) lowers nearest-neighbour confusion 29% vs one-at-a-time, moving 278 of 500 roots (RESULTS.md). Order question to the author.

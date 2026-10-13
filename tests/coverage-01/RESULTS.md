@@ -39,3 +39,15 @@ Root lists: the 235 first-word concepts (Wordbank, ≥15 of 30 languages) with n
 2. **What's left at 2,000 is the long tail:** named dishes (caviar, borscht, shashlik, akkawi), diseases (dengue, heatstroke), specific tools and objects (parasol, bamboo blinds, curds, graphite, screws). Most are names, loans-to-be or rare concepts; more roots from the frequency list don't reach them.
 3. **Length** falls 6% by 2,000; brevity is not where the gain is.
 4. **For a person the gap is larger.** The phrase test (`guess/RESULTS.md`) found AI readers resolve about a third of the phrases a person misses, and today's vocabulary leans on such phrases far more than 1,500 roots does. So a person reading today's version would lose more than 15.6%; the curve's shape (steep to 1,000, flattening by 1,500) should hold, the size of the first step is understated.
+
+## Part 4 measurement: should today's roots move? (2026-10-13)
+
+`part4/placement.py`, 1,483 two-syllable roots (today's 500 + 983 new; operators held fixed), scored with the word tool's own confusion objective. New concepts' fields and tiers are approximated.
+
+| Strategy | Score | Frequency-weighted nearest-neighbour confusion | Today's roots moved |
+|---|---|---|---|
+| A: add new roots one at a time (today's tool) | 61.7 | 0.0062 | 0 |
+| B: place the new roots together | 59.4 (−4%) | 0.0055 (−12%) | 0 |
+| C: place everything together | 56.4 (−9%) | 0.0044 (−29%) | 278 of 500 |
+
+**apu** stays. Moves are spread across tiers (5 of 15 at tier 5, 33 of 46 at tier 1) and many are small (**kiti** → **kidi**, **wede** → **wedi**). The gain is real under the model, but the model is the one the review called unvalidated (B2; no listening test yet), so a full re-placement fits to an untested model.
