@@ -33,7 +33,9 @@ def anchor(item_id):
 def anchored(it):
     """The item's text with an anchor at its start (rules, paragraphs and numbered items only)."""
     t = it["text"]
-    if it["type"] in ("heading", "table", "rule") or t.startswith(("|", "---")):
+    if it["type"] == "table" or t.startswith("|"):
+        return f'<span id="{anchor(it["id"])}"></span>\n\n' + t  # a table can't hold an anchor inside
+    if it["type"] in ("heading", "rule") or t.startswith("---"):
         return t
     span = f'<span id="{anchor(it["id"])}"></span>'
     m = re.match(r"(- |\d+\. )", t)

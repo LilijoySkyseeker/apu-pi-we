@@ -22,6 +22,8 @@ def unknown(text):
             continue
         if i > 0 and toks[i - 1].lower() == "en":   # a name
             continue
+        if len(t) == 1 and t.isupper():   # a placeholder in a template (X, Y)
+            continue
         bad.append(t)
     return bad
 

@@ -34,7 +34,7 @@
 - <span id="r-2-6"></span>Stress is a higher pitch on the stressed syllable, stepping down after it. In the reference pronunciation it does not lengthen the syllable, and the rhythm is syllable-timed.
 - <span id="r-2-7"></span>Across a phrase, each stressed syllable is a little lower than the one before (declination), and pitch resets after a pause.
 - <span id="r-2-8"></span>There are no tones. Pitch carries only intonation and emotion. A question needs no rising tone, because its words make it a question, but rising anyway is fine.
-- <span id="r-2-9"></span>Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation, grammar words keep their consonants.
+- <span id="r-2-9"></span>Some harmless variants are allowed. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation these variants occur inside content words only, and grammar words keep their consonants.
 - <span id="r-2-10"></span>**mm** "heard you", **huh?** "say again", and any other interjection or hesitation sound speakers use are outside the sound system and carry no grammar.
 - <span id="r-2-11"></span>Native content words never begin with an open syllable identical to a digit (**po fi sa ka da te**). Loans are exempt.
 
@@ -60,6 +60,8 @@
 ### 4.1 Template
 
 <span id="r-4-1-1"></span>A sentence fills these slots in this order. Only the verb, or a fragment (4.5), is required.
+
+<span id="r-4-1-2"></span>
 
 | # | Slot | Contents | Section |
 |---|---|---|---|
@@ -186,6 +188,8 @@
 
 <span id="r-5-4-1"></span>Four markers before a verb or verb phrase name a role in the action:
 
+<span id="r-5-4-2"></span>
+
 | Marker | Role | Example |
 |---|---|---|
 | **no** | the one who does it | **no febo** "one who answers" |
@@ -221,6 +225,8 @@
 ## 7. Speech acts and stance
 
 ### 7.1 Speech acts (slot 3)
+
+<span id="r-7-1-1"></span>
 
 | Particle | Act |
 |---|---|
@@ -280,9 +286,13 @@
 
 ### 9.1 Digits and place words
 
+<span id="r-9-1-1"></span>
+
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
 | **po** | **fi** | **sa** | **ka** | **da** | **te** | **ufo** | **oma** | **kefi** | **mape** |
+
+<span id="r-9-1-2"></span>
 
 | 10 | 100 | 1000 | million | billion | point | minus | × 10 to the |
 |---|---|---|---|---|---|---|---|
@@ -352,6 +362,8 @@
 - <span id="r-12-4"></span>"Let's" is **so pen** …, and "don't" is **tin mu** ….
 
 ## 13. Grammar words
+
+<span id="r-13-1"></span>
 
 | Group | Words |
 |---|---|

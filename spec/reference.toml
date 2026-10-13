@@ -179,7 +179,7 @@ type = "bullet"
 title = "Harmless variants"
 gap = 0
 text = '''
-- Some harmless variants are allowed, inside content words only. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation, grammar words keep their consonants.'''
+- Some harmless variants are allowed. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation these variants occur inside content words only, and grammar words keep their consonants.'''
 
 [[item]]
 id = "2.10"
