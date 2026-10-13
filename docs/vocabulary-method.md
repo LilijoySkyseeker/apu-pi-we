@@ -9,14 +9,17 @@ Every word decision is two decisions: where a meaning's boundaries go, and what 
 **Ladder 1: where a meaning begins and ends**
 1. **An international standard (L3):** use its boundaries, as currently defined by the field. A standard's name may carry an old belief in its origin (*oxygen* "acid-maker", *malaria* "bad air"); that doesn't count, because a borrowed name is a label, not a claim. Trigger to revisit: a standard known to be wrong and not revised by its field.
 2. **A known-wrong belief (C4):** agreement among languages doesn't count; describe what is observed, without building today's theories into basic words.
-3. **Lumping costs meaning in ordinary use (B1, B3):** split when the two meanings are frequent, come up in the same contexts, and either confusing them changes what people do (left/right, buy/sell) or context often fails to tell them apart. Science matters here only by telling what things actually are; a scientific distinction alone is not a reason to split.
+3. **Lumping costs meaning in modern use (B1, B3):** split when the two meanings are frequent, come up in the same contexts, and either confusing them changes what people do (left/right, buy/sell) or context often fails to tell them apart. Science matters here only by telling what things actually are; a scientific distinction alone is not a reason to split. Measured on modern everyday text and speech (author, 2026-10-13), because the lumping data records older ways of life (months counted by the moon) and a lump survives whether or not it still works, since languages rarely split a word. Three signals: how often each meaning comes up; how often context fails to separate them; and whether languages that lump the two have started separating them in modern use (Mandarin keeps 月 for both but says 月亮 "moon" and 个月 "month"). Safeguards, so modern data doesn't hand the language to the most-written languages (N3):
+   - Evidence that a lump costs meaning comes from languages that have the lump. A language that never lumped two meanings can't show what lumping them costs.
+   - Modern data can only add a distinction. It never merges meanings the world's lineages keep apart, and never drops a concept they converge on.
+   - Each language counts once: frequency is measured per language across the panel's regions, never pooled by corpus size or speakers. Where a language has too little modern data, the measurement says so and rung 4 stands.
 4. **Otherwise, the world's languages (B5):** family-balanced lump rate ≥50% one word; 20–50% two, one built from the other; <20% two roots (section 3).
 5. **A word of its own** only when saying it as a phrase would be a real cost (C1): frequent in modern text or basic experience.
 
 **Ladder 2: what form the word takes**
 1. **An international standard form (L3):** adapted to the sounds.
 2. **A form the world shares (L4):** a loan only if it passes the panel test, adapted from the panel's median pronunciation, not from English.
-3. **Built from existing words,** when the result is short and clear (section 5).
+3. **Built from existing words,** when the concept isn't frequent enough for a word of its own (ladder 1, rung 5) and the result is clear (section 5). A frequent concept gets its own root even if it's new to history: trains and hospitals are baseline concepts for a language made now. Anyone who doesn't know a word can still build a phrase for it.
 4. **A new root** from `tools/words.py`: hard to mishear, drift-safe, length by frequency; sounding like an offensive word elsewhere only breaks ties (C3).
 
 The existing lexicon gets one review pass against these ladders (pending; moon/month, word/language and "religion" are known candidates).
@@ -40,7 +43,7 @@ Dropped sources, each with a trigger to bring it back:
 For each concept, in order:
 1. If the grammar or existing words already say it without loss, add **no** root.
 2. If it's a doer, thing done or made, tool or place of an existing verb, it's a **built word** (`no`, `ge`, `du`, `pu`).
-3. If it's in the core pool and languages typically use a single unanalysable word for it (WOLD simplicity), it's a **root**.
+3. If it's frequent in modern everyday use, or in the deep layer (section 1), it's a **root** (author, 2026-10-13: how other languages happen to build it no longer counts against a root; they compounded modern things because those arrived after their words had formed).
 4. Otherwise it's a **compound with a stated relation** (`se`, `pi`, `li`, …).
 5. **Loans** only where the world shares a form (language.md section 11); names and brands keep their own spelling.
 
@@ -92,7 +95,7 @@ Moved here from the reference (2026-10-10), which now states only what words are
 1. **Say it with words you have.** A verb idea takes a derivation marker (**no**, **ge**, **du**, **pu**) and can bring its own relation phrases (**no isi se guyi** traveller). A noun idea links with **pi**, a verb or a relative clause. Most new concepts end here.
 2. **A new root only when it's earned:** a basic concept that independent lineages converge on, a modern concept frequent enough that the phrase is a real cost, or a phrase that fails a blind test. Lump or split by section 3.
 3. **The tools choose the sound:** `tools/words.py add-content GLOSS FIELD TIER [--antonym GLOSS] [--avoid FORMS]` picks the form least likely to be misheard as a related word, checks drift and juncture, skips offensive and hand-rejected forms, and pushes opposites apart. Forms are never hand-picked. Then run `tools/juncture.py`. A word that sits in a fixed frame (**dili mena ka**) is kept from echoing its neighbours where they touch: it may not start with the first or last syllable of a word it follows, or end in the first syllable of a word that follows it (`--after`, `--before`). Fixed pairs that echo are misheard as one word repeated or swallowed (haplology).
-4. **Frequent phrases may later be clipped** into roots; the clipped form goes through step 3.
+4. **Phrases aren't promoted or fused by design** (author, 2026-10-13). The base is seeded as fully as the coverage measurement says, then left to its speakers. Speakers will shorten frequent phrases the way people do: by dropping a word context carries, or by keeping first syllables, never by adopting an unrelated form (`drift.md` 9). Compounds stay separate words in speech and writing, as in Indonesian *rumah sakit* and Tok Pisin *haus sik*; the only one-word form is the language's name in other languages.
 5. **Names keep their owner's spelling; loans are adapted** with `tools/names.py` (broad IPA in), and only where the world shares a form.
 6. **No word may sound like a common offensive word** in the world's most spoken languages (`tools/offensive.py`, Wiktionary data, 34 languages, plus the `REJECTED` list).
 7. **One-syllable grammar forms** go by measured frequency: a meaning earns one only by beating the rarest current holder (`grammar-rebuild-spec.md`).

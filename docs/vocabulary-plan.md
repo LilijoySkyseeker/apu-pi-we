@@ -1,6 +1,6 @@
 # Vocabulary plan (roadmap B1)
 
-Agreed in discussion with the author, 2026-10-08. **Seed phase complete** (stop condition met by vocabulary tests 04 and 05); words are now added on demand.
+Agreed in discussion with the author, 2026-10-08. **Superseded in scope (author, 2026-10-13):** the seed grows to cover modern life, sized by measurement (see the end). **Seed phase complete** (stop condition met by vocabulary tests 04 and 05); words are now added on demand.
 
 ## Goal and what it serves
 
@@ -89,3 +89,13 @@ trips.
   driver, intern, transport, bicycle, elevator, battery, plug, socket,
   screen, wire, euro, yuan, rupee, police, button, manga, Uber, WeChat,
   Alipay, LINE.
+
+## Coverage of modern life (author, 2026-10-13)
+
+The 2026-10-08 seed stopped too early: its stop condition used AI translators, who talk around a missing word far better than people (cold review, A3 4.1, A6). New scope:
+
+- **Seed, then release.** Build the best base, then leave the language to its speakers (B9, N4). No process for promoting or fusing phrases (`vocabulary-method.md` §5.4).
+- **Complete coverage.** Every concept common in modern text and speech gets a root, including concepts new to history (train, hospital). Phrases are for rarer concepts and for anyone who doesn't know a word yet.
+- **Size by measurement.** Sample modern everyday text and speech (conversation, chat, news, instructions) in languages from every panel region, and measure added length and meaning lost at about 500, 1,000 and 1,500 roots, judged by people where possible. Expected 1,000–1,500; the measurement decides. Checks on growth: B2 (about 4,000 two-syllable forms exist; 500 are used) and B10.
+- **Layers stay.** Deep-layer concepts are chosen by convergence across lineages and early child vocabulary; modern frequency picks the world layer and can't remove a deep-layer concept. Frequency is measured per language, each language counted once (N3).
+- Each new root goes through the ladders (`vocabulary-method.md` §0). The seven phrase replacements of 2026-10-13 stand until the pass reaches them.
