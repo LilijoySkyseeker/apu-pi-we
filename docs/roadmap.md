@@ -15,7 +15,7 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 The author works through the judge's repair list one decision at a time; each decision is in `design-log.md` under "Review repairs". Changes are committed but **not pushed until the batch ends**, so the public site doesn't churn.
 
-Done so far: senary words out of the core; "never" rules restated as the reference variety; evidence corrected; **kiyo**; "there is" = **ibe**; manner as a **fu** phrase; "not yet" = **le mu**; labels with **mena** (and the neighbour guard); **kon bo** "maybe"; the word-decision ladders; **mu … fa** as one negation; casual bare-verb commands; **sin le**; a base of about 1,500 roots; loans re-formed or replaced (L4); metric units as one set; no fusing and no designed shortening; seed-then-release vocabulary; boundaries measured against modern use.
+Done so far: senary words out of the core; "never" rules restated as the reference variety; evidence corrected; **kiyo**; "there is" = **ibe**; manner as a **fu** phrase; "not yet" = **le mu**; labels with **mena** (and the neighbour guard); **kon bo** "maybe"; the word-decision ladders; **mu … fa** as one negation; casual bare-verb commands; **sin le**; a base of about 1,500 roots; moon and month split; **en** for names, free borrowing without a marker; loans re-formed or replaced (L4); metric units as one set; no fusing and no designed shortening; seed-then-release vocabulary; boundaries measured against modern use.
 
 ### In progress: vocabulary coverage (`tests/coverage-01/`)
 
@@ -52,7 +52,6 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **Gaps found by the ladder pass** (2026-10-13): "parent" has no root (only **mole yen wede**) while "sibling" has a sexless root; "lie, say what is untrue" has no root (needed for "liar").
 
-- **Speakers' own borrowings** (author, 2026-10-13): real use will import words from speakers' languages with their original sounds. Check that the grammar, sounds and spelling handle such words (names already keep their spelling with **en**; ordinary words have no rule yet).
 
 ### Small fixes (no decision needed)
 

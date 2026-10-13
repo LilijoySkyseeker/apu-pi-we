@@ -36,6 +36,9 @@ import spec as SPEC
 
 FILLER = "wan obu"          # "she comes": stands in for "…"
 OUTSIDE = {"2.10"}          # interjections carry no grammar (2.10)
+# Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
+OUTSIDE_SENT = {"mara sin obu": "casual speech: a name without en (11.1)",
+                "to nawi sushi sa": "a speaker's borrowing, not in the lexicon (11.3)"}
 UNIT = {"Cl0": "S", "Rel": "REL", "Adv": "ADV", "Manner": "ADV",
         "NP": "NP", "NPi": "NP", "NPq": "NP", "CN": "NP", "AP": "AP"}
 ORDER = ["S", "NP", "AP", "REL", "ADV"]
@@ -261,7 +264,7 @@ def main(argv):
     want = load_intended()
     jobs, rows = [], []
     for rid, apu, eng in examples:
-        if rid in OUTSIDE:
+        if rid in OUTSIDE or apu in OUTSIDE_SENT:
             rows.append((rid, apu, eng, "outside", []))
             continue
         ss = sentences(apu)
@@ -273,7 +276,8 @@ def main(argv):
     bad = []
     for rid, apu, eng, kind, items in rows:
         if kind == "outside":
-            print(f"{rid:7} OUTSIDE  {apu}  ({eng}): interjection, outside the grammar (2.10)")
+            why = OUTSIDE_SENT.get(apu, "interjection, outside the grammar (2.10)")
+            print(f"{rid:7} OUTSIDE  {apu}  ({eng}): {why}")
             tally["outside"] += 1
             continue
         lines, ok_parse, ok_int, ok_one, precise = [], True, True, True, False

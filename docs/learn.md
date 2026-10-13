@@ -288,7 +288,7 @@ Two nouns side by side are used only for gender (**tiwu futa**) and for the fixe
 
 To give something to someone, put the verb first, then who gets it, then what: **neke to osa** "give me water". But **tan** or **ben** right after a noun or pronoun belongs to it, so **to iko wan ben** is "I told that-him". To make "that" the thing given, use **tun**: **to iko ben tun wan.** "I told that to him." [§4.2.5](language.md#r-4-2-5) [§5.2.8](language.md#r-5-2-8)
 
-Names always take **en** and keep their owner's spelling: **en mara**, **en lilith**. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name. [§11.1](language.md#r-11-1) [§11.2](language.md#r-11-2)
+Names always take **en** and keep their owner's spelling: **en mara**, **en lilith**. In casual speech people often leave **en** out when it's clear a name is meant. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name. [§11.1](language.md#r-11-1) [§11.2](language.md#r-11-2)
 
 A name runs on until the next grammar word or comma, which is how a name can have several words, as in **en xi jinping**. So when a content word follows a name, put a grammar word or a comma between them: **en mara sin oyi** "Mara said". [§11.1](language.md#r-11-1)
 
@@ -404,11 +404,11 @@ For opposites, **mu** plus a word gives "not X" (**mu upe** "not good"), and man
 
 Ready-made compounds, such as **du sunbu** "computer" ("thing for counting"), are in the [compounds list](../data/compounds.tsv). [§11.4](language.md#r-11-4)
 
-Things the whole world names the same way are borrowed in their international form, without **en**: **foto** photo, **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. [§11.3](language.md#r-11-3)
+Things the whole world names the same way are borrowed in their international form, without **en**: **foto** photo, **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. You can also borrow any word you need from your own language, the way English borrowed *sushi* and *pizza*: **to nawi sushi sa** "I ate two sushi". A borrowed word needs no **en**; add one only if it could be mistaken for a word of the language. [§11.3](language.md#r-11-3)
 
 Computer words are everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**. [§11.4](language.md#r-11-4)
 
-For anything else, describe it. Don't know "spider"? Say **noso meli pi bendo feli** "small animal of many legs". Describing is a normal part of speaking it. [§11.3](language.md#r-11-3)
+Or describe it. Don't know "spider"? Say **noso meli pi bendo feli** "small animal of many legs". Describing is a normal part of speaking it. [§11.3](language.md#r-11-3)
 
 ## Lesson 12: Longer sentences
 

@@ -7,12 +7,13 @@ Task: `research/notes/globasa-prompt.md`. Roadmap item "Globasa in depth" (autho
 - [x] Sources fetched: Globasa-Team GitHub repos cloned to `~/work/cache/globasa/` (main-pages-grav = globasa.net pages; xwexi-pages-grav = course + full grammar; globasa-docs; globasa-api; cdn-files). Dictionary export `https://cdn.globasa.net/api2/word-list.csv` (9,516 rows, 2026-10-13). Prior notes read: `research/notes/auxlangs-parts/4-modern-auxlangs.md` (Globasa section), `research/reports/Conlang design principles compared.md`.
 - [x] Site pages read: design principles, methodology, word proposal, history, stability, changes (phases 1–6), Q&A, licence.
 - [x] Grammar (xwexi, all 14 pages) read and summarised (§3).
-- [x] Dictionary data analysed (§4.3): sources per root, core vs whole, length, minimal pairs, antonym distance; same measures on Apupiwe's lexicon. Scripts `~/work/cache/globasa/an3.py`–`an9.py` (outside the repo; rerun with `direnv exec <repo> python3 anN.py` from that folder).
+- [x] Dictionary data analysed (§4.3): sources per root, core vs whole, length, minimal pairs, antonym distance; same measures on Apupiwe's lexicon. Script: `research/notes/globasa-data.py` (rerun: download the export, then `direnv exec <repo> python3 research/notes/globasa-data.py word-list.csv`).
 - [x] Tooling and governance (§5).
-- [x] Outside discussion (§5.4).
+- [x] Outside discussion (§5.4). Reddit blocks automated access; posts were read from archive.org copies.
 - [x] Sections 1–6 written.
-- [ ] Idea table (§7) and the floorboard question (§8).
-- [ ] Summary lists (§9); roadmap entry.
+- [x] Idea table (§7, 64 rows) and the floorboard question (§8).
+- [x] Summary lists (§9); roadmap entry added under "Queued for the author".
+- Done 2026-10-13. Not done: the 2026-08 PDF grammar wasn't read beyond the web pages it compiles; Globasa speaker numbers remain unknown.
 
 Labels: **[site]** Globasa's own pages; **[data]** my count from Globasa's dictionary export; **[sec]** secondary source; **[unverified]** not checked against a primary source; **[me]** my inference.
 
@@ -26,6 +27,7 @@ Labels: **[site]** Globasa's own pages; **[data]** my count from Globasa's dicti
 - **Internationality is weighted by size and influence** [site]: "rely primarily, although not exclusively, on the largest and most influential languages and language families". Rationale: smaller languages have borrowed from these, so they "are bound to have at least a small number of words in common".
 
 **How this differs from Apupiwe.**
+
 | | Globasa | Apupiwe | Note |
 |---|---|---|---|
 | Who it's for | adult learners, "the average world citizen" | native speakers (P3, C2); adults only through the gate (B10) | The island image is a *nativisation* scenario (third generation = natives), but every Globasa design argument is about learners [me]. Apupiwe takes the image's own logic further. |
@@ -148,6 +150,7 @@ The 29 core roots that clear an L4-like bar are internationalisms: *bus, hotel, 
 Everyday core words come from one or two blocs, and often by a long path: **oko** "eye" is justified by Russian/Spanish/French/English *oculist*; **sui** "water" by Mandarin 水, Japanese 水 (listed as *mizu*, the native reading) and Turkish *su*; **kitabu** "book" by the Arabic sphere (Arabic, Persian, Turkish, Hindi, Swahili, Indonesian); **tiga** "three" by Hindi *tīn* + Indonesian *tiga*; **lima** "five" by Indonesian/Filipino; **ixu** "adult" by Hebrew alone; **pawbu** "run" by Mandarin alone; **side** "sit" counts Hindi, Japanese and Korean loans of English *seat* (*सीट*, *シート*, *시트*) [data, `LexiliAsel` column]. The exception proves the rule: the nursery word **mama** lists 12 languages from every bloc. So for the words a child learns first, a worldlang root is recognisable to one or two regions of the world and opaque to the rest.
 
 **Minimal pairs** (edit distance 1: one letter substituted, added or dropped):
+
 | | words with ≥1 minimal-pair neighbour | pairs |
 |---|---|---|
 | Globasa core roots, ≥2 syllables (386) | 27.2% | 94 |
@@ -159,7 +162,7 @@ Raw minimal-pair density is about the same. Globasa enforces its "never" rule (0
 | Opposites (antonym lists) | edit distance 1 | 2 | 3 | ≥4 |
 |---|---|---|---|---|
 | Globasa root antonyms (97 pairs) | 3 (*matre/patre*, *mare/pare*, *makro/mikro*) | 20 (*bon/bur* good/bad, *max/min* more/less, *hin/den* this/that, *le/xa* past/future, *har/wal* with/without, *ex/in* out/in, *no/si*, *mama/papa*, *kal/pul* -less/-ful) | 20 | 54 |
-| Apupiwe antonyms (112 pairs) | 0 | 2 | 22 | 88 |
+| Apupiwe antonyms (113 pairs) | 0 | 2 | 22 | 89 |
 
 Derived opposites in Globasa differ by one morpheme by design: *jaledin/jaxadin* yesterday/tomorrow, *nerleli/nerxali* recently/soon, *exkludi/inkludi*, *maxori/minori*. In noise, one lost syllable flips the meaning. This is exactly the failure Apupiwe's ×30 antonym weight exists to prevent (rationale §3.1, §3.5). It is the clearest measured difference between the two designs.
 
@@ -216,3 +219,184 @@ All onomatopoeic words come from "cross-linguistic onomatopoeia" (History), tagg
 - **Phase 6 (Jul 2023)**: **hu** only for relatives; four new systems for ambitransitive verbs; ~29 form changes.
 - Pattern: grammar changes were almost all **ambiguity fixes discovered in use**; form changes were for recognisability, phonotactics, or regional balance. Splits of lumped meanings came only after use showed the lump cost meaning (Phase 5), which matches Apupiwe's ladder 1, rung 3 (split when lumping costs meaning in modern use).
 
+---
+
+## 7. Idea by idea
+
+Verdicts: **adopt** (take as is), **adapt** (take the idea, change the form), **test** (plausible; a cheap blind test decides), **no** (don't adopt), **same** (Apupiwe already does it; convergence noted as evidence). Goal ids from `docs/goal.md`.
+
+### 7.1 Aim and process
+
+| # | Globasa idea | Apupiwe now | Verdict | Reason |
+|---|---|---|---|---|
+| 1 | Island thought experiment: the village language of 1,000 random world settlers after three generations | Native speakers who grow up with it (P3) | same | Both are nativisation scenarios. Globasa's arguments then serve learners; Apupiwe's serve the third generation (C2). Useful as a check question: "would the island's grandchildren keep this?" |
+| 2 | Speaker *and* listener ease; speech vs writing; linguist vs ordinary person, all named | B1, B2, B4 as guarantees | same | Convergent. Apupiwe's version is stricter (guarantees, not balance). |
+| 3 | "Optimal balance / middle ground" between extremes | Costs minimised together (C1) | no | "Middle ground" has no stated cost function; Apupiwe's C1 does. |
+| 4 | Sources weighted toward "the largest and most influential languages" | Lineages, not head counts (N3) | no | Direct conflict with N3. |
+| 5 | Changes batched into dated phases with old → new tables, a stability estimate and a then-vs-now text | Design log; review-repair batch committed locally, published at the end | adapt | When the freeze returns (rationale §1.2), keep publishing batches and add an old → new form table per batch: one relearning step per release for the author and anyone learning (B10). Process, so only when learners exist (step 5). |
+| 6 | A committee votes on grammar and form changes; the designer can override (weekday vote) | The author decides; agents recommend | no | Nobody to vote yet. B9 says the language doesn't try to control its evolution; a committee is control. |
+| 7 | Anyone may propose a root in public; a template post lists sources by family and candidate forms with family counts | Agents propose, the author decides; panel tables in `tests/lexicon-ladder-01/` | same | Apupiwe's loan panel table is the same artefact. Public proposals need a community (trigger: one exists). |
+| 8 | Etymology statistics published, and the tie-break order re-tuned against them (2025: least-represented languages first) | Panel pass rule (12/20, 4/7 regions) for loans; nothing measures balance afterwards | adapt | A one-off audit, not a dashboard: by region, whose lumps (ladder 1, rungs 3–4) and whose loans won, and which regions the coverage concept list leans on. Serves N3 and C1's "fair to every culture". Repeat only if the audit finds a lean. |
+| 9 | Everything public domain | CC0 (`LICENSE`) | same | — |
+
+### 7.2 Sounds and writing
+
+| # | Globasa idea | Apupiwe now | Verdict | Reason |
+|---|---|---|---|---|
+| 10 | 20 consonants incl. /x/, tʃ, dʒ, ʃ, z, v, ɾ; clusters; 9 final consonants | 13 consonants, (C)V(n) | no | Those sounds serve source fidelity, which Apupiwe doesn't need. Fewer consonants keep place contrasts robust (B2; rationale §2); clusters cost children and many adults (B10). |
+| 11 | Hard bans on minimal pairs v/w, s/z, m/n word-finally | /v/, /z/ deleted; final -n treated as the first to drift | same | Independent confirmation of the same three weak spots. |
+| 12 | **Declared free variants per sound** (r as [ɾ r ɹ ʁ], h as [x χ ħ h], x as [ʃ ʂ ɕ] …); aspiration optional; w/y as vowels | Three harmless variants (2.9) | adapt | Speakers live among other languages (P4) and bring their accents; children copy them (B9). Declare, per sound, which realisations count as the same (l as [ɫ ɾ]; p t k with or without aspiration; f as [ɸ]; w as [ʋ]; s as [ʃ]?), each checked so no variant merges two sounds or two words. Cheap: the inventory is small. |
+| 13 | Unwritten epenthesis: glottal stop between vowels, schwa between consonants | No clusters; hiatus only across words | adapt | Declare a glottal stop at vowel–vowel word junctions harmless (**to isi**, **pi en**), so a speaker who inserts one is still in the language (P4). Check it against juncture rules (`juncture.py`). |
+| 14 | Three phonotactic tiers: ordinary words, proper names, **culture-specific words** (teriyaki, vodka, jazu) | Names keep the owner's spelling; loans fully adapted by `names.py` | adapt | The coverage tail is named dishes, diseases, objects (`coverage-01/RESULTS.md`): exactly culture-specific words. Option: treat them like names (own spelling, said as close as possible) but without **en**, or adapt them by looser rules. Fits the author's prediction that speakers will borrow freely (design log 2026-10-13) and the queued check of how the grammar handles such words. |
+| 15 | Stress by word ending; y/w spelling to steer stress | Fixed initial stress | no | Apupiwe's rule needs no spelling device and marks word starts (rationale §2). |
+| 16 | Capitals: no rules | Lowercase standard; capitals harmless | same | — |
+| 17 | European internationalisms adapted from **spelling** (*rum*, not *ram*); English from pronunciation where possible | Loans from the panel's median pronunciation | adapt (small) | Where panel pronunciations scatter but the written form is shared, prefer the written form: P4 includes writing online, and B4 wants writing and speech to agree. Tie-breaker only. |
+
+### 7.3 Grammar
+
+| # | Globasa idea | Apupiwe now | Verdict | Reason |
+|---|---|---|---|---|
+| 18 | Two content-word classes (noun/verb, adj/adv); classless rejected as ambiguous | Classless; clear forms chosen by meaning | no | Apupiwe tested and removed word kinds as arbitrary (rationale §10). Globasa's class system needs extra rules (NPs must end in a noun; obligatory **na**; four ambitransitive classes) and was its most-revised area. Watch item: the ambiguities Globasa met are the ones to test (rows 19–21). |
+| 19 | **-mo** marks a modifier of a modifier ("perfectly black hair" vs "perfect black hair", "dark red"), a Phase-1 fix for an ambiguity found in use | No rule: stacked content modifiers after a noun are unspecified | test, then adapt | A real gap (B3: a precise way must exist). Colours alone need it (grey = white + dark, method §3). Write a short blind test (dark red shirt, light blue car, naturally black hair, very tall old man) and pick the cheapest fix: a stated reading ("a second modifier describes the first"), a **fu** phrase, or a marker. |
+| 20 | Obligatory infinitive **na**: *Mi suki oko* was "I like the eye" or "I like to see" | Second verb after a verb that takes an object is that object (4.2.6); any word can be a verb | test (low) | Globasa's case came from one root meaning eye and see. Apupiwe keeps such meanings apart (CLICS rates), so the risk is smaller; include two or three verb-or-noun objects in the test of row 19. |
+| 21 | Ambitransitive verbs sorted into four classes (feeling, state, non-agentive, motion), each with its own reading without an object; the most-revised part of the grammar | Any word, any role; **gun** + action = undergoer's state; anything context supplies may be left out (4.5) | test | With object omission allowed, **beya tapi** "the door closes" and **wan tapi** "she closes (it)" have the same shape. Context usually decides; Globasa's six Phase-6 posts say it doesn't always. A blind test of verbs with no object (break, open, stop, move, boil, sink, interest, tire) decides whether a rule is needed (B1, B3). |
+| 22 | Tense particles optional after the first; narration in the bare form | Tense optional; a frame carries (8.1) | same | Converged from opposite starting points. Evidence for Apupiwe's rule. |
+| 23 | Aspect stacking: *le xa* "was going to", *xa le* "will have", *dupul* "have been doing for", *jale* "just did" | **sin**, **le**, **buntu**, **sin le**; frames | test (low) | Check that "was about to", "had just" and "have been doing for 10 years" are sayable without ambiguity; Apupiwe has the parts (**buntu** in a past frame; **sin le** + **nin**). |
+| 24 | Passive **be-** with the agent as a bare object | Topic opener **pi X,**; **gun** + action word | no | WALS 107 (rationale §10): the function is covered without a passive. |
+| 25 | Relative clauses: marker **hu**, normal word order, **obligatory resumptive pronoun da**, obligatory resumptive adverb for place/time (Phase 5 garden-path fix) | **man** + clause, normal order, gap; obliques keep the relation word at the clause end; resumptive only for "whose" | same (mostly) | Apupiwe's stranded relation word already marks the oblique role, so Globasa's garden path (*the city which I ate*) can't arise. Option kept in reserve: a resumptive **bu**/**wan** after the stranded relation word (**mon bu**) if a test shows clause-final relation words get lost. Typology of resumptives vs stranding not checked [unverified]. |
+| 26 | Content clause **feki** distinct from relative **hu** | **wun** vs **man** | same | — |
+| 27 | Yes/no **kam** initial; wh in situ; "colon questions" (*keto: kafe or cay?*) | **min**; **yu** in situ; **… lu …, yu** | same | Independent convergence on all three. |
+| 28 | Words for yes and no (**si**, **no**) | Echo answers | no | Answers to negative questions flip across languages; echo answers avoid it (B1). |
+| 29 | Contrastive **he** before any word | **o** focus | same | — |
+| 30 | **Endearment particle ci** (*mama ci* mommy, *Jon ci* Johnny) | Nothing | adapt | Diminutive/affectionate forms are widespread and central to speech to children (Jurafsky 1996, "Universal tendencies in the semantics of the diminutive", *Language* 72(3): 533–578, over 60 languages, [ERIC](https://eric.ed.gov/?id=EJ537707); the link to child-directed speech is his central "child" sense; how much diminutives help children learn is not checked [unverified]). A function the world converges on gets a home (rationale §1.2 "convergent function, free form"); P3 makes child-directed speech core use. A two-syllable word after a noun or name, like **lanno** before it. |
+| 31 | Honorifics **gao**, **kef** before titles | **lanno** | same | — |
+| 32 | Apposition (*Hotel Kaliforni*, *misu doste Mark*, *lexi kursi*) | None (10.1.4) | no | Apupiwe's titles and **en** cover the same ground; the queued name gaps (names containing grammar words) are a different problem. |
+| 33 | **di** marks a culture word or name homonymous with an ordinary word | **en** marks every name | no | Apupiwe's rule is stronger and simpler (B7). |
+| 34 | te/to animacy; gender-neutral pronouns; plurals by vowel prefix (*mi/imi*, *te/ete*) | **wan**/**bu**; **la** | no | The vowel-prefix plurals are minimal pairs (B2). |
+| 35 | Gender-neutral **atre** parent and **mapa** mom/dad beside mother/father | Mother, father; "parents" a compound; "parent" on the coverage list | same | Already queued in the coverage batch (line 963). |
+| 36 | **Correlative grid** (which/this/that/some/every/no/other/same × person/thing/time/place/reason/manner/number/amount/kind/degree/owner) | Noun + determiner (**muyi**, **kemu**, **ewo**, **musu** + **yu**, **tan**, **we**, **fa** …) | adapt | Use the grid as a completeness check: every cell regular (B7), frequent cells short (B8). It answers the queued "no single word for never or often" (`roadmap.md`): see which cells are frequent enough for their own root (ladder 1, rung 5). |
+| 37 | "The more …, the more …" (**folki** … **max**, … **max**) | Not in the reference | test (low) | Check sayability with **ke** + clauses; add to the grammar-gap list if it fails. |
+| 38 | **SI prefixes as the number words** (kilo 10³, mega 10⁶, giga 10⁹, tera 10¹²; deci … piko) | **munno**, **tonen**, **siwin**; **kilo**, **senti**, **mili** only in units | adapt (author) | The cold review kept **tonen**/**siwin** (low severity, A3 §4.11: "million" isn't world-shared; **siwin** sidesteps the long/short-scale clash). New point: the SI prefixes are an international standard form (ladder 2, rung 1; L3), avoid the scale clash just as well, and **kilo** is already in the lexicon, so 1,000 now has two forms (**munno**, **kilo-**), a B7 cost. Lengths are equal (two syllables). Decision for the author. |
+| 39 | Ordinals **-yum**, multipliers **-ple**, fractions **of-** | **mena** labels; **fi pi ka** parts | same | Same functions, analytic forms. |
+| 40 | Weekdays by planet (designer overrode an 11–9 vote for numbers) | ISO 8601 numbers | no | The planetary week rests on astrology (C4: agreement on a wrong belief doesn't count) and needs five planet roots; ISO 8601 is the standard (L3). Globasa's evidence that numbering clashes (Monday is "second day" in Portuguese, Arabic, Hebrew, Greek, Vietnamese) is a known cost Apupiwe already accepted (rationale §10). |
+| 41 | Abbreviations pronounced by meaning (*fmk* = *fe moy kaso*) | Chat abbreviations pass through | no | Speakers will invent these (N4, B9). |
+
+### 7.4 Word formation
+
+| # | Globasa idea | Apupiwe now | Verdict | Reason |
+|---|---|---|---|---|
+| 42 | Rich affix set (causative **-gi**, become **-cu**, start **xor-**, end **fin-**, again **ri-**, back **ru-**, opposite **pos-**, un- **nen-**, mis- **mal-**, -less **-kal**, -ful **-pul**, -like **-sim**, -able **-ible**, big/small **day-/lil-**) | Four derivation markers; phrases; roots for become (**lewe**), start (**tuko**), end (**fugi**), again (**moti**), return (**sigo**), change (**kubo**) | adapt (as a checklist) | Don't fuse (author, 2026-10-13: no fusing). Use the list as a checklist of the most-used derivational meanings and make sure each has one short, regular Apupiwe phrase (B7): "make X" (**muge** + result), "become X" (**lewe**), "start to", "un-", "mis-", "-less" (**nuwen**), "-like" (**fu**). |
+| 43 | Quasi-affixes: frequent nouns as compound heads (-dom place, -tul tool, -yen person, -xey thing, -tora machine, -kamer room, -maso meat, -lari set) | **no**, **ge**, **du**, **pu**; **pi** phrases | same | Apupiwe's four markers are the same top four; others go through **pi**. |
+| 44 | **Truncated morphemes**: function words clipped from content words (*cel* ← *cele*, *tas* ← *taslum*, *kom* ← *kompara*), as a memory aid | Grammar words are one-syllable, maximally distinct from everything | no | A memory aid for adults (N2). It makes grammar words near-homophones of content words (*cel/cele*: B2). Grammaticalisation will produce such links anyway (B9, `drift.md`). |
+| 45 | Head-last compounds written as one word | Compounds separate, no fusing | no | Decided 2026-10-13: fusing makes writing disagree with speech or needs a compound-stress rule. |
+| 46 | Body-part nouns double as sense verbs (*oko* eye/see, *ore* ear/hear) | Separate roots | no | Lump/split by lineage rates (method §3); eye/see is not a majority lump. |
+| 47 | Echo-object verbs (*somno somno* "sleep a sleep") | Doubling = emphasis | no | Clashes with Apupiwe's doubling rule (1.5). |
+| 48 | Choose which member of a word family is the root by what derives best (*termo* heat, not *garme* warm) | Ladder 1, rung 4: the less basic built from the other | same | — |
+| 49 | Rules for which profession words are roots and which derive | **no** + verb; roots for frequent concepts | same | — |
+
+### 7.5 Vocabulary method
+
+| # | Globasa idea | Apupiwe now | Verdict | Reason |
+|---|---|---|---|---|
+| 50 | Roots drawn from 16–17 world languages, most families wins | A priori roots; loans only where the world shares a form (L4) | **no** | The floorboard question, §8. |
+| 51 | Preliminary step: can an existing root, affix or compound say it? | Ladder 2, rung 3; but frequent concepts get roots | same | Globasa moved the same way: school went from compound to root (*xwexidom → eskol*); street lost its root. Evidence for the 2026-10-13 rule "frequent concepts get roots". |
+| 52 | Splits of lumped roots only after use showed a cost (Phase 5: finger/digit, walk/stroll, hair/head hair) | Ladder 1, rung 3 | same | Confirms rung 3's logic: split on evidence of cost in modern use. |
+| 53 | **Imitative words from cross-linguistic onomatopoeia**, including animal names (*myaw* cat, *mumu* cow, *kwake* duck, *meme* sheep, *piu* bird) and bodily actions (*haha*, *wawa*, *acum*, *mwa*, *glu*); nursery *mama*/*papa* | Onomatopoeia and baby words left out of the seed (method §1.4, with an add-back trigger); cat, duck, sheep, frog, bee, owl, wolf, kiss, baby, knock queued as new roots | **adopt** (via L4) | These are the forms the world *does* share, and they are children's first words (Wordbank), so they serve natives directly (P3, C2). Run the L4 panel test on the imitative subset of `roots-1500.txt` before Part 4 places forms; where a form passes, it is a loan by L4, with B2 checked like any loan. Links to the queued sound-symbolism item. |
+| 54 | A blend must stay within one phoneme of some natural form | Panel-median pronunciation | adapt (small) | Add a check: a loan's adapted form should be recognisably one panel form, not only a median no language uses. |
+| 55 | **No root may begin with a verb particle's syllable** (le-, xa-, nun-, ger-, be-, du-) (Phase 4) | Juncture rules for digits and -n; `--after/--before` only for fixed frames | **adopt** | The same haplology argument Apupiwe uses for fixed frames (method §5.3) applies to the most frequent frame of all: operator + verb. Today 11 verbs start with a pre-verbal grammar syllable: **muge** do (after **mu**), **muwo** happen, **nagu** see, **nawi** eat and **nanyo** blow (after **na** "only"), **lewe** become, **lefan** follow, **lenu** can (after **le**), **feme** feel, **febo** answer, **fesun** hunt (after **fe**) [data, `lexicon.tsv` vs `grammar.tsv`]. Apply to the ~1,000 new roots (Part 4 placement); list the existing 11 for the author, changed only if a test shows trouble. |
+| 56 | Prefer the least-used phonemes when options tie (load balancing) | The optimiser minimises confusion with existing words | same | Same effect by a better route. |
+| 57 | Homonym check across derived forms; minimal-pair finder | `words.py` (model-weighted, meaning-weighted), `juncture.py`, `offensive.py` | same | Apupiwe's tools are stronger. Globasa's homonym check across affixed forms has a parallel in phrasal derived words (**no** + verb phrase), already caught by juncture. |
+| 58 | Root form 2–3 syllables, three preferred | Length by frequency | no | B8: frequent words short. |
+| 59 | Opposites and paired meanings built by minimal contrast (*bon/bur*, *max/min*, *le/xa*, *jaledin/jaxadin*, *matre/patre*, *hin/den*) | Opposites pushed apart (×30 antonym weight) | **no** | B2. One lost sound flips the meaning; context can't catch it because both readings fit (rationale §3.1). Measured: 23 of 97 Globasa root antonym pairs within edit distance 2, against 2 of 113 in Apupiwe (§4.3). |
+
+### 7.6 Tooling and learning
+
+| # | Globasa idea | Apupiwe now | Verdict | Reason |
+|---|---|---|---|---|
+| 60 | Machine-readable dictionary with an API and structured etymology | TSV data, generated reference | same | Apupiwe's data is already machine-readable; the loan evidence lives in `tests/lexicon-ladder-01/loans.md`, not in the lexicon. Optional: a `source` column for loans (trigger: someone asks where a loan came from). |
+| 61 | Glosses in 9 languages | English glosses (second gloss where ambiguous) | adapt (later) | English glosses caused real leaks (fly/fly, light; rationale §5.4). Glosses in a few panel languages would expose more of them and serve sharing. Trigger: a non-English reader, or the lexicon review pass. |
+| 62 | "500 most common roots" learning list with a coverage claim (>90% of words in typical texts) | Frequency tiers 1–5 (judgement) | **adopt** | Measure it: the coverage-01 translations give running-text counts per root. "The first N roots cover X% of running words" gives the author (a real learner) a learning order and replaces judged tiers with data where they disagree (B7, B10). One script. |
+| 63 | Recorded audio for every sound and phrase; IPA converter for TTS | Listening test blocked by TTS (rationale §9.4) | no (not new) | Apupiwe's rerun plan (human reader, or cloud TTS with IPA) already covers this. |
+| 64 | Course, reader, wiki, multi-language site | Lessons, declaration page | no | Sharing infrastructure; build when people come (doghouse check). |
+
+---
+
+## 8. The floorboard question: should Apupiwe's roots come from world languages?
+
+### 8.1 The question
+Globasa takes each root's form from the world's major languages (most families wins). Apupiwe invents each root's form with an optimiser that minimises predicted mishearing (`tools/words.py`), and borrows only where the world already shares a form (L4: panel of 20 languages, a cognate everyday word in ≥12 across ≥4 of 7 regions). Should the default flip?
+
+### 8.2 Goal item by goal item
+
+| Item | Favours world-sourced roots? | Why |
+|---|---|---|
+| **B5** built from what many languages share | weakly, on a literal reading | B5 is "the method": convergence as evidence of what works, fair to every culture (C1). Applied to *forms*, convergence barely exists in the core (8.3). A worldlang root shared by one or two regions is "built from one or two", not "from many". Apupiwe applies B5 to functions and boundaries (ladder 1), where convergence is real. |
+| **L4** borrow only when the world shares the form | no; L4 is the answer already | L4 says yes exactly where the world shares the form, and no elsewhere. Globasa's method borrows everywhere, so it would break L4 for most roots. Changing this means the author changing L4. |
+| **B2** hard to mishear | against | Natural forms can't be placed in sound space; opposites and same-slot alternatives come out close (Globasa: 23 of 97 root antonym pairs within edit distance 2; Apupiwe 2 of 113, §4.3). Raw minimal-pair density is similar (27% vs 30% of words have a one-letter neighbour), so the B2 advantage is specifically about *which* words are neighbours. Caveat: Apupiwe's confusion model is unvalidated (rationale §11). |
+| **C2** natives first; **N2** not favouring adult learners | against | A child learns *kitabu* or **kemin** equally well: the form's history means nothing to a first-language learner [me; arbitrariness of the sign]. Recognition pays only for people who already know a source language. |
+| **P4** speakers live among other languages | partly for | Native Apupiwe speakers will be bilingual in a local language. Cognates help bilingual word access (cognate facilitation: faster picture naming for cognates in Spanish–Catalan bilinguals, larger in the non-dominant language; Costa, Caramazza & Sebastián-Gallés 2000, *JEP: LMC* 26(5): 1283–1296, [ref](https://www.scirp.org/reference/referencespapers?referenceid=1749429); the effect is milliseconds of retrieval time, and false friends cut the other way). But the help goes to bilinguals whose other language supplied the root: a Spanish–Apupiwe child would get it for most roots, a Yoruba–Apupiwe child for almost none. |
+| **N3** don't weight cultures by size | against | Globasa's result: Europe supplies the main source of 61.5% of roots (49% of the core); English is listed for 61%, Mandarin for 22% (§4.3–4.4). Counting families still rewards words that spread by colonial and scientific borrowing. |
+| **B8** brief | neutral | Globasa's core roots average 2.01 syllables, Apupiwe's 2.05 (§4.3). Globasa's full lexicon averages 2.42; Apupiwe's planned 1,500 roots are almost all two syllables. A worldlang's forms carry codas and clusters; Apupiwe's don't. Roughly a tie at the core, Apupiwe ahead in the long run. |
+| **B10** any adult can learn it; the author learns it | for | The author knows only English; about 60% of Globasa roots list English. That is the honest case for world sourcing, and it is an adult-learner case (weighted down by C2, N2), and an English-speaker case (N3). |
+| **B9** survives change | neutral | No evidence either way. |
+| **B1** meaning gets through | depends | For first-contact adults, recognisable roots carry some meaning without study (no study measures how much, §5.4). For natives in noise, B2 decides. |
+
+### 8.3 What the data says
+- **The world doesn't share forms for core concepts.** Of Globasa's 469 most common roots, only 29 (6.2%) are listed for ≥10 of its 17 languages across ≥4 regional blocs, and those are internationalisms (*bus, hotel, kafe, cay, komputer, sistema, grupo, programa, filme*) [data, §4.3]. Apupiwe's own panel came out the same way: 9 of 22 loans passed, all currencies, units, *internet*, *camera*, *battery*, *email* (`tests/lexicon-ladder-01/loans.md`). A worldlang core therefore isn't "the shared form"; it's a choice of one region's form per word.
+- **Where shared forms do exist, L4 already takes them.** In Globasa's full lexicon 31% of roots clear the L4-like bar, mostly science, technology, products, animals and foods. That is the coverage study's long tail.
+- **The coverage study** (`tests/coverage-01/RESULTS.md`): exact meaning rises 84.4% → 90.2% from 517 to 1,500 roots and stops; what's left at 2,000 is "named dishes …, diseases …, specific tools and objects … Most are names, loans-to-be or rare concepts". So the remaining loss sits in exactly the area where world-shared forms are common. The ladder already sends every new concept through rung 2 (world-shared loan) before rung 4 (new root) (vocabulary-method §0); Globasa's figures suggest how many will pass: few of the first-word concepts, more of the modern frequent ones, many in the tail [me, estimate from §4.3].
+- **The one core area where forms *are* shared is imitative and nursery words** (*mama* listed for 12 languages in every bloc; *myaw*, *mumu*, *kwake*, *haha*, *wawa*), and those are children's first words. Apupiwe's seed left them out (method §1.4). This is the strongest thing to take from Globasa's vocabulary (row 53).
+
+### 8.4 What a priori costs (honestly)
+- The author, and anyone sharing the language, gets no familiar forms. Every root is memorised. This is the cost the cold review called "untested" (A3 §5.11) and proposed a cross-L1 word-learning experiment to measure.
+- The name says "everyone's language", and an a priori lexicon reads as no one's. Neutrality didn't win Kotava speakers (`research/reports/Conlang design principles compared.md`); recognisability didn't win Globasa many either (~490 Discord members, "approximately 15 speakers" [unverified], §5.3). Neither approach has shown it attracts people; for a thought experiment built for natives (P1, P3) that settles little.
+- Globasa found its ambiguities by being used (Phase 1). Apupiwe's forms have only been checked by a model and AI readers. That is a gap in testing, not in the choice of forms.
+
+### 8.5 Options
+- **A. Keep today's rule:** a priori roots; loans by L4.
+- **B. Worldlang core:** take each root's form from the panel (most regions wins), adapted to Apupiwe's sounds. Requires changing L4 (author) and accepting B2 losses in opposites; re-forms ~500 roots during the coverage batch.
+- **C. A, plus four extensions taken from Globasa** (recommended). Parts, with sources:
+  1. a priori roots, optimiser-placed (today; author's L4, B2);
+  2. L4 checked for every concept in the coverage batch before any root is placed (today; vocabulary-method §0, rung 2);
+  3. **imitative and nursery forms** go through the L4 panel like any loan (source: Globasa row 53 + Wordbank first words; **added by me**);
+  4. **a culture-specific word tier** for the long tail: own spelling or looser adaptation (source: Globasa row 14 + coverage tail; **added by me**; links to the author's "speakers will borrow freely" item);
+  5. optional, and the weakest: a **recognisability tie-breaker**: among optimiser forms within a small margin of the best score, prefer one that echoes a form shared by several *regions*, like the queued sound-symbolism tie-breaker and C3 (**added by me**; risk: it quietly re-imports big-language forms, N3; I'd leave it out unless the sound-symbolism study recommends a tie-breaker mechanism anyway).
+
+**Recommendation: C, parts 1–4.** The core stays a priori because for natives the form's origin buys nothing and its placement buys distinctness every day (C2, B2), and because the world mostly doesn't share core forms (L4, N3). Globasa's real lesson is not "borrow the core" but "the world *does* share forms in two places a priori design ignores: sound words and the cultural long tail".
+
+### 8.6 What would change the answer (add-back triggers for option B)
+- A cross-L1 word-learning or listening experiment (A3 §5.11) shows world-sourced forms are learnt markedly faster by adults *of many regions* (not just Europe) **and** listening tests show opposites placed by the optimiser are not misheard less than worldlang opposites. Both, because natives weigh B2 and adults weigh learning.
+- The author decides that P1's "real language its author learns and shares" outweighs C2 for the vocabulary (an author's call, not evidence).
+
+---
+
+## 9. Summary
+
+### 9.1 Was the earlier comparison too shallow?
+Yes, for grammar, data and tooling. `auxlangs-parts/4-modern-auxlangs.md` and the conlang report covered Globasa's aim, vocabulary algorithm, source stats, history and community, but not its grammar, its form rules (particle-syllable ban, culture-specific tier, accent table), its imitative vocabulary, or any measurement of its lexicon. The data (§4.3) is new: it shows where world sourcing helps (the tail, sound words) and where it doesn't (the core, opposites).
+
+### 9.2 Where Globasa is plainly better today
+- It has been **used**, and its grammar was repaired from use: modifier-of-modifier (-mo), infinitive marking, relative-clause garden paths, transitivity. Apupiwe has only blind AI tests.
+- **Documentation for learners**: complete grammar (also PDF, three languages), course, reader with audio, dictionary in 9 languages with an API.
+- **Release discipline**: batched phases with old → new lists; a published stability estimate.
+- **Imitative vocabulary** and **declared accent tolerance**: two things Apupiwe hasn't designed.
+- **Explicit form rules that Apupiwe lacks**: no root starting with a pre-verbal particle's syllable; a separate tier for culture-specific words.
+
+### 9.3 The ten most important ideas to adopt or adapt
+1. **Imitative and nursery forms** (*myaw*, *mumu*, *kwake*, *haha*, *mama*): panel-test the imitative subset of the coverage list before Part 4 places forms; take passing forms as loans (L4, C2, P3). (row 53)
+2. **No new root starts with the syllable of a grammar word that regularly precedes it** (operators before verbs: **mu**, **le**, **sin**, **na**, **fe** …); apply in the Part 4 batch; 11 existing verbs listed for the author (method §5.3, B2). (row 55)
+3. **Modifier of a modifier** ("dark red", "perfectly black hair") has no rule in Apupiwe: blind-test, then state a reading or add a marker (B3). (row 19)
+4. **A verb with no object**: test whether "the door closes" vs "she closes (it)" stays clear under omission (B1, B3); Globasa's most-revised area. (row 21)
+5. **Correlative grid as a completeness check**: regular forms for every determiner × time/place/person/thing/way/reason cell, short forms for frequent ones; settles the queued never/often gap (B7, B8). (row 36)
+6. **Culture-specific word tier** for dishes, instruments, customs: own spelling or looser adaptation, no **en** (P4, B6, coverage tail). (row 14)
+7. **Declared accent tolerance**: per sound, which realisations count as the same, each checked not to merge words; glottal stop at vowel junctions harmless (P4, B9, B2). (rows 12–13)
+8. **An endearment/diminutive word** after nouns and names (*mama ci*): a function the world converges on, central to speech to children (P3, rationale "convergent function, free form"). (row 30)
+9. **Measure the learning core**: "the first N roots cover X% of running words" from the coverage-01 translations, giving the author a data-based learning order (B7, B10). (row 62)
+10. **A one-off regional-balance audit** of which regions' boundaries and loans won in the ladders and the coverage list, as Globasa re-tunes against its etymology stats (N3). (row 8)
+
+Also worth the author's time, lower: SI prefixes as the number words (**kilo** is already in the lexicon, so 1,000 has two forms; row 38); old → new tables per release when the freeze returns (row 5); multi-language glosses (row 61).
+
+### 9.4 The three most important not to adopt
+1. **Root forms drawn from world languages for the core vocabulary**: the world shares few core forms (6% of Globasa's core clears an L4-like bar), the result leans European (N3), and natives gain nothing from a form's origin while losing distinctness (C2, B2). (row 50, §8)
+2. **Opposites and paired meanings by minimal contrast** (*bon/bur*, *max/min*, *le/xa*, *jaledin/jaxadin*, *matre/patre*): one lost sound flips the meaning, and context can't catch it (B2). (row 59)
+3. **Function words clipped from content words** (*cel* ← *cele*, *tas* ← *taslum*) as a memory aid: it helps adult learners only (N2) and creates near-homophones between grammar and content words (B2). (row 44)
