@@ -24,6 +24,10 @@ Measured: the base will be about 1,500 roots (decided 2026-10-13). Next: run the
 ### In progress: other auxlangs, compared (author, 2026-10-13)
 
 A background deep dive into the design, engineering and principles of other international auxiliary and engineered languages, and what happened to them, to learn what to do and what not to do. Output `research/notes/auxlangs.md`; findings that bear on a decision get queued here.
+- Widened (author, 2026-10-13): the first survey list was too mainstream. Also cover less-known designs, and read two essays that track this project's direction: Jörg Rhiemeier, [auxlang design](https://www.joerg-rhiemeier.de/Conlang/auxlang-design.html), and [vecderg, auxlangs 2](https://www.vecderg.com/articles/auxlangs2). Opinions aimed at adult learners weigh less here (the language is built for natives, C2).
+- **Globasa in depth** (author, 2026-10-13: "a lot of ideas we should steal"): its design, vocabulary method, grammar, tooling and community, each idea judged against the goal. Output `research/notes/globasa.md`.
+- **Sound symbolism as a tie-breaker** (author, 2026-10-13): the evidence (e.g. cross-language sound–meaning associations), its strength, and whether it could break ties between equally good forms, like C3. Output `research/notes/sound-symbolism.md`.
+- **"We don't know what we don't know"** (author, 2026-10-13): after the surveys, an idea-generation pass looking for considerations and unusual ideas nobody has raised yet. It may find nothing.
 
 ### Queued for the author
 
@@ -43,6 +47,10 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 - **Precision:** list **nen nen** as lexicalised; mark **fon**/**de**/**yo** as candidates for deletion (add-back: a human-read corpus where warnings or commitments are misread without them); teach **sin**'s frame-relativity and the **to gun nuta** trap early in the lessons.
 - **Sounds and word forms:** no grammar-word contrast may rest on a declared harmless variant; the empty-CV rule stated as an explicit constraint for new grammar words; a digit-vs-grammar-word confusion check; digits 0–5 decided after the listening test.
 - **Evidence:** re-run or withdraw the base-transmission numbers; one frequency source per optional subsystem; where possible a rater who isn't a Claude model.
+
+### Checks
+
+- **Speakers' own borrowings** (author, 2026-10-13): real use will import words from speakers' languages with their original sounds. Check that the grammar, sounds and spelling handle such words (names already keep their spelling with **en**; ordinary words have no rule yet).
 
 ### Small fixes (no decision needed)
 
