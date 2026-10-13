@@ -16,6 +16,8 @@ Every word decision is two decisions: where a meaning's boundaries go, and what 
 4. **Otherwise, the world's languages (B5):** family-balanced lump rate ≥50% one word; 20–50% two, one built from the other; <20% two roots (section 3).
 5. **A word of its own** only when saying it as a phrase would be a real cost (C1): frequent in modern text or basic experience.
 
+**Culture-bound concepts** (author, 2026-10-13): what is shared across cultures gets core words; what belongs to one culture or tradition (its institutions, roles, beings, internal concepts) comes from that culture's own words through the borrowing rule (language.md 11.3), as names come from their owners. Decided for religion; other domains queued.
+
 **Ladder 2: what form the word takes**
 1. **An international standard form (L3):** adapted to the sounds.
 2. **A form the world shares (L4):** a loan only if it passes the panel test, adapted from the panel's median pronunciation, not from English. A language counts when the loan is what its speakers say every day, even beside a formal native word (spoken *doctor* in Tamil, *terebi* in Japanese), with a source for the column; occasional code-switching doesn't count (author, 2026-10-13). Two shapes of one source word count as the same form when their adapted forms (`tools/names.py`) keep the same consonants: *pope* **popu** and *papa* **papa** together; *channel* **tanelu** and *kanal* **kanalu** apart (author, 2026-10-13).

@@ -60,6 +60,8 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 ### Checks
 
+- **Culture-bound vocabulary beyond religion** (author, 2026-10-13): check holidays, food, titles, kinship, clothing, law and other domains for the same frequency bias found in religion, and apply the principle (shared concepts in the core; each culture names its own) where it fits.
+
 - **Gaps found by the ladder pass** (2026-10-13): "parent" has no root (only **mole yen wede**) while "sibling" has a sexless root; "lie, say what is untrue" has no root (needed for "liar").
 
 

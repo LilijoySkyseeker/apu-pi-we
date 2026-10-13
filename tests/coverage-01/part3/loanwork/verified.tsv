@@ -14,3 +14,18 @@ tomato	ha	yes	tumatur, tumatir	freq-ha rank 4670 (tumatur); Leipzig hau: tumatur
 toast	hi	yes	टोस्ट ṭosṭ	Wiktionary Hindi टोस्ट "toast (toasted bread)"; sfreq-hi rank 3300 (senses mixed with "cheers" toast)
 toast	bn	yes	টোস্ট ṭosṭ	OpenSubtitles bn 50k rank 9441 (count 18, plus টোস্টের 2), sense not separable from drinking toast; english-bangla.com Bengali headword টোস্ট noun "toast"
 toast	ta	yes	டோஸ்ட் ṭōsṭ	Dinamalar food page "மசாலா பிரெட் டோஸ்ட்" (dinamalar.com/special/lifestyle/food/masala-bread-toast/4224196); not in ta freq/subtitle lists or Wiktionary
+toast	ar	yes	توست tōst	ar.wikipedia "خبز محمص" names it التُّسْت; mawdoo3.com "ما هو خبز التوست"; not in ar freq/subtitle lists or Wiktionary (often means sliced toast bread)
+toast	sw	yes	tosti, tosi	TUKI English-Swahili Dictionary 2nd ed. (2000) via swahili-dictionary.com: toast n. "tosti/tosi, mkate uliochomwa"; not in Leipzig swa
+office	ha	yes	ofis, ofishi	freq-ha ofishin rank 685, ofis 1927; Leipzig hau ofishin 132, ofis 38, ofisoshi(n) 26; Wiktionary Hausa ofis "office"
+office	yo	yes	ọfiisi	Wiktionary Yoruba ọfiisi "office" (from English); not in the small Leipzig yor corpus
+office	qu	unknown	-	no oficina-type form in freq-qu, Leipzig que, Wiktionary or Laime 2007; no qu label on Wikidata Q182060
+program	tl	yes	programa, program	freq-fil programa rank 356, program 1275; Wiktionary programa (activity/broadcast senses, software sense not listed); Glosbe "program sa computer"
+program	ta	unknown	-	no ப்ரோக்ராம்/புரோகிராம் in ta freq, sfreq or subtitle lists, no Wiktionary entry; only blogs found; native நிரல் also rare (subs 2)
+program	sw	yes	programu	freq-sw rank 1291; Leipzig swa programu 436 incl. software sense ("programu inatembea kwenye kompyuta"); Wikidata Q40056 sw "programu ya kompyuta"
+program	qu	no	programa	Leipzig que: programa only inside Spanish names (sentence 20562 "kastilla simipi Programa Huascarán"); qu.wikipedia uses native wakichi (Q40056 "Wakichi")
+energy	tl	yes	enerhiya	freq-fil rank 1029 (plus energy 2801); tl subtitle list rank 511; Wiktionary Tagalog enerhiya "energy"
+energy	qu	no	energía	no energía/inirhiya form in Leipzig que; qu.wikipedia uses Micha (Q11379), Leipzig micha 7+; Wiktionary and Laime 2007 give kallpa "fuerza, energía"
+professor	id	yes	profesor	freq-id rank 2350, sfreq-id rank 1516, OpenSubtitles id 50k rank 1523
+professor	bn	yes	প্রফেসর prophesar	freq-bn rank 2475, sfreq-bn rank 742 (native অধ্যাপক 1210 / 4678)
+professor	ta	no	-	native பேராசிரியர் freq-ta rank 1073, sfreq-ta 3705, subtitle list 3723; no spelling of the loan in any ta list
+professor	ha	yes	farfesa	freq-ha rank 1208; Leipzig hau Farfesa 73, farfesa 4, Farfesan 9
