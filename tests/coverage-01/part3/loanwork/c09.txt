@@ -1,0 +1,238 @@
+@ museum | museum | building or institution
+zh 博物馆 bówùguǎn | n | Wt
+ja 博物館 hakubutsukan | n | Wt
+ko 박물관 bangmulgwan | n | Wt
+vi bảo tàng | n | Wt
+th พิพิธภัณฑ์ phíphítthaphan | n | Wt
+id museum | y | Wt
+tl museo | y | Wt
+hi संग्रहालय saṅgrahālay; म्यूज़ियम myūziyam | b | Wt
+bn জাদুঘর jādughar "magic house" | n | Wt
+ta அருங்காட்சியகம் aruṅkāṭciyakam | n | Wt
+fa موزه muze | y | Wt
+ar متحف matḥaf | n | Wt
+tr müze | y | Wt
+ru музей muzej | y | Wt
+es museo | y | Wt
+fr musée | y | Wt
+sw makumbusho | n | Wt
+ha gidan tarihi "history house" | n | M
+yo ilé ìṣẹ̀ǹbáyé | n | M
+qu museo (Spanish loan) | y | M
+note: 8 strict, 9 lenient; Asia and Africa build "treasure/history/wonder house" (zh ja ko, bn, ha)
+
+@ alcohol | alcohol | intoxicating beverage
+zh 酒 jiǔ | n | Wt
+ja お酒 osake; アルコール arukōru | b | Wt
+ko 술 sul; 알코올 alkool | b | Wt
+vi rượu | n | Wt
+th เหล้า lâo, สุรา | n | Wt
+id alkohol, minuman keras | y | Wt
+tl alak (< Arabic ʿaraq) | n | M
+hi शराब šarāb, दारू | n | Wt
+bn মদ mad | n | Wt
+ta மது madhu | n | M
+fa عرق ʿaraq, مشروب | n | Wt
+ar كحول kuḥūl (the etymon of alcohol) | b | Wt
+tr içki; alkol | y | Wt
+ru алкоголь alkogol', спиртное | y | Wt
+es alcohol | y | Wt
+fr alcool | y | Wt
+sw pombe | n | M
+ha giya | n | M
+yo ọtí | n | M
+qu trago (Spanish), aqha (chicha) | n | M
+note: 5 strict, 8 lenient as "alcoholic drink"; the chemical sense (ethanol) would score higher; ʿaraq family (fa tl, ar) and native words dominate
+
+@ engine | engine | mechanical device
+zh 发动机 fādòngjī, 引擎 yǐnqíng (sound loan of engine) | n | Wt
+ja エンジン enjin (モーター mōtā = electric motor) | n | Wt
+ko 엔진 enjin (모터 = electric motor) | n | Wt
+vi động cơ (mô-tơ = electric motor) | n | Wt
+th เครื่องยนต์ khrʉ̂ang yon (มอเตอร์ = electric motor) | n | Wt
+id mesin (motor = motorcycle) | n | Wt
+tl makina | n | M
+hi इंजन injan (मोटर = electric motor) | n | Wt
+bn ইঞ্জিন iñjin (মোটর = electric motor) | n | Wt
+ta இன்ஜின் injin | n | M
+fa موتور motor | y | Wt
+ar محرك muḥarrik; colloquial موتور mōtōr | b | Wt
+tr motor | y | Wt
+ru двигатель dvigatel'; мотор motor | b | Wt
+es motor | y | Wt
+fr moteur | y | Wt
+sw injini | n | Wt
+ha inji | n | M
+yo ẹ́ńjìnnì | n | M
+qu motor (Spanish loan) | y | M
+note: tested as the motor form: 5 strict, 7 lenient; the engine form has 8 (ja ko hi bn ta sw ha yo) and also fails
+text: Shared column = the motor form proposed in the ladder note. The panel splits between two loans for a car engine: engine (ja ko hi bn ta sw ha yo, 8 in 3 regions, plus zh yǐnqíng) and motor (fa tr es fr qu, plus colloquial ar ru). Where both exist, motor usually means an electric motor. Neither passes.
+
+@ chemistry | chemistry | branch of natural science
+zh 化学 huàxué | n | Wt
+ja 化学 kagaku | n | Wt
+ko 화학 hwahak | n | Wt
+vi hóa học | n | Wt
+th เคมี khemii | y | Wt
+id kimia | y | Wt
+tl kimika | y | Wt
+hi रसायन शास्त्र rasāyan šāstra | n | Wt
+bn রসায়ন rasāyan | n | Wt
+ta வேதியியல் vētiyiyal | n | Wt
+fa شیمی šimi (< French chimie) | y | Wt
+ar كيمياء kīmiyāʾ | y | Wt
+tr kimya | y | Wt
+ru химия ximija | y | Wt
+es química | y | Wt
+fr chimie | y | Wt
+sw kemia | y | Wt
+ha kimiyya | y | M
+yo kẹ́mísírì | y | M
+qu química (Spanish loan) | y | M
+median: kimia
+note: 13, 5 regions (no EA, SA); fa and fr šimi counted as the same word
+text: EA uses Sino 化学 and SA Sanskrit rasāyan. French and Persian ʃimi are counted with kimia; without them it is 11 and fails. Median: k 10, first vowel i 10, final a.
+
+@ guitar | guitar | musical instrument
+zh 吉他 jítā | y | Wt
+ja ギター gitā | y | Wt
+ko 기타 gita | y | Wt
+vi ghi-ta | y | Wt
+th กีตาร์ kiitaa | y | Wt
+id gitar | y | Wt
+tl gitara | y | Wt
+hi गिटार giṭār | y | Wt
+bn গিটার giṭār | y | Wt
+ta கித்தார் kittār | y | Wt
+fa گیتار gitār | y | Wt
+ar جيتار gītār (classical قيثارة qīṯāra) | y | Wt
+tr gitar | y | Wt
+ru гитара gitara | y | Wt
+es guitarra | y | Wt
+fr guitare | y | Wt
+sw gitaa | y | Wt
+ha gita | y | M
+yo gìtá | y | M
+qu guitarra (Spanish loan) | y | M
+median: gitar
+note: universal
+
+@ metal | metal | atomic element or material made of such atoms
+zh 金属 jīnshǔ | n | Wt
+ja 金属 kinzoku | n | Wt
+ko 금속 geumsok | n | Wt
+vi kim loại | n | Wt
+th โลหะ lohà | n | Wt
+id logam | n | Wt
+tl metal | y | Wt
+hi धातु dhātu | n | Wt
+bn ধাতু dhātu | n | Wt
+ta உலோகம் ulōkam | n | Wt
+fa فلز felez | n | Wt
+ar معدن maʿdin, فلز filizz | n | Wt
+tr metal | y | Wt
+ru металл metall | y | Wt
+es metal | y | Wt
+fr métal | y | Wt
+sw metali | y | Wt
+ha ƙarfe | n | M
+yo irin | n | M
+qu chuqi, q'illay | n | Wt
+note: 6; Sino 金属 (4), Sanskrit dhātu (hi bn), felez (fa ar) are regional families
+
+@ climate | climate | long-term atmospheric conditions
+zh 气候 qìhòu | n | Wt
+ja 気候 kikō | n | Wt
+ko 기후 gihu | n | Wt
+vi khí hậu | n | Wt
+th ภูมิอากาศ phuumí-aakàat | n | Wt
+id iklim | y | Wt
+tl klima | y | Wt
+hi जलवायु jalvāyu "water-air" | n | Wt
+bn জলবায়ু jalbāyu | n | Wt
+ta காலநிலை kālanilai | n | Wt
+fa آب و هوا āb o havā "water and air"; اقلیم eqlim | b | Wt
+ar مناخ munāx | n | Wt
+tr iklim | y | Wt
+ru климат klimat | y | Wt
+es clima | y | Wt
+fr climat | y | Wt
+sw tabianchi | n | Wt
+ha yanayi | n | M
+yo ojú-ọjọ́ | n | M
+qu clima (Spanish loan) | y | M
+note: 7 strict, 8 lenient; Sino 気候 (4) and "water-air" (hi bn fa) compete
+
+@ gene | gene | unit of heredity
+zh 基因 jīyīn (sound loan) | y | Wt
+ja 遺伝子 idenshi | n | Wt
+ko 유전자 yujeonja | n | Wt
+vi gen | y | Wt
+th ยีน yiin (Wt gives a coinage) | y | M
+id gen | y | Wt
+tl hene | y | Wt
+hi जीन jīn | y | Wt
+bn জিন jin | y | Wt
+ta மரபணு marapaṇu | n | Wt
+fa ژن žen | y | Wt
+ar جين jīn, مورثة | y | Wt, M*
+tr gen | y | Wt
+ru ген gen | y | Wt
+es gen | y | Wt
+fr gène | y | Wt
+sw jeni | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu gen (Spanish loan) | y | M
+median: dʒen
+note: 15, all 7 regions; initial consonant a plurality (dʒ 5, g 3, ʒ 3, x/h 3)
+text: Initial consonant: dʒ (zh hi bn ar sw) 5, g (id tr ru) 3, ʒ (vi fa fr) 3, x/h (tl es qu) 3. Vowel e 10 against i 5. names.py adds a vowel to reach two syllables.
+
+@ pilot | pilot | controller of aircraft|aviator
+zh 飞行员 fēixíngyuán | n | Wt
+ja パイロット pairotto | y | Wt
+ko 파일럿 pailleot, 조종사 | y | Wt
+vi phi công | n | Wt
+th นักบิน nák bin | n | Wt
+id pilot | y | Wt
+tl piloto | y | Wt
+hi पायलट pāylaṭ | y | Wt
+bn বিমান চালক bimān cālak; spoken pāilaṭ | b | Wt, M
+ta பைலட் pailaṭ, வானோடி | y | Wt
+fa خلبان xalabān (پیلوت rare) | n | Wt
+ar طيار ṭayyār | n | Wt
+tr pilot | y | Wt
+ru пилот pilot, лётчик | y | Wt
+es piloto | y | Wt
+fr pilote | y | Wt
+sw rubani | n | Wt
+ha matuƙin jirgi | n | M
+yo awakọ̀ òfurufú | n | M
+qu piloto (Spanish loan) | y | M
+median: pilot
+note: 11 strict, 12 lenient; no SSA form
+text: Median: i (id tl tr ru es fr qu) 7 against English ai (ja ko hi ta bn) 5.
+
+@ fashion | fashion | current (constantly changing) trend, favored for frivolous rather than practical, logical, or intellectual reasons|vogue
+zh 时尚 shíshàng, 时装 | n | Wt
+ja ファッション fasshon, 流行 | n | Wt
+ko 패션 paesyeon | n | Wt
+vi mốt (< French mode), thời trang | y | Wt
+th แฟชั่น fɛɛchân | n | Wt
+id mode | y | Wt
+tl moda | y | Wt
+hi फ़ैशन faišan | n | Wt
+bn ফ্যাশন fyāšan | n | Wt
+ta ஃபேஷன் fēšan | n | Wt
+fa مد mod | y | Wt
+ar موضة mōḍa | y | Wt
+tr moda | y | Wt
+ru мода moda | y | Wt
+es moda | y | Wt
+fr mode | y | Wt
+sw mitindo | n | M
+ha yayi | n | M
+yo àṣà | n | M
+qu moda (Spanish loan) | y | M
+note: tested as the moda form: 10 (4 regions); the fashion form has 6 (ja ko th hi bn ta); neither passes
+text: Shared column = moda/mode. The English fashion form (ja ko th hi bn ta) is the other half of the panel, 6 in 3 regions.

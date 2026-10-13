@@ -1,0 +1,244 @@
+@ machine | machine | mechanical or electrical device
+zh 机器 jīqì | n | Wt
+ja 機械 kikai (マシン mashin specialised) | n | Wt
+ko 기계 gigye | n | Wt
+vi máy | n | Wt
+th เครื่อง khrʉ̂ang | n | Wt
+id mesin | y | Wt
+tl makina | y | Wt
+hi यंत्र yantra (formal); spoken मशीन mašīn | b | Wt, M
+bn মেশিন mešin | y | Wt
+ta எந்திரம் enthiram; spoken மெஷின் | b | Wt, M
+fa ماشین māšin (also "car") | y | Wt
+ar آلة āla; ماكينة mākīna | y | Wt
+tr makine | y | Wt
+ru машина mašina (also "car") | y | Wt
+es máquina | y | Wt
+fr machine | y | Wt
+sw mashine | y | Wt
+ha mashin | y | M
+yo ẹ̀rọ | n | M
+qu máquina (Spanish loan) | y | M
+median: maʃina
+note: 12 strict, 14 lenient; EA and mainland SEA share Sino 機 (zh ja ko vi) and th khrʉ̂ang
+text: Median: ʃ (bn fa ru fr sw ha) 6 against k (tl ar tr es qu) 5; a final vowel in 7 of 12 (a 5, e 2), so [maʃina]. In fa and ru the word also or mainly means "car".
+
+@ president | president | the head of state of a republic
+zh 总统 zǒngtǒng | n | Wt
+ja 大統領 daitōryō | n | Wt
+ko 대통령 daetongnyeong | n | Wt
+vi tổng thống | n | Wt
+th ประธานาธิบดี prathaanaathíbɔɔdii | n | Wt
+id presiden | y | Wt
+tl pangulo, presidente | y | Wt
+hi राष्ट्रपति rāṣṭrapati | n | Wt
+bn রাষ্ট্রপতি rāṣṭrapati | n | Wt
+ta ஜனாதிபதி janāpati | n | Wt
+fa رئیس‌جمهور ra'is-jomhur; پرزیدنت rare | b | Wt
+ar رئيس raʾīs | n | Wt
+tr cumhurbaşkanı | n | Wt
+ru президент prezident | y | Wt
+es presidente | y | Wt
+fr président | y | Wt
+sw rais | n | Wt
+ha shugaban ƙasa | n | M
+yo Ààrẹ | n | Wt
+qu presidente (Spanish loan) | y | M
+note: 6 strict, 7 lenient; raʾīs family (ar fa sw, tr reis) and Sanskrit -pati (hi bn ta) are larger regional families
+
+@ data | data | information
+zh 数据 shùjù | n | Wt
+ja データ dēta | y | Wt, M*
+ko 데이터 deiteo, 자료 | y | Wt, M*
+vi dữ liệu | n | Wt
+th ข้อมูล khɔ̂ɔmuun | n | Wt
+id data | y | Wt
+tl datos | y | Wt
+hi डेटा ḍeṭā | y | Wt
+bn ডেটা ḍeṭā (formal উপাত্ত) | y | Wt, M*
+ta தரவு taravu | n | Wt
+fa داده dāde (calque "given") | n | Wt
+ar بيانات bayānāt, معطيات muʿṭayāt (calque) | n | Wt
+tr veri | n | Wt
+ru данные dannye (calque) | n | Wt
+es datos | y | Wt
+fr données (calque) | n | Wt
+sw data | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu datos (Spanish loan) | b | M
+note: 8 strict, 9 lenient; the calque "givens" (ru fr fa ar) is the competing pattern
+
+@ professor | professor | higher ranking for a teacher or faculty member at a college or university
+zh 教授 jiàoshòu | n | Wt
+ja 教授 kyōju | n | Wt
+ko 교수 gyosu | n | Wt
+vi giáo sư | n | Wt
+th ศาสตราจารย์ sàatsatraajaan | n | Wt
+id profesor | y | M
+tl propesor | y | Wt
+hi प्रोफ़ेसर profesar | y | Wt
+bn প্রফেসর prophesar | y | M
+ta பேராசிரியர் pērāsiriyar; spoken professor | b | M
+fa استاد ostād; پروفسور profesor (title) | b | Wt
+ar أستاذ ustāḏ | n | Wt
+tr profesör | y | Wt
+ru профессор professor | y | Wt
+es profesor (also any teacher) | y | Wt
+fr professeur (also any teacher) | y | Wt
+sw profesa | y | Wt
+ha farfesa | y | M
+yo ọ̀jọ̀gbọ́n | n | M
+qu profesor (Spanish loan) | y | M
+median: profesor
+note: 11 strict, 13 lenient; Sino 教授 (zh ja ko vi) and ustād (fa ar) compete; last vowel tie o 4 / a 4
+text: Last vowel: o (id tl es qu) 4, a (hi bn sw ha) 4, ø/œ/ə (tr fr ru) 3; [profesar] gives *pulofesalu*. In Spanish and French the word means any teacher.
+
+@ project | project | planned endeavor
+zh 项目 xiàngmù, 计划 | n | Wt
+ja 計画 keikaku; プロジェクト purojekuto at work | b | Wt
+ko 계획 gyehoek; 프로젝트 peurojekteu | b | Wt
+vi dự án | n | Wt
+th โครงการ khroongkaan | n | Wt
+id proyek | y | Wt
+tl proyekto | y | Wt
+hi प्रोजेक्ट projekṭ (formal परियोजना) | y | Wt, M*
+bn প্রজেক্ট projekṭ | y | Wt
+ta திட்டம் tiṭṭam; spoken project | b | M
+fa پروژه proože | y | Wt
+ar مشروع mašrūʿ | n | Wt
+tr proje | y | Wt
+ru проект proekt | y | Wt
+es proyecto | y | Wt
+fr projet | y | Wt
+sw mradi | n | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu proyecto (Spanish loan) | y | M
+median: projekt
+note: 10 strict, 13 lenient; no SSA form
+text: Median from the strict cognates: j (id tl es qu ru) 5 against ʒ (fa tr fr) 3 and dʒ (hi bn) 2; with the lenient ja ko ta, dʒ ties j at 5, giving [prodʒekt] → *pulodekutu*.
+
+@ beer | beer | alcoholic drink made of malt
+zh 啤酒 píjiǔ (sound loan pí + "liquor") | b | Wt
+ja ビール bīru | y | Wt
+ko 맥주 maekju | n | Wt
+vi bia | y | Wt
+th เบียร์ bia | y | Wt
+id bir | y | Wt
+tl serbesa | n | Wt
+hi बियर biyar | y | Wt
+bn বিয়ার biyār | y | Wt
+ta பியர் piyar | y | Wt
+fa آبجو ābjow "barley water" | n | Wt
+ar بيرة bīra | y | Wt
+tr bira | y | Wt
+ru пиво pivo | n | Wt
+es cerveza | n | Wt
+fr bière | y | Wt
+sw bia (pombe = any brew) | y | Wt
+ha giya | n | Wt
+yo bíà | y | Wt
+qu sirwisa (< cerveza) | n | Wt
+median: biar
+note: 12 strict (all Wt), 13 lenient; second family cerveza (tl es qu, 3)
+text: Exactly 12, but every counted column is from Wiktionary, so a plain pass. Median: a after bi in 7 of 12 (vi th hi bn ta sw yo), r present in 8 of 12; [biar]. The r-less [bia] (vi th sw yo) gives *biya*.
+
+@ code | code | instructions for a computer
+zh 代码 dàimǎ | n | Wt
+ja コード kōdo | y | Wt
+ko 코드 kodeu | y | Wt
+vi mã | n | Wt
+th โค้ด khóot | y | Wt
+id kode | y | M
+tl code, koda | y | M
+hi कोड koḍ | y | Wt
+bn কোড koḍ | y | M
+ta (no Wt; குறியீடு kuṟiyīṭu; spoken code) | b | M
+fa کد kod | y | M
+ar كود kōd | y | Wt
+tr kod | y | Wt
+ru код kod | y | Wt
+es código | y | Wt
+fr code | y | Wt
+sw kodi | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu código (Spanish loan) | y | M
+median: kod
+note: 15 strict, 16 lenient, all 7 regions; Mandarin and Vietnamese use Sino 码/mã
+
+@ website | website | a collection of pages on the World Wide Web
+zh 网站 wǎngzhàn | n | Wt
+ja (ウェブ)サイト (webu)saito | y | Wt
+ko 웹사이트 wepsaiteu, 사이트 | y | Wt
+vi trang web "web page" | b | Wt
+th เว็บไซต์ wépsái | y | Wt
+id situs (web) | y | Wt
+tl websayt | y | Wt
+hi वेबसाइट vebsāiṭ (formal जालस्थल) | y | Wt, M*
+bn ওয়েবসাইট oyebsāiṭ | y | Wt
+ta வலைத்தளம் valaittaḷam | n | Wt
+fa وبگاه vebgāh (official); colloquial سایت sāyt | b | Wt, M
+ar موقع mawqiʿ "site" (calque) | n | Wt
+tr web sitesi | y | Wt
+ru сайт sajt | y | Wt
+es sitio web | y | Wt
+fr site (web) | y | Wt
+sw tovuti | n | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu sitio web (Spanish loan) | b | M
+median: sait
+note: tested as "site"; 11 strict, 14 lenient; the sait (English) and sit- (id tr es fr) pronunciations counted as one word
+text: Tested as the "site" element, per the ladder note. English-pronounced sait (ja ko th tl hi bn ru) 7 against spelling-pronounced sit- (id tr es fr) 4; median [sait].
+
+@ democracy | democracy | rule by the people
+zh 民主 mínzhǔ | n | Wt
+ja 民主主義 minshushugi | n | Wt
+ko 민주주의 minjujuui | n | Wt
+vi dân chủ | n | Wt
+th ประชาธิปไตย prachaathíppatai | n | Wt
+id demokrasi | y | Wt
+tl demokrasya | y | Wt
+hi लोकतंत्र loktantra | n | Wt
+bn গণতন্ত্র gaṇatantra | n | Wt
+ta மக்களாட்சி makkaḷāṭci, ஜனநாயகம் | n | Wt
+fa دموکراسی demokrāsi (official مردم‌سالاری) | y | Wt
+ar ديمقراطية dīmuqrāṭiyya | y | Wt
+tr demokrasi | y | Wt
+ru демократия demokratija | y | Wt
+es democracia | y | Wt
+fr démocratie | y | Wt
+sw demokrasia | y | Wt
+ha dimokuraɗiyya | y | Wt
+yo ìjọba tiwa-n-tiwa; dẹmọkrasi | b | M
+qu democracia (Spanish loan) | y | M
+median: demokrasia
+note: 11 strict, 12 lenient; all of East and South Asia use native calques ("people-rule")
+text: Every Asian language except id and tl uses a native "people-rule" compound, a ready rung-3 pattern. Median ending: -ia/-ija (tl ar ru es sw ha qu) 7 against -i (id fa tr fr) 4.
+
+@ bomb | bomb | device filled with explosives
+zh 炸弹 zhàdàn | n | Wt
+ja 爆弾 bakudan | n | Wt
+ko 폭탄 poktan | n | Wt
+vi bom | y | Wt
+th ระเบิด rabə̀ət; บอมบ์ bɔm | b | Wt
+id bom | y | Wt
+tl bomba | y | Wt
+hi बम bam | y | Wt
+bn বোমা bomā | y | Wt
+ta வெடிகுண்டு veṭikuṇṭu | n | Wt
+fa بمب bomb | y | Wt
+ar قنبلة qunbula | n | Wt
+tr bomba | y | Wt
+ru бомба bomba | y | Wt
+es bomba | y | Wt
+fr bombe | y | Wt
+sw bomu | y | Wt
+ha bam | y | M
+yo bọ́m̀bù | y | Wt
+qu bomba (Spanish loan) | y | M
+median: bomba
+note: 14 strict, 15 lenient; EA uses Sino 爆弾 (zh ja ko)
+text: Median: b after m in 8 of 14; then a (tl tr ru es qu) 5 against u (yo) and none (fa fr).

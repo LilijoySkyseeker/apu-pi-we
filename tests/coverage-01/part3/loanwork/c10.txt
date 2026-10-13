@@ -1,0 +1,244 @@
+@ plastic | plastic | synthetic thermoplastic polymer
+zh 塑料 sùliào | n | Wt
+ja プラスチック purasuchikku | y | Wt
+ko 플라스틱 peullaseutik | y | Wt
+vi nhựa, chất dẻo | n | Wt
+th พลาสติก phláatsatìk | y | Wt
+id plastik | y | M
+tl plastik | y | Wt
+hi प्लास्टिक plāsṭik | y | Wt
+bn প্লাস্টিক plāsṭik | y | Wt
+ta பிளாஸ்டிக் pilāsṭik (coinage நெகிழி) | y | Wt, M*
+fa پلاستیک pelāstik | y | Wt
+ar بلاستيك blāstīk | y | Wt
+tr plastik | y | Wt
+ru пластик plastik, пластмасса | y | Wt
+es plástico | y | Wt
+fr plastique | y | Wt
+sw plastiki | y | Wt
+ha roba "rubber" | n | M
+yo (no data) | n | M
+qu plástico (Spanish loan) | y | M
+median: plastik
+note: 16, all 7 regions
+
+@ bar | bar | business licensed to sell intoxicating beverages
+zh 酒吧 jiǔbā (bā sound loan + "liquor") | b | Wt
+ja バー bā (居酒屋 izakaya for a pub) | y | Wt
+ko 술집 suljip; 바 ba | b | Wt
+vi quán rượu; quán bar in cities | b | Wt
+th บาร์ baa | y | Wt
+id bar | y | Wt
+tl bar | y | M
+hi बार bār | y | Wt
+bn বার bār | y | Wt
+ta பார் pār | y | M
+fa بار bār, میخانه meykhāne | y | Wt
+ar بار bār, حانة ḥāna | y | Wt, M*
+tr bar, meyhane | y | Wt
+ru бар bar | y | Wt
+es bar | y | Wt
+fr bar | y | Wt
+sw baa | y | M
+ha mashaya | n | M
+yo ilé ọtí | n | M
+qu bar (Spanish loan) | y | M
+median: bar
+note: 15 strict, 18 lenient, all 7 regions
+
+@ version | version | computing: particular revision
+zh 版本 bǎnběn | n | Wt
+ja バージョン bājon | y | Wt
+ko 버전 beojeon | y | Wt
+vi phiên bản | n | Wt
+th เวอร์ชัน wəəchan | y | Wt, M*
+id versi | y | Wt
+tl bersyon | y | M
+hi संस्करण saṃskaraṇ; spoken varzan | b | Wt, M
+bn সংস্করণ saṃskaraṇ | n | Wt
+ta பதிப்பு patippu | n | M
+fa نسخه nosxe | n | Wt
+ar إصدار iṣdār, نسخة nusxa | n | Wt
+tr sürüm, versiyon | y | Wt
+ru версия versija | y | Wt
+es versión | y | Wt
+fr version | y | Wt
+sw toleo | n | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu versión (Spanish loan) | y | M
+note: 10 strict, 11 lenient; Sino 版本 (zh vi), saṃskaraṇ (hi bn) and nusxa (fa ar) are native
+
+@ cinema | cinema | a film/movie theatre
+zh 电影院 diànyǐngyuàn | n | Wt
+ja 映画館 eigakan | n | Wt
+ko 영화관 yeonghwagwan | n | Wt
+vi rạp chiếu phim; rạp xi-nê | b | Wt
+th โรงหนัง roong nǎng | n | Wt
+id bioskop; sinema | b | Wt
+tl sinehan | y | Wt
+hi सिनेमा sinemā | y | Wt
+bn সিনেমা sinemā | y | Wt
+ta சினிமா sinimā | y | Wt
+fa سینما sinemā | y | Wt
+ar سينما sīnimā | y | Wt
+tr sinema | y | Wt
+ru кинотеатр kinoteatr, кино kino | b | Wt
+es cine | y | Wt
+fr cinéma | y | Wt
+sw sinema | y | Wt
+ha sinima | y | M
+yo sinimá | y | M
+qu cine (Spanish loan) | y | M
+median: sinema
+note: 13 strict, 16 lenient; EA uses "film house" (映画館)
+text: Russian kino shares the etymon (kinema) but is heard as a different word. Median: second vowel e 9 against i 4.
+
+@ fuel | gasoline | motor fuel
+zh 汽油 qìyóu | n | Wt
+ja ガソリン gasorin | n | Wt
+ko 휘발유 hwiballyu; 가솔린 | n | Wt
+vi xăng (< French essence) | n | Wt
+th น้ำมัน námman; เบนซิน bensin | b | Wt
+id bensin | y | Wt
+tl gasolina | n | Wt
+hi पेट्रोल peṭrol | n | Wt
+bn পেট্রল peṭrol | n | Wt
+ta பெட்ரோல் peṭrōl | n | Wt
+fa بنزین benzin (Iran; پترول in Afghanistan) | y | Wt
+ar بنزين banzīn | y | Wt
+tr benzin | y | Wt
+ru бензин benzin | y | Wt
+es gasolina (Chile bencina, Argentina nafta) | n | Wt
+fr essence | n | Wt
+sw petroli | n | Wt
+ha fetur | n | M
+yo pẹtiróòlù, bẹntiróò | n | Wt
+qu gasolina (Spanish loan) | n | M
+note: three forms, none passes: benzin 5 (6 with th), petrol 6 (hi bn ta sw ha yo), gasoline 4 (ja tl es qu, ko)
+text: Shared column = the benzin form. The panel splits three ways: benzin (id fa ar tr ru, th), petrol (hi bn ta sw ha yo) and gasoline (ja ko tl es qu). The largest family has 6. Native "oil" words (zh qìyóu "gas oil", th námman) are the remaining pattern.
+
+@ cream | cream | fatty part of milk
+zh 奶油 nǎiyóu | n | Wt
+ja クリーム kurīmu | y | Wt
+ko 크림 keurim | y | Wt
+vi kem (< French crème) | b | Wt
+th ครีม khriim | y | Wt
+id krim | y | Wt
+tl krema (Wt coinage laknip) | y | M
+hi मलाई malāī | n | Wt
+bn মালাই mālāi | n | Wt
+ta ஆடை āṭai; கிரீம் kirīm | b | Wt
+fa خامه xāme, سرشیر saršir | n | Wt
+ar قشطة qišṭa | n | Wt
+tr kaymak (krema whipped cream) | b | Wt
+ru сливки slivki | n | Wt
+es nata (Spain), crema (Latin America) | y | Wt
+fr crème | y | Wt
+sw (no data; krimu for skin cream) | b | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu crema (Spanish loan) | b | M
+median: krim
+note: dairy sense 7 strict, 12 lenient (only 3 strict regions); the skin-cream sense passes on the Wt table (ja ko vi th id tl hi bn fa ar tr ru es fr sw, 15)
+text: A weak borderline: the lenient count rests on five soft columns. The finding is the split by sense. For dairy cream most of Asia and Russia keep a native word (malāī, xāme, qišṭa, kaymak, slivki). For skin cream Wiktionary's own table has the loan in 15 languages (ja ko vi th id tl hi bn fa ar tr ru es fr sw), a clear pass. If the language needs the word mainly for the cosmetic, it passes.
+
+@ passport | passport | official document for foreign travel
+zh 护照 hùzhào | n | Wt
+ja パスポート pasupōto (旅券 ryoken formal) | y | Wt
+ko 여권 yeogwon | n | Wt
+vi hộ chiếu | n | Wt
+th หนังสือเดินทาง nǎngsʉ̌ʉ dəən thaang; พาสปอร์ต colloquial | b | Wt
+id paspor | y | Wt
+tl pasaporte | y | Wt
+hi पासपोर्ट pāsporṭ | y | Wt
+bn পাসপোর্ট pāsporṭ (formal পারপত্র) | y | Wt, M*
+ta பாஸ்போர்ட் pāsporṭ (formal கடவுச்சீட்டு) | y | Wt, M*
+fa گذرنامه gozarnāme; پاسپورت pāsport | b | Wt
+ar جواز سفر jawāz safar | n | Wt
+tr pasaport | y | Wt
+ru паспорт pasport | y | Wt
+es pasaporte | y | Wt
+fr passeport | y | Wt
+sw pasipoti, paspoti | y | Wt
+ha fasfo | y | Wt
+yo ìwé ìrìnnà | n | Wt
+qu pasaporte (Spanish loan) | y | M
+median: pasport
+note: 13 strict, 15 lenient, all 7 regions; EA Sino 護照/旅券
+text: Median: no vowel between s and p in 7 of 13; r kept in 9; consonant-final 7.
+
+@ platform | platform | computing: a specific operating system or environment; a specific type of computer or microprocessor
+zh 平台 píngtái | n | Wt
+ja プラットフォーム purattofōmu | y | Wt
+ko 플랫폼 peullaetpom | y | Wt
+vi nền tảng | n | Wt
+th แพลตฟอร์ม phlɛ́tfɔɔm | y | M
+id platform (Wt coinage anjungan) | y | M
+tl plataporma | y | M
+hi प्लेटफ़ॉर्म pleṭfŏrm | y | Wt (travel sense)
+bn প্ল্যাটফর্ম plyāṭfôrm | y | M
+ta தளம் taḷam; spoken platform | b | M
+fa پلتفرم platform; سکو sakku (station) | b | M
+ar منصة minaṣṣa | n | Wt
+tr platform | y | Wt
+ru платформа platforma | y | Wt
+es plataforma | y | Wt
+fr plateforme | y | Wt
+sw jukwaa | n | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu plataforma (Spanish loan) | y | M
+median: platform
+note: 12 strict, 14 lenient; several columns from memory (computing sense is thin on Wiktionary)
+text: Wiktionary's computing-sense table is thin (10 languages), so five columns come from memory. The adapted form is long (6 syllables) because of the pl, tf and rm clusters.
+
+@ engineer | engineer | person engaged in designing, constructing, or maintaining engines or machinery
+zh 工程师 gōngchéngshī | n | Wt
+ja エンジニア enjinia, 技師 | y | Wt
+ko 엔지니어 enjinieo, 기사 | y | Wt
+vi kỹ sư | n | Wt
+th วิศวกร wítsawakɔɔn | n | Wt
+id insinyur (< Dutch ingenieur) | y | Wt
+tl inhinyero | y | Wt
+hi इंजीनियर iñjīniyar (formal अभियंता) | y | Wt, M*
+bn প্রকৌশলী prakauśalī; spoken iñjiniyār | b | Wt, M
+ta பொறியாளர் poṟiyāḷar; spoken iñjiniyar | b | Wt, M
+fa مهندس mohandes (انجنیر Afghan) | n | Wt
+ar مهندس muhandis | n | Wt
+tr mühendis | n | Wt
+ru инженер inžener | y | Wt
+es ingeniero | y | Wt
+fr ingénieur | y | Wt
+sw injinia, mhandisi | y | Wt
+ha injiniya | y | M
+yo ẹn̄jiníà | y | Wt
+qu ingeniero (Spanish loan) | y | M
+median: indʒiniar
+note: 12 strict, 14 lenient; muhandis family (fa ar tr, sw mhandisi) is the WA alternative
+text: West Asia uses muhandis (fa ar tr), as does Swahili beside injinia. Median: dʒ (ja ko hi sw ha yo) 6, r kept in 7 of 12, vowel before it a 6.
+
+@ vaccine | vaccine | substance given to stimulate a body’s production of antibodies and provide immunity against a disease
+zh 疫苗 yìmiáo | n | Wt
+ja ワクチン wakuchin | y | Wt
+ko 백신 baeksin | y | Wt
+vi vắc-xin | y | Wt
+th วัคซีน wákkhsiin | y | Wt
+id vaksin | y | Wt
+tl bakuna | y | Wt
+hi टीका ṭīkā; वैक्सीन vaiksīn | b | Wt
+bn ভ্যাক্সিন bhyāksin, টীকা | y | Wt
+ta தடுப்பூசி taṭuppūci; spoken vaccine | b | M
+fa واکسن vāksan | y | Wt
+ar لقاح laqāḥ | n | Wt
+tr aşı | n | Wt
+ru вакцина vaktsina | y | Wt
+es vacuna | y | Wt
+fr vaccin | y | Wt
+sw chanjo | n | Wt
+ha allurar rigakafi | n | M
+yo abẹ́rẹ́ àjẹsára | n | M
+qu vacuna (Spanish loan) | y | M
+median: vaksin
+note: 12 strict, 14 lenient; SA ṭīkā and Africa native words compete
+text: First consonant v and b tie at 5 (w 2); names.py maps both to b.

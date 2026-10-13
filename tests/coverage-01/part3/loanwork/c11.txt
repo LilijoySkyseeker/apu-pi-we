@@ -1,0 +1,245 @@
+@ tunnel | tunnel | an underground or underwater passage
+zh 隧道 suìdào | n | Wt
+ja トンネル tonneru | y | Wt
+ko 터널 teoneol | y | Wt
+vi đường hầm | n | Wt
+th อุโมงค์ ʔumoong | n | Wt
+id terowongan | n | Wt
+tl tunel, lagusan | y | M
+hi सुरंग suraṅg | n | Wt
+bn সুড়ঙ্গ suṛaṅga | n | Wt
+ta சுரங்கம் suraṅkam | n | M
+fa تونل tunel | y | Wt
+ar نفق nafaq | n | Wt
+tr tünel | y | Wt
+ru тоннель tonnel' | y | Wt
+es túnel | y | Wt
+fr tunnel | y | Wt
+sw handaki | n | M
+ha rami | n | M
+yo ihò | n | M
+qu túnel (Spanish loan) | y | M
+note: 9; suraṅg family (hi bn ta) and native words elsewhere
+
+@ toilet | toilet | room used for urination and defecation
+zh 厕所 cèsuǒ, 洗手间 | n | Wt
+ja トイレ toire | y | Wt
+ko 화장실 hwajangsil | n | Wt
+vi nhà vệ sinh | n | Wt
+th ห้องน้ำ hɔ̂ng náam "water room" | n | Wt
+id toilet, WC, kamar kecil | y | Wt
+tl palikuran; CR "comfort room" | n | Wt, M
+hi टॉयलेट ṭŏyleṭ (formal शौचालय) | y | Wt, M*
+bn টয়লেট ṭayleṭ, পায়খানা | y | Wt, M*
+ta கழிவறை kaḻivaṟai; spoken ṭāylaṭ | b | Wt, M
+fa دستشویی dastšuyi; توالت tuālet | b | Wt
+ar حمام ḥammām; تواليت twālitt | b | Wt
+tr tuvalet | y | Wt
+ru туалет tualet | y | Wt
+es baño | n | Wt
+fr toilettes | y | Wt
+sw choo | n | Wt
+ha bayan gida "behind the house" | n | M
+yo ilé ìyàgbẹ́ | n | Wt
+qu jisp'ana wasi | n | Wt
+note: 7 strict, 10 lenient; euphemisms dominate ("wash-hand room", "water room", "bath")
+text: The panel mostly uses euphemisms ("hand-washing room", "water room", "bath", "behind the house"), so no single form is shared.
+
+@ studio | studio | place where radio or television programs, records or films are made|set
+zh 演播室 yǎnbōshì | n | Wt
+ja スタジオ sutajio | y | Wt
+ko 스튜디오 seutyudio | y | Wt
+vi phòng thu; studio (photo studio) | b | M
+th สตูดิโอ satuudio | y | M
+id studio | y | M
+tl istudyo | y | M
+hi स्टूडियो sṭūḍiyo | y | M
+bn স্টুডিও sṭuḍio | y | M
+ta ஸ்டுடியோ sṭuṭiyō (Wt gives a coinage) | y | M
+fa استودیو estudiyo | y | Wt
+ar استوديو istūdiyū | y | Wt
+tr stüdyo | y | Wt
+ru студия studija | y | Wt
+es estudio | y | Wt
+fr studio | y | Wt
+sw studio | y | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu estudio (Spanish loan) | y | M
+median: studio
+note: 16 strict, 17 lenient, all 7 regions; seven columns from memory (Wiktionary table is thin)
+text: Prothetic e/i (tl fa ar es qu) is a minority, 5 of 16.
+
+@ profile | profile | summary or collection of information, especially about a person
+zh 个人资料 gèrén zīliào | n | M
+ja プロフィール purofīru | y | Wt
+ko 프로필 peuropil | y | M
+vi hồ sơ; profile also used | b | M
+th โปรไฟล์ proofaai | y | M
+id profil | y | M
+tl profile | y | M
+hi प्रोफ़ाइल profāil | y | M
+bn প্রোফাইল profāil | y | M
+ta சுயவிவரம் suyavivaram; spoken profile | b | M
+fa پروفایل profāyl | y | M
+ar ملف شخصي malaff šaxṣī; بروفايل colloquial | b | M
+tr profil | y | M
+ru профиль profil' | y | Wt
+es perfil | y | Wt
+fr profil | y | Wt
+sw wasifu | n | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu perfil (Spanish loan) | y | M
+median: profil
+note: 13 strict, 16 lenient; the online sense is barely on Wiktionary, so 13 of 20 columns are from memory
+text: The weakest evidence in this set: Wiktionary's tables for this sense cover only 6 languages. Spanish perfil is counted as the same word. Second vowel i (Latin profil) 8 against English ai 5.
+
+@ pope | pope | head of the Roman Catholic Church|pontiff
+zh 教皇 jiàohuáng, 教宗 | n | Wt
+ja 教皇 kyōkō, 法王 | n | Wt
+ko 교황 gyohwang | n | Wt
+vi giáo hoàng | n | Wt
+th สันตะปาปา santapaapaa; โป๊ป póop | y | Wt
+id paus (< Dutch paus) | b | Wt
+tl papa, Santo Papa | y | Wt
+hi पोप pop | b | Wt
+bn ধর্মযাজক dharmayājak "priest" | n | Wt
+ta போப் pōp | b | M
+fa پاپ pāp | y | Wt
+ar بابا bābā | y | Wt
+tr papa | y | Wt
+ru папа (римский) papa | y | Wt
+es papa | y | Wt
+fr pape | y | Wt
+sw papa | y | Wt
+ha Fafaroma "Papa Roma" | y | M
+yo Póòpù | b | M
+qu papa (Spanish loan) | y | M
+median: papa
+note: 11 strict, 15 lenient; English pope/pōp and Dutch paus counted only leniently; papa collides with the baby word "dad"
+text: The form papa is also the baby word for father in many panel languages, the mama/papa question loans.md left open. A religious title is arguably the community's own term (C2), like a name.
+
+@ piano | piano | a keyboard musical instrument
+zh 钢琴 gāngqín "steel zither" | n | Wt
+ja ピアノ piano | y | Wt
+ko 피아노 piano | y | Wt
+vi dương cầm "Western zither"; đàn piano | b | Wt
+th เปียโน piano | y | Wt
+id piano | y | Wt
+tl piyano | y | Wt
+hi पियानो piyāno | y | Wt
+bn পিয়ানো piyāno | y | Wt
+ta பியானோ piyāṉō | y | Wt
+fa پیانو piyāno | y | Wt
+ar بيانو biyānū | y | Wt
+tr piyano | y | Wt
+ru пианино pianino, фортепиано | y | Wt
+es piano | y | Wt
+fr piano | y | Wt
+sw kinanda, piano | y | Wt
+ha (no data) | n | M
+yo dùrù | n | M
+qu yatana qallwa (coinage); piano in bilingual speech | b | Wt, M
+median: piano
+note: 15 strict, 17 lenient
+
+@ physics | physics | branch of science
+zh 物理学 wùlǐxué | n | Wt
+ja 物理学 butsurigaku | n | Wt
+ko 물리학 mullihak | n | Wt
+vi vật lý | n | Wt
+th ฟิสิกส์ fisìk | y | Wt
+id fisika | y | Wt
+tl pisika | y | Wt
+hi भौतिकी bhautikī | n | Wt
+bn পদার্থবিজ্ঞান padārthabijñān | n | Wt
+ta இயற்பியல் iyaṟpiyal | n | Wt
+fa فیزیک fizik | y | Wt
+ar فيزياء fīziyāʾ | y | Wt
+tr fizik | y | Wt
+ru физика fizika | y | Wt
+es física | y | Wt
+fr physique | y | Wt
+sw fizikia | y | Wt
+ha (no data) | n | M
+yo físíìsì | b | M
+qu física (Spanish loan) | y | M
+median: fizika
+note: 11 strict, 12 lenient; EA Sino 物理 and SA Sanskrit coinages, like chemistry
+text: Same pattern as chemistry, one column weaker: EA (物理) and SA (bhautikī, padārtha-) build their own words.
+
+@ mosque | mosque | a place of worship for Muslims
+zh 清真寺 qīngzhēnsì | n | Wt
+ja モスク mosuku | b | Wt
+ko 모스크 moseukeu | b | Wt
+vi nhà thờ Hồi giáo | n | Wt
+th มัสยิด mátsayít | y | Wt
+id masjid, mesjid | y | Wt
+tl moske | b | Wt
+hi मस्जिद masjid | y | Wt
+bn মসজিদ mosjid | y | Wt
+ta மசூதி masūti, மஸ்ஜித் | y | Wt
+fa مسجد masjed | y | Wt
+ar مسجد masjid, جامع jāmiʿ | y | Wt
+tr cami; mescit (small mosque) | b | Wt
+ru мечеть mečet' (< masjid via Turkic) | b | Wt
+es mezquita | b | Wt
+fr mosquée | b | Wt
+sw msikiti | y | Wt
+ha masallaci (< muṣallā) | n | Wt
+yo mọ́ṣáláṣí (< muṣallā) | n | Wt
+qu mezquita (Spanish loan) | b | M
+median: masdʒid
+note: tested as the masjid form: 8 strict; the mosque/mezquita shapes of the same etymon (ja ko tl es fr qu, ru tr) only lenient, 16
+text: Shared column = the Arabic masjid, the community's own word. The European shape mosque/mezquita/mosquée (and ja ko tl from it) goes back to masjid but is not heard as the same word. A religious institution's name arguably follows its community (C2), which would favour masjid regardless of the count.
+
+@ medal | medal | stamped metal disc
+zh 奖牌 jiǎngpái | n | Wt
+ja メダル medaru | y | Wt
+ko 메달 medal | y | Wt
+vi huy chương; mề đay (< French médaille) | b | Wt
+th เหรียญ rǐan | n | Wt
+id medali | y | Wt
+tl medalya | y | Wt
+hi पदक padak; मेडल meḍal | b | Wt
+bn পদক padak; মেডেল meḍel | b | Wt
+ta பதக்கம் patakkam | n | Wt
+fa مدال medāl | y | Wt
+ar ميدالية mīdāliya | y | Wt
+tr madalya | y | Wt
+ru медаль medal' | y | Wt
+es medalla | y | Wt
+fr médaille | y | Wt
+sw nishani | n | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu medalla (Spanish loan) | y | M
+median: medaʎa
+note: 11 strict, 14 lenient; Sanskrit padak (hi bn ta) is the SA word
+text: Median: a final vowel in 8 of 11 (a: tl ar tr es qu), with a palatal l (ʎ, lj) before it in 5; names.py maps ʎ to l.
+
+@ mask | mask | cover for the face
+zh 面具 miànjù; 口罩 kǒuzhào (medical) | n | Wt
+ja マスク masuku (仮面 kamen for costume) | y | Wt
+ko 마스크 maseukeu (가면 for costume) | y | Wt
+vi mặt nạ; khẩu trang (medical) | n | Wt
+th หน้ากาก nâakàak | n | Wt
+id masker (topeng costume) | y | Wt
+tl maskara | y | M
+hi मास्क māsk, मुखौटा | y | Wt
+bn মাস্ক māsk | y | Wt
+ta முகமூடி mukamūṭi; spoken māsk | b | Wt, M
+fa ماسک māsk | y | Wt
+ar قناع qināʿ, كمامة kimāma (medical); colloquial māsk | b | Wt
+tr maske | y | Wt
+ru маска maska | y | Wt
+es máscara; mascarilla (medical) | y | Wt
+fr masque | y | Wt
+sw barakoa | n | Wt
+ha (no data) | n | M
+yo ìbòjú | n | M
+qu máscara (Spanish loan) | y | M
+median: maska
+note: 12 strict, 14 lenient; in ja ko the loan means the medical/face mask, costume masks are native
+text: Median: a final vowel in 8 of 12, a (ru tl es qu) the plurality; -ra after it ties 4/4 with no ending.

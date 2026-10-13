@@ -48,3 +48,63 @@ business	2/20 (7 lenient)	2 (SEA EU) (5 lenient)	fail			2 strict, 7 lenient; San
 hotel	15/20 (17 lenient)	all 7	pass	[hotel]	otelu	15 strict, 17 lenient, all 7 regions; in hi ta sw the word also or mainly means "restaurant"
 energy	10/20 (12 lenient)	5 (no SA SSA) (6 lenient)	borderline	[enerdʒi]	eneludi	10 strict, 12 lenient (spoken Hindi/Bengali); SSA and most of Asia use native "power" words
 sport	5/20 (8 lenient)	3 (EA WA EU) (6 lenient)	fail			5 strict, 8 lenient; most languages use "game/play" or "exercise" words
+machine	12/20 (14 lenient)	6 (no EA)	pass, borderline	[maʃina]	masina	12 strict, 14 lenient; EA and mainland SEA share Sino 機 (zh ja ko vi) and th khrʉ̂ang
+president	6/20 (7 lenient)	3 (SEA EU AM) (4 lenient)	fail			6 strict, 7 lenient; raʾīs family (ar fa sw, tr reis) and Sanskrit -pati (hi bn ta) are larger regional families
+data	8/20 (9 lenient)	5 (no WA AM) (6 lenient)	fail			8 strict, 9 lenient; the calque "givens" (ru fr fa ar) is the competing pattern
+professor	11/20 (13 lenient)	6 (no EA)	borderline	[profesor]	pulofesolu	11 strict, 13 lenient; Sino 教授 (zh ja ko vi) and ustād (fa ar) compete; last vowel tie o 4 / a 4
+project	10/20 (13 lenient)	5 (no EA SSA) (6 lenient)	borderline	[projekt]	puloyekutu	10 strict, 13 lenient; no SSA form
+beer	12/20 (13 lenient)	6 (no AM)	pass	[biar]	biyalu	12 strict (all Wt), 13 lenient; second family cerveza (tl es qu, 3)
+code	15/20 (16 lenient)	all 7	pass	[kod]	kodu	15 strict, 16 lenient, all 7 regions; Mandarin and Vietnamese use Sino 码/mã
+website	11/20 (14 lenient)	5 (no SSA AM) (6 lenient)	borderline	[sait]	sayitu	tested as "site"; 11 strict, 14 lenient; the sait (English) and sit- (id tr es fr) pronunciations counted as one word
+democracy	11/20 (12 lenient)	5 (no EA SA)	borderline	[demokrasia]	demokulasiya	11 strict, 12 lenient; all of East and South Asia use native calques ("people-rule")
+bomb	14/20 (15 lenient)	6 (no EA)	pass	[bomba]	bonba	14 strict, 15 lenient; EA uses Sino 爆弾 (zh ja ko)
+design	10/20 (14 lenient)	5 (no WA SSA) (6 lenient)	borderline	[dizain]	disayin	10 strict, 14 lenient; diseño/disenyo counted with dizain (same skeleton); WA has the loan beside a native word
+station	9/20 (12 lenient)	6 (no EA)	borderline	[stasjon]	sutasuyon	9 strict, 12 lenient; EA uses native words, French and Vietnamese use gare
+captain	15/20 (17 lenient)	6 (no EA) (7 lenient)	pass	[kaptan]	kaputan	15 strict, 17 lenient; EA uses Sino 船長/隊長 by role
+model	13/20 (15 lenient)	all 7	pass	[model]	modelu	13 strict, 15 lenient, all 7 regions; Sino 模 forms (zh vi) differ
+virus	15/20 (17 lenient)	6 (no AM) (7 lenient)	pass	[virus]	bilusu	15 strict, 17 lenient; first vowel i 11 against English ai 4
+restaurant	10/20 (12 lenient)	5 (no SSA AM) (6 lenient)	borderline	[restoran]	lesutolan	10 strict, 12 lenient; "food house/shop" is the common build (th vi ha yo qu); ta and sw use "hotel"
+ticket	10/20 (11 lenient)	4 (no WA EU AM) (5 lenient)	fail			ticket form 10 strict, 11 lenient (4 regions); billet form 5 (fa tr ru es fr; 2 regions); neither passes
+budget	8/20 (10 lenient)	5 (no EA AM)	fail			8 strict, 10 lenient; Sino 預算 (zh ja ko) and Spanish presupuesto differ
+league	15/20	all 7	pass	[liga]	liga	15, all 7 regions; final vowel present 8 / absent 7, so [liga] by one vote ([lig] → ligu)
+album	17/20	all 7	pass	[album]	alubumu	17, all 7 regions; both senses (photo and music album)
+philosophy	11/20 (12 lenient)	5 (no EA SA) (6 lenient)	borderline	[filsafa]	filusafa	11 strict, 12 lenient; two shapes (falsafa 6, filosofia 5) counted as one word; Asia uses Sino 哲学 and Sanskrit darśan
+channel	7/20 (13 lenient)	4 (no WA EU AM) (7 lenient)	borderline	[tʃanel]	tanelu	channel form 7 (4 regions); kanal form 6 (id fa tr ru es qu); same etymon, counted together only leniently (13)
+robot	15/20 (18 lenient)	6 (no AM) (7 lenient)	pass	[robot]	lobotu	15 strict, 18 lenient; "machine person" calque (zh vi th) is the alternative
+mile	18/20	all 7	pass	[mil]	milu	18, all 7; passes the panel, but the unit is not SI (L3), a separate question
+pound	11/20 (14 lenient)	5 (no EU AM) (6 lenient)	borderline	[paund]	pawundu	11 strict, 14 lenient; currency: rung 1 may decide (issuer's name), as loans.md pattern 2; libra/livre family (tl es fr qu, 4)
+cigarette	13/20 (14 lenient)	6 (no EA)	pass	[sigaret]	sigaletu	13 strict, 14 lenient; EA uses the tobacco word (tabako, dambae), SEA native words
+club	14/20 (17 lenient)	all 7	pass	[klab]	kulabu	14 strict, 17 lenient, all 7 regions
+campaign	11/20 (12 lenient)	6 (no SA)	borderline	[kampaɲa]	kanpana	11 strict, 12 lenient; no South Asian form
+taxi	19/20	all 7	pass	[taksi]	takusi	19, all 7 regions
+gas	16/20 (19 lenient)	all 7	pass	[gas]	gasu	16 strict, 19 lenient; Sino 気/khí for the physical state in EA/vi
+museum	8/20 (9 lenient)	4 (no EA SA SSA) (5 lenient)	fail			8 strict, 9 lenient; Asia and Africa build "treasure/history/wonder house" (zh ja ko, bn, ha)
+alcohol	5/20 (8 lenient)	3 (SEA WA EU) (4 lenient)	fail			5 strict, 8 lenient as "alcoholic drink"; the chemical sense (ethanol) would score higher; ʿaraq family (fa tl, ar) and native words dominate
+engine	5/20 (7 lenient)	3 (WA EU AM)	fail			tested as the motor form: 5 strict, 7 lenient; the engine form has 8 (ja ko hi bn ta sw ha yo) and also fails
+chemistry	13/20	5 (no EA SA)	pass	[kimia]	kimiya	13, 5 regions (no EA, SA); fa and fr šimi counted as the same word
+guitar	20/20	all 7	pass	[gitar]	gitalu	universal
+metal	6/20	4 (no EA SA AM)	fail			6; Sino 金属 (4), Sanskrit dhātu (hi bn), felez (fa ar) are regional families
+climate	7/20 (8 lenient)	4 (no EA SA SSA)	fail			7 strict, 8 lenient; Sino 気候 (4) and "water-air" (hi bn fa) compete
+gene	15/20	all 7	pass	[dʒen]	denu	15, all 7 regions; initial consonant a plurality (dʒ 5, g 3, ʒ 3, x/h 3)
+pilot	11/20 (12 lenient)	6 (no SSA)	borderline	[pilot]	pilotu	11 strict, 12 lenient; no SSA form
+fashion	10/20	4 (no EA SA SSA)	fail			tested as the moda form: 10 (4 regions); the fashion form has 6 (ja ko th hi bn ta); neither passes
+plastic	16/20	all 7	pass	[plastik]	pulasutiku	16, all 7 regions
+bar	15/20 (18 lenient)	all 7	pass	[bar]	balu	15 strict, 18 lenient, all 7 regions
+version	10/20 (11 lenient)	5 (no SA SSA) (6 lenient)	fail			10 strict, 11 lenient; Sino 版本 (zh vi), saṃskaraṇ (hi bn) and nusxa (fa ar) are native
+cinema	13/20 (16 lenient)	6 (no EA)	pass	[sinema]	sinema	13 strict, 16 lenient; EA uses "film house" (映画館)
+fuel	5/20 (6 lenient)	3 (SEA WA EU)	fail			three forms, none passes: benzin 5 (6 with th), petrol 6 (hi bn ta sw ha yo), gasoline 4 (ja tl es qu, ko)
+cream	7/20 (12 lenient)	3 (EA SEA EU) (7 lenient)	borderline	[krim]	kulimu	dairy sense 7 strict, 12 lenient (only 3 strict regions); the skin-cream sense passes on the Wt table (ja ko vi th id tl hi bn fa ar tr ru es fr sw, 15)
+passport	13/20 (15 lenient)	all 7	pass	[pasport]	pasupolutu	13 strict, 15 lenient, all 7 regions; EA Sino 護照/旅券
+platform	12/20 (14 lenient)	6 (no SSA)	pass, borderline	[platform]	pulatufolumu	12 strict, 14 lenient; several columns from memory (computing sense is thin on Wiktionary)
+engineer	12/20 (14 lenient)	6 (no WA)	pass, borderline	[indʒiniar]	indiniyalu	12 strict, 14 lenient; muhandis family (fa ar tr, sw mhandisi) is the WA alternative
+vaccine	12/20 (14 lenient)	6 (no SSA)	pass, borderline	[vaksin]	bakusin	12 strict, 14 lenient; SA ṭīkā and Africa native words compete
+tunnel	9/20	5 (no SA SSA)	fail			9; suraṅg family (hi bn ta) and native words elsewhere
+toilet	7/20 (10 lenient)	5 (no SSA AM)	fail			7 strict, 10 lenient; euphemisms dominate ("wash-hand room", "water room", "bath")
+studio	16/20 (17 lenient)	all 7	pass	[studio]	sutudiyo	16 strict, 17 lenient, all 7 regions; seven columns from memory (Wiktionary table is thin)
+profile	13/20 (16 lenient)	6 (no SSA)	pass	[profil]	pulofilu	13 strict, 16 lenient; the online sense is barely on Wiktionary, so 13 of 20 columns are from memory
+pope	11/20 (15 lenient)	5 (no EA SA) (6 lenient)	borderline	[papa]	papa	11 strict, 15 lenient; English pope/pōp and Dutch paus counted only leniently; papa collides with the baby word "dad"
+piano	15/20 (17 lenient)	6 (no AM) (7 lenient)	pass	[piano]	piyano	15 strict, 17 lenient
+physics	11/20 (12 lenient)	5 (no EA SA)	borderline	[fizika]	fisika	11 strict, 12 lenient; EA Sino 物理 and SA Sanskrit coinages, like chemistry
+mosque	8/20 (16 lenient)	4 (no EA EU AM) (7 lenient)	borderline	[masdʒid]	masudidu	tested as the masjid form: 8 strict; the mosque/mezquita shapes of the same etymon (ja ko tl es fr qu, ru tr) only lenient, 16
+medal	11/20 (14 lenient)	5 (no SA SSA) (6 lenient)	borderline	[medaʎa]	medala	11 strict, 14 lenient; Sanskrit padak (hi bn ta) is the SA word
+mask	12/20 (14 lenient)	6 (no SSA)	pass, borderline	[maska]	masuka	12 strict, 14 lenient; in ja ko the loan means the medical/face mask, costume masks are native

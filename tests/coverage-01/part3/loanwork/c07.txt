@@ -1,0 +1,246 @@
+@ design | design | art of designing
+zh 设计 shèjì | n | Wt
+ja デザイン dezain | y | Wt
+ko 디자인 dijain | y | Wt
+vi thiết kế | n | Wt
+th การออกแบบ kaan ɔ̀ɔk bɛ̀ɛp | n | Wt
+id desain | y | Wt
+tl disenyo (Wt coinage antangan) | y | M
+hi डिज़ाइन dizāin | y | Wt
+bn ডিজাইন ḍijāin | y | M
+ta வடிவமைப்பு vaṭivamaippu; spoken design | b | M
+fa طراحی tarrāhi; دیزاین dizāyn | b | Wt
+ar تصميم taṣmīm; ديزاين dīzāyn | b | Wt
+tr tasarım; dizayn | b | Wt
+ru дизайн dizajn | y | Wt
+es diseño | y | Wt
+fr design (conception) | y | Wt
+sw usanifu | n | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu diseño (Spanish loan) | y | M
+median: dizain
+note: 10 strict, 14 lenient; diseño/disenyo counted with dizain (same skeleton); WA has the loan beside a native word
+text: Spanish diseño (and Tagalog disenyo from it) are counted as the same word. In fa ar tr the loan dizāyn exists beside native tarrāhi/taṣmīm/tasarım, which carry the everyday weight.
+
+@ station | station | place where a vehicle may stop
+zh 站 zhàn | n | Wt
+ja 駅 eki | n | Wt
+ko 역 yeok, 정류장 | n | Wt
+vi ga (< French gare), trạm, bến | n | Wt
+th สถานี sathǎanii (Sanskrit sthāna) | n | Wt
+id stasiun | y | Wt
+tl estasyon | y | Wt
+hi स्टेशन sṭešan | y | Wt
+bn স্টেশন sṭešan | y | Wt
+ta நிலையம் nilaiyam; spoken ṭēšan | b | Wt, M
+fa ایستگاه istgāh "stopping place" | n | Wt
+ar محطة maḥaṭṭa | n | Wt
+tr istasyon, gar, durak | y | Wt
+ru станция stantsija (вокзал main rail station) | y | Wt
+es estación | y | Wt
+fr gare; station (metro) | b | Wt
+sw kituo; stesheni (railway) | b | Wt, M
+ha tasha | y | M
+yo ibùdókọ̀ | n | M
+qu estación (Spanish loan) | y | M
+median: stasjon
+note: 9 strict, 12 lenient; EA uses native words, French and Vietnamese use gare
+text: Median: first vowel a (id tl tr ru es qu) over e (hi bn), s over ʃ, then -jon (tl tr es qu). The prothetic e/i of tl es tr qu is a minority.
+
+@ captain | captain | the person lawfully in command of a sea-going vessel
+zh 船长 chuánzhǎng; 队长 duìzhǎng (team) | n | Wt
+ja 船長 senchō; キャプテン kyaputen (team) | b | Wt
+ko 선장 seonjang; 캡틴 kaeptin (team) | b | Wt
+vi thuyền trưởng | n | Wt
+th กัปตัน kàptan | y | Wt
+id kapten | y | Wt
+tl kapitan | y | M
+hi कप्तान kaptān | y | Wt
+bn ক্যাপ্টেন kyāpṭen | y | Wt
+ta கேப்டன் kēpṭaṉ | y | M
+fa کاپیتان kāpitān, ناخدا nāxodā | y | Wt
+ar قبطان qubṭān; كبتن kabtin (team) | y | Wt
+tr kaptan | y | Wt
+ru капитан kapitan | y | Wt
+es capitán | y | Wt
+fr capitaine | y | Wt
+sw nahodha (ship); kapteni (team) | y | Wt
+ha kyaftin | y | M
+yo (no data) | n | M
+qu capitán (Spanish loan) | y | M
+median: kaptan
+note: 15 strict, 17 lenient; EA uses Sino 船長/隊長 by role
+text: East Asia names captains by role (ship-head, team-head). Median: no vowel between p and t in 9 of 15, last vowel a 10 of 15.
+
+@ model | model | simplified representation
+zh 模型 móxíng; 模特 mótè (fashion) | n | Wt
+ja モデル moderu (模型 mokei for a physical model) | y | Wt, M*
+ko 모델 model | y | Wt
+vi mô hình; người mẫu (fashion) | n | Wt
+th แบบจำลอง bɛ̀ɛp jamloong; โมเดล moodeen | b | Wt
+id model | y | Wt
+tl modelo (Wt coinage hulwaran) | y | M
+hi मॉडल mŏḍal | y | Wt
+bn মডেল maḍel | y | M
+ta மாதிரி mātiri | n | M
+fa مدل model | y | Wt
+ar نموذج namūḏaj; موديل mūdīl (fashion, car) | b | Wt
+tr model | y | M
+ru модель model' | y | Wt
+es modelo | y | Wt
+fr modèle | y | Wt
+sw modeli | y | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu modelo (Spanish loan) | y | M
+median: model
+note: 13 strict, 15 lenient, all 7 regions; Sino 模 forms (zh vi) differ
+text: Median: consonant-final (ko id hi bn fa tr ru fr) 8 against -o (tl es qu) and -u/-i.
+
+@ virus | virus | infectious organism
+zh 病毒 bìngdú | n | Wt
+ja ウイルス uirusu | y | Wt
+ko 바이러스 baireoseu | y | Wt
+vi vi-rút | y | Wt
+th ไวรัส wairát | y | Wt, M*
+id virus | y | Wt
+tl birus, virus | y | Wt
+hi वाइरस vāiras (formal विषाणु) | y | Wt, M*
+bn ভাইরাস bhāiras | y | Wt
+ta தீ நுண்மம் (coinage); spoken vairas | b | Wt, M
+fa ویروس virus | y | Wt
+ar فيروس fīrūs | y | Wt
+tr virüs | y | Wt
+ru вирус virus | y | Wt
+es virus | y | Wt
+fr virus | y | Wt
+sw virusi | y | Wt
+ha ƙwayar cuta | n | M
+yo kòkòrò àrùn | n | M
+qu añaw (Wt); virus in bilingual speech | b | Wt, M
+median: virus
+note: 15 strict, 17 lenient; first vowel i 11 against English ai 4
+text: Median: i (Latin pronunciation) 11 against ai (ko th hi bn, from English) 4.
+
+@ restaurant | restaurant | an eating establishment in which diners are served food
+zh 餐厅 cāntīng, 饭馆 | n | Wt
+ja レストラン resutoran | y | Wt
+ko 식당 sikdang; 레스토랑 (Western) | b | Wt
+vi nhà hàng, quán ăn | n | Wt
+th ร้านอาหาร ráan aahǎan | n | Wt
+id restoran, rumah makan | y | Wt
+tl restawran | y | Wt
+hi रेस्तरां restarā̃ (formal भोजनालय) | y | Wt, M*
+bn রেস্টুরেন্ট resṭurenṭ | y | Wt
+ta உணவகம் uṇavakam, ஓட்டல் ōṭṭal | n | Wt
+fa رستوران restorān | y | Wt
+ar مطعم maṭʿam | n | Wt
+tr restoran, lokanta | y | Wt
+ru ресторан restoran | y | Wt
+es restaurante | y | Wt
+fr restaurant | y | Wt
+sw mkahawa, hoteli | n | Wt
+ha gidan abinci | n | M
+yo ilé-oúnjẹ "food house" | n | Wt
+qu mikhuna wasi "food house" (Wt); restaurante in bilingual speech | b | Wt, M
+median: restoran
+note: 10 strict, 12 lenient; "food house/shop" is the common build (th vi ha yo qu); ta and sw use "hotel"
+text: Several languages use the hotel word for an eating place (ta ōṭṭal, sw hoteli), and "food house/shop" is the common native build.
+
+@ ticket | ticket | pass for transportation
+zh 票 piào | n | Wt
+ja 切符 kippu (train); チケット chiketto (events) | y | Wt
+ko 티켓 tiket, 표 pyo | y | Wt
+vi vé | n | Wt
+th ตั๋ว tǔa | n | Wt
+id tiket | y | Wt
+tl tiket | y | M
+hi टिकट ṭikaṭ | y | Wt
+bn টিকেট ṭikeṭ | y | Wt
+ta டிக்கெட் ṭikkeṭ | y | M
+fa بلیت belit | n | Wt
+ar تذكرة taḏkira | n | Wt
+tr bilet | n | Wt
+ru билет bilet | n | Wt
+es boleto, billete (tiquete in Colombia) | n | Wt
+fr billet; ticket (metro, bus) | b | Wt
+sw tiketi | y | Wt
+ha tikiti | y | M
+yo tíkẹ́ẹ̀tì | y | M
+qu boleto (Spanish loan) | n | M
+note: ticket form 10 strict, 11 lenient (4 regions); billet form 5 (fa tr ru es fr; 2 regions); neither passes
+text: The two international forms split the panel: ticket (Asia, Africa) and billet (fa tr ru es fr, plus es boleto). Neither reaches 12, so the panel does not choose; zh piào, vi vé, th tǔa and ar taḏkira are native.
+
+@ budget | budget | amount of money or resources earmarked for a particular institution, activity or time-frame
+zh 预算 yùsuàn | n | Wt
+ja 予算 yosan | n | Wt
+ko 예산 yesan | n | Wt
+vi ngân sách | n | Wt
+th งบประมาณ ngóp pramaan | n | Wt
+id anggaran; bujet | b | Wt
+tl badyet | y | M
+hi बजट bajaṭ | y | Wt
+bn বাজেট bājeṭ | y | Wt
+ta வரவு-செலவுத் திட்டம்; spoken bajeṭ | b | M
+fa بودجه budje | y | Wt
+ar ميزانية mīzāniyya | n | Wt
+tr bütçe | y | Wt
+ru бюджет bjudžet | y | Wt
+es presupuesto | n | Wt
+fr budget | y | Wt
+sw bajeti | y | Wt
+ha kasafin kuɗi | n | M
+yo ìṣúná | n | M
+qu presupuesto (Spanish loan) | n | M
+note: 8 strict, 10 lenient; Sino 預算 (zh ja ko) and Spanish presupuesto differ
+
+@ league | league | organization of sports teams
+zh 联赛 liánsài, 联盟 | n | Wt
+ja リーグ rīgu | y | Wt
+ko 리그 rigeu | y | Wt
+vi giải, hạng | n | Wt
+th ลีก líik | y | Wt
+id liga | y | Wt
+tl liga | y | Wt
+hi लीग līg | y | Wt
+bn লিগ lig | y | Wt
+ta லீக் līk | y | M
+fa لیگ lig | y | Wt
+ar دوري dawrī | n | Wt
+tr lig | y | Wt
+ru лига liga | y | Wt
+es liga | y | Wt
+fr ligue | y | Wt
+sw ligi | y | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu liga (Spanish loan) | y | M
+median: liga
+note: 15, all 7 regions; final vowel present 8 / absent 7, so [liga] by one vote ([lig] → ligu)
+text: Final vowel: present in 8 (a: id tl ru es qu; u: ja ko; i: sw) against 7 consonant-final (th hi bn ta fa tr fr). [lig] would give *ligu*.
+
+@ album | album | book for photographs, stamps, or autographs
+zh 相册 xiàngcè, 专辑 zhuānjí (music) | n | Wt
+ja アルバム arubamu | y | Wt
+ko 앨범 aelbeom | y | Wt
+vi an-bom, album | y | Wt
+th อัลบั้ม anlabâm | y | Wt
+id album | y | Wt
+tl album | y | Wt
+hi अलबम albam | y | Wt
+bn অ্যালবাম ælbām | y | Wt
+ta ஆல்பம் ālbam | y | M
+fa آلبوم ālbom | y | Wt
+ar ألبوم albūm | y | Wt
+tr albüm | y | Wt
+ru альбом al'bom | y | Wt
+es álbum | y | Wt
+fr album | y | Wt
+sw albamu | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu álbum (Spanish loan) | y | M
+median: album
+note: 17, all 7 regions; both senses (photo and music album)
+text: Second vowel u (ja id tl ar es fr qu, tr y) 8 against a (ko th hi bn ta sw) 6 and o (vi fa ru) 3.

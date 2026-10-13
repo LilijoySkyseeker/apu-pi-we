@@ -1,0 +1,245 @@
+@ video | video | television show, movie
+zh 视频 shìpín | n | Wt
+ja 動画 dōga (online); ビデオ bideo | b | Wt
+ko 영상 yeongsang; 비디오 bidio | b | Wt
+vi video, vi-đê-ô | y | Wt, M*
+th วิดีโอ widiioo | y | Wt
+id video | y | Wt
+tl video | y | M
+hi वीडियो vīḍiyo | y | Wt
+bn ভিডিও bhiḍio | y | Wt
+ta வீடியோ vīṭiyō | y | M
+fa ویدیو vidiyo | y | Wt
+ar فيديو fīdyū | y | Wt
+tr video | y | Wt
+ru видео video | y | Wt
+es vídeo, video | y | Wt
+fr vidéo | y | Wt
+sw filamu (Wt); video in speech | b | Wt, M
+ha bidiyo | y | M
+yo fídíò | y | M
+qu video (Spanish loan) | y | M
+median: video
+note: 16 strict, 19 lenient; median second vowel tie e 8 / i 8, lenient ja ko sw break it for e
+text: Second vowel: e (vi id tl tr ru es fr qu) 8 against i/j (th hi bn ta fa ar ha yo) 8; the lenient forms (ja bideo, ko bidio, sw video) favour e. [vidio] would give *bidiyo*.
+
+@ bank | bank | institution
+zh 银行 yínháng | n | Wt
+ja 銀行 ginkō | n | Wt
+ko 은행 eunhaeng | n | Wt
+vi ngân hàng (nhà băng dated) | n | Wt
+th ธนาคาร thanaakhaan | n | Wt
+id bank | y | Wt
+tl bangko | y | Wt
+hi बैंक baiṅk | y | Wt
+bn ব্যাংক byāṅk | y | Wt
+ta வங்கி vaṅki | y | Wt
+fa بانک bānk | y | Wt
+ar بنك bank, مصرف maṣrif | y | Wt
+tr banka | y | Wt
+ru банк bank | y | Wt
+es banco | y | Wt
+fr banque | y | Wt
+sw benki | y | Wt
+ha banki | y | Wt
+yo báńkì | y | M
+qu banco (Spanish loan) | y | M
+median: banki
+note: 15, 6 regions; EA and mainland SEA share Sino 銀行 (zh ja ko vi, 4)
+text: Median: a final vowel in 8 of 15 forms (i: ta sw ha yo 4, o: tl es qu 3, a: tr), so [banki]; the consonant-final forms (id hi bn fa ar ru fr) are 7, so [bank] → *banku* is one vote away.
+
+@ office | office | room(s) or building used for non-manual work
+zh 办公室 bàngōngshì | n | Wt
+ja 事務所 jimusho; オフィス ofisu | b | Wt
+ko 사무실 samusil; 오피스 opiseu | b | Wt
+vi văn phòng | n | Wt
+th สำนักงาน samnákngaan; spoken ออฟฟิศ ɔ́ɔfít | b | Wt
+id kantor | n | Wt
+tl opisina | y | Wt
+hi कार्यालय kāryālay (formal); spoken ऑफ़िस ŏfis | b | Wt, M
+bn অফিস ophis, দপ্তর daptar | y | Wt
+ta அலுவலகம் aluvalakam; spoken ஆபீஸ் āpīs | b | Wt, M
+fa دفتر daftar (آفیس āfis in Afghanistan) | n | Wt
+ar مكتب maktab | n | Wt
+tr ofis, büro | y | Wt, M*
+ru офис ofis, контора | y | Wt
+es oficina | y | Wt
+fr bureau | n | Wt
+sw ofisi, afisi | y | Wt
+ha ofis | y | M
+yo ọ́fíìsì | y | M
+qu oficina (Spanish loan) | y | M
+median: ofis
+note: 9 strict, 14 lenient; the gap is spoken English "office" beside a formal native word (ja ko th hi ta)
+text: Median of all 14 cognates [ofis].
+
+@ program | program | software application
+zh 程序 chéngxù, 应用 | n | Wt
+ja プログラム puroguramu | y | Wt
+ko 프로그램 peurogeuraem | y | Wt
+vi chương trình | n | Wt
+th โปรแกรม proograem | y | Wt
+id program | y | Wt
+tl programa | y | M
+hi प्रोग्राम progrām | y | Wt
+bn প্রোগ্রাম progrām | y | Wt
+ta நிரல் niral; spoken program | b | M
+fa برنامه barnāme; پروگرام porogrām | b | Wt
+ar برنامج barnāmaj (< Persian barnāme) | n | Wt
+tr program | y | Wt
+ru программа programma | y | Wt
+es programa | y | Wt
+fr programme | y | Wt
+sw programu | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu programa (Spanish loan) | y | M
+median: program
+note: 13 strict, 15 lenient, all 7 regions
+text: Median: consonant-final (th id hi bn tr fr ko) 7 against -a (tl ru es qu) 4 and -u (ja sw) 2.
+
+@ technology | technology | the study of or a collection of techniques
+zh 技术 jìshù, 科技 | n | Wt
+ja 技術 gijutsu; テクノロジー tekunorojī | b | Wt
+ko 기술 gisul; 테크놀로지 | b | Wt
+vi công nghệ, kỹ thuật | n | Wt
+th เทคโนโลยี theknooloyii | y | Wt
+id teknologi | y | Wt
+tl teknolohiya | y | Wt
+hi टैक्नोलॉजी ṭaiknolojī (formal प्रौद्योगिकी) | y | Wt
+bn প্রযুক্তি prajukti; spoken technology | b | Wt, M
+ta தொழில்நுட்பம் toḻilnuṭpam | n | Wt
+fa تکنولوژی teknoloži (official فناوری fanāvari) | y | Wt, M*
+ar تكنولوجيا teknolōjyā, تقنية taqniya | y | Wt
+tr teknoloji | y | Wt
+ru технология texnologija | y | Wt
+es tecnología | y | Wt
+fr technologie | y | Wt
+sw teknolojia | y | Wt
+ha fasaha | n | M
+yo ìmọ̀-ẹ̀rọ | n | M
+qu tecnología (Spanish loan) | y | M
+median: teknolodʒi
+note: 12 strict, 15 lenient; median consonant dʒ is a plurality (dʒ 4, x/h 3, ʒ 2, g 2); final -i/-ia tie 6/6, shorter taken
+text: Median: the consonant before the last vowel is dʒ (hi ar tr sw) 4, x/h (tl es qu) 3, ʒ (fa fr) 2, g (id ru) 2; the ending -i (th id hi fa tr fr) and -ia (tl ar ru es sw qu) tie 6/6; I took the shorter.
+
+@ computer | computer | programmable electronic device
+zh 电脑 diànnǎo | n | Wt
+ja コンピューター konpyūtā, パソコン | y | Wt
+ko 컴퓨터 keompyuteo | y | Wt
+vi máy tính | n | Wt
+th คอมพิวเตอร์ khɔmphiwtəə, คอม | y | Wt
+id komputer | y | Wt
+tl kompyuter | y | Wt
+hi कंप्यूटर kampyūṭar (formal संगणक) | y | Wt, M*
+bn কম্পিউটার kampiuṭār | y | Wt
+ta கணினி kaṇiṉi, கம்ப்யூட்டர் kampyūṭṭar | y | Wt, M*
+fa کامپیوتر kāmpyuter (official رایانه rāyāne) | y | Wt
+ar كمبيوتر kambyūtar (formal حاسوب ḥāsūb) | y | Wt, M*
+tr bilgisayar | n | Wt
+ru компьютер komp'juter | y | Wt
+es computadora (Latin America), ordenador (Spain) | y | Wt, M*
+fr ordinateur | n | Wt
+sw kompyuta | y | Wt
+ha kwamfuta (Wt na'ura "machine") | y | M*
+yo kọ̀ǹpútà | y | Wt
+qu antañiqiq (coinage); computadora in bilingual speech | b | Wt, M
+median: kompjutar
+note: 15 strict, 16 lenient; first vowel tie o 7 / a 7; long adapted form; du sunbu exists in compounds.tsv
+text: First vowel ties: o (ja th id tl es sw yo) against a (hi bn ta fa ar ru ha); [kampjutar] gives *kanpuyutalu*. Either way 5 syllables, against the existing compound *du sunbu*.
+
+@ business | business | commercial enterprise or establishment
+zh 企业 qǐyè, 生意 shēngyi | n | Wt
+ja 事業 jigyō, 企業; ビジネス bijinesu | b | Wt, M
+ko 사업 saeop; 비즈니스 bijeuniseu | b | Wt, M
+vi doanh nghiệp, kinh doanh | n | Wt
+th ธุรกิจ thurakìt | n | Wt
+id bisnis, usaha (Wt perusahaan "company") | y | M*
+tl negosyo; Taglish bisnes | b | Wt, M
+hi व्यापार vyāpār, व्यवसाय; spoken बिज़नेस | b | Wt, M
+bn ব্যবসা byabsā | n | Wt
+ta வியாபாரம் viyāpāram | n | M
+fa تجارت tejārat; بیزینس colloquial | b | Wt, M
+ar تجارة tijāra, شركة šarika | n | Wt
+tr iş, işletme | n | Wt
+ru бизнес biznes | y | Wt
+es negocio (bisnes rare) | n | Wt
+fr affaires, entreprise (le business colloquial) | n | Wt
+sw biashara | n | Wt
+ha kasuwanci | n | M
+yo òwò | n | M
+qu (no data) | n | M
+note: 2 strict, 7 lenient; Sanskrit vyāpār (hi ta) and Arabic tijāra (ar fa) families regional
+
+@ hotel | hotel | establishment providing accommodation
+zh 酒店 jiǔdiàn, 宾馆 bīnguǎn | n | Wt
+ja ホテル hoteru | y | Wt
+ko 호텔 hotel | y | Wt
+vi khách sạn | n | Wt
+th โรงแรม roongrɛɛm | n | Wt
+id hotel | y | Wt
+tl hotel | y | Wt
+hi होटल hoṭal | y | Wt
+bn হোটেল hoṭel | y | Wt
+ta ஹோட்டல் hōṭṭal | y | Wt
+fa هتل hotel | y | Wt
+ar فندق funduq; colloquial أوتيل ōtēl | b | Wt
+tr otel | y | Wt
+ru гостиница gostinica; отель otel' | b | Wt
+es hotel | y | Wt
+fr hôtel | y | Wt
+sw hoteli (also "restaurant") | y | Wt
+ha hotel, otal | y | Wt
+yo hòtẹ́ẹ̀lì | y | M
+qu hotel (Spanish loan) | y | M
+median: hotel
+note: 15 strict, 17 lenient, all 7 regions; in hi ta sw the word also or mainly means "restaurant"
+text: In Indian English, Hindi, Tamil and Swahili "hotel/hoteli" commonly means an eating house, so the shared form is broader than the English sense. names.py drops h: [hotel] → *otelu*.
+
+@ energy | energy | physics
+zh 能量 néngliàng | n | Wt
+ja エネルギー enerugī | y | Wt
+ko 에너지 eneoji | y | Wt
+vi năng lượng | n | Wt
+th พลังงาน phalang-ngaan | n | Wt
+id energi | y | Wt
+tl enerhiya | y | M
+hi ऊर्जा ūrjā; spoken energy | b | Wt, M
+bn শক্তি śakti; spoken energy | b | Wt, M
+ta ஆற்றல் āṟṟal | n | M
+fa انرژی enerži | y | Wt
+ar طاقة ṭāqa | n | Wt
+tr enerji | y | Wt
+ru энергия energija | y | Wt
+es energía | y | Wt
+fr énergie | y | Wt
+sw nishati | n | M
+ha kuzari | n | Wt
+yo agbára | n | M
+qu energía (Spanish loan) | y | M
+median: enerdʒi
+note: 10 strict, 12 lenient (spoken Hindi/Bengali); SSA and most of Asia use native "power" words
+text: Many languages lump energy with "power, strength" (th phalang, hi śakti, bn śakti, ha kuzari, yo agbára), which the lexicon may already have. Median consonant: dʒ (ko tr hi bn) 4, g (ja id ru) 3, x/h (tl es qu) 3, ʒ (fa fr) 2.
+
+@ sport | sport | any athletic activity that uses physical skills
+zh 运动 yùndòng | n | Wt
+ja スポーツ supōtsu | y | Wt
+ko 스포츠 seupocheu, 운동 undong | y | Wt
+vi thể thao | n | Wt
+th กีฬา kiilaa | n | Wt
+id olahraga | n | Wt
+tl palakasan; Taglish sports | b | Wt, M
+hi खेल khel; spoken sports | b | Wt
+bn খেলা khelā | n | Wt
+ta விளையாட்டு viḷaiyāṭṭu | n | Wt
+fa ورزش varzeš | n | Wt
+ar رياضة riyāḍa | n | Wt
+tr spor | y | Wt
+ru спорт sport | y | Wt
+es deporte (same etymon, not heard as the same word) | n | Wt
+fr sport | y | Wt
+sw michezo; spoti | b | Wt
+ha wasanni | n | M
+yo eré ìdárayá | n | M
+qu pukllay "game" | n | M
+note: 5 strict, 8 lenient; most languages use "game/play" or "exercise" words

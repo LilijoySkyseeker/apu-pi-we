@@ -1,0 +1,247 @@
+@ philosophy | philosophy | academic discipline
+zh 哲学 zhéxué | n | Wt
+ja 哲学 tetsugaku | n | Wt
+ko 철학 cheolhak | n | Wt
+vi triết học | n | Wt
+th ปรัชญา pràtyaa | n | Wt
+id filsafat (< Arabic falsafa) | y | Wt
+tl pilosopiya | y | Wt
+hi दर्शन darśan; फ़लसफ़ा falsafā (Urdu) | b | Wt
+bn দর্শন darśan | n | M
+ta தத்துவம் tattuvam | n | Wt
+fa فلسفه falsafe | y | Wt
+ar فلسفة falsafa | y | Wt
+tr felsefe | y | Wt
+ru философия filosofija | y | Wt
+es filosofía | y | Wt
+fr philosophie | y | Wt
+sw falsafa | y | Wt
+ha falsafa | y | M
+yo ìmọ̀ ọgbọ́n | n | M
+qu filosofía (Spanish loan) | y | M
+median: filsafa
+note: 11 strict, 12 lenient; two shapes (falsafa 6, filosofia 5) counted as one word; Asia uses Sino 哲学 and Sanskrit darśan
+text: The Arabic-mediated falsafa (id fa ar tr sw ha) and the Greek-Latin filosofia (tl ru es fr qu) share the skeleton f-l-s-f and are counted as one word. The per-position median blends them: [filsafa].
+
+@ channel | channel | broadcasting: specific radio frequency or band of frequencies used for transmitting television
+zh 频道 píndào | n | Wt
+ja チャンネル channeru | y | Wt
+ko 채널 chaeneol | y | Wt
+vi kênh | n | Wt
+th ช่อง chɔ̂ng | n | Wt
+id saluran; kanal | b | M
+tl channel (Wt coinage alunan) | y | M
+hi चैनल cainal | y | Wt
+bn চ্যানেল cyānel | y | Wt
+ta சேனல் cēṉal | y | M
+fa کانال kānāl | b | Wt
+ar قناة qanāt | n | Wt
+tr kanal | b | Wt
+ru канал kanal | b | Wt
+es canal | b | Wt
+fr chaîne | n | Wt
+sw chaneli | y | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu canal (Spanish loan) | b | M
+median: tʃanel
+note: channel form 7 (4 regions); kanal form 6 (id fa tr ru es qu); same etymon, counted together only leniently (13)
+text: The panel splits between English channel (ja ko tl hi bn ta sw) and Latin-Romance kanal (fa tr ru es qu, id). They share an etymon but tʃanel and kanal are not heard as one word. Neither form passes alone. Median of the channel form [tʃanel]; [kanal] would give *kanalu*.
+
+@ robot | robot | intelligent mechanical being
+zh 机器人 jīqìrén "machine person" | n | Wt
+ja ロボット robotto | y | Wt
+ko 로봇 robot | y | Wt
+vi rô-bốt, người máy | y | Wt, M*
+th หุ่นยนต์ hùn yon; โรบอต roobɔ̀t | b | Wt
+id robot | y | Wt
+tl robot | y | Wt
+hi रोबोट robot | y | Wt
+bn রোবট robaṭ | y | Wt
+ta ரோபோ robo | y | Wt
+fa روبات robāt | y | Wt
+ar روبوت rūbūt | y | Wt
+tr robot | y | Wt
+ru робот robot | y | Wt
+es robot | y | Wt
+fr robot | y | Wt
+sw roboti | y | Wt
+ha saƙago | n | Wt
+yo (no data) | b | M
+qu antapunqu (coinage); robot in bilingual speech | b | Wt, M
+median: robot
+note: 15 strict, 18 lenient; "machine person" calque (zh vi th) is the alternative
+
+@ mile | mile | measure of length
+zh 英里 yīnglǐ "English li" | n | Wt
+ja マイル mairu | y | Wt
+ko 마일 mail | y | Wt
+vi dặm | n | Wt
+th ไมล์ mai | y | Wt
+id mil | y | Wt
+tl milya | y | Wt
+hi मील mīl | y | Wt
+bn মাইল māil | y | Wt
+ta மைல் mail | y | Wt
+fa مایل māyl | y | Wt
+ar ميل mīl | y | Wt
+tr mil | y | Wt
+ru миля milja | y | Wt
+es milla | y | Wt
+fr mille | y | Wt
+sw maili | y | M
+ha mil | y | M
+yo máìlì | y | Wt
+qu milla (Spanish loan) | y | M
+median: mil
+note: 18, all 7; passes the panel, but the unit is not SI (L3), a separate question
+text: The panel shares the word, but the unit is outside the metric standard the language follows (L3); whether it needs a word at all is for the author. Vowel i (Latin mil-) 9 against ai (English) 8.
+
+@ pound | pound | unit of currency
+zh 镑 bàng | y | Wt
+ja ポンド pondo | y | Wt
+ko 파운드 paundeu | y | Wt
+vi bảng | y | Wt
+th ปอนด์ pɔn | y | Wt
+id paun | y | Wt
+tl libra | n | M
+hi पाउंड pāuṇḍ | y | Wt
+bn পাউন্ড pāunḍ | y | Wt
+ta பவுண்டு pavuṇṭu | y | M
+fa پوند pond | y | Wt
+ar جنيه junayh (< guinea) | n | Wt
+tr sterlin, pound | n | M
+ru фунт funt | b | Wt
+es libra | n | Wt
+fr livre | n | Wt
+sw pauni | y | Wt
+ha fam | b | Wt
+yo pọ́n-ùn | b | M
+qu libra (Spanish loan) | n | M
+median: paund
+note: 11 strict, 14 lenient; currency: rung 1 may decide (issuer's name), as loans.md pattern 2; libra/livre family (tl es fr qu, 4)
+text: As a currency, loans.md's pattern 2 applies: the issuer's name (pound sterling) may settle it as a name rather than a loan. Russian funt and Hausa fam come from pound but are hard to hear as it.
+
+@ cigarette | cigarette | thin roll of tobacco made for smoking
+zh 香烟 xiāngyān | n | Wt
+ja タバコ tabako | n | Wt
+ko 담배 dambae | n | Wt
+vi thuốc lá | n | Wt
+th บุหรี่ burìi | n | Wt
+id rokok | n | Wt
+tl sigarilyo, yosi | y | Wt
+hi सिगरेट sigreṭ | y | Wt
+bn সিগারেট sigāreṭ | y | Wt
+ta சிகரெட் sikareṭ | y | Wt
+fa سیگار sigār, سیگارت | y | Wt
+ar سيجارة sījāra | y | Wt
+tr sigara | y | Wt
+ru сигарета sigareta | y | Wt
+es cigarrillo | y | Wt
+fr cigarette | y | Wt
+sw sigara | y | Wt
+ha taba; sigari | b | M
+yo sìgá | y | M
+qu cigarro (Spanish loan) | y | M
+median: sigaret
+note: 13 strict, 14 lenient; EA uses the tobacco word (tabako, dambae), SEA native words
+text: Median: after sigar-, e (hi bn ta fa ru fr) 6 is a plurality over a (ar tr sw) 3; then t in 6 against 4 endings.
+
+@ club | club | association of members
+zh 俱乐部 jùlèbù (sound loan) | y | Wt
+ja クラブ kurabu | y | Wt
+ko 동아리 dongari, 동호회; 클럽 (nightclub, football club) | b | Wt
+vi câu lạc bộ (< 俱樂部) | y | Wt
+th สโมสร samooson; คลับ khláp | b | Wt
+id klub | y | Wt
+tl klab | y | M
+hi क्लब klab | y | Wt
+bn ক্লাব klāb | y | Wt
+ta கழகம் kaḻakam; spoken klap | b | M
+fa باشگاه bāšgāh | n | Wt
+ar نادي nādī | n | Wt
+tr kulüp | y | Wt
+ru клуб klub | y | Wt
+es club | y | Wt
+fr club | y | Wt
+sw klabu | y | Wt
+ha kulob | y | M
+yo (no data) | n | M
+qu club (Spanish loan) | y | M
+median: klab
+note: 14 strict, 17 lenient, all 7 regions
+text: Mandarin jùlèbù and Vietnamese câu lạc bộ are sound loans (via Japanese 倶楽部) and count. Main vowel a (ja tl hi bn sw vi) 6 against u (id ru es qu, tr y) 5.
+
+@ campaign | campaign | series of operations undertaken to achieve a set goal
+zh 活动 huódòng | n | Wt
+ja キャンペーン kyanpēn | y | Wt
+ko 캠페인 kaempein | y | Wt
+vi chiến dịch | n | Wt
+th การรณรงค์ kaan ronnarong | n | Wt
+id kampanye | y | Wt
+tl kampanya | y | Wt
+hi अभियान abhiyān, मुहिम | n | Wt
+bn প্রচার pracār | n | Wt
+ta பிரச்சாரம் piraccāram | n | M
+fa کارزار kārzār; کمپین kampein | b | Wt
+ar حملة ḥamla | n | Wt
+tr kampanya | y | Wt
+ru кампания kampanija | y | Wt
+es campaña | y | Wt
+fr campagne | y | Wt
+sw kampeni | y | Wt
+ha kamfe | y | M
+yo ìpolongo | n | M
+qu campaña (Spanish loan) | y | M
+median: kampaɲa
+note: 11 strict, 12 lenient; no South Asian form
+text: South Asia (abhiyān, pracār) and Arabic ḥamla are native.
+
+@ taxi | taxi | vehicle available for public hire
+zh 出租车 chūzūchē (的士 dīshì in Hong Kong) | n | Wt
+ja タクシー takushī | y | Wt
+ko 택시 taeksi | y | Wt
+vi tắc-xi | y | Wt
+th แท็กซี่ thɛ́ksîi | y | Wt
+id taksi | y | Wt
+tl taxi | y | Wt
+hi टैक्सी ṭaiksī | y | Wt
+bn ট্যাক্সি ṭyāksi | y | Wt
+ta டாக்ஸி ṭāksi | y | Wt
+fa تاکسی tāksi | y | Wt
+ar تاكسي tāksī | y | Wt
+tr taksi | y | Wt
+ru такси taksi | y | Wt
+es taxi | y | Wt
+fr taxi | y | Wt
+sw teksi | y | Wt
+ha tasi | y | Wt
+yo takisí | y | Wt
+qu taxi (Spanish loan) | y | M
+median: taksi
+note: 19, all 7 regions
+
+@ gas | gas | (uncountable, chemistry) state of matter
+zh 气体 qìtǐ, 气 | n | Wt
+ja 気体 kitai; ガス gasu (fuel gas) | b | Wt
+ko 가스 gaseu, 기체 | y | Wt
+vi khí; ga (fuel gas) | b | Wt
+th ก๊าซ kɛ́ɛt | y | Wt
+id gas | y | Wt
+tl gas (Wt coinage buhag) | y | M
+hi गैस gais | y | Wt
+bn গ্যাস gyās | y | Wt
+ta வாயு vāyu; spoken gas | b | Wt, M
+fa گاز gāz | y | Wt
+ar غاز ġāz | y | Wt
+tr gaz | y | Wt
+ru газ gaz | y | Wt
+es gas | y | Wt
+fr gaz | y | Wt
+sw gesi | y | Wt
+ha gas | y | M
+yo gáàsì | y | Wt
+qu gas (Spanish loan) | y | M
+median: gas
+note: 16 strict, 19 lenient; Sino 気/khí for the physical state in EA/vi
+text: s (ko th id tl hi bn es sw ha yo qu) against z (fa ar tr ru fr).

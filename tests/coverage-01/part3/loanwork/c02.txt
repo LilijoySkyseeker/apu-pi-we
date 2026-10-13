@@ -1,0 +1,244 @@
+@ pajamas | pajamas | clothes for wearing to bed and sleeping in
+zh 睡衣 shuìyī | n | Wt
+ja パジャマ pajama | y | Wt
+ko 잠옷 jamot; 파자마 pajama also | b | Wt, M*
+vi đồ ngủ; pijama also | b | Wt
+th ชุดนอน chút nɔɔn | n | Wt
+id piyama | y | Wt
+tl padyama, pandiyama | y | Wt
+hi पाजामा pājāmā | y | Wt
+bn পায়জামা pāyjāmā | y | Wt
+ta பைஜாமா paijāmā | y | M
+fa پیژامه pižāme | y | Wt
+ar بيجاما bījāma (formal منامة manāma) | y | Wt, M*
+tr pijama | y | Wt
+ru пижама pižama | y | Wt
+es pijama | y | Wt
+fr pyjama | y | Wt
+sw (no data; pajama likely) | b | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu pijama (Spanish loan) | y | M
+median: pidʒama
+note: 13 strict, 16 lenient; the word is Hindi/Persian in origin; Africa unattested
+text: First vowel i (id fa ar tr ru es fr qu) 8 against a (ja tl hi bn ta) 5. Middle consonant dʒ (ja tl hi bn ta ar) 6, ʒ (fa tr ru fr) 4, x (es qu) 2, j (id) 1.
+
+@ radio | radio | receiver|radioreceptor
+zh 收音机 shōuyīnjī | n | Wt
+ja ラジオ rajio | y | Wt
+ko 라디오 radio | y | Wt
+vi ra-đi-ô | y | Wt
+th วิทยุ witthayú | n | M
+id radio | y | Wt
+tl radyo | y | Wt
+hi रेडियो reḍiyo | y | Wt
+bn রেডিও reḍio | y | M
+ta வானொலி vāṉoli; spoken "radio" | b | Wt, M
+fa رادیو rādiyo | y | Wt
+ar راديو rādyū (formal مذياع miḏyāʿ) | y | Wt
+tr radyo | y | Wt
+ru радио radio | y | Wt
+es radio | y | Wt
+fr radio | y | Wt
+sw redio | y | Wt
+ha rediyo | y | Wt
+yo rédíò | y | M
+qu radio (Spanish loan) | y | M
+median: radio
+note: universal except zh th (and ta formal); first vowel a 12 against e 5
+text: First vowel a (ja ko vi id tl fa ar tr ru es fr qu) against e (hi bn sw ha yo).
+
+@ helicopter | helicopter | aircraft
+zh 直升机 zhíshēngjī | n | Wt
+ja ヘリコプター herikoputā, ヘリ | y | Wt
+ko 헬리콥터 hellikopteo, 헬기 | y | Wt
+vi trực thăng | n | Wt
+th เฮลิคอปเตอร์ helikhɔ́ptəə | y | Wt
+id helikopter | y | Wt
+tl helikopter | y | Wt
+hi हेलिकॉप्टर helikŏpṭar | y | Wt
+bn হেলিকপ্টার helikɔpṭār | y | Wt
+ta உலங்கு வானூர்தி ulangu vāṉūrti (coinage); spoken helicopter | b | Wt, M
+fa هلی‌کوپتر helikopter (official بالگرد bālgard) | y | Wt
+ar مروحية marwaḥiyya; هليكوبتر helikobtar also | b | Wt
+tr helikopter | y | Wt
+ru вертолёт vertolët | n | Wt
+es helicóptero | y | Wt
+fr hélicoptère | y | Wt
+sw helikopta | y | Wt
+ha jirgi mai saukar ungulu | n | M
+yo (no data; hẹlikópítà likely) | b | M
+qu pillwinkumpa (Wt); helicóptero in bilingual speech | b | Wt, M
+median: helikopter
+note: 12 strict, 16 lenient; final vowel tie e 6 (id tl fa tr es fr) / a 6 (ja ko th hi bn sw)
+text: Second-to-last vowel ties: e (id tl fa tr es fr) 6 against a/ə (ja ko th hi bn sw) 6; [helikoptar] would give *elikoputalu*. names.py drops h, as for every name.
+
+@ tractor | tractor | farm vehicle
+zh 拖拉机 tuōlājī (sound-and-meaning loan, "drag-pull machine") | b | Wt
+ja トラクター torakutā | y | Wt
+ko 트랙터 teuraekteo | y | Wt
+vi máy kéo "pulling machine" | n | Wt
+th แทรกเตอร์ thrɛ́ktəə | y | Wt
+id traktor | y | Wt
+tl guyod (Wt); traktora | b | Wt, M
+hi ट्रैक्टर ṭraikṭar | y | Wt
+bn ট্র্যাক্টর ṭryākṭar | y | Wt
+ta டிராக்டர் ṭirākṭar | y | M
+fa تراکتور terāktor | y | Wt
+ar جرار jarrār; تراكتور tarāktūr | b | Wt
+tr traktör | y | Wt
+ru трактор traktor | y | Wt
+es tractor | y | Wt
+fr tracteur | y | Wt
+sw trekta | y | Wt
+ha tarakta | y | M
+yo katakata | n | Wt
+qu tractor (Spanish loan) | y | M
+median: traktar
+note: 15 strict, 18 lenient; second vowel a/ə 8 (ja ko th hi bn ta sw ha) over o 5
+text: Second vowel a/ə (ja ko th hi bn ta sw ha) 8 against o (id fa ru es qu) 5, with tr ø and fr œ apart; final r in 10 of 15.
+
+@ yogurt | yogurt | a milk-based product thickened by a bacterium-aided curdling process|yoghurt|yogourt|yoghourt
+zh 酸奶 suānnǎi | n | Wt
+ja ヨーグルト yōguruto | y | Wt
+ko 요구르트 yogureuteu, 요거트 | y | Wt
+vi sữa chua (north); da ua (south, < French yaourt) | b | Wt
+th โยเกิร์ต yookə̀ət | y | Wt
+id yoghurt | y | Wt
+tl yogart | y | Wt
+hi दही dahī | n | Wt
+bn দই dôi | n | Wt
+ta தயிர் tayir | n | Wt
+fa ماست māst | n | Wt
+ar لبن laban, زبادي zabādī | n | Wt
+tr yoğurt | y | Wt
+ru йогурт jogurt | y | Wt
+es yogur | y | Wt
+fr yaourt | y | Wt
+sw maziwa ya mgando "curdled milk" | n | Wt
+ha kindirmo | n | M
+yo (no data) | n | M
+qu yugur | y | Wt
+note: 10 strict, 11 lenient; South and West Asia keep their own word for an old local food (dahī, māst, laban)
+
+@ sofa | sofa | upholstered seat
+zh 沙发 shāfā | y | Wt
+ja ソファー sofā | y | Wt
+ko 소파 sopa | y | Wt
+vi xô-pha | y | Wt
+th โซฟา soofaa | y | Wt
+id sofa | y | Wt
+tl sopa | y | Wt
+hi सोफ़ा sofā | y | Wt
+bn সোফা sofā | y | Wt
+ta சோபா sōpā | y | M
+fa مبل mobl, کاناپه kānāpe | n | Wt, M
+ar كنبة kanaba, أريكة arīka | n | Wt
+tr kanepe | n | Wt
+ru диван divan (софа a type) | n | Wt
+es sofá | y | Wt
+fr canapé (sofa less common) | b | Wt
+sw (no data; sofa, kochi in speech) | b | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu sofá (Spanish loan) | y | M
+median: sofa
+note: 12 strict, 14 lenient; WA uses the canapé family (fa ar tr + fr canapé, 4 in 2 regions)
+text: Asia is solid; West Asia and France use the kanape/canapé family instead (4 languages in 2 regions, so it does not compete). Median [sofa] unambiguous.
+
+@ park | park | ground for recreation
+zh 公园 gōngyuán | n | Wt
+ja 公園 kōen | n | Wt
+ko 공원 gongwon | n | Wt
+vi công viên | n | Wt
+th สวน(สาธารณะ) sǔan | n | Wt
+id taman | n | Wt
+tl parke | y | Wt
+hi उद्यान udyān (formal); spoken पार्क pārk | b | Wt, M
+bn পার্ক pārk | y | Wt
+ta பூங்கா pūngā; spoken "park" | b | Wt, M
+fa پارک pārk | y | Wt
+ar حديقة ḥadīqa | n | Wt
+tr park | y | Wt
+ru парк park | y | Wt
+es parque | y | Wt
+fr parc | y | Wt
+sw bustani (mbuga = game park) | n | Wt, M
+ha wurin shaƙatawa | n | M
+yo ọgbà | n | M
+qu parque (Spanish loan) | y | M
+note: 8 strict, 10 lenient; East Asia shares the Sino form 公園 kōen/gongwon/công viên (4)
+
+@ pasta | pasta | dough
+zh 意大利面 yìdàlì miàn "Italian noodles" | n | Wt
+ja パスタ pasuta | y | Wt
+ko 파스타 paseuta | y | Wt
+vi mì ống | n | Wt
+th พาสตา phaastaa | y | Wt
+id pasta | y | Wt
+tl pasta | y | Wt
+hi पास्ता pāstā | y | Wt
+bn পাস্তা pāstā | y | Wt
+ta மாச்சேவை māccēvai (coinage); spoken "pasta" | b | Wt, M
+fa پاستا pāstā | y | Wt
+ar مكرونة makarōna | n | Wt
+tr makarna | n | Wt
+ru макароны makarony | n | Wt
+es pasta | y | Wt
+fr pâtes | b | Wt
+sw makaroni, tambi | n | M
+ha taliya | n | M
+yo (no data) | n | M
+qu fideos (Spanish loan) | n | M
+note: 9 strict, 11 lenient; competing family makaroni (ar tr ru sw, 4 in 3 regions)
+text: The makaroni family (ar tr ru sw) is the everyday word where pasta is old; pasta is the newer, more specific word. French pâtes is the same etymon but [pat] is hard to hear as pasta.
+
+@ lamp | lamp | device producing light
+zh 灯 dēng | n | Wt
+ja ランプ ranpu (oil or indicator lamp; desk lamp スタンド, ライト) | b | Wt, M*
+ko 램프 raempeu; 스탠드, 전등 | b | Wt, M*
+vi đèn | n | Wt
+th โคมไฟ khoom fai | n | Wt
+id lampu | y | Wt
+tl lampara | y | Wt
+hi लैंप laimp (also चिराग़ cirāġ, दीया) | y | Wt, M*
+bn বাতি bāti; ল্যাম্প lyāmp | b | M
+ta விளக்கு viḷakku | n | M
+fa لامپ lāmp, چراغ čerāġ | y | Wt
+ar مصباح miṣbāḥ; لمبة lamba (bulb) | b | Wt
+tr lamba | y | Wt
+ru лампа lampa | y | Wt
+es lámpara | y | Wt
+fr lampe | y | Wt
+sw taa | n | Wt
+ha fitila | n | Wt
+yo àtùpà | n | M
+qu lámpara (Spanish loan) | y | M
+median: lampa
+note: 9 strict, 13 lenient; the loan often means only a bulb or oil lamp (ja ko ar), a narrower sense
+text: Several languages have the loan but for a narrower thing (ja ranpu oil lamp, ar lamba bulb) beside a native general word for "light, lamp" (zh dēng, vi đèn, sw taa, ta viḷakku). Median from all 13 cognates: after lamp-, a final a (tr ru ar es tl qu) 6 against none 4; then -ra (es tl qu) 3 against end 3, so [lampa].
+
+@ penguin | penguin | flightless sea bird
+zh 企鹅 qǐ'é | n | Wt
+ja ペンギン pengin | y | Wt
+ko 펭귄 penggwin | y | Wt
+vi chim cánh cụt "stub-winged bird" | n | Wt
+th เพนกวิน phenkwin | y | Wt
+id pinguin, penguin (purist angsa gempal) | y | Wt, M*
+tl pingguwino | y | Wt
+hi पेंगुइन penguin | y | Wt
+bn পেঙ্গুইন penguin | y | Wt
+ta பென்குயின் penkuyin | y | Wt
+fa پنگوئن panguan | y | Wt
+ar بطريق biṭrīq | n | Wt
+tr penguen | y | Wt
+ru пингвин pingvin | y | Wt
+es pingüino | y | Wt
+fr manchot (pingouin "auk", popularly also penguin) | b | Wt
+sw pengwini | y | Wt
+ha (no data) | n | M
+yo pẹ́ńgúìnì | y | Wt
+qu pingüino (Spanish loan) | y | M
+median: peŋgwin
+note: 15 strict, all 7 regions; [peŋgwin] and [peŋguin] tie and adapt the same
+text: First vowel e 10 against i 5. Glide w (ko th ru es sw tl qu) and vowel u (id hi bn ta fa tr yo) tie at 7, but both adapt to *penguwin*.

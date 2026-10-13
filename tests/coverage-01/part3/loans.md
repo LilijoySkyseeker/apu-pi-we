@@ -11,12 +11,32 @@ The same as `tests/lexicon-ladder-01/loans.md` ("How this was done"), unchanged:
 - Sources: **Wt** the English Wiktionary translation table for the sense in each heading, fetched 2026-10-13 with `tests/lexicon-ladder-01/panel.py`; **We** the Wiktionary entry for the foreign word; **M** from memory; **M\*** Wiktionary lists the word, but my judgment of the everyday word differs from its first-listed one.
 - Quechua: where Wiktionary gives a native form I used it; otherwise I assumed the Spanish loan of bilingual speech (M).
 - Borderline: where the count depends on M\* or lenient judgments (✗ (✓ lenient) in the tables), both counts are given. A candidate is **borderline** when the strict count fails and the lenient count passes. It is **pass, borderline** (as email was in loans.md) when the strict count passes at exactly 12, or in exactly 4 regions, and at least one counted column is from memory (M or M\*).
-- Median pronunciation: for each sound position, the majority among the cognate forms only, in broad IPA, run through `tools/names.py`. Given for passes and borderlines. The adapted forms are not checked for collisions or offensiveness (`words.py`/`offensive.py`).
+- Median pronunciation: for each sound position, the majority among the cognate forms only (the strict ones, unless the entry says otherwise), in broad IPA, run through `tools/names.py`. Given for passes and borderlines; ties are reported in the entry. I checked the adapted forms against `data/lexicon.tsv` (same form or same content key, as `names.py` does); not against `offensive.py`.
 - One tool fix: `panel.py` skipped `{{trans-top-also}}` blocks, which Wiktionary uses for some main senses (sandwich, biscuit, toilet). It now reads them; earlier results are unaffected (only blocks were added).
 
 ## Summary
 
-(Filled in when all chunks are done.)
+**Counts (109):** 43 pass, 11 pass-borderline (exactly 12, resting on a column from memory), 27 borderline (strict count fails, lenient count passes), 28 fail.
+
+| Verdict | Candidates (adapted form) |
+|---|---|
+| pass (43) | chocolate *tokolatu*, television *telebisuyon*, coffee *kafe*, pajamas *pidama*, radio *ladiyo*, helicopter *elikoputelu*, tractor *tulakutalu*, penguin *penguwin*, tea *tayu*, cookie (biscuit) *bisukuwitu*, sandwich *sanduwitu*, pizza *pisa*, balcony *balukon*, circus *silukasu*, video *bideyo*, bank *banki*, program *pulogulamu*, computer *konpuyutalu*, hotel *otelu*, beer *biyalu*, code *kodu*, bomb *bonba*, captain *kaputan*, model *modelu*, virus *bilusu*, league *liga*, album *alubumu*, robot *lobotu*, mile *milu*, cigarette *sigaletu*, club *kulabu*, taxi *takusi*, gas *gasu*, chemistry *kimiya*, guitar *gitalu*, gene *denu*, plastic *pulasutiku*, bar *balu*, cinema *sinema*, passport *pasupolutu*, studio *sutudiyo*, profile *pulofilu*, piano *piyano* |
+| pass, borderline (11) | giraffe *silafa*, motorcycle *moto*, sweater *suwetalu*, sofa *sofa*, sauce *sosu*, technology *tekunolodi*, machine *masina*, platform *pulatufolumu*, engineer *indiniyalu*, vaccine *bakusin*, mask *masuka* |
+| borderline (27) | ice cream, doctor, lamp, tomato, garage, sugar, toast, T-shirt, office, energy, professor, project, website, democracy, design, station, restaurant, philosophy, channel, pound, campaign, pilot, cream, pope, physics, mosque, medal (forms in `loans.tsv`) |
+| fail (28) | soup, banana, yogurt, park, pasta, zebra, shorts, party (political), soda, film, music, university, business, sport, president, data, ticket, budget, museum, alcohol, engine, metal, climate, fashion, version, fuel, tunnel, toilet |
+
+**Patterns worth a decision rather than case by case:**
+
+1. **One judgment decides most of the 27 borderlines: does a loan count when it lives beside a formal native word?** The lenient columns are mostly spoken English in South Asia (Tamil 10 borderlines, Hindi 6, Bengali 4: "spoken TV, doctor, office" beside tolaikkāṭci, maruttuvar, kāryālay), colloquial Arabic (5), a katakana/hangul loan beside a Sino word in ja/ko (5 each), and Quechua via Spanish (8). loans.md counted spoken Tamil *internet* but not spoken Tamil *photo*; this run marks all such cases lenient. The rest of the lenient columns are the shape question in pattern 3. Counting every lenient column passes all 27; counting none fails all 27. The strict column already follows a middle rule: the loan counts when Wiktionary lists it for the sense (M\* when not first-listed), or when Wiktionary has no entry and the loan is the clear everyday word.
+2. **Half the passes rest on memory.** 27 of the 54 passes fail the rule if only Wiktionary-sourced columns count. The thinnest: profile (4 Wiktionary columns), platform (7), sweater and model (8). Hausa, Yoruba and Quechua are the usual memory columns. 9 of the 11 pass-borderlines need the assumed Spanish loan in Quechua to reach 12 (giraffe, motorcycle, sofa, technology, machine, platform, engineer, vaccine, mask). The Quechua rule from loans.md ("assume the Spanish loan when Wiktionary has nothing") effectively gives Spanish two votes on every Spanish-shared word.
+3. **Two shapes of one etymon: same word or not?** I counted shapes together when the consonant skeleton survives (falsafa/filosofia, site [sait]/[sit], dizain/diseño, ʃimi/kimia, cha/chai/šāy) and apart when it doesn't (channel/kanal, masjid/mosque, qahwa/kafe, salsa/sos, pope/papa, engine/motor). channel, mosque and pope are borderline only because of this; coffee and sauce pass on either reading. A stated rule would settle it.
+4. **Competing international forms split the panel.** ticket (10) vs billet (5); benzin (5–6) vs petrol (6) vs gasoline (4–5); engine (8) vs motor (5); fashion (6) vs moda (10); tea passes only as *cha* (14) against *te* (6). Where neither form reaches 12, L4 sends the word to rung 3 or 4 even though most of the panel does borrow something.
+5. **Where it fails, the panel's own build is usually ready for rung 3:** "striped horse/donkey" for zebra (9 languages), "people-rule" for democracy (all of Asia but id tl), "food house" for restaurant, "short trousers" for shorts, "big school" for university, "film house" for cinema, "grilled bread" for toast, euphemisms ("hand-washing room", "water room") for toilet, "power" words for energy.
+6. **East Asia is the usual missing region.** 10 passes lack EA (Sino 銀行, 機械, 化学, 爆弾…), and Sino forms cause most failures in science, institutions and abstract words (university, music, metal, climate, physics, philosophy, president, data, budget). South Asia does the same with Sanskrit coinages, but its spoken English loans mostly rescue it (pattern 1).
+7. **Sense matters more than the word.** cream passes as the cosmetic (15 in Wiktionary's own table) but not as dairy cream (7 strict); alcohol fails as a drink but would likely pass as the chemical; hotel means "restaurant" in hi ta sw; machine means "car" in fa ru. Each loan should be fixed to the sense that passed.
+8. **Median ties and long forms.** Ties (coffee e/i, tea tʃa/tʃaj, helicopter, video, computer, motorcycle, professor, tomato, project) need a rule; loans.md left them to the author. Clusters make some forms long: *pulatufolumu* (6 syllables), *konpuyutalu*, *bisukuwitu*, *elikoputelu*, *tulakutalu*; the C1 cost question loans.md raised for *kilometulu* applies here at larger scale.
+9. **Collisions with existing words:** tea *tayu* = "agree", league *liga* = "phone" (loans.md already noted *liga*), gas *gasu* = "idea", lamp *lanpa* = "cloud" (borderline). Each needs a variant or a decision before adoption.
+10. **Not a word question:** mile passes (18) but is outside the metric standard (L3); pound and pope are arguably names (the issuer's currency, a community's own title, loans.md pattern 2); pope's *papa* is also the baby word for "father", the open mama/papa question from loans.md.
 
 ## Per-candidate evidence
 
@@ -1333,3 +1353,1607 @@ Many languages lump energy with "power, strength" (th phalang, hi śakti, bn śa
 | Quechua | pukllay "game" | ✗ | M |
 
 **5/20 (8 lenient); regions 3 (EA WA EU) (6 lenient) → fail.**
+
+### machine (Wt: [machine](https://en.wiktionary.org/wiki/machine#Translations), "mechanical or electrical device")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 机器 jīqì | ✗ | Wt |
+| Japanese | 機械 kikai (マシン mashin specialised) | ✗ | Wt |
+| Korean | 기계 gigye | ✗ | Wt |
+| Vietnamese | máy | ✗ | Wt |
+| Thai | เครื่อง khrʉ̂ang | ✗ | Wt |
+| Indonesian | mesin | ✓ | Wt |
+| Tagalog | makina | ✓ | Wt |
+| Hindi | यंत्र yantra (formal); spoken मशीन mašīn | ✗ (✓ lenient) | Wt, M |
+| Bengali | মেশিন mešin | ✓ | Wt |
+| Tamil | எந்திரம் enthiram; spoken மெஷின் | ✗ (✓ lenient) | Wt, M |
+| Persian | ماشین māšin (also "car") | ✓ | Wt |
+| Arabic | آلة āla; ماكينة mākīna | ✓ | Wt |
+| Turkish | makine | ✓ | Wt |
+| Russian | машина mašina (also "car") | ✓ | Wt |
+| Spanish | máquina | ✓ | Wt |
+| French | machine | ✓ | Wt |
+| Swahili | mashine | ✓ | Wt |
+| Hausa | mashin | ✓ | M |
+| Yoruba | ẹ̀rọ | ✗ | M |
+| Quechua | máquina (Spanish loan) | ✓ | M |
+
+**12/20 (14 lenient); regions 6 (no EA) → pass, borderline.** Median [maʃina] → *masina*.
+Median: ʃ (bn fa ru fr sw ha) 6 against k (tl ar tr es qu) 5; a final vowel in 7 of 12 (a 5, e 2), so [maʃina]. In fa and ru the word also or mainly means "car".
+
+### president (Wt: [president](https://en.wiktionary.org/wiki/president#Translations), "the head of state of a republic")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 总统 zǒngtǒng | ✗ | Wt |
+| Japanese | 大統領 daitōryō | ✗ | Wt |
+| Korean | 대통령 daetongnyeong | ✗ | Wt |
+| Vietnamese | tổng thống | ✗ | Wt |
+| Thai | ประธานาธิบดี prathaanaathíbɔɔdii | ✗ | Wt |
+| Indonesian | presiden | ✓ | Wt |
+| Tagalog | pangulo, presidente | ✓ | Wt |
+| Hindi | राष्ट्रपति rāṣṭrapati | ✗ | Wt |
+| Bengali | রাষ্ট্রপতি rāṣṭrapati | ✗ | Wt |
+| Tamil | ஜனாதிபதி janāpati | ✗ | Wt |
+| Persian | رئیس‌جمهور ra'is-jomhur; پرزیدنت rare | ✗ (✓ lenient) | Wt |
+| Arabic | رئيس raʾīs | ✗ | Wt |
+| Turkish | cumhurbaşkanı | ✗ | Wt |
+| Russian | президент prezident | ✓ | Wt |
+| Spanish | presidente | ✓ | Wt |
+| French | président | ✓ | Wt |
+| Swahili | rais | ✗ | Wt |
+| Hausa | shugaban ƙasa | ✗ | M |
+| Yoruba | Ààrẹ | ✗ | Wt |
+| Quechua | presidente (Spanish loan) | ✓ | M |
+
+**6/20 (7 lenient); regions 3 (SEA EU AM) (4 lenient) → fail.**
+
+### data (Wt: [data](https://en.wiktionary.org/wiki/data#Translations), "information")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 数据 shùjù | ✗ | Wt |
+| Japanese | データ dēta | ✓ | Wt, M* |
+| Korean | 데이터 deiteo, 자료 | ✓ | Wt, M* |
+| Vietnamese | dữ liệu | ✗ | Wt |
+| Thai | ข้อมูล khɔ̂ɔmuun | ✗ | Wt |
+| Indonesian | data | ✓ | Wt |
+| Tagalog | datos | ✓ | Wt |
+| Hindi | डेटा ḍeṭā | ✓ | Wt |
+| Bengali | ডেটা ḍeṭā (formal উপাত্ত) | ✓ | Wt, M* |
+| Tamil | தரவு taravu | ✗ | Wt |
+| Persian | داده dāde (calque "given") | ✗ | Wt |
+| Arabic | بيانات bayānāt, معطيات muʿṭayāt (calque) | ✗ | Wt |
+| Turkish | veri | ✗ | Wt |
+| Russian | данные dannye (calque) | ✗ | Wt |
+| Spanish | datos | ✓ | Wt |
+| French | données (calque) | ✗ | Wt |
+| Swahili | data | ✓ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | datos (Spanish loan) | ✗ (✓ lenient) | M |
+
+**8/20 (9 lenient); regions 5 (no WA AM) (6 lenient) → fail.**
+
+### professor (Wt: [professor](https://en.wiktionary.org/wiki/professor#Translations), "higher ranking for a teacher or faculty member at a college or university")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 教授 jiàoshòu | ✗ | Wt |
+| Japanese | 教授 kyōju | ✗ | Wt |
+| Korean | 교수 gyosu | ✗ | Wt |
+| Vietnamese | giáo sư | ✗ | Wt |
+| Thai | ศาสตราจารย์ sàatsatraajaan | ✗ | Wt |
+| Indonesian | profesor | ✓ | M |
+| Tagalog | propesor | ✓ | Wt |
+| Hindi | प्रोफ़ेसर profesar | ✓ | Wt |
+| Bengali | প্রফেসর prophesar | ✓ | M |
+| Tamil | பேராசிரியர் pērāsiriyar; spoken professor | ✗ (✓ lenient) | M |
+| Persian | استاد ostād; پروفسور profesor (title) | ✗ (✓ lenient) | Wt |
+| Arabic | أستاذ ustāḏ | ✗ | Wt |
+| Turkish | profesör | ✓ | Wt |
+| Russian | профессор professor | ✓ | Wt |
+| Spanish | profesor (also any teacher) | ✓ | Wt |
+| French | professeur (also any teacher) | ✓ | Wt |
+| Swahili | profesa | ✓ | Wt |
+| Hausa | farfesa | ✓ | M |
+| Yoruba | ọ̀jọ̀gbọ́n | ✗ | M |
+| Quechua | profesor (Spanish loan) | ✓ | M |
+
+**11/20 (13 lenient); regions 6 (no EA) → borderline.** Median [profesor] → *pulofesolu*.
+Last vowel: o (id tl es qu) 4, a (hi bn sw ha) 4, ø/œ/ə (tr fr ru) 3; [profesar] gives *pulofesalu*. In Spanish and French the word means any teacher.
+
+### project (Wt: [project](https://en.wiktionary.org/wiki/project#Translations), "planned endeavor")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 项目 xiàngmù, 计划 | ✗ | Wt |
+| Japanese | 計画 keikaku; プロジェクト purojekuto at work | ✗ (✓ lenient) | Wt |
+| Korean | 계획 gyehoek; 프로젝트 peurojekteu | ✗ (✓ lenient) | Wt |
+| Vietnamese | dự án | ✗ | Wt |
+| Thai | โครงการ khroongkaan | ✗ | Wt |
+| Indonesian | proyek | ✓ | Wt |
+| Tagalog | proyekto | ✓ | Wt |
+| Hindi | प्रोजेक्ट projekṭ (formal परियोजना) | ✓ | Wt, M* |
+| Bengali | প্রজেক্ট projekṭ | ✓ | Wt |
+| Tamil | திட்டம் tiṭṭam; spoken project | ✗ (✓ lenient) | M |
+| Persian | پروژه proože | ✓ | Wt |
+| Arabic | مشروع mašrūʿ | ✗ | Wt |
+| Turkish | proje | ✓ | Wt |
+| Russian | проект proekt | ✓ | Wt |
+| Spanish | proyecto | ✓ | Wt |
+| French | projet | ✓ | Wt |
+| Swahili | mradi | ✗ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | proyecto (Spanish loan) | ✓ | M |
+
+**10/20 (13 lenient); regions 5 (no EA SSA) (6 lenient) → borderline.** Median [projekt] → *puloyekutu*.
+Median from the strict cognates: j (id tl es qu ru) 5 against ʒ (fa tr fr) 3 and dʒ (hi bn) 2; with the lenient ja ko ta, dʒ ties j at 5, giving [prodʒekt] → *pulodekutu*.
+
+### beer (Wt: [beer](https://en.wiktionary.org/wiki/beer#Translations), "alcoholic drink made of malt")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 啤酒 píjiǔ (sound loan pí + "liquor") | ✗ (✓ lenient) | Wt |
+| Japanese | ビール bīru | ✓ | Wt |
+| Korean | 맥주 maekju | ✗ | Wt |
+| Vietnamese | bia | ✓ | Wt |
+| Thai | เบียร์ bia | ✓ | Wt |
+| Indonesian | bir | ✓ | Wt |
+| Tagalog | serbesa | ✗ | Wt |
+| Hindi | बियर biyar | ✓ | Wt |
+| Bengali | বিয়ার biyār | ✓ | Wt |
+| Tamil | பியர் piyar | ✓ | Wt |
+| Persian | آبجو ābjow "barley water" | ✗ | Wt |
+| Arabic | بيرة bīra | ✓ | Wt |
+| Turkish | bira | ✓ | Wt |
+| Russian | пиво pivo | ✗ | Wt |
+| Spanish | cerveza | ✗ | Wt |
+| French | bière | ✓ | Wt |
+| Swahili | bia (pombe = any brew) | ✓ | Wt |
+| Hausa | giya | ✗ | Wt |
+| Yoruba | bíà | ✓ | Wt |
+| Quechua | sirwisa (< cerveza) | ✗ | Wt |
+
+**12/20 (13 lenient); regions 6 (no AM) → pass.** Median [biar] → *biyalu*.
+Exactly 12, but every counted column is from Wiktionary, so a plain pass. Median: a after bi in 7 of 12 (vi th hi bn ta sw yo), r present in 8 of 12; [biar]. The r-less [bia] (vi th sw yo) gives *biya*.
+
+### code (Wt: [code](https://en.wiktionary.org/wiki/code#Translations), "instructions for a computer")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 代码 dàimǎ | ✗ | Wt |
+| Japanese | コード kōdo | ✓ | Wt |
+| Korean | 코드 kodeu | ✓ | Wt |
+| Vietnamese | mã | ✗ | Wt |
+| Thai | โค้ด khóot | ✓ | Wt |
+| Indonesian | kode | ✓ | M |
+| Tagalog | code, koda | ✓ | M |
+| Hindi | कोड koḍ | ✓ | Wt |
+| Bengali | কোড koḍ | ✓ | M |
+| Tamil | (no Wt; குறியீடு kuṟiyīṭu; spoken code) | ✗ (✓ lenient) | M |
+| Persian | کد kod | ✓ | M |
+| Arabic | كود kōd | ✓ | Wt |
+| Turkish | kod | ✓ | Wt |
+| Russian | код kod | ✓ | Wt |
+| Spanish | código | ✓ | Wt |
+| French | code | ✓ | Wt |
+| Swahili | kodi | ✓ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | código (Spanish loan) | ✓ | M |
+
+**15/20 (16 lenient); regions all 7 → pass.** Median [kod] → *kodu*.
+
+### website (Wt: [website](https://en.wiktionary.org/wiki/website#Translations), "a collection of pages on the World Wide Web")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 网站 wǎngzhàn | ✗ | Wt |
+| Japanese | (ウェブ)サイト (webu)saito | ✓ | Wt |
+| Korean | 웹사이트 wepsaiteu, 사이트 | ✓ | Wt |
+| Vietnamese | trang web "web page" | ✗ (✓ lenient) | Wt |
+| Thai | เว็บไซต์ wépsái | ✓ | Wt |
+| Indonesian | situs (web) | ✓ | Wt |
+| Tagalog | websayt | ✓ | Wt |
+| Hindi | वेबसाइट vebsāiṭ (formal जालस्थल) | ✓ | Wt, M* |
+| Bengali | ওয়েবসাইট oyebsāiṭ | ✓ | Wt |
+| Tamil | வலைத்தளம் valaittaḷam | ✗ | Wt |
+| Persian | وبگاه vebgāh (official); colloquial سایت sāyt | ✗ (✓ lenient) | Wt, M |
+| Arabic | موقع mawqiʿ "site" (calque) | ✗ | Wt |
+| Turkish | web sitesi | ✓ | Wt |
+| Russian | сайт sajt | ✓ | Wt |
+| Spanish | sitio web | ✓ | Wt |
+| French | site (web) | ✓ | Wt |
+| Swahili | tovuti | ✗ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | sitio web (Spanish loan) | ✗ (✓ lenient) | M |
+
+**11/20 (14 lenient); regions 5 (no SSA AM) (6 lenient) → borderline.** Median [sait] → *sayitu*.
+Tested as the "site" element, per the ladder note. English-pronounced sait (ja ko th tl hi bn ru) 7 against spelling-pronounced sit- (id tr es fr) 4; median [sait].
+
+### democracy (Wt: [democracy](https://en.wiktionary.org/wiki/democracy#Translations), "rule by the people")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 民主 mínzhǔ | ✗ | Wt |
+| Japanese | 民主主義 minshushugi | ✗ | Wt |
+| Korean | 민주주의 minjujuui | ✗ | Wt |
+| Vietnamese | dân chủ | ✗ | Wt |
+| Thai | ประชาธิปไตย prachaathíppatai | ✗ | Wt |
+| Indonesian | demokrasi | ✓ | Wt |
+| Tagalog | demokrasya | ✓ | Wt |
+| Hindi | लोकतंत्र loktantra | ✗ | Wt |
+| Bengali | গণতন্ত্র gaṇatantra | ✗ | Wt |
+| Tamil | மக்களாட்சி makkaḷāṭci, ஜனநாயகம் | ✗ | Wt |
+| Persian | دموکراسی demokrāsi (official مردم‌سالاری) | ✓ | Wt |
+| Arabic | ديمقراطية dīmuqrāṭiyya | ✓ | Wt |
+| Turkish | demokrasi | ✓ | Wt |
+| Russian | демократия demokratija | ✓ | Wt |
+| Spanish | democracia | ✓ | Wt |
+| French | démocratie | ✓ | Wt |
+| Swahili | demokrasia | ✓ | Wt |
+| Hausa | dimokuraɗiyya | ✓ | Wt |
+| Yoruba | ìjọba tiwa-n-tiwa; dẹmọkrasi | ✗ (✓ lenient) | M |
+| Quechua | democracia (Spanish loan) | ✓ | M |
+
+**11/20 (12 lenient); regions 5 (no EA SA) → borderline.** Median [demokrasia] → *demokulasiya*.
+Every Asian language except id and tl uses a native "people-rule" compound, a ready rung-3 pattern. Median ending: -ia/-ija (tl ar ru es sw ha qu) 7 against -i (id fa tr fr) 4.
+
+### bomb (Wt: [bomb](https://en.wiktionary.org/wiki/bomb#Translations), "device filled with explosives")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 炸弹 zhàdàn | ✗ | Wt |
+| Japanese | 爆弾 bakudan | ✗ | Wt |
+| Korean | 폭탄 poktan | ✗ | Wt |
+| Vietnamese | bom | ✓ | Wt |
+| Thai | ระเบิด rabə̀ət; บอมบ์ bɔm | ✗ (✓ lenient) | Wt |
+| Indonesian | bom | ✓ | Wt |
+| Tagalog | bomba | ✓ | Wt |
+| Hindi | बम bam | ✓ | Wt |
+| Bengali | বোমা bomā | ✓ | Wt |
+| Tamil | வெடிகுண்டு veṭikuṇṭu | ✗ | Wt |
+| Persian | بمب bomb | ✓ | Wt |
+| Arabic | قنبلة qunbula | ✗ | Wt |
+| Turkish | bomba | ✓ | Wt |
+| Russian | бомба bomba | ✓ | Wt |
+| Spanish | bomba | ✓ | Wt |
+| French | bombe | ✓ | Wt |
+| Swahili | bomu | ✓ | Wt |
+| Hausa | bam | ✓ | M |
+| Yoruba | bọ́m̀bù | ✓ | Wt |
+| Quechua | bomba (Spanish loan) | ✓ | M |
+
+**14/20 (15 lenient); regions 6 (no EA) → pass.** Median [bomba] → *bonba*.
+Median: b after m in 8 of 14; then a (tl tr ru es qu) 5 against u (yo) and none (fa fr).
+
+### design (Wt: [design](https://en.wiktionary.org/wiki/design#Translations), "art of designing")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 设计 shèjì | ✗ | Wt |
+| Japanese | デザイン dezain | ✓ | Wt |
+| Korean | 디자인 dijain | ✓ | Wt |
+| Vietnamese | thiết kế | ✗ | Wt |
+| Thai | การออกแบบ kaan ɔ̀ɔk bɛ̀ɛp | ✗ | Wt |
+| Indonesian | desain | ✓ | Wt |
+| Tagalog | disenyo (Wt coinage antangan) | ✓ | M |
+| Hindi | डिज़ाइन dizāin | ✓ | Wt |
+| Bengali | ডিজাইন ḍijāin | ✓ | M |
+| Tamil | வடிவமைப்பு vaṭivamaippu; spoken design | ✗ (✓ lenient) | M |
+| Persian | طراحی tarrāhi; دیزاین dizāyn | ✗ (✓ lenient) | Wt |
+| Arabic | تصميم taṣmīm; ديزاين dīzāyn | ✗ (✓ lenient) | Wt |
+| Turkish | tasarım; dizayn | ✗ (✓ lenient) | Wt |
+| Russian | дизайн dizajn | ✓ | Wt |
+| Spanish | diseño | ✓ | Wt |
+| French | design (conception) | ✓ | Wt |
+| Swahili | usanifu | ✗ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | diseño (Spanish loan) | ✓ | M |
+
+**10/20 (14 lenient); regions 5 (no WA SSA) (6 lenient) → borderline.** Median [dizain] → *disayin*.
+Spanish diseño (and Tagalog disenyo from it) are counted as the same word. In fa ar tr the loan dizāyn exists beside native tarrāhi/taṣmīm/tasarım, which carry the everyday weight.
+
+### station (Wt: [station](https://en.wiktionary.org/wiki/station#Translations), "place where a vehicle may stop")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 站 zhàn | ✗ | Wt |
+| Japanese | 駅 eki | ✗ | Wt |
+| Korean | 역 yeok, 정류장 | ✗ | Wt |
+| Vietnamese | ga (< French gare), trạm, bến | ✗ | Wt |
+| Thai | สถานี sathǎanii (Sanskrit sthāna) | ✗ | Wt |
+| Indonesian | stasiun | ✓ | Wt |
+| Tagalog | estasyon | ✓ | Wt |
+| Hindi | स्टेशन sṭešan | ✓ | Wt |
+| Bengali | স্টেশন sṭešan | ✓ | Wt |
+| Tamil | நிலையம் nilaiyam; spoken ṭēšan | ✗ (✓ lenient) | Wt, M |
+| Persian | ایستگاه istgāh "stopping place" | ✗ | Wt |
+| Arabic | محطة maḥaṭṭa | ✗ | Wt |
+| Turkish | istasyon, gar, durak | ✓ | Wt |
+| Russian | станция stantsija (вокзал main rail station) | ✓ | Wt |
+| Spanish | estación | ✓ | Wt |
+| French | gare; station (metro) | ✗ (✓ lenient) | Wt |
+| Swahili | kituo; stesheni (railway) | ✗ (✓ lenient) | Wt, M |
+| Hausa | tasha | ✓ | M |
+| Yoruba | ibùdókọ̀ | ✗ | M |
+| Quechua | estación (Spanish loan) | ✓ | M |
+
+**9/20 (12 lenient); regions 6 (no EA) → borderline.** Median [stasjon] → *sutasuyon*.
+Median: first vowel a (id tl tr ru es qu) over e (hi bn), s over ʃ, then -jon (tl tr es qu). The prothetic e/i of tl es tr qu is a minority.
+
+### captain (Wt: [captain](https://en.wiktionary.org/wiki/captain#Translations), "the person lawfully in command of a sea-going vessel")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 船长 chuánzhǎng; 队长 duìzhǎng (team) | ✗ | Wt |
+| Japanese | 船長 senchō; キャプテン kyaputen (team) | ✗ (✓ lenient) | Wt |
+| Korean | 선장 seonjang; 캡틴 kaeptin (team) | ✗ (✓ lenient) | Wt |
+| Vietnamese | thuyền trưởng | ✗ | Wt |
+| Thai | กัปตัน kàptan | ✓ | Wt |
+| Indonesian | kapten | ✓ | Wt |
+| Tagalog | kapitan | ✓ | M |
+| Hindi | कप्तान kaptān | ✓ | Wt |
+| Bengali | ক্যাপ্টেন kyāpṭen | ✓ | Wt |
+| Tamil | கேப்டன் kēpṭaṉ | ✓ | M |
+| Persian | کاپیتان kāpitān, ناخدا nāxodā | ✓ | Wt |
+| Arabic | قبطان qubṭān; كبتن kabtin (team) | ✓ | Wt |
+| Turkish | kaptan | ✓ | Wt |
+| Russian | капитан kapitan | ✓ | Wt |
+| Spanish | capitán | ✓ | Wt |
+| French | capitaine | ✓ | Wt |
+| Swahili | nahodha (ship); kapteni (team) | ✓ | Wt |
+| Hausa | kyaftin | ✓ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | capitán (Spanish loan) | ✓ | M |
+
+**15/20 (17 lenient); regions 6 (no EA) (7 lenient) → pass.** Median [kaptan] → *kaputan*.
+East Asia names captains by role (ship-head, team-head). Median: no vowel between p and t in 9 of 15, last vowel a 10 of 15.
+
+### model (Wt: [model](https://en.wiktionary.org/wiki/model#Translations), "simplified representation")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 模型 móxíng; 模特 mótè (fashion) | ✗ | Wt |
+| Japanese | モデル moderu (模型 mokei for a physical model) | ✓ | Wt, M* |
+| Korean | 모델 model | ✓ | Wt |
+| Vietnamese | mô hình; người mẫu (fashion) | ✗ | Wt |
+| Thai | แบบจำลอง bɛ̀ɛp jamloong; โมเดล moodeen | ✗ (✓ lenient) | Wt |
+| Indonesian | model | ✓ | Wt |
+| Tagalog | modelo (Wt coinage hulwaran) | ✓ | M |
+| Hindi | मॉडल mŏḍal | ✓ | Wt |
+| Bengali | মডেল maḍel | ✓ | M |
+| Tamil | மாதிரி mātiri | ✗ | M |
+| Persian | مدل model | ✓ | Wt |
+| Arabic | نموذج namūḏaj; موديل mūdīl (fashion, car) | ✗ (✓ lenient) | Wt |
+| Turkish | model | ✓ | M |
+| Russian | модель model' | ✓ | Wt |
+| Spanish | modelo | ✓ | Wt |
+| French | modèle | ✓ | Wt |
+| Swahili | modeli | ✓ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | modelo (Spanish loan) | ✓ | M |
+
+**13/20 (15 lenient); regions all 7 → pass.** Median [model] → *modelu*.
+Median: consonant-final (ko id hi bn fa tr ru fr) 8 against -o (tl es qu) and -u/-i.
+
+### virus (Wt: [virus](https://en.wiktionary.org/wiki/virus#Translations), "infectious organism")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 病毒 bìngdú | ✗ | Wt |
+| Japanese | ウイルス uirusu | ✓ | Wt |
+| Korean | 바이러스 baireoseu | ✓ | Wt |
+| Vietnamese | vi-rút | ✓ | Wt |
+| Thai | ไวรัส wairát | ✓ | Wt, M* |
+| Indonesian | virus | ✓ | Wt |
+| Tagalog | birus, virus | ✓ | Wt |
+| Hindi | वाइरस vāiras (formal विषाणु) | ✓ | Wt, M* |
+| Bengali | ভাইরাস bhāiras | ✓ | Wt |
+| Tamil | தீ நுண்மம் (coinage); spoken vairas | ✗ (✓ lenient) | Wt, M |
+| Persian | ویروس virus | ✓ | Wt |
+| Arabic | فيروس fīrūs | ✓ | Wt |
+| Turkish | virüs | ✓ | Wt |
+| Russian | вирус virus | ✓ | Wt |
+| Spanish | virus | ✓ | Wt |
+| French | virus | ✓ | Wt |
+| Swahili | virusi | ✓ | Wt |
+| Hausa | ƙwayar cuta | ✗ | M |
+| Yoruba | kòkòrò àrùn | ✗ | M |
+| Quechua | añaw (Wt); virus in bilingual speech | ✗ (✓ lenient) | Wt, M |
+
+**15/20 (17 lenient); regions 6 (no AM) (7 lenient) → pass.** Median [virus] → *bilusu*.
+Median: i (Latin pronunciation) 11 against ai (ko th hi bn, from English) 4.
+
+### restaurant (Wt: [restaurant](https://en.wiktionary.org/wiki/restaurant#Translations), "an eating establishment in which diners are served food")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 餐厅 cāntīng, 饭馆 | ✗ | Wt |
+| Japanese | レストラン resutoran | ✓ | Wt |
+| Korean | 식당 sikdang; 레스토랑 (Western) | ✗ (✓ lenient) | Wt |
+| Vietnamese | nhà hàng, quán ăn | ✗ | Wt |
+| Thai | ร้านอาหาร ráan aahǎan | ✗ | Wt |
+| Indonesian | restoran, rumah makan | ✓ | Wt |
+| Tagalog | restawran | ✓ | Wt |
+| Hindi | रेस्तरां restarā̃ (formal भोजनालय) | ✓ | Wt, M* |
+| Bengali | রেস্টুরেন্ট resṭurenṭ | ✓ | Wt |
+| Tamil | உணவகம் uṇavakam, ஓட்டல் ōṭṭal | ✗ | Wt |
+| Persian | رستوران restorān | ✓ | Wt |
+| Arabic | مطعم maṭʿam | ✗ | Wt |
+| Turkish | restoran, lokanta | ✓ | Wt |
+| Russian | ресторан restoran | ✓ | Wt |
+| Spanish | restaurante | ✓ | Wt |
+| French | restaurant | ✓ | Wt |
+| Swahili | mkahawa, hoteli | ✗ | Wt |
+| Hausa | gidan abinci | ✗ | M |
+| Yoruba | ilé-oúnjẹ "food house" | ✗ | Wt |
+| Quechua | mikhuna wasi "food house" (Wt); restaurante in bilingual speech | ✗ (✓ lenient) | Wt, M |
+
+**10/20 (12 lenient); regions 5 (no SSA AM) (6 lenient) → borderline.** Median [restoran] → *lesutolan*.
+Several languages use the hotel word for an eating place (ta ōṭṭal, sw hoteli), and "food house/shop" is the common native build.
+
+### ticket (Wt: [ticket](https://en.wiktionary.org/wiki/ticket#Translations), "pass for transportation")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 票 piào | ✗ | Wt |
+| Japanese | 切符 kippu (train); チケット chiketto (events) | ✓ | Wt |
+| Korean | 티켓 tiket, 표 pyo | ✓ | Wt |
+| Vietnamese | vé | ✗ | Wt |
+| Thai | ตั๋ว tǔa | ✗ | Wt |
+| Indonesian | tiket | ✓ | Wt |
+| Tagalog | tiket | ✓ | M |
+| Hindi | टिकट ṭikaṭ | ✓ | Wt |
+| Bengali | টিকেট ṭikeṭ | ✓ | Wt |
+| Tamil | டிக்கெட் ṭikkeṭ | ✓ | M |
+| Persian | بلیت belit | ✗ | Wt |
+| Arabic | تذكرة taḏkira | ✗ | Wt |
+| Turkish | bilet | ✗ | Wt |
+| Russian | билет bilet | ✗ | Wt |
+| Spanish | boleto, billete (tiquete in Colombia) | ✗ | Wt |
+| French | billet; ticket (metro, bus) | ✗ (✓ lenient) | Wt |
+| Swahili | tiketi | ✓ | Wt |
+| Hausa | tikiti | ✓ | M |
+| Yoruba | tíkẹ́ẹ̀tì | ✓ | M |
+| Quechua | boleto (Spanish loan) | ✗ | M |
+
+**10/20 (11 lenient); regions 4 (no WA EU AM) (5 lenient) → fail.**
+The two international forms split the panel: ticket (Asia, Africa) and billet (fa tr ru es fr, plus es boleto). Neither reaches 12, so the panel does not choose; zh piào, vi vé, th tǔa and ar taḏkira are native.
+
+### budget (Wt: [budget](https://en.wiktionary.org/wiki/budget#Translations), "amount of money or resources earmarked for a particular institution, activity or time-frame")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 预算 yùsuàn | ✗ | Wt |
+| Japanese | 予算 yosan | ✗ | Wt |
+| Korean | 예산 yesan | ✗ | Wt |
+| Vietnamese | ngân sách | ✗ | Wt |
+| Thai | งบประมาณ ngóp pramaan | ✗ | Wt |
+| Indonesian | anggaran; bujet | ✗ (✓ lenient) | Wt |
+| Tagalog | badyet | ✓ | M |
+| Hindi | बजट bajaṭ | ✓ | Wt |
+| Bengali | বাজেট bājeṭ | ✓ | Wt |
+| Tamil | வரவு-செலவுத் திட்டம்; spoken bajeṭ | ✗ (✓ lenient) | M |
+| Persian | بودجه budje | ✓ | Wt |
+| Arabic | ميزانية mīzāniyya | ✗ | Wt |
+| Turkish | bütçe | ✓ | Wt |
+| Russian | бюджет bjudžet | ✓ | Wt |
+| Spanish | presupuesto | ✗ | Wt |
+| French | budget | ✓ | Wt |
+| Swahili | bajeti | ✓ | Wt |
+| Hausa | kasafin kuɗi | ✗ | M |
+| Yoruba | ìṣúná | ✗ | M |
+| Quechua | presupuesto (Spanish loan) | ✗ | M |
+
+**8/20 (10 lenient); regions 5 (no EA AM) → fail.**
+
+### league (Wt: [league](https://en.wiktionary.org/wiki/league#Translations), "organization of sports teams")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 联赛 liánsài, 联盟 | ✗ | Wt |
+| Japanese | リーグ rīgu | ✓ | Wt |
+| Korean | 리그 rigeu | ✓ | Wt |
+| Vietnamese | giải, hạng | ✗ | Wt |
+| Thai | ลีก líik | ✓ | Wt |
+| Indonesian | liga | ✓ | Wt |
+| Tagalog | liga | ✓ | Wt |
+| Hindi | लीग līg | ✓ | Wt |
+| Bengali | লিগ lig | ✓ | Wt |
+| Tamil | லீக் līk | ✓ | M |
+| Persian | لیگ lig | ✓ | Wt |
+| Arabic | دوري dawrī | ✗ | Wt |
+| Turkish | lig | ✓ | Wt |
+| Russian | лига liga | ✓ | Wt |
+| Spanish | liga | ✓ | Wt |
+| French | ligue | ✓ | Wt |
+| Swahili | ligi | ✓ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | liga (Spanish loan) | ✓ | M |
+
+**15/20; regions all 7 → pass.** Median [liga] → *liga*.
+Final vowel: present in 8 (a: id tl ru es qu; u: ja ko; i: sw) against 7 consonant-final (th hi bn ta fa tr fr). [lig] would give *ligu*.
+
+### album (Wt: [album](https://en.wiktionary.org/wiki/album#Translations), "book for photographs, stamps, or autographs")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 相册 xiàngcè, 专辑 zhuānjí (music) | ✗ | Wt |
+| Japanese | アルバム arubamu | ✓ | Wt |
+| Korean | 앨범 aelbeom | ✓ | Wt |
+| Vietnamese | an-bom, album | ✓ | Wt |
+| Thai | อัลบั้ม anlabâm | ✓ | Wt |
+| Indonesian | album | ✓ | Wt |
+| Tagalog | album | ✓ | Wt |
+| Hindi | अलबम albam | ✓ | Wt |
+| Bengali | অ্যালবাম ælbām | ✓ | Wt |
+| Tamil | ஆல்பம் ālbam | ✓ | M |
+| Persian | آلبوم ālbom | ✓ | Wt |
+| Arabic | ألبوم albūm | ✓ | Wt |
+| Turkish | albüm | ✓ | Wt |
+| Russian | альбом al'bom | ✓ | Wt |
+| Spanish | álbum | ✓ | Wt |
+| French | album | ✓ | Wt |
+| Swahili | albamu | ✓ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | álbum (Spanish loan) | ✓ | M |
+
+**17/20; regions all 7 → pass.** Median [album] → *alubumu*.
+Second vowel u (ja id tl ar es fr qu, tr y) 8 against a (ko th hi bn ta sw) 6 and o (vi fa ru) 3.
+
+### philosophy (Wt: [philosophy](https://en.wiktionary.org/wiki/philosophy#Translations), "academic discipline")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 哲学 zhéxué | ✗ | Wt |
+| Japanese | 哲学 tetsugaku | ✗ | Wt |
+| Korean | 철학 cheolhak | ✗ | Wt |
+| Vietnamese | triết học | ✗ | Wt |
+| Thai | ปรัชญา pràtyaa | ✗ | Wt |
+| Indonesian | filsafat (< Arabic falsafa) | ✓ | Wt |
+| Tagalog | pilosopiya | ✓ | Wt |
+| Hindi | दर्शन darśan; फ़लसफ़ा falsafā (Urdu) | ✗ (✓ lenient) | Wt |
+| Bengali | দর্শন darśan | ✗ | M |
+| Tamil | தத்துவம் tattuvam | ✗ | Wt |
+| Persian | فلسفه falsafe | ✓ | Wt |
+| Arabic | فلسفة falsafa | ✓ | Wt |
+| Turkish | felsefe | ✓ | Wt |
+| Russian | философия filosofija | ✓ | Wt |
+| Spanish | filosofía | ✓ | Wt |
+| French | philosophie | ✓ | Wt |
+| Swahili | falsafa | ✓ | Wt |
+| Hausa | falsafa | ✓ | M |
+| Yoruba | ìmọ̀ ọgbọ́n | ✗ | M |
+| Quechua | filosofía (Spanish loan) | ✓ | M |
+
+**11/20 (12 lenient); regions 5 (no EA SA) (6 lenient) → borderline.** Median [filsafa] → *filusafa*.
+The Arabic-mediated falsafa (id fa ar tr sw ha) and the Greek-Latin filosofia (tl ru es fr qu) share the skeleton f-l-s-f and are counted as one word. The per-position median blends them: [filsafa].
+
+### channel (Wt: [channel](https://en.wiktionary.org/wiki/channel#Translations), "broadcasting: specific radio frequency or band of frequencies used for transmitting television")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 频道 píndào | ✗ | Wt |
+| Japanese | チャンネル channeru | ✓ | Wt |
+| Korean | 채널 chaeneol | ✓ | Wt |
+| Vietnamese | kênh | ✗ | Wt |
+| Thai | ช่อง chɔ̂ng | ✗ | Wt |
+| Indonesian | saluran; kanal | ✗ (✓ lenient) | M |
+| Tagalog | channel (Wt coinage alunan) | ✓ | M |
+| Hindi | चैनल cainal | ✓ | Wt |
+| Bengali | চ্যানেল cyānel | ✓ | Wt |
+| Tamil | சேனல் cēṉal | ✓ | M |
+| Persian | کانال kānāl | ✗ (✓ lenient) | Wt |
+| Arabic | قناة qanāt | ✗ | Wt |
+| Turkish | kanal | ✗ (✓ lenient) | Wt |
+| Russian | канал kanal | ✗ (✓ lenient) | Wt |
+| Spanish | canal | ✗ (✓ lenient) | Wt |
+| French | chaîne | ✗ | Wt |
+| Swahili | chaneli | ✓ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | canal (Spanish loan) | ✗ (✓ lenient) | M |
+
+**7/20 (13 lenient); regions 4 (no WA EU AM) (7 lenient) → borderline.** Median [tʃanel] → *tanelu*.
+The panel splits between English channel (ja ko tl hi bn ta sw) and Latin-Romance kanal (fa tr ru es qu, id). They share an etymon but tʃanel and kanal are not heard as one word. Neither form passes alone. Median of the channel form [tʃanel]; [kanal] would give *kanalu*.
+
+### robot (Wt: [robot](https://en.wiktionary.org/wiki/robot#Translations), "intelligent mechanical being")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 机器人 jīqìrén "machine person" | ✗ | Wt |
+| Japanese | ロボット robotto | ✓ | Wt |
+| Korean | 로봇 robot | ✓ | Wt |
+| Vietnamese | rô-bốt, người máy | ✓ | Wt, M* |
+| Thai | หุ่นยนต์ hùn yon; โรบอต roobɔ̀t | ✗ (✓ lenient) | Wt |
+| Indonesian | robot | ✓ | Wt |
+| Tagalog | robot | ✓ | Wt |
+| Hindi | रोबोट robot | ✓ | Wt |
+| Bengali | রোবট robaṭ | ✓ | Wt |
+| Tamil | ரோபோ robo | ✓ | Wt |
+| Persian | روبات robāt | ✓ | Wt |
+| Arabic | روبوت rūbūt | ✓ | Wt |
+| Turkish | robot | ✓ | Wt |
+| Russian | робот robot | ✓ | Wt |
+| Spanish | robot | ✓ | Wt |
+| French | robot | ✓ | Wt |
+| Swahili | roboti | ✓ | Wt |
+| Hausa | saƙago | ✗ | Wt |
+| Yoruba | (no data) | ✗ (✓ lenient) | M |
+| Quechua | antapunqu (coinage); robot in bilingual speech | ✗ (✓ lenient) | Wt, M |
+
+**15/20 (18 lenient); regions 6 (no AM) (7 lenient) → pass.** Median [robot] → *lobotu*.
+
+### mile (Wt: [mile](https://en.wiktionary.org/wiki/mile#Translations), "measure of length")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 英里 yīnglǐ "English li" | ✗ | Wt |
+| Japanese | マイル mairu | ✓ | Wt |
+| Korean | 마일 mail | ✓ | Wt |
+| Vietnamese | dặm | ✗ | Wt |
+| Thai | ไมล์ mai | ✓ | Wt |
+| Indonesian | mil | ✓ | Wt |
+| Tagalog | milya | ✓ | Wt |
+| Hindi | मील mīl | ✓ | Wt |
+| Bengali | মাইল māil | ✓ | Wt |
+| Tamil | மைல் mail | ✓ | Wt |
+| Persian | مایل māyl | ✓ | Wt |
+| Arabic | ميل mīl | ✓ | Wt |
+| Turkish | mil | ✓ | Wt |
+| Russian | миля milja | ✓ | Wt |
+| Spanish | milla | ✓ | Wt |
+| French | mille | ✓ | Wt |
+| Swahili | maili | ✓ | M |
+| Hausa | mil | ✓ | M |
+| Yoruba | máìlì | ✓ | Wt |
+| Quechua | milla (Spanish loan) | ✓ | M |
+
+**18/20; regions all 7 → pass.** Median [mil] → *milu*.
+The panel shares the word, but the unit is outside the metric standard the language follows (L3); whether it needs a word at all is for the author. Vowel i (Latin mil-) 9 against ai (English) 8.
+
+### pound (Wt: [pound](https://en.wiktionary.org/wiki/pound#Translations), "unit of currency")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 镑 bàng | ✓ | Wt |
+| Japanese | ポンド pondo | ✓ | Wt |
+| Korean | 파운드 paundeu | ✓ | Wt |
+| Vietnamese | bảng | ✓ | Wt |
+| Thai | ปอนด์ pɔn | ✓ | Wt |
+| Indonesian | paun | ✓ | Wt |
+| Tagalog | libra | ✗ | M |
+| Hindi | पाउंड pāuṇḍ | ✓ | Wt |
+| Bengali | পাউন্ড pāunḍ | ✓ | Wt |
+| Tamil | பவுண்டு pavuṇṭu | ✓ | M |
+| Persian | پوند pond | ✓ | Wt |
+| Arabic | جنيه junayh (< guinea) | ✗ | Wt |
+| Turkish | sterlin, pound | ✗ | M |
+| Russian | фунт funt | ✗ (✓ lenient) | Wt |
+| Spanish | libra | ✗ | Wt |
+| French | livre | ✗ | Wt |
+| Swahili | pauni | ✓ | Wt |
+| Hausa | fam | ✗ (✓ lenient) | Wt |
+| Yoruba | pọ́n-ùn | ✗ (✓ lenient) | M |
+| Quechua | libra (Spanish loan) | ✗ | M |
+
+**11/20 (14 lenient); regions 5 (no EU AM) (6 lenient) → borderline.** Median [paund] → *pawundu*.
+As a currency, loans.md's pattern 2 applies: the issuer's name (pound sterling) may settle it as a name rather than a loan. Russian funt and Hausa fam come from pound but are hard to hear as it.
+
+### cigarette (Wt: [cigarette](https://en.wiktionary.org/wiki/cigarette#Translations), "thin roll of tobacco made for smoking")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 香烟 xiāngyān | ✗ | Wt |
+| Japanese | タバコ tabako | ✗ | Wt |
+| Korean | 담배 dambae | ✗ | Wt |
+| Vietnamese | thuốc lá | ✗ | Wt |
+| Thai | บุหรี่ burìi | ✗ | Wt |
+| Indonesian | rokok | ✗ | Wt |
+| Tagalog | sigarilyo, yosi | ✓ | Wt |
+| Hindi | सिगरेट sigreṭ | ✓ | Wt |
+| Bengali | সিগারেট sigāreṭ | ✓ | Wt |
+| Tamil | சிகரெட் sikareṭ | ✓ | Wt |
+| Persian | سیگار sigār, سیگارت | ✓ | Wt |
+| Arabic | سيجارة sījāra | ✓ | Wt |
+| Turkish | sigara | ✓ | Wt |
+| Russian | сигарета sigareta | ✓ | Wt |
+| Spanish | cigarrillo | ✓ | Wt |
+| French | cigarette | ✓ | Wt |
+| Swahili | sigara | ✓ | Wt |
+| Hausa | taba; sigari | ✗ (✓ lenient) | M |
+| Yoruba | sìgá | ✓ | M |
+| Quechua | cigarro (Spanish loan) | ✓ | M |
+
+**13/20 (14 lenient); regions 6 (no EA) → pass.** Median [sigaret] → *sigaletu*.
+Median: after sigar-, e (hi bn ta fa ru fr) 6 is a plurality over a (ar tr sw) 3; then t in 6 against 4 endings.
+
+### club (Wt: [club](https://en.wiktionary.org/wiki/club#Translations), "association of members")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 俱乐部 jùlèbù (sound loan) | ✓ | Wt |
+| Japanese | クラブ kurabu | ✓ | Wt |
+| Korean | 동아리 dongari, 동호회; 클럽 (nightclub, football club) | ✗ (✓ lenient) | Wt |
+| Vietnamese | câu lạc bộ (< 俱樂部) | ✓ | Wt |
+| Thai | สโมสร samooson; คลับ khláp | ✗ (✓ lenient) | Wt |
+| Indonesian | klub | ✓ | Wt |
+| Tagalog | klab | ✓ | M |
+| Hindi | क्लब klab | ✓ | Wt |
+| Bengali | ক্লাব klāb | ✓ | Wt |
+| Tamil | கழகம் kaḻakam; spoken klap | ✗ (✓ lenient) | M |
+| Persian | باشگاه bāšgāh | ✗ | Wt |
+| Arabic | نادي nādī | ✗ | Wt |
+| Turkish | kulüp | ✓ | Wt |
+| Russian | клуб klub | ✓ | Wt |
+| Spanish | club | ✓ | Wt |
+| French | club | ✓ | Wt |
+| Swahili | klabu | ✓ | Wt |
+| Hausa | kulob | ✓ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | club (Spanish loan) | ✓ | M |
+
+**14/20 (17 lenient); regions all 7 → pass.** Median [klab] → *kulabu*.
+Mandarin jùlèbù and Vietnamese câu lạc bộ are sound loans (via Japanese 倶楽部) and count. Main vowel a (ja tl hi bn sw vi) 6 against u (id ru es qu, tr y) 5.
+
+### campaign (Wt: [campaign](https://en.wiktionary.org/wiki/campaign#Translations), "series of operations undertaken to achieve a set goal")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 活动 huódòng | ✗ | Wt |
+| Japanese | キャンペーン kyanpēn | ✓ | Wt |
+| Korean | 캠페인 kaempein | ✓ | Wt |
+| Vietnamese | chiến dịch | ✗ | Wt |
+| Thai | การรณรงค์ kaan ronnarong | ✗ | Wt |
+| Indonesian | kampanye | ✓ | Wt |
+| Tagalog | kampanya | ✓ | Wt |
+| Hindi | अभियान abhiyān, मुहिम | ✗ | Wt |
+| Bengali | প্রচার pracār | ✗ | Wt |
+| Tamil | பிரச்சாரம் piraccāram | ✗ | M |
+| Persian | کارزار kārzār; کمپین kampein | ✗ (✓ lenient) | Wt |
+| Arabic | حملة ḥamla | ✗ | Wt |
+| Turkish | kampanya | ✓ | Wt |
+| Russian | кампания kampanija | ✓ | Wt |
+| Spanish | campaña | ✓ | Wt |
+| French | campagne | ✓ | Wt |
+| Swahili | kampeni | ✓ | Wt |
+| Hausa | kamfe | ✓ | M |
+| Yoruba | ìpolongo | ✗ | M |
+| Quechua | campaña (Spanish loan) | ✓ | M |
+
+**11/20 (12 lenient); regions 6 (no SA) → borderline.** Median [kampaɲa] → *kanpana*.
+South Asia (abhiyān, pracār) and Arabic ḥamla are native.
+
+### taxi (Wt: [taxi](https://en.wiktionary.org/wiki/taxi#Translations), "vehicle available for public hire")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 出租车 chūzūchē (的士 dīshì in Hong Kong) | ✗ | Wt |
+| Japanese | タクシー takushī | ✓ | Wt |
+| Korean | 택시 taeksi | ✓ | Wt |
+| Vietnamese | tắc-xi | ✓ | Wt |
+| Thai | แท็กซี่ thɛ́ksîi | ✓ | Wt |
+| Indonesian | taksi | ✓ | Wt |
+| Tagalog | taxi | ✓ | Wt |
+| Hindi | टैक्सी ṭaiksī | ✓ | Wt |
+| Bengali | ট্যাক্সি ṭyāksi | ✓ | Wt |
+| Tamil | டாக்ஸி ṭāksi | ✓ | Wt |
+| Persian | تاکسی tāksi | ✓ | Wt |
+| Arabic | تاكسي tāksī | ✓ | Wt |
+| Turkish | taksi | ✓ | Wt |
+| Russian | такси taksi | ✓ | Wt |
+| Spanish | taxi | ✓ | Wt |
+| French | taxi | ✓ | Wt |
+| Swahili | teksi | ✓ | Wt |
+| Hausa | tasi | ✓ | Wt |
+| Yoruba | takisí | ✓ | Wt |
+| Quechua | taxi (Spanish loan) | ✓ | M |
+
+**19/20; regions all 7 → pass.** Median [taksi] → *takusi*.
+
+### gas (Wt: [gas](https://en.wiktionary.org/wiki/gas#Translations), "(uncountable, chemistry) state of matter")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 气体 qìtǐ, 气 | ✗ | Wt |
+| Japanese | 気体 kitai; ガス gasu (fuel gas) | ✗ (✓ lenient) | Wt |
+| Korean | 가스 gaseu, 기체 | ✓ | Wt |
+| Vietnamese | khí; ga (fuel gas) | ✗ (✓ lenient) | Wt |
+| Thai | ก๊าซ kɛ́ɛt | ✓ | Wt |
+| Indonesian | gas | ✓ | Wt |
+| Tagalog | gas (Wt coinage buhag) | ✓ | M |
+| Hindi | गैस gais | ✓ | Wt |
+| Bengali | গ্যাস gyās | ✓ | Wt |
+| Tamil | வாயு vāyu; spoken gas | ✗ (✓ lenient) | Wt, M |
+| Persian | گاز gāz | ✓ | Wt |
+| Arabic | غاز ġāz | ✓ | Wt |
+| Turkish | gaz | ✓ | Wt |
+| Russian | газ gaz | ✓ | Wt |
+| Spanish | gas | ✓ | Wt |
+| French | gaz | ✓ | Wt |
+| Swahili | gesi | ✓ | Wt |
+| Hausa | gas | ✓ | M |
+| Yoruba | gáàsì | ✓ | Wt |
+| Quechua | gas (Spanish loan) | ✓ | M |
+
+**16/20 (19 lenient); regions all 7 → pass.** Median [gas] → *gasu*.
+s (ko th id tl hi bn es sw ha yo qu) against z (fa ar tr ru fr).
+
+### museum (Wt: [museum](https://en.wiktionary.org/wiki/museum#Translations), "building or institution")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 博物馆 bówùguǎn | ✗ | Wt |
+| Japanese | 博物館 hakubutsukan | ✗ | Wt |
+| Korean | 박물관 bangmulgwan | ✗ | Wt |
+| Vietnamese | bảo tàng | ✗ | Wt |
+| Thai | พิพิธภัณฑ์ phíphítthaphan | ✗ | Wt |
+| Indonesian | museum | ✓ | Wt |
+| Tagalog | museo | ✓ | Wt |
+| Hindi | संग्रहालय saṅgrahālay; म्यूज़ियम myūziyam | ✗ (✓ lenient) | Wt |
+| Bengali | জাদুঘর jādughar "magic house" | ✗ | Wt |
+| Tamil | அருங்காட்சியகம் aruṅkāṭciyakam | ✗ | Wt |
+| Persian | موزه muze | ✓ | Wt |
+| Arabic | متحف matḥaf | ✗ | Wt |
+| Turkish | müze | ✓ | Wt |
+| Russian | музей muzej | ✓ | Wt |
+| Spanish | museo | ✓ | Wt |
+| French | musée | ✓ | Wt |
+| Swahili | makumbusho | ✗ | Wt |
+| Hausa | gidan tarihi "history house" | ✗ | M |
+| Yoruba | ilé ìṣẹ̀ǹbáyé | ✗ | M |
+| Quechua | museo (Spanish loan) | ✓ | M |
+
+**8/20 (9 lenient); regions 4 (no EA SA SSA) (5 lenient) → fail.**
+
+### alcohol (Wt: [alcohol](https://en.wiktionary.org/wiki/alcohol#Translations), "intoxicating beverage")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 酒 jiǔ | ✗ | Wt |
+| Japanese | お酒 osake; アルコール arukōru | ✗ (✓ lenient) | Wt |
+| Korean | 술 sul; 알코올 alkool | ✗ (✓ lenient) | Wt |
+| Vietnamese | rượu | ✗ | Wt |
+| Thai | เหล้า lâo, สุรา | ✗ | Wt |
+| Indonesian | alkohol, minuman keras | ✓ | Wt |
+| Tagalog | alak (< Arabic ʿaraq) | ✗ | M |
+| Hindi | शराब šarāb, दारू | ✗ | Wt |
+| Bengali | মদ mad | ✗ | Wt |
+| Tamil | மது madhu | ✗ | M |
+| Persian | عرق ʿaraq, مشروب | ✗ | Wt |
+| Arabic | كحول kuḥūl (the etymon of alcohol) | ✗ (✓ lenient) | Wt |
+| Turkish | içki; alkol | ✓ | Wt |
+| Russian | алкоголь alkogol', спиртное | ✓ | Wt |
+| Spanish | alcohol | ✓ | Wt |
+| French | alcool | ✓ | Wt |
+| Swahili | pombe | ✗ | M |
+| Hausa | giya | ✗ | M |
+| Yoruba | ọtí | ✗ | M |
+| Quechua | trago (Spanish), aqha (chicha) | ✗ | M |
+
+**5/20 (8 lenient); regions 3 (SEA WA EU) (4 lenient) → fail.**
+
+### engine (Wt: [engine](https://en.wiktionary.org/wiki/engine#Translations), "mechanical device")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 发动机 fādòngjī, 引擎 yǐnqíng (sound loan of engine) | ✗ | Wt |
+| Japanese | エンジン enjin (モーター mōtā = electric motor) | ✗ | Wt |
+| Korean | 엔진 enjin (모터 = electric motor) | ✗ | Wt |
+| Vietnamese | động cơ (mô-tơ = electric motor) | ✗ | Wt |
+| Thai | เครื่องยนต์ khrʉ̂ang yon (มอเตอร์ = electric motor) | ✗ | Wt |
+| Indonesian | mesin (motor = motorcycle) | ✗ | Wt |
+| Tagalog | makina | ✗ | M |
+| Hindi | इंजन injan (मोटर = electric motor) | ✗ | Wt |
+| Bengali | ইঞ্জিন iñjin (মোটর = electric motor) | ✗ | Wt |
+| Tamil | இன்ஜின் injin | ✗ | M |
+| Persian | موتور motor | ✓ | Wt |
+| Arabic | محرك muḥarrik; colloquial موتور mōtōr | ✗ (✓ lenient) | Wt |
+| Turkish | motor | ✓ | Wt |
+| Russian | двигатель dvigatel'; мотор motor | ✗ (✓ lenient) | Wt |
+| Spanish | motor | ✓ | Wt |
+| French | moteur | ✓ | Wt |
+| Swahili | injini | ✗ | Wt |
+| Hausa | inji | ✗ | M |
+| Yoruba | ẹ́ńjìnnì | ✗ | M |
+| Quechua | motor (Spanish loan) | ✓ | M |
+
+**5/20 (7 lenient); regions 3 (WA EU AM) → fail.**
+Shared column = the motor form proposed in the ladder note. The panel splits between two loans for a car engine: engine (ja ko hi bn ta sw ha yo, 8 in 3 regions, plus zh yǐnqíng) and motor (fa tr es fr qu, plus colloquial ar ru). Where both exist, motor usually means an electric motor. Neither passes.
+
+### chemistry (Wt: [chemistry](https://en.wiktionary.org/wiki/chemistry#Translations), "branch of natural science")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 化学 huàxué | ✗ | Wt |
+| Japanese | 化学 kagaku | ✗ | Wt |
+| Korean | 화학 hwahak | ✗ | Wt |
+| Vietnamese | hóa học | ✗ | Wt |
+| Thai | เคมี khemii | ✓ | Wt |
+| Indonesian | kimia | ✓ | Wt |
+| Tagalog | kimika | ✓ | Wt |
+| Hindi | रसायन शास्त्र rasāyan šāstra | ✗ | Wt |
+| Bengali | রসায়ন rasāyan | ✗ | Wt |
+| Tamil | வேதியியல் vētiyiyal | ✗ | Wt |
+| Persian | شیمی šimi (< French chimie) | ✓ | Wt |
+| Arabic | كيمياء kīmiyāʾ | ✓ | Wt |
+| Turkish | kimya | ✓ | Wt |
+| Russian | химия ximija | ✓ | Wt |
+| Spanish | química | ✓ | Wt |
+| French | chimie | ✓ | Wt |
+| Swahili | kemia | ✓ | Wt |
+| Hausa | kimiyya | ✓ | M |
+| Yoruba | kẹ́mísírì | ✓ | M |
+| Quechua | química (Spanish loan) | ✓ | M |
+
+**13/20; regions 5 (no EA SA) → pass.** Median [kimia] → *kimiya*.
+EA uses Sino 化学 and SA Sanskrit rasāyan. French and Persian ʃimi are counted with kimia; without them it is 11 and fails. Median: k 10, first vowel i 10, final a.
+
+### guitar (Wt: [guitar](https://en.wiktionary.org/wiki/guitar#Translations), "musical instrument")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 吉他 jítā | ✓ | Wt |
+| Japanese | ギター gitā | ✓ | Wt |
+| Korean | 기타 gita | ✓ | Wt |
+| Vietnamese | ghi-ta | ✓ | Wt |
+| Thai | กีตาร์ kiitaa | ✓ | Wt |
+| Indonesian | gitar | ✓ | Wt |
+| Tagalog | gitara | ✓ | Wt |
+| Hindi | गिटार giṭār | ✓ | Wt |
+| Bengali | গিটার giṭār | ✓ | Wt |
+| Tamil | கித்தார் kittār | ✓ | Wt |
+| Persian | گیتار gitār | ✓ | Wt |
+| Arabic | جيتار gītār (classical قيثارة qīṯāra) | ✓ | Wt |
+| Turkish | gitar | ✓ | Wt |
+| Russian | гитара gitara | ✓ | Wt |
+| Spanish | guitarra | ✓ | Wt |
+| French | guitare | ✓ | Wt |
+| Swahili | gitaa | ✓ | Wt |
+| Hausa | gita | ✓ | M |
+| Yoruba | gìtá | ✓ | M |
+| Quechua | guitarra (Spanish loan) | ✓ | M |
+
+**20/20; regions all 7 → pass.** Median [gitar] → *gitalu*.
+
+### metal (Wt: [metal](https://en.wiktionary.org/wiki/metal#Translations), "atomic element or material made of such atoms")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 金属 jīnshǔ | ✗ | Wt |
+| Japanese | 金属 kinzoku | ✗ | Wt |
+| Korean | 금속 geumsok | ✗ | Wt |
+| Vietnamese | kim loại | ✗ | Wt |
+| Thai | โลหะ lohà | ✗ | Wt |
+| Indonesian | logam | ✗ | Wt |
+| Tagalog | metal | ✓ | Wt |
+| Hindi | धातु dhātu | ✗ | Wt |
+| Bengali | ধাতু dhātu | ✗ | Wt |
+| Tamil | உலோகம் ulōkam | ✗ | Wt |
+| Persian | فلز felez | ✗ | Wt |
+| Arabic | معدن maʿdin, فلز filizz | ✗ | Wt |
+| Turkish | metal | ✓ | Wt |
+| Russian | металл metall | ✓ | Wt |
+| Spanish | metal | ✓ | Wt |
+| French | métal | ✓ | Wt |
+| Swahili | metali | ✓ | Wt |
+| Hausa | ƙarfe | ✗ | M |
+| Yoruba | irin | ✗ | M |
+| Quechua | chuqi, q'illay | ✗ | Wt |
+
+**6/20; regions 4 (no EA SA AM) → fail.**
+
+### climate (Wt: [climate](https://en.wiktionary.org/wiki/climate#Translations), "long-term atmospheric conditions")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 气候 qìhòu | ✗ | Wt |
+| Japanese | 気候 kikō | ✗ | Wt |
+| Korean | 기후 gihu | ✗ | Wt |
+| Vietnamese | khí hậu | ✗ | Wt |
+| Thai | ภูมิอากาศ phuumí-aakàat | ✗ | Wt |
+| Indonesian | iklim | ✓ | Wt |
+| Tagalog | klima | ✓ | Wt |
+| Hindi | जलवायु jalvāyu "water-air" | ✗ | Wt |
+| Bengali | জলবায়ু jalbāyu | ✗ | Wt |
+| Tamil | காலநிலை kālanilai | ✗ | Wt |
+| Persian | آب و هوا āb o havā "water and air"; اقلیم eqlim | ✗ (✓ lenient) | Wt |
+| Arabic | مناخ munāx | ✗ | Wt |
+| Turkish | iklim | ✓ | Wt |
+| Russian | климат klimat | ✓ | Wt |
+| Spanish | clima | ✓ | Wt |
+| French | climat | ✓ | Wt |
+| Swahili | tabianchi | ✗ | Wt |
+| Hausa | yanayi | ✗ | M |
+| Yoruba | ojú-ọjọ́ | ✗ | M |
+| Quechua | clima (Spanish loan) | ✓ | M |
+
+**7/20 (8 lenient); regions 4 (no EA SA SSA) → fail.**
+
+### gene (Wt: [gene](https://en.wiktionary.org/wiki/gene#Translations), "unit of heredity")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 基因 jīyīn (sound loan) | ✓ | Wt |
+| Japanese | 遺伝子 idenshi | ✗ | Wt |
+| Korean | 유전자 yujeonja | ✗ | Wt |
+| Vietnamese | gen | ✓ | Wt |
+| Thai | ยีน yiin (Wt gives a coinage) | ✓ | M |
+| Indonesian | gen | ✓ | Wt |
+| Tagalog | hene | ✓ | Wt |
+| Hindi | जीन jīn | ✓ | Wt |
+| Bengali | জিন jin | ✓ | Wt |
+| Tamil | மரபணு marapaṇu | ✗ | Wt |
+| Persian | ژن žen | ✓ | Wt |
+| Arabic | جين jīn, مورثة | ✓ | Wt, M* |
+| Turkish | gen | ✓ | Wt |
+| Russian | ген gen | ✓ | Wt |
+| Spanish | gen | ✓ | Wt |
+| French | gène | ✓ | Wt |
+| Swahili | jeni | ✓ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | gen (Spanish loan) | ✓ | M |
+
+**15/20; regions all 7 → pass.** Median [dʒen] → *denu*.
+Initial consonant: dʒ (zh hi bn ar sw) 5, g (id tr ru) 3, ʒ (vi fa fr) 3, x/h (tl es qu) 3. Vowel e 10 against i 5. names.py adds a vowel to reach two syllables.
+
+### pilot (Wt: [pilot](https://en.wiktionary.org/wiki/pilot#Translations), "controller of aircraft|aviator")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 飞行员 fēixíngyuán | ✗ | Wt |
+| Japanese | パイロット pairotto | ✓ | Wt |
+| Korean | 파일럿 pailleot, 조종사 | ✓ | Wt |
+| Vietnamese | phi công | ✗ | Wt |
+| Thai | นักบิน nák bin | ✗ | Wt |
+| Indonesian | pilot | ✓ | Wt |
+| Tagalog | piloto | ✓ | Wt |
+| Hindi | पायलट pāylaṭ | ✓ | Wt |
+| Bengali | বিমান চালক bimān cālak; spoken pāilaṭ | ✗ (✓ lenient) | Wt, M |
+| Tamil | பைலட் pailaṭ, வானோடி | ✓ | Wt |
+| Persian | خلبان xalabān (پیلوت rare) | ✗ | Wt |
+| Arabic | طيار ṭayyār | ✗ | Wt |
+| Turkish | pilot | ✓ | Wt |
+| Russian | пилот pilot, лётчик | ✓ | Wt |
+| Spanish | piloto | ✓ | Wt |
+| French | pilote | ✓ | Wt |
+| Swahili | rubani | ✗ | Wt |
+| Hausa | matuƙin jirgi | ✗ | M |
+| Yoruba | awakọ̀ òfurufú | ✗ | M |
+| Quechua | piloto (Spanish loan) | ✓ | M |
+
+**11/20 (12 lenient); regions 6 (no SSA) → borderline.** Median [pilot] → *pilotu*.
+Median: i (id tl tr ru es fr qu) 7 against English ai (ja ko hi ta bn) 5.
+
+### fashion (Wt: [fashion](https://en.wiktionary.org/wiki/fashion#Translations), "current (constantly changing) trend, favored for frivolous rather than practical, logical, or intellectual reasons|vogue")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 时尚 shíshàng, 时装 | ✗ | Wt |
+| Japanese | ファッション fasshon, 流行 | ✗ | Wt |
+| Korean | 패션 paesyeon | ✗ | Wt |
+| Vietnamese | mốt (< French mode), thời trang | ✓ | Wt |
+| Thai | แฟชั่น fɛɛchân | ✗ | Wt |
+| Indonesian | mode | ✓ | Wt |
+| Tagalog | moda | ✓ | Wt |
+| Hindi | फ़ैशन faišan | ✗ | Wt |
+| Bengali | ফ্যাশন fyāšan | ✗ | Wt |
+| Tamil | ஃபேஷன் fēšan | ✗ | Wt |
+| Persian | مد mod | ✓ | Wt |
+| Arabic | موضة mōḍa | ✓ | Wt |
+| Turkish | moda | ✓ | Wt |
+| Russian | мода moda | ✓ | Wt |
+| Spanish | moda | ✓ | Wt |
+| French | mode | ✓ | Wt |
+| Swahili | mitindo | ✗ | M |
+| Hausa | yayi | ✗ | M |
+| Yoruba | àṣà | ✗ | M |
+| Quechua | moda (Spanish loan) | ✓ | M |
+
+**10/20; regions 4 (no EA SA SSA) → fail.**
+Shared column = moda/mode. The English fashion form (ja ko th hi bn ta) is the other half of the panel, 6 in 3 regions.
+
+### plastic (Wt: [plastic](https://en.wiktionary.org/wiki/plastic#Translations), "synthetic thermoplastic polymer")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 塑料 sùliào | ✗ | Wt |
+| Japanese | プラスチック purasuchikku | ✓ | Wt |
+| Korean | 플라스틱 peullaseutik | ✓ | Wt |
+| Vietnamese | nhựa, chất dẻo | ✗ | Wt |
+| Thai | พลาสติก phláatsatìk | ✓ | Wt |
+| Indonesian | plastik | ✓ | M |
+| Tagalog | plastik | ✓ | Wt |
+| Hindi | प्लास्टिक plāsṭik | ✓ | Wt |
+| Bengali | প্লাস্টিক plāsṭik | ✓ | Wt |
+| Tamil | பிளாஸ்டிக் pilāsṭik (coinage நெகிழி) | ✓ | Wt, M* |
+| Persian | پلاستیک pelāstik | ✓ | Wt |
+| Arabic | بلاستيك blāstīk | ✓ | Wt |
+| Turkish | plastik | ✓ | Wt |
+| Russian | пластик plastik, пластмасса | ✓ | Wt |
+| Spanish | plástico | ✓ | Wt |
+| French | plastique | ✓ | Wt |
+| Swahili | plastiki | ✓ | Wt |
+| Hausa | roba "rubber" | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | plástico (Spanish loan) | ✓ | M |
+
+**16/20; regions all 7 → pass.** Median [plastik] → *pulasutiku*.
+
+### bar (Wt: [bar](https://en.wiktionary.org/wiki/bar#Translations), "business licensed to sell intoxicating beverages")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 酒吧 jiǔbā (bā sound loan + "liquor") | ✗ (✓ lenient) | Wt |
+| Japanese | バー bā (居酒屋 izakaya for a pub) | ✓ | Wt |
+| Korean | 술집 suljip; 바 ba | ✗ (✓ lenient) | Wt |
+| Vietnamese | quán rượu; quán bar in cities | ✗ (✓ lenient) | Wt |
+| Thai | บาร์ baa | ✓ | Wt |
+| Indonesian | bar | ✓ | Wt |
+| Tagalog | bar | ✓ | M |
+| Hindi | बार bār | ✓ | Wt |
+| Bengali | বার bār | ✓ | Wt |
+| Tamil | பார் pār | ✓ | M |
+| Persian | بار bār, میخانه meykhāne | ✓ | Wt |
+| Arabic | بار bār, حانة ḥāna | ✓ | Wt, M* |
+| Turkish | bar, meyhane | ✓ | Wt |
+| Russian | бар bar | ✓ | Wt |
+| Spanish | bar | ✓ | Wt |
+| French | bar | ✓ | Wt |
+| Swahili | baa | ✓ | M |
+| Hausa | mashaya | ✗ | M |
+| Yoruba | ilé ọtí | ✗ | M |
+| Quechua | bar (Spanish loan) | ✓ | M |
+
+**15/20 (18 lenient); regions all 7 → pass.** Median [bar] → *balu*.
+
+### version (Wt: [version](https://en.wiktionary.org/wiki/version#Translations), "computing: particular revision")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 版本 bǎnběn | ✗ | Wt |
+| Japanese | バージョン bājon | ✓ | Wt |
+| Korean | 버전 beojeon | ✓ | Wt |
+| Vietnamese | phiên bản | ✗ | Wt |
+| Thai | เวอร์ชัน wəəchan | ✓ | Wt, M* |
+| Indonesian | versi | ✓ | Wt |
+| Tagalog | bersyon | ✓ | M |
+| Hindi | संस्करण saṃskaraṇ; spoken varzan | ✗ (✓ lenient) | Wt, M |
+| Bengali | সংস্করণ saṃskaraṇ | ✗ | Wt |
+| Tamil | பதிப்பு patippu | ✗ | M |
+| Persian | نسخه nosxe | ✗ | Wt |
+| Arabic | إصدار iṣdār, نسخة nusxa | ✗ | Wt |
+| Turkish | sürüm, versiyon | ✓ | Wt |
+| Russian | версия versija | ✓ | Wt |
+| Spanish | versión | ✓ | Wt |
+| French | version | ✓ | Wt |
+| Swahili | toleo | ✗ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | versión (Spanish loan) | ✓ | M |
+
+**10/20 (11 lenient); regions 5 (no SA SSA) (6 lenient) → fail.**
+
+### cinema (Wt: [cinema](https://en.wiktionary.org/wiki/cinema#Translations), "a film/movie theatre")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 电影院 diànyǐngyuàn | ✗ | Wt |
+| Japanese | 映画館 eigakan | ✗ | Wt |
+| Korean | 영화관 yeonghwagwan | ✗ | Wt |
+| Vietnamese | rạp chiếu phim; rạp xi-nê | ✗ (✓ lenient) | Wt |
+| Thai | โรงหนัง roong nǎng | ✗ | Wt |
+| Indonesian | bioskop; sinema | ✗ (✓ lenient) | Wt |
+| Tagalog | sinehan | ✓ | Wt |
+| Hindi | सिनेमा sinemā | ✓ | Wt |
+| Bengali | সিনেমা sinemā | ✓ | Wt |
+| Tamil | சினிமா sinimā | ✓ | Wt |
+| Persian | سینما sinemā | ✓ | Wt |
+| Arabic | سينما sīnimā | ✓ | Wt |
+| Turkish | sinema | ✓ | Wt |
+| Russian | кинотеатр kinoteatr, кино kino | ✗ (✓ lenient) | Wt |
+| Spanish | cine | ✓ | Wt |
+| French | cinéma | ✓ | Wt |
+| Swahili | sinema | ✓ | Wt |
+| Hausa | sinima | ✓ | M |
+| Yoruba | sinimá | ✓ | M |
+| Quechua | cine (Spanish loan) | ✓ | M |
+
+**13/20 (16 lenient); regions 6 (no EA) → pass.** Median [sinema] → *sinema*.
+Russian kino shares the etymon (kinema) but is heard as a different word. Median: second vowel e 9 against i 4.
+
+### fuel (Wt: [gasoline](https://en.wiktionary.org/wiki/gasoline#Translations), "motor fuel")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 汽油 qìyóu | ✗ | Wt |
+| Japanese | ガソリン gasorin | ✗ | Wt |
+| Korean | 휘발유 hwiballyu; 가솔린 | ✗ | Wt |
+| Vietnamese | xăng (< French essence) | ✗ | Wt |
+| Thai | น้ำมัน námman; เบนซิน bensin | ✗ (✓ lenient) | Wt |
+| Indonesian | bensin | ✓ | Wt |
+| Tagalog | gasolina | ✗ | Wt |
+| Hindi | पेट्रोल peṭrol | ✗ | Wt |
+| Bengali | পেট্রল peṭrol | ✗ | Wt |
+| Tamil | பெட்ரோல் peṭrōl | ✗ | Wt |
+| Persian | بنزین benzin (Iran; پترول in Afghanistan) | ✓ | Wt |
+| Arabic | بنزين banzīn | ✓ | Wt |
+| Turkish | benzin | ✓ | Wt |
+| Russian | бензин benzin | ✓ | Wt |
+| Spanish | gasolina (Chile bencina, Argentina nafta) | ✗ | Wt |
+| French | essence | ✗ | Wt |
+| Swahili | petroli | ✗ | Wt |
+| Hausa | fetur | ✗ | M |
+| Yoruba | pẹtiróòlù, bẹntiróò | ✗ | Wt |
+| Quechua | gasolina (Spanish loan) | ✗ | M |
+
+**5/20 (6 lenient); regions 3 (SEA WA EU) → fail.**
+Shared column = the benzin form. The panel splits three ways: benzin (id fa ar tr ru, th), petrol (hi bn ta sw ha yo) and gasoline (ja ko tl es qu). The largest family has 6. Native "oil" words (zh qìyóu "gas oil", th námman) are the remaining pattern.
+
+### cream (Wt: [cream](https://en.wiktionary.org/wiki/cream#Translations), "fatty part of milk")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 奶油 nǎiyóu | ✗ | Wt |
+| Japanese | クリーム kurīmu | ✓ | Wt |
+| Korean | 크림 keurim | ✓ | Wt |
+| Vietnamese | kem (< French crème) | ✗ (✓ lenient) | Wt |
+| Thai | ครีม khriim | ✓ | Wt |
+| Indonesian | krim | ✓ | Wt |
+| Tagalog | krema (Wt coinage laknip) | ✓ | M |
+| Hindi | मलाई malāī | ✗ | Wt |
+| Bengali | মালাই mālāi | ✗ | Wt |
+| Tamil | ஆடை āṭai; கிரீம் kirīm | ✗ (✓ lenient) | Wt |
+| Persian | خامه xāme, سرشیر saršir | ✗ | Wt |
+| Arabic | قشطة qišṭa | ✗ | Wt |
+| Turkish | kaymak (krema whipped cream) | ✗ (✓ lenient) | Wt |
+| Russian | сливки slivki | ✗ | Wt |
+| Spanish | nata (Spain), crema (Latin America) | ✓ | Wt |
+| French | crème | ✓ | Wt |
+| Swahili | (no data; krimu for skin cream) | ✗ (✓ lenient) | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | crema (Spanish loan) | ✗ (✓ lenient) | M |
+
+**7/20 (12 lenient); regions 3 (EA SEA EU) (7 lenient) → borderline.** Median [krim] → *kulimu*.
+A weak borderline: the lenient count rests on five soft columns. The finding is the split by sense. For dairy cream most of Asia and Russia keep a native word (malāī, xāme, qišṭa, kaymak, slivki). For skin cream Wiktionary's own table has the loan in 15 languages (ja ko vi th id tl hi bn fa ar tr ru es fr sw), a clear pass. If the language needs the word mainly for the cosmetic, it passes.
+
+### passport (Wt: [passport](https://en.wiktionary.org/wiki/passport#Translations), "official document for foreign travel")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 护照 hùzhào | ✗ | Wt |
+| Japanese | パスポート pasupōto (旅券 ryoken formal) | ✓ | Wt |
+| Korean | 여권 yeogwon | ✗ | Wt |
+| Vietnamese | hộ chiếu | ✗ | Wt |
+| Thai | หนังสือเดินทาง nǎngsʉ̌ʉ dəən thaang; พาสปอร์ต colloquial | ✗ (✓ lenient) | Wt |
+| Indonesian | paspor | ✓ | Wt |
+| Tagalog | pasaporte | ✓ | Wt |
+| Hindi | पासपोर्ट pāsporṭ | ✓ | Wt |
+| Bengali | পাসপোর্ট pāsporṭ (formal পারপত্র) | ✓ | Wt, M* |
+| Tamil | பாஸ்போர்ட் pāsporṭ (formal கடவுச்சீட்டு) | ✓ | Wt, M* |
+| Persian | گذرنامه gozarnāme; پاسپورت pāsport | ✗ (✓ lenient) | Wt |
+| Arabic | جواز سفر jawāz safar | ✗ | Wt |
+| Turkish | pasaport | ✓ | Wt |
+| Russian | паспорт pasport | ✓ | Wt |
+| Spanish | pasaporte | ✓ | Wt |
+| French | passeport | ✓ | Wt |
+| Swahili | pasipoti, paspoti | ✓ | Wt |
+| Hausa | fasfo | ✓ | Wt |
+| Yoruba | ìwé ìrìnnà | ✗ | Wt |
+| Quechua | pasaporte (Spanish loan) | ✓ | M |
+
+**13/20 (15 lenient); regions all 7 → pass.** Median [pasport] → *pasupolutu*.
+Median: no vowel between s and p in 7 of 13; r kept in 9; consonant-final 7.
+
+### platform (Wt: [platform](https://en.wiktionary.org/wiki/platform#Translations), "computing: a specific operating system or environment; a specific type of computer or microprocessor")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 平台 píngtái | ✗ | Wt |
+| Japanese | プラットフォーム purattofōmu | ✓ | Wt |
+| Korean | 플랫폼 peullaetpom | ✓ | Wt |
+| Vietnamese | nền tảng | ✗ | Wt |
+| Thai | แพลตฟอร์ม phlɛ́tfɔɔm | ✓ | M |
+| Indonesian | platform (Wt coinage anjungan) | ✓ | M |
+| Tagalog | plataporma | ✓ | M |
+| Hindi | प्लेटफ़ॉर्म pleṭfŏrm | ✓ | Wt (travel sense) |
+| Bengali | প্ল্যাটফর্ম plyāṭfôrm | ✓ | M |
+| Tamil | தளம் taḷam; spoken platform | ✗ (✓ lenient) | M |
+| Persian | پلتفرم platform; سکو sakku (station) | ✗ (✓ lenient) | M |
+| Arabic | منصة minaṣṣa | ✗ | Wt |
+| Turkish | platform | ✓ | Wt |
+| Russian | платформа platforma | ✓ | Wt |
+| Spanish | plataforma | ✓ | Wt |
+| French | plateforme | ✓ | Wt |
+| Swahili | jukwaa | ✗ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | plataforma (Spanish loan) | ✓ | M |
+
+**12/20 (14 lenient); regions 6 (no SSA) → pass, borderline.** Median [platform] → *pulatufolumu*.
+Wiktionary's computing-sense table is thin (10 languages), so five columns come from memory. The adapted form is long (6 syllables) because of the pl, tf and rm clusters.
+
+### engineer (Wt: [engineer](https://en.wiktionary.org/wiki/engineer#Translations), "person engaged in designing, constructing, or maintaining engines or machinery")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 工程师 gōngchéngshī | ✗ | Wt |
+| Japanese | エンジニア enjinia, 技師 | ✓ | Wt |
+| Korean | 엔지니어 enjinieo, 기사 | ✓ | Wt |
+| Vietnamese | kỹ sư | ✗ | Wt |
+| Thai | วิศวกร wítsawakɔɔn | ✗ | Wt |
+| Indonesian | insinyur (< Dutch ingenieur) | ✓ | Wt |
+| Tagalog | inhinyero | ✓ | Wt |
+| Hindi | इंजीनियर iñjīniyar (formal अभियंता) | ✓ | Wt, M* |
+| Bengali | প্রকৌশলী prakauśalī; spoken iñjiniyār | ✗ (✓ lenient) | Wt, M |
+| Tamil | பொறியாளர் poṟiyāḷar; spoken iñjiniyar | ✗ (✓ lenient) | Wt, M |
+| Persian | مهندس mohandes (انجنیر Afghan) | ✗ | Wt |
+| Arabic | مهندس muhandis | ✗ | Wt |
+| Turkish | mühendis | ✗ | Wt |
+| Russian | инженер inžener | ✓ | Wt |
+| Spanish | ingeniero | ✓ | Wt |
+| French | ingénieur | ✓ | Wt |
+| Swahili | injinia, mhandisi | ✓ | Wt |
+| Hausa | injiniya | ✓ | M |
+| Yoruba | ẹn̄jiníà | ✓ | Wt |
+| Quechua | ingeniero (Spanish loan) | ✓ | M |
+
+**12/20 (14 lenient); regions 6 (no WA) → pass, borderline.** Median [indʒiniar] → *indiniyalu*.
+West Asia uses muhandis (fa ar tr), as does Swahili beside injinia. Median: dʒ (ja ko hi sw ha yo) 6, r kept in 7 of 12, vowel before it a 6.
+
+### vaccine (Wt: [vaccine](https://en.wiktionary.org/wiki/vaccine#Translations), "substance given to stimulate a body’s production of antibodies and provide immunity against a disease")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 疫苗 yìmiáo | ✗ | Wt |
+| Japanese | ワクチン wakuchin | ✓ | Wt |
+| Korean | 백신 baeksin | ✓ | Wt |
+| Vietnamese | vắc-xin | ✓ | Wt |
+| Thai | วัคซีน wákkhsiin | ✓ | Wt |
+| Indonesian | vaksin | ✓ | Wt |
+| Tagalog | bakuna | ✓ | Wt |
+| Hindi | टीका ṭīkā; वैक्सीन vaiksīn | ✗ (✓ lenient) | Wt |
+| Bengali | ভ্যাক্সিন bhyāksin, টীকা | ✓ | Wt |
+| Tamil | தடுப்பூசி taṭuppūci; spoken vaccine | ✗ (✓ lenient) | M |
+| Persian | واکسن vāksan | ✓ | Wt |
+| Arabic | لقاح laqāḥ | ✗ | Wt |
+| Turkish | aşı | ✗ | Wt |
+| Russian | вакцина vaktsina | ✓ | Wt |
+| Spanish | vacuna | ✓ | Wt |
+| French | vaccin | ✓ | Wt |
+| Swahili | chanjo | ✗ | Wt |
+| Hausa | allurar rigakafi | ✗ | M |
+| Yoruba | abẹ́rẹ́ àjẹsára | ✗ | M |
+| Quechua | vacuna (Spanish loan) | ✓ | M |
+
+**12/20 (14 lenient); regions 6 (no SSA) → pass, borderline.** Median [vaksin] → *bakusin*.
+First consonant v and b tie at 5 (w 2); names.py maps both to b.
+
+### tunnel (Wt: [tunnel](https://en.wiktionary.org/wiki/tunnel#Translations), "an underground or underwater passage")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 隧道 suìdào | ✗ | Wt |
+| Japanese | トンネル tonneru | ✓ | Wt |
+| Korean | 터널 teoneol | ✓ | Wt |
+| Vietnamese | đường hầm | ✗ | Wt |
+| Thai | อุโมงค์ ʔumoong | ✗ | Wt |
+| Indonesian | terowongan | ✗ | Wt |
+| Tagalog | tunel, lagusan | ✓ | M |
+| Hindi | सुरंग suraṅg | ✗ | Wt |
+| Bengali | সুড়ঙ্গ suṛaṅga | ✗ | Wt |
+| Tamil | சுரங்கம் suraṅkam | ✗ | M |
+| Persian | تونل tunel | ✓ | Wt |
+| Arabic | نفق nafaq | ✗ | Wt |
+| Turkish | tünel | ✓ | Wt |
+| Russian | тоннель tonnel' | ✓ | Wt |
+| Spanish | túnel | ✓ | Wt |
+| French | tunnel | ✓ | Wt |
+| Swahili | handaki | ✗ | M |
+| Hausa | rami | ✗ | M |
+| Yoruba | ihò | ✗ | M |
+| Quechua | túnel (Spanish loan) | ✓ | M |
+
+**9/20; regions 5 (no SA SSA) → fail.**
+
+### toilet (Wt: [toilet](https://en.wiktionary.org/wiki/toilet#Translations), "room used for urination and defecation")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 厕所 cèsuǒ, 洗手间 | ✗ | Wt |
+| Japanese | トイレ toire | ✓ | Wt |
+| Korean | 화장실 hwajangsil | ✗ | Wt |
+| Vietnamese | nhà vệ sinh | ✗ | Wt |
+| Thai | ห้องน้ำ hɔ̂ng náam "water room" | ✗ | Wt |
+| Indonesian | toilet, WC, kamar kecil | ✓ | Wt |
+| Tagalog | palikuran; CR "comfort room" | ✗ | Wt, M |
+| Hindi | टॉयलेट ṭŏyleṭ (formal शौचालय) | ✓ | Wt, M* |
+| Bengali | টয়লেট ṭayleṭ, পায়খানা | ✓ | Wt, M* |
+| Tamil | கழிவறை kaḻivaṟai; spoken ṭāylaṭ | ✗ (✓ lenient) | Wt, M |
+| Persian | دستشویی dastšuyi; توالت tuālet | ✗ (✓ lenient) | Wt |
+| Arabic | حمام ḥammām; تواليت twālitt | ✗ (✓ lenient) | Wt |
+| Turkish | tuvalet | ✓ | Wt |
+| Russian | туалет tualet | ✓ | Wt |
+| Spanish | baño | ✗ | Wt |
+| French | toilettes | ✓ | Wt |
+| Swahili | choo | ✗ | Wt |
+| Hausa | bayan gida "behind the house" | ✗ | M |
+| Yoruba | ilé ìyàgbẹ́ | ✗ | Wt |
+| Quechua | jisp'ana wasi | ✗ | Wt |
+
+**7/20 (10 lenient); regions 5 (no SSA AM) → fail.**
+The panel mostly uses euphemisms ("hand-washing room", "water room", "bath", "behind the house"), so no single form is shared.
+
+### studio (Wt: [studio](https://en.wiktionary.org/wiki/studio#Translations), "place where radio or television programs, records or films are made|set")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 演播室 yǎnbōshì | ✗ | Wt |
+| Japanese | スタジオ sutajio | ✓ | Wt |
+| Korean | 스튜디오 seutyudio | ✓ | Wt |
+| Vietnamese | phòng thu; studio (photo studio) | ✗ (✓ lenient) | M |
+| Thai | สตูดิโอ satuudio | ✓ | M |
+| Indonesian | studio | ✓ | M |
+| Tagalog | istudyo | ✓ | M |
+| Hindi | स्टूडियो sṭūḍiyo | ✓ | M |
+| Bengali | স্টুডিও sṭuḍio | ✓ | M |
+| Tamil | ஸ்டுடியோ sṭuṭiyō (Wt gives a coinage) | ✓ | M |
+| Persian | استودیو estudiyo | ✓ | Wt |
+| Arabic | استوديو istūdiyū | ✓ | Wt |
+| Turkish | stüdyo | ✓ | Wt |
+| Russian | студия studija | ✓ | Wt |
+| Spanish | estudio | ✓ | Wt |
+| French | studio | ✓ | Wt |
+| Swahili | studio | ✓ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | estudio (Spanish loan) | ✓ | M |
+
+**16/20 (17 lenient); regions all 7 → pass.** Median [studio] → *sutudiyo*.
+Prothetic e/i (tl fa ar es qu) is a minority, 5 of 16.
+
+### profile (Wt: [profile](https://en.wiktionary.org/wiki/profile#Translations), "summary or collection of information, especially about a person")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 个人资料 gèrén zīliào | ✗ | M |
+| Japanese | プロフィール purofīru | ✓ | Wt |
+| Korean | 프로필 peuropil | ✓ | M |
+| Vietnamese | hồ sơ; profile also used | ✗ (✓ lenient) | M |
+| Thai | โปรไฟล์ proofaai | ✓ | M |
+| Indonesian | profil | ✓ | M |
+| Tagalog | profile | ✓ | M |
+| Hindi | प्रोफ़ाइल profāil | ✓ | M |
+| Bengali | প্রোফাইল profāil | ✓ | M |
+| Tamil | சுயவிவரம் suyavivaram; spoken profile | ✗ (✓ lenient) | M |
+| Persian | پروفایل profāyl | ✓ | M |
+| Arabic | ملف شخصي malaff šaxṣī; بروفايل colloquial | ✗ (✓ lenient) | M |
+| Turkish | profil | ✓ | M |
+| Russian | профиль profil' | ✓ | Wt |
+| Spanish | perfil | ✓ | Wt |
+| French | profil | ✓ | Wt |
+| Swahili | wasifu | ✗ | M |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | perfil (Spanish loan) | ✓ | M |
+
+**13/20 (16 lenient); regions 6 (no SSA) → pass.** Median [profil] → *pulofilu*.
+The weakest evidence in this set: Wiktionary's tables for this sense cover only 6 languages. Spanish perfil is counted as the same word. Second vowel i (Latin profil) 8 against English ai 5.
+
+### pope (Wt: [pope](https://en.wiktionary.org/wiki/pope#Translations), "head of the Roman Catholic Church|pontiff")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 教皇 jiàohuáng, 教宗 | ✗ | Wt |
+| Japanese | 教皇 kyōkō, 法王 | ✗ | Wt |
+| Korean | 교황 gyohwang | ✗ | Wt |
+| Vietnamese | giáo hoàng | ✗ | Wt |
+| Thai | สันตะปาปา santapaapaa; โป๊ป póop | ✓ | Wt |
+| Indonesian | paus (< Dutch paus) | ✗ (✓ lenient) | Wt |
+| Tagalog | papa, Santo Papa | ✓ | Wt |
+| Hindi | पोप pop | ✗ (✓ lenient) | Wt |
+| Bengali | ধর্মযাজক dharmayājak "priest" | ✗ | Wt |
+| Tamil | போப் pōp | ✗ (✓ lenient) | M |
+| Persian | پاپ pāp | ✓ | Wt |
+| Arabic | بابا bābā | ✓ | Wt |
+| Turkish | papa | ✓ | Wt |
+| Russian | папа (римский) papa | ✓ | Wt |
+| Spanish | papa | ✓ | Wt |
+| French | pape | ✓ | Wt |
+| Swahili | papa | ✓ | Wt |
+| Hausa | Fafaroma "Papa Roma" | ✓ | M |
+| Yoruba | Póòpù | ✗ (✓ lenient) | M |
+| Quechua | papa (Spanish loan) | ✓ | M |
+
+**11/20 (15 lenient); regions 5 (no EA SA) (6 lenient) → borderline.** Median [papa] → *papa*.
+The form papa is also the baby word for father in many panel languages, the mama/papa question loans.md left open. A religious title is arguably the community's own term (C2), like a name.
+
+### piano (Wt: [piano](https://en.wiktionary.org/wiki/piano#Translations), "a keyboard musical instrument")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 钢琴 gāngqín "steel zither" | ✗ | Wt |
+| Japanese | ピアノ piano | ✓ | Wt |
+| Korean | 피아노 piano | ✓ | Wt |
+| Vietnamese | dương cầm "Western zither"; đàn piano | ✗ (✓ lenient) | Wt |
+| Thai | เปียโน piano | ✓ | Wt |
+| Indonesian | piano | ✓ | Wt |
+| Tagalog | piyano | ✓ | Wt |
+| Hindi | पियानो piyāno | ✓ | Wt |
+| Bengali | পিয়ানো piyāno | ✓ | Wt |
+| Tamil | பியானோ piyāṉō | ✓ | Wt |
+| Persian | پیانو piyāno | ✓ | Wt |
+| Arabic | بيانو biyānū | ✓ | Wt |
+| Turkish | piyano | ✓ | Wt |
+| Russian | пианино pianino, фортепиано | ✓ | Wt |
+| Spanish | piano | ✓ | Wt |
+| French | piano | ✓ | Wt |
+| Swahili | kinanda, piano | ✓ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | dùrù | ✗ | M |
+| Quechua | yatana qallwa (coinage); piano in bilingual speech | ✗ (✓ lenient) | Wt, M |
+
+**15/20 (17 lenient); regions 6 (no AM) (7 lenient) → pass.** Median [piano] → *piyano*.
+
+### physics (Wt: [physics](https://en.wiktionary.org/wiki/physics#Translations), "branch of science")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 物理学 wùlǐxué | ✗ | Wt |
+| Japanese | 物理学 butsurigaku | ✗ | Wt |
+| Korean | 물리학 mullihak | ✗ | Wt |
+| Vietnamese | vật lý | ✗ | Wt |
+| Thai | ฟิสิกส์ fisìk | ✓ | Wt |
+| Indonesian | fisika | ✓ | Wt |
+| Tagalog | pisika | ✓ | Wt |
+| Hindi | भौतिकी bhautikī | ✗ | Wt |
+| Bengali | পদার্থবিজ্ঞান padārthabijñān | ✗ | Wt |
+| Tamil | இயற்பியல் iyaṟpiyal | ✗ | Wt |
+| Persian | فیزیک fizik | ✓ | Wt |
+| Arabic | فيزياء fīziyāʾ | ✓ | Wt |
+| Turkish | fizik | ✓ | Wt |
+| Russian | физика fizika | ✓ | Wt |
+| Spanish | física | ✓ | Wt |
+| French | physique | ✓ | Wt |
+| Swahili | fizikia | ✓ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | físíìsì | ✗ (✓ lenient) | M |
+| Quechua | física (Spanish loan) | ✓ | M |
+
+**11/20 (12 lenient); regions 5 (no EA SA) → borderline.** Median [fizika] → *fisika*.
+Same pattern as chemistry, one column weaker: EA (物理) and SA (bhautikī, padārtha-) build their own words.
+
+### mosque (Wt: [mosque](https://en.wiktionary.org/wiki/mosque#Translations), "a place of worship for Muslims")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 清真寺 qīngzhēnsì | ✗ | Wt |
+| Japanese | モスク mosuku | ✗ (✓ lenient) | Wt |
+| Korean | 모스크 moseukeu | ✗ (✓ lenient) | Wt |
+| Vietnamese | nhà thờ Hồi giáo | ✗ | Wt |
+| Thai | มัสยิด mátsayít | ✓ | Wt |
+| Indonesian | masjid, mesjid | ✓ | Wt |
+| Tagalog | moske | ✗ (✓ lenient) | Wt |
+| Hindi | मस्जिद masjid | ✓ | Wt |
+| Bengali | মসজিদ mosjid | ✓ | Wt |
+| Tamil | மசூதி masūti, மஸ்ஜித் | ✓ | Wt |
+| Persian | مسجد masjed | ✓ | Wt |
+| Arabic | مسجد masjid, جامع jāmiʿ | ✓ | Wt |
+| Turkish | cami; mescit (small mosque) | ✗ (✓ lenient) | Wt |
+| Russian | мечеть mečet' (< masjid via Turkic) | ✗ (✓ lenient) | Wt |
+| Spanish | mezquita | ✗ (✓ lenient) | Wt |
+| French | mosquée | ✗ (✓ lenient) | Wt |
+| Swahili | msikiti | ✓ | Wt |
+| Hausa | masallaci (< muṣallā) | ✗ | Wt |
+| Yoruba | mọ́ṣáláṣí (< muṣallā) | ✗ | Wt |
+| Quechua | mezquita (Spanish loan) | ✗ (✓ lenient) | M |
+
+**8/20 (16 lenient); regions 4 (no EA EU AM) (7 lenient) → borderline.** Median [masdʒid] → *masudidu*.
+Shared column = the Arabic masjid, the community's own word. The European shape mosque/mezquita/mosquée (and ja ko tl from it) goes back to masjid but is not heard as the same word. A religious institution's name arguably follows its community (C2), which would favour masjid regardless of the count.
+
+### medal (Wt: [medal](https://en.wiktionary.org/wiki/medal#Translations), "stamped metal disc")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 奖牌 jiǎngpái | ✗ | Wt |
+| Japanese | メダル medaru | ✓ | Wt |
+| Korean | 메달 medal | ✓ | Wt |
+| Vietnamese | huy chương; mề đay (< French médaille) | ✗ (✓ lenient) | Wt |
+| Thai | เหรียญ rǐan | ✗ | Wt |
+| Indonesian | medali | ✓ | Wt |
+| Tagalog | medalya | ✓ | Wt |
+| Hindi | पदक padak; मेडल meḍal | ✗ (✓ lenient) | Wt |
+| Bengali | পদক padak; মেডেল meḍel | ✗ (✓ lenient) | Wt |
+| Tamil | பதக்கம் patakkam | ✗ | Wt |
+| Persian | مدال medāl | ✓ | Wt |
+| Arabic | ميدالية mīdāliya | ✓ | Wt |
+| Turkish | madalya | ✓ | Wt |
+| Russian | медаль medal' | ✓ | Wt |
+| Spanish | medalla | ✓ | Wt |
+| French | médaille | ✓ | Wt |
+| Swahili | nishani | ✗ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | (no data) | ✗ | M |
+| Quechua | medalla (Spanish loan) | ✓ | M |
+
+**11/20 (14 lenient); regions 5 (no SA SSA) (6 lenient) → borderline.** Median [medaʎa] → *medala*.
+Median: a final vowel in 8 of 11 (a: tl ar tr es qu), with a palatal l (ʎ, lj) before it in 5; names.py maps ʎ to l.
+
+### mask (Wt: [mask](https://en.wiktionary.org/wiki/mask#Translations), "cover for the face")
+| Lang | Everyday word | Shared | src |
+|---|---|---|---|
+| Mandarin | 面具 miànjù; 口罩 kǒuzhào (medical) | ✗ | Wt |
+| Japanese | マスク masuku (仮面 kamen for costume) | ✓ | Wt |
+| Korean | 마스크 maseukeu (가면 for costume) | ✓ | Wt |
+| Vietnamese | mặt nạ; khẩu trang (medical) | ✗ | Wt |
+| Thai | หน้ากาก nâakàak | ✗ | Wt |
+| Indonesian | masker (topeng costume) | ✓ | Wt |
+| Tagalog | maskara | ✓ | M |
+| Hindi | मास्क māsk, मुखौटा | ✓ | Wt |
+| Bengali | মাস্ক māsk | ✓ | Wt |
+| Tamil | முகமூடி mukamūṭi; spoken māsk | ✗ (✓ lenient) | Wt, M |
+| Persian | ماسک māsk | ✓ | Wt |
+| Arabic | قناع qināʿ, كمامة kimāma (medical); colloquial māsk | ✗ (✓ lenient) | Wt |
+| Turkish | maske | ✓ | Wt |
+| Russian | маска maska | ✓ | Wt |
+| Spanish | máscara; mascarilla (medical) | ✓ | Wt |
+| French | masque | ✓ | Wt |
+| Swahili | barakoa | ✗ | Wt |
+| Hausa | (no data) | ✗ | M |
+| Yoruba | ìbòjú | ✗ | M |
+| Quechua | máscara (Spanish loan) | ✓ | M |
+
+**12/20 (14 lenient); regions 6 (no SSA) → pass, borderline.** Median [maska] → *masuka*.
+Median: a final vowel in 8 of 12, a (ru tl es qu) the plurality; -ra after it ties 4/4 with no ending.

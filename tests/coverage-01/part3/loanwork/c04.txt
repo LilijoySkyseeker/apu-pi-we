@@ -1,0 +1,242 @@
+@ sauce | sauce | liquid condiment
+zh 酱 jiàng, 酱汁 jiàngzhī (沙司 shāsī rare) | n | Wt
+ja ソース sōsu | y | Wt
+ko 소스 soseu | y | Wt
+vi xốt (nước chấm dipping sauce) | y | Wt
+th ซอส sɔ́ɔt | y | Wt
+id saus | y | Wt
+tl sarsa (< Spanish salsa) | b | Wt
+hi सॉस sŏs (चटनी chaṭnī is chutney) | y | Wt, M*
+bn সস sɔs | y | Wt, M*
+ta (no Wt; spoken சாஸ் sās) | y | M
+fa سس sos | y | Wt
+ar صلصة ṣalṣa (< Italian salsa) | b | Wt
+tr sos (salça = paste) | y | Wt
+ru соус sous | y | Wt
+es salsa | b | Wt
+fr sauce | y | Wt
+sw mchuzi | n | M
+ha miya | n | M
+yo ọbẹ̀ | n | M
+qu salsa, uchu (Spanish loan or native chili sauce) | b | M
+median: sos
+note: sauce/sos form 12 (5 regions); the salsa form (tl ar es qu) is the same etymon but heard as a different word, counted lenient (16)
+text: The sos form alone reaches 12, with Tamil from memory and Hindi and Bengali as M\*; hence "pass, borderline". Counting salsa/sarsa/ṣalṣa as the same word gives 16. Median [sos].
+
+@ sugar | sugar | sucrose from sugar cane or sugar beet used to sweeten food and drink
+zh 糖 táng | n | Wt
+ja 砂糖 satō | n | Wt
+ko 설탕 seoltang | n | Wt
+vi đường | n | Wt
+th น้ำตาล námtaan | n | Wt
+id gula | n | Wt
+tl asukal | y | Wt
+hi चीनी cīnī; शक्कर šakkar also common | b | Wt
+bn চিনি cini | n | Wt
+ta சர்க்கரை sarkkarai, சக்கரை | y | Wt
+fa شکر šekar | y | Wt
+ar سكر sukkar | y | Wt
+tr şeker | y | Wt
+ru сахар saxar | y | Wt
+es azúcar | y | Wt
+fr sucre | y | Wt
+sw sukari | y | Wt
+ha sukari | y | Wt
+yo ṣúgà (< English) | y | M
+qu misk'i (Wt "sweet"); azúcar in bilingual speech | b | Wt, M
+median: sukar
+note: 11 strict, 13 lenient; EA and SEA (exc. tl) have native words; hi/bn cīnī "Chinese" is the everyday word
+text: The whole family goes back to Sanskrit śarkarā, but in South Asia the everyday word is cīnī "the Chinese (sugar)". Median: s over ʃ, u over a and e, final consonant-only majority: [sukar].
+
+@ soda | soda | sweet, carbonated drink
+zh 汽水 qìshuǐ | n | Wt
+ja 炭酸飲料 tansan inryō (ソーダ = soda water) | n | Wt
+ko 탄산음료 tansan eumryo, 사이다 saida | n | Wt, M
+vi nước ngọt | n | Wt
+th น้ำอัดลม náam àt lom | n | Wt
+id minuman bersoda, soda | b | Wt (soft drink), M
+tl softdrinks | n | M
+hi सोडा soḍā; कोल्ड ड्रिंक | y | Wt
+bn কোল্ড ড্রিংক kold ḍriṅk | n | M
+ta குளிர்பானம் kuḷirpāṉam | n | Wt
+fa نوشابه nušābe | n | Wt
+ar مشروب غازي mašrūb ġāzī | n | Wt
+tr gazoz, gazlı içecek | n | Wt
+ru газировка gazirovka | n | Wt
+es refresco, gaseosa (soda in some countries) | b | Wt
+fr soda, boisson gazeuse | y | Wt
+sw soda | y | Wt
+ha lemu | n | M
+yo (no data) | n | M
+qu (no data) | n | M
+note: 3 strict, 5 lenient; the "gas" family (tr gazoz, ru gazirovka, es gaseosa, ar ġāzī, fa gāzdār) is larger but built, not one word
+
+@ film | movie | motion picture
+zh 电影 diànyǐng | n | Wt
+ja 映画 eiga | n | Wt
+ko 영화 yeonghwa | n | Wt
+vi phim (< French film) | y | Wt
+th หนัง nǎng, ภาพยนตร์ | n | Wt
+id film | y | Wt
+tl pelikula, sine | n | Wt
+hi फ़िल्म film, पिक्चर | y | Wt
+bn ফিল্ম film, ছবি chobi, সিনেমা | y | Wt
+ta படம் paṭam, திரைப்படம் | n | Wt
+fa فیلم film | y | Wt
+ar فيلم film | y | Wt
+tr film | y | Wt
+ru фильм fil'm | y | Wt
+es película (filme rare) | n | Wt
+fr film | y | Wt
+sw filamu | y | Wt
+ha sinima | n | Wt
+yo fiimu | y | Wt
+qu película (Spanish loan) | n | M
+note: 11, 5 regions; fails by one, with no lenient column; the cinema family (tl sine, ha sinima, hi/bn sinemā) competes
+text: Fails by one. No column is doubtful in film's favour; the near misses use another loan (tl sine, ha sinima) or Spanish película.
+
+@ toast | toast | toasted bread
+zh 烤面包 kǎo miànbāo; 吐司 tǔsī | b | Wt
+ja トースト tōsuto | y | Wt
+ko 토스트 toseuteu | y | Wt
+vi bánh mì nướng | n | Wt
+th ขนมปังปิ้ง khanǒm pang pîng | n | Wt
+id roti bakar, roti panggang | n | Wt
+tl tinapay (toasted bread, no loan) | n | M
+hi टोस्ट ṭosṭ | y | M
+bn টোস্ট ṭosṭ | y | M
+ta (no data; ṭōsṭ likely) | b | M
+fa نان تست nān-e tost | y | Wt
+ar خبز محمص xubz muḥammaṣ; tōst colloquial | b | M
+tr kızarmış ekmek (tost = toasted sandwich) | b | Wt
+ru гренки grenki; тост | b | Wt
+es pan tostado, tostada | b | Wt
+fr pain grillé; toast | b | Wt
+sw tosti | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu (no data) | n | M
+median: tost
+note: only 6 strict but 13 lenient; the loan exists widely beside a native "toasted bread" phrase
+text: The lenient count is high only because many languages have tost beside a native everyday phrase "grilled/roasted bread" (zh, vi, th, id, ar, tr, ru, es, fr). That phrase is the majority build and is ready at rung 3. The low strict count makes this a weak borderline.
+
+@ balcony | balcony | structure extending from a building
+zh 阳台 yángtái | n | Wt
+ja バルコニー barukonī, ベランダ beranda | y | Wt
+ko 발코니 balkoni | y | Wt
+vi ban công (< French balcon) | y | Wt
+th ระเบียง rabiang | n | Wt
+id balkon | y | Wt
+tl balkonahe | y | Wt
+hi छज्जा chajjā; spoken बालकनी bālkanī | b | Wt, M
+bn ব্যালকনি byālkani | y | Wt
+ta பால்கனி pālkaṉi | y | Wt
+fa بالکن bālkon | y | Wt
+ar شرفة šurfa; colloquial balkōna | b | Wt, M
+tr balkon | y | Wt
+ru балкон balkon | y | Wt
+es balcón | y | Wt
+fr balcon | y | Wt
+sw roshani | n | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu balcón (Spanish loan) | y | M
+median: balkon
+note: 13 strict, 15 lenient; Africa unattested
+text: Median: final vowel i (ja ko bn ta) 4 against consonant-final 9.
+
+@ circus | circus | company that travels
+zh 马戏团 mǎxìtuán "horse-show troupe" | n | Wt
+ja サーカス sākasu | y | Wt
+ko 서커스 seokeoseu | y | Wt
+vi xiếc (< French cirque) | y | Wt
+th ละครสัตว์ lakhɔɔn sàt "animal theatre" | n | Wt
+id sirkus | y | Wt
+tl sirko | y | Wt
+hi सर्कस sarkas | y | Wt
+bn সার্কাস sārkās | y | Wt
+ta வட்டரங்கு vaṭṭaraṅku (coinage); spoken sarkas | b | Wt, M
+fa سیرک sirk, سرکس serkes | y | Wt
+ar سيرك sirk | y | Wt
+tr sirk | y | Wt
+ru цирк tsirk | y | Wt
+es circo | y | Wt
+fr cirque | y | Wt
+sw sarakasi | y | M
+ha (no data) | n | M
+yo (no data) | n | M
+qu circo (Spanish loan) | y | M
+median: sirkas
+note: 15 strict, all 7 regions; median mixes the sirk and sarkas shapes
+text: Two shapes: Romance sirk(o) (vi id tl fa ar tr ru es fr qu) and English sarkas (ja ko hi bn sw). Per position: first vowel i 10 against a 5; then a final vowel in 9 of 15 (a 4, o 3), then s in 6 of 9. The result [sirkas] is a blend nobody says; [sirk] (the Romance shape, majority of whole forms) would give *silku*.
+
+@ T-shirt | T-shirt | type of shirt
+zh T恤(衫) tī-xù(shān) | y | Wt
+ja Tシャツ tī-shatsu | y | Wt
+ko 티셔츠 tisyeocheu | y | Wt
+vi áo thun | n | Wt
+th เสื้อยืด sʉ̂a yʉ̂ʉt; ทีเชิร์ต thii-chəət | b | Wt
+id kaus | n | Wt
+tl t-shirt, kamiseta | b | M
+hi टी-शर्ट ṭī-śarṭ | y | Wt
+bn টি-শার্ট ṭi-śārṭ | y | Wt
+ta (coinage கொசுவுசட்டை); spoken T-shirt | b | Wt, M
+fa تی‌شرت tišert | y | Wt
+ar تي شيرت tī šīrt | y | Wt
+tr tişört | y | Wt
+ru футболка futbolka | n | Wt
+es camiseta, playera | n | Wt
+fr T-shirt | y | Wt
+sw tisheti | y | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu (Spanish polo, camiseta) | n | M
+median: tiʃart
+note: 10 strict, 13 lenient
+text: Median second vowel a (ja hi bn) is only a plurality (e fa sw, ø/œ tr fr); r kept in 6 of 10.
+
+@ music | music | sound, organized in time in a melodious way
+zh 音乐 yīnyuè | n | Wt
+ja 音楽 ongaku | n | Wt
+ko 음악 eumak | n | Wt
+vi âm nhạc | n | Wt
+th ดนตรี dontrii | n | Wt
+id musik | y | Wt
+tl musika | y | Wt
+hi संगीत saṅgīt; मूसीक़ी mūsīqī (Urdu) | b | Wt
+bn সঙ্গীত saṅgīt, গান gān | n | Wt
+ta இசை isai | n | Wt
+fa موسیقی musiqi | y | Wt
+ar موسيقى mūsīqā | y | Wt
+tr müzik | y | Wt
+ru музыка muzyka | y | Wt
+es música | y | Wt
+fr musique | y | Wt
+sw muziki | y | Wt
+ha kiɗa | n | M
+yo orin | n | Wt
+qu taki "song"; música in bilingual speech | b | M
+note: 9 strict, 11 lenient; Sino 音乐 (4) and Sanskrit saṅgīt (hi bn) families
+
+@ university | university | institution of higher education
+zh 大学 dàxué | n | Wt
+ja 大学 daigaku | n | Wt
+ko 대학(교) daehak(gyo) | n | Wt
+vi đại học | n | Wt
+th มหาวิทยาลัย mahǎawítthayaalai | n | Wt
+id universitas | y | Wt
+tl unibersidad (pamantasan formal) | y | Wt
+hi विश्वविद्यालय viśvavidyālay; यूनिवर्सिटी yūnivarsiṭī | b | Wt
+bn বিশ্ববিদ্যালয় biśvabidyālay | n | Wt
+ta பல்கலைக்கழகம் palkalaikkaḻakam | n | Wt
+fa دانشگاه dānešgāh | n | Wt
+ar جامعة jāmiʿa | n | Wt
+tr üniversite | y | Wt
+ru университет universitet | y | Wt
+es universidad | y | Wt
+fr université | y | Wt
+sw chuo kikuu "big school" | n | Wt
+ha jami'a | n | Wt
+yo yunifásítì | y | Wt
+qu jatun yachay wasi "big learning house" | b | Wt
+note: 7 strict, 9 lenient; Sino 大学 (4), Sanskrit viśvavidyālay (hi bn), jāmiʿa (ar ha); "big school" is a common build (sw qu, zh 大学 "great learning")

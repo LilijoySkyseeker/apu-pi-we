@@ -1,0 +1,218 @@
+@ tomato | tomato | fruit
+zh 西红柿 xīhóngshì, 番茄 fānqié | n | Wt
+ja トマト tomato | y | Wt
+ko 토마토 tomato | y | Wt
+vi cà chua | n | Wt
+th มะเขือเทศ mákhʉ̌a thêet | n | Wt
+id tomat | y | Wt
+tl kamatis | n | Wt
+hi टमाटर ṭamāṭar | y | Wt
+bn টমেটো ṭomeṭo (older বিলাতী বেগুন) | y | Wt, M*
+ta தக்காளி takkāḷi | n | Wt
+fa گوجه(فرنگی) gowje(farangi) | n | Wt
+ar طماطم ṭamāṭim (Egypt, Gulf); بندورة banadūra (Levant) | y | Wt
+tr domates | y | Wt
+ru помидор pomidor (томат formal) | n | Wt
+es tomate, jitomate | y | Wt
+fr tomate | y | Wt
+sw nyanya | n | Wt
+ha tumatir | y | M
+yo tòmátì | y | Wt
+qu chilltu (Wt); tomate in bilingual speech | b | Wt, M
+median: tomate
+note: 11 strict, 12 lenient (Quechua via Spanish); final vowel three-way tie o/e/i
+text: The Italian pomodoro family (ru pomidor, Levantine banadūra, tr dialect pamidor) is a second, smaller family. Median: [tomat] then a final vowel in 10 of 12 forms, tied three ways: o (ja ko bn), e (es qu, tr domates), i (ar ha yo). [tomate] → *tomate*; [tomato] → *tomato*.
+
+@ zebra | zebra | African animal
+zh 斑马 bānmǎ "striped horse" | n | Wt
+ja シマウマ shimauma "striped horse" | n | Wt
+ko 얼룩말 eollungmal "spotted horse" | n | Wt
+vi ngựa vằn "striped horse" | n | Wt
+th ม้าลาย máa laai "striped horse" | n | Wt
+id zebra | y | Wt
+tl sebra | y | Wt
+hi ज़ेब्रा zebrā | y | Wt
+bn জেব্রা jebrā | y | Wt
+ta வரிக்குதிரை varikkudirai "striped horse" | n | Wt
+fa گورخر gurxar "wild ass" (زبرا zebrā rare) | b | Wt
+ar حمار وحشي ḥimār waḥšī "wild ass" | n | Wt
+tr zebra | y | Wt
+ru зебра zebra | y | Wt
+es cebra | y | Wt
+fr zèbre | y | Wt
+sw punda milia "striped donkey" | n | Wt
+ha jakin dawa "bush donkey" | n | M
+yo kẹ́tẹ́kẹ́tẹ́ abilà "striped donkey" | n | Wt
+qu siwra (< cebra) | y | Wt
+note: 9 strict, 10 lenient; the panel's majority pattern is "striped horse/donkey" (zh ja ko vi th ta sw yo)
+text: The majority builds the word as "striped horse" or "striped/wild donkey" (9 languages, 5 regions), which is a ready rung-3 compound.
+
+@ tea | tea | drink made from leaves of tea plant
+zh 茶 chá | y | Wt
+ja お茶 o-cha, 紅茶 kōcha | y | Wt
+ko 차 cha | y | Wt
+vi trà, chè | y | Wt
+th ชา chaa | y | Wt
+id teh | n | Wt
+tl tsaa | y | Wt
+hi चाय cāy | y | Wt
+bn চা cā | y | Wt
+ta தேநீர் tēnīr, டீ ṭī | n | Wt
+fa چای čāy | y | Wt
+ar شاي šāy | y | Wt
+tr çay | y | Wt
+ru чай čaj | y | Wt
+es té | n | Wt
+fr thé | n | Wt
+sw chai | y | Wt
+ha shayi (ti also) | y | Wt
+yo tíì | n | Wt
+qu tiy | n | Wt
+median: tʃaj
+note: cha family passes (14; EA SEA SA WA EU SSA); te family 6 (id ta es fr yo qu); median tie [tʃa] 7 / [tʃaj] 7
+text: Shared column = the cha family (chá, chai, čaj, šāy). The te family (teh, tēnīr/ṭī, té, thé, tíì, tiy) has 6 in 5 regions, so the panel decides for cha. Median: tʃ 12 against ʃ 2 (ar ha); final j (hi fa ar tr ru sw ha) 7 against none (zh ja ko vi th tl bn) 7, a tie. [tʃa] gives *tawu* (names.py lengthens one-syllable forms); [tʃaj] gives *tayu*.
+
+@ garage | garage | building or section of building to store a car, tools etc.
+zh 车库 chēkù | n | Wt
+ja 車庫 shako; ガレージ garēji for a house garage | b | Wt, M*
+ko 차고 chago | n | Wt
+vi nhà để xe; ga-ra (repair garage) | b | Wt
+th โรงรถ roong rót | n | Wt
+id garasi | y | Wt
+tl garahe | y | Wt
+hi गेराज gerāj | y | Wt
+bn গ্যারেজ gyārej | y | Wt
+ta (no Wt; spoken கேரேஜ் kērēj) | b | M
+fa گاراژ gārāž | y | Wt
+ar مرآب mirʾāb; colloquial garāž | b | Wt, M
+tr garaj | y | Wt
+ru гараж garaž | y | Wt
+es garaje, cochera | y | Wt
+fr garage | y | Wt
+sw gereji | y | M
+ha (no data; gareji likely) | b | M
+yo (no data; gáréèjì likely) | b | M
+qu awtu jallch'ana wasi (Wt); garaje in bilingual speech | b | Wt, M
+median: garaʒ
+note: 10 strict, 17 lenient; strict count fails only because Wiktionary lacks or lists second the loans of ja vi ta ar ha yo qu
+text: The widest gap between counts in this set: most of the lenient columns are a loan that exists beside a native word (ja shako/garēji, ar mirʾāb/garāž) or an unattested Africa/Quechua column. Median: final ʒ (fa ar tr ru fr) 5 against dʒ (ja hi bn sw) 4.
+
+@ cookie | biscuit | small, flat baked good|cookie|cracker
+zh 饼干 bǐnggān (曲奇 qūqí for cookies) | n | Wt
+ja ビスケット bisuketto, クッキー kukkī | y | Wt
+ko 쿠키 kuki, 비스킷 biseukit | b | Wt
+vi bánh quy (< bích quy < French biscuit) | b | Wt
+th บิสกิต bìtsakìt, คุกกี้ khúkkîi | y | Wt
+id biskuit | y | Wt
+tl biskwit | y | Wt
+hi बिस्कुट biskuṭ | y | Wt
+bn বিস্কুট biskuṭ | y | Wt
+ta பிஸ்கட் biskaṭ | y | Wt
+fa بیسکوئیت biskuit | y | Wt
+ar بسكويت baskawīt | y | Wt
+tr bisküvi | y | Wt
+ru печенье pečen'e | n | Wt
+es galleta | n | Wt
+fr biscuit | y | Wt
+sw biskuti | y | Wt
+ha biskit, fanke | y | Wt (cookie)
+yo bisikíìtì | y | M
+qu galleta (Spanish loan) | n | M
+median: biskwit
+note: tested as the biscuit form (the cookie form kuki is a minority: ja ko th tl); 14 strict, 16 lenient
+text: Tested as "biscuit", per the ladder note; the American "cookie" form is a minority. The adapted form is long (5 syllables) because of the sk and kw clusters; [biskit] (ja th ta ha yo vowels) would give *bisukitu*.
+
+@ shorts | shorts | leg garment|hot pants
+zh 短裤 duǎnkù | n | Wt
+ja ショートパンツ shōto pantsu, ショーツ | y | Wt
+ko 반바지 banbaji | n | Wt
+vi quần soóc, quần đùi | y | Wt
+th กางเกงขาสั้น kaangkeeng khǎa sân "short-leg trousers" | n | Wt
+id celana pendek "short trousers" | n | Wt
+tl salawal (Wt); shorts in everyday speech | b | Wt, M
+hi शॉर्ट्स śŏrṭs, हाफ़ पैंट | y | Wt
+bn শর্টস śôrṭs | y | Wt
+ta டிராயர் ṭirāyar "drawers" | n | Wt
+fa شلوارک šalvārak | n | Wt
+ar شورت šōrt | y | Wt
+tr şort | y | Wt
+ru шорты šorty | y | Wt
+es pantalón corto; short in much of Latin America | b | Wt
+fr short | y | Wt
+sw kaptula | n | Wt
+ha (no data) | n | M
+yo (no data) | n | M
+qu (Spanish pantalón corto) | n | M
+note: 8 strict, 10 lenient; "short trousers" is the common native build (zh ko th id es fa)
+
+@ party (political) | political party | political organization
+zh 党 dǎng, 政党 | n | Wt
+ja 政党 seitō | n | Wt
+ko 정당 jeongdang | n | Wt
+vi đảng | n | Wt
+th พรรค phák | n | Wt
+id partai | y | Wt
+tl partido | y | Wt
+hi पार्टी pārṭī, दल dal | y | Wt
+bn পার্টি pārṭi, দল dôl | y | Wt
+ta கட்சி kaṭci | n | Wt
+fa حزب hezb | n | Wt
+ar حزب ḥizb | n | Wt
+tr parti | y | Wt
+ru партия partija | y | Wt
+es partido | y | Wt
+fr parti | y | Wt
+sw chama | n | Wt
+ha jam'iyya | n | Wt
+yo ẹgbẹ́ | n | M
+qu rakisa (Wt); partido in bilingual speech | b | Wt, M
+note: 8 strict, 9 lenient; Sino 党 family (zh ja ko vi) and ḥizb (fa ar) are regional
+
+@ sandwich | sandwich | dish|open sandwich
+zh 三明治 sānmíngzhì | y | Wt
+ja サンドイッチ sandoitchi | y | Wt
+ko 샌드위치 saendeuwichi | y | Wt
+vi bánh mì (kẹp); xăng-uých | b | Wt
+th แซนด์วิช sɛɛnwít | y | Wt
+id roti lapis, roti apit; sandwich also used | b | Wt, M
+tl sandwich | y | M
+hi सैंडविच saiṇḍvic | y | Wt
+bn স্যান্ডউইচ syānḍuic | y | Wt
+ta சாண்ட்விச் sāṇṭvic | y | M
+fa ساندویچ sāndevič | y | Wt
+ar ساندويتش sandawitš (formal شطيرة šaṭīra) | y | Wt
+tr sandviç | y | Wt
+ru бутерброд buterbrod (open); сэндвич sendvič | b | Wt
+es sándwich, sánguche | y | Wt
+fr sandwich | y | Wt
+sw sandwichi | y | M
+ha (no data) | n | M
+yo san-wiiṣi | y | Wt
+qu sánguche (Spanish loan) | y | M
+median: sandwitʃ
+note: 16 strict, 19 lenient, all 7 regions
+text: Median: w/v/u after d is w (th tl es fr sw ar) over v (hi ta tr fa); final consonant-only majority.
+
+@ pizza | pizza | Italian dish
+zh 比萨 bǐsà, 披萨 pīsà | y | Wt
+ja ピザ piza | y | Wt
+ko 피자 pija | y | Wt
+vi pizza | y | Wt
+th พิซซ่า phítsâa | y | Wt
+id piza, pizza | y | Wt
+tl pitsa | y | Wt
+hi पिज़्ज़ा pizzā | y | Wt
+bn পিৎজা pitjā | y | Wt
+ta பீட்ஸா pīṭsā | y | Wt
+fa پیتزا pitzā | y | Wt
+ar بيتزا bītzā | y | Wt
+tr pizza | y | Wt
+ru пицца pitstsa | y | Wt
+es pizza | y | Wt
+fr pizza | y | Wt
+sw piza | y | M
+ha fiza | y | M
+yo písà | y | M
+qu pizza (Spanish loan) | y | M
+median: pitsa
+note: universal; ts (th tl bn ta fa ar tr ru fr) over z (ja ko id hi sw)

@@ -1,0 +1,246 @@
+@ ice cream | ice cream | dessert
+zh 冰淇淋 bīngqílín ("ice" + partial sound loan) | n | Wt
+ja アイスクリーム aisukurīmu, アイス | y | Wt
+ko 아이스크림 aiseukeurim | y | Wt
+vi kem (< French crème) | n | Wt
+th ไอศกรีม aisakhriim, ไอติม | y | Wt
+id es krim | y | Wt
+tl sorbetes (street ice cream); ayskrim also common | b | Wt, M*
+hi आइसक्रीम āiskrīm | y | Wt
+bn আইসক্রীম āiskrīm | y | Wt
+ta ஐஸ் கிரீம் ais kirīm | y | Wt
+fa بستنی bastani (āys kerim exists) | n | Wt
+ar بوظة būẓa (Levant), آيس كريم āys krīm (Egypt, Gulf) | b | Wt, M*
+tr dondurma | n | Wt
+ru мороженое moroženoe | n | Wt
+es helado | n | Wt
+fr glace, crème glacée | n | Wt
+sw aiskrimu | y | Wt
+ha (no data; aiskirim likely) | b | M
+yo áísìkiriìmù | y | Wt
+qu helado (Spanish loan) | n | M
+median: aiskrim
+note: 9 strict, 12 lenient (tl ayskrim, colloquial ar, ha unattested); EU and AM use native/Spanish words
+text: The lenient count rests on three uncertain columns (Tagalog, Arabic dialects, Hausa); on Wiktionary's first-listed words alone the count is 9. Europe is the gap: helado, glace, moroženoe.
+
+@ soup | soup | dish|stew
+zh 湯 tāng | n | Wt
+ja スープ sūpu (Western soup; 汁 shiru for miso soup) | y | Wt, M*
+ko 국 guk (수프 for Western soup) | n | Wt
+vi canh (súp for Western soup) | n | Wt
+th ซุป súp | y | Wt
+id sup, sop | y | Wt
+tl sabaw | n | Wt
+hi सूप sūp, शोरबा šorbā | y | Wt
+bn ঝোল jhol; স্যুপ syup for Western soup | b | M*
+ta சூப் sūp | y | Wt
+fa سوپ sup (also āš, šurbā) | y | Wt, M*
+ar شوربة šurba, حساء ḥasāʾ | n | Wt
+tr çorba | n | Wt
+ru суп sup | y | Wt
+es sopa | y | Wt
+fr soupe, potage | y | Wt
+sw supu | y | Wt
+ha miya | n | Wt
+yo ọbẹ̀ | n | M
+qu lawa | n | Wt
+note: 10 strict, 11 lenient; second family šorba (ar tr fa hi, 4) and native words in EA
+text: Two families compete: soup/sopa (10, 11 with Bengali) and the Persian–Arabic šorba (ar tr, plus doublets in fa hi). Neither reaches 12. Many languages keep a native word for their own soups and use the loan only for Western soup (ja ko vi bn).
+
+@ chocolate | chocolate | food made from ground roasted cocoa beans
+zh 巧克力 qiǎokèlì | y | Wt
+ja チョコレート chokorēto, チョコ | y | Wt
+ko 초콜릿 chokollit | y | Wt
+vi sô-cô-la | y | Wt
+th ช็อกโกแลต chɔ́kkoolɛ́ɛt | y | Wt
+id cokelat, coklat | y | Wt
+tl tsokolate | y | Wt
+hi चॉकलेट cŏkleṭ | y | Wt
+bn চকলেট cɔkleṭ | y | Wt
+ta சாக்கலேட் cākkalēṭ | y | Wt
+fa شکلات šokolāt | y | Wt
+ar شوكولاتة šūkūlāta | y | Wt
+tr çikolata | y | Wt
+ru шоколад šokolad | y | Wt
+es chocolate | y | Wt
+fr chocolat | y | Wt
+sw chokoleti | y | Wt
+ha cakulan | y | M
+yo ṣokoléètì | y | M
+qu chocolate (Spanish loan) | y | M
+median: tʃokolat
+note: universal; median third vowel a (9) over e (7); consonant-final majority
+text: Initial tʃ 14 against ʃ 6 (fa ar ru fr yo, vi s). Third vowel a (vi id tl fa ar tr ru es fr) over e (ja hi bn ta sw yo, th ɛ).
+
+@ doctor | physician | medical doctor
+zh 医生 yīshēng | n | Wt
+ja 医者 isha | n | Wt
+ko 의사 uisa | n | Wt
+vi bác sĩ (đốc-tờ dated) | n | Wt
+th หมอ mɔ̌ɔ, แพทย์ phɛ̂ɛt | n | Wt
+id dokter | y | Wt
+tl doktor | y | Wt
+hi डॉक्टर ḍŏkṭar | y | Wt
+bn ডাক্তার ḍāktār | y | Wt
+ta டாக்டர் ṭākṭar in speech (formal மருத்துவர் maruttuvar) | y | Wt, M*
+fa دکتر doktor in speech (formal پزشک pezešk) | y | Wt, M*
+ar دكتور duktōr in all dialects (formal طبيب ṭabīb) | y | Wt, M*
+tr doktor | y | Wt
+ru врач vrač; доктор doktor in address and colloquially | b | Wt
+es médico; doctor in address and much of Latin America | b | Wt, M
+fr médecin; docteur in address | b | Wt
+sw daktari | y | Wt
+ha likita | n | M
+yo dókítà | y | M
+qu jampiq | n | Wt
+median: doktor
+note: 10 strict (3 M*), 13 lenient counting doktor/doctor/docteur used beside vrač/médico/médecin; strict regions SEA SA WA SSA
+text: The strict count rests on spoken Tamil, Persian and Arabic, where the formal word is native. Europe uses doktor/doctor/docteur as a title and colloquially, beside native vrač, médico, médecin; that is the lenient count. Median second vowel: o (tl fa ar tr, and the lenient ru es) against a (hi bn ta sw); [doktor].
+
+@ banana | banana | fruit
+zh 香蕉 xiāngjiāo | n | Wt
+ja バナナ banana | y | Wt
+ko 바나나 banana | y | Wt
+vi chuối | n | Wt
+th กล้วย klûay | n | Wt
+id pisang | n | Wt
+tl saging | n | Wt
+hi केला kelā | n | Wt
+bn কলা kɔlā | n | Wt
+ta வாழைப்பழம் vāḻaippaḻam | n | Wt
+fa موز mowz | n | Wt
+ar موز mawz | n | Wt
+tr muz | n | Wt
+ru банан banan | y | Wt
+es banana, plátano | y | Wt
+fr banane | y | Wt
+sw ndizi | n | Wt
+ha ayaba | n | Wt
+yo ọ̀gẹ̀dẹ̀ | n | Wt
+qu latanu (< plátano) | n | Wt
+note: tropical regions keep native words; mawz family ar fa tr (3)
+
+@ giraffe | giraffe | mammal
+zh 长颈鹿 chángjǐnglù "long-neck deer" | n | Wt
+ja キリン kirin | n | Wt
+ko 기린 girin | n | Wt
+vi hươu cao cổ | n | Wt
+th ยีราฟ yiiráap | y | Wt
+id jerapah | y | Wt
+tl hirapa | y | Wt
+hi जिराफ़ jirāf | y | Wt
+bn জিরাফ jirāf | y | M*
+ta ஒட்டகச்சிவிங்கி oṭṭakaccivingi | n | Wt
+fa زرافه zarrāfe | y | Wt
+ar زرافة zarāfa | y | Wt
+tr zürafa | y | Wt
+ru жираф žiraf | y | Wt
+es jirafa | y | Wt
+fr girafe | y | Wt
+sw twiga | n | Wt
+ha raƙumin dawa "bush camel" | n | M
+yo àgùnfọn | n | Wt
+qu jirafa (Spanish loan) | y | M
+median: ʒirafa
+note: exactly 12, 5 regions; rests on Bengali (Wt form garbled) and Quechua (assumed); the word is Arabic in origin
+text: Exactly 12, and two of the twelve are soft (Bengali's Wiktionary form জরৈফ looks garbled, the usual spelling being জিরাফ; Quechua assumed). Initial consonant has no majority in IPA (dʒ 3, z 3, h/x 3, ʒ 2, j 1); the sibilants z/ʒ together are 5 and names.py maps all of them to s. Final vowel a (ar tr tl es qu, id before h) 6 against consonant-final 5.
+
+@ motorcycle | motorcycle | open-seated motor vehicle with handlebars instead of a steering wheel
+zh 摩托车 mótuōchē, 摩托 mótuō | y | Wt
+ja バイク baiku, オートバイ ōtobai | n | Wt
+ko 오토바이 otobai | n | Wt
+vi xe máy (mô tô formal) | n | Wt
+th มอเตอร์ไซค์ mɔɔtəəsai, มอไซค์ | y | Wt, M*
+id sepeda motor, motor | y | Wt
+tl motorsiklo, motor | y | Wt
+hi मोटरसाइकिल moṭarsāikil | y | Wt
+bn মোটরসাইকেল moṭarsāikel | y | Wt
+ta விசையுந்து visaiyundu (formal); spoken moṭṭār saikkiḷ, bike | b | Wt, M*
+fa موتور motor, موتورسیکلت motorsiklet | y | Wt
+ar دراجة نارية darrāja nāriyya; spoken mōtōsīkl | b | Wt, M*
+tr motosiklet | y | Wt
+ru мотоцикл mototsikl | y | Wt
+es moto, motocicleta | y | Wt
+fr moto | y | Wt
+sw pikipiki | n | Wt
+ha babur | n | Wt
+yo ọ̀kadà, alùpùpù | n | Wt
+qu moto (Spanish loan) | y | M
+median: moto
+note: shared part is moto(r); 12 strict, 14 lenient; median tie [moto] vs [motosaikil] (6 short, 6 long forms), shorter taken
+text: The shared element is moto(r)-; Japanese and Korean ōtobai shares "auto", not "moto", so it is ✗. Mandarin mótuō is a sound loan used alone ("骑摩托"), so it counts. The r after moto is kept in 5 of 12 forms (id tl hi bn fa), so [moto]; after that 6 forms continue with -saikil/-siklet/-tsikl and 6 stop, a tie; I took the shorter. The long form would be [motosaikil].
+
+@ television | television | device for receiving television signals|television set|idiot box
+zh 电视(机) diànshì(jī) | n | Wt
+ja テレビ terebi | y | Wt
+ko 텔레비전 tellebijeon, 티비 tibi | y | Wt
+vi ti-vi, TV (máy thu hình formal) | y | Wt, M*
+th โทรทัศน์ thoorathát; spoken ทีวี thiiwii very common | b | Wt, M*
+id televisi, TV | y | Wt
+tl telebisyon, TV | y | Wt
+hi टीवी ṭīvī, टेलीविज़न (formal दूरदर्शन dūrdarśan) | y | Wt, M*
+bn টেলিভিশন ṭelibhiśan | y | Wt
+ta தொலைக்காட்சி tolaikkāṭci; spoken TV | b | Wt, M*
+fa تلویزیون televizyon | y | Wt
+ar تلفزيون tilifizyōn, تلفاز tilfāz | y | Wt
+tr televizyon | y | Wt
+ru телевизор televizor | y | Wt
+es televisión, tele | y | Wt
+fr télévision, télé | y | Wt
+sw televisheni (runinga coinage) | y | Wt, M*
+ha talabijin | y | M
+yo tẹlifíṣọ̀n | y | Wt
+qu televisión (Spanish loan) | y | M
+median: televizjon
+note: tele-/TV forms counted together; 17 strict, 19 lenient; everyday short forms terebi/tele/TV are shorter
+text: The abbreviation TV/tivi is counted as the same word: it is the international form's own abbreviation, not a translation. Median of the full forms [televizjon]; the panel's everyday short forms (ja terebi, es/fr tele, hi/vi/th/ta TV) would give a shorter word if the author prefers one.
+
+@ coffee | coffee | beverage
+zh 咖啡 kāfēi | y | Wt
+ja コーヒー kōhī | y | Wt
+ko 커피 keopi | y | Wt
+vi cà phê | y | Wt
+th กาแฟ kaafɛɛ | y | Wt
+id kopi | y | Wt
+tl kape | y | Wt
+hi कॉफ़ी kŏfī | y | Wt
+bn কফি kɔphi | y | Wt
+ta காபி kāpi | y | Wt
+fa قهوه qahve | b | Wt
+ar قهوة qahwa | b | Wt
+tr kahve | b | Wt
+ru кофе kofe | y | Wt
+es café | y | Wt
+fr café | y | Wt
+sw kahawa | b | Wt
+ha kofi | y | Wt
+yo kọfí | y | Wt
+qu kaphiy, café | y | Wt
+median: kafe
+note: 16 strict; qahwa family (fa ar tr sw) is the etymon but not heard as the same word, lenient 20; median second vowel tie e 8 / i 8
+text: The qahwa/kahve/kahawa family is the source of "coffee", but k-h-w against k-f is a distant link, so it counts only leniently. First vowel a 8 against o 7; second vowel e (zh vi th tl ru es fr qu) 8 against i (ja ko id hi bn ta ha yo) 8, a tie: [kafe] → *kafe* or [kafi] → *kafi*. The lenient forms (qahve, qahwa, kahve, kahawa) all side with the vowel e/a, not i.
+
+@ sweater | sweater | similar garment worn for warmth
+zh 毛衣 máoyī | n | Wt
+ja セーター sētā | y | Wt
+ko 스웨터 seuweteo | y | Wt
+vi áo len | n | Wt
+th เสื้อกันหนาว sʉ̂a kan nǎaw | n | M
+id switer | y | Wt
+tl sweter | y | M
+hi स्वेटर sveṭar | y | Wt
+bn সোয়েটার soeṭār | y | Wt
+ta ஸ்வெட்டர் sveṭṭar | y | M
+fa ژاکت žāket, پلیور poliver | n | Wt
+ar سويتر swītar (Wt); also بلوفر | y | Wt
+tr kazak (süveter less common) | b | Wt, M*
+ru свитер sviter | y | Wt
+es suéter (Mexico, Central America); jersey, buzo, chompa elsewhere | b | Wt, M
+fr pull | n | Wt
+sw sweta | y | Wt
+ha suwaita | y | M
+yo súwẹ́tà | y | M
+qu chompa (Peru Spanish) | n | M
+median: swetar
+note: 12 strict (ha yo tl ta from memory), 14 lenient; r kept 7 of 12
+text: Exactly 12, with four columns from memory (tl ta ha yo). Spanish splits by country (suéter, jersey, buzo, chompa), so it counts only leniently. Median: first vowel e over i, second a, final r in 7 of 12 (id tl hi bn ta ar ru).
