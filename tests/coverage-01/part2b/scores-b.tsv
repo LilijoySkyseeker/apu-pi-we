@@ -1,0 +1,41 @@
+text	N	units	exact	vaguer	wrong	missing	note
+11	base	42	36	4	0	2	vaguer: dismissed as disciplinary measure, IC card ticket system "ICOCA", JR conventional lines, on occasions such as; missing: UTC+9, including (route is one example)
+11	1000	42	37	4	0	1	vaguer: JR West group company, dismissed as disciplinary measure, IC card ticket system "ICOCA", JR conventional lines; missing: UTC+9
+11	1500	42	37	3	0	2	vaguer: JR West group company, IC card ticket system "ICOCA", on occasions such as; missing: UTC+9, including (route is one example)
+11	2000	42	38	3	0	1	vaguer: JR West group company, IC card ticket system "ICOCA", on occasions such as; missing: UTC+9
+12	base	49	41	8	0	0	vaguer: by mobile phone, already, by mobile phone (body), city public transport authority, success, paying on credit, fumble with, most passengers
+12	1000	49	40	9	0	0	vaguer: by mobile phone, already, by mobile phone (body), city public transport authority, success, paying on credit, fumble with, most passengers, send a text message
+12	1500	49	43	6	0	0	vaguer: by mobile phone, already, by mobile phone (body), city public transport authority, fumble with, send a text message
+12	2000	49	42	7	0	0	vaguer: by mobile phone, already, by mobile phone (body), city public transport authority, paying in cash, fumble with, send a text message
+13	base	26	19	7	0	0	vaguer: road emergency, flooding, road alert, Argentine capital, some neighbourhoods, accidents
+13	1000	26	21	4	1	0	wrong: subway cancellations; vaguer: road emergency, flooding, road alert
+13	1500	26	25	1	0	0	vaguer: road alert
+13	2000	26	26	0	0	0	none
+14	base	28	23	5	0	0	vaguer: scanning, pickup code, any other e-commerce platform, found unpleasant, monopoly capital
+14	1000	28	26	2	0	0	vaguer: any other e-commerce platform, monopoly capital
+14	1500	28	27	1	0	0	vaguer: monopoly capital
+14	2000	28	26	2	0	0	vaguer: sent by text message, monopoly capital
+15	base	35	30	4	0	1	vaguer: boda bodas (motorcycle taxis), motorcycle, difficulties running the business, boda boda rider; missing: popularly known as "boda boda"
+15	1000	35	34	0	0	1	missing: popularly known as "boda boda"
+15	1500	35	34	0	0	1	missing: popularly known as "boda boda"
+15	2000	35	34	0	0	1	missing: popularly known as "boda boda"
+16	base	30	27	3	0	0	vaguer: immediately, if you were not careless, interbank
+16	1000	30	27	3	0	0	vaguer: immediately, if you were not careless, interbank
+16	1500	30	27	3	0	0	vaguer: immediately, if you were not careless, interbank
+16	2000	30	25	5	0	0	vaguer: bank card, immediately, if you were not careless, interbank
+17	base	41	35	6	0	0	vaguer: dengue, breaking the cycle of transmission, dengue (body), prevent and control, cans, bottles
+17	1000	41	36	5	0	0	vaguer: dengue, breaking the cycle of transmission, dengue (body), prevent and control, cans
+17	1500	41	38	3	0	0	vaguer: dengue, dengue (body), cans
+17	2000	41	37	4	0	0	vaguer: dengue, dengue (body), cans, tyres
+18	base	41	32	9	0	0	vaguer: heatstroke, heatstroke (body), alert issued, air conditioner, blackout curtains, bamboo blinds, parasol, wear a hat, cold towels
+18	1000	41	36	5	0	0	vaguer: heatstroke, heatstroke (body), blackout curtains, bamboo blinds, parasol
+18	1500	41	36	5	0	0	vaguer: heatstroke, heatstroke (body), blackout curtains, bamboo blinds, parasol
+18	2000	41	35	6	0	0	vaguer: heatstroke, heatstroke (body), measures suited to where you are, air conditioner, bamboo blinds, parasol
+19	base	42	38	4	0	0	vaguer: scrambled eggs, frying pan, small curds, larger curds
+19	1000	42	38	4	0	0	vaguer: black pepper, frying pan, small curds, larger curds
+19	1500	42	37	5	0	0	vaguer: black pepper, whisk, frying pan, small curds, larger curds
+19	2000	42	37	5	0	0	vaguer: black pepper, whisk, frying pan, small curds, larger curds
+20	base	45	34	10	1	0	wrong: where you will do the maintenance; vaguer: large table, brush with fine bristles, (can be a paintbrush), or paper towel, fan, graphite powder, network, removing the screws, some only have clips, metal cover
+20	1000	45	40	3	2	0	wrong: where you will do the maintenance, contact-cleaner spray; vaguer: graphite powder, removing the screws, metal cover
+20	1500	45	42	2	1	0	wrong: where you will do the maintenance; vaguer: graphite powder, removing the screws
+20	2000	45	37	7	1	0	wrong: thermal paste; vaguer: fan, contact-cleaner spray, graphite powder, sewing-machine oil, open the computer case, removing the screws, some only have clips

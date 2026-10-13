@@ -45,3 +45,4 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - [x] Author's phrase guesses done (`guess/RESULTS.md`): author 19 right + 4 hedged + 7 wrong of 30; AI 28 right. AI readers flatter circumlocutions by about a third.
 - [ ] Rerun back-translation running: one cold agent per size (prompts /tmp/back2-N.md = prompts/back.md with part2b paths). Then scoring (2 agents, scores-a/b in part2b).
 - [x] Rerun back-translations done. [ ] Scoring running (prompts/score2-a.md and the -b twin; prompts/back2-base.md is the back-translation prompt, same for each size).
+- [x] Rerun scored: exact 84.4 / 88.1 / 90.2 / 89.7 %; knee ≈ 1,500 (RESULTS.md). Next: author sets the size; then Part 3 (boundaries) and Part 4 (forms).
