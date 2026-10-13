@@ -404,7 +404,7 @@ For opposites, **mu** plus a word gives "not X" (**mu upe** "not good"), and man
 
 Ready-made compounds, such as **du sunbu** "computer" ("thing for counting"), are in the [compounds list](../data/compounds.tsv). [§11.4](language.md#r-11-4)
 
-Things the whole world names the same way are borrowed in their international form, without **en**: **foto** photo, **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. You can also borrow any word you need from your own language, the way English borrowed *sushi* and *pizza*: **to nawi sushi sa** "I ate two sushi". A borrowed word needs no **en**; add one only if it could be mistaken for a word of the language. [§11.3](language.md#r-11-3)
+Things the whole world names the same way are borrowed in their international form, without **en**: **foto** photo, **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. You can also borrow any word you need from your own language, the way English borrowed *sushi* and *pizza*: **to nawi sushi sa** "I ate two sushi". A borrowed word needs no **en**, and it can even be a verb: **to sin google bu** "I googled it". Add **en** only if it could be mistaken for a word of the language. [§11.3](language.md#r-11-3)
 
 Computer words are everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**. [§11.4](language.md#r-11-4)
 

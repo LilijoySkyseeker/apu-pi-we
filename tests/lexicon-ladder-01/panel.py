@@ -51,7 +51,7 @@ def blocks(title):
         text += raw(title + "/translations")
     out, cur, name = [], None, None
     for line in text.splitlines():
-        m = re.match(r"\{\{(?:trans-top-see|trans-top|checktrans-top)(?:\|(?:id=[^|}]*\|)?([^}]*))?\}\}", line)
+        m = re.match(r"\{\{(?:trans-top-see|trans-top-also|trans-top|checktrans-top)(?:\|(?:id=[^|}]*\|)?([^}]*))?\}\}", line)
         if m:
             cur, name = {}, (m.group(1) or "(unchecked)")
             continue

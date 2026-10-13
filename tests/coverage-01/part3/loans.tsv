@@ -1,0 +1,11 @@
+concept	cognates	regions	verdict	median_ipa	adapted	note
+ice cream	9/20 (12 lenient)	4 (no WA EU AM) (5 lenient)	borderline	[aiskrim]	ayisukulimu	9 strict, 12 lenient (tl ayskrim, colloquial ar, ha unattested); EU and AM use native/Spanish words
+soup	10/20 (11 lenient)	6 (no AM)	fail			10 strict, 11 lenient; second family šorba (ar tr fa hi, 4) and native words in EA
+chocolate	20/20	all 7	pass	[tʃokolat]	tokolatu	universal; median third vowel a (9) over e (7); consonant-final majority
+doctor	10/20 (13 lenient)	4 (no EA EU AM) (5 lenient)	borderline	[doktor]	dokutolu	10 strict (3 M*), 13 lenient counting doktor/doctor/docteur used beside vrač/médico/médecin; strict regions SEA SA WA SSA
+banana	5/20	2 (EA EU)	fail			tropical regions keep native words; mawz family ar fa tr (3)
+giraffe	12/20	5 (no EA SSA)	pass, borderline	[ʒirafa]	silafa	exactly 12, 5 regions; rests on Bengali (Wt form garbled) and Quechua (assumed); the word is Arabic in origin
+motorcycle	12/20 (14 lenient)	6 (no SSA)	pass	[moto]	moto	shared part is moto(r); 12 strict, 14 lenient; median tie [moto] vs [motosaikil] (6 short, 6 long forms), shorter taken
+television	17/20 (19 lenient)	all 7	pass	[televizjon]	telebisuyon	tele-/TV forms counted together; 17 strict, 19 lenient; everyday short forms terebi/tele/TV are shorter
+coffee	16/20 (20 lenient)	6 (no WA) (7 lenient)	pass	[kafe]	kafe	16 strict; qahwa family (fa ar tr sw) is the etymon but not heard as the same word, lenient 20; median second vowel tie e 8 / i 8
+sweater	12/20 (14 lenient)	6 (no AM)	pass, borderline	[swetar]	suwetalu	12 strict (ha yo tl ta from memory), 14 lenient; r kept 7 of 12
