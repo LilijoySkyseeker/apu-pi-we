@@ -1,0 +1,41 @@
+text	N	units	exact	vaguer	wrong	missing	note
+11	base	48	45	2	0	1	vaguer: JR conventional lines, subsidiary; missing: disciplinary
+11	1000	48	45	3	0	0	vaguer: group company (headline), conventional lines, occasions such as
+11	1500	48	45	3	0	0	vaguer: IC ticket system, including (as "even"), fares
+11	2000	48	45	2	1	0	wrong: date (5th -> Friday); vaguer: fares, occasions such as
+12	base	50	46	4	0	0	vaguer: already, transport authority, credit, cash
+12	1000	50	46	4	0	0	vaguer: already, innovation, immediately, cash
+12	1500	50	47	3	0	0	vaguer: already, innovation, cash
+12	2000	50	48	2	0	0	vaguer: already, cash
+13	base	28	26	2	0	0	vaguer: emergency (headline), road alert
+13	1000	28	26	2	0	0	vaguer: road alert, conurbation
+13	1500	28	26	2	0	0	vaguer: road alert, conurbation
+13	2000	28	26	1	1	0	wrong: delays/cancellations split between metro and trains/buses; vaguer: conurbation
+14	base	36	33	2	0	1	vaguer: pickup code, monopoly capital; missing: in person
+14	1000	36	33	3	0	0	vaguer: scanning, several times faster, monopoly capital
+14	1500	36	33	2	0	1	vaguer: reporter's displeasure, monopoly capital; missing: in person
+14	2000	36	33	2	0	1	vaguer: e-commerce platform, monopoly capital; missing: in person
+15	base	38	37	0	1	0	wrong: boda boda rider (as leader)
+15	1000	38	37	1	0	0	vaguer: fares
+15	1500	38	37	1	0	0	vaguer: fares
+15	2000	38	37	1	0	0	vaguer: boda boda rider (as motorcycle driver)
+16	base	30	29	1	0	0	vaguer: not careless (as not your fault)
+16	1000	30	28	2	0	0	vaguer: not careless, reserved for card stops
+16	1500	30	27	3	0	0	vaguer: not careless, put a stop (x2, as close)
+16	2000	30	27	3	0	0	vaguer: not careless, immediately, interbank line (as server)
+17	base	43	40	3	0	0	vaguer: transmission cycle, prevent, cans
+17	1000	43	39	3	1	0	wrong: neutralize (as dry out); vaguer: dengue (x2), transmission cycle
+17	1500	43	42	1	0	0	vaguer: cans
+17	2000	43	42	0	1	0	wrong: unused containers (as old)
+18	base	40	36	4	0	0	vaguer: heatstroke, bamboo blinds, parasol, ice packs
+18	1000	40	34	6	0	0	vaguer: heatstroke, alert, blackout curtains, bamboo blinds, parasol, hat
+18	1500	40	37	3	0	0	vaguer: heatstroke, blackout curtains, bamboo blinds
+18	2000	40	36	3	0	1	vaguer: heatstroke, as little as possible, ice packs; missing: as much as possible
+19	base	41	40	1	0	0	vaguer: curds
+19	1000	41	32	8	0	1	vaguer: tbsp/tsp (x4, as small cups), pepper, whisk, frying pan, curds; missing: hot (pan)
+19	1500	41	37	4	0	0	vaguer: pepper, frying pan, stir (as turn), curds
+19	2000	41	36	5	0	0	vaguer: pepper, whisk, fork, frying pan, curds
+20	base	46	34	9	3	0	wrong: paintbrush, contact-cleaner spray (as water), all cables (as power cables); vaguer: table, fine bristles, thermal paste, torch, graphite, sewing-machine oil, screws, clips, metal cover
+20	1000	46	39	5	2	0	wrong: maintenance (as fix), screws (as iron tools); vaguer: paper towel, torch, contact-cleaner spray, graphite, clips
+20	1500	46	41	4	1	0	wrong: maintenance (as fix up); vaguer: paper towel, torch, contact-cleaner spray, graphite
+20	2000	46	42	3	1	0	wrong: screws (as pins); vaguer: torch, contact-cleaner spray, graphite

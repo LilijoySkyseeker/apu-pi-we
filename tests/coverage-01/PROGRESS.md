@@ -31,3 +31,4 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - [x] ap-1500 translated; back-1500 running. Names with grammar words: Bu Pawiro (bu), Cuerpo de Paz (de), Sauti ya Amerika (ya), Arabic letter ya.
 - [x] All four back-translations done. Lengths (measure.py): base 5,190 syllables; 1000 95%; 1500 95%; 2000 92%. Placeholder uses 272 / 353 / 411 (117 / 169 / 202 distinct). Caveat: each size had its own translator agent, so style varies between sizes.
 - [ ] Scoring: two agents (texts 01–10 → part2/scores-a.tsv, 11–20 → scores-b.tsv; details part2/scores-detail/NN.md). Then the author sheet.
+- [x] Scoring done: `RESULTS.md` (copied to the author's notes). Exact 89.6 / 89.9 / 90.9 / 92.4 %; length 100 / 95 / 95 / 92 %. Waiting on the author: their judging sheet (`~/research/Language/apupiwe-coverage/judging-sheet.md`, texts 01 05 09 15 19, A = base, B = 2000) and the next-step decision.

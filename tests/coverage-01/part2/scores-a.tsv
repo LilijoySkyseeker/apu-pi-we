@@ -1,0 +1,41 @@
+text	N	units	exact	vaguer	wrong	missing	note
+01	base	43	42	1	0	0	vaguer: greeting: how are you?
+01	1000	43	42	0	1	0	wrong: teaspoon
+01	1500	43	41	2	0	0	vaguer: all right, injection
+01	2000	43	43	0	0	0	none lost
+02	base	55	50	5	0	0	vaguer: brooding, harvest, quintal (measure), unhulled rice, cooperative
+02	1000	55	49	6	0	0	vaguer: brooding, quintal (measure), unhulled rice, interest, cooperative, interest is low
+02	1500	55	50	5	0	0	vaguer: brooding, harvest, quintal (measure), unhulled rice, cooperative
+02	2000	55	51	4	0	0	vaguer: brooding, quintal (measure), unhulled rice, cooperative
+03	base	33	31	1	1	0	vaguer: Peace Corps; wrong: never
+03	1000	33	32	0	0	1	missing: already
+03	1500	33	32	0	0	1	missing: already
+03	2000	33	32	0	0	1	missing: already
+04	base	33	30	3	0	0	vaguer: weather, good harvests, landscape
+04	1000	33	31	2	0	0	vaguer: good harvests, landscape
+04	1500	33	30	3	0	0	vaguer: always, good harvests, landscape
+04	2000	33	31	2	0	0	vaguer: always, landscape
+05	base	42	34	8	0	0	vaguer: what can I get you?, black caviar, salad, red wine, a bottle, lemon, ice cream, pastry
+05	1000	42	32	10	0	0	vaguer: what can I get you?, black caviar, salad, soup, borscht, shashlik, vodka, lemon, ice cream, pastry
+05	1500	42	34	8	0	0	vaguer: what can I get you?, black caviar, salad, borscht, shashlik, vodka, lemon, ice cream
+05	2000	42	36	6	0	0	vaguer: what can I get you?, salad, borscht, shashlik, vodka, lemon
+06	base	40	37	3	0	0	vaguer: warm, counter, senior lecturer
+06	1000	40	37	3	0	0	vaguer: warm, counter, senior lecturer
+06	1500	40	37	3	0	0	vaguer: counter, enough to (cause), senior lecturer
+06	2000	40	38	2	0	0	vaguer: counter, senior lecturer
+07	base	32	26	4	0	2	vaguer: juicy, chit-chat, admin, promotions; missing: yes, post (position)
+07	1000	32	28	4	0	0	vaguer: juicy, chit-chat, admin, things
+07	1500	32	26	5	0	1	vaguer: brother, juicy, chit-chat, admin, things; missing: get-together
+07	2000	32	26	5	0	1	vaguer: brother, juicy, chit-chat, admin, things; missing: get-together
+08	base	38	29	8	1	0	vaguer: parties, finally, poll, tables, share of the vote, averages, medians, local elections; wrong: as with the election polls above (comparison)
+08	1000	38	36	2	0	0	vaguer: finally, share of the vote
+08	1500	38	35	3	0	0	vaguer: finally, medians, as with the election polls above (comparison)
+08	2000	38	35	2	1	0	vaguer: finally, medians; wrong: as with the election polls above (comparison)
+09	base	37	28	8	1	0	vaguer: ecology (title), colleagues, section, fundamental, requirements, basic characteristics, Michaelis dictionary, "enlightened" person; wrong: History (name)
+09	1000	37	31	5	1	0	vaguer: ecology (title), colleagues, fundamental, Michaelis dictionary, "enlightened" person; wrong: ecosystem (quoted term)
+09	1500	37	30	7	0	0	vaguer: ecology (title), colleagues, fundamental, basic characteristics, ecosystem (quoted term), Michaelis dictionary, "enlightened" person
+09	2000	37	32	5	0	0	vaguer: ecology (title), colleagues, fundamental, basic characteristics, "enlightened" person
+10	base	46	43	3	0	0	vaguer: casual search, strongly warn, heartburn
+10	1000	46	41	4	0	1	vaguer: also name of the pot, casual search, strongly warn, heartburn; missing: authentic
+10	1500	46	39	7	0	0	vaguer: brother, also name of the pot, casual search, strongly warn, heartburn, Turkish tajen, Alexandrian akkawi
+10	2000	46	42	4	0	0	vaguer: Morocco, also name of the pot, thanks for the ping (B), casual search
