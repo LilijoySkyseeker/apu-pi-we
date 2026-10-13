@@ -44,3 +44,4 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - AI guesses (blank sheet) in guess/ai-guesses.tsv: 26–27 of 30 right (misses: cash → banknote, bank card → credit card (close), doctor → nurse, printer → keyboard). Don't show the author until their sheet is done. (guess/ai-guesses-contaminated.tsv saw the author's first six answers.)
 - [x] Author's phrase guesses done (`guess/RESULTS.md`): author 19 right + 4 hedged + 7 wrong of 30; AI 28 right. AI readers flatter circumlocutions by about a third.
 - [ ] Rerun back-translation running: one cold agent per size (prompts /tmp/back2-N.md = prompts/back.md with part2b paths). Then scoring (2 agents, scores-a/b in part2b).
+- [x] Rerun back-translations done. [ ] Scoring running (prompts/score2-a.md and the -b twin; prompts/back2-base.md is the back-translation prompt, same for each size).

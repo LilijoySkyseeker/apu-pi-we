@@ -1,0 +1,22 @@
+Step by step
+
+Before anything else, prepare the place where you'll keep the computer, following these ideas.
+- It's best to use a wide, empty table.
+- If you want, work standing up, so you can move more freely.
+- Choose a place with lots of light.
+
+Gather the things you need.
+- A Phillips screwdriver.
+- A brush with thin bristles (it can be a paintbrush).
+- Thermal paste (you can buy it at a computer shop).
+- A wiping cloth, or paper towels.
+- A white school eraser.
+- A blower.
+- A flat screwdriver (if you want).
+- A flashlight (if you want).
+- Spray water for cleaning the connectors (if you want).
+- Black powder, or sewing machine oil (if you want).
+
+Step 1: open the computer
+1. Remove all cables from the computer (mouse, keyboard, screen, power, network, phone, printer, and others).
+2. Open the computer case (some people wrongly call it the CPU), by removing the small locking pieces on the back (some only have clips), and taking off the hard cover.
