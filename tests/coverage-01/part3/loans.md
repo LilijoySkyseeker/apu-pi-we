@@ -5,6 +5,8 @@ Proposals only; no word was changed. Candidates: the 109 rows of `ladder.tsv` (t
 ## Author's decisions
 
 - **Pattern 1 (2026-10-13): count everyday loans beside a formal native word.** A column counts when the loan is what speakers say every day, even where a formal native word exists, with a source for the column; occasional code-switching doesn't count. Verdicts are recomputed after the evidence question (pattern 2).
+- **Pattern 2 (2026-10-13): memory columns need a source** (frequency lists, the foreign word's Wiktionary entry, a dictionary); only deciding columns are checked; no blanket Quechua assumption.
+- **Pattern 3 (2026-10-13): two shapes are one form when their adapted forms keep the same consonants** (pope/papa together; channel/kanal, mosque/masjid apart).
 
 ## Method
 

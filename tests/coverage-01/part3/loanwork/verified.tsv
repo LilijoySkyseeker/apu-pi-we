@@ -1,0 +1,16 @@
+concept	lang	result	form	source
+ice cream	ha	unknown	-	no aiskirim-type form in freq-ha, Leipzig hau_community_2017 words or sentences, or Wiktionary (en, kaikki Hausa); kamus.com.ng gives only a descriptive phrase
+giraffe	qu	unknown	-	not in freq-qu, Leipzig que_community_2017, Wiktionary or Laime 2007 dictionary; only a qu.wikipedia article title Hirapha (Wikidata Q15083), no running text
+sweater	tl	yes	suweter	Wiktionary Tagalog suweter "sweater" (from Spanish suéter); not in freq-fil top 6000 or tl subtitle list
+sweater	ta	yes	ஸ்வெட்டர் sveṭṭar	OpenSubtitles ta 50k list (cache/coverage/subs) rank 11071 (count 1); no native sweater word found there
+sweater	ha	yes	suwaita	Leipzig hau_community_2017: suwaita 1 (sentence 33707 "koyon dinkin suwaita, riguna"); no competing form (rigar sanyi 0)
+sweater	yo	yes	súwẹ́tà	Leipzig yor_community_2017: súwẹ́tà/súwẹ́ta 2 sentences (8339 "máa ń wọ súwẹ́ta nígbà òtútù")
+sofa	ta	yes	சோபா sōpā	OpenSubtitles ta 50k list: சோபா rank 9664, சோபாவுக்கு rank 7185 (3 tokens); Wikidata label சாய்வு இருக்கை is a coinage absent from the list
+sofa	sw	no	sofa	Leipzig swa_community_2017: sofa 2 vs kochi 10 + makochi 5 (Wiktionary has both, kochi < couch); kochi is the everyday word, sofa ~7x rarer
+sofa	qu	unknown	-	not in freq-qu, Leipzig que, Wiktionary, Laime 2007, or qu.wikipedia (Wikidata Q131514 has no qu label)
+lamp	bn	no	ল্যাম্প lyāmp	OpenSubtitles bn 50k: বাতি 46 + বাতিটা 6 vs ল্যাম্প 4 (rank 28885); sfreq-bn বাতি rank 4673; Wiktionary gives বাতি "lamp, light"
+lamp	qu	unknown	-	no lámpara form in freq-qu, Leipzig que, Wiktionary or Laime 2007; Wikidata Q1138737 has no qu label
+tomato	ha	yes	tumatur, tumatir	freq-ha rank 4670 (tumatur); Leipzig hau: tumatur 11, tumatir 3
+toast	hi	yes	टोस्ट ṭosṭ	Wiktionary Hindi टोस्ट "toast (toasted bread)"; sfreq-hi rank 3300 (senses mixed with "cheers" toast)
+toast	bn	yes	টোস্ট ṭosṭ	OpenSubtitles bn 50k rank 9441 (count 18, plus টোস্টের 2), sense not separable from drinking toast; english-bangla.com Bengali headword টোস্ট noun "toast"
+toast	ta	yes	டோஸ்ட் ṭōsṭ	Dinamalar food page "மசாலா பிரெட் டோஸ்ட்" (dinamalar.com/special/lifestyle/food/masala-bread-toast/4224196); not in ta freq/subtitle lists or Wiktionary
