@@ -41,7 +41,7 @@ pi gigin pi wan lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu
 
 ## Article 3
 
-pata yen enpa yen sonli gun sogan pi go.
+nume yen enpa yen sonli gun sogan pi go.
 {.apu}
 
 ## Article 4
@@ -89,7 +89,7 @@ don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan 
 
 ## Article 12
 
-pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wan, lu inwa yonyo pi wan, lu inwa guyi pi wan, lu inwa ge sege pi wan. ewo eni fe mu gun efon alun dundi pi wan, lu alun suso upe pi wan. go ibe sogan li wabun la kuwi wan se ben.
+pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa nume kunsu pi wan, lu inwa yonyo pi wan, lu inwa guyi pi wan, lu inwa ge sege pi wan. ewo eni fe mu gun efon alun dundi pi wan, lu alun suso upe pi wan. go ibe sogan li wabun la kuwi wan se ben.
 {.apu}
 
 ## Article 13
@@ -190,7 +190,7 @@ go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu 
 
 ## Article 25
 
-1. go yen yonyo pi wan ibe sogan li ibe tonya li pata upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi lu mu lenu doku, lu gun pani lu ofin pi wan sin kono lu wan mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li gun yema se ewo we yen gigin.
+1. go yen yonyo pi wan ibe sogan li ibe tonya li nume upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi lu mu lenu doku, lu gun pani lu ofin pi wan sin kono lu wan mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li gun yema se ewo we yen gigin.
 {.apu}
 
 2. mole yen tiwu ibe sogan li gun kuwi fu ke feli, yen gun yema fu ke feli. pi tiwu we, wi don mole pi wan la yen wede pi wan la mu gun ofin, wan la ibe sogan li ewo we kuwi wan la fu kige.

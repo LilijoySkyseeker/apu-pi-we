@@ -356,7 +356,7 @@
 ## 12. Conditions and modality
 
 - <span id="r-12-1"></span>A condition is **don** "if" + clause. **kon** + number after **don** says how likely the condition is: **don kon fi** "if (unlikely)". **don kon po** "if (and it isn't so)" is counterfactual: **don kon po to sin isi, to sin nagu wan** "if I had gone, I would have seen her". The main clause is the consequence, and there is no "would".
-- <span id="r-12-2"></span>There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).
+- <span id="r-12-2"></span>There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to" ("should" is advice, the act **fon**, 7.1); and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).
 - <span id="r-12-3"></span>Purpose is **li** + verb, "in order to": **li bika** "to buy".
 - <span id="r-12-4"></span>"Let's" is **so pen** …, and "don't" is **tin mu** ….
 

@@ -73,7 +73,7 @@ pi gigin pi wan lu kemu pi wan, don bu gun enpa, lu gigin eni wungu bu, lu bu mu
 
 ## wabun mena 3 {.apu}
 
-pata yen enpa yen sonli gun sogan pi go.
+nume yen enpa yen sonli gun sogan pi go.
 {.apu}
 
 > Everyone has the right to life, liberty and the security of person.
@@ -141,7 +141,7 @@ don pu pi wabun la waka fu sogan pi wan yen ge keya pi wan, lu waka wun min wan 
 
 ## wabun mena 12 {.apu}
 
-pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa pata kunsu pi wan, lu inwa yonyo pi wan, lu inwa guyi pi wan, lu inwa ge sege pi wan. ewo eni fe mu gun efon alun dundi pi wan, lu alun suso upe pi wan. go ibe sogan li wabun la kuwi wan se ben.
+pi ewo mesun, don wabun denku mu efon, ewo eni mu gun efon inwa nume kunsu pi wan, lu inwa yonyo pi wan, lu inwa guyi pi wan, lu inwa ge sege pi wan. ewo eni fe mu gun efon alun dundi pi wan, lu alun suso upe pi wan. go ibe sogan li wabun la kuwi wan se ben.
 {.apu}
 
 > No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.
@@ -292,7 +292,7 @@ go ibe sogan li yenbo. wan fe ibe sogan li ibe muyi enpa. tan fe gun wun wan mu 
 
 ## wabun mena 25 {.apu}
 
-1\. go yen yonyo pi wan ibe sogan li ibe tonya li pata upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi lu mu lenu doku, lu gun pani lu ofin pi wan sin kono lu wan mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li gun yema se ewo we yen gigin.
+1\. go yen yonyo pi wan ibe sogan li ibe tonya li nume upe. tan fe gun wun wan la ibe tonya li gawo upe. tan fe gun wun wan la ibe pasu yen lonne yen guyi. tan fe gun wun ewo we yen gigin yema wan la nin wan la simi. tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu. don wan mu ibe doku, lu gun simi lu mu lenu doku, lu gun pani lu ofin pi wan sin kono lu wan mu ibe tonya fu lite eni man wan mu lenu kubo, wan fe ibe sogan li gun yema se ewo we yen gigin.
 {.apu}
 
 > 1\. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.

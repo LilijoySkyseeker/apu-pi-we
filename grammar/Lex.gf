@@ -191,9 +191,9 @@ abstract Lex = {
     diguli_N : N ;  -- degree (°)
     diguli_V : V ;  -- degree (°)
     diguli_A : A ;  -- degree (°)
-    dili_N : N ;  -- day, daytime or 24 hours
-    dili_V : V ;  -- day, daytime or 24 hours
-    dili_A : A ;  -- day, daytime or 24 hours
+    dili_N : N ;  -- day (24 hours)
+    dili_V : V ;  -- day (24 hours)
+    dili_A : A ;  -- day (24 hours)
     dinbu_N : N ;  -- snake
     dinbu_V : V ;  -- snake
     dinbu_A : A ;  -- snake
@@ -614,9 +614,9 @@ abstract Lex = {
     kusa_N : N ;  -- leave, go away from
     kusa_V : V ;  -- leave, go away from
     kusa_A : A ;  -- leave, go away from
-    kuwi_N : N ;  -- keep; protect
-    kuwi_V : V ;  -- keep; protect
-    kuwi_A : A ;  -- keep; protect
+    kuwi_N : N ;  -- protect
+    kuwi_V : V ;  -- protect
+    kuwi_A : A ;  -- protect
     kuwun_N : N ;  -- roof
     kuwun_V : V ;  -- roof
     kuwun_A : A ;  -- roof
@@ -731,9 +731,9 @@ abstract Lex = {
     lukan_N : N ;  -- head
     lukan_V : V ;  -- head
     lukan_A : A ;  -- head
-    lula_N : N ;  -- power, strength or control
-    lula_V : V ;  -- power, strength or control
-    lula_A : A ;  -- power, strength or control
+    lula_N : N ;  -- power, control
+    lula_V : V ;  -- power, control
+    lula_A : A ;  -- power, control
     lumi_N : N ;  -- fire
     lumi_V : V ;  -- fire
     lumi_A : A ;  -- fire
@@ -788,9 +788,9 @@ abstract Lex = {
     mibun_N : N ;  -- hide
     mibun_V : V ;  -- hide
     mibun_A : A ;  -- hide
-    mido_N : N ;  -- ask
-    mido_V : V ;  -- ask
-    mido_A : A ;  -- ask
+    mido_N : N ;  -- ask (a question)
+    mido_V : V ;  -- ask (a question)
+    mido_A : A ;  -- ask (a question)
     migi_N : N ;  -- fight
     migi_V : V ;  -- fight
     migi_A : A ;  -- fight
@@ -923,9 +923,9 @@ abstract Lex = {
     nulu_N : N ;  -- hear
     nulu_V : V ;  -- hear
     nulu_A : A ;  -- hear
-    nume_N : N ;  -- live, be alive or dwell
-    nume_V : V ;  -- live, be alive or dwell
-    nume_A : A ;  -- live, be alive or dwell
+    nume_N : N ;  -- live, be alive, dwell; life
+    nume_V : V ;  -- live, be alive, dwell; life
+    nume_A : A ;  -- live, be alive, dwell; life
     nunfo_N : N ;  -- buttocks
     nunfo_V : V ;  -- buttocks
     nunfo_A : A ;  -- buttocks
@@ -971,9 +971,6 @@ abstract Lex = {
     pasu_N : N ;  -- food
     pasu_V : V ;  -- food
     pasu_A : A ;  -- food
-    pata_N : N ;  -- life
-    pata_V : V ;  -- life
-    pata_A : A ;  -- life
     payon_N : N ;  -- hit
     payon_V : V ;  -- hit
     payon_A : A ;  -- hit
@@ -1283,9 +1280,9 @@ abstract Lex = {
     uyo_N : N ;  -- few
     uyo_V : V ;  -- few
     uyo_A : A ;  -- few
-    wabun_N : N ;  -- rule, regulation or law
-    wabun_V : V ;  -- rule, regulation or law
-    wabun_A : A ;  -- rule, regulation or law
+    wabun_N : N ;  -- law
+    wabun_V : V ;  -- law
+    wabun_A : A ;  -- law
     waka_N : N ;  -- choose
     waka_V : V ;  -- choose
     waka_A : A ;  -- choose
@@ -1361,9 +1358,9 @@ abstract Lex = {
     wunta_N : N ;  -- air
     wunta_V : V ;  -- air
     wunta_A : A ;  -- air
-    wupi_N : N ;  -- need; should
-    wupi_V : V ;  -- need; should
-    wupi_A : A ;  -- need; should
+    wupi_N : N ;  -- need (to)
+    wupi_V : V ;  -- need (to)
+    wupi_A : A ;  -- need (to)
     wuwu_N : N ;  -- navel
     wuwu_V : V ;  -- navel
     wuwu_A : A ;  -- navel

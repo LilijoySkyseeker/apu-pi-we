@@ -1670,7 +1670,7 @@ type = "bullet"
 title = "Modality, three kinds"
 gap = 0
 text = '''
-- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to, should"; and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).'''
+- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to" ("should" is advice, the act **fon**, 7.1); and permission, with **efon** "allow" (**me gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).'''
 
 [[item]]
 id = "12.3"

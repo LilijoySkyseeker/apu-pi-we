@@ -15,7 +15,7 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 The author works through the judge's repair list one decision at a time; each decision is in `design-log.md` under "Review repairs". Changes are committed but **not pushed until the batch ends**, so the public site doesn't churn.
 
-Done so far: senary words out of the core; "never" rules restated as the reference variety; evidence corrected; **kiyo**; "there is" = **ibe**; manner as a **fu** phrase; "not yet" = **le mu**; labels with **mena** (and the neighbour guard); **kon bo** "maybe"; the word-decision ladders; **mu … fa** as one negation; casual bare-verb commands; **sin le**; a base of about 1,500 roots; moon and month split; **en** for names, free borrowing without a marker; loans re-formed or replaced (L4); metric units as one set; no fusing and no designed shortening; seed-then-release vocabulary; boundaries measured against modern use.
+Done so far: senary words out of the core; "never" rules restated as the reference variety; evidence corrected; **kiyo**; "there is" = **ibe**; manner as a **fu** phrase; "not yet" = **le mu**; labels with **mena** (and the neighbour guard); **kon bo** "maybe"; the word-decision ladders; **mu … fa** as one negation; casual bare-verb commands; **sin le**; a base of about 1,500 roots; moon and month split; word and language split; the boundary cases (live/life merged; keep, request, lose a contest, daytime, rule split off; the 20–50% band rule deleted); **en** for names, free borrowing without a marker; loans re-formed or replaced (L4); metric units as one set; no fusing and no designed shortening; seed-then-release vocabulary; boundaries measured against modern use.
 
 ### In progress: vocabulary coverage (`tests/coverage-01/`)
 
@@ -45,8 +45,7 @@ A background deep dive into the design, engineering and principles of other inte
 - **From the lexicon ladder screening** (`tests/lexicon-ladder-01/`): new roots or phrases for hour, minute, second, degree and "picture" (now part of the coverage pass); police (borderline loan); how to count a currency or unit the world doesn't share (baht, naira).
 - **Name-boundary regression** (RB1): under the 11.1 clarification a content word right after a name joins the name; the grammar is also stricter than the reference about pauses between joined verbs and inside noun lists.
 - **Short-word layer (next after the concept list):** desk fixes: move **fa** (vs **sa**); the vowel-initial vs glide pairs (**un**/**wun**, **o**/**wo**, **en**/**yen**) and the same-slot bug in `build.py`; rename **manni**/**konsin** with the juncture rule; a digit-vs-grammar-word check. Then all ~1,500 content roots are placed together once (decided 2026-10-13, on the current confusion model).
-- **Shared meanings** (moon/month, word/language): decided by the modern-use rung (Part 3 of the coverage measurement).
-- **Boundary candidates** from the ladder screening (`tests/lexicon-ladder-01/boundaries.md`), strongest first: religion (**lite pi nosen**, theistic); **nume**/**pata** live/life (merge?); **kuwi** keep/protect; **apu** word/language; **mido** ask/request; **agi** lose; **dili** day/daytime/24 hours; **wupi** need/should; **wabun** rule/law; **lula** power; **bendo**/**pifo** and **gala**/**kima** (merge?); the 20–50% band; **dunan** (keep). These go through Part 3's modern-use signals.
+- **Boundary candidates:** decided 2026-10-13 (design log; uses still in an old sense wait for the new forms, `tests/coverage-01/part3/pending-splits.md`).
 
 ### Judge's repairs not yet taken up
 

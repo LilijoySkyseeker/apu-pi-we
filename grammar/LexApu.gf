@@ -968,9 +968,6 @@ concrete LexApu of Lex = open Prelude in {
     pasu_N = {s = "pasu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     pasu_V = {s = "pasu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     pasu_A = {s = "pasu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    pata_N = {s = "pata" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    pata_V = {s = "pata" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    pata_A = {s = "pata" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     payon_N = {s = "payon" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     payon_V = {s = "payon" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     payon_A = {s = "payon" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;

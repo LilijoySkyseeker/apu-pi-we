@@ -79,7 +79,7 @@ weapon	thing	2	botan
 bed	thing	2	soti
 cup	thing	1	ladon
 thing	thing	5	musu
-day, daytime or 24 hours	time	4	dili
+day (24 hours)	time	4	dili
 night	time	3	yami
 time, a span or a point (not an occasion)	time	4	muyi
 morning	time	2	leso
@@ -155,7 +155,7 @@ learn	mind	3	yesa
 understand	mind	3	lafi
 mean, signify	mind	3	yofu
 choose	mind	2	waka
-need; should	mind	4	wupi
+need (to)	mind	4	wupi
 must, have to	mind	3	keya
 try	mind	3	walo
 happy	mind	3	sogi
@@ -165,7 +165,7 @@ see	sense	5	nagu
 hear	sense	4	nulu
 say	sense	5	oyi
 tell	sense	4	iko
-ask	sense	3	mido
+ask (a question)	sense	3	mido
 talk	sense	3	kegu
 language	sense	4	apu
 call, phone or call to	sense	2	yebin
@@ -211,7 +211,7 @@ hold	action	2	yonnu
 use	action	3	bone
 find	action	3	geno
 lose, misplace	action	2	agi
-keep; protect	action	2	kuwi
+protect	action	2	kuwi
 open	action	2	benbi
 close, shut	action	2	tapi
 cut	action	2	fonsu
@@ -225,7 +225,7 @@ play, for fun	action	3	luse
 help	action	4	yema
 fight	action	2	migi
 die	action	3	kono
-live, be alive or dwell	action	4	nume
+live, be alive, dwell; life	action	4	nume
 grow	action	2	guge
 burn	action	2	onti
 buy	action	2	bika
@@ -244,12 +244,11 @@ reason	abstract	2	ukun
 problem	abstract	3	batu
 idea	abstract	2	gason
 story	abstract	2	weyu
-rule, regulation or law	abstract	2	wabun
+law	abstract	2	wabun
 war	abstract	1	pinpu
 peace	abstract	1	bonwi
 game	abstract	2	bufe
-life	abstract	3	pata
-power, strength or control	abstract	2	lula
+power, control	abstract	2	lula
 magic	abstract	2	wase
 god	abstract	1	nosen
 today	time	4	mefa

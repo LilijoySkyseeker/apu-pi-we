@@ -13,7 +13,7 @@ Every word decision is two decisions: where a meaning's boundaries go, and what 
    - Evidence that a lump costs meaning comes from languages that have the lump. A language that never lumped two meanings can't show what lumping them costs.
    - Modern data can only add a distinction. It never merges meanings the world's lineages keep apart, and never drops a concept they converge on.
    - Each language counts once: frequency is measured per language across the panel's regions, never pooled by corpus size or speakers. Where a language has too little modern data, the measurement says so and rung 4 stands.
-4. **Otherwise, the world's languages (B5):** family-balanced lump rate ≥50% one word; 20–50% two, one built from the other; <20% two roots (section 3).
+4. **Otherwise, the world's languages (B5):** family-balanced lump rate ≥50% one word; below that, two words (section 3; the 20–50% "build one from the other" band was deleted 2026-10-13).
 5. **A word of its own** only when saying it as a phrase would be a real cost (C1): frequent in modern text or basic experience.
 
 **Culture-bound concepts** (author, 2026-10-13): what is shared across cultures gets core words; what belongs to one culture or tradition (its institutions, roles, beings, internal concepts) comes from that culture's own words through the borrowing rule (language.md 11.3), as names come from their owners. Decided for religion; other domains queued.
@@ -60,8 +60,7 @@ Applied in this order (`research/notes/colexification.md`; lineage rates from `t
 2. **Frequent alternatives in the same slot, where confusing them changes what the listener does → two roots.** This is the "action-relevant misunderstanding" test made concrete: left/right, buy/sell, lend/borrow, give/take. It agrees with the Goldilocks finding that languages avoid lumping meanings that compete in context.
 3. **Otherwise, the family-balanced lump rate** (agreed by the author, 2026-10-08):
    - lumped by ≥ 50% → one root; the narrow sense is built when needed;
-   - 20–50% → two words, the less basic built transparently from the other;
-   - < 20% → two unrelated roots (e.g. see/know 3%, eat/drink 7%, finger/toe 16%; recomputed 2026-10-12 from CLICS4 v1.0 with `clics_rates.awk`: 2.9%, 7.2%, 15.7%, all clear of the 20% line; moon/month 69.6% robust; word/language 50.2% reproduces but is undecided by the rule, see `research/notes/colexification.md`).
+   - < 50% → two roots (the 20–50% band, "the less basic built from the other", was deleted 2026-10-13: an arbitrary cut, and the modern-use rung decides these pairs; add-back: a pair where a built form tests clearer) (e.g. see/know 3%, eat/drink 7%, finger/toe 16%; recomputed 2026-10-12 from CLICS4 v1.0 with `clics_rates.awk`: 2.9%, 7.2%, 15.7%, all clear of the 20% line; moon/month 69.6% robust; word/language 50.2% reproduces but is undecided by the rule, see `research/notes/colexification.md`).
 
    The 50% and 20% cut points were proposed by the research agent and are arbitrary. Refine them only if tests show losses near a threshold. Where CLICS4 copies a broad meaning onto narrower ones (uncle, he/she, we), its rate is an upper bound; cross-check with WALS or Kinbank.
 4. **A shared English word is not evidence for a lump** (2026-10-10). Two concepts that English happens to call the same thing (fly the insect / fly the verb, light / light) go through steps 1–3 like any other pair. The seed matched concepts to roots by English gloss and skipped this; glosses now carry a second gloss wherever the English is ambiguous.

@@ -453,7 +453,7 @@ A quote follows a say-verb and is a full sentence with its own particle: **wan o
 
 ## Lesson 13: Can, must, maybe
 
-**lenu** is "can": **to lenu lonfe.** "I can swim." **keya** is "must", and **wupi** is "need to" or "should": **pen wupi isi.** "We need to go." Watch where **mu** "not" goes, since it covers what comes right after it: **mu keya** is "don't have to", and **keya mu** is "must not". **efon** is "allow": **me gun efon nawi** "you may eat" (you are allowed to eat). **li** with a verb means "in order to": **li bika** "to buy". [§12.2](language.md#r-12-2) [§6.2.1](language.md#r-6-2-1) [§12.3](language.md#r-12-3)
+**lenu** is "can": **to lenu lonfe.** "I can swim." **keya** is "must", and **wupi** is "need to": **pen wupi isi.** "We need to go." For "should", give advice with **fon**: **fon pen isi.** "We should go." Watch where **mu** "not" goes, since it covers what comes right after it: **mu keya** is "don't have to", and **keya mu** is "must not". **efon** is "allow": **me gun efon nawi** "you may eat" (you are allowed to eat). **li** with a verb means "in order to": **li bika** "to buy". [§12.2](language.md#r-12-2) [§6.2.1](language.md#r-6-2-1) [§12.3](language.md#r-12-3)
 
 ### How sure you are, in sixths
 

@@ -612,9 +612,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kusa_N = D.leave_N ;
     kusa_V = I.leave_V ;
     kusa_A = P.mkA "leaving" ;
-    kuwi_N = D.keep_N ;
+    kuwi_N = P.mkN "protecting" ;
     kuwi_V = P.mkV "protect" ;
-    kuwi_A = P.mkA "keeping" ;
+    kuwi_A = P.mkA "protecting" ;
     kuwun_N = D.roof_N ;
     kuwun_V = D.roof_V ;
     kuwun_A = P.mkA "roofing" ;
@@ -969,9 +969,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     pasu_N = D.food_N ;
     pasu_V = P.mkV "food" ;
     pasu_A = P.mkA "food" ;
-    pata_N = D.life_N ;
-    pata_V = P.mkV "life" ;
-    pata_A = P.mkA "life" ;
     payon_N = D.hit_N ;
     payon_V = I.hit_V ;
     payon_A = P.mkA "hiting" ;
@@ -1281,9 +1278,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     uyo_N = D.few_N ;
     uyo_V = P.mkV "few" ;
     uyo_A = D.few_A ;
-    wabun_N = D.rule_N ;
-    wabun_V = D.rule_V ;
-    wabun_A = P.mkA "ruling" ;
+    wabun_N = D.law_N ;
+    wabun_V = P.mkV "law" ;
+    wabun_A = P.mkA "law" ;
     waka_N = P.mkN "choosing" ;
     waka_V = I.choose_V ;
     waka_A = P.mkA "choosing" ;
