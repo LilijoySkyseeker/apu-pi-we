@@ -30,7 +30,7 @@ A background deep dive into the design, engineering and principles of other inte
 - **Grammar gaps found by the coverage translators:** only **pi** attaches inside a noun phrase ("tea with lemon" needs a relative clause); a phrasal derived word swallows a following describing word ("the hot pan"); names containing a grammar word break the name rule (Cuerpo **de** Paz, Ibu Pawiro with **bu**, Sauti **ya** Amerika); no single word for "never" or "often".
 - **From the lexicon ladder screening** (`tests/lexicon-ladder-01/`): new roots or phrases for hour, minute, second, degree and "picture" (now part of the coverage pass); police (borderline loan); how to count a currency or unit the world doesn't share (baht, naira).
 - **Name-boundary regression** (RB1): under the 11.1 clarification a content word right after a name joins the name; the grammar is also stricter than the reference about pauses between joined verbs and inside noun lists.
-- **Short-word layer:** desk fixes (fa vs sa, **manni**/**konsin** renames, a same-slot bug in `build.py`) and planning a human listening test, the review's first priority.
+- **Short-word layer (next after the concept list):** desk fixes: move **fa** (vs **sa**); the vowel-initial vs glide pairs (**un**/**wun**, **o**/**wo**, **en**/**yen**) and the same-slot bug in `build.py`; rename **manni**/**konsin** with the juncture rule; a digit-vs-grammar-word check. Then all ~1,500 content roots are placed together once (decided 2026-10-13, on the current confusion model).
 - **Shared meanings** (moon/month, word/language): decided by the modern-use rung (Part 3 of the coverage measurement).
 - **Boundary candidates** from the ladder screening (`tests/lexicon-ladder-01/boundaries.md`), strongest first: religion (**lite pi nosen**, theistic); **nume**/**pata** live/life (merge?); **kuwi** keep/protect; **apu** word/language; **mido** ask/request; **agi** lose; **dili** day/daytime/24 hours; **wupi** need/should; **wabun** rule/law; **lula** power; **bendo**/**pifo** and **gala**/**kima** (merge?); the 20–50% band; **dunan** (keep). These go through Part 3's modern-use signals.
 
@@ -59,7 +59,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - Formal grammar phase 3 (English concrete syntax) and phase 4 (every document checked by one command); `tools/parse.py` retires then.
 - Senary gets its own vocabulary and page (a separate project; its words are reserved in `data/senary.tsv`).
-- Human tests the review asked for: listening (B2), learner trial (B10), human readers for meaning (B1).
+- Human tests the review asked for: listening (B2), learner trial (B10), human readers for meaning (B1). Deferred 2026-10-13 until people beyond the author are involved (trigger: listeners or readers from at least three language families).
 
 ## Deliberately not built
 
