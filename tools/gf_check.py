@@ -38,8 +38,8 @@ FILLER = "wan obu"          # "she comes": stands in for "…"
 OUTSIDE = {"2.10"}          # interjections carry no grammar (2.10)
 # Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
 OUTSIDE_SENT = {"mara sin obu": "casual speech: a name without en (11.1)",
-                "to nawi sushi sa": "a speaker's borrowing, not in the lexicon (11.3)",
-                "to sin google bu": "a speaker's borrowing used as a verb (11.3)"}
+                "to nawi susi sa": "a speaker's borrowing, not in the lexicon (11.3)",
+                "to sin gugalu bu": "a speaker's borrowing used as a verb (11.3)"}
 UNIT = {"Cl0": "S", "Rel": "REL", "Adv": "ADV", "Manner": "ADV",
         "NP": "NP", "NPi": "NP", "NPq": "NP", "CN": "NP", "AP": "AP"}
 ORDER = ["S", "NP", "AP", "REL", "ADV"]
