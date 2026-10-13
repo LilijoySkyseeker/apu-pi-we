@@ -1,0 +1,25 @@
+n	concept	class	note
+346	religion	core	replaces lite pi nosen "way of god"
+787	believe	core	faith, belief
+549	spirit	core	includes ghost; a spirit is what traditions describe, not a claim (C4)
+442	soul	core?	a person's own spirit; most traditions have one, with different meanings; or fold into spirit
+487	pray	core	pray, worship
+610	sacrifice	core	offering
+794	temple	core, widened	"place of worship" in general; each tradition's own word for its building (church, mosque, synagogue, gurdwara) is borrowed
+730	priest	core, widened	"religious leader" in general; titles (imam, rabbi, lama, bishop, pope) are borrowed
+777	bless	core	
+879	curse	core	
+709	miracle	core?	wonders are reported in most traditions; or a phrase with wase "magic"
+-	sacred	core, added	holy, sacred; missing from the list
+93	church	tradition	borrowed word, written by sound
+971	mosque	tradition	masudidu (borrowed)
+954	pope	tradition	papa (Catholic title, borrowed)
+619	bishop	tradition	borrowed
+596	saint	tradition	borrowed
+586	angel	tradition	borrowed
+739	devil	tradition, split	the Devil is Abrahamic (borrowed); "evil spirit, demon" in general is spirit + bad, or core if frequent
+755	heaven	tradition	borrowed; the sky is yaye
+661	hell	tradition	borrowed
+866	prophet	tradition	borrowed
+437	sin	tradition	borrowed; plain wrongdoing is said with existing words
+915	idol	tradition, framed	"idol" is how some traditions name others' sacred images; neutral: a sacred image or statue (phrase); "pop idol" is a separate sense
