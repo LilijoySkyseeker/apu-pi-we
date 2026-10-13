@@ -470,7 +470,7 @@ A quote follows a say-verb and is a full sentence with its own particle: **wan o
 | **kon ufo** | certain |
 | **kon bo** | maybe, with no particular chance in mind |
 
-**kon da wan obu** "4 in 6 she's coming" means she's probably coming, and **kon bo wan obu** is "maybe she's coming". Half steps work too: **kon te mimi te** (5.5 in 6). A plain statement means you believe it, so **kon** is optional. For an exact chance, use a number and **pasentu** "percent". [§6.1.2](language.md#r-6-1-2)
+**kon da wan obu** "4 in 6 she's coming" means she's probably coming, and **kon bo wan obu** is "maybe she's coming". Half steps work too: **kon te mimi te** (5.5 in 6). A plain statement means you believe it, so **kon** is optional. For an exact chance, give it out of a hundred: **kon ka yawu pi loki wan obu** "30% that she's coming". [§6.1.2](language.md#r-6-1-2)
 
 English "might", "probably" and "must be" (when it means *probably*) are all **kon**. "She must be home" is **kon te wan gun mon guyi**. "Must" meaning *have to* is **keya**. [§6.1.4](language.md#r-6-1-4) [§12.2](language.md#r-12-2)
 

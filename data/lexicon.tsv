@@ -435,7 +435,6 @@ hour	loan	4	awuwa
 minute, of time	loan	4	minitu
 second, of time	loan	3	sekandu
 kilometre	loan	2	kilometulu
-percent	loan	2	pasentu
 can, be able	mind	5	lenu
 bite	action	4	lasu
 high	space	2	tisan
@@ -471,12 +470,7 @@ a right, entitlement	abstract	2	sogan
 complain	sense	2	tayin
 email	loan	3	imeyilu
 photo	loan	3	foto
-train	loan	2	tuleyin
-licence	loan	2	layisansu
-electricity	loan	2	ilekutulisiti
 degree (°)	loan	2	diguli
-hospital	loan	3	osupitalu
-bicycle	loan	2	bayisikalu
 battery	loan	2	batali
 euro	loan	2	yulo
 yuan	loan	2	yuwan
@@ -500,7 +494,6 @@ copy, make the same again	action	3	gayen
 adjust, set	action	2	finsa
 document, file	thing	3	kemin
 camera	loan	2	kamela
-contact, address-book entry	loan	2	kontakutu
 not literally, joking (speech act)	abstract	1	genso
 seen, evidence by sight	abstract	1	wanme
 told, hearsay	abstract	1	inwun

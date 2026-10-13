@@ -66,9 +66,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     bayi_N = P.mkN "sad" ;
     bayi_V = P.mkV "sad" ;
     bayi_A = D.sad_A ;
-    bayisikalu_N = D.bicycle_N ;
-    bayisikalu_V = D.bicycle_V ;
-    bayisikalu_A = P.mkA "bicycling" ;
     bebu_N = D.disgust_N ;
     bebu_V = D.disgust_V ;
     bebu_A = P.mkA "disgusting" ;
@@ -492,9 +489,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     iko_N = P.mkN "telling" ;
     iko_V = I.tell_V ;
     iko_A = P.mkA "telling" ;
-    ilekutulisiti_N = D.electricity_N ;
-    ilekutulisiti_V = P.mkV "electricity" ;
-    ilekutulisiti_A = P.mkA "electricity" ;
     imeyilu_N = P.mkN "email" ;
     imeyilu_V = P.mkV "email" ;
     imeyilu_A = P.mkA "email" ;
@@ -597,9 +591,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kono_N = D.die_N ;
     kono_V = D.die_V ;
     kono_A = P.mkA "dying" ;
-    kontakutu_N = D.contact_N ;
-    kontakutu_V = D.contact_V ;
-    kontakutu_A = P.mkA "contacting" ;
     kowan_N = D.round_N ;
     kowan_V = D.round_V ;
     kowan_A = D.round_A ;
@@ -654,9 +645,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     lawan_N = D.deep_N ;
     lawan_V = D.deep_freeze_V ;
     lawan_A = D.deep_A ;
-    layisansu_N = D.licence_N ;
-    layisansu_V = D.licence_V ;
-    layisansu_A = P.mkA "licencing" ;
     lefan_N = P.mkN "following" ;
     lefan_V = D.follow_V ;
     lefan_A = P.mkA "following" ;
@@ -966,9 +954,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     osa_N = D.water_N ;
     osa_V = D.water_V ;
     osa_A = P.mkA "watering" ;
-    osupitalu_N = D.hospital_N ;
-    osupitalu_V = P.mkV "hospital" ;
-    osupitalu_A = P.mkA "hospital" ;
     oton_N = D.city_N ;
     oton_V = P.mkV "city" ;
     oton_A = P.mkA "city" ;
@@ -981,9 +966,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     pani_N = D.old_N ;
     pani_V = P.mkV "old" ;
     pani_A = D.old_A ;
-    pasentu_N = D.percent_N ;
-    pasentu_V = P.mkV "percent" ;
-    pasentu_A = P.mkA "percent" ;
     pasu_N = D.food_N ;
     pasu_V = P.mkV "food" ;
     pasu_A = P.mkA "food" ;
@@ -1257,9 +1239,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     tuko_N = D.start_N ;
     tuko_V = D.start_V ;
     tuko_A = P.mkA "starting" ;
-    tuleyin_N = D.train_N ;
-    tuleyin_V = D.train_V ;
-    tuleyin_A = P.mkA "training" ;
     tungi_N = D.sharp_N ;
     tungi_V = P.mkV "sharp" ;
     tungi_A = D.sharp_A ;

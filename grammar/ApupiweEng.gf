@@ -124,7 +124,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     GensoM = {s = "{not literally}"} ; BaM = {s = "{indignantly}"} ;
 
     MkCl cf sr c = {s = \\a => cf.s ++ sr.s ++ c.s ! a} ;
-    NoConf = {s = []} ; Kon n = {s = "{" ++ n.s ++ "in 6}"} ; KonBo = {s = "{maybe}"} ;
+    NoConf = {s = []} ; Kon n = {s = "{" ++ n.s ++ "in 6}"} ; KonOf n m = {s = "{" ++ n.s ++ "in" ++ m.s ++ "}"} ; KonBo = {s = "{maybe}"} ;
     NoSrc = {s = []} ; Wanme = {s = "{seen}"} ; Inwun = {s = "{I'm told}"} ; Wemen = {s = "{it seems}"} ;
 
     PredCl np v = {s = clause np True v} ;

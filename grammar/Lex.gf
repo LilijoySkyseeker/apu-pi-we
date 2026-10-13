@@ -68,9 +68,6 @@ abstract Lex = {
     bayi_N : N ;  -- sad
     bayi_V : V ;  -- sad
     bayi_A : A ;  -- sad
-    bayisikalu_N : N ;  -- bicycle
-    bayisikalu_V : V ;  -- bicycle
-    bayisikalu_A : A ;  -- bicycle
     bebu_N : N ;  -- disgust
     bebu_V : V ;  -- disgust
     bebu_A : A ;  -- disgust
@@ -494,9 +491,6 @@ abstract Lex = {
     iko_N : N ;  -- tell
     iko_V : V ;  -- tell
     iko_A : A ;  -- tell
-    ilekutulisiti_N : N ;  -- electricity
-    ilekutulisiti_V : V ;  -- electricity
-    ilekutulisiti_A : A ;  -- electricity
     imeyilu_N : N ;  -- email
     imeyilu_V : V ;  -- email
     imeyilu_A : A ;  -- email
@@ -599,9 +593,6 @@ abstract Lex = {
     kono_N : N ;  -- die
     kono_V : V ;  -- die
     kono_A : A ;  -- die
-    kontakutu_N : N ;  -- contact, address-book entry
-    kontakutu_V : V ;  -- contact, address-book entry
-    kontakutu_A : A ;  -- contact, address-book entry
     kowan_N : N ;  -- round
     kowan_V : V ;  -- round
     kowan_A : A ;  -- round
@@ -656,9 +647,6 @@ abstract Lex = {
     lawan_N : N ;  -- deep
     lawan_V : V ;  -- deep
     lawan_A : A ;  -- deep
-    layisansu_N : N ;  -- licence
-    layisansu_V : V ;  -- licence
-    layisansu_A : A ;  -- licence
     lefan_N : N ;  -- follow
     lefan_V : V ;  -- follow
     lefan_A : A ;  -- follow
@@ -968,9 +956,6 @@ abstract Lex = {
     osa_N : N ;  -- water
     osa_V : V ;  -- water
     osa_A : A ;  -- water
-    osupitalu_N : N ;  -- hospital
-    osupitalu_V : V ;  -- hospital
-    osupitalu_A : A ;  -- hospital
     oton_N : N ;  -- city
     oton_V : V ;  -- city
     oton_A : A ;  -- city
@@ -983,9 +968,6 @@ abstract Lex = {
     pani_N : N ;  -- old, aged or worn
     pani_V : V ;  -- old, aged or worn
     pani_A : A ;  -- old, aged or worn
-    pasentu_N : N ;  -- percent
-    pasentu_V : V ;  -- percent
-    pasentu_A : A ;  -- percent
     pasu_N : N ;  -- food
     pasu_V : V ;  -- food
     pasu_A : A ;  -- food
@@ -1259,9 +1241,6 @@ abstract Lex = {
     tuko_N : N ;  -- start
     tuko_V : V ;  -- start
     tuko_A : A ;  -- start
-    tuleyin_N : N ;  -- train
-    tuleyin_V : V ;  -- train
-    tuleyin_A : A ;  -- train
     tungi_N : N ;  -- sharp
     tungi_V : V ;  -- sharp
     tungi_A : A ;  -- sharp

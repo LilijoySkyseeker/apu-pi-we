@@ -126,7 +126,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     GensoM = ss "genso" ; BaM = ss "ba" ;
 
     MkCl cf sr c = c ** {s = cf.s ++ sr.s ++ c.s} ;
-    NoConf = ss [] ; Kon n = ss ("kon" ++ n.s) ; KonBo = ss ("kon" ++ "bo") ;
+    NoConf = ss [] ; Kon n = ss ("kon" ++ n.s) ; KonOf n m = ss ("kon" ++ n.s ++ "pi" ++ m.s) ; KonBo = ss ("kon" ++ "bo") ;
     NoSrc = ss [] ; Wanme = ss "wanme" ; Inwun = ss "inwun" ; Wemen = ss "wemen" ;
 
     PredCl np vp = {s = seq np vp.s ; e = vp.e ; p = pz np vp.p ; sj = True} ;

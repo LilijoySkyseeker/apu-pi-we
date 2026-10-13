@@ -180,6 +180,7 @@ momu isi tun guyi	[S momu isi [ADV tun guyi]]	yes	4.2.6: later phrases go with t
 gi yu	[ADV gi yu]	no	
 guyi man beya pi bu gun tapi	[NP guyi [REL man beya pi bu gun tapi]]	yes	
 kon bo wan obu	kon bo [S wan obu]	yes	
+kon ka yawu pi loki wan obu	kon ka yawu pi loki [S wan obu]	yes	
 to le mu nawi	[S to le mu nawi]	yes	
 to mu sin nawi	[S to mu sin nawi]	yes	
 en xi_jinping sin oyi	[S [NP en xi_jinping] sin oyi]	yes	a name runs to the next grammar word (11.1); gf_check joins its words

@@ -84,6 +84,7 @@ abstract Apupiwe = Lex ** {
     MkCl : ConfOpt -> SrcOpt -> Cl0 -> Cl ;  -- 4.1.2 slot 5
     NoConf : ConfOpt ;                     -- 1.1, 6.1.2 an unmarked statement is believed
     Kon : Num -> ConfOpt ;                 -- 6.1.2 kon + sixths
+    KonOf : Num -> Num -> ConfOpt ;        -- 6.1.2 kon + exact chance, n pi m (out of 100)
     KonBo : ConfOpt ;                      -- 6.1.2 kon bo "maybe"
     NoSrc : SrcOpt ;                       -- 1.1, 6.1.3 source is optional
     Wanme, Inwun, Wemen : SrcOpt ;         -- 6.1.3
