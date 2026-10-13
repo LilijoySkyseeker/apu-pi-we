@@ -207,9 +207,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     doku_N = D.work_N ;
     doku_V = D.work_V ;
     doku_A = P.mkA "working" ;
-    dola_N = D.dollar_N ;
-    dola_V = P.mkV "dollar" ;
-    dola_A = P.mkA "dollar" ;
+    dolalu_N = D.dollar_N ;
+    dolalu_V = P.mkV "dollar" ;
+    dolalu_A = P.mkA "dollar" ;
     doma_N = P.mkN "listen" ;
     doma_V = P.mkV "listen" ;
     doma_A = P.mkA "listen" ;

@@ -1623,7 +1623,7 @@ type = "bullet"
 title = "Loans"
 gap = 0
 text = '''
-- Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dola** dollar, **minitu**, **kilometulu**, **pasentu**, **intelunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.'''
+- Loans take no **en**. They are used only where the world shares a form, and are taken in that international form: **dolalu** dollar, **minitu**, **kilometulu**, **pasentu**, **intelunetu**, **imeyilu**, **kamela**, **foto**. A loan enters the lexicon once it is common, and until then near-collisions are tolerated. Everything else is said with native words, built words or phrases.'''
 
 [[item]]
 id = "11.4"

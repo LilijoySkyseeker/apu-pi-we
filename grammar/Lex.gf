@@ -209,9 +209,9 @@ abstract Lex = {
     doku_N : N ;  -- work, labour; of a machine, function
     doku_V : V ;  -- work, labour; of a machine, function
     doku_A : A ;  -- work, labour; of a machine, function
-    dola_N : N ;  -- dollar
-    dola_V : V ;  -- dollar
-    dola_A : A ;  -- dollar
+    dolalu_N : N ;  -- dollar
+    dolalu_V : V ;  -- dollar
+    dolalu_A : A ;  -- dollar
     doma_N : N ;  -- listen
     doma_V : V ;  -- listen
     doma_A : A ;  -- listen

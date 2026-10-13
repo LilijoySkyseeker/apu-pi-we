@@ -206,9 +206,9 @@ concrete LexApu of Lex = open Prelude in {
     doku_N = {s = "doku" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     doku_V = {s = "doku" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     doku_A = {s = "doku" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
-    dola_N = {s = "dola" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    dola_V = {s = "dola" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    dola_A = {s = "dola" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    dolalu_N = {s = "dolalu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    dolalu_V = {s = "dolalu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    dolalu_A = {s = "dolalu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     doma_N = {s = "doma" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     doma_V = {s = "doma" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     doma_A = {s = "doma" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
