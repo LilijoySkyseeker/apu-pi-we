@@ -315,9 +315,11 @@ To make a warning or advice polite, add **nun** after the particle, then say the
 
 Numbers are base 10, like English, but completely regular. [§9.1.1](language.md#r-9-1-1)
 
+<!-- generated: digits -->
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
 | **po** | **fi** | **sa** | **ka** | **da** | **te** | **ufo** | **oma** | **kefi** | **mape** |
+<!-- end generated -->
 
 Yes, 6 is **ufo**. Enjoy it. The digits 6 to 9 have two syllables because the language ran out of short sounds.
 
@@ -477,22 +479,20 @@ As an optional extra, you can say how you know: **wanme** "I saw it", **inwun** 
 
 A full sentence has a fixed order. You'll rarely use every part, and only the verb is required. [§4.1.1](language.md#r-4-1-1) [§4.1.2](language.md#r-4-1-2)
 
-<!-- generated: template -->
-1. Calling someone: a person word (a name, a title, or a single role or kin word), then a pause
-2. Opener: a linker to the previous sentence (**gi tan** "so"), then a relation phrase that sets the scene (time, place) or a topic **pi X**, then an **if**/**when** clause, each followed by a pause
-3. Speech act: one particle; **genso** or **ba** may come before it
-4. Politeness: **nun**, after the particle or in its place
-5. Clause operators: confidence **kon** + number, source **wanme**/**inwun**/**wemen**
-6. Subject: a noun phrase (section 5)
-7. Phrase operators, habit, aspect: e.g. **mu**, **fe**, **manni**, **sin**
-8. Verb: one verb, or verb + verb (4.2)
-9. Objects: recipient, then thing
-10. Manner: how it is done: **fu** + word after an object, a bare word after a verb with no object
-11. Relation phrases: **mon**, **tun**, **se**, **gan**, **li** … + noun phrase or clause
-12. Trailing clause: **wun**, **gi**, **don**, **nin** … clause
-13. Stance: a pause, then **min**, **a**, **buni**, **donon** …
-14. Calling someone: a pause, then a person word
-<!-- end generated -->
+1. someone you're calling, then a comma
+2. openers (linker, time or place or **pi** topic, if/when clause), each with a comma
+3. the particle (**min**, **so**, **tin** …), with **genso** or **ba** in front if needed
+4. **nun**
+5. **kon** and how you know
+6. the subject
+7. small operator words, **manni**, then **sin**/**le**/**buntu**
+8. the verb (or verb + verb)
+9. who gets it, then what
+10. how (**fu** + a describing word, or a bare describing word when there's no object)
+11. relation phrases (**mon**, **tun**, **se**, **gan**, **li** …)
+12. a clause at the end (**gi**, **don**, **wun** …)
+13. a comma, then a tone word (**a**, **buni**, **donon**, **min**)
+14. a comma, then someone you're calling
 
 This sentence has many of these parts: **en mara, afe, kon da wan fe sin obu tun pu pi mabo, a.** "Mara, yesterday she probably came to the office too, you know." In order, it has someone called, an opener, **kon**, the subject, **fe**, **sin**, the verb, a relation phrase and a tone word.
 

@@ -66,7 +66,11 @@ def template_list(spec):
     return "\n".join(f"{n.strip()}. {slot.strip()}: {what.strip()}" for n, slot, what, *_ in rows)
 
 
-GENERATED = {"template": template_list}
+def item_text(item_id):
+    return lambda spec: next(it["text"] for it in spec["item"] if it["id"] == item_id).strip()
+
+
+GENERATED = {"template": template_list, "digits": item_text("9.1.1")}
 
 
 def build_learn(spec):
