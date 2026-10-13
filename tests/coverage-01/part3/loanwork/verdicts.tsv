@@ -1,0 +1,110 @@
+concept	with_memory	without_memory	state
+ice cream	12/5	11/5	depends on memory
+soup	11/6	11/6	fail
+chocolate	20/7	17/6	pass
+doctor	13/5	12/5	pass
+banana	5/2	5/2	fail
+giraffe	12/5	11/4	depends on memory
+motorcycle	14/6	13/5	pass
+television	19/7	17/6	pass
+coffee	20/7	20/7	pass
+sweater	14/6	10/6	depends on memory
+pajamas	16/7	13/5	pass
+radio	18/7	15/6	pass
+helicopter	16/7	15/7	pass
+tractor	18/7	15/6	pass
+yogurt	11/5	11/5	fail
+sofa	14/6	11/4	depends on memory
+park	10/5	9/4	fail
+pasta	11/5	11/5	fail
+lamp	13/6	11/5	depends on memory
+penguin	16/7	15/6	pass
+tomato	12/7	11/7	depends on memory
+zebra	10/5	10/5	fail
+tea	14/6	14/6	pass
+garage	17/7	13/6	pass
+cookie	16/6	15/6	pass
+shorts	10/5	10/5	fail
+party (political)	9/5	9/5	fail
+sandwich	19/7	15/6	pass
+pizza	20/7	16/5	pass
+sauce	16/6	14/5	pass
+sugar	13/6	12/6	pass
+soda	5/4	5/4	fail
+film	11/5	11/5	fail
+toast	13/5	8/3	depends on memory
+balcony	15/6	14/5	pass
+circus	16/7	14/5	pass
+T-shirt	13/6	12/6	pass
+music	11/6	10/5	fail
+university	9/6	9/6	fail
+video	19/7	14/6	pass
+bank	15/6	13/5	pass
+office	14/7	11/6	depends on memory
+program	15/7	11/5	depends on memory
+technology	15/7	14/6	pass
+computer	16/7	16/7	pass
+business	7/5	7/5	fail
+hotel	17/7	15/6	pass
+energy	12/6	10/5	depends on memory
+sport	8/6	8/6	fail
+machine	14/6	12/5	pass
+president	7/4	6/3	fail
+data	9/6	7/4	fail
+professor	13/6	8/5	depends on memory
+project	13/6	11/5	depends on memory
+beer	13/6	13/6	pass
+code	16/7	9/5	depends on memory
+website	14/6	13/5	pass
+democracy	12/5	10/4	depends on memory
+bomb	15/6	13/5	pass
+design	14/6	10/5	depends on memory
+station	12/6	10/5	depends on memory
+captain	17/7	13/6	pass
+model	15/7	11/6	depends on memory
+virus	17/7	17/7	pass
+restaurant	12/6	12/6	pass
+ticket	11/5	7/5	fail
+budget	10/5	8/5	fail
+league	15/7	13/6	pass
+album	17/7	14/5	pass
+philosophy	12/6	10/5	depends on memory
+channel	13/7	9/5	depends on memory
+robot	18/7	17/7	pass
+mile	18/7	15/6	pass
+pound	14/6	12/6	pass
+cigarette	14/6	11/5	depends on memory
+club	17/7	13/6	pass
+campaign	12/6	10/5	depends on memory
+taxi	19/7	18/6	pass
+gas	19/7	16/6	pass
+museum	9/5	8/4	fail
+alcohol	8/4	8/4	fail
+engine	7/3	6/2	fail
+chemistry	13/5	10/4	depends on memory
+guitar	20/7	17/6	pass
+metal	6/4	6/4	fail
+climate	8/4	7/3	fail
+gene	15/7	12/5	pass
+pilot	12/6	11/5	depends on memory
+fashion	10/4	9/3	fail
+plastic	16/7	14/6	pass
+bar	18/7	14/5	pass
+version	11/6	9/5	fail
+cinema	16/6	13/5	pass
+fuel	6/3	6/3	fail
+cream	12/7	9/5	depends on memory
+passport	15/7	14/6	pass
+platform	14/6	7/4	depends on memory
+engineer	14/6	12/5	pass
+vaccine	14/6	12/5	pass
+tunnel	9/5	7/3	fail
+toilet	10/5	10/5	fail
+studio	17/7	9/4	depends on memory
+profile	16/6	4/2	depends on memory
+pope	15/6	11/5	depends on memory
+piano	17/7	17/7	pass
+physics	12/5	10/4	depends on memory
+mosque	16/7	15/6	pass
+medal	14/6	13/5	pass
+mask	14/6	12/5	pass
