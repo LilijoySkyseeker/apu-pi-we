@@ -21,6 +21,10 @@ Done so far: senary words out of the core; "never" rules restated as the referen
 
 Measured: the base will be about 1,500 roots (decided 2026-10-13). Next: run the boundary cases (Part 3: moon/month, word/language, religion, the 20–50% band), and make the new roots in one batch (Part 4). See `tests/coverage-01/README.md`.
 
+### In progress: other auxlangs, compared (author, 2026-10-13)
+
+A background deep dive into the design, engineering and principles of other international auxiliary and engineered languages, and what happened to them, to learn what to do and what not to do. Output `research/notes/auxlangs.md`; findings that bear on a decision get queued here.
+
 ### Queued for the author
 
 - **Grammar gaps found by the coverage translators:** only **pi** attaches inside a noun phrase ("tea with lemon" needs a relative clause); a phrasal derived word swallows a following describing word ("the hot pan"); names containing a grammar word break the name rule (Cuerpo **de** Paz, Ibu Pawiro with **bu**, Sauti **ya** Amerika); no single word for "never" or "often".
