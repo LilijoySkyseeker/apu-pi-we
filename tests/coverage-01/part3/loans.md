@@ -2,6 +2,10 @@
 
 Proposals only; no word was changed. Candidates: the 109 rows of `ladder.tsv` (this folder) with route `loan?`. Results per candidate: `loans.tsv`.
 
+## Author's decisions
+
+- **Pattern 1 (2026-10-13): count everyday loans beside a formal native word.** A column counts when the loan is what speakers say every day, even where a formal native word exists, with a source for the column; occasional code-switching doesn't count. Verdicts are recomputed after the evidence question (pattern 2).
+
 ## Method
 
 The same as `tests/lexicon-ladder-01/loans.md` ("How this was done"), unchanged:

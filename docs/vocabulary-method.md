@@ -18,7 +18,7 @@ Every word decision is two decisions: where a meaning's boundaries go, and what 
 
 **Ladder 2: what form the word takes**
 1. **An international standard form (L3):** adapted to the sounds.
-2. **A form the world shares (L4):** a loan only if it passes the panel test, adapted from the panel's median pronunciation, not from English.
+2. **A form the world shares (L4):** a loan only if it passes the panel test, adapted from the panel's median pronunciation, not from English. A language counts when the loan is what its speakers say every day, even beside a formal native word (spoken *doctor* in Tamil, *terebi* in Japanese), with a source for the column; occasional code-switching doesn't count (author, 2026-10-13).
 3. **Built from existing words,** when the concept isn't frequent enough for a word of its own (ladder 1, rung 5) and the result is clear (section 5). A frequent concept gets its own root even if it's new to history: trains and hospitals are baseline concepts for a language made now. Anyone who doesn't know a word can still build a phrase for it.
 4. **A new root** from `tools/words.py`: hard to mishear, drift-safe, length by frequency; sounding like an offensive word elsewhere only breaks ties (C3).
 
