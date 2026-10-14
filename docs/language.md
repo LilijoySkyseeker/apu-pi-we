@@ -24,7 +24,7 @@
 ## 2. Sounds
 
 - <span id="r-2-1"></span>The vowels are a e i o u. In the reference pronunciation, every syllable keeps its full vowel.
-- <span id="r-2-2"></span>There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g).
+- <span id="r-2-2"></span>There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g). In the reference pronunciation p t k are aspirated at the start of a word, with a puff of air as in English *pin*, and b d g are voiced, so the pairs differ both ways: speakers of languages that tell them apart by voicing and those that tell them apart by aspiration both hear the difference. Unaspirated p t k are a harmless variant.
 - <span id="r-2-3"></span>A syllable has the shape (C)V(n). A syllable with no consonant before its vowel (**a**, **en**) occurs only at the start of a word. The only consonant that can end a syllable is n.
 - <span id="r-2-4"></span>Words fall into three types by sound:
   - grammar words have one unstressed syllable (table in section 13), except the two-syllable operators listed after that table, which are stressed on the first like content words;

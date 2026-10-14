@@ -40,7 +40,7 @@ The sounds themselves are easy for an English speaker. The hard part is what Eng
 | **i** | *machine* | never "eye" [§2.1](language.md#r-2-1) |
 | **o** | *go*, but cut short | no "oo" glide at the end (Spanish *no*) [§2.1](language.md#r-2-1) |
 | **u** | *rule* | never "yoo" [§2.1](language.md#r-2-1) |
-| **p t k b d** | as in English | [§2.2](language.md#r-2-2) |
+| **p t k b d** | as in English: **p**, **t**, **k** at the start of a word with a puff of air, as in *pin* | [§2.2](language.md#r-2-2) |
 | **g** | *get* | hard *g* is the standard [§2.2](language.md#r-2-2) |
 | **s** | *see* | always s, never z [§2.2](language.md#r-2-2) |
 | **m n l f** | as in English | [§2.2](language.md#r-2-2) |

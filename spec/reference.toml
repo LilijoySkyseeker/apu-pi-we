@@ -120,7 +120,7 @@ type = "bullet"
 title = "Consonants (13)"
 gap = 0
 text = '''
-- There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g).'''
+- There are 13 consonants: p b t d k g · m n · f s · l w y. They are made at the lips (p b m w, and f with lip and teeth), with the tongue tip (t d n s l), with the tongue body (y) and with the back of the tongue (k g). In the reference pronunciation p t k are aspirated at the start of a word, with a puff of air as in English *pin*, and b d g are voiced, so the pairs differ both ways: speakers of languages that tell them apart by voicing and those that tell them apart by aspiration both hear the difference. Unaspirated p t k are a harmless variant.'''
 
 [[item]]
 id = "2.3"
