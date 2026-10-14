@@ -37,7 +37,7 @@ Best is whatever exchanges meaning best, at a cost its speakers will pay.
 - **L1.** It is for humans, not designed around machines or AI.
 - **L2.** It coexists with existing cultures and carries their conventions (C2).
 - **L3.** Where an international standard exists for a field, formal or de facto, the language follows it; for example, it is written in the Latin alphabet.
-- **L4.** A word is borrowed only when the world already shares its form.
+- **L4.** The language's own vocabulary borrows a word only when the world already shares its form. Its speakers borrow freely; that is use, not design (N4).
 
 ## What it does not try to do
 
