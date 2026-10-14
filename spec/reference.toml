@@ -444,7 +444,7 @@ id = "4.4.1"
 type = "bullet"
 title = "A relation phrase"
 text = '''
-- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, **gi** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. Inside a noun phrase, only **pi** attaches to a noun. To give a noun any other relation, use a relative clause: **sola man gun mon bige pi yolan** "the road that is above the river". In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow". **gi** with a noun phrase gives **gi yu** "why" and **gi tan** "so" (because of this).'''
+- A relation phrase (**mon**, **tun**, **se**, **gan**, **li**, **ya**, **wo**, **fu**, **nin**, **gi** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. A relation phrase right after a noun may instead describe that noun: **osa gan tanun tufun** "tea with lemon" (not after a pronoun, and not **fu**, which after an object says how). To be precise, use a relative clause for the noun (**osa man ibe tanun tufun**, **sola man gun mon bige pi yolan** "the road that is above the river") or put the phrase first for the verb (**gan tanun tufun, to koye osa**). In comparisons and quantities (9.3), **se**, **tun** and **fu** belong to their number or adjective. After a time, **wo** and **ya** belong to that time (8.2): **to isi mon wuma wo dili fi** "I go the day after tomorrow". **gi** with a noun phrase gives **gi yu** "why" and **gi tan** "so" (because of this).'''
 
 [[item]]
 id = "4.4.2"

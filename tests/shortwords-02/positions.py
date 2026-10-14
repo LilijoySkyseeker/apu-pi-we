@@ -176,7 +176,7 @@ def modmod():
     for (f, b), (p, full) in zip(jobs, res):
         fits[b] += bool(full)
     with open(os.path.join(HERE, "modmod.tsv"), "w") as fh:
-        fh.write(f"# frames: {' | '.join(MODMOD_FRAMES)}\nform\tgloss\tfits\n")
+        fh.write(f"# {len(MODMOD_FRAMES)} frames: {' | '.join(MODMOD_FRAMES)}\nform\tgloss\tfits\n")
         for b in SHORT:
             fh.write(f"{b}\t{SHORT[b]}\t{fits[b]}\n")
     print("MODMOD shares a position with:", " ".join(f"{b}({fits[b]})" for b in SHORT if fits[b]))

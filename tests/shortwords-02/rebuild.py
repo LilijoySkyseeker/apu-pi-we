@@ -103,49 +103,61 @@ for _, _, ws, _ in POSITIONS:
 
 
 def load_substitution():
-    """substitution.tsv (positions.py): fits_full >= 1 in either direction = the two share a position somewhere."""
+    """substitution.tsv (positions.py). Returns: shared (fits_full >= 1 in either direction), the pooled share
+    (fits A->B + fits B->A) / (contexts A + contexts B), operators' shared words, raw counts."""
     path = os.path.join(HERE, "substitution.tsv")
     gf = np.zeros((N, N), bool)
     ops = collections.defaultdict(set)
-    counts = {}
-    if not os.path.exists(path):
-        return gf, ops, counts
-    for r in read(path):
-        b = r["glossB"]
-        if b not in GI:
-            continue
-        n = int(r["fits_full"])
-        if r["glossA"] == "operator":
+    fits, ctx = collections.Counter(), collections.Counter()
+    if os.path.exists(path):
+        for r in read(path):
+            b = r["glossB"]
+            if b not in GI:
+                continue
+            n = int(r["fits_full"])
+            if r["glossA"] == "operator":
+                if n:
+                    ops[r["A"]].add(b)
+                continue
+            fits[r["glossA"], b] = n
+            ctx[r["glossA"]] = int(r["contexts_A"])
             if n:
-                ops[r["A"]].add(b)
-            continue
-        a = GI[r["glossA"]]
-        counts[r["glossA"], b] = (n, int(r["contexts_A"]))
-        if n:
-            gf[a, GI[b]] = gf[GI[b], a] = True
-    return gf, ops, counts
+                gf[GI[r["glossA"]], GI[b]] = gf[GI[b], GI[r["glossA"]]] = True
+    pool = np.zeros((N, N))
+    for i, j in itertools.permutations(range(N), 2):
+        den = ctx[GL[i]] + ctx[GL[j]]
+        if den:
+            pool[i, j] = (fits[GL[i], GL[j]] + fits[GL[j], GL[i]]) / den
+    return gf, pool, ops, (fits, ctx)
 
 
 def load_modmod():
+    """modmod.tsv (positions.py modmod): how many of the MODMOD frames each short word fits."""
     path = os.path.join(HERE, "modmod.tsv")
-    out = set()
-    if os.path.exists(path):
-        out = {r["gloss"] for r in read(path) if int(r["fits"])}
-    return out
+    if not os.path.exists(path):
+        return {}, 1
+    rows = read(path)
+    nframes = int(re.search(r"(\d+) frames", open(path).readline()).group(1)) if "frames" in open(path).readline() else 5
+    return {r["gloss"]: int(r["fits"]) for r in rows}, nframes
 
 
-GF_SHARED, OP_SHARED, SUBCOUNT = load_substitution()
-MODMOD_FITS = load_modmod()
+GF_SHARED, POOL, OP_SHARED, SUBCOUNT = load_substitution()
+MODMOD_FITS, MODMOD_FRAMES = load_modmod()
 SHARED = TABLE_SHARED | GF_SHARED
-for g in MODMOD_FITS:
-    SHARED[GI["MODMOD"], GI[g]] = SHARED[GI[g], GI["MODMOD"]] = True
+m = GI["MODMOD"]
+for g, n in MODMOD_FITS.items():
+    if n:
+        SHARED[m, GI[g]] = SHARED[GI[g], m] = True
+        POOL[m, GI[g]] = POOL[GI[g], m] = n / MODMOD_FRAMES
 np.fill_diagonal(SHARED, False)
-for op, _, ws, ops in [(None, None, ws, ops) for _, _, ws, ops in POSITIONS]:
+for _, _, ws, ops in POSITIONS:
     for o in ops:
         OP_SHARED[o] |= set(ws)
 
 # ------------------------------------------------------------------------------------------ pair weights
-W = np.where(SHARED, 1.0, 0.1)
+# how often a mishearing of a as b still gives a grammatical sentence: the pooled substitution share; a pair in
+# the same slot of the position table counts at least 0.5; pairs that never substitute keep a floor of 0.1
+W = 0.1 + 0.9 * np.maximum(POOL, 0.5 * TABLE_SHARED)
 W[GI["NOT"], :] *= 10; W[:, GI["NOT"]] *= 10
 W[np.ix_(IS_DIGIT, IS_DIGIT)] *= 3
 np.fill_diagonal(W, 0)
@@ -428,7 +440,8 @@ def full(argv):
     out = arg(argv, "--out", f"full-{mode}.tsv")
     rng = random.Random(1)
     results = []
-    for seed in range(seeds):
+    seed0 = int(arg(argv, "--seed0", 0))
+    for seed in range(seed0, seed0 + seeds):
         start = random_layer(random.Random(seed))
         a, obj = anneal(start, range(N), steps, seed, PEN[mode])
         sc = cvar(sum(totals(a)))
@@ -484,7 +497,11 @@ def patch(argv):
         rng = random.Random(k)
         for i in free:
             opts = [s for s in range(NS) if s not in a and hard_ok(a, i, s)]
+            if not opts:
+                break
             a[i] = rng.choice(opts)
+        if (a < 0).any():
+            print(f"  set {k}: no legal start found, skipped"); continue
         best_a, obj = anneal(a, free, steps, k, pen)
         bad = merger_edges(best_a)
         results.append((obj, k, best_a, cov))
@@ -495,6 +512,137 @@ def patch(argv):
     print(f"wrote {out}")
 
 
+# ------------------------------------------------------------------------------------------ report
+DESK16 = [("INSTRUCT", "WE.excl"), ("INTEND", "D5"), ("WARN", "AFTER"), ("WARN", "FOCUS"), ("UNSPEC", "D0"),
+          ("WE.incl", "THAT.dem"), ("OBVIATIVE", "EVEN"), ("OF", "VERY"), ("OF", "D1"), ("BEFORE", "YOUKNOW"),
+          ("AFTER", "FOCUS"), ("AND", "NAME"), ("BUT", "THAT.comp"), ("MORE", "RESULT"), ("LIKE", "PLACE"), ("IT", "PLACE")]
+ROBUST13 = [("MORE", "D5"), ("INSTRUCT", "PART"), ("Q", "WHILE"), ("OF", "D1"), ("LIKE", "PLACE"), ("PLURAL", "ONLY"),
+            ("NONE", "D2"), ("FROM", "ALSO"), ("I", "D0"), ("NONE", "EXCLAIM"), ("LIKE", "IT"), ("VERY", "D1"),
+            ("INTEND", "RESULT")]
+V2 = [k for k, n in enumerate(VNAMES) if n != "v1"]
+
+
+def sym(a, i, j):
+    """Symmetric confusion of words i and j in layer a: (best, max over v2 variants), percent."""
+    x = (S_ALL[:, a[i], a[j]] + S_ALL[:, a[j], a[i]]) / 2
+    return 100 * x[VNAMES.index("best")], 100 * x[V2].max()
+
+
+def pair_line(a, i, j):
+    b, w = sym(a, i, j)
+    m = merger(a[i], a[j])
+    return f"{NAME[a[i]]}~{NAME[a[j]]}", b, w, m
+
+
+def ops_to_rename(a):
+    out = []
+    for o in OPERATORS:
+        hit = [g for g in OP_SHARED.get(o, ()) if a[GI[g]] == OP_FIRST[o]]
+        if hit:
+            out.append(f"{o} ({NAME[OP_FIRST[o]]} = {', '.join(hit)})")
+    return out
+
+
+def digit_clash(a):
+    lex = read(os.path.join(ROOT, "data", "lexicon.tsv"))
+    ds = {NAME[a[GI[f"D{k}"]]] for k in range(6)}
+    hits = [w["form"] for w in lex if re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", w["form"])[0] in ds]
+    return hits
+
+
+def report(argv):
+    layers = {"old": old_assign()}
+    for name, f in (("full", "full-hard.tsv"), ("full-c3", "full-c3.tsv"), ("patch", "patch.tsv"),
+                    ("patch-no-rule3", "patch-no-rule3.tsv")):
+        if os.path.exists(os.path.join(HERE, f)):
+            layers[name] = read_layer(f)
+    out = []
+    P = out.append
+    P("SHORT-WORD REBUILD, DRY RUN (tests/shortwords-02). Generated by rebuild.py report.\n")
+    P(f"{N} words ({N - 7} grammar words, MODMOD, 6 digits); {NV} model variants; robust score = CVaR 0.25 of cost / random-layer median")
+    P(f"shared-position pairs: {SHARED[np.triu_indices(N, 1)].sum()} of {N * (N - 1) // 2} "
+      f"(table {TABLE_SHARED[np.triu_indices(N, 1)].sum()}, GF substitution {GF_SHARED[np.triu_indices(N, 1)].sum()}); "
+      f"adjacent short-word bigrams: {len(ADJ)}\n")
+    P(f"{'layer':16}{'changed':>8}{'robust':>8}{'conf':>8}{'junc':>8}{'worst variant':>22}{'offens.':>8}{'1-feat':>7}{'op-clash':>9}{'mergers':>8}{'no onset':>9}")
+    for name, a in layers.items():
+        c, j = totals(a)
+        x = (c + j) / medians()
+        changed = sum(1 for i in range(N) if WORDS[i]["old"] and NAME[a[i]] != WORDS[i]["old"])
+        pen = penalties(a, *PEN["hard"])[1]
+        viol = violations(a)
+        P(f"{name:16}{changed:8d}{cvar(c + j):8.4f}{cvar(c):8.4f}{(j / medians()).mean():8.4f}"
+          f"{VNAMES[int(np.argmax(x))] + f' {x.max():.3f}':>22}{pen[0]:8d}{pen[1]:7d}{pen[2]:9d}"
+          f"{sum(1 for v in viol if v[1]):8d}{sum(1 for v in viol if v[4] == 'no onset'):9d}")
+    P("(changed: grammar words and digits whose form differs from today; MODMOD is new in every layer. conf = robust score of"
+      " word confusion alone; junc = mean junction cost / median. offens. = forms matching tools/offensive.py; 1-feat = shared"
+      " pairs differing by one feature; op-clash = operator/first-syllable clashes; mergers = shared pairs that collapse)\n")
+
+    P("FORMS (gloss, class, freq, then each layer; * = changed from today, ! = matches offensive.py)")
+    names = list(layers)
+    P(f"{'gloss':12}{'class':7}{'freq':>5}  " + "".join(f"{n:>15}" for n in names))
+    for i in sorted(range(N), key=lambda i: -FREQ[i]):
+        cells = []
+        for n in names:
+            f = NAME[layers[n][i]]
+            mark = ("*" if n != "old" and f != WORDS[i]["old"] else "") + ("!" if OFFENSIVE[layers[n][i]] else "")
+            cells.append(f"{f + mark:>15}")
+        P(f"{GL[i]:12}{WORDS[i]['cls']:7}{FREQ[i]:5g}  " + "".join(cells))
+    P("")
+    top = sorted(range(N), key=lambda i: (-FREQ[i], i))[:10]
+    P("TEN MOST FREQUENT WORDS (freq ties broken by grammar.tsv order): " + ", ".join(f"{GL[i]} {WORDS[i]['old']}" for i in top))
+    for n in names[1:]:
+        ch = [f"{WORDS[i]['old']}->{NAME[layers[n][i]]}" for i in top if NAME[layers[n][i]] != WORDS[i]["old"]]
+        P(f"  {n}: {len(ch)} change: {' '.join(ch)}")
+    P("")
+    P("THE LANGUAGE'S NAME apu pi we (apu = language, pi = OF, we = ALL)")
+    for n in names:
+        P(f"  {n:16} apu {NAME[layers[n][GI['OF']]]} {NAME[layers[n][GI['ALL']]]}")
+    P("")
+    for title, pairs in (("THE DESK ANALYSIS'S 16 MERGER PAIRS", DESK16), ("MODEL V2'S MOST ROBUSTLY DANGEROUS SHORT PAIRS", ROBUST13)):
+        P(f"{title}: forms, symmetric confusion % (v2 best / worst v2 variant), merger, shared position")
+        for g1, g2 in pairs:
+            i, j = GI[g1], GI[g2]
+            row = f"  {g1 + '/' + g2:22}{'shared' if SHARED[i, j] else 'apart':7}"
+            for n in names:
+                f, b, w, m = pair_line(layers[n], i, j)
+                row += f" | {n}: {f:10} {b:4.1f}/{w:4.1f}{' ' + m if m else ''}"
+            P(row)
+        P("")
+    for n in names[1:]:
+        a = layers[n]
+        P(f"LAYER {n}: closest shared-position pairs (by worst v2 variant, symmetric %)")
+        rows = []
+        for i, j in itertools.combinations(range(N), 2):
+            if SHARED[i, j]:
+                b, w = sym(a, i, j)
+                rows.append((w, b, i, j))
+        for w, b, i, j in sorted(rows, reverse=True)[:12]:
+            P(f"  {NAME[a[i]]:>4}~{NAME[a[j]]:<4} {GL[i]}/{GL[j]:12} best {b:4.1f}  worst {w:4.1f}  (feature distance {FD[a[i], a[j]]})")
+        jd = junc_costs(a, detail=True)[VNAMES.index("best")]
+        k = np.argsort(-jd)[:6]
+        P("  top junction risks (bigram, v2 best, weighted): " + "; ".join(
+            f"{NAME[a[ADJ_A[x]]]} {NAME[a[ADJ_B[x]]]} ({GL[ADJ_A[x]]} {GL[ADJ_B[x]]}) {jd[x]:.4f}" for x in k if jd[x] > 0) or "none")
+        P("  operators to rename (first syllable = a word sharing the operator's position): " + ("; ".join(ops_to_rename(a)) or "none"))
+        dc = digit_clash(a)
+        P(f"  content words that would begin with a new digit syllable (rule 4; re-formed in the placement): {len(dc)} {' '.join(dc[:20])}")
+        off = [f"{GL[i]}={NAME[a[i]]}" for i in range(N) if OFFENSIVE[a[i]]]
+        P(f"  offensive.py matches: {len(off)}: {' '.join(off)}")
+        one = [f"{NAME[a[i]]}~{NAME[a[j]]}" for i, j in itertools.combinations(range(N), 2) if SHARED[i, j] and ONE_FEATURE[a[i], a[j]]]
+        P(f"  shared pairs differing by one feature: {len(one)}: {' '.join(one)}")
+        P(f"  rule violations: {violations(a) or 'none'}")
+        P("")
+    P("OLD LAYER: rule violations under the new position table")
+    for v in violations(layers["old"]):
+        P(f"  {v}")
+    P("  operators to rename today: " + ("; ".join(ops_to_rename(layers["old"])) or "none"))
+    open(os.path.join(HERE, "results.txt"), "w").write("\n".join(out) + "\n")
+    with open(os.path.join(HERE, "forms.tsv"), "w") as fh:
+        fh.write("gloss\tclass\tfreq\t" + "\t".join(names) + "\n")
+        for i in range(N):
+            fh.write(f"{GL[i]}\t{WORDS[i]['cls']}\t{FREQ[i]:g}\t" + "\t".join(NAME[layers[n][i]] for n in names) + "\n")
+    print("\n".join(out))
+
+
 def arg(argv, name, default):
     return argv[argv.index(name) + 1] if name in argv else default
 
@@ -503,6 +651,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "full":
         full(sys.argv[2:])
+    elif cmd == "report":
+        report(sys.argv[2:])
     elif cmd == "patch":
         patch(sys.argv[2:])
     elif cmd == "score-old":

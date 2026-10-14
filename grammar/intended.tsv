@@ -98,10 +98,10 @@ ge iko	[NP ge iko]	no
 du bubo	[NP du bubo]	no	
 pu niba	[NP pu niba]	no	
 du kuwi pi to	[NP [NP du kuwi] pi to]	yes	
-no isi se guyi	[NP no isi [ADV se guyi]]	yes	
+no isi se guyi	[NP no isi [ADV se guyi]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
 ewo man gun tofo	[NP ewo [REL man gun tofo]]	yes	
 pu pi mabo	[NP pu pi mabo]	yes	
-no obu se yaye	[NP no obu [ADV se yaye]]	yes	
+no obu se yaye	[NP no obu [ADV se yaye]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
 mu upe	[AP mu upe]	no	
 yomo	yomo	no	
 na mon funti , wan obu	[ADV na [ADV mon funti]] , [S wan obu]	yes	
@@ -176,7 +176,7 @@ kuwi wan se ben	[S kuwi wan [ADV se ben]]	yes
 ninsu	ninsu	no	
 gufu	gufu	no	
 apu	apu	no	
-momu isi tun guyi	[S momu isi [ADV tun guyi]]	yes	4.2.6: later phrases go with the second verb
+momu isi tun guyi	[S momu isi [ADV tun guyi]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
 gi yu	[ADV gi yu]	no	
 guyi man beya pi bu gun tapi	[NP guyi [REL man beya pi bu gun tapi]]	yes	
 kon bo wan obu	kon bo [S wan obu]	yes	
@@ -191,3 +191,4 @@ tin mu kusa	tin [S mu kusa]	yes
 to mu ibe totu fa	[S to mu ibe [NP totu fa]]	no	
 to sin le nawi	[S to sin le nawi]	yes	
 to sin ditun bu mon en google	[S to sin ditun bu [ADV mon [NP en google]]]	yes	
+osa gan tanun tufun	[NP osa gan [NP tanun tufun]]	no	

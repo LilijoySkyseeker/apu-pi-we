@@ -156,6 +156,7 @@ abstract Apupiwe = Lex ** {
     -- 5 the noun phrase
     UseN : N -> CN ;                       -- 4.2.3 any word as a noun
     ModCN : CN -> AP -> CN ;               -- 5.2.1 a describing word follows the noun; 5.2.2 gender
+    AdvCN : CN -> Prep -> NP -> CN ;       -- 4.4.1 a relation phrase right after a noun may describe it, except fu (manner) (author 2026-10-13)
     DerivV : Deriv -> V -> CN ;            -- 5.4.1 marker + verb
     DerivVP : Deriv -> VPa -> CN ;         -- 5.4.4 marker + verb phrase, to the end of its phrase
     DerivPi : Deriv -> NPi -> CN ;         -- 5.4.6 pu pi mabo

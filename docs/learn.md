@@ -282,7 +282,7 @@ The relation words come before their noun, as in English: [§4.4.1](language.md#
 - **nuwen** without: **wan obu nuwen nimo.** "He came without money." [§13.2](language.md#r-13-2)
 - **gi** because of: **gi yu** "why" (because of what), **gi tan** "so" (because of this) [§4.4.1](language.md#r-4-4-1)
 
-**pi** is the only word that links one noun to another as a description (a list of nouns just uses **yen** "and"). English can build "house key" or "the road above the river" directly. Here "house key" needs **pi**: **tinli pi guyi** "house key" (key of house). Any other relation takes a **man** clause, which is explained in lesson 12: **sola man gun mon bige pi yolan** "the road above the river". [§4.4.1](language.md#r-4-4-1) [§5.2.9](language.md#r-5-2-9)
+**pi** links one noun to another as a description (a list of nouns just uses **yen** "and"). English can build "house key" directly; here it needs **pi**: **tinli pi guyi** "house key" (key of house). Other relation words can also follow a noun to describe it: **osa gan tanun tufun** "tea with lemon". When that could be misread as going with the verb, use a **man** clause, explained in lesson 12: **sola man gun mon bige pi yolan** "the road above the river". [§4.4.1](language.md#r-4-4-1) [§5.2.9](language.md#r-5-2-9)
 
 Two nouns side by side are used only for gender (**tiwu futa**) and for the fixed compounds in the [compounds list](../data/compounds.tsv). [§5.2.3](language.md#r-5-2-3)
 

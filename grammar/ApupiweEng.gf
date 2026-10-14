@@ -195,6 +195,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
 
     UseN n = mkCN n ;
     ModCN cn a = mkCN a.ap cn ;
+    AdvCN cn p np = mkCN cn (SyntaxEng.mkAdv p np) ;
     DerivV d v = mkCN (mkCN d.head) (who (mkVP v)) ;
     DerivVP d v = mkCN (mkCN d.head) (who v.vp) ;
     DerivPi d n = mkCN (mkCN d.head) (SyntaxEng.mkAdv possess_Prep n) ;

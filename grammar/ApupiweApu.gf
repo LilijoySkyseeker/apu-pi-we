@@ -27,7 +27,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     HabOpt, AspOpt, NumOpt, LaOpt = {s : Str ; e : Bool} ;   -- e: empty
     DetOpt = {s : Str ; e, al : Bool} ;           -- al: the determiner may stand alone
     Det = {s : Str ; alone : Bool} ;              -- alone: may stand alone as a noun phrase (5.2.8)
-    Prep = {s : Str ; wy, se, cd : Bool} ;        -- wo/ya (4.4.1); se (9.3.4); takes an if/when clause (4.3.3)
+    Prep = {s : Str ; wy, se, cd, mn : Bool} ;    -- wo/ya (4.4.1); se (9.3.4); takes an if/when clause (4.3.3); mn: fu, the manner word (4.4.1)
     Digit = {s, mul : Str ; z, one, small : Bool} ;   -- mul: before a place word (a 1 is dropped, 9.2.1)
     Sub100 = {s : Str ; z, one, hr : Bool} ;      -- hr: 1-12, an hour (8.3.1)
     Sub1000 = {s : Str ; z, one : Bool} ;
@@ -76,7 +76,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     adv : Str -> End -> Bool -> {s : Str ; e : End ; p : Bool ; et, wy, sc, cd, se : Bool} =
       \s,e,p -> {s = s ; e = e ; p = p ; et = False ; wy = False ; sc = False ; cd = False ; se = False} ;
     nonEx : {s : Str ; e : End ; p : Bool ; et, wy, sc, cd, se : Bool} = adv Predef.nonExist EV False ;
-    prep : Str -> Bool -> Bool -> Bool -> {s : Str ; wy, se, cd : Bool} = \s,w,se,c -> {s = s ; wy = w ; se = se ; cd = c} ;
+    prep : Str -> Bool -> Bool -> Bool -> {s : Str ; wy, se, cd, mn : Bool} = \s,w,se,c -> {s = s ; wy = w ; se = se ; cd = c ; mn = False} ;
     dg : Str -> Bool -> Bool -> Bool -> {s, mul : Str ; z, one, small : Bool} =
       \s,z,o,sm -> {s = s ; mul = case o of {True => [] ; False => s} ; z = z ; one = o ; small = sm} ;
     tens : {mul : Str} -> Str = \d -> d.mul ++ "yawu" ;
@@ -213,7 +213,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     Mon = prep "mon" False False False ; Tun = prep "tun" False False False ;
     Se = prep "se" False True False ; Gan = prep "gan" False False False ;
     Li = prep "li" False False False ; Ya = prep "ya" True False True ;
-    Wo = prep "wo" True False True ; Fu = prep "fu" False False False ;
+    Wo = prep "wo" True False True ; Fu = (prep "fu" False False False) ** {mn = True} ;
     Nin = prep "nin" False False True ; Anko = prep "anko" False False False ;
     Nuwen = prep "nuwen" False False False ;
     Don = ss "don" ; Gi = ss "gi" ;
@@ -231,6 +231,11 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       case <cn.e, a.gd> of {
         <ED, True> => {s = cn.s ++ a.s ; e = e ; p = orB cn.p a.p ; tm = cn.tm ; ba = cn.ba ; w1 = False} ;
         _ => {s = seq cn a.s ; e = e ; p = pz cn a.p ; tm = cn.tm ; ba = cn.ba ; w1 = False}} ;
+    -- 4.4.1 (2026-10-13): a relation phrase right after a noun may describe it; not fu, which after an object
+    -- marks manner (4.2.4); not after a pronoun (pronouns aren't CN); not a time noun + wo/ya (TimeAnchor)
+    AdvCN cn pr np = case orB pr.mn (andB cn.tm pr.wy) of {
+      False => {s = seq cn (pr.s ++ np.s) ; e = np.e ; p = pz cn np.p ; tm = cn.tm ; ba = cn.ba ; w1 = False} ;
+      True => {s = Predef.nonExist ; e = EV ; p = False ; tm = False ; ba = False ; w1 = False}} ;
     DerivV d v = {s = d.s ++ v.s ; e = EN ; p = False ; tm = False ; ba = False ; w1 = False} ;
     -- 5.4.4: a phrasal base runs to the end of its phrase, but ends before a name or a gender word;
     -- a single verb is DerivV
