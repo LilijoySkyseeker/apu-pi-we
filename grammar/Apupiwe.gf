@@ -167,6 +167,7 @@ abstract Apupiwe = Lex ** {
     QuantCN : CN -> NumOpt -> LaOpt -> DetOpt -> NPq ;  -- 5.1.1 noun, modifiers, number, la, determiner
     PronQ : Pron -> LaOpt -> DetOpt -> NPq ;            -- 10.3.7 wan la; 10.3.6 wan nen; 5.2.8 wan ben
     NameQ : String -> NPq ;                -- 11.1 en + name (gf_check joins a name's words: it runs to a grammar word or pause)
+    NameKiyo : String -> NPq ;             -- 11.1 en + name + kiyo: a name closed by kiyo may contain grammar words (author 2026-10-13)
     TitleName : CN -> String -> NPq ;      -- 10.1.2 title before the name; 5.4.4
     NumQ : Num -> NPq ;                    -- 5.2.4 a number alone
     DetQ : Det -> NPq ;                    -- 5.2.8 a determiner alone; 4.8.2 yu "what"

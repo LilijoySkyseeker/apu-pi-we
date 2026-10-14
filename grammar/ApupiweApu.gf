@@ -254,6 +254,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
             rs = andB cn.w1 (andB l.e (orB (andB n.e d.al) (andB (notB n.e) d.e)))}} ;
     PronQ pr l d = npr (pr.s ++ l.s ++ d.s) EN False False ;
     NameQ n = npr ("en" ++ n.s) EM False False ;
+    NameKiyo n = npr ("en" ++ n.s ++ "kiyo") EM False False ;
     TitleName cn n = case cn.e of {
       ER | EC => npr Predef.nonExist EV False False ;
       _ => npr (cn.s ++ "en" ++ n.s) EM cn.p False} ;

@@ -214,6 +214,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
       True => case l.pl of {True => p.pl ; False => p.sg} ;
       False => addPost (case l.pl of {True => p.pl ; False => p.sg}) d.d.post}) ;
     NameQ n = asNP (strNP n.s) ;
+    NameKiyo n = asNP (strNP n.s) ;
     TitleName cn n = asNP (mkNP (mkCN cn (strNP n.s))) ;
     NumQ n = asNP (case n.z of {True => strNP "0" ; False => mkNP (mkDet n.card)}) ;
     DetQ d = asNP d.alone ;

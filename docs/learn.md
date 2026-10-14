@@ -290,7 +290,7 @@ To give something to someone, put the verb first, then who gets it, then what: *
 
 Names always take **en** and keep their owner's spelling: **en mara**, **en lilith**. In casual speech people often leave **en** out when it's clear a name is meant. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name. [§11.1](language.md#r-11-1) [§11.2](language.md#r-11-2)
 
-A name runs on until the next grammar word or comma, which is how a name can have several words, as in **en xi jinping**. So when a content word follows a name, put a grammar word or a comma between them: **en mara sin oyi** "Mara said". [§11.1](language.md#r-11-1)
+A name runs on until the next grammar word or comma, which is how a name can have several words, as in **en xi jinping**. So when a content word follows a name, put a grammar word or a comma between them: **en mara sin oyi** "Mara said". If the name itself contains a word like **de** or **ya**, end it with **kiyo**: **en cuerpo de paz kiyo sin obu** "the Peace Corps came". [§11.1](language.md#r-11-1)
 
 ## Lesson 8: Being polite, and everyday phrases
 

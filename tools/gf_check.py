@@ -78,8 +78,19 @@ def gf(cmds):
 def tokens(sentence):
     """Words and pauses. A name runs from en to the next grammar word or pause (11.1), so its words
     are joined into one token for the grammar's String: en xi jinping sin oyi -> en xi_jinping sin oyi."""
-    out = []
-    for w in sentence.replace(",", " , ").split():
+    words = sentence.replace(",", " , ").split()
+    out, i = [], 0
+    while i < len(words):  # en … kiyo: a name closed by kiyo may contain grammar words (11.1, 2026-10-13)
+        # kiyo closes an open relative clause, built word or topic first (4.4.4, 5.3.5, 5.4.4); it closes a
+        # name only when none is open since the last kiyo
+        opened = words[:i][len(words[:i]) - words[:i][::-1].index("kiyo"):] if "kiyo" in words[:i] else words[:i]
+        if words[i] == "en" and "kiyo" in words[i + 1:] and not set(opened) & {"man", "no", "ge", "du", "pu"}:
+            j = words.index("kiyo", i + 1)
+            if "," not in words[i + 1:j] and j > i + 1:
+                out += ["en", "_".join(words[i + 1:j]), "kiyo"]
+                i = j + 1
+                continue
+        w = words[i]; i += 1
         if len(out) >= 2 and out[-2] == "en" and w != "," and w not in GRAMMAR_WORDS:
             out[-1] += "_" + w
         else:
