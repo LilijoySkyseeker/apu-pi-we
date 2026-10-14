@@ -1,0 +1,147 @@
+=== metre
+=== metre
+--- [unit of length] (18/20 panel languages present)
+  Mandarin: 米 (mǐ), 公尺 (gōngchǐ), 米突 (mǐtū, mǐtú)
+  Japanese: メートル (mētoru), ㍍ (mētoru)
+  Korean: 미터, 메터
+  Vietnamese: mét, thước, thước tây
+  Thai: เมตร
+  Indonesian: meter
+  Tagalog: metro, panukat
+  Hindi: मीटर
+  Bengali: মিটার
+  Tamil: மீட்டர்
+  Persian: مِتْر
+  Arabic: مِتْر
+  Turkish: metre
+  Russian: метр
+  Spanish: metro
+  French: mètre
+  Swahili: mita
+  Yoruba: mítà
+--- [rhythm or measure in verse and musical composition] (1/20 panel languages present)
+  Hindi: छंद
+=== gram
+=== gram
+--- [unit of mass] (19/20 panel languages present)
+  Mandarin: 克 (kè), 公克 (gōngkè)
+  Japanese: グラム (guramu)
+  Korean: 그램
+  Vietnamese: gam
+  Thai: กรัม
+  Indonesian: gram
+  Tagalog: gramo
+  Hindi: ग्राम
+  Bengali: গ্রাম
+  Tamil: கிராம்
+  Persian: گرم (geram)
+  Arabic: جْرَام (gram), غْرَام, غْرَام (gram)
+  Turkish: gram
+  Russian: грамм
+  Spanish: gramo
+  French: gramme
+  Swahili: gramu
+  Yoruba: gíráàmù
+  Quechua: k'isura
+--- [A [[leguminous]] plant ] (0/20 panel languages present)
+=== litre
+=== litre
+--- [unit of fluid measure] (18/20 panel languages present)
+  Mandarin: 升 (shēng), 公升 (gōngshēng)
+  Japanese: リットル (rittoru), ㍑ (rittoru)
+  Korean: 리터
+  Vietnamese: lít
+  Thai: ลิตร
+  Indonesian: liter
+  Tagalog: litro
+  Hindi: लीटर
+  Bengali: লিটার
+  Tamil: லிட்டர்
+  Persian: لیتر (litr)
+  Arabic: لِتْر
+  Turkish: litre
+  Russian: литр
+  Spanish: litro
+  French: litre
+  Swahili: lita
+  Yoruba: lítà
+=== kilogram
+=== kilogram
+--- [unit of mass equal to 1000 grams] (18/20 panel languages present)
+  Mandarin: 千克 (qiānkè), 公斤 (gōngjīn)
+  Japanese: キログラム (kiroguramu), キロ (kiro)
+  Korean: 킬로그램, 키로, 킬로
+  Vietnamese: kilôgam, ki-lô-gam, ki-lô, kí lô
+  Thai: กิโลกรัม, กิโล, โล
+  Indonesian: kilogram
+  Tagalog: libogramo, kilogramo
+  Hindi: किलो, किलोग्राम
+  Bengali: কিলো, কিলোগ্রাম
+  Tamil: கிலோகிராம், கிலோ
+  Persian: کیلوگرم (kilogram)
+  Arabic: كِيلوغْرَام, كِيلوجْرَام (kīlōgrām)
+  Turkish: kilogram, kilo, okka
+  Russian: килогра́мм, кило́
+  Spanish: kilogramo, quilogramo
+  French: kilogramme, kilo
+  Swahili: kilo
+  Yoruba: kìlógíráàmù, kílò
+=== centimetre
+=== centimetre
+--- [one-hundredth of a metre] (17/20 panel languages present)
+  Mandarin: 釐米//厘米 (límǐ), 公分 (gōngfēn)
+  Japanese: センチメートル (senchimētoru), センチ (senchi)
+  Korean: 센티미터, 센티, 센치
+  Vietnamese: xen-ti-mét, xăng-ti-mét, phân
+  Thai: เซนติเมตร
+  Indonesian: sentimeter
+  Tagalog: sentimetro
+  Hindi: सेंटीमीटर
+  Bengali: সেন্টিমিটার
+  Persian: سانْتی‌مِتْر, سانْتیمِتْر
+  Arabic: سِنْتِيمِتْر
+  Turkish: santimetre, santim
+  Russian: сантиме́тр
+  Spanish: centímetro
+  French: centimètre
+  Swahili: sentimita
+  Yoruba: sẹ̀ǹtímítà
+=== millimetre
+=== millimetre
+--- [unit of measure] (15/20 panel languages present)
+  Mandarin: 毫米 (háomǐ), 公釐//公厘 (gōnglí)
+  Japanese: ミリメートル (mirimētoru), ミリ (miri)
+  Korean: 밀리미터, 밀리
+  Vietnamese: milimet
+  Thai: มิลลิเมตร
+  Tagalog: milimetro
+  Hindi: मिलीमीटर, सहस्रिमान
+  Persian: میلی‌مِتْر, میلیمِتْر
+  Arabic: مِلِّيمِتْر
+  Turkish: milimetre
+  Russian: миллиме́тр
+  Spanish: milímetro
+  French: millimètre
+  Swahili: milimita
+  Yoruba: mìlímítà
+=== kilometre
+=== kilometre
+--- [unit of measure] (18/20 panel languages present)
+  Mandarin: 千米 (qiānmǐ), 公里 (gōnglǐ)
+  Japanese: キロメートル (kiromētoru)
+  Korean: 킬로미터
+  Vietnamese: cây số, 核數, kilômet, 箕盧𠼽
+  Thai: กิโลเมตร
+  Indonesian: kilometer
+  Tagalog: kilometro
+  Hindi: किलोमीटर, सहस्रमान
+  Bengali: কিলোমিটার
+  Tamil: கிலோமீட்டர்
+  Persian: کیلومِتْر (kilometr)
+  Arabic: كيلومتر (kīlomitr)
+  Turkish: kilometre, çakrım
+  Russian: киломе́тр, верста́
+  Spanish: kilómetro, quilómetro
+  French: kilomètre
+  Swahili: kilometa
+  Yoruba: kìlómítà

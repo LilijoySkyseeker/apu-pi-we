@@ -1424,7 +1424,7 @@ type = "bullet"
 title = "Measurements"
 gap = 0
 text = '''
-- Measurements use the metric system's unit names, borrowed as one set and built the way the system builds them: a prefix (**kilo**, **senti**, **mili**) run together with a unit (**metulu** metre, **gulamu** gram, **litulu** litre): **kilometulu** kilometre, **kilogulamu** kilogram, **sentimetulu** centimetre. The unit comes first, like any counted noun: **kilometulu te** "5 km".'''
+- Measurements use the metric system's unit names, borrowed as one set and built the way the system builds them: a prefix (**kilo**, **senti**, **mili**) run together with a unit (**metulu** metre, **gulamu** gram, **litulu** litre): **kilometulu** kilometre, **kilogulamu** kilogram, **sentimetulu** centimetre. In everyday speech kilogram is **kilo**, the short form most of the world uses. The unit comes first, like any counted noun: **kilometulu te** "5 km".'''
 
 [[item]]
 id = "10"

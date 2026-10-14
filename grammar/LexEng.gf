@@ -561,6 +561,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kilan_N = D.dry_N ;
     kilan_V = D.dry_V ;
     kilan_A = D.dry_A ;
+    kilo_N = D.kilogram_N ;
+    kilo_V = P.mkV "kilogram" ;
+    kilo_A = P.mkA "kilogram" ;
     kilogulamu_N = D.kilogram_N ;
     kilogulamu_V = P.mkV "kilogram" ;
     kilogulamu_A = P.mkA "kilogram" ;

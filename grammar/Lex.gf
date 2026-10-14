@@ -563,6 +563,9 @@ abstract Lex = {
     kilan_N : N ;  -- dry
     kilan_V : V ;  -- dry
     kilan_A : A ;  -- dry
+    kilo_N : N ;  -- kilogram, everyday short form
+    kilo_V : V ;  -- kilogram, everyday short form
+    kilo_A : A ;  -- kilogram, everyday short form
     kilogulamu_N : N ;  -- kilogram
     kilogulamu_V : V ;  -- kilogram
     kilogulamu_A : A ;  -- kilogram

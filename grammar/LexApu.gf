@@ -560,6 +560,9 @@ concrete LexApu of Lex = open Prelude in {
     kilan_N = {s = "kilan" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kilan_V = {s = "kilan" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kilan_A = {s = "kilan" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kilo_N = {s = "kilo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kilo_V = {s = "kilo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kilo_A = {s = "kilo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kilogulamu_N = {s = "kilogulamu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kilogulamu_V = {s = "kilogulamu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kilogulamu_A = {s = "kilogulamu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;

@@ -310,7 +310,7 @@
 - <span id="r-9-3-2"></span>A range is **se** X **tun** Y. "At least" is **konsin** X, and "at most" is **mu ke se** X.
 - <span id="r-9-3-3"></span>"Enough" is **tonya**.
 - <span id="r-9-3-4"></span>A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", compare with everything: **ke kudu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fu** (**kudu fu bu** "as big as it").
-- <span id="r-9-3-5"></span>Measurements use the metric system's unit names, borrowed as one set and built the way the system builds them: a prefix (**kilo**, **senti**, **mili**) run together with a unit (**metulu** metre, **gulamu** gram, **litulu** litre): **kilometulu** kilometre, **kilogulamu** kilogram, **sentimetulu** centimetre. The unit comes first, like any counted noun: **kilometulu te** "5 km".
+- <span id="r-9-3-5"></span>Measurements use the metric system's unit names, borrowed as one set and built the way the system builds them: a prefix (**kilo**, **senti**, **mili**) run together with a unit (**metulu** metre, **gulamu** gram, **litulu** litre): **kilometulu** kilometre, **kilogulamu** kilogram, **sentimetulu** centimetre. In everyday speech kilogram is **kilo**, the short form most of the world uses. The unit comes first, like any counted noun: **kilometulu te** "5 km".
 
 ## 10. People
 
