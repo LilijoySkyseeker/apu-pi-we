@@ -1,4 +1,4 @@
-# Part 5: regional rebalance (author, 2026-10-13; queued for 00:13 on 2026-10-14)
+# Part 5: regional rebalance (author, 2026-10-13; started 2026-10-13 after the usage reset: stages 1 and 6 running)
 
 Why: the 20 texts that set the ~1,500-root size lean European (bias audit). Main question: does the concept list carry a European blind spot (concepts the new texts need that our list ranks too low or lacks)? Second: does the curve flatten near 1,500 for every region?
 
