@@ -7,10 +7,10 @@ n	concept	class	note
 610	sacrifice	core	offering
 794	temple	core, widened	"place of worship" in general; each tradition's own word for its building (church, mosque, synagogue, gurdwara) is borrowed
 730	priest	core, widened	"religious leader" in general; titles (imam, rabbi, lama, bishop, pope) are borrowed
-777	bless	core	
+777	bless	phrase	rank 4,731 (2,901–4,199 in the re-check), too rare for a root (author, 2026-10-13)
 879	curse	core	
 709	miracle	core	rank 1,029, 11 languages; reported across traditions (author, 2026-10-13)
--	sacred	core, added	holy, sacred; missing from the list
+-	sacred	phrase	holy, sacred; rank 3,982 (3,299–4,728 across the re-check), too rare for a root (author, 2026-10-13)
 93	church	tradition	borrowed word, written by sound
 971	mosque	tradition	masudidu (borrowed)
 954	pope	tradition	papa (Catholic title, borrowed)
