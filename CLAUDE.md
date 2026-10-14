@@ -23,7 +23,6 @@ Apupiwe (in the language **apu pi we**) is a thought experiment in the best huma
 ## Changing things
 
 - Branches: `main` is the published v1 site (GitHub Pages builds on every push to it). Until v2, work goes on `v2-work` and is pushed there; don't push to `main` (author, 2026-10-13).
-
 - After changing the spec: `spec.py build`, `spec.py check`, `spec.py lessons`, `gf_check.py`; regenerate the grammar lexicon with `tools/gf_lexicon.py` after word changes; `tests/udhr-01/make_page.py` rebuilds the declaration page.
 - New words: go down the ladders (`vocabulary-method.md` §0); a new root's form comes from `tools/words.py add-content` (with `--avoid` for freed forms and `--after`/`--before` for fixed neighbours), never by hand. Loans only where the world shares the form (L4, panel test).
 - Public pages follow `docs/style.md` (plain human voice); working notes can be terse.
