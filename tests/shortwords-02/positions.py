@@ -155,5 +155,32 @@ def main():
     print("done")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and len(sys.argv) == 1:
     main()
+
+
+# ---- MODMOD: not in the grammar yet. It stands between a content modifier and the next content word
+# (design log 2026-10-13: demi wiwi MODMOD buda "a dark-red cloth"). A short word shares its position if it
+# can stand there in these frames (each parses without it).
+MODMOD_FRAMES = ["to ibe demi wiwi X buda", "demi wiwi X buda gun upe", "wan nagu demi wiwi X buda tan",
+                 "to momu guyi kudu X upe", "me sin yidu demi wiwi X buda mon guyi"]
+
+
+def modmod():
+    G.build()
+    base = parse_many([f.replace(" X", "") for f in MODMOD_FRAMES], workers=5)
+    assert all(p for p, _ in base), base
+    jobs = [(f, b) for f in MODMOD_FRAMES for b in SHORT]
+    res = parse_many([f.replace("X", b) for f, b in jobs], workers=12)
+    fits = collections.Counter()
+    for (f, b), (p, full) in zip(jobs, res):
+        fits[b] += bool(full)
+    with open(os.path.join(HERE, "modmod.tsv"), "w") as fh:
+        fh.write(f"# frames: {' | '.join(MODMOD_FRAMES)}\nform\tgloss\tfits\n")
+        for b in SHORT:
+            fh.write(f"{b}\t{SHORT[b]}\t{fits[b]}\n")
+    print("MODMOD shares a position with:", " ".join(f"{b}({fits[b]})" for b in SHORT if fits[b]))
+
+
+if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == "modmod":
+    modmod()

@@ -62,3 +62,28 @@ Root lists: the 235 first-word concepts (Wordbank, ≥15 of 30 languages) with n
 3. **Everyday concepts Apupiwe has no word for:** chili pepper, spicy, noodles (pasta is only a borrowing or phrase), coconut, mango, ginger, lemon/lime, shrimp, eggplant (one checklist), chopsticks, basin, tray, kettle/teapot, cockroach, lizard/gecko, camel, bracelet/bangle, earring, machete, kite, squat, greet, hang (laundry). Flour, herder and cooking stick have none either, but they compose easily.
 4. **Roots that cover an everyday concept only if their definition is widened:** spade for hoe, balcony for veranda/baraza, cloth for the wrapper cloth (kanga, sarong; also the usual baby sling), carpet for sleeping mat, porridge for stiff staples (ugali, fufu, nsima), soup/sauce for the stew or relish eaten with the staple.
 5. **Limit: the non-European checklists are adaptations of the American CDI and keep its frame.** No checklist has a mortar, a baby sling, firewood, a water well or charcoal, so this method can't find them. In Apupiwe, mortar, well and charcoal have no word; firewood composes (fire + wood). The baby sling shows up only indirectly, through 'carry on the back' (Cantonese, Mandarin, Japanese) and the kanga. Kiswahili and Kigiriama are the most locally adapted lists, and they supply most of the EVERYDAY rows.
+
+## Part 5: regional rebalance (2026-10-13)
+
+16 texts added from the regions the first 20 missed (Tagalog, Yoruba, Tamil, Korean, Bengali, Vietnamese, Persian, Mandarin ×2, Hausa, Amharic, Thai, Indonesian, Hindi, Arabic, Quechua), same method as part2b (one translator per text across sizes; cold readers; two scorers). Exact meaning per size:
+
+| Texts | today | 1,000 | 1,500 | 2,000 |
+|---|---|---|---|---|
+| all (36) | 80.0% | 85.3% | 88.2% | 88.3% |
+| first 01–20 (20) | 84.4% | 88.1% | 90.2% | 89.7% |
+| new 21–36 (16) | 75.3% | 82.2% | 86.0% | 86.8% |
+| East Asia (6) | 75.7% | 81.2% | 84.9% | 86.2% |
+| SE Asia (5) | 83.3% | 90.7% | 92.6% | 93.5% |
+| South Asia (4) | 76.0% | 79.5% | 84.9% | 86.3% |
+| West Asia (4) | 78.1% | 81.1% | 85.2% | 84.6% |
+| Africa (5) | 83.9% | 91.5% | 91.0% | 91.9% |
+| Americas (1) | 51.3% | 69.2% | 79.5% | 79.5% |
+| Europe (11) | 83.6% | 86.8% | 89.5% | 88.0% |
+(Region counts are texts; the Americas have only one text, a Quechua recipe, so that row is noise.)
+
+**What it shows.**
+1. **The size holds.** Over all 36 texts the gains flatten at about 1,500 (80.0 → 85.3 → 88.2 → 88.3%). The new texts start lower (75.3% today vs 84.4%) and gain more at each step, but they also flatten after 1,500 (86.0 → 86.8%).
+2. **The concept list has a non-European blind spot, and it is mostly the kitchen.** The recipes lose most: even at 2,000 roots there is no word for frying, soaking, chopping, rinsing or slicing, and no seasonings beyond salt and onion (garlic is "small white onion", ginger "hot root", chili "hot green fruit"). Text frequency undercounts home cooking everywhere, which is why these sit below the frequency cut.
+3. **What else the translators had to say with phrases** (`part2b/notes-T5`…`T8`): farming (crop, sow, plant, rice paddy), health (disease as a noun, fever, chills), society (fast, monk, elder, naming ceremony), qualities (tasty, necessary, typical), time (recently, annual, a while), and small words (together, "the more… the more", "really").
+4. **The rest of the long tail is culture-bound** (hilsa, phở, jiaozi, pounded yam, teff, ginseng): borrowings under the borrowing rule, not roots.
+5. With the non-European checklist comparison (stage 6), the candidates to add go through the ladders: most pass the deep-layer test as household and daily-life concepts found across cultures.

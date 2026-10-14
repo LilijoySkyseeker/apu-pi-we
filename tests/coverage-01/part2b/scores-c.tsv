@@ -1,0 +1,33 @@
+text	N	units	exact	vaguer	wrong	missing	note
+21	base	40	34	4	1	1	wrong: what colour (question); missing: ma'am (polite address); vaguer: suki / regular customer, blouse, a bit cheaper (comparison), wouldn't offer you (negation)
+21	1000	40	36	3	0	1	missing: ma'am (polite address); vaguer: suki / regular customer, blouse, wouldn't offer you (negation)
+21	1500	40	38	1	0	1	missing: ma'am (polite address); vaguer: blouse
+21	2000	40	37	2	0	1	missing: ma'am (polite address); vaguer: blouse, a bit cheaper (comparison)
+22	base	35	29	6	0	0	vaguer: lunch, festival, love to, turned yam-flour (amala), pounded yam, those he has come to visit (hosts)
+22	1000	35	31	4	0	0	vaguer: lunch, love to, turned yam-flour (amala), pounded yam
+22	1500	35	31	4	0	0	vaguer: lunch, love to, turned yam-flour (amala), pounded yam
+22	2000	35	32	3	0	0	vaguer: love to, turned yam-flour (amala), pounded yam
+23	base	44	36	8	0	0	vaguer: is he not well (question), high fever, don't worry (1), veterinary science, God bless you, livelihood, don't worry (2), inoculated
+23	1000	44	36	8	0	0	vaguer: is he not well (question), high fever, 'cold fever' (diagnosis), don't worry (1), God bless you, livelihood, don't worry (2), inoculated
+23	1500	44	42	2	0	0	vaguer: is he not well (question), God bless you
+23	2000	44	42	2	0	0	vaguer: is he not well (question), God bless you
+24	base	56	40	14	1	1	wrong: painting; missing: valley; vaguer: rural, farmers (in the valley), spring, plowing, ground plowed (2nd mention), sowing, Korean farmers, agricultural (products), ginseng, tobacco, farm product, textile raw materials, silkworms, Korean silk
+24	1000	56	41	15	0	0	vaguer: rural, farmers (in the valley), valley, foot of that mountain, painting, plowing, ground plowed (2nd mention), sowing, Korean farmers, agricultural (products), ginseng, tobacco, textile raw materials, silkworms, Korean silk
+24	1500	56	47	8	0	1	missing: foot of that mountain; vaguer: painting, plowing, ground plowed (2nd mention), agricultural (products), ginseng, tobacco, silkworms, Korean silk
+24	2000	56	51	4	0	1	missing: foot of that mountain; vaguer: painting, ground plowed (2nd mention), agricultural (products), ginseng
+25	base	37	30	7	0	0	vaguer: hilsa, other Indian states, imported, brand name, article, gallery, paragraph
+25	1000	37	32	5	0	0	vaguer: hilsa, imported, brand name, gallery, paragraph
+25	1500	37	32	5	0	0	vaguer: hilsa, imported, brand name, gallery, paragraph
+25	2000	37	34	3	0	0	vaguer: hilsa, gallery, paragraph
+26	base	35	26	8	1	0	wrong: the section 'Pho in Hanoi'; vaguer: 'very much a stub' (label), put a template on, article, pho, always, bowl, the missus (wife), wife (in saying)
+26	1000	35	29	6	0	0	vaguer: 'very much a stub' (label), put a template on, pho, always, the missus (wife), wife (in saying)
+26	1500	35	28	7	0	0	vaguer: 'very much a stub' (label), put a template on, pho, always, the section 'Pho in Hanoi', the missus (wife), wife (in saying)
+26	2000	35	29	6	0	0	vaguer: 'very much a stub' (label), put a template on, pho, always, the missus (wife), wife (in saying)
+27	base	33	28	5	0	0	vaguer: article, original name, dish, including the Turks (subset relation), media
+27	1000	33	29	4	0	0	vaguer: original name, dish, including the Turks (subset relation), media
+27	1500	33	31	2	0	0	vaguer: dish, including the Turks (subset relation)
+27	2000	33	30	3	0	0	vaguer: only usual in Iran, dish, abgoosht is obsolete
+28	base	31	21	9	0	1	missing: clearly; vaguer: jiaozi, guotie (pan-fried dumplings), article, wrap (wontons), wontons, square, shaomai, noodle soup, noodles
+28	1000	31	22	8	0	1	missing: clearly; vaguer: jiaozi, guotie (pan-fried dumplings), wrap (wontons), wontons, square, shaomai, noodle soup, noodles
+28	1500	31	23	8	0	0	vaguer: jiaozi, guotie (pan-fried dumplings), clearly, wrap (wontons), wontons, shaomai, noodle soup, noodles
+28	2000	31	23	8	0	0	vaguer: jiaozi, guotie (pan-fried dumplings), clearly, wrap (wontons), wontons, shaomai, noodle soup, noodles
