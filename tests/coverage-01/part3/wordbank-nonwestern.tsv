@@ -1,0 +1,152 @@
+concept	category	checklists	apupiwe_now	note
+chili pepper	food	Swa,Kig,Cmn,Heb,Fas | EU 0/21 (chili 1)	none	EVERYDAY: the staple seasoning of homes across Africa, South and East Asia, Latin America; also lost in the Part 2 translations (pepper, RESULTS.md)
+spicy (hot-tasting)	food	Can,Cmn,Jpn,Kor | EU 0/21	none (hot is temperature only)	EVERYDAY: a basic taste word in chili-eating households (four checklists, a descriptive word on each)
+noodles	food	Can,Cmn,Jpn,Kor; Swa,Kig tambi under pasta | EU 6/21 (as pasta)	none (pasta: borrow/phrase, loan failed)	EVERYDAY: staple of East and Southeast Asia, common in East Africa; wordbank-final already says noodles is the shared concept, pasta the Italian dish
+flatbread (chapati, pita, nan)	food	Swa,Kig chapati; Heb pita; Fas nan under bread | EU 0/21 (tortilla 1)	phrase (bread + flat, both roots)	EVERYDAY: the daily bread of South and Central Asia, the Middle East, East Africa, Mexico; bread covers it if context allows
+stiff staple porridge (ugali, sima, wari)	food	Swa,Kig (gloss 'thick porridge', uni_lemma porridge) | EU 0/21 as a staple	planned root (porridge)	EVERYDAY: the main dish of East, Southern and West Africa (ugali, nsima, fufu, tô); 'porridge' fits loosely (it is eaten by hand with relish, not with a spoon)
+rice porridge (congee, uji)	food	Can,Cmn; Swa,Kig uji under porridge | EU 14/21 (porridge)	planned root (porridge)	EVERYDAY: covered by porridge; listed so the porridge root's definition includes rice and maize gruels
+stew or relish eaten with the staple	food	Fas khoresh; Swa mchuzi (soup/sauce); Jpn curry | EU 1/21 (stew)	partial: soup planned root, sauce planned loan	EVERYDAY: the rice/bread/porridge + stew meal is the everyday pattern in Africa, South Asia, Iran; check soup/sauce cover 'curry, stew, relish'
+flour	food	Cmn; Swa,Kig unga (maize flour) | EU 0/21	none (phrase: ground grain; grind is a root, grain planned)	EVERYDAY: home cooking staple everywhere; unga is the word for maize meal across East Africa
+cassava	food	Swa,Kig | EU 0/21	root tuber covers the kind	EVERYDAY: staple in Africa, South America, Southeast Asia; tuber is a root, a specific name may still be wanted
+sweet potato	food	Jpn,Kor | EU 1/21	phrase (sweet + potato, planned root; or tuber)	EVERYDAY: common staple across Africa, East Asia, the Pacific
+coconut	food	Swa,Kig (nazi, madafu) | EU 0/21	none	EVERYDAY: food, drink, oil and material on tropical coasts of Asia, Africa, the Pacific, the Caribbean
+mango	food	Swa,Kig,Can | EU 1/21	none	EVERYDAY: the common fruit of the tropics (South Asia, Africa, Southeast Asia, Latin America)
+papaya	food	Swa,Kig,Cmn | EU 1/21	none	regional: tropical fruit; less central than mango
+peanut (groundnut)	food	Swa,Kor,Cmn; Kig under nut; Tur fıstık | EU 3/21	phrase (nut planned root + ground)	EVERYDAY: staple food and oil in West and East Africa, South and East Asia
+leafy greens (sukuma wiki, spinach)	food	Kig,Swa sukuma (kale); Jpn,Cmn,Tur spinach | EU 1/21 kale, 5/21 spinach	phrase (leaf + vegetable, planned)	EVERYDAY: cooked greens are the daily relish in much of Africa and Asia
+sour milk, yogurt drink (maziwa lala, ayran, doogh)	food	Swa,Kig sour milk; Tur ayran; Fas doogh; Heb leben under yogurt | EU 1/21	phrase (sour + milk, both roots); yogurt is borrow/phrase	EVERYDAY: everyday drink of pastoral and Middle Eastern homes (also lassi, kefir); the phrase works, as Chinese suannai
+ginger	food	Can,Swa,Kig | EU 0/21	none	EVERYDAY: seasoning and tea ingredient across Asia and Africa
+shrimp, prawn	food	Can,Cmn,Jpn | EU 0/21	none	EVERYDAY: everyday food on Asian, African and Latin American coasts
+chickpea	food	Tur,Fas | EU 0/21	phrase (bean planned root)	EVERYDAY: pulse of the Middle East, South Asia (chana), North Africa; bean may cover it
+eggplant	food	Jpn | EU 0/21	none	EVERYDAY (weak evidence, one checklist): brinjal is a daily vegetable in South Asia, the Middle East, East Asia, West Africa
+lemon, lime	food	Cmn,Fas,Tur | EU 5/21	none	EVERYDAY: also lost at every root-list size in Part 2 (RESULTS.md)
+fried dough snack (mandazi, youtiao, donut)	food	Swa mahamri/maandazi under bun; Cmn youtiao; Jpn,Kor donut | EU 5/21	none (fry is not a root either)	regional to EVERYDAY: common street breakfast in East and West Africa, China, Latin America
+dumpling (filled)	food	Can,Cmn,Kig | EU 4/21	none	regional: East and Central Asia (jiaozi, manti, momo)
+steamed bun (mantou, baozi)	food	Cmn under bun | EU 10/21 (bun)	phrase (bun = sowe meli)	regional: covered by the bun phrase
+pilau, biryani, pilaf	food	Swa,Kig pilau, biriani; Fas polo; Tur pilav, all under rice | EU 0/21 as a dish	root rice	regional: spiced rice of Iran, Central and South Asia, East Africa; rice covers the everyday sense
+soy sauce	food	Can,Cmn,Jpn | EU 0/21	none (phrase: bean sauce)	regional: East and Southeast Asia
+tofu	food	Can,Cmn,Jpn | EU 0/21	none (phrase: bean + soft/milk)	regional: East and Southeast Asia
+soy milk	food	Cmn | EU 0/21	phrase (bean + milk)	regional: East Asia
+radish (daikon)	food	Jpn,Kor; Can lobak under carrot | EU 0/21	none	regional: East Asia
+seaweed	food	Jpn,Kor | EU 0/21	none	regional: East Asia
+persimmon	food	Jpn,Kor | EU 1/21	none	regional: East Asia
+pomegranate	food	Fas,Tur | EU 0/21	none	regional: Middle East, Central and South Asia
+olive	food	Heb,Tur | EU 3/21	none	regional: Mediterranean and Middle East
+samosa	food	Swa,Kig | EU 0/21	none	regional: South Asia, East Africa, Middle East
+kebab, grilled meat	food	Fas | EU 0/21	phrase (meat + burn/cook)	regional: Middle East, Central and South Asia
+small dried fish (omena, kumbu)	food	Swa,Kig (sardine) | EU 0/21	phrase (small fish)	regional: Lake Victoria and the coast
+palm wine, home brew	food	Swa tembo/pombe; Kig uchi | EU 0/21	planned root alcohol (loan failed)	regional: palm wine is everyday in coastal East and West Africa; alcohol covers it
+avocado	food	Swa,Kig | EU 1/21	none	regional: tropical
+guava	food	Cmn | EU 0/21	none	regional: tropical
+apricot	food	Tur | EU 0/21	none	regional
+almond, pistachio, walnut, hazelnut	food	Fas,Tur | EU 0-3/21	planned root nut	regional: Iran and Turkey; nut covers them
+mixed nuts and dried fruit (ajil)	food	Fas | EU 0/21	phrase	local: Iranian
+fresh herbs eaten with meals (sabzi)	food	Fas | EU 0/21	none	local: Iranian
+sugar lump (qand)	food	Fas | EU 0/21	phrase (sugar, planned loan)	local: Iranian tea custom
+mulberry, sour cherry	food	Fas | EU 0/21	none	local
+milk tea	food	Cmn under tea | EU 0/21	phrase (milk + tea)	regional: East and South Asia (chai)
+scallion, green onion	food	Cmn; Can cung under onion | EU 0/21	root onion	regional: onion covers it
+bean sprouts	food	Cmn | EU 0/21	phrase	local
+vinegar	food	Cmn | EU 0/21	none	general: in kitchens everywhere, Europe included
+pork, beef	food	Can | EU 0/21	phrase (pig/cow + meat)	general: composable
+vegetable	food	Can,Cmn,Jpn | EU 4/21	planned root	general
+onion	food	Can,Fas,Tur | EU 3/21	root (lengu)	general
+omelet	food	Heb | EU 0/21	phrase (egg)	general
+pickle	food	Heb | EU 3/21	none	general
+ketchup	food	Cmn,Tur | EU 1/21	phrase (tomato sauce)	general: commercial product
+peach, cherry, mushroom, pumpkin, kiwi, tuna, meatball	food	Jpn,Kor,Cmn,Can,Fas,Heb,Tur | EU 4-5/21	none	general: European foods that most European checklists happen to omit
+rice cake, rice ball, rice cracker (tteok, onigiri, senbei)	food	Kor,Jpn | EU 0/21	phrase (rice + cake/ball)	local: East Asian named dishes
+named dishes: kimchi, natto, sushi, dim sum, char siu, cheung fun, fish balls, siu mai, dan bing, tanghulu, tarhana, dolma, lokum, simit, aash, abgoosht, schnitzel, ptitim, kitumbua, kaimati, potatoes in soup	food	one checklist each | EU 0/21	none	local: names, loans when needed
+brand snacks: bamba, pocky, cheetos (pofak), yakult, hot dog, jello, nuggets	food	Heb,Jpn,Fas,Cmn,Kor,Can | EU 0-4/21	none	local: brands
+mat (sleeping or sitting mat)	household	Swa,Kig mkeka | EU 3/21 (mat, rug)	planned root carpet ('mats and rugs', wordbank-final 227)	EVERYDAY: floor mats for sitting, eating and sleeping across Africa, South and Southeast Asia, the Middle East; check that carpet's definition says mat, not only rug
+mattress, floor bedding (godoro, futon)	household	Swa,Kig godoro under bed; Jpn futon; Tur yorgan quilt | EU 0/21	root bed covers it loosely	EVERYDAY: a mattress or bedroll on the floor is the bed in many homes; bed probably enough
+chopsticks	household	Can,Cmn,Jpn,Kor | EU 1/21	none	EVERYDAY: the eating tool of a fifth of the world's homes; four of ten non-European checklists, the clearest gap after chili
+basin, washbasin (karai, pen)	household	Can,Cmn; Swa,Kig beseni/karai under dish, sink | EU 0/21	none (bowl, bucket, sink are planned roots)	EVERYDAY: the portable basin for washing, laundry and carrying water is in homes without plumbing everywhere; bowl or bucket may stretch to it
+tray (metal tray, sinia)	household	Swa,Kig sinia; Kor,Heb tray; Fas sini | EU 7/21	none	EVERYDAY: serving and winnowing tray across Africa, the Middle East, Asia; on a third of European lists too
+kettle, teapot	household	Can,Tur,Fas (ghuri, ketri) | EU 2-3/21	none (pot planned root; tea planned loan)	EVERYDAY: tea homes from Turkey and Iran to China and East Africa; phrase 'tea pot' likely enough
+jug, pitcher	household	Swa,Kig jagi; Fas parch | EU 4/21	phrase (bottle/cup planned)	regional
+cooking stick (mwiko)	household	Swa,Kig | EU 0/21	none (spoon planned root)	EVERYDAY: the stirring stick for stiff porridge (ugali, fufu, nsima); 'wood spoon' phrase works
+coconut grater (mbuzi)	household	Swa,Kig | EU 0/21	none	regional: coastal East Africa, South and Southeast Asia (a stool with a blade); phrase 'coconut + grind' needs coconut
+coconut shell, copra (kifuu)	household	Swa,Kig | EU 0/21	none	regional: used as cup, scoop and toy on tropical coasts
+kerosene or tin lamp (koroboi, kibatari)	household	Swa,Kig under lamp | EU 19/21 (lamp)	planned loan lamp	EVERYDAY: the light of off-grid homes; lamp covers it
+electric fan, hand fan	household	Can,Cmn,Jpn | EU 0/21	planned root fan (device)	EVERYDAY in hot climates; already planned
+air conditioner	household	Can,Cmn,Jpn | EU 0/21	none (phrase: cold + machine)	regional: hot-climate towns
+rice cooker, electric pot	household	Can fan bou; Cmn dian guo | EU 0/21	phrase (rice + pot)	regional: East and Southeast Asia
+wok	household	Can | EU 0/21	none (pot planned)	regional: East and Southeast Asia
+thermos flask	household	Cmn under bottle | EU 0/21	phrase (hot + bottle)	regional: China, also Iran and Africa
+samovar	household	Fas | EU 0/21	none	local: Iran, Turkey, Russia
+curtain	household	Heb,Jpn,Fas,Tur | EU 1/21	none	general: curtains are common worldwide; four non-European lists name them
+clothes hanger	household	Can,Kor | EU 1/21	none	general
+drinking straw	household	Cmn,Jpn | EU 0/21	none	general
+tin can (mkebe)	household	Swa,Kig | EU 1/21	none (box root)	general: also used as cup and lamp body
+rag, floor cloth	household	Jpn,Kor,Cmn | EU 5/21	root cloth	general
+thread	household	Fas | EU 0/21	none (needle planned)	general: odd gap, needle planned but not thread (rope root may stretch)
+matches	household	Fas | EU 1/21	planned root match (fire)	general
+candle	household	Fas | EU 4/21	none	general
+cotton	household	Tur | EU 0/21	none	general
+frying pan	household	Heb,Jpn | EU 1-3/21	planned root pot	general
+remote control	household	Swa,Kig,Cmn,Tur | EU 2/21	none	general: four non-European lists, modern
+ruler, eraser	household	Can,Fas | EU 0/21	none	general: school things
+screw, screwdriver, plug, stereo, voice recorder, CD, VCD player, iPhone	household	Fas,Cmn,Can | EU 0-4/21	none	general: modern objects; built words
+school bag	household	Can | EU 0/21	phrase (bag)	general
+dustpan	household	Cmn | EU 2/21	none	general
+salt shaker, tablecloth, shutter, shoe rack, coffee table	household	Fas,Heb,Jpn,Tur | EU 0/21	none	general/local: furniture of particular home styles
+bath scrub mitt (lif)	household	Fas | EU 0/21	none	local: Iranian and Turkish bathing
+tatami, kotatsu	household	Jpn | EU 0/21	none	local: Japanese
+cockroach	animals	Can,Cmn,Swa,Kig | EU 3/21	none	EVERYDAY: the household pest of warm-climate homes everywhere; insect covers the kind
+lizard, gecko	animals	Swa,Kig | EU 3/21	none	EVERYDAY: geckos on the walls of tropical houses; snake and insect are roots, lizard is not
+camel	animals	Cmn,Fas,Tur | EU 4/21	none	EVERYDAY in drylands (Sahel, Horn of Africa, Arabia, Iran, Central Asia, Rajasthan); regional-wide
+bedbug	animals	Swa,Kig | EU 0/21	phrase (louse root; bed + insect)	regional
+millipede	animals	Swa,Kig | EU 0/21	phrase (worm/insect)	regional: tropical
+crab	animals	Can,Cmn,Jpn,Fas | EU 0/21	none	general: common everywhere, Europe included
+shark	animals	Swa,Kig,Cmn | EU 0/21	none	general
+eagle, hawk	animals	Cmn,Fas,Tur | EU 0/21	none	general
+parrot	animals	Cmn,Heb,Fas,Tur | EU 3/21	none	general
+pigeon, dove	animals	Can,Cmn,Heb,Jpn,Kor,Fas | EU 5/21	none	general: six non-European lists; pigeons are kept and fed in towns from Iran to China
+crow	animals	Cmn,Jpn,Fas,Tur,Swa,Kig | EU 5/21	none	general: six non-European lists (Indian house crow on the Swahili coast)
+sparrow, magpie, swallow, stork, nightingale (bulbul)	animals	Kor,Fas,Cmn,Tur | EU 0-4/21	none (bird root)	general/local
+dragonfly, cricket, beetle, caterpillar	animals	Can,Cmn,Heb,Fas | EU 0-3/21	none (insect root)	general
+peacock	animals	Cmn,Heb | EU 0/21	none	regional: South Asia (national bird of India)
+alligator, dinosaur, whale, dolphin, clam	animals	Can,Cmn,Heb,Jpn,Kor | EU 0-4/21	crocodile planned	general
+panda, gorilla, koala, raccoon dog, gazelle, leopard	animals	Can,Cmn,Jpn,Fas | EU 0-2/21	none	local: region-bound species (same class as giraffe, zebra)
+baby animal (yavru), calf	animals	Tur,Kor | EU 0-3/21	phrase (child + animal)	general
+palm of the hand	body	Can,Swa,Kig | EU 3/21	phrase (hand + inside/face)	general
+waist, hip, wrist, heel, elbow, fist, eyebrow, eyelash, thumb, mustache	body	Kor,Fas,Can,Tur,Heb,Jpn | EU 0-5/21	none	general: body parts European checklists omit; human everywhere, not a Western gap
+injury, wound	body	Jpn | EU 0/21	planned root wound	general
+wrapper cloth (kanga, leso, kikoi; sarong, lungi)	clothing	Swa,Kig (kanga, leso, kikoi; leso under dress, kikoi under scarf) | EU 0/21	root cloth (demi) covers it loosely	EVERYDAY: the all-purpose wrap of East and West Africa, South and Southeast Asia: skirt, shawl, baby sling, carrying pad; also how most of the world carries babies (see 'carry on the back')
+headscarf, veil (hijab, buibui, chador, manto)	clothing	Swa,Kig hijab, buibui; Fas chador, manto | EU 1/21 (shawl)	phrase (head + scarf, scarf planned root)	EVERYDAY: worn in most Muslim households and many African and South Asian ones
+bracelet, bangle	clothing	Swa,Kig,Fas,Tur | EU 1/21	none (ring planned root)	EVERYDAY: bangles in South Asian, African and Middle Eastern homes, worn from infancy
+earring	clothing	Swa,Kig,Tur,Fas | EU 2/21	none	EVERYDAY: girls' ears pierced in infancy across South Asia, Africa, the Middle East, Latin America
+apron	clothing	Heb,Jpn,Fas | EU 1/21	none	general
+vest, undershirt, petticoat	clothing	Can,Cmn,Heb,Tur,Swa,Kig | EU 2-3/21	none (shirt planned)	general
+helmet	clothing	Cmn | EU 0/21	phrase (head + hard)	general: motorbike helmet
+sleeve, pin, ribbon, hair clip, hair band, raincoat, dress shoes, sweatpants	clothing	Cmn,Fas,Jpn,Tur,Kor,Heb | EU 0-2/21	none	general
+older vs younger sibling	people	Can,Cmn,Jpn,Kor (gege, didi, oppa, eonni...); Swa,Kig ndugu | EU 0/21 as separate words	phrase (sibling root faba + old/young)	EVERYDAY: obligatory in East and Southeast Asian, many African and South Asian languages; method 3.1 composes kinship, so faba + age is the expected form; flag that it gets used often
+maternal vs paternal grandparent, aunt, uncle	people	Can,Cmn (waipo/nainai), Tur (anneanne/babaanne, hala/teyze, amca/dayı), Kor (gomo/imo), Swa,Kig (mjomba vs baba mdogo), all under grandma/aunt/uncle | EU 0/21 as separate words	phrase (kinship composed, side always stated: mole pi mole / mole pi wede)	EVERYDAY: already decided; the non-European lists confirm 'side always stated'
+older/younger parent's sibling (baba mkubwa, baba mdogo; bobo, shushu)	people	Swa,Kig,Cmn | EU 0/21	phrase (faba pi wede + old/young)	EVERYDAY: same as above
+respectful address to elders, auntie/uncle for non-kin (dama, shikamoo)	people	Cmn dama; Swa,Kig shikamoo greeting | EU 0/21	root 'honoured one' (title of respect)	EVERYDAY: covered by the honorific root
+herder	people	Swa,Kig | EU 0/21	none (phrase: one who keeps animals; keep is a root)	EVERYDAY: in pastoral and farming homes across Africa and Asia
+farmer	people	Swa,Kig | EU 3/21	planned phrase no farm	EVERYDAY: covered
+house help, nanny (yaya, mkazi)	people	Swa,Kig; Heb metapelet under babysitter | EU 0/21	planned root servant	regional
+craftsman, repairman (fundi, tamirci)	people	Swa,Kig,Tur | EU 0/21	planned root expert	general
+palm-wine tapper (mgema)	people	Swa,Kig | EU 0/21	none	local
+driver	people	Can,Cmn,Jpn,Fas | EU 0/21	planned phrase no drive	general
+neighbour	people	Heb,Tur | EU 1/21	phrase (compounds.tsv)	general
+adult, boss, engineer, soldier, thief, king, prince, princess, barber	people	Kor,Cmn,Fas,Tur,Jpn | EU 0-2/21	mostly planned or phrase	general
+God (Allah)	people	Fas | EU 0/21	root god	general
+cartoon characters (Hello Kitty, Pikachu, Sun Wukong, Zhu Bajie, Anpanman, Mickey, Donald)	people	Can,Cmn,Jpn | EU 0/21	names	local
+market, bazaar	places	Tur pazar, çarşı, bakkal; Kor sijang; Heb makolet; Swa,Kig uwanjani (compound) | EU 6/21	planned root market	EVERYDAY: the open market is where most households shop; already planned
+village	places	Tur köy under town | EU 7/21	planned root village	EVERYDAY: covered
+mosque	places	Fas,Tur,Swa,Kig (msikiti beside kanisa) | EU 0/21 (all under church)	tradition word (mosque, religion decision)	EVERYDAY: in Muslim households; each tradition's own word
+temple	places	Kor jeol under church | EU 0/21	planned root temple	EVERYDAY: covered
+Quran school (madrasa, chuo)	places	Swa,Kig | EU 0/21	phrase (school + tradition word)	regional: daily for many Muslim children
+veranda, baraza (sitting platform at the front of the house)	places	Jpn,Kig,Swa baraza; Heb,Fas porch (ivan) | EU 0-3/21	planned loan balcony (loosely)	EVERYDAY: the shaded front porch where tropical households sit, receive guests and children play; balcony means an upper-floor platform, so check it covers this
+courtyard, compound (uani, bomani, uwanjani)	places	Swa,Kig | EU 0/21	planned root yard (courtyard)	EVERYDAY: covered by yard; note the ladder's 'compound' is the abstract sense
+the bush, wild land (mwituni, tsakani)	outside	Swa,Kig | EU 0/21	planned roots forest, countryside; root field	regional
+hoe	outside	Kig jembe; Swa jembe under spade | EU 0/21 (spade 6)	planned root spade (loosely)	EVERYDAY: the main farming tool in Africa and much of Asia; a hoe is not a spade, dig is a root
+machete (panga)	outside	Swa,Kig | EU 0/21	none (knife planned)	EVERYDAY: the everyday cutting tool in Africa, Southeast Asia, Latin America; 'big knife' phrase possible
+water pipe, tap (mfereji)	outside	Swa,Kig,Cmn | EU 2/21	planned root pipe	general
+alley, lane (kuche)	outside	Fas | EU 0/21	root road	general
+coast, shore	outside	Fas; Swa,Kig pwani under beach | EU 0/21	planned root beach	general
+bus stop, station, traffic light, crosswalk, parking lot, elevator, apartment, mall, amusement park, post office, company, daycare	places	Can,Cmn,Heb,Kor,Jpn,Tur | EU 0-4/21	mostly none or phrase	general: town life; East Asian lists are urban
+wedding	places	Tur | EU 0/21	root marry, wedding	general
