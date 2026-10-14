@@ -24,14 +24,14 @@ Words in the same row share a position. A word can stand in several rows. Operat
 
 ## 2. Measured: who can replace whom (GF substitution, `positions.py`)
 
-In 321 parsed frames (reference examples and UDHR sentences), each short word was replaced by every other short word and re-parsed. A pair shares a position if either replaces the other in at least one frame with a full-sentence reading. Result: 1889 of 2278 pairs (MODMOD: frames in `modmod.tsv`). Together with section 1: 1956 pairs. The hard rule (no merger) applies to all of them; the confusion cost weighs each pair by its pooled substitution share (how often the swap still parses).
+In 322 parsed frames (reference examples and UDHR sentences), each short word was replaced by every other short word and re-parsed. A pair shares a position if either replaces the other in at least one frame with a full-sentence reading. Result: 1890 of 2278 pairs (MODMOD: frames in `modmod.tsv`). Together with section 1: 1956 pairs. The hard rule (no merger) applies to all of them; the confusion cost weighs each pair by its pooled substitution share (how often the swap still parses).
 
 Per word: corpus contexts (frames where it stands), how many of the other 67 words share a position with it, and the words that never do.
 
 | word | contexts | shares with | never shares with |
 |---|---|---|---|
 | ALL **we** | 37 | 67 |  |
-| WITH **gan** | 21 | 67 |  |
+| WITH **gan** | 22 | 67 |  |
 | FOR **li** | 73 | 67 |  |
 | ALSO **fe** | 49 | 67 |  |
 | INTEND **de** | 1 | 66 | MODMOD |
@@ -105,7 +105,7 @@ Operators: short words that can stand where each operator stands (GF substitutio
 - **wanme** (first syllable **wan**): 17 words
 - **inwun** (first syllable **in**): 17 words
 - **wemen** (first syllable **we**): 17 words
-- **konsin** (first syllable **kon**): 15 words
+- **konsin** (first syllable **kon**): 38 words
 - **nedin** (first syllable **ne**): 10 words
 - **tason** (first syllable **ta**): 10 words
 - **mesun** (first syllable **me**): 39 words

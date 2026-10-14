@@ -4,7 +4,7 @@ Question: rebuilt from scratch under the corrected rules the author approved on 
 
 ## Progress (resume here)
 
-- [x] `positions.py`: GF substitution test (72,236 parses, about 25 min on 14 cores) → `substitution.tsv`, `frames.txt`; bigrams → `adjacency.tsv`, `corpus-counts.tsv`; `positions.py modmod` → `modmod.tsv`; `positions.py operators` → `operators-extra.tsv`
+- [x] `positions.py`: GF substitution test (72,302 parses, about 30 min on 14 cores; rerun 2026-10-13 22:40 on the grammar after "Grammar gap 1/2", which added one shared pair, **wi~sun**, and moved scores in the third decimal) → `substitution.tsv`, `frames.txt`; bigrams → `adjacency.tsv`, `corpus-counts.tsv`; `positions.py modmod` → `modmod.tsv`; `positions.py operators` → `operators-extra.tsv`
 - [x] `rebuild.py`: rules, robust objective, annealer; `full` (both offensive modes), `patch`, the keep sweep, `report` → `results.txt`, `forms.tsv`; `positions` → `positions.md`
 - [x] findings below
 - [ ] author: the decisions at the end (offensive rule, which option, the name)
@@ -24,14 +24,14 @@ Annealing runs take 1–5 minutes each. I ran 12–16 seeds per option in parall
 
 | option | words changed (of 67 existing) | robust score (lower is better) | merger pairs | offensive.py matches | the name |
 |---|---|---|---|---|---|
-| today (MODMOD at its best free form) | 0 | **0.689** | 13 (+5 vowel-only words) | 35 | apu pi we |
-| **full rebuild**, offensive matches kept to a minimum (rule 6 as close as it can be met) | 66 | **0.312** | 0 | 17 | apu lu nan |
-| full rebuild, offensive as a tie-breaker (goal C3) | 67 | **0.223** | 0 | 36 | apu wun fon |
-| middle: keep today's form unless a change buys ≥ 0.02 (C3) | 26 | 0.328 | 0 | 39 | apu ma yin |
-| middle: the same at ≥ 0.04 (C3) | 18 | 0.375 | 0 | 37 | apu fun we |
-| **minimal patch** (every merger pair removed, rule 3 met) | 12 | **0.579** | 0 | 35 | apu pan we |
+| today (MODMOD at its best free form) | 0 | **0.691** | 13 (+5 vowel-only words) | 35 | apu pi we |
+| **full rebuild**, offensive matches kept to a minimum (rule 6 as close as it can be met) | 66 | **0.313** | 0 | 17 | apu lu nan |
+| full rebuild, offensive as a tie-breaker (goal C3) | 67 | **0.224** | 0 | 36 | apu wun fon |
+| middle: keep today's form unless a change buys ≥ 0.02 (C3) | 26 | 0.330 | 0 | 39 | apu ma yin |
+| middle: the same at ≥ 0.04 (C3) | 18 | 0.376 | 0 | 37 | apu fun we |
+| **minimal patch** (every merger pair removed, rule 3 met) | 12 | **0.582** | 0 | 35 | apu pan we |
 | minimal patch that keeps **pi** | 13 | 0.572 | 0 | 35 | **apu pi we** |
-| minimal patch without rule 3 (leaves **in** vowel-only) | 11 | 0.576 | 0 | 34 | apu pan we |
+| minimal patch without rule 3 (leaves **in** vowel-only) | 11 | 0.577 | 0 | 34 | apu pan we |
 
 The robust score is the mean of the worst quarter of the 48 model variants (best, 32 Latin-hypercube draws, 14 corners, v1). Each variant's cost (word confusion plus junction misparses) is divided by that variant's median over 400 random layers, so 1.0 is a random layer. MODMOD is new in every option and isn't counted as a change.
 
@@ -51,7 +51,7 @@ Each part with its source; **added** marks a choice I made, so check those first
 | H3 no two short words share a form | rule 6 forbids same-slot homophones; I also forbid cross-slot ones, as today (**added**: today's layer has none, and 86% of pairs share a position anyway) |
 | H4 two words sharing a position never differ only by voicing, f/p, glide vs none, or final -n | rule 2 (author); merger definitions as `tests/shortwords-01/analysis.py` (f~b isn't a merger there or here) |
 | positions: named table (`positions.md` §1) ∪ GF substitution (§2) ∪ MODMOD frames | rule 1 (author). Table from reference 4.1, 4.3, 4.4, 5, 6, 7, 10, 13 and `grammar/Apupiwe.gf` categories; digits share the number slot with determiners (rule 4) |
-| GF substitution: in 321 parsed frames (all reference examples, UDHR sentences ≤ 16 tokens), every short word replaced by every other; a pair shares a position if the swapped sentence still has a full (non-fragment) parse | **added** method for "real co-occurrence" |
+| GF substitution: in 322 parsed frames (all reference examples, UDHR sentences ≤ 16 tokens), every short word replaced by every other; a pair shares a position if the swapped sentence still has a full (non-fragment) parse | **added** method for "real co-occurrence" |
 | adjacency: short-word bigrams with no pause between, in the reference examples + UDHR (219 pairs, counts) | rule 5 (author); corpus choice **added** (the stories in `texts/` use old vocabulary, so they're left out) |
 | robust objective: CVaR 0.25 over `confusion2.variants()`, cost / random-layer median | rule 5; `research/notes/confusion-data.md` §6.2–6.3 |
 | word confusion: Σ W_ab f_a P_v(a heard as b), word-initial syllable matrix | §6.2 ("frequency × stakes × confusion") |
@@ -72,7 +72,7 @@ Not done (add-back triggers): the §6.6 hold-out check (optimize on half the var
 Full table: `positions.md` (named positions with rule ids, per-word sharing, operators, bigrams). Summary:
 
 - **15 named positions** (`positions.md` §1): call, linker, relation word, topic, if/when + trailing clause, speech act + politeness, clause operator, noun-phrase start (34 words: pronouns, derivation markers, **en**, determiners alone, digits, phrase operators), before the verb (10), after a content modifier (MODMOD), number slot (16: digits, **la**, determiners, **nen**), after the noun phrase (**pi**, **man**), joining words, number after **kon/mena/fu**, stance.
-- **Measured, the grammar lets almost any short word stand where almost any other stands.** In real sentences 1,889 of 2,278 pairs (83%) can replace each other with the sentence still parsing as a full sentence; with the table, 1,956 (86%). That's the isolating design at work: content words take any role, subjects and objects can be left out, and fragments are sentences. A misheard grammar word usually gives another grammatical sentence. Only a few words are fenced off: **kon** and **a** share a position with few others; **ba, fon, yo, nun, un** with about half.
+- **Measured, the grammar lets almost any short word stand where almost any other stands.** In real sentences 1,890 of 2,278 pairs (83%) can replace each other with the sentence still parsing as a full sentence; with the table, 1,956 (86%). That's the isolating design at work: content words take any role, subjects and objects can be left out, and fragments are sentences. A misheard grammar word usually gives another grammatical sentence. Only a few words are fenced off: **kon** and **a** share a position with few others; **ba, fon, yo, nun, un** with about half.
 - So rule 2 applies to nearly every pair. It still fits: the merger relation isn't transitive (**pa~ba** and **pa~fa** merge, **ba~fa** don't; **pan~ban** merge, **pa~ban** don't), so a merger-free layer exists even with every pair sharing a position. I checked it feasible at every threshold down to "any shared context".
 - Operators: by GF, **mesun** and **mena** share positions with **me** "you" (today's clash). **wanme/inwun/wemen** don't share with **wan/in/we** (`wan wan obu` doesn't parse), so the desk analysis's juncture worry about them isn't a same-position clash.
 
@@ -177,7 +177,7 @@ Every option removes every merger pair. The patches leave model v2's pairs that 
 
 ## Constraints that can't all be met
 
-1. **No offensive forms (rule 6) can't be met.** `offensive.blocked` matches 80 of the 140 one-syllable forms, 77 of the 130 with an onset, which leaves 53 forms for 68 words. At least 15 words must take a matching form; minimising them reaches 17. Many one-syllable matches are noise: English initialisms (*FA*, *FY*, *FU*), pronunciation spellings (*buh*, *nuh*), a Thai sentence particle (*wa*). Forcing the count down costs score: 0.312 against 0.223 with offensive as a tie-breaker, the role goal C3 gives it ("never overrides a cheaper or clearer form"). The tools treat it as a block, the goal as a tie-breaker; the two need reconciling.
+1. **No offensive forms (rule 6) can't be met.** `offensive.blocked` matches 80 of the 140 one-syllable forms, 77 of the 130 with an onset, which leaves 53 forms for 68 words. At least 15 words must take a matching form; minimising them reaches 17. Many one-syllable matches are noise: English initialisms (*FA*, *FY*, *FU*), pronunciation spellings (*buh*, *nuh*), a Thai sentence particle (*wa*). Forcing the count down costs score: 0.313 against 0.224 with offensive as a tie-breaker, the role goal C3 gives it ("never overrides a cheaper or clearer form"). The tools treat it as a block, the goal as a tie-breaker; the two need reconciling.
 2. **"Differ by more than one feature where the space allows" (rule 2b)** can only be approached. With 86% of pairs sharing a position, about 5–36 one-feature pairs remain (today 75).
 3. **Digits and content words (rule 4) clash with today's lexicon.** Content words that would begin with a new digit syllable: full 30, full-c3 37, mid-26 24, mid-18 14 (**yo-, fe-, la-, ti-, mu-, su-** …; `results.txt`); the patch none (its 2 hits, **polisu** and **kamela**, are loans, which are exempt); the pi-keeping patch 5 (**ku-**: **kudu kusa kuwi kubo kuwun**, from 1 → **ku**). Those roots would need new forms; the planned joint placement of all roots does that anyway.
 4. **Rule 1 as literally stated is weak:** "can stand in the same slot" holds for 86% of pairs. The hard rule is applied to all of them (it fits); the cost is graded by how often each pair substitutes.
