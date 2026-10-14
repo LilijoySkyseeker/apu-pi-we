@@ -55,3 +55,4 @@ Resume: read this file, then continue at the first unchecked step. Downloads are
 - [ ] Boundary cases (Part 3): moon/month, word/language, religion, the screening's candidates, the 20–50% band, with the modern-use signals.
 - [ ] Author approves the list in batches.
 - [x] Loan panel decided (`part3/loans-final.tsv`). Concept-list work left: the remaining boundary cases, the ladder-pass approval (843 keep / 93 covered / 36 merge / 27 split / 19 grammar), Globasa items that touch the list (imitative words, grammar-word guard).
+- [x] Part 5 stage 1: texts 21–36 collected (16 languages). [ ] Stage 2 running: T5–T8 (prompts/translate2-T5…T8.md).
