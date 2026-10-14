@@ -1,0 +1,834 @@
+===== action_words
+hang	non=5	eu=1	Cantonese,Japanese,Kigiriama,Kiswahili,Mandarin	Can:晾(衫) | Jap:かける | Kig:Ning'inira[hang on] | Kis:Ning'inia/Pepesuka/Bembea[hang on]
+wear	non=5	eu=3	Japanese,Korean,Mandarin,Persian,Turkish	Jap:着る | Jap:はく（履く） | Kor:신어[put on shoes] | Kor:입어
+ask	non=4	eu=3	Cantonese,Korean,Mandarin,Turkish	Can:問 | Kor:물어 | Man:问 | Man:請[to ask]
+hate	non=4	eu=3	Hebrew,Kigiriama,Korean,Mandarin	Heb:לשנוא[hate (action)] | Kig:Tsukirirwa/ Mena[hate/be angry] | Kor:미워해 | Kor:미워[dislike]
+peel	non=4	eu=0	Cantonese,Japanese,Korean,Mandarin	Can:剝 | Jap:むく（皮など） | Kor:깎아 | Man:剥
+put on	non=4	eu=2	Cantonese,Japanese,Korean,Turkish	Can:著(衫) | Can:戴(表) | Jap:かぶる[put_on] | Kor:(모자)써[wear a hat]
+count	non=3	eu=1	Cantonese,Mandarin,Turkish	Can:數 | Man:数数 | Man:數數 | Tur:Say
+die	non=3	eu=0	Korean,Persian,Turkish	Kor:죽어 | Per:فوت کن | Tur:Öl
+dream	non=3	eu=1	Cantonese,Kigiriama,Mandarin	Can:發夢 | Kig:Loha | Man:做梦
+fill	non=3	eu=1	Kigiriama,Mandarin,Turkish	Kig:Dzala | Man:装 | Man:裝[pack] | Tur:Doy[be full/saturated]
+get off	non=3	eu=1	Japanese,Korean,Turkish	Jap:おりる（降りる）[get_off] | Kor:떼(어) | Tur:İn[get off/come down]
+go out	non=3	eu=3	Cantonese,Hebrew,Korean	Can:出(去) | Can:去街街 | Heb:לצאת | Kor:나가
+insert	non=3	eu=0	Cantonese,Korean,Mandarin	Can:插 | Kor:꽂아[put in/stick] | Man:插
+move	non=3	eu=2	Cantonese,Korean,Mandarin	Can:郁 | Can:搬 | Kor:비켜[step aside] | Man:动
+press	non=3	eu=1	Cantonese,Mandarin,Turkish	Can:㩒 | Man:摁（按） | Man:按 | Tur:Bas[press/step]
+put in	non=3	eu=0	Japanese,Korean,Turkish	Jap:いれる（入れる）[put_in] | Kor:끼워 | Kor:(통에)넣어[put in (the case)] | Kor:(차에)태워[put in the car]
+receive	non=3	eu=2	Kigiriama,Kiswahili,Mandarin	Kig:Hokera | Kis:Pokea | Man:接
+remember	non=3	eu=3	Cantonese,Mandarin,Turkish	Can:記得/記住 | Man:记（得） | Man:記[note] | Tur:Hatırla
+scold	non=3	eu=0	Cantonese,Korean,Mandarin	Can:鬧 | Kor:혼나 | Man:罵[to scold]
+spin	non=3	eu=1	Cantonese,Korean,Mandarin	Can:轉 | Kor:돌려 | Man:转
+squeeze	non=3	eu=0	Cantonese,Mandarin,Turkish	Can:唧*(牙膏) | Man:压 | Tur:Sık[tighten/squeeze/compress]
+step	non=3	eu=2	Cantonese,Mandarin,Persian	Can:踩 | Man:踩 | Man:蹬 | Per:پله
+swallow	non=3	eu=1	Cantonese,Mandarin,Turkish	Can:吞 | Man:咽 | Man:吞 | Tur:Yut
+tie (action)	non=3	eu=2	Cantonese,Mandarin,Turkish	Can:(領)呔 | Man:绑[tie] | Man:綁[tie] | Tur:Bağla[tie/connect]
+tighten	non=3	eu=0	Kigiriama,Kiswahili,Turkish	Kig:Kaza | Kis:Kaza | Tur:Sıkış[tighten/be stuck]
+turn off	non=3	eu=3	Cantonese,Hebrew,Korean	Can:熄(燈) | Heb:לכבות | Kor:(불)꺼
+understand	non=3	eu=2	Cantonese,Japanese,Turkish	Can:明白 | Jap:わかる | Tur:Anla
+bend	non=2	eu=0	Cantonese,Mandarin	Can:趴 | Man:弯
+blink	non=2	eu=0	Cantonese,Mandarin	Can:眨(眼) | Man:眨（眼）
+chew	non=2	eu=0	Cantonese,Mandarin	Can:噍* | Man:嚼
+color (action)	non=2	eu=3	Cantonese,Hebrew	Can:油(顏色) | Heb:לצבוע
+cross	non=2	eu=1	Korean,Mandarin	Kor:건너 | Man:过
+escape	non=2	eu=3	Japanese,Turkish	Jap:にげる（逃げる） | Tur:Kaç
+exchange	non=2	eu=0	Cantonese,Mandarin	Can:(交)換 | Man:换
+follow	non=2	eu=1	Cantonese,Mandarin	Can:跟住 | Man:跟着
+forget	non=2	eu=3	Mandarin,Turkish	Man:忘记 | Man:忘記 | Tur:Unut
+get on	non=2	eu=1	Japanese,Persian	Jap:のる（乗る）[get_on] | Per:سوار شو
+get out	non=2	eu=1	Japanese,Korean	Jap:でる（出る）[get_out] | Kor:(차에서)내려[get out of car]
+go up	non=2	eu=3	Cantonese,Japanese	Can:上(去) | Jap:あがる[go_up]
+grab	non=2	eu=3	Cantonese,Mandarin	Can:搶 | Man:抢
+greet	non=2	eu=2	Kigiriama,Kiswahili	Kig:Lamusa | Kis:Salimu
+learn	non=2	eu=2	Cantonese,Mandarin	Can:學 | Man:学
+pinch	non=2	eu=1	Cantonese,Mandarin	Can:搣* | Man:捏 | Man:夾
+point	non=2	eu=0	Cantonese,Korean	Can:指 | Kor:가리켜
+prick	non=2	eu=1	Cantonese,Mandarin	Can:㓤* (刺) | Man:扎
+queue	non=2	eu=0	Cantonese,Mandarin	Can:排隊[queue / line up] | Man:排（队）
+rinse	non=2	eu=0	Cantonese,Mandarin	Can:沖 | Man:冲
+roll (action)	non=2	eu=1	Cantonese,Mandarin	Can:碌 (打滾) | Man:滚[roll]
+sell	non=2	eu=0	Cantonese,Mandarin	Can:賣 | Man:卖
+send	non=2	eu=0	Cantonese,Mandarin	Can:送 | Man:送
+shoot	non=2	eu=2	Korean,Persian	Kor:(총을)쏴 | Per:شوت (کردن)
+spread clothes	non=2	eu=0	Kigiriama,Kiswahili	Kig:Anika | Kis:Anika
+squat	non=2	eu=0	Cantonese,Mandarin	Can:踎 | Man:蹲 | Man:蹲
+stir	non=2	eu=3	Cantonese,Mandarin	Can:攪 | Man:搅
+take away	non=2	eu=0	Korean,Turkish	Kor:뺴앗아 | Tur:Götür
+teach	non=2	eu=2	Mandarin,Turkish	Man:教我[teach me] | Tur:Öğret
+tie (object)	non=2	eu=0	Cantonese,Japanese	Can:綁/紮 | Jap:ネクタイ[tie]
+twist	non=2	eu=0	Cantonese,Mandarin	Can:扭 | Can:擰 | Man:扭
+use	non=2	eu=0	Cantonese,Mandarin	Can:用 | Man:用
+?باشه	non=1	eu=-1	Persian	Per:باشه
+?ببر	non=1	eu=-1	Persian	Per:ببر
+?برم	non=1	eu=-1	Persian	Per:برم
+?برویم (بریم)	non=1	eu=-1	Persian	Per:برویم (بریم)
+?بریزم	non=1	eu=-1	Persian	Per:بریزم
+?جاروکن	non=1	eu=-1	Persian	Per:جاروکن
+?جاروکنم	non=1	eu=-1	Persian	Per:جاروکنم
+?خوابه	non=1	eu=-1	Persian	Per:خوابه
+?در ار	non=1	eu=-1	Persian	Per:در ار
+?دربزن	non=1	eu=-1	Persian	Per:دربزن
+?درزد	non=1	eu=-1	Persian	Per:درزد
+?شستم	non=1	eu=-1	Persian	Per:شستم
+add	non=1	eu=0	Persian	Per:جمع (کردن)
+amuse	non=1	eu=0	Mandarin	Man:逗
+appear	non=1	eu=0	Japanese	Jap:みえる
+arrive	non=1	eu=1	Japanese	Jap:つく（着く）[reach]
+attach	non=1	eu=1	Japanese	Jap:つける（付ける）
+band	non=1	eu=0	Persian	Per:بنداز
+be closed	non=1	eu=0	Turkish	Tur:Kapan
+be cross/not talk to each other	non=1	eu=0	Turkish	Tur:Küs
+be full	non=1	eu=0	Persian	Per:سیر شدم
+be patient	non=1	eu=0	Persian	Per:تاب بده
+be pushed	non=1	eu=0	Korean	Kor:(무엇에)눌려
+be quiet	non=1	eu=3	Persian	Per:حرفنزن
+be satisfied with food	non=1	eu=0	Kigiriama	Kig:Kuha/ shiba
+be scared	non=1	eu=3	Turkish	Tur:Kork[be afraid of/fear]
+be silent	non=1	eu=0	Persian	Per:ساکت
+be_there	non=1	eu=0	Japanese	Jap:いる（居る）
+become	non=1	eu=0	Japanese	Jap:なる（…なる）
+become sorry	non=1	eu=0	Turkish	Tur:Üzül
+begin	non=1	eu=3	Turkish	Tur:Başla[begin/start]
+bleed	non=1	eu=0	Turkish	Tur:Kana
+bless	non=1	eu=0	Hebrew	Heb:לברך
+bloom	non=1	eu=1	Korean	Kor:(꽃이)피어
+borrow	non=1	eu=0	Cantonese	Can:借
+bounce	non=1	eu=0	Cantonese	Can:彈
+brighten	non=1	eu=0	Mandarin	Man:亮了
+bully	non=1	eu=0	Cantonese	Can:蝦
+burst	non=1	eu=0	Korean	Kor:터져
+can_do	non=1	eu=0	Japanese	Jap:できる（出来る）
+care	non=1	eu=1	Kigiriama	Kig:Lorera/Tsunza[take care of]
+change	non=1	eu=1	Hebrew	Heb:להחליף[change things]
+chop	non=1	eu=0	Cantonese	Can:切
+come out	non=1	eu=0	Korean	Kor:나와
+crawl	non=1	eu=2	Cantonese	Can:爬
+crush	non=1	eu=0	Turkish	Tur:Ez
+descend	non=1	eu=2	Hebrew	Heb:לרדת[come down]
+destroy	non=1	eu=1	Persian	Per:خراب شد
+detach	non=1	eu=0	Turkish	Tur:Kop[get detached/torn apart] | Tur:Kopar[detach/tear apart]
+dirty (action)	non=1	eu=2	Japanese	Jap:よごす（汚す）[defile]
+disappear	non=1	eu=0	Japanese	Jap:消える
+dismantle	non=1	eu=0	Mandarin	Man:拆[to take apart]
+do not	non=1	eu=3	Persian	Per:نکن
+don't know	non=1	eu=1	Korean	Kor:몰라[i don't know]
+explode	non=1	eu=0	Turkish	Tur:Patla[explode/blow up]
+fail	non=1	eu=0	Persian	Per:شکست
+fix/correct/make smooth	non=1	eu=0	Turkish	Tur:Düzelt
+flip	non=1	eu=0	Mandarin	Man:翻
+float	non=1	eu=0	Korean	Kor:(물에)떠
+fold	non=1	eu=0	Cantonese	Can:摺
+fry	non=1	eu=0	Korean	Kor:튀겨[fry/bounce]
+fuel	non=1	eu=0	Persian	Per:سوخت
+gather	non=1	eu=0	Turkish	Tur:Topla[sum/collect/gather/tidy up]
+get cut	non=1	eu=0	Korean	Kor:끊어져
+get hungry	non=1	eu=0	Turkish	Tur:Acık
+get sick	non=1	eu=0	Turkish	Tur:Hastalan
+get wet	non=1	eu=1	Persian	Per:خیس شد
+get_angry	non=1	eu=0	Japanese	Jap:おこる（怒る）
+glue (action)	non=1	eu=2	Korean	Kor:붙여[paste]
+go around	non=1	eu=0	Mandarin	Man:绕
+go_home	non=1	eu=0	Japanese	Jap:かえる（帰る）
+grasp	non=1	eu=0	Cantonese	Can:"lin2" (捏住)[grasp / squeeze]
+grow	non=1	eu=3	Mandarin	Man:长（大）
+grow up	non=1	eu=1	Turkish	Tur:Büyü
+guess	non=1	eu=0	Cantonese	Can:估
+have an injection	non=1	eu=0	Korean	Kor:(주사를)맞아
+hop	non=1	eu=3	Mandarin	Man:蹦
+hope	non=1	eu=0	Mandarin	Man:希望
+i won't do it	non=1	eu=0	Korean	Kor:안해
+i write	non=1	eu=0	Persian	Per:بنویسم
+inflate	non=1	eu=0	Turkish	Tur:Şişir[blow up/inflate]
+is not	non=1	eu=0	Persian	Per:نیست
+itch	non=1	eu=0	Cantonese	Can:𢯎* (搔癢)
+kill	non=1	eu=0	Persian	Per:بکش
+lend	non=1	eu=2	Japanese	Jap:かす（貸す）
+light (action)	non=1	eu=1	Hebrew	Heb:להדליק
+live	non=1	eu=2	Korean	Kor:살아
+load	non=1	eu=0	Korean	Kor:(물건을)실어
+lock (action)	non=1	eu=2	Hebrew	Heb:לנעול
+lower	non=1	eu=1	Cantonese	Can:瞓低
+make a mess	non=1	eu=0	Turkish	Tur:Kirlet
+meet	non=1	eu=0	Persian	Per:نشست
+mix	non=1	eu=1	Turkish	Tur:Karıştır
+not go	non=1	eu=0	Persian	Per:نرو
+not touch	non=1	eu=0	Persian	Per:دستنزن
+poke	non=1	eu=1	Cantonese	Can:篤
+pray	non=1	eu=0	Persian	Per:نماز (خواندن)
+pull apart	non=1	eu=0	Turkish	Tur:Boz
+pull out	non=1	eu=0	Korean	Kor:뽑아[pull out (tight fit)]
+put down	non=1	eu=1	Korean	Kor:(물건을)놓아
+put in effort	non=1	eu=0	Mandarin	Man:使劲
+put on (medicine)	non=1	eu=0	Korean	Kor:(약)발라
+put_out	non=1	eu=0	Japanese	Jap:だす（出す）
+resemble	non=1	eu=1	Turkish	Tur:Benze[look like/resemble]
+rest	non=1	eu=0	Hebrew	Heb:לנוח[rest (action)]
+return	non=1	eu=0	Mandarin	Man:回来
+rub	non=1	eu=0	Mandarin	Man:揉 | Man:蹭
+save	non=1	eu=3	Turkish	Tur:Kurtar[save/rescue]
+scatter	non=1	eu=0	Turkish	Tur:Dağıt[distribute/scatter/throw around]
+scratch	non=1	eu=1	Cantonese	Can:搲* (抓)
+slip	non=1	eu=3	Kigiriama	Kig:Hereza
+smash	non=1	eu=0	Korean	Kor:부숴
+snap	non=1	eu=0	Turkish	Tur:Yapış[cling]
+sound (action)	non=1	eu=0	Mandarin	Man:响
+spray	non=1	eu=1	Hebrew	Heb:להתיז/ להשפריץ[spray (action)]
+spread	non=1	eu=0	Cantonese	Can:搽[spread / smear]
+stack (action)	non=1	eu=1	Cantonese	Can:疊*(起)
+stamp (action)	non=1	eu=0	Korean	Kor:찍어[stamp/take picture]
+study	non=1	eu=0	Korean	Kor:공부해
+suck	non=1	eu=1	Cantonese	Can:啜*(手指)
+support	non=1	eu=0	Mandarin	Man:扶
+swear	non=1	eu=0	Persian	Per:بشورم
+take out	non=1	eu=2	Korean	Kor:빼
+talk or say something	non=1	eu=0	Kigiriama	Kig:Sumurira
+tell a story	non=1	eu=1	Hebrew	Heb:לספר (סיפור)
+throw_away	non=1	eu=0	Japanese	Jap:捨てる
+tire (action)	non=1	eu=3	Turkish	Tur:Yorul[be tired]
+to_piggyback	non=1	eu=0	Japanese	Jap:おぶう
+travel	non=1	eu=0	Turkish	Tur:Gez[travel/wonder around]
+tug	non=1	eu=0	Mandarin	Man:捋/挽（袖子）
+uncover	non=1	eu=0	Cantonese	Can:揭(開)
+vector	non=1	eu=0	Persian	Per:بردار
+wet (action)	non=1	eu=3	Turkish	Tur:Islan[get wet]
+win	non=1	eu=3	Korean	Kor:(승부에)이겨
+===== animals
+cockroach	non=4	eu=3	Cantonese,Kigiriama,Kiswahili,Mandarin	Can:曱甴 | Kig:Pambaiko | Kis:Kombamwiko | Man:蟑螂
+crab	non=4	eu=0	Cantonese,Japanese,Mandarin,Persian	Can:蟹 | Jap:かに | Man:螃蟹 | Per:خرچنگ
+parrot	non=4	eu=3	Hebrew,Mandarin,Persian,Turkish	Heb:תוכי | Man:鸚鵡 | Per:طوطی | Tur:Papağan
+alligator	non=3	eu=3	Cantonese,Hebrew,Mandarin	Can:鱷魚 | Heb:תנין | Man:鳄鱼 | Man:鱷魚
+dinosaur	non=3	eu=3	Cantonese,Korean,Mandarin	Can:恐龍 | Kor:공룡 | Man:恐龙
+eagle	non=3	eu=0	Mandarin,Persian,Turkish	Man:老鹰 | Man:老鷹 | Per:عقاب | Tur:Kartal
+panda	non=3	eu=2	Cantonese,Japanese,Mandarin	Can:熊貓 | Jap:パンダ | Man:熊猫
+bat (animal)	non=2	eu=3	Kigiriama,Kiswahili	Kig:Ndema[bat] | Kis:Popo[bat]
+bed bug	non=2	eu=0	Kigiriama,Kiswahili	Kig:Kunguni | Kis:Kunguni
+beetle	non=2	eu=3	Hebrew,Persian	Heb:חיפושית | Per:سوسک
+dragon	non=2	eu=1	Cantonese,Mandarin	Can:龍 | Man:龙
+dragonfly	non=2	eu=0	Cantonese,Mandarin	Can:蜻蜓 | Man:蜻蜓
+gorilla	non=2	eu=0	Japanese,Mandarin	Jap:ゴリラ | Man:猩猩
+lizard	non=2	eu=3	Kigiriama,Kiswahili	Kig:Kajonjoloka | Kis:Mujusi kafiri
+peacock	non=2	eu=0	Hebrew,Mandarin	Heb:טווס | Man:孔雀 | Man:孔雀
+?بلبل	non=1	eu=-1	Persian	Per:بلبل
+?مگس	non=1	eu=-1	Persian	Per:مگس
+?پشه	non=1	eu=-1	Persian	Per:پشه
+baby animal	non=1	eu=0	Turkish	Tur:Yavru
+calf	non=1	eu=3	Korean	Kor:송아지
+caterpillar	non=1	eu=3	Mandarin	Man:毛毛蟲
+clam	non=1	eu=0	Mandarin	Man:蛤蠣(貝殼)
+cricket	non=1	eu=0	Mandarin	Man:蛐蛐
+gazelle	non=1	eu=0	Persian	Per:اهو
+koala	non=1	eu=0	Japanese	Jap:コアラ
+leopard	non=1	eu=1	Persian	Per:پلنگ
+magpie	non=1	eu=1	Mandarin	Man:喜鹊
+millipede	non=1	eu=0	Kigiriama	Kig:Gongolo
+pigeons	non=1	eu=0	Persian	Per:کبوتر
+raccoon	non=1	eu=0	Japanese	Jap:たぬき
+stork	non=1	eu=2	Turkish	Tur:Leylek
+swallow (animal)	non=1	eu=1	Mandarin	Man:燕子[swallow]
+whale	non=1	eu=3	Japanese	Jap:くじら
+===== body_parts
+palm	non=3	eu=3	Cantonese,Kigiriama,Kiswahili	Can:手板 | Kig:Ganza | Kis:Kiganja
+body	non=2	eu=0	Korean,Turkish	Kor:몸 | Tur:Vücut
+fingernail	non=2	eu=1	Korean,Turkish	Kor:발톱[toenail] | Tur:Tırnak
+?ابرو	non=1	eu=-1	Persian	Per:ابرو
+?باسن*	non=1	eu=-1	Persian	Per:باسن*
+?دل	non=1	eu=-1	Persian	Per:دل
+?شصت	non=1	eu=-1	Persian	Per:شصت
+?شکم	non=1	eu=-1	Persian	Per:شکم
+?ناف	non=1	eu=-1	Persian	Per:ناف
+?وش	non=1	eu=-1	Persian	Per:وش
+blood	non=1	eu=0	Korean	Kor:피
+brain	non=1	eu=0	Mandarin	Man:脑袋
+eyelash	non=1	eu=3	Turkish	Tur:Kirpik
+eyelashes	non=1	eu=2	Persian	Per:مژه
+fist	non=1	eu=1	Persian	Per:مشت
+heart	non=1	eu=2	Turkish	Tur:Kalp
+heel	non=1	eu=0	Cantonese	Can:腳踭
+hip	non=1	eu=0	Korean	Kor:엉덩이
+injury	non=1	eu=0	Japanese	Jap:けが
+mustache	non=1	eu=2	Turkish	Tur:Bıyık
+tail	non=1	eu=3	Japanese	Jap:しっぽ
+waist	non=1	eu=0	Korean	Kor:허리
+wrist	non=1	eu=0	Persian	Per:مچ
+===== clothing
+bracelet	non=4	eu=1	Kigiriama,Kiswahili,Persian,Turkish	Kig:Bangili[bangles] | Kis:Bangili[bangles] | Per:دستبند | Tur:Bilezik
+apron	non=3	eu=1	Hebrew,Japanese,Persian	Heb:סינר | Jap:エプロン | Per:پیش بند
+earring	non=3	eu=2	Kigiriama,Kiswahili,Turkish	Kig:Vipuli[earrings] | Kis:Vipuli[earrings] | Tur:Küpe
+pocket	non=3	eu=0	Korean,Mandarin,Turkish	Kor:주머니 | Man:口袋 | Man:（裤）兜 | Tur:Cep
+shawl	non=3	eu=1	Kigiriama,Kiswahili,Persian	Kig:Buibui[moslem overdress] | Kis:buibui[moslem overdress] | Per:شال
+vest	non=3	eu=2	Cantonese,Hebrew,Mandarin	Can:背心 | Heb:אפודה | Man:背心 | Man:背心
+cloth1	non=2	eu=0	Kigiriama,Kiswahili	Kig:Kanga | Kis:kanga
+suit	non=2	eu=1	Kigiriama,Kiswahili	Kig:Suti/Beli | Kis:suti/Beli
+undershirt	non=2	eu=3	Hebrew,Turkish	Heb:גופיה | Tur:Fanila/Atlet
+?تِل	non=1	eu=-1	Persian	Per:تِل
+?مانتو	non=1	eu=-1	Persian	Per:مانتو
+?چادر	non=1	eu=-1	Persian	Per:چادر
+?کِش	non=1	eu=-1	Persian	Per:کِش
+?گل سر (گیر)	non=1	eu=-1	Persian	Per:گل سر (گیر)
+bangle	non=1	eu=0	Persian	Per:النگو
+cloth2	non=1	eu=0	Kiswahili	Kis:Kikoi
+colured cloth worn by women and has wordings	non=1	eu=0	Kigiriama	Kig:Leso
+diapers	non=1	eu=0	Persian	Per:پوشک
+dress shoe	non=1	eu=0	Korean	Kor:구두[dress shoes]
+earrings	non=1	eu=2	Persian	Per:گوشواره
+hair clip	non=1	eu=2	Turkish	Tur:Toka[hairpin]
+headband	non=1	eu=0	Turkish	Tur:Taç
+helmet	non=1	eu=0	Mandarin	Man:安全帽
+mask	non=1	eu=0	Mandarin	Man:口罩
+nipple	non=1	eu=0	Kigiriama	Kig:Hombo/Kopo ra mwana/Nyonyo
+peticoat	non=1	eu=0	Kiswahili	Kis:kirinda
+petticoat	non=1	eu=0	Kiswahili	Kis:Kamisi
+piece of cloth	non=1	eu=0	Kigiriama	Kig:Kithambaa
+pin	non=1	eu=1	Persian	Per:سنجاق
+raincoat	non=1	eu=2	Mandarin	Man:雨衣
+ribbon	non=1	eu=2	Japanese	Jap:リボン
+sleeve	non=1	eu=1	Mandarin	Man:袖子
+sweatpants	non=1	eu=0	Hebrew	Heb:טריינינג
+===== descriptive_words
+sour	non=5	eu=3	Cantonese,Japanese,Mandarin,Persian,Turkish	Can:酸 | Jap:すっぱい | Man:酸 | Man:好酸/酸酸的
+bright	non=4	eu=0	Cantonese,Japanese,Mandarin,Persian	Can:光 | Jap:明るい | Man:亮亮的 | Per:روشن
+enough	non=4	eu=3	Cantonese,Hebrew,Mandarin,Turkish	Can:夠 | Heb:די | Man:新 | Man:夠了
+spicy	non=4	eu=0	Cantonese,Japanese,Korean,Mandarin	Can:辣 | Jap:からい | Kor:매워 | Man:辣
+cool (description)	non=3	eu=1	Cantonese,Korean,Mandarin	Can:涼 | Kor:(촉감이)차[cool] | Man:凉[cool]
+funny	non=3	eu=0	Japanese,Persian,Turkish	Jap:おかしい | Per:بامزه | Tur:Komik
+pitiful	non=3	eu=0	Cantonese,Japanese,Mandarin	Can:可憐 | Jap:かわいそう[pity] | Man:可怜
+salty	non=3	eu=3	Hebrew,Korean,Mandarin	Heb:מלוח | Kor:(맛이)짜 | Man:咸
+smelly	non=3	eu=1	Cantonese,Japanese,Mandarin	Can:臭 | Jap:くさい（臭い）[odor] | Man:臭
+disgusting	non=2	eu=2	Hebrew,Turkish	Heb:מגעיל | Tur:İğrenç[yucky /disgusting]
+dislike	non=2	eu=0	Japanese,Korean	Jap:きらい（嫌い） | Kor:싫어[hate]
+easy	non=2	eu=2	Japanese,Mandarin	Jap:やさしい | Man:轻点
+fragrant	non=2	eu=0	Cantonese,Mandarin	Can:香 | Man:香 | Man:好香/香香的[smell good]
+fun	non=2	eu=2	Japanese,Korean	Jap:たのしい（楽しい）[pleasant] | Kor:재미있어
+itchy	non=2	eu=0	Cantonese,Japanese	Can:痕 | Jap:かゆい
+mean	non=2	eu=1	Cantonese,Japanese	Can:惡 | Jap:いじわる
+scary	non=2	eu=2	Japanese,Korean	Jap:こわい | Kor:무서워
+strange	non=2	eu=2	Japanese,Korean	Jap:へん（変） | Kor:이상해[weird]
+thin	non=2	eu=3	Hebrew,Persian	Heb:רזה | Per:لاغر
+?خالی	non=1	eu=-1	Persian	Per:خالی
+?داغ	non=1	eu=-1	Persian	Per:داغ
+?زرد	non=1	eu=-1	Persian	Per:زرد
+?مریض	non=1	eu=-1	Persian	Per:مریض
+?ناز	non=1	eu=-1	Persian	Per:ناز
+?نازک	non=1	eu=-1	Persian	Per:نازک
+?پاره	non=1	eu=-1	Persian	Per:پاره
+?کهنه	non=1	eu=-1	Persian	Per:کهنه
+?不错	non=1	eu=-1	Mandarin	Man:不错
+aggrieved	non=1	eu=0	Mandarin	Man:委屈
+all_right	non=1	eu=0	Japanese	Jap:大丈夫
+bad taste	non=1	eu=0	Persian	Per:بد مزه
+bored	non=1	eu=0	Korean	Kor:심심해
+clumsy	non=1	eu=0	Cantonese	Can:論盡
+comfortable	non=1	eu=0	Cantonese	Can:舒服
+different	non=1	eu=3	Korean	Kor:달라
+dim	non=1	eu=0	Korean	Kor:어두워
+dumb	non=1	eu=0	Cantonese	Can:蠢[dumb / stupid]
+energy	non=1	eu=0	Japanese	Jap:元気
+excellent	non=1	eu=0	Hebrew	Heb:מצויין
+grey	non=1	eu=0	Cantonese	Can:灰
+harassment	non=1	eu=0	Persian	Per:اذیت
+hollow	non=1	eu=0	Turkish	Tur:Delik[hollow/hole]
+hot (temperature)	non=1	eu=0	Korean	Kor:뜨거워
+hot (weather)	non=1	eu=0	Korean	Kor:더워
+important	non=1	eu=0	Japanese	Jap:だいじ（大事）
+large	non=1	eu=3	Japanese	Jap:大きい
+less	non=1	eu=2	Cantonese	Can:少
+light (description)	non=1	eu=3	Cantonese	Can:輕
+low	non=1	eu=2	Cantonese	Can:低
+miserable	non=1	eu=0	Cantonese	Can:慘
+monster	non=1	eu=0	Turkish	Tur:Canavar
+opposite	non=1	eu=0	Turkish	Tur:Ters[opposite/reverse]
+painful	non=1	eu=3	Japanese	Jap:いたい（痛い）
+quickly	non=1	eu=3	Mandarin	Man:快一點
+rectangle	non=1	eu=0	Mandarin	Man:長方形的
+satan	non=1	eu=0	Persian	Per:شیطان
+shor	non=1	eu=0	Persian	Per:شور
+sleeping	non=1	eu=1	Persian	Per:خوابیده
+slippery	non=1	eu=0	Cantonese	Can:跣*
+slowly	non=1	eu=3	Japanese	Jap:ゆっくり
+smooth	non=1	eu=0	Cantonese	Can:滑
+solid	non=1	eu=0	Turkish	Tur:Katı[hard/solid/strict]
+square	non=1	eu=2	Japanese	Jap:四角い
+stiff	non=1	eu=1	Persian	Per:سفت
+stuck	non=1	eu=3	Mandarin	Man:卡了
+style	non=1	eu=0	Persian	Per:سبک
+sunny	non=1	eu=0	Cantonese	Can:曬
+ticklish	non=1	eu=0	Korean	Kor:간지러워
+triangular	non=1	eu=0	Mandarin	Man:三角形的
+upset	non=1	eu=1	Persian	Per:ناراحت
+well-behaved	non=1	eu=0	Mandarin	Man:乖
+===== descriptive_words (adjectives)
+alert	non=2	eu=0	Kigiriama,Kiswahili	Kig:Matso | Kis:Macho/makini
+rotten	non=2	eu=1	Kigiriama,Kiswahili	Kig:Kongo | Kis:bovu
+tough	non=2	eu=2	Kigiriama,Kiswahili	Kig:Mwisho/ Dumu[last long] | Kis:Dumu[last long]
+severe	non=1	eu=0	Kiswahili	Kis:kali[hot tempered]
+===== descriptive_words (adverbs)
+everything	non=2	eu=3	Kigiriama,Kiswahili	Kig:Yosi[all of it] | Kis:Yote[all of it]
+without	non=2	eu=2	Kigiriama,Kiswahili	Kig:Bila | Kis:Bila
+lots	non=1	eu=0	Kiswahili	Kis:Tele/Nyingi
+===== food_drink
+pepper	non=5	eu=0	Hebrew,Kigiriama,Kiswahili,Mandarin,Persian	Heb:פילפל | Kig:Pili pili | Kis:Pili pili | Man:辣椒
+ginger	non=3	eu=0	Cantonese,Kigiriama,Kiswahili	Can:薑 | Kig:Siki | Kis:Siki
+mango	non=3	eu=1	Cantonese,Kigiriama,Kiswahili	Can:芒果 | Kig:Maembe | Kis:Embe
+onion	non=3	eu=3	Cantonese,Persian,Turkish	Can:蔥 | Per:پیاز | Tur:Soğan
+papaya	non=3	eu=1	Kigiriama,Kiswahili,Mandarin	Kig:Paipai/Papayu[pawpaw] | Kis:Paipai[paw paw] | Man:木瓜
+peanut	non=3	eu=2	Kiswahili,Korean,Mandarin	Kis:Njugu (karanga)[groundnuts] | Kor:땅콩[peanuts] | Man:花生 | Man:花生
+pretzel	non=3	eu=2	Hebrew,Persian,Turkish	Heb:בייגלה[pretzels] | Per:چوب شور | Tur:Simit[pretzel/common turkish snack]
+shark	non=3	eu=0	Kigiriama,Kiswahili,Mandarin	Kig:Papa | Kis:Papa | Man:鯊魚
+shrimp	non=3	eu=0	Cantonese,Japanese,Mandarin	Can:蝦 | Jap:えび | Man:虾 | Man:蝦子
+soy sauce	non=3	eu=0	Cantonese,Japanese,Mandarin	Can:豉油 | Jap:しょうゆ[soy_sauce] | Man:醬油
+tofu	non=3	eu=0	Cantonese,Japanese,Mandarin	Can:豆腐 | Jap:とうふ（豆腐） | Man:豆腐
+vegetable	non=3	eu=2	Cantonese,Japanese,Mandarin	Can:菜 | Jap:やさい | Man:蔬菜
+avocado	non=2	eu=1	Kigiriama,Kiswahili	Kig:Avocado | Kis:Avocado
+cassava	non=2	eu=0	Kigiriama,Kiswahili	Kig:Mugazija | Kis:Muhogo
+coconut	non=2	eu=0	Kigiriama,Kiswahili	Kig:Madafu[unripe coconuts] | Kig:Nazi | Kis:Madafu[unripe coconuts] | Kis:Nazi
+ketchup	non=2	eu=1	Mandarin,Turkish	Man:蕃茄醬 | Tur:Ketçap
+maize flour	non=2	eu=0	Kigiriama,Kiswahili	Kig:Unga | Kis:Unga
+olive	non=2	eu=2	Hebrew,Turkish	Heb:זיתים[olives] | Tur:Zeytin
+orange juice	non=2	eu=1	Kigiriama,Kiswahili	Kig:Madzi ga machungwa/Juisi | Kis:Maji ya machungwa/juisi
+persimmon	non=2	eu=1	Japanese,Korean	Jap:柿 | Kor:감
+pomegranate	non=2	eu=0	Persian,Turkish	Per:انار | Tur:Nar
+potatoes in soup	non=2	eu=0	Kigiriama,Kiswahili	Kig:Virazi zha rojo | Kis:Viazi vya rojo/Viazi karai
+radish	non=2	eu=0	Japanese,Korean	Jap:大根 | Kor:무/무우
+samosa	non=2	eu=0	Kigiriama,Kiswahili	Kig:Sambusa | Kis:Sambusa
+sour milk	non=2	eu=1	Kigiriama,Kiswahili	Kig:Maziya maivu/Maziya lala | Kis:Maziwa mala/lala/kuganda/Yoghurt
+sweet potato	non=2	eu=1	Japanese,Korean	Jap:おいも[sweet_potato] | Kor:고구마
+?اجیل	non=1	eu=-1	Persian	Per:اجیل
+?ادامس	non=1	eu=-1	Persian	Per:ادامس
+?اش	non=1	eu=-1	Persian	Per:اش
+?البالو	non=1	eu=-1	Persian	Per:البالو
+?انگور	non=1	eu=-1	Persian	Per:انگور
+?بلال	non=1	eu=-1	Persian	Per:بلال
+?توت	non=1	eu=-1	Persian	Per:توت
+?رب	non=1	eu=-1	Persian	Per:رب
+?سس	non=1	eu=-1	Persian	Per:سس
+?粥	non=1	eu=-1	Cantonese	Can:粥
+?腸粉	non=1	eu=-1	Cantonese	Can:腸粉
+?點心	non=1	eu=-1	Cantonese	Can:點心
+alcohol	non=1	eu=0	Kigiriama	Kig:Uchi
+almond	non=1	eu=0	Persian	Per:بادام
+apricot	non=1	eu=0	Turkish	Tur:Kayısı
+bamba	non=1	eu=0	Hebrew	Heb:במבה
+barbecue	non=1	eu=0	Persian	Per:کباب
+barbequed pork / char siu	non=1	eu=0	Cantonese	Can:叉燒
+beef	non=1	eu=0	Cantonese	Can:牛(肉)
+biscuits	non=1	eu=1	Persian	Per:بیسکویت
+bologna	non=1	eu=0	Persian	Per:کالباس
+broth	non=1	eu=0	Persian	Per:ابگوشت
+bun2	non=1	eu=0	Kigiriama	Kig:Kitumbua
+candied fruit	non=1	eu=0	Mandarin	Man:糖葫芦
+cheetos	non=1	eu=0	Persian	Per:پفک
+cherries	non=1	eu=1	Persian	Per:گیلاس
+chickpea	non=1	eu=0	Turkish	Tur:Nohut
+chickpeas	non=1	eu=0	Persian	Per:نخودچی
+chinese omelet	non=1	eu=0	Mandarin	Man:蛋餅
+clementine	non=1	eu=1	Hebrew	Heb:קלמנטינה
+curry	non=1	eu=0	Japanese	Jap:カレー
+dough	non=1	eu=1	Persian	Per:دوغ
+dried seaweed	non=1	eu=0	Korean	Kor:김
+eggplant	non=1	eu=0	Japanese	Jap:なす
+fish balls	non=1	eu=0	Cantonese	Can:魚蛋
+flour	non=1	eu=0	Mandarin	Man:面/面粉
+green_pepper	non=1	eu=0	Japanese	Jap:ピーマン
+guava	non=1	eu=0	Mandarin	Man:芭樂
+hamburgers	non=1	eu=0	Persian	Per:همبرگر
+hazelnut	non=1	eu=2	Persian	Per:فندق
+hot chocolate	non=1	eu=3	Hebrew	Heb:שוקו[chocolate drink (hot or cold)]
+jello	non=1	eu=3	Cantonese	Can:啫喱
+kale	non=1	eu=1	Kigiriama	Kig:Sukuma
+kefir	non=1	eu=1	Mandarin	Man:乐百氏 | Man:養樂多[yakult]
+kimchi	non=1	eu=0	Korean	Kor:김치
+kingfish	non=1	eu=0	Kigiriama	Kig:Kiboma | Kig:Kiboma
+liver (food)	non=1	eu=0	Mandarin	Man:肝儿（猪肝、鸡肝）[liver]
+natto	non=1	eu=0	Japanese	Jap:なっとう（納豆）
+nugget	non=1	eu=2	Mandarin	Man:雞塊[chicken nuggets]
+omelet	non=1	eu=0	Hebrew	Heb:חביתה
+pickle	non=1	eu=3	Hebrew	Heb:חמוצים/ מלפפון חמוץ
+pilaf	non=1	eu=0	Kigiriama	Kig:Pilau[pilau]
+pistachio	non=1	eu=0	Persian	Per:پسته
+pita	non=1	eu=0	Hebrew	Heb:פיתה[pita bread]
+pocky	non=1	eu=0	Japanese	Jap:ポッキー
+pork	non=1	eu=0	Cantonese	Can:豬(肉)
+ptitim	non=1	eu=0	Hebrew	Heb:פתיתים
+rice cake	non=1	eu=0	Korean	Kor:떡
+rice_ball	non=1	eu=0	Japanese	Jap:おにぎり・おむすび
+salami	non=1	eu=3	Turkish	Tur:Salam
+sardine	non=1	eu=0	Kiswahili	Kis:Omena/Kumbu
+scallion	non=1	eu=0	Mandarin	Man:葱
+schnitzel	non=1	eu=0	Hebrew	Heb:שניצל
+seaweed	non=1	eu=0	Japanese	Jap:のり（海苔）
+siu mai / dumpling	non=1	eu=0	Cantonese	Can:燒賣
+soy milk	non=1	eu=0	Mandarin	Man:豆漿
+sprouts	non=1	eu=0	Mandarin	Man:豆芽
+stew	non=1	eu=1	Persian	Per:خورش
+stuffed vegetable	non=1	eu=0	Turkish	Tur:Dolma
+sugar loaf	non=1	eu=0	Persian	Per:قند
+sushi	non=1	eu=0	Japanese	Jap:おすし
+tarhana	non=1	eu=0	Turkish	Tur:Tarhana[kind of soup]
+tortilla	non=1	eu=1	Kiswahili	Kis:Chapati[chapati]
+turkish delight	non=1	eu=0	Turkish	Tur:Lokum
+vegetables	non=1	eu=0	Persian	Per:سبزی
+vinegar	non=1	eu=0	Mandarin	Man:醋
+walnut	non=1	eu=1	Persian	Per:گردو
+yogurt drink	non=1	eu=1	Turkish	Tur:Ayran[yoghurt drink]
+===== furniture_rooms
+curtain	non=4	eu=1	Hebrew,Japanese,Persian,Turkish	Heb:וילון | Jap:カーテン | Per:پرده | Tur:Perde
+piano	non=4	eu=1	Cantonese,Japanese,Korean,Mandarin	Can:鋼琴 | Jap:ピアノ | Kor:피아노 | Man:（钢）琴
+air conditioner	non=3	eu=0	Cantonese,Japanese,Mandarin	Can:冷氣機 | Jap:エアコン[air_conditioner] | Man:空调 | Man:冷氣[air conditioning]
+microwave	non=3	eu=3	Japanese,Korean,Mandarin	Jap:レンジ[range] | Kor:전자레인지 | Man:微波炉
+log	non=2	eu=0	Kigiriama,Kiswahili	Kig:Gogo/ Kumbi | Kis:Gogo/Kumbi
+parking lot	non=2	eu=0	Japanese,Mandarin	Jap:駐車場[parking_lot] | Man:停車場
+porch	non=2	eu=3	Hebrew,Persian	Heb:מרפסת | Per:ایوان
+?اجاق (گاز)	non=1	eu=-1	Persian	Per:اجاق (گاز)
+?تخت	non=1	eu=-1	Persian	Per:تخت
+?سماور	non=1	eu=-1	Persian	Per:سماور
+catering	non=1	eu=0	Persian	Per:پذیرایی
+coffee table	non=1	eu=0	Turkish	Tur:Sehpa
+comforter/quilt	non=1	eu=0	Turkish	Tur:Yorgan
+dishwasher	non=1	eu=1	Persian	Per:ظرفشویی
+drawing	non=1	eu=2	Persian	Per:کشو
+entrance	non=1	eu=1	Japanese	Jap:玄関
+freezer	non=1	eu=1	Persian	Per:فریزر
+gas	non=1	eu=1	Mandarin	Man:煤气
+hair dryer	non=1	eu=2	Japanese	Jap:ドライヤー[hairdryer]
+heater	non=1	eu=2	Persian	Per:بخاری
+iphone	non=1	eu=0	Persian	Per:ایفون
+kotatsu	non=1	eu=0	Japanese	Jap:こたつ
+parking	non=1	eu=1	Persian	Per:پارکینگ
+radiator	non=1	eu=2	Turkish	Tur:Kalorifer
+record	non=1	eu=0	Persian	Per:ضبط
+shoes_rack	non=1	eu=0	Japanese	Jap:げたばこ（げた箱）
+shutter	non=1	eu=0	Hebrew	Heb:תריס
+structure with walls but no roof	non=1	eu=0	Kigiriama	Kig:Bomani
+tablecloth	non=1	eu=0	Hebrew	Heb:מפה[table cloth]
+tatami	non=1	eu=0	Japanese	Jap:たたみ
+underground	non=1	eu=0	Persian	Per:زیرزمین
+water_crew	non=1	eu=0	Japanese	Jap:水道
+===== games_routines
+brush teeth	non=3	eu=1	Cantonese,Japanese,Korean	Can:刷牙 | Jap:はみがき（歯磨き）[teethbrushing] | Kor:양치
+end	non=3	eu=2	Japanese,Mandarin,Persian	Jap:おしまい | Jap:おわる（終わる） | Man:完了(結束的意思) | Per:اخر
+give me	non=3	eu=2	Hebrew,Japanese,Korean	Heb:תן לי | Jap:ちょうだい[give_me] | Kor:줘
+hide and seek	non=3	eu=2	Cantonese,Mandarin,Turkish	Can:伏匿匿* | Man:藏猫猫 | Tur:Saklambaç[hide-and-seek]
+welcome	non=3	eu=0	Kigiriama,Kiswahili,Turkish	Kig:Karibu | Kis:Karibu | Tur:Hoşgeldiniz
+bravo	non=2	eu=3	Mandarin,Turkish	Man:(真)棒![good job] | Tur:Aferin[well done/bravo]
+cannot	non=2	eu=2	Cantonese,Mandarin	Can:唔准/唔得[cannot / may not] | Man:不行
+don't want to	non=2	eu=0	Kigiriama,Kiswahili	Kig:Senzi | Kis:Sitaki
+game of hide and seek	non=2	eu=0	Kigiriama,Kiswahili	Kig:Kibe | Kis:Kibe
+give me five	non=2	eu=1	Hebrew,Korean	Heb:כיף/ תן כפה[give me five!] | Kor:파이팅
+go to school	non=2	eu=0	Cantonese,Mandarin	Can:返學 | Man:上学
+good evening	non=2	eu=1	Kigiriama,Kiswahili	Kig:Udzasindaze? | Kis:Umeshindaje?
+how are you	non=2	eu=1	Kigiriama,Kiswahili	Kig:Kuna utu | Kis:Mambo /Hujambo[how are you?]
+how are you? ( respectful greeting)	non=2	eu=0	Kigiriama,Kiswahili	Kig:Kamuna utu? | Kis:Shikamoo
+relaxing	non=2	eu=0	Kigiriama,Kiswahili	Kig:Kuoya | Kis:Kupumzika/Nimechoka
+ring around the rosie	non=2	eu=3	Kigiriama,Kiswahili	Kig:Ukuti[game involving going round] | Kis:Ukuti[game involving going round]
+rock paper scissors	non=2	eu=0	Cantonese,Japanese	Can:包剪𢱕* | Jap:じゃんけんぽん[rock_paper_scissors]
+yay	non=2	eu=0	Cantonese,Korean	Can:好嘢 | Kor:만세
+years old	non=2	eu=0	Cantonese,Mandarin	Can:一歲/兩歲 | Man:一岁/两岁
+you have it	non=2	eu=0	Kigiriama,Kiswahili	Kig:Unacho | Kis:Unacho
+?اتل متل	non=1	eu=-1	Persian	Per:اتل متل
+?الو	non=1	eu=-1	Persian	Per:الو
+?بله ( اره)	non=1	eu=-1	Persian	Per:بله ( اره)
+?تاب تاب عباسی	non=1	eu=-1	Persian	Per:تاب تاب عباسی
+?دالی/داکی	non=1	eu=-1	Persian	Per:دالی/داکی
+?عمو زنجیر باف	non=1	eu=-1	Persian	Per:عمو زنجیر باف
+?قایم (قایم باشک)	non=1	eu=-1	Persian	Per:قایم (قایم باشک)
+?مرسی (ممنون)	non=1	eu=-1	Persian	Per:مرسی (ممنون)
+?نانای	non=1	eu=-1	Persian	Per:نانای
+?هیس	non=1	eu=-1	Persian	Per:هیس
+?کلاغ پر	non=1	eu=-1	Persian	Per:کلاغ پر
+?对了	non=1	eu=-1	Mandarin	Man:对了
+a children's song with hand movements	non=1	eu=0	Hebrew	Heb:עשר אצבעות לי יש
+a shame/a pity	non=1	eu=0	Turkish	Tur:Yazık
+allahu akbar	non=1	eu=0	Persian	Per:الله اکبر
+allow \ permitted	non=1	eu=0	Hebrew	Heb:אפשר/ מותר
+birthday	non=1	eu=1	Turkish	Tur:Doğumgünü
+change diaper	non=1	eu=0	Mandarin	Man:換尿布
+come on	non=1	eu=3	Turkish	Tur:Hadi
+don't want	non=1	eu=1	Cantonese	Can:唔要
+eid	non=1	eu=0	Persian	Per:عید
+evening meal	non=1	eu=1	Persian	Per:عصرانه
+excuse me	non=1	eu=1	Turkish	Tur:Efendim[i beg your pardon]
+flying bugs	non=1	eu=0	Cantonese	Can:點蟲蟲
+go eat	non=1	eu=0	Hebrew	Heb:ללכת לאכול[to go to eat]
+go for a walk	non=1	eu=2	Hebrew	Heb:ללכת לטייל[to go for a walk]
+go to bed	non=1	eu=3	Hebrew	Heb:ללכת לישון[to go to sleep]
+have_a_good_day	non=1	eu=0	Japanese	Jap:いってらっしゃい
+here_you_are	non=1	eu=0	Japanese	Jap:どうぞ
+i have mine	non=1	eu=0	Hebrew	Heb:יש לי/שלי
+i'm hurt \ you're hurt	non=1	eu=0	Hebrew	Heb:כואב לי/ כואב לך
+joke	non=1	eu=3	Turkish	Tur:Şaka
+let’s_eat	non=1	eu=0	Japanese	Jap:いただきます
+listen to music	non=1	eu=0	Mandarin	Man:聽音樂
+lullaby	non=1	eu=0	Turkish	Tur:Ninni
+meal	non=1	eu=3	Japanese	Jap:ごはん（食事）
+music	non=1	eu=3	Turkish	Tur:Müzik
+need (as in- do you need help?)	non=1	eu=0	Hebrew	Heb:צריך
+of course/sure	non=1	eu=0	Turkish	Tur:Tabii
+play with blocks	non=1	eu=0	Mandarin	Man:堆積木[stack blocks]
+playhouse	non=1	eu=1	Turkish	Tur:Evcilik[playing house]
+race	non=1	eu=0	Turkish	Tur:Yarış
+right	non=1	eu=1	Cantonese	Can:啱喇[right / correct]
+shame	non=1	eu=0	Turkish	Tur:Ayıp[shameful]
+somersault	non=1	eu=0	Turkish	Tur:Takla
+surprise	non=1	eu=1	Turkish	Tur:Sürpriz
+take in arms	non=1	eu=0	Turkish	Tur:Kucak[)take in) lap/arms]
+ten- twenty- thirty- forty	non=1	eu=0	Persian	Per:ده- بیست- سی- چهل
+thank_you_for_the_meal	non=1	eu=0	Japanese	Jap:ごちそうさま
+to talk on the phone	non=1	eu=0	Hebrew	Heb:לדבר בטלפון
+wash hands	non=1	eu=0	Cantonese	Can:洗手
+watch out	non=1	eu=3	Turkish	Tur:Dikkat[watch out/attention]
+watch tv	non=1	eu=0	Mandarin	Man:看電視
+water play	non=1	eu=0	Persian	Per:اب بازی
+yes (can do)	non=1	eu=0	Korean	Kor:돼
+===== household
+chopstick	non=4	eu=0	Cantonese,Japanese,Korean,Mandarin	Can:筷子 | Jap:はし（箸）[chopsticks] | Kor:젓가락[chopsticks] | Man:筷子
+remote control	non=4	eu=2	Kigiriama,Kiswahili,Mandarin,Turkish	Kig:Remote | Kis:Remote | Man:遙控器 | Tur:Kumanda
+battery	non=3	eu=3	Cantonese,Japanese,Mandarin	Can:電池/電芯 | Jap:電池 | Man:电池
+fan	non=3	eu=0	Cantonese,Japanese,Mandarin	Can:風扇 | Jap:扇風機 | Man:电扇[electric fan] | Man:扇子
+wood	non=3	eu=1	Mandarin,Persian,Turkish	Man:木头 | Per:چوب | Tur:Odun
+a tool used to grate coconut	non=2	eu=0	Kigiriama,Kiswahili	Kig:Mbuzi | Kis:Mbuzi
+basin	non=2	eu=0	Cantonese,Mandarin	Can:盆 | Man:盆
+cooking stick	non=2	eu=0	Kigiriama,Kiswahili	Kig:Mwiko | Kis:Mwiko
+copra (coconut cover)	non=2	eu=0	Kigiriama,Kiswahili	Kig:Kifudu | Kis:Kifuvu/Kifuu
+eraser	non=2	eu=0	Cantonese,Persian	Can:擦膠 | Per:پاک کن
+hanger	non=2	eu=0	Cantonese,Korean	Can:衣架 | Kor:옷걸이
+letter	non=2	eu=1	Kigiriama,Kiswahili	Kig:Baruwa | Kis:Posta/barua[letter/ post office]
+mat	non=2	eu=3	Kigiriama,Kiswahili	Kig:Mukeka | Kis:Mkeka
+ruler	non=2	eu=0	Cantonese,Persian	Can:間尺 | Per:خط کش
+straw	non=2	eu=0	Japanese,Mandarin	Jap:ストロー | Man:吸管
+teapot	non=2	eu=3	Cantonese,Turkish	Can:水壺/茶壺 | Tur:Çaydanlık
+tin	non=2	eu=1	Kigiriama,Kiswahili	Kig:Mukebe | Kis:Mkebe
+?(電)飯煲	non=1	eu=-1	Cantonese	Can:(電)飯煲
+?VCD机	non=1	eu=-1	Mandarin	Man:VCD机
+?سطل	non=1	eu=-1	Persian	Per:سطل
+?سینی	non=1	eu=-1	Persian	Per:سینی
+?قوری	non=1	eu=-1	Persian	Per:قوری
+?لیف	non=1	eu=-1	Persian	Per:لیف
+?پتو	non=1	eu=-1	Persian	Per:پتو
+?چنگال	non=1	eu=-1	Persian	Per:چنگال
+?کتری	non=1	eu=-1	Persian	Per:کتری
+?書包	non=1	eu=-1	Cantonese	Can:書包
+?鑊	non=1	eu=-1	Cantonese	Can:鑊
+bandaid	non=1	eu=1	Turkish	Tur:Bant (plaster)
+bottle opener	non=1	eu=0	Kigiriama	Kig:Kifuguriro cha soda[opener]
+bucket1	non=1	eu=0	Kigiriama	Kig:Ndoo
+can opener	non=1	eu=0	Kiswahili	Kis:Kifunuo[opener]
+control	non=1	eu=0	Persian	Per:کنترل
+cotton	non=1	eu=0	Turkish	Tur:Pamuk
+dirt/waste	non=1	eu=0	Kigiriama	Kig:Uchafu/Taka taka
+dis	non=1	eu=0	Persian	Per:دیس
+disk	non=1	eu=0	Persian	Per:سی دی
+dustpan	non=1	eu=2	Mandarin	Man:簸箕
+frying pan	non=1	eu=1	Hebrew	Heb:מחבת
+futon	non=1	eu=0	Japanese	Jap:ふとん
+matches	non=1	eu=1	Persian	Per:کبریت
+metal tray	non=1	eu=0	Kigiriama	Kig:Sinia
+needle	non=1	eu=1	Persian	Per:سوزن
+pan	non=1	eu=3	Japanese	Jap:なべ | Jap:フライパン[frying_pan]
+pitcher	non=1	eu=0	Persian	Per:پارچ
+plug	non=1	eu=2	Mandarin	Man:插頭
+salt shaker	non=1	eu=0	Persian	Per:نمکدان
+screw	non=1	eu=0	Persian	Per:پیچ
+screw driver	non=1	eu=0	Persian	Per:پیچ گوشتی
+shilling/penny	non=1	eu=0	Kigiriama	Kig:Peni/ Shilingi
+stereo	non=1	eu=1	Mandarin	Man:音响[speaker]
+stick (object)	non=1	eu=1	Kigiriama	Kig:Fimbo[stickh] | Kig:Kigongo[sticko]
+thing	non=1	eu=0	Mandarin	Man:东西
+thread	non=1	eu=0	Persian	Per:نخ
+voice recorder	non=1	eu=1	Mandarin	Man:录音机
+watch/clock	non=1	eu=1	Kigiriama	Kig:Saa
+===== other
+-	non=1	eu=0	Korean	Kor:-만
+accusative	non=1	eu=2	Korean	Kor:-를(을)
+comitative	non=1	eu=0	Korean	Kor:-도 | Kor:-랑
+instrumental	non=1	eu=0	Korean	Kor:-로
+locative	non=1	eu=0	Korean	Kor:-한테/에게
+subject case marker	non=1	eu=0	Korean	Kor:-가(이)
+topic case marker	non=1	eu=0	Korean	Kor:-는(은)
+verb ending	non=1	eu=0	Korean	Kor:-야
+===== others
+cheers	non=1	eu=2	Japanese	Jap:カンパーイ（乾杯）
+come_here	non=1	eu=0	Japanese	Jap:おいで
+found_it	non=1	eu=0	Japanese	Jap:あった（見つけた時に）
+heave_ho	non=1	eu=0	Japanese	Jap:よいしょ
+next_time	non=1	eu=0	Japanese	Jap:こんど
+there_there	non=1	eu=0	Japanese	Jap:よしよし
+===== outside
+soil	non=4	eu=3	Korean,Mandarin,Persian,Turkish	Kor:흙 | Man:土[earth] | Per:خاک | Tur:Toprak[ground/earth]
+bridge	non=3	eu=1	Cantonese,Persian,Turkish	Can:天橋 | Per:پل | Tur:Köprü
+ground	non=3	eu=3	Hebrew,Kiswahili,Korean	Heb:אדמה | Kis:Uwanjani[compound] | Kor:땅
+mud	non=3	eu=2	Cantonese,Mandarin,Turkish	Can:泥 | Man:土/泥土 | Tur:Çamur
+pipe	non=3	eu=2	Kigiriama,Kiswahili,Mandarin	Kig:Mufereji/Paipu | Kis:mfereji/paipu | Man:水管[water pipe]
+branch	non=2	eu=1	Japanese,Mandarin	Jap:枝 | Man:树枝
+earth	non=2	eu=2	Persian,Turkish	Per:زمین | Tur:Dünya
+hole	non=2	eu=2	Kigiriama,Kiswahili	Kig:Shimo | Kis:Shimo
+machete	non=2	eu=0	Kigiriama,Kiswahili	Kig:Panga[slasher] | Kis:Panga[slasher]
+seesaw	non=2	eu=3	Korean,Mandarin	Kor:시소 | Man:翹翹板
+small pieces of metal	non=2	eu=0	Kigiriama,Kiswahili	Kig:Vizhuma | Kis:Vichuma
+thunder	non=2	eu=0	Cantonese,Mandarin	Can:行雷 | Man:打雷
+veranda	non=2	eu=0	Japanese,Kigiriama	Jap:ベランダ | Kig:Baraza
+?شلنگ	non=1	eu=-1	Persian	Per:شلنگ
+?转椅	non=1	eu=-1	Mandarin	Man:转椅
+accident	non=1	eu=0	Turkish	Tur:Kaza
+air	non=1	eu=1	Persian	Per:هوا
+alley	non=1	eu=0	Persian	Per:کوچه
+bill	non=1	eu=0	Persian	Per:بیل
+boulder	non=1	eu=0	Korean	Kor:바위
+carousel	non=1	eu=3	Cantonese	Can:氹氹轉
+class	non=1	eu=1	Persian	Per:کلاس
+coast	non=1	eu=0	Persian	Per:ساحل
+crosswalk	non=1	eu=0	Mandarin	Man:斑馬線
+dust	non=1	eu=0	Turkish	Tur:Toz
+fountain	non=1	eu=1	Cantonese	Can:噴水池
+hoe (object)	non=1	eu=0	Kigiriama	Kig:Jembe[hoe]
+lawn	non=1	eu=2	Korean	Kor:잔디
+month	non=1	eu=0	Persian	Per:ماه
+pine cone	non=1	eu=1	Turkish	Tur:Kozalak
+rainbow	non=1	eu=1	Mandarin	Man:彩虹
+sprinkler	non=1	eu=1	Hebrew	Heb:ממטרה
+stem	non=1	eu=0	Persian	Per:ساقه
+traffic	non=1	eu=0	Turkish	Tur:Trafik
+traffic light	non=1	eu=0	Mandarin	Man:红绿灯 | Man:紅綠燈
+trampoline	non=1	eu=2	Mandarin	Man:蹦蹦床
+tunnel	non=1	eu=1	Cantonese	Can:隧道
+way	non=1	eu=0	Kigiriama	Kig:Ngira
+weather	non=1	eu=0	Japanese	Jap:お天気
+===== people
+driver	non=4	eu=0	Cantonese,Japanese,Mandarin,Persian	Can:司機 | Jap:運転手 | Man:司機 | Per:راننده
+princess	non=3	eu=1	Japanese,Korean,Turkish	Jap:お姫様 | Kor:공주 | Tur:Prenses
+sibling	non=3	eu=1	Hebrew,Kigiriama,Turkish	Heb:אח/ אחות[brother \ sister] | Kig:Ndugu | Tur:Kardeş
+expert	non=2	eu=0	Kigiriama,Kiswahili	Kig:Fundi | Kis:Fundi
+farmer	non=2	eu=3	Kigiriama,Kiswahili	Kig:Mukurima | Kis:Mkulima
+friends' names	non=2	eu=1	Cantonese,Mandarin	Can:小朋友的名字 | Man:小朋友的名字
+herder	non=2	eu=0	Kigiriama,Kiswahili	Kig:Murisa[herdsman] | Kis:Mlisha[herdsman]
+king	non=2	eu=1	Japanese,Turkish	Jap:王様 | Tur:Kral
+maid	non=2	eu=0	Kigiriama,Kiswahili	Kig:Mukazi | Kis:Yaya
+neighbor	non=2	eu=1	Hebrew,Turkish	Heb:שכן/ שכנה | Tur:Komşu
+soldier	non=2	eu=2	Korean,Turkish	Kor:군인 | Tur:Asker
+wine tapper	non=2	eu=0	Kigiriama,Kiswahili	Kig:Mujema | Kis:Mgema
+?Hello Kitty	non=1	eu=-1	Cantonese	Can:Hello Kitty
+?大妈	non=1	eu=-1	Mandarin	Man:大妈
+?得得B	non=1	eu=-1	Cantonese	Can:得得B
+?比卡超	non=1	eu=-1	Cantonese	Can:比卡超
+?超人	non=1	eu=-1	Cantonese	Can:超人
+adult	non=1	eu=0	Korean	Kor:어른
+allah (god)	non=1	eu=0	Persian	Per:الله (خدا)
+barber	non=1	eu=1	Turkish	Tur:Berber/Kuaför[hair dresser]
+boss	non=1	eu=0	Mandarin	Man:老闆
+bride	non=1	eu=0	Turkish	Tur:Gelin
+daughter	non=1	eu=2	Korean	Kor:딸
+donald duck	non=1	eu=0	Mandarin	Man:唐老鸭
+engineer	non=1	eu=0	Persian	Per:مهندس
+everyone	non=1	eu=1	Mandarin	Man:大家
+family name	non=1	eu=0	Mandarin	Man:家人的名字[family's name]
+female	non=1	eu=3	Persian	Per:زن
+ghost	non=1	eu=1	Korean	Kor:귀신
+girl, young woman	non=1	eu=0	Kigiriama	Kig:Musichana
+human	non=1	eu=3	Persian	Per:ادم
+mickey mouse	non=1	eu=0	Mandarin	Man:米老鼠
+other people	non=1	eu=0	Mandarin	Man:別人[others]
+particular_character_name	non=1	eu=0	Japanese	Jap:キャラクターの名前（アンパンマン等）
+particular_friend_name	non=1	eu=0	Japanese	Jap:友だちの名前
+particular_pet_name	non=1	eu=0	Japanese	Jap:ペットの名前
+particular_sibling_name	non=1	eu=0	Japanese	Jap:きょうだいの名前
+particular_teacher_name	non=1	eu=0	Japanese	Jap:先生の名前
+prince	non=1	eu=1	Korean	Kor:왕자
+repairman/serviceman	non=1	eu=0	Turkish	Tur:Tamirci
+someone's	non=1	eu=0	Mandarin	Man:**人的
+son	non=1	eu=2	Korean	Kor:아들
+sumo_wrestler	non=1	eu=0	Japanese	Jap:お相撲さん
+sun wukong	non=1	eu=0	Mandarin	Man:孙悟空
+thief	non=1	eu=0	Korean	Kor:도둑
+wife	non=1	eu=0	Kigiriama	Kig:Muche
+younger sibling	non=1	eu=0	Korean	Kor:동생
+zhu bajie	non=1	eu=0	Mandarin	Man:猪八戒
+===== places
+restaurant	non=3	eu=3	Cantonese,Japanese,Mandarin	Can:酒樓/麥當勞 | Jap:レストラン | Man:餐廳
+amusement park	non=2	eu=0	Cantonese,Mandarin	Can:遊樂場/冒險樂園 | Man:游乐园 | Man:遊樂園
+library	non=2	eu=1	Cantonese,Mandarin	Can:圖書館 | Man:圖書館
+apartment	non=1	eu=0	Korean	Kor:아파트
+ball pit	non=1	eu=0	Cantonese	Can:波波池
+bank	non=1	eu=2	Korean	Kor:은행
+building	non=1	eu=2	Mandarin	Man:楼房 | Man:大樓
+bus station	non=1	eu=0	Hebrew	Heb:תחנת אוטובוס
+bus stop	non=1	eu=0	Cantonese	Can:車站#
+china	non=1	eu=0	Mandarin	Man:中国
+company	non=1	eu=0	Japanese	Jap:会社
+daycare center	non=1	eu=0	Turkish	Tur:Kreş/Yuva
+islamic school for children	non=1	eu=0	Kiswahili	Kis:Madrasa/chuoni
+mall	non=1	eu=1	Cantonese	Can:商場
+mcdonald's / kfc	non=1	eu=0	Mandarin	Man:麦当劳/肯德基
+office	non=1	eu=3	Korean	Kor:회사[company]
+outing	non=1	eu=3	Turkish	Tur:Atta
+post office	non=1	eu=1	Mandarin	Man:郵局
+shed	non=1	eu=3	Hebrew	Heb:רפת[cowshed]
+specific name of a playground	non=1	eu=0	Mandarin	Man:XX園(某遊戲樂園名稱)
+station	non=1	eu=1	Mandarin	Man:火車站(車站)[train station]
+theater	non=1	eu=2	Turkish	Tur:Tiyatro
+tiananmen	non=1	eu=0	Mandarin	Man:天安门
+wedding	non=1	eu=0	Turkish	Tur:Düğün
+===== time_words
+noon	non=4	eu=2	Hebrew,Mandarin,Persian,Turkish	Heb:צהריים | Man:中午 | Per:ظهر | Tur:Öğlen
+daytime	non=3	eu=0	Japanese,Kigiriama,Korean	Jap:ひる（昼） | Kig:Mutsana | Kor:낮
+earlier	non=2	eu=0	Cantonese,Mandarin	Can:早啲 | Man:早(一點)
+whole day	non=2	eu=0	Kigiriama,Kiswahili	Kig:Siku nzima | Kis:Siku nzima
+?后天	non=1	eu=-1	Mandarin	Man:后天
+a_moment_ago	non=1	eu=0	Japanese	Jap:さっき
+everyday	non=1	eu=0	Korean	Kor:매일/맨날
+just now	non=1	eu=0	Cantonese	Can:頭先
+last time	non=1	eu=1	Mandarin	Man:上次
+lunchtime	non=1	eu=2	Korean	Kor:점심[noon]
+moment	non=1	eu=0	Hebrew	Heb:רגע
+next time	non=1	eu=0	Mandarin	Man:下次
+once	non=1	eu=0	Hebrew	Heb:פעם
+shabbath, saturday	non=1	eu=0	Hebrew	Heb:שבת
+sometimes	non=1	eu=1	Turkish	Tur:Bazen
+start	non=1	eu=2	Mandarin	Man:開始
+this morning	non=1	eu=0	Cantonese	Can:今朝
+this time	non=1	eu=0	Mandarin	Man:這次
+week	non=1	eu=0	Mandarin	Man:星期…
+yet	non=1	eu=1	Japanese	Jap:まだ
+===== toys
+gun	non=6	eu=3	Cantonese,Kigiriama,Kiswahili,Korean,Mandarin,Turkish	Can:槍 | Kig:Bunduki | Kis:Gun | Kor:총
+rope	non=5	eu=0	Cantonese,Kigiriama,Kiswahili,Mandarin,Persian	Can:繩 | Kig:Lugwe | Kis:Kamba | Man:绳
+kite	non=4	eu=0	Cantonese,Mandarin,Persian,Turkish	Can:風箏/紙鳶 | Man:风筝 | Man:風箏 | Per:بادبادک
+robot	non=3	eu=0	Korean,Mandarin,Turkish	Kor:로봇 | Man:機器人 | Tur:Robot
+board game	non=2	eu=0	Kiswahili,Mandarin	Kis:Vibao/Bao[board] | Man:棋子[chess]
+marker	non=2	eu=3	Hebrew,Persian	Heb:טוש | Per:ماژیک
+microphone	non=2	eu=0	Cantonese,Japanese	Can:咪 | Jap:マイク
+sticker	non=2	eu=1	Cantonese,Mandarin	Can:貼紙 | Man:貼紙[stickers]
+?خودکار	non=1	eu=-1	Persian	Per:خودکار
+?遊戲機	non=1	eu=-1	Cantonese	Can:遊戲機
+adhesive	non=1	eu=0	Persian	Per:چسب
+bat	non=1	eu=3	Japanese	Jap:バット
+board	non=1	eu=2	Persian	Per:تخته
+coconut shell	non=1	eu=0	Kigiriama	Kig:Vifudu
+colouring pencil/crayons	non=1	eu=0	Kiswahili	Kis:Penseli rangi/Colour/Rangi
+crayons	non=1	eu=2	Persian	Per:مداد رنگی
+foam	non=1	eu=2	Kigiriama	Kig:Povu
+gyroscopes	non=1	eu=0	Hebrew	Heb:סביבון
+homework	non=1	eu=0	Persian	Per:مشق
+noisemaker	non=1	eu=0	Hebrew	Heb:רעשן/ קשקשן
+note book	non=1	eu=0	Persian	Per:دفتر
+notebook	non=1	eu=0	Turkish	Tur:Defter
+puppet	non=1	eu=1	Turkish	Tur:Kukla
+story book	non=1	eu=0	Persian	Per:کتاب داستان
+tab	non=1	eu=0	Persian	Per:تاب
+tower	non=1	eu=2	Hebrew	Heb:מגדל
+trumpet	non=1	eu=2	Persian	Per:شیپور
+whistle	non=1	eu=2	Persian	Per:سوت
+whistle (object)	non=1	eu=2	Turkish	Tur:Düdük[whistle]
+===== unknown
+?	non=1	eu=-1	Turkish	Tur:
+===== vehicles
+taxi	non=3	eu=2	Cantonese,Korean,Mandarin	Can:的士 | Kor:택시 | Man:出租车/的 | Man:計程車
+cart	non=2	eu=3	Kigiriama,Kiswahili	Kig:Mukokoteni[handcart] | Kis:Dukwama/Mkokoteni[handcart]
+jeep	non=2	eu=3	Hebrew,Mandarin	Heb:ג'יפ | Man:吉普车
+minibus	non=2	eu=0	Cantonese,Persian	Can:小巴/Van仔 | Per:مینی بوس
+police car	non=2	eu=2	Cantonese,Japanese	Can:Bi Boo車[police car / car with siren] | Jap:パトカー[police_car]
+dump_truck	non=1	eu=0	Japanese	Jap:ダンプカー
+engine	non=1	eu=0	Persian	Per:موتور
+kayak	non=1	eu=0	Turkish	Tur:Kayık[rowing boat]
+machine	non=1	eu=0	Persian	Per:ماشین
+sailboat	non=1	eu=0	Turkish	Tur:Yelkenli[sailing boat]
+the boat	non=1	eu=0	Persian	Per:قایق
+train engine	non=1	eu=0	Hebrew	Heb:קטר

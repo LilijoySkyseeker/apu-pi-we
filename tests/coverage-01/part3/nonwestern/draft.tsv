@@ -1,0 +1,886 @@
+enter	action_words	Can,Jpn,Kor,Cmn,Tur	4	lex:enter=inwa	入(去) | はいる（入る） | 들어가[go in] | (차에)타[get in the car]
+hang	action_words	Can,Jpn,Kig,Swa,Cmn	1		晾(衫) | かける | Ning'inira[hang on] | Ning'inia/Pepesuka/Bembea[hang on]
+wear	action_words	Jpn,Kor,Cmn,Fas,Tur	3	lex:wear=yunko	着る | はく（履く） | 신어[put on shoes] | 입어
+ask	action_words	Can,Kor,Cmn,Tur	3	lex:ask (a question)=mido	問 | 물어 | 问 | 請[to ask]
+bump	action_words	Can,Jpn,Kor,Cmn	4		撞[bump / crash] | ぶつかる[collide] | 부딪쳐 | 撞
+hate	action_words	Heb,Kig,Kor,Cmn	3		לשנוא | Tsukirirwa/ Mena[hate/be angry] | 미워해 | 미워[dislike]
+peel	action_words	Can,Jpn,Kor,Cmn	0		剝 | むく（皮など） | 깎아 | 剥
+pretend	action_words	Can,Heb,Kig,Cmn	5		扮 | לעשות כאילו | Iga | 假装
+put on	action_words	Can,Jpn,Kor,Tur	2		著(衫) | 戴(表) | かぶる | (약)발라
+spin	action_words	Can,Jpn,Kor,Cmn	1		轉 | ぐるぐる | 돌려 | 转
+tie	action_words	Can,Jpn,Cmn,Tur	2	lex:tie, fasten with a knot=manfu	綁/紮 | (領)呔 | ネクタイ | 绑
+choose	action_words	Heb,Kig,Swa	4	lex:choose=waka	לבחור | Tsagula | Chagua
+count	action_words	Can,Cmn,Tur	1	lex:count=sunbu	數 | 数数 | 數數 | Say
+die	action_words	Kor,Fas,Tur	0	lex:die=kono	죽어 | فوت کن | Öl
+dream	action_words	Can,Kig,Cmn	1	lex:dream=sinun	發夢 | Loha | 做梦
+fill	action_words	Kig,Cmn,Tur	1		Dzala | 装 | 裝[pack] | Doy[be full/saturated]
+get off	action_words	Jpn,Kor,Tur	1		おりる（降りる） | 떼(어) | İn[get off/come down]
+go out	action_words	Can,Heb,Kor	3		出(去) | 去街街 | לצאת | 나가
+move	action_words	Can,Kor,Cmn	2	lex:move=kobi; lex:fly, move through the air=bina	郁 | 搬 | 비켜[step aside] | 动
+need	action_words	Heb,Jpn,Cmn	4	lex:need (to)=wupi	צריך | いる（要る） | 要
+press	action_words	Can,Cmn,Tur	1	r1500:press; ladder:press=split; ladder:press (push)=covered:dandi; ladder:press (media)=keep	㩒 | 摁（按） | 按 | Bas[press/step]
+put in	action_words	Jpn,Kor,Tur	0	lex:add, put in more=ginni	いれる（入れる） | 끼워 | (통에)넣어 | (차에)태워[put in the car]
+receive	action_words	Kig,Swa,Cmn	2		Hokera | Pokea | 接
+remember	action_words	Can,Cmn,Tur	3	lex:remember=imu	記得/記住 | 记（得） | 記[note] | Hatırla
+scold	action_words	Can,Kor,Cmn	0		鬧 | 혼나 | 罵[to scold]
+smell	action_words	Can,Cmn,Tur	4	lex:smell, sense or give off an odour=kanko	聞/嗍* | 闻 | 聞 | Kokla
+squeeze	action_words	Can,Cmn,Tur	0	lex:squeeze=donbo	唧*(牙膏) | 压 | Sık[tighten/squeeze/compress]
+step	action_words	Can,Cmn,Fas	2	r1500:step; ladder:step=keep	踩 | 踩 | 蹬 | پله
+swallow	action_words	Can,Cmn,Tur	1		吞 | 咽 | 燕子 | 吞
+tighten	action_words	Kig,Swa,Tur	0		Kaza | Kaza | Sıkış[tighten/be stuck]
+turn	action_words	Kor,Cmn,Tur	5	lex:turn, rotate or turn around=duko; r1500:turn off; ladder:turn off=covered:tapi	돌아 | 拐（弯） | Çevir[turn/spin]
+turn off	action_words	Can,Heb,Kor	3	r1500:turn off; ladder:turn off=covered:tapi	熄(燈) | לכבות | (불)꺼
+understand	action_words	Can,Jpn,Tur	2	lex:understand=lafi	明白 | わかる | Anla
+begin	action_words	Kor,Tur	5		시작해[start] | Başla[begin/start]
+bend	action_words	Can,Cmn	0		趴 | 弯
+blink	action_words	Can,Cmn	0		眨(眼) | 眨（眼）
+chew	action_words	Can,Cmn	0	lex:chew=sofen	噍* | 嚼
+cross	action_words	Kor,Cmn	1	r1500:cross; ladder:cross=keep	건너 | 过
+drip	action_words	Can,Kor	4		滴 | 떨어져
+escape	action_words	Jpn,Tur	3	r1500:escape; ladder:escape=keep	にげる（逃げる） | Kaç
+exchange	action_words	Can,Cmn	0	r1500:exchange; ladder:exchange=keep	(交)換 | 换
+follow	action_words	Can,Cmn	1	lex:follow=lefan	跟住 | 跟着
+forget	action_words	Cmn,Tur	3	lex:forget=yakin	忘记 | 忘記 | Unut
+get on	action_words	Jpn,Fas	1		のる（乗る） | سوار شو
+get out	action_words	Jpn,Kor	2		でる（出る） | (차에서)내려[get out of car]
+go down	action_words	Can,Kor	4		落(去) | 내려가
+go up	action_words	Can,Jpn	3		上(去) | あがる
+grab	action_words	Can,Cmn	3		搶 | 抢
+greet	action_words	Kig,Swa	2		Lamusa | Salimu
+insert	action_words	Can,Cmn	0		插 | 插
+learn	action_words	Can,Cmn	2	lex:learn=yesa	學 | 学
+look for	action_words	Kig,Tur	4		Tafuta | Ara
+pick up	action_words	Jpn,Cmn	4		ひろう（拾う） | 捡 | 撿
+pinch	action_words	Can,Cmn	1		搣* | 捏 | 夾
+point	action_words	Can,Kor	1	lex:time, a span or a point (not an occasion)=muyi; lex:POINT=mimi; lex:until, up to (a time or point)=anko; r1500:point	指 | 가리켜
+prick	action_words	Can,Cmn	1		㓤* (刺) | 扎
+queue	action_words	Can,Cmn	0		排隊[queue / line up] | 排（队）
+rinse	action_words	Can,Cmn	0		沖 | 冲
+roll	action_words	Can,Cmn	3		碌 (打滾) | 滚
+sell	action_words	Can,Cmn	0	lex:sell=koda	賣 | 卖
+send	action_words	Can,Cmn	0	lex:send=sege	送 | 送
+shoot	action_words	Kor,Fas	2	lex:shoot=onlo	(총을)쏴 | شوت (کردن)
+spit	action_words	Can,Cmn	4	lex:spit=kefa	吐/ "luer" | 吐
+spread clothes	action_words	Kig,Swa	0		Anika | Anika
+squat	action_words	Can,Cmn	0		踎 | 蹲 | 蹲
+stir	action_words	Can,Cmn	3		攪 | 搅
+take away	action_words	Kor,Tur	0		뺴앗아 | Götür
+teach	action_words	Cmn,Tur	2	lex:teach=tofo	教我[teach me] | Öğret
+tell	action_words	Cmn,Tur	5	lex:tell=iko	讲 | 告诉 | 告訴 | Anlat
+turn on	action_words	Kor,Fas	5		틀어 | روشنشد
+twist	action_words	Can,Cmn	0		扭 | 擰 | 扭
+use	action_words	Can,Cmn	0	lex:use=bone; lex:rent, pay to use=sanwa	用 | 用
+?باشه	action_words	Fas	-1		باشه
+?ببر	action_words	Fas	-1		ببر
+?برم	action_words	Fas	-1		برم
+?برویم (بریم)	action_words	Fas	-1		برویم (بریم)
+?بریزم	action_words	Fas	-1		بریزم
+?جاروکن	action_words	Fas	-1		جاروکن
+?جاروکنم	action_words	Fas	-1		جاروکنم
+?خوابه	action_words	Fas	-1		خوابه
+?در ار	action_words	Fas	-1		در ار
+?دربزن	action_words	Fas	-1		دربزن
+?درزد	action_words	Fas	-1		درزد
+?شستم	action_words	Fas	-1		شستم
+able	action_words	Kig	4	lex:can, be able=lenu	Dima[be able]
+add	action_words	Fas	0	lex:add, put in more=ginni	جمع (کردن)
+amuse	action_words	Cmn	0		逗
+appear	action_words	Jpn	0	r1500:appear; ladder:appear=keep	みえる
+arrive	action_words	Jpn	1	lex:arrive=liwon	つく（着く）[reach]
+attach	action_words	Jpn	1		つける（付ける）
+band	action_words	Fas	0	r1500:band; ladder:band=keep	بنداز
+be closed	action_words	Tur	0		Kapan
+be cross/not talk to each other	action_words	Tur	0		Küs
+be full	action_words	Fas	0		سیر شدم
+be patient	action_words	Fas	0		تاب بده
+be pushed	action_words	Kor	0		(무엇에)눌려
+be quiet	action_words	Fas	3		حرفنزن
+be satisfied with food	action_words	Kig	0		Kuha/ shiba
+be silent	action_words	Fas	0		ساکت
+be there	action_words	Jpn	0		いる（居る）
+become	action_words	Jpn	0	lex:change, make or become different=kubo; lex:become=lewe	なる（…なる）
+become sorry	action_words	Tur	0		Üzül
+bleed	action_words	Tur	0		Kana
+bless	action_words	Heb	0	r1500:bless; ladder:bless=keep; rel:bless=core	לברך
+bloom	action_words	Kor	1		(꽃이)피어
+borrow	action_words	Can	0		借
+bounce	action_words	Can	0		彈
+brighten	action_words	Cmn	0		亮了
+bully	action_words	Can	0		蝦
+burn	action_words	Tur	4	lex:burn=onti	Yak[set on fire/burn] | Yan[blaze/burn]
+burst	action_words	Kor	0		터져
+can do	action_words	Jpn	0		できる（出来る）
+care	action_words	Kig	1	r1500:care; ladder:care=keep	Lorera/Tsunza[take care of]
+change	action_words	Heb	1	lex:change, make or become different=kubo	להחליף[change things]
+chop	action_words	Can	0		切
+come out	action_words	Kor	0		나와
+cough	action_words	Can	4	lex:cough=dowin	咳
+crawl	action_words	Can	2		爬
+crush	action_words	Tur	0	lex:crush=monpa	Ez
+descend	action_words	Heb	3		לרדת[come down]
+destroy	action_words	Fas	1		خراب شد
+detach	action_words	Tur	0		Kop[get detached/torn apart] | Kopar[detach/tear apart]
+dig	action_words	Cmn	5	lex:dig=wenfe	挖
+disappear	action_words	Jpn	0		消える
+dismantle	action_words	Cmn	0		拆[to take apart]
+do not	action_words	Fas	3		نکن
+don't know	action_words	Kor	1		몰라[i don't know]
+dump	action_words	Kor	4		버려[throw away]
+explode	action_words	Tur	0		Patla[explode/blow up]
+fail	action_words	Fas	0	r1500:fail; ladder:fail=keep	شکست
+fight	action_words	Kor	5	lex:fight=migi	싸워
+flip	action_words	Cmn	0		翻
+float	action_words	Kor	0		(물에)떠
+fold	action_words	Can	0		摺
+fry	action_words	Kor	0		튀겨[fry/bounce]
+fuel	action_words	Fas	0	r1500:fuel; ladder:fuel=keep; loan:fuel=fail	سوخت
+gather	action_words	Tur	2	lex:gather, bring or come together=fanmu	Topla[sum/collect/gather/tidy up]
+get angry	action_words	Jpn	0		おこる（怒る）
+get cut	action_words	Kor	0		끊어져
+get hungry	action_words	Tur	0		Acık
+get sick	action_words	Tur	0		Hastalan
+get wet	action_words	Fas	1		خیس شد
+go around	action_words	Cmn	0		绕
+go home	action_words	Jpn	0		かえる（帰る）
+grasp	action_words	Can	0		"lin2" (捏住)[grasp / squeeze]
+grow	action_words	Cmn	3	lex:grow=guge	长（大）
+grow up	action_words	Tur	1		Büyü
+guess	action_words	Can	0		估
+have an injection	action_words	Kor	0		(주사를)맞아
+hop	action_words	Cmn	3		蹦
+hope	action_words	Cmn	0	lex:hope=ganin	希望
+i won't do it	action_words	Kor	0		안해
+i write	action_words	Fas	0		بنویسم
+inflate	action_words	Tur	0		Şişir[blow up/inflate]
+is not	action_words	Fas	1		نیست
+itch	action_words	Can	0		𢯎* (搔癢)
+kill	action_words	Fas	0	lex:kill=omen	بکش
+lend	action_words	Jpn	2		かす（貸す）
+let	action_words	Cmn	5	lex:share, let others have too=peton	让
+live	action_words	Kor	2	lex:live, be alive, dwell; life=nume	살아
+load	action_words	Kor	0		(물건을)실어
+lock	action_words	Heb	2	lex:lock=udin	לנעול
+lose	action_words	Cmn	4	lex:lose, misplace=agi; add:lose (a contest)	丢
+lower	action_words	Can	2		瞓低
+make a mess	action_words	Tur	0		Kirlet
+meet	action_words	Fas	0		نشست
+mix	action_words	Tur	1	r1500:mix; ladder:mix=keep	Karıştır
+not go	action_words	Fas	0		نرو
+not touch	action_words	Fas	0		دستنزن
+poke	action_words	Can	1		篤
+pray	action_words	Fas	0	r1500:pray; ladder:pray=keep; rel:pray=core	نماز (خواندن)
+pull apart	action_words	Tur	0		Boz
+pull out	action_words	Kor	0		뽑아
+put down	action_words	Kor	1		(물건을)놓아
+put in effort	action_words	Cmn	0		使劲
+put out	action_words	Jpn	1		だす（出す）
+resemble	action_words	Tur	1		Benze[look like/resemble]
+rest	action_words	Heb	0	lex:rest, take a break=yenbo	לנוח
+return	action_words	Cmn	0	lex:return=sigo	回来
+rub	action_words	Cmn	0		揉 | 蹭
+save	action_words	Tur	3		Kurtar[save/rescue]
+scatter	action_words	Tur	0		Dağıt[distribute/scatter/throw around]
+scratch	action_words	Can	1	lex:scratch=sumin	搲* (抓)
+slip	action_words	Kig	3	ladder:slide (slip)=keep	Hereza
+smash	action_words	Kor	0		부숴
+snap	action_words	Tur	0		Yapış[cling]
+sound	action_words	Cmn	0	lex:sound, noise=ninge	响
+spray	action_words	Heb	1		להתיז/ להשפריץ
+spread	action_words	Can	1	r1500:spread; ladder:spread=keep	搽[spread / smear]
+stack	action_words	Can	1		疊*(起)
+stamp	action_words	Kor	0		찍어[stamp/take picture]
+study	action_words	Kor	0		공부해
+suck	action_words	Can	1	lex:suck=maman	啜*(手指)
+support	action_words	Cmn	0	r1500:support; ladder:support=keep	扶
+swear	action_words	Fas	0		بشورم
+take out	action_words	Kor	2		빼
+talk or say something	action_words	Kig	0		Sumurira
+tell a story	action_words	Heb	1		לספר (סיפור)
+thirst	action_words	Tur	4	r1500:thirst; ladder:thirst=keep; wbf:thirst=keep	Susa[be thirsty]
+throw away	action_words	Jpn	1		捨てる
+tire	action_words	Tur	3		Yorul[be tired]
+to piggyback	action_words	Jpn	0		おぶう
+travel	action_words	Tur	0	r1500:travel; ladder:travel=keep	Gez[travel/wonder around]
+tug	action_words	Cmn	0		捋/挽（袖子）
+uncover	action_words	Can	0		揭(開)
+vector	action_words	Fas	0		بردار
+wake up	action_words	Fas	5		بیدار شد | بیدار شو
+wave	action_words	Tur	5	r1500:wave; ladder:wave=keep	El salla[wave hand]
+win	action_words	Kor	3	lex:win=yiyin	(승부에)이겨
+crow	animals	Jpn,Kig,Swa,Cmn,Fas,Tur	5		カラス | Kunguru | Kunguru/Kurabu | 乌鸦
+pigeon	animals	Can,Heb,Jpn,Kor,Cmn	5		(白)鴿 | יונה | はと | 비둘기
+cockroach	animals	Can,Kig,Swa,Cmn	3		曱甴 | Pambaiko | Kombamwiko | 蟑螂
+crab	animals	Can,Jpn,Cmn,Fas	0		蟹 | かに | 螃蟹 | خرچنگ
+parrot	animals	Heb,Cmn,Fas,Tur	3		תוכי | 鸚鵡 | طوطی | Papağan
+alligator	animals	Can,Heb,Cmn	3		鱷魚 | תנין | 鳄鱼 | 鱷魚
+camel	animals	Cmn,Fas,Tur	4		骆驼 | شتر | Deve
+dinosaur	animals	Can,Kor,Cmn	3		恐龍 | 공룡 | 恐龙
+eagle	animals	Cmn,Fas,Tur	0		老鹰 | 老鷹 | عقاب | Kartal
+panda	animals	Can,Jpn,Cmn	2		熊貓 | パンダ | 熊猫
+bed bug	animals	Kig,Swa	0		Kunguni | Kunguni
+beetle	animals	Heb,Fas	3		חיפושית | سوسک
+dolphin	animals	Can,Cmn	4		海豚 | 海豚
+dragon	animals	Can,Cmn	1	cmp:dragon=dinbu pi lumi	龍 | 龙
+dragonfly	animals	Can,Cmn	0		蜻蜓 | 蜻蜓
+gorilla	animals	Jpn,Cmn	0		ゴリラ | 猩猩
+lizard	animals	Kig,Swa	3		Kajonjoloka | Mujusi kafiri
+peacock	animals	Heb,Cmn	0		טווס | 孔雀 | 孔雀
+sparrow	animals	Kor,Fas	4		참새 | گنجشک
+?بلبل	animals	Fas	-1		بلبل
+?مگس	animals	Fas	-1		مگس
+?پشه	animals	Fas	-1		پشه
+baby animal	animals	Tur	0		Yavru
+calf	animals	Kor	3		송아지
+caterpillar	animals	Cmn	3		毛毛蟲
+clam	animals	Cmn	0		蛤蠣(貝殼)
+cricket	animals	Cmn	0		蛐蛐
+gazelle	animals	Fas	0		اهو
+koala	animals	Jpn	0		コアラ
+leopard	animals	Fas	1		پلنگ
+magpie	animals	Cmn	1		喜鹊
+millipede	animals	Kig	0		Gongolo
+pigeons	animals	Fas	5		کبوتر
+raccoon	animals	Jpn	0		たぬき
+stork	animals	Tur	2		Leylek
+whale	animals	Jpn	3		くじら
+worm	animals	Cmn	5	lex:worm=enna	蚯蚓[earthworm]
+palm	body_parts	Can,Kig,Swa	3		手板 | Ganza | Kiganja
+body	body_parts	Kor,Tur	0	lex:body=gawo; lex:back, of the body; behind=nebe; lex:fat, body fat=gimen	몸 | Vücut
+fingernail	body_parts	Kor,Tur	1		발톱[toenail] | Tırnak
+forehead	body_parts	Heb,Jpn	4	r1500:forehead; ladder:forehead=keep	מצח | おでこ
+?ابرو	body_parts	Fas	-1		ابرو
+?باسن*	body_parts	Fas	-1		باسن*
+?دل	body_parts	Fas	-1		دل
+?شصت	body_parts	Fas	-1		شصت
+?شکم	body_parts	Fas	-1		شکم
+?ناف	body_parts	Fas	-1		ناف
+?وش	body_parts	Fas	-1		وش
+blood	body_parts	Kor	0	lex:blood=makon	피
+brain	body_parts	Cmn	0	lex:brain=lemon	脑袋
+elbow	body_parts	Can	5		手踭
+eyelash	body_parts	Tur	3		Kirpik
+eyelashes	body_parts	Fas	3		مژه
+fist	body_parts	Fas	1		مشت
+heart	body_parts	Tur	2	lex:heart=mala	Kalp
+heel	body_parts	Can	0		腳踭
+hip	body_parts	Kor	0		엉덩이
+injury	body_parts	Jpn	0		けが
+mustache	body_parts	Tur	2		Bıyık
+tail	body_parts	Jpn	3	lex:tail=kenlo	しっぽ
+throat	body_parts	Tur	4	lex:throat=muban	Boğaz
+waist	body_parts	Kor	0		허리
+wrist	body_parts	Fas	0		مچ
+bracelet	clothing	Kig,Swa,Fas,Tur	1		Bangili[bangles] | Bangili[bangles] | دستبند | Bilezik
+apron	clothing	Heb,Jpn,Fas	1		סינר | エプロン | پیش بند
+earring	clothing	Kig,Swa,Tur	2		Vipuli[earrings] | Vipuli[earrings] | Küpe
+pocket	clothing	Kor,Cmn,Tur	0	r1500:pocket; ladder:pocket=keep	주머니 | 口袋 | （裤）兜 | Cep
+shawl	clothing	Kig,Swa,Fas	1		Buibui[moslem overdress] | buibui[moslem overdress] | شال
+vest	clothing	Can,Heb,Cmn	2		背心 | אפודה | 背心 | 背心
+blouse	clothing	Fas,Tur	4		بلوز | Bluz
+cloth1	clothing	Kig,Swa	0		Kanga | kanga
+sheet	clothing	Kig,Swa	4	lex:page, sheet=lunyu	Shuka/Shiti | shuka/shiti
+suit	clothing	Kig,Swa	1	r1500:suit; ladder:suit=keep	Suti/Beli | suti/Beli
+undershirt	clothing	Heb,Tur	3		גופיה | Fanila/Atlet
+?تِل	clothing	Fas	-1		تِل
+?مانتو	clothing	Fas	-1		مانتو
+?چادر	clothing	Fas	-1		چادر
+?کِش	clothing	Fas	-1		کِش
+?گل سر (گیر)	clothing	Fas	-1		گل سر (گیر)
+bangle	clothing	Fas	0		النگو
+cloth2	clothing	Swa	0		Kikoi
+colured cloth worn by women and has wordings	clothing	Kig	0		Leso
+dress shoe	clothing	Kor	0		구두[dress shoes]
+earrings	clothing	Fas	2		گوشواره
+hair clip	clothing	Tur	2		Toka[hairpin]
+headband	clothing	Tur	0		Taç
+helmet	clothing	Cmn	0		安全帽
+mask	clothing	Cmn	0	r1500:mask; ladder:mask=keep; loan:mask=pass	口罩
+nipple	clothing	Kig	0		Hombo/Kopo ra mwana/Nyonyo
+peticoat	clothing	Swa	0		kirinda
+petticoat	clothing	Swa	0		Kamisi
+piece of cloth	clothing	Kig	0		Kithambaa
+pin	clothing	Fas	1		سنجاق
+raincoat	clothing	Cmn	2		雨衣
+ribbon	clothing	Jpn	2		リボン
+sleeve	clothing	Cmn	1		袖子
+sweatpants	clothing	Heb	0		טריינינג
+sour	descriptive_words	Can,Jpn,Cmn,Fas,Tur	3	lex:sour=tufun	酸 | すっぱい | 酸 | 好酸/酸酸的
+bitter	descriptive_words	Can,Cmn,Fas,Tur	4	lex:bitter=finlu	苦 | 好苦/苦苦的 | تلخ | Acı
+bright	descriptive_words	Can,Jpn,Cmn,Fas	0		光 | 明るい | 亮亮的 | روشن
+enough	descriptive_words	Can,Heb,Cmn,Tur	3	lex:enough, as much as needed=tonya	夠 | די | 新 | 夠了
+spicy	descriptive_words	Can,Jpn,Kor,Cmn	0		辣 | からい | 매워 | 辣
+cool	descriptive_words	Can,Kor,Cmn	2		涼 | (촉감이)차 | 凉
+funny	descriptive_words	Jpn,Fas,Tur	0		おかしい | بامزه | Komik
+noisy	descriptive_words	Can,Jpn,Kor	5		嘈 | うるさい | 시끄러워
+pitiful	descriptive_words	Can,Jpn,Cmn	0		可憐 | かわいそう[pity] | 可怜
+salty	descriptive_words	Heb,Kor,Cmn	3	lex:salty=lage	מלוח | (맛이)짜 | 咸
+smelly	descriptive_words	Can,Jpn,Cmn	1		臭 | くさい（臭い）[odor] | 臭
+yummy	descriptive_words	Can,Heb,Kor	4		好味/好食 | טעים[tasty] | 맛있어[tasty]
+closed	descriptive_words	Fas,Tur	4		بسته | Kapalı
+dislike	descriptive_words	Jpn,Kor	0		きらい（嫌い） | 싫어[hate]
+easy	descriptive_words	Jpn,Cmn	2	lex:easy=bunle	やさしい | 轻点
+fragrant	descriptive_words	Can,Cmn	0		香 | 香 | 好香/香香的[smell good]
+fun	descriptive_words	Jpn,Kor	2	lex:play, for fun=luse	たのしい（楽しい）[pleasant] | 재미있어
+itchy	descriptive_words	Can,Jpn	0		痕 | かゆい
+mean	descriptive_words	Can,Jpn	1	lex:mean, signify=yofu	惡 | いじわる
+scary	descriptive_words	Jpn,Kor	2		こわい | 무서워
+smart	descriptive_words	Can,Heb	4	lex:smart=gole	叻 | חכם
+strange	descriptive_words	Jpn,Kor	2	lex:strange, odd=lenya	へん（変） | 이상해[weird]
+thin	descriptive_words	Heb,Fas	3	lex:thin=gunmo	רזה | لاغر
+?خالی	descriptive_words	Fas	-1		خالی
+?داغ	descriptive_words	Fas	-1		داغ
+?زرد	descriptive_words	Fas	-1		زرد
+?مریض	descriptive_words	Fas	-1		مریض
+?ناز	descriptive_words	Fas	-1		ناز
+?نازک	descriptive_words	Fas	-1		نازک
+?پاره	descriptive_words	Fas	-1		پاره
+?کهنه	descriptive_words	Fas	-1		کهنه
+?不错	descriptive_words	Cmn	-1		不错
+aggrieved	descriptive_words	Cmn	0		委屈
+all right	descriptive_words	Jpn	2		大丈夫
+asleep	descriptive_words	Can	5		瞓(咗)
+bad taste	descriptive_words	Fas	0		بد مزه
+bored	descriptive_words	Kor	0		심심해
+clever	descriptive_words	Jpn	4		おりこう
+clumsy	descriptive_words	Can	0		論盡
+comfortable	descriptive_words	Can	0		舒服
+different	descriptive_words	Kor	3	lex:change, make or become different=kubo; r1500:different; ladder:different=keep	달라
+dim	descriptive_words	Kor	0		어두워
+disgusting	descriptive_words	Heb	2		מגעיל
+dumb	descriptive_words	Can	2		蠢[dumb / stupid]
+energy	descriptive_words	Jpn	0	r1500:energy; ladder:energy=keep; loan:energy=fail	元気
+excellent	descriptive_words	Heb	0		מצויין
+grey	descriptive_words	Can	0		灰
+harassment	descriptive_words	Fas	0		اذیت
+hollow	descriptive_words	Tur	2		Delik[hollow/hole]
+important	descriptive_words	Jpn	0	lex:important=bawe	だいじ（大事）
+large	descriptive_words	Jpn	3		大きい
+less	descriptive_words	Can	2		少
+low	descriptive_words	Can	2	lex:low=linku; lex:cheap, low in price=tanbu	低
+miserable	descriptive_words	Can	0		慘
+monster	descriptive_words	Tur	0	r1500:monster; ladder:monster=keep	Canavar
+opposite	descriptive_words	Tur	2	r1500:opposite; ladder:opposite=keep	Ters[opposite/reverse]
+painful	descriptive_words	Jpn	3		いたい（痛い）
+quickly	descriptive_words	Cmn	3		快一點
+ready	descriptive_words	Tur	5	lex:ready=wonwe	Hazır
+rectangle	descriptive_words	Cmn	0		長方形的
+satan	descriptive_words	Fas	0		شیطان
+shor	descriptive_words	Fas	0		شور
+sleeping	descriptive_words	Fas	1		خوابیده
+slippery	descriptive_words	Can	0		跣*
+slowly	descriptive_words	Jpn	3		ゆっくり
+smooth	descriptive_words	Can	0	lex:smooth=windi	滑
+square	descriptive_words	Jpn	2	r1500:square; ladder:square=split; ladder:square (place)=keep	四角い
+stiff	descriptive_words	Fas	1		سفت
+stuck	descriptive_words	Cmn	3		卡了
+style	descriptive_words	Fas	0	r1500:style; ladder:style=keep	سبک
+sunny	descriptive_words	Can	0		曬
+ticklish	descriptive_words	Kor	0		간지러워
+triangular	descriptive_words	Cmn	0		三角形的
+upset	descriptive_words	Fas	1		ناراحت
+well-behaved	descriptive_words	Cmn	0		乖
+wrong	descriptive_words	Jpn	5	lex:wrong=gagan	ちがう
+ok	descriptive_words (adjectives)	Kig,Swa,Cmn,Tur	5		Kara kara | Sawasawa | 好吧 | Tamam[ok/allright]
+alert	descriptive_words (adjectives)	Kig,Swa	0		Matso | Macho/makini
+rotten	descriptive_words (adjectives)	Kig,Swa	1	lex:rotten=yuson	Kongo | bovu
+tough	descriptive_words (adjectives)	Kig,Swa	2		Mwisho/ Dumu[last long] | Dumu[last long]
+severe	descriptive_words (adjectives)	Swa	0		kali[hot tempered]
+everything	descriptive_words (adverbs)	Kig,Swa	3		Yosi[all of it] | Yote[all of it]
+without	descriptive_words (adverbs)	Kig,Swa	2	lex:without=nuwen	Bila | Bila
+lots	descriptive_words (adverbs)	Swa	1		Tele/Nyingi
+pepper	food_drink	Heb,Kig,Swa,Cmn,Fas	0		פילפל | Pili pili | Pili pili | 辣椒
+noodles	food_drink	Can,Jpn,Kor,Cmn	5		麵 | うどん[udon] | ラーメン[ramen] | 라면[ramen]
+peach	food_drink	Heb,Jpn,Kor,Fas	4		אפרסק | もも | 복숭아 | هلو
+donut	food_drink	Jpn,Kor,Cmn	5		ﾄﾞｰﾅﾂ | 도너츠 | 油条[dough fritters] | 甜甜圈
+dumpling	food_drink	Can,Kig,Cmn	4		蝦餃 | Mahamuri | 饺子 | 馄饨
+ginger	food_drink	Can,Kig,Swa	0		薑 | Siki | Siki
+lemon	food_drink	Cmn,Fas,Tur	5		檸檬 | لیمو | Limon
+mango	food_drink	Can,Kig,Swa	1		芒果 | Maembe | Embe
+mushroom	food_drink	Can,Cmn,Fas	4		(冬/磨)菇 | 蘑菇[mushrooms] | 木耳 | قارچ[mushrooms]
+onion	food_drink	Can,Fas,Tur	3	lex:onion=lengu	蔥 | پیاز | Soğan
+papaya	food_drink	Kig,Swa,Cmn	1		Paipai/Papayu[pawpaw] | Paipai[paw paw] | 木瓜
+peanut	food_drink	Swa,Kor,Cmn	2		Njugu (karanga)[groundnuts] | 땅콩[peanuts] | 花生 | 花生
+pretzel	food_drink	Heb,Fas,Tur	2		בייגלה[pretzels] | چوب شور | Simit[pretzel/common turkish snack]
+pumpkin	food_drink	Jpn,Kor,Cmn	5		かぼちゃ | 호박 | 南瓜
+shark	food_drink	Kig,Swa,Cmn	0		Papa | Papa | 鯊魚
+shrimp	food_drink	Can,Jpn,Cmn	0		蝦 | えび | 虾 | 蝦子
+soy sauce	food_drink	Can,Jpn,Cmn	0		豉油 | しょうゆ | 醬油
+spinach	food_drink	Jpn,Cmn,Tur	5		ほうれん草 | 菠菜 | 菠菜 | Ispanak
+tofu	food_drink	Can,Jpn,Cmn	0		豆腐 | とうふ（豆腐） | 豆腐
+vegetable	food_drink	Can,Jpn,Cmn	2	r1500:vegetable; ladder:vegetable=keep	菜 | やさい | 蔬菜
+avocado	food_drink	Kig,Swa	1		Avocado | Avocado
+cassava	food_drink	Kig,Swa	0		Mugazija | Muhogo
+cherry	food_drink	Cmn,Tur	4		櫻桃 | Kiraz
+coconut	food_drink	Kig,Swa	0		Madafu[unripe coconuts] | Nazi | Madafu[unripe coconuts] | Nazi
+ketchup	food_drink	Cmn,Tur	1		蕃茄醬 | Ketçap
+kiwi	food_drink	Cmn,Fas	5		奇異果[kiwi fruit] | کیوی
+maize flour	food_drink	Kig,Swa	0		Unga | Unga
+meatball	food_drink	Heb,Tur	5		קציצה[meat ball] | Köfte
+olive	food_drink	Heb,Tur	2		זיתים[olives] | Zeytin
+orange juice	food_drink	Kig,Swa	1		Madzi ga machungwa/Juisi | Maji ya machungwa/juisi
+persimmon	food_drink	Jpn,Kor	1		柿 | 감
+pomegranate	food_drink	Fas,Tur	0		انار | Nar
+potatoes in soup	food_drink	Kig,Swa	0		Virazi zha rojo | Viazi vya rojo/Viazi karai
+radish	food_drink	Jpn,Kor	0		大根 | 무/무우
+samosa	food_drink	Kig,Swa	0		Sambusa | Sambusa
+sour milk	food_drink	Kig,Swa	1		Maziya maivu/Maziya lala | Maziwa mala/lala/kuganda/Yoghurt
+sweet potato	food_drink	Jpn,Kor	1		おいも | 고구마
+tuna	food_drink	Heb,Fas	5		טונה | تن ماهی
+?اجیل	food_drink	Fas	-1		اجیل
+?ادامس	food_drink	Fas	-1		ادامس
+?اش	food_drink	Fas	-1		اش
+?البالو	food_drink	Fas	-1		البالو
+?انگور	food_drink	Fas	-1		انگور
+?بلال	food_drink	Fas	-1		بلال
+?توت	food_drink	Fas	-1		توت
+?رب	food_drink	Fas	-1		رب
+?سس	food_drink	Fas	-1		سس
+?粥	food_drink	Can	-1		粥
+?腸粉	food_drink	Can	-1		腸粉
+?點心	food_drink	Can	-1		點心
+alcohol	food_drink	Kig	0	r1500:alcohol; ladder:alcohol=keep; loan:alcohol=fail	Uchi
+almond	food_drink	Fas	0		بادام
+apricot	food_drink	Tur	0		Kayısı
+bamba	food_drink	Heb	0		במבה
+barbecue	food_drink	Fas	0		کباب
+barbequed pork / char siu	food_drink	Can	0		叉燒
+beef	food_drink	Can	0		牛(肉)
+bologna	food_drink	Fas	0		کالباس
+broth	food_drink	Fas	0		ابگوشت
+bun2	food_drink	Kig	0		Kitumbua
+candied fruit	food_drink	Cmn	0		糖葫芦
+cheetos	food_drink	Fas	0		پفک
+cherries	food_drink	Fas	1		گیلاس
+chickpea	food_drink	Tur	0		Nohut
+chickpeas	food_drink	Fas	0		نخودچی
+chinese omelet	food_drink	Cmn	0		蛋餅
+clementine	food_drink	Heb	1		קלמנטינה
+curry	food_drink	Jpn	0		カレー
+dough	food_drink	Fas	1		دوغ
+dried seaweed	food_drink	Kor	0		김
+eggplant	food_drink	Jpn	0		なす
+fish balls	food_drink	Can	0		魚蛋
+flour	food_drink	Cmn	0		面/面粉
+green pepper	food_drink	Jpn	0		ピーマン
+guava	food_drink	Cmn	0		芭樂
+hazelnut	food_drink	Fas	2		فندق
+hot chocolate	food_drink	Heb	4		שוקו[chocolate drink (hot or cold)]
+hot dog	food_drink	Kor	4		핫도그
+jello	food_drink	Can	3		啫喱
+kale	food_drink	Kig	1		Sukuma
+kefir	food_drink	Cmn	1		乐百氏 | 養樂多[yakult]
+kimchi	food_drink	Kor	0		김치
+kingfish	food_drink	Kig	0		Kiboma | Kiboma
+liver	food_drink	Cmn	0	lex:liver=gudu	肝儿（猪肝、鸡肝）
+macaroni	food_drink	Can	5		通心粉
+natto	food_drink	Jpn	0		なっとう（納豆）
+nugget	food_drink	Cmn	3		雞塊[chicken nuggets]
+omelet	food_drink	Heb	0		חביתה
+pickle	food_drink	Heb	3		חמוצים/ מלפפון חמוץ
+pilaf	food_drink	Kig	0		Pilau[pilau]
+pistachio	food_drink	Fas	0		پسته
+pita	food_drink	Heb	0		פיתה[pita bread]
+pocky	food_drink	Jpn	0		ポッキー
+popsicle	food_drink	Cmn	5		冰棍儿 | 冰棒
+pork	food_drink	Can	0		豬(肉)
+ptitim	food_drink	Heb	0		פתיתים
+rice ball	food_drink	Jpn	0		おにぎり・おむすび
+rice cake	food_drink	Kor	0		떡
+salami	food_drink	Tur	3		Salam
+sardine	food_drink	Swa	0		Omena/Kumbu
+scallion	food_drink	Cmn	0		葱
+schnitzel	food_drink	Heb	0		שניצל
+seaweed	food_drink	Jpn	0		のり（海苔）
+siu mai / dumpling	food_drink	Can	4		燒賣
+soy milk	food_drink	Cmn	0		豆漿
+sprouts	food_drink	Cmn	0		豆芽
+stew	food_drink	Fas	1		خورش
+stuffed vegetable	food_drink	Tur	0		Dolma
+sugar loaf	food_drink	Fas	0		قند
+sushi	food_drink	Jpn	0		おすし
+tarhana	food_drink	Tur	0		Tarhana[kind of soup]
+tortilla	food_drink	Swa	1		Chapati[chapati]
+turkish delight	food_drink	Tur	0		Lokum
+vegetables	food_drink	Fas	0		سبزی
+vinegar	food_drink	Cmn	0		醋
+walnut	food_drink	Fas	3		گردو
+yogurt drink	food_drink	Tur	1		Ayran[yoghurt drink]
+curtain	furniture_rooms	Heb,Jpn,Fas,Tur	1		וילון | カーテン | پرده | Perde
+piano	furniture_rooms	Can,Jpn,Kor,Cmn	1	r1500:piano; ladder:piano=keep; loan:piano=pass	鋼琴 | ピアノ | 피아노 | （钢）琴
+air conditioner	furniture_rooms	Can,Jpn,Cmn	0		冷氣機 | エアコン | 空调 | 冷氣[air conditioning]
+microwave	furniture_rooms	Jpn,Kor,Cmn	3		レンジ[range] | 전자레인지 | 微波炉
+elevator	furniture_rooms	Can,Cmn	4		電梯/𨋢 | 电梯 | 電梯
+log	furniture_rooms	Kig,Swa	0		Gogo/ Kumbi | Gogo/Kumbi
+parking lot	furniture_rooms	Jpn,Cmn	0		駐車場 | 停車場
+porch	furniture_rooms	Heb,Fas	3		מרפסת | ایوان
+?اجاق (گاز)	furniture_rooms	Fas	-1		اجاق (گاز)
+?تخت	furniture_rooms	Fas	-1		تخت
+?سماور	furniture_rooms	Fas	-1		سماور
+catering	furniture_rooms	Fas	0		پذیرایی
+ceiling	furniture_rooms	Can	4		天花(板)
+coffee table	furniture_rooms	Tur	0		Sehpa
+comforter/quilt	furniture_rooms	Tur	5		Yorgan
+dishwasher	furniture_rooms	Fas	1		ظرفشویی
+drawing	furniture_rooms	Fas	2		کشو
+entrance	furniture_rooms	Jpn	1		玄関
+freezer	furniture_rooms	Fas	1		فریزر
+gas	furniture_rooms	Cmn	1	r1500:gas station; r1500:gas; ladder:gas station=keep; ladder:gas=keep	煤气
+hair dryer	furniture_rooms	Jpn	2		ドライヤー[hairdryer]
+heater	furniture_rooms	Fas	2		بخاری
+iphone	furniture_rooms	Fas	0		ایفون
+kotatsu	furniture_rooms	Jpn	0		こたつ
+parking	furniture_rooms	Fas	1		پارکینگ
+puddle	furniture_rooms	Cmn	5		水池子
+radiator	furniture_rooms	Tur	2		Kalorifer
+record	furniture_rooms	Fas	0	r1500:record; ladder:record=keep	ضبط
+shoes rack	furniture_rooms	Jpn	0		げたばこ（げた箱）
+shutter	furniture_rooms	Heb	0		תריס
+structure with walls but no roof	furniture_rooms	Kig	0		Bomani
+tablecloth	furniture_rooms	Heb	0		מפה[table cloth]
+tatami	furniture_rooms	Jpn	0		たたみ
+underground	furniture_rooms	Fas	0		زیرزمین
+video	furniture_rooms	Jpn	4	r1500:video; ladder:video=keep; loan:video=pass	ビデオ
+water crew	furniture_rooms	Jpn	0		水道
+sorry	games_routines	Can,Jpn,Kig,Swa,Cmn	4		對唔住/Sorry | ごめんなさい | Pore | Pole
+brush teeth	games_routines	Can,Jpn,Kor	1		刷牙 | はみがき（歯磨き）[teethbrushing] | 양치
+end	games_routines	Jpn,Cmn,Fas	2	lex:end=fugi; lex:okay?, softens and invites agreement (stance, sentence end)=buni; lex:it turned out, surprisingly (stance, sentence end)=donon; lex:end of phrase (closes a relative clause, phrasal derived word or topic)=kiyo	おしまい | おわる（終わる） | 完了(結束的意思) | اخر
+give me	games_routines	Heb,Jpn,Kor	2		תן לי | ちょうだい | 줘
+hide and seek	games_routines	Can,Cmn,Tur	2		伏匿匿* | 藏猫猫 | Saklambaç[hide-and-seek]
+welcome	games_routines	Kig,Swa,Tur	0	r1500:welcome; ladder:welcome=covered:upe obu	Karibu | Karibu | Hoşgeldiniz
+bravo	games_routines	Cmn,Tur	3		(真)棒![good job] | Aferin[well done/bravo]
+cannot	games_routines	Can,Cmn	2		唔准/唔得[cannot / may not] | 不行
+don't want to	games_routines	Kig,Swa	0		Senzi | Sitaki
+game of hide and seek	games_routines	Kig,Swa	0		Kibe | Kibe
+give me five	games_routines	Heb,Kor	1		כיף/ תן כפה[give me five!] | 파이팅
+go to school	games_routines	Can,Cmn	0		返學 | 上学
+good evening	games_routines	Kig,Swa	1		Udzasindaze? | Umeshindaje?
+how are you	games_routines	Kig,Swa	1		Kuna utu | Mambo /Hujambo[how are you?]
+how are you?	games_routines	Kig,Swa	1		Kamuna utu? | Shikamoo
+relaxing	games_routines	Kig,Swa	0		Kuoya | Kupumzika/Nimechoka
+ring around the rosie	games_routines	Kig,Swa	3		Ukuti[game involving going round] | Ukuti[game involving going round]
+rock paper scissors	games_routines	Can,Jpn	0		包剪𢱕* | じゃんけんぽん
+yay	games_routines	Can,Kor	0		好嘢 | 만세
+years old	games_routines	Can,Cmn	0		一歲/兩歲 | 一岁/两岁
+you have it	games_routines	Kig,Swa	0		Unacho | Unacho
+?اتل متل	games_routines	Fas	-1		اتل متل
+?الو	games_routines	Fas	-1		الو
+?بله ( اره)	games_routines	Fas	-1		بله ( اره)
+?تاب تاب عباسی	games_routines	Fas	-1		تاب تاب عباسی
+?دالی/داکی	games_routines	Fas	-1		دالی/داکی
+?عمو زنجیر باف	games_routines	Fas	-1		عمو زنجیر باف
+?قایم (قایم باشک)	games_routines	Fas	-1		قایم (قایم باشک)
+?مرسی (ممنون)	games_routines	Fas	-1		مرسی (ممنون)
+?نانای	games_routines	Fas	-1		نانای
+?هیس	games_routines	Fas	-1		هیس
+?کلاغ پر	games_routines	Fas	-1		کلاغ پر
+?对了	games_routines	Cmn	-1		对了
+a children's song with hand movements	games_routines	Heb	0		עשר אצבעות לי יש
+a shame/a pity	games_routines	Tur	0		Yazık
+allahu akbar	games_routines	Fas	0		الله اکبر
+allow \ permitted	games_routines	Heb	4		אפשר/ מותר
+birthday	games_routines	Tur	1	r1500:birthday; ladder:birthday=keep	Doğumgünü
+change diaper	games_routines	Cmn	0		換尿布
+come on	games_routines	Tur	3		Hadi
+don't want	games_routines	Can	1		唔要
+eid	games_routines	Fas	0		عید
+evening meal	games_routines	Fas	1		عصرانه
+excuse me	games_routines	Tur	1		Efendim[i beg your pardon]
+flying bugs	games_routines	Can	0		點蟲蟲
+go eat	games_routines	Heb	0		ללכת לאכול[to go to eat]
+go for a walk	games_routines	Heb	2		ללכת לטייל[to go for a walk]
+go to bed	games_routines	Heb	3		ללכת לישון[to go to sleep]
+gonna get you	games_routines	Heb	4		לשחק תופסת[gonna get you!]
+have a good day	games_routines	Jpn	0		いってらっしゃい
+here you are	games_routines	Jpn	0		どうぞ
+i have mine	games_routines	Heb	0		יש לי/שלי
+i'm hurt \ you're hurt	games_routines	Heb	0		כואב לי/ כואב לך
+joke	games_routines	Tur	3	r1500:joke; ladder:joke=keep	Şaka
+let’s eat	games_routines	Jpn	0		いただきます
+listen to music	games_routines	Cmn	0		聽音樂
+lullaby	games_routines	Tur	0		Ninni
+mad	games_routines	Heb	4		כועס/ כועסת
+meal	games_routines	Jpn	3		ごはん（食事）
+music	games_routines	Tur	3	r1500:music; ladder:music=keep; loan:music=fail	Müzik
+of course/sure	games_routines	Tur	1		Tabii
+play with blocks	games_routines	Cmn	0		堆積木[stack blocks]
+playhouse	games_routines	Tur	1		Evcilik[playing house]
+race	games_routines	Tur	0	r1500:race; ladder:race=split; ladder:race (people)=keep	Yarış
+right	games_routines	Can	2	lex:right, the side=nata; lex:a right, entitlement=sogan	啱喇[right / correct]
+shame	games_routines	Tur	0	r1500:shame; ladder:shame=keep	Ayıp[shameful]
+somersault	games_routines	Tur	0		Takla
+surprise	games_routines	Tur	1		Sürpriz
+tag	games_routines	Can	4		捉伊人
+ten- twenty- thirty- forty	games_routines	Fas	0		ده- بیست- سی- چهل
+thank you for the meal	games_routines	Jpn	0		ごちそうさま
+to talk on the phone	games_routines	Heb	0		לדבר בטלפון
+wash hands	games_routines	Can	0		洗手
+watch out	games_routines	Tur	3		Dikkat[watch out/attention]
+watch tv	games_routines	Cmn	0		看電視
+water play	games_routines	Fas	0		اب بازی
+chopstick	household	Can,Jpn,Kor,Cmn	1		筷子 | はし（箸）[chopsticks] | 젓가락[chopsticks] | 筷子
+remote control	household	Kig,Swa,Cmn,Tur	2		Remote | Remote | 遙控器 | Kumanda
+battery	household	Can,Jpn,Cmn	3	lex:battery=batali	電池/電芯 | 電池 | 电池
+fan	household	Can,Jpn,Cmn	0	r1500:fan; ladder:fan=split; ladder:fan (device)=keep	風扇 | 扇風機 | 电扇[electric fan] | 扇子
+iron	household	Jpn,Fas,Tur	5	r1500:iron; ladder:iron=keep	アイロン | اتو | Ütü
+rag	household	Jpn,Kor,Cmn	5		ぞうきん | 걸레 | 托把/墩布
+a tool used to grate coconut	household	Kig,Swa	0		Mbuzi | Mbuzi
+basin	household	Can,Cmn	0		盆 | 盆
+cd	household	Can,Cmn	4		CD/VCD/DVD | 光碟(CD或DVD)[disk]
+cooking stick	household	Kig,Swa	0		Mwiko | Mwiko
+copra	household	Kig,Swa	0		Kifudu | Kifuvu/Kifuu
+eraser	household	Can,Fas	0		擦膠 | پاک کن
+hanger	household	Can,Kor	0		衣架 | 옷걸이
+letter	household	Kig,Swa	3	r1500:letter; ladder:letter=split; ladder:letter (alphabet)=keep	Baruwa | Posta/barua[letter/ post office]
+mat	household	Kig,Swa	3		Mukeka | Mkeka
+newspaper	household	Can,Cmn	4	r1500:newspaper; ladder:newspaper=keep	報紙 | 报纸
+ruler	household	Can,Fas	0		間尺 | خط کش
+straw	household	Jpn,Cmn	0		ストロー | 吸管
+teapot	household	Can,Tur	3		水壺/茶壺 | Çaydanlık
+tin	household	Kig,Swa	1		Mukebe | Mkebe
+toilet paper	household	Kig,Swa	4		Karatasi ya kudzihangusa | Karatasi ya chooni/ya kujipangusa[toliet paper]
+trash can	household	Jpn,Kor	4		ごみ箱[trash_box] | 쓰레기통/휴지통[trash bin]
+?(電)飯煲	household	Can	-1		(電)飯煲
+?VCD机	household	Cmn	-1		VCD机
+?سطل	household	Fas	-1		سطل
+?سینی	household	Fas	-1		سینی
+?قوری	household	Fas	-1		قوری
+?لیف	household	Fas	-1		لیف
+?پتو	household	Fas	-1		پتو
+?چنگال	household	Fas	-1		چنگال
+?کتری	household	Fas	-1		کتری
+?書包	household	Can	-1		書包
+?鑊	household	Can	-1		鑊
+bandaid	household	Tur	1		Bant (plaster)
+bottle opener	household	Kig	0		Kifuguriro cha soda[opener]
+bucket1	household	Kig	0		Ndoo
+can opener	household	Swa	0		Kifunuo[opener]
+candle	household	Fas	4		شمع
+control	household	Fas	0	lex:power, control=lula	کنترل
+cotton	household	Tur	0		Pamuk
+dirt/waste	household	Kig	4		Uchafu/Taka taka
+dis	household	Fas	2		دیس
+disk	household	Fas	0		سی دی
+dustpan	household	Cmn	2		簸箕
+flower pot	household	Heb	4		עציץ[flowerpot]
+frying pan	household	Heb	1		מחבת
+futon	household	Jpn	0		ふとん
+jug	household	Kig	4		Jagi
+matches	household	Fas	1		کبریت
+metal tray	household	Kig	0		Sinia
+needle	household	Fas	1	r1500:needle; ladder:needle=keep	سوزن
+pan	household	Jpn	3		なべ | フライパン[frying_pan]
+penny	household	Swa	5		Shilingi[shilling]
+pitcher	household	Fas	0		پارچ
+plug	household	Cmn	2		插頭
+salt shaker	household	Fas	0		نمکدان
+screw	household	Fas	0		پیچ
+screw driver	household	Fas	0		پیچ گوشتی
+shilling/penny	household	Kig	5		Peni/ Shilingi
+stereo	household	Cmn	1		音响[speaker]
+thing	household	Cmn	0	lex:thing=musu	东西
+thread	household	Fas	0		نخ
+voice recorder	household	Cmn	1		录音机
+next time	others	Jpn,Cmn	0		こんど | 下次
+cheers	others	Jpn	2		カンパーイ（乾杯）
+come here	others	Jpn	0		おいで
+found it	others	Jpn	0		あった（見つけた時に）
+heave ho	others	Jpn	0		よいしょ
+there there	others	Jpn	0		よしよし
+mountain	outside	Can,Heb,Jpn,Kor,Cmn,Fas,Tur	5	lex:mountain=genne	山 | הר | 山 | 산
+leaf	outside	Can,Jpn,Cmn,Fas,Tur	4	lex:leaf=wonin	樹葉 | はっぱ | 叶子/树叶 | 葉子
+soil	outside	Kor,Cmn,Fas,Tur	3	lex:ground, earth or soil=fowo	흙 | 土[earth] | خاک | Toprak[ground/earth]
+bridge	outside	Can,Fas,Tur	1	r1500:bridge; ladder:bridge=keep	天橋 | پل | Köprü
+ground	outside	Heb,Swa,Kor	3	lex:ground, earth or soil=fowo	אדמה | Uwanjani[compound] | 땅
+mud	outside	Can,Cmn,Tur	2	r1500:mud; ladder:mud=keep	泥 | 土/泥土 | Çamur
+pipe	outside	Kig,Swa,Cmn	2	r1500:pipe; ladder:pipe=keep	Mufereji/Paipu | mfereji/paipu | 水管[water pipe]
+branch	outside	Jpn,Cmn	1	r1500:branch; ladder:branch=keep	枝 | 树枝
+earth	outside	Fas,Tur	2	lex:ground, earth or soil=fowo	زمین | Dünya
+hole	outside	Kig,Swa	2	r1500:hole; ladder:hole=keep	Shimo | Shimo
+machete	outside	Kig,Swa	0		Panga[slasher] | Panga[slasher]
+seesaw	outside	Kor,Cmn	3		시소 | 翹翹板
+small pieces of metal	outside	Kig,Swa	0		Vizhuma | Vichuma
+smoke	outside	Fas,Tur	4	lex:smoke=penso	دود | Duman
+thunder	outside	Can,Cmn	0	lex:thunder=seyun	行雷 | 打雷
+veranda	outside	Jpn,Kig	0		ベランダ | Baraza
+?شلنگ	outside	Fas	-1		شلنگ
+?转椅	outside	Cmn	-1		转椅
+accident	outside	Tur	0	r1500:accident; ladder:accident=keep	Kaza
+air	outside	Fas	1	lex:fly, move through the air=bina; lex:blow, of air=nanyo; lex:air=wunta	هوا
+alley	outside	Fas	0		کوچه
+bill	outside	Fas	0	r1500:bill; ladder:bill=keep	بیل
+boulder	outside	Kor	0		바위
+carousel	outside	Can	3		氹氹轉
+class	outside	Fas	1	r1500:class; ladder:class=split; ladder:class (social)=keep	کلاس
+coast	outside	Fas	0		ساحل
+crosswalk	outside	Cmn	0		斑馬線
+dust	outside	Tur	0	lex:dust=awin	Toz
+fountain	outside	Can	1		噴水池
+hoe	outside	Kig	0		Jembe
+lake	outside	Tur	4	lex:lake=nenwa	Göl
+lawn	outside	Kor	2		잔디
+month	outside	Fas	0	lex:month=dunan	ماه
+pine cone	outside	Tur	1		Kozalak
+rainbow	outside	Cmn	1		彩虹
+sprinkler	outside	Heb	1		ממטרה
+stem	outside	Fas	0		ساقه
+traffic	outside	Tur	0	r1500:traffic; ladder:traffic=keep	Trafik
+traffic light	outside	Cmn	0		红绿灯 | 紅綠燈
+trampoline	outside	Cmn	2		蹦蹦床
+tunnel	outside	Can	1	r1500:tunnel; ladder:tunnel=keep; loan:tunnel=fail	隧道
+watering can	outside	Jpn	5		水まき[watering]
+way	outside	Kig	0	lex:way, method=lite	Ngira
+weather	outside	Jpn	0	r1500:weather; ladder:weather=keep	お天気
+workplace	outside	Fas	5	r1500:workplace; ladder:workplace=covered:pu doku; wbf:workplace=duplicate	اداره[office]
+driver	people	Can,Jpn,Cmn,Fas	0	r1500:driver; ladder:driver=covered:no drive	司機 | 運転手 | 司機 | راننده
+princess	people	Jpn,Kor,Tur	1	r1500:princess; ladder:princess=covered:tiwu futa pi king	お姫様 | 공주 | Prenses
+expert	people	Kig,Swa	0	r1500:expert; ladder:expert=keep	Fundi | Fundi
+farmer	people	Kig,Swa	3	r1500:farmer; ladder:farmer=covered:no farm	Mukurima | Mkulima
+friends' names	people	Can,Cmn	1		小朋友的名字 | 小朋友的名字
+herder	people	Kig,Swa	0		Murisa[herdsman] | Mlisha[herdsman]
+king	people	Jpn,Tur	1	r1500:king; ladder:king=keep	王様 | Kral
+maid	people	Kig,Swa	0		Mukazi | Yaya
+miss	people	Cmn,Tur	4	lex:miss, feel the absence of=sanku	小姐 | Özle
+neighbor	people	Heb,Tur	1		שכן/ שכנה | Komşu
+policeman	people	Jpn,Fas	5		おまわりさん | پلیس[cop]
+sibling	people	Kig,Tur	1	lex:sibling=faba	Ndugu | Kardeş
+soldier	people	Kor,Tur	2	r1500:soldier; ladder:soldier=keep	군인 | Asker
+wine tapper	people	Kig,Swa	0		Mujema | Mgema
+?Hello Kitty	people	Can	-1		Hello Kitty
+?大妈	people	Cmn	-1		大妈
+?得得B	people	Can	-1		得得B
+?比卡超	people	Can	-1		比卡超
+?超人	people	Can	-1		超人
+adult	people	Kor	0	r1500:adult; ladder:adult=keep	어른
+allah	people	Fas	0		الله (خدا)
+barber	people	Tur	1		Berber/Kuaför[hair dresser]
+boss	people	Cmn	0		老闆
+bride	people	Tur	0	r1500:bride; ladder:bride=covered:futa no bedan	Gelin
+daughter	people	Kor	2	cmp:daughter=tiwu futa; r1500:daughter; ladder:daughter=covered:tiwu futa	딸
+donald duck	people	Cmn	0		唐老鸭
+engineer	people	Fas	0	r1500:engineer; ladder:engineer=keep; loan:engineer=pass	مهندس
+everyone	people	Cmn	1		大家
+family name	people	Cmn	0		家人的名字[family's name]
+female	people	Fas	3	lex:woman, female=futa	زن
+ghost	people	Kor	1	rel:ghost=core, added; add:ghost	귀신
+human	people	Fas	3		ادم
+mickey mouse	people	Cmn	0		米老鼠
+particular character name	people	Jpn	0		キャラクターの名前（アンパンマン等）
+particular friend name	people	Jpn	0		友だちの名前
+particular pet name	people	Jpn	0		ペットの名前
+particular sibling name	people	Jpn	0		きょうだいの名前
+particular teacher name	people	Jpn	0		先生の名前
+prince	people	Kor	1	r1500:prince; ladder:prince=covered:tiwu pi king	왕자
+repairman/serviceman	people	Tur	0		Tamirci
+someone's	people	Cmn	0		**人的
+son	people	Kor	2	cmp:son=tiwu lowu; r1500:son; ladder:son=covered:tiwu lowu	아들
+sumo wrestler	people	Jpn	0		お相撲さん
+sun wukong	people	Cmn	0		孙悟空
+thief	people	Kor	0	r1500:thief; ladder:thief=covered:no bunsi	도둑
+wife	people	Kig	0		Muche
+younger sibling	people	Kor	0		동생
+zhu bajie	people	Cmn	0		猪八戒
+hospital	places	Can,Kig,Swa,Kor,Cmn,Tur	5	cmp:hospital=pu yema simi; r1500:hospital; ladder:hospital=keep	醫院 | Sipitali | Sipitali | 병원
+restaurant	places	Can,Jpn,Cmn	3	r1500:restaurant; ladder:restaurant=keep; loan:restaurant=pass	酒樓/麥當勞 | レストラン | 餐廳
+amusement park	places	Can,Cmn	0		遊樂場/冒險樂園 | 游乐园 | 遊樂園
+library	places	Can,Cmn	1	r1500:library; ladder:library=covered:guyi pi ingo	圖書館 | 圖書館
+apartment	places	Kor	0		아파트
+ball pit	places	Can	0		波波池
+bank	places	Kor	2	r1500:bank; ladder:bank=keep; loan:bank=pass	은행
+building	places	Cmn	2	lex:room, of a building=fudon; lex:storey, floor level of a building=sison; r1500:building; ladder:building=keep	楼房 | 大樓
+bus station	places	Heb	0		תחנת אוטובוס
+bus stop	places	Can	0		車站#
+china	places	Cmn	0		中国
+company	places	Jpn	0	r1500:company; ladder:company=keep	会社
+daycare center	places	Tur	0		Kreş/Yuva
+grocery	places	Kor	5		슈퍼마켓[supermarket]
+islamic school for children	places	Swa	0		Madrasa/chuoni
+mall	places	Can	1		商場
+mcdonald's / kfc	places	Cmn	0		麦当劳/肯德基
+office	places	Kor	3	r1500:office; ladder:office=keep; loan:office=pass	회사[company]
+outing	places	Tur	3		Atta
+post office	places	Cmn	1		郵局
+shed	places	Heb	3		רפת[cowshed]
+specific name of a playground	places	Cmn	0		XX園(某遊戲樂園名稱)
+station	places	Cmn	1	r1500:gas station; r1500:station; ladder:gas station=keep; ladder:station=keep	火車站(車站)[train station]
+theater	places	Tur	2		Tiyatro
+tiananmen	places	Cmn	0		天安门
+wedding	places	Tur	0	lex:marry, wedding=bedan	Düğün
+caw caw	sounds2	Jpn	0		カーカー（カラス）
+chirp	sounds2	Jpn	1		ぴよぴよ（ひよこ）
+clean up	sounds2	Jpn	2		きれいきれい | ないない（片づけ）
+hit head	sounds2	Jpn	0		ごっつん
+hold me	sounds2	Jpn	1		だっこ
+little bird	sounds2	Jpn	0		チュンチュン（鳥）
+oink	sounds2	Jpn	5		ブーブー（豚）
+piggyback ride	sounds2	Jpn	0		おんぶ
+sitting	sounds2	Jpn	0		ちゃんこ（おすわり）
+spill water	sounds2	Jpn	0		ジャー（水などこぼす時）
+squeak	sounds2	Jpn	4		チューチュー（ねずみ）
+stomach	sounds2	Jpn	4		ポンポン（おなか）
+writing	sounds2	Jpn	0		ジージ（字）
+noon	time_words	Heb,Cmn,Fas,Tur	2	lex:noon, midday=minfi	צהריים | 中午 | ظهر | Öğlen
+daytime	time_words	Jpn,Kig,Kor	0	add:daytime	ひる（昼） | Mutsana | 낮
+earlier	time_words	Can,Cmn	0		早啲 | 早(一點)
+whole day	time_words	Kig,Swa	0		Siku nzima | Siku nzima
+?后天	time_words	Cmn	-1		后天
+a moment ago	time_words	Jpn	0		さっき
+everyday	time_words	Kor	0	lex:kilogram, everyday short form=kilo	매일/맨날
+just now	time_words	Can	0		頭先
+last time	time_words	Cmn	1		上次
+lunchtime	time_words	Kor	2		점심[noon]
+moment	time_words	Heb	0	lex:moment=foke	רגע
+next	time_words	Fas	4	r1500:next; ladder:next=keep	بعد
+once	time_words	Heb	0		פעם
+shabbath, saturday	time_words	Heb	0		שבת
+sometimes	time_words	Tur	1		Bazen
+start	time_words	Cmn	3	lex:start=tuko	開始
+this morning	time_words	Can	0		今朝
+this time	time_words	Cmn	0		這次
+week	time_words	Cmn	0	lex:week=nelon	星期…
+yet	time_words	Jpn	1		まだ
+gun	toys	Can,Kig,Swa,Kor,Cmn,Tur	3	r1500:gun; ladder:gun=covered:du onlo	槍 | Bunduki | Gun | 총
+rope	toys	Can,Kig,Swa,Cmn,Fas	0	lex:rope=tenbe	繩 | Lugwe | Kamba | 绳
+bat	toys	Jpn,Kig,Swa,Cmn	4		バット | Ndema | Popo | 球棒
+kite	toys	Can,Cmn,Fas,Tur	0		風箏/紙鳶 | 风筝 | 風箏 | بادبادک
+bell	toys	Can,Cmn,Tur	5		鈴啷 | 铃铛 | Zil
+robot	toys	Kor,Cmn,Tur	0	r1500:robot; ladder:robot=keep; loan:robot=pass	로봇 | 機器人 | Robot
+song	toys	Can,Jpn,Cmn	4	r1500:song; ladder:song=keep	歌 | おうた（お歌） | 歌
+wheel	toys	Can,Cmn,Tur	5	r1500:wheel; ladder:wheel=keep	車轆 | 车轮/轱辘 | Tekerlek
+board game	toys	Swa,Cmn	0		Vibao/Bao[board] | 棋子[chess]
+marker	toys	Heb,Fas	4		טוש | ماژیک
+microphone	toys	Can,Jpn	0		咪 | マイク
+sticker	toys	Can,Cmn	1		貼紙 | 貼紙[stickers]
+whistle	toys	Fas,Tur	2		سوت | Düdük
+?خودکار	toys	Fas	-1		خودکار
+?遊戲機	toys	Can	-1		遊戲機
+adhesive	toys	Fas	0		چسب
+board	toys	Fas	2	r1500:board; ladder:board=keep	تخته
+card	toys	Can	5	lex:card=mise	啤牌
+clay	toys	Jpn	4		粘土
+coconut shell	toys	Kig	0		Vifudu
+foam	toys	Kig	2		Povu
+gyroscopes	toys	Heb	0		סביבון
+homework	toys	Fas	0		مشق
+noisemaker	toys	Heb	0		רעשן/ קשקשן
+note book	toys	Fas	0		دفتر
+notebook	toys	Tur	0		Defter
+puppet	toys	Tur	1		Kukla
+story book	toys	Fas	0		کتاب داستان
+tab	toys	Fas	0		تاب
+tower	toys	Heb	2	r1500:tower; ladder:tower=keep	מגדל
+trumpet	toys	Fas	2		شیپور
+taxi	vehicles	Can,Kor,Cmn	2	r1500:taxi; ladder:taxi=keep; loan:taxi=pass	的士 | 택시 | 出租车/的 | 計程車
+cart	vehicles	Kig,Swa	3	lex:cart=siwa	Mukokoteni[handcart] | Dukwama/Mkokoteni[handcart]
+jeep	vehicles	Heb,Cmn	3		ג'יפ | 吉普车
+minibus	vehicles	Can,Fas	0		小巴/Van仔 | مینی بوس
+police car	vehicles	Can,Jpn	2		Bi Boo車[police car / car with siren] | パトカー
+crane	vehicles	Cmn	5		老吊车 | 吊車
+dump truck	vehicles	Jpn	0		ダンプカー
+engine	vehicles	Fas	0	r1500:engine; ladder:engine=keep; loan:engine=fail	موتور
+kayak	vehicles	Tur	0		Kayık[rowing boat]
+machine	vehicles	Fas	0	lex:work, labour; of a machine, function=doku; r1500:washing machine; r1500:machine; ladder:washing machine=keep	ماشین
+plane	vehicles	Fas	5		هواپیما
+sailboat	vehicles	Tur	0		Yelkenli[sailing boat]
+the boat	vehicles	Fas	0		قایق
+train engine	vehicles	Heb	0		קטר
+tram	vehicles	Can	4		電車/叮叮
