@@ -83,6 +83,8 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 ### Small fixes (no decision needed)
 
+- **Sense glosses for the new-root list** (Part 5 translators, 2026-10-13): labels like yard, spring, class, interest, raise, fan, party, capital, table are ambiguous English words; give each new concept a sense gloss before Part 4 places forms.
+
 - `tools/check.py` doesn't read plain `.txt` files (it only reads code blocks and bold); add a plain-text mode.
 - RB1 leftovers: residual UDHR readings (Art 25.2, 26.2); the guide's root count; grammar function name `LabelNP` → `LabelQ`.
 
