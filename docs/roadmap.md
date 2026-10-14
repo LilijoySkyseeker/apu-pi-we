@@ -34,7 +34,7 @@ A background deep dive into the design, engineering and principles of other inte
   - Fact-check C44 may be too strong: a 1959 USAF report on the ICAO alphabet argues that longer words survive a noise burst (spelling words, not digits).
 - **Globasa in depth** (author, 2026-10-13: "a lot of ideas we should steal"): research done, `research/notes/globasa.md` (64 ideas judged; data from its dictionary in `research/notes/globasa-data.py`). **Not yet reviewed:** its recommendations are the study's, not decisions. Review queued for the author below.
 - **Sound symbolism as a tie-breaker:** researched (`research/notes/sound-symbolism.md`): robust only for shape (bouba/kiki) and size; small effects; no *r* in Apupiwe. Decide at the final placement: a narrow tie-break for ~10–20 size and shape words (now movable), or nothing.
-- **"We don't know what we don't know"** (author, 2026-10-13): after the surveys, an idea-generation pass looking for considerations and unusual ideas nobody has raised yet. It may find nothing. Scheduled for midnight 2026-10-14, on a different model (Fable) for different blind spots; prompt `research/notes/unknown-unknowns-prompt.md`, output `research/notes/unknown-unknowns.md`.
+- **"We don't know what we don't know"** (author, 2026-10-13): after the surveys, an idea-generation pass looking for considerations and unusual ideas nobody has raised yet. It may find nothing. Scheduled for 00:54 on 2026-10-14 (the next usage window), on a different model (Fable) for different blind spots; prompt `research/notes/unknown-unknowns-prompt.md`, output `research/notes/unknown-unknowns.md`.
 
 ### Queued for the author
 
