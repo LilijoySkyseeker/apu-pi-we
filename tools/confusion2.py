@@ -69,6 +69,10 @@ PARAMS = _read_params()  # id -> {parameter, best, low, high, sampling, status, 
 
 # Added here (not in the TSV). Each with its source.
 ADDED = {
+    # Share of word-initial syllables that follow a pause, in the "initial" mix (author, 2026-10-13:
+    # sample it instead of fixing 0.20). The n-final share stays 0.20; the rest is split over the vowels.
+    "ctx_pause_share": {"best": 0.20, "low": 0.10, "high": 0.40, "sampling": "uniform", "status": "guess",
+                        "source": "added; author 2026-10-13"},
     # Yu & Do 2024 Mandarin, aspiration pairs level-matched to E_C = 0.20 (§1.8: 0.34% at +6 dB,
     # 0.36% at +12 dB, 0.93% in quiet): how often an aspiration-language listener confuses an
     # aspirated [pʰ] with an unaspirated/voiced one.
@@ -84,6 +88,14 @@ ADDED = {
 # n-final share from data/grammar.tsv + data/lexicon.tsv, frequency-weighted (0.25 of word ends,
 # each vowel 0.13-0.20, computed 2026-10-13, rounded to equal vowels); pause share is a guess.
 CTX_WEIGHTS = {"pause": 0.20, "n": 0.20, "i": 0.12, "e": 0.12, "a": 0.12, "o": 0.12, "u": 0.12}
+
+
+def ctx_weights(p):
+    """The 'initial' mix for a parameter set: pause share sampled (ctx_pause_share), n-final 0.20, rest
+    split evenly over the five vowels."""
+    ps = p.get("ctx_pause_share", CTX_WEIGHTS["pause"])
+    v = (1 - ps - CTX_WEIGHTS["n"]) / 5
+    return {"pause": ps, "n": CTX_WEIGHTS["n"], **{x: v for x in "ieaou"}}
 
 PATTERN_FILES = {
     "cooke08": "proj-cooke08-noise.tsv",
@@ -200,7 +212,7 @@ def onset_matrix(p, context="initial"):
     if p.get("model") == "v1":
         return _v1()[0]
     if context == "initial":
-        return sum(w * onset_matrix(p, c) for c, w in CTX_WEIGHTS.items())
+        return sum(w * onset_matrix(p, c) for c, w in ctx_weights(p).items())
     k = _k(p)
     M = pattern(p["C_pattern"], p["E_C"]).copy()
     for a, b in VOICING:

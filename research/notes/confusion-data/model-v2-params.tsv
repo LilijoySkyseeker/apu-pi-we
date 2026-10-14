@@ -35,7 +35,7 @@ V_share_i_u	i-u	0.15	0.15	0.40	Dirichlet	inference	data 0.17-0.40 inflated by En
 V_share_e_o	e-o	0.01	0.00	0.01	Dirichlet	data	same
 V_share_rest	i-a i-o e-u a-u together	0.05	0.03	0.08	Dirichlet	data	same
 L2_voicing_pi	share of listeners with no plain voicing contrast	0.30	0.15	0.35	uniform	data	PHOIBLE x Ethnologue (§4)
-L2_voicing_m	their p-b t-d k-g confusion	0.10	0.02	0.40	log-uniform	guess	depends on whether talkers aspirate p t k (Mandarin aspiration confusion 0.3%, §1.6)
+L2_voicing_m	their p-b t-d k-g confusion (on unaspirated tokens; range widened to 0.50 by the author 2026-10-13)	0.10	0.02	0.50	log-uniform	guess	depends on whether talkers aspirate p t k (Mandarin aspiration confusion 0.3%, §1.6)
 L2_fp_pi	share with no f	0.15	0.10	0.20	uniform	data	§4
 L2_fp_m	their f-p confusion	0.25	0.10	0.45	uniform	guess	-
 L2_nop_pi	share with no p	0.05	0.03	0.08	uniform	data	§4
