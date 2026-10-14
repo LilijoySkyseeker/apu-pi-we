@@ -1,6 +1,6 @@
 # 28 chat zh
 source: https://zh.wikipedia.org/wiki/Talk:饺子 (Chinese Wikipedia talk page of the article on jiaozi, the oldest posts, 2005-2006; signatures and timestamps removed, posters shown as A/B/C/D; A and C are unsigned and may be the same person)
-licence: CC BY-SA 4.0
+licence: CC BY-SA 3.0 (posted under the GFDL, relicensed by Wikimedia to CC BY-SA 3.0 in 2009)
 english: translated by the collector
 
 ## original

@@ -1,6 +1,6 @@
 # 27 chat fa
 source: https://fa.wikipedia.org/wiki/بحث:آبگوشت (Persian Wikipedia talk page of the article on abgoosht, section "تغیر مسیر", June-August 2009; signatures and timestamps removed, posters shown as A/B/C...)
-licence: CC BY-SA 4.0
+licence: CC BY-SA 3.0 (the Wikimedia text licence when posted)
 english: translated by the collector
 
 ## original

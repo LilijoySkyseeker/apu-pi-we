@@ -1,6 +1,8 @@
 # coverage-01 text collection log
 
-Word counts are whitespace tokens in the original, excluding speaker labels; for zh/ja (no spaces) the count is of the English version.
+Word counts are whitespace tokens in the original, excluding speaker labels; for zh/ja/th (no spaces) the count is of the English version.
+
+Texts 21-36 are a second collection (2026-10-14) to balance the regions: the first 20 lean European. Same rules; talk texts there are course dialogues and recorded monologues from FSI and Peace Corps books on ERIC and Wikimedia Commons, read from the page scans.
 
 Conventions: chat signatures and timestamps are replaced by A, B, C...; omissions inside a text are marked in square brackets; "[cut]" marks where an excerpt stops. Peace Corps manuals are treated as US Government works in the public domain, as Wikimedia Commons does for the Indonesian book (PD-USGov); some were written by local Peace Corps staff, which was not checked further.
 
@@ -37,6 +39,7 @@ Conventions: chat signatures and timestamps are replaced by A, B, C...; omission
 - 30 news am: VOA Amharic 2023 (Asmamaw Ayenew), teff price in Addis Ababa nearly doubles, consumers struggle to get by (food, money, market); 136 words (all but the closing pointer to the audio); translated by collector.
 - 31 news th: VOA Thai 2022, Thais in Los Angeles celebrate Songkran at Wat Thai: homesickness, making merit, pouring water for elders and over monks and Buddha images (festivals, religion, family); 119 English words (headline, first paragraph and the merit-making paragraph; quotes between them omitted, cut); translated by collector. Diaspora setting: VOA Thai's everyday stories are about Thais in the US.
 - 32 news id: VOA Indonesia 2015 (Budi Nahaba), the government ships mudik travellers' motorcycles home by train, truck and ship for Lebaran, places still left (transport, festivals, family); 148 words (headline and first 3 paragraphs, cut before the quota figures); translated by collector.
+- 33 howto hi: Hindi Wikipedia, article on sarson ka saag, its recipe section: wash and chop mustard and spinach leaves, pressure-cook to 5 whistles, grind with maize flour, fry onion, ginger, garlic, fenugreek, chillies and tomato in a kadhai, finish with desi ghee and coriander (food, cooking, farming produce); 112 words (method; the 13-line ingredient list omitted to stay under 150); translated by collector. A Wikipedia recipe section rather than a howto site: no openly licensed Hindi-original howto was found (see rejected).
 - 34 howto ar: Arabic Wikibooks Cookbook, Damascus fatteh with chickpeas, the Friday-breakfast dish when the whole family gathers: soak and boil chickpeas, blend with yoghurt and tahini, soak bread, top with ghee, cumin and sumac (food, family, religion/weekly rhythm); 139 words (whole page); translated by collector.
 - 35 howto qu: Qhichwazine #2 (Atuq Yachachiq, Cochabamba, 2023; a monolingual Quechua zine on Wikimedia Commons), recipe for jank'aki lawa, toasted-wheat soup: wash and peel, boil, toast and grind the wheat on a grinding stone (food, cooking); 91 words incl. the Spanish ingredient list (step 8, a misprinted repeat of step 7, omitted); translated by collector, two verbs of uncertain sense marked. No Peace Corps or other public-domain Quechua dialogue with a full text was found, so Quechua fills a howto slot.
 - 36 howto zh: Chinese Wikibooks Recipes, twice-cooked pork (Sichuan): ingredients (lard, Pixian bean paste, garlic shoots, Sichuan pepper) and boiling and slicing the pork (food, cooking); 150 English words (ingredients and steps 1-3 of 4, cut before the stir-fry step, which would push it to 243); translated by collector.
@@ -68,3 +71,23 @@ Conventions: chat signatures and timestamps are replaced by A, B, C...; omission
 - Taiwan police anti-fraud "five don'ts" page (open-data licence): about 50 words, too short.
 - Hindi Wikipedia "इण्टरनेट पर हिन्दी के साधन": a link list, not instructions.
 - MHLW heatstroke page at /stf/.../nettyuu_taisaku/: 404; used the current prevent.html page.
+- VOA Hausa "Babbar Sallah: ba ta layya mu ke ba..." and "Kokawa kan tashin farashin kaya a lokacin azumi": video only, no text.
+- VOA Hausa "Tasirin bude iyakokin Najeriya kan farashin abinci": text opens mid-argument ("Sai dai duk da haka..."), the intro is in the audio.
+- Peace Corps "Yoruba Course" (Awobuluyi, ERIC ED210923): no full text on ERIC.
+- Peace Corps Philippines Tagalog course (ERIC ED402754), host mother teaching laundry and food-offer dialogues: 4-8 short lines each.
+- Quechua dialogue courses on ERIC ("Spoken Cochabamba Quechua", Cornell 1964; "Ecuadorian Quechua Basic Course", BYU 1971; Maryknoll "Lecciones de Quechua"): university or mission works under contract, not clearly public domain; no Peace Corps Quechua manual found on ERIC, Commons or the Internet Archive.
+- Qhichwazine #2 chicha-brewing text: over 400 words of dense technical Quechua; chose the recipe on the facing page.
+- Peace Corps "Conversational Tamil": "On the Day of a Fair" and "Washerman" are narrated step lists, not talk; "Hiring a Servant" and "Firing a Servant" are 80 words each, 170 together.
+- vi.wikipedia Thảo luận:Phở, "Nước dùng" (broth) section: two posts by one user; "Xí quách" section: 160 words, mostly an etymology of a Cantonese loan.
+- zh.wikipedia Talk:饺子, fifth post (Beijing saying, guotie vs jiaozi): would push the excerpt over 200 English words.
+- fa.wikipedia بحث:هفت‌سین "ماهی قرمز نخرید" (don't buy goldfish for haft-sin): a single essay-like post apparently copied from a blog, licence doubtful.
+- fa.wikipedia بحث:شب یلدا Kerman edit requests: about 60 words, and the first version is vandalism.
+- fa.wikipedia talk pages of چای, دوغ, نان, آش رشته, چلوکباب, سیزده‌بدر: bot notices, a pasted recipe, or one-line posts.
+- bn.wikipedia talk pages of বিরিয়ানি (mostly about machine translation), লুঙ্গি (half in English), রসগোল্লা and পিঠা (one post each).
+- VOA Thai searches for Songkran, farmers and markets: almost all wire stories on world news; "โควิด-19 กระทบการจัดงานสงกรานต์..." is about California case counts.
+- VOA Indonesia "Jelang Idulfitri, pasar-pasar tradisional Jakarta penuh disesaki pembeli": credited to the Associated Press.
+- VOA Indonesia "Badan Pangan Nasional dorong kegiatan pasar murah" (rice prices): lead is mostly provinces and percentages.
+- ar.wikibooks Cookbook "مقلوبة" (maqluba): about 400 words with nutrition facts; "يخنة البامية" (okra stew): fine but chose the shorter, complete fatteh page.
+- zh.wikibooks 食譜/西紅柿蛋湯 (tomato and egg soup): over 400 characters of marketing-style detail; 食谱/家常凉粉: steps mix up pea starch and sweet-potato starch.
+- Hindi howto sources: hi.wikibooks has no cookbook and its "योग कैसे करें?" page is abstract; Indian government pages (NDMA heat-wave dos and don'ts) time out from here and state no open licence; CDC and StoryWeaver Hindi how-tos are translations (StoryWeaver Hindi originals found were stories, and reading needs a login).
+- hi.wikipedia "सरसों का साग" ingredient list: kept the method only, the whole section is 174 words.

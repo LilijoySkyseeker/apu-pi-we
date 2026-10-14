@@ -1,6 +1,6 @@
 # 25 chat bn
 source: https://bn.wikipedia.org/wiki/আলোচনা:ইলিশ (Bengali Wikipedia talk page of the article on hilsa, the whole page: sections "আবাস" 2008-2009, "অপ্রয়োজনীয় ফটো" 2017, "মিয়ানমারের ইলিশ" 2026; signatures and timestamps removed, posters shown as A/B/C/D)
-licence: CC BY-SA 4.0
+licence: CC BY-SA 3.0 (posts of 2008-2017; the 2026 post CC BY-SA 4.0)
 english: translated by the collector
 
 ## original
