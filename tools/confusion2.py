@@ -387,21 +387,43 @@ class Model:
                 prob *= self.boundary(va, ca, o_next).get((cb, oh_next), 0.0)
         return prob
 
-    def misparses(self, w1, w2, vocab, threshold=0.01):
+    def misparses(self, w1, w2, vocab, threshold=0.01, junction_only=True):
         """Two-word sequences from `vocab` (a set of word tuples) that the sequence (w1, w2) is heard
-        as through a boundary event alone (coda of w1 and onset of w2 change, nothing else).
-        Returns [(h1, h2, prob)], prob = p_sequence((w1, w2) -> (h1, h2)), above threshold."""
+        as through a boundary event alone (coda of w1 and/or onset of w2 change, nothing else).
+        junction_only drops plain onset substitutions (C -> other C, coda unchanged), which word-level
+        scoring already sees. Returns [(h1, h2, prob, kind)] with prob = p_sequence((w1, w2) -> (h1, h2))
+        for boundary outcomes whose own probability is >= threshold."""
         o1, v1, c1 = SYLLABLES[w1[-1]]
         o2, v2, c2 = SYLLABLES[w2[0]]
         out = []
         for (ch, oh), q in self.boundary(v1, c1, o2).items():
             if (ch, oh) == (c1, o2) or q < threshold:
                 continue
+            kind = junction_kind(c1, o2, ch, oh)
+            if junction_only and kind == "substitution":
+                continue
             h1 = w1[:-1] + (SYL_INDEX[o1, v1, ch],)
             h2 = (SYL_INDEX[oh, v2, c2],) + w2[1:]
             if h1 in vocab and h2 in vocab:
-                out.append((h1, h2, self.p_sequence([w1, w2], [h1, h2])))
+                out.append((h1, h2, self.p_sequence([w1, w2], [h1, h2]), kind))
         return out
+
+
+def junction_kind(c1, o2, ch, oh):
+    """Name the boundary event (sent coda c1 + onset o2 heard as ch + oh)."""
+    if (c1, o2, ch, oh) in (("n", "", "", "n"), ("", "n", "n", "")):
+        return "n+vowel"
+    if o2 in ("n", "m") and oh == o2 and ch != c1:
+        return "n+nasal"
+    if ch == c1 and {o2, oh} in ({"", "j"}, {"", "w"}):
+        return "glide/hiatus"
+    if ch == c1 and "" in (o2, oh):
+        return "onset presence"
+    if ch != c1 and oh == o2:
+        return "coda"
+    if ch == c1:
+        return "substitution"
+    return "coda+onset"
 
 
 # ---------------------------------------------------------------- robustness variants (§6)

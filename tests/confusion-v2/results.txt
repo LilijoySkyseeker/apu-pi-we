@@ -1,0 +1,311 @@
+====================================================================================================
+(a) PUBLISHED MATRICES. Each source level-matched to mean onset error 0.20 ('heard no consonant'
+    folded into the diagonal); models compared on the 78 symmetric consonant-pair confusions.
+    v2 in-sample = mix of 4 (contains the source); v2 leave-one-out = mix of the other 3.
+    rho = Spearman rank correlation; MAE = mean absolute error, percentage points; top10 = how many
+    of the source's 10 most confused pairs are in the model's 10.
+
+source          model                     rho    MAE  top10
+cooke08         v1 (MN55 + guesses)      0.48   1.59      4
+cooke08         v2 mix4 in-sample        0.82   0.90      6
+cooke08         v2 leave-one-out         0.67   1.19      5
+
+cutler-native   v1 (MN55 + guesses)      0.57   1.57      4
+cutler-native   v2 mix4 in-sample        0.88   0.75      6
+cutler-native   v2 leave-one-out         0.77   1.01      4
+
+cutler-dutch    v1 (MN55 + guesses)      0.53   1.52      6
+cutler-dutch    v2 mix4 in-sample        0.88   0.63      8
+cutler-dutch    v2 leave-one-out         0.80   0.84      7
+
+mandarin6       v1 (MN55 + guesses)      0.37   1.37      5
+mandarin6       v2 mix4 in-sample        0.58   1.41      7
+mandarin6       v2 leave-one-out         0.47   1.88      4
+
+mn55            v1 (MN55 + guesses)      1.00   0.13     10
+mn55            v2 mix4 in-sample        0.60   1.53      8
+
+mandarin12      v1 (MN55 + guesses)      0.37   1.61      5
+mandarin12      v2 mix4 in-sample        0.48   1.52      6
+
+Consonant pairs, symmetric confusion in percent at mean onset error 0.20 (v2 = best, no listener groups,
+inside a word; v1 level-matched). Top 20 under v2, with v1's value:
+  p-t  10.2 (v1 13.8)   m-n   7.8 (v1 10.9)   t-k   6.6 (v1 14.0)   f-b   6.6 (v1 1.5)   d-g   6.0 (v1 21.0)
+  p-k   5.5 (v1 14.4)   p-f   4.6 (v1 4.2)   n-l   4.5 (v1 0.8)   p-b   3.6 (v1 0.3)   g-j   3.4 (v1 0.9)
+  b-d   3.4 (v1 2.5)   f-s   3.3 (v1 5.1)   k-g   3.0 (v1 0.0)   d-n   2.8 (v1 0.6)   m-l   2.8 (v1 0.3)
+  b-m   2.7 (v1 1.2)   b-g   2.2 (v1 1.9)   b-w   1.9 (v1 0.9)   g-w   1.9 (v1 0.3)   b-l   1.8 (v1 0.3)
+  v1's top 10: d-g 21.0, p-k 14.4, t-k 14.0, p-t 13.8, m-n 10.9, f-s 5.1, p-f 4.2, l-w 3.3, l-j 3.3, w-j 3.3
+
+Onset loss, C -> no onset, percent (sources level-matched to 0.20; v1 has one rate for every context):
+                                         p     t     k     f     s     b     d     g     m     n     l     w     j
+v1                                     0.5   0.5   0.5   3.0   0.5   0.6   0.6   0.6   0.5   0.5   3.1   5.1   5.1
+v2 after a pause                      12.0   8.5   8.5   5.5   0.7   5.5   0.7   5.5   0.7   0.7   0.7   0.7   0.7
+v2 after a vowel (a)                   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.0   1.0
+v2 after i (glide/hiatus)              1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.0  10.0
+Cutler native (CV, after silence)     17.2  12.5  11.7   6.9   1.2   8.2   2.4   4.6   1.4   0.2   0.4   0.7   1.2
+Cutler Dutch (CV)                      7.3   4.6   5.3   4.0   0.0   4.9   3.9   3.6   0.8   0.7   0.8   0.6   0.8
+Cooke 2008 (VCV, after a vowel)        4.0   1.3   2.6   1.8   0.0   1.6   0.0   1.4   0.0   0.0   0.0   1.4   1.4
+
+Vowels: shares of vowel error by pair (Cutler 2004 0 dB projected onto i<-i, e<-eɪ, a<-ɑ, o<-oʊ, u<-u).
+                                  i-e    o-u    a-o    e-a    i-u    e-o   rest  mean err  L1 to v1  L1 to v2
+v1                               0.21   0.21   0.21   0.21   0.05   0.05   0.06      7.7%
+v2 best (at E_C 0.20)            0.22   0.24   0.23   0.10   0.15   0.01   0.05      3.0%
+native-initial                   0.20   0.28   0.21   0.07   0.20   0.01   0.03      7.6%      0.44      0.18
+native-final                     0.04   0.09   0.23   0.21   0.38   0.00   0.04      3.0%      0.71      0.69
+dutch-initial                    0.33   0.27   0.14   0.00   0.17   0.01   0.08     22.2%      0.64      0.39
+dutch-final                      0.10   0.12   0.33   0.00   0.40   0.00   0.05     13.8%      0.94      0.70
+(v1's mean vowel error sits beside a 40% consonant error; v2's beside 20%: the ratio, not the level, is comparable.)
+
+====================================================================================================
+(b) TODAY'S WORDS: most confusable pairs, symmetric P(a heard as b) averaged both ways, word-initial
+    context unknown (junction mix). Short words = 61 grammar words + digits 0-5; content = lexicon.tsv.
+    rank under the other model in brackets.
+
+SHORT WORDS: 2211 pairs. Spearman(v1, v2) over all pairs = 0.76
+  top under v1                                          v1 % [v2 rank]   top under v2                                          v2 % [v1 rank]
+  de~ge (INTEND/RESULT)                                 32.7        10   to~po (I/digit0)                                       9.4         4
+  tin~kin (INSTRUCT/PART)                               22.7         9   pi~fi (OF/digit1)                                      7.2         8
+  ke~te (MORE/digit5)                                   21.8         5   fu~pu (LIKE/PLACE)                                     7.2         9
+  to~po (I/digit0)                                      21.5         1   min~nin (Q/WHILE)                                      6.8         5
+  min~nin (Q/WHILE)                                     17.7         4   ke~te (MORE/digit5)                                    6.2         3
+  fa~sa (NONE/digit2)                                    8.1        22   fa~ba (NONE/EXCLAIM)                                   6.2        56
+  se~fe (FROM/ALSO)                                      8.0        23   bi~fi (VERY/digit1)                                    6.2        50
+  pi~fi (OF/digit1)                                      6.7         2   fu~bu (LIKE/IT)                                        6.1        51
+  fu~pu (LIKE/PLACE)                                     6.7         3   tin~kin (INSTRUCT/PART)                                5.8         2
+  li~wi (FOR/EVEN)                                       5.3        77   de~ge (INTEND/RESULT)                                  5.7         1
+  yi~wi (OBVIATIVE/EVEN)                                 5.3        87   la~na (PLURAL/ONLY)                                    4.7        98
+  yu~lu (WH/OR)                                          5.3        90   pi~bi (OF/VERY)                                        4.4       168
+  yi~li (OBVIATIVE/FOR)                                  5.3        89   bu~pu (IT/PLACE)                                       4.3       169
+  la~ya (PLURAL/BEFORE)                                  5.1        86   bo~po (UNSPEC/digit0)                                  4.3       176
+  we~le (ALL/ONGOING)                                    5.1        75   pen~ben (WE.incl/THAT.dem)                             4.0       177
+
+  More dangerous under v2 (v2 top 30, v1 rank > 90):
+    la~na (PLURAL/ONLY)                                          v2 rank   11 (4.7%)  v1 rank     98
+    pi~bi (OF/VERY)                                              v2 rank   12 (4.4%)  v1 rank    168
+    bu~pu (IT/PLACE)                                             v2 rank   13 (4.3%)  v1 rank    169
+    bo~po (UNSPEC/digit0)                                        v2 rank   14 (4.3%)  v1 rank    176
+    pen~ben (WE.incl/THAT.dem)                                   v2 rank   15 (4.0%)  v1 rank    177
+    ke~ge (MORE/RESULT)                                          v2 rank   25 (2.9%)  v1 rank   2164
+    na~da (ONLY/digit4)                                          v2 rank   28 (2.7%)  v1 rank    115
+    me~le (YOU/ONGOING)                                          v2 rank   29 (2.6%)  v1 rank    175
+  Overrated by v1 (v1 top 30, v2 rank > 90):
+    fa~ka (NONE/digit3)                                          v1 rank   19 (3.5%)  v2 rank     98
+    fon~kon (ADVISE/CONF)                                        v1 rank   20 (3.4%)  v2 rank    103
+    ke~fe (MORE/ALSO)                                            v1 rank   21 (3.4%)  v2 rank    100
+    so~po (REQUEST/digit0)                                       v1 rank   24 (3.3%)  v2 rank    220
+    fe~te (ALSO/digit5)                                          v1 rank   26 (3.0%)  v2 rank    101
+    din~gi (WE.excl/BECAUSE)                                     v1 rank   28 (3.0%)  v2 rank    158
+    gun~du (BE/TOOL)                                             v1 rank   29 (3.0%)  v2 rank    207
+
+CONTENT WORDS: 133386 pairs. Spearman(v1, v2) over all pairs = 0.67
+  top under v1                                          v1 % [v2 rank]   top under v2                                          v2 % [v1 rank]
+  soto~foto (north/photo)                                2.5         2   gulo~yulo (wind/euro)                                  2.5         4
+  uwan~yuwan (star/yuan)                                 1.9         3   soto~foto (north/photo)                                2.2         1
+  kiyo~kilo (end of phrase (closes a relative clause,    1.7        17   uwan~yuwan (star/yuan)                                 2.1         2
+  gulo~yulo (wind/euro)                                  1.0         1   kudu~gudu (big/liver)                                  1.8    106141
+  wulon~yulo (wet/euro)                                  0.3       266   duko~tuko (turn, rotate or turn around/start)          1.1    116595
+  wase~afe (magic/yesterday)                             0.3       151   kegu~egu (talk/breast)                                 1.0        49
+  dunu~gudu (get, obtain/liver)                          0.3       121   kanko~anko (smell, sense or give off an odour/until,   0.9        76
+  imu~gimu (remember/occasion, a time (three times))     0.2        11   gufu~gudu (hard, not soft/liver)                       0.9        23
+  doma~oma (listen/7)                                    0.2        24   beya~keya (door/must, have to)                         0.9    102675
+  omen~oma (kill/7)                                      0.2       432   aban~akan (outside/louse)                              0.8    105074
+  unfu~ufo (pay/6)                                       0.2       105   imu~gimu (remember/occasion, a time (three times))     0.8         8
+  sesa~kefa (beautiful/spit)                             0.2      2519   penso~genso (smoke/not literally, joking (speech act   0.8    100303
+  pensi~kefi (wash/8)                                    0.2      1062   anbo~anko (horse/until, up to (a time or point))       0.8    101662
+  yenwu~yawu (offend/10)                                 0.2       431   nebe~neke (back, of the body; behind/give)             0.8     97992
+  neke~mape (give/9)                                     0.2      2469   yikan~yiban (seed/chicken)                             0.8    127413
+
+  More dangerous under v2 (v2 top 30, v1 rank > 90):
+    kudu~gudu (big/liver)                                        v2 rank    4 (1.8%)  v1 rank 106141
+    duko~tuko (turn, rotate or turn around/start)                v2 rank    5 (1.1%)  v1 rank 116595
+    beya~keya (door/must, have to)                               v2 rank    9 (0.9%)  v1 rank 102675
+    aban~akan (outside/louse)                                    v2 rank   10 (0.8%)  v1 rank 105074
+    penso~genso (smoke/not literally, joking (speech act))       v2 rank   12 (0.8%)  v1 rank 100303
+    anbo~anko (horse/until, up to (a time or point))             v2 rank   13 (0.8%)  v1 rank 101662
+    nebe~neke (back, of the body; behind/give)                   v2 rank   14 (0.8%)  v1 rank  97992
+    yikan~yiban (seed/chicken)                                   v2 rank   15 (0.8%)  v1 rank 127413
+    gake~gabe (slow/run, on foot)                                v2 rank   16 (0.8%)  v1 rank 109671
+    bige~kige (above/same)                                       v2 rank   18 (0.8%)  v1 rank 105118
+    feko~febo (true/answer)                                      v2 rank   19 (0.7%)  v1 rank 108298
+    banga~kanga (panic/basket)                                   v2 rank   20 (0.7%)  v1 rank 122808
+    bubo~kubo (laugh/change, make or become different)           v2 rank   21 (0.6%)  v1 rank 114920
+    pinda~ginda (white/crooked)                                  v2 rank   22 (0.6%)  v1 rank 111184
+    soti~sogi (bed/happy)                                        v2 rank   25 (0.5%)  v1 rank 103838
+    pasu~lasu (food/bite)                                        v2 rank   26 (0.5%)  v1 rank    126
+    giwe~tiwe (sun/sweat)                                        v2 rank   27 (0.4%)  v1 rank  98591
+    gason~tason (idea/rather, somewhat)                          v2 rank   28 (0.4%)  v1 rank 120960
+    tika~bika (egg/buy)                                          v2 rank   29 (0.4%)  v1 rank    180
+  Overrated by v1 (v1 top 30, v2 rank > 90):
+    wulon~yulo (wet/euro)                                        v1 rank    5 (0.3%)  v2 rank    266
+    wase~afe (magic/yesterday)                                   v1 rank    6 (0.3%)  v2 rank    151
+    dunu~gudu (get, obtain/liver)                                v1 rank    7 (0.3%)  v2 rank    121
+    omen~oma (kill/7)                                            v1 rank   10 (0.2%)  v2 rank    432
+    unfu~ufo (pay/6)                                             v1 rank   11 (0.2%)  v2 rank    105
+    sesa~kefa (beautiful/spit)                                   v1 rank   12 (0.2%)  v2 rank   2519
+    pensi~kefi (wash/8)                                          v1 rank   13 (0.2%)  v2 rank   1062
+    yenwu~yawu (offend/10)                                       v1 rank   14 (0.2%)  v2 rank    431
+    neke~mape (give/9)                                           v1 rank   15 (0.2%)  v2 rank   2469
+    sepi~kefi (apologise/8)                                      v1 rank   16 (0.2%)  v2 rank   1726
+    nata~mape (right, the side/9)                                v1 rank   17 (0.2%)  v2 rank   1640
+    fawu~tayu (year/agree)                                       v1 rank   18 (0.2%)  v2 rank   1138
+    lula~yulo (power, control/euro)                              v1 rank   19 (0.2%)  v2 rank    839
+    lowu~wuwu (man, male/navel)                                  v1 rank   20 (0.2%)  v2 rank    508
+    lowu~yawu (man, male/10)                                     v1 rank   21 (0.2%)  v2 rank    818
+    fanse~tase (calm/bark, of a tree)                            v1 rank   22 (0.2%)  v2 rank    373
+    uyo~yulo (few/euro)                                          v1 rank   24 (0.1%)  v2 rank    469
+    yolan~yuwan (river/yuan)                                     v1 rank   25 (0.1%)  v2 rank    535
+    lewe~leyi (become/knee)                                      v1 rank   26 (0.1%)  v2 rank    613
+    sogi~fugi (happy/end)                                        v1 rank   27 (0.1%)  v2 rank    214
+    foke~foto (moment/photo)                                     v1 rank   28 (0.1%)  v2 rank   2231
+    feko~foto (true/photo)                                       v1 rank   29 (0.1%)  v2 rank   2232
+    yonyo~onlo (family/shoot)                                    v1 rank   30 (0.1%)  v2 rank    506
+
+====================================================================================================
+(c) THE 16 MERGER PAIRS (tests/shortwords-01/README.md), symmetric confusion in percent, word-initial.
+    v1; v2 best (population: listener groups at their shares); shared = v2 with no listener group;
+    voi-typ = a voicing-group listener at m best, asp_share best; then each group's worst listener
+    (pi = 1, m high; voicing also asp_share low); then v2 best in fixed junctions for the glide pairs.
+
+pair                               v1       v2   shared  voi-typ     voi!    no-f!    no-p!    no-w!    no-l!  no-mid! cv-only!  @pause      @i      @u      @a
+tin~din (INSTRUC/WE.excl)         0.0      1.4      1.2      2.0     18.0      1.2      1.2      1.2      1.2      0.7      0.7     1.4     1.4     1.4     1.4
+de~te (INTEND/digit5)             0.0      1.5      1.3      2.2     19.2      1.3      1.3      1.3      1.3      0.7      1.3     1.5     1.5     1.5     1.5
+yo~wo (WARN/AFTER)                5.1      1.1      1.1      1.1      1.1      1.1      1.1      1.1      1.1      0.6      1.1     1.1     1.1     1.1     1.1
+yo~o (WARN/FOCUS)                 2.8      2.8      2.8      2.8      2.8      2.8      2.8      2.8      2.8      1.6      2.8     0.3     9.3     0.9     0.9
+bo~po (UNSPEC/digit0)             0.4      4.3      3.4      3.4     18.9      3.4     37.6      3.4      3.4      1.9      3.4     4.3     4.3     4.3     4.3
+pen~ben (WE.incl/THAT.de)         0.4      4.0      3.2      3.2     18.1      3.2     35.9      3.2      3.2      1.8      1.7     4.0     4.0     4.0     4.0
+yi~wi (OBVIATI/EVEN)              5.3      1.1      1.1      1.1      1.1      1.1      1.1      1.1      1.1      0.6      1.1     1.1     1.1     1.1     1.1
+pi~bi (OF/VERY)                   0.4      4.4      3.4      3.4     19.1      3.4     37.8      3.4      3.4      1.9      3.4     4.4     4.4     4.4     4.4
+pi~fi (OF/digit1)                 6.7      7.2      4.3      4.3      4.3     42.6      4.3      4.3      4.3      2.4      4.3     7.2     7.2     7.2     7.2
+ya~a (BEFORE/YOUKNOW)             2.8      2.9      2.9      2.9      2.9      2.9      2.9      2.9      2.9      2.9      2.9     0.4     9.5     0.9     0.9
+wo~o (AFTER/FOCUS)                2.8      2.8      2.8      2.8      2.8      2.8      2.8      2.8      2.8      1.6      2.8     0.3     0.9     9.3     0.9
+yen~en (AND/NAME)                 2.8      2.6      2.7      2.7      2.7      2.7      2.7      2.7      2.7      1.5      1.5     0.3     8.7     0.9     0.9
+un~wun (BUT/THAT.co)              2.9      2.6      2.7      2.7      2.7      2.7      2.7      2.7      2.7      1.5      1.5     0.3     0.9     8.7     0.9
+ke~ge (MORE/RESULT)               0.0      2.9      2.9      2.9     19.2      2.9      2.9      2.9      2.9      1.6      2.9     2.9     2.9     2.9     2.9
+fu~pu (LIKE/PLACE)                6.7      7.2      4.3      4.3      4.3     42.5      4.3      4.3      4.3      2.4      4.3     7.2     7.2     7.2     7.2
+bu~pu (IT/PLACE)                  0.4      4.3      3.4      3.4     19.1      3.4     37.8      3.4      3.4      1.9      3.4     4.3     4.3     4.3     4.3
+(!) = worst listener of that group. @ctx = after a pause / after a word ending in i, u, a.
+
+====================================================================================================
+(d) ROBUSTNESS across 47 v2 variants (best, 32 Latin-hypercube draws, 14 corners) and v1.
+    Pair ranks by symmetric confusion within each variant.
+
+SHORT WORDS: 2211 pairs
+  Spearman of each variant's pair ranking with v2 best: v2 variants min 0.60, median 0.88; v1 0.76
+  least like best: lhs-13 0.60, lhs-05 0.61, lhs-26 0.62, lhs-01 0.62, lhs-12 0.63
+  pairs in some v2 variant's top 10: 46 (best's top 10 is 10)
+  Most robustly dangerous (sorted by worst rank over the v2 variants):
+    pair                                                  worst  median in top10  v1 rank  best %  max %  where worst
+    ke~te (MORE/digit5)                                      26       7       30        3     6.2   12.7  lhs-31
+    tin~kin (INSTRUCT/PART)                                  31      12       20        2     5.8   12.0  lhs-12
+    min~nin (Q/WHILE)                                        38       8       33        5     6.8   11.6  lhs-30
+    pi~fi (OF/digit1)                                        43       6       34        8     7.2   42.6  lhs-26
+    fu~pu (LIKE/PLACE)                                       44       6       33        9     7.2   42.5  lhs-26
+    la~na (PLURAL/ONLY)                                      60      11       21       98     4.7   28.5  lhs-31
+    fa~sa (NONE/digit2)                                      60      25        5        6     3.1    4.6  lhs-17
+    se~fe (FROM/ALSO)                                        62      26        6        7     3.1    4.5  worst-no-mid
+    to~po (I/digit0)                                         67       3       33        4     9.4   28.5  lhs-19
+    fa~ba (NONE/EXCLAIM)                                     72      10       24       56     6.2   15.5  lhs-11
+    fu~bu (LIKE/IT)                                          76      13       21       51     6.1   15.2  lhs-11
+    ba~da (EXCLAIM/digit4)                                   76      24        4       18     3.2    6.3  lhs-19
+    bi~fi (VERY/digit1)                                      77      12       21       50     6.2   15.0  lhs-11
+    de~ge (INTEND/RESULT)                                    78      10       26        1     5.7   18.0  lhs-31
+    bu~du (IT/TOOL)                                          79      26        0       17     3.2    6.2  lhs-12
+  Variant-specific dangers (top 10 in a variant, median rank > 50):
+    de~te (INTEND/digit5)                                median     70; top 10 in lhs-10, lhs-12, worst-voicing
+    ke~ge (MORE/RESULT)                                  median     51; top 10 in lhs-04, lhs-10, lhs-12, lhs-17, lhs-25, lhs-28 ...
+    tin~din (INSTRUCT/WE.excl)                           median     75; top 10 in worst-voicing
+    pu~po (PLACE/digit0)                                 median     51; top 10 in worst-no-mid
+
+CONTENT WORDS: 133386 pairs
+  Spearman of each variant's pair ranking with v2 best: v2 variants min 0.44, median 0.78; v1 0.67
+  least like best: lhs-13 0.44, lhs-05 0.44, lhs-26 0.44, lhs-01 0.44, lhs-22 0.44
+  pairs in some v2 variant's top 20: 105 (best's top 20 is 20)
+  Most robustly dangerous (sorted by worst rank over the v2 variants):
+    pair                                                  worst  median in top20  v1 rank  best %  max %  where worst
+    uwan~yuwan (star/yuan)                                   25       3       46        2     2.1    5.1  lhs-04
+    soto~foto (north/photo)                                  49       2       46        1     2.2    2.9  worst-no-mid
+    gulo~yulo (wind/euro)                                    68       2       40        4     2.5    3.9  lhs-01
+    kudu~gudu (big/liver)                                    80       6       36   106141     1.8    7.7  lhs-15
+    kanko~anko (smell, sense or give off an odour/until,     80      11       39       76     0.9    1.7  worst-no-mid
+    kegu~egu (talk/breast)                                  151       8       42       49     1.0    1.8  worst-no-mid
+    duko~tuko (turn, rotate or turn around/start)           170       8       35   116595     1.1    7.3  worst-no-mid
+    doma~oma (listen/7)                                     179      24       18        9     0.5    1.2  worst-no-mid
+    imu~gimu (remember/occasion, a time (three times))      187      12       37        8     0.8    1.4  worst-no-mid
+    kiyo~kilo (end of phrase (closes a relative clause,     216      18       30        3     0.8    2.2  worst-no-mid
+    yetu~netu (tool/long)                                   271      24       13       37     0.5    1.1  worst-no-mid
+    gala~ganna (tree/early, before the expected time)       342      42        8      314     0.2    1.2  lhs-31
+    mala~maman (heart/suck)                                 361      89        0      705     0.1    0.5  worst-no-mid
+    unfu~ufo (pay/6)                                        411     101        0       11     0.1    0.9  lhs-20
+    bina~binla (fly, move through the air/boil)             428      64       10      140     0.2    1.0  worst-no-mid
+  Variant-specific dangers (top 20 in a variant, median rank > 100):
+    dili~lini (day (24 hours)/far)                       median    153; top 20 in worst-no-l
+    neke~niki (give/kind, type)                          median    326; top 20 in worst-no-mid
+    genne~ginni (mountain/add, put in more)              median    341; top 20 in worst-no-mid
+    konke~gonge (strong/lip)                             median    287; top 20 in lhs-04, lhs-10, lhs-12, voicing-x3, worst-voicing
+    dandi~lanli (push/ugly)                              median    301; top 20 in worst-no-l
+    kiti~kete (hand/full)                                median    355; top 20 in worst-no-mid
+    bone~buni (use/okay?, softens and invites agreement  median    328; top 20 in worst-no-mid
+    binnu~finlu (boat/bitter)                            median    127; top 20 in lhs-01, lhs-05, lhs-13, lhs-22, lhs-26, src-mandarin6 ...
+    duko~doku (turn, rotate or turn around/work, labour; median    337; top 20 in worst-no-mid
+    futa~buda (woman, female/dark)                       median    118; top 20 in lhs-01, lhs-22, src-mandarin6, worst-voicing
+    yofu~obu (mean, signify/come)                        median    128; top 20 in lhs-01, lhs-05, lhs-22, lhs-26, src-mandarin6
+    kedon~kidun (vulva/fair, just)                       median    394; top 20 in worst-no-mid
+    minwe~ninge (whole/sound, noise)                     median    124; top 20 in lhs-01, lhs-05, lhs-13, lhs-22, lhs-26, src-mandarin6
+    nuta~lota (fear/thank)                               median    133; top 20 in worst-no-mid
+    noso~musu (animal/thing)                             median   1674; top 20 in worst-no-mid
+    bonko~fongo (angry/straight)                         median    101; top 20 in lhs-01, lhs-22, src-mandarin6, worst-voicing
+    gawo~yawu (body/10)                                  median    162; top 20 in worst-no-mid
+    fafin~badin (dead/lung)                              median    538; top 20 in lhs-05, lhs-13, lhs-22, lhs-26, src-mandarin6
+    wonwe~gonge (ready/lip)                              median    412; top 20 in lhs-05, lhs-13, lhs-22, lhs-26, src-mandarin6
+    geno~gimu (find/occasion, a time (three times))      median   1787; top 20 in worst-no-mid
+    agi~awin (lose, misplace/dust)                       median    139; top 20 in lhs-05, lhs-13, lhs-26, src-mandarin6
+    moti~loki (again/100)                                median    102; top 20 in lhs-07, lhs-11, lhs-14, lhs-15, lhs-23, src-mn55+mix
+    gabu~yawu (vomit/10)                                 median    108; top 20 in worst-no-w
+    funo~fudon (eye/room, of a building)                 median    109; top 20 in lhs-30, worst-cv-only
+    binso~finsa (snow/adjust, set)                       median    229; top 20 in lhs-26
+    obu~ufo (come/6)                                     median   2205; top 20 in worst-no-mid
+    gulo~wulon (wind/wet)                                median    173; top 20 in lhs-05, lhs-13, lhs-26, src-mandarin6
+    totu~doku (dog/work, labour; of a machine, function) median    166; top 20 in lhs-01, worst-voicing
+    pinda~binla (white/boil)                             median    204; top 20 in worst-no-l
+    suku~soto (face/north)                               median   1673; top 20 in worst-no-mid
+    gofa~yufa (difficult/bag)                            median    183; top 20 in worst-no-mid
+    kige~tiwe (same/sweat)                               median    222; top 20 in lhs-07, src-mn55+mix
+    ukun~oton (reason/city)                              median   1720; top 20 in worst-no-mid
+    yegon~gekon (rice/fly, the insect)                   median    127; top 20 in worst-voicing
+    tikun~ditun (hot/seek, search for)                   median    199; top 20 in worst-voicing
+    tago~tayu (black/agree)                              median    196; top 20 in worst-no-mid
+    gisu~wifu (green/number)                             median    386; top 20 in lhs-22, lhs-26
+    febo~bebu (answer/disgust)                           median    185; top 20 in lhs-22, worst-no-mid
+    upe~ibe (good/have, possess)                         median    295; top 20 in lhs-12
+    konke~gonte (strong/mosquito)                        median    137; top 20 in worst-voicing
+    gabe~afe (run, on foot/yesterday)                    median    438; top 20 in lhs-13
+    benbi~finbi (open/suddenly)                          median    238; top 20 in lhs-22, worst-no-mid
+    wase~afe (magic/yesterday)                           median    139; top 20 in lhs-15
+    tinne~tenmi (sneeze/taste)                           median   1948; top 20 in worst-no-mid
+    tungi~dundi (sharp/respect, honour)                  median    148; top 20 in lhs-01, worst-voicing
+    wabun~gabu (law/vomit)                               median    232; top 20 in lhs-05, lhs-13
+    sunni~sonli (insect/safe, not in danger)             median    115; top 20 in lhs-22
+    bubo~ufo (laugh/6)                                   median    451; top 20 in lhs-13
+    unda~wunta (wake/air)                                median    180; top 20 in worst-voicing
+    kubo~ufo (change, make or become different/6)        median    329; top 20 in lhs-26
+    wungu~wonku (lead, guide/reach)                      median    153; top 20 in lhs-12
+    gelu~geno (near/find)                                median    127; top 20 in lhs-22
+    duwa~nowa (new/cry, weep)                            median    269; top 20 in worst-no-mid
+    bonko~foto (angry/photo)                             median    868; top 20 in lhs-05, lhs-13
+
+====================================================================================================
+(e) JUNCTIONS under v2 best: a two-word sequence of today's words heard as another sequence of
+    today's words through the word boundary alone (Model.misparses). P = probability of that
+    whole misparse; 'ok' = probability the sequence is heard right. Any word + any word
+    (grammar, digits, lexicon); plain onset substitutions left out (word scoring sees them).
+
+  1980 misparses with boundary probability >= 2%: n+vowel 0, n+nasal 0, glide/hiatus 1980, onset presence 0, coda 0, coda+onset 0
+  glide/hiatus, top 8:
+    se a (FROM YOUKNOW)                  heard as se ya (FROM BEFORE)                  P   8.3%  ok  73.1%
+    se ya (FROM BEFORE)                  heard as se a (FROM YOUKNOW)                  P   8.3%  ok  66.9%
+    o o (FOCUS FOCUS)                    heard as o wo (FOCUS AFTER)                   P   8.1%  ok  71.7%
+    o wo (FOCUS AFTER)                   heard as o o (FOCUS FOCUS)                    P   8.1%  ok  62.9%
+    se o (FROM FOCUS)                    heard as se yo (FROM WARN)                    P   8.1%  ok  71.7%
+    se yo (FROM WARN)                    heard as se o (FROM FOCUS)                    P   8.1%  ok  65.5%
+    so o (REQUEST FOCUS)                 heard as so wo (REQUEST AFTER)                P   8.0%  ok  70.8%
+    so wo (REQUEST AFTER)                heard as so o (REQUEST FOCUS)                 P   8.0%  ok  62.1%
