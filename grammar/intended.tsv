@@ -194,5 +194,5 @@ to sin ditun bu mon en google	[S to sin ditun bu [ADV mon [NP en google]]]	yes
 osa gan tanun tufun	[NP osa gan [NP tanun tufun]]	no	
 du siten mawun kiyo tikun	[NP [NP du siten mawun] kiyo tikun]	no	
 du siten mawun	[NP du siten mawun]	no	
-en cuerpo de paz kiyo sin obu	[S [NP en cuerpo_de_paz kiyo] sin obu]	yes	
+en cuerpo_de_paz kiyo sin obu	[S [NP en cuerpo_de_paz kiyo] sin obu]	yes	
 guyi man en mara sin miya kiyo gun kudu	[S [NP guyi [REL man [NP en mara] sin miya]] kiyo gun kudu]	yes	
