@@ -73,6 +73,11 @@ def spearman(a, b):
     return float(np.corrcoef(ra, rb)[0, 1])
 
 
+def overlap(a, b, k):
+    """Share of a's k most confusable pairs that are also in b's k most confusable."""
+    return len(set(np.argsort(-a)[:k]) & set(np.argsort(-b)[:k])) / k
+
+
 # ================================================================= (a)
 print("=" * 100)
 print("(a) PUBLISHED MATRICES. Each source level-matched to mean onset error 0.20 ('heard no consonant'")
@@ -262,6 +267,9 @@ def robustness(label, names, words, topk=10):
     print(f"{label}: {len(pairs)} pairs")
     print(f"  Spearman of each variant's pair ranking with v2 best: v2 variants min {rho[v2i].min():.2f}, "
           f"median {np.median(rho[v2i]):.2f}; v1 {rho[VN.index('v1')]:.2f}")
+    ov = np.array([overlap(X[bi], X[i], topk) for i in range(len(VN))])
+    print(f"  share of best's top {topk} also in the variant's top {topk}: v2 variants min {ov[v2i].min():.2f}, "
+          f"median {np.median(ov[v2i]):.2f}; v1 {ov[VN.index('v1')]:.2f}")
     low = sorted(((rho[i], VN[i]) for i in v2i if VN[i] != "best"))[:5]
     print("  least like best: " + ", ".join(f"{n} {r:.2f}" for r, n in low))
     top = (R[v2i] <= topk)
@@ -287,6 +295,27 @@ def robustness(label, names, words, topk=10):
 
 robustness("SHORT WORDS", SHORT, short_w)
 robustness("CONTENT WORDS", CONTENT, content_w, topk=20)
+
+print("Which parameter moves the top of the ranking most (one at a time, others at best): share of best's")
+print("top 20 short-word pairs / top 50 content-word pairs still in the top 20 / 50; worse of the low and high end.")
+xs_b, xc_b = sym_pairs(best, short_w)[0], sym_pairs(best, content_w)[0]
+sens = []
+bp = M2.best_params()
+for k, d in list(M2.PARAMS.items()) + list(M2.ADDED.items()):
+    if d["sampling"] not in ("uniform", "log-uniform") or k == "E_C":
+        continue
+    rs, rc = [], []
+    for end in ("low", "high"):
+        m = M2.Model(dict(bp, **{k: d[end]}))
+        rs.append(overlap(xs_b, sym_pairs(m, short_w)[0], 20)); rc.append(overlap(xc_b, sym_pairs(m, content_w)[0], 50))
+    sens.append((min(rs) + min(rc), min(rs), min(rc), f"{k} ({d['low']:g}-{d['high']:g})"))
+for s_ in M2.PATTERNS[1:]:
+    m = M2.Model(dict(bp, C_pattern=s_))
+    a, b = overlap(xs_b, sym_pairs(m, short_w)[0], 20), overlap(xc_b, sym_pairs(m, content_w)[0], 50)
+    sens.append((a + b, a, b, f"C_pattern={s_}"))
+for _, rs, rc, k in sorted(sens)[:14]:
+    print(f"  {k:40} short {rs:.2f}  content {rc:.2f}")
+print()
 
 # ================================================================= (e)
 print("=" * 100)

@@ -191,6 +191,7 @@ bu~pu (IT/PLACE)                  0.4      4.3      3.4      3.4     19.1      3
 
 SHORT WORDS: 2211 pairs
   Spearman of each variant's pair ranking with v2 best: v2 variants min 0.60, median 0.88; v1 0.76
+  share of best's top 10 also in the variant's top 10: v2 variants min 0.10, median 0.60; v1 0.70
   least like best: lhs-13 0.60, lhs-05 0.61, lhs-26 0.62, lhs-01 0.62, lhs-12 0.63
   pairs in some v2 variant's top 10: 46 (best's top 10 is 10)
   Most robustly dangerous (sorted by worst rank over the v2 variants):
@@ -218,6 +219,7 @@ SHORT WORDS: 2211 pairs
 
 CONTENT WORDS: 133386 pairs
   Spearman of each variant's pair ranking with v2 best: v2 variants min 0.44, median 0.78; v1 0.67
+  share of best's top 20 also in the variant's top 20: v2 variants min 0.05, median 0.75; v1 0.25
   least like best: lhs-13 0.44, lhs-05 0.44, lhs-26 0.44, lhs-01 0.44, lhs-22 0.44
   pairs in some v2 variant's top 20: 105 (best's top 20 is 20)
   Most robustly dangerous (sorted by worst rank over the v2 variants):
@@ -292,6 +294,23 @@ CONTENT WORDS: 133386 pairs
     gelu~geno (near/find)                                median    127; top 20 in lhs-22
     duwa~nowa (new/cry, weep)                            median    269; top 20 in worst-no-mid
     bonko~foto (angry/photo)                             median    868; top 20 in lhs-05, lhs-13
+
+Which parameter moves the top of the ranking most (one at a time, others at best): share of best's
+top 20 short-word pairs / top 50 content-word pairs still in the top 20 / 50; worse of the low and high end.
+  C_pattern=mn55+mix                       short 0.55  content 0.42
+  C_pattern=mandarin6                      short 0.65  content 0.44
+  C_pattern=cutler-native                  short 0.70  content 0.68
+  C_pattern=cooke08                        short 0.70  content 0.76
+  V_ratio (0.05-0.4)                       short 0.65  content 0.84
+  C_pattern=cutler-dutch                   short 0.75  content 0.82
+  voice_mult (0.1-3)                       short 0.80  content 0.80
+  L2_voicing_m (0.02-0.4)                  short 0.90  content 0.80
+  glide_hiatus_other (0.003-0.03)          short 0.75  content 0.98
+  glide_hiatus_front (0.03-0.3)            short 0.85  content 0.94
+  L2_mid_pi (0.02-0.1)                     short 0.80  content 1.00
+  L2_now_m (0.05-0.3)                      short 0.90  content 0.92
+  glide_hiatus_back (0.03-0.3)             short 0.90  content 0.92
+  L2_now_pi (0.08-0.2)                     short 0.90  content 0.94
 
 ====================================================================================================
 (e) JUNCTIONS under v2 best: a two-word sequence of today's words heard as another sequence of
