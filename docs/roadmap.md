@@ -89,6 +89,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 - **Rework the docs so agents can use the language correctly.** The translators missed existing solutions (e.g. **kiyo** closing a built word) because the reference states rules without enough worked examples for producing text. Research current best practice for documentation aimed at LLM agents (task-oriented guides, worked examples per construction, a "how to say X" index, common mistakes with fixes, a short machine-checkable cheat sheet), then rework: a writer's guide for translating into Apupiwe with examples for every construction, kept in step with the reference by the same rule-tag checks as the lessons. Source: the coverage translators' notes (`tests/coverage-01/part2b/notes-*.md`) and the grammar gaps they raised.
 
 ### Small fixes (no decision needed)
+- **Offensive filter to goal C3** (author, 2026-10-14, design log): `offensive.blocked` is a hard block today; make it a tie-break cost in `words.py`, the short-word rebuild and the placement, and prune noise matches (initialisms, pronunciation spellings, particles) from `data/offensive.tsv`. Measure what the block costs content roots while doing it (12% of two-syllable forms are blocked today).
 
 - **Sense glosses for the new-root list** (Part 5 translators, 2026-10-13): labels like yard, spring, class, interest, raise, fan, party, capital, table are ambiguous English words; give each new concept a sense gloss before Part 4 places forms.
 
