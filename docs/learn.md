@@ -186,14 +186,13 @@ A particle near the start says what kind of sentence it is. It comes after any o
 | **fon** | advice ("I'd suggest…; your call") |
 | **de** | "I'll…" (I intend), or "we will" for your group: **de din**, with **din** "we, not you" from lesson 5 |
 | **yo** | warning, and **yo yo** is an emergency |
-| **ba** | exclamation |
 | **genso** | not literal (joking, irony) |
 
 A command uses **tin**: **tin obu.** "Come." Among friends a bare verb works too, **obu!**, the way English says "Come!". "Don't" is **tin mu**: **tin mu kusa.** "Don't leave." [§4.2.8](language.md#r-4-2-8) [§12.4](language.md#r-12-4)
 
 For a request, use **so**: **so neke to osa.** "Give me water?" "Please" is **so nun**, which you'll meet in lesson 8. [§4.2.8](language.md#r-4-2-8) [§10.2.1](language.md#r-10-2-1)
 
-**genso** and **ba** can go in front of another particle, and **genso** can also go in front of a plain statement. **ba min** is a surprised or indignant question. With **genso** you get things like **genso min me lugo.** "As if you'd know." and **genso to gun bi sogi.** "I'm *so* happy." (sarcastic) [§7.1.3](language.md#r-7-1-3)
+**genso** can go in front of another particle, and **genso** can also go in front of a plain statement. With **genso** you get things like **genso min me lugo.** "As if you'd know." and **genso to gun bi sogi.** "I'm *so* happy." (sarcastic) [§7.1.3](language.md#r-7-1-3)
 
 **de** is only for your own plans, or your group's. To talk about someone else's plan, use a time word or **kon** "how sure" (lesson 13). [§7.1.4](language.md#r-7-1-4)
 
@@ -484,7 +483,7 @@ A full sentence has a fixed order. You'll rarely use every part, and only the ve
 
 1. someone you're calling, then a comma
 2. openers (linker, time or place or **pi** topic, if/when clause), each with a comma
-3. the particle (**min**, **so**, **tin** …), with **genso** or **ba** in front if needed
+3. the particle (**min**, **so**, **tin** …), with **genso** in front if needed
 4. **nun**
 5. **kon** and how you know
 6. the subject

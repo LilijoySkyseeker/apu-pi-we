@@ -75,10 +75,10 @@ abstract Apupiwe = Lex ** {
     PartNun : Part -> Nun -> Act ;         -- 10.2.1 nun right after the particle
     NunAct : Nun -> Act ;                  -- 10.2.1 nun where the particle would be
     Nun1, NunNun : Nun ;                   -- 10.2.1, 1.5
-    MinP, So, Tin, Fon, De, Yo, BaP, GensoP : Part ;   -- 7.1.1
+    MinP, So, Tin, Fon, De, Yo, GensoP : Part ;   -- 7.1.1
     YoYo, GensoGenso : Part ;              -- 7.1.1, 1.5 doubling
     ModPart : PMod -> Part -> Part ;       -- 7.1.3 genso min, ba min
-    GensoM, BaM : PMod ;                   -- 7.1.3
+    GensoM : PMod ;                   -- 7.1.3
 
     -- 6.1 clause operators
     MkCl : ConfOpt -> SrcOpt -> Cl0 -> Cl ;  -- 4.1.2 slot 5

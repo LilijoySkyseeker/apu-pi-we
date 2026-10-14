@@ -1,0 +1,27 @@
+# source: Cooke & Scharenborg 2008, The Interspeech 2008 Consonant Challenge, Proc. Interspeech 2008:1765-1768, doi:10.21437/Interspeech.2008-486, Figure 3 (clean (quiet; 93.8% correct)). https://www.isca-archive.org/interspeech_2008/cooke08_interspeech.pdf
+# 23 native British English listeners; British English VCV, vowels i: u: ae, both stress positions, 8 talkers. Rows = sent, columns = heard, percent (rounded; '.' in the paper, written 0 here, means <0.5). y = /j/, dj = /dZ/, dh = /D/, th = /T/, sh, zh, ch, ng as in English.
+sent\heard	p	b	t	d	k	g	ch	dj	f	v	th	dh	s	z	sh	zh	h	m	n	ng	l	r	y	w
+p	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+b	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+t	0	0	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d	0	0	0	98	0	2	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+k	0	0	0	0	99	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+g	0	0	0	0	1	97	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+ch	0	0	2	0	0	0	97	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+dj	0	0	0	2	0	4	2	86	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0
+f	0	0	0	0	0	0	0	0	86	1	11	3	0	0	0	0	0	0	0	0	0	0	0	0
+v	0	0	0	0	0	0	0	0	4	85	3	7	0	0	0	0	1	0	0	0	0	0	1	0
+th	0	0	0	0	0	0	0	0	6	0	79	11	4	0	0	0	0	0	0	0	0	0	0	0
+dh	0	0	0	0	0	0	0	0	0	17	23	58	0	1	0	0	0	0	0	0	0	0	0	0
+s	0	0	0	0	0	0	0	0	0	0	0	0	100	0	0	0	0	0	0	0	0	0	0	0
+z	0	0	0	0	0	0	0	0	0	0	0	0	1	96	0	2	0	0	0	0	0	0	1	0
+sh	0	0	0	0	0	0	1	0	0	0	0	0	1	0	97	1	0	0	0	0	0	0	0	0
+zh	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	91	0	0	0	0	0	0	0	0
+h	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	98	0	0	0	0	0	1	1
+m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	99	0	0	0	0	0	0
+n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	98	0	2	0	0	0
+ng	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	1	95	0	0	0	0
+l	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	99	0	0	0
+r	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	98	0	1
+y	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	99	0
+w	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	97

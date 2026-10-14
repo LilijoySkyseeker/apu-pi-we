@@ -1,0 +1,18 @@
+# source: Cutler, Weber, Smits & Cooper 2004, Patterns of English phoneme confusions by native and non-native listeners, JASA 116(6):3668-3678, Table VIII (vowels in final position (CV syllables), 0 dB SNR, 6-talker babble, Dutch listeners (16)). PDF: https://pure.mpg.de/rest/items/item_60592/component/file_60593/content
+# American English CV/VC syllables, one female talker. Rows = stimulus, columns = response, percent pooled over listeners and contexts. Blank cells in the paper written as 0. Cells assigned to columns by x-position from the PDF (pdftotext -bbox); spot-check before relying on single cells. Column header words: beat bit wait bet bat hot cut caught boat cook boot buy boy shout bird
+stim\resp	i	ɪ	eɪ	ɛ	æ	ɑ	ʌ	ɔ	oʊ	ʊ	u	aɪ	ɔɪ	aʊ	ɝ	rowsum
+i	97.4	0.3	0.3	1.7	0	0	0	0	0	0	0	0.3	0	0	0	100.0
+ɪ	0.3	95.5	0	2.3	0	0.3	0	0	0	0	0	0	0	0.3	1.4	100.1
+eɪ	6	4.3	84.1	3.1	1.1	0	0	0.3	0	0	0.3	0.9	0	0	0	100.1
+ɛ	0.3	15.6	0.3	60.5	22.2	0	0	0.3	0	0	0	0	0	0.3	0.6	100.1
+æ	0	0.9	4.8	39.2	51.7	0.6	1.1	0	0.3	0	0	0.6	0	0	0.9	100.1
+ɑ	0.3	0.6	0	0.6	16.8	23.6	22.7	28.4	2.6	0.3	0.3	1.7	0.3	2	0	100.2
+ʌ	0	0.3	0.6	1.7	10.2	25	41.5	16.8	1.4	0.3	0.3	1.4	0	0.6	0	100.1
+ɔ	0	0	0	0	4.8	34.7	5.4	50	3.4	0	0.3	0	0.3	0.6	0.3	99.8
+oʊ	0	0.6	0	0	0.3	11.1	0.6	4.8	69.6	2.8	6	0	2.6	1.7	0	100.1
+ʊ	0	0.6	0	0	0	5.4	4.3	4.5	1.7	73.3	6.8	0.6	1.4	0.6	0.9	100.1
+u	17.9	0.3	0	0.6	0	0.6	1.4	1.1	0.9	31.3	45.2	0.3	0	0.6	0	100.2
+aɪ	0	3.4	14.8	0.3	1.1	0.3	0.6	0.6	0.9	0	0	74.1	1.4	0.3	2.3	100.1
+ɔɪ	0	0	0.3	0	0	2.3	0	0.6	0.9	0.3	0	1.7	93.8	0.3	0	100.2
+aʊ	0	0.3	0.3	2	0.6	4	0.6	5.1	17	0.3	0.9	3.1	0.9	64.5	0.6	100.2
+ɝ	0.3	0.3	0	0.9	0.3	0.6	7.1	0.3	0	0	0	0.6	0	0.3	89.5	100.2

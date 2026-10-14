@@ -18,7 +18,7 @@
 3. <span id="r-1-3"></span>Operators come before what they cover (section 6).
 4. <span id="r-1-4"></span>Heavy goes last. A noun's own modifiers come before its **pi** "of" phrase, and long clauses go to the end. Nothing may follow a relative clause in its phrase.
 5. <span id="r-1-5"></span>Doubling widens or strengthens any word except a digit in a number: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so". Doubled **mu** is always emphasis and never means "not not".
-6. <span id="r-1-6"></span>Emphasis, politeness, respect and stance have words of their own: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.
+6. <span id="r-1-6"></span>Emphasis, politeness, respect and stance have words of their own: **bi** and doubling for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.
 7. <span id="r-1-7"></span>A precise way always exists, but it need not always be used. Anything the listener can supply may be left out (section 4.5), and any ambiguity can be removed by saying more.
 
 ## 2. Sounds
@@ -67,7 +67,7 @@
 |---|---|---|---|
 | 1 | Calling someone | a person word (a name, a title, or a single role or kin word), then a pause | 10.1 |
 | 2 | Opener | a linker to the previous sentence (**gi tan** "so"), then a relation phrase that sets the scene (time, place) or a topic **pi X**, then an **if**/**when** clause, each followed by a pause | 4.3 |
-| 3 | Speech act | one particle; **genso** or **ba** may come before it | 7.1 |
+| 3 | Speech act | one particle; **genso** may come before it | 7.1 |
 | 4 | Politeness | **nun**, after the particle or in its place | 10.2 |
 | 5 | Clause operators | confidence **kon** + number, source **wanme**/**inwun**/**wemen** | 6.1 |
 | 6 | Subject | a noun phrase (section 5) | |
@@ -235,11 +235,10 @@
 | **fon** | advice; the decision stays with the listener |
 | **de** | the speaker (or the group the speaker speaks for) commits: **de din** "we will" |
 | **yo** | warning; **yo yo** emergency |
-| **ba** | exclamation: surprise or strong feeling |
 | **genso** | not literal (irony, joking); **genso genso** the whole turn |
 
 - <span id="r-7-1-2"></span>A statement has no particle. Each sentence has one speech act.
-- <span id="r-7-1-3"></span>**genso** or **ba** may modify the act from in front of its particle: **genso min me lugo** "as if you'd know"; **ba min** is a surprised or indignant question.
+- <span id="r-7-1-3"></span>**genso** may modify the act from in front of its particle: **genso min me lugo** "as if you'd know".
 - <span id="r-7-1-4"></span>Someone else's intention is reported (**inwun**) or stated with time words and **kon**; in the reference variety, **de** is for the speaker's own commitment.
 
 ### 7.2 Stance (slot 12)
@@ -366,7 +365,7 @@
 
 | Group | Words |
 |---|---|
-| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** · exclaim **ba** |
+| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** |
 | Politeness | **nun** |
 | Clause operator | confidence **kon** |
 | Phrase operators | not **mu** · only **na** · also **fe** · even **wi** · focus **o** |

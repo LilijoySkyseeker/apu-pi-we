@@ -120,10 +120,10 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     Nun1 = ss "nun" ; NunNun = ss ("nun" ++ "nun") ;
     MinP = {s = "min" ; m = False} ; So = {s = "so" ; m = False} ; Tin = {s = "tin" ; m = False} ;
     Fon = {s = "fon" ; m = False} ; De = {s = "de" ; m = False} ; Yo = {s = "yo" ; m = False} ;
-    BaP = {s = "ba" ; m = True} ; GensoP = {s = "genso" ; m = True} ;
+    GensoP = {s = "genso" ; m = True} ;
     YoYo = {s = "yo" ++ "yo" ; m = True} ; GensoGenso = {s = "genso" ++ "genso" ; m = True} ;
     ModPart pm p = case p.m of {True => {s = Predef.nonExist ; m = True} ; False => {s = pm.s ++ p.s ; m = True}} ;
-    GensoM = ss "genso" ; BaM = ss "ba" ;
+    GensoM = ss "genso" ;
 
     MkCl cf sr c = c ** {s = cf.s ++ sr.s ++ c.s} ;
     NoConf = ss [] ; Kon n = ss ("kon" ++ n.s) ; KonOf n m = ss ("kon" ++ n.s ++ "pi" ++ m.s) ; KonBo = ss ("kon" ++ "bo") ;

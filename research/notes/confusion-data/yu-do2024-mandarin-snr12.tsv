@@ -1,0 +1,26 @@
+# source: Yu & Do 2024, Perceptual and featural measures of Mandarin consonant similarity: confusion matrices and phonological features dataset, Data in Brief 52:109868, doi:10.1016/j.dib.2023.109868; data OSF doi:10.17605/osf.io/rbt8x file 01_confusion_matrix_series/010x_confusion_matrix_snr12.csv (downloaded 2026-10-13)
+# 47 native Mandarin listeners (online), 23 Mandarin onsets x rimes a/an/ang x tones, condition snr12 (white noise). Rows = onset spoken, columns = onset heard, counts. Pinyin labels: b=/p/ p=/pʰ/ d=/t/ t=/tʰ/ g=/k/ k=/kʰ/ h=/x/ j=/tɕ/ q=/tɕʰ/ x=/ɕ/ zh=/ʈʂ/ ch=/ʈʂʰ/ sh=/ʂ/ r=/ɻ/ z=/ts/ c=/tsʰ/ y=/j/ w=/w/.
+sent\heard	b	p	m	f	d	t	n	l	g	k	h	j	q	x	zh	ch	sh	r	z	c	s	y	w	sum
+b	179	2	1	128	19	0	0	1	4	0	0	0	0	0	0	0	0	1	0	0	0	0	1	336
+p	0	220	0	0	0	75	0	0	0	6	15	0	1	0	0	2	0	0	0	17	0	0	0	336
+m	0	0	260	1	0	1	57	14	0	0	1	0	0	0	0	0	0	1	0	0	0	0	1	336
+f	12	1	2	297	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	14	0	0	336
+d	19	2	1	24	209	3	0	1	61	0	0	0	0	0	1	0	1	6	7	0	0	1	0	336
+t	0	69	0	0	1	235	1	0	0	5	6	0	1	0	0	5	0	1	0	11	0	0	1	336
+n	0	0	11	1	1	3	274	39	0	0	0	0	0	0	0	0	2	2	1	1	0	0	0	335
+l	0	0	0	0	0	0	29	281	0	0	0	0	0	0	0	0	0	22	1	0	0	3	0	336
+g	0	0	0	0	1	0	0	1	326	0	0	0	0	1	1	0	0	2	1	1	2	0	0	336
+k	0	5	0	2	0	57	0	0	0	254	1	0	0	0	0	4	0	1	0	11	0	0	0	335
+h	0	197	0	0	1	26	0	0	0	7	99	0	0	0	0	3	0	0	0	3	0	0	0	336
+j	0	0	0	0	0	0	0	0	0	0	0	317	4	6	1	0	0	0	0	0	0	7	1	336
+q	0	0	0	0	0	0	0	0	0	0	0	1	330	4	0	0	1	0	0	0	0	0	0	336
+x	0	0	0	0	0	0	0	0	0	0	0	0	6	329	0	0	0	0	0	0	1	0	0	336
+zh	0	0	0	3	0	0	0	0	0	0	0	0	0	1	308	0	0	5	19	0	0	0	0	336
+ch	0	2	0	0	0	2	0	0	0	1	0	0	0	0	1	321	0	0	0	9	0	0	0	336
+sh	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	1	322	1	0	0	10	0	0	336
+r	0	1	0	0	0	1	0	1	0	0	0	4	0	2	1	0	0	277	2	0	0	45	2	336
+z	0	0	0	11	2	0	0	1	5	0	0	1	0	0	8	0	0	0	283	0	23	1	1	336
+c	0	3	0	2	0	6	1	0	0	0	0	0	0	0	0	5	0	0	0	319	0	0	0	336
+s	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	5	0	15	1	312	0	0	336
+y	0	0	0	0	0	0	0	0	0	0	0	16	2	9	0	0	0	25	1	0	0	283	0	336
+w	0	0	1	0	2	0	0	0	14	2	3	0	0	0	1	0	0	3	0	0	0	0	310	336

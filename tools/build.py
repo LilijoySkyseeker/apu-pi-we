@@ -164,7 +164,7 @@ def scale(n_roots=3000, steps=1500000):
 
 # ---------------------------------------------------------------- grammar words
 GROUPS_STRICT = {  # same slot: first consonant must differ
-    "act": "Q REQUEST INSTRUCT ADVISE INTEND WARN EXCLAIM POLITE",
+    "act": "Q REQUEST INSTRUCT ADVISE INTEND WARN POLITE",
     "pred": "NOT BE DONE ONGOING MORE VERY ONLY ALSO EVEN FOCUS",
     "stance": "NOT CONF UNSPEC ONLY WH ALSO EVEN FOCUS",
     "end": "Q YOUKNOW",  # sentence-end stance position (2026-10-10)
