@@ -1,0 +1,236 @@
+n	concept	verdict	criterion	evidence	note
+1	duck	keep	3	Wordbank duck(30); CLICS4 DUCK cov 0.404 (98 fam, 6 areas, rank 363); adult rank 2874	domestic and wild ducks in every macroarea
+2	mouse	keep	3	Wordbank mouse(30); CLICS4 MOUSE cov 0.239 (50 fam, 6 areas, rank 918); adult rank 1381	found with people everywhere; also the computer mouse by a widespread metaphor
+3	sheep	keep	3	Wordbank sheep(30); CLICS4 SHEEP cov 0.311 (71 fam, 6 areas, rank 573); adult rank 1374	kept in every inhabited macroarea today
+4	bicycle	keep	3	Wordbank bicycle(30); not in CLICS4; adult rank 810	in everyday use in every region today; compounds.tsv has siwa pi pifo, which the ladder chose to replace with a root (rung 2.3)
+5	doll	keep	3	Wordbank doll(30); not in CLICS4; adult rank 1637	dolls and figurines are found across cultures
+6	ball	keep	3	Wordbank ball(30); CLICS4 BALL cov 0.243 (59 fam, 6 areas, rank 900); adult rank 310	balls and ball games are found across cultures
+7	ice cream	culture-bound	-	Wordbank ice cream(30); not in CLICS4; adult rank 1590; loan panel fail 11/5 (ayisukulimu)	a confection that needs freezing; the loan panel failed it, so a phrase (the base back-translator read "sweet ice" correctly in context). Unsure: sold in towns in most countries today
+8	cake	culture-bound	-	Wordbank cake(30); not in CLICS4; adult rank 941	a baked sweet dish of some cuisines; Chinese dàngāo and Swahili keki are recent imports. Unsure: birthday cakes are now widespread
+9	soup	keep	3	Wordbank soup(30); CLICS4 SOUP cov 0.323 (76 fam, 6 areas, rank 510); adult rank 1234; loan panel fail 11/6	liquid cooked food exists in nearly every cuisine; loan panel failed, so a native root. Consistency flag: grain porridge (199) is as widespread, but the author listed it as culture-bound
+10	apple	keep	3	Wordbank apple(30); not in CLICS4; adult rank 962	grown on every continent and sold in most markets today
+11	chocolate	loan	loan panel pass	Wordbank chocolate(30); not in CLICS4; adult rank 859; loan panel pass 20/7 (tokolatu)	the test alone would say culture-bound (a confection)
+12	hat	keep	3	Wordbank hat(30); CLICS4 HAT cov 0.219 (56 fam, 6 areas, rank 1033); adult rank 1331	headwear is found across cultures
+13	shoe	keep	3	Wordbank shoe(30); CLICS4 SHOE cov 0.408 (97 fam, 6 areas, rank 356); adult rank 469	footwear is found across cultures
+14	sock	keep	3	Wordbank sock(30); not in CLICS4; adult rank 2560	unsure: in hot climates many people wear sandals without socks
+15	kitchen	keep	3	Wordbank kitchen(30); not in CLICS4; adult rank 654	a cooking place is universal; compounds.tsv derives pu siten, which the ladder chose to replace with a root (rung 2.3)
+16	window	keep	3	Wordbank window(30); CLICS4 WINDOW cov 0.298 (69 fam, 5 areas, rank 625); adult rank 499	
+17	chair	keep	3	Wordbank chair(30); CLICS4 CHAIR cov 0.303 (72 fam, 6 areas, rank 605); adult rank 881	common in households everywhere today; traditionally floor-sitting in parts of Asia
+18	spoon	keep	3	Wordbank spoon(30); CLICS4 SPOON cov 0.349 (82 fam, 6 areas, rank 426); adult rank 1778	
+19	bottle	keep	3	Wordbank bottle(30); CLICS4 BOTTLE cov 0.231 (50 fam, 6 areas, rank 980); adult rank 668	
+20	knife	keep	3, 4	Wordbank knife(30); CLICS4 KNIFE cov 0.510 (127 fam, 6 areas, rank 301); adult rank 712	CLICS4 coverage 0.510 just clears the 0.5 bar
+21	soap	keep	3	Wordbank soap(30); CLICS4 SOAP cov 0.257 (63 fam, 6 areas, rank 819); adult rank 1782	in households in every region today
+22	pillow	keep	3	Wordbank pillow(30); CLICS4 PILLOW cov 0.296 (68 fam, 6 areas, rank 629); adult rank 1533	headrests and pillows are found across cultures
+23	doctor	loan	loan panel pass	Wordbank doctor(30); not in CLICS4; adult rank 101; loan panel pass 13/5 (dokutolu)	the test alone would say keep (a role found in every region)
+24	grandmother	duplicate	ladder: covered by mole pi mole / mole pi wede	Wordbank grandma(30); CLICS4 GRANDMOTHER cov 0.358 (87 fam, 6 areas, rank 409); adult rank 727	kinship is composed (method 3.1); the ladder notes a root comes back if tests lose meaning
+25	monkey	keep	3	Wordbank monkey(29); CLICS4 MONKEY cov 0.253 (60 fam, 6 areas, rank 837); adult rank 1333	native in 5 of 6 macroareas (Africa, South and Southeast Asia, western Papunesia, Central and South America). Unsure: not in everyday surroundings in most of Eurasia or North America
+26	elephant	culture-bound	-	Wordbank elephant(29); CLICS4 ELEPHANT cov 0.182 (36 fam, 5 areas, rank 1252); adult rank 763	region-bound species (Africa, South and Southeast Asia: 2 or 3 of 6 macroareas). Unsure: known everywhere from pictures, and the culture rule was written for cultural things, not wildlife
+27	butterfly	keep	3	Wordbank butterfly(29); CLICS4 BUTTERFLY cov 0.391 (99 fam, 6 areas, rank 377); adult rank 2952	
+28	lion	culture-bound	-	Wordbank lion(29); CLICS4 LION cov 0.238 (57 fam, 6 areas, rank 924); adult rank 635	region-bound species (Africa and one Indian forest). Same doubt as elephant
+29	frog	keep	3	Wordbank frog(29); CLICS4 FROG cov 0.381 (94 fam, 6 areas, rank 388); adult rank 2826	found in every macroarea; compounds.tsv has a 9-syllable phrase, which the ladder chose to replace with a root
+30	train	keep	3	Wordbank train(29); not in CLICS4; adult rank 397	railways run in most countries, and ladder 2 rung 3 names trains as a baseline concept. Unsure: not in ordinary surroundings in much of Africa and Papunesia
+31	truck	keep	3	Wordbank truck(29); not in CLICS4; adult rank 3054	
+32	airplane	keep	3	Wordbank airplane(29); not in CLICS4; adult rank 3728 (plane 1840)	aircraft are seen in every region
+33	orange	keep	3	Wordbank orange (food)(29); not in CLICS4; adult rank 1265	citrus is grown and sold widely; orange the colour (197) merges here
+34	banana	keep	3	Wordbank banana(29); CLICS4 BANANA cov 0.210 (50 fam, 6 areas, rank 1098); adult rank 1313; loan panel fail 5/2	a tropical staple and global commodity; loan panel failed, so a native root
+35	trousers	keep	3	Wordbank pants(29); CLICS4 TROUSERS cov 0.333 (77 fam, 6 areas, rank 473); adult rank 16521 (pants 8496)	
+36	table	keep	3	Wordbank table(29); CLICS4 TABLE cov 0.276 (64 fam, 5 areas, rank 713); adult rank 349	
+37	blanket	keep	3	Wordbank blanket(29); CLICS4 BLANKET cov 0.348 (83 fam, 6 areas, rank 428); adult rank 2962	
+38	uncle	duplicate	ladder: covered by faba pi wede / faba pi mole	Wordbank uncle(29); CLICS4 MATERNAL UNCLE (MOTHER'S BROTHER) cov 0.332 (80 fam, 6 areas, rank 477); adult rank 1199	parent's sibling, composed (method 3.1)
+39	grandfather	duplicate	ladder: covered by wede pi mole / wede pi wede	Wordbank grandpa(29); CLICS4 GRANDFATHER cov 0.372 (91 fam, 6 areas, rank 395); adult rank 916	kinship composed (method 3.1)
+40	baby	keep	3	Wordbank baby(29); CLICS4 BABY cov 0.296 (78 fam, 6 areas, rank 630); adult rank 1011	criterion 3 read to include people and roles found everywhere (the test names things, foods, animals and places only)
+41	jump	keep	1	Wordbank jump(29); CLICS4 JUMP cov 0.341 (84 fam, 6 areas, rank 445); adult rank 1289	
+42	cat	keep	3	Wordbank cat(28); CLICS4 CAT cov 0.437 (107 fam, 6 areas, rank 332); adult rank 509	
+43	tiger	culture-bound	-	Wordbank tiger(28); CLICS4 TIGER cov 0.055 (8 fam, 5 areas, rank 1613); adult rank 1081	region-bound species (South, East and Southeast Asia). Same doubt as elephant
+44	giraffe	culture-bound	-	Wordbank giraffe(28); not in CLICS4; adult rank 47876; loan panel fail 11/4 (silafa)	region-bound species (Africa only); the loan panel failed it, so a phrase or a borrowing from an African language under the culture rule. Same doubt as elephant
+45	motorcycle	loan	loan panel pass	Wordbank motorcycle(28); not in CLICS4; adult rank 1872; loan panel pass 14/6 (moto)	short form moto; the test alone would say keep
+46	potato	keep	3	Wordbank potato(28); CLICS4 POTATO cov 0.265 (67 fam, 6 areas, rank 771); adult rank 1526	
+47	coat	keep	3	Wordbank coat(28); CLICS4 COAT cov 0.205 (45 fam, 6 areas, rank 1129); adult rank 2003	jacket (115) merges here. Unsure: outer garments are little worn in hot climates
+48	cheek	keep	2	Wordbank cheek(28); CLICS4 CHEEK cov 0.368 (90 fam, 6 areas, rank 401); adult rank 1674	
+49	bathroom	keep	3	Wordbank bathroom(28); not in CLICS4; adult rank 2029	unsure: a place to wash is universal, a separate room for it less so
+50	television	loan	loan panel pass	Wordbank TV(28); not in CLICS4; adult rank 268; loan panel pass 19/7 (telebisuyon)	the test alone would say keep
+51	scissors	keep	3	Wordbank scissors(28); not in CLICS4; adult rank 5270	
+52	medicine	keep	3	Wordbank medicine(28); CLICS4 MEDICINE cov 0.414 (98 fam, 6 areas, rank 352); adult rank 276	
+53	towel	keep	3	Wordbank towel(28); CLICS4 TOWEL cov 0.243 (53 fam, 5 areas, rank 901); adult rank 2517	
+54	aunt	duplicate	ladder: covered by faba pi wede / faba pi mole	Wordbank aunt(28); CLICS4 MATERNAL AUNT (MOTHER'S SISTER) cov 0.330 (80 fam, 6 areas, rank 489); adult rank 1700	parent's sibling, composed (method 3.1)
+55	dance	keep	1	Wordbank dance(28); CLICS4 DANCE cov 0.398 (100 fam, 6 areas, rank 367); adult rank 250	
+56	bee	keep	3	Wordbank bee(27); CLICS4 BEE cov 0.327 (86 fam, 6 areas, rank 497); adult rank 2028	
+57	pig	keep	3	Wordbank pig(27); CLICS4 PIG cov 0.419 (107 fam, 6 areas, rank 343); adult rank 1535	
+58	bear	keep	3	Wordbank bear(27); CLICS4 BEAR cov 0.263 (58 fam, 5 areas, rank 777); adult rank 583	borderline: Eurasia, North America, the Andes, Borneo and Sumatra (4 of 6 macroareas if those islands count as Papunesia); none in Africa or Australia. Unsure
+59	rabbit	keep	3	Wordbank bunny(27); CLICS4 RABBIT cov 0.237 (57 fam, 6 areas, rank 934); adult rank 2621	rabbits and hares on every continent (introduced in Australia)
+60	balloon	keep	3	Wordbank balloon(27); not in CLICS4; adult rank 2031	unsure: sold for celebrations in most regions today, but it is a party and childhood item and could be read as culture-bound
+61	bucket	keep	3	Wordbank bucket(27); CLICS4 BUCKET cov 0.137 (22 fam, 5 areas, rank 1440); adult rank 4708	named in the test as an example
+62	juice	keep	3	Wordbank juice(27); not in CLICS4; adult rank 924	
+63	cheese	culture-bound	-	Wordbank cheese(27); CLICS4 CHEESE cov 0.164 (37 fam, 5 areas, rank 1329); adult rank 779	tied to dairying cultures; languages without that tradition borrow (Indonesian keju) or describe (Chinese nǎilào). Unsure: sold widely today
+64	coffee	loan	loan panel pass	Wordbank coffee(27); not in CLICS4; adult rank 287; loan panel pass 20/7 (kafe)	the test alone would say keep
+65	carrot	keep	3	Wordbank carrot(27); not in CLICS4; adult rank 6481	
+66	diaper	culture-bound	-	Wordbank diaper(27); not in CLICS4; adult rank 55404	tied to some cultures' childcare (cloth, disposable or none); same class as bib and potty in the test. Unsure: disposables are sold in most countries today
+67	sweater	loan	loan panel pass	Wordbank sweater(27); not in CLICS4; adult rank -; loan panel pass 14/6 (suwetalu)	the test alone would say culture-bound (a cold-climate garment)
+68	pajamas	loan	loan panel pass	Wordbank pajamas(27); not in CLICS4; adult rank -; loan panel pass 16/7 (pidama)	the test alone would say culture-bound (sleepwear of some cultures)
+69	chin	keep	2	Wordbank chin(27); CLICS4 CHIN cov 0.377 (94 fam, 6 areas, rank 392); adult rank 3617	
+70	fridge	keep	3	Wordbank refrigerator(27); not in CLICS4; adult rank 48847 (refrigerator 3196)	a modern appliance, not tied to one culture. Unsure: few households own one in much of Africa and South Asia
+71	stairs	keep	3	Wordbank stairs(27); not in CLICS4; adult rank 5153	named in the test as an example
+72	radio	loan	loan panel pass	Wordbank radio(27); not in CLICS4; adult rank 490; loan panel pass 18/7 (ladiyo)	the test alone would say keep
+73	glasses	keep	3	Wordbank glasses(27); not in CLICS4; adult rank 47646	spectacles
+74	fork	keep	3	Wordbank fork(27); CLICS4 FORK cov 0.255 (57 fam, 5 areas, rank 830); adult rank 4428	unsure: many households in Asia and Africa eat by hand or with chopsticks, though forks are common in most regions today
+75	hammer	keep	3	Wordbank hammer(27); CLICS4 HAMMER cov 0.231 (56 fam, 5 areas, rank 975); adult rank 2802	
+76	shop	keep	3	Wordbank store(27); CLICS4 SHOP cov 0.258 (57 fam, 6 areas, rank 813); adult rank 1223	
+77	school	keep	3	Wordbank school(27); CLICS4 SCHOOL cov 0.273 (69 fam, 6 areas, rank 726); adult rank 45	
+78	swing	keep	1, 3	Wordbank swing (object)(27) swing (action)(21); not in CLICS4; adult rank 1761	swinging is a basic motion and rope swings are traditional in many cultures (South and Southeast Asia, Korea). Unsure about the playground object
+79	boy	duplicate	ladder: covered by tiwu lowu	Wordbank boy(27); CLICS4 BOY cov 0.864 (211 fam, 6 areas, rank 163); adult rank 380	flag: CLICS4 coverage 0.864 meets criterion 4; the ladder composed it because gender is a modifier (language.md 5.2)
+80	helicopter	loan	loan panel pass	Wordbank helicopter(27); not in CLICS4; adult rank 2309; loan panel pass 16/7 (elikoputelu)	the test alone: unsure (seen in every region, in no household)
+81	tractor	loan	loan panel pass	Wordbank tractor(26); not in CLICS4; adult rank 5011; loan panel pass 18/7 (tulakutalu)	the test alone would say keep (farm machine in every region)
+82	yogurt	culture-bound	-	Wordbank yogurt(26); not in CLICS4; adult rank -; loan panel fail 11/5	tied to dairying cultures, as cheese (63); Chinese says suānnǎi "sour milk"; the loan panel failed it, so a phrase. Unsure: sold widely today
+83	candy	keep	3	Wordbank candy(26); not in CLICS4; adult rank 4696	sweets are found in every region; lollipop (221) merges here. Unsure: the test names lollipop as culture-bound, but generic sweets are not tied to one culture
+84	jam	culture-bound	-	Wordbank jam(26); not in CLICS4; adult rank 5816	a fruit preserve of some breakfast cuisines
+85	underwear	keep	3	Wordbank underpants(26); not in CLICS4; adult rank 3816	
+86	scarf	keep	3	Wordbank scarf(26); not in CLICS4; adult rank 25251	head and neck cloths are worn in most cultures
+87	dress	keep	3	Wordbank dress (object)(26); CLICS4 DRESS cov 0.243 (61 fam, 6 areas, rank 902); adult rank 2356	
+88	shirt	keep	3	Wordbank shirt(26); CLICS4 SHIRT cov 0.318 (75 fam, 6 areas, rank 533); adult rank 1489	
+89	sofa	culture-bound	-	Wordbank couch(26); not in CLICS4; adult rank 3933; loan panel fail 12/4 (sofa)	upholstered seating of some home styles; many households sit on mats, benches or chairs; the loan panel failed it. Unsure: common in urban homes worldwide
+90	toothbrush	duplicate	ladder: merge into brush (106)	Wordbank toothbrush(26); not in CLICS4; adult rank 17226	
+91	plate	keep	3	Wordbank plate(26); CLICS4 PLATE cov 0.278 (73 fam, 6 areas, rank 699); adult rank 1111	
+92	park	keep	3	Wordbank park(26); not in CLICS4; adult rank 424; loan panel fail 10/5	unsure: public parks are a town institution, found in every region's towns but not in rural surroundings; the loan panel failed it, so a native root if kept
+93	church	culture-bound	religion decision	Wordbank church(26); not in CLICS4; adult rank 282	part3/religion.tsv: tradition, each tradition's own building word is borrowed; temple (794) is the general place of worship
+94	slide	keep	1	Wordbank slide (object)(26); not in CLICS4; adult rank 3942	the sliding motion (ladder split 94.b). The Wordbank item is mostly the playground slide (object 26 lists, action 13), which is culture-bound and can be a phrase built on the motion. Unsure
+95	teacher	keep	3	Wordbank teacher(26); CLICS4 TEACHER cov 0.287 (66 fam, 6 areas, rank 673); adult rank 151	criterion 3 read to include roles found everywhere; compounds.tsv derives no tofo, which the ladder chose to replace with a root
+96	turtle	keep	3	Wordbank turtle(26); CLICS4 TURTLE cov 0.340 (87 fam, 6 areas, rank 452); adult rank 7088	found in every macroarea; the compound "slow animal" is not exact
+97	toy	keep	3	Wordbank toy (object)(26); not in CLICS4; adult rank 1463	
+98	bean	keep	3	Wordbank beans(26); CLICS4 BEAN cov 0.314 (84 fam, 5 areas, rank 557); adult rank 4748	named in the test as an example
+99	slipper	keep	3	Wordbank slipper(26); not in CLICS4; adult rank -	unsure: house slippers belong to cultures that change shoes indoors, but in Indian and West African English slippers are flip-flops, worn everywhere
+100	picture	keep	3	Wordbank picture(26); not in CLICS4; adult rank 1536	images and drawings are universal; foto is a photograph only
+101	wolf	culture-bound	-	Wordbank wolf(25); CLICS4 WOLF cov 0.263 (57 fam, 5 areas, rank 776); adult rank 1025	region-bound species: Eurasia and North America, marginally North and East Africa (2 or 3 of 6 macroareas). Unsure: borderline with bear (58), and the South American maned wolf is called lobo/aguará
+102	butter	culture-bound	-	Wordbank butter(25); CLICS4 BUTTER cov 0.247 (50 fam, 6 areas, rank 873); adult rank 1306	tied to dairying cultures, as cheese (63); Chinese says huángyóu "yellow oil". Unsure: ghee and shea butter are widespread, and butter is sold widely today
+103	pasta	culture-bound	-	Wordbank pasta(25); not in CLICS4; adult rank 8470; loan panel fail 11/5	an Italian dish; noodles would be the shared concept; the loan panel failed it
+104	washing machine	keep	3	Wordbank washing machine(25); not in CLICS4; adult rank -	an appliance not tied to one culture. Unsure: few households own one in much of Africa and South Asia, and "machine for washing" is a clear phrase (machine is a passed loan)
+105	lamp	loan	loan panel pass	Wordbank lamp(25) light (object)(20); CLICS4 LAMP cov 0.250 (62 fam, 6 areas, rank 855); adult rank 2756; loan panel pass 12/6 (lanpa)	the test alone would say keep
+106	brush	keep	3	Wordbank brush (object)(25); CLICS4 BRUSH cov 0.167 (35 fam, 6 areas, rank 1320); adult rank 2954	toothbrush (90) merges here
+107	girl	duplicate	ladder: covered by tiwu futa	Wordbank girl(25); CLICS4 GIRL cov 0.841 (204 fam, 6 areas, rank 184); adult rank 241	flag: CLICS4 coverage 0.841 meets criterion 4; the ladder composed it because gender is a modifier (language.md 5.2)
+108	draw	keep	1	Wordbank draw(25); not in CLICS4; adult rank 1964	make a picture
+109	kick	keep	1	Wordbank kick(25); CLICS4 KICK cov 0.298 (70 fam, 6 areas, rank 624); adult rank 1123	
+110	kiss	keep	1	Wordbank kiss(25); CLICS4 KISS cov 0.309 (74 fam, 6 areas, rank 589); adult rank 543	
+111	penguin	loan	loan panel pass	Wordbank penguin(24); not in CLICS4; adult rank 32446; loan panel pass 16/7 (penguwin)	the test alone would say culture-bound (region-bound species)
+112	pea	keep	3	Wordbank peas(24); not in CLICS4; adult rank 32537	
+113	tomato	loan	loan panel pass	Wordbank tomato(24); CLICS4 TOMATO cov 0.034 (6 fam, 3 areas, rank 1666); adult rank 2518; loan panel pass 12/7 (tomate)	the test alone would say keep
+114	nut	keep	3	Wordbank nut(24); CLICS4 NUT cov 0.188 (43 fam, 6 areas, rank 1228); adult rank 2229	
+115	jacket	duplicate	ladder: merge into coat (47)	Wordbank jacket(24); not in CLICS4; adult rank 2766	
+116	comb	keep	3	Wordbank comb (object)(24); CLICS4 COMB cov 0.336 (84 fam, 5 areas, rank 465); adult rank 2931	
+117	zoo	culture-bound	-	Wordbank zoo(24); not in CLICS4; adult rank 6770	a town institution, not in ordinary surroundings across most cultures; Japanese and Indonesian use native compounds ("animal garden", "animal park"), so a phrase works. Unsure
+118	workplace	duplicate	ladder: covered by pu doku	Wordbank work (place)(24); not in CLICS4; adult rank 3762	place for working (derived word)
+119	donkey	keep	3	Wordbank donkey(24); CLICS4 DONKEY cov 0.211 (48 fam, 6 areas, rank 1085); adult rank 2878	kept across Africa, Eurasia and Latin America
+120	zebra	culture-bound	-	Wordbank zebra(24); not in CLICS4; adult rank 12222; loan panel fail 10/5	region-bound species (Africa only); the loan panel failed it. Same doubt as elephant
+121	grape	keep	3	Wordbank grapes(24); CLICS4 GRAPE cov 0.163 (35 fam, 5 areas, rank 1337); adult rank 2810	grown on every continent and sold widely; raisin (184) is covered as "dry grape"
+122	garden	keep	3	Wordbank garden(24); CLICS4 GARDEN cov 0.269 (71 fam, 5 areas, rank 744); adult rank 819	
+123	strawberry	keep	3	Wordbank strawberry(23); not in CLICS4; adult rank 20377	unsure: grown commercially on most continents and a common flavour, but a temperate fruit that many households rarely see
+124	tea	loan	loan panel pass	Wordbank tea(23); CLICS4 TEA cov 0.244 (42 fam, 6 areas, rank 891); adult rank 357; loan panel pass 14/6 (tayu)	the test alone would say keep
+125	shower	keep	3	Wordbank shower(23); not in CLICS4; adult rank 1487	unsure: common in homes in most regions today, while bucket bathing is usual in much of South Asia and Africa
+126	vacuum cleaner	culture-bound	-	Wordbank vacuum(23); not in CLICS4; adult rank -	tied to carpeted homes; few households outside Europe, North America and East Asia own one; "machine that sucks dust" works as a phrase. Unsure: wealth-bound rather than culture-bound, and kept apart from washing machine (104) only by how common it is
+127	potty	duplicate	ladder: merge into toilet (926)	Wordbank potty(23); not in CLICS4; adult rank 8284	the test also names it as culture-bound
+128	tickle	keep	1	Wordbank tickle(23); not in CLICS4; adult rank 7207	
+129	paint	keep	1	Wordbank paint (action)(23); CLICS4 PAINT (PIGMENTS) cov 0.284 (66 fam, 6 areas, rank 684); adult rank 1019	the action; CLICS4 also has the pigment
+130	broom	keep	3	Wordbank broom(23); CLICS4 BROOM cov 0.356 (85 fam, 6 areas, rank 412); adult rank 3641	named in the test as an example
+131	pool	duplicate	ladder: covered by pu lonfe	Wordbank pool(23); not in CLICS4; adult rank 2193	place for swimming (derived word)
+132	owl	keep	3	Wordbank owl(22); CLICS4 OWL cov 0.350 (90 fam, 6 areas, rank 422); adult rank 2676	
+133	squirrel	keep	3	Wordbank squirrel(22); CLICS4 SQUIRREL cov 0.243 (55 fam, 5 areas, rank 897); adult rank 7510	Africa, Eurasia, the Americas and western Papunesia; not Australia
+134	block	culture-bound	-	Wordbank blocks(22); not in CLICS4; adult rank 1000	the Wordbank item is toy building blocks, a nursery toy of some cultures; "piece of wood" works. The split sense 134.b (obstruct) comes from frequency, not Wordbank, and is unaffected. Unsure: block as a solid chunk is generic
+135	gift	keep	3	Wordbank present(22); CLICS4 GIFT cov 0.126 (20 fam, 5 areas, rank 1513); adult rank 1423	gift-giving is universal
+136	chips	culture-bound	-	Wordbank chips(22); not in CLICS4; adult rank -	fries or crisps, dishes of some cuisines
+137	bib	culture-bound	-	Wordbank bib(22); not in CLICS4; adult rank -	named in the test as an example
+138	garage	loan	loan panel pass	Wordbank garage(22); not in CLICS4; adult rank 2823; loan panel pass 17/7 (galasu)	the test alone: unsure (a car shelter is not in most households; a repair garage is found everywhere)
+139	sink	keep	3	Wordbank sink(22); not in CLICS4; adult rank 2132	unsure: piped water at home is missing in many rural households, though a basin is universal
+140	snowman	duplicate	ladder: covered by ewo pi binso	Wordbank snowman(22); not in CLICS4; adult rank -	the test also names it as culture-bound (climate)
+141	forest	keep	3	Wordbank forest(22); CLICS4 FOREST cov 0.439 (114 fam, 6 areas, rank 329); adult rank 364	
+142	beach	keep	3	Wordbank beach(22); CLICS4 SHORE cov 0.263 (67 fam, 6 areas, rank 783); adult rank 1695	a shore of sea, lake or river is found everywhere
+143	drive	keep	1	Wordbank drive(22); CLICS4 DRIVE cov 0.278 (63 fam, 6 areas, rank 700); adult rank 839	drive a vehicle (also drive animals). Unsure whether driving counts as basic
+144	hug	keep	1	Wordbank hug(22); CLICS4 EMBRACE cov 0.243 (61 fam, 6 areas, rank 899); adult rank 5902	
+145	catch	keep	1	Wordbank catch(22); CLICS4 CATCH cov 0.327 (79 fam, 6 areas, rank 495); adult rank 1141	
+146	spade	keep	3	Wordbank shovel(22); CLICS4 SPADE cov 0.241 (52 fam, 5 areas, rank 908); adult rank 3924	shovel
+147	puzzle	culture-bound	-	Wordbank puzzle(21); not in CLICS4; adult rank 4052	the jigsaw toy; some languages borrow (pazl, pazuru), others build (rompecabezas, pīntú). Unsure: puzzle as riddle is universal, but the Wordbank item is the toy
+148	pancake	culture-bound	-	Wordbank pancake(21); not in CLICS4; adult rank 33112	named in the test as an example. Unsure: flat cakes are widespread (crêpe, dosa, injera, jianbing), so "flat cake" is an easy phrase
+149	cookie	loan	loan panel pass	Wordbank cookie(21); not in CLICS4; adult rank 2917; loan panel pass 16/6 (bisukuwitu)	biscuit; the test alone would say culture-bound (a baked confection). Unsure
+150	shorts	keep	3	Wordbank shorts(21); not in CLICS4; adult rank 23707; loan panel fail 10/5	worn in every region today; the loan panel failed it, so a native root
+151	tights	culture-bound	-	Wordbank tights(21); not in CLICS4; adult rank -	a cold-climate garment of some cultures
+152	belt	keep	3	Wordbank belt(21); CLICS4 BELT cov 0.320 (76 fam, 6 areas, rank 524); adult rank 1304	
+153	living room	keep	3	Wordbank living room(21); not in CLICS4; adult rank 2739	unsure: a main room for sitting and receiving guests exists in most house styles (sala, gostinaya, ima, kètīng, majlis), but one-room homes have none
+154	flag	keep	3	Wordbank flag(21); not in CLICS4; adult rank 1122	every state has one today. Unsure: tied to institutions
+155	cover	keep	1	Wordbank cover (action)(21); CLICS4 COVER cov 0.320 (77 fam, 6 areas, rank 525); adult rank 591	cover, lid
+156	feed	duplicate	ladder: covered by neke pasu	Wordbank feed(21); CLICS4 FEED cov 0.142 (23 fam, 5 areas, rank 1409); adult rank 2844	give food
+157	bring	keep	1	Wordbank bring(21); CLICS4 BRING cov 0.344 (85 fam, 6 areas, rank 439); adult rank 134	come carrying
+158	goose	keep	3	Wordbank goose(21); CLICS4 GOOSE cov 0.257 (55 fam, 5 areas, rank 817); adult rank 5977	domestic geese across Eurasia and Africa, wild geese in the Americas and Australia. Unsure
+159	glove	keep	3	Wordbank glove(21); CLICS4 GLOVE cov 0.171 (37 fam, 5 areas, rank 1300); adult rank 2818	unsure: winter gloves are climate-bound, but work, cleaning and medical gloves are used in every region
+160	bowl	keep	3	Wordbank bowl(21); CLICS4 BOWL cov 0.217 (53 fam, 5 areas, rank 1051); adult rank 2436	
+161	drawer	keep	3	Wordbank drawer(21); not in CLICS4; adult rank 2357	unsure: furniture with drawers is in homes in most regions today, but "box in a table" works as a phrase
+162	thirst	keep	1	Wordbank thirsty(21); CLICS4 THIRST cov 0.218 (57 fam, 5 areas, rank 1038); adult rank 1750	a state; matches hungry
+163	skirt	keep	3	Wordbank skirt(21); CLICS4 SKIRT cov 0.294 (73 fam, 6 areas, rank 647); adult rank 1784	
+164	stroller	culture-bound	-	Wordbank stroller(20); not in CLICS4; adult rank -	named in the test as an example
+165	oven	keep	3	Wordbank oven(20); CLICS4 OVEN cov 0.199 (46 fam, 6 areas, rank 1168); adult rank 5535	unsure: few kitchens in East and South Asia or Africa have one, but baking ovens (tandoor, tabun, earth ovens) are found across cultures, and CLICS4 names it in all 6 macroareas
+166	party	keep	3	Wordbank party(20); not in CLICS4; adult rank 177	the celebration sense (ladder split; the political sense 166.b failed the loan panel and is not a Wordbank item). Unsure: the test names no events, but feasts are universal; adult rank 177 is mostly the political sense
+167	crocodile	keep	3	Wordbank crocodile(20); CLICS4 CROCODILE cov 0.271 (72 fam, 6 areas, rank 738); adult rank 3570	crocodilians (crocodiles, alligators, caimans) are native in all 6 macroareas. Unsure: part of everyday surroundings only in the tropics
+168	stick	duplicate	ladder: covered by kima netu (compounds.tsv)	Wordbank stick(20); CLICS4 STICK cov 0.368 (93 fam, 6 areas, rank 399); adult rank 1395	"long wood"
+169	sandwich	loan	loan panel pass	Wordbank sandwich(20); not in CLICS4; adult rank 2583; loan panel pass 19/7 (sanduwitu)	the test alone would say culture-bound (a dish)
+170	necklace	keep	3	Wordbank necklace(20); CLICS4 NECKLACE cov 0.274 (71 fam, 5 areas, rank 720); adult rank 1867	
+171	ladder	keep	3	Wordbank ladder(20); CLICS4 LADDER cov 0.310 (72 fam, 6 areas, rank 580); adult rank 1013	
+172	clown	culture-bound	-	Wordbank clown(20); not in CLICS4; adult rank 2406	a circus entertainer of some cultures. Unsure: ritual clowns exist in many cultures
+173	lick	keep	1	Wordbank lick(20); CLICS4 LICK cov 0.333 (79 fam, 6 areas, rank 474); adult rank 3345	named in the test as an example
+174	pear	keep	3	Wordbank pear(20); not in CLICS4; adult rank 32512	unsure: a temperate fruit, grown across Eurasia, the Americas, southern Africa and Australia; Asian pears in East Asia
+175	sausage	culture-bound	-	Wordbank sausage(19); CLICS4 SAUSAGE cov 0.153 (31 fam, 6 areas, rank 1374); adult rank 25372	a prepared meat dish of some cuisines. Unsure: widespread (Europe, Middle East, China, Latin America, southern Africa)
+176	pizza	loan	loan panel pass	Wordbank pizza(19); not in CLICS4; adult rank 976; loan panel pass 20/7 (pisa)	the test alone would say culture-bound (a dish)
+177	zipper	keep	3	Wordbank zipper(19); not in CLICS4; adult rank 12211	on clothes and bags in every region today
+178	hurry	keep	1	Wordbank hurry(19); CLICS4 HURRY cov 0.311 (74 fam, 6 areas, rank 576); adult rank 2298	
+179	deer	keep	3	Wordbank deer(19); CLICS4 DEER cov 0.332 (90 fam, 6 areas, rank 478); adult rank 2899	Eurasia, the Americas and Papunesia (native or introduced); North Africa only
+180	tissue	culture-bound	-	Wordbank tissue(19); not in CLICS4; adult rank 1467	paper tissues are everyday items in some regions (East Asia, Europe, North America) but not in most households in South Asia or Africa; "paper for the nose" works. Unsure
+181	stove	keep	3	Wordbank stove(19); CLICS4 STOVE cov 0.232 (49 fam, 5 areas, rank 964); adult rank 3904	a cooking stove or hearth is universal; oven (165) is separate
+182	wipe	keep	1	Wordbank wipe(19); CLICS4 WIPE cov 0.251 (51 fam, 6 areas, rank 845); adult rank 3020	named in the test as an example
+183	pen	keep	3	Wordbank pen(19); CLICS4 PEN cov 0.202 (47 fam, 6 areas, rank 1143); adult rank 1275	
+184	raisin	duplicate	ladder: covered by grape kilan	Wordbank raisin(18); not in CLICS4; adult rank 28554	"dry grape", as pútáogān, kuru üzüm
+185	bathtub	culture-bound	-	Wordbank bathtub(18); not in CLICS4; adult rank -	tub bathing belongs to some cultures (Japan, Europe, North America); most of the world showers or bathes with a bucket
+186	wardrobe	keep	3	Wordbank closet(18); not in CLICS4; adult rank 14019	the Wordbank item is closet. Unsure: a cupboard for clothes (almirah, closet) is in homes in most regions today
+187	glue	keep	3	Wordbank glue (object)(18); CLICS4 GLUE cov 0.323 (71 fam, 6 areas, rank 511); adult rank 4397	
+188	playground	duplicate	ladder: covered by pu luse	Wordbank playground(18); not in CLICS4; adult rank 4088	place for playing (derived word)
+189	pour	keep	1	Wordbank pour(18); CLICS4 POUR cov 0.319 (77 fam, 6 areas, rank 529); adult rank 1328	
+190	sweep	keep	1	Wordbank sweep(18); CLICS4 SWEEP cov 0.340 (82 fam, 6 areas, rank 451); adult rank 3878	named in the test as an example
+191	repair	keep	1	Wordbank fix(18); CLICS4 REPAIR cov 0.141 (23 fam, 5 areas, rank 1415); adult rank 1815	fix
+192	clap	keep	1	Wordbank clap(18); not in CLICS4; adult rank 6439	
+193	pleasant	keep	1	Wordbank nice(18); not in CLICS4; adult rank 2194	nice; narrower than good. Unsure whether a quality counts as a state
+194	brown	duplicate	ladder: covered by bilun buda	Wordbank brown(18); not in CLICS4; adult rank 2433	"dark yellow"; six colour roots (method 3.1)
+195	boot	keep	3	Wordbank boots(18); CLICS4 BOOT cov 0.261 (57 fam, 6 areas, rank 793); adult rank 4724	unsure: rubber and work boots are used everywhere; winter boots are climate-bound
+196	cute	keep	1	Wordbank cute(18); not in CLICS4; adult rank 1977	unsure: the test names no qualities; not tied to one culture
+197	orange (colour)	duplicate	ladder: merge into orange (33)	Wordbank orange (description)(18); not in CLICS4; adult rank -	
+198	fire truck	duplicate	ladder: covered by truck pi lumi	Wordbank firetruck(17); not in CLICS4; adult rank -	the test also names it as culture-bound (institution)
+199	porridge	culture-bound	-	Wordbank porridge(17); not in CLICS4; adult rank -	named in the test as an example. Consistency flag: grain porridges are nearly universal (congee, ugali, atole), so criterion 3 arguably holds, as for soup (9); for the author to settle
+200	sauce	loan	loan panel pass	Wordbank sauce(17); not in CLICS4; adult rank 2582; loan panel pass at 12 after the shape rule 16/6 (sosu)	the test alone would say keep (sauces in every cuisine)
+201	cucumber	keep	3	Wordbank cucumber(17); CLICS4 CUCUMBER cov 0.029 (5 fam, 3 areas, rank 1680); adult rank 4590	grown and sold in every region
+202	chewing gum	culture-bound	-	Wordbank gum(17); not in CLICS4; adult rank -	a commercial confection of some cultures; chewing resins (mastic, chicle) and betel are regional. Unsure: sold widely today
+203	sugar	loan	loan panel pass	Wordbank sugar(17); CLICS4 SUGAR cov 0.284 (67 fam, 6 areas, rank 685); adult rank 588; loan panel pass 13/6 (sukalu)	the test alone would say keep
+204	bedroom	duplicate	ladder: covered by pu wopo (compounds.tsv)	Wordbank bedroom(17); not in CLICS4; adult rank 4744	place for sleeping
+205	pot	keep	3	Wordbank pot(17); CLICS4 POT cov 0.418 (107 fam, 6 areas, rank 346); adult rank 8286	named in the test as an example
+206	tear	keep	1, 2	Wordbank tear(17); CLICS4 TEAR (SHRED) cov 0.323 (77 fam, 6 areas, rank 515); adult rank 1473	the Wordbank item is tear as rip (an action word); the ladder split teardrop (2, body) and rip (206.b, 1); CLICS4 TEAR (OF EYE) cov 0.331 as well
+207	naughty	keep	1	Wordbank naughty(17); not in CLICS4; adult rank 4175	unsure: a quality of behaviour, not tied to one culture, but the test names no qualities, and "bad" covers much of it
+208	sleepy	duplicate	ladder: covered by momu wopo	Wordbank sleepy(17); not in CLICS4; adult rank 22985	"want to sleep", as tener sueño; the test names sleepy as a basic state, so a root would pass if the phrase proves costly
+209	melon	keep	3	Wordbank melon(17); CLICS4 MELON cov 0.025 (4 fam, 2 areas, rank 1695); adult rank 37728	melons are grown across Africa, Asia and the Americas
+210	spill	keep	1	Wordbank spill(17); not in CLICS4; adult rank 5164	
+211	watermelon	keep	3	Wordbank watermelon(17); not in CLICS4; adult rank -	African in origin, grown across the tropics and temperate zones
+212	soda	keep	3	Wordbank soda(17); not in CLICS4; adult rank 3934; loan panel fail 5/4	soft drinks are sold in every region today; the loan panel failed it, so a native root. Unsure: a commercial product, and "sweet fizzy drink" works as a phrase
+213	spider	keep	3, 4	Wordbank spider(16); CLICS4 SPIDER cov 0.508 (128 fam, 6 areas, rank 302); adult rank 1372	CLICS4 coverage 0.508 just clears the 0.5 bar; compounds.tsv has a 9-syllable phrase, which the ladder chose to replace with a root
+214	pacifier	culture-bound	-	Wordbank pacifier(16); not in CLICS4; adult rank 33235	named in the test as an example
+215	mirror	keep	3	Wordbank mirror(16); CLICS4 MIRROR cov 0.294 (71 fam, 5 areas, rank 642); adult rank 760	
+216	firefighter	duplicate	ladder: covered by no migi lumi	Wordbank firefighter(16); not in CLICS4; adult rank 9969	"one who fights fire"
+217	smile	keep	1	Wordbank smile(16); CLICS4 SMILE cov 0.226 (54 fam, 6 areas, rank 1007); adult rank 532	
+218	last	keep	1	Wordbank last(16); CLICS4 LAST (FINAL) cov 0.312 (76 fam, 6 areas, rank 566); adult rank 225	last, final. Unsure: the test names no abstract concepts; read as a basic state (being final); not culture-bound in any sense
+219	crayon	culture-bound	-	Wordbank crayon(16); not in CLICS4; adult rank -	named in the test as an example
+220	maize	keep	3	Wordbank corn(16); CLICS4 MAIZE cov 0.345 (93 fam, 5 areas, rank 437); adult rank 3325	named in the test as an example
+221	lollipop	duplicate	ladder: merge into candy (83)	Wordbank lollipop(16); not in CLICS4; adult rank 39631	the test also names it as culture-bound
+222	film	keep	3	Wordbank movie(16); not in CLICS4; adult rank 1190; loan panel fail 11/5	films are watched in every region today; the loan panel failed it, so a native root. Unsure: the test names no works, only things
+223	fox	keep	3	Wordbank fox(15); CLICS4 FOX cov 0.323 (78 fam, 5 areas, rank 508); adult rank 3447	Africa, Eurasia, North America, the South American zorros, introduced in Australia
+224	bun	duplicate	ladder: covered by sowe meli	Wordbank bun(15); not in CLICS4; adult rank 11082	"small bread"
+225	toast	loan	loan panel pass	Wordbank toast(15); not in CLICS4; adult rank 1746; loan panel pass 13/5 (tosutu)	toasted bread; the test alone would say culture-bound (a dish)
+226	balcony	loan	loan panel pass	Wordbank balcony(15); not in CLICS4; adult rank -; loan panel pass 15/6 (balukon)	the test alone: unsure (common in town buildings everywhere)
+227	carpet	keep	3	Wordbank carpet(15); CLICS4 RUG cov 0.160 (34 fam, 5 areas, rank 1347); adult rank 3628	mats and rugs are universal; CLICS4 MAT cov 0.303 as well
+228	gas station	keep	3	Wordbank gas station(15); not in CLICS4; adult rank -	unsure: fuel stations are in every region today, but this could be a derived place word (pu + fuel, as pool and playground), and the test names fire truck (an institution) as culture-bound
+229	yard	keep	3	Wordbank yard(15); CLICS4 YARD cov 0.215 (53 fam, 5 areas, rank 1060); adult rank 2483	courtyard
+230	knock	keep	1	Wordbank knock(15); CLICS4 KNOCK cov 0.141 (23 fam, 5 areas, rank 1417); adult rank 4276	
+231	ride	keep	1	Wordbank ride(15); CLICS4 RIDE cov 0.231 (56 fam, 6 areas, rank 974); adult rank 1809	ride a horse, bicycle or vehicle
+232	bubble	keep	3	Wordbank bubbles(15); not in CLICS4; adult rank 6523	a physical thing found everywhere (CLICS4 FOAM is the nearest concept)
+233	circus	loan	loan panel pass	Wordbank circus(15); not in CLICS4; adult rank 3614; loan panel pass 16/7 (silukasu)	the test alone would say culture-bound (an institution of some cultures)
+234	T-shirt	loan	loan panel pass	Wordbank t-shirt(15); not in CLICS4; adult rank -; loan panel pass 13/6 (tisalutu)	the test alone would say keep (worn in every region)
+235	hose	keep	3	Wordbank hose(15); not in CLICS4; adult rank 9505	unsure: flexible water and gas pipes are used in every region, but the garden hose is a suburban item
