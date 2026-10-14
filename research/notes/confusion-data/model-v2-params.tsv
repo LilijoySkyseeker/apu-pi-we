@@ -1,0 +1,50 @@
+# source: research/notes/confusion-data.md §5 (proposed mishearing model v2, 2026-10-13). Rates are symmetric pair confusions (P[a,b]+P[b,a])/2 or one-way rates as named, at reference noise level E_C = 0.20 (mean onset-consonant error). status: data = range spans published sources; scaled = data rescaled to E_C by project.py; inference = reasoned from data, no direct measurement; guess = no data found.
+id	parameter	best	low	high	sampling	status	source
+E_C	mean onset-consonant error (scenario, not uncertainty)	0.20	0.10	0.40	fixed per run	choice	sources span 0.15-0.57 (§1.8)
+C_pattern	consonant confusion pattern	mix4	-	-	categorical: mix4, cooke08, cutler-native, cutler-dutch, mandarin6, mn55+mix	data	§1.8 project.py; mix4 = equal mean of cooke08-noise, cutler04-native-CV0dB, cutler04-dutch-CV0dB, mandarin-snr6
+voice_mult	multiplier on p-b t-d k-g cells after pattern	1.0	0.1	3.0	log-uniform	data	pattern values 0.09%-6.8% (MN55 low outlier; Lovitt & Allen 2006)
+pair_vl_place	p-t p-k t-k (from pattern)	0.074	0.039	0.162	via C_pattern	scaled	§1.8
+pair_voicing	p-b t-d k-g (from pattern)	0.027	0.001	0.068	via C_pattern x voice_mult	scaled	§1.8
+pair_m_n	m-n	0.078	0.037	0.128	via C_pattern	scaled	§1.8
+pair_l_n	l-n	0.045	0.016	0.125	via C_pattern	scaled	§1.8
+pair_f_b	f-b	0.066	0.015	0.247	via C_pattern	scaled	§1.8 (high end = white noise only)
+pair_l_w	l-w	0.013	0.000	0.028	via C_pattern	scaled	§1.8
+pair_l_j	l-j	0.011	0.004	0.028	via C_pattern	scaled	§1.8
+pair_w_j	w-j	0.011	0.000	0.028	via C_pattern	scaled	§1.8
+pair_w_b	w-b	0.019	0.000	0.038	via C_pattern	scaled	§1.8
+pair_j_g	j-g	0.034	0.000	0.050	via C_pattern	scaled	§1.8
+C_none_pause_p	p -> no onset, word-initial after pause	0.12	0.04	0.17	uniform	scaled	Cutler 2004 Table I/V (/h/ responses); low = Cooke 2008 VCV
+C_none_pause_tk	t,k -> no onset after pause	0.085	0.01	0.13	uniform	scaled	same
+C_none_pause_bfg	b,f,g -> no onset after pause	0.055	0.015	0.08	uniform	scaled	same
+C_none_pause_other	d,s,m,n,l,w,j -> no onset after pause	0.007	0.003	0.03	log-uniform	scaled	same
+C_none_after_vowel	any C -> no onset after a vowel-final word	0.015	0.005	0.04	log-uniform	data	Cooke 2008 VCV /h/ responses 0-3%
+none_C_pause	no onset -> some C after pause	0.005	0.001	0.02	log-uniform	guess	none found
+glide_hiatus_front	j <-> no onset after i/e-final word (each direction)	0.10	0.03	0.30	log-uniform	guess	qualitative only: Clear & Hogoboom 2021; Davidson & Erker 2014 (word-boundary glottal marking ~45% in English)
+glide_hiatus_back	w <-> no onset after u/o-final word (each direction)	0.10	0.03	0.30	log-uniform	guess	as above
+glide_hiatus_other	j or w <-> no onset in other junctions	0.01	0.003	0.03	log-uniform	guess	as above
+reseg_n_V	"Vn V" <-> "V nV" across a word boundary	0.25	0.10	0.50	uniform	inference	syllable-timed, no glottal onset; English glottal marking 13-45% (Dilley 1996; Davidson & Erker 2014)
+gem_n_N	"Vn nV"/"Vn mV" <-> "V nV"/"V mV"	0.30	0.10	0.50	uniform	inference	no length contrast in Apupiwe; most L1s lack geminates
+coda_loss	-n -> none (other contexts)	0.08	0.03	0.15	uniform	scaled	Cutler 2004 final n not heard as nasal 17-34% at C error 52-57%; Gwizdzinski 2023 nasal-coda errors 12-20%
+coda_add	none -> -n	0.025	0.01	0.06	log-uniform	scaled	Gwizdzinski 2023 oral-coda words heard nasal 5-6% at 0 dB
+V_ratio	mean vowel error / E_C	0.15	0.05	0.40	log-uniform	data	Cutler 2004 0.06-0.15 native, 0.24-0.39 Dutch; Bond 1999 ~0.15
+V_share_i_e	share of vowel errors i-e	0.22	0.04	0.33	Dirichlet around best	data	Cutler 2004 projected (§2)
+V_share_o_u	o-u	0.24	0.09	0.28	Dirichlet	data	same
+V_share_a_o	a-o	0.23	0.14	0.33	Dirichlet	data	same
+V_share_e_a	e-a	0.10	0.00	0.21	Dirichlet	data	same
+V_share_i_u	i-u	0.15	0.15	0.40	Dirichlet	inference	data 0.17-0.40 inflated by English /u/ fronting
+V_share_e_o	e-o	0.01	0.00	0.01	Dirichlet	data	same
+V_share_rest	i-a i-o e-u a-u together	0.05	0.03	0.08	Dirichlet	data	same
+L2_voicing_pi	share of listeners with no plain voicing contrast	0.30	0.15	0.35	uniform	data	PHOIBLE x Ethnologue (§4)
+L2_voicing_m	their p-b t-d k-g confusion	0.10	0.02	0.40	log-uniform	guess	depends on whether talkers aspirate p t k (Mandarin aspiration confusion 0.3%, §1.6)
+L2_fp_pi	share with no f	0.15	0.10	0.20	uniform	data	§4
+L2_fp_m	their f-p confusion	0.25	0.10	0.45	uniform	guess	-
+L2_nop_pi	share with no p	0.05	0.03	0.08	uniform	data	§4
+L2_nop_m	their p-b confusion	0.25	0.10	0.40	uniform	guess	-
+L2_now_pi	share with no w	0.12	0.08	0.20	uniform	data	§4 (artefact-corrected)
+L2_now_m	their w-b confusion	0.15	0.05	0.30	uniform	guess	Cooke 2010: German listeners' /w/ problem (no rate)
+L2_nol_pi	share with no lateral	0.04	0.02	0.08	uniform	data	§4
+L2_nol_m	their l-n and l-d confusion	0.15	0.05	0.30	uniform	guess	-
+L2_mid_pi	share with no mid vowels	0.04	0.02	0.10	uniform	data	§4 (Mandarin artefact excluded)
+L2_mid_m	their e-i and o-u confusion	0.25	0.10	0.45	uniform	guess	-
+L2_cv_pi	share with CV-only L1	0.08	0.04	0.13	uniform	data	WALS 12A 12.6% of languages
+L2_cv_coda_loss	their -n loss	0.30	0.10	0.50	uniform	guess	-
