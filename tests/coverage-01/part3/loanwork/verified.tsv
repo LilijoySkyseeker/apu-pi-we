@@ -102,3 +102,42 @@ pope	yo	yes	Pópù, Popu	freq-yo popu rank 3598; Leipzig yor Popu 3 in running t
 pope	qu	yes	(Tayta) Papa	Leipzig que Papa 76, Papam 62, mostly "Tayta Papam karqan" (was pope); Wikidata Q19546 qu label "Tayta Papa"
 physics	yo	yes	fisiyiki	freq-yo rank 2655; Leipzig yor fisiyiki 4, Fisiyiki 1, Fisiki 1, Fisiiki 1 in running text ("Ebun Nobel ninu Fisiyiki"); yo.wikipedia Físíksì (Q413)
 physics	qu	no	física	qu.wikipedia article Pachaykamay (Q413); Leipzig que pachaykamay(pi) 38; física only in a Spanish name and one Spanish adjective
+dollar	qu	yes	dólares	Leipzig que_community_2017: dolaresta 2, dólares 1 (thin; not deciding)
+internet	ha	yes	intanet	freq-ha rank 3233, Leipzig hau intanet 12 + Intanet 8; yanar gizo (yanar rank 982) is 4.9x, under the five-times line
+internet	qu	yes	internet	freq-qu rank 2374; Leipzig que internet 4 + Internet 3
+minute, of time	qu	yes	minutu	Leipzig que minutumanta 3, minutukunatapas 1 (thin; not deciding)
+email	tl	yes	email	freq-fil rank 4098; tl subtitle list e-mail 12
+email	es	yes	email, e-mail, mail	OpenSubtitles es 50k: email 2233, e-mail 3248, mail 983 against correo 18059 (also postal mail): 2.8x, under five times; freq-es mail rank 4790
+email	sw	yes	email	freq-sw rank 4137; Leipzig swa Email 70 + email 35, against pepe (barua pepe) 169
+email	ha	yes	imel	freq-ha rank 4512; Leipzig hau imel 8, Imel 3, I-mel/i-mel 7, email 5; Hausa has no native rival
+email	yo	unknown	-	no email-type form in freq-yo or Leipzig yor
+email	qu	unknown	-	no email-type form in freq-qu or Leipzig que
+photo	ta	yes	போட்டோ pōṭṭō	freq-ta rank 2681 against புகைப்படம் 1409 (1.9x)
+photo	qu	unknown	-	no foto in freq-qu or Leipzig que
+degree (°)	ta	yes	டிகிரி ṭikiri	freq-ta rank 4418, sfreq-ta 2680 (temperature and academic senses mixed; not deciding)
+degree (°)	ha	no	digiri	Leipzig hau: digiri in 92 sentences, all sampled ones the academic degree; no temperature use found
+battery	yo	yes	bátìrì	Leipzig yor Bátìrì 1 (thin; not deciding)
+battery	qu	unknown	-	no batería-type form in freq-qu or Leipzig que
+euro	sw	yes	euro, yuro	freq-sw euro rank 3813; Leipzig swa Euro 97, euro 19, yuro 8
+euro	ta	unknown	-	யூரோ 1 token in the ta subtitle list; nothing in freq-ta
+euro	ha	unknown	-	no yuro/euro in freq-ha or Leipzig hau
+euro	qu	unknown	-	only Europa in freq-qu and Leipzig que
+yuan	id	yes	yuan	KBBI VI daring "yuan: satuan mata uang Tiongkok"; OpenSubtitles id 50k yuan 530
+yuan	tl	yes	yuan	freq-fil rank 4632 (sense not separable from names)
+yuan	tr	yes	yuan	OpenSubtitles tr 50k yuan 1096; tr.investing.com and tr.tradingeconomics.com "Çin yuanı"
+yuan	sw	yes	yuan	Leipzig swa sentence 49185 "karo ya mwaka mmoja ni kiasi cha yuan elfu 20" (one currency use; other hits are names)
+yuan	ha	yes	yuan	Leipzig hau: about 5 currency sentences ("kudin Sin yuan miliyan dari 2", 1307, 1970, 9706); the other ~50 hits are names (Qu Yuan, Yuan dynasty)
+yuan	bn	unknown	-	not in bn freq, sfreq or subtitle lists; no Wiktionary entry
+yuan	ta	unknown	-	not in ta freq, sfreq or subtitle lists; no Wiktionary entry
+yuan	yo	unknown	-	not in freq-yo or Leipzig yor
+yuan	qu	unknown	-	Leipzig que Yuan 1 (a name)
+rupee	vi	yes	rupi, rupee	OpenSubtitles vi 50k rupi 27, rupee 26
+rupee	ha	unknown	-	no rupi-type form in freq-ha or Leipzig hau; web search found none
+rupee	yo	unknown	-	no rupi-type form in freq-yo or Leipzig yor
+rupee	qu	unknown	-	no rupia in freq-qu or Leipzig que
+police	ha	no	'yan sanda	freq-ha sanda rank 439, Leipzig ’yan 207; police only 2 tokens (in English names)
+police	qu	no	policía	Leipzig que policía 2, polis 2 (polis hits are city names such as Annapolis): thin
+camera	vi	yes	camera	freq-vi rank 1848, OpenSubtitles vi 50k 891; máy ảnh not countable as one token
+camera	tr	yes	kamera	freq-tr rank 1909, OpenSubtitles tr 50k kamera 11259 + kamerası 2663; fotoğraf makinesi (makinesi 6685, all machines)
+camera	fr	yes	caméra	freq-fr rank 2973, OpenSubtitles fr 50k 14900 (video and phone cameras; appareil photo for still cameras)
+camera	qu	unknown	-	no cámara-type form in freq-qu or Leipzig que

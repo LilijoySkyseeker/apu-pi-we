@@ -1,0 +1,351 @@
+# Older loans (data/lexicon.tsv field `loan`) re-run under the 2026-10-13 panel rules.
+# Same format as c01..c11 (emit.parse). Base: tests/lexicon-ladder-01/loans.md tables, Wt re-fetched 2026-10-13
+# with panel.py. Marks: y counts, b everyday loan beside a native/formal word (counts once sourced), n doesn't.
+# Columns sourced only from memory (M) count only when verified.tsv says yes. Rival rule: n when a rival word
+# specific to the concept is >=5x as frequent; broad rivals (letter, network, picture) noted, not applied.
+# Not named c[0-9][0-9].txt on purpose, so deciding.py's coverage verdicts are unchanged.
+
+@ dollar | dollar | designation for specific currency
+zh 美元 měiyuán (US$); 元/块 generic | n | Wt
+ja ドル doru | y | Wt
+ko 달러 dalleo (불 slang) | y | Wt
+vi đô la | y | Wt
+th ดอลลาร์ dɔnlaa | y | Wt
+id dolar | y | Wt
+tl dolyar | y | Wt
+hi डॉलर ḍālar | y | Wt
+bn ডলার ḍɔlar | y | Wt
+ta டாலர் ṭālar | y | Wt
+fa دلار dolâr | y | Wt
+ar دولار dūlār | y | Wt
+tr dolar | y | Wt
+ru доллар dollar | y | Wt
+es dólar | y | Wt
+fr dollar | y | Wt
+sw dola | y | Wt
+ha dala | y | Wt
+yo dọ́là | y | Wt
+qu dólar (Spanish loan) | y | M
+median: dolar
+note: 19/7; one donor shape (non-rhotic dola/dala/doru are borrower adaptations, as the coverage panel counted ja gitā with guitar); r kept in 12 of 19
+text: Quechua now sourced (Leipzig que dolaresta 2, dólares 1); not deciding. r kept in id tl hi bn ta fa ar tr ru es fr qu (12) against ja ko vi th sw ha yo (7), so [dolar].
+
+@ internet | Internet | specific internet consisting of the global network of computers
+zh 互联网 hùliánwǎng, 网络 | n | Wt
+ja インターネット intānetto, ネット | y | Wt
+ko 인터넷 inteonet | y | Wt
+vi in-tơ-nét / internet (mạng "network, life" is broader) | y | Wt
+th อินเทอร์เน็ต inthəənet | y | Wt
+id internet | y | Wt
+tl internet | y | Wt
+hi इंटरनेट iṇṭarneṭ (formal अंतर्जाल) | y | Wt
+bn ইন্টারনেট inṭarneṭ | y | Wt
+ta இணையம் iṇaiyam; spoken internet not found in any ta list | n | Wt
+fa اینترنت internet | y | Wt
+ar إنترنت internet | y | Wt
+tr internet | y | Wt
+ru интернет | y | Wt
+es internet | y | Wt
+fr internet | y | Wt
+sw intaneti (mtandao "network" also used) | y | Wt
+ha yanar gizo; intanet beside it | b | M
+yo ayélujára | n | M
+qu T'inkinakusqa llikakuna (coinage); internet in running text | b | M
+median: internet
+note: 17/7; Tamil drops (loan unattested), Hausa and Quechua added from frequency lists
+text: Hausa intanet (freq-ha #3233) against yanar gizo (yanar #982): 4.9x, under the five-times line. Short form "net" tested: ja ネット, th เน็ต only; fails. Second vowel e (id tl fa tr ru es fr qu, 8) over a (ja hi bn ar sw ha, 6); r kept in 11 of 17: [internet].
+
+@ hour | hour | time period of sixty minutes
+zh 小时 xiǎoshí | n | Wt
+ja 時間 jikan | n | Wt
+ko 시간 sigan | n | Wt
+vi giờ, tiếng | n | Wt
+th ชั่วโมง chûamoong | n | Wt
+id jam | n | Wt
+tl oras | y | Wt
+hi घंटा ghaṇṭā | n | Wt
+bn ঘণ্টা ghaṇṭā | n | Wt
+ta மணி நேரம் maṇi nēram | n | Wt
+fa ساعت sâʿat | n | Wt
+ar ساعة sāʿa | n | Wt
+tr saat | n | Wt
+ru час čas | n | Wt
+es hora | y | Wt
+fr heure | y | Wt
+sw saa | n | Wt
+ha awa (< English hour), sa'a | y | Wt, We
+yo wákàtí | n | We
+qu ura (Spanish loan; unattested, and ura "below" is native) | n | M
+note: 4/3 all shapes; hora shape (tl es fr: ola) and hour shape (ha awa; lexicon awuwa) are apart by the shape rule, largest 3/2
+text: Fails as before. The Arabic sāʿa family (fa ar tr sw ha) is 5 in 2 regions.
+
+@ minute, of time | minute | unit of time
+zh 分钟 fēnzhōng | n | Wt
+ja 分 fun | n | Wt
+ko 분 bun | n | Wt
+vi phút | n | Wt
+th นาที naathii | n | Wt
+id menit | y | Wt
+tl minuto | y | Wt
+hi मिनट minaṭ | y | Wt
+bn মিনিট miniṭ | y | Wt
+ta நிமிடம் nimiṭam (< Sanskrit nimiṣa) | n | Wt
+fa دقیقه daqiqe | n | Wt
+ar دقيقة daqīqa | n | Wt
+tr dakika | n | Wt
+ru минута minuta | y | Wt
+es minuto | y | Wt
+fr minute | y | Wt
+sw dakika | n | Wt
+ha minti | y | Wt, We
+yo ìṣẹ́jú | n | M
+qu minutu (Spanish loan); Wt chinini | y | M
+note: 9/5; one shape (m-n-t); Quechua 3 tokens
+text: Fails as before.
+
+@ second, of time | second | one-sixtieth of a minute; SI unit of time
+zh 秒 miǎo | n | Wt
+ja 秒 byō | n | Wt
+ko 초 cho | n | Wt
+vi giây | n | Wt
+th วินาที winaathii | n | Wt
+id detik (sekon technical) | n | Wt
+tl segundo | y | Wt
+hi सेकंड sekaṇḍ | y | Wt
+bn সেকেন্ড sekenḍ | y | Wt
+ta நொடி noḍi, வினாடி | n | Wt
+fa ثانیه sâniye | n | Wt
+ar ثانية ṯāniya (calque) | n | Wt
+tr saniye | n | Wt
+ru секунда sekunda | y | Wt
+es segundo | y | Wt
+fr seconde | y | Wt
+sw sekunde | y | Wt
+ha daƙiƙa | n | M
+yo ìṣẹ́jú-àáyá | n | M
+qu sigundu (Spanish loan; unattested: Leipzig segunda/segundo are the ordinal and names) | n | M
+note: 7/4 all shapes; second shape (hi bn ru sw: sekundu, s-k-n-d) and segundo shape (tl es fr: s-g-n-d) are apart, largest 4/3
+text: Fails as before; Quechua no longer assumed.
+
+@ email | email | message sent through an electronic system
+zh 邮件 yóujiàn, 电邮 diànyóu | n | Wt
+ja メール mēru | y | Wt
+ko 이메일 imeil, 메일 | y | Wt
+vi email (thư điện tử formal; thư "letter" is broader) | y | Wt
+th อีเมล iimeel | y | Wt
+id email (official surel) | b | Wt
+tl email | y | M
+hi ईमेल īmel | y | Wt
+bn ইমেইল imeil | y | Wt
+ta மின்னஞ்சல் miṉṉañcal | n | Wt
+fa ایمیل imeyl | y | Wt
+ar إيميل īmayl (formal بريد إلكتروني) | y | Wt
+tr e-posta; e-mail, mail as often | b | Wt
+ru имейл imejl, мейл (also почта) | y | Wt
+es correo (electrónico); email, e-mail, mail beside it | b | M
+fr mail, e-mail (courriel Quebec) | y | Wt
+sw barua pepe; email beside it | b | M
+ha imel | y | M
+yo (no form found) | n | M
+qu (no form found) | n | M
+median: imeil
+note: 16/6; no longer rests on judgment columns; short form mail tested (8 languages), fails
+text: Rivals checked: id surel (subs 197) against email/e-mail (1,882); tr e-posta (3,213) against e-mail/mail (3,153); es correo (18,059, also postal) against email/e-mail/mail (6,464); ar إيميل forms (~880) against at most 3,800 for الإلكتروني/إلكتروني; ru имейл/e-mail (642) against at most 1,474 for электронная почта forms. None reaches 5x. Diphthong: [ei] in ko tl bn fa ar tr ru es sw (9) against [e] in th id hi fr ha (5): [imeil].
+
+@ photo | photograph | picture|photo
+zh 照片 zhàopiàn | n | Wt
+ja 写真 shashin | n | Wt
+ko 사진 sajin | n | Wt
+vi ảnh, hình | n | Wt
+th รูป(ถ่าย) rûup(thàai) | n | Wt
+id foto | y | Wt
+tl litrato (< Spanish retrato) | n | Wt
+hi फ़ोटो foṭo, तस्वीर | y | Wt
+bn ফটো phaṭo (ছবি "picture" broader and far more frequent) | y | Wt
+ta புகைப்படம் pukaippaṭam; spoken போட்டோ | b | M
+fa عکس aks | n | Wt
+ar صورة ṣūra | n | Wt
+tr fotoğraf | y | Wt
+ru фото, фотография | y | Wt
+es foto | y | Wt
+fr photo | y | Wt
+sw picha | n | Wt
+ha hoto (< English photo) | y | We
+yo àwòrán | n | M
+qu foto (Spanish loan; unattested) | n | M
+note: 9/5; Tamil added (போட்டோ freq-ta #2681 against புகைப்படம் #1409), Quechua dropped
+text: Fails as before. Bengali ছবি is 21x ফটো, but it is the general word for a picture, so the rival rule isn't applied.
+
+@ degree (°) | degree | unit of measurement of temperature
+zh 度 dù | n | Wt
+ja 度 do | n | Wt
+ko 도 do | n | Wt
+vi độ | n | Wt
+th องศา ongsǎa | n | Wt
+id derajat | n | Wt
+tl antas (Taglish "degrees" is code-switching) | n | Wt
+hi डिग्री ḍigrī | y | Wt
+bn ডিগ্রি ḍigri | y | Wt
+ta டிகிரி ṭikiri | b | M
+fa درجه daraje | n | Wt
+ar درجة daraja | n | Wt
+tr derece | n | Wt
+ru градус gradus | n | Wt
+es grado | n | Wt
+fr degré | y | Wt
+sw digrii | y | Wt, We
+ha digiri (academic degree only in Leipzig) | n | M
+yo ìwọ̀n | n | M
+qu grado (Spanish loan) | n | M
+note: 5/3; Hausa digiri is the academic degree in all 92 Leipzig sentences
+text: Fails as before.
+
+@ battery | battery | device storing electricity
+zh 电池 diànchí | n | Wt
+ja バッテリー batterī (電池 as often) | y | Wt
+ko 배터리 baeteori | y | Wt
+vi pin (< French pile) | n | Wt
+th แบตเตอรี่ bɛ̀ttəərîi | y | Wt
+id baterai | y | Wt
+tl baterya | y | Wt
+hi बैटरी bɛṭrī | y | Wt
+bn ব্যাটারি bæṭari | y | Wt
+ta பேட்டரி pēṭṭari | y | Wt
+fa باتری bâtri | y | Wt
+ar بطارية baṭṭāriyya | y | Wt
+tr pil; batarya beside it (phones) | b | Wt
+ru батарейка batarejka, батарея | y | Wt
+es batería (dry cell pila) | y | Wt
+fr batterie (dry cell pile) | y | Wt
+sw betri | y | Wt, We
+ha batir | y | We
+yo bátìrì | y | M
+qu batería (Spanish loan; unattested) | n | M
+median: batari
+note: 17/6; Turkish batarya added, Quechua dropped; no rival reaches 5x (ja 電池 ≈ バッテリー, es pila < batería, fr pile ≈ batterie)
+text: Second vowel a (ko th bn ta ar tr ru) over e (ja id tl es): [batari].
+
+@ euro | euro | currency unit of the European Monetary Union
+zh 欧元 ōuyuán | n | Wt
+ja ユーロ yūro | y | Wt
+ko 유로 yuro | y | Wt
+vi euro | y | Wt
+th ยูโร yuuroo | y | Wt
+id euro | y | Wt
+tl euro | y | Wt
+hi यूरो yūro | y | Wt
+bn ইউরো iuro | y | Wt
+ta யூரோ yūrō | y | M
+fa یورو yuro | y | Wt
+ar يورو yūrū | y | Wt
+tr euro (official avro) | y | Wt
+ru евро jevro | y | Wt
+es euro | y | Wt
+fr euro | y | Wt
+sw euro, yuro | y | M
+ha yuro | y | M
+yo yúrò | y | Wt
+qu euro | y | M
+median: juro
+note: 16/6; ta ha qu unattested, sw sourced; one written name in all alphabets (EU rule), so evro is not a second shape
+text: y-initial forms (ja ko th hi bn fa ar ru yo) 9 against eu/ø (vi id tl tr es fr sw) 7: [juro].
+
+@ yuan | yuan | basic unit of money in China
+zh 元 yuán (spoken 块 kuài, not 5x) | y | Wt
+ja 元 gen, 人民元 (ユアン rare) | n | Wt
+ko 위안 wian | y | Wt
+vi nhân dân tệ (Wt nguyên) | n | Wt
+th หยวน yǔan | y | Wt
+id yuan | y | M
+tl yuan | y | M
+hi युआन yuān | y | Wt
+bn ইউয়ান | y | M
+ta யுவான் | y | M
+fa یوان yuân | y | Wt
+ar يوان yuwān | y | Wt
+tr yuan | y | M
+ru юань juan' | y | Wt
+es yuan | y | Wt
+fr yuan | y | Wt
+sw yuan | y | M
+ha yuan | y | M
+yo yuan | y | M
+qu yuan | y | M
+median: juan
+note: 14/6; was 18/7 on memory columns; 9 Wiktionary columns plus id tr ha tl sw sourced; no single column decides
+text: Hausa "yuan" in Leipzig is mostly names (Qu Yuan, the Yuan dynasty); the currency sense ("kudin Sin yuan miliyan...") is in about 5 sentences.
+
+@ rupee | rupee | monetary currency
+zh 卢比 lúbǐ | y | Wt
+ja ルピー rupī | y | Wt
+ko 루피 rupi | y | Wt
+vi rupi, rupee | y | M
+th รูปี ruupii | y | Wt
+id rupee | y | Wt
+tl rupya | y | Wt
+hi रुपया rupayā | y | Wt
+bn টাকা ṭākā (the everyday word for the rupee in West Bengal) | n | Wt
+ta ரூபாய் rūpāy | y | Wt
+fa روپیه rupiye | y | Wt
+ar روبية rūbiyya | y | Wt
+tr rupi | y | Wt
+ru рупия rupija | y | Wt
+es rupia | y | Wt
+fr roupie | y | Wt
+sw rupia | y | Wt
+ha rupi | y | M
+yo rúpì | y | M
+qu rupia | y | M
+median: rupija
+note: 16/6; ha yo qu unattested; median tie rupi 8 / rupija 8, broken by regions (5 against 4)
+text: Two shapes: rupee [rupi] (zh ja ko vi th id tr fr) and rupiya [rupija] (tl hi ta fa ar ru es sw). Their adapted forms lupi and lupiya differ only by the glide y; counted as one form here (see loans.md). The word-end position ties 8 to 8; rupiya is used in 5 regions (SEA SA WA EU SSA), rupee in 4 (EA SEA WA EU), so [rupija] → lupiya. One sourced Hausa or Yoruba rupi would make it 9 to 8 and keep lupi.
+
+@ police | police | local or general law enforcement agency
+zh 警察 jǐngchá | n | Wt
+ja 警察 keisatsu | n | Wt
+ko 경찰 gyeongchal | n | Wt
+vi cảnh sát, công an | n | Wt
+th ตำรวจ tamrùat (โปลิศ archaic, 1 Leipzig token) | n | Wt
+id polisi | y | Wt
+tl pulis | y | Wt
+hi पुलिस pulis | y | Wt
+bn পুলিশ puliś | y | Wt
+ta போலீஸ் pōlīs (formal காவல்) | b | Wt
+fa پلیس polis | y | Wt
+ar شرطة šurṭa (بوليس būlīs colloquial, 1/48 as frequent) | n | Wt
+tr polis | y | Wt
+ru полиция policija | y | Wt
+es policía | y | Wt
+fr police | y | Wt
+sw polisi | y | Wt
+ha ɗan sanda / 'yan sanda | n | M
+yo ọlọ́pàá | n | We
+qu chapaq "guard"; policía 2 Leipzig tokens | n | Wt
+median: polis
+note: 11/5 fail; Arabic fails the rival rule; Quechua would be the 12th vote on 2 tokens (a thin deciding column)
+text: Tamil போலீஸ் (freq-ta #593) is more frequent than காவல் (#722, also "guard, custody"), so it counts. Arabic الشرطة/شرطة (69,931 in subtitles) against البوليس/بوليس (1,445): 48x.
+
+@ camera | camera | still camera
+zh 相机 xiàngjī | n | Wt
+ja カメラ kamera | y | Wt
+ko 카메라 kamera | y | Wt
+vi máy ảnh; camera beside it | b | M
+th กล้อง klɔ̂ng | n | Wt
+id kamera | y | Wt
+tl kamera | y | Wt
+hi कैमरा kæmrā | y | Wt
+bn ক্যামেরা kyāmerā | y | Wt
+ta கேமரா kēmarā | y | Wt
+fa دوربین durbin (Dari کمره kamra) | n | Wt
+ar كاميرا kāmērā | y | Wt
+tr fotoğraf makinesi; kamera beside it | b | M
+ru камера, фотоаппарат | y | Wt
+es cámara | y | Wt
+fr appareil photo; caméra for video and phone cameras | b | M
+sw kamera | y | Wt
+ha kyamara | y | Wt
+yo kámẹ́rà | y | We
+qu cámara (Spanish loan; unattested) | n | M
+median: kamera
+note: 16/6; vi tr fr added from frequency lists, Quechua dropped
+text: No rival reaches 5x: ru фотоаппарат (500) against камера forms (17,428); ar آلة (generic "machine") against كاميرا forms; tr makinesi (all machines) against kamera (#1909).

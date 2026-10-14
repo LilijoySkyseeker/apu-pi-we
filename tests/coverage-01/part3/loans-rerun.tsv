@@ -1,0 +1,15 @@
+loan	old_verdict	new_verdict	count/regions	form_old	form_new	note
+dollar	pass	pass	19/7	dolalu	dolalu	was 19/7 with Quechua from memory; Quechua now sourced (Leipzig, 3 tokens), not deciding
+internet	pass	pass	17/7	intelunetu	intelunetu	was 16/6; Tamil drops (loan unattested), Hausa intanet (4.9x rival, under 5) and Quechua added; short form net fails (ja th only)
+hour	fail	fail	4/3	awuwa	native root	was 5/4; Quechua no longer assumed; the shape rule splits hora (tl es fr) from hour (ha awa), largest 3/2
+minute, of time	fail	fail	9/5	minitu	native root	unchanged count; Quechua now sourced (3 tokens)
+second, of time	fail	fail	7/4	sekandu	native root	was 8/4; Quechua dropped; the shape rule splits second (hi bn ru sw) from segundo (tl es fr), largest 4/3
+email	pass, borderline	pass	16/6	imeyilu	imeyilu	was 12/5 on four judgment columns; Tagalog, Hausa sourced; Turkish, Spanish, Swahili count as everyday loans beside a native word (rivals under 5x); short form mail fails (8)
+photo	fail	fail	9/5	foto	native root	unchanged count; Tamil spoken photo sourced, Quechua dropped; Bengali ছবি (general 'picture') not treated as a rival
+degree (°)	fail	fail	5/3	diguli	native root	was 6/3; Hausa digiri is the academic degree only
+battery	pass	pass	17/6	batali	batali	was 17/7; Turkish batarya added, Quechua dropped; no rival reaches 5x
+euro	pass	pass	16/6	yulo	yulo	was 19/7; Tamil, Hausa, Quechua unattested; Swahili sourced
+yuan	pass	pass	14/6	yuwan	yuwan	was 18/7 (9 memory columns); id tr tl ha sw sourced, no single column decides; bn ta yo qu unattested
+rupee	pass	pass	16/6	lupi	lupiya	was 19/7; ha yo qu unattested, vi sourced; word-end median ties rupi 8 / rupija 8, regions 4 / 5 give [rupija]; rests on reading the glide y out of the shape rule (literally lupi and lupiya are two shapes, 8 each, and rupee fails)
+police	borderline	fail	11/5	polisu	native root	Arabic بوليس fails the rival rule (شرطة 48x); Quechua policía (2 tokens) would be a thin 12th vote
+camera	pass	pass	16/6	kamela	kamela	was 14/7; vi camera, tr kamera, fr caméra added as everyday loans; Quechua dropped

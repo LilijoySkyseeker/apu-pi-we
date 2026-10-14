@@ -2965,3 +2965,23 @@ Median: a final vowel in 8 of 11 (a: tl ar tr es qu), with a palatal l (ʎ, lj) 
 
 **12/20 (14 lenient); regions 6 (no SSA) → pass, borderline.** Median [maska] → *masuka*.
 Median: a final vowel in 8 of 12, a (ru tl es qu) the plurality; -ra after it ties 4/4 with no ending.
+
+## Older loans re-run (2026-10-13)
+
+The 14 loans in `data/lexicon.tsv` that no 2026-10-13 decision had settled (the metric set and kilo are decided; the seven phrase replacements and percent left the lexicon) were re-run under the rules above: everyday loans beside a formal word count with a source; memory columns count only once sourced, with no Quechua assumption; the five-times rival rule; thin deciding columns fail; median ties by regions, then length; shared short forms tested. Per-column judgments: `loanwork/older.txt`; sources for memory columns: `loanwork/verified.tsv`; results: `loans-rerun.tsv`.
+
+| Loan | Before (lexicon-ladder-01) | Now | Form |
+|---|---|---|---|
+| email | pass, borderline, 12/5 | **pass, 16/6** | *imeyilu* (unchanged) |
+| police | borderline, 11 strict | **fail, 11/5** | *polisu* → native root |
+| rupee | pass, 19/7 | pass, 16/6 | ***lupi* → *lupiya*** |
+| dollar, internet, battery, euro, yuan, camera | pass | pass (14–19, 6–7 regions) | unchanged |
+| hour, minute, second, degree, photo | fail | fail (4–9) | native roots, as before |
+
+- **email** no longer rests on judgment: Tagalog and Hausa are now sourced, and Turkish (*e-mail*/*mail* as often as *e-posta*), Spanish (*email* forms at a third of *correo*, which also means post) and Swahili (*email* about as often as *barua pepe*) count as everyday loans. The short form *mail* reaches 8 languages and fails, so *imeyilu* stays.
+- **police** fails by one. Arabic *būlīs* is 1/48 as frequent as *šurṭa* in the subtitles, so it fails the rival rule. Quechua *policía* (2 Leipzig tokens) would be a thin 12th vote. Tamil *pōlīs* counts (more frequent than *kāval*).
+- **rupee:** the end of the word ties. Eight languages use the English shape [rupi] (zh ja ko vi th id tr fr), in 4 regions. Eight use the Hindi/Portuguese shape [rupija] (tl hi ta fa ar ru es sw), in 5 regions. The region rule gives [rupija] → *lupiya*. Before, Hausa, Yoruba and Vietnamese *rupi* were counted from memory; now only Vietnamese is sourced, and one sourced Hausa or Yoruba *rupi* would restore *lupi*. **Open for the author:** *lupi* and *lupiya* differ only by the glide y, and y is a consonant (language.md 2.2). Read literally, the shape rule makes them two forms of 8 each, and rupee fails. Here the glide is read out of the comparison, because most glides in adapted loans come from vowels (*piyano*, *ladiyo*). The coverage panel never had to decide this.
+- **How the shape rule was applied:** shapes are the source's forms (rupee / rupiya, second / segundo, hour / hora). A borrowing language's own sound changes don't make a new shape. Japanese *doru*, Thai *dɔnlaa* and Arabic *rūbiyya* stay with their source, just as the coverage panel counted Japanese *gitā* with guitar and *konpyūtā* with computer, and as the dollar decision counted *dola* with *dolar*. Applied to each language's adaptation instead, dollar (*dola* vs *dolalu*) and internet (*intanetu* vs *intelunetu*) would split, which no earlier verdict did.
+- **Five-times rule with broad rivals:** it was applied only where the rival names the same concept. Where the rival is a broader word (*thư* "letter", *почта* "post", *mạng* "network", *mtandao* "network", Bengali *chhabi* "picture"), its frequency can't be separated, so the column stays as Wiktionary lists it. Wherever a specific compound could be counted (*электронная почта*, *البريد الإلكتروني*), it stayed under 5x.
+- **Counts that moved without changing a verdict:** yuan rested on 9 memory columns; Indonesian (KBBI), Turkish, Tagalog, Hausa and Swahili are now sourced, giving 14/6. Hausa "yuan" in Leipzig is mostly names, with about 5 currency sentences. Euro 16/6, camera 16/6 (Vietnamese *camera*, Turkish *kamera* and French *caméra* added), internet 17/7 (Tamil out; Hausa *intanet* in, at 4.9x its rival), battery 17/6 (Turkish *batarya* in). Every passing form except rupee reproduces from the new medians.
+- **The failures stay failures.** Under the shape rule, hour (hora 3, hour 1) and second (second 4, segundo 3) fall further. Hausa *digiri* is only the academic degree. Tamil spoken *photo* is sourced (photo 9/5), but that isn't enough. hour, minute, second, degree and photo are still loans in the lexicon, waiting for their native roots in the coverage batch.
