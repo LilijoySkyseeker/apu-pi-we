@@ -8,3 +8,5 @@ Stages (run by the main session, each stage started when the previous reports):
 3. Back-translate texts 21–36, one cold agent per size (`prompts/back2-base.md` pattern; outputs into part2b/back-N/).
 4. Score texts 21–36 (`prompts/score2-a.md` pattern, two agents); append to part2b/scores-c.tsv / scores-d.tsv.
 5. Report in RESULTS.md: the curve per panel region (all 36 texts), and the list of concepts the new texts needed that the root lists lack or rank low (from the translators' notes and the scorers' "lost" notes).
+
+6. Non-European checklist comparison (author, 2026-10-13): Wordbank's non-European checklists (Kiswahili, Kigiriama, Mandarin, Cantonese, Korean, Persian, Turkish, Hebrew; also Arabic if usable) against the European ones: list everyday concepts on the non-European lists that the European ones lack or rarely have, and check each against the root lists. Data: ~/work/cache/coverage/wordbank/*.csv (uni_lemma, category, definition, gloss). One agent; output part3/wordbank-nonwestern.tsv and a short note in RESULTS.md. Independent of stages 1–5: start it with stage 1.

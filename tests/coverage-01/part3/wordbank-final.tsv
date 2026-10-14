@@ -1,0 +1,236 @@
+n	concept	final	reason
+1	duck	keep	domestic and wild ducks in every macroarea
+2	mouse	keep	found with people everywhere; also the computer mouse by a widespread metaphor
+3	sheep	keep	kept in every inhabited macroarea today
+4	bicycle	keep	in everyday use in every region today; compounds.tsv has siwa pi pifo, which the ladder chose to replace with a root (rung 2.3)
+5	doll	keep	dolls and figurines are found across cultures
+6	ball	keep	balls and ball games are found across cultures
+7	ice cream	keep	frequent on its own (rank 1590); frequency decides
+8	cake	keep	frequent on its own (rank 941); frequency decides
+9	soup	keep	liquid cooked food exists in nearly every cuisine; loan panel failed, so a native root. Consistency flag: grain porridge (199) is as widespread, but the author listed it as culture-bound
+10	apple	keep	grown on every continent and sold in most markets today
+11	chocolate	loan	the test alone would say culture-bound (a confection)
+12	hat	keep	headwear is found across cultures
+13	shoe	keep	footwear is found across cultures
+14	sock	keep	unsure: in hot climates many people wear sandals without socks
+15	kitchen	keep	a cooking place is universal; compounds.tsv derives pu siten, which the ladder chose to replace with a root (rung 2.3)
+16	window	keep	
+17	chair	keep	common in households everywhere today; traditionally floor-sitting in parts of Asia
+18	spoon	keep	
+19	bottle	keep	
+20	knife	keep	CLICS4 coverage 0.510 just clears the 0.5 bar
+21	soap	keep	in households in every region today
+22	pillow	keep	headrests and pillows are found across cultures
+23	doctor	loan	the test alone would say keep (a role found in every region)
+24	grandmother	duplicate	kinship is composed (method 3.1); the ladder notes a root comes back if tests lose meaning
+25	monkey	keep	native in 5 of 6 macroareas (Africa, South and Southeast Asia, western Papunesia, Central and South America). Unsure: not in everyday surroundings in most of Eurasia or North America
+26	elephant	keep	frequent on its own (rank 763); frequency decides
+27	butterfly	keep	
+28	lion	keep	frequent on its own (rank 635); frequency decides
+29	frog	keep	found in every macroarea; compounds.tsv has a 9-syllable phrase, which the ladder chose to replace with a root
+30	train	keep	railways run in most countries, and ladder 2 rung 3 names trains as a baseline concept. Unsure: not in ordinary surroundings in much of Africa and Papunesia
+31	truck	keep	
+32	airplane	keep	aircraft are seen in every region
+33	orange	keep	citrus is grown and sold widely; orange the colour (197) merges here
+34	banana	keep	a tropical staple and global commodity; loan panel failed, so a native root
+35	trousers	keep	
+36	table	keep	
+37	blanket	keep	
+38	uncle	duplicate	parent's sibling, composed (method 3.1)
+39	grandfather	duplicate	kinship composed (method 3.1)
+40	baby	keep	criterion 3 read to include people and roles found everywhere (the test names things, foods, animals and places only)
+41	jump	keep	
+42	cat	keep	
+43	tiger	keep	frequent on its own (rank 1081); frequency decides
+44	giraffe	borrow/phrase	region-bound species (Africa only); the loan panel failed it, so a phrase or a borrowing from an African language under the culture rule. Same doubt as elephant
+45	motorcycle	loan	short form moto; the test alone would say keep
+46	potato	keep	
+47	coat	keep	jacket (115) merges here. Unsure: outer garments are little worn in hot climates
+48	cheek	keep	
+49	bathroom	keep	unsure: a place to wash is universal, a separate room for it less so
+50	television	loan	the test alone would say keep
+51	scissors	keep	
+52	medicine	keep	
+53	towel	keep	
+54	aunt	duplicate	parent's sibling, composed (method 3.1)
+55	dance	keep	
+56	bee	keep	
+57	pig	keep	
+58	bear	keep	borderline: Eurasia, North America, the Andes, Borneo and Sumatra (4 of 6 macroareas if those islands count as Papunesia); none in Africa or Australia. Unsure
+59	rabbit	keep	rabbits and hares on every continent (introduced in Australia)
+60	balloon	keep	unsure: sold for celebrations in most regions today, but it is a party and childhood item and could be read as culture-bound
+61	bucket	keep	named in the test as an example
+62	juice	keep	
+63	cheese	keep	frequent on its own (rank 779); frequency decides
+64	coffee	loan	the test alone would say keep
+65	carrot	keep	
+66	diaper	borrow/phrase	tied to some cultures' childcare (cloth, disposable or none); same class as bib and potty in the test. Unsure: disposables are sold in most countries today
+67	sweater	loan	the test alone would say culture-bound (a cold-climate garment)
+68	pajamas	loan	the test alone would say culture-bound (sleepwear of some cultures)
+69	chin	keep	
+70	fridge	keep	a modern appliance, not tied to one culture. Unsure: few households own one in much of Africa and South Asia
+71	stairs	keep	named in the test as an example
+72	radio	loan	the test alone would say keep
+73	glasses	keep	spectacles
+74	fork	keep	unsure: many households in Asia and Africa eat by hand or with chopsticks, though forks are common in most regions today
+75	hammer	keep	
+76	shop	keep	
+77	school	keep	
+78	swing	keep	swinging is a basic motion and rope swings are traditional in many cultures (South and Southeast Asia, Korea). Unsure about the playground object
+79	boy	built	gender is a modifier (language.md 5.2): tiwu lowu; author 2026-10-13
+80	helicopter	loan	the test alone: unsure (seen in every region, in no household)
+81	tractor	loan	the test alone would say keep (farm machine in every region)
+82	yogurt	borrow/phrase	tied to dairying cultures, as cheese (63); Chinese says suānnǎi "sour milk"; the loan panel failed it, so a phrase. Unsure: sold widely today
+83	candy	keep	sweets are found in every region; lollipop (221) merges here. Unsure: the test names lollipop as culture-bound, but generic sweets are not tied to one culture
+84	jam	borrow/phrase	a fruit preserve of some breakfast cuisines
+85	underwear	keep	
+86	scarf	keep	head and neck cloths are worn in most cultures
+87	dress	keep	
+88	shirt	keep	
+89	sofa	borrow/phrase	upholstered seating of some home styles; many households sit on mats, benches or chairs; the loan panel failed it. Unsure: common in urban homes worldwide
+90	toothbrush	duplicate	
+91	plate	keep	
+92	park	keep	unsure: public parks are a town institution, found in every region's towns but not in rural surroundings; the loan panel failed it, so a native root if kept
+93	church	tradition	each tradition's own word (religion decision, author 2026-10-13)
+94	slide	keep	the sliding motion (ladder split 94.b). The Wordbank item is mostly the playground slide (object 26 lists, action 13), which is culture-bound and can be a phrase built on the motion. Unsure
+95	teacher	keep	criterion 3 read to include roles found everywhere; compounds.tsv derives no tofo, which the ladder chose to replace with a root
+96	turtle	keep	found in every macroarea; the compound "slow animal" is not exact
+97	toy	keep	
+98	bean	keep	named in the test as an example
+99	slipper	keep	unsure: house slippers belong to cultures that change shoes indoors, but in Indian and West African English slippers are flip-flops, worn everywhere
+100	picture	keep	images and drawings are universal; foto is a photograph only
+101	wolf	keep	frequent on its own (rank 1025); frequency decides
+102	butter	keep	frequent on its own (rank 1306); frequency decides
+103	pasta	borrow/phrase	an Italian dish; noodles would be the shared concept; the loan panel failed it
+104	washing machine	built	appliance, not frequent: built-word default for modern things
+105	lamp	loan	the test alone would say keep
+106	brush	keep	toothbrush (90) merges here
+107	girl	built	gender is a modifier: tiwu futa; author 2026-10-13
+108	draw	keep	make a picture
+109	kick	keep	
+110	kiss	keep	
+111	penguin	loan	the test alone would say culture-bound (region-bound species)
+112	pea	keep	
+113	tomato	loan	the test alone would say keep
+114	nut	keep	
+115	jacket	duplicate	
+116	comb	keep	
+117	zoo	borrow/phrase	a town institution, not in ordinary surroundings across most cultures; Japanese and Indonesian use native compounds ("animal garden", "animal park"), so a phrase works. Unsure
+118	workplace	duplicate	place for working (derived word)
+119	donkey	keep	kept across Africa, Eurasia and Latin America
+120	zebra	borrow/phrase	region-bound species (Africa only); the loan panel failed it. Same doubt as elephant
+121	grape	keep	grown on every continent and sold widely; raisin (184) is covered as "dry grape"
+122	garden	keep	
+123	strawberry	keep	unsure: grown commercially on most continents and a common flavour, but a temperate fruit that many households rarely see
+124	tea	loan	the test alone would say keep
+125	shower	keep	unsure: common in homes in most regions today, while bucket bathing is usual in much of South Asia and Africa
+126	vacuum cleaner	built	appliance, not frequent: built-word default for modern things
+127	potty	duplicate	the test also names it as culture-bound
+128	tickle	keep	
+129	paint	keep	the action; CLICS4 also has the pigment
+130	broom	keep	named in the test as an example
+131	pool	duplicate	place for swimming (derived word)
+132	owl	keep	
+133	squirrel	keep	Africa, Eurasia, the Americas and western Papunesia; not Australia
+134	block	keep	frequent on its own (rank 1000); frequency decides
+135	gift	keep	gift-giving is universal
+136	chips	borrow/phrase	fries or crisps, dishes of some cuisines
+137	bib	borrow/phrase	named in the test as an example
+138	garage	loan	the test alone: unsure (a car shelter is not in most households; a repair garage is found everywhere)
+139	sink	keep	unsure: piped water at home is missing in many rural households, though a basin is universal
+140	snowman	duplicate	the test also names it as culture-bound (climate)
+141	forest	keep	
+142	beach	keep	a shore of sea, lake or river is found everywhere
+143	drive	keep	drive a vehicle (also drive animals). Unsure whether driving counts as basic
+144	hug	keep	
+145	catch	keep	
+146	spade	keep	shovel
+147	puzzle	borrow/phrase	the jigsaw toy; some languages borrow (pazl, pazuru), others build (rompecabezas, pīntú). Unsure: puzzle as riddle is universal, but the Wordbank item is the toy
+148	pancake	borrow/phrase	named in the test as an example. Unsure: flat cakes are widespread (crêpe, dosa, injera, jianbing), so "flat cake" is an easy phrase
+149	cookie	loan	biscuit; the test alone would say culture-bound (a baked confection). Unsure
+150	shorts	keep	worn in every region today; the loan panel failed it, so a native root
+151	tights	borrow/phrase	a cold-climate garment of some cultures
+152	belt	keep	
+153	living room	keep	unsure: a main room for sitting and receiving guests exists in most house styles (sala, gostinaya, ima, kètīng, majlis), but one-room homes have none
+154	flag	keep	every state has one today. Unsure: tied to institutions
+155	cover	keep	cover, lid
+156	feed	duplicate	give food
+157	bring	keep	come carrying
+158	goose	keep	domestic geese across Eurasia and Africa, wild geese in the Americas and Australia. Unsure
+159	glove	keep	unsure: winter gloves are climate-bound, but work, cleaning and medical gloves are used in every region
+160	bowl	keep	
+161	drawer	keep	unsure: furniture with drawers is in homes in most regions today, but "box in a table" works as a phrase
+162	thirst	keep	a state; matches hungry
+163	skirt	keep	
+164	stroller	borrow/phrase	named in the test as an example
+165	oven	keep	unsure: few kitchens in East and South Asia or Africa have one, but baking ovens (tandoor, tabun, earth ovens) are found across cultures, and CLICS4 names it in all 6 macroareas
+166	party	keep	the celebration sense (ladder split; the political sense 166.b failed the loan panel and is not a Wordbank item). Unsure: the test names no events, but feasts are universal; adult rank 177 is mostly the political sense
+167	crocodile	keep	crocodilians (crocodiles, alligators, caimans) are native in all 6 macroareas. Unsure: part of everyday surroundings only in the tropics
+168	stick	duplicate	long wood
+169	sandwich	loan	the test alone would say culture-bound (a dish)
+170	necklace	keep	
+171	ladder	keep	
+172	clown	borrow/phrase	a circus entertainer of some cultures. Unsure: ritual clowns exist in many cultures
+173	lick	keep	named in the test as an example
+174	pear	keep	unsure: a temperate fruit, grown across Eurasia, the Americas, southern Africa and Australia; Asian pears in East Asia
+175	sausage	borrow/phrase	a prepared meat dish of some cuisines. Unsure: widespread (Europe, Middle East, China, Latin America, southern Africa)
+176	pizza	loan	the test alone would say culture-bound (a dish)
+177	zipper	keep	on clothes and bags in every region today
+178	hurry	keep	
+179	deer	keep	Eurasia, the Americas and Papunesia (native or introduced); North Africa only
+180	tissue	keep	frequent on its own (rank 1467); frequency decides
+181	stove	keep	a cooking stove or hearth is universal; oven (165) is separate
+182	wipe	keep	named in the test as an example
+183	pen	keep	
+184	raisin	duplicate	dry grape, as pútáogān, kuru üzüm
+185	bathtub	borrow/phrase	tub bathing belongs to some cultures (Japan, Europe, North America); most of the world showers or bathes with a bucket
+186	wardrobe	keep	the Wordbank item is closet. Unsure: a cupboard for clothes (almirah, closet) is in homes in most regions today
+187	glue	keep	
+188	playground	duplicate	place for playing (derived word)
+189	pour	keep	
+190	sweep	keep	named in the test as an example
+191	repair	keep	fix
+192	clap	keep	
+193	pleasant	keep	nice; narrower than good. Unsure whether a quality counts as a state
+194	brown	duplicate	dark yellow; six colour roots (method 3.1)
+195	boot	keep	unsure: rubber and work boots are used everywhere; winter boots are climate-bound
+196	cute	keep	unsure: the test names no qualities; not tied to one culture
+197	orange (colour)	duplicate	
+198	fire truck	duplicate	the test also names it as culture-bound (institution)
+199	porridge	keep	household food across cultures (congee, ugali, atole); author 2026-10-13
+200	sauce	loan	the test alone would say keep (sauces in every cuisine)
+201	cucumber	keep	grown and sold in every region
+202	chewing gum	borrow/phrase	a commercial confection of some cultures; chewing resins (mastic, chicle) and betel are regional. Unsure: sold widely today
+203	sugar	loan	the test alone would say keep
+204	bedroom	duplicate	place for sleeping
+205	pot	keep	named in the test as an example
+206	tear	keep	the Wordbank item is tear as rip (an action word); the ladder split teardrop (2, body) and rip (206.b, 1); CLICS4 TEAR (OF EYE) cov 0.331 as well
+207	naughty	keep	unsure: a quality of behaviour, not tied to one culture, but the test names no qualities, and "bad" covers much of it
+208	sleepy	duplicate	want to sleep, as tener sueño; the test names sleepy as a basic state, so a root would pass if the phrase proves costly
+209	melon	keep	melons are grown across Africa, Asia and the Americas
+210	spill	keep	
+211	watermelon	keep	African in origin, grown across the tropics and temperate zones
+212	soda	keep	soft drinks are sold in every region today; the loan panel failed it, so a native root. Unsure: a commercial product, and "sweet fizzy drink" works as a phrase
+213	spider	keep	CLICS4 coverage 0.508 just clears the 0.5 bar; compounds.tsv has a 9-syllable phrase, which the ladder chose to replace with a root
+214	pacifier	borrow/phrase	named in the test as an example
+215	mirror	keep	
+216	firefighter	duplicate	one who fights fire
+217	smile	keep	
+218	last	keep	last, final. Unsure: the test names no abstract concepts; read as a basic state (being final); not culture-bound in any sense
+219	crayon	borrow/phrase	named in the test as an example
+220	maize	keep	named in the test as an example
+221	lollipop	duplicate	the test also names it as culture-bound
+222	film	keep	films are watched in every region today; the loan panel failed it, so a native root. Unsure: the test names no works, only things
+223	fox	keep	Africa, Eurasia, North America, the South American zorros, introduced in Australia
+224	bun	duplicate	small bread
+225	toast	loan	toasted bread; the test alone would say culture-bound (a dish)
+226	balcony	loan	the test alone: unsure (common in town buildings everywhere)
+227	carpet	keep	mats and rugs are universal; CLICS4 MAT cov 0.303 as well
+228	gas station	keep	unsure: fuel stations are in every region today, but this could be a derived place word (pu + fuel, as pool and playground), and the test names fire truck (an institution) as culture-bound
+229	yard	keep	courtyard
+230	knock	keep	
+231	ride	keep	ride a horse, bicycle or vehicle
+232	bubble	keep	a physical thing found everywhere (CLICS4 FOAM is the nearest concept)
+233	circus	loan	the test alone would say culture-bound (an institution of some cultures)
+234	T-shirt	loan	the test alone would say keep (worn in every region)
+235	hose	keep	unsure: flexible water and gas pipes are used in every region, but the garden hose is a suburban item
