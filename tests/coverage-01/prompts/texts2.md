@@ -1,0 +1,7 @@
+Task: collect 16 more short everyday texts for Apupiwe's coverage measurement, to balance the regions. The first 20 (in tests/coverage-01/texts/, see texts/LOG.md) are European-heavy: 11 are Spanish, French, Russian, Portuguese or English.
+
+Same format, licences and rules as the first collection (read texts/LOG.md and two existing files for the format). Save as tests/coverage-01/texts/NN-kind-lang.md with NN = 21–36, logging each in texts/LOG.md.
+
+Required originals, one text each unless noted: Korean, Vietnamese, Thai, Tagalog, Bengali, Tamil, Persian, Hausa, Yoruba, Quechua (or Aymara or Guaraní if no Quechua text can be found), Mandarin (2), Hindi, Arabic, Indonesian, and one more from Africa (Amharic, Zulu, Igbo or Somali). Mix of kinds across them: talk, chat, news, howto (about 4 each). 80–150 words. Real texts only, openly licensed (Global Voices in many languages, Wikinews, Wikibooks, Wikimedia talk pages, Tatoeba, government or WHO pages, VOA services); give the English: a published translation if one exists, otherwise translate faithfully and mark it. Prefer everyday topics typical of the region (markets, family, farming, local food, transport, weather, health, money, religion, festivals), since the point is to find everyday concepts a European-heavy sample misses.
+
+Resumable: list texts/ first and continue with numbers not yet saved. Do the work yourself, no background helpers. When done, reply with the list (kind, language, topic, words).
