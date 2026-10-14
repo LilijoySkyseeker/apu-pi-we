@@ -15,3 +15,11 @@
 3. **Closest pairs by the confusion model** (no merger needed): **fa** (none) ~ **sa** (2) in the number slot (0.123, the review's first item), **fa** ~ **ka** (3), **ke** (more) ~ **fe** (also).
 4. **Two-syllable operators that begin with a grammar word of the same position:** **wanme** (wan), **inwun** (in), **wemen** (we), **konsin** (kon), **mesun** (me), **manni** (man), **buni** (bu), **mena** (me).
 5. **Vowel-only grammar words** (**a, o, en, in, un**) cause most of the glide problems; the review's designer A8 proposed that every grammar word have a consonant onset.
+
+## Inventory for the rebuild (author, 2026-10-13)
+
+The rebuild places these grammar words (data/grammar.tsv) plus:
+- **added: MODMOD**, "the next word describes the previous modifier" (class: noun-phrase modifier position, after a content modifier): **demi wiwi** MODMOD **buda** "a dark-red cloth"; without it, every stacked modifier describes the noun (**demi wiwi buda** "a red, dark cloth"). Reference 5.1 gets the rule when the form exists.
+- **kept, re-formed with a consonant onset: YOUKNOW (a)** "you see, as you know".
+- **kept: EXCLAIM (ba)**, restored; every speech-act word's source is in rationale 4.3.
+- Not changed by the inventory review: the other grammar words. Still open before the rebuild runs: the translators' grammar gaps (relation words inside a noun phrase; a derived word swallowing a following modifier; names containing a grammar word), which are rules rather than words unless the author decides otherwise.
