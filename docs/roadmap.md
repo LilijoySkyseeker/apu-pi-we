@@ -75,11 +75,13 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 - `tools/check.py` doesn't read plain `.txt` files (it only reads code blocks and bold); add a plain-text mode.
 - RB1 leftovers: residual UDHR readings (Art 25.2, 26.2); the guide's root count; grammar function name `LabelNP` → `LabelQ`.
 
-### Before the batch is pushed
+### Website: frozen at v1 (author, 2026-10-13)
+
+The published site stays at v1 until the language is solid; then a v2 site is built from first principles, keeping v1's spirit. Work is committed on the branch `v2-work` and pushed there as a backup; `main` (which the site builds from) isn't touched until v2. The repo's reference and lessons stay in sync meanwhile. Known false statements on v1 are left as they are (no one is reading it yet) and are fixed in v2:
 
 - Public-page fixes deferred during the batch: the Esperanto/creole sentence in "How it's built" (fact-check C15, C17, C18); `why.md` digit figures (0.26% / 2.3% describe a modelled ideal set); learn.md "ran out of short sounds"; clusivity "among the most stable" (Austronesian only).
 - Re-check the UDHR translation against the batch's rules.
-- Rebuild the site and check it.
+- Build v2 of the site from first principles.
 
 ## Later
 
