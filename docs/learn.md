@@ -396,7 +396,7 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 | **du** + verb | the thing used for it | **du nawi** something to eat with |
 | **pu** + verb | the place for it | **pu wopo** bedroom ("place for sleeping") |
 
-The base can be a whole verb phrase: **no isi se guyi** "traveller" ("one who goes from home"). It runs to the end of its phrase, so put a comma before a verb that follows it. [§5.4.4](language.md#r-5-4-4)
+The base can be a whole verb phrase: **no isi se guyi** "traveller" ("one who goes from home"). It runs to the end of its phrase, so put a comma, or **kiyo**, before a verb or describing word that follows it: **du siten mawun kiyo tikun** "a hot pan". [§5.4.4](language.md#r-5-4-4)
 
 For the person an action is done to, there's **ewo man gun tofo** student ("person who is taught"). To link to a noun, use **pi** or a verb: **pu pi mabo** an office ("place of paper"), **no obu se yaye** an alien ("one who comes from the sky"). [§5.4.5](language.md#r-5-4-5) [§5.4.6](language.md#r-5-4-6)
 

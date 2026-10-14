@@ -184,3 +184,32 @@ def modmod():
 
 if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == "modmod":
     modmod()
+
+
+# ---- operators that no parsed frame contains (the reference cites them as words): frames from their rules
+OP_FRAMES = {"wanme": ["wanme wan obu", "so wanme wan sin isi"], "inwun": ["inwun wan obu", "inwun to sin nawi"],
+             "wemen": ["wemen wan obu", "kon da wemen wan sin isi"], "buni": ["so pen isi , buni"],
+             "donon": ["wan gun no ibe guyi , donon"]}
+
+
+def operators():
+    G.build()
+    frames = [(o, f) for o, fs in OP_FRAMES.items() for f in fs]
+    base = parse_many([f for _, f in frames], workers=8)
+    assert all(p for p, _ in base), list(zip(frames, base))
+    jobs = [(o, f, b) for o, f in frames for b in SHORT]
+    res = parse_many([" ".join(b if t == o else t for t in f.split()) for o, f, b in jobs], workers=12)
+    fits = collections.Counter()
+    for (o, f, b), (p, full) in zip(jobs, res):
+        fits[o, b] += bool(full)
+    with open(os.path.join(HERE, "operators-extra.tsv"), "w") as fh:
+        fh.write("A\tB\tglossA\tglossB\tcontexts_A\tfits_any\tfits_full\n")
+        for o, fs in OP_FRAMES.items():
+            for b in SHORT:
+                fh.write(f"{o}\t{b}\toperator\t{SHORT[b]}\t{len(fs)}\t{fits[o, b]}\t{fits[o, b]}\n")
+    for o in OP_FRAMES:
+        print(o, [b for b in SHORT if fits[o, b]])
+
+
+if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == "operators":
+    operators()

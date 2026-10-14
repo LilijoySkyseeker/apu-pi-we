@@ -924,7 +924,7 @@ id = "5.4.4"
 type = "bullet"
 gap = 0
 text = '''
-- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".'''
+- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb or describing word: **du siten mawun** "a pan" (a thing for cooking flat), **du siten mawun kiyo tikun** "a hot pan"; without **kiyo**, **tikun** would join the phrase inside. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".'''
 
 [[item]]
 id = "5.4.5"

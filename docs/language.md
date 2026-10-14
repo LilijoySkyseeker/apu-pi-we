@@ -197,7 +197,7 @@
 | **pu** | the place | **pu niba** "place for walking" = a path |
 
 - <span id="r-5-4-3"></span>A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word itself if its base has no noun: **du kuwi pi to** "my thing for keeping".
-- <span id="r-5-4-4"></span>The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".
+- <span id="r-5-4-4"></span>The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb or describing word: **du siten mawun** "a pan" (a thing for cooking flat), **du siten mawun kiyo tikun** "a hot pan"; without **kiyo**, **tikun** would join the phrase inside. It also ends before a name (**en** …) or a gender word (**futa**, **lowu**), so **no tofo en mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".
 - <span id="r-5-4-5"></span>A person something is done to is **ewo man gun** + verb: **ewo man gun tofo** "a student".
 - <span id="r-5-4-6"></span>A noun base is linked with **pi** or a verb: **pu pi mabo** "an office", **no obu se yaye** "an alien".
 - <span id="r-5-4-7"></span>For opposites, **mu** + word means "not X" (**mu upe** "not good"), and a separate opposite root names the other pole (**yomo** "bad").

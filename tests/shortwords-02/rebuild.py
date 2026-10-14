@@ -109,8 +109,10 @@ def load_substitution():
     gf = np.zeros((N, N), bool)
     ops = collections.defaultdict(set)
     fits, ctx = collections.Counter(), collections.Counter()
-    if os.path.exists(path):
-        for r in read(path):
+    extra = os.path.join(HERE, "operators-extra.tsv")   # positions.py operators: frames for operators the corpus lacks
+    rows = (read(path) if os.path.exists(path) else []) + (read(extra) if os.path.exists(extra) else [])
+    if rows:
+        for r in rows:
             b = r["glossB"]
             if b not in GI:
                 continue
@@ -353,19 +355,31 @@ def violations(assign):
 PEN = {"hard": (0.05, 0.004, 0.02), "c3": (0.002, 0.004, 0.02)}  # offensive, one-feature, operator
 
 
+OLD_SYL = np.array([IDX[w["old"]] if w["old"] else -1 for w in WORDS])
+KEEP = [0.0]    # penalty per existing word whose form changes (the keep sweep; 0 = a plain full rebuild)
+
+
 def anneal(start, free, steps, seed, pen, T0=0.02):
     """Simulated annealing over the words in `free` (indices), others fixed. start must satisfy the hard rules
     for fixed words; free words are repaired first."""
     rng = random.Random(seed)
     a = start.copy()
-    for i in free:   # repair: give each free word a legal syllable
-        if not hard_ok(a, i, a[i]):
-            opts = [s for s in range(NS) if hard_ok(a, i, s)]
-            a[i] = rng.choice(opts)
+    if any(not hard_ok(a, i, a[i]) for i in free):   # build a legal start: place free words one by one
+        for _ in range(200):
+            a[list(free)] = -1
+            order = sorted(free, key=lambda i: (-SHARED[i].sum(), rng.random()))
+            for i in order:
+                opts = [s for s in range(NS) if hard_ok(a, i, s)]
+                if not opts:
+                    break
+                a[i] = rng.choice(opts)
+            if (a >= 0).all():
+                break
+        assert (a >= 0).all(), "no legal start found"
     conf, junc = totals(a)
 
     def objective(conf, junc, a):
-        return cvar(conf + junc) + penalties(a, *pen)[0]
+        return cvar(conf + junc) + penalties(a, *pen)[0] + KEEP[0] * ((a != OLD_SYL) & (OLD_SYL >= 0)).sum()
 
     cur = objective(conf, junc, a)
     best, best_a = cur, a.copy()
@@ -437,19 +451,20 @@ def full(argv):
     steps = int(arg(argv, "--steps", 60000))
     seeds = int(arg(argv, "--seeds", 6))
     mode = arg(argv, "--offensive", "hard")
+    KEEP[0] = float(arg(argv, "--keep", 0.0))
     out = arg(argv, "--out", f"full-{mode}.tsv")
     rng = random.Random(1)
     results = []
     seed0 = int(arg(argv, "--seed0", 0))
     for seed in range(seed0, seed0 + seeds):
-        start = random_layer(random.Random(seed))
+        start = read_layer(arg(argv, "--start", "")) if "--start" in argv else random_layer(random.Random(seed))
         a, obj = anneal(start, range(N), steps, seed, PEN[mode])
         sc = cvar(sum(totals(a)))
-        print(f"seed {seed}: objective {obj:.4f}  robust score {sc:.4f}  penalties {penalties(a, *PEN[mode])[1]}  "
+        print(f"seed {seed}: changed {int(((a != OLD_SYL) & (OLD_SYL >= 0)).sum())}  objective {obj:.4f}  robust score {sc:.4f}  penalties {penalties(a, *PEN[mode])[1]}  "
               f"violations {len(violations(a))}", flush=True)
         results.append((obj, seed, a))
     obj, seed, a = min(results, key=lambda r: r[0])
-    write_layer(out, a, f"full rebuild, offensive={mode}, best of {seeds} seeds (seed {seed}), {steps} steps, objective {obj:.4f}")
+    write_layer(out, a, f"full rebuild, offensive={mode}, keep={KEEP[0]}, best of {seeds} seeds (seed {seed}), {steps} steps, objective {obj:.4f}")
     print(f"wrote {out}")
 
 
@@ -458,7 +473,7 @@ def merger_edges(a):
     return [(i, j) for i, j in itertools.combinations(range(N), 2) if SHARED[i, j] and MERGE[a[i], a[j]]]
 
 
-def min_covers(edges, forced, limit=200000):
+def min_covers(edges, forced, keep=frozenset(), limit=200000):
     """All minimum vertex covers of the merger graph that contain `forced` (branch on an uncovered edge)."""
     best = [None]; out = []
 
@@ -471,7 +486,8 @@ def min_covers(edges, forced, limit=200000):
                 best[0] = len(cover); out.clear()
             out.append(frozenset(cover)); return
         for v in e:
-            rec(cover | {v}, k + 1)
+            if v not in keep:
+                rec(cover | {v}, k + 1)
 
     rec(frozenset(forced), 0)
     return sorted(set(out), key=lambda c: sum(FREQ[list(c)]))
@@ -482,13 +498,16 @@ def patch(argv):
     steps = int(arg(argv, "--steps", 6000))
     pen = PEN[arg(argv, "--offensive", "hard")]
     out = arg(argv, "--out", "patch.tsv" if rule3 else "patch-no-rule3.tsv")
+    if "--keep-words" in argv and "--out" not in argv:
+        out = "patch-keep-pi.tsv"
     a0 = np.array([IDX[w["old"]] if w["old"] else -1 for w in WORDS])
     a0[GI["MODMOD"]] = IDX["fan"]          # placeholder, re-formed below
     forced = {GI["MODMOD"], GI["YOUKNOW"]}
     if rule3:
         forced |= {i for i in range(N) if WORDS[i]["old"] and not HAS_ONSET[IDX[WORDS[i]["old"]]]}
     edges = [(i, j) for i, j in merger_edges(a0) if GI["MODMOD"] not in (i, j)]
-    covers = min_covers(edges, forced)
+    keep = frozenset(GI[g] for g in arg(argv, "--keep-words", "").split(",") if g)
+    covers = min_covers(edges, forced, keep)
     print(f"{len(edges)} merger pairs; minimum change set {len(covers[0])} words; {len(covers)} such sets", flush=True)
     results = []
     for k, cov in enumerate(covers[:40]):
@@ -552,8 +571,9 @@ def digit_clash(a):
 
 def report(argv):
     layers = {"old": old_assign()}
-    for name, f in (("full", "full-hard.tsv"), ("full-c3", "full-c3.tsv"), ("patch", "patch.tsv"),
-                    ("patch-no-rule3", "patch-no-rule3.tsv")):
+    for name, f in (("full", "full-hard.tsv"), ("full-c3", "full-c3.tsv"), ("mid-26", "mid-26.tsv"),
+                    ("mid-18", "mid-18.tsv"), ("patch", "patch.tsv"), ("patch-no-rule3", "patch-no-rule3.tsv"),
+                    ("patch-keep-pi", "patch-keep-pi.tsv")):
         if os.path.exists(os.path.join(HERE, f)):
             layers[name] = read_layer(f)
     out = []
@@ -643,6 +663,38 @@ def report(argv):
     print("\n".join(out))
 
 
+def positions_md(argv):
+    """positions.md: the named position table, the measured substitution relation and the adjacency counts."""
+    fits, ctx = SUBCOUNT
+    f = lambda g: f"{g} **{OLD_FORM[g]}**" if OLD_FORM.get(g) else g
+    out = ["# Position table (generated by `rebuild.py positions`)", "",
+           "## 1. Named positions (reference + formal grammar)", "",
+           "Words in the same row share a position. A word can stand in several rows. Operators are listed for the operator rule only.", "",
+           "| position | source (reference rule; GF category) | short words | two-syllable operators |", "|---|---|---|---|"]
+    for name, src, ws, ops in POSITIONS:
+        out.append(f"| {name} | {src} | {', '.join(f(w) for w in ws)} | {', '.join(ops)} |")
+    iu = np.triu_indices(N, 1)
+    out += ["", "## 2. Measured: who can replace whom (GF substitution, `positions.py`)", "",
+            f"In {sum(1 for _ in open(os.path.join(HERE, 'frames.txt'))) - 1} parsed frames (reference examples and UDHR sentences), each short word was replaced by every other "
+            "short word and re-parsed. A pair shares a position if either replaces the other in at least one frame with a full-sentence "
+            f"reading. Result: {GF_SHARED[iu].sum()} of {N * (N - 1) // 2} pairs (MODMOD: frames in `modmod.tsv`). Together with "
+            f"section 1: {SHARED[iu].sum()} pairs. The hard rule (no merger) applies to all of them; the confusion cost weighs each "
+            "pair by its pooled substitution share (how often the swap still parses).", "",
+            "Per word: corpus contexts (frames where it stands), how many of the other 67 words share a position with it, and the words that never do.", "",
+            "| word | contexts | shares with | never shares with |", "|---|---|---|---|"]
+    for i in sorted(range(N), key=lambda i: -SHARED[i].sum()):
+        never = [GL[j] for j in range(N) if j != i and not SHARED[i, j]]
+        out.append(f"| {f(GL[i])} | {ctx.get(GL[i], 0) if GL[i] != 'MODMOD' else str(MODMOD_FRAMES) + ' frames'} | {SHARED[i].sum()} | {', '.join(never) if len(never) < 40 else str(len(never)) + ' words'} |")
+    out += ["", "Operators: short words that can stand where each operator stands (GF substitution plus section 1).", ""]
+    for o in OPERATORS:
+        out.append(f"- **{o}** (first syllable **{NAME[OP_FIRST[o]]}**): {len(OP_SHARED.get(o, ()))} words")
+    out += ["", "## 3. Next to each other (corpus bigrams, no pause between)", "",
+            "Short word + short word, counts in the reference examples and the UDHR translation (`adjacency.tsv`, all 219 pairs). Top 40:", ""]
+    out.append(", ".join(f"{f(GL[a])} {f(GL[b])} {int(round(w / ADJ_W.min()))}" for a, b, w in sorted(ADJ, key=lambda x: -x[2])[:40]))
+    open(os.path.join(HERE, "positions.md"), "w").write("\n".join(out) + "\n")
+    print("wrote positions.md")
+
+
 def arg(argv, name, default):
     return argv[argv.index(name) + 1] if name in argv else default
 
@@ -651,6 +703,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "full":
         full(sys.argv[2:])
+    elif cmd == "positions":
+        positions_md(sys.argv[2:])
     elif cmd == "report":
         report(sys.argv[2:])
     elif cmd == "patch":

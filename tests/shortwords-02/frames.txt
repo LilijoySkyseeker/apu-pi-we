@@ -1,4 +1,4 @@
-# 321 frames that parse (of 344: 234 reference sentences, 207 UDHR sentences, UDHR kept if <= 16 tokens)
+# 322 frames that parse (of 345: 235 reference sentences, 207 UDHR sentences, UDHR kept if <= 16 tokens)
 apu pi we
 nen nen
 feko feko
@@ -30,6 +30,7 @@ wo
 ya
 anko
 nuwen
+osa gan tanun tufun
 sola man gun mon bige pi yolan
 to isi mon wuma wo dili fi
 gi yu
