@@ -740,9 +740,9 @@ concrete LexApu of Lex = open Prelude in {
     lunyu_N = {s = "lunyu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lunyu_V = {s = "lunyu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lunyu_A = {s = "lunyu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    lupi_N = {s = "lupi" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    lupi_V = {s = "lupi" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    lupi_A = {s = "lupi" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    lupiya_N = {s = "lupiya" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    lupiya_V = {s = "lupiya" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    lupiya_A = {s = "lupiya" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     luse_N = {s = "luse" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     luse_V = {s = "luse" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     luse_A = {s = "luse" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;

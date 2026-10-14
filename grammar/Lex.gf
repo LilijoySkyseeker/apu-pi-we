@@ -743,9 +743,9 @@ abstract Lex = {
     lunyu_N : N ;  -- page, sheet
     lunyu_V : V ;  -- page, sheet
     lunyu_A : A ;  -- page, sheet
-    lupi_N : N ;  -- rupee
-    lupi_V : V ;  -- rupee
-    lupi_A : A ;  -- rupee
+    lupiya_N : N ;  -- rupee
+    lupiya_V : V ;  -- rupee
+    lupiya_A : A ;  -- rupee
     luse_N : N ;  -- play, for fun
     luse_V : V ;  -- play, for fun
     luse_A : A ;  -- play, for fun

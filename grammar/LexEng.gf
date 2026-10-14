@@ -741,9 +741,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     lunyu_N = D.page_N ;
     lunyu_V = D.page_V ;
     lunyu_A = P.mkA "paging" ;
-    lupi_N = D.rupee_N ;
-    lupi_V = P.mkV "rupee" ;
-    lupi_A = P.mkA "rupee" ;
+    lupiya_N = D.rupee_N ;
+    lupiya_V = P.mkV "rupee" ;
+    lupiya_A = P.mkA "rupee" ;
     luse_N = D.play_N ;
     luse_V = D.play_V ;
     luse_A = P.mkA "playing" ;
