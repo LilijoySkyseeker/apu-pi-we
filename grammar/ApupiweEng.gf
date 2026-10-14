@@ -118,10 +118,10 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     Nun1 = {s = "{politely}"} ; NunNun = {s = "{very politely}"} ;
     MinP = part AQuest [] ; So = part AReq [] ; Tin = part AInstr [] ;
     Fon = part AStmt "{advice}" ; De = part AStmt "{I commit}" ; Yo = part AStmt "{warning}" ;
-    GensoP = part AStmt "{not literally}" ;
+    BaP = part AStmt "{exclaiming}" ; GensoP = part AStmt "{not literally}" ;
     YoYo = part AStmt "{emergency}" ; GensoGenso = part AStmt "{the whole turn not literally}" ;
     ModPart m p = {t = p.t ; s = m.s ++ p.s} ;
-    GensoM = {s = "{not literally}"} ;
+    GensoM = {s = "{not literally}"} ; BaM = {s = "{indignantly}"} ;
 
     MkCl cf sr c = {s = \\a => cf.s ++ sr.s ++ c.s ! a} ;
     NoConf = {s = []} ; Kon n = {s = "{" ++ n.s ++ "in 6}"} ; KonOf n m = {s = "{" ++ n.s ++ "in" ++ m.s ++ "}"} ; KonBo = {s = "{maybe}"} ;

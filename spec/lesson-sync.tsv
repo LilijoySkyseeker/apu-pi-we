@@ -26,7 +26,7 @@ rule	fingerprint	lessons
 12.2	b6be51bd23ef	Lesson 13: Can, must, maybe
 12.3	5692e9590b46	Lesson 13: Can, must, maybe
 12.4	9c2b143213ea	Lesson 4: Not, questions, answers and commands
-13.1	fc68706c13b2	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
+13.1	6b847e7de4d0	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
 13.2	a498ca198153	Lesson 7: Of, at, to, from, with
 2.1	bfc2c02d2ac6	Lesson 1: Sounds
 2.10	73d366a29c8e	Lesson 8: Being polite, and everyday phrases
@@ -44,7 +44,7 @@ rule	fingerprint	lessons
 3.4	56033c6fdbb3	Lesson 10: Time; Lesson 1: Sounds
 3.5	dd205e243560	Lesson 1: Sounds
 4.1.1	4cd23ab72621	Lesson 14: Putting it together
-4.1.2	8e56398658e4	Lesson 14: Putting it together
+4.1.2	882b3996dedd	Lesson 14: Putting it together
 4.2.1	9cbd7b4ea96d	Lesson 3: Describing words come after
 4.2.2	664f4246d391	Lesson 3: Describing words come after
 4.2.3	6b18fb34cb2f	Lesson 3: Describing words come after
@@ -116,9 +116,9 @@ rule	fingerprint	lessons
 6.2.3	ec6949554760	Lesson 4: Not, questions, answers and commands; Lesson 6: Little words that look like English
 6.2.6	f6f8ca7a4c9d	Lesson 3: Describing words come after
 6.2.7	7f05f9288498	Lesson 10: Time
-7.1.1	9ba6a9d36208	Lesson 4: Not, questions, answers and commands
+7.1.1	5ea360847b75	Lesson 4: Not, questions, answers and commands
 7.1.2	b91678cfce43	Lesson 4: Not, questions, answers and commands
-7.1.3	656b489a0478	Lesson 4: Not, questions, answers and commands
+7.1.3	388470678daf	Lesson 4: Not, questions, answers and commands
 7.1.4	aa2d589dcc2c	Lesson 4: Not, questions, answers and commands
 7.2.1	532572346af9	Lesson 8: Being polite, and everyday phrases
 7.2.2	4c937282e3f8	Lesson 8: Being polite, and everyday phrases

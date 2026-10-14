@@ -89,7 +89,7 @@ type = "numbered"
 title = "Words for social meaning"
 gap = 0
 text = '''
-6. Emphasis, politeness, respect and stance have words of their own: **bi** and doubling for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.'''
+6. Emphasis, politeness, respect and stance have words of their own: **ba** and **bi** for emphasis, **nun** for politeness, **lanno** for respect, and the stance words of section 7.'''
 
 [[item]]
 id = "1.7"
@@ -290,7 +290,7 @@ text = '''
 |---|---|---|---|
 | 1 | Calling someone | a person word (a name, a title, or a single role or kin word), then a pause | 10.1 |
 | 2 | Opener | a linker to the previous sentence (**gi tan** "so"), then a relation phrase that sets the scene (time, place) or a topic **pi X**, then an **if**/**when** clause, each followed by a pause | 4.3 |
-| 3 | Speech act | one particle; **genso** may come before it | 7.1 |
+| 3 | Speech act | one particle; **genso** or **ba** may come before it | 7.1 |
 | 4 | Politeness | **nun**, after the particle or in its place | 10.2 |
 | 5 | Clause operators | confidence **kon** + number, source **wanme**/**inwun**/**wemen** | 6.1 |
 | 6 | Subject | a noun phrase (section 5) | |
@@ -1080,6 +1080,7 @@ text = '''
 | **fon** | advice; the decision stays with the listener |
 | **de** | the speaker (or the group the speaker speaks for) commits: **de din** "we will" |
 | **yo** | warning; **yo yo** emergency |
+| **ba** | exclamation: surprise or strong feeling |
 | **genso** | not literal (irony, joking); **genso genso** the whole turn |'''
 
 [[item]]
@@ -1094,7 +1095,7 @@ type = "bullet"
 title = "genso"
 gap = 0
 text = '''
-- **genso** may modify the act from in front of its particle: **genso min me lugo** "as if you'd know".'''
+- **genso** or **ba** may modify the act from in front of its particle: **genso min me lugo** "as if you'd know"; **ba min** is a surprised or indignant question.'''
 
 [[item]]
 id = "7.1.4"
@@ -1701,7 +1702,7 @@ type = "table"
 text = '''
 | Group | Words |
 |---|---|
-| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** |
+| Speech acts | question **min** · request **so** · instruct **tin** · advise **fon** · intend **de** · warn **yo** · exclaim **ba** |
 | Politeness | **nun** |
 | Clause operator | confidence **kon** |
 | Phrase operators | not **mu** · only **na** · also **fe** · even **wi** · focus **o** |

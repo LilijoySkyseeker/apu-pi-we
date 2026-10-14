@@ -47,6 +47,7 @@ LIKE	rel	3	fu
 GENERIC	pron	3.0	go
 ONLY	op	3.0	na
 WHILE	link	2.0	nin
+EXCLAIM	act	1.5	ba
 SELF	pron	3.0	nen
 POLITE	act	3	nun
 IT	pron	5	bu
