@@ -99,6 +99,8 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **From the deletion audit** (2026-10-15): `tests/shortwords-02/positions.py` counts GF's "command not parsed" output as a parse (5 false frames; fix as in `tests/deletion-01/deletion.py`) — redo its substitution counts before the rerun; `spec.py examples` misses **kon ka wan sin oyi bu, min.** (7.2.6), so `gf_check.py` never checks it; **sun** appears in no frame. `tests/confusion-v2/check.py` says 14 corners (now 16).
 
+- **Symbol names through the loan panel** (author, 2026-10-15, spelling-alphabet decision): @ . / _ - # and arithmetic signs; running, `tests/symbols-01/`. Passing names become loans; failing ones get a description (author approves).
+
 ### Website: frozen at v1 (author, 2026-10-13)
 
 The published site stays at v1 until the language is solid; then a v2 site is built from first principles, keeping v1's spirit. Work is committed on the branch `v2-work` and pushed there as a backup; `main` (which the site builds from) isn't touched until v2. The repo's reference and lessons stay in sync meanwhile. Known false statements on v1 are left as they are (no one is reading it yet) and are fixed in v2:
