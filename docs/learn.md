@@ -147,7 +147,7 @@ Where English stresses a word for contrast, you put **o** before it: **o en toma
 
 A yes/no question starts with **min**: **min me momu osa.** "Do you want water?" [§4.8.1](language.md#r-4-8-1)
 
-There are no words for yes and no. You answer by repeating the verb: **momu** "(I) want (it)", or **mu momu** "(I) don't want (it)". This feels strange for a week and then very natural. A question with **gun** is answered with whatever follows **gun**. To **min guyi gun kudu.** "Is the house big?" the answer is **kudu** or **mu kudu**. [§4.8.6](language.md#r-4-8-6)
+There are no words for yes and no. You answer by repeating the verb: **momu** "(I) want (it)", or **mu momu** "(I) don't want (it)". This feels strange for a week and then very natural. The short answer is **feko** "true" or **mu feko** "not true". It says whether the question, exactly as asked, is true: to **min me mu obu?** "aren't you coming?", **feko** means "right, I'm not coming". So think of **feko** as "that's right", never as "yes". **ok** agrees to a suggestion ("let's go" → **ok**), not to a question. A question with **gun** is answered with whatever follows **gun**. To **min guyi gun kudu.** "Is the house big?" the answer is **kudu** or **mu kudu**. [§4.8.6](language.md#r-4-8-6)
 
 To show you got it, you can say **mm** "heard you". Echoing the answer back means "understood", and **de** with a verb means "will do": **de obu** "I'll come". [§4.8.6](language.md#r-4-8-6)
 

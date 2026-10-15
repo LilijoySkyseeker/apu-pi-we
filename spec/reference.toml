@@ -715,7 +715,7 @@ type = "bullet"
 title = "Answers echo the verb;"
 gap = 0
 text = '''
-- Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. To acknowledge, **mm** says you heard, an echo says you understood, and **de** + verb says "will do".'''
+- Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. The short answer is **feko** "true" or **mu feko** "not true": it says whether the question's statement, exactly as asked, is true, so after a negative question **feko** agrees with the negative: **min me mu obu** "aren't you coming?" → **feko** "right, I'm not". The echo is the precise answer. To acknowledge, **mm** says you heard, an echo says you understood, and **de** + verb says "will do". **ok** agrees to a proposal or instruction ("let's go" → **ok**) and doesn't answer a yes/no question.'''
 
 [[item]]
 id = "4.8.7"
