@@ -45,10 +45,12 @@ Inclusive/exclusive "we" is among the most stable distinctions (Greenhill et al.
 
 Moved here from the reference (2026-10-10). These are predictions, not rules; act only if use or a test shows them.
 
-- **kon** collapsing to a few favourite values, or being used for emphasis.
+- **kon** collapsing to a few favourite values, or being used for emphasis. Children grasp probability late (about 7–10), so native children will first learn **kon fi**, **kon te** as their parents' hedging words: this collapse is the acquisition path, not only a risk (2026-10-15).
 - Questions, hedges and low **kon** used for politeness, blurring what they carry.
 - **min**, **kon** or **ba** pressed into stance jobs despite the stance words.
 - **wan**, **yi** and **bu** follow the topic. Bring back a mechanical rule if a blind test shows listeners losing track where one would have helped.
 - The aspect words **le** and **buntu** going unused.
 - Whether confirmation and speech-act particles survive native use or wear away.
 - Grammar words that share a first consonant across different positions (**wan**/**wun**, **man**/**mon**, **to**/**tun**/**tan**) and voicing pairs (**pi**/**bi**, **ke**/**ge**) merging in fast speech. Position separates them now; act if a listening test shows confusion.
+- **Heritage speakers** (2026-10-15): native speakers will grow up bilingual, like heritage speakers of a home language. That research (Sorace's interface hypothesis; Montrul 2016; Polinsky 2018; heritage Turkish evidentials, Arslan et al. 2017) predicts that systems at the meeting of grammar and discourse erode first while word order holds: here topic-tracked **wan**/**yi**/**bu**, the source words, **kon**, **nun** and the stance slot. Watch those first.
+- **Typing** (2026-10-15): phones with an English dictionary will autocorrect forms like **guyi** and leave the grammar words that are English words (*to*, *me*, *man*, *no*, *so*). One-key typos rarely make another real word (0.4% of possible typos today). A user-side fix (add a dictionary); recheck the typo rate after the placement.
