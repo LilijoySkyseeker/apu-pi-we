@@ -56,7 +56,7 @@ The big English habit to break is swallowing unstressed vowels. English turns mo
 
 ### Stress
 
-Words of two or more syllables are always stressed on the first syllable: **totu** "dog" is *TO-tu* and **guyi** "house" is *GU-yi*. Stress here means a higher pitch. The syllable doesn't get longer or louder. [§2.4](language.md#r-2-4) [§2.6](language.md#r-2-6)
+Words of two or more syllables are always stressed on the first syllable: **totu** "dog" is *TO-tu* and **guyi** "house" is *GU-yi*. Stress here means a higher pitch and a little more force, so you can still hear it in a whisper. The syllable doesn't get longer. [§2.4](language.md#r-2-4) [§2.6](language.md#r-2-6)
 
 One-syllable words are grammar words, and they're said low and quick (**to**, **me**, **pi**, **mu**…). The digits 0–5 are the exception, since they're stressed. [§2.4](language.md#r-2-4)
 

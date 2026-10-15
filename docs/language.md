@@ -31,7 +31,7 @@
   - the digits 0–5 have one stressed syllable;
   - every other word has two or more syllables and is stressed on the first.
 - <span id="r-2-5"></span>Words never change form. There are no endings, no agreement, no case and no gender.
-- <span id="r-2-6"></span>Stress is a higher pitch on the stressed syllable, stepping down after it. In the reference pronunciation it does not lengthen the syllable, and the rhythm is syllable-timed.
+- <span id="r-2-6"></span>Stress is a higher pitch and a little more force (loudness) on the stressed syllable, stepping down after it. The force keeps stress audible where pitch is lost, as in a whisper or a song. In the reference pronunciation stress does not lengthen the syllable, and the rhythm is syllable-timed.
 - <span id="r-2-7"></span>Across a phrase, each stressed syllable is a little lower than the one before (declination), and pitch resets after a pause.
 - <span id="r-2-8"></span>There are no tones. Pitch carries only intonation and emotion. A question needs no rising tone, because its words make it a question, but rising anyway is fine.
 - <span id="r-2-9"></span>Some harmless variants are allowed. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation these variants occur inside content words only, and grammar words keep their consonants.

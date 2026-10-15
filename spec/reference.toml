@@ -155,7 +155,7 @@ type = "bullet"
 title = "Stress"
 gap = 0
 text = '''
-- Stress is a higher pitch on the stressed syllable, stepping down after it. In the reference pronunciation it does not lengthen the syllable, and the rhythm is syllable-timed.'''
+- Stress is a higher pitch and a little more force (loudness) on the stressed syllable, stepping down after it. The force keeps stress audible where pitch is lost, as in a whisper or a song. In the reference pronunciation stress does not lengthen the syllable, and the rhythm is syllable-timed.'''
 
 [[item]]
 id = "2.7"
