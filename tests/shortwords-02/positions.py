@@ -61,7 +61,7 @@ def reference_sentences():
         if rid in G.OUTSIDE or apu in G.OUTSIDE_SENT:
             continue
         out += G.sentences(apu)
-    return out
+    return [x.replace('"', "").strip() for x in out]   # a quote mark makes GF reject the command
 
 
 def parse_many(sents, workers=12):
@@ -77,7 +77,7 @@ def parse_many(sents, workers=12):
                 cur = int(line.split()[1]); res[cur] = [False, False]
             elif cur is None or not line.strip():
                 continue
-            elif line.startswith(("The parser failed", "Unknown words", "The sentence is not complete")):
+            elif not line.startswith("MkUtt"):   # errors, including "command not parsed" (fixed 2026-10-15, tests/deletion-01)
                 pass
             else:
                 res[cur][0] = True

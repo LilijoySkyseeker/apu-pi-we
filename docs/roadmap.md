@@ -97,7 +97,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 - `tools/check.py` doesn't read plain `.txt` files (it only reads code blocks and bold); add a plain-text mode.
 - RB1 leftovers: residual UDHR readings (Art 25.2, 26.2); the guide's root count; grammar function name `LabelNP` → `LabelQ`.
 
-- **From the deletion audit** (2026-10-15): `tests/shortwords-02/positions.py` counts GF's "command not parsed" output as a parse (5 false frames; fix as in `tests/deletion-01/deletion.py`) — redo its substitution counts before the rerun; `spec.py examples` misses **kon ka wan sin oyi bu, min.** (7.2.6), so `gf_check.py` never checks it; **sun** appears in no frame. `tests/confusion-v2/check.py` says 14 corners (now 16).
+- **From the deletion audit** (2026-10-15): ~~`positions.py` counted GF's "command not parsed" as a parse~~ fixed 2026-10-15 (only `MkUtt` lines count; quote marks stripped from frames); its substitution counts must be **rerun** before the short-word rerun. ~~7.2.6 never checked~~ fixed: examples without an English gloss in quotes aren't extracted by `spec.py examples`, so 7.2.6 and the new 4.8.7 examples got glosses and intended readings (gf_check: 209 parse, all intended). **sun** appears in no frame. `tests/confusion-v2/check.py` corner count: being fixed with the listener-variant change.
 
 - **Symbol names through the loan panel** (author, 2026-10-15, spelling-alphabet decision): @ . / _ - # and arithmetic signs; running, `tests/symbols-01/`. Passing names become loans; failing ones get a description (author approves).
 

@@ -196,3 +196,6 @@ du siten mawun kiyo tikun	[NP [NP du siten mawun] kiyo tikun]	no
 du siten mawun	[NP du siten mawun]	no	
 en cuerpo_de_paz kiyo sin obu	[S [NP en cuerpo_de_paz kiyo] sin obu]	yes	
 guyi man en mara sin miya kiyo gun kudu	[S [NP guyi [REL man [NP en mara] sin miya]] kiyo gun kudu]	yes	
+min me obu , min	min [S me obu] , min	yes	
+to obu	[S to obu]	yes	
+kon ka wan sin oyi bu , min	kon ka [S wan sin oyi bu] , min	yes	

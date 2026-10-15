@@ -723,7 +723,7 @@ type = "bullet"
 title = "When a lost word would matter"
 gap = 0
 text = '''
-- A lost short word usually leaves a normal sentence, so nobody notices. When it matters, say it twice: **mu mu** for a "not" that must get through, a yes/no question ended with the tag **min** as well (**min me obu, min**), a warning repeated whole, and the answer echoed back in full (**to obu**). In noise or across a distance, speak this way by default.'''
+- A lost short word usually leaves a normal sentence, so nobody notices. When it matters, say it twice: **mu mu** for a "not" that must get through, a yes/no question ended with the tag **min** as well (**min me obu, min** "are you coming, are you?"), a warning repeated whole, and the answer echoed back in full (**to obu** "I am coming"). In noise or across a distance, speak this way by default.'''
 
 [[item]]
 id = "5"
@@ -1163,7 +1163,7 @@ id = "7.2.6"
 type = "bullet"
 gap = 0
 text = '''
-- A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.**'''
+- A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.** "she said it, I think, didn't she?"'''
 
 [[item]]
 id = "7.2.7"

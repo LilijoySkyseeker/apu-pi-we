@@ -150,7 +150,7 @@
 - <span id="r-4-8-4"></span>To offer a choice, ask **min … lu …** "either?", or ask **… lu …, yu** "which?" with a pause before **yu** so it isn't read as "which X". That second kind is answered by echoing the choice.
 - <span id="r-4-8-5"></span>An indirect question starts its **wun** clause with **min**, with or without a question word: **to mu lugo wun min wan obu** "I don't know whether she's coming", **to mu lugo wun min ewo yu obu** "I don't know who is coming". Without **min**, a question word anywhere in the sentence makes the whole sentence a question: **me momu wun to oyi yu** "you want me to say what?"
 - <span id="r-4-8-6"></span>Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. To acknowledge, **mm** says you heard, an echo says you understood, and **de** + verb says "will do".
-- <span id="r-4-8-7"></span>A lost short word usually leaves a normal sentence, so nobody notices. When it matters, say it twice: **mu mu** for a "not" that must get through, a yes/no question ended with the tag **min** as well (**min me obu, min**), a warning repeated whole, and the answer echoed back in full (**to obu**). In noise or across a distance, speak this way by default.
+- <span id="r-4-8-7"></span>A lost short word usually leaves a normal sentence, so nobody notices. When it matters, say it twice: **mu mu** for a "not" that must get through, a yes/no question ended with the tag **min** as well (**min me obu, min** "are you coming, are you?"), a warning repeated whole, and the answer echoed back in full (**to obu** "I am coming"). In noise or across a distance, speak this way by default.
 
 ## 5. The noun phrase
 
@@ -250,7 +250,7 @@
 - <span id="r-7-2-3"></span>**a** "as you know, you see" (shared ground): **wan sin oyi bu, a.**;
 - <span id="r-7-2-4"></span>**buni** "okay?" (softens, invites agreement): **so pen isi, buni.**;
 - <span id="r-7-2-5"></span>**donon** "it turned out" (against expectation): **wan gun no ibe guyi, donon.**
-- <span id="r-7-2-6"></span>A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.**
+- <span id="r-7-2-6"></span>A half-remembered "wasn't it?" is low confidence plus the tag: **kon ka wan sin oyi bu, min.** "she said it, I think, didn't she?"
 - <span id="r-7-2-7"></span>If two stance words occur, one pause comes before both, and **min** comes last: **wan sin oyi bu, a min.** "she said it, you know, right?"
 - <span id="r-7-2-8"></span>Other words used in this position are stance words too. The choice tag **, yu** "which?" (4.8) has its own slot at the end and is not a stance word.
 
