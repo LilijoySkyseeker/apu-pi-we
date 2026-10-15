@@ -4,7 +4,7 @@ the optimizers (author, 2026-10-13). Read-only: changes no word and no data file
   (a) how well each model reproduces the published matrices (consonants, onset loss, vowels)
   (b) which pairs of today's words each model ranks most confusable
   (c) the 16 merger pairs of tests/shortwords-01/README.md under each listener-group variant
-  (d) how much the pair ranking varies across the 48 robustness variants (§6)
+  (d) how much the pair ranking varies across the robustness variants (§6; confusion2.variants())
   (e) junction misparses among today's words under v2 (n + vowel, n + nasal, coda loss)
 
   python3 check.py > results.txt
@@ -252,7 +252,9 @@ print("(!) = worst listener of that group. @ctx = after a pause / after a word e
 
 # ================================================================= (d)
 print("\n" + "=" * 100)
-print(f"(d) ROBUSTNESS across {len(V) - 1} v2 variants (best, 32 Latin-hypercube draws, 14 corners) and v1.")
+n_lhs = sum(n.startswith("lhs-") for n in VN)
+n_corner = len(VN) - n_lhs - 2  # all but best, the draws and v1: single-source and listener-group corners
+print(f"(d) ROBUSTNESS across {len(V) - 1} v2 variants (best, {n_lhs} Latin-hypercube draws, {n_corner} corners) and v1.")
 print("    Pair ranks by symmetric confusion within each variant.\n")
 
 

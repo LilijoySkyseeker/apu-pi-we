@@ -8,6 +8,7 @@
 - Prior work reused, not redone: `channel_perception.md` §1.
 - 2026-10-15: **done** §8, the face-to-face (audiovisual) listener: sources `vonseth2025-*`, `braida1998-japanese-*`, projections `proj-av-*.tsv` by `project_av.py`, variant `src-av` in `tools/confusion2.py`. Short-word rerun with it not done.
 - 2026-10-15: **done** §9, the listener without high frequencies (low-pass): sources `mn55-lowpass-{1200,2500,5000}.tsv`, `mn55-noise-{0dB,6dB}.tsv` (Miller & Nicely 1955 Tables X–XII, IV, V), check `trevino2013-HI-avg.tsv`, projections `proj-lp-*.tsv` by `project_lowpass.py`, variant `src-lp` in `tools/confusion2.py`. Short-word rerun with it not done.
+- 2026-10-15: **done** §8.5, §9.5: `src-av` and `src-lp` rebuilt as their study's *change* applied to mix4 (author's decision), comparison by `compare_delta.py`. The direct versions of §8.4, §9.4 stay as patterns `av-direct`, `lp-direct`, not variants. `tests/confusion-v2/results.txt` not rewritten. Short-word rerun not done.
 
 ## 1. Consonant confusions in noise (multi-L1)
 
@@ -290,14 +291,54 @@ Checking the expectation ("place confusions fall sharply, voicing and nasality s
 - **Nasality vs oral at one place (b/m, d/n) stays small but rises**: b-m 0 → 2.2, n-d 0.2 → 0.8 level-matched (von Seth high), 1.2 → 5.6 and 0.3 → 2.6 at low clarity. In these sources sound carries nasality well, so these pairs are smaller than voicing even face to face.
 - **Same-place sonorants rise**: n-l (and n-j, l-j, d-l at low clarity). n-l and n-j are already large in this study's audio-only data (n heard as l 31% in AO-high): probably talker- or vocoder-specific, since the four noise sources in §1.8 put l-n at 2–12%. The AV pattern inherits them. Treat the variant's n-l weight as an upper end.
 
-### 8.4 The variant
+### 8.4 The variant (first version, superseded by §8.5)
+Since §8.5 this direct version is pattern `"av-direct"` (comparison only, not in `variants()`); the numbers below are this version's. Original text:
 `tools/confusion2.py`: pattern `"av"` = `proj-av-vonseth25-AV-high.tsv` with s filled from mix4. Variant `src-av` = best parameters with `C_pattern="av"`, level-matched to E_C through `_source` like the other single-source corners. It is placed after `src-mn55+mix`. `variants(av=False)` returns the previous 48 variants unchanged (same draws, names and order; the self-check asserts this, and it was checked against the old file cell by cell). `"av"` is not one of C_pattern's LHS categories, so no other variant moves. Best parameters and objective are unchanged.
 - **added**: AV-high, not AV-low or Braida. Reasons: its raw error (17.5%) is closest to E_C = 20%, so level matching barely rescales it; 16-channel sound keeps some place information, as moderate noise does; English listeners, and 12 of 13 consonants measured. AV-low (1 channel, close to no spectrum) and Braida (8 consonants) are kept as cross-checks above.
 - **added**: one source, not a mix of AV sources like mix4. Reason: Braida covers only 8 consonants and its sound kept voicing, unlike the noise sources. Add-back trigger: an open AV matrix in real noise covering l w j.
 - Effect, best parameters, no listener groups, internal syllable (self-check line): p-b 9.3%, t-d 11.6%, k-g 2.3%, p-t 0.2%, m-n 1.0%, l-n 22.0%, m-b 2.2%, n-d 0.7%. Under best: p-b 3.6, t-d 1.4, p-t 10.2, m-n 7.8, l-n 4.5.
 - `tests/confusion-v2/check.py` with the variant (results file not rewritten): it passes; 50 pairs are in some variant's short-word top 10 (was 48). src-av alone brings **ya~na** and **yo~no** (the n-j effect) into a top 10, and adds **de~te** and **tin~din** to the variants that put them there (voicing). Content words: src-av puts gulo~yulo, tikun~ditun, nanyo~lanno, lodi~loki and kuwun~duwun in a top 20. (Separately, `results.txt` is already out of date before this change: the worst-voicing column differs, e.g. tin~din 18.0 vs 22.5 now. Not caused here.)
-- Flag (one line, design rule 1): the source's degradation is vocoding, and its n-l and n-j confusions look like artefacts of this study. Another option for the author: carry only the AO → AV *change* of the same study onto mix4, rather than using the AV pattern directly. Not done; the decision named the AV pattern.
+- Flag (one line, design rule 1): the source's degradation is vocoding, and its n-l and n-j confusions look like artefacts of this study. Another option for the author: carry only the AO → AV *change* of the same study onto mix4, rather than using the AV pattern directly. Not done; the decision named the AV pattern. (Taken up by the author 2026-10-15: §8.5.)
 - Drop test (design log): if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
+
+### 8.5 The variant as a change on mix4 (2026-10-15)
+Decided by the author 2026-10-15 (roadmap, "Unknown-unknowns review"; the open option in §8.4's flag): `src-av` carries only what seeing the face changes in von Seth et al. (AO-high → AV-high, same study, same clarity) onto the model's usual mix (mix4), so it no longer inherits the study's baseline. The same method builds `src-lp` (§9.5). The direct version stays as pattern `"av-direct"`, outside `variants()`. Variant names, the `av=`/`lp=` switches, best parameters, the other variants and the objective are unchanged. Comparison: `python3 confusion-data/compare_delta.py`.
+
+**Method (added; `confusion2._transfer`, `DELTAS`, `DELTA_FLOOR`).**
+1. Level-match both conditions of the study to the same E as mix4 (`_source`, as for every pattern), so what is carried over is the change in the *pattern* of errors, not in their amount. The variant has mix4's error level anyway.
+2. For every confusion a → b between two consonants the study tested: new[a, b] = mix4[a, b] × (cond[a, b] + 0.01) / (base[a, b] + 0.01).
+3. Multiply all these cells by one factor so the tested rows keep mix4's total error (level matching again); each diagonal takes the rest of its row.
+4. Rows and columns of consonants the study lacks stay exactly mix4's. Here that is **s**: every pair with s equals best (the self-check asserts it, and that the total error is unchanged).
+
+Why this method:
+- **A ratio**, because that is what the study measures at matched error: how much the face multiplies one confusion's share. It also matches the usual account of audiovisual perception, where auditory and visual evidence multiply. A confusion mix4 never shows stays absent (7 directed cells: six with s, which the study lacks anyway, and n → k).
+- **A floor of 1 point at E = 20%**, because one response is worth 0.25–0.5 points in these tables, so a cell under 1 point is two to four responses, within noise of zero. The exception is von Seth's AO f row: only 29 answers fell on our consonants, so each is worth 1.9 points and the floor damps f's ratios less. Without a floor a confusion missing from the baseline gives an unbounded ratio. m is heard as b in 9 of 239 AV-high trials and never in AO-high: with a floor of a quarter point (about half a response) that cell would be ×18, and with 1 point it is ×5.3. Averaged over both directions, b-m gets ×3.2, close to p-b's ×2.7. Both pairs have the same lips, which the face can't separate, so that is what to expect. Floors of 0.5 or 2 points move b-m by up to 4.2 points and the other four of the top five by up to 1.4 (`compare_delta.py`).
+- **Rejected:** the same on log-odds (it equals the ratio for cells under about 10%, doesn't help with zeros and is harder to renormalise); matching each row separately (it would lose which consonants get worse, such as d here and t and s in §9.5); a cap on the ratio (the floor already bounds it).
+- **Cost (flag):** a cell can only move as far as the study's own baseline shows the effect. Where the study's audio barely confused a pair that the face separates, the face's effect carries over weakly. von Seth's AO p-t is 0.8%, because p was mostly heard as /h/, and f-p is 0.5%. So p-t only goes 10.2 → 6.6 (direct 0.2), and **to~po** stays in src-av's top 10 at 6.2%, which a listener watching the lips would rarely confuse. Taken together, the pairs where the lips differ fall by about 40% from mix4 (direct: 74%). Add-back trigger for a rule built on lip shapes (one factor for all pairs where the lips differ): a short-word rerun that changes a form because of a p-t or f-p pair under src-av.
+
+Five pairs that move most from best (best parameters, no listener groups, inside a word; percent):
+
+| pair | von Seth AO → AV (level-matched) | best (mix4) | src-av | av-direct |
+|---|---|---|---|---|
+| m-n | 7.6 → 1.0 | 7.8 | 1.8 | 1.0 |
+| p-b | 2.8 → 9.3 | 3.6 | 9.2 | 9.3 |
+| d-g | 7.9 → 11.9 | 6.0 | 11.5 | 11.8 |
+| b-m | 0.0 → 2.2 | 2.7 | 8.2 | 2.2 |
+| p-k | 4.4 → 0.7 | 5.5 | 1.7 | 0.7 |
+
+The direct version's five, for comparison (best → av-direct [src-av]): n-l 4.5 → 22.0 [6.3], t-d 1.4 → 11.6 [2.4], p-t 10.2 → 0.2 [6.6], t-k 6.6 → 16.5 [5.3], n-j 0.8 → 10.2 [1.5].
+
+Groups of pairs, mean percent (best / src-av / av-direct): the lips differ (p b m f against t d n s l k g j) 1.52 / 0.94 / 0.40; p-f, b-f 5.58 / 3.86 / 0.14; b-m, p-m 1.70 / 4.50 / 1.32; both made inside the mouth 1.36 / 1.83 / 3.09; voicing 2.66 / 5.15 / 7.74.
+
+Against the direct version:
+- **Gone (the study's quirks):** n-l 22.0 → 6.3 and n-j 10.2 → 1.5. The study's AO data already had them, so only their rise in share (×1.4) carries over. t-d 11.6 → 2.4 and t-k 16.5 → 5.3 (vocoded stops). n's row error 53% → 18%. l and w are no longer almost never misheard (1% → 7–8%).
+- **Stayed (real effects).** Lips: m-n and p-k fall to about a quarter, and pairs where the lips differ fall overall (more weakly than direct, see the cost above). Place inside the mouth grows in share: d-g 6.0 → 11.5, the same as direct. Voicing stays and grows in share: p-b ×2.6, t-d ×1.7, k-g ×1.3.
+- **New against direct:** b-m 2.7 → 8.2. mix4 has b-m in noise, and the face can't separate b from m; the study's audio had no b-m errors, so direct shows almost none. It depends on the floor (5.6–12.4 over floors of 2 to 0.5 points); treat it as mid-range.
+- d's row carries 51% error (mix4 28%), as in direct (51%): in the study every d confusion grows in share once the labials are seen.
+
+Short words (the variant itself, listener groups at best shares, as `check.py` ranks them). src-av's top 10: **de~ge** 10.8, **pi~bi** 9.4, **bu~pu** 9.3, **bo~po** 9.3, **pen~ben** 8.7, **mu~bu** 7.6, pi~fi 6.4, fu~pu 6.4, la~na 6.3, to~po 6.2. av-direct's top 10: la~na 21.2, ke~te 15.5, tin~kin 14.3, de~ge 11.1, de~te 11.1, tin~din 10.2, ya~na 9.7, yo~no 9.5, pi~bi 9.5, bu~pu 9.5. So the variant is now about voicing (four of the top five) and d-g. In `check.py`, **ya~na** and **yo~no** are no longer in any variant's top 10, and **mu~bu** enters (src-av only), giving 49 pairs (was 50). src-av no longer puts de~te, tin~din, ke~te or tin~kin in its top 10. Content words: nanyo~lanno, lodi~loki, kuwun~duwun, pani~bayi and danki~dandi are no longer in any top 20; together with §9.5, 107 pairs are in some variant's top 20 (was 114).
+
+The drop test is unchanged: if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
 
 ## 9. Listener without high frequencies (low-pass) (2026-10-15)
 
@@ -351,7 +392,8 @@ Checking the expectation ("f/s, f/p, s/t-type pairs rise"):
 - **Voicing and nasality stay intact** (0–0.05%), as M&N say for low-pass. M&N's voicing is the low outlier anyway (§1.4), so the variant carries no voicing information either way.
 - **Hearing-impaired check (Trevino & Allen).** Its top two pairs are f-s (18.4) and m-n (17.4); low-pass gives f-s the expected rise, m-n only slightly (3.1 → 4.5). Spearman over 45 pairs: HI vs lp2500 0.61, HI vs n0dB 0.54, so low-pass is a bit closer to the hearing-impaired pattern than noise is. Stop place is lower in the HI data (7.1) and voicing higher (1.8), which fits Trevino & Allen's quiet and mild-noise conditions and modern recorded tokens rather than hearing loss. Treat it as support for f-s, and as a hint that real hearing-impaired listeners also confuse m-n more than the filter predicts (not built in).
 
-### 9.4 The variant
+### 9.4 The variant (first version, superseded by §9.5)
+Since §9.5 this direct version is pattern `"lp-direct"` (comparison only, not in `variants()`); the numbers below are this version's. Original text:
 `tools/confusion2.py`: pattern `"lp"` = `proj-lp-mn55-lp2500.tsv`, l w j filled from mix4 (`_fill_from_mix`). Variant `src-lp` = best parameters with `C_pattern="lp"`, level-matched to E_C through `_source` like the other single-source corners, placed after `src-av`. `variants(lp=False)` returns the previous 49 variants unchanged, and `variants(av=False, lp=False)` the original 48 (the self-check asserts both). `"lp"` is not one of C_pattern's LHS categories, so no other variant moves. Best parameters and objective are unchanged.
 - **added**: one table (2500 Hz), not a mix of cut-offs. Add-back trigger: a decision to model telephone speech on its own; then interpolate 2500 and 5000 or find a 300–3400 Hz matrix.
 - **added**: only the consonant pattern changes. Onset loss, -n and vowels stay at best values; low-pass mostly spares vowels' first two formants up to 2.5 kHz, but no data was gathered on that.
@@ -370,8 +412,34 @@ Checking the expectation ("f/s, f/p, s/t-type pairs rise"):
   | p-b | 3.6 | 0.3 | 0.0 |
 
 - `python3 tools/confusion2.py`: passes (50 variants, all matrices stochastic). `tests/confusion-v2/check.py`: runs to completion with the variant (results file not rewritten). Short words: src-lp brings no new pair into any variant's top 10 (still 50 pairs). Its own top 10: **to~po** 24.4% (best 9.4%), **de~ge** 18.5, **ke~te** 15.8, **tin~kin** 14.6, **fa~sa** 10.0 (best 3.1%, rank 22 → 5), **se~fe** 9.9 (rank 23 → 6), pi~fi 5.7, fu~pu 5.7, la~na 4.7, min~nin 3.7. So it is the only variant that makes **fa~sa** and **se~fe** dangerous: 10.0% and 9.9% against at most 4.7% in any other variant (lhs-09); `check.py`'s "max 10.0" for fa~sa and se~fe is now src-lp. ke~te and tin~kin reach about the same maxima as src-av (15.8 vs 15.5, 14.6 vs 14.3); to~po stays below lhs-10's 29.1%. Content words: src-lp puts apu~batu, kige~tiwe, wase~afe, afe~tase and unfu~kunsu in a top 20. (`check.py` prints "14 corners" as fixed text; with src-av and src-lp there are 16.)
-- Flag (one line, design rule 1): the variant inherits M&N's quirks (trained crew, white noise, no voicing errors, p-k/d-g heavy), so its stop-place numbers say as much about MN55 as about low-pass. The same option as in §8 is open to the author: carry only the n0dB → lp2500 *change* of the same study onto mix4 (which would keep the f-s and t-burst effects without M&N's baseline). Not done; the decision named M&N's filtered conditions.
+- Flag (one line, design rule 1): the variant inherits M&N's quirks (trained crew, white noise, no voicing errors, p-k/d-g heavy), so its stop-place numbers say as much about MN55 as about low-pass. The same option as in §8 is open to the author: carry only the n0dB → lp2500 *change* of the same study onto mix4 (which would keep the f-s and t-burst effects without M&N's baseline). Not done; the decision named M&N's filtered conditions. (Taken up by the author 2026-10-15: §9.5.)
 - Drop test (design log): if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
+
+### 9.5 The variant as a change on mix4 (2026-10-15)
+Decided by the author 2026-10-15, with §8.5 (the open option in §9.4's flag): `src-lp` carries only what low-pass filtering changes in Miller & Nicely (Table IV, unfiltered at 0 dB, 19.7% raw error over our 10 consonants → Table XI, 200–2500 Hz at +12 dB, 17.2%; the pair matched in §9.1) onto mix4. The direct version stays as pattern `"lp-direct"`, outside `variants()`. The method, floor and renormalisation are §8.5's (one function for both). **l w j** keep mix4's rows and columns, as `mn55+mix` and the direct version did: every pair with l, w or j equals best (asserted).
+
+Five pairs that move most from best (best parameters, no listener groups, inside a word; percent):
+
+| pair | M&N 0 dB → 2500 Hz (level-matched) | best (mix4) | src-lp | lp-direct |
+|---|---|---|---|---|
+| f-s | 2.3 → 10.6 | 3.3 | 9.6 | 10.6 |
+| p-t | 12.9 → 26.4 | 10.2 | 15.3 | 26.2 |
+| p-k | 31.8 → 9.2 | 5.5 | 1.3 | 9.1 |
+| d-g | 26.3 → 20.8 | 6.0 | 3.4 | 19.6 |
+| f-b | 1.7 → 3.8 | 6.6 | 9.0 | 3.6 |
+
+The direct version's five (best → lp-direct [src-lp]): p-t 10.2 → 26.2 [15.3], d-g 6.0 → 19.6 [3.4], t-k 6.6 → 16.8 [5.6], f-s 3.3 → 10.6 [9.6], p-k 5.5 → 9.1 [1.3].
+
+Groups, mean percent (best / src-lp / lp-direct): f-s 3.27 / 9.63 / 10.56; t-p, t-k 8.39 / 10.45 / 21.51; p-k 5.47 / 1.29 / 9.12; b-d, b-g, d-g 3.87 / 3.00 / 7.03; f-p, f-b 5.58 / 6.90 / 3.20; s-t 0.49 / 0.48 / 0.97; voicing 2.66 / 2.05 / 0.00; m-n 7.81 / 8.30 / 4.27. Row error: t 19 → 34%, s 6 → 20%, k 21 → 9%, p 27 → 18%.
+
+Against the direct version:
+- **Gone (M&N's quirks).** No more zero voicing: 0.00 → 2.05. M&N have no voicing errors in either condition, so the ratio is 1 and mix4's voicing stays. It is scaled down 23% by step 3, because f-s and t take a larger share of the same total error. The heavy stop-place confusions are gone: d-g 19.6 → 3.4, t-k 16.8 → 5.6. m-n no longer falls (4.3 direct, 8.3 now).
+- **Stayed (real effects).** f-s ×2.9, one way: s is heard as f. t's lost burst: t's row error almost doubles and p-t goes 10.2 → 15.3, though t-k doesn't rise (its share in M&N grows only ×1.3). f-b rises 6.6 → 9.0 (×1.8 in the study), f-p hardly moves and s-t stays small, as in §9.3.
+- **p-k falls to a quarter** (5.5 → 1.3). This is the study's own change, not its baseline: p-k is M&N's largest noise confusion and much smaller after low-pass (§9.3). Since it rests on one study's talkers, treat src-lp's p-k as a low end.
+
+Short words (the variant itself, listener groups at best shares). src-lp's top 10: **to~po** 14.3, **fa~sa** 9.1, **se~fe** 9.1, fa~ba 8.6, bi~fi 8.4, fu~bu 8.4, pi~fi 7.3, fu~pu 7.3, min~nin 7.2, ke~te 5.2. lp-direct's top 10: to~po 24.4, de~ge 18.5, ke~te 15.8, tin~kin 14.6, fa~sa 10.0, se~fe 9.9, pi~fi 5.7, fu~pu 5.7, la~na 4.7, min~nin 3.7. src-lp is still the only variant that makes **fa~sa** and **se~fe** dangerous: 9.1% each, now ranks 2 and 3, against at most 4.7% in any other v2 variant (lhs-09). de~ge and tin~kin (M&N's stop place) leave its top 10, and fa~ba, bi~fi and fu~bu (f-b) enter. In `check.py` the maxima of ke~te and tin~kin fall from 15.8 and 14.6 (the direct variants) to 12.8 and 11.9 (Latin-hypercube draws). Content words: afe~tase and unfu~kunsu are no longer in any top 20.
+
+The drop test is unchanged: if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
 
 ## Sources (read in this study unless marked)
 - Cooke & Scharenborg 2008, The Interspeech 2008 Consonant Challenge. https://www.isca-archive.org/interspeech_2008/cooke08_interspeech.pdf

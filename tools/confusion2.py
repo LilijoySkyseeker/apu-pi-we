@@ -19,15 +19,17 @@ Parts (each with its source; "added here" = a choice made while implementing, no
   vowels                   V_ratio x E_C spread over pair shares, §5.5
   listener groups          each raises one contrast to m for a share pi of listeners, §5.6. Overlaid as
                            independent features (a listener may lack several contrasts)
-  face-to-face listener    design log 2026-10-15: one robustness variant ("src-av") with the consonant
-                           pattern of listeners who see the talker (von Seth, Aller & Davis 2025, audiovisual,
-                           16-channel vocoded), level-matched like the other single sources; /s/, which the
-                           study lacks, is filled from mix4 (added here). confusion-data.md §8.
-  listener without highs   design log 2026-10-15: one robustness variant ("src-lp") with the consonant
-                           pattern of speech low-pass filtered at 2500 Hz (Miller & Nicely 1955 Table XI,
-                           +12 dB), standing for age-related high-frequency loss and the telephone band;
-                           level-matched like the other single sources; l w j, which the study lacks, are
-                           filled from mix4 as in mn55+mix. confusion-data.md §9.
+  face-to-face listener    design log 2026-10-15: one robustness variant ("src-av"): mix4 changed by what
+                           seeing the talker does in von Seth, Aller & Davis 2025 (audio-only -> audiovisual,
+                           16-channel vocoded, both level-matched); /s/, which the study lacks, keeps mix4's
+                           values. confusion-data.md §8, §8.5 (author, 2026-10-15: the study's change, not
+                           its AV pattern; that one stays as pattern "av-direct").
+  listener without highs   design log 2026-10-15: one robustness variant ("src-lp"): mix4 changed by what
+                           low-pass filtering at 2500 Hz does in Miller & Nicely 1955 (unfiltered 0 dB ->
+                           200-2500 Hz +12 dB, Tables IV and XI, about the same error), standing for
+                           age-related high-frequency loss and the telephone band; l w j, which the study
+                           lacks, keep mix4's values. confusion-data.md §9, §9.5 (the direct pattern stays
+                           as "lp-direct").
   aspiration               design log 2026-10-13: p t k aspirated word-initially in the reference. For
                            the voicing group the word-initial confusion is
                              asp_share * asp_conf + (1 - asp_share) * L2_voicing_m
@@ -112,15 +114,25 @@ PATTERN_FILES = {
     "cutler-dutch": "proj-cutler04-dutch-CV0dB.tsv",
     "mandarin6": "proj-mandarin-snr6.tsv",
     "mn55": "proj-mn55-6dB.tsv",
-    # Face-to-face listener (design log 2026-10-15; confusion-data.md §8). Used only by the "src-av"
-    # variant, not in C_pattern's categories. Lacks /s/: filled from mix4 in pattern().
-    "av": "proj-av-vonseth25-AV-high.tsv",
-    # Listener without high frequencies (design log 2026-10-15; confusion-data.md §9). Used only by
-    # the "src-lp" variant. Lacks l w j: filled from mix4 in pattern().
-    "lp": "proj-lp-mn55-lp2500.tsv",
+    # Face-to-face listener (design log 2026-10-15; confusion-data.md §8): von Seth et al. 2025,
+    # 16-channel vocoded, audio-only and audiovisual. Lacks /s/.
+    "vs-AO": "proj-av-vonseth25-AO-high.tsv",
+    "vs-AV": "proj-av-vonseth25-AV-high.tsv",
+    # Listener without high frequencies (design log 2026-10-15; confusion-data.md §9): Miller &
+    # Nicely 1955, unfiltered at 0 dB and low-pass 2500 Hz at +12 dB (about the same error). Lacks l w j.
+    "mn55-n0dB": "proj-lp-mn55-n0dB.tsv",
+    "mn55-lp2500": "proj-lp-mn55-lp2500.tsv",
 }
 MIX4 = ("cooke08", "cutler-native", "cutler-dutch", "mandarin6")
 PATTERNS = ("mix4",) + MIX4 + ("mn55+mix",)  # C_pattern's categories (TSV)
+# Listener variants built from one study's change, applied to mix4 (author, 2026-10-15; confusion-data.md
+# §8.5, §9.5): pattern -> (study baseline, study condition), same study, about the same error.
+# Used only by "src-av" and "src-lp", not in C_pattern's categories.
+DELTAS = {"av": ("vs-AO", "vs-AV"), "lp": ("mn55-n0dB", "mn55-lp2500")}
+# The study's condition used directly (the 2026-10-15 first version of src-av / src-lp), untested
+# consonants filled from mix4. For comparison only; not in variants().
+DIRECT = {"av-direct": "vs-AV", "lp-direct": "mn55-lp2500"}
+DELTA_FLOOR = 0.01  # added in §8.5: added to both study cells before the ratio (at E)
 
 # Listener groups (§5.6): pi key, m key, and what they raise.
 GROUPS = {
@@ -205,16 +217,45 @@ def pattern(name, E):
             M[i] = np.nan_to_num(mn[i]) * (1 - to_lwj)
             M[i, lwj] = mix[i, lwj]
         return M
-    if name in ("av", "lp"):
-        return _fill_from_mix(_source(name, E), pattern("mix4", E))
+    if name in DELTAS:
+        base, cond = DELTAS[name]
+        return _transfer(pattern("mix4", E), _source(base, E), _source(cond, E))
+    if name in DIRECT:
+        return _fill_from_mix(_source(DIRECT[name], E), pattern("mix4", E))
     return _source(name, E)
+
+
+def _transfer(mix, base, cond, floor=DELTA_FLOOR):
+    """A study's change applied to mix (confusion-data.md §8.5; added 2026-10-15). base and cond are
+    the study's two conditions, each level-matched to the same E as mix. For every confusion a -> b
+    between two consonants the study tested (a != b):
+        mix[a, b] * (cond[a, b] + floor) / (base[a, b] + floor)
+    then one factor on all these cells so the tested rows keep mix's total error (the level matching),
+    and each tested row's diagonal takes the rest. Rows and columns of consonants the study lacks are
+    mix's, unchanged."""
+    tested = [c for c in CONS if not np.isnan(base[OI[c], OI[c]]) and not np.isnan(cond[OI[c], OI[c]])]
+    ti = [OI[c] for c in tested]
+    ci = [OI[c] for c in CONS]
+    M = mix.copy()
+    cells = [(i, j) for i in ti for j in ti if i != j]
+    err_before = sum(mix[i, j] for i in ti for j in ci if j != i)
+    fixed = sum(mix[i, j] for i in ti for j in ci if j not in ti)
+    for i, j in cells:
+        M[i, j] = mix[i, j] * (cond[i, j] + floor) / (base[i, j] + floor)
+    k = (err_before - fixed) / sum(M[i, j] for i, j in cells)
+    for i, j in cells:
+        M[i, j] *= k
+    for i in ti:
+        M[i, i] = 1 - sum(M[i, j] for j in ci if j != i)
+    return M
 
 
 def _fill_from_mix(src, mix):
     """Rows of consonants the source didn't test come from mix; in tested rows, responses to an
     untested consonant come from mix and the rest of the row is scaled to make room (the mn55+mix
     rule, for any missing set). Added here 2026-10-15 for the audiovisual source (no /s/); also used
-    for the low-pass source (no l w j), where it gives the same result as mn55+mix."""
+    for the low-pass source (no l w j), where it gives the same result as mn55+mix. Now used only by
+    the comparison patterns in DIRECT."""
     M = src.copy()
     miss = [OI[c] for c in CONS if np.isnan(src[OI[c], OI[c]])]
     for c in CONS:
@@ -487,12 +528,13 @@ def variants(n_lhs=32, seed=2026, av=True, lp=True):
     its categories; vowel shares Dirichlet around the best values, concentration 20); fixed corners:
     each consonant source alone, voicing x0.1 and x3, each listener group at pi = 1 with its high m
     (other groups off), and v1.
-    av: add "src-av", a face-to-face listener (audiovisual consonant pattern in place of the consonant
-    pattern, everything else at best values; design log 2026-10-15). av=False gives the 48 variants
-    used before it, unchanged (same draws, same order).
-    lp: add "src-lp", a listener without high frequencies (low-pass 2500 Hz consonant pattern in place
-    of the consonant pattern, everything else at best values; design log 2026-10-15), after src-av.
-    lp=False gives the variants used before it, unchanged."""
+    av: add "src-av", a face-to-face listener (mix4 changed by the audio-only -> audiovisual change of
+    one study, pattern "av"; everything else at best values; design log 2026-10-15). av=False gives
+    the 48 variants used before it, unchanged (same draws, same order).
+    lp: add "src-lp", a listener without high frequencies (mix4 changed by the unfiltered -> 2500 Hz
+    low-pass change of one study, pattern "lp"; everything else at best values; design log
+    2026-10-15), after src-av. lp=False gives the variants used before it, unchanged.
+    The study patterns used directly ("av-direct", "lp-direct") are not variants."""
     rng = np.random.default_rng(seed)
     best = best_params()
     out = [("best", best)]
@@ -568,16 +610,27 @@ if __name__ == "__main__":
     print(f"{len(V)} variants, all syllable matrices stochastic")
     assert [n for n, _ in variants(av=False, lp=False)] == [n for n, _ in V if n not in ("src-av", "src-lp")]
     assert [n for n, _ in variants(lp=False)] == [n for n, _ in V if n != "src-lp"]
-    A = onset_matrix(no_groups(dict(best_params(), C_pattern="av")), "internal")
-    assert not np.isnan(A).any()
-    sa = lambda a, b: (A[OI[a], OI[b]] + A[OI[b], OI[a]]) / 2
-    print("src-av, no listener groups, internal: voicing p-b %.3f t-d %.3f k-g %.3f | p-t %.3f m-n %.3f l-n %.3f m-b %.3f n-d %.3f"
-          % (sa("p", "b"), sa("t", "d"), sa("k", "g"), sa("p", "t"), sa("m", "n"), sa("l", "n"), sa("m", "b"), sa("n", "d")))
-    L = onset_matrix(no_groups(dict(best_params(), C_pattern="lp")), "internal")
-    assert not np.isnan(L).any()
-    sl = lambda a, b: (L[OI[a], OI[b]] + L[OI[b], OI[a]]) / 2
-    print("src-lp, no listener groups, internal: f-s %.3f f-p %.3f f-b %.3f p-t %.3f p-k %.3f t-k %.3f d-g %.3f m-n %.3f s-t %.3f"
-          % (sl("f", "s"), sl("f", "p"), sl("f", "b"), sl("p", "t"), sl("p", "k"), sl("t", "k"), sl("d", "g"), sl("m", "n"), sl("s", "t")))
+    # src-av / src-lp: the study's change applied to mix4 (§8.5, §9.5). Consonants the study lacks keep
+    # mix4's rows and columns exactly; the tested rows keep mix4's total error.
+    E0 = best_params()["E_C"]
+    mix = pattern("mix4", E0)
+    for name, (base, _) in DELTAS.items():
+        T = pattern(name, E0)
+        miss = [OI[c] for c in CONS if np.isnan(_source(base, E0)[OI[c], OI[c]])]
+        ci = [OI[c] for c in CONS]
+        assert np.allclose(T[np.ix_(miss, ci)], mix[np.ix_(miss, ci)]) and np.allclose(T[np.ix_(ci, miss)], mix[np.ix_(ci, miss)])
+        assert np.allclose(T[np.ix_(ci, ci)].sum(1), 1, atol=1e-3) and (T[np.ix_(ci, ci)] >= 0).all()
+        assert np.isclose(np.trace(T[np.ix_(ci, ci)]), np.trace(mix[np.ix_(ci, ci)]), atol=1e-3)
+    om = lambda pat: onset_matrix(no_groups(dict(best_params(), C_pattern=pat)), "internal")
+    sp = lambda X, a, b: (X[OI[a], OI[b]] + X[OI[b], OI[a]]) / 2
+    B0 = om("mix4")
+    for name in DELTAS:
+        X, D = om(name), om(name + "-direct")
+        assert not np.isnan(X).any() and not np.isnan(D).any()
+        pairs = [(a, b) for i, a in enumerate(CONS) for b in CONS[i + 1:]]
+        top = sorted(pairs, key=lambda q: -abs(sp(X, *q) - sp(B0, *q)))[:5]
+        print(f"src-{name}, no listener groups, internal, 5 pairs that move most from best (best -> src-{name} [{name}-direct]): "
+              + ", ".join(f"{a}-{b} {sp(B0, a, b):.3f} -> {sp(X, a, b):.3f} [{sp(D, a, b):.3f}]" for a, b in top))
     p = best_params()
     C = onset_matrix(no_groups(p), "internal")
     sym = lambda a, b: (C[OI[a], OI[b]] + C[OI[b], OI[a]]) / 2
