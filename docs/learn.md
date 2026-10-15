@@ -151,6 +151,8 @@ There are no words for yes and no. You answer by repeating the verb: **momu** "(
 
 To show you got it, you can say **mm** "heard you". Echoing the answer back means "understood", and **de** with a verb means "will do": **de obu** "I'll come". [§4.8.6](language.md#r-4-8-6)
 
+Short words like **mu** and **min** are easy to lose in noise, and the sentence left behind still sounds normal. So when it really matters, say things twice: **mu mu** for a "not" that must get through, **min** at both ends of an important question, a warning said again, and the answer echoed back in full. [§4.8.7](language.md#r-4-8-7)
+
 Question words stay where the answer would go. English moves *what* to the front of the sentence, but here it stays put: [§4.8.2](language.md#r-4-8-2)
 
 - **me momu yu.** "What do you want?" (you want what)
@@ -291,6 +293,8 @@ To give something to someone, put the verb first, then who gets it, then what: *
 Names always take **en** and keep their owner's spelling: **en mara**, **en lilith**. In casual speech people often leave **en** out when it's clear a name is meant. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name. [§11.1](language.md#r-11-1) [§11.2](language.md#r-11-2)
 
 A name runs on until the next grammar word or comma, which is how a name can have several words, as in **en xi jinping**. So when a content word follows a name, put a grammar word or a comma between them: **en mara sin oyi** "Mara said". If the name itself contains a word like **de** or **ya**, end it with **kiyo**: **en cuerpo de paz kiyo sin obu** "the Peace Corps came". [§11.1](language.md#r-11-1)
+
+To spell a name or an email address for someone from another culture, use the international spelling alphabet in its adapted form: **alufa**, **bulabo**, **saluli** for a, b, c, and so on (the full list is in section 11 of the reference). Mara is **mayiku alufa lomeyo alufa**. [§11.5](language.md#r-11-5)
 
 ## Lesson 8: Being polite, and everyday phrases
 

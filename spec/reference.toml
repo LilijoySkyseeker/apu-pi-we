@@ -718,6 +718,14 @@ text = '''
 - Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **mu obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **mu kudu**. To acknowledge, **mm** says you heard, an echo says you understood, and **de** + verb says "will do".'''
 
 [[item]]
+id = "4.8.7"
+type = "bullet"
+title = "When a lost word would matter"
+gap = 0
+text = '''
+- A lost short word usually leaves a normal sentence, so nobody notices. When it matters, say it twice: **mu mu** for a "not" that must get through, a yes/no question ended with the tag **min** as well (**min me obu, min**), a warning repeated whole, and the answer echoed back in full (**to obu**). In noise or across a distance, speak this way by default.'''
+
+[[item]]
 id = "5"
 type = "heading"
 level = 2
@@ -1636,10 +1644,11 @@ text = '''
 [[item]]
 id = "11.5"
 type = "bullet"
-title = "Letters as labels"
+title = "Letters as labels and spelling aloud"
 gap = 0
 text = '''
-- Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.'''
+- Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.
+- To spell aloud for someone of another culture (a name, an email address, a code), say each letter by its word from the international spelling alphabet (ICAO), adapted to this language's sounds: a **alufa**, b **bulabo**, c **saluli**, d **deluta**, e **eko**, f **fokusutulotu**, g **golufu**, h **otelu**, i **indiya**, j **duliyetu**, k **kilo**, l **lima**, m **mayiku**, n **nobenbalu**, o **osuka**, p **papa**, q **kebeku**, r **lomeyo**, s **siyela**, t **tango**, u **yunifolumu**, v **bikuta**, w **wisuki**, x **ekusuleyi**, y **yanki**, z **sulu**. Within one culture its own letter names are fine. **kilo** is also "kilogram" (9.3.5); in spelling it is always a letter, as in the original alphabet.'''
 
 [[item]]
 id = "11.6"
