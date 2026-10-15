@@ -99,7 +99,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **From the deletion audit** (2026-10-15): ~~`positions.py` counted GF's "command not parsed" as a parse~~ fixed 2026-10-15 (only `MkUtt` lines count; quote marks stripped from frames); its substitution counts must be **rerun** before the short-word rerun. ~~7.2.6 never checked~~ fixed: examples without an English gloss in quotes aren't extracted by `spec.py examples`, so 7.2.6 and the new 4.8.7 examples got glosses and intended readings (gf_check: 209 parse, all intended). **sun** appears in no frame. `tests/confusion-v2/results.txt` is out of date (rewrite with the next check run).
 
-- **Symbol names** (author, 2026-10-15): decided and applied (reference 9.2.5, 11.5; loans **komu**, **asutagu**). Open: the dot, / \ _ - and ÷ wait for the roots POINT (now **mimi**), LINE and DIVIDE in the coverage batch; @ and dot near misses go into any native check; **guti** as subtraction vs negative sign (brought to the author).
+- **Symbol names** (author, 2026-10-15): decided and applied (reference 9.2.5, 11.5; loans **komu**, **asutagu**). Open: the dot, / \ _ - and ÷ wait for the roots POINT (now **mimi**), LINE and DIVIDE in the coverage batch; @ and dot near misses go into any native check; arithmetic decided as a notation reading (9.2.5).
 
 - **feko answers in the next test** (author, 2026-10-15): include short answers after negative questions (**min me mu obu?** → **feko**) in the next blind translation or listening test; if read both ways, return to echo-only (design log). Also translate the standard UI button set once (Yes / No / OK / Cancel / Back / Next / Undo) under the new rules.
 

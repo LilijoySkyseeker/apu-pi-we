@@ -1393,7 +1393,7 @@ type = "bullet"
 title = "Arithmetic aloud"
 gap = 0
 text = '''
-- Arithmetic is read in the order it is written: + **ginni** "add", − **guti**, × **gimu** "times", = **gun**: **sa ginni ka gun te** "2 + 3 = 5", **ka gimu da gun yawu sa** "3 × 4 = 12". ÷ has no word yet.'''
+- Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **gimu**, = **gun**: **sa ginni ka gun te** "2 + 3 = 5", **ka gimu da gun yawu sa** "3 × 4 = 12". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**te, guti ka** "5, −3"). ÷ has no word yet.'''
 
 [[item]]
 id = "9.3"
