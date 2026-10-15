@@ -35,7 +35,8 @@ sys.path.insert(0, TOOLS)
 import spec as SPEC
 
 FILLER = "wan obu"          # "she comes": stands in for "…"
-OUTSIDE = {"2.10"}          # interjections carry no grammar (2.10)
+OUTSIDE = {"2.10", "9.2.5"}  # interjections carry no grammar (2.10); arithmetic read aloud is a reading of notation
+                             # (9.2.5; pending the author, design log 2026-10-15: the sentence grammar has no equation reading)
 # Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
 OUTSIDE_SENT = {"mara sin obu": "casual speech: a name without en (11.1)",
                 "to nawi susi sa": "a speaker's borrowing, not in the lexicon (11.3)",

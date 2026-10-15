@@ -304,6 +304,7 @@
 - <span id="r-9-2-2"></span>The digit reading says one digit at a time. It is used whenever the exact digits matter more than the size: for identifiers, phone numbers and codes (in groups of three from the right), and for years and 24-hour clock times (as one four-digit group).
 - <span id="r-9-2-3"></span>Labels (noun + **mena** + number) under 100 use the quantity reading (**dili mena yawu da** "day 14"). Larger labels use the digit reading.
 - <span id="r-9-2-4"></span>Decimals use **mimi** "point": 1.5 = **fi mimi te**. **guti** means minus. With **unun** "× 10 to the", **ka unun guti ufo** = 3 × 10⁻⁶.
+- <span id="r-9-2-5"></span>Arithmetic is read in the order it is written: + **ginni** "add", − **guti**, × **gimu** "times", = **gun**: **sa ginni ka gun te** "2 + 3 = 5", **ka gimu da gun yawu sa** "3 × 4 = 12". ÷ has no word yet.
 
 ### 9.3 Amounts and comparison
 
@@ -353,6 +354,7 @@
 - <span id="r-11-4"></span>Computers and interfaces use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **benbi**/**tapi**, settings **ge finsa la**, computer **du sunbu** (`compounds.tsv`). **doku** "work" covers a machine working.
 - <span id="r-11-5"></span>Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.
 - To spell aloud for someone of another culture (a name, an email address, a code), say each letter by its word from the international spelling alphabet (ICAO), adapted to this language's sounds: a **alufa**, b **bulabo**, c **saluli**, d **deluta**, e **eko**, f **fokusutulotu**, g **golufu**, h **otelu**, i **indiya**, j **duliyetu**, k **kilo**, l **lima**, m **mayiku**, n **nobenbalu**, o **osuka**, p **papa**, q **kebeku**, r **lomeyo**, s **siyela**, t **tango**, u **yunifolumu**, v **bikuta**, w **wisuki**, x **ekusuleyi**, y **yanki**, z **sulu**. Within one culture its own letter names are fine. **kilo** is also "kilogram" (9.3.5); in spelling it is always a letter, as in the original alphabet.
+- Read aloud, an address uses **mon** for @, **mimi** for the dot and **komu** for "com": *mara@gmail.com* is **mara mon gmail mimi komu**. A hashtag is **asutagu**. Other signs are said with ordinary words: * **uwan** "star", & **yen** "and".
 - <span id="r-11-6"></span>New words are made by the method in [vocabulary-method.md](vocabulary-method.md).
 
 ## 12. Conditions and modality
