@@ -24,14 +24,24 @@ CONS = {"p": "p", "b": "b", "t": "t", "d": "d", "k": "k", "g": "g", "m": "m", "n
         "l": "r", "w": "w", "y": "y", "j": "y", "": None}   # inventory writes y as j
 GRAMMAR = {r["form"] for r in W.read("grammar.tsv")}
 DIGITS = {r["form"] for r in W.read("numbers.tsv") if r["kind"] == "digit"}
-BASE, HIGH, STEP = 5.55, 0.40, 0.04   # VOICEVOX pitch is log-F0; HIGH ~ a fifth up, STEP = declination
+HIGH, STEP = 0.25, 0.03   # log-F0 above the voice's own level: about 4 semitones up; STEP = declination
+# Fixed absolute pitches (first version) pushed the male voice 1.5 log units above its range and garbled it
+# (author heard guyi as "buh yee" with a step up), so the level now comes from each voice (base()).
+U_STRETCH = 1.0   # >1 lengthens u (Japanese u is short and unrounded; the author heard gu as "guh")
 
 
 def post(path, body, **q):
     qs = "&".join(f"{k}={v}" for k, v in q.items())
-    req = urllib.request.Request(f"{URL}{path}?{qs}", data=json.dumps(body).encode(),
+    req = urllib.request.Request(f"{URL}{path}?{qs}", data=b"" if body is None else json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json"})
     return urllib.request.urlopen(req, timeout=120).read()
+
+
+def base(speaker):
+    """The voice's own pitch level: the mean pitch VOICEVOX gives a neutral Japanese word."""
+    q = json.loads(post("/audio_query", None, speaker=speaker, text="%E3%81%95%E3%81%8B%E3%81%AA"))  # sakana
+    ps = [m["pitch"] for p in q["accent_phrases"] for m in p["moras"] if m["pitch"] > 0]
+    return sum(ps) / len(ps)
 
 
 def moras(word, stressed):
@@ -53,14 +63,11 @@ def query(text):
         toks = re.findall(r"[a-z]+", chunk)
         if not toks:
             continue
-        ms, level = [], BASE
+        ms = []
         for t in toks:
             t = t.replace("r", "l")   # names keep their owner's spelling; said with the nearest sounds (11.2)
             stressed = t not in GRAMMAR or len(W.split(t)) > 1 or t in DIGITS
-            for m in moras(t, stressed):
-                ms.append(m)
-            if stressed:
-                level -= STEP
+            ms += moras(t, stressed)
         phrases.append({"moras": ms, "accent": 1, "pause_mora": None, "is_interrogative": False})
     for i, p in enumerate(phrases[:-1]):
         p["pause_mora"] = {"text": "、", "consonant": None, "consonant_length": None, "vowel": "pau",
@@ -68,15 +75,17 @@ def query(text):
     return phrases
 
 
-def pitch(phrases):
+def pitch(phrases, b):
     for p in phrases:
-        top = BASE + HIGH
+        top = b + HIGH
         for m in p["moras"]:
+            if m["vowel"] == "u":
+                m["vowel_length"] *= U_STRETCH
             if m.pop("_hi"):
                 m["pitch"] = top
                 top -= STEP
             else:
-                m["pitch"] = BASE - 0.05
+                m["pitch"] = b - 0.03
     return phrases
 
 
@@ -88,7 +97,7 @@ def say(text, speaker, out):
     for p, hi in zip(timed, keep):
         for m, h in zip(p["moras"], hi):
             m["_hi"] = h
-    q = {"accent_phrases": pitch(timed), "speedScale": 0.9, "pitchScale": 0.0, "intonationScale": 1.0,
+    q = {"accent_phrases": pitch(timed, base(speaker)), "speedScale": 0.9, "pitchScale": 0.0, "intonationScale": 1.0,
          "volumeScale": 1.0, "prePhonemeLength": 0.2, "postPhonemeLength": 0.3, "pauseLength": None,
          "pauseLengthScale": 1.0, "outputSamplingRate": 24000, "outputStereo": False, "kana": ""}
     open(out, "wb").write(post("/synthesis", q, speaker=speaker))
