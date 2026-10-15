@@ -2,6 +2,11 @@
 
 Where the project is and what comes next. Decisions and their reasons are in `design-log.md`; this file is the queue. Updated 2026-10-13.
 
+**How the backlog is worked (author, 2026-10-15):** finish the current backlog one item at a time. Anything *new* a review turns up gets one test before it joins: does it block v2, i.e. would it change word forms or grammar that are costly to change once the author is learning? If not, it goes under "After v2", not into the queue. If the backlog keeps churning (growing rather than shrinking), the same test is applied to the whole backlog. v2 is done when: the short words are rebuilt, the concept list is closed and the ~1,500 roots placed once, the reference, grammar and lessons agree, and the v2 site is built.
+
+## After v2 (new findings that don't block it)
+
+
 **Why the project is public:** to share it because it's cool, with people who don't want a git repo or a markdown file. Others using or contributing is a happy surprise, not a goal. It will later live on the author's own site, skyseekerlabs.net. So: a plain static site that can move by copying a folder, and no adoption or governance machinery.
 
 ## Done (2026-10-10 to 10-12)
