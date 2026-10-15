@@ -83,7 +83,7 @@ For a new root it tries every two-syllable form not taken (after drift keys) and
 It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms are never hand-picked.** `add-grammar` does the same for one-syllable words but doesn't enforce the same-slot rule; only `build.py build` does (and a full rebuild breaks the freeze).
 
 ### 3.6 Offensive-word filter (`tools/offensive.py`, `data/offensive.tsv`)
-[author] 2026-10-09: no word should sound like an offensive word, or clash in a taboo topic, in major languages.
+[author] 2026-10-09: no word should sound like an offensive word, or clash in a taboo topic, in major languages. **Narrowed 2026-10-15 [author]:** that can't be met for one-syllable words (the filter matches 80 of 140) and most matches are noise, so it's tiered: a short reviewed hard list of the strongest, most common words blocks forms; every other match only breaks ties (goal C3; design log 2026-10-15).
 - **Data:** Wiktionary via kaikki.org extracts for 34 of the most spoken languages: entries tagged vulgar/offensive/slur/derogatory, plus taboo meanings (sex, genitals, excrement, urine, death) read from glosses. 32,910 pronunciations, each mapped into our sounds with the names.py mapping.
 - **Matching:** exact; near (voicing and e/i, o/u merged); prefix. **Ranking:** only words whose *first* sense is offensive and that are common (wordfreq Zipf ≥ 2.5) block a form. Run tools with `ps.wordfreq`, or every listed word counts as common.
 - **Review is by hand.** Most raw hits are noise; one-syllable grammar words match *something* in 34 languages almost always. Six words moved (lanu→lenu, nega→lasu, pisan→tisan, webo→yawu, ku→nun, ano→ago); lon/pi/go kept because no free one-syllable form exists.
