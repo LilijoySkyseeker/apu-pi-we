@@ -99,7 +99,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **From the deletion audit** (2026-10-15): ~~`positions.py` counted GF's "command not parsed" as a parse~~ fixed 2026-10-15 (only `MkUtt` lines count; quote marks stripped from frames); its substitution counts must be **rerun** before the short-word rerun. ~~7.2.6 never checked~~ fixed: examples without an English gloss in quotes aren't extracted by `spec.py examples`, so 7.2.6 and the new 4.8.7 examples got glosses and intended readings (gf_check: 209 parse, all intended). **sun** appears in no frame. `tests/confusion-v2/results.txt` is out of date (rewrite with the next check run).
 
-- **Symbol names through the loan panel** (author, 2026-10-15, spelling-alphabet decision): @ . / _ - # and arithmetic signs; running, `tests/symbols-01/`. Passing names become loans; failing ones get a description (author approves).
+- **Symbol names through the loan panel** (author, 2026-10-15): **done** (`tests/symbols-01/README.md`). Pass: **komu** (.com, 20/20 say [kom]), **asutagu** (hashtag, 13/20, rests on two Wikipedia titles). Near misses needing sourced columns (tl, sw, ha, yo; searches found nothing because people write the symbol): **@** (→ **etu**, else **mon** "at"), **dot** (→ **dotu**, else POINT), **www**. Fail, described with words: / \ _ - need the queued root LINE, the dot POINT; * **uwan** "star", & **yen**, + **ginni**, − **guti**, × **gimu**, ÷ DIVIDE (queued), = **gun**/**kige**, % keeps its root. **For the author:** approve the two passes and the descriptions; whether to pay to source the near misses (native check); word order for × and whether **guti** between numbers reads as a negative.
 
 ### Website: frozen at v1 (author, 2026-10-13)
 
