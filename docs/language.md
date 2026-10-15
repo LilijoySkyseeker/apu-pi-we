@@ -117,6 +117,7 @@
 - <span id="r-4-5-1"></span>Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu me la mon dili mena ufo.** "see you all Saturday".
 - <span id="r-4-5-2"></span>**gun** with no subject is "(it) is", like any verb with its subject left out: **gun nimo** "(it's) money". With **gun** left out too, a bare state is fine: **bi upe.** "very good." "There is" is **ibe** "have" with no subject (4.7).
 - <span id="r-4-5-3"></span>When leaving something out could be unclear, say it.
+- <span id="r-4-5-4"></span>An action word with no object is read by its subject. A subject that can't act undergoes the action: **beya sin tapi** "the door closed", **ladon sin alun** "the cup broke". A subject that can act does it to something the context supplies: **en mara sin ibe ladon. wan sin alun.** "Mara had a cup. She broke it." To be precise, say the object, or use **nen** "self".
 
 ### 4.6 Pauses
 

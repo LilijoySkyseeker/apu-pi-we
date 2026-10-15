@@ -525,6 +525,13 @@ text = '''
 - When leaving something out could be unclear, say it.'''
 
 [[item]]
+id = "4.5.4"
+type = "bullet"
+gap = 0
+text = '''
+- An action word with no object is read by its subject. A subject that can't act undergoes the action: **beya sin tapi** "the door closed", **ladon sin alun** "the cup broke". A subject that can act does it to something the context supplies: **en mara sin ibe ladon. wan sin alun.** "Mara had a cup. She broke it." To be precise, say the object, or use **nen** "self".'''
+
+[[item]]
 id = "4.6"
 type = "heading"
 level = 3

@@ -1,0 +1,17 @@
+n	translation	who_does_what	sure
+1	The door closed.	The door closes; no agent specified.	probably
+2	Mara saw the door. They had closed it.	Mara closes the door; the object is understood.	probably
+3	The cup broke.	The cup breaks; no agent specified.	probably
+4	Mara had a cup. They had broken it.	Mara breaks the cup; the object is understood.	probably
+5	The water is boiling.	The water boils; no agent specified.	sure
+6	The man is cooking food. He is boiling it.	The man boils the food; the object is understood.	probably
+7	The car stopped.	The car stops moving.	probably
+8	The man saw the car. He had stopped it.	The man stops the car, or stops moving himself.	could be either
+9	The stone moved.	The stone moves; no agent specified.	probably
+10	The woman moved the stone. The child had also moved it.	The child also moves the stone, understood; possibly just moves.	probably
+11	The game ended.	The game comes to an end.	sure
+12	The child woke up.	The child wakes; no other participant implied.	probably
+13	The dog woke the child. The child had woken up.	The child wakes; yi refers to the child.	probably
+14	The fire started.	The fire begins burning; no agent specified.	probably
+15	The book opened.	The book opens; no agent specified.	probably
+16	Mara took the book. They had opened it.	Mara opens the book; the object is understood.	probably

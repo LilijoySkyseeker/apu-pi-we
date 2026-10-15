@@ -249,6 +249,8 @@ An unknown person is **ewo bo** "someone": **ewo bo yidu bu.** "Someone took it.
 
 When the listener already knows who or what you mean, you can leave it out. Casual English does this too, but this language does it more: **wuma, nagu me.** "See you tomorrow." (**wuma** "tomorrow"). Asked **me momu yu.**, you can answer with just **osa.** "Water." Say it in full when leaving it out could confuse. [§4.5.1](language.md#r-4-5-1) [§4.5.3](language.md#r-4-5-3)
 
+A verb with no object is read by its subject. If the subject can't act, the action happens to it: **beya sin tapi** "the door closed", **ladon sin alun** "the cup broke". If it can act, it acts on something you already know about: **en mara sin ibe ladon. wan sin alun.** "Mara had a cup. She broke it." [§4.5.4](language.md#r-4-5-4)
+
 You can drop the subject before **gun** too: **gun nimo** "(it's) money". If you drop **gun** as well, a bare state is fine: **bi upe.** "Very good." "There is" is **ibe** with no subject (lesson 3). [§4.5.2](language.md#r-4-5-2) [§4.7.7](language.md#r-4-7-7)
 
 ## Lesson 6: Little words that look like English
