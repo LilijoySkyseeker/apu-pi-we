@@ -54,6 +54,22 @@ Some softening is harmless. Speakers may say k and g like "ch" and "j" before i 
 
 The big English habit to break is swallowing unstressed vowels. English turns most of them into "uh", so *banana* comes out as buh-NA-nuh. Here every vowel keeps its full sound, so **apu** is "AH-poo" and **dili** "day" is "DEE-lee". "AH-puh" and "DIL-ee" are the English habit at work. Aim for the even, clear syllables of Spanish or Japanese. [§2.1](language.md#r-2-1)
 
+### Hear the sounds
+
+There's no recording of Apupiwe yet, but you can hear every sound in real words. All of them exist in Spanish, and the syllables work like Japanese ones. Look these words up on Wiktionary, which has recordings for most of them.
+
+| Sound | Hear it in |
+|---|---|
+| **a e i o u** | Spanish *casa*, *mesa*, *sí*, *no*, *tú*: short, pure vowels with no glide at the end [§2.1](language.md#r-2-1) |
+| **gu**, **du**, **bu** | Spanish *gusto*, *duro*, *burro*: a full g, d or b, then a real "oo" [§2.2](language.md#r-2-2) |
+| **pi**, **ti**, **ki** | English *pea*, *tea*, *key*, with the same puff of air at the start of a word [§2.2](language.md#r-2-2) |
+| **yi** | English *ye*, *yeast*: the y is a real consonant before the i [§2.2](language.md#r-2-2) |
+| **wu** | English *woo*, *wound* (the injury) [§2.2](language.md#r-2-2) |
+| **l** | Spanish *luna* [§2.2](language.md#r-2-2) |
+| final **n** | Spanish *pan*, *son* [§2.3](language.md#r-2-3) |
+
+For stress, listen to Japanese *ame* 雨 "rain": the first syllable is high and the voice steps down, and neither syllable gets longer. Apupiwe stress works the same way, with a little more force on the high syllable. [§2.6](language.md#r-2-6)
+
 ### Stress
 
 Words of two or more syllables are always stressed on the first syllable: **totu** "dog" is *TO-tu* and **guyi** "house" is *GU-yi*. Stress here means a higher pitch and a little more force, so you can still hear it in a whisper. The syllable doesn't get longer. [§2.4](language.md#r-2-4) [§2.6](language.md#r-2-6)

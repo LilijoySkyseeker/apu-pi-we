@@ -15,3 +15,5 @@ The author on round 1: guyi sounded like "guh yee" (female voice, step down) and
 `speak_piper.py` turns each word into broad IPA (stress mark ˈ before stressed first syllables; p t k unaspirated, a harmless variant, since these voices never learned aspiration) and passes it inside `[[ ]]`, which Piper 1.8 (`nixpkgs#piper-tts`) says as given (its debug log shows the phonemes unchanged: `ˈ ɡ u j i`). Voices from `rhasspy/piper-voices` (kept in `~/work/tools/piper-voices`, outside the repo): es_ES davefx, es_MX claude, it_IT paola, id_ID news_tts. The clips are in the author's vault (`Language/apupiwe-voice/`); step 1 there is picking a voice.
 
 Run: `direnv exec . python3 tests/listening-02/speak_piper.py OUTDIR PIPER VOICEDIR`.
+
+**Result (author, 2026-10-15):** all four Piper voices "sneak extra syllables and wrong sounds into them, and are not even close". Voice work parked (design log); lesson 1 points to real words instead. Next try, when the author sets up an account: a cloud voice with SSML `<phoneme alphabet="ipa">`.
