@@ -1,0 +1,161 @@
+# B = barely changed (context restores it); C = plainly changed and still natural; O = odd enough that a listener would likely notice
+id	sample	word	sentence	remainder	english_remainder	judgment
+R0	seed 7, relation words	li	don ewo la doku kige , wan la ibe sogan li nimo kige	don ewo la doku kige , wan la ibe sogan nimo kige	if the people work samely , they have the right the same money	B
+R1	seed 7, relation words	pi	pu pi wabun la keya doma wan nin ewo we lenu nagu	pu wabun la keya doma wan nin ewo we lenu nagu	the places who law must to listen her during every person cans to see	B
+R2	seed 7, relation words	li	mole yen wede ibe sogan li waka niki pi tofo pi tiwu pi nen	mole yen wede ibe sogan waka niki pi tofo pi tiwu pi nen	the mother and the father have the choosing right the kind of the teaching of the child of oneself	B
+R3	seed 7, relation words	se	no isi se guyi	no isi guyi	the one who goes houses	C
+R4	seed 7, relation words	mon	mon fu minfi	fu minfi	like the noon	B
+R5	seed 7, relation words	fu	min nun me lugo fu dunsa la	min nun me lugo dunsa la	{politely} do you know the cows ?	C
+R6	seed 7, relation words	se	kuwi wan se ben	kuwi wan ben	{it} protects her	O
+R7	seed 7, relation words	pi	go mu keya unfu li konsin tofo pi tuko	go mu keya unfu li konsin tofo tuko	everybody doesn't must to pay for {it} at least teaches to start	B
+R8	seed 7, relation words	gan	gan momu	momu	{it} wants	C
+R9	seed 7, relation words	mon	wi don wemen bu gun lenya , go manni bone apu tan mon doku pi nimo	wi don wemen bu gun lenya , go manni bone apu tan doku pi nimo	even if {it seems} it is strange , everybody usually uses to language this the work of the money	O
+R10	seed 7, relation words	pi	don wabun denku mu efon , go mu gun efon yidu musu pi wan se wan	don wabun denku mu efon , go mu gun efon yidu musu wan se wan	if the correct law doesn't allow , everybody isn't allowed to take the thing her from her	O
+R11	seed 7, relation words	pi	enpa pi pume yen enpa pi lite pi nosen	enpa pi pume yen enpa pi lite nosen	the freedom of the thought and the freedom of the way god	B
+R12	seed 7, relation words	fu	kudu fu bu	kudu bu	{it} bigs it	O
+R13	seed 7, relation words	li	gi tan , go ibe ge keya li funti man wan nume mon	gi tan , go ibe ge keya funti man wan nume mon	so , everybody has the thing who musts the group that she lives at {that}	O
+R14	seed 7, relation words	li	wan fe ibe sogan li wabun la kuwi nimo man wan dunu se bu	wan fe ibe sogan wabun la kuwi nimo man wan dunu se bu	she also has the law rights the money protecting that she gets from it	O
+R15	seed 7, relation words	mon	mon yawu po sa	yawu po sa	10:02	B
+R16	seed 7, relation words	mon	wan lenu muge ben mon kemu kunsu , lu muge ben mon kemu mu kunsu	wan lenu muge ben mon kemu kunsu , lu muge ben kemu mu kunsu	she cans to do that at the private place or does that the not private place	B
+R17	seed 7, relation words	mon	to sin ditun bu mon en google	to sin ditun bu en google	I sought it google	B
+R18	seed 7, relation words	se	mon en namhan , yegon le gun pinfe man go guge ke se we , a	mon en namhan , yegon le gun pinfe man go guge ke we , a	at namhan , the rice is being the plant that everybody grows more all , you know	C
+R19	seed 7, relation words	pi	go ibe sogan li yile man sogan we pi kemin tan lenu lewe feko minwe mon	go ibe sogan li yile man sogan we kemin tan lenu lewe feko minwe mon	everybody has the right for the system that every right documents this the whole true becoming can at	O
+R20	seed 7, relation words	gan	mu gan momu	mu momu	{it} doesn't want	C
+R21	seed 7, relation words	pi	go manni bone suso pi eda na mon en iran	go manni bone suso eda na mon en iran	everybody usually uses the name the now only at iran	B
+R22	seed 7, relation words	pi	so ewo mesun yen funti mesun pi ewo we imu kemin tan nin muyi we	so ewo mesun yen funti mesun ewo we imu kemin tan nin muyi we	let every person and every group person all this documenting remembering during every time	O
+R23	seed 7, relation words	pi	wan fe ibe sogan li ibe lite pi nosen lu ge pume feko fu enpa	wan fe ibe sogan li ibe lite nosen lu ge pume feko fu enpa	she also has the right for {it} has the way the God or the thing who thinks as true as the freedom	B
+R24	seed 7, relation words	mon	mon po mape ka po	po mape ka po	09:30	B
+R25	seed 7, relation words	pi	wanme go muge pasu meli pi osa fu ben	wanme go muge pasu meli osa fu ben	{seen} everybody does the small food the water like that	O
+R26	seed 7, relation words	pi	mole yen wede ibe sogan li waka niki pi tofo pi tiwu pi nen	mole yen wede ibe sogan li waka niki tofo pi tiwu pi nen	the mother and the father have the right for {it} chooses the teaching kind of the child of oneself	B
+R27	seed 7, relation words	pi	pu pi mabo	pu mabo	the place who papers	B
+R28	seed 7, relation words	li	wan fe ibe sogan li ibe lite pi nosen lu ge pume feko fu enpa	wan fe ibe sogan ibe lite pi nosen lu ge pume feko fu enpa	she also has the having right the way of the God or the thing who thinks as true as the freedom	B
+R29	seed 7, relation words	pi	du kuwi pi to	du kuwi to	the tool who protects me	C
+Y0	seed 8	yu	wan feme tikun lu weki , yu	wan feme tikun lu weki	she feels hotly or cold-shoulders	C
+Y1	seed 8	yu	pen sin dunu yegon wifu yu , wede	pen sin dunu yegon wifu , wede	we got the rice the number , father	O
+Y2	seed 8	yu	pen dunu nimo se kemu yu , li unfu pu yesa pi tiwu la	pen dunu nimo se kemu , li unfu pu yesa pi tiwu la	we get the money from {it} places for {it} pays the place who learns of the children	C
+Y3	seed 8	yu	me momu bu lu ben , yu	me momu bu lu ben	you want it or that	C
+Y4	seed 8	yu	wan gun simi fu yu	wan gun simi fu	she is sick like {that}	O
+Y5	seed 8	yu	nun me momu niki yu	nun me momu niki	{politely} you want the kind	C
+Y6	seed 8	yu	me momu wun to oyi yu	me momu wun to oyi	you want that I say	C
+Y7	seed 8	yu	ewo wifu yu	ewo wifu	{it} persons the number	O
+Y8	seed 8	yu	no yema simi , sin oyi yu	no yema simi , sin oyi	the one who helps sickly said	C
+Y9	seed 8	yu	un , go guge pinfe yu li koda tun gigin eni	un , go guge pinfe li koda tun gigin eni	but , everybody grows the plant for {it} sells to the other country	C
+Y10	seed 8	yu	nun me obu se kemu yu	nun me obu se kemu	{politely} you come from the place	C
+Y11	seed 8	yu	gawo pi wan gun fu yu	gawo pi wan gun fu	the body of her is like {that}	C
+Y12	seed 8	yu	nun dunsa pi me ibe simi yu	nun dunsa pi me ibe simi	{politely} the cow of you has sickly	C
+Y13	seed 8	yu	muyi yu	muyi	{it} times	C
+D0	seed 8	sa	mon yawu sa	mon yawu	at ten	C
+D1	seed 8	sa	fawu mena sa po sa ufo	fawu mena po sa ufo	the year 026	O
+D2	seed 8	fi	wan koye nin nelon fi , yen to nagu wan moti wo nelon fi	wan koye nin nelon fi , yen to nagu wan moti wo nelon	she drinks during one week , and I see her the week after the again	B
+D3	seed 8	po	mon sa fi ka po	mon sa fi ka	at 2:13	O
+D4	seed 8	fi	wan koye nin nelon fi , yen to nagu wan moti wo nelon fi	wan koye nin nelon , yen to nagu wan moti wo nelon fi	she drinks during the week , and I see her one week after the again	B
+D5	seed 8	da	dili mena yawu da	dili mena yawu	the day 10	C
+D6	seed 8	ka	awuwa ka	awuwa	{it} hours	C
+D7	seed 8	fi	pi du yema simi , wan koye ladon meli fi , gimu ka mon dili mesun	pi du yema simi , wan koye ladon meli , gimu ka mon dili mesun	as for the sick tool who helps , she drinks the small cup three occasions at every day	B
+D8	seed 8	sa	gimu sa	gimu	{it} occasions	C
+D9	seed 8	ka	wan nume fawu ka yen dunan ufo	wan nume fawu yen dunan ufo	she lives the year and six months	C
+D10	seed 8	ka	to nume fawu ka yawu	to nume fawu yawu	I live ten years	C
+D11	seed 8	fi	to isi mon wuma wo dili fi	to isi mon wuma wo dili	I go at the day after the tomorrow	B
+D12	seed 8	po	mon po mape ka po	mon mape ka po	at 9:30	B
+D13	seed 8	po	fawu mena sa po sa ufo	fawu mena sa sa ufo	the year 226	O
+W0	seed 8	we	tan fe gun wun ewo we yen gigin yema wan la nin wan la simi	tan fe gun wun ewo yen gigin yema wan la nin wan la simi	this is also that the person and the country help them during they sick	B
+W1	seed 8	we	ewo we fe keya lenu inwa tofo tisan fu lenu pi nen fu kige	ewo fe keya lenu inwa tofo tisan fu lenu pi nen fu kige	the person also musts to can to enter to teach the high like the can of oneself like the sameness	B
+W2	seed 8	we	tan gun kige li we	tan gun kige li	this is same for {that}	C
+W3	seed 8	we	wan la fe sin waka yema li ewo we ibe enpa ke feli	wan la fe sin waka yema li ewo ibe enpa ke feli	they also chose to help for the more many free having person	B
+W4	seed 8	we	pu pi wabun la keya doma wan nin ewo we lenu nagu	pu pi wabun la keya doma wan nin ewo lenu nagu	the places of the law must to listen her during the person cans to see	C
+W5	seed 8	we	wan la fe sin waka yema li ewo we nume ke upe	wan la fe sin waka yema li ewo nume ke upe	they also chose to help for the more good live person	B
+W6	seed 8	we	ewo we keya yema li gigin la lewe sonu pi nen nen	ewo keya yema li gigin la lewe sonu pi nen nen	the person musts to help for the countries become the friend of each other	C
+W7	seed 8	we	we sin ibe tenmi bi upe	sin ibe tenmi bi upe	{it} had the very good taste	C
+M0	seed 8	man	wan fe ibe sogan li wabun la kuwi nimo man wan dunu se bu	wan fe ibe sogan li wabun la kuwi nimo wan dunu se bu	she also has the right for the laws protect to money her the get from it	O
+M1	seed 8	man	so ewo we fe kuwi bu la mon kemu man gigin la tan wungu	so ewo we fe kuwi bu la mon kemu gigin la tan wungu	let every person also protect them at these country places lead	O
+M2	seed 8	man	guyi man en mara yen to ibe	guyi en mara yen to ibe	house mara and I have	O
+M3	seed 8	man	nin leso , to sin miya ewo man sigo	nin leso , to sin miya ewo sigo	during the morning , I looked to person returning	B
+M4	seed 8	man	ewo man nagu	ewo nagu	the person sees	C
+M5	seed 8	man	yetu man to fonsu gan	yetu to fonsu gan	{it} tools me the cut with {that}	O
+M6	seed 8	man	to sin miya ewo man sigo nin leso	to sin miya ewo sigo nin leso	I looked to person returning during the morning	B
+M7	seed 8	man	go ibe sogan kige li inwa doku man yema ewo we pi gigin pi wan	go ibe sogan kige li inwa doku yema ewo we pi gigin pi wan	everybody has the same right for {it} enters to work the help every person of the country of her	B
+E0	seed 8	yen	wan nume fawu ka yen dunan ufo	wan nume fawu ka dunan ufo	she lives three years six months	B
+E1	seed 8	yen	nume yen enpa yen sonli gun sogan pi go	nume enpa yen sonli gun sogan pi go	{it} lives freely , and the safe is the right of everybody	B
+E2	seed 8	yen	ewo la we yen gigin we ibe kemin tan fu ge momu kige	ewo la we gigin we ibe kemin tan fu ge momu kige	the people country all this documenting having like the same thing who wants	O
+E3	seed 8	yen	wan mu nawi yen wopo	wan mu nawi wopo	she doesn't eat to sleep	C
+E4	seed 8	yen	yen , min me tana ben	min me tana ben	do you like that ?	B
+E5	seed 8	yen	mon guyi , wan doku yen nawi	mon guyi , wan doku nawi	at the house , she works eating	B
+E6	seed 8	yen	go lenu guge enpa yen minwe na mon funti	go lenu guge enpa minwe na mon funti	everybody cans to grow to free wholely only at the group	B
+E7	seed 8	yen	wan la lenu pume , yen lenu lugo musu upe yen musu yomo	wan la lenu pume , yen lenu lugo musu upe musu yomo	they can the thought and can to know the good thing the bad thing	B
+N0	seed 8	no	no obu se yaye	obu se yaye	{it} comes from the sky	C
+N1	seed 8	du	min wan sin neke du yema simi bo	min wan sin neke yema simi bo	did she give some sick help ?	B
+N2	seed 8	pu	pen dunu nimo se kemu yu , li unfu pu yesa pi tiwu la	pen dunu nimo se kemu yu , li unfu yesa pi tiwu la	we get the money from {it} places what for {it} pays the learning of the children	B
+N3	seed 8	du	don go kunwa du yema simi tun dunsa , wan lewe upe	don go kunwa yema simi tun dunsa , wan lewe upe	if everybody stabs to help sickly to the cow , she becomes well	O
+N4	seed 8	pu	wemen bu mu gun tonya li unfu pu yesa pi tiwu la	wemen bu mu gun tonya li unfu yesa pi tiwu la	{it seems} it isn't the enough for {it} pays the learning of the children	B
+N5	seed 8	du	wan lenu muge tan gan du iko we	wan lenu muge tan gan iko we	she cans to do this with {it} tells all	O
+N6	seed 8	no	ewo la keya lenu wuye ge momu tan gan waka feko pi no wungu la	ewo la keya lenu wuye ge momu tan gan waka feko pi wungu la	the people must to can to show this thing who wants with the true choosing of the leads	B
+N7	seed 8	du	pi du yema simi , wan koye ladon meli fi , gimu ka mon dili mesun	pi yema simi , wan koye ladon meli fi , gimu ka mon dili mesun	as for the sick help , she drinks one small cup three occasions at every day	B
+N8	seed 8	du	du siten mawun	siten mawun	{it} cooks flatly	C
+N9	seed 8	no	no tofo en mara	tofo en mara	{it} teaches mara	C
+P0	seed 9, casual texts only	to	to lugo in	lugo in	{it} knows some	B
+P1	seed 9, casual texts only	me	nun me wupi yu , no bika pi to	nun wupi yu , no bika pi to	{politely} {it} needs what the one who buys of me	B
+P2	seed 9, casual texts only	to	to pume wun gun we	pume wun gun we	{it} thinks that {it} is all	B
+P3	seed 9, casual texts only	me	me unfu wo tiwu feme upe	unfu wo tiwu feme upe	{it} pays after the child feels well	B
+P4	seed 9, casual texts only	wan	wan mu ibe wabun pi muyi , un kon ufo wan obu	mu ibe wabun pi muyi , un kon ufo wan obu	{it} doesn't have the law of the time , but { 6 in 6} she comes	B
+P5	seed 9, casual texts only	to	to upe , lanno	upe , lanno	{it} goods , sir/madam	B
+P6	seed 9, casual texts only	me	lota gi me yebin to , faba en alaa	lota gi yebin to , faba en alaa	{it} thanks because {it} calls me sibling alaa	B
+P7	seed 9, casual texts only	to	to mu lugo wun min kemin tan lu ge oyi pi din gun denku	mu lugo wun min kemin tan lu ge oyi pi din gun denku	{it} doesn't know that whether this document or the thing who says of us is correct	B
+P8	seed 9, casual texts only	to	min nun to lenu miya dunsa pi me	min nun lenu miya dunsa pi me	{politely} does {it} can to look the cow of you ?	C
+P9	seed 9, casual texts only	me	lota gi me imu to	lota gi imu to	{it} thanks because {it} remembers me	B
+P10	seed 9, casual texts only	wan	wan feme bi tikun , yen fe susin	feme bi tikun , yen fe susin	{it} feels very the hotness and also shakes	B
+P11	seed 9, casual texts only	to	min to neke me osa tago meli	min neke me osa tago meli	does {it} give you the small black water ?	B
+P12	seed 9, casual texts only	to	eda , de to dinyo we	eda , de dinyo we	now , {I commit} {it} carries all	B
+P13	seed 9, casual texts only	to	lota gi me imu to	lota gi me imu	{it} thanks because you remember	B
+P14	seed 9, casual texts only	me	upe tun me	upe tun	{it} goods to {that}	B
+P15	seed 9, casual texts only	wan	wan gun simi fu yu	gun simi fu yu	{it} is as sick as what	B
+LU-0	all tokens	lu	min wan obu lu wan obu	min wan obu wan obu	does she come her the coming ?	O
+LU-1	all tokens	lu	me momu bu lu ben , yu	me momu bu ben , yu	you want it , which?	O
+LU-2	all tokens	lu	go fe mu gun efon ibe ewo , lu bika ewo , lu koda ewo	go fe mu gun efon ibe ewo , bika ewo , lu koda ewo	everybody also isn't allowed to have the person the person buy or sells the person	B
+LU-3	all tokens	lu	go fe mu gun efon ibe ewo , lu bika ewo , lu koda ewo	go fe mu gun efon ibe ewo , lu bika ewo , koda ewo	everybody also isn't allowed to have the person or buys the person the person sell	B
+LU-4	all tokens	lu	don lowu lu futa sin guge , wan ibe sogan li bedan	don lowu futa sin guge , wan ibe sogan li bedan	if the woman man grew , she has the right for {it} marries	O
+LU-5	all tokens	lu	wan fe ibe sogan li ibe lite pi nosen lu ge pume feko fu enpa	wan fe ibe sogan li ibe lite pi nosen ge pume feko fu enpa	she also has the right for {it} has the way of the God the thing who thinks as true as the freedom	O
+LU-6	all tokens	lu	sogan tan fe gun sogan li kubo lite pi nosen lu ge pume feko	sogan tan fe gun sogan li kubo lite pi nosen ge pume feko	this right is also the right for {it} changes the way of the God the true thing who thinks	O
+LU-7	all tokens	lu	wan fe ibe sogan li wuye lite pi nosen lu ge pume feko fu enpa	wan fe ibe sogan li wuye lite pi nosen ge pume feko fu enpa	she also has the right for {it} shows the way of the God the thing who thinks as true as the freedom	O
+LU-8	all tokens	lu	wan lenu muge ben mon kemu kunsu , lu muge ben mon kemu mu kunsu	wan lenu muge ben mon kemu kunsu , muge ben mon kemu mu kunsu	she cans to do that at {it} places the private that do at the not private place	B
+LU-9	all tokens	lu	wan feme tikun lu weki , yu	wan feme tikun weki , yu	she feels to hot coldly , which?	O
+LU-10	all tokens	lu	osa tago lu osa pi wonin , yu	osa tago osa pi wonin , yu	the water blacks the water of the leaf , which?	O
+KE-0	all tokens	ke	ke kudu	kudu	{it} bigs	C
+KE-1	all tokens	ke	nimo ke uyo	nimo uyo	{it} moneys fewly	C
+KE-2	all tokens	ke	ke kudu se guyi ben	kudu se guyi ben	{it} bigs from that house	O
+KE-3	all tokens	ke	ke kudu se we	kudu se we	{it} bigs from all	O
+KE-4	all tokens	ke	ke meli	meli	{it} smalls	C
+KE-5	all tokens	ke	wan la fe sin waka yema li ewo we nume ke upe	wan la fe sin waka yema li ewo we nume upe	they also chose to help for every person lives well	C
+KE-6	all tokens	ke	wan la fe sin waka yema li ewo we ibe enpa ke feli	wan la fe sin waka yema li ewo we ibe enpa feli	they also chose to help for every person has to free manily	B
+KE-7	all tokens	ke	so wan la walo gan tofo li go ke dundi sogan la tan	so wan la walo gan tofo li go dundi sogan la tan	let they try with {it} teaches for everybody respects these rights	B
+KE-8	all tokens	ke	bu fe keya yema li go ke dundi sogan pi ewo yen enpa bawe	bu fe keya yema li go dundi sogan pi ewo yen enpa bawe	it also musts to help for everybody respects the right of the person and the important freedom	B
+KE-9	all tokens	ke	waka pi wan la gun ke bawe se waka pi ewo eni	waka pi wan la gun bawe se waka pi ewo eni	the choosing of them is important from the choosing of the other person	O
+KE-10	all tokens	ke	min kubo ke yobe pi tikun muge yomo pasu fu lite bo	min kubo yobe pi tikun muge yomo pasu fu lite bo	does the fast change of the hotness do the food bad like some way ?	B
+KE-11	all tokens	ke	mon en namhan , yegon le gun pinfe man go guge ke se we , a	mon en namhan , yegon le gun pinfe man go guge se we , a	at namhan , the rice is being the plant that everybody grows from all , you know	O
+LE-0	all tokens	le	ewo le niba	ewo niba	the person walks	B
+LE-1	all tokens	le	to sin le nawi	to sin nawi	I ate	C
+LE-2	all tokens	le	to le mu nawi	to mu nawi	I don't eat	C
+LE-3	all tokens	le	yo nun osa le obu	yo nun osa obu	{warning} {politely} the water comes	B
+LE-4	all tokens	le	wan ibe wekun pi suyon , yen le gabu	wan ibe wekun pi suyon , yen gabu	she has the pain of the belly and vomits	B
+LE-5	all tokens	le	lanno en hugo le mu liwon	lanno en hugo mu liwon	honoured one hugo doesn't arrive	C
+LE-6	all tokens	le	to le doma me la	to doma me la	I listen you	B
+LE-7	all tokens	le	yen , kegu tan pi no ibe lula , le muwo anko muyi yu	yen , kegu tan pi no ibe lula , muwo anko muyi yu	also , {it} talks this of the happening one who has the power until which time	B
+LE-8	all tokens	le	gi muyi pi meyen sin obu , wemen wan la le wenfe sekan	gi muyi pi meyen sin obu , wemen wan la wenfe sekan	because the time of the flower came , {it seems} they dig the field	B
+LE-9	all tokens	le	mon en namhan , yegon le gun pinfe man go guge ke se we , a	mon en namhan , yegon gun pinfe man go guge ke se we , a	at namhan , the rice is the plant that everybody grows more from all , you know	B
+UN-0	all tokens	un	un , ibe musu feli	ibe musu feli	{it} has the many thing	B
+UN-1	all tokens	un	un , doku la muwo na mon muyi pi nen	doku la muwo na mon muyi pi nen	the works happen only at the time of oneself	B
+UN-2	all tokens	un	un , go guge pinfe yu li koda tun gigin eni	go guge pinfe yu li koda tun gigin eni	everybody grows which plant for {it} sells to the other country	B
+SIN-0	first 15 tokens in file order	sin	ewo sin niba	ewo niba	the person walks	C
+SIN-1	first 15 tokens in file order	sin	nin leso , to sin miya ewo man sigo	nin leso , to miya ewo man sigo	during the morning , I look the person who returns	C
+SIN-2	first 15 tokens in file order	sin	to sin miya ewo man sigo nin leso	to miya ewo man sigo nin leso	I look the person who returns during the morning	C
+SIN-3	first 15 tokens in file order	sin	to sin miya ewo man sigo kiyo nin leso	to miya ewo man sigo kiyo nin leso	I look the person who returns during the morning	C
+SIN-4	first 15 tokens in file order	sin	o en tomas sin yidu bu	o en tomas yidu bu	INDEED tomas takes it	C
+SIN-5	first 15 tokens in file order	sin	wan sin oyi bu , a min	wan oyi bu , a min	she says it , you know right?	C
+SIN-6	first 15 tokens in file order	sin	to sin le nawi	to le nawi	I am eating	C
+SIN-7	first 15 tokens in file order	sin	to mu sin nawi	to mu nawi	I don't eat	C
+SIN-8	first 15 tokens in file order	sin	no tofo en mara sin oyi	no tofo en mara oyi	one who teaches mara says	C
+SIN-9	first 15 tokens in file order	sin	lanno sin oyi	lanno oyi	the honoured one says	C
+SIN-10	first 15 tokens in file order	sin	en xi_jinping sin oyi	en xi_jinping oyi	xi_jinping says	C
+SIN-11	first 15 tokens in file order	sin	en cuerpo_de_paz kiyo sin obu	en cuerpo_de_paz kiyo obu	cuerpo_de_paz comes	C
+SIN-12	first 15 tokens in file order	sin	guyi man en mara sin miya kiyo gun kudu	guyi man en mara miya kiyo gun kudu	the house that mara looks is big	C
+SIN-13	first 15 tokens in file order	sin	to sin ditun bu mon en google	to ditun bu mon en google	I seek it at google	C
+SIN-14	first 15 tokens in file order	sin	don kon po to sin isi , to sin nagu wan	don kon po to isi , to sin nagu wan	if { 0 in 6} I go , I saw her	B

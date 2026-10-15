@@ -1,0 +1,470 @@
+frame	source	sentence	trees	full	odd_roles	english_best
+0	ref	apu pi we	1	fragment	1	the language of all
+1	ref	nen nen	2	fragment	0	each other
+2	ref	feko feko	6	yes	1	{it} trues truly
+3	ref	gi tan	1	fragment	0	because of this
+4	ref	guyi gun kudu	2	yes	0	the house is big
+5	ref	to nuta	1	yes	0	I fear
+6	ref	ewo le niba	1	yes	0	the person is walking
+7	ref	ewo manni niba	1	yes	0	the person usually walks
+8	ref	ewo sin niba	1	yes	0	the person walked
+9	ref	sepi	3	yes	0	{it} apologises
+10	ref	fu	1	fragment	0	like {that}
+11	ref	nawi pasu fu yobe	9	yes	1	{it} eats the food like the fast
+12	ref	nawi pasu yobe	10	yes	0	{it} eats the fast food
+13	ref	oyi fanse	5	yes	0	{it} says to calm
+14	ref	tofo me nuta	1	yes	1	{it} teaches you the fear
+15	ref	walo alun	5	yes	0	{it} tries to break
+16	ref	goyu pume	5	yes	0	{it} sits thinking
+17	ref	momu isi tun guyi	10	yes	0	{it} wants to go to the house
+18	ref	muge	3	yes	0	{it} does
+19	ref	muge upe tan	4	yes	0	{it} does this good
+20	ref	muge tan fu upe	2	yes	1	{it} does this like the good
+21	ref	obu	3	yes	0	{it} comes
+22	ref	tin mu kusa	1	yes	0	don't leave
+23	ref	mon minfi , wan obu	2	yes	0	at the noon , she comes
+24	ref	pi tale la , no kuwi guyi , yidu bu la	3	yes	0	as for the cars , the one who protects the house takes them
+25	ref	pi upe yen yomo , wan obu	1	yes	2	as for the good and the bad , she comes
+26	ref	nin	1	fragment	0	during {that}
+27	ref	wo	1	fragment	0	after {that}
+28	ref	ya	1	fragment	0	before {that}
+29	ref	anko	1	fragment	0	until {that}
+30	ref	nuwen	1	fragment	0	without {that}
+31	ref	osa gan tanun tufun	8	yes	1	{it} waters with the sour fruit
+32	ref	sola man gun mon bige pi yolan	1	fragment	0	the road who is at the above of the river
+33	ref	to isi mon wuma wo dili fi	1	yes	0	I go at one day after the tomorrow
+34	ref	gi yu	1	fragment	0	because of what
+35	ref	wo wan la yidu ewo bo	1	fragment	0	after they take some person
+36	ref	se kusa	2	fragment	0	from {it} leaves
+37	ref	nin leso , to sin miya ewo man sigo	2	yes	0	during the morning , I looked the person who returns
+38	ref	to sin miya ewo man sigo nin leso	2	yes	0	I looked the person who returns during the morning
+39	ref	wan doku yen nawi mon guyi	2	yes	0	she works and eats at the house
+40	ref	mon guyi , wan doku yen nawi	2	yes	0	at the house , she works and eats
+41	ref	mole yen wede	2	yes	2	{it} mothers and fathers
+42	ref	wan mu nawi yen wopo	1	yes	0	she doesn't eat and sleeps
+43	ref	to nagu yen yidu bu	1	yes	0	I see and take it
+44	ref	muyi yu	2	yes	1	{it} times what
+45	ref	moti	3	yes	1	{it} agains
+46	ref	nagu me la mon dili mena ufo	1	yes	0	{it} sees you at the day 6
+47	ref	gun nimo	2	yes	0	{it} is the money
+48	ref	bi upe	3	yes	1	{it} very goods
+49	ref	ibe	3	yes	0	{it} has
+50	ref	to nawi pasu , yen wopo	1	yes	0	I eat the food and sleep
+51	ref	wan gun tiwu	2	yes	0	she is the child
+52	ref	wan gun mon guyi	2	yes	0	she is at the house
+53	ref	gun tapi	1	yes	0	{it} is closed
+54	ref	wan gun kuwi	1	yes	0	she is protected
+55	ref	to gun nuta	1	yes	0	I am feared
+56	ref	momu gun tiwu	4	yes	0	{it} wants to be the child
+57	ref	go ibe sogan li gun kuwi	3	yes	0	everybody has the right for {it} is protected
+58	ref	wan obu yen gun simi	2	yes	0	she comes and is sick
+59	ref	ibe pasu	5	yes	0	{it} has the food
+60	ref	mu ibe pasu	5	yes	0	{it} doesn't have the food
+61	ref	un , ibe musu feli	10	yes	0	but , {it} has the many thing
+62	ref	don ibe pasu	4	fragment	0	if {it} has the food
+63	ref	to ibe pasu	3	yes	0	I have the food
+64	ref	me momu wun to oyi yu	1	yes	0	you want that I say what
+65	ref	ewo wifu yu	4	yes	1	{it} persons which number
+66	ref	min wan obu lu wan obu	1	yes	0	does she come ? , or does she come ?
+67	ref	to mu lugo wun min wan obu	1	yes	0	I don't know that whether she comes
+68	ref	to mu lugo wun min ewo yu obu	2	yes	0	I don't know that whether which person comes
+69	ref	guyi kudu	5	yes	1	{it} houses big
+70	ref	tiwu futa	5	yes	1	{it} childs the woman
+71	ref	no wungu futa	2	yes	1	the one who leads womans
+72	ref	yawu gun upe	2	yes	0	ten are good
+73	ref	wuma gun upe	2	yes	0	the tomorrow is good
+74	ref	dili oma	2	yes	1	{it} days seven
+75	ref	kemin mena sa	1	fragment	0	the document 2
+76	ref	gimu mena ka	1	fragment	0	the occasion 3
+77	ref	ewo mena fi	1	fragment	0	the person 1
+78	ref	gimu pi fugi	1	fragment	0	the occasion of the end
+79	ref	fi pi ka	1	fragment	0	one of three
+80	ref	guyi tan	2	yes	1	{it} houses this
+81	ref	ewo bo	1	fragment	0	some person
+82	ref	musu bo	1	fragment	0	some thing
+83	ref	pu nume mesun	1	fragment	0	every place who lives
+84	ref	to iko ben tun wan	1	yes	0	I tell that to her
+85	ref	we	1	fragment	0	all
+86	ref	in	1	fragment	0	some
+87	ref	fa	1	fragment	0	none
+88	ref	kin pi foto la	1	fragment	0	some, not all of the photos
+89	ref	guyi pi en mara	1	fragment	0	the house of mara
+90	ref	enpa pi pume yen enpa pi lite pi nosen	1	fragment	3	the freedom of the thought and the freedom of the way of the God
+91	ref	to ibe guyi pi nen	1	yes	0	I have the house of oneself
+92	ref	guyi man en mara yen to ibe	1	fragment	0	the house that mara and I have
+93	ref	ewo man niba	1	fragment	0	the person who walks
+94	ref	mabo man me la yaga	1	fragment	0	the paper that you put
+95	ref	kemu man to nume mon	2	fragment	0	the place that I live at {that}
+96	ref	yetu man to fonsu gan	2	fragment	0	the tool that I cut with {that}
+97	ref	ewo man guyi pi wan gun kudu	2	fragment	0	the person whose house is big
+98	ref	guyi man beya pi bu gun tapi	1	fragment	0	the house whose door is closed
+99	ref	ewo man nagu	1	fragment	0	the person who sees
+100	ref	to sin miya ewo man sigo kiyo nin leso	2	yes	0	I looked the person who returns during the morning
+101	ref	no febo	1	fragment	0	the one who answers
+102	ref	ge iko	1	fragment	0	the thing who tells
+103	ref	du bubo	1	fragment	0	the tool who laughs
+104	ref	pu niba	1	fragment	0	the place who walks
+105	ref	du kuwi pi to	1	fragment	0	the tool who protects of me
+106	ref	no isi se guyi	3	fragment	0	the one who goes from the house
+107	ref	du siten mawun	5	yes	1	the tool who cooks flats
+108	ref	du siten mawun kiyo tikun	6	yes	1	the tool who cooks flatly hots
+109	ref	ewo man gun tofo	1	fragment	0	the person who is taught
+110	ref	pu pi mabo	1	fragment	0	the place of the paper
+111	ref	no obu se yaye	3	fragment	0	the one who comes from the sky
+112	ref	mu upe	3	yes	1	{it} doesn't good
+113	ref	yomo	3	yes	1	{it} bads
+114	ref	kon bo wan obu	1	yes	0	{maybe} she comes
+115	ref	kon ka yawu pi loki wan obu	1	yes	0	{ 30 in 100 } she comes
+116	ref	na mon funti , wan obu	2	yes	0	only at the group , she comes
+117	ref	wan doku mu mon guyi	2	yes	0	she works not at the house
+118	ref	to mu yidu bu	1	yes	0	I don't take it
+119	ref	to mu ibe totu fa	2	yes	0	I don't have no dog
+120	ref	o en tomas sin yidu bu	1	yes	0	INDEED tomas took it
+121	ref	to o unfu	1	yes	0	I INDEED pay
+122	ref	ke kudu	3	yes	1	{it} more bigs
+123	ref	nimo ke uyo	3	yes	1	the money more fews
+124	ref	so to nagu	1	yes	0	let I see
+125	ref	so nosen kuwi me	2	yes	0	let the God protect you
+126	ref	genso min me lugo	1	yes	0	{not literally} do you know ?
+127	ref	wan sin oyi bu , a min	1	yes	0	she said it , you know right?
+128	ref	mon wuma , gegi muwo	10	yes	0	at the tomorrow , the rain happens
+129	ref	to sin le nawi	1	yes	0	I was eating
+130	ref	to le mu nawi	1	yes	0	I don't yet eat
+131	ref	to mu sin nawi	1	yes	0	I didn't eat
+132	ref	gan momu	2	fragment	0	with {it} wants
+133	ref	mu gan momu	2	fragment	0	not with {it} wants
+134	ref	gimu sa	2	yes	1	{it} occasions two
+135	ref	wuma wo dili fi	1	fragment	0	one day after the tomorrow
+136	ref	wo nelon fi	2	fragment	0	after one week
+137	ref	ya dunan fi	2	fragment	0	before one month
+138	ref	awuwa ka	2	yes	1	{it} hours three
+139	ref	nin dili oma	2	fragment	0	during seven days
+140	ref	to nume fawu ka yawu	1	yes	0	I live thirty years
+141	ref	mon po mape ka po	1	fragment	0	at 09:30
+142	ref	mon sa fi ka po	1	fragment	0	at 21:30
+143	ref	mon mape ka po pi yami	1	fragment	0	at 9:30 of the night
+144	ref	mon yawu po sa	1	fragment	0	at 10:02
+145	ref	mon yawu sa	1	fragment	0	at twelve
+146	ref	mon fu minfi	1	fragment	0	at about the noon
+147	ref	dili mena ka	1	fragment	0	the day 3
+148	ref	dili mena ka pi dunan	1	fragment	0	the day 3 of the month
+149	ref	dili mena ka pi isi	1	fragment	1	the day 3 of the go
+150	ref	dunan mena yawu , dili mena mape	1	fragment	0	the month 10 , the day 9
+151	ref	fawu mena sa po sa ufo	1	fragment	0	the year 2026
+152	ref	dili mena yawu da	1	fragment	0	the day 14
+153	ref	ewo fu ka yawu	3	yes	1	{it} persons like thirty
+154	ref	ke kudu se guyi ben	5	yes	1	{it} more bigs from that house
+155	ref	ke kudu se we	3	yes	1	{it} more bigs from all
+156	ref	ke meli	3	yes	1	{it} more smalls
+157	ref	kudu fu bu	2	yes	1	{it} bigs like it
+158	ref	kilometulu te	2	yes	1	{it} kilometres five
+159	ref	no tofo en mara	1	fragment	0	one who teaches mara
+160	ref	no tofo en mara sin oyi	1	yes	0	one who teaches mara said
+161	ref	lanno en olusegun	1	fragment	0	honoured one olusegun
+162	ref	lanno faba pi wede	2	fragment	0	the honoured sibling of the father
+163	ref	lanno , so nun wan obu	1	yes	0	sir/madam , {politely} let she come
+164	ref	lanno sin oyi	1	yes	0	the honoured one said
+165	ref	so nun wan obu	1	yes	0	{politely} let she come
+166	ref	yo nun osa le obu	1	yes	0	{warning} {politely} the water is coming
+167	ref	fon nun pen wupi isi	3	yes	0	{advice} {politely} we need to go
+168	ref	upe leso	5	yes	1	{it} goods the morning
+169	ref	upe isi	5	yes	1	{it} goods going
+170	ref	wan	1	fragment	0	she
+171	ref	wan nagu yi	1	yes	0	she sees him
+172	ref	bu	1	fragment	0	it
+173	ref	me momu bu lu ben , yu	1	yes	0	you want it or that , which?
+174	ref	ben gun upe	2	yes	0	that is good
+175	ref	to kuwi nen	1	yes	0	I protect oneself
+176	ref	wan nen obu	1	yes	0	she in person comes
+177	ref	me la	1	fragment	0	you
+178	ref	en xi_jinping sin oyi	1	yes	0	xi_jinping said
+179	ref	en cuerpo_de_paz kiyo sin obu	1	yes	0	cuerpo_de_paz came
+180	ref	guyi man en mara sin miya kiyo gun kudu	2	yes	0	the house that mara looked is big
+181	ref	to sin ditun bu mon en google	1	yes	0	I sought it at google
+182	ref	doku	3	yes	0	{it} works
+183	ref	don kon po to sin isi , to sin nagu wan	1	yes	0	if { 0 in 6} I went , I saw her
+184	ref	lenu	3	yes	0	{it} cans
+185	ref	keya	3	yes	0	{it} musts
+186	ref	wupi	3	yes	0	{it} needs
+187	ref	efon	3	yes	0	{it} allows
+188	ref	me gun efon nawi	1	yes	0	you are allowed to eat
+189	ref	li bika	2	fragment	0	for {it} buys
+190	ref	to doku anko kegin	2	yes	0	I work until the evening
+191	ref	wan obu nuwen nimo	2	yes	0	she comes without the money
+192	ref	se	1	fragment	0	from {that}
+193	ref	kuwi wan se ben	1	yes	0	{it} protects her from that
+194	ref	ninsu	3	yes	0	{it} opposes
+195	ref	gufu	3	yes	1	{it} hards
+196	udhr	ewo mesun pi yonyo pi ewo we ibe bawe pi ewo gi wan gun ewo	2	yes	1	every person of the family of every person has the importantness of the person because she is the person
+197	udhr	ewo we fe ibe sogan kige	6	yes	0	every person also has the same right
+198	udhr	go mu lenu yidu bu la se wan	2	yes	0	everybody doesn't can to take them from her
+199	udhr	mon fowo minwe , yinki pi enpa gun wun ewo we tayu tan	10	yes	1	at the whole ground , the root of the freedom is that every person agrees this
+200	udhr	ben fe gun yinki pi kidun , yen gun yinki pi bonwi	1	yes	1	that also is the root of the fair and is the root of the peace
+201	udhr	ewo la mu dundi sogan pi ewo	1	yes	1	the people don't respect the right of the person
+202	udhr	wan la fe bebu bu la	1	yes	0	they also disgust them
+203	udhr	gi tan , wan la sin muge musu bi yomo	4	yes	0	so , they did the very bad thing
+204	udhr	ewo la ganin wun fowo minwe lewe upe	9	yes	0	the people hope that the whole ground becomes well
+205	udhr	mon fowo tan , go oyi enpa , yen go ibe ge pume feko fu enpa	22	yes	2	at this ground , everybody says the freedom , and everybody has the thing who thinks as true as the freedom
+206	udhr	mon bu , go fe mu nuta yen ibe tonya	4	yes	0	at it , everybody also doesn't fear and has the enough
+207	udhr	migi tan gun lite fugi	1	yes	2	this fight is the ending way
+208	udhr	ewo we keya yema li gigin la lewe sonu pi nen nen	23	yes	0	every person musts to help for the countries become the friend of each other
+209	udhr	wan la fe sin waka yema li ewo we guge	9	yes	0	they also chose to help for every person grows
+210	udhr	wan la fe sin waka yema li ewo we nume ke upe	10	yes	1	they also chose to help for every person lives more the good
+211	udhr	wan la fe sin waka yema li ewo we ibe enpa ke feli	17	yes	1	they also chose to help for every person has the more many freedom
+212	udhr	ewo la we yen gigin we ibe kemin tan fu ge momu kige	10	yes	0	the people and every country have this document like the same thing who wants
+213	udhr	so ewo mesun yen funti mesun pi ewo we imu kemin tan nin muyi we	4	yes	0	let every person and every group of every person remember this document during every time
+214	udhr	so wan la walo gan tofo li go ke dundi sogan la tan	4	yes	1	let they try with {it} teaches for everybody more respects these rights
+215	udhr	so gigin la fe doku gan nen nen li tan	2	yes	0	let the countries also work with each other for this
+216	udhr	so ewo we fe kuwi bu la mon kemu man gigin la tan wungu	1	yes	0	let every person also protect them at the place that these countries lead
+217	udhr	ewo we tuko nume gan enpa , yen wan la ibe bawe kige yen sogan kige	130	yes	2	every person starts to live with the freedom , and they have the same importantness and the same right
+218	udhr	wan la lenu pume , yen lenu lugo musu upe yen musu yomo	44	yes	1	they can the thought and can to know the good thing and the bad thing
+219	udhr	wan la keya muge nen nen fu faba la	6	yes	0	they must to do each other like the siblings
+220	udhr	go ibe sogan we pi kemin tan	2	yes	0	everybody has every right of this document
+221	udhr	musu fa kubo tan	2	yes	0	no thing changes this
+222	udhr	nume yen enpa yen sonli gun sogan pi go	3	yes	2	{it} lives , and the freedom and the safe are the right of everybody
+223	udhr	go mu gun efon yonnu ewo li doku mu enpa	12	yes	1	everybody isn't allowed to hold the person for the not free work
+224	udhr	go fe mu gun efon ibe ewo , lu bika ewo , lu koda ewo	4	yes	0	everybody also isn't allowed to have the person or buys the person or sells the person
+225	udhr	tan gun feko li niki mesun	4	yes	0	this is true for every kind
+226	udhr	go mu gun efon muge bi wekun go gan momu	4	yes	1	everybody isn't allowed to do everybody very paining with {it} wants
+227	udhr	tan gun feko wi li wekun pi wabun	2	yes	1	this is true even for the pain of the law
+228	udhr	mon kemu we , go ibe sogan li gun ewo li wabun	30	yes	0	at every place , everybody has the right for {it} is the person for the law
+229	udhr	pu pi wabun la keya doma wan nin ewo we lenu nagu	20	yes	0	the places of the law must to listen her during every person cans to see
+230	udhr	pu pi wabun la tan keya gun kige li we , yen keya gun enpa	48	yes	0	these places of the law must to be same for all and must to be free
+231	udhr	tan gun kige li ewo we	6	yes	0	this is same for every person
+232	udhr	tan gun feko anko pu pi wabun la wuye wun yi sin alun bu	4	yes	0	this is true until the places of the law show that he broke it
+233	udhr	pu pi wabun la keya wuye ben fu wabun mon doma man ewo we lenu nagu	40	yes	2	the places of the law must to show that like the law at the listen that every person cans the see
+234	udhr	go ibe sogan li wabun la kuwi wan se ben	4	yes	0	everybody has the right for the laws protect her from that
+235	udhr	go ibe sogan li kobi enpa mon bese pi gigin man wan piyi mon	102	yes	0	everybody has the right for {it} moves freely at the inside of the country that she stays at {that}
+236	udhr	wan fe ibe sogan li nume enpa mon bese pi bu	39	yes	0	she also has the right for {it} lives freely at the inside of it
+237	udhr	go ibe sogan li kusa gigin mesun yen wi gigin pi nen	12	yes	0	everybody has the right for {it} leaves every country and even the country of oneself
+238	udhr	wan fe ibe sogan li sigo tun gigin pi nen	18	yes	0	she also has the right for {it} returns to the country of oneself
+239	udhr	wan fe ibe sogan li nume mon pu sonli tan	30	yes	1	she also has the right for {it} lives at this place who safes
+240	udhr	go ibe sogan li gun ewo pi gigin bo	3	yes	0	everybody has the right for {it} is the person of some country
+241	udhr	don lowu lu futa sin guge , wan ibe sogan li bedan	7	yes	0	if the man or the woman grew , she has the right for {it} marries
+242	udhr	wan fe ibe sogan li tuko yonyo	18	yes	0	she also has the right for {it} starts the family
+243	udhr	lowu yen futa ibe sogan kige li bedan	23	yes	0	the man and the woman have the same right for {it} marries
+244	udhr	wan la fe ibe sogan kige nin bedan	13	yes	0	they also have the same right during {it} marries
+245	udhr	wan la fe ibe sogan kige mon fugi pi bedan	11	yes	1	they also have the same right at the end of the marrying
+246	udhr	ewo sa lenu bedan na don wan la nen tayu enpa yen minwe	12	yes	1	two people can to marry only if they in person agree freely and whole
+247	udhr	yonyo gun funti meli man muwo gi go gun ewo	2	yes	0	the family is the small group who happens because everybody is the person
+248	udhr	go ibe sogan li ibe musu nuwen ewo eni	120	yes	0	everybody has the right for {it} has the thing without the other person
+249	udhr	wan fe ibe sogan li ibe musu gan ewo eni	120	yes	0	she also has the right for {it} has the thing with the other person
+250	udhr	don wabun denku mu efon , go mu gun efon yidu musu pi wan se wan	4	yes	0	if the correct law doesn't allow , everybody isn't allowed to take the thing of her from her
+251	udhr	go ibe sogan li pume enpa	18	yes	0	everybody has the right for {it} thinks freely
+252	udhr	pi upe yen yomo , wan fe ibe sogan li pume enpa	18	yes	2	as for the good and the bad , she also has the right for {it} thinks freely
+253	udhr	wan fe ibe sogan li ibe lite pi nosen lu ge pume feko fu enpa	110	yes	1	she also has the right for {it} has the way of the God or the thing who thinks as true as the freedom
+254	udhr	sogan tan fe gun sogan li kubo lite pi nosen lu ge pume feko	35	yes	0	this right is also the right for {it} changes the way of the God or the true thing who thinks
+255	udhr	wan fe ibe sogan li wuye lite pi nosen lu ge pume feko fu enpa	110	yes	1	she also has the right for {it} shows the way of the God or the thing who thinks as true as the freedom
+256	udhr	wan lenu muge ben nuwen ewo eni	10	yes	0	she cans to do that without the other person
+257	udhr	wan fe lenu muge ben gan ewo eni	10	yes	0	she also cans to do that with the other person
+258	udhr	wan lenu muge ben mon kemu kunsu , lu muge ben mon kemu mu kunsu	36	yes	0	she cans to do that at the private place or does that at the not private place
+259	udhr	tofo yen muge yen dundi nosen yen kuwi gun lite man go wuye bu la gan	30	yes	1	{it} teaches and does , and the respect gods and protects to be the way that everybody shows them with {that}
+260	udhr	wan lenu muge tan gan du iko we	4	yes	0	she cans to do this with every tool who tells
+261	udhr	lifin pi gigin la mu bamo ben	1	yes	0	the between of the countries doesn't stop that
+262	udhr	go ibe sogan li fanmu enpa gan bonwi	46	yes	0	everybody has the right for {it} gathers freely with the peace
+263	udhr	wan fe ibe sogan li selo funti gan bonwi	46	yes	0	she also has the right for {it} builds the group with the peace
+264	udhr	wan fe ibe sogan li inwa funti fu enpa	41	yes	1	she also has the right for {it} enters the group like the freedom
+265	udhr	go mu keya inwa funti	5	yes	0	everybody doesn't must to enter the group
+266	udhr	ewo eni mu gun efon oyi wun wan keya inwa funti bo	3	yes	0	the other person isn't allowed to say that she musts to enter some group
+267	udhr	go ibe sogan li wungu gigin pi nen gan ewo eni	53	yes	0	everybody has the right for {it} leads the country of oneself with the other person
+268	udhr	go ibe sogan kige li inwa doku man yema ewo we pi gigin pi wan	63	yes	1	everybody has the same right for {it} enters the work who helps every person of the country of her
+269	udhr	lula pi no wungu la keya obu se ge momu pi ewo la pi gigin	7	yes	0	the power of the ones who lead musts to come from the thing who wants of the people of the country
+270	udhr	ewo la keya lenu wuye ge momu tan gan waka feko pi no wungu la	12	yes	1	the people must to can to show this thing who wants with the true choosing of the ones who lead
+271	udhr	waka tan keya muwo moti moti	8	yes	1	this choosing musts to happen the again the again
+272	udhr	nin waka tan , ewo we ibe sogan kige li waka	32	yes	0	during {it} chooses this , every person has the same right for {it} chooses
+273	udhr	wan fe ibe sogan man gun fu nimo	2	yes	0	she also has the right who is like the money
+274	udhr	wan fe ibe sogan man gun fu ewo we	2	yes	0	she also has the right who is like every person
+275	udhr	wan fe ibe sogan man gun fu lite pi nume pi funti	1	yes	1	she also has the right who is like the way of the living of the group
+276	udhr	wan wupi bu la li kuwi bawe pi nen	2	yes	1	she needs them for the important protecting of oneself
+277	udhr	wan fe wupi bu la li guge enpa	5	yes	0	she also needs them for {it} grows freely
+278	udhr	gigin pi wan doku li tan , yen gigin la doku gan nen nen li tan	2	yes	0	the country of her works for this , and the countries work with each other for this
+279	udhr	go ibe sogan li doku	7	yes	0	everybody has the right for {it} works
+280	udhr	wan fe ibe sogan li waka doku pi nen fu enpa	20	yes	2	she also has the right for {it} chooses the work of oneself like the freedom
+281	udhr	wan fe ibe sogan li doku man gun kidun yen upe	10	yes	2	she also has the right for the work who goods
+282	udhr	wan fe ibe sogan li gigin kuwi wan se mu ibe doku	40	yes	0	she also has the right for the country protects her from {it} doesn't have to work
+283	udhr	don ewo la doku kige , wan la ibe sogan li nimo kige	54	yes	0	if the people work samely , they have the right for the same money
+284	udhr	tan gun kige li we	3	yes	0	this is same for all
+285	udhr	ewo man doku , ibe sogan li nimo man gun kidun yen upe	10	yes	1	the person who works has the right for the money who goods
+286	udhr	wan yen yonyo pi wan keya lenu nume gan bawe pi ewo gan nimo tan	53	yes	1	she and the family of her must to can to live with the importantness of the person with this money
+287	udhr	don wan wupi bu , ewo we yen gigin fe keya yema wan fu lite eni	15	yes	0	if she needs it , every person and the country also must to help her like the other way
+288	udhr	go ibe sogan li selo funti pi no doku la gan ewo eni	58	yes	0	everybody has the right for {it} builds the group of the ones who work with the other person
+289	udhr	wan fe ibe sogan li inwa funti pi no doku la	11	yes	0	she also has the right for {it} enters the group of the ones who work
+290	udhr	wan lenu muge tan li kuwi upe pi nen	4	yes	1	she cans to do this for the good protecting of oneself
+291	udhr	go ibe sogan li yenbo	7	yes	0	everybody has the right for {it} rests
+292	udhr	wan fe ibe sogan li ibe muyi enpa	36	yes	0	she also has the right for {it} has the free time
+293	udhr	tan fe gun wun wan mu keya doku awuwa bi feli	5	yes	0	this is also that she doesn't must to work the very many hour
+294	udhr	tan fe gun wun wan ibe dili enpa gan nimo moti moti	61	yes	1	this is also that she has the free day with the money the again again
+295	udhr	go yen yonyo pi wan ibe sogan li ibe tonya li nume upe	120	yes	0	everybody and the family of her have the right for {it} has the enough for {it} lives well
+296	udhr	tan fe gun wun wan la ibe tonya li gawo upe	18	yes	0	this is also that they have the enough for the good body
+297	udhr	tan fe gun wun wan la ibe pasu yen lonne yen guyi	3	yes	0	this is also that they have the food and the clothes and the house
+298	udhr	tan fe gun wun ewo we yen gigin yema wan la nin wan la simi	1	yes	1	this is also that every person and the country help them during they sick
+299	udhr	tan fe gun wun ewo we yen gigin yema wan la nin wan la wupi bu	1	yes	0	this is also that every person and the country help them during they need it
+300	udhr	go ibe sogan li yesa	7	yes	0	everybody has the right for {it} learns
+301	udhr	go mu keya unfu li konsin tofo pi tuko	5	yes	2	everybody doesn't must to pay for at least the teaching of the start
+302	udhr	tiwu we keya dunu tofo pi tuko	4	yes	2	every child musts to get the teaching of the start
+303	udhr	ewo we keya lenu dunu tofo pi doku	7	yes	2	every person musts to can to get the teaching of the work
+304	udhr	ewo we fe keya lenu inwa tofo tisan fu lenu pi nen fu kige	54	yes	2	every person also musts to can to enter to teach the high like the can of oneself like the sameness
+305	udhr	tofo keya yema li ewo guge minwe	92	yes	0	{it} teaches to must to help for the person grows wholely
+306	udhr	bu fe keya yema li go ke dundi sogan pi ewo yen enpa bawe	6	yes	2	it also musts to help for everybody more respects the right of the person and the important freedom
+307	udhr	tan fe gun feko li funti we pi niki pi ewo	8	yes	0	this is also true for every group of the kind of the person
+308	udhr	bu fe keya yema doku pi funti pi gigin la li kuwi bonwi	15	yes	1	it also musts to help the work of the group of the countries for {it} protects the peace
+309	udhr	mole yen wede ibe sogan li waka niki pi tofo pi tiwu pi nen	48	yes	1	the mother and the father have the right for {it} chooses the kind of the teaching of the child of oneself
+310	udhr	waka pi wan la gun ke bawe se waka pi ewo eni	6	yes	2	the choosing of them is more important than the choosing of the other person
+311	udhr	wan fe ibe sogan li tana ge muge li sesa	20	yes	1	she also has the right for {it} likes the thing who does for the beautifulness
+312	udhr	wan fe ibe sogan li inwa guge pi lugo	10	yes	2	she also has the right for {it} enters the growing of the know
+313	udhr	wan fe ibe sogan li dunu upe pi guge tan	11	yes	2	she also has the right for the good get of this growing
+314	udhr	wan fe ibe sogan li wabun la kuwi nimo man wan dunu se bu	7	yes	0	she also has the right for the laws protect the money that she gets from it
+315	udhr	go ibe sogan li yile man sogan we pi kemin tan lenu lewe feko minwe mon	50	yes	1	everybody has the right for the system that every right of this document cans the whole true becoming at {that}
+316	udhr	yile tan gun yile pi ewo we , yen gun yile lifin pi gigin la	1	yes	1	this system is the system of every person and is the between system of the countries
+317	udhr	go lenu guge enpa yen minwe na mon funti	10	yes	1	everybody cans to grow freely and wholes only at the group
+318	udhr	gi tan , go ibe ge keya li funti man wan nume mon	8	yes	0	so , everybody has the thing who musts for the group that she lives at {that}
+319	udhr	wabun la gun efon muge ben na li ukun sa	2	yes	0	the laws are allowed to do that only for two reasons
+320	udhr	ukun fi gun wun go tayu sogan pi ewo eni , yen dundi bu la	4	yes	1	one reason is that everybody agrees the right of the other person and respects them
+321	casual-01	upe , lanno	4	yes	1	{it} goods , sir/madam
+322	casual-01	to upe , lanno	1	yes	1	I good , sir/madam
+323	casual-01	me ibe batu yu	2	yes	0	you have which problem
+324	casual-01	tiwu pi to gun simi	2	yes	0	the child of me is sick
+325	casual-01	wan gun simi fu yu	3	yes	0	she is as sick as what
+326	casual-01	wan ibe wekun pi suyon , yen le gabu	1	yes	1	she has the pain of the belly and is vomitting
+327	casual-01	wan feme tikun lu weki , yu	3	yes	1	she feels hotly or cold-shoulders , which?
+328	casual-01	wan feme bi tikun , yen fe susin	1	yes	1	she feels very the hotness and also shakes
+329	casual-01	wan sin tuko mon muyi yu	2	yes	0	she started at which time
+330	casual-01	wan sin tuko ya dili sa	2	yes	0	she started before two days
+331	casual-01	min wan desin fu osa	2	yes	0	does she defecate like the water ?
+332	casual-01	wan fe desin fu osa	2	yes	0	she also defecates like the water
+333	casual-01	wan nume fawu wifu yu	3	yes	0	she lives the year which number
+334	casual-01	wan nume fawu ka yen dunan ufo	1	yes	0	she lives three years and six months
+335	casual-01	pi du yema simi , wan koye ladon meli fi , gimu ka mon dili mesun	8	yes	0	as for the sick tool who helps , she drinks one small cup three occasions at every day
+336	casual-01	wan koye nin nelon fi , yen to nagu wan moti wo nelon fi	3	yes	0	she drinks during one week , and I see her one week after the again
+337	casual-01	to unfu nimo wifu yu	4	yes	0	I pay the money which number
+338	casual-01	me unfu wo tiwu feme upe	7	yes	0	you pay after the child feels well
+339	casual-01	lota	3	yes	0	{it} thanks
+340	casual-02	pume , mole	6	yes	0	{it} thinks , mother
+341	casual-02	tan gun fu yegon man pen sin dunu mon gimu pi fugi	2	yes	0	this is like the rice that we got at the occasion of the end
+342	casual-02	wemen bu mu gun tonya li unfu pu yesa pi tiwu la	2	yes	0	{it seems} it isn't the enough for {it} pays the place who learns of the children
+343	casual-02	pen sin dunu yegon wifu yu , wede	7	yes	0	we got the rice which number , father
+344	casual-02	gun tanbu , wede	2	yes	0	{it} is cheap , father
+345	casual-02	pen dunu nimo se kemu yu , li unfu pu yesa pi tiwu la	3	yes	1	we get the money from {it} places what for {it} pays the place who learns of the children
+346	casual-02	gi tan , pen muge yu , wede	2	yes	0	so , we do what , father
+347	casual-02	pen muge yu	1	yes	0	we do what
+348	casual-02	wuma , don me tayu , de to mido lanno en teguh , wede	3	yes	0	tomorrow , if you agree , {I commit} I ask honoured one teguh , father
+349	casual-02	upe , mole	6	yes	1	{it} goods , mother
+350	casual-02	lota	3	yes	0	{it} thanks
+351	casual-03	lanno en hugo le mu liwon	1	yes	0	honoured one hugo doesn't yet arrive
+352	casual-03	min to neke me osa tago meli	1	yes	0	do I give you the small black water ?
+353	casual-03	bunwu sinta wifu yu	7	yes	1	the salt sweets which number
+354	casual-03	go mu lugo	1	yes	0	everybody doesn't know
+355	casual-03	wan mu ibe wabun pi muyi , un kon ufo wan obu	1	yes	0	she doesn't have the law of the time , but { 6 in 6} she comes
+356	casual-03	nun me obu se kemu yu	2	yes	0	{politely} you come from which place
+357	casual-04	gun tikun , yen yaye ibe lanba feli	12	yes	1	{it} is the hotness , and the sky has the many cloud
+358	casual-04	feko	3	yes	1	{it} trues
+359	casual-04	yaye gun bi yomo , yen manni gun fu tan nin muyi pi gegi	1	yes	1	the sky is very the bad and usually is like this during the time of the rain
+360	casual-04	min me pume wun gegi buntu muwo	1	yes	0	do you think that the rain about to happens ?
+361	casual-04	yen , min me tana ben	1	yes	0	also , do you like that ?
+362	casual-04	tana	3	yes	0	{it} likes
+363	casual-04	nin gegi muwo , din doku mon sekan , yen dunu ge guge upe	50	yes	0	during the rain happens , we work at the field and get the good thing who grows
+364	casual-04	ben gun feko	2	yes	0	that is true
+365	casual-04	gi gegi , tunmu yen wonin la fe guge moti , yen kemu gun sesa	6	yes	1	because {it} rains , the grass and the leaves also grow the again , and the place is beautiful
+366	casual-04	nuwen bu , we lewe kilan	3	yes	0	without it , all becomes drily
+367	casual-05	nun upe kegin	4	yes	1	{politely} {it} goods the evening
+368	casual-05	to le doma me la	1	yes	0	I am listenning you
+369	casual-05	nun me pume wun din wupi nawi yu	2	yes	0	{politely} you think that we need to eat what
+370	casual-05	din ibe tika tago pi woga	3	yes	0	we have the black egg of the fish
+371	casual-05	ibe pinfe bewon pi kemu tan	5	yes	0	{it} has the raw plant of this place
+372	casual-05	to pume wun me la tana bu	1	yes	0	I think that you like it
+373	casual-05	pi to , tika pi woga	1	fragment	0	as for I , the egg of the fish
+374	casual-05	yen , pi to , pinfe bewon pi kemu tan	2	yes	2	also , as for I , {it} plants the raw of this place
+375	casual-05	min me la nawi pasu wulon	5	yes	0	do you eat the wet food ?
+376	casual-05	to momu walo pasu wulon wiwi pi en rossiya	9	yes	0	I want to try the red wet food of rossiya
+377	casual-05	pi to , so nun woga	1	yes	1	as for I , {politely} please fish
+378	casual-05	de to yidu fuyu pi lumi	1	yes	0	{I commit} I take the meat of the fire
+379	casual-05	me la koye yu	1	yes	0	you drink what
+380	casual-05	so nun osa wiwi pi tanun	1	yes	2	{politely} please water the red of the fruit
+381	casual-05	osa tago lu osa pi wonin , yu	2	yes	2	{it} waters the black or the water of the leaf , which?
+382	casual-05	pi to , osa tago yen sowe sinta	15	yes	1	as for I , the black water and the bread sweet
+383	casual-05	min tan gun we	1	yes	0	is this all ?
+384	casual-05	to pume wun gun we	1	yes	0	I think that {it} is all
+385	casual-05	sowe	3	yes	1	{it} breads
+386	casual-05	so nun dinyo sowe tago	9	yes	0	{politely} please carry the black bread
+387	casual-05	upe	3	yes	1	{it} goods
+388	casual-05	eda , de to dinyo we	1	yes	0	now , {I commit} I carry all
+389	casual-05	so nun neke din ge sunbu	1	yes	0	{politely} please give us the thing who counts
+390	casual-05	lota	3	yes	0	{it} thanks
+391	casual-05	we sin ibe tenmi bi upe	3	yes	1	all had the very good taste
+392	casual-05	mu wupi muge sigo nimo	20	yes	0	{it} doesn't need to do to return the money
+393	casual-05	nun lota me	1	yes	0	{politely} {it} thanks you
+394	casual-06	tin mu yaga pasu tason tikun mon nansa weki , min	37	yes	0	don't put the rather hot food at the cold box , right?
+395	casual-06	wan fe oyi musu kige nin din bika musu tason tikun se pu koda	48	yes	0	she also says the same thing during we buy the rather hot thing from the place who sells
+396	casual-06	batu gun yu	1	yes	0	the problem is what
+397	casual-06	min kubo ke yobe pi tikun muge yomo pasu fu lite bo	22	yes	2	does the more fast change of the hotness do the food bad like some way ?
+398	casual-06	lota	3	yes	0	{it} thanks
+399	casual-07	gi yu gun bi mange , faba	8	yes	1	because what is very quiet , {it} siblings
+400	casual-07	so o me la oyi gason bo	1	yes	0	let INDEED you say some idea
+401	casual-07	yen , kegu tan pi no ibe lula , le muwo anko muyi yu	6	yes	1	also , this talk of the one who has the power is happenning until which time
+402	casual-07	min ibe gason bo	1	yes	0	does {it} have some idea ?
+403	casual-07	lota gi me imu to	1	yes	0	{it} thanks because you remember me
+404	casual-07	nagu , to sin alun mange	3	yes	1	see , I broke quietly
+405	casual-07	so nun yidu upe la man gun mon deba	2	yes	1	{politely} please take the goods who are at the below
+406	casual-07	to fe sin sege lanno en mitul , ge tusi fu ben	2	yes	0	I also sent honoured one mitul the thing who writes like that
+407	casual-07	un , doku la muwo na mon muyi pi nen	1	yes	1	but , the works happen only at the time of oneself
+408	casual-08	pen sin kegu tonya fu bu mon bige	6	yes	0	we talked the enough like it at the above
+409	casual-09	upe , sonu la	1	fragment	1	good , the friends
+410	casual-09	wi don wemen bu gun lenya , go manni bone apu tan mon doku pi nimo	4	yes	1	even if {it seems} it is strange , everybody usually uses to language this at the work of the money
+411	casual-10	lota gi me yebin to , faba en alaa	1	yes	0	{it} thanks because you call me sibling alaa
+412	casual-10	upe tun me	2	yes	1	{it} goods to you
+413	casual-10	lota gi me yebin to	1	yes	0	{it} thanks because you call me
+414	casual-21	nun me wupi yu , no bika pi to	1	yes	0	{politely} you need what the one who buys of me
+415	casual-21	min me la ibe en tetoron	1	yes	0	do you have tetoron ?
+416	casual-21	nun ibe	1	yes	0	{politely} {it} has
+417	casual-21	nun me momu niki yu	2	yes	0	{politely} you want which kind
+418	casual-21	pinda	3	yes	1	{it} whites
+419	casual-21	li lonne pi pu yesa	1	fragment	0	for the clothes of the place who learns
+420	casual-21	tin nun miya demi tan	3	yes	0	{politely} look this cloth
+421	casual-21	nun ben gun en tetoron pi niki mena fi	1	yes	0	{politely} that is tetoron of the kind 1
+422	casual-21	min nun niki eni ben man gun tason tanbu	4	yes	1	{politely} does the kind other that , who is rather cheap , ?
+423	casual-21	sanne pi demi tan gun eni	2	yes	1	the touch of this cloth is other
+424	casual-21	mu windi fu ben	2	yes	1	{it} doesn't smooth like that
+425	casual-21	tason nilen	3	yes	1	{it} rather roughs
+426	casual-21	nun to mu neke me niki yomo	1	yes	0	{politely} I don't give you the bad kind
+427	casual-23	nun ben gun ewo yu	1	yes	0	{politely} that is which person
+428	casual-23	ben gun wede pi to	1	yes	0	that is the father of me
+429	casual-23	gawo pi wan gun fu yu	1	yes	0	the body of her is like what
+430	casual-23	min nun me sin isi gan wan tun pu yema simi	5	yes	0	{politely} did you go with her to the sick place who helps ?
+431	casual-23	nun to sin isi gan wan mon afe	2	yes	0	{politely} I went with her at the yesterday
+432	casual-23	no yema simi , sin oyi yu	3	yes	0	the one who helps sickly said what
+433	casual-23	min wan sin neke du yema simi bo	3	yes	0	did she give some sick tool who helps ?
+434	casual-23	nun sin neke	1	yes	0	{politely} {it} gave
+435	casual-23	we buntu lewe upe	3	yes	0	all about to becomes well
+436	casual-23	tin nun mu nuta	1	yes	0	{politely} don't fear
+437	casual-23	so nun nosen kuwi din	2	yes	0	{politely} let the God protect us
+438	casual-23	nun dunsa pi me ibe simi yu	2	yes	1	{politely} the cow of you has which sick
+439	casual-23	nun go oyi wun bu gun en komari	1	yes	0	{politely} everybody says that it is komari
+440	casual-23	min nun me sin isi gan wan tun pu yema noso simi	10	yes	0	{politely} did you go with her to the place who helps the sick animal ?
+441	casual-23	nun mu isi	1	yes	0	{politely} {it} doesn't go
+442	casual-23	pu yema simi , gun bi lini	6	yes	0	the place who helps sickly is very the far
+443	casual-23	min nun to lenu miya dunsa pi me	3	yes	0	{politely} do I can to look the cow of you ?
+444	casual-23	min nun me lugo fu dunsa la	1	yes	0	{politely} do you know like the cows ?
+445	casual-23	to lugo in	1	yes	0	I know some
+446	casual-23	to sin yesa fu yema noso simi	10	yes	0	I learnt like {it} helps the sick animal
+447	casual-23	so nun me yema din gan lite bo	1	yes	0	{politely} let you help us with some way
+448	casual-23	de to muge we man to lenu	1	yes	0	{I commit} I do all , that I can
+449	casual-23	so nun me nume upe	3	yes	0	{politely} let you live well
+450	casual-23	don dunsa tan kono , din agi lite pi nume	2	yes	1	if this cow dies , we lose the way of the living
+451	casual-23	don go kunwa du yema simi tun dunsa , wan lewe upe	39	yes	0	if everybody stabs the sick tool who helps to the cow , she becomes well
+452	casual-24	gi muyi pi meyen sin obu , wemen wan la le wenfe sekan	3	yes	0	because the time of the flower came , {it seems} they are digging the field
+453	casual-24	mon sekan pi en hanguk , ewo la manni guge niki yu	2	yes	0	at the field of hanguk , the people usually grow which kind
+454	casual-24	mon en namhan , yegon le gun pinfe man go guge ke se we , a	1	yes	0	at namhan , the rice is being the plant that everybody grows more from all , you know
+455	casual-24	un , go guge pinfe yu li koda tun gigin eni	26	yes	0	but , everybody grows which plant for {it} sells to the other country
+456	casual-25	min ibe woga tan mon yolan bo pi en west_bengal	3	yes	0	does {it} have this fish at some river of west_bengal ?
+457	casual-25	mon kemin tan , wupi nuton foto mu bawe la man go mu wupi	23	yes	0	at this document , {it} needs to remove the not important photos that everybody doesn't need
+458	casual-25	to tayu	1	yes	0	I agree
+459	casual-25	kemin tan gun tusi fu pume pi en bangladesh	1	yes	1	this document is written like the thought of bangladesh
+460	casual-27	don mu ibe ninsu , to momu kobi kemin tan tun en shorba	16	yes	0	if {it} doesn't have to oppose , I want to move this document to shorba
+461	casual-27	go manni bone suso pi eda na mon en iran	1	yes	0	everybody usually uses the name of the now only at iran
+462	casual-27	to pume wun en shorba gun suso pi pasu tan mon apu pi en arab	1	yes	1	I think that shorba is the name of this food at the language of arab
+463	casual-28	foto deba man wuye muge pasu tan , gun mu denku , min	12	yes	2	the below photo that the show does this food is not correct , right?
+464	casual-28	bu wuye muge pasu tan man go siten gan yunen	8	yes	1	it shows to do this , that everybody cooks with the oil , food
+465	casual-28	ba min foto pi kemin tan wuye muge pasu tan	4	yes	1	{indignantly} does the photo of this document show to do this food ?
+466	casual-28	wanme go muge pasu meli pi osa fu ben	4	yes	0	{seen} everybody does the small food of the water like that
+467	casual-28	go mu manni muge pasu tan fu ben	2	yes	1	everybody doesn't usually do this food like that
+468	casual-28	to mu lugo wun min kemin tan lu ge oyi pi din gun denku	2	yes	0	I don't know that whether this document or the thing who says of us is correct

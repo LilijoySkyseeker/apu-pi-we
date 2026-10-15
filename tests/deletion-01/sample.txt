@@ -1,0 +1,360 @@
+[bu] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   to mu yidu bu
+     = I don't take it
+   to mu yidu
+     = I don't take
+
+[bu] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   to pume wun me la tana bu
+     = I think that you like it
+   to pume wun me la tana
+     = I think that you like
+
+[bu] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   kudu fu bu
+     = {it} bigs like it
+   kudu fu
+     = {it} bigs like {that}
+
+[bu] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   bu fe keya yema doku pi funti pi gigin la li kuwi bonwi
+     = it also musts to help the work of the group of the countries for {it} protects the peace
+   fe keya yema doku pi funti pi gigin la li kuwi bonwi
+     = {it} also musts to help the work of the group of the countries for {it} protects the peace
+
+[de] changed speech act strained=no (commitment -> statement)
+   wuma , don me tayu , de to mido lanno en teguh , wede
+     = tomorrow , if you agree , {I commit} I ask honoured one teguh , father
+   wuma , don me tayu , to mido lanno en teguh , wede
+     = tomorrow , if you agree , I ask honoured one teguh , father
+
+[din] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   so nun neke din ge sunbu
+     = {politely} please give us the thing who counts
+   so nun neke ge sunbu
+     = {politely} please give the thing who counts
+
+[fe] barely  strained=no ('also' / focus lost)
+   tan fe gun feko li funti we pi niki pi ewo
+     = this is also true for every group of the kind of the person
+   tan gun feko li funti we pi niki pi ewo
+     = this is true for every group of the kind of the person
+
+[fu] changed role strained=no (relation word lost)
+   pu pi wabun la keya wuye ben fu wabun mon doma man ewo we lenu nagu
+     = the places of the law must to show that like the law at the listen that every person cans the see
+   pu pi wabun la keya wuye ben wabun mon doma man ewo we lenu nagu
+     = the places of the law must to show that the law at the listen that every person cans the see
+
+[gan] changed role strained=no (relation word lost)
+   wan fe ibe sogan li ibe musu gan ewo eni
+     = she also has the right for {it} has the thing with the other person
+   wan fe ibe sogan li ibe musu ewo eni
+     = she also has the right for {it} has the thing the other person
+
+[gan] changed role strained=no (relation word lost)
+   go ibe sogan li selo funti pi no doku la gan ewo eni
+     = everybody has the right for {it} builds the group of the ones who work with the other person
+   go ibe sogan li selo funti pi no doku la ewo eni
+     = everybody has the right for {it} builds the group of the ones who work the other person
+
+[go] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   mon fowo tan , go oyi enpa , yen go ibe ge pume feko fu enpa
+     = at this ground , everybody says the freedom , and everybody has the thing who thinks as true as the freedom
+   mon fowo tan , go oyi enpa , yen ibe ge pume feko fu enpa
+     = at this ground , everybody says the freedom and has the thing who thinks as true as the freedom
+
+[go] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   go ibe sogan kige li inwa doku man yema ewo we pi gigin pi wan
+     = everybody has the same right for {it} enters the work who helps every person of the country of her
+   ibe sogan kige li inwa doku man yema ewo we pi gigin pi wan
+     = {it} has the same right for {it} enters the work who helps every person of the country of her
+
+[go] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   go lenu guge enpa yen minwe na mon funti
+     = everybody cans to grow freely and wholes only at the group
+   lenu guge enpa yen minwe na mon funti
+     = {it} cans to grow freely and wholes only at the group
+
+[gun] barely  strained=yes (copula; bare state reads as statement or description (4.2.2))
+   tan gun feko li niki mesun
+     = this is true for every kind
+   tan feko li niki mesun
+     = this trues for every kind
+
+[gun] barely  strained=no (copula; bare state reads as statement or description (4.2.2))
+   go ibe sogan li gun kuwi
+     = everybody has the right for {it} is protected
+   go ibe sogan li kuwi
+     = everybody has the right for {it} protects
+
+[gun] barely  strained=yes (copula; bare state reads as statement or description (4.2.2))
+   nun ben gun ewo yu
+     = {politely} that is which person
+   nun ben ewo yu
+     = {politely} that persons what
+
+[la] barely  strained=no (plural is optional (5.2.6))
+   go ibe sogan li wabun la kuwi wan se ben
+     = everybody has the right for the laws protect her from that
+   go ibe sogan li wabun kuwi wan se ben
+     = everybody has the right for the law protects her from that
+
+[la] barely  strained=no (plural is optional (5.2.6))
+   wemen bu mu gun tonya li unfu pu yesa pi tiwu la
+     = {it seems} it isn't the enough for {it} pays the place who learns of the children
+   wemen bu mu gun tonya li unfu pu yesa pi tiwu
+     = {it seems} it isn't the enough for {it} pays the place who learns of the child
+
+[la] barely  strained=no (plural is optional (5.2.6))
+   ewo la keya lenu wuye ge momu tan gan waka feko pi no wungu la
+     = the people must to can to show this thing who wants with the true choosing of the ones who lead
+   ewo la keya lenu wuye ge momu tan gan waka feko pi no wungu
+     = the people must to can to show this thing who wants with the true choosing of the one who leads
+
+[la] barely  strained=no (plural is optional (5.2.6))
+   ewo la mu dundi sogan pi ewo
+     = the people don't respect the right of the person
+   ewo mu dundi sogan pi ewo
+     = {it} persons not the respect the right of the person
+
+[li] changed role strained=yes (relation word lost)
+   go ibe sogan li kusa gigin mesun yen wi gigin pi nen
+     = everybody has the right for {it} leaves every country and even the country of oneself
+   go ibe sogan kusa gigin mesun yen wi gigin pi nen
+     = everybody has the leaving right every country and even the country of oneself
+
+[li] changed role strained=no (relation word lost)
+   wan fe ibe sogan li tana ge muge li sesa
+     = she also has the right for {it} likes the thing who does for the beautifulness
+   wan fe ibe sogan li tana ge muge sesa
+     = she also has the right for {it} likes the beautiful thing who does
+
+[man] changed structure strained=no (relative clause -> main clause / modifier)
+   sola man gun mon bige pi yolan
+     = the road who is at the above of the river
+   sola gun mon bige pi yolan
+     = the road is at the above of the river
+
+[man] changed structure strained=yes (relative clause -> main clause / modifier)
+   ewo man doku , ibe sogan li nimo man gun kidun yen upe
+     = the person who works has the right for the money who goods
+   ewo doku , ibe sogan li nimo man gun kidun yen upe
+     = {it} persons the work the right having for the money who goods
+
+[man] changed structure strained=yes (relative clause -> main clause / modifier)
+   nin leso , to sin miya ewo man sigo
+     = during the morning , I looked the person who returns
+   nin leso , to sin miya ewo sigo
+     = during the morning , I looked to person returning
+
+[min] changed speech act strained=no (question -> statement)
+   min ibe woga tan mon yolan bo pi en west_bengal
+     = does {it} have this fish at some river of west_bengal ?
+   ibe woga tan mon yolan bo pi en west_bengal
+     = {it} has this fish at some river of west_bengal
+
+[mu] changed polarity strained=no ()
+   go fe mu gun efon ibe ewo , lu bika ewo , lu koda ewo
+     = everybody also isn't allowed to have the person or buys the person or sells the person
+   go fe gun efon ibe ewo , lu bika ewo , lu koda ewo
+     = everybody also is allowed to have the person or buys the person or sells the person
+
+[mu] changed polarity strained=no ()
+   wan lenu muge ben mon kemu kunsu , lu muge ben mon kemu mu kunsu
+     = she cans to do that at the private place or does that at the not private place
+   wan lenu muge ben mon kemu kunsu , lu muge ben mon kemu kunsu
+     = she cans to do that at the private place or does that at the private place
+
+[mu] changed polarity strained=no ()
+   mu upe
+     = {it} doesn't good
+   upe
+     = {it} goods
+
+[nin] changed role strained=no (relation word lost)
+   nin leso , to sin miya ewo man sigo
+     = during the morning , I looked the person who returns
+   leso , to sin miya ewo man sigo
+     = morning , I looked the person who returns
+
+[nin] changed role strained=yes (relation word lost)
+   nin dili oma
+     = during seven days
+   dili oma
+     = {it} days seven
+
+[nun] barely  strained=no (politeness only)
+   nun me pume wun din wupi nawi yu
+     = {politely} you think that we need to eat what
+   me pume wun din wupi nawi yu
+     = you think that we need to eat what
+
+[pi] changed role strained=no (relation word lost)
+   min kubo ke yobe pi tikun muge yomo pasu fu lite bo
+     = does the more fast change of the hotness do the food bad like some way ?
+   min kubo ke yobe tikun muge yomo pasu fu lite bo
+     = does the hot more fast change do the food bad like some way ?
+
+[pi] changed role strained=no (relation word lost)
+   enpa pi pume yen enpa pi lite pi nosen
+     = the freedom of the thought and the freedom of the way of the God
+   enpa pume yen enpa pi lite pi nosen
+     = {it} frees the thought and the freedom of the way of the God
+
+[pi] changed role strained=yes (relation word lost)
+   yile tan gun yile pi ewo we , yen gun yile lifin pi gigin la
+     = this system is the system of every person and is the between system of the countries
+   yile tan gun yile pi ewo we , yen gun yile lifin gigin la
+     = this system is the system of every person and is the country between systems
+
+[pi] changed role strained=no (relation word lost)
+   wan lenu muge tan li kuwi upe pi nen
+     = she cans to do this for the good protecting of oneself
+   wan lenu muge tan li kuwi upe nen
+     = she cans to do this for the good protecting
+
+[pu] changed reference strained=no (derived noun -> plain root)
+   min nun me sin isi gan wan tun pu yema simi
+     = {politely} did you go with her to the sick place who helps ?
+   min nun me sin isi gan wan tun yema simi
+     = {politely} did you go with her to {it} helps sickly ?
+
+[se] changed role strained=no (relation word lost)
+   se kusa
+     = from {it} leaves
+   kusa
+     = {it} leaves
+
+[se] changed role strained=no (relation word lost)
+   go mu lenu yidu bu la se wan
+     = everybody doesn't can to take them from her
+   go mu lenu yidu bu la wan
+     = everybody doesn't can to take them her
+
+[sin] changed tense/aspect strained=no ()
+   to sin miya ewo man sigo kiyo nin leso
+     = I looked the person who returns during the morning
+   to miya ewo man sigo kiyo nin leso
+     = I look the person who returns during the morning
+
+[sin] changed tense/aspect strained=no ()
+   wan la fe sin waka yema li ewo we ibe enpa ke feli
+     = they also chose to help for every person has the more many freedom
+   wan la fe waka yema li ewo we ibe enpa ke feli
+     = they also choose to help for every person has the more many freedom
+
+[tan] barely  strained=no (determiner after a noun; context)
+   ewo la keya lenu wuye ge momu tan gan waka feko pi no wungu la
+     = the people must to can to show this thing who wants with the true choosing of the ones who lead
+   ewo la keya lenu wuye ge momu gan waka feko pi no wungu la
+     = the people must to can to show the thing who wants with the true choosing of the ones who lead
+
+[te] changed number strained=no ()
+   kilometulu te
+     = {it} kilometres five
+   kilometulu
+     = {it} kilometres
+
+[tin] changed speech act strained=no (instruction -> statement)
+   tin nun mu nuta
+     = {politely} don't fear
+   nun mu nuta
+     = {politely} {it} doesn't fear
+
+[to] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   to fe sin sege lanno en mitul , ge tusi fu ben
+     = I also sent honoured one mitul the thing who writes like that
+   fe sin sege lanno en mitul , ge tusi fu ben
+     = {it} also sent honoured one mitul the thing who writes like that
+
+[to] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   lota gi me imu to
+     = {it} thanks because you remember me
+   lota gi me imu
+     = {it} thanks because you remember
+
+[wan] unspecified reference strained=yes (pronoun dropped (4.5); context may restore)
+   go yen yonyo pi wan ibe sogan li ibe tonya li nume upe
+     = everybody and the family of her have the right for {it} has the enough for {it} lives well
+   go yen yonyo pi ibe sogan li ibe tonya li nume upe
+     = everybody and the family of the having right for {it} has the enough for {it} lives well
+
+[wan] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   wan fe ibe sogan li gigin kuwi wan se mu ibe doku
+     = she also has the right for the country protects her from {it} doesn't have to work
+   fe ibe sogan li gigin kuwi wan se mu ibe doku
+     = {it} also has the right for the country protects her from {it} doesn't have to work
+
+[wan] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   wan fe ibe sogan li inwa funti pi no doku la
+     = she also has the right for {it} enters the group of the ones who work
+   fe ibe sogan li inwa funti pi no doku la
+     = {it} also has the right for {it} enters the group of the ones who work
+
+[wan] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   wan lenu muge ben nuwen ewo eni
+     = she cans to do that without the other person
+   lenu muge ben nuwen ewo eni
+     = {it} cans to do that without the other person
+
+[wan] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   wan sin tuko mon muyi yu
+     = she started at which time
+   sin tuko mon muyi yu
+     = {it} started at which time
+
+[wan] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   wan koye nin nelon fi , yen to nagu wan moti wo nelon fi
+     = she drinks during one week , and I see her one week after the again
+   koye nin nelon fi , yen to nagu wan moti wo nelon fi
+     = {it} drinks during one week , and I see her one week after the again
+
+[wan] unspecified reference strained=no (pronoun dropped (4.5); context may restore)
+   kuwi wan se ben
+     = {it} protects her from that
+   kuwi se ben
+     = {it} protects from that
+
+[we] changed quantity strained=no ()
+   tan gun kige li ewo we
+     = this is same for every person
+   tan gun kige li ewo
+     = this is same for the person
+
+[wo] changed role strained=yes (relation word lost)
+   me unfu wo tiwu feme upe
+     = you pay after the child feels well
+   me unfu tiwu feme upe
+     = you pay the good feeling child
+
+[wun] barely  strained=yes (complement 'that' (hand-checked))
+   nun me pume wun din wupi nawi yu
+     = {politely} you think that we need to eat what
+   nun me pume din wupi nawi yu
+     = {politely} you think us which eating need
+
+[yen] changed structure strained=no (list or joined verbs -> one phrase)
+   go ibe sogan li kusa gigin mesun yen wi gigin pi nen
+     = everybody has the right for {it} leaves every country and even the country of oneself
+   go ibe sogan li kusa gigin mesun wi gigin pi nen
+     = everybody has the right for {it} leaves every country even the country of oneself
+
+[yen] changed structure strained=no (list or joined verbs -> one phrase)
+   wan la lenu pume , yen lenu lugo musu upe yen musu yomo
+     = they can the thought and can to know the good thing and the bad thing
+   wan la lenu pume , yen lenu lugo musu upe musu yomo
+     = they can the thought and can to know the good thing the bad thing
+
+[yu] changed speech act strained=no (question word lost: question -> statement)
+   gi tan , pen muge yu , wede
+     = so , we do what , father
+   gi tan , pen muge , wede
+     = so , we do , father
+
+[yu] changed speech act strained=no (question word lost: question -> statement)
+   to mu lugo wun min ewo yu obu
+     = I don't know that whether which person comes
+   to mu lugo wun min ewo obu
+     = I don't know that whether the person comes
+

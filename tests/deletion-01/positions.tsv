@@ -1,0 +1,12 @@
+# all corpus sentences (reference, UDHR, casual), parsed or not
+function	tokens	first	after_pause	after_genso_ba	other	last_word
+ba	4	2	2	0	0	0
+de	7	4	3	0	0	0
+fon	4	3	1	0	0	0
+min (act)	23	17	3	2	1	1
+min (tag)	4	0	3	0	1	4
+min (whether)	5	0	0	0	5	0
+nun	41	19	1	0	21	0
+so	19	16	2	0	1	0
+tin	6	6	0	0	0	0
+yo	1	1	0	0	0	0
