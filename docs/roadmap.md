@@ -110,6 +110,8 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **Placement report: B2 margin** (author, 2026-10-15): the ~1,500-root placement reports the share of single-feature neighbours (voicing, e/i, o/u, m/n, f/p, l/y/w, ±final n) that are real words, beside pairwise confusion (today 0.2%).
 
+- **A non-Claude model for one month** (author, 2026-10-15: one month of ChatGPT Plus, to be connected here by the author in another session, likely through OpenAI's Codex CLI, which signs in with a Plus account; Plus has no API access). Planned uses, all reviewing the foundation before v2 fixes it: (1) an outside design review now, and again on the final forms if the placement lands within the month (decision 13, held until it's connected); (2) the judge's non-Claude rater for blind translation and back-translation; (3) a fresh non-Claude agent writing Apupiwe from the docs alone, to find where the docs fail (process risk 3, and a check for the docs rework).
+
 ### Website: frozen at v1 (author, 2026-10-13)
 
 The published site stays at v1 until the language is solid; then a v2 site is built from first principles, keeping v1's spirit. Work is committed on the branch `v2-work` and pushed there as a backup; `main` (which the site builds from) isn't touched until v2. The repo's reference and lessons stay in sync meanwhile. Known false statements on v1 are left as they are (no one is reading it yet) and are fixed in v2:
