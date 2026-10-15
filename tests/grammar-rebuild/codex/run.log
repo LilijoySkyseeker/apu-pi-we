@@ -1,0 +1,348 @@
+Reading additional input from stdin...
+OpenAI Codex v0.160.0
+--------
+workdir: /home/agent/work/repos/universal-language/tests/grammar-rebuild/codex
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a1416a-59ba-7903-bd57-19ee24fa7af5
+--------
+user
+You are helping check a constructed language's grammar-word frequencies. The previous table was built by a Claude model working from English glosses; the question is whether that English route biased which words were chosen. Work independently: do NOT open tests/grammar-rebuild/equivalents.tsv or tests/grammar-rebuild/frequency.tsv.
+
+Input: tests/grammar-rebuild/codex/meanings-only.tsv (id, meaning: a grammatical function, described in English only as a label).
+
+For each meaning and each of these 15 languages: en zh hi ur es ar fr bn pt ru id vi ja ko tr, give the single word that everyday speakers of THAT language most often use to express this function in ordinary speech and informal writing. Think from inside each language's grammar, not by translating the English label: if a language marks the function with an ending, a particle attached to a word, word order or intonation rather than a separate word, write "-". If it uses a separate word, give the word as it is written in that language's usual script (one token, the most frequent form; no multi-word phrases; for a clitic or particle written attached, write "-"). Don't pick a formal or literary word when an everyday one exists.
+
+Output: only a TSV, no commentary: a header line "id<TAB>en<TAB>zh<TAB>hi<TAB>ur<TAB>es<TAB>ar<TAB>fr<TAB>bn<TAB>pt<TAB>ru<TAB>id<TAB>vi<TAB>ja<TAB>ko<TAB>tr" and one line per id, in the input order, every id included.
+codex
+I’ll read only the meanings input and assess each function within each language’s grammar.
+
+exec
+/run/current-system/sw/bin/bash -lc 'pwd && rg --files -g AGENTS.md -g meanings-only.tsv' in /home/agent/work/repos/universal-language/tests/grammar-rebuild/codex
+ succeeded in 0ms:
+/home/agent/work/repos/universal-language/tests/grammar-rebuild/codex
+meanings-only.tsv
+
+exec
+/run/current-system/sw/bin/bash -lc 'cat meanings-only.tsv' in /home/agent/work/repos/universal-language/tests/grammar-rebuild/codex
+ succeeded in 0ms:
+id	meaning
+Q	yes/no question marker (sentence-initial particle; also tag "..., right?")
+REQUEST	request: "please do", "could you"
+INSTRUCT	instruction/imperative: "do this"
+ADVISE	advice: "you should", "maybe you could"
+INTEND	speaker commits: "I will", "I'll do it"
+WARN	warning: "watch out", "careful"
+NONLITERAL	"just kidding", "not literally", irony
+EXCLAIM	exclamation: "wow", "what a..."
+POLITE	"please" (pure politeness)
+NOT	not, no (negation)
+BE	is/are (copula); "there is"
+DONE	already; completed (perfective)
+ONGOING	still; in progress ("-ing")
+SOON	about to; going to (soon)
+MORE	more; -er (comparative)
+VERY	very
+ONLY	only, just
+AT.LEAST	at least
+CONF	"probably", "I think", "likely" (graded confidence)
+SEEN	evidential: "I saw (that)", "evidently"
+TOLD	hearsay: "they say", "apparently", "I heard"
+INFER	inference: "it seems", "must have"
+UNSPEC	unspecified: "some ... or other", "whatever", "any"
+WH	what (question word)
+I	I, me
+YOU	you
+WE.incl	we (including you)
+WE.excl	we (not you)
+HE/SHE/IT	he, she
+OBVIATIVE	the other one (another third person)
+LOGOPHOR	"he himself" in reported speech (he said HE would...)
+GENERIC	one, anyone, people in general
+SELF	self, -self
+IT	it
+PLURAL	plural marker / "they" (with he/she)
+THIS	this
+THAT.dem	that (demonstrative)
+ALL	all, every
+SOME	some
+PART	some but not all
+NONE	none, no (determiner)
+OF	of
+AT	at, in, on (location/time)
+TO	to, toward
+FROM	from; also "than"
+WITH	with
+FOR	for, in order to
+BEFORE	before, ago
+AFTER	after, later
+LIKE	like, as; about (approximately)
+AND	and
+OR	or
+BUT	but
+IF	if
+BECAUSE	because
+THAT.comp	that (complementizer: "said that ...")
+WHO.rel	who, which (relative pronoun)
+WHILE	while, during
+NAME	(name article; no ordinary equivalent)
+AGENT	-er, one who (agent noun)
+RESULT	what is done/made (result noun)
+TOOL	tool for, thing for
+PLACE	place for, place where
+FOCUS	focus/contrast: "it is X (not Y)", "did indeed"
+EVEN	even
+ALSO	also, too
+HABITUAL	usually
+YOUKNOW	"you know", "as you know", "after all"
+OKAY	"okay?", "alright?" (softening tag)
+TURNEDOUT	"it turned out", "surprisingly"
+RATHER	rather, quite, somewhat
+ALMOST	almost, nearly
+EACH	each, every one
+TITLE	Mr/Ms, sir/madam (respect title)
+
+web search: 
+web search: site.wals.info chapter evidentiality Turkish Japanese reported speech ...
+codex
+I’m checking where the usual expression uses an attached form or several words, so those cases don’t get forced into a one-word equivalent.
+
+codex
+I’m checking the remaining rows for everyday usage and making sure every ID has exactly 15 entries.
+
+exec
+/run/current-system/sw/bin/bash -lc 'cut -f1 meanings-only.tsv' in /home/agent/work/repos/universal-language/tests/grammar-rebuild/codex
+ succeeded in 0ms:
+id
+Q
+REQUEST
+INSTRUCT
+ADVISE
+INTEND
+WARN
+NONLITERAL
+EXCLAIM
+POLITE
+NOT
+BE
+DONE
+ONGOING
+SOON
+MORE
+VERY
+ONLY
+AT.LEAST
+CONF
+SEEN
+TOLD
+INFER
+UNSPEC
+WH
+I
+YOU
+WE.incl
+WE.excl
+HE/SHE/IT
+OBVIATIVE
+LOGOPHOR
+GENERIC
+SELF
+IT
+PLURAL
+THIS
+THAT.dem
+ALL
+SOME
+PART
+NONE
+OF
+AT
+TO
+FROM
+WITH
+FOR
+BEFORE
+AFTER
+LIKE
+AND
+OR
+BUT
+IF
+BECAUSE
+THAT.comp
+WHO.rel
+WHILE
+NAME
+AGENT
+RESULT
+TOOL
+PLACE
+FOCUS
+EVEN
+ALSO
+HABITUAL
+YOUKNOW
+OKAY
+TURNEDOUT
+RATHER
+ALMOST
+EACH
+TITLE
+
+codex
+id	en	zh	hi	ur	es	ar	fr	bn	pt	ru	id	vi	ja	ko	tr
+Q	right	吗	क्या	کیا	no	صح	hein	কি	né	ли	apa	không	-	-	mi
+REQUEST	can	请	ज़रा	ذرا	puedes	ممكن	peux	একটু	pode	пожалуйста	tolong	xin	-	좀	lütfen
+INSTRUCT	-	-	-	-	-	-	-	-	-	-	-	đi	-	-	-
+ADVISE	should	应该	चाहिए	چاہیے	deberías	لازم	devrais	উচিত	devia	стоит	sebaiknya	nên	-	-	-
+INTEND	will	会	-	-	-	-	vais	-	vou	буду	mau	sẽ	-	-	-
+WARN	careful	小心	सावधान	خبردار	cuidado	حاسب	attention	সাবধান	cuidado	осторожно	awas	-	危ない	조심해	dikkat
+NONLITERAL	kidding	开玩笑	मज़ाक	مذاق	broma	بهزر	rigole	মজা	brincadeira	шучу	bercanda	đùa	冗談	농담	şaka
+EXCLAIM	wow	哇	वाह	واہ	vaya	واو	waouh	বাহ	nossa	ого	wah	ô	わあ	와	vay
+POLITE	please	请	प्लीज़	پلیز	-	-	-	প্লিজ	-	пожалуйста	tolong	ạ	-	-	lütfen
+NOT	not	不	नहीं	نہیں	no	مش	pas	না	não	не	nggak	không	-	안	-
+BE	is	是	है	ہے	es	في	est	আছে	é	есть	ada	là	ある	있다	var
+DONE	already	已经	चुका	چکا	ya	خلاص	déjà	আগেই	já	уже	sudah	rồi	もう	이미	zaten
+ONGOING	still	还	अभी	ابھی	todavía	لسه	encore	এখনও	ainda	ещё	masih	đang	まだ	아직	hâlâ
+SOON	soon	快	जल्द	جلد	pronto	حالًا	bientôt	শিগগির	logo	скоро	segera	sắp	もうすぐ	곧	yakında
+MORE	more	更	ज़्यादा	زیادہ	más	أكتر	plus	আরও	mais	больше	lebih	hơn	もっと	더	daha
+VERY	very	很	बहुत	بہت	muy	أوي	très	খুব	muito	очень	banget	rất	とても	너무	çok
+ONLY	just	只	सिर्फ	صرف	solo	بس	juste	শুধু	só	только	cuma	chỉ	-	-	sadece
+AT.LEAST	-	至少	-	-	-	-	-	অন্তত	-	-	-	-	せめて	적어도	-
+CONF	probably	可能	शायद	شاید	probablemente	يمكن	probablement	হয়তো	provavelmente	наверное	mungkin	chắc	たぶん	아마	galiba
+SEEN	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+TOLD	apparently	听说	सुना	سنا	dicen	بيقولوا	apparemment	নাকি	dizem	говорят	katanya	-	-	-	-
+INFER	must	好像	लगता	لگتا	parece	باين	apparemment	-	parece	похоже	sepertinya	chắc	-	-	-
+UNSPEC	any	什么	कोई	کوئی	cualquier	أي	quelconque	কোনো	qualquer	любой	sembarang	-	-	아무	herhangi
+WH	what	什么	क्या	کیا	qué	إيه	quoi	কী	que	что	apa	gì	何	뭐	ne
+I	I	我	मैं	میں	yo	أنا	je	আমি	eu	я	aku	tôi	私	나	ben
+YOU	you	你	तुम	تم	tú	أنت	tu	তুমি	você	ты	kamu	bạn	あなた	너	sen
+WE.incl	we	咱们	हम	ہم	nosotros	إحنا	on	আমরা	nós	мы	kita	-	私たち	우리	biz
+WE.excl	we	我们	हम	ہم	nosotros	إحنا	on	আমরা	nós	мы	kami	-	私たち	우리	biz
+HE/SHE/IT	he	他	वो	وہ	él	هو	il	সে	ele	он	dia	nó	彼	걔	o
+OBVIATIVE	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+LOGOPHOR	-	-	-	-	-	-	-	-	-	-	-	-	自分	자기	-
+GENERIC	you	人	लोग	لوگ	se	الواحد	on	মানুষ	você	люди	orang	người	人	사람	insan
+SELF	-	自己	खुद	خود	se	-	se	নিজে	se	себя	sendiri	mình	自分	자기	kendi
+IT	it	它	वो	وہ	lo	هو	il	ও	ele	оно	itu	nó	それ	그거	o
+PLURAL	-	-	-	-	-	-	-	-	-	-	-	những	-	-	-
+THIS	this	这	ये	یہ	este	ده	ça	এই	isto	это	ini	này	これ	이	bu
+THAT.dem	that	那	वो	وہ	ese	ده	ça	ওই	isso	то	itu	đó	それ	그	o
+ALL	all	都	सब	سب	todo	كل	tout	সব	tudo	все	semua	cả	全部	다	bütün
+SOME	some	一些	कुछ	کچھ	algunos	شوية	des	কিছু	alguns	несколько	beberapa	vài	-	몇	bazı
+PART	some	一部	कुछ	کچھ	algunos	بعض	certains	কিছু	alguns	некоторые	sebagian	-	一部	일부	bazı
+NONE	no	没有	-	-	ningún	ولا	aucun	-	nenhum	никакой	-	-	-	-	hiçbir
+OF	of	的	का	کا	de	-	de	-	de	-	-	của	-	-	-
+AT	at	在	में	میں	en	في	à	-	em	в	di	ở	-	-	-
+TO	to	到	को	کو	a	-	à	-	para	к	ke	đến	-	-	-
+FROM	from	从	से	سے	de	من	de	-	de	из	dari	từ	-	-	-
+WITH	with	跟	साथ	ساتھ	con	مع	avec	সঙ্গে	com	с	dengan	với	-	-	-
+FOR	for	为	लिए	لیے	para	عشان	pour	জন্য	para	для	untuk	cho	ため	위해	için
+BEFORE	before	前	पहले	پہلے	antes	قبل	avant	আগে	antes	до	sebelum	trước	前	전	önce
+AFTER	after	后	बाद	بعد	después	بعد	après	পরে	depois	после	setelah	sau	後	후	sonra
+LIKE	like	像	जैसा	جیسا	como	زي	comme	মতো	como	как	kayak	như	-	-	gibi
+AND	and	和	और	اور	y	-	et	আর	e	и	dan	và	そして	그리고	ve
+OR	or	或者	या	یا	o	أو	ou	বা	ou	или	atau	hay	それとも	아니면	veya
+BUT	but	但是	लेकिन	لیکن	pero	بس	mais	কিন্তু	mas	но	tapi	nhưng	でも	근데	ama
+IF	if	如果	अगर	اگر	si	لو	si	যদি	se	если	kalau	nếu	もし	만약	eğer
+BECAUSE	because	因为	क्योंकि	کیونکہ	porque	عشان	-	কারণ	porque	-	karena	vì	だって	왜냐면	çünkü
+THAT.comp	that	-	कि	کہ	que	إن	que	যে	que	что	kalau	rằng	-	-	diye
+WHO.rel	who	的	जो	جو	que	اللي	qui	যে	que	который	yang	mà	-	-	-
+WHILE	while	当	जब	جب	mientras	لما	pendant	যখন	enquanto	пока	sambil	khi	間	동안	-
+NAME	-	-	-	-	-	-	-	-	-	-	si	-	-	-	-
+AGENT	-	-	वाला	والا	-	-	-	-	-	-	orang	người	-	-	-
+RESULT	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+TOOL	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+PLACE	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+FOCUS	indeed	就	ही	ہی	sí	هو	bien	তো	mesmo	именно	memang	chính	-	-	işte
+EVEN	even	连	भी	بھی	incluso	حتى	même	এমনকি	até	даже	bahkan	cả	-	-	bile
+ALSO	also	也	भी	بھی	también	كمان	aussi	-	também	тоже	juga	cũng	-	또	de
+HABITUAL	usually	一般	अक्सर	عموماً	normalmente	عادة	généralement	সাধারণত	normalmente	обычно	biasanya	thường	たいてい	보통	genelde
+YOUKNOW	-	嘛	ना	نا	sabes	يعني	-	তো	sabe	ведь	kan	mà	-	-	ya
+OKAY	okay	行	ना	نا	vale	ماشي	d'accord	ঠিক	tá	ладно	ya	nhé	-	응	tamam
+TURNEDOUT	-	原来	निकला	نکلا	resulta	طلع	finalement	-	afinal	оказывается	ternyata	-	-	-	meğer
+RATHER	rather	挺	काफ़ी	کافی	bastante	شوي	assez	বেশ	bastante	довольно	agak	khá	けっこう	꽤	epey
+ALMOST	almost	差点	लगभग	تقریباً	casi	تقريبًا	presque	প্রায়	quase	почти	hampir	gần	ほとんど	거의	neredeyse
+EACH	each	每	हर	ہر	cada	كل	chaque	প্রত্যেক	cada	каждый	setiap	mỗi	それぞれ	각각	her
+TITLE	Mr	先生	जी	صاحب	señor	أستاذ	monsieur	সাহেব	senhor	господин	Pak	anh	-	씨	Bey
+tokens used
+31,830
+id	en	zh	hi	ur	es	ar	fr	bn	pt	ru	id	vi	ja	ko	tr
+Q	right	吗	क्या	کیا	no	صح	hein	কি	né	ли	apa	không	-	-	mi
+REQUEST	can	请	ज़रा	ذرا	puedes	ممكن	peux	একটু	pode	пожалуйста	tolong	xin	-	좀	lütfen
+INSTRUCT	-	-	-	-	-	-	-	-	-	-	-	đi	-	-	-
+ADVISE	should	应该	चाहिए	چاہیے	deberías	لازم	devrais	উচিত	devia	стоит	sebaiknya	nên	-	-	-
+INTEND	will	会	-	-	-	-	vais	-	vou	буду	mau	sẽ	-	-	-
+WARN	careful	小心	सावधान	خبردار	cuidado	حاسب	attention	সাবধান	cuidado	осторожно	awas	-	危ない	조심해	dikkat
+NONLITERAL	kidding	开玩笑	मज़ाक	مذاق	broma	بهزر	rigole	মজা	brincadeira	шучу	bercanda	đùa	冗談	농담	şaka
+EXCLAIM	wow	哇	वाह	واہ	vaya	واو	waouh	বাহ	nossa	ого	wah	ô	わあ	와	vay
+POLITE	please	请	प्लीज़	پلیز	-	-	-	প্লিজ	-	пожалуйста	tolong	ạ	-	-	lütfen
+NOT	not	不	नहीं	نہیں	no	مش	pas	না	não	не	nggak	không	-	안	-
+BE	is	是	है	ہے	es	في	est	আছে	é	есть	ada	là	ある	있다	var
+DONE	already	已经	चुका	چکا	ya	خلاص	déjà	আগেই	já	уже	sudah	rồi	もう	이미	zaten
+ONGOING	still	还	अभी	ابھی	todavía	لسه	encore	এখনও	ainda	ещё	masih	đang	まだ	아직	hâlâ
+SOON	soon	快	जल्द	جلد	pronto	حالًا	bientôt	শিগগির	logo	скоро	segera	sắp	もうすぐ	곧	yakında
+MORE	more	更	ज़्यादा	زیادہ	más	أكتر	plus	আরও	mais	больше	lebih	hơn	もっと	더	daha
+VERY	very	很	बहुत	بہت	muy	أوي	très	খুব	muito	очень	banget	rất	とても	너무	çok
+ONLY	just	只	सिर्फ	صرف	solo	بس	juste	শুধু	só	только	cuma	chỉ	-	-	sadece
+AT.LEAST	-	至少	-	-	-	-	-	অন্তত	-	-	-	-	せめて	적어도	-
+CONF	probably	可能	शायद	شاید	probablemente	يمكن	probablement	হয়তো	provavelmente	наверное	mungkin	chắc	たぶん	아마	galiba
+SEEN	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+TOLD	apparently	听说	सुना	سنا	dicen	بيقولوا	apparemment	নাকি	dizem	говорят	katanya	-	-	-	-
+INFER	must	好像	लगता	لگتا	parece	باين	apparemment	-	parece	похоже	sepertinya	chắc	-	-	-
+UNSPEC	any	什么	कोई	کوئی	cualquier	أي	quelconque	কোনো	qualquer	любой	sembarang	-	-	아무	herhangi
+WH	what	什么	क्या	کیا	qué	إيه	quoi	কী	que	что	apa	gì	何	뭐	ne
+I	I	我	मैं	میں	yo	أنا	je	আমি	eu	я	aku	tôi	私	나	ben
+YOU	you	你	तुम	تم	tú	أنت	tu	তুমি	você	ты	kamu	bạn	あなた	너	sen
+WE.incl	we	咱们	हम	ہم	nosotros	إحنا	on	আমরা	nós	мы	kita	-	私たち	우리	biz
+WE.excl	we	我们	हम	ہم	nosotros	إحنا	on	আমরা	nós	мы	kami	-	私たち	우리	biz
+HE/SHE/IT	he	他	वो	وہ	él	هو	il	সে	ele	он	dia	nó	彼	걔	o
+OBVIATIVE	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+LOGOPHOR	-	-	-	-	-	-	-	-	-	-	-	-	自分	자기	-
+GENERIC	you	人	लोग	لوگ	se	الواحد	on	মানুষ	você	люди	orang	người	人	사람	insan
+SELF	-	自己	खुद	خود	se	-	se	নিজে	se	себя	sendiri	mình	自分	자기	kendi
+IT	it	它	वो	وہ	lo	هو	il	ও	ele	оно	itu	nó	それ	그거	o
+PLURAL	-	-	-	-	-	-	-	-	-	-	-	những	-	-	-
+THIS	this	这	ये	یہ	este	ده	ça	এই	isto	это	ini	này	これ	이	bu
+THAT.dem	that	那	वो	وہ	ese	ده	ça	ওই	isso	то	itu	đó	それ	그	o
+ALL	all	都	सब	سب	todo	كل	tout	সব	tudo	все	semua	cả	全部	다	bütün
+SOME	some	一些	कुछ	کچھ	algunos	شوية	des	কিছু	alguns	несколько	beberapa	vài	-	몇	bazı
+PART	some	一部	कुछ	کچھ	algunos	بعض	certains	কিছু	alguns	некоторые	sebagian	-	一部	일부	bazı
+NONE	no	没有	-	-	ningún	ولا	aucun	-	nenhum	никакой	-	-	-	-	hiçbir
+OF	of	的	का	کا	de	-	de	-	de	-	-	của	-	-	-
+AT	at	在	में	میں	en	في	à	-	em	в	di	ở	-	-	-
+TO	to	到	को	کو	a	-	à	-	para	к	ke	đến	-	-	-
+FROM	from	从	से	سے	de	من	de	-	de	из	dari	từ	-	-	-
+WITH	with	跟	साथ	ساتھ	con	مع	avec	সঙ্গে	com	с	dengan	với	-	-	-
+FOR	for	为	लिए	لیے	para	عشان	pour	জন্য	para	для	untuk	cho	ため	위해	için
+BEFORE	before	前	पहले	پہلے	antes	قبل	avant	আগে	antes	до	sebelum	trước	前	전	önce
+AFTER	after	后	बाद	بعد	después	بعد	après	পরে	depois	после	setelah	sau	後	후	sonra
+LIKE	like	像	जैसा	جیسا	como	زي	comme	মতো	como	как	kayak	như	-	-	gibi
+AND	and	和	और	اور	y	-	et	আর	e	и	dan	và	そして	그리고	ve
+OR	or	或者	या	یا	o	أو	ou	বা	ou	или	atau	hay	それとも	아니면	veya
+BUT	but	但是	लेकिन	لیکن	pero	بس	mais	কিন্তু	mas	но	tapi	nhưng	でも	근데	ama
+IF	if	如果	अगर	اگر	si	لو	si	যদি	se	если	kalau	nếu	もし	만약	eğer
+BECAUSE	because	因为	क्योंकि	کیونکہ	porque	عشان	-	কারণ	porque	-	karena	vì	だって	왜냐면	çünkü
+THAT.comp	that	-	कि	کہ	que	إن	que	যে	que	что	kalau	rằng	-	-	diye
+WHO.rel	who	的	जो	جو	que	اللي	qui	যে	que	который	yang	mà	-	-	-
+WHILE	while	当	जब	جب	mientras	لما	pendant	যখন	enquanto	пока	sambil	khi	間	동안	-
+NAME	-	-	-	-	-	-	-	-	-	-	si	-	-	-	-
+AGENT	-	-	वाला	والا	-	-	-	-	-	-	orang	người	-	-	-
+RESULT	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+TOOL	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+PLACE	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+FOCUS	indeed	就	ही	ہی	sí	هو	bien	তো	mesmo	именно	memang	chính	-	-	işte
+EVEN	even	连	भी	بھی	incluso	حتى	même	এমনকি	até	даже	bahkan	cả	-	-	bile
+ALSO	also	也	भी	بھی	también	كمان	aussi	-	também	тоже	juga	cũng	-	또	de
+HABITUAL	usually	一般	अक्सर	عموماً	normalmente	عادة	généralement	সাধারণত	normalmente	обычно	biasanya	thường	たいてい	보통	genelde
+YOUKNOW	-	嘛	ना	نا	sabes	يعني	-	তো	sabe	ведь	kan	mà	-	-	ya
+OKAY	okay	行	ना	نا	vale	ماشي	d'accord	ঠিক	tá	ладно	ya	nhé	-	응	tamam
+TURNEDOUT	-	原来	निकला	نکلا	resulta	طلع	finalement	-	afinal	оказывается	ternyata	-	-	-	meğer
+RATHER	rather	挺	काफ़ी	کافی	bastante	شوي	assez	বেশ	bastante	довольно	agak	khá	けっこう	꽤	epey
+ALMOST	almost	差点	लगभग	تقریباً	casi	تقريبًا	presque	প্রায়	quase	почти	hampir	gần	ほとんど	거의	neredeyse
+EACH	each	每	हर	ہر	cada	كل	chaque	প্রত্যেক	cada	каждый	setiap	mỗi	それぞれ	각각	her
+TITLE	Mr	先生	जी	صاحب	señor	أستاذ	monsieur	সাহেব	senhor	господин	Pak	anh	-	씨	Bey

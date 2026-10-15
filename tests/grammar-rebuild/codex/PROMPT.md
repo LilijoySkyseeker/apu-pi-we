@@ -1,0 +1,7 @@
+You are helping check a constructed language's grammar-word frequencies. The previous table was built by a Claude model working from English glosses; the question is whether that English route biased which words were chosen. Work independently: do NOT open tests/grammar-rebuild/equivalents.tsv or tests/grammar-rebuild/frequency.tsv.
+
+Input: tests/grammar-rebuild/codex/meanings-only.tsv (id, meaning: a grammatical function, described in English only as a label).
+
+For each meaning and each of these 15 languages: en zh hi ur es ar fr bn pt ru id vi ja ko tr, give the single word that everyday speakers of THAT language most often use to express this function in ordinary speech and informal writing. Think from inside each language's grammar, not by translating the English label: if a language marks the function with an ending, a particle attached to a word, word order or intonation rather than a separate word, write "-". If it uses a separate word, give the word as it is written in that language's usual script (one token, the most frequent form; no multi-word phrases; for a clitic or particle written attached, write "-"). Don't pick a formal or literary word when an everyday one exists.
+
+Output: only a TSV, no commentary: a header line "id<TAB>en<TAB>zh<TAB>hi<TAB>ur<TAB>es<TAB>ar<TAB>fr<TAB>bn<TAB>pt<TAB>ru<TAB>id<TAB>vi<TAB>ja<TAB>ko<TAB>tr" and one line per id, in the input order, every id included.

@@ -1,0 +1,75 @@
+id	meaning
+Q	yes/no question marker (sentence-initial particle; also tag "..., right?")
+REQUEST	request: "please do", "could you"
+INSTRUCT	instruction/imperative: "do this"
+ADVISE	advice: "you should", "maybe you could"
+INTEND	speaker commits: "I will", "I'll do it"
+WARN	warning: "watch out", "careful"
+NONLITERAL	"just kidding", "not literally", irony
+EXCLAIM	exclamation: "wow", "what a..."
+POLITE	"please" (pure politeness)
+NOT	not, no (negation)
+BE	is/are (copula); "there is"
+DONE	already; completed (perfective)
+ONGOING	still; in progress ("-ing")
+SOON	about to; going to (soon)
+MORE	more; -er (comparative)
+VERY	very
+ONLY	only, just
+AT.LEAST	at least
+CONF	"probably", "I think", "likely" (graded confidence)
+SEEN	evidential: "I saw (that)", "evidently"
+TOLD	hearsay: "they say", "apparently", "I heard"
+INFER	inference: "it seems", "must have"
+UNSPEC	unspecified: "some ... or other", "whatever", "any"
+WH	what (question word)
+I	I, me
+YOU	you
+WE.incl	we (including you)
+WE.excl	we (not you)
+HE/SHE/IT	he, she
+OBVIATIVE	the other one (another third person)
+LOGOPHOR	"he himself" in reported speech (he said HE would...)
+GENERIC	one, anyone, people in general
+SELF	self, -self
+IT	it
+PLURAL	plural marker / "they" (with he/she)
+THIS	this
+THAT.dem	that (demonstrative)
+ALL	all, every
+SOME	some
+PART	some but not all
+NONE	none, no (determiner)
+OF	of
+AT	at, in, on (location/time)
+TO	to, toward
+FROM	from; also "than"
+WITH	with
+FOR	for, in order to
+BEFORE	before, ago
+AFTER	after, later
+LIKE	like, as; about (approximately)
+AND	and
+OR	or
+BUT	but
+IF	if
+BECAUSE	because
+THAT.comp	that (complementizer: "said that ...")
+WHO.rel	who, which (relative pronoun)
+WHILE	while, during
+NAME	(name article; no ordinary equivalent)
+AGENT	-er, one who (agent noun)
+RESULT	what is done/made (result noun)
+TOOL	tool for, thing for
+PLACE	place for, place where
+FOCUS	focus/contrast: "it is X (not Y)", "did indeed"
+EVEN	even
+ALSO	also, too
+HABITUAL	usually
+YOUKNOW	"you know", "as you know", "after all"
+OKAY	"okay?", "alright?" (softening tag)
+TURNEDOUT	"it turned out", "surprisingly"
+RATHER	rather, quite, somewhat
+ALMOST	almost, nearly
+EACH	each, every one
+TITLE	Mr/Ms, sir/madam (respect title)
