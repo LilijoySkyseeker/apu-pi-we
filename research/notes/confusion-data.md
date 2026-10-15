@@ -7,6 +7,7 @@
 - Not reached: Wang & Bilger 1973 and Phatak & Allen 2007 matrices (paywall/403); no open five-vowel noise matrix; no rates for glide-hiatus or -n resegmentation. If resumed: try Felty et al. 2013 supplementary data (coda -n deletion rates in words), Gibson et al. 2026 full text (Spanish five vowels), Moreno-Torres 2017 matrices (Spanish /ʝ l m n/).
 - Prior work reused, not redone: `channel_perception.md` §1.
 - 2026-10-15: **done** §8, the face-to-face (audiovisual) listener: sources `vonseth2025-*`, `braida1998-japanese-*`, projections `proj-av-*.tsv` by `project_av.py`, variant `src-av` in `tools/confusion2.py`. Short-word rerun with it not done.
+- 2026-10-15: **done** §9, the listener without high frequencies (low-pass): sources `mn55-lowpass-{1200,2500,5000}.tsv`, `mn55-noise-{0dB,6dB}.tsv` (Miller & Nicely 1955 Tables X–XII, IV, V), check `trevino2013-HI-avg.tsv`, projections `proj-lp-*.tsv` by `project_lowpass.py`, variant `src-lp` in `tools/confusion2.py`. Short-word rerun with it not done.
 
 ## 1. Consonant confusions in noise (multi-L1)
 
@@ -298,6 +299,80 @@ Checking the expectation ("place confusions fall sharply, voicing and nasality s
 - Flag (one line, design rule 1): the source's degradation is vocoding, and its n-l and n-j confusions look like artefacts of this study. Another option for the author: carry only the AO → AV *change* of the same study onto mix4, rather than using the AV pattern directly. Not done; the decision named the AV pattern.
 - Drop test (design log): if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
 
+## 9. Listener without high frequencies (low-pass) (2026-10-15)
+
+Decided by the author 2026-10-15 (design log, "A listener without high frequencies joins the mishearing model"; idea from `unknown-unknowns.md` #8): add one low-pass listener variant to `confusion2.variants()` from Miller & Nicely 1955's filtered conditions, checked against a hearing-impaired matrix if one is usable. Built the same way as §8. Choices made while doing it are marked **added**, each with its reason.
+
+### 9.1 Sources
+- **Miller & Nicely 1955**, JASA 27:338–352 (scan, open PDF at jontallen.ece.illinois.edu; read from the rendered page images, pdftotext only as a cross-check). Low-pass series: Tables VII–XII, band 200 Hz up to 300, 400, 600, 1200, 2500 and 5000 Hz, all at S/N +12 dB (white noise; filter skirts 24 dB/octave, cutoff at −3 dB). High-pass series: Tables XII–XVII, 200/1000/2000/2500/3000/4500 up to 5000 Hz. There is no band-pass condition like the telephone's 300–3400 Hz.
+- Transcribed (counts, all 16×16): Table XI (200–2500) `mn55-lowpass-2500.tsv`, Table X (200–1200) `mn55-lowpass-1200.tsv`, Table XII (200–5000) `mn55-lowpass-5000.tsv`; and for comparison the unfiltered tables at the nearest overall error, Table IV (0 dB) `mn55-noise-0dB.tsv` and Table V (+6 dB) `mn55-noise-6dB.tsv` (**added**: matched by Table XX's overall correct, 2862 vs 2913 for 2500 Hz, 3336 vs 3332 for 5000 Hz).
+- Checks on the transcription: every table sums to 4000, every row to a multiple of 4 (four listeners per token), and the diagonal and the five per-feature correct counts match Table XX exactly, except one: Table X's duration total comes to 3515 against 3526 printed. Re-reading the cells found no misread that would explain it without breaking another total; it looks like an inconsistency in the paper (11 of 4000 responses; it touches only θ/s or ð/z columns).
+- **Cut-offs (added).** Telephone (upper limit ~3.4 kHz) falls between 2500 and 5000 Hz; age-related loss (energy lost above ~2 kHz, sloping) is closest to 2500 Hz. The variant uses **2500 Hz** (Table XI): it is the conservative bracket for the telephone and the closest table to the typical presbycusis edge; its raw error over our consonants (17.2%) is the closest to E_C = 20%, so level matching barely rescales it (the same reason as AV-high in §8). 5000 Hz is too close to unfiltered to show the effect (f-s 0.65% level-matched; raw error 6.9%, so level matching triples its few errors), and 1200 Hz stands for severe loss; both are kept as cross-checks. High-pass tables model a different listener (low-frequency loss) and were not used. For the telephone the effect lies between the 5000 and 2500 Hz columns below, nearer which is unknown.
+- **Hearing-impaired check.** Bilger & Wang 1976 (JSHR 19:718), Wang, Reed & Bilger 1978 (JSHR 21:5, "A comparison of the effects of filtering and sensorineural hearing loss on patterns of consonant confusions", the most direct check) and Dubno & Dirks 1982 (JSHR 25:141) are closed (ASHA 403; OpenAlex: no open copy). Used instead (**added**): **Trevino & Allen 2013**, JASA 134:607–617, doi:10.1121/1.4807474 (open in PMC3732204), Table III: 17 ears of 9 hearing-impaired American English listeners, mostly slight-to-moderate high-frequency sloping loss, 14 consonants (no θ ð), one female and one male token each, averaged over speech-weighted noise at 0, +6, +12 dB and quiet; percent, cells under 2% not printed. `trevino2013-HI-avg.tsv` (parsed from the HTML table); the two tokens of a consonant are averaged (f has only the female token). As the task asked, it is a check, not a variant.
+
+### 9.2 Projection
+`confusion-data/project_lowpass.py` applies `project.py`'s functions unchanged and writes `proj-lp-*.tsv` (**added**: a separate script, as in §8, so the existing projections can't move).
+- Mapping: θ ð ʃ ʒ v z responses dropped and rows renormalized (no Apupiwe category). M&N has no /h/, so no "heard no consonant" column.
+- Missing consonants: **l w j** (M&N tested none of them; Trevino & Allen neither). `project.py` does not fill them: they have no row and get no responses. In `confusion2` the `"lp"` pattern goes through `_fill_from_mix`, which for l w j gives exactly the `mn55+mix` rule the author accepted on 2026-10-13: the l w j rows come from mix4, and in every other row the share mix4 gives to l w j is put back and the rest scaled down. So the variant says nothing new about l, w, j.
+- Caveat on θ: in the 2500 Hz table θ is the main sink for s (s→θ 78 of 272) and f (31 of 236). Dropping θ spreads those responses over the other answers in proportion; where a listener without a θ category would really put them is not measured. Trevino & Allen's set has no θ, and there f→s is 17% (female token).
+
+### 9.3 Unfiltered vs low-pass, same study
+Symmetric pair confusion in percent, level-matched to E = 20% (`python3 project_lowpass.py`). Raw mean error over our 10 consonants: lp1200 28.4, lp2500 17.2, lp5000 6.9, n0dB 19.7, n6dB 10.2, Trevino HI 11.5.
+
+```
+group                        lp1200       lp2500       lp5000         n0dB         n6dB trevino13-HI
+voicing p-b t-d k-g            0.05         0.00         0.00         0.00         0.00         1.84
+place vl stops                15.99        17.48        10.48        19.55        18.28         7.14
+place vd stops                 8.09         7.45        11.21         9.04        11.19         8.33
+f-p                            3.51         2.81         4.83         2.19         4.36         0.89
+f-b                            4.17         3.75        10.47         1.68         1.81         4.13
+f-s                           11.90        10.57         0.65         2.35         0.42        18.44
+m-n                            2.02         4.49         7.10         3.11         2.02        17.44
+```
+
+Largest changes, 0 dB unfiltered → 2500 Hz low-pass (both about 18–20% raw error), level-matched (raw in brackets):
+
+| pair | n0dB → lp2500 | raw |
+|---|---|---|
+| p-k | 31.8 → 9.2 | 31.2 → 8.0 |
+| p-t | 12.9 → 26.4 | 12.7 → 22.7 |
+| f-s | 2.3 → 10.6 | 2.3 → 9.1 |
+| d-g | 26.3 → 20.8 | 25.9 → 17.9 |
+| t-k | 14.0 → 16.9 | 13.8 → 14.5 |
+| b-f | 1.7 → 3.8 | 1.6 → 3.2 |
+| m-n | 3.1 → 4.5 | 3.1 → 3.9 |
+| p-f | 2.2 → 2.8 | 2.2 → 2.4 |
+| s-t | 0.6 → 1.0 | — |
+
+Checking the expectation ("f/s, f/p, s/t-type pairs rise"):
+- **f-s rises 4.5×** (2.3 → 10.6), and 1200 Hz gives the same (11.9). It is one-way: s is heard as f (17% of s after projection), f is rarely heard as s (1%). Without the hiss above 2.5 kHz an s sounds like a weak fricative. 5000 Hz keeps it (0.65): the s cue sits between 2.5 and 5 kHz, which is also where the telephone cuts.
+- **f-p rises only a little** (2.2 → 2.8); **s-t stays small** (0.6 → 1.0). The expectation holds for f-s, barely for f-p, and not for s-t in this data.
+- **Place among stops reshuffles rather than grows**: t loses its high-frequency burst and goes to p and k (t→p 74, t→k 47 of 212), so p-t and t-k rise while p-k, the largest noise confusion in M&N, falls. d-g stays very large either way. The whole voiceless-stop place group is about the same (19.6 vs 17.5).
+- **Voicing and nasality stay intact** (0–0.05%), as M&N say for low-pass. M&N's voicing is the low outlier anyway (§1.4), so the variant carries no voicing information either way.
+- **Hearing-impaired check (Trevino & Allen).** Its top two pairs are f-s (18.4) and m-n (17.4); low-pass gives f-s the expected rise, m-n only slightly (3.1 → 4.5). Spearman over 45 pairs: HI vs lp2500 0.61, HI vs n0dB 0.54, so low-pass is a bit closer to the hearing-impaired pattern than noise is. Stop place is lower in the HI data (7.1) and voicing higher (1.8), which fits Trevino & Allen's quiet and mild-noise conditions and modern recorded tokens rather than hearing loss. Treat it as support for f-s, and as a hint that real hearing-impaired listeners also confuse m-n more than the filter predicts (not built in).
+
+### 9.4 The variant
+`tools/confusion2.py`: pattern `"lp"` = `proj-lp-mn55-lp2500.tsv`, l w j filled from mix4 (`_fill_from_mix`). Variant `src-lp` = best parameters with `C_pattern="lp"`, level-matched to E_C through `_source` like the other single-source corners, placed after `src-av`. `variants(lp=False)` returns the previous 49 variants unchanged, and `variants(av=False, lp=False)` the original 48 (the self-check asserts both). `"lp"` is not one of C_pattern's LHS categories, so no other variant moves. Best parameters and objective are unchanged.
+- **added**: one table (2500 Hz), not a mix of cut-offs. Add-back trigger: a decision to model telephone speech on its own; then interpolate 2500 and 5000 or find a 300–3400 Hz matrix.
+- **added**: only the consonant pattern changes. Onset loss, -n and vowels stay at best values; low-pass mostly spares vowels' first two formants up to 2.5 kHz, but no data was gathered on that.
+- Effect, best parameters, no listener groups, internal syllable (self-check line), with best (mix4) and src-mn55+mix for comparison:
+
+  | pair | best | mn55+mix | src-lp |
+  |---|---|---|---|
+  | f-s | 3.3 | 4.8 | 10.6 |
+  | p-t | 10.2 | 12.8 | 26.2 |
+  | t-k | 6.6 | 13.0 | 16.8 |
+  | d-g | 6.0 | 19.0 | 19.6 |
+  | p-k | 5.5 | 13.3 | 9.1 |
+  | f-p | 4.6 | 3.8 | 2.8 |
+  | f-b | 6.6 | 1.4 | 3.6 |
+  | m-n | 7.8 | 9.8 | 4.3 |
+  | p-b | 3.6 | 0.3 | 0.0 |
+
+- `python3 tools/confusion2.py`: passes (50 variants, all matrices stochastic). `tests/confusion-v2/check.py`: runs to completion with the variant (results file not rewritten). Short words: src-lp brings no new pair into any variant's top 10 (still 50 pairs). Its own top 10: **to~po** 24.4% (best 9.4%), **de~ge** 18.5, **ke~te** 15.8, **tin~kin** 14.6, **fa~sa** 10.0 (best 3.1%, rank 22 → 5), **se~fe** 9.9 (rank 23 → 6), pi~fi 5.7, fu~pu 5.7, la~na 4.7, min~nin 3.7. So it is the only variant that makes **fa~sa** and **se~fe** dangerous: 10.0% and 9.9% against at most 4.7% in any other variant (lhs-09); `check.py`'s "max 10.0" for fa~sa and se~fe is now src-lp. ke~te and tin~kin reach about the same maxima as src-av (15.8 vs 15.5, 14.6 vs 14.3); to~po stays below lhs-10's 29.1%. Content words: src-lp puts apu~batu, kige~tiwe, wase~afe, afe~tase and unfu~kunsu in a top 20. (`check.py` prints "14 corners" as fixed text; with src-av and src-lp there are 16.)
+- Flag (one line, design rule 1): the variant inherits M&N's quirks (trained crew, white noise, no voicing errors, p-k/d-g heavy), so its stop-place numbers say as much about MN55 as about low-pass. The same option as in §8 is open to the author: carry only the n0dB → lp2500 *change* of the same study onto mix4 (which would keep the f-s and t-burst effects without M&N's baseline). Not done; the decision named M&N's filtered conditions.
+- Drop test (design log): if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
+
 ## Sources (read in this study unless marked)
 - Cooke & Scharenborg 2008, The Interspeech 2008 Consonant Challenge. https://www.isca-archive.org/interspeech_2008/cooke08_interspeech.pdf
 - Cooke, García Lecumberri, Scharenborg & van Dommelen 2010, Speech Communication 52:954–967. https://pure.mpg.de/rest/items/item_1169655_1/component/file_1169654/content
@@ -322,3 +397,6 @@ Checking the expectation ("place confusions fall sharply, voicing and nasality s
 - Braida, Sekiyama & Dix 1998, AVSP'98. https://www.isca-archive.org/avsp_1998/braida98_avsp.pdf (§8)
 - Lalonde & Werner 2019, PLoS ONE 14:e0213588 (article page summary; quiet only) and Lindborg & Andersen 2021, PLoS ONE 16:e0246986 (article page summary; b/g only) (§8)
 - Not accessible: Binnie, Montgomery & Jackson 1974; Grant & Walden 1996; Grant, Walden & Seitz 1998 (closed, §8)
+- Miller & Nicely 1955, JASA 27:338–352, doi:10.1121/1.1907526, Tables IV, V, X, XI, XII and XX. https://jontallen.ece.illinois.edu/uploads/537.F18/Papers/MillerNicely55.pdf (§9)
+- Trevino & Allen 2013, JASA 134:607–617, doi:10.1121/1.4807474, Table III. https://pmc.ncbi.nlm.nih.gov/articles/PMC3732204/ (§9)
+- Not accessible: Bilger & Wang 1976 (JSHR 19:718, doi:10.1044/jshr.1904.718); Wang, Reed & Bilger 1978 (JSHR 21:5, doi:10.1044/jshr.2101.05); Dubno & Dirks 1982 (JSHR 25:141) (closed, ASHA 403, §9)

@@ -1,0 +1,31 @@
+# source: Trevino & Allen 2013, Within-consonant perceptual differences in the hearing impaired ear, JASA 134(1):607-617, doi:10.1121/1.4807474, Table III; open text PMC3732204 (https://pmc.ncbi.nlm.nih.gov/articles/PMC3732204/), cells parsed from the article's HTML table 2026-10-15.
+# 17 ears of 9 hearing-impaired American English listeners (Urbana-Champaign; mostly slight-to-moderate high-frequency sloping sensorineural loss, one ear with an inverted loss; every ear >20 dB HL at some frequency 0.25-4 kHz), no hearing aid, flat gain at most comfortable level. 14 consonants + /a/ from the LDC Articulation Index corpus (LDC2005S22), one female (F) and one male (M) token each (f: female token only in this table), closed-set response.
+# condition: average over the 17 ears and 4 speech-weighted noise conditions (0, +6, +12 dB SNR, quiet). Rows = token (consonant_talker), columns = heard, percent. Cells under 2% are not shown in the paper (blank), written 0 here, so rows sum to about 90-100. sh = /S/, zh = /Z/.
+sent\heard	b	d	f	g	k	m	n	p	s	t	v	sh	zh	z	sum
+b_F	70	15	2	4	0	0	0	0	0	0	7	0	0	0	98
+b_M	65	2	6	0	0	2	0	2	0	0	22	0	0	0	99
+d_F	0	93	0	0	0	0	0	0	0	4	0	0	0	2	99
+d_M	0	95	0	0	0	0	0	0	0	4	0	0	0	0	99
+f_F	0	0	73	0	0	0	0	0	17	0	3	3	0	2	98
+g_F	3	12	5	62	2	0	0	0	0	2	8	0	0	2	96
+g_M	0	15	0	83	0	0	0	0	0	0	0	0	0	0	98
+k_F	0	0	0	0	80	0	0	4	0	13	0	0	0	0	97
+k_M	0	0	0	0	87	0	0	0	0	11	0	0	0	0	98
+m_F	0	0	0	0	0	79	9	2	0	0	7	0	0	0	97
+m_M	0	0	0	0	0	93	6	0	0	0	0	0	0	0	99
+n_F	0	0	0	0	0	4	86	0	0	0	4	0	0	0	94
+n_M	0	0	0	0	0	19	80	0	0	0	0	0	0	0	99
+p_F	0	0	2	0	3	0	0	82	0	12	0	0	0	0	99
+p_M	0	0	0	0	0	0	0	92	0	3	0	0	0	0	95
+s_F	2	0	4	0	0	0	0	0	84	0	0	0	3	3	96
+s_M	0	0	0	0	0	0	0	0	79	0	0	0	8	12	99
+t_F	0	0	0	0	0	0	0	2	2	93	0	0	0	0	97
+t_M	0	0	0	0	0	0	0	0	0	96	0	0	0	0	96
+v_F	3	2	4	0	0	4	4	0	0	0	78	0	0	2	97
+v_M	0	0	4	4	0	5	5	11	0	4	63	0	0	0	96
+sh_F	0	0	0	0	0	0	0	0	4	0	0	92	0	2	98
+sh_M	0	0	0	0	0	0	0	0	0	0	0	96	0	2	98
+zh_F	0	0	0	6	0	0	0	0	0	0	0	2	67	24	99
+zh_M	0	3	0	6	0	0	0	0	0	0	11	0	63	13	96
+z_F	0	4	0	0	0	0	0	0	0	0	6	0	16	70	96
+z_M	0	0	0	0	0	0	0	0	4	2	2	0	16	74	98
