@@ -42,11 +42,22 @@ def split(form):
     return [IDX[p] for p in parts]
 
 
+TIE = 0.02  # C3: forms within 2% of the cheapest count as "about the same cost" (added by Claude, 2026-10-15)
+
+
+def pick(cands):
+    """Cheapest (cost, form); among forms within TIE of it, prefer one with no offensive match (C3)."""
+    best_c = min(c for c, _ in cands)
+    near = sorted(x for x in cands if x[0] <= best_c * (1 + TIE))
+    clean = [x for x in near if not offensive.matches(x[1])]
+    return (clean or near)[0]
+
+
 def add_grammar(gloss, cls, freq, avoid=()):
     grammar = read("grammar.tsv")
     taken = {IDX[g["form"]] for g in grammar} | digit_syllables()
     open_ = {(INV.syl[t][0], INV.syl[t][1]) for t in taken}  # no two grammar words differ only by final -n
-    best, best_c = None, float("inf")
+    cands = []
     for cand in range(len(SYL)):
         if cand in taken or (INV.syl[cand][0], INV.syl[cand][1]) in open_ or offensive.blocked(SYL[cand]) or SYL[cand] in avoid:
             continue
@@ -58,11 +69,11 @@ def add_grammar(gloss, cls, freq, avoid=()):
                 w = 10.0
             c += w * (freq * S[cand, u] + float(g["freq"]) * S[u, cand])
         c += EFFORT * freq * 0.4 * bool(INV.syl[cand][2])
-        if c < best_c:
-            best, best_c = cand, c
-    grammar.append({"gloss": gloss, "class": cls, "freq": freq, "form": SYL[best]})
+        cands.append((c, SYL[cand]))
+    best_c, best = pick(cands)
+    grammar.append({"gloss": gloss, "class": cls, "freq": freq, "form": best})
     write("grammar.tsv", grammar, ["gloss", "class", "freq", "form"])
-    print(f"{gloss} = {SYL[best]}  (cost {best_c:.4f})")
+    print(f"{gloss} = {best}  (cost {best_c:.4f})")
 
 
 def digit_syllables():
@@ -107,7 +118,7 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()
                        3.0 if w["field"] == field else 1.0 for w in ex_words])
     efreq = np.array([TIER_FREQ[int(w["tier"])] for w in ex_words])
     f = TIER_FREQ[tier]
-    best, best_c = None, float("inf")
+    cands = []
     for a in content:
         for b in second:
             form = SYL[a] + SYL[b]
@@ -117,8 +128,8 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()
             p_in = S[ex[:, 0], a] * S[ex[:, 1], b]
             c = (weight * (f * p_out + efreq * p_in)).sum()
             c += EFFORT * f * (INV.length((a, b)) - 2.0)
-            if c < best_c:
-                best, best_c = form, c
+            cands.append((c, form))
+    best_c, best = pick(cands)
     lexicon.append({"gloss": gloss, "field": field, "tier": tier, "form": best})
     write("lexicon.tsv", lexicon, ["gloss", "field", "tier", "form"])
     if antonyms:

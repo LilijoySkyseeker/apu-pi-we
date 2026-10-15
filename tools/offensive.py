@@ -9,7 +9,8 @@ so no word sounds like a slur, a curse or a taboo word somewhere.
 Source: Wiktionary entries tagged vulgar, offensive, slur or derogatory, or filed under a taboo topic
 (sex, genitalia, excrement, urine, death), via kaikki.org's per-language extracts. Each foreign
 word's pronunciation is mapped into this language's sounds with names.py's mapping (no added vowels),
-then compared with every word we have. blocked(form) is what words.py uses to skip a form.
+then compared with every word we have. Since 2026-10-15 (goal C3, tiered) only the reviewed hard list
+(data/offensive-hard.tsv) and REJECTED block a form (blocked); other matches (matches) only break ties.
 """
 import csv, gzip, io, json, os, re, sys, urllib.request
 
@@ -179,9 +180,26 @@ _BLOCK = None
 REJECTED = {"lanu", "nega", "pisan", "webo", "ano", "ku"}
 
 
+HARD = os.path.join(DATA, "offensive-hard.tsv")
+_HARD = None
+
+
 def blocked(form):
-    """True if a candidate form exactly or nearly matches a common, strongly offensive word (main sense).
-    Run with wordfreq installed, or every listed word counts as common and more forms are blocked."""
+    """True if no word may take this form (goal C3, author 2026-10-15): it is on the reviewed hard list
+    (data/offensive-hard.tsv: the strongest, most common offensive words, as their own speakers would hear
+    our forms; research/notes/offensive-strength.md) or was moved by hand review (REJECTED)."""
+    global _HARD
+    if _HARD is None:
+        _HARD = {f for r in csv.DictReader(open(HARD), delimiter="\t") for f in r["forms"].split()}
+    return form in REJECTED or form in _HARD
+
+
+def matches(form):
+    """True if a form exactly or nearly matches a common, strongly offensive Wiktionary word (main sense).
+    A tie-breaker only (C3): words.py prefers a form without a match among forms that cost about the same.
+    Known faults (roadmap): aspiration read backwards for aspiration-contrast listeners, vowels with
+    diacritics lost, tags pooled across senses. Run with wordfreq installed, or every listed word counts
+    as common."""
     global _BLOCK
     if _BLOCK is None:
         fs = [r["sounds"].replace(" ", "") for r in load() if r["kind"] == "strong" and r["primary"] == "yes" and counts(r)]

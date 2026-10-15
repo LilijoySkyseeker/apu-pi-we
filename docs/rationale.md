@@ -87,6 +87,7 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 - **Data:** Wiktionary via kaikki.org extracts for 34 of the most spoken languages: entries tagged vulgar/offensive/slur/derogatory, plus taboo meanings (sex, genitals, excrement, urine, death) read from glosses. 32,910 pronunciations, each mapped into our sounds with the names.py mapping.
 - **Matching:** exact; near (voicing and e/i, o/u merged); prefix. **Ranking:** only words whose *first* sense is offensive and that are common (wordfreq Zipf ≥ 2.5) block a form. Run tools with `ps.wordfreq`, or every listed word counts as common.
 - **Review is by hand.** Most raw hits are noise; one-syllable grammar words match *something* in 34 languages almost always. Six words moved (lanu→lenu, nega→lasu, pisan→tisan, webo→yawu, ku→nun, ano→ago); lon/pi/go kept because no free one-syllable form exists.
+- **Since 2026-10-15 [author]:** only `data/offensive-hard.tsv` (41 words, 5 one-syllable and 35 two-syllable forms, graded by strength today with sources) and `REJECTED` block a form (`blocked`). The Wiktionary match (`matches`) only breaks ties: `words.py` takes the cheapest form, but among forms within 2% of it [Claude, added] prefers one with no match.
 - Refresh with `python offensive.py fetch` (a few minutes, ~1 GB streamed); review with `check`.
 
 ---
@@ -206,6 +207,7 @@ wordfreq is needed for the offensive filter's frequency ranking. `clics_rates.aw
 | Concept list and tiers | `concepts.py` ranking + judgement (tiers are English intuition) | Partly; `data/concepts.tsv` has the evidence line per concept |
 | `numbers.tsv` | digits 0–5 from the base-6 optimiser (`build.py numbers3`); 6–9 and place words via `words.py` | Yes |
 | `offensive.tsv` | `offensive.py fetch` | Yes (Wiktionary changes over time) |
+| `offensive-hard.tsv` | by hand, from `research/notes/offensive-strength.md`; approved by the author 2026-10-15 | No: edit by review only |
 | Rules, principles | by hand, in language.md | — |
 | Tests | fresh blind agents; prompts and scoring rules in each `tests/*/` folder | Re-run with new agents; never reuse a reader who has seen the docs |
 
