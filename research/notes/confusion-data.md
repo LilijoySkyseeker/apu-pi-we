@@ -6,6 +6,7 @@
 - Data files in `confusion-data/`: source matrices (`cooke2008-*`, `cutler2004-*`, `yu-do2024-mandarin-*`, each with a `# source:` line), projections onto Apupiwe's consonants (`proj-*.tsv`, by `project.py`; run `python3 project.py 0.2`), typology gaps (`phoible_gaps.py`, needs PHOIBLE's `data/phoible.csv`).
 - Not reached: Wang & Bilger 1973 and Phatak & Allen 2007 matrices (paywall/403); no open five-vowel noise matrix; no rates for glide-hiatus or -n resegmentation. If resumed: try Felty et al. 2013 supplementary data (coda -n deletion rates in words), Gibson et al. 2026 full text (Spanish five vowels), Moreno-Torres 2017 matrices (Spanish /ʝ l m n/).
 - Prior work reused, not redone: `channel_perception.md` §1.
+- 2026-10-15: **done** §8, the face-to-face (audiovisual) listener: sources `vonseth2025-*`, `braida1998-japanese-*`, projections `proj-av-*.tsv` by `project_av.py`, variant `src-av` in `tools/confusion2.py`. Short-word rerun with it not done.
 
 ## 1. Consonant confusions in noise (multi-L1)
 
@@ -228,6 +229,75 @@ Add-back triggers for parts left out: syllable-count errors (Felty: 16.4% of wor
 2. **Word junctions**: glide vs hiatus (pi a / pi ya, pu a / pu wa), -n + vowel resegmentation (pan a / pa na), and -n + nasal (pan na / pa na). No rates found; the independent-syllable model scores them as distinct when they may be near-mergers.
 3. **L2 within-group confusion levels (m)**: which listeners lack a contrast is well sourced (PHOIBLE, WALS), but how much they confuse it when listening to a designed language with mixed-accent talkers is not.
 
+## 8. Face-to-face (audiovisual) listener (2026-10-15)
+
+Decided by the author 2026-10-15 (design log, "A listener who sees the speaker joins the mishearing model"; idea from `unknown-unknowns.md` #7): add one audiovisual listener variant to `confusion2.variants()`, built from a published AV consonant matrix. Choices made while doing it are marked **added**, each with its reason.
+
+### 8.1 Sources
+Wanted: AV consonant matrices in noise with the audio-only (AO) condition of the same study. Found two usable ones; neither is masked by plain noise.
+
+- **von Seth, Aller & Davis 2025**, JASA 157:1554–1576, doi:10.1121/10.0034846 (preprint PsyArXiv kj59f, read); trial data OSF https://osf.io/j56y4/ (`data/scored_data/consonants_scored{,_2}.xlsx`, downloaded). 20 English consonants (b tʃ d f g h dʒ k l m n p r ʃ t θ v w j z; **no /s/**) + /ə/, one female talker, closed set of 20, 126 native British English listeners online (113 also did session 2). Sound degraded by **noise vocoding**, not by added noise: "high clarity" = 16 channels, "low clarity" = 1 channel (broadband envelope only). Five conditions incl. AO and AV at both clarities. The paper prints no matrix (only feature transmission); counted here from the trials, 239 per consonant per condition. Overall correct: AO-high 51.7%, AV-high 79.0%, AO-low 22.4%, AV-low 55.4%, visual-only 37.8%. Files `vonseth2025-{AO,AV}-{high,low}.tsv` (counts).
+- **Braida, Sekiyama & Dix 1998**, AVSP'98, ISCA archive (open PDF, tables read from the rendered page). 8 consonants b d g p t k m n + /a/, 2 Japanese and 2 American English talkers, 28 Japanese listeners, 16 presentations each per mode; sound **lowpass-filtered plus noise** (cutoff and SNR not given). Tables 2 (A, 48.4% correct) and 4 (AV, 83.3%) print full percent matrices, cells under 1% blank. Files `braida1998-japanese-{A,AV}.tsv`.
+- Not usable or not reached: Binnie, Montgomery & Jackson 1974 (JSHR 17:619, doi:10.1044/jshr.1704.619), Grant & Walden 1996 (JASA 100:2415, doi:10.1121/1.417950) and Grant, Walden & Seitz 1998 (JASA, doi:10.1121/1.422788) are closed (OpenAlex: no open copy; ASHA 403). Walden et al. 1977 is a visual-only training study (from its title; not checked further). Lalonde & Werner 2019 (PLoS ONE, open data) tested in quiet only (AO 93% correct: too few errors). Lindborg & Andersen 2021 (PLoS ONE) has only b and g.
+
+### 8.2 Projection
+`confusion-data/project_av.py` applies `project.py`'s functions unchanged (restrict to our 13; other responses dropped and rows renormalized; /h/ = heard no consonant; `level_match` for comparisons) and writes `proj-av-*.tsv`. `project.py` itself is not changed (**added**: a separate script, so the existing projections can't move; it writes nothing else).
+- Missing consonants. von Seth: **s** (no row, and no listener could answer s). Braida: **f s l w j**. `project.py` does not fill gaps: a missing consonant has no row and gets no responses. In `confusion2` the AV pattern needs all 13 rows, so `_fill_from_mix` (**added**) uses the `mn55+mix` rule for any missing set: the s row comes from mix4, and in every other row the share mix4 gives to s is put back at s and the rest scaled down. s is the most robust consonant in every audio source, so the fill matters little.
+- Mapping: y = /j/; dʒ, tʃ, ʃ, θ, v, z, r responses dropped (no Apupiwe category).
+- **added**: all released trials pooled (126 listeners in session 1, 113 in session 2), including listeners the paper left out of some analyses. Reason: pooled confusions, not individual differences, are what the model needs. The files label both sessions "Session_2", so the session is taken from the file.
+
+### 8.3 Audio-only vs audiovisual, same study
+Symmetric pair confusion in percent, level-matched to E = 20% (`python3 project_av.py`). Raw mean error over our consonants: vs-AO-high 36.5, vs-AV-high 17.5, vs-AO-low 77.9, vs-AV-low 40.9, Braida A 50.9, Braida AV 12.4.
+
+```
+group                    vs-AO-high   vs-AV-high    vs-AO-low    vs-AV-low   braida98-A  braida98-AV
+voicing p-b t-d k-g            3.47         7.77         2.40         8.69         0.13         1.08
+place vl stops                 7.74         5.84         2.49         0.86        11.44        11.17
+place vd stops                 3.32         4.37         0.63         0.71         9.78        13.34
+f-p                            0.48         0.00         0.67         0.13            -            -
+f-b                            2.78         0.29         0.84         0.00            -            -
+m-n                            7.64         0.96         4.51         0.58        15.18         0.00
+m-b                            0.00         2.16         1.18         5.55         0.00         0.00
+n-d                            0.24         0.75         0.31         2.62         0.00         0.80
+l-n                           10.20        22.03         1.88         5.48            -            -
+l-d                            0.00         1.00         0.66         5.15            -            -
+l-w                            2.06         0.00         2.04         0.00            -            -
+l-j                            1.54         0.24         2.48         8.37            -            -
+w-j                            1.35         0.72         0.80         0.11            -            -
+w-b                            0.00         0.24         1.98         0.00            -            -
+w-g                            0.48         0.00         1.47         0.24            -            -
+j-g                            0.36         0.24         1.24         2.79            -            -
+j-d                            0.25         0.75         0.87         0.60            -            -
+```
+
+Largest changes, von Seth high clarity (the source the variant uses), level-matched (raw in brackets):
+
+| pair | place | AO → AV, level-matched | raw |
+|---|---|---|---|
+| n-l | same (alveolar) | 10.2 → 22.0 | 18.6 → 19.3 |
+| m-n | differs | 7.6 → 1.0 | 14.0 → 0.8 |
+| p-b | same (voicing) | 2.8 → 9.3 | 5.1 → 8.2 |
+| n-j | differs | 4.4 → 10.2 | 8.0 → 9.0 |
+| t-d | same (voicing) | 6.3 → 11.7 | 11.5 → 10.3 |
+| d-g | differs (alveolar/velar) | 7.9 → 11.9 | 14.4 → 10.4 |
+| p-k, t-f, b-f | differs | 4.4, 3.0, 2.8 → under 0.8 | 8.0, 5.4, 5.1 → under 0.7 |
+| b-m | same (nasality) | 0.0 → 2.2 | 0.0 → 1.9 |
+
+Checking the expectation ("place confusions fall sharply, voicing and nasality stay"):
+- **Place falls sharply when one consonant is labial or labiodental** (lips visible): m-n, p-t, p-k, b-d, b-f, t-f go to about 0 in all three comparisons. **It doesn't when both are inside the mouth**: t-k and d-g stay large (Braida AV: d-g 24%, t-k 21% raw; von Seth AV: t-k 14.5%, d-g 10.4% raw), and as a share of the errors they grow. The face shows lips, not alveolar against velar.
+- **Voicing stays.** Raw p-b, t-d, k-g barely move (or rise at low clarity), so their share of the remaining errors grows 2 to 4 times. Braida's sound kept voicing (A 0.1%), so the face has nothing to add there.
+- **Nasality vs oral at one place (b/m, d/n) stays small but rises**: b-m 0 → 2.2, n-d 0.2 → 0.8 level-matched (von Seth high), 1.2 → 5.6 and 0.3 → 2.6 at low clarity. In these sources sound carries nasality well, so these pairs are smaller than voicing even face to face.
+- **Same-place sonorants rise**: n-l (and n-j, l-j, d-l at low clarity). n-l and n-j are already large in this study's audio-only data (n heard as l 31% in AO-high): probably talker- or vocoder-specific, since the four noise sources in §1.8 put l-n at 2–12%. The AV pattern inherits them. Treat the variant's n-l weight as an upper end.
+
+### 8.4 The variant
+`tools/confusion2.py`: pattern `"av"` = `proj-av-vonseth25-AV-high.tsv` with s filled from mix4. Variant `src-av` = best parameters with `C_pattern="av"`, level-matched to E_C through `_source` like the other single-source corners. It is placed after `src-mn55+mix`. `variants(av=False)` returns the previous 48 variants unchanged (same draws, names and order; the self-check asserts this, and it was checked against the old file cell by cell). `"av"` is not one of C_pattern's LHS categories, so no other variant moves. Best parameters and objective are unchanged.
+- **added**: AV-high, not AV-low or Braida. Reasons: its raw error (17.5%) is closest to E_C = 20%, so level matching barely rescales it; 16-channel sound keeps some place information, as moderate noise does; English listeners, and 12 of 13 consonants measured. AV-low (1 channel, close to no spectrum) and Braida (8 consonants) are kept as cross-checks above.
+- **added**: one source, not a mix of AV sources like mix4. Reason: Braida covers only 8 consonants and its sound kept voicing, unlike the noise sources. Add-back trigger: an open AV matrix in real noise covering l w j.
+- Effect, best parameters, no listener groups, internal syllable (self-check line): p-b 9.3%, t-d 11.6%, k-g 2.3%, p-t 0.2%, m-n 1.0%, l-n 22.0%, m-b 2.2%, n-d 0.7%. Under best: p-b 3.6, t-d 1.4, p-t 10.2, m-n 7.8, l-n 4.5.
+- `tests/confusion-v2/check.py` with the variant (results file not rewritten): it passes; 50 pairs are in some variant's short-word top 10 (was 48). src-av alone brings **ya~na** and **yo~no** (the n-j effect) into a top 10, and adds **de~te** and **tin~din** to the variants that put them there (voicing). Content words: src-av puts gulo~yulo, tikun~ditun, nanyo~lanno, lodi~loki and kuwun~duwun in a top 20. (Separately, `results.txt` is already out of date before this change: the worst-voicing column differs, e.g. tin~din 18.0 vs 22.5 now. Not caused here.)
+- Flag (one line, design rule 1): the source's degradation is vocoding, and its n-l and n-j confusions look like artefacts of this study. Another option for the author: carry only the AO → AV *change* of the same study onto mix4, rather than using the AV pattern directly. Not done; the decision named the AV pattern.
+- Drop test (design log): if the short-word rerun with the variant changes no form, drop it. The rerun is not done here.
+
 ## Sources (read in this study unless marked)
 - Cooke & Scharenborg 2008, The Interspeech 2008 Consonant Challenge. https://www.isca-archive.org/interspeech_2008/cooke08_interspeech.pdf
 - Cooke, García Lecumberri, Scharenborg & van Dommelen 2010, Speech Communication 52:954–967. https://pure.mpg.de/rest/items/item_1169655_1/component/file_1169654/content
@@ -248,3 +318,7 @@ Add-back triggers for parts left out: syllable-count errors (Felty: 16.4% of wor
 - WALS chapters 4, 8, 12, 18 (wals.info); PHOIBLE 2.0 data (github.com/phoible/dev, data/phoible.csv)
 - Ethnologue 2026 L1 figures via Wikipedia, List of languages by total number of speakers (accessed 2026-10-13)
 - Not accessible: Wang & Bilger 1973 (paywall), Phatak & Allen 2007 (403), Moreno-Torres 2017 and Gibson 2026 full texts (403), Felty 2013 supplementary data (AIP).
+- von Seth, Aller & Davis 2025, JASA 157:1554–1576, doi:10.1121/10.0034846; preprint https://osf.io/preprints/psyarxiv/kj59f; data https://osf.io/j56y4/ (§8)
+- Braida, Sekiyama & Dix 1998, AVSP'98. https://www.isca-archive.org/avsp_1998/braida98_avsp.pdf (§8)
+- Lalonde & Werner 2019, PLoS ONE 14:e0213588 (article page summary; quiet only) and Lindborg & Andersen 2021, PLoS ONE 16:e0246986 (article page summary; b/g only) (§8)
+- Not accessible: Binnie, Montgomery & Jackson 1974; Grant & Walden 1996; Grant, Walden & Seitz 1998 (closed, §8)

@@ -1,0 +1,12 @@
+# source: Braida, Sekiyama & Dix 1998, Integration of audiovisually compatible and incompatible consonants in identification experiments, Proc. AVSP 1998 (Terrigal, Australia), ISCA Archive https://www.isca-archive.org/avsp_1998/braida98_avsp.pdf, read from the rendered page image 2026-10-15.
+# 28 young Japanese adults (native Japanese listeners); C + /a/ syllables spoken in isolation by 2 Japanese (1m 1f) and 2 American English (1m 1f) talkers, 2 tokens each; closed set b d g p t k m n; each stimulus 16 times per subject per mode (about 448 per row), pooled over talkers and subjects. Sound degraded by lowpass filtering and additive noise (cutoff and SNR not given in the paper). Rows = sent, columns = heard, percent (observed row only; the paper also prints model fits, not copied). Cells under 1% are suppressed in the paper (blank), written 0 here, so rows sum to 97-101.
+# condition: auditory only (Table 2, p. 3). Overall 48.4% correct (paper).
+sent\heard	b	d	g	k	m	n	p	t
+b	56	29	11	0	0	0	2	1
+d	14	42	44	0	0	0	0	0
+g	21	30	47	0	0	2	0	0
+k	0	0	0	40	0	0	29	30
+m	0	0	0	0	71	26	0	0
+n	0	0	1	0	50	48	0	0
+p	0	0	0	34	0	0	37	28
+t	0	0	0	27	0	0	25	47

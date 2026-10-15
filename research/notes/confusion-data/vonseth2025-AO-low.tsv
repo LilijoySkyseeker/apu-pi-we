@@ -1,0 +1,24 @@
+# source: von Seth, Aller & Davis 2025, Unimodal speech perception predicts stable individual differences in audiovisual benefit for phonemes, words and sentences, JASA 157(3):1554-1576, doi:10.1121/10.0034846; preprint PsyArXiv doi:10.31234/osf.io/kj59f; data OSF https://osf.io/j56y4/ files data/scored_data/consonants_scored.xlsx (session 1) and consonants_scored_2.xlsx (session 2), downloaded 2026-10-15; counted by trial here (the paper prints no matrix, only feature transmission).
+# condition: auditory-only, low clarity (p=0: 1-channel noise vocoding, broadband envelope only); not masked by noise. Overall 22.4% correct (4780 trials). 20-alternative forced choice (closed set, response words bad chat dad fat get hat jet cat let met net pet rat shed tad that vet wet yet zed); no /s/ stimulus or response.
+# 126 normal-hearing native British English adults online (session 1: 126, session 2: 113 of them; all released trials pooled, 239 per consonant per condition; the files label both sessions "Session_2", the session is taken from the file), 1 female talker, consonant + /ə/ from a closed-mouth start; each consonant once per condition per session. Rows = sent, columns = heard, counts. y = /j/, dj = /dZ/, ch = /tS/, sh = /S/, th = /T/.
+sent\heard	b	ch	d	f	g	h	dj	k	l	m	n	p	r	sh	t	th	v	w	y	z	sum
+b	105	2	4	10	1	19	3	2	3	0	2	74	0	0	8	4	2	0	0	0	239
+ch	0	53	1	3	0	6	0	1	0	2	0	0	0	168	3	1	0	0	0	1	239
+d	4	6	4	17	10	109	5	17	4	4	2	19	2	4	16	6	4	2	3	1	239
+f	1	68	2	12	3	6	4	4	2	0	2	1	2	101	2	7	7	5	7	3	239
+g	5	7	5	19	13	33	15	16	12	12	11	5	8	6	15	8	16	13	12	8	239
+h	0	5	0	8	0	204	1	1	0	0	0	2	2	4	1	6	1	0	2	2	239
+dj	17	9	9	8	17	48	3	13	6	0	5	40	4	1	26	16	11	3	0	3	239
+k	2	12	1	8	8	32	7	93	5	1	0	14	5	3	33	5	3	1	4	2	239
+l	8	3	6	9	4	65	4	3	24	24	21	9	6	6	7	18	11	6	0	5	239
+m	19	3	1	7	5	42	0	4	5	79	25	13	4	4	3	5	12	4	0	4	239
+n	3	2	3	9	3	41	2	5	7	48	70	8	3	3	5	8	7	3	3	6	239
+p	5	1	0	7	2	120	0	5	10	3	2	66	1	0	5	5	3	4	0	0	239
+r	13	1	3	13	5	36	5	0	15	31	21	12	35	4	5	9	10	9	2	10	239
+sh	0	12	0	0	0	0	0	0	0	0	0	0	0	224	1	1	0	0	0	1	239
+t	2	11	1	29	5	56	2	29	4	3	3	34	1	3	34	10	3	1	5	3	239
+th	1	11	1	22	2	120	3	9	5	1	2	28	1	4	15	7	2	0	1	4	239
+v	0	2	3	10	3	23	0	6	121	2	3	4	0	5	6	39	5	1	2	4	239
+w	28	2	3	12	7	43	1	5	23	12	12	20	20	0	3	19	13	9	4	3	239
+y	4	6	8	14	4	21	7	11	29	17	19	6	4	11	7	17	21	6	4	23	239
+z	2	1	1	14	4	7	4	0	19	90	37	1	5	2	3	6	10	2	2	29	239

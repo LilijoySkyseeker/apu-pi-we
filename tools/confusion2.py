@@ -19,6 +19,10 @@ Parts (each with its source; "added here" = a choice made while implementing, no
   vowels                   V_ratio x E_C spread over pair shares, §5.5
   listener groups          each raises one contrast to m for a share pi of listeners, §5.6. Overlaid as
                            independent features (a listener may lack several contrasts)
+  face-to-face listener    design log 2026-10-15: one robustness variant ("src-av") with the consonant
+                           pattern of listeners who see the talker (von Seth, Aller & Davis 2025, audiovisual,
+                           16-channel vocoded), level-matched like the other single sources; /s/, which the
+                           study lacks, is filled from mix4 (added here). confusion-data.md §8.
   aspiration               design log 2026-10-13: p t k aspirated word-initially in the reference. For
                            the voicing group the word-initial confusion is
                              asp_share * asp_conf + (1 - asp_share) * L2_voicing_m
@@ -103,6 +107,9 @@ PATTERN_FILES = {
     "cutler-dutch": "proj-cutler04-dutch-CV0dB.tsv",
     "mandarin6": "proj-mandarin-snr6.tsv",
     "mn55": "proj-mn55-6dB.tsv",
+    # Face-to-face listener (design log 2026-10-15; confusion-data.md §8). Used only by the "src-av"
+    # variant, not in C_pattern's categories. Lacks /s/: filled from mix4 in pattern().
+    "av": "proj-av-vonseth25-AV-high.tsv",
 }
 MIX4 = ("cooke08", "cutler-native", "cutler-dutch", "mandarin6")
 PATTERNS = ("mix4",) + MIX4 + ("mn55+mix",)  # C_pattern's categories (TSV)
@@ -190,7 +197,26 @@ def pattern(name, E):
             M[i] = np.nan_to_num(mn[i]) * (1 - to_lwj)
             M[i, lwj] = mix[i, lwj]
         return M
+    if name == "av":
+        return _fill_from_mix(_source("av", E), pattern("mix4", E))
     return _source(name, E)
+
+
+def _fill_from_mix(src, mix):
+    """Rows of consonants the source didn't test come from mix; in tested rows, responses to an
+    untested consonant come from mix and the rest of the row is scaled to make room (the mn55+mix
+    rule, for any missing set). Added here 2026-10-15 for the audiovisual source (no /s/)."""
+    M = src.copy()
+    miss = [OI[c] for c in CONS if np.isnan(src[OI[c], OI[c]])]
+    for c in CONS:
+        i = OI[c]
+        if i in miss:
+            M[i] = mix[i]
+            continue
+        to_miss = mix[i, miss].sum()
+        M[i] = np.nan_to_num(src[i]) * (1 - to_miss)
+        M[i, miss] = mix[i, miss]
+    return M
 
 
 # ---------------------------------------------------------------- component matrices
@@ -446,12 +472,15 @@ def _transform(u, d):
     return lo + u * (hi - lo)
 
 
-def variants(n_lhs=32, seed=2026):
+def variants(n_lhs=32, seed=2026, av=True):
     """The §6 variant set: [(name, params)].
     best; n_lhs Latin-hypercube draws (uniform / log-uniform per the TSV; C_pattern stratified over
     its categories; vowel shares Dirichlet around the best values, concentration 20); fixed corners:
     each consonant source alone, voicing x0.1 and x3, each listener group at pi = 1 with its high m
-    (other groups off), and v1."""
+    (other groups off), and v1.
+    av: add "src-av", a face-to-face listener (audiovisual consonant pattern in place of the consonant
+    pattern, everything else at best values; design log 2026-10-15). av=False gives the 48 variants
+    used before it, unchanged (same draws, same order)."""
     rng = np.random.default_rng(seed)
     best = best_params()
     out = [("best", best)]
@@ -472,6 +501,8 @@ def variants(n_lhs=32, seed=2026):
         out.append((f"lhs-{i:02d}", draws[i]))
     for s in PATTERNS[1:]:
         out.append((f"src-{s}", dict(best, C_pattern=s)))
+    if av:
+        out.append(("src-av", dict(best, C_pattern="av")))
     lo, hi = PARAMS["voice_mult"]["low"], PARAMS["voice_mult"]["high"]
     out.append((f"voicing-x{lo:g}", dict(best, voice_mult=lo)))
     out.append((f"voicing-x{hi:g}", dict(best, voice_mult=hi)))
@@ -521,6 +552,12 @@ if __name__ == "__main__":
     for name, p in V:
         check(p)
     print(f"{len(V)} variants, all syllable matrices stochastic")
+    assert [n for n, _ in variants(av=False)] == [n for n, _ in V if n != "src-av"]
+    A = onset_matrix(no_groups(dict(best_params(), C_pattern="av")), "internal")
+    assert not np.isnan(A).any()
+    sa = lambda a, b: (A[OI[a], OI[b]] + A[OI[b], OI[a]]) / 2
+    print("src-av, no listener groups, internal: voicing p-b %.3f t-d %.3f k-g %.3f | p-t %.3f m-n %.3f l-n %.3f m-b %.3f n-d %.3f"
+          % (sa("p", "b"), sa("t", "d"), sa("k", "g"), sa("p", "t"), sa("m", "n"), sa("l", "n"), sa("m", "b"), sa("n", "d")))
     p = best_params()
     C = onset_matrix(no_groups(p), "internal")
     sym = lambda a, b: (C[OI[a], OI[b]] + C[OI[b], OI[a]]) / 2
