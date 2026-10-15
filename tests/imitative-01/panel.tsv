@@ -1,0 +1,801 @@
+concept	form	ipa_form	lang	everyday	kind	ipa	adapted	shared	src	note
+mother	mama	mama	zh	媽媽 māma; 母親 mǔqīn (formal)	E+N	mama	mama	y	Wt, We	We: informal 'mum, mama'
+mother	mama	mama	ja	お母さん okāsan; ママ mama	N	mama	mama	y	Wt, We	We: childish 'mama'
+mother	mama	mama	ko	엄마 eomma (what children say); 어머니 eomeoni	N	ʌmːa	ama	l	Wt, We	adapted ama: one m
+mother	mama	mama	vi	mẹ; má (Southern)	E	mɛ	meyu	l	Wt, We	one syllable, the base of mama
+mother	mama	mama	th	แม่ mɛ̂ɛ	E	mɛː	meyu	l	Wt	one syllable
+mother	mama	mama	id	ibu; mama	E	mama	mama	y	Wt, We	We: mama 'mother (female parent)', no register label; ibu is the standard word
+mother	mama	mama	tl	nanay; mama	N	mama	mama	y	We	We: childish, familiar 'mum, mom'; Tagalog mama is also 'mister' (M)
+mother	mama	mama	hi	माँ mā̃; मम्मी mammī	N	məmːiː	mami	y	We	We: mammī childish, colloquial 'mom, mommy' (from English mummy); māmā = maternal uncle (We)
+mother	mama	mama	bn	মা ma; মাম্মি mammi	N	mamːi	mami	y	We	We: mammi childish, colloquial 'mother'; mama = maternal uncle (We)
+mother	mama	mama	ta	அம்மா ammā	E	amːaː	ama	l	Wt, We	adapted ama: one m
+mother	mama	mama	fa	مادر mādar; مامان māmān (spoken)	N	mɒːmɒːn	momon	l	Wt, We	adapted momon: extra n; We also lists مام mām 'childish' (would be mamu), not counted
+mother	mama	mama	ar	أمّ umm; ماما māmā	N	maːmaː	mama	y	Wt, We	We: childish, familiar 'mum, mummy, mama'
+mother	mama	mama	tr	anne	E			n	Wt	Turkish mama = baby food (We)
+mother	mama	mama	ru	мама mama; мать mat'	E	mama	mama	y	Wt, We	
+mother	mama	mama	es	madre; mamá	N	mama	mama	y	Wt, We	We: mamá familiar 'mum, mom'
+mother	mama	mama	fr	mère; maman	N	mamɑ̃	maman	l	Wt, We	adapted maman: extra n
+mother	mama	mama	sw	mama	E	mama	mama	y	Wt, We	
+mother	mama	mama	ha	uwa, inna; mama	E	maːma	mama	y	We	We: mama 'mother'; Wt lists uwa, inna
+mother	mama	mama	yo	ìyá; màmá	E	mama	mama	y	We	We: mama 'mother'; Wt grandmother table has màmá màmá
+mother	mama	mama	qu	mama	E	mama	mama	y	Wt, We	native word
+father	papa	papa	zh	父親 (fùqīn), 父 (fù), 爸爸 (bàba)	E			n	Wt	
+father	papa	papa	ja	お父さん otōsan; パパ papa	N	papa	papa	y	Wt, We	We: childish
+father	papa	papa	ko	아빠 appa (what children say); 아버지	N	apːa	apa	l	Wt, We	adapted apa: one p
+father	papa	papa	vi	cha, ba, bố	E			n	Wt	
+father	papa	papa	th	พ่อ phɔ̂ɔ; ป๊า páa	N	paː	pawu	l	Wt, We	We: colloquial; one syllable
+father	papa	papa	id	ayah, bapak; papa	N	papa	papa	y	We	We: colloquial 'father'
+father	papa	papa	tl	tatay; papa	N	papa	papa	y	Wt, We	We: childish, familiar
+father	papa	papa	hi	पिता pitā; पापा pāpā	N	paːpaː	papa	y	Wt, We	We: 'dad, daddy'; Hindi also bābā
+father	papa	papa	bn	আব্বা, পিতা, বাবা	E			n	Wt	
+father	papa	papa	ta	அப்பா appā	E	apːaː	apa	l	Wt, We	adapted apa: one p
+father	papa	papa	fa	پَدَر, پِدَر, وَالِد	E			n	Wt	
+father	papa	papa	ar	أَب, وَالِد, بَابَا	E			n	Wt	
+father	papa	papa	tr	baba, ata	E			n	Wt	
+father	papa	papa	ru	папа papa; отец otec	E	papa	papa	y	Wt, We	
+father	papa	papa	es	padre; papá	N	papa	papa	y	Wt, We	We: familiar
+father	papa	papa	fr	père; papa	N	papa	papa	y	Wt, We	We: childish
+father	papa	papa	sw	baba	E			n	Wt, We	the baba form; Swahili papa = shark (M)
+father	papa	papa	ha	ùbā, bā̀ba	E			n	Wt	
+father	papa	papa	yo	bàbá, baba	E			n	Wt	
+father	papa	papa	qu	tayta, tata	E			n	Wt, We	Quechua papa = potato (M)
+father	baba	baba	zh	爸爸 bàba; 父親 fùqīn	E+N	baba	baba	y	Wt, We	
+father	baba	baba	ja	パパ papa	N			n	Wt, We	the papa form
+father	baba	baba	ko	아빠 appa	N			n	Wt, We	the papa form (one p)
+father	baba	baba	vi	bố; ba (Southern)	E	ba	bawu	l	Wt, We	one syllable
+father	baba	baba	th	พ่อ phɔ̂ɔ; ป๊า páa	N			n	Wt, We	p
+father	baba	baba	id	ayah, bapak; baba	E	baba	baba	l	Wt, We	We lists baba 'father' (no label); used in Arab- and Chinese-descent families (M); bapak has b-p-k
+father	baba	baba	tl	tatay; papa	N			n	Wt, We	the papa form
+father	baba	baba	hi	पिता pitā; बाबा bābā	E	baːbaː	baba	y	Wt, We	We: 'dad, papa'; also 'paternal grandfather', 'a male elder'
+father	baba	baba	bn	বাবা baba	E	baba	baba	y	Wt, We	
+father	baba	baba	ta	அப்பா appā	E			n	Wt, We	the papa form (one p)
+father	baba	baba	fa	پدر pedar; بابا bābā	E	baːbaː	baba	y	Wt, We	We: colloquial
+father	baba	baba	ar	أب ab; بابا bābā	N	baːbaː	baba	y	Wt, We	We: childish
+father	baba	baba	tr	baba	E	baba	baba	y	Wt, We	
+father	baba	baba	ru	папа papa; батя bátja	E			n	Wt, We	the papa form
+father	baba	baba	es	papá	N			n	Wt, We	the papa form
+father	baba	baba	fr	papa	N			n	Wt, We	the papa form
+father	baba	baba	sw	baba	E	baba	baba	y	Wt, We	
+father	baba	baba	ha	ùbā; bā̀ba	E	baːba	baba	y	Wt, We	
+father	baba	baba	yo	bàbá	E	baba	baba	y	Wt, We	
+father	baba	baba	qu	tayta, tata	E			n	Wt, We	
+grandmother	nana	nana	zh	奶奶 nǎinai	E	nainai	nayinayi	l	Wt	adapted nayinayi
+grandmother	nana	nana	ja	お婆ちゃん obāchan; バーバ bāba (nursery)	N			n	Wt, Wb	Wordbank JA sounds item バーバ
+grandmother	nana	nana	ko	할머니, 외할머니	E			n	Wt	
+grandmother	nana	nana	vi	bà, bà ngoại, bà nội	E			n	Wt	
+grandmother	nana	nana	th	ย่า, ยาย	E			n	Wt	
+grandmother	nana	nana	id	nenek	E	nenek	neneku	l	Wt	adapted neneku: extra k
+grandmother	nana	nana	tl	lola, impo, lelang	E			n	Wt	
+grandmother	nana	nana	hi	नानी nānī (mother's mother); दादी dādī (father's mother)	E	naːniː	nani	y	Wt, We	nānā = maternal grandfather
+grandmother	nana	nana	bn	নানী nani (mother's mother); দাদি dadi	E	naniː	nani	y	Wt, We	nana = maternal grandfather (We)
+grandmother	nana	nana	ta	பாட்டி, ஆயாள், மூதாய்	E			n	Wt	
+grandmother	nana	nana	fa	مادربزرگ mādarbozorg; ننه nane	E	nane	nane	y	Wt	nane is also 'mother' in speech (M)
+grandmother	nana	nana	ar	جدّة jadda; تيتة tēta	E			n	Wt	
+grandmother	nana	nana	tr	nine, babaanne/anneanne	E	nine	nine	y	Wt	
+grandmother	nana	nana	ru	бабушка babushka, баба	E			n	Wt	the baba shape (ru, ja bāba, sw bibi)
+grandmother	nana	nana	es	abuela	E			n	Wt	
+grandmother	nana	nana	fr	grand-mère; mamie, mémé	N			n	Wt	
+grandmother	nana	nana	sw	bibi; nyanya (Kenya)	E	ɲaɲa	nana	l	Wt, We	nyanya adapts to nana; regional, second word
+grandmother	nana	nana	ha	kaka	E			n	Wt	
+grandmother	nana	nana	yo	ìyá ìyá, màmá màmá, ìyá bàbá	E			n	Wt	
+grandmother	nana	nana	qu	jatun mama	E			n	Wt	
+grandfather	dada	dada	zh	爺爺 (yéye), 祖父 (zǔfù), 外祖父 (wàizǔfù)	E			n	Wt	
+grandfather	dada	dada	ja	お爺ちゃん ojiichan; ジージ jīji (nursery)	N	dʑiːdʑi	didi	y	Wb, We	Wordbank JA sounds item ジージ・ジジ（祖父）; We 爺 jī 'grandfather'
+grandfather	dada	dada	ko	할아버지, 친할아버지, 외할아버지	E			n	Wt	
+grandfather	dada	dada	vi	ông, ôông	E			n	Wt	
+grandfather	dada	dada	th	ปู่, ตา, ก๋ง	E			n	Wt	
+grandfather	dada	dada	id	kakek, engkong	E			n	Wt	
+grandfather	dada	dada	tl	lolo, ingkong, lelong	E			n	Wt	
+grandfather	dada	dada	hi	दादा dādā (father's father); नाना nānā	E	daːdaː	dada	y	Wt, We	
+grandfather	dada	dada	bn	দাদা dada, দাদু dadu; নানা nana	E	dadu	dadu	y	Wt, We	dada also 'elder brother'
+grandfather	dada	dada	ta	தாத்தா tāttā	E			n	Wt	t-t
+grandfather	dada	dada	fa	پدربزرگ pedarbozorg	E			n	Wt	dādā is Tajik 'father' (We)
+grandfather	dada	dada	ar	جدّ jadd; جدّو jiddo, سيدو sido (Levantine)	E	dʒadː	dadu	y	Wt	adapted dadu
+grandfather	dada	dada	tr	dede, büyükbaba	E	dede	dede	y	Wt	
+grandfather	dada	dada	ru	дедушка dedushka, дед ded	E	dʲet	detu	l	Wt	ded adapts to detu (final devoicing); dedushka to dedusuka
+grandfather	dada	dada	es	abuelo	E			n	Wt	
+grandfather	dada	dada	fr	grand-père, aïeul	E			n	Wt	
+grandfather	dada	dada	sw	babu	E			n	Wt	
+grandfather	dada	dada	ha	kaka	E			n	Wt	
+grandfather	dada	dada	yo	bàbá bàbá, bàbá ìyá, bàbá màmá	E			n	Wt	
+grandfather	dada	dada	qu	awki, jatun tata	E			n	Wt	
+baby	bebe	bebe	zh	嬰兒, 娃娃, 小娃娃	E			n	Wt	
+baby	bebe	bebe	ja	赤ちゃん (あかちゃん, akachan), 赤ん坊 (あかんぼう, akanbō), 嬰児 (えいじ, eiji)	E			n	Wt	
+baby	bebe	bebe	ko	아기, 유아(乳兒), 젖먹이	E			n	Wt	
+baby	bebe	bebe	vi	em bé, bé	E	bɛ	beyu	l	Wt	one syllable
+baby	bebe	bebe	th	เด็กอ่อน, เด็กน้อย, ทารก	E			n	Wt	
+baby	bebe	bebe	id	bayi	E			n	Wt	
+baby	bebe	bebe	tl	sanggol; bebe, beybi (colloquial)	E	bebe	bebe	y	Wt, We	We: bebe colloquial, alternative form of beybi
+baby	bebe	bebe	hi	शिशु, बच्चा	E			n	Wt	
+baby	bebe	bebe	bn	শিশু, বাচ্চা	E			n	Wt	
+baby	bebe	bebe	ta	குழந்தை kuḻantai; பாப்பா pāppā	E			n	Wt, M	
+baby	bebe	bebe	fa	اُشْتُک (uštuk), اُشْتُکَک (uštukak), بچه (bačča)	E			n	Wt	
+baby	bebe	bebe	ar	رضيع raḍīʿ; بيبي bēbī (spoken)	E	beːbiː	bebi	y	M	spoken Levantine and Egyptian, from memory
+baby	bebe	bebe	tr	bebek	E	bebek	bebeku	l	Wt	adapted bebeku: extra k
+baby	bebe	bebe	ru	младе́нец, малы́ш, малы́шка	E			n	Wt	
+baby	bebe	bebe	es	bebé	E	bebe	bebe	y	Wt	
+baby	bebe	bebe	fr	bébé	E	bebe	bebe	y	Wt	
+baby	bebe	bebe	sw	mtoto mchanga	E			n	Wt	
+baby	bebe	bebe	ha	jariri	E			n	Wt	
+baby	bebe	bebe	yo	ọmọ ọwọ	E			n	M	
+baby	bebe	bebe	qu	wawa	E			n	We	the wawa shape: qu wawa, zh 娃娃 wáwa (Wt), es guagua (Wt, Andean)
+cat	mawu	mau	zh	貓 māo	E	mau	mawu	y	Wt, We	
+cat	mawu	mau	ja	猫 neko; ニャンニャン nyannyan (nursery)	N			n	Wt, Wb	
+cat	mawu	mau	ko	고양이 goyangi; 야옹이 yaongi (childish)	N			n	Wt, We	
+cat	mawu	mau	vi	mèo	E	mɛw	mewu	y	Wt, We	adapted mewu (m-w)
+cat	mawu	mau	th	แมว mɛɛw	E	mɛːw	mewu	y	Wt, We	
+cat	mawu	mau	id	kucing; meong (informal)	N	meoŋ	meyon	l	Wt, We	adapted meyon
+cat	mawu	mau	tl	pusa	E			n	Wt	the pus shape: tl pusa, tr pisi (childish), fa piši
+cat	mawu	mau	hi	बिल्ली, बिल्ला	E			n	Wt	
+cat	mawu	mau	bn	বিড়াল, বেড়াল, বিলাই	E			n	Wt	
+cat	mawu	mau	ta	பூனை, பூசை, பில்லி	E			n	Wt	
+cat	mawu	mau	fa	گربه gorbe; پیشی piši, میو miyaw (childish)	N	mijaw	miyawu	l	Wt, We	adapted miyawu (m-y-w)
+cat	mawu	mau	ar	قِطّ, قِطَّة, هِرّ	E			n	Wt	
+cat	mawu	mau	tr	kedi, pisi[[pisi]], enik	E			n	Wt	
+cat	mawu	mau	ru	ко́шка, кот	E			n	Wt	
+cat	mawu	mau	es	gato, gata, mish	E			n	Wt	
+cat	mawu	mau	fr	chat, chatte	E			n	Wt	
+cat	mawu	mau	sw	paka; nyau	E			n	Wt, We	nyau adapts to nawu
+cat	mawu	mau	ha	kyânwā	E			n	Wt	
+cat	mawu	mau	yo	ológìnní, ológbò	E			n	Wt	
+cat	mawu	mau	qu	misi	E			n	Wt, We	the mis shape: qu misi, yo músù (We), ha mussa (We)
+dog	wawu	wau	zh	狗, 犬	E			n	Wt	
+dog	wawu	wau	ja	犬 inu; ワンワン wanwan (childish)	N	wanwan	wanwan	l	Wt, We	adapted wanwan (w-n-w-n)
+dog	wawu	wau	ko	개 gae; 멍멍이 meongmeongi (childish)	N			n	Wt, We	
+dog	wawu	wau	vi	chó, cẩu, khuyển	E			n	Wt	
+dog	wawu	wau	th	หมา, สุนัข	E			n	Wt	
+dog	wawu	wau	id	anjing, asu	E			n	Wt	
+dog	wawu	wau	tl	aso; aw-aw (childish)	N	ʔawʔaw	awawu	y	Wt, We	adapted awawu
+dog	wawu	wau	hi	कुत्ता, कुत्ती, श्वान	E			n	Wt	
+dog	wawu	wau	bn	কুকুর, কুত্তা	E			n	Wt	
+dog	wawu	wau	ta	நாய், ஞமலி, ஞாளி	E			n	Wt	
+dog	wawu	wau	fa	سگ sag; هاپو hāpu (childish)	N			n	Wt, We	
+dog	wawu	wau	ar	كَلْب	E			n	Wt	
+dog	wawu	wau	tr	köpek, it	E			n	Wt	
+dog	wawu	wau	ru	соба́ка, пёс, пси́на	E			n	Wt	
+dog	wawu	wau	es	perro, can, tuso	E			n	Wt	
+dog	wawu	wau	fr	chien; toutou (childish)	N			n	Wt, We	toutou is close to totu, by chance
+dog	wawu	wau	sw	mbwa	E			n	M	missing from Wt
+dog	wawu	wau	ha	kàrē	E			n	Wt	
+dog	wawu	wau	yo	ajá	E			n	Wt	
+dog	wawu	wau	qu	alkho, allqu, allgo	E			n	Wt	
+cow	mumu	muːmuː	zh	母牛 mǔniú; 牛牛 niúniu (childish)	N			n	Wt, We	
+cow	mumu	muːmuː	ja	牛 ushi; もうもう mōmō (childish)	N	moːmoː	momo	y	Wt, We	adapted momo
+cow	mumu	muːmuː	ko	암소	E			n	Wt	
+cow	mumu	muːmuː	vi	bò cái	E			n	Wt	
+cow	mumu	muːmuː	th	วัว, โค	E			n	Wt	
+cow	mumu	muːmuː	id	sapi	E			n	Wt	
+cow	mumu	muːmuː	tl	baka	E			n	Wt	
+cow	mumu	muːmuː	hi	गाय, गो, गऊ	E			n	Wt	
+cow	mumu	muːmuː	bn	গাই, গরু	E			n	Wt	
+cow	mumu	muːmuː	ta	பசு	E			n	Wt	
+cow	mumu	muːmuː	fa	مادِه‌گاو, گاو, گُو	E			n	Wt	
+cow	mumu	muːmuː	ar	بَقَرَة	E			n	Wt	
+cow	mumu	muːmuː	tr	inek, sığır	E			n	Wt	
+cow	mumu	muːmuː	ru	коро́ва	E			n	Wt	
+cow	mumu	muːmuː	es	vaca	E			n	Wt	the vaca shape: es vaca, tl baka, qu waka (not imitative)
+cow	mumu	muːmuː	fr	vache	E			n	Wt	
+cow	mumu	muːmuː	sw	ng'ombe	E			n	Wt	
+cow	mumu	muːmuː	ha	saniya	E			n	Wt	
+cow	mumu	muːmuː	yo	abo màluu	E			n	Wt	
+cow	mumu	muːmuː	qu	waka	E			n	Wt	
+sheep	meme	meme	zh	綿羊 (miányáng), 羊 (yáng)	E			n	Wt	
+sheep	meme	meme	ja	羊 (ひつじ, hitsují), ヒツジ (hitsuji), 綿羊 (めんよう, men'yō)	E			n	Wt	
+sheep	meme	meme	ko	양, 면양	E			n	Wt	
+sheep	meme	meme	vi	cừu	E			n	Wt	
+sheep	meme	meme	th	แกะ	E			n	Wt	
+sheep	meme	meme	id	domba, biri-biri	E			n	Wt	
+sheep	meme	meme	tl	tupa, obeha	E			n	Wt	
+sheep	meme	meme	hi	भेड़ bheṛ; मेमना memnā 'lamb'	E			n	Wt, We	
+sheep	meme	meme	bn	ভেড়া, মেষ	E			n	Wt	
+sheep	meme	meme	ta	செம்மறியாடு	E			n	Wt	
+sheep	meme	meme	fa	گوسْفَنْد, میش, قُوچ	E			n	Wt	
+sheep	meme	meme	ar	خَرُوف, شاء, حَمَل	E			n	Wt	
+sheep	meme	meme	tr	koyun	E			n	Wt	
+sheep	meme	meme	ru	овца́, ове́чка	E			n	Wt	
+sheep	meme	meme	es	carnero, oveja	E			n	Wt	
+sheep	meme	meme	fr	mouton	E			n	Wt	
+sheep	meme	meme	sw	kondoo	E			n	Wt	
+sheep	meme	meme	ha	tunkìyā	E			n	Wt	
+sheep	meme	meme	yo	àgùtàn	E			n	Wt	
+sheep	meme	meme	qu	uwija	E			n	Wt	
+goat	meme	meme	zh	山羊 shānyáng; 羊咩咩 (childish, southern dialects)	E			n	Wt, We	not Mandarin
+goat	meme	meme	ja	ヤギ yagi; メーメー mēmē (nursery)	N	meːmeː	meme	y	Wt, Wb	Wordbank JA sounds item メーメー (ヤギ)
+goat	meme	meme	ko	염소, 산양(山羊)	E			n	Wt	
+goat	meme	meme	vi	dê, con dê	E			n	Wt	
+goat	meme	meme	th	แพะ	E			n	Wt	
+goat	meme	meme	id	kambing	E			n	Wt	
+goat	meme	meme	tl	kambing	E			n	Wt	
+goat	meme	meme	hi	बकरी, बकरा	E			n	Wt	
+goat	meme	meme	bn	ছাগল, বকরা	E			n	Wt	
+goat	meme	meme	ta	வெள்ளாடு, ஆடு	E			n	Wt	
+goat	meme	meme	fa	بُز, بُز	E			n	Wt	
+goat	meme	meme	ar	مَاعِز, عَنْزَة	E			n	Wt	
+goat	meme	meme	tr	keçi	E			n	Wt	
+goat	meme	meme	ru	коза́, козёл	E			n	Wt	
+goat	meme	meme	es	cabra, chivo	E			n	Wt	
+goat	meme	meme	fr	chèvre, bouc, bique	E			n	Wt	
+goat	meme	meme	sw	mbuzi	E			n	Wt	
+goat	meme	meme	ha	bunsuru	E			n	Wt	
+goat	meme	meme	yo	ewúrẹ́	E			n	Wt	
+goat	meme	meme	qu	kawra	E			n	Wt	
+duck	kuwaku	kwak	zh	鴨 (yā), 鴨子 (yāzi)	E			n	Wt	
+duck	kuwaku	kwak	ja	鴨 (kamo), カモ (kamo), 家鴨 (ahiru)	E			n	Wt	
+duck	kuwaku	kwak	ko	오리	E			n	Wt	
+duck	kuwaku	kwak	vi	([[con]]) [[vịt]], vịt	E			n	Wt	
+duck	kuwaku	kwak	th	เป็ด	E			n	Wt	
+duck	kuwaku	kwak	id	bebek	E			n	Wt	
+duck	kuwaku	kwak	tl	itik, bibi, pato	E			n	Wt	
+duck	kuwaku	kwak	hi	बतख़, बत्तख, बतख	E			n	Wt	
+duck	kuwaku	kwak	bn	পাতিহাঁস, হাঁস	E			n	Wt	
+duck	kuwaku	kwak	ta	வாத்து	E			n	Wt	
+duck	kuwaku	kwak	fa	مرغابی (murġābī), اردک (ordak), مرغابی (morġâbi)	E			n	Wt	
+duck	kuwaku	kwak	ar	بطّة baṭṭa	E			n	Wt	not imitative; the bata/pato wanderwort (ar sw bata, es tl pato, vi vịt, th pèt, ta vāttu, hi batakh) splits into several adapted shapes, none above 3
+duck	kuwaku	kwak	tr	ördek	E			n	Wt	
+duck	kuwaku	kwak	ru	у́тка, се́лезень, ка́чка	E			n	Wt	
+duck	kuwaku	kwak	es	pato, ánade, corco	E			n	Wt	
+duck	kuwaku	kwak	fr	canard	E			n	Wt	
+duck	kuwaku	kwak	sw	bata	E			n	Wt	
+duck	kuwaku	kwak	ha	agwagwa	E	aɡwaɡwa	aguwaguwa	l	Wt	imitative; adapted aguwaguwa (g-w-g-w)
+duck	kuwaku	kwak	yo	pẹ́pẹ́yẹ	E			n	Wt	
+duck	kuwaku	kwak	qu	wacwa	E			n	Wt	
+chicken	kuku	kuku	zh	雞//鷄//鸡 (jī)	E			n	Wt	
+chicken	kuku	kuku	ja	鶏 niwatori; コケコッコー kokekokkō (childish)	N	kokekokːoː	kokekoko	l	Wt, We	adapted kokekoko
+chicken	kuku	kuku	ko	닭	E			n	Wt	
+chicken	kuku	kuku	vi	gà	E			n	Wt	
+chicken	kuku	kuku	th	ไก่	E			n	Wt	
+chicken	kuku	kuku	id	ayam, manuk	E			n	Wt	
+chicken	kuku	kuku	tl	manok	E			n	Wt	
+chicken	kuku	kuku	hi	मुर्ग़ा murġā; कुक्कुट kukkuṭ (formal)	E			n	Wt	
+chicken	kuku	kuku	bn	মুরগি murgi; কুঁকড়া kũkṛā	E	kukra	kukula	l	Wt, We	adapted kukula
+chicken	kuku	kuku	ta	கோழி	E			n	Wt	
+chicken	kuku	kuku	fa	مرغ خانگی (morġ-e xânegi), ماک (mâk), مرغ (morġ)	E			n	Wt	
+chicken	kuku	kuku	ar	دَجَاجَة	E			n	Wt	
+chicken	kuku	kuku	tr	tavuk	E			n	Wt	
+chicken	kuku	kuku	ru	цыплёнок, ку́рица, пету́х	E			n	Wt	
+chicken	kuku	kuku	es	pollo	E			n	Wt	
+chicken	kuku	kuku	fr	poulet	E			n	Wt	
+chicken	kuku	kuku	sw	kuku	E	kuku	kuku	y	Wt, We	
+chicken	kuku	kuku	ha	kaza	E			n	Wt	
+chicken	kuku	kuku	yo	adìẹ; àkùkọ 'rooster'	E	akuko	akuko	y	Wt	counted for rooster (Wt rooster table)
+chicken	kuku	kuku	qu	wallpa	E			n	Wt	
+bird	piyu	piu	zh	鳥 (niǎo), 雀 (què)	E			n	Wt	
+bird	piyu	piu	ja	鳥 (とり, tori), 鳥類 (ちょうるい, chōrui)	E			n	Wt	
+bird	piyu	piu	ko	새, 조류(鳥類)	E			n	Wt	
+bird	piyu	piu	vi	chim	E			n	Wt	
+bird	piyu	piu	th	นก, ปักษา	E			n	Wt	
+bird	piyu	piu	id	burung	E			n	Wt	
+bird	piyu	piu	tl	ibon	E			n	Wt	
+bird	piyu	piu	hi	चिड़िया, पंछी, पक्षी	E			n	Wt	
+bird	piyu	piu	bn	পাখী, পাখি	E			n	Wt	
+bird	piyu	piu	ta	பறவை	E			n	Wt	
+bird	piyu	piu	fa	پَرِنْدَه, مُرْغ, پَرَنْدِه	E			n	Wt	
+bird	piyu	piu	ar	طَائِر, عُصْفُور	E			n	Wt	
+bird	piyu	piu	tr	kuş	E			n	Wt	
+bird	piyu	piu	ru	пти́ца, пта́шка, пта́х	E			n	Wt	
+bird	piyu	piu	es	pájaro, ave	E			n	Wt	
+bird	piyu	piu	fr	oiseau, oiselle, oiselet	E			n	Wt	
+bird	piyu	piu	sw	ndege	E			n	Wt	
+bird	piyu	piu	ha	tsuntsu	E			n	Wt	
+bird	piyu	piu	yo	ẹyẹ	E			n	Wt	
+bird	piyu	piu	qu	pisqu, pisgo	E			n	Wt	
+cuckoo	kuku	kuku	zh	杜鵑 dùjuān, 布穀鳥 bùgǔniǎo	E			n	Wt	
+cuckoo	kuku	kuku	ja	郭公 kakkō	E	kakːoː	kako	y	Wt	adapted kako
+cuckoo	kuku	kuku	ko	뻐꾸기, 두견새	E			n	Wt	
+cuckoo	kuku	kuku	vi	chim cu, cu cu	E	ku ku	kuku	y	Wt	
+cuckoo	kuku	kuku	th	นกกาเหว่า nók-kaa-wàao (koel)	E			n	M	missing from Wt
+cuckoo	kuku	kuku	id	burung kangkok, tekukur (M)	E			n	M	missing from Wt
+cuckoo	kuku	kuku	tl	kakok	E	kakok	kakoku	l	Wt	adapted kakoku
+cuckoo	kuku	kuku	hi	कोयल koyal	E			n	Wt	the koel
+cuckoo	kuku	kuku	bn	কোকিল kokil	E	kokil	kokilu	l	We	adapted kokilu
+cuckoo	kuku	kuku	ta	குயில் kuyil	E			n	Wt	
+cuckoo	kuku	kuku	fa	کوکو kuku	E	kuːkuː	kuku	y	Wt	
+cuckoo	kuku	kuku	ar	وقواق waqwāq	E			n	Wt	
+cuckoo	kuku	kuku	tr	guguk	E			n	Wt	g, not k
+cuckoo	kuku	kuku	ru	кукушка kukushka	E	kukuʂka	kukusuka	l	Wt, We	adapted kukusuka
+cuckoo	kuku	kuku	es	cuco, cuclillo	E	kuko	kuko	y	Wt, We	
+cuckoo	kuku	kuku	fr	coucou	E	kuku	kuku	y	Wt, We	
+cuckoo	kuku	kuku	sw	kekeo	E	kekeo	kekeyo	l	Wt	adapted kekeyo
+cuckoo	kuku	kuku	ha	(no entry)	E			n	M	missing from Wt and We; not looked up further
+cuckoo	kuku	kuku	yo	(no entry)	E			n	M	missing from Wt and We; not looked up further
+cuckoo	kuku	kuku	qu	(no entry)	E			n	M	missing from Wt and We; not looked up further
+crow	kaka	kaka	zh	烏鴉 (wūyā)	E			n	Wt	
+crow	kaka	kaka	ja	烏 (からす, karasu), 慈鳥 (じちょう, jichō)	E			n	Wt	
+crow	kaka	kaka	ko	까마귀	E			n	Wt	
+crow	kaka	kaka	vi	quạ	E			n	Wt	
+crow	kaka	kaka	th	กา kaa	E	kaː	kawu	l	Wt	one syllable
+crow	kaka	kaka	id	gagak	E			n	Wt	g-g-k
+crow	kaka	kaka	tl	uwák	E			n	Wt	
+crow	kaka	kaka	hi	कौआ kauā; काक kāk (formal)	E	kaːk	kaku	l	Wt	kāk is listed (M*), kauā is the everyday word
+crow	kaka	kaka	bn	কাক kāk	E	kaːk	kaku	y	Wt	adapted kaku
+crow	kaka	kaka	ta	காக்கை kākkai, காக்கா kākkā (colloquial)	E	kaːkːaː	kaka	y	Wt, We	
+crow	kaka	kaka	fa	کلاغ (kalâġ), غراب (ġorâb)	E			n	Wt	
+crow	kaka	kaka	ar	غُرَاب, زَاغ	E			n	Wt	
+crow	kaka	kaka	tr	karga	E			n	Wt	
+crow	kaka	kaka	ru	воро́на	E			n	Wt	
+crow	kaka	kaka	es	corneja, cuervo	E			n	Wt	
+crow	kaka	kaka	fr	corneille, corbeau	E			n	Wt	
+crow	kaka	kaka	sw	kunguru	E			n	Wt	
+crow	kaka	kaka	ha	hankaka	E	hankaka	ankaka	l	Wt	adapted ankaka
+crow	kaka	kaka	yo	kanna-kánná	E			n	Wt	
+crow	kaka	kaka	qu	(no entry)	E			n	M	missing from Wt
+owl	uwu	huhu	zh	貓頭鷹 (māotóuyīng), 夜貓子 (yèmāozi), 鴞 (xiāo)	E			n	Wt	
+owl	uwu	huhu	ja	フクロウ (fukurō), 梟 (ふくろう, fukurō)	E			n	Wt	
+owl	uwu	huhu	ko	올빼미, 부엉이	E			n	Wt	
+owl	uwu	huhu	vi	cú	E			n	Wt	
+owl	uwu	huhu	th	นกฮูก (nók hûuk)	E			n	Wt	
+owl	uwu	huhu	id	burung hantu, burung suangi, celepuk	E			n	Wt	
+owl	uwu	huhu	tl	kuwago	E			n	Wt	
+owl	uwu	huhu	hi	उल्लू, पेचक, उलूक	E			n	Wt	
+owl	uwu	huhu	bn	পেঁচা, উলূক, পেচক	E			n	Wt	
+owl	uwu	huhu	ta	ஆந்தை, கூகை	E			n	Wt	
+owl	uwu	huhu	fa	جغد (joġd), بوف (buf)	E			n	Wt	
+owl	uwu	huhu	ar	بُومَة	E			n	Wt	
+owl	uwu	huhu	tr	baykuş	E			n	Wt	
+owl	uwu	huhu	ru	сова́, фи́лин, сыч	E			n	Wt	
+owl	uwu	huhu	es	búho, lechuza, tecolote	E			n	Wt	
+owl	uwu	huhu	fr	hibou, chouette	E			n	Wt	
+owl	uwu	huhu	sw	bundi	E			n	Wt	
+owl	uwu	huhu	ha	mujiya	E			n	Wt	
+owl	uwu	huhu	yo	òwìwí	E			n	Wt	
+owl	uwu	huhu	qu	tuku, paqpaka, ch'usiqa	E			n	Wt	
+frog	kulowa	kroa	zh	青蛙 (qīngwā), 田雞 (tiánjī)	E			n	Wt	
+frog	kulowa	kroa	ja	蛙 (かえる, kaeru, かわず, kawazu), かはづ (kahadzu), カエル (kaeru)	E			n	Wt	
+frog	kulowa	kroa	ko	개구리	E			n	Wt	
+frog	kulowa	kroa	vi	ếch, nhái, ngoé	E			n	Wt	
+frog	kulowa	kroa	th	กบ (gòp)	E			n	Wt	
+frog	kulowa	kroa	id	kodok	E			n	Wt	
+frog	kulowa	kroa	tl	palaka	E			n	Wt	
+frog	kulowa	kroa	hi	मेंढक, मेंढकी, मेंडक	E			n	Wt	
+frog	kulowa	kroa	bn	ব্যাঙ	E			n	Wt	
+frog	kulowa	kroa	ta	தவளை	E			n	Wt	
+frog	kulowa	kroa	fa	بَقَه, قُورْبَاغَه, قورْباغِه	E			n	Wt	
+frog	kulowa	kroa	ar	ضِفْدِع, ضَفْدَع, ضِفْدَع	E			n	Wt	
+frog	kulowa	kroa	tr	kurbağa	E			n	Wt	
+frog	kulowa	kroa	ru	лягу́шка, жа́ба	E			n	Wt	
+frog	kulowa	kroa	es	rana	E			n	Wt	
+frog	kulowa	kroa	fr	grenouille	E			n	Wt	
+frog	kulowa	kroa	sw	chura	E			n	Wt	
+frog	kulowa	kroa	ha	kwaɗo	E			n	Wt	
+frog	kulowa	kroa	yo	àkèré, kọ̀ǹkọ̀, ọ̀pọ̀lọ́	E			n	Wt	
+frog	kulowa	kroa	qu	kaira, racak, jamp'atu	E			n	Wt	
+bee	bese	beze	zh	蜜蜂 (mìfēng), 蠟蜂 (làfēng)	E			n	Wt	
+bee	bese	beze	ja	蜂 (はち, hachi), 花蜂 (はなばち, hanabachi)	E			n	Wt	
+bee	bese	beze	ko	벌, 밀봉(蜜蜂)	E			n	Wt	
+bee	bese	beze	vi	ong	E			n	Wt	
+bee	bese	beze	th	ผึ้ง, ภมร, ภุมรี	E			n	Wt	
+bee	bese	beze	id	lebah, tawon	E			n	Wt	
+bee	bese	beze	tl	bubuyog, pukyot	E			n	Wt	
+bee	bese	beze	hi	मधुमक्खी	E			n	Wt	
+bee	bese	beze	bn	মৌমাছি	E			n	Wt	
+bee	bese	beze	ta	தேனீ	E			n	Wt	
+bee	bese	beze	fa	زَنْبور, زَنْبورِ عَسَل, مُنْج	E			n	Wt	
+bee	bese	beze	ar	نَحْلَة, نَحْل	E			n	Wt	
+bee	bese	beze	tr	arı	E			n	Wt	
+bee	bese	beze	ru	пчела́	E			n	Wt	
+bee	bese	beze	es	abeja	E			n	Wt	
+bee	bese	beze	fr	abeille, mouche à miel	E			n	Wt	
+bee	bese	beze	sw	nyuki	E			n	Wt	
+bee	bese	beze	ha	zuma	E			n	Wt	
+bee	bese	beze	yo	oyin, kòkòrò oyin	E			n	Wt	
+bee	bese	beze	qu	mapa mama, abiha	E			n	Wt	
+wolf	lobo	lobo	zh	狼 (láng)	E			n	Wt	
+wolf	lobo	lobo	ja	狼 (おおかみ, ōkami), オオカミ (ōkami), ウルフ (urufu)	E			n	Wt	
+wolf	lobo	lobo	ko	늑대, 이리	E			n	Wt	
+wolf	lobo	lobo	vi	sói, chó sói	E			n	Wt	
+wolf	lobo	lobo	th	หมาป่า, สุนัขป่า	E			n	Wt	
+wolf	lobo	lobo	id	serigala	E			n	Wt	
+wolf	lobo	lobo	tl	lobo	E	lobo	lobo	y	Wt	from Spanish
+wolf	lobo	lobo	hi	भेड़िया, वृक	E			n	Wt	
+wolf	lobo	lobo	bn	নেকড়ে	E			n	Wt	
+wolf	lobo	lobo	ta	ஓநாய்	E			n	Wt	
+wolf	lobo	lobo	fa	گُرْگ, گُرْگ	E			n	Wt	
+wolf	lobo	lobo	ar	ذِئْب	E			n	Wt	
+wolf	lobo	lobo	tr	kurt, börü	E			n	Wt	
+wolf	lobo	lobo	ru	волк, волчи́ца	E			n	Wt	
+wolf	lobo	lobo	es	lobo	E	lobo	lobo	y	Wt	
+wolf	lobo	lobo	fr	loup	E			n	Wt	
+wolf	lobo	lobo	sw	mbwa mwitu	E			n	Wt	
+wolf	lobo	lobo	ha	kyarkeci	E			n	M	missing from Wt
+wolf	lobo	lobo	yo	ìkòokò	E			n	M	missing from Wt
+wolf	lobo	lobo	qu	atawka	E			n	Wt	
+pig	bubu	buːbuː	zh	豬 (zhū), 豬玀 (zhūluó), 豕 (shǐ)	E			n	Wt	
+pig	bubu	buːbuː	ja	豚 buta; ブーブー būbū (childish)	N	buːbuː	bubu	y	Wt, We	
+pig	bubu	buːbuː	ko	돼지	E			n	Wt	
+pig	bubu	buːbuː	vi	heo, lợn, cúi	E			n	Wt	
+pig	bubu	buːbuː	th	หมู	E			n	Wt	
+pig	bubu	buːbuː	id	babi	E	babi	babi	y	Wt	
+pig	bubu	buːbuː	tl	baboy	E	baboj	baboyu	l	Wt	adapted baboyu
+pig	bubu	buːbuː	hi	सूअर	E			n	Wt	
+pig	bubu	buːbuː	bn	শূকর, শুওর, শুয়ার	E			n	Wt	
+pig	bubu	buːbuː	ta	பன்றி	E			n	Wt	
+pig	bubu	buːbuː	fa	خوک	E			n	Wt	
+pig	bubu	buːbuː	ar	خِنْزِير, حَلُوف	E			n	Wt	
+pig	bubu	buːbuː	tr	domuz, hınzır	E			n	Wt	
+pig	bubu	buːbuː	ru	свинья́, бо́ров	E			n	Wt	
+pig	bubu	buːbuː	es	cerdo, chancho, chon	E			n	Wt	
+pig	bubu	buːbuː	fr	cochon, porc, pourceau	E			n	Wt	
+pig	bubu	buːbuː	sw	nguruwe	E			n	Wt	
+pig	bubu	buːbuː	ha	alade	E			n	Wt	
+pig	bubu	buːbuː	yo	ẹlẹ́dẹ̀, òdo	E			n	Wt	
+pig	bubu	buːbuː	qu	khuchi	E			n	Wt	
+horse	dada	dada	zh	馬 (mǎ)	E			n	Wt	
+horse	dada	dada	ja	馬 (うま, uma), ウマ (uma)	E			n	Wt	
+horse	dada	dada	ko	말	E			n	Wt	
+horse	dada	dada	vi	ngựa	E			n	Wt	
+horse	dada	dada	th	ม้า	E			n	Wt	
+horse	dada	dada	id	kuda	E			n	Wt	
+horse	dada	dada	tl	kabayo	E			n	Wt	
+horse	dada	dada	hi	घोड़ा, अश्व, तुरग	E			n	Wt	
+horse	dada	dada	bn	ঘোড়া	E			n	Wt	
+horse	dada	dada	ta	குதிரை, புரவி	E			n	Wt	
+horse	dada	dada	fa	اَسْپ (asp), اَسْب	E			n	Wt	
+horse	dada	dada	ar	حِصَان, فَرَس, خَيْل	E			n	Wt	
+horse	dada	dada	tr	at, deh deh, beygir	E			n	Wt	
+horse	dada	dada	ru	ло́шадь, конь	E			n	Wt	
+horse	dada	dada	es	caballo, arpa, caballuno	E			n	Wt	
+horse	dada	dada	fr	cheval; dada (childish)	N	dada	dada	y	Wt, We	
+horse	dada	dada	sw	farasi	E			n	Wt	
+horse	dada	dada	ha	doki	E			n	Wt	
+horse	dada	dada	yo	ẹṣin	E			n	Wt	
+horse	dada	dada	qu	kawallu	E			n	Wt	
+donkey	iya	hiha	zh	驢 (lǘ), 驢子 (lǘzi)	E			n	Wt	
+donkey	iya	hiha	ja	驢馬 (ろば, roba), ロバ (roba)	E			n	Wt	
+donkey	iya	hiha	ko	당나귀, 나귀	E			n	Wt	
+donkey	iya	hiha	vi	lừa	E			n	Wt	
+donkey	iya	hiha	th	ลา	E			n	Wt	
+donkey	iya	hiha	id	keledai	E			n	Wt	
+donkey	iya	hiha	tl	asno, buriko	E			n	Wt	
+donkey	iya	hiha	hi	गधा, हिमार	E			n	Wt	
+donkey	iya	hiha	bn	গাধা	E			n	Wt	
+donkey	iya	hiha	ta	கழுதை	E			n	Wt	
+donkey	iya	hiha	fa	خَر, حِمَار, خَر	E			n	Wt	
+donkey	iya	hiha	ar	حِمَار	E			n	Wt	
+donkey	iya	hiha	tr	eşek, merkep, himar	E			n	Wt	
+donkey	iya	hiha	ru	осёл, осли́ца, иша́к	E			n	Wt	
+donkey	iya	hiha	es	asno, burro, jumento	E			n	Wt	
+donkey	iya	hiha	fr	âne	E			n	Wt	
+donkey	iya	hiha	sw	punda	E			n	Wt	
+donkey	iya	hiha	ha	jaki	E			n	Wt	
+donkey	iya	hiha	yo	kẹ́tẹ́kẹ́tẹ́	E			n	Wt	
+donkey	iya	hiha	qu	wuru, asnu	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	zh	老鼠, 鼠, 耗子	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	ja	鼠 nezumi; チューチュー chūchū (nursery)	N	tʃuːtʃuː	tutu	y	Wt, Wb	Wordbank JA sounds item チューチュー（ねずみ）
+mouse	tutu	tʃuːtʃuː	ko	생쥐, 쥐	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	vi	chuột	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	th	หนู	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	id	tikus	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	tl	daga	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	hi	चूहा	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	bn	ইঁদুর	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	ta	சுண்டெலி	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	fa	مُوش, موش, مُشْک	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	ar	فَأْرَة, فَأْر	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	tr	fare, sıçan	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	ru	мышь, мы́шка	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	es	ratón, laucha, pericote	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	fr	souris	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	sw	kipanya	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	ha	ɓera	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	yo	èkúté, eliri	E			n	Wt	
+mouse	tutu	tʃuːtʃuː	qu	ukuca, ukuş, juk'ucha	E			n	Wt	
+kiss	busu	busu	zh	吻 (wěn), 親 (qīn), 親吻 (qīnwěn)	E			n	Wt	
+kiss	busu	busu	ja	キス kisu; チュー chū (colloquial)	E			n	Wt	chū is the imitative word; ko 뽀뽀 ppoppo; no two share one
+kiss	busu	busu	ko	입맞춤, 키스, 뽀뽀	E			n	Wt	
+kiss	busu	busu	vi	[[nụ]] [[hôn]], [[cái]] [[hôn]]	E			n	Wt	
+kiss	busu	busu	th	การจูบ, จูบ	E			n	Wt	
+kiss	busu	busu	id	ciuman	E			n	Wt	
+kiss	busu	busu	tl	halik, humalik, maghalikan	E			n	Wt	
+kiss	busu	busu	hi	चुम्बन, पप्पी, चुम्मा	E			n	Wt	
+kiss	busu	busu	bn	চুম্বন chumbon; চুমু chumu; বুসা busa	E	busa	busa	l	Wt	Wt lists busa; chumu is the everyday word (M*)
+kiss	busu	busu	ta	முத்தம்	E			n	Wt	
+kiss	busu	busu	fa	بوسه buse, بوس bus	E	buse	buse	y	Wt	
+kiss	busu	busu	ar	قبلة qubla; بوسة būsa (spoken)	E	buːsa	busa	y	Wt	
+kiss	busu	busu	tr	öpücük; buse (literary)	E	buse	buse	l	Wt	buse is literary
+kiss	busu	busu	ru	поцелу́й	E			n	Wt	
+kiss	busu	busu	es	beso	E	beso	beso	y	Wt	
+kiss	busu	busu	fr	baiser, bisou	E	bizu	bisu	y	Wt	bisou is the everyday noun
+kiss	busu	busu	sw	busu	E	busu	busu	y	Wt	
+kiss	busu	busu	ha	sumba	E			n	M	missing from Wt
+kiss	busu	busu	yo	ìfẹnukonu	E			n	M	missing from Wt
+kiss	busu	busu	qu	much'a	E			n	Wt	
+knock	toku	tok	zh	敲 (qiāo)	E			n	Wt	
+knock	toku	tok	ja	ノックする nokku suru; 叩く tataku	E			n	Wt	a loan of English knock (ko 노크 too)
+knock	toku	tok	ko	노크하다, 두드리다	E			n	Wt	
+knock	toku	tok	vi	gõ	E			n	Wt	
+knock	toku	tok	th	เคาะ	E			n	Wt	
+knock	toku	tok	id	ketuk, ketok	E			n	Wt	
+knock	toku	tok	tl	katok; tuktok	E	tuktok	tukutoku	l	We	adapted tukutoku
+knock	toku	tok	hi	खटखटाना	E			n	Wt	
+knock	toku	tok	bn	টোকা ṭokā (দেওয়া)	E	ʈoka	toka	y	We	We: 'knock'
+knock	toku	tok	ta	தட்டு taṭṭu	E			n	M	
+knock	toku	tok	fa	زدن (zadan), کوبیدن (kubidan)	E			n	Wt	
+knock	toku	tok	ar	خَبَطَ, دَقَّ, طَرَقَ	E			n	Wt	
+knock	toku	tok	tr	çalmak, tıklatmak, vurmak	E			n	Wt	
+knock	toku	tok	ru	стуча́ть, сту́кнуть, постуча́ть	E			n	Wt	
+knock	toku	tok	es	tocar (a la puerta), llamar	E	tokar	tokalu	l	Wt	adapted tokalu
+knock	toku	tok	fr	frapper	E			n	Wt	
+knock	toku	tok	sw	bisha hodi	E			n	M	
+knock	toku	tok	ha	ƙwanƙwasa	E			n	M	
+knock	toku	tok	yo	kan ilẹ̀kùn	E			n	M	
+knock	toku	tok	qu	(no entry)	E			n	M	
+laugh	awu	haha	zh	笑 (xiào), 發笑 (fāxiào)	E			n	Wt	
+laugh	awu	haha	ja	笑う (warau)	E			n	Wt	
+laugh	awu	haha	ko	웃다	E			n	Wt	
+laugh	awu	haha	vi	cười	E			n	Wt	
+laugh	awu	haha	th	ขำ, หัวเราะ	E			n	Wt	
+laugh	awu	haha	id	tertawa	E			n	Wt	
+laugh	awu	haha	tl	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+laugh	awu	haha	hi	हँसना hãsnā	E			n	Wt	the has shape (hi bn) and the tawa shape (id tl) reach 2 each
+laugh	awu	haha	bn	উপহাস করা, হাসা	E			n	Wt	
+laugh	awu	haha	ta	சிரி	E			n	Wt	
+laugh	awu	haha	fa	خندیدن (xandidan)	E			n	Wt	
+laugh	awu	haha	ar	ضَحِكَ	E			n	Wt	
+laugh	awu	haha	tr	gülmek	E			n	Wt	
+laugh	awu	haha	ru	смея́ться, рассмея́ться, хохота́ть	E			n	Wt	
+laugh	awu	haha	es	reír	E			n	Wt	
+laugh	awu	haha	fr	rire	E			n	Wt	
+laugh	awu	haha	sw	cheka	E			n	M	missing from Wt
+laugh	awu	haha	ha	dāra	E			n	Wt	
+laugh	awu	haha	yo	rẹ́rìn-ín	E			n	Wt	
+laugh	awu	haha	qu	asiy	E			n	Wt	
+cry	wawa	wawa	zh	哭 (kū), 流眼淚 (liú yǎnlèi), 流淚 (liúlèi)	E			n	Wt	
+cry	wawa	wawa	ja	泣く (なく, naku)	E			n	Wt	
+cry	wawa	wawa	ko	울다, 흐느끼다	E			n	Wt	
+cry	wawa	wawa	vi	khóc	E			n	Wt	
+cry	wawa	wawa	th	ร้องไห้, ร่ำไห้	E			n	Wt	
+cry	wawa	wawa	id	tangis, menangis	E			n	Wt	
+cry	wawa	wawa	tl	lumuha, umiyak, hikbi	E			n	Wt	
+cry	wawa	wawa	hi	रोना	E			n	Wt	
+cry	wawa	wawa	bn	কাঁদা, কান্দা, ক্রন্দন করা	E			n	Wt	
+cry	wawa	wawa	ta	அழு	E			n	Wt	
+cry	wawa	wawa	fa	گریستن (geristan), گریه کردن (gerye kardan)	E			n	Wt	
+cry	wawa	wawa	ar	بَكَى	E			n	Wt	
+cry	wawa	wawa	tr	ağlamak	E			n	Wt	
+cry	wawa	wawa	ru	пла́кать, рыда́ть	E			n	Wt	
+cry	wawa	wawa	es	llorar, plorar	E			n	Wt	
+cry	wawa	wawa	fr	pleurer	E			n	Wt	
+cry	wawa	wawa	sw	lia	E			n	M	missing from Wt
+cry	wawa	wawa	ha	kuka	E			n	M	missing from Wt
+cry	wawa	wawa	yo	sọkún	E			n	M	missing from Wt
+cry	wawa	wawa	qu	waqay, wagai	E			n	Wt	
+sneeze	atu	atʃu	zh	打噴嚏	E			n	Wt	
+sneeze	atu	atʃu	ja	くしゃみ (kushami o suru), しゃみ (shami o suru)	E			n	Wt	
+sneeze	atu	atʃu	ko	재채기하다	E			n	Wt	
+sneeze	atu	atʃu	vi	hắt hơi, hắt xì	E	hat si	asi	l	Wt	adapted atusi
+sneeze	atu	atʃu	th	จาม	E			n	Wt	
+sneeze	atu	atʃu	id	bersin	E			n	Wt	
+sneeze	atu	atʃu	tl	bumahin, humatsing	E			n	Wt	
+sneeze	atu	atʃu	hi	छींकना	E			n	Wt	
+sneeze	atu	atʃu	bn	হাঁচি hā̃ci (দেওয়া)	E	hatʃi	ati	y	Wt	adapted ati
+sneeze	atu	atʃu	ta	தும்மு	E			n	Wt	
+sneeze	atu	atʃu	fa	عطسه کردن atse kardan	E			n	Wt	adapted ase
+sneeze	atu	atʃu	ar	عَطَسَ	E			n	Wt	
+sneeze	atu	atʃu	tr	hapşırmak, aksırmak	E			n	Wt	
+sneeze	atu	atʃu	ru	чиха́ть, чихну́ть	E			n	Wt	
+sneeze	atu	atʃu	es	estornudar	E			n	Wt	
+sneeze	atu	atʃu	fr	éternuer	E			n	Wt	
+sneeze	atu	atʃu	sw	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+sneeze	atu	atʃu	ha	atishawa	E			n	M	adapted atisawa
+sneeze	atu	atʃu	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+sneeze	atu	atʃu	qu	achhiy	E	atʃʰij	atiyu	l	Wt	adapted atiyu
+cough	kofu	kof	zh	咳嗽 (késou)	E			n	Wt	
+cough	kofu	kof	ja	[[咳]]を[[する]] (せきをする, seki o suru)	E			n	Wt	
+cough	kofu	kof	ko	기침하다	E			n	Wt	
+cough	kofu	kof	vi	ho	E			n	Wt	
+cough	kofu	kof	th	ไอ	E			n	Wt	
+cough	kofu	kof	id	batuk	E			n	Wt	
+cough	kofu	kof	tl	umubo	E			n	Wt	
+cough	kofu	kof	hi	खांसना, खाँसना	E			n	Wt	
+cough	kofu	kof	bn	কাশা	E			n	Wt	
+cough	kofu	kof	ta	இருமு	E			n	Wt	
+cough	kofu	kof	fa	کهیدن (kohidan), سرفیدن (sorfidan), سرفه کردن (sorfe kardan)	E			n	Wt	
+cough	kofu	kof	ar	سَعَلَ	E			n	Wt	
+cough	kofu	kof	tr	öksürmek	E			n	Wt	
+cough	kofu	kof	ru	ка́шлять, кашляну́ть	E			n	Wt	
+cough	kofu	kof	es	toser	E			n	Wt	
+cough	kofu	kof	fr	tousser	E			n	Wt	
+cough	kofu	kof	sw	kohoa	E			n	Wt	
+cough	kofu	kof	ha	tari	E			n	M	missing from Wt
+cough	kofu	kof	yo	húkọ́	E			n	Wt	
+cough	kofu	kof	qu	uhuy	E			n	Wt	
+hiccup	iku	hik	zh	打嗝 (dǎgé[r]), 呃逆 (ènì)	E			n	Wt	
+hiccup	iku	hik	ja	しゃっくり shakkuri; ヒック hikku (the sound)	E	hikːu	iku	l	Wt	Wt lists hikku; it is the sound, not the everyday name (M*)
+hiccup	iku	hik	ko	딸꾹질	E			n	Wt	
+hiccup	iku	hik	vi	cái nấc	E			n	Wt	
+hiccup	iku	hik	th	สะอึก (sà-ʉ̀k)	E			n	Wt	
+hiccup	iku	hik	id	cegukan	E			n	Wt	
+hiccup	iku	hik	tl	sinok, sigok, siyok	E			n	Wt	
+hiccup	iku	hik	hi	हिचकी	E			n	Wt	
+hiccup	iku	hik	bn	হেঁচকা (hẽcka), হেঁচকি (hẽcki)	E			n	Wt	
+hiccup	iku	hik	ta	விக்கல்	E			n	Wt	
+hiccup	iku	hik	fa	سکسکه (sekseke), هکه (hokke), هکک (hekkak)	E			n	Wt	
+hiccup	iku	hik	ar	حَازُوقَة, فُوَاق	E			n	Wt	
+hiccup	iku	hik	tr	hıçkırık	E			n	Wt	
+hiccup	iku	hik	ru	ико́та	E			n	Wt	
+hiccup	iku	hik	es	hipo, singulto, hipido	E			n	Wt	
+hiccup	iku	hik	fr	hoquet	E			n	Wt	
+hiccup	iku	hik	sw	kwikwi	E			n	Wt	
+hiccup	iku	hik	ha	ƙyafta	E			n	M	missing from Wt
+hiccup	iku	hik	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+hiccup	iku	hik	qu	hik'iy	E	hikij	ikiyu	l	Wt	adapted ikiyu
+burp	gepu	gep	zh	飽嗝 (bǎogé), 噯氣 (ǎiqì)	E			n	Wt	
+burp	gepu	gep	ja	げっぷ geppu	E	ɡepːu	gepu	y	Wt	adapted gepu
+burp	gepu	gep	ko	트림, 애기	E			n	Wt	
+burp	gepu	gep	vi	ợ	E			n	Wt	
+burp	gepu	gep	th	เรอ	E			n	Wt	
+burp	gepu	gep	id	serdawa, sendawa, antop	E			n	Wt	
+burp	gepu	gep	tl	dighay	E			n	Wt	
+burp	gepu	gep	hi	डकार	E			n	Wt	
+burp	gepu	gep	bn	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+burp	gepu	gep	ta	ஏப்பம்	E			n	Wt	
+burp	gepu	gep	fa	آروغ (âruġ)	E			n	Wt	
+burp	gepu	gep	ar	تَجَشُّؤ	E			n	Wt	
+burp	gepu	gep	tr	geğirme	E			n	Wt	
+burp	gepu	gep	ru	отры́жка, рыга́ние	E			n	Wt	
+burp	gepu	gep	es	eructo, regüeldo	E			n	Wt	
+burp	gepu	gep	fr	rot, renvoi, éructation	E			n	Wt	
+burp	gepu	gep	sw	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+burp	gepu	gep	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+burp	gepu	gep	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+burp	gepu	gep	qu	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+vomit	uwaku	ʔuak	zh	嘔吐 (ǒutù), 嘔 (ǒu), 吐 (tù)	E			n	Wt	
+vomit	uwaku	ʔuak	ja	吐く ([[はく]], haku), 嘔吐 (おうとする, ōto suru), 戻す (もどす, modosu)	E			n	Wt	
+vomit	uwaku	ʔuak	ko	게우다, 토하다	E			n	Wt	
+vomit	uwaku	ʔuak	vi	nôn, mửa, ói	E			n	Wt	
+vomit	uwaku	ʔuak	th	อาเจียน aa-jian (formal); อ้วก ûak (colloquial)	E	ʔuak	uwaku	y	Wt	
+vomit	uwaku	ʔuak	id	memuntahkan, muntah	E			n	Wt	
+vomit	uwaku	ʔuak	tl	sumuka	E			n	Wt	
+vomit	uwaku	ʔuak	hi	उल्टी करना, वमन करना, उल्टी	E			n	Wt	
+vomit	uwaku	ʔuak	bn	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+vomit	uwaku	ʔuak	ta	குமட்டு, உவட்டு, உவாந்தி	E			n	Wt	
+vomit	uwaku	ʔuak	fa	قی کردن (qay kardan), بالا آوردن (bâlâ âvordan)	E			n	Wt	
+vomit	uwaku	ʔuak	ar	تَقَيَّأَ, قَاءَ, اِسْتَفْرَغَ	E			n	Wt	
+vomit	uwaku	ʔuak	tr	kusmak, istifra etmek	E			n	Wt	
+vomit	uwaku	ʔuak	ru	блева́ть, рвать, тошни́ть	E			n	Wt	
+vomit	uwaku	ʔuak	es	vomitar, devolver, arrojar	E			n	Wt	
+vomit	uwaku	ʔuak	fr	vomir	E			n	Wt	
+vomit	uwaku	ʔuak	sw	tapika	E			n	Wt	
+vomit	uwaku	ʔuak	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+vomit	uwaku	ʔuak	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+vomit	uwaku	ʔuak	qu	aqtuy	E			n	Wt	
+yawn	wamu	hwam	zh	打哈欠 (dǎ hāqian), 打呵欠 (dǎ hēqiàn), 打阿老 (dǎ ālǎo)	E			n	Wt	
+yawn	wamu	hwam	ja	欠伸 (あくびする, akubi suru)	E			n	Wt	
+yawn	wamu	hwam	ko	하품하다	E			n	Wt	
+yawn	wamu	hwam	vi	ngáp	E			n	Wt	
+yawn	wamu	hwam	th	หาว	E			n	Wt	
+yawn	wamu	hwam	id	menguap	E			n	Wt	
+yawn	wamu	hwam	tl	maghikab	E			n	Wt	
+yawn	wamu	hwam	hi	जंभना, जँभाई लेना, अंगड़ाई लेना	E			n	Wt	
+yawn	wamu	hwam	bn	হাই তোলা	E			n	Wt	
+yawn	wamu	hwam	ta	கொட்டாவி	E			n	Wt	
+yawn	wamu	hwam	fa	خمیازه کشیدن (xamyâze kešidan), فاژیدن (fâžidan), دهان‌دره کردن (dahân-darre kardan)	E			n	Wt	
+yawn	wamu	hwam	ar	تَثَاءَبَ	E			n	Wt	
+yawn	wamu	hwam	tr	esnemek	E			n	Wt	
+yawn	wamu	hwam	ru	зева́ть, зевну́ть	E			n	Wt	
+yawn	wamu	hwam	es	bostezar	E			n	Wt	
+yawn	wamu	hwam	fr	bâiller	E			n	Wt	
+yawn	wamu	hwam	sw	piga miayo, enda miayo	E			n	Wt	
+yawn	wamu	hwam	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+yawn	wamu	hwam	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+yawn	wamu	hwam	qu	hanyay	E			n	Wt	
+snore	olu	hor	zh	打鼾	E			n	Wt	
+snore	olu	hor	ja	[[鼾]][[を]][[かく]] (いびきをかく, ibiki o kaku), [[鼾]][[を]][[立てる]] (いびきをたてる, ibiki o tateru)	E			n	Wt	
+snore	olu	hor	ko	[[코]][[-를]] [[골다]]	E			n	Wt	
+snore	olu	hor	vi	ngáy	E			n	Wt	
+snore	olu	hor	th	กรน	E			n	Wt	
+snore	olu	hor	id	mendengkur, berdengkur	E			n	Wt	
+snore	olu	hor	tl	humilik	E			n	Wt	
+snore	olu	hor	hi	खर्राटा लेना	E			n	Wt	
+snore	olu	hor	bn	নাক ডাকা	E			n	Wt	
+snore	olu	hor	ta	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+snore	olu	hor	fa	خرخر کردن xorxor kardan	E			n	Wt	adapted kolukolu
+snore	olu	hor	ar	شَخَرَ	E			n	Wt	
+snore	olu	hor	tr	horlamak	E			n	Wt	
+snore	olu	hor	ru	храпе́ть	E			n	Wt	
+snore	olu	hor	es	roncar	E			n	Wt	
+snore	olu	hor	fr	ronfler	E			n	Wt	
+snore	olu	hor	sw	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+snore	olu	hor	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+snore	olu	hor	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+snore	olu	hor	qu	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+sleep (nursery)	nene	nene	zh	睡覺; 覺覺 jiàojiao (childish)	N			n	Wt, We	
+sleep (nursery)	nene	nene	ja	寝る neru; ネンネ nenne (nursery)	N	nenːe	nene	y	Wt, Wb	Wordbank JA sounds item ネンネ
+sleep (nursery)	nene	nene	ko	자다, 잠자다, 주무시다	E			n	Wt	
+sleep (nursery)	nene	nene	vi	ngủ, ngủ gục	E			n	Wt	
+sleep (nursery)	nene	nene	th	นอน, หลับ	E			n	Wt	
+sleep (nursery)	nene	nene	id	tidur; bobo (childish)	N			n	Wt, We	
+sleep (nursery)	nene	nene	tl	matulog	E			n	Wt	
+sleep (nursery)	nene	nene	hi	सोना	E			n	Wt	
+sleep (nursery)	nene	nene	bn	শোয়া, ঘুমানো	E			n	Wt	
+sleep (nursery)	nene	nene	ta	தூங்கு, உறங்கு	E			n	Wt	
+sleep (nursery)	nene	nene	fa	خوابیدن; لالا lālā (childish)	N			n	Wt, We	
+sleep (nursery)	nene	nene	ar	نَامَ, رَقَدَ	E			n	Wt	
+sleep (nursery)	nene	nene	tr	uyumak	E			n	Wt	
+sleep (nursery)	nene	nene	ru	спать, поспа́ть	E			n	Wt	
+sleep (nursery)	nene	nene	es	dormir; mimir (childish)	N			n	Wt, We	
+sleep (nursery)	nene	nene	fr	dormir; dodo (childish)	N			n	Wt, We	
+sleep (nursery)	nene	nene	sw	kulala, lala	E			n	Wt	
+sleep (nursery)	nene	nene	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+sleep (nursery)	nene	nene	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+sleep (nursery)	nene	nene	qu	puñuy, puñui	E			n	Wt	
+eat, food (nursery)	mama	mama	zh	食物 (shíwù), 食品 (shípǐn), 吃食 (chīshi)	E			n	Wt	
+eat, food (nursery)	mama	mama	ja	食べ物 tabemono; マンマ manma (food, nursery)	N	manma	manma	l	Wt, Wb	Wordbank JA sounds item マンマ（食べ物）; adapted manma (n-m)
+eat, food (nursery)	mama	mama	ko	음식 eumsik; 맘마 mamma (childish 'meal')	N	mamːa	mama	y	Wt, We	
+eat, food (nursery)	mama	mama	vi	thức ăn; măm (to eat, of a baby)	N	mam	mamu	y	Wt, We	adapted mamu
+eat, food (nursery)	mama	mama	th	อาหาร, ของกิน	E			n	Wt	
+eat, food (nursery)	mama	mama	id	makanan, pangan	E			n	Wt	
+eat, food (nursery)	mama	mama	tl	pagkain	E			n	Wt	
+eat, food (nursery)	mama	mama	hi	खाना, भोजन, ग़िज़ा	E			n	Wt	
+eat, food (nursery)	mama	mama	bn	খাদ্য, খাবার (khabar)	E			n	Wt	
+eat, food (nursery)	mama	mama	ta	சாப்பாடு, உணவு	E			n	Wt	
+eat, food (nursery)	mama	mama	fa	غِذَا, خوراک (xōrāk, xurāk), نَان	E			n	Wt	
+eat, food (nursery)	mama	mama	ar	طَعَام, أَكْل, غِذَاء	E			n	Wt	
+eat, food (nursery)	mama	mama	tr	yemek; mama (baby food)	N	mama	mama	y	Wt, We	We: 'food (in child's language)'
+eat, food (nursery)	mama	mama	ru	еда; ням-ням nyam-nyam (M)	N			n	Wt, M	
+eat, food (nursery)	mama	mama	es	alimento, comida, víveres	E			n	Wt	
+eat, food (nursery)	mama	mama	fr	nourriture, alimentation, manger	E			n	Wt	
+eat, food (nursery)	mama	mama	sw	chakula	E			n	Wt	
+eat, food (nursery)	mama	mama	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+eat, food (nursery)	mama	mama	yo	oúnjẹ	E			n	Wt	
+eat, food (nursery)	mama	mama	qu	mikhuna	E			n	Wt	
+pee (nursery)	pipi	pipi	zh	尿 (niào), 排尿, 撒尿	E			n	Wt	
+pee (nursery)	pipi	pipi	ja	おしっこ oshikko; しーしー shīshī	N			n	Wt	the sisi shape: ja shīshī, hi susū (We)
+pee (nursery)	pipi	pipi	ko	오줌 누다; 쉬 swi (childish)	N			n	We	
+pee (nursery)	pipi	pipi	vi	tiểu, tiểu tiện	E			n	Wt	
+pee (nursery)	pipi	pipi	th	ปัสสาวะ; ฉี่ chìi	N			n	We	
+pee (nursery)	pipi	pipi	id	kencing; pipis	N	pipis	pipisu	l	We	adapted pipisu
+pee (nursery)	pipi	pipi	tl	umihi; wiwi (childish)	N			n	We	
+pee (nursery)	pipi	pipi	hi	पेशाब करना; सुसू susū (childish)	N			n	We	
+pee (nursery)	pipi	pipi	bn	মুতা	E			n	Wt	
+pee (nursery)	pipi	pipi	ta	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+pee (nursery)	pipi	pipi	fa	ادرار کردن; جیش jiš (childish)	N			n	Wt	
+pee (nursery)	pipi	pipi	ar	تَبَوَّلَ, بَالَ	E			n	Wt	
+pee (nursery)	pipi	pipi	tr	işemek; çiş (childish)	N			n	Wt	
+pee (nursery)	pipi	pipi	ru	мочиться; пипи pipi (childish)	N	pipi	pipi	y	Wt	Wt 'pee' (urine) table
+pee (nursery)	pipi	pipi	es	orinar; pipí, pis (childish)	N	pipi	pipi	y	Wt, We	
+pee (nursery)	pipi	pipi	fr	uriner; pipi (childish)	N	pipi	pipi	y	Wt, We	
+pee (nursery)	pipi	pipi	sw	kojoa, tabawali	E			n	Wt	
+pee (nursery)	pipi	pipi	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+pee (nursery)	pipi	pipi	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+pee (nursery)	pipi	pipi	qu	ispay, jisp'ay	E			n	Wt	
+poo (nursery)	kaka	kaka	zh	大便 (dàbiàn), 便便 (biānbiān)	E			n	Wt	
+poo (nursery)	kaka	kaka	ja	うんち (unchi), うんこ (unko)	E			n	Wt	
+poo (nursery)	kaka	kaka	ko	응가, 똥	E			n	Wt	
+poo (nursery)	kaka	kaka	vi	phân	E			n	Wt	
+poo (nursery)	kaka	kaka	th	อุจจาระ	E			n	Wt	
+poo (nursery)	kaka	kaka	id	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+poo (nursery)	kaka	kaka	tl	pupu (childish)	N			n	Wt, We	the pupu/popo shape: tl pupu, es popó, fr popo
+poo (nursery)	kaka	kaka	hi	टट्टी, मल, गू	E			n	Wt	
+poo (nursery)	kaka	kaka	bn	হাগু hagu	N			n	Wt	Bengali kaka = paternal uncle (We)
+poo (nursery)	kaka	kaka	ta	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+poo (nursery)	kaka	kaka	fa	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+poo (nursery)	kaka	kaka	ar	براز burāz; كاكا kākā	N	kaːkaː	kaka	y	Wt	
+poo (nursery)	kaka	kaka	tr	kaka (childish)	N	kaka	kaka	y	Wt, We	
+poo (nursery)	kaka	kaka	ru	кака kaka (childish)	N	kaka	kaka	y	Wt, We	
+poo (nursery)	kaka	kaka	es	caca (childish); popó	N	kaka	kaka	y	We	
+poo (nursery)	kaka	kaka	fr	caca (childish)	N	kaka	kaka	y	Wt, We	
+poo (nursery)	kaka	kaka	sw	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+poo (nursery)	kaka	kaka	ha	tutu (childish)	N			n	We	
+poo (nursery)	kaka	kaka	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+poo (nursery)	kaka	kaka	qu	aka	E	aka	aka	l	We	adapted aka (one k)
+bang, boom	bumu	bum	zh	爆炸, 爆發	E			n	Wt	
+bang, boom	bumu	bum	ja	爆発 (ばくはつ bakuhatsu)	E			n	Wt	
+bang, boom	bumu	bum	ko	폭발(爆發)	E			n	Wt	
+bang, boom	bumu	bum	vi	nổ; bùm (the sound)	E			n	Wt	the sound word bùm/boum/bum/бум is shared as an interjection (2.10)
+bang, boom	bumu	bum	th	การระเบิด, ภัยการระเบิด	E			n	Wt	
+bang, boom	bumu	bum	id	ledakan, letupan, eksplosi	E			n	Wt	
+bang, boom	bumu	bum	tl	pagsabog	E			n	Wt	
+bang, boom	bumu	bum	hi	विस्फोट	E			n	Wt	
+bang, boom	bumu	bum	bn	বিস্ফোরণ	E			n	Wt	
+bang, boom	bumu	bum	ta	வெடி	E			n	Wt	
+bang, boom	bumu	bum	fa	اِنْفِجار (enfejâr), ترکش (tarkeš)	E			n	Wt	
+bang, boom	bumu	bum	ar	اِنْفِجَار, تَفْجِير	E			n	Wt	
+bang, boom	bumu	bum	tr	patlama	E			n	Wt	
+bang, boom	bumu	bum	ru	взрыв	E			n	Wt	
+bang, boom	bumu	bum	es	explosión	E			n	Wt	
+bang, boom	bumu	bum	fr	explosion	E			n	Wt	
+bang, boom	bumu	bum	sw	mlipuko	E			n	Wt	
+bang, boom	bumu	bum	ha	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+bang, boom	bumu	bum	yo	(not in Wt; not looked up)	E			n	—	cannot change the verdict
+bang, boom	bumu	bum	qu	(not in Wt; not looked up)	E			n	—	cannot change the verdict
