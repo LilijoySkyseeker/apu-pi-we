@@ -9,3 +9,5 @@ Read first: research/notes/confusion-data.md (§4–7 and the audiovisual subsec
 5. **Report** in research/notes/confusion-data.md as a new subsection, marking every choice you made as "added".
 
 Run tools inside the dev shell: `direnv exec /home/agent/work/repos/universal-language python3 …`. Don't run the short-word rebuild; change only tools/confusion2.py, research/notes/confusion-data.md and new files in research/notes/confusion-data/. Don't commit. Do the work yourself (no background helpers). When done, reply with: the sources and cut-offs used, the five Apupiwe pairs whose confusion changes most, and whether the self-checks pass.
+
+Web requests: use a generic User-Agent (e.g. "apupiwe-research/0.1"); never put the owner's email address or name in headers, URLs or payloads.
