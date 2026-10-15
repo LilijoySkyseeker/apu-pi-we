@@ -7,3 +7,11 @@
 **Run:** start the engine (`voicevox-engine --host 127.0.0.1 --port 50021`), then `direnv exec . python3 tests/listening-02/speak.py OUTDIR [SPEAKER]` (30 = No.7 announcer, 13 = a male voice). The clips went to the author's vault (`Language/apupiwe-voice/voice-check.md`), not the repo.
 
 **Results:** waiting for the author's listening notes (what to listen for is in the vault note: g/d/b before u, yi and wu, stress, l and f, final n, the voicing pairs). If the voice holds up, next is listening-01's 32 pairs with this voice, the author as listener.
+
+## Round 2: Piper with IPA input (2026-10-15)
+
+The author on round 1: guyi sounded like "guh yee" (female voice, step down) and "buh yee" (male voice, step up). The male voice was a bug here (absolute pitches far above its range; fixed in `speak.py`), but "guh" is Japanese itself: its u is short and unrounded. The author: "can we move to something that can do true ipa?" Options were Piper with IPA input (local, free), a cloud voice with SSML IPA (needs the author's account), or eSpeak NG (exact but robotic); the author chose Piper for now.
+
+`speak_piper.py` turns each word into broad IPA (stress mark ˈ before stressed first syllables; p t k unaspirated, a harmless variant, since these voices never learned aspiration) and passes it inside `[[ ]]`, which Piper 1.8 (`nixpkgs#piper-tts`) says as given (its debug log shows the phonemes unchanged: `ˈ ɡ u j i`). Voices from `rhasspy/piper-voices` (kept in `~/work/tools/piper-voices`, outside the repo): es_ES davefx, es_MX claude, it_IT paola, id_ID news_tts. The clips are in the author's vault (`Language/apupiwe-voice/`); step 1 there is picking a voice.
+
+Run: `direnv exec . python3 tests/listening-02/speak_piper.py OUTDIR PIPER VOICEDIR`.
