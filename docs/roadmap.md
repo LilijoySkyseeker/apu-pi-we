@@ -88,7 +88,7 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 - **Sets pass** (author, 2026-10-16): after the WOLD deep-layer pass, handle collections of ideas as sets (meals, times of day, days, months, seasons, directions, kin, body parts, colours, weather, emotions, opposites …): complete, logical and on the same level; one decision per set where members disagree (design log).
 
 - **Classify the 47 WOLD meanings covered only by the walk's proposals** (cave, bay, flour, harvest, stranger, descend …) by the deep-layer test (author, 2026-10-16), with the sets pass.
-- **Grammar question: a relation word for "through"** (found by the WOLD pass, 2026-10-16).
+- **"Through"** decided 2026-10-16 (verb chain with "pass"): add a reference example after the placement gives "pass" its form.
 
 ### Documentation for agents (author, 2026-10-13)
 
