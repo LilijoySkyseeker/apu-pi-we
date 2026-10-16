@@ -51,7 +51,39 @@ SRC = {
     "WOLD-codex": "WOLD deep layer, 20 added after Codex's check (author 2026-10-16)",
     "WOLD-47": "WOLD meaning covered only by a walk proposal, classified here by the deep-layer test (added)",
     "DROP": "drops and re-checks (author 2026-10-16)",
+    "PL-retro": "phrase line applied to older phrases (author 2026-10-16, consolidated list's questions)",
+    "SUBJ": "school subjects every system teaches get roots (author 2026-10-16)",
+    "BQ02": "WOLD boundary questions decided by rung 4 (tests/deeplayer-02/bq.tsv; author 2026-10-16)",
+    "LOAN02": "WOLD loan candidates through the panel (tests/deeplayer-02/loans.tsv; author 2026-10-16)",
 }
+
+# the retroactive phrase line (author 2026-10-16): these become roots unless the world's usual compound.
+# Which is the world's compound is my reading (added): a compound of two content words most panel
+# languages use; a derivation by affix (king-dom, child-hood) is not a compound.
+RETRO = {
+    "century": ("root", "fawu loki (4 syll); own words or loans (siecle, qarn, vek, abad)"),
+    "kingdom": ("root", "gigin pi king (5 syll); king + country only in zh ja ko vi; elsewhere derived from king (added reading)"),
+    "welcome": ("phrase", "world compound 'good come' (bienvenido, willkommen, hos geldiniz, svagat); a routine (10.2.5)"),
+    "library": ("phrase", "world compound 'book house/place' (tushuguan, toshokan, kutuphane, ketabxane, pustakalay)"),
+    "childhood": ("root", "muyi pi tiwu (5 syll); derived from child by affix in most languages (added reading)"),
+    "patient (sick person)": ("root", "ewo simi (4 syll)"),
+    "throne": ("root", "pu goyu pi king (6 syll)"),
+    "corpse": ("root", "gawo fafin (4 syll); 'dead body' is a compound only in some (ja, en)"),
+    "giant": ("root", "ewo bi kudu (5 syll)"),
+    "plain (land)": ("root", "sekan mawun (4 syll)"),
+    "prime minister": ("phrase", "world compound 'chief minister' (pradhan mantri, waziri mkuu, perdana menteri, shusho, basbakan); minister is a root"),
+    "salary": ("root", "nimo pi doku (5 syll)"),
+    "delicious": ("root", "tenmi upe (4 syll)"),
+    "fill": ("root", "muge kete (4 syll)"),
+    "descend": ("root", "isi deba (4 syll); also covers WOLD 10-473 descend and 10-92 land"),
+    "acquaintance": ("root", "ewo pi lugo (5 syll)"),
+}
+RETRO_GLOSS = {"patient (sick person)": "patient, sick person (in care)", "plain (land)": "plain (flat open land)",
+               "fill": "fill, make full", "descend": "descend, go down; land", "corpse": "corpse, dead body",
+               "giant": "giant", "acquaintance": "acquaintance, person one knows"}
+RETRO_FIELD = {"century": "time", "kingdom": "people", "childhood": "time", "patient (sick person)": "people",
+               "throne": "thing", "corpse": "body", "giant": "people", "plain (land)": "nature", "salary": "abstract",
+               "delicious": "quality", "fill": "action", "descend": "motion", "acquaintance": "people"}
 
 # ------------------------------------------------------- rank and tier
 cand = tsv("tests/coverage-02/candidates.tsv")
@@ -131,6 +163,13 @@ for r in lex:
     if f == "number":
         note = "number word; placed with the roots (placement weights number pairs x10)"
     add(g, "root", form, f, t, "LEX", note)
+
+concepts["nail, of a finger or toe"]["concept"] = "nail (of a finger or toe), claw"
+concepts["nail, of a finger or toe"]["source"] += "; BQ02 (claw joins: 53.9%)"
+concepts["nail, of a finger or toe"]["note"] = "claw/nail one root (author 2026-10-16, deeplayer-02 4-345); the lexicon gloss changes at adoption"
+concepts["key, button"]["concept"] = "key (for a lock)"
+concepts["key, button"]["source"] += "; BQ02"
+concepts["key, button"]["note"] = "the button splits off as its own root; tinli stays 'key' (author 2026-10-16, deeplayer-02 6-62); the lexicon gloss changes at adoption"
 
 # ===================================================== 2. ladder (+ first-word filter, loan panel)
 lad = tsv("tests/coverage-01/part3/ladder.tsv")
@@ -248,6 +287,7 @@ SPLIT_FIRST = {}  # parent label -> sense-1 gloss, from the ladder notes
 
 RELIGION_TRADITION = {"church", "angel", "bishop", "prophet", "mosque", "pope"}
 DROP_TITLES = {"knight", "senator", "lieutenant", "colonel"}
+MIL_RANKS = {"general (military)"}  # military ranks dropped, general included; civic offices kept (author 2026-10-16)
 DROP_SPECIALIST = {"statistics", "psychology", "circuit", "orbit", "formula", "sphere"}
 MIXED = {  # each sense re-checked alone (author 2026-10-16); the readings are mine (added)
     "compound": "chemical compound: specialist (long tail); a walled compound: culture-bound housing form, phrase 'guyi la man senmo'; compound word: built word, a grammar term",
@@ -267,7 +307,8 @@ PHRASE_LINE_ITEMS = {  # (author 2026-10-16: a phrase if it meets the phrase lin
     "priority": ("root", "ke bawe se we (5 syll) is over the line"),
     "passenger": ("phrase", "no [ride] (3 syll) meets the line"),
 }
-PL_LOANS = {"chemistry": "5-of-7-regions rule fails it (author 2026-10-15): root or phrase; no phrase meets the phrase line, so a root (added reading)"}
+PL_LOANS = {"chemistry": "5-of-7-regions rule fails the loan (author 2026-10-15); a school subject every system teaches, so a root (author 2026-10-16)"}
+SUBJECTS = {"chemistry", "physics", "biology", "history", "mathematics"}  # (author 2026-10-16); specialist fields stay long tail
 BAL_PHRASE_OVERRIDES = {  # ladder roots that later boundary decisions turned into phrases or merged
     "opinion": ("phrase: 'what one thinks' (ge pume)", "attitude decision (author 2026-10-16): opinion is a phrase"),
     "festival": ("phrase: 'time of celebrating'; each culture's own festivals borrowed", "celebrate decision (author 2026-10-16)"),
@@ -299,12 +340,22 @@ for r in lad:
                  "grandchild": "kinship composed (method 3.1)", "spring (season)": "seasons: to the sets pass (author 2026-10-16)",
                  "winter": "seasons: to the sets pass", "summer": "seasons: to the sets pass",
                  "pink": "colours: to the sets pass", "organism": "world compound 'living thing' (coverage-02 r2 calibration)"}
+        if c in RETRO and RETRO[c][0] == "root":
+            rk = rank_of(c)
+            add(RETRO_GLOSS.get(c, c), "root", "", RETRO_FIELD[c], tier_of(rk) or int(r["tier"] or 1), "PL-retro; LAD",
+                f"was the phrase {ph}: {RETRO[c][1]}", rank=rk, key=c)
+            continue
+        if c in RETRO:
+            drop(c, f"phrase: {ph} ({RETRO[c][1]}; meets the phrase line as the world's compound)", "LAD; PL-retro", r["note"])
+            continue
         if s <= 3:
             flag = ""
         elif c in RULED:
             flag = f" ({s} syll; kept by a decided rule: {RULED[c]})"
         else:
-            flag = f" ({s} syll; over the 2026-10-16 phrase line: open question)"
+            if c not in ("relative", "parent"):  # both became roots later (SUPERSEDED below)
+                raise SystemExit("ladder phrase over the line with no decision: " + c)
+            flag = f" ({s} syll)"
         drop(c, f"phrase: {ph}{flag}", "LAD", r["note"])
         continue
     if st.startswith("merge:"):
@@ -322,6 +373,10 @@ for r in lad:
         continue
     if c in DROP_TITLES:
         drop(c, "culture-bound: military or political title, borrowed (long tail)", "DROP")
+        continue
+    if c in MIL_RANKS:
+        drop(GLOSS.get(c, c), "culture-bound: military rank, borrowed (long tail)", "DROP",
+             "author 2026-10-16: military ranks dropped, general included; civic offices (mayor, governor, minister) kept")
         continue
     if c in DROP_SPECIALIST:
         drop(c, "long tail: specialist term (loan or built word)", "DROP")
@@ -367,7 +422,8 @@ for r in lad:
             raise SystemExit("unhandled loan verdict " + v)
         continue
     if route == "standard":
-        add(gloss, "loan", "", field, tier, src, "ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)", rank=rk, key=c)
+        add(gloss, "loan candidate", "", field, tier, src + "; LOAN-pending",
+            "pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase", rank=rk, key=c)
         continue
     if c in PHRASE_LINE_ITEMS:
         note = PHRASE_LINE_ITEMS[c][1] + " (re-checked 2026-10-16)"
@@ -425,8 +481,10 @@ for r in tsv("tests/coverage-01/part3/additions.tsv"):
                 concepts[k]["source"] += "; ADD1"
         continue
     if spec == "skip":
-        drop("sofa", "open: root or phrase (author 2026-10-15) vs borrowing (first-word filter 2026-10-13)", "ADD1; WB",
-             "loan fails 5-of-7; wordbank-final had already made it a borrowing (culture-bound seating); see open questions")
+        e = next(e for e in excluded if e["concept"] == "sofa")
+        e["reason"] = "culture-bound: borrowed (author 2026-10-16: sofa stays borrowed)"
+        e["source"] += "; ADD1"
+        e["note"] += "; the loan also fails 5-of-7 (2026-10-15)"
         continue
     g, f, d = spec
     rk = rank_of(c.split(",")[0].split(" (")[0])
@@ -434,6 +492,12 @@ for r in tsv("tests/coverage-01/part3/additions.tsv"):
 concepts["blind"]["source"] += "; ADD1 (set with deaf, mute)"
 concepts["spider"]["source"] += "; ADD1 (own root, 2026-10-16)"
 concepts["spider"]["concept"] = "spider"
+for k in SUBJECTS:
+    if k in concepts:
+        concepts[k]["source"] += "; SUBJ"
+    else:  # biology was on no list
+        rk = rank_of(k)
+        add(k, "root", "", "abstract", tier_of(rk) or 1, "SUBJ", "school subject every system teaches (author 2026-10-16)", rank=rk, key=k)
 if "parent" in concepts:
     pass
 # remove the ladder's parent "covered" exclusion is fine: the excluded row records the old phrase
@@ -508,12 +572,19 @@ for r in ents:
         ph = r["note (added: Claude's reading)"]
         core = re.split(r" \(|;", ph)[0].strip()
         s = syll(core)
+        if c in RETRO:
+            if RETRO[c][0] == "root":
+                add(RETRO_GLOSS.get(c, c), "root", "", RETRO_FIELD[c], tier_of(rk), "PL-retro; BAL",
+                    f"was the phrase {ph}: {RETRO[c][1]}", rank=rk, key=c)
+            else:
+                drop(c, f"phrase: {ph} ({RETRO[c][1]})", "BAL; PL-retro")
+            continue
         if c in ("decade", "cooperate"):
             tail = f"world compound (coverage-02 r2 calibration); meets the phrase line"
         elif s <= 3:
             tail = f"{s} syll; meets the phrase line"
         else:
-            tail = f"{s} syll; over the 2026-10-16 phrase line: open question (not among the 51 the author added)"
+            raise SystemExit("entrant phrase over the line with no decision: " + c)
         drop(c, f"phrase: {ph} ({tail})", "BAL", "balance-02 entrant judged 'composes'")
     elif j == "artefact":
         drop(c, "artefact: pooled English label (" + r["note (added: Claude's reading)"] + ")", "BAL")
@@ -586,6 +657,7 @@ WFIX = {  # field by part of speech, where the WOLD field doesn't say (added)
     "9-461": "action", "9-72": "action", "9-81": "action", "8-21": "action", "4-751": "action", "5-19": "action",
     "2-75": "people", "4-856": "body", "1-324": "nature", "3-586": "animal", "3-831": "animal", "4-452": "body",
     "4-465": "body", "6-32": "thing", "20-26": "thing", "8-73": "nature", "8-81": "nature", "12-75": "thing",
+    "9-25": "thing", "9-73": "nature", "9-5": "thing", "18-71": "thing", "18-72": "thing",  # nouns (round 2 fix, added)
 }
 SAME = {"2-77": "2-76", "6-72": "6-71", "8-531": "8-31", "8-931": "8-93", "9-75": "6-33", "10-451": "4-94"}
 CODEX20 = ["1-324", "3-586", "3-831", "4-452", "4-856", "4-94", "6-31", "6-32", "8-73", "8-81", "9-46", "9-461",
@@ -627,9 +699,76 @@ for wid, tgt in SAME.items():
         concepts[admitted[tgt]]["note"] += f"; also WOLD {wid} ({W[wid]['meaning']})"
         admitted[wid] = admitted[tgt]
 
-# WOLD meanings not admitted
+# WOLD phrases that later roots shortened or covered (round 2, added)
+P_LATER = {"5-45": "covered by dinner (the evening meal; three meals as roots, author 2026-10-16)",
+           "3-18": "phrase: no [herd] 'one who herds' (3 syll; herd became a root, author 2026-10-16)"}
+
+# roast/fry splits into two roots (author 2026-10-16): the lump was WOLD's combined item (3% of families lump without copies)
+rf = concepts["wold:5-23"]
+rf["concept"] = "roast (cook over a fire or in dry heat)"
+rf["source"] += "; BQ02 (split)"
+rf["note"] += "; roast/fry split (author 2026-10-16, deeplayer-02: ROAST/FRY 3.0% without copies)"
+add("fry (cook in hot oil or fat)", "root", "", "action", rf["tier"], "WOLD-core; BQ02 (split)",
+    "split from WOLD 5-23 'roast or fry' (author 2026-10-16); the frying pan is du [fry]", rank=rf["rank"] or None, key="wold:5-23-fry")
+
+# deeplayer-02 boundary questions, as decided (author 2026-10-16: 16 of 17 split; claw joins tolin;
+# the button takes both buttons, tinli stays "key"; turn-off stays with tapi; to milk and dare two roots)
 BQ_DECIDED = {"19-45": "order, command"}
+BQ_GLOSS = {  # the root gloss, where the decision widened or narrowed bq.tsv's
+    "6-62": "button (on clothes; also a push-button)",
+    "1-861": "put out, extinguish (a fire)",
+    "9-211": "pound (in a mortar)",
+    "5-87": "milk (an animal)",
+}
+BQ_NOTE = {"6-62": "takes both buttons; tinli stays 'key' (author 2026-10-16, option a)",
+           "1-861": "'turn off (a device)' stays with tapi (author 2026-10-16, option b)",
+           "5-87": "two roots by rung 4 (author 2026-10-16, option a); donbo tunlo is 4 syll",
+           "9-211": "boundary with monpa 'crush' not measured (deeplayer-02 tested only payon 'hit'): open question"}
+BQ_FIELD = {"1-37": "space", "1-861": "action", "3-585": "animal", "4-68": "body", "5-24": "action", "5-48": "action",
+            "5-87": "action", "6-62": "thing", "7-26": "thing", "9-211": "action", "9-77": "thing", "10-17": "action",
+            "10-53": "motion", "16-51": "mind", "21-42": "action"}  # (added)
 deep02 = {r["wold_id"]: r for r in tsv("tests/deeplayer-02/bq.tsv")}
+for wid, b in deep02.items():
+    if wid in BQ_DECIDED:
+        continue
+    r = W[wid]
+    if b["result"] == "two roots":
+        g = BQ_GLOSS.get(wid, b["new_root_gloss"])
+        head = re.split(r"[,(]", g)[0].strip()
+        rk = rank_of(head) or (int(r["freq_rank"]) if r["freq_rank"].isdigit() else None)
+        nt = f"WOLD {wid}; rung 4: {b['concepticon_pair']} {b['rate_no_copies']}% lump" + (f"; {BQ_NOTE[wid]}" if wid in BQ_NOTE else "")
+        add(g, "root", "", BQ_FIELD[wid], tier_of(rk) or 1, "BQ02", nt, rank=rk, key="wold:" + wid)
+    else:  # claw
+        drop(f"{r['gloss']} (WOLD {wid})", "covered by tolin 'nail, claw' (one root by rung 4)", "BQ02",
+             f"{b['concepticon_pair']} {b['rate_no_copies']}% lump, near 50 (author 2026-10-16)")
+    admitted[wid] = "wold:" + wid
+
+# deeplayer-02 loans, as decided (author 2026-10-16)
+loans02 = {r["concept"]: r for r in tsv("tests/deeplayer-02/loans.tsv")}
+L02 = {  # wold_id -> loans.tsv concept, root gloss and field (added)
+    "3-662": ("dolphin", None), "3-47": ("mule", None), "3-592": ("parrot", "animal"), "3-78": ("camel", None),
+    "3-816": ("cockroach", "animal"), "5-28": ("frying pan", None), "5-82": ("pepper", "thing"),
+    "6-24": ("cotton", "nature"), "6-25": ("silk", None), "6-79": ("tattoo", None), "7-46": ("candle", "thing"),
+    "8-68": ("tobacco", None), "8-82": ("coconut", None), "20-33": ("helmet", None), "23-23": ("injection", None),
+    "23-53": ("mattress", "thing"), "23-54": ("tin can", None), "23-61": ("calendar", None),
+}
+L02GLOSS = {"pepper": "pepper (the spice)", "cotton": "cotton (plant and cloth)", "calendar": "calendar (the object)"}
+for wid, (lc, fld) in L02.items():
+    L, r = loans02[lc], W[wid]
+    rk = rank_of(lc) or (int(r["freq_rank"]) if r["freq_rank"].isdigit() else None)
+    d = L["decision"]
+    if d == "loan":
+        add(L02GLOSS.get(lc, lc), "loan", L["adapted"], "loan", tier_of(rk) or 1, "LOAN02",
+            f"WOLD {wid}; panel {L['count']} / {L['regions']}; form fixed", rank=rk, key="wold:" + wid)
+    elif d.startswith("root"):
+        add(L02GLOSS.get(lc, lc), "root", "", fld, tier_of(rk) or 1, "LOAN02",
+            f"WOLD {wid}; loan failed ({L['count']} / {L['regions']}): {d.split(':', 1)[1].strip()}", rank=rk, key="wold:" + wid)
+    elif d.startswith("phrase"):
+        drop(f"{lc} (WOLD {wid})", d, "LOAN02", f"loan failed {L['count']} / {L['regions']} (author 2026-10-16)")
+    else:  # camel
+        drop(f"{lc} (WOLD {wid})", "culture-bound: a regional animal, borrowed from its users' word", "LOAN02",
+             f"loan failed {L['count']}; {d}")
+    admitted[wid] = "wold:" + wid
 for wid, r in W.items():
     if wid in admitted or r["class"] == "cov":
         continue
@@ -646,6 +785,8 @@ for wid, r in W.items():
         drop(label, f"pending: boundary question, deeplayer-02 unfinished ({prop})", "WOLD", "covered today by " + r["covered_by_or_phrase"])
     elif cl == "L":
         drop(label, "pending: loan panel, deeplayer-02 unfinished", "WOLD", r["note"][:120])
+    elif cl == "P" and wid in P_LATER:
+        drop(label, P_LATER[wid], "WOLD", "round 2 (added): " + r["covered_by_or_phrase"])
     elif cl == "P":
         drop(label, "phrase: " + r["covered_by_or_phrase"], "WOLD", r["note"][:120])
     elif cl == "C":
@@ -665,8 +806,8 @@ W47 = {  # wold_id -> (verdict, concept-or-reason)
     "7-14": ("out", "long tail: tent (8/24 families; not in most households)"),
     "8-41": ("root", "harvest"), "9-14": ("root", "bend"), "9-15": ("root", "fold"), "9-18": ("covered", "chain (BAL)"),
     "9-83": ("covered", "statue (BAL)"), "9-32": ("root", "stretch"), "9-341": ("root", "hang, hang up"),
-    "10-473": ("out", "phrase: deba 'below' as a verb, or isi deba (go down; 14/24 families, alternative noted in r2)"),
-    "10-92": ("out", "phrase: isi deba 'go down' (land; 12/24 families)"),
+    "10-473": ("covered", "descend (PL-retro, author 2026-10-16)"),
+    "10-92": ("covered", "descend, go down; land (PL-retro)"),
     "10-491": ("covered", "disappear (BAL)"), "11-27": ("covered", "destroy (BAL)"), "12-213": ("covered", "heap (BAL)"),
     "14-252": ("out", "phrase: piyi 'stay' / le (to last; 8/24 families; the WOLD match to endure was a different sense)"),
     "15-56": ("covered", "wino 'light' as a verb (shine; 2 syll)"), "15-851": ("covered", "warm (BAL)"),
@@ -684,9 +825,9 @@ W47 = {  # wold_id -> (verdict, concept-or-reason)
 }
 W47FIELD = {"1-831": "nature", "5-181": "action", "5-55": "thing", "8-41": "action", "9-14": "action", "9-15": "action",
             "9-32": "action", "9-341": "action", "17-23": "mind", "18-37": "sense", "19-55": "people"}
-W47NOTE = {"8-41": "every farming household; named in the 2026-10-16 'everyone's modern life' entry; fanmu 'gather' is too general (added)",
-           "18-37": "kept because the author separated deny and refuse (2026-10-16); open question",
-           "19-55": "'ewo su lugo' is 5 syll; SSA gap (balance-02)",
+W47NOTE = {"8-41": "every farming household; named in the 2026-10-16 'everyone's modern life' entry; confirmed a root (author 2026-10-16)",
+           "18-37": "the author separated deny and refuse; confirmed a root (author 2026-10-16)",
+           "19-55": "'ewo su lugo' is 5 syll; SSA gap (balance-02); confirmed a root (author 2026-10-16)",
            "9-32": "basic action, no short phrase"}
 assert len(W47) == 47, len(W47)
 for wid, (v, x) in W47.items():
@@ -715,8 +856,8 @@ for c, r in walk_rest.items():
 
 # ===================================================== 9. the 14 day/month names etc. are recorded in step 2 (grammar)
 # ===================================================== 10. pending items outside the files
-drop("tinli 'key, button' and yebin 'call, phone'", "pending: ladder 1 with the concept list (author 2026-10-15, judge's repairs)", "LEX",
-     "both stay roots meanwhile; deeplayer-02 proposes a separate clothes button")
+drop("yebin 'call, phone or call to' (against liga 'phone')", "pending: ladder 1 with the concept list (author 2026-10-15, judge's repairs)", "LEX",
+     "stays a root meanwhile; tinli's half was settled by the button split (author 2026-10-16)")
 drop("spelling-alphabet words (alufa, saluli ...)", "outside the core: spelling alphabet, like units (author 2026-10-15)", "-", "not placed")
 drop("@ and the dot", "covered by mon 'at' and mimi 'point' (author 2026-10-15)", "-", "")
 
@@ -734,15 +875,10 @@ for e in excluded:
         e["reason"] = "superseded: now the root '" + SUPERSEDED[e["concept"]] + "' (see concepts.tsv)"
 
 # ===================================================== antonyms
-ANT_LEX_FIX = {  # antonyms.tsv glosses that no longer match the lexicon
-    "day, daytime or 24 hours": "daytime", "live, be alive or dwell": "live, be alive, dwell; life",
-    "month; moon": "moon", "ask": "ask (a question)",
-}
 pairs = []
 for a, b in (l.rstrip("\n").split("\t") for l in open(P("data/antonyms.tsv")) if "\t" in l):
     if a == "concept" or not a:
         continue
-    a, b = ANT_LEX_FIX.get(a, a), ANT_LEX_FIX.get(b, b)
     pairs.append((a, b, "antonyms.tsv"))
 for k, c in list(concepts.items()):
     if c.get("_ant"):
@@ -750,7 +886,8 @@ for k, c in list(concepts.items()):
 ADDED_PAIRS = [("accept, take what is offered", "refuse, say no to"), ("hate", "love"), ("decrease, become or make less", "increase"),
                ("wold:10-33", "wold:10-34"), ("wold:11-61", "wold:11-62"), ("lose (a contest)", "win"), ("daytime", "night"),
                ("here", "there"), ("always", "never"), ("bless, blessing", "curse"), ("heaven, paradise", "hell"),
-               ("appear", "disappear, vanish"), ("comfortable, at ease", "pleasant"), ("keep, retain", "lose, misplace")]
+               ("appear", "disappear, vanish"), ("comfortable, at ease", "pleasant"), ("keep, retain", "lose, misplace"),
+               ("descend", "rise")]
 ADDED_PAIRS = [p for p in ADDED_PAIRS if p != (("comfortable, at ease", "pleasant"))]
 DECIDED_PAIRS = {("lose (a contest)", "win")}  # additions.tsv: antonym of yiyin "win" (author 2026-10-13)
 
@@ -789,6 +926,7 @@ with open(os.path.join(HERE, "concepts.tsv"), "w", newline="") as f:
     for c in concepts.values():
         if c["route"] in ("loan", "kept loan"):
             c["field"] = "loan"  # the lexicon files every loan under "loan"
+        c["source"] = "; ".join(dict.fromkeys(c["source"].split("; ")))  # one mention per tag
         w.writerow([str(c[k]).replace(chr(34), chr(39)) for k in cols])
 with open(os.path.join(HERE, "excluded.tsv"), "w", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")

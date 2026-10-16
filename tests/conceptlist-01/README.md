@@ -1,30 +1,38 @@
 # Concept list 01: the final concept list for the ~1,500-root placement
 
-Task: `PROMPT.md`. It consolidates every concept decision logged from 2026-10-13 to the end of `docs/design-log.md` into one list. Proposals only: nothing outside this folder changed, nothing is committed. Choices of mine are marked **(added)**.
+Task: `PROMPT.md`. Round 1 consolidated every concept decision from 2026-10-13 to the end of `docs/design-log.md` into one list. Round 2 (author, 2026-10-16) folds in the author's answers and deeplayer-02, fixes two data files, and adds the sets pass.
+
+Nothing is committed. Outside this folder, only `data/antonyms.tsv` and `tests/coverage-01/part3/religion.tsv` changed, as round 2 allowed. Choices of mine are marked **(added)**.
 
 ## Progress
 
-- [x] 1. Read the design log (2026-10-13 → end) and vocabulary-method §0
-- [x] 2. Inventory inputs
-- [x] 3. Build script `build.py` → `concepts.tsv`, `excluded.tsv`
-- [x] 4. Checks
-- [x] 5. README results and open questions
+- [x] Round 1: read the log and the inputs; `build.py` → `concepts.tsv`, `excluded.tsv`; checks; questions
+- [x] R2.1 fold deeplayer-02 and the approved answers into `build.py`; rebuild
+- [x] R2.2 fix `data/antonyms.tsv` stale glosses and `religion.tsv` notes
+- [x] R2.3 sets pass → `sets.md` (rates: `sets_rates.py` → `sets-rates.tsv`)
+- [x] R2.4 this README
 
 Rerun (about a second): `direnv exec /home/agent/work/repos/universal-language python3 tests/conceptlist-01/build.py`. It prints the totals.
 
 ## Files
 
-- `concepts.tsv` has one row per concept that gets a content form in the placement. Its columns:
+- **`concepts.tsv`** has one row per concept that gets a content form in the placement. Its columns:
   - `concept`: the sense gloss.
-  - `route`: root, loan, or kept loan.
+  - `route`: one of
+    - **root**;
+    - **loan**: new, with its form fixed by the panel;
+    - **kept loan**: from the lexicon;
+    - **loan candidate**: the standard words, which wait on the loan panel (author 2026-10-16); if one fails, it becomes a root or a phrase.
   - `form`: today's form. A root's form moves in the placement; a loan keeps its form.
   - `field`: the lexicon's field names.
-  - `tier`, `rank`: rank is the corrected canonical rank from coverage-02 `candidates.tsv`, where there is one.
-  - `antonym`: from `antonyms.tsv` and the ladder. New pairs are marked "(added)", and the one pair taken from a decision is marked "(decided)".
+  - `tier`, `rank`.
+  - `antonym`: new pairs are marked "(added)".
   - `source`: the first tag is what admitted the concept; "also …" tags are later confirmations.
   - `note`.
-- `excluded.tsv` has every concept that was considered and not given a root or loan, with a reason. Rows marked `pending:` wait on unfinished work, and rows marked `open question` wait on the author.
-- `build.py`: all hand decisions are tables in it, each citing its log entry.
+- **`excluded.tsv`** has every concept considered and not given a root or loan, with the reason. Rows marked `pending:` wait on unfinished work.
+- **`build.py`** is the single generator. Every hand decision is a table in it, citing its log entry.
+- **`sets.md`** is the sets pass, as proposals.
+- **`sets_rates.py` → `sets-rates.tsv`** holds the CLICS rates it cites. They need CLICS4's `cldf/` folder, kept outside the repo, as deeplayer-02 does.
 
 **Source tags.**
 
@@ -36,119 +44,181 @@ Rerun (about a second): `direnv exec /home/agent/work/repos/universal-language p
 | LOAN | `loans-final.tsv` / `loans-rerun.tsv` |
 | REL | religion decisions |
 | ADD1 | coverage-01 `additions.tsv` |
-| BAL | balance-02's 51 additions and their 2026-10-16 boundaries |
+| BAL | balance-02's 51 additions and their boundaries |
 | WALK | walk round 2, G rows up to rank 1342 |
-| PL | the 2026-10-16 phrase line |
+| PL | phrase line on the four named items |
+| **PL-retro** | the phrase line applied to older phrases (round 2) |
+| **SUBJ** | school subjects (round 2) |
 | WOLD-core / -edge / -codex | the WOLD decisions of 2026-10-16 |
-| WOLD-47 | the 47 walk-only meanings, classified here **(added)** |
+| WOLD-47 | the 47 walk-only meanings, classified in round 1 **(added)** and confirmed |
+| **BQ02** | deeplayer-02 boundary questions, as decided (round 2) |
+| **LOAN02** | deeplayer-02 loan panel, as decided (round 2) |
 | DROP | the 2026-10-16 drops |
 
 ## Totals
 
-**1,505 concepts get a content form:**
-- **1,422 roots.**
+**1,542 concepts get a content form** (round 1: 1,505):
+- **1,457 roots.**
   - 478 keep today's form, which moves in the placement.
-  - 944 are new.
-- **83 loans.**
+  - 979 are new.
+- **85 loans.**
   - 18 kept from the lexicon.
-  - 61 new, with panel forms.
-  - 4 standard forms that don't have forms yet.
-
-The placement places 1,422 roots around 83 fixed loans. 709 concepts are excluded, of which 38 are pending and 17 are open questions.
+  - 63 new with forms: round 1's 61, plus *tabaku* and *kalendalu*.
+  - 4 loan candidates pending the panel: planet, temperature, oxygen, mass.
 
 | Source (first tag) | Roots, today's form | Roots, new | Loans | Total |
 |---|---|---|---|---|
-| LEX (today's lexicon) | 478 | 6 (failed loans: hour, minute, second, photo, degree, police) | 18 kept | 502 |
-| LAD: first words (with WB) | – | 164 | 23 | 187 |
-| LAD: frequency segment | – | 545 | 37 + 4 standard | 586 |
-| LAD/LOAN: 31 failed loans → native root, plus tea and chemistry | – | 33 | – | 33 |
-| LOAN (pound, a currency only) | – | – | 1 | 1 |
-| ADD1 (coverage-01 additions: splits, inventory 2, here/there, meals, parent, WOLD follow-ups …) | – | 28 | – | 28 |
-| BAL (balance-02's 51, after boundaries) | – | 46 | – | 46 |
-| WALK (round 2 G, ranks 1243–1342) | – | 17 | – | 17 |
-| WOLD-core | – | 51 | – | 51 |
-| WOLD-edge (no alternative) | – | 24 | – | 24 |
-| WOLD-codex (20 added; 9-75 weave/plait shares weave's root) | – | 19 | – | 19 |
-| WOLD-47 (walk-only meanings, deep-layer test, added) | – | 11 | – | 11 |
-| **Total** | **478** | **944** | **83** | **1,505** |
+| LEX | 478 | 6 (failed loans) | 18 kept | 502 |
+| LAD (incl. WB, LOAN) | – | 741 | 60 + 4 candidates | 805 |
+| LOAN (pound, a currency) | – | – | 1 | 1 |
+| ADD1 | – | 28 | – | 28 |
+| BAL | – | 46 | – | 46 |
+| WALK | – | 17 | – | 17 |
+| PL-retro | – | 13 | – | 13 |
+| SUBJ (biology; the other four were already roots) | – | 1 | – | 1 |
+| WOLD-core (fry split from roast) | – | 52 | – | 52 |
+| WOLD-edge | – | 24 | – | 24 |
+| WOLD-codex | – | 19 | – | 19 |
+| WOLD-47 | – | 11 | – | 11 |
+| BQ02 | – | 15 | – | 15 |
+| LOAN02 | – | 6 | 2 | 8 |
+| **Total** | **478** | **979** | **85** | **1,542** |
 
-- **Frequency route.** 1,400 concepts.
-- **Deep-layer route.** 105: 94 WOLD plus 11 of the 47.
-- **Against the design log's estimate.** The log expected "~1,450–1,470" from the frequency route. That figure was coverage-02's rough count. It did not subtract the first-word filter's 47 non-roots, the 2026-10-16 drops, the religion rows, or the merges found here, so 1,400 isn't a contradiction.
+- **By route:** the frequency route gives 1,413 (LEX, LAD, LOAN, ADD1, BAL, WALK, PL-retro, SUBJ), and the deep-layer route 129 (WOLD, BQ02, LOAN02).
+- **Tiers:**
 
-**Excluded (709) by reason:**
+  | Tier | 5 | 4 | 3 | 2 | 1 |
+  |---|---|---|---|---|---|
+  | Concepts | 15 | 67 | 328 | 679 | 453 |
+
+  The cut points were accepted (author 2026-10-16).
+
+**Excluded: 671** (round 1: 709).
 
 | Reason | Count |
 |---|---|
-| Phrase | 211 |
-| Long tail | 183 |
-| Covered by another word | 69 |
+| Phrase (incl. "phrase or long tail" 31) | 220 |
+| Long tail (incl. "culture-bound or long tail" 19) | 178 |
+| Covered by another word | 71 |
+| Culture-bound | 55 |
 | Artefact (pooled English label) | 52 |
-| Culture-bound | 48 |
-| Pending | 38 |
 | Grammar or construction | 36 |
-| Past the walk's stop | 36 |
-| Open question | 17 |
+| Past the walk's stop (G 32, L 4) | 36 |
 | Dropped (mixed senses) | 10 |
 | Superseded by a later root | 8 |
+| **Pending** | **4** |
 | Outside the core (spelling alphabet) | 1 |
 
-By source:
+The 4 pending rows:
+- automatic (loan panel);
+- pity and envy (the sets pass; `sets.md` §11 proposes roots);
+- **yebin** against **liga** (ladder 1).
 
-| Source | Excluded |
-|---|---|
-| WOLD | 316 (incl. 30 edge with an alternative, 11 from the 47) |
-| LAD | 125 |
-| WALK | 123 |
-| BAL | 49 |
-| WB | 47 |
-| DROP | 21 |
-| LEX | 18 (the 17 two-syllable operators + tinli/yebin) |
-| Other | 10 |
+There are no open-question rows left.
 
-**Tiers.** Tier 5: 15, tier 4: 67, tier 3: 327, tier 2: 671, tier 1: 425.
-- **Today's roots** keep the lexicon's tier.
-- **New concepts** take their tier from the corrected rank. The cut points are mine **(added)**, set from where today's roots sit in the corrected ranking (tier medians 10 / 74 / 302 / 520 / 900): ≤25 → 5, ≤150 → 4, ≤450 → 3, ≤900 → 2, beyond → 1.
-- **First words** get at least tier 2, as `part4/placement.py` does.
-- **Deep-layer-only concepts** (WOLD) take their tier from the rank of their head word where WOLD's label matched one (`pass.tsv` `freq_rank`, the walk's rank for the 47). Otherwise they are tier 1: by construction they are rare in the frequency data, and tier only weights how hard the placement works to keep a word apart.
+## What round 2 changed
 
-**Fields** **(added)**: the ladder's extra fields are mapped to the lexicon's:
+**1. deeplayer-02 boundaries** (`bq.tsv`, author 2026-10-16): **15 new roots.**
+- The roots:
+  - well (dug water source);
+  - put out, extinguish (a fire);
+  - hawk;
+  - shiver, tremble;
+  - bake;
+  - scrape;
+  - milk (an animal);
+  - button (on clothes, also a push-button);
+  - floor (the surface walked on);
+  - pound (in a mortar);
+  - mat;
+  - twist, wring;
+  - chase, pursue;
+  - dare;
+  - murder.
+- order/command was already a root. Claw joins **tolin**, reglossed "nail (of a finger or toe), claw".
+- **tinli** is reglossed "key (for a lock)": the new button root takes both buttons (option a). Turn-off stays with **tapi** (option b).
+- **Roast/fry splits into two roots:** "roast (cook over a fire or in dry heat)" and "fry (cook in hot oil or fat)".
+- The lexicon glosses of **tolin** and **tinli** change at adoption, not here.
 
-| Ladder field | Lexicon field |
-|---|---|
-| home, clothing, transport, tech, food | thing |
-| food, raw produce | nature |
-| place | space |
-| society | people |
-| money, work, art, religion | abstract |
-| health | body |
+**2. deeplayer-02 loans** (`loans.tsv`):
+- **Loans:** tobacco *tabaku* and calendar *kalendalu*.
+- **Roots:** parrot, mattress, cotton, candle, pepper (the spice), cockroach.
+- **Phrases:** dolphin, mule, frying pan, silk, tattoo, coconut, helmet, injection, tin can.
+- **Culture-bound:** camel.
 
-- Person nouns go to people, verbs to action and qualities to quality, by hand lists in `build.py`.
-- WOLD fields are mapped the same way, with part of speech fixed by hand.
-- Every loan is filed under "loan", as the lexicon does.
+**3. The phrase line, applied retroactively. 13 roots:**
+- century, kingdom, childhood, patient (sick person), throne, corpse, giant, plain (land), salary, delicious, fill, acquaintance;
+- descend, which also covers WOLD's descend and land (both were "out" in round 1).
+
+**3 stay phrases as the world's compound** **(added reading)**:
+- welcome ("good come": *bienvenido*, *willkommen*, *hoş geldiniz*; a routine);
+- library ("book house": zh, ja, tr, fa, hi);
+- prime minister ("chief minister": hi, sw, id, ja, tr).
+
+My test: a compound of two content words that most panel languages use. A derivation by affix (king-*dom*, child-*hood*) isn't one, so kingdom and childhood became roots.
+
+**4. Other answers applied:**
+- **School subjects:** chemistry, physics, history and mathematics were already roots, now tagged SUBJ; biology is new.
+- **General (army rank):** dropped as a military rank.
+- **Mayor, governor and minister:** kept.
+- **Sofa:** borrowed (culture-bound).
+- **Planet, temperature, oxygen and mass:** marked "loan candidate".
+- **Confirmed:**
+  - harvest, refuse and stranger are roots;
+  - defeat = lose (a contest);
+  - none of the pooled-sense items is kept;
+  - saint is "holy person";
+  - emergency stays a root;
+  - the 17 operators stay out;
+  - the added antonym pairs are kept.
+
+**5. Small fixes found while rebuilding** **(added)**:
+- **supper** (WOLD 5-45) is now covered by dinner.
+- **herder** is the phrase **no [herd]** (3 syllables), since herd became a root.
+- **Fields:** axe, drum, flute and nail (fastener) were filed as actions and are now things; clay is now nature.
+- **Source tags:** chemistry's source listed ADD1 three times; each tag is now listed once.
+- **New antonym pair:** descend ↔ rise.
+
+## Data fixes (outside this folder)
+
+**`data/antonyms.tsv`: four stale glosses corrected.**
+
+| Was | Now | Why |
+|---|---|---|
+| "live, be alive or dwell" | "live, be alive, dwell; life" | the lexicon's current gloss |
+| "ask" | "ask (a question)" | the lexicon's current gloss |
+| "day, daytime or 24 hours" ↔ night | "daytime" ↔ night | the sense the pair was made for (split 2026-10-13) |
+| sun ↔ "month; moon" | sun ↔ "moon" | the sense the pair was made for (split 2026-10-13) |
+
+- **Why daytime and moon (added):** both now name the split-off sense, which has no form yet. The lexicon's current glosses, **dili** "day (24 hours)" and **dunan** "month", aren't opposites of night and sun. Every reader matches pairs by exact gloss and skips a gloss it doesn't find, as it already does for the senary rows. The placement will apply both pairs to the new roots once they're placed.
+- **No reader loses a pair:** the stale glosses matched nothing before either. `words.py move` doesn't use the file for weighting, and `tools/build.py` can't match multi-word glosses (below).
+- **The number and senary pairs stay in the file.**
+  - `tests/coverage-01/part4/placement.py` reads every row and weights matched pairs at 30, and `tools/build.py` does the same. So the number rows (6–10^9) are live confusion weights for the number words.
+  - `tools/site.py` already filters them out of the dictionary's opposites. Moving them out would change the placement.
+  - The senary rows match nothing in the lexicon and are inert.
+- **One problem found (not fixed):** `tools/build.py` line 285 splits rows on any whitespace (`l.split()`), so a row with a multi-word gloss gives a tuple of more than two and `for a, b in ants` fails to unpack (most rows have one). The file's other readers split on tabs. `tools/build.py` is the old full rebuild, so this only matters if it is run again.
+
+**`tests/coverage-01/part3/religion.tsv`: six notes rebuilt** from the file's git history (bless, miracle, saint, heaven, hell, sin). Two edits had been appended onto the old notes ("… too rare for a root", "… borrowed; the sky is yaye; the sky is yaye"). Each note now states the decision and its evidence once.
 
 ## Checks
 
 1. **No duplicate senses.**
-   - No two rows share a gloss. Every gloss word shared between rows was listed and read by hand (the script's base-word scan).
-   - **One duplicate was found and merged:** ladder **defeat**, whose own note says "lose a contest", is the same sense as **lose (a contest)**, split from **agi** (2026-10-13). It is now excluded as covered (question 3).
-   - **Near pairs kept on purpose:**
-     - party (gathering) vs celebrate;
-     - match, contest / race / competition / lose (a contest);
-     - level, degree vs degree (°);
-     - nail (fastener) vs **tolin** (fingernail);
-     - sink (go under) vs sink (basin);
-     - plant/sow vs **pinfe** "plant";
-     - boil (abscess) vs **binla** "boil".
-   - The English-ambiguous labels carry sense glosses: the `GLOSS` table **(added)**, from the ladder notes.
-   - **One form collision:** the loan *league* **liga** and the root **liga** "phone". By the 2026-10-13 rule (loans keep their forms, roots move) the root moves. The same rule covers *gas* **gasu** vs "idea" and *lamp* **lanpa** vs "cloud".
-2. **Every lexicon root is accounted for.** 519 rows = 502 in `concepts.tsv` + 17 excluded.
-   - **Kept:** 478 roots with today's form; 18 loans kept; 6 failed loans re-routed to native roots, with their loan forms retired (loans-rerun).
-   - **Excluded:** the 17 two-syllable operators (**genso wanme inwun wemen konsin buntu tason nedin mesun manni buni donon lanno anko nuwen kiyo mena**), which `part4/placement.py` keeps fixed as part of the short-word layer.
-   - **Merged:** none. Splits narrowed **dunan apu kuwi mido agi dili wabun** (already narrowed in the lexicon), and **nume** absorbed **pata** earlier.
-   - **Dropped:** none.
-   - `excluded.tsv` also records the pending ladder-1 check of **tinli**/**yebin**. Both stay roots meanwhile.
-3. **Every logged decision is applied.** Each concept-list decision from 2026-10-13 to the end of the log, and where it is applied:
+   - No two glosses are the same. Every gloss word shared between rows was listed, and the new rows were read by hand.
+   - Near pairs kept on purpose:
+     - well vs spring (water source);
+     - floor vs storey;
+     - hawk vs eagle;
+     - murder vs kill;
+     - fry, roast and bake vs cook;
+     - mat vs carpet;
+     - patient (sick person) vs patient, enduring;
+     - acquaintance vs stranger vs friend;
+     - pound (in a mortar) vs **monpa** "crush" (open question 2).
+   - **One form collision** remains: the loan *league* **liga** against the root **liga** "phone". The root moves (rule of 2026-10-13).
+2. **Every lexicon root is accounted for.** 519 rows = 502 in `concepts.tsv` + 17 operators excluded.
+   - None was merged or dropped.
+   - **tolin** widened to "nail, claw" and **tinli** narrowed to "key".
+3. **Every logged decision is applied.** The round-1 table below, with the round-2 rows added.
 
 | Decision (design log) | Applied where |
 |---|---|
@@ -175,78 +245,48 @@ By source:
 | here / there | ADD1 |
 | Large numbers stay native | LEX number roots (**munno tonen siwin**) |
 | Tea gets an invented root | LAD step (route root) |
-| tinli/yebin through ladder 1 | pending (excluded.tsv) |
+| tinli/yebin through ladder 1 | tinli settled by the button split; yebin pending |
 | Short-word layer applied | the 17 operators stay out; the 26 digit-initial roots move anyway |
 | Stop rule; the 51 added (holy a root) | BAL |
-| Loan rule 5 of 7 regions | chemistry becomes a root; sofa is open (question 1) |
+| Loan rule 5 of 7 regions | chemistry a root (now also a school subject) |
 | Rates use "each" | rate (LAD root); ratio merged into rate |
 | parent; mother and father stay; lie | parent and lie (ADD1/LAD 884.b); **mole**, **wede** (LEX) |
-| Phrase line (b) | walk G; heap, nonsense, obstacle; receipt, available, priority roots; passenger a phrase; the composes entrants and ladder phrases checked (question 2) |
+| Phrase line (b) | walk G; heap, nonsense, obstacle; receipt, available, priority roots; passenger a phrase |
 | Everyone's modern life; WOLD route | WOLD |
 | Walk stops at 1342 | WALK: 17 roots; G past the stop excluded |
-| Three meals; sets pass planned | breakfast (LAD), lunch and dinner (ADD1); sets pending (question 13) |
+| Three meals; sets pass planned | breakfast (LAD), lunch and dinner (ADD1); supper covered by dinner; sets pass in `sets.md` |
 | Boundaries for the walk's concepts | WALK glosses: coal (charcoal built), depend, deny, pattern, comfortable, wild, ceiling, infection (virus stays a loan), urgent, attitude (opinion becomes a phrase), worthy (covers merit), welfare, discrimination |
 | Boundaries for the 51; phrase or root | BAL: common split (shared = **pi we**), accuse+blame and include+contain one root each, attend/earthquake/shelter phrases, festival a phrase, unique, exceed, participate, familiar, summary roots |
-| WOLD strong + clear edge; 20 more | WOLD-core 51, WOLD-edge 24, WOLD-codex 19; the 28 other edge items excluded |
-| WOLD follow-ups | cassava, millet/sorghum, deaf, mute (blind kept), order/command, relative, spider, shave, fish, herd (ADD1); young and sexed animals built (WOLD P rows excluded); the 47 classified (WOLD-47) |
+| WOLD strong + clear edge; 20 more | WOLD-core 51 (+ fry, split), WOLD-edge 24, WOLD-codex 19; the other edge items excluded |
+| WOLD follow-ups | cassava, millet/sorghum, deaf, mute (blind kept), order/command, relative, spider, shave, fish, herd (ADD1); young and sexed animals built; the 47 classified (WOLD-47) |
 | "Through" = verb chain with "pass" | pass (LAD root) |
-| Drops (10-16) | knight, senator, lieutenant, colonel culture-bound; statistics, psychology, circuit, orbit, formula, sphere long tail; the 10 mixed-sense items re-checked (none kept, question 6); the 14 day and month names and last night excluded; receipt, available, priority roots; passenger a phrase |
+| Drops (10-16) | knight, senator, lieutenant, colonel culture-bound; statistics, psychology, circuit, orbit, formula, sphere long tail; the 10 mixed-sense items excluded; day and month names and last night excluded; receipt, available, priority roots; passenger a phrase |
+| **WOLD boundaries and loans; the list's questions (10-16, round 2)** | BQ02 (15 roots; claw in **tolin**; **tinli** "key"; turn-off stays **tapi**); roast and fry two roots; LOAN02 (2 loans, 6 roots, 9 phrases, camel culture-bound); PL-retro (13 roots, 3 world compounds); SUBJ; general dropped, civic offices kept; sofa borrowed; defeat merged; harvest, refuse, stranger roots; pity and envy to `sets.md`; no pooled sense kept; saint = holy person; emergency kept; standard words loan candidates; operators out; tier cuts; added antonyms kept; data defects fixed (above) |
 
 Not concept-list decisions, so nothing to apply here: grammar, sound, model, offensive, listening, process and documentation entries.
 
 ## Open questions for the author
 
-1. **sofa and chemistry (5-of-7 rule, 2026-10-15: "roots or phrases").**
-   - **The conflict:** the first-word filter (2026-10-13) had already made sofa a borrowing (culture-bound seating), so the 2026-10-15 entry and the filter disagree. Here sofa is excluded (open), and chemistry is a root, since no phrase meets the phrase line.
-   - **A wider inconsistency:** physics (failed loan → native root, 2026-10-13) and chemistry are fields of study, like psychology and statistics, which the 2026-10-16 drops sent to the long tail.
-   - **Options:** physics and chemistry roots (as here), or both long tail.
-2. **Is the phrase line retroactive?** It decided the walk and four named items. Applied to older phrases, these are over 3 syllables and not world compounds:
-   - **ladder "covered" rows:** century, kingdom, welcome, library (the ladder claims a world compound), childhood, patient (sick person), throne, corpse, giant, plain (land), prime minister;
-   - **balance-02 "composes" entrants:** salary, delicious, fill, descend, acquaintance.
-   - They are excluded here pending a decision. Gendered, kinship, season and colour phrases are held by decided rules or the sets pass and are not in this list.
-   - Recommendation: apply the line, which gives roots to most of the 16. Each is a general concept the author's C1 cost rule favours.
-3. **defeat = lose (a contest).** Merged as a duplicate (added). Confirm, or keep "defeat" as the transitive "beat someone" (now covered by **yiyin** "win (over)").
-4. **The 47 walk-only WOLD meanings (my classification, added).**
-   - **Roots:** steam, swallow, flour, bend, fold, hang, crazy (all ≥15 families); stretch and stranger (edge, with no short phrase); harvest (6/24 families, but farming households everywhere, and named in the 2026-10-16 entry); refuse (6/24, kept because the author separated deny and refuse).
-   - **Out:** bay, tent, loyal, guilty, surrender, omen, descend/land (**deba** as a verb), "to last".
-   - **Pending:** pity and envy, which go to the sets pass.
-   - **Confirm:** harvest, refuse and stranger especially.
-5. **Military and political titles.** The drops covered knight, senator, lieutenant and colonel. general (army rank) is the same class and is kept here. So are governor, mayor and minister. Drop it (and them)?
-6. **The 10 mixed-sense items** (compound, grade, trial, single, term, deposit, review, promotion, medium, background).
-   - My reading: no sense passes alone. The reasons per sense are in `excluded.tsv`.
-   - The closest calls are "single" = unmarried (**su bedan**, 3 syllables) and "grade" = a school mark.
-7. **saint.**
-   - coverage-02 `drops.tsv` proposed **ewo [holy]**, but that phrase is 4 syllables, over the line. "Holy person" stays a root by the 2026-10-13 audit (item 3).
-   - **Confirm:** a root next to "holy".
-8. **emergency** stays a root. The 2026-10-16 note "an emergency in speech is **yo yo**" reads as the speech act, not the noun ("a medical emergency").
-9. **WOLD's "20 more"** are 19 new roots. 9-75 weave/plait is weave's own root, and "boil (bubble)" in the README/log is WOLD 4-856 *boil, abscess*, not boiling (**binla**).
-10. **Standard forms.**
-    - planet, temperature, oxygen and mass are routed as loans from the standard (ladder 2 rung 1) but have no forms.
-    - **Decide:** do they need the panel, or `names.py` on the standard name only?
-    - Coverage-02's calibration rated oxygen N (long tail).
-11. **The 17 two-syllable operators** are left out of the placement, following `placement.py`'s FIXED set, a choice not found in the log.
-    - Some are ordinary adverbs: **manni** "usually", **tason** "rather", **nedin** "almost", **anko** "until".
-    - The roadmap plans renaming **manni**/**konsin**.
-    - **Confirm:** they stay with the short-word layer.
-12. **Tiers.**
-    - Today's roots keep their hand-set lexicon tiers rather than taking the corrected rank. Deep-layer-only roots are tier 1.
-    - **Confirm both,** or re-tier everything from the rank.
-13. **Pending work that can still add concepts.**
-    - **deeplayer-02** is unfinished.
-      - **BQs:** 16 open. Its table proposes two roots for 15 and one for claw (**tolin**); order/command is already decided.
-      - **Loans:** the 18 haven't been run. Those that fail become roots or phrases.
-      - **automatic:** the walk's loan candidate also waits on the panel.
-    - **The sets pass:** seasons (spring, summer, autumn, winter are phrases today), colours (brown, pink), emotions (pity/mercy, envy/jealousy), weather, kin pairs, day and month names.
-    - **tinli/yebin** through ladder 1.
-    - Together these could add roughly 20–50 roots.
-14. **Data defects found** (not edited: outside this folder).
-    - `data/antonyms.tsv` has stale glosses: "day, daytime or 24 hours", "live, be alive or dwell", "ask" and "month; moon". I mapped the last to sun ↔ moon. It also holds number and senary confusion pairs, which aren't antonyms.
-    - `religion.tsv`'s note column has text merged from other rows (bless, heaven, hell, sin).
-    - The ladder rows for church, angel, bishop, prophet and idol were never updated after the 2026-10-13 religion decision.
-15. **Added antonym pairs (marked):**
-    - accept ↔ refuse, hate ↔ love, decrease ↔ increase;
-    - sink ↔ float, lend ↔ borrow;
-    - here ↔ there, always ↔ never;
-    - bless ↔ curse, heaven ↔ hell;
-    - appear ↔ disappear, keep ↔ lose (misplace).
-    - **Keep or trim?** In the placement, antonym pairs are pushed apart with weight 30.
+1. **The sets pass** (`sets.md`): one proposal per set. Most say "no change"; these add or rebuild something:
+   - **times of day:** a root for dusk, for parity with dawn;
+   - **seasons:** all six built as **[season] + mark**, which overrides the phrase line for summer and winter;
+   - **colours:** the five non-basic colours all built as mixtures;
+   - **weather:** a root for cool, for parity with warm;
+   - **emotions:** roots for surprise, "pity, compassion" and "envy, jealousy" (one root);
+   - **kin:** name **pani** and **loyen** as the older/younger modifiers;
+   - **numbers:** fractions are a grammar question.
+2. **pound (in a mortar) vs monpa "crush".**
+   - **The gap:** deeplayer-02 tested pound only against **payon** "hit". Against crush, CLICS has 2 families: 5.8%, too thin to decide. POUND/GRIND is 2.7% over 51 families.
+   - **What I did:** kept the split as decided and narrowed the gloss to "pound (in a mortar)".
+   - **Confirm**, or merge it into **monpa**.
+3. **My world-compound calls on the retroactive phrase line.**
+   - welcome, library and prime minister stay phrases; kingdom and childhood are roots (derivation is not a compound).
+   - **Confirm**, or reverse any of them.
+4. **WOLD phrases over 3 syllables.** deeplayer-01's P class was never put through the phrase line. These remain phrases: untie **benbi manfu**, hire **neke doku**, earn **dunu nimo**, stinking **kanko yomo**, draw water **yidu osa** (4 syllables each).
+   - **My reading:** each is how most languages build it (the pass notes "most languages derive it"), so they meet the line as the world's compound.
+   - **Confirm**, or send them through the line as roots.
+5. **To the roadmap** (`docs/` was out of bounds here):
+   - fractions (section 9);
+   - the `tools/build.py` whitespace split;
+   - the lexicon regloss of **tolin** and **tinli** at adoption;
+   - the ladder rows for church, angel, bishop, prophet and idol, still never updated after 2026-10-13.

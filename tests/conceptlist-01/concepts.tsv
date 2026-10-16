@@ -317,7 +317,7 @@ root, of a plant	root	yinki	nature	3			LEX
 spit	root	kefa	action	3			LEX	
 flower	root	meyen	nature	3			LEX	
 louse	root	akan	animal	3			LEX	
-nail, of a finger or toe	root	tolin	body	3			LEX	
+nail (of a finger or toe), claw	root	tolin	body	3			LEX; BQ02 (claw joins: 53.9%)	claw/nail one root (author 2026-10-16, deeplayer-02 4-345); the lexicon gloss changes at adoption
 smell, sense or give off an odour	root	kanko	sense	3			LEX	
 tie, fasten with a knot	root	manfu	action	3			LEX	
 vomit	root	gabu	action	3			LEX	
@@ -469,7 +469,7 @@ battery	kept loan	batali	loan	2			LEX	loan form fixed by the panel or the standa
 euro	kept loan	yulo	loan	2			LEX	loan form fixed by the panel or the standard
 yuan	kept loan	yuwan	loan	2			LEX	loan form fixed by the panel or the standard
 rupee	kept loan	lupiya	loan	2			LEX	loan form fixed by the panel or the standard
-police	root		people	3			LEX; LOAN; ADD1; ADD1	failed loan (loans-rerun: fail 11/5 (author 2026-10-13)); today's polisu retires, a native root replaces it
+police	root		people	3			LEX; LOAN; ADD1	failed loan (loans-rerun: fail 11/5 (author 2026-10-13)); today's polisu retires, a native root replaces it
 seek, search for	root	ditun	action	3		find	LEX	
 remove, erase	root	nuton	action	3		add, put in more	LEX	
 share, let others have too	root	peton	action	3			LEX	
@@ -479,7 +479,7 @@ check, verify	root	loban	action	3			LEX
 shake, vibrate	root	susin	motion	2			LEX	
 sound, noise	root	ninge	nature	3			LEX	
 page, sheet	root	lunyu	thing	3			LEX	
-key, button	root	tinli	thing	3			LEX	
+key (for a lock)	root	tinli	thing	3			LEX; BQ02	the button splits off as its own root; tinli stays 'key' (author 2026-10-16, deeplayer-02 6-62); the lexicon gloss changes at adoption
 private, not for others	root	kunsu	quality	2		public	LEX	
 garbage, trash	root	bekin	thing	2			LEX	
 copy, make the same again	root	gayen	action	3			LEX	
@@ -606,7 +606,7 @@ donkey	root		animal	2	1435		LAD; WB
 grape	root		nature	2	1967		LAD; WB	
 garden	root		space	2	740		LAD; WB	
 strawberry	root		nature	2			LAD; WB	
-tea	root		thing	2	557		LAD; LOAN; ADD1; ADD1; ADD1	loan tayu fails once adapted (author 2026-10-15): invented root
+tea	root		thing	2	557		LAD; LOAN; ADD1	loan tayu fails once adapted (author 2026-10-15): invented root
 shower	root		thing	2	1109		LAD; WB	
 tickle	root		action	2			LAD; WB	
 paint	root		action	2	946		LAD; WB	
@@ -675,7 +675,7 @@ melon	root		nature	2			LAD; WB
 spill	root		action	2			LAD; WB	
 watermelon	root		nature	2			LAD; WB	
 soda	root		thing	2	2047		LAD; WB; LOAN	loan failed the panel (5/4): native root
-spider	root		animal	2	1495		LAD; WB; ADD1; ADD1; ADD1 (own root, 2026-10-16)	
+spider	root		animal	2	1495		LAD; WB; ADD1; ADD1 (own root, 2026-10-16)	
 mirror	root		thing	2	947		LAD; WB	
 smile	root		sense	2	620		LAD; WB	
 last, final	root		abstract	4	39		LAD; WB	
@@ -699,7 +699,7 @@ government	root		people	4	93		LAD
 news	root		people	4	65		LAD	
 song	root		sense	4	130		LAD	
 music	root		abstract	3	161		LAD; LOAN	loan failed the panel (11/6): native root
-history	root		abstract	3	176		LAD	
+history	root		abstract	3	176		LAD; SUBJ	
 team	root		people	3	169		LAD	
 company	root		abstract	4	86		LAD	
 different	root		quality	4	73	same	LAD	
@@ -731,7 +731,6 @@ politics	root		people	3	296		LAD
 price	root		abstract	3	240		LAD	
 report	root		sense	4	141		LAD	
 general, overall	root		quality	3	246	special	LAD	
-general (army rank)	root		people	1			LAD	
 future	root		time	3	332	past	LAD	
 case, instance	root		abstract	3	168		LAD	
 case (legal), lawsuit	root		people	2			LAD	
@@ -775,6 +774,7 @@ organization	root		people	3	320		LAD
 market	root		abstract	3	270		LAD	
 prepare	root		action	3	342		LAD	
 business	root		abstract	4	135		LAD; LOAN	loan failed the panel (7/5): native root
+century	root		time	3	437		PL-retro; LAD	was the phrase fawu loki: fawu loki (4 syll); own words or loans (siecle, qarn, vek, abad)
 economy	root		abstract	2	465		LAD	
 nature	root		nature	3	365		LAD	
 interest, curiosity	root		mind	3	383		LAD	
@@ -794,6 +794,7 @@ candidate	root		people	2	511		LAD
 serious	root		quality	2	489		LAD	
 meeting	root		people	3	174		LAD	
 international	root		quality	3	385		LAD	
+kingdom	root		people	2	500		PL-retro; LAD	was the phrase gigin pi king: gigin pi king (5 syll); king + country only in zh ja ko vi; elsewhere derived from king (added reading)
 speech	root		sense	4	128		LAD	
 condition	root		abstract	3	182		LAD	
 region	root		space	3	188		LAD	
@@ -827,11 +828,11 @@ sport	root		people	2	540		LAD; LOAN	loan failed the panel (8/6): native root
 newspaper	root		thing	2	574		LAD	
 event	root		abstract	3	219		LAD	
 record, recording	root		sense	3	438		LAD	
-rise, go up	root		motion	3	260	fall, drop down	LAD	
+rise, go up	root		motion	3	260	fall, drop down; descend, go down; land (added)	LAD	
 modern	root		quality	2	573		LAD	
 expert	root		people	2	596		LAD	
 judge (person; to judge)	root		people	2	513		LAD	
-planet	loan		loan	2	621		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+planet	loan candidate		nature	2	621		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
 possible	root		quality	3	309		LAD	
 machine	loan	masina	loan	3	392		LAD; LOAN	panel 14/6; form fixed
 industry	root		abstract	2	468		LAD	
@@ -911,7 +912,7 @@ size	root		size	2	477		LAD
 model (simplified representation; fashion model)	loan	modelu	loan	3	436		LAD; LOAN	panel 14/6; form fixed
 prove	root		mind	2	549		LAD	
 measure	root		action	2	493		LAD	
-mathematics	root		abstract	2	800		LAD	
+mathematics	root		abstract	2	800		LAD; SUBJ	
 crisis	root		people	2	791		LAD	
 step, pace	root		motion	3	301		LAD	
 virus	loan	bilusu	loan	2	784		LAD; LOAN	panel 17/7; form fixed
@@ -943,7 +944,7 @@ witness	root		people	2	505		LAD
 customer	root		people	2	855		LAD	
 league (sports)	loan	liga	loan	2	693		LAD; LOAN	panel 15/7; form fixed
 serve	root		action	2	720		LAD	
-temperature	loan		loan	2	883		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+temperature	loan candidate		nature	2	883		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
 brave	root		quality	2	531	fear	LAD	
 benefit	root		abstract	2	458		LAD	
 standard, norm	root		abstract	2	762		LAD	
@@ -988,6 +989,7 @@ the press, news media	root		people	2			LAD
 citizen	root		people	2	480		LAD	
 club, society	loan	kulabu	loan	2	454		LAD; LOAN	panel 17/7; form fixed
 habit, routine	root		mind	1	906		LAD	
+childhood	root		time	1	1045		PL-retro; LAD	was the phrase muyi pi tiwu: muyi pi tiwu (5 syll); derived from child by affix in most languages (added reading)
 title, heading	root		sense	2	731		LAD	
 divorce	root		people	1	968	marry, wedding	LAD	
 negative	root		quality	1	932	positive	LAD	
@@ -1043,7 +1045,8 @@ wise	root		mind	2	857		LAD
 coin	root		abstract	1	1126		LAD	
 guest	root		people	2	779	host (who receives guests)	LAD	
 care	root		action	3	286		LAD	
-chemistry	root		abstract	1	1137		LAD; LOAN; ADD1; ADD1; ADD1	5-of-7-regions rule fails it (author 2026-10-15): root or phrase; no phrase meets the phrase line, so a root (added reading)
+chemistry	root		abstract	1	1137		LAD; LOAN; ADD1; SUBJ	5-of-7-regions rule fails the loan (author 2026-10-15); a school subject every system teaches, so a root (author 2026-10-16)
+patient, sick person (in care)	root		people	2			PL-retro; LAD	was the phrase ewo simi: ewo simi (4 syll)
 patient, enduring	root		mind	2			LAD	
 worry	root		mind	3	304		LAD	
 material, substance	root		thing	2	702		LAD	
@@ -1082,8 +1085,9 @@ fail	root		action	1	1086	success	LAD
 liquid	root		nature	2	808		LAD	
 needle	root		thing	1	1213		LAD	
 plot (of a story)	root		abstract	1	1018		LAD	
-oxygen	loan		loan	1	1227		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+oxygen	loan candidate		nature	1	1227		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
 charge (a battery)	root		thing	1	1009		LAD	
+throne	root		thing	1	1096		PL-retro; LAD	was the phrase pu goyu pi king: pu goyu pi king (6 syll)
 climate	root		nature	1	1008		LAD; LOAN	loan failed the panel (8/4): native root
 signature	root		sense	1	1003		LAD	
 essay	root		sense	1	1110		LAD	
@@ -1145,6 +1149,7 @@ edition	root		sense	1	1136		LAD
 menstruation	root		body	1	1127		LAD	
 balance	root		abstract	1	1141		LAD	
 pilot	root		people	1	1336		LAD; LOAN	loan failed the panel (11/5): native root
+corpse, dead body	root		body	2	579		PL-retro; LAD	was the phrase gawo fafin: gawo fafin (4 syll); 'dead body' is a compound only in some (ja, en)
 sword	root		thing	2	803		LAD	
 investigate	root		mind	3	403		LAD	
 invent	root		action	1	1183		LAD	
@@ -1181,10 +1186,12 @@ script	root		sense	1	1332		LAD
 innocent	root		quality	1	1393		LAD	
 plastic	loan	pulasutiku	loan	1	1258		LAD; LOAN	panel 16/7; form fixed
 volume (loudness; a book volume)	root		size	2	881		LAD	
+giant	root		people	1	1399		PL-retro; LAD	was the phrase ewo bi kudu: ewo bi kudu (5 syll)
 noble	root		people	1	982		LAD	
 fan, supporter	root		people	1	1000		LAD	
 fan (cooling device)	root		thing	1			LAD	
 plain, simple	root		quality	2	879		LAD	
+plain (flat open land)	root		nature	1			PL-retro; LAD	was the phrase sekan mawun: sekan mawun (4 syll)
 credit	root		abstract	1	1295		LAD	
 bar (place serving drinks)	loan	balu	loan	1	1139		LAD; LOAN	panel 18/7; form fixed
 repeat	root		action	1	1299		LAD	
@@ -1205,11 +1212,11 @@ insurance	root		abstract	1	1102		LAD
 perfect	root		quality	3	378		LAD	
 joint (of the body)	root		body	1	1069		LAD	
 rate (speed, ratio, rate of pay)	root		number	1	1047		LAD	
-mass (physical quantity)	loan		loan	1	998		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+mass (physical quantity)	loan candidate		nature	1	998		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
 mention	root		sense	2	690		LAD	
 cinema	loan	sinema	loan	1	1181		LAD; LOAN	panel 16/6; form fixed
 fence	root		thing	1	1179		LAD	
-blind	root		quality	1	1090		LAD; ADD1; ADD1; ADD1 (set with deaf, mute)	
+blind	root		quality	1	1090		LAD; ADD1; ADD1 (set with deaf, mute)	
 available	root		quality	1	1236		LAD; DROP; PL	lenu bone (4 syll) is over the line (re-checked 2026-10-16)
 fool	root		people	2	840	smart	LAD	
 drunk	root		quality	1	1414		LAD	
@@ -1297,7 +1304,7 @@ prevent	root		action	1	902		LAD
 pipe	root		thing	1	1349		LAD	
 pillar	root		thing	1	1311		LAD	
 piano	loan	piyano	loan	1	1604		LAD; LOAN	panel 17/7; form fixed
-physics	root		abstract	1	1417		LAD; LOAN	loan failed the panel (11/4): native root
+physics	root		abstract	1	1417		LAD; LOAN; SUBJ	loan failed the panel (11/4): native root
 permanent	root		quality	1	1129		LAD	
 pearl	root		nature	1	1608		LAD	
 organ (of the body)	root		body	1	1296		LAD	
@@ -1336,6 +1343,7 @@ relative, family member	root		people	2	543		ADD1	phrase ewo pi yonyo is 5 syll (
 shave	root		action	2			ADD1	WOLD follow-up (author 2026-10-16)
 fish (catch fish)	root		action	2	580		ADD1	WOLD follow-up (author 2026-10-16)
 herd, tend animals	root		action	2			ADD1	WOLD follow-up (author 2026-10-16)
+biology	root		abstract	1	1852		SUBJ	school subject every system teaches (author 2026-10-16)
 fact	root		abstract	3	297		BAL	
 common, ordinary, usual	root		quality	3	346		BAL	split: 'shared' is the phrase pi we
 accept, take what is offered	root		action	3	380	refuse, say no to (added)	BAL	
@@ -1343,9 +1351,11 @@ fate, destiny	root		abstract	3	434		BAL
 influence	root		action	2	506		BAL	
 holy, sacred	root		quality	2	588		BAL; REL (sacred = holy)	root (author 2026-10-15); merged rank 588
 status, standing, rank in a group	root		people	2	653		BAL	
+salary	root		abstract	2	713		PL-retro; BAL	was the phrase nimo pi doku (money of work); everyday: nimo pi doku (5 syll)
 avoid	root		action	2	716		BAL	
 suitable, fit, proper	root		quality	2	727		BAL	absorbs fit
 guess	root		mind	2	737		BAL	
+delicious	root		quality	2	753		PL-retro; BAL	was the phrase tenmi upe (tastes good); everyday: tenmi upe (4 syll)
 partner (neutral in sex and setting)	root		people	2	785		BAL	
 environment, surroundings	root		nature	2	794		BAL	separate from nature
 disappear, vanish	root		motion	2	797	appear (added)	BAL	
@@ -1362,6 +1372,7 @@ disaster	root		abstract	1	945		BAL
 unique	root		quality	1	990		BAL	phrase-or-root decided: root (author 2026-10-16)
 celebrate, celebration	root		action	1	996		BAL	festival = 'time of celebrating'
 include, contain	root		action	1	1030		BAL	include and contain one root
+fill, make full	root		action	1	1043		PL-retro; BAL	was the phrase muge kete (make full): muge kete (4 syll)
 exceed, go beyond	root		action	1	1052		BAL	phrase-or-root decided: root (author 2026-10-16)
 decrease, become or make less	root		action	1	1070	increase (added)	BAL	
 statue	root		thing	1	1071		BAL	
@@ -1372,7 +1383,9 @@ familiar, known	root		quality	1	1122		BAL	phrase-or-root decided: root (author 2
 heal, cure	root		action	1	1135		BAL	absorbs cure
 hate	root		mind	1	1142	love (added)	BAL	
 cruel	root		quality	1	1155		BAL	
+descend, go down; land	root		motion	1	1159	rise, go up (added)	PL-retro; BAL	was the phrase isi deba (go below): isi deba (4 syll); also covers WOLD 10-473 descend and 10-92 land
 chain	root		thing	1	1171		BAL	
+acquaintance, person one knows	root		people	1	1172		PL-retro; BAL	was the phrase ewo pi lugo (a person one knows): ewo pi lugo (5 syll)
 bell	root		thing	1	1184		BAL	
 kind, kindness	root		quality	1	1191		BAL	
 nonsense	root		sense	1	1194		BAL	phrase apu su yofu (5 syll) over the line (coverage-02 r2)
@@ -1425,7 +1438,7 @@ itch	root		body	1			WOLD-core	WOLD 4-854, 16/24 families with an own root
 pus	root		body	1	2305		WOLD-core	WOLD 4-857, 20/24 families with an own root
 lazy	root		quality	1	1630		WOLD-core	WOLD 4-92, 19/24 families with an own root
 naked	root		quality	1	1856		WOLD-core	WOLD 4-99, 17/24 families with an own root
-roast, fry (cook in fire, on a pan or in oil)	root		action	1			WOLD-core	WOLD 5-23, 20/24 families with an own root
+roast (cook over a fire or in dry heat)	root		action	1			WOLD-core; BQ02 (split)	WOLD 5-23, 20/24 families with an own root; roast/fry split (author 2026-10-16, deeplayer-02: ROAST/FRY 3.0% without copies)
 peel	root		action	1	1607		WOLD-core	WOLD 5-46, 16/24 families with an own root
 sieve, strain	root		action	1			WOLD-core	WOLD 5-47, 17/24 families with an own root
 knead	root		action	1	1948		WOLD-core	WOLD 5-54, 15/24 families with an own root
@@ -1436,9 +1449,9 @@ sew	root		action	1	2055		WOLD-core	WOLD 6-35, 20/24 families with an own root
 bead	root		thing	1			WOLD-core	WOLD 6-76, 17/24 families with an own root
 plant, sow (put seeds or plants in the ground)	root		action	1			WOLD-core	WOLD 8-31, 18/24 families with an own root; also WOLD 8-531 (to plant)
 mushroom	root		nature	1			WOLD-core	WOLD 8-98, 15/24 families with an own root
-axe	root		action	1			WOLD-core	WOLD 9-25, 17/24 families with an own root
+axe	root		thing	1			WOLD-core	WOLD 9-25, 17/24 families with an own root
 rub	root		action	1	2060		WOLD-core	WOLD 9-31, 17/24 families with an own root
-clay	root		action	1	1842		WOLD-core	WOLD 9-73, 19/24 families with an own root
+clay	root		nature	1	1842		WOLD-core	WOLD 9-73, 19/24 families with an own root
 wrap	root		action	1			WOLD-core	WOLD 10-14, 18/24 families with an own root
 sink (go under water)	root		motion	1	1174	float (added)	WOLD-core	WOLD 10-33, 15/24 families with an own root
 float	root		motion	1	1651	sink (go under water) (added)	WOLD-core	WOLD 10-34, 16/24 families with an own root
@@ -1447,7 +1460,7 @@ stingy, mean with money	root		quality	1			WOLD-core	WOLD 11-54, 15/24 families w
 hook	root		thing	1			WOLD-core	WOLD 12-75, 16/24 families with an own root
 whistle	root		sense	1	2154		WOLD-core	WOLD 18-17, 17/24 families with an own root
 scold	root		sense	1	1910		WOLD-core	WOLD 18-39, 18/24 families with an own root
-drum	root		sense	1			WOLD-core	WOLD 18-72, 15/24 families with an own root
+drum	root		thing	1			WOLD-core	WOLD 18-72, 15/24 families with an own root
 tick	root		animal	1			WOLD-core	WOLD 3-835, 16/24 families with an own root
 freeze, become ice	root		action	1	1973		WOLD-core	WOLD 1-775, 15/24 families with an own root
 swamp, marsh, wet ground	root		nature	1			WOLD-edge	WOLD 1-38, 14/24 families with an own root
@@ -1468,12 +1481,12 @@ brick	root		thing	1	2253		WOLD-edge	WOLD 7-62, 6/24 families with an own root
 plough	root		action	1			WOLD-edge	WOLD 8-21, 7/24 families with an own root
 hoe	root		nature	1	2212		WOLD-edge	WOLD 8-25, 11/24 families with an own root
 gourd, calabash, pumpkin, squash	root		nature	1			WOLD-edge	WOLD 8-93, 13/24 families with an own root; also WOLD 8-931 (the pumpkin or squash)
-nail (metal fastener)	root		action	1	1376		WOLD-edge	WOLD 9-5, 11/24 families with an own root
+nail (metal fastener)	root		thing	1	1376		WOLD-edge	WOLD 9-5, 11/24 families with an own root
 roll	root		motion	1	1758		WOLD-edge	WOLD 10-15, 12/24 families with an own root
 lend	root		action	1	2204	borrow (added)	WOLD-edge	WOLD 11-61, 11/24 families with an own root
 borrow	root		action	1	2007	lend (added)	WOLD-edge	WOLD 11-62, 13/24 families with an own root
 greedy	root		quality	1			WOLD-edge	WOLD 16-83, 11/24 families with an own root
-flute	root		sense	1			WOLD-edge	WOLD 18-71, 14/24 families with an own root
+flute	root		thing	1			WOLD-edge	WOLD 18-71, 14/24 families with an own root
 foam, froth	root		nature	1			WOLD-codex	WOLD 1-324, 20/24 families with an own root
 vulture	root		animal	1			WOLD-codex	WOLD 3-586, 17/24 families with an own root
 gnat, midge, sandfly	root		animal	1			WOLD-codex	WOLD 3-831, 17/24 families with an own root
@@ -1493,14 +1506,38 @@ groan	root		sense	1			WOLD-codex	WOLD 16-39, 17/24 families with an own root
 howl	root		sense	1			WOLD-codex	WOLD 18-19, 18/24 families with an own root
 spear	root		thing	1	2175		WOLD-codex	WOLD 20-26, 15/24 families with an own root
 sinew, tendon	root		body	1			WOLD-codex	WOLD 4-465, 18/24 families with an own root
+fry (cook in hot oil or fat)	root		action	1			WOLD-core; BQ02 (split)	split from WOLD 5-23 'roast or fry' (author 2026-10-16); the frying pan is du [fry]
+well, dug water source	root		space	2	578		BQ02	WOLD 1-37; rung 4: WELL / SPRING (OF WATER) 3.6% lump
+put out, extinguish (a fire)	root		action	1			BQ02	WOLD 1-861; rung 4: EXTINGUISH / SHUT 0.1% lump; 'turn off (a device)' stays with tapi (author 2026-10-16, option b)
+hawk (smaller bird of prey)	root		animal	1			BQ02	WOLD 3-585; rung 4: HAWK / EAGLE 13.3% lump
+shiver, tremble	root		body	1			BQ02	WOLD 4-68; rung 4: SHIVER / SHAKE 7.2% lump
+bake (in an oven or on hot ashes)	root		action	1			BQ02	WOLD 5-24; rung 4: BAKE / ROAST (SOMETHING) 17.0% lump
+scrape	root		action	1			BQ02	WOLD 5-48; rung 4: SCRAPE / SCRATCH 10.0% lump
+milk (an animal)	root		action	2	688		BQ02	WOLD 5-87; rung 4: DRAW MILK / MILK 0.3% lump; two roots by rung 4 (author 2026-10-16, option a); donbo tunlo is 4 syll
+button (on clothes; also a push-button)	root		thing	1	1222		BQ02	WOLD 6-62; rung 4: BUTTON / KEY 0.0% lump; takes both buttons; tinli stays 'key' (author 2026-10-16, option a)
+floor (the surface walked on)	root		thing	2	813		BQ02	WOLD 7-26; rung 4: FLOOR / (no STOREY concept) -% lump
+pound (in a mortar)	root		action	1	1013		BQ02	WOLD 9-211; rung 4: POUND / STRIKE 11.0% lump; boundary with monpa 'crush' not measured (deeplayer-02 tested only payon 'hit'): open question
+mat (woven, for sitting or sleeping)	root		thing	1			BQ02	WOLD 9-77; rung 4: MAT / RUG 19.6% lump
+twist, wring	root		action	1			BQ02	WOLD 10-17; rung 4: TWIST / TURN (SOMETHING) 1.0% lump
+chase, pursue	root		motion	1			BQ02	WOLD 10-53; rung 4: PURSUE / FOLLOW 22.5% lump
+dare	root		mind	1	1835		BQ02	WOLD 16-51; rung 4: DARE / BRAVE 7.8% lump
+murder (kill on purpose, unlawfully)	root		action	1			BQ02	WOLD 21-42; rung 4: MURDER / KILL 26.3% lump
+parrot	root		animal	1			LOAN02	WOLD 3-592; loan failed (4/20 / 2 (WA EU)): 13/24 root families, no world compound (edge tier, no alternative, as the author's line (b))
+cockroach	root		animal	1	2247		LOAN02	WOLD 3-816; loan failed (1/20 / 1 (EU)): a household pest across cultures (deep-layer); 9/24 root families; the world's 'X insect' builds use different X
+pepper (the spice)	root		thing	1			LOAN02	WOLD 5-82; loan failed (2/20 / 2 (WA EU)): in kitchens across cultures; chili was decided as the phrase '[pepper] tikun' (2026-10-16), so it needs this word; PEPPER/CHILI PEPPER lump 14.8% (30 families), so not one word
+cotton (plant and cloth)	root		nature	1	1678		LOAN02	WOLD 6-24; loan failed (3/20 / 3 (EA SEA EU)): clothing material across cultures, 11/24 root families; on the balance audit's gap list
+candle	root		thing	1	1691		LOAN02	WOLD 7-46; loan failed (3/20 / 2 (WA SSA)): a household light across cultures, 8/24 root families; on the balance audit's gap list
+tobacco	loan	tabaku	loan	1	1727		LOAN02	WOLD 8-68; panel 13/20 / 6 (EA SEA SA WA EU SSA); form fixed
+mattress	root		thing	1			LOAN02	WOLD 23-53; loan failed (4/20 / 2 (EA EU)): household across cultures, 7/24 root families; or widen soti 'bed' (roadmap candidate)
+calendar (the object)	loan	kalendalu	loan	1	1694		LOAN02	WOLD 23-61; panel 13/20 / 6 (EA SEA SA EU SSA AM); form fixed
 steam	root		nature	1	1388		WOLD-47	WOLD 1-831, 17/24 families
 swallow (food, drink)	root		action	1	1507		WOLD-47	WOLD 5-181, 19/24 families
 flour	root		thing	1	1529		WOLD-47	WOLD 5-55, 15/24 families
-harvest	root		action	1	1460		WOLD-47	WOLD 8-41, 6/24 families; every farming household; named in the 2026-10-16 'everyone's modern life' entry; fanmu 'gather' is too general (added)
+harvest	root		action	1	1460		WOLD-47	WOLD 8-41, 6/24 families; every farming household; named in the 2026-10-16 'everyone's modern life' entry; confirmed a root (author 2026-10-16)
 bend	root		action	1	1365		WOLD-47	WOLD 9-14, 15/24 families
 fold	root		action	1	1346		WOLD-47	WOLD 9-15, 17/24 families
 stretch	root		action	1	1404		WOLD-47	WOLD 9-32, 13/24 families; basic action, no short phrase
 hang, hang up	root		action	1	1379		WOLD-47	WOLD 9-341, 15/24 families
 mad, crazy	root		mind	1	1355		WOLD-47	WOLD 17-23, 17/24 families
-refuse, say no to	root		sense	1	1490	accept, take what is offered (added)	WOLD-47	WOLD 18-37, 6/24 families; kept because the author separated deny and refuse (2026-10-16); open question
-stranger, a person one does not know	root		people	1	1416		WOLD-47	WOLD 19-55, 10/24 families; 'ewo su lugo' is 5 syll; SSA gap (balance-02)
+refuse, say no to	root		sense	1	1490	accept, take what is offered (added)	WOLD-47	WOLD 18-37, 6/24 families; the author separated deny and refuse; confirmed a root (author 2026-10-16)
+stranger, a person one does not know	root		people	1	1416		WOLD-47	WOLD 19-55, 10/24 families; 'ewo su lugo' is 5 syll; SSA gap (balance-02); confirmed a root (author 2026-10-16)

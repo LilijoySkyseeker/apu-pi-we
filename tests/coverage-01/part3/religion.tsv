@@ -7,20 +7,20 @@ n	concept	class	note
 610	sacrifice	core	offering
 794	temple	core, widened	"place of worship" in general; each tradition's own word for its building (church, mosque, synagogue, gurdwara) is borrowed
 730	priest	core, widened	"religious leader" in general; titles (imam, rabbi, lama, bishop, pope) are borrowed
-777	bless	core	blessing/bless rank 1,138 in 12 languages (the earlier 4,731 was the verb label alone); opposite of curse (audit item 3, author 2026-10-13) rank 4,731 (2,901–4,199 in the re-check), too rare for a root (author, 2026-10-13)
+777	bless	core	blessing/bless rank 1,138 in 12 languages (the earlier rank 4,731, 2,901–4,199 in the re-check, was the verb label alone); opposite of curse (audit item 3, author 2026-10-13)
 879	curse	core	
-709	miracle	core, re-framed	root is "wonder, an astonishing unexplained event" (observational, method §3b); miracle is built: wonder of god (audit item 3) rank 1,029, 11 languages; reported across traditions (author, 2026-10-13)
+709	miracle	core, re-framed	root is "wonder, an astonishing unexplained event" (observational, method §3b), reported across traditions; miracle is built: wonder of god (rank 1,029, 11 languages; audit item 3, author 2026-10-13)
 -	sacred	core	holy, sacred: root (author, 2026-10-15; merged rank 588 in 17 languages once synonym labels were fixed, tests/balance-02); was a phrase on rank 3,982 (the label alone)
 93	church	tradition	borrowed word, written by sound
 971	mosque	tradition	masudidu (borrowed)
 954	pope	tradition	papa (Catholic title, borrowed)
 619	bishop	tradition	borrowed
-596	saint	core, widened	"holy person": rank 828, 14 languages; sant, wali (audit item 3) borrowed
+596	saint	core, widened	"holy person": rank 828, 14 languages (audit item 3); each tradition's own title (sant, wali) is borrowed
 586	angel	tradition	borrowed
 739	devil	core, widened	"evil spirit, demon, devil" (rank 1,070, 14 languages; most languages' word is general); the Devil as a figure is a name from each tradition (en satan, en shaitan, en iblis) (author, 2026-10-13)
-755	heaven	core	rank 1,096, 11 languages; svarga, 天; the sky is yaye (audit item 3) borrowed; the sky is yaye
-661	hell	core	rank 934, 11 languages; naraka, 地狱 (audit item 3) borrowed
+755	heaven	core	rank 1,096, 11 languages (audit item 3); each tradition's own name (svarga, 天) is borrowed; the sky is yaye
+661	hell	core	rank 934, 11 languages (audit item 3); each tradition's own name (naraka, 地狱) is borrowed
 866	prophet	tradition	borrowed
-437	sin	core	rank 522, 17 languages; across traditions (Hindu pāpa, Chinese 罪) (audit item 3) borrowed; plain wrongdoing is said with existing words
+437	sin	core	rank 522, 17 languages, across traditions (Hindu pāpa, Chinese 罪) (audit item 3); plain wrongdoing is said with existing words
 915	idol	tradition, framed	"idol" is how some traditions name others' sacred images; neutral: a sacred image or statue (phrase); "pop idol" is a separate sense
 -	ghost	core, added	split from spirit (rank 738, 12 languages; most languages have a separate word) (author, 2026-10-13)

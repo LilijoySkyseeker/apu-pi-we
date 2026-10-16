@@ -90,6 +90,8 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 - **Classify the 47 WOLD meanings covered only by the walk's proposals** (cave, bay, flour, harvest, stranger, descend …) by the deep-layer test (author, 2026-10-16), with the sets pass.
 - **"Through"** decided 2026-10-16 (verb chain with "pass"): add a reference example after the placement gives "pass" its form.
 
+- **From conceptlist-01 round 2** (2026-10-16): fractions (a third, a quarter) have no form: a grammar question; `tools/build.py` line 285 splits antonym rows on any whitespace (would crash on multi-word rows in a full rebuild); at adoption change the lexicon glosses **tolin** "nail, claw" and **tinli** "key" only (button is a new root). (The religion ladder rows were fixed 2026-10-16.)
+
 ### Documentation for agents (author, 2026-10-13)
 
 - **Rework the docs so agents can use the language correctly.** The translators missed existing solutions (e.g. **kiyo** closing a built word) because the reference states rules without enough worked examples for producing text. Research current best practice for documentation aimed at LLM agents (task-oriented guides, worked examples per construction, a "how to say X" index, common mistakes with fixes, a short machine-checkable cheat sheet), then rework: a writer's guide for translating into Apupiwe with examples for every construction, kept in step with the reference by the same rule-tag checks as the lessons. Source: the coverage translators' notes (`tests/coverage-01/part2b/notes-*.md`) and the grammar gaps they raised.

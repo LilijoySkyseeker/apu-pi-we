@@ -1,0 +1,17 @@
+pair	concepticon	varieties_lumping	families	family_balanced_pct	bootstrap_95
+pound / crush (monpa)	POUND/CRUSH	11/99	2	5.8	0-12
+pound / grind (inke)	POUND/GRIND	5/390	51	2.7	0-6
+warm / hot	WARM/HOT	86/632	75	16.7	10-24
+blue / green	BLUE/GREEN	191/869	177	28.4	23-34
+grey / white	GREY/WHITE	1/275	100	1.0	0-3
+grey / black	GREY/BLACK	0/277	99	0.0	0-0
+surprised / fear (fright)	SURPRISED/FEAR (FRIGHT)	5/236	54	3.6	1-7
+surprised / afraid	SURPRISED/FEAR (BE AFRAID)	0/1	1	0.0	0-0
+pity / grief	PITY/GRIEF	6/244	51	1.1	0-2
+envy / angry	ENVY/ANGRY	0/0	0		
+hail / ice	HAIL/ICE	2/93	3	33.3	0-100
+older / younger brother (of man)	OLDER BROTHER (OF MAN)/YOUNGER BROTHER (OF MAN)	628/1371	226	45.0	39-51
+older brother / older sister (of man)	OLDER BROTHER (OF MAN)/OLDER SISTER (OF MAN)	149/1489	228	12.8	9-17
+summer / hot	SUMMER/HOT	1/405	70	1.4	0-4
+winter / cold	WINTER/COLD	4/424	73	2.0	0-5
+autumn / springtime	AUTUMN/SPRINGTIME	2/322	55	1.1	0-3
