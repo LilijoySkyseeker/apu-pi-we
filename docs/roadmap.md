@@ -63,13 +63,7 @@ A background deep dive into the design, engineering and principles of other inte
 
 ### Judge's repairs not yet taken up
 
-From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdicts). Each goes to the author as its own question.
-
-- **Core grammar:** list pronoun retention (**… mon bu**) as the precise oblique relative; one time root "later" (may come with the coverage roots); **tun** as the normal recipient marker when the thing is a pronoun or determiner; describe the type choice honestly (one coherent head-initial isolating type).
-- **Vocabulary:** split **tinli** (key / button) and **yebin** (call / phone), English-shaped lumps; allow bare noun + noun as a loose compound with **pi**/**man** as the precise form.
-- **Precision:** list **nen nen** as lexicalised; (**fon**/**de**/**yo** reviewed 2026-10-13: kept, each with its source in rationale 4.3); teach **sin**'s frame-relativity and the **to gun nuta** trap early in the lessons.
-- **Sounds and word forms:** no grammar-word contrast may rest on a declared harmless variant; the empty-CV rule stated as an explicit constraint for new grammar words; a digit-vs-grammar-word confusion check; digits 0–5 included in the short-word rebuild (the listening test is deferred).
-- **Evidence:** re-run or withdraw the base-transmission numbers; one frequency source per optional subsystem; where possible a rater who isn't a Claude model.
+Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call/phone) through ladder 1 with the concept list; the sound rules into the reference with the accent-tolerance step; **bare noun + noun as a loose compound** (would change 5.2.3), its own decision for the author.
 
 ### Checks
 
@@ -118,7 +112,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 The published site stays at v1 until the language is solid; then a v2 site is built from first principles, keeping v1's spirit. Work is committed on the branch `v2-work` and pushed there as a backup; `main` (which the site builds from) isn't touched until v2. The repo's reference and lessons stay in sync meanwhile. Known false statements on v1 are left as they are (no one is reading it yet) and are fixed in v2:
 
-- Public-page fixes deferred during the batch: the Esperanto/creole sentence in "How it's built" (fact-check C15, C17, C18); `why.md` digit figures (0.26% / 2.3% describe a modelled ideal set); learn.md "ran out of short sounds"; clusivity "among the most stable" (Austronesian only).
+- Public-page fixes deferred during the batch: the Esperanto/creole sentence in "How it's built" (fact-check C15, C17, C18); `why.md` digit figures (0.26% / 2.3% describe a modelled ideal set); learn.md "ran out of short sounds"; clusivity "among the most stable" (Austronesian only). Also `why.md`'s number-base answer still cites the base-6 transmission figures (0.26% vs 2.3%) that were cut on 2026-10-12 (they were for ideal digit sets, per 10-digit ID).
 - Re-check the UDHR translation against the batch's rules.
 - Build v2 of the site from first principles.
 

@@ -385,7 +385,7 @@ Units have their metric names, built like the metric system builds them: **kilo*
 
 Tense is optional. Say when it happens the first time, and after that stop marking it: **afe, to nawi pasu.** "Yesterday, I ate food." The future works the same way: **wuma, to obu.** "Tomorrow, I'll come." The basic time words are **eda** now, **mefa** today, **wuma** tomorrow and **afe** yesterday. [§8.1.1](language.md#r-8-1-1) [§8.2.1](language.md#r-8-2-1)
 
-Three small words show where an action stands. **sin** means done: **to sin nawi** "I've eaten". **le** means in progress, and also "still": **to le nawi** "I'm eating". **buntu** means about to: **to buntu kusa** "I'm about to leave". [§8.1.2](language.md#r-8-1-2)
+Three small words show where an action stands. **sin** means done: **to sin nawi** "I've eaten". **le** means in progress, and also "still": **to le nawi** "I'm eating". **buntu** means about to: **to buntu kusa** "I'm about to leave". **sin** is "done" relative to the time you're talking about, so inside a past story it means "had already": **mon muyi ben, wan sin liwon** "by then, she had arrived". [§8.1.2](language.md#r-8-1-2)
 
 "Not yet" is "still not", **le mu**, the way Mandarin and German say it: **to le mu nawi.** "I haven't eaten yet." **mu sin** is "didn't": **to mu sin nawi.** "I didn't eat." "I was eating" is **sin le**, done and ongoing together: **to sin le nawi.** [§8.1.3](language.md#r-8-1-3) [§8.1.2](language.md#r-8-1-2)
 

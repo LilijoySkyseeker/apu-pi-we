@@ -81,7 +81,7 @@ type = "numbered"
 title = "Doubling widens or strengthens"
 gap = 0
 text = '''
-5. Doubling widens or strengthens any word except a digit in a number: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other", **feko feko** "exactly so". Doubled **mu** is always emphasis and never means "not not".'''
+5. Doubling widens or strengthens any word except a digit in a number: **mu mu** emphatic "not", **nun nun** extra deference, **yo yo** emergency, **genso genso** "the whole turn is not literal", **nen nen** "each other" (a set phrase), **feko feko** "exactly so". Doubled **mu** is always emphasis and never means "not not".'''
 
 [[item]]
 id = "1.6"
@@ -823,7 +823,7 @@ type = "bullet"
 title = "Determiners"
 gap = 0
 text = '''
-- Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So to give a recipient a determiner standing alone as the thing, use **tun**: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos".'''
+- Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi tan** "this house", **ewo bo** "someone", **musu bo** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So when the thing given is a pronoun or a determiner standing alone, mark the recipient with **tun**, the normal form there: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **in** "some", **fa** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos".'''
 
 [[item]]
 id = "5.2.9"
@@ -875,7 +875,7 @@ id = "5.3.4"
 type = "bullet"
 gap = 0
 text = '''
-- place or time, with the relation word at the end of the clause: **kemu man to nume mon** "the place where I live";'''
+- place or time, with the relation word at the end of the clause: **kemu man to nume mon** "the place where I live". The precise form keeps a pronoun after the relation word: **kemu man to nume mon bu** "the place I live in (it)";'''
 
 [[item]]
 id = "5.3.6"

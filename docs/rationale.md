@@ -94,6 +94,8 @@ It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms a
 
 ## 4. Grammar
 
+**The type, stated plainly** (cold review repair, 2026-10-15). Apupiwe is one coherent type: isolating (words never change form) and head-initial (verb before object, relation words before their nouns, describing words, determiners and relative clauses after the noun), with fixed subject-verb-object order and particles for speech act, negation, aspect and evidence. It isn't a blend of Chinese, Indonesian and English features; it's the type those languages and many creoles share, chosen because roles then come from position alone, which children and listeners in noise rely on.
+
 ### 4.1 Principles (language.md section 1; principle 7, "a precise way always exists; it need not always be used", is the author's rule)
 | Principle | Source | Why |
 |---|---|---|
