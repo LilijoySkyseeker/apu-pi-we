@@ -32,7 +32,7 @@ case "$1" in
     for H in a b; do SW_VARIANTS=half-$H TAG=-h$H bash runs.sh full-free; done
     wait
     for H in a b; do SW_VARIANTS=half-$H TAG=-h$H KEEPS="${KEEPS:-0.02 0.04}" bash runs.sh mid-free; done
-    L=""; for H in a b; do for o in full mid-0.02 mid-0.04 patch; do L="$L $o-h$H.tsv"; done; done
-    { for H in a b; do SW_VARIANTS=half-$H $R score $L full.tsv mid-0.02.tsv mid-0.04.tsv patch.tsv; done; } 2>/dev/null | grep '^SCORE' > holdout.txt ;;
+    L=""; for H in a b; do for o in full $(for k in ${KEEPS:-0.02 0.04}; do echo mid-$k; done) patch; do L="$L $o-h$H.tsv"; done; done
+    { for H in a b; do SW_VARIANTS=half-$H $R score $L full.tsv $(for k in ${KEEPS:-0.02 0.04}; do echo mid-$k.tsv; done) patch.tsv; done; } 2>/dev/null | grep '^SCORE' > holdout.txt ;;
   *) echo "unknown step $1"; exit 1 ;;
 esac

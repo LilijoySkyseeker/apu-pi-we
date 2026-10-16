@@ -1,0 +1,10 @@
+[0mdirenv: loading ~/work/repos/universal-language/.envrc
+[0mdirenv: using flake
+[0mdirenv: nix-direnv: Using cached dev shell
+picked runs/mid-0.04-s11.tsv -> mid-0.04.tsv
+picked runs/mid-lock-0.04-s10.tsv -> mid-lock-0.04.tsv
+[0mdirenv: loading ~/work/repos/universal-language/.envrc
+[0mdirenv: using flake
+[0mdirenv: nix-direnv: Using cached dev shell
+picked runs/mid-0.01-s8.tsv -> mid-0.01.tsv
+picked runs/mid-lock-0.01-s8.tsv -> mid-lock-0.01.tsv

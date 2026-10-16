@@ -11,8 +11,8 @@ Question: the dry run (`tests/shortwords-02/`) rerun with what changed since, so
 - [x] patch free / locked (200k steps per change set)
 - [x] full free / locked (12 seeds × 1.5M steps)
 - [x] keep sweep 0.02, 0.04 from the patch (`runs.sh mid`): picked mid-0.02 = s11 (25 changes), mid-lock-0.02 = s2; mid-0.04 = s11 (14 changes), mid-lock-0.04 = the patch (all 12 seeds stuck). 11 of 12 free seeds at 0.04 and 6–7 of 12 at 0.02 never left the patch.
-- [ ] running (`logs/batch-mid3.log`): `FROM=0.02 KEEPS=0.04 runs.sh mid-alt` (0.04 also started from mid-0.02, added: the patch is a trap) then `KEEPS=0.01 runs.sh mid` (third point: gap between 25 and 66 changes)
-- [ ] hold-out check
+- [x] `FROM=0.02 KEEPS=0.04 runs.sh mid-alt` (0.04 also started from mid-0.02, added: is the patch a trap?): best from there 1.343 (free) / 1.359 (locked), worse than the patch-started picks, so mid-0.04 = s11 (14 changes) and mid-lock-0.04 = the locked patch stand. `KEEPS=0.01 runs.sh mid` (added third point: gap between 25 and 66 changes): mid-0.01 = s8 (34 changes), mid-lock-0.01 = s8.
+- [ ] hold-out check: running `KEEPS="0.01 0.02 0.04" checks.sh holdout` (`logs/batch-holdout.log`; rerun the same command to resume) → `holdout.txt`
 - [ ] sensitivity
 - [ ] drop test
 - [ ] report, README

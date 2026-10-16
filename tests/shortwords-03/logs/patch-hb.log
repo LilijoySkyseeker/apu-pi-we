@@ -1,0 +1,22 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.043 seconds.
+Prefix dict has been built successfully.
+12 merger pairs; minimum change set 13 words; 16 such sets
+  set 0: INSTRUCT UNSPEC THAT.dem SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8703  mergers left 0
+  set 1: INSTRUCT UNSPEC WE.incl SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8712  mergers left 0
+  set 2: INSTRUCT UNSPEC WE.incl SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8643  mergers left 0
+  set 3: INSTRUCT UNSPEC THAT.dem SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8771  mergers left 0
+  set 4: UNSPEC WE.excl THAT.dem SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8977  mergers left 0
+  set 5: UNSPEC WE.incl WE.excl SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.9002  mergers left 0
+  set 6: UNSPEC WE.incl WE.excl SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8929  mergers left 0
+  set 7: UNSPEC WE.excl THAT.dem SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8999  mergers left 0
+  set 8: INSTRUCT WE.incl SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.8720  mergers left 0
+  set 9: INSTRUCT THAT.dem SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.8789  mergers left 0
+  set 10: INSTRUCT THAT.dem SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.8880  mergers left 0
+  set 11: INSTRUCT WE.incl SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.8685  mergers left 0
+  set 12: WE.incl WE.excl SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.9038  mergers left 0
+  set 13: WE.excl THAT.dem SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.9096  mergers left 0
+  set 14: WE.excl THAT.dem SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.9169  mergers left 0
+  set 15: WE.incl WE.excl SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR D0  objective 0.8999  mergers left 0
+wrote patch-hb.tsv
