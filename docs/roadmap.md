@@ -108,6 +108,8 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 
 - ~~**Nursery and imitative words**~~ done 2026-10-15: only *mama* passed, borderline; no loan, **mole** stays (design log).
 
+- **From balance-02** (2026-10-15): `boundary.py` has the comma-synonym defect fixed in `tests/balance-02/concepts_fix.py`; `concepts.py` never combines synonyms across languages ("big" alone ranks 1,692); balance-01's correlations depend on how floor ties break. The design log's 2026-10-13 boundary entries say "modern use decides" where the 20–50% pairs were really decided by rung 4 (correct the record).
+
 ### Website: frozen at v1 (author, 2026-10-13)
 
 The published site stays at v1 until the language is solid; then a v2 site is built from first principles, keeping v1's spirit. Work is committed on the branch `v2-work` and pushed there as a backup; `main` (which the site builds from) isn't touched until v2. The repo's reference and lessons stay in sync meanwhile. Known false statements on v1 are left as they are (no one is reading it yet) and are fixed in v2:
