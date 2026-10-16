@@ -752,7 +752,7 @@ text = '''
 id = "5.1.1"
 type = "para"
 text = '''
-A noun phrase runs in this order: noun, content modifiers, number, **la**, determiner, **pi** phrase, relative clause, as in **guyi kudu sa la win pi fo mara gi …**. Titles and **lanno** come before the noun (10.1), and phrase operators come before the whole phrase (6.2).'''
+A noun phrase runs in this order: noun, **fi** (5.2.12), content modifiers, number, **la**, determiner, **pi** phrase, relative clause, as in **guyi kudu sa la win pi fo mara gi …**. Titles and **lanno** come before the noun (10.1), and phrase operators come before the whole phrase (6.2).'''
 
 [[item]]
 id = "5.2"
@@ -776,6 +776,22 @@ title = "Gender"
 gap = 0
 text = '''
 - Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".'''
+
+[[item]]
+id = "5.2.11"
+type = "bullet"
+title = "A modifier of a modifier"
+gap = 0
+text = '''
+- Describing words after a noun each describe the noun: **to ibe demi wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe demi wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works wherever a describing word does: **demi gun wiwi tan buda** "the cloth is dark red".'''
+
+[[item]]
+id = "5.2.12"
+type = "bullet"
+title = "Endearment"
+gap = 0
+text = '''
+- **fi** right after a noun or a name adds affection, "dear little": **totu fi** "doggy", **fo mara fi** "dear Mara". It comes before the noun's describing words: **totu fi kudu** "the dear big dog". As a grammar word it also ends a name, so a content word can follow it with no pause: **fo mara fi obu** "dear Mara is coming".'''
 
 [[item]]
 id = "5.2.3"
@@ -852,7 +868,7 @@ text = '''
 [[item]]
 id = "5.3.1"
 type = "para"
-title = "man"
+title = "gi"
 text = '''
 A relative clause is **gi** + clause, placed after the noun. The noun fills the role missing from the clause:'''
 
@@ -1024,7 +1040,7 @@ Phrase operators cover the word or phrase right after them, including a phrase t
 [[item]]
 id = "6.2.2"
 type = "bullet"
-title = "mu"
+title = "su"
 gap = 0
 text = '''
 - **su** not (**to su yidu bun** "I don't/didn't take it"; **su su** emphatic). With **fen** "none" it is still one negation, not two: **to su ibe totu fen** "I don't have any dogs";'''
@@ -1136,7 +1152,7 @@ After a pause at the end, a word can comment on the whole sentence, whatever its
 [[item]]
 id = "7.2.2"
 type = "bullet"
-title = "min"
+title = "bi"
 gap = 0
 text = '''
 - **bi** "…, right?" (checks);'''
@@ -1144,7 +1160,7 @@ text = '''
 [[item]]
 id = "7.2.3"
 type = "bullet"
-title = "a"
+title = "yan"
 gap = 0
 text = '''
 - **yan** "as you know, you see" (shared ground): **wan sin oyi bun, yan.**;'''
@@ -1507,7 +1523,7 @@ text = '''
 [[item]]
 id = "10.2.1"
 type = "bullet"
-title = "nun"
+title = "fin"
 text = '''
 - **fin** adds politeness or deference and nothing else. It comes after any opener, right after the speech-act particle (**ta fin …** "please …"), or where the particle would be in a statement. **fin fin** adds more.'''
 
@@ -1561,7 +1577,7 @@ text = '''
 [[item]]
 id = "10.3.2"
 type = "bullet"
-title = "bu"
+title = "bun"
 gap = 0
 text = '''
 - **bun** "it" is the thing being talked about. **ben** alone is a thing that isn't the topic: **nun momu bun lu ben, yu.** "this one or that one?"'''
@@ -1569,7 +1585,7 @@ text = '''
 [[item]]
 id = "10.3.3"
 type = "bullet"
-title = "tan"
+title = "win"
 gap = 0
 text = '''
 - **win** or **ben** alone stands for an event, statement or situation. **win** is nearer (what I'm saying, here and now), and **ben** further (what you said, an earlier event): **ben gun upe** "that's good"; **bo win** "so". For a recipient, see 5.2.'''
@@ -1577,7 +1593,7 @@ text = '''
 [[item]]
 id = "10.3.4"
 type = "bullet"
-title = "sun"
+title = "son"
 gap = 0
 text = '''
 - **son**, in reported speech or thought, is the person whose words are reported.'''
@@ -1585,7 +1601,7 @@ text = '''
 [[item]]
 id = "10.3.5"
 type = "bullet"
-title = "go"
+title = "dan"
 gap = 0
 text = '''
 - **dan** is anyone, people in general. In the reference variety, **nun** is the listener only; for people in general, use **dan**. An unknown doer is **ewo pa**.'''
@@ -1601,7 +1617,7 @@ text = '''
 [[item]]
 id = "10.3.7"
 type = "bullet"
-title = "pen"
+title = "kan"
 gap = 0
 text = '''
 - **kan** is we including you, and **din** is we not including you. **wan la** is "they" and **nun la** "you all".'''
@@ -1739,6 +1755,7 @@ text = '''
 | Relations | of **pi** · at **mon** · to **tun** · from/than **se** · with **nan** · for **fan** · before **ya** · after **kon** · like/about **fun** · during **lin** · because of **bo** |
 | Linkers | and **yen** · or **lu** · but **ka** · if **don** · because **bo** · that **wun** · who/which **gi** · while **lin** · before **ya** · after **kon** |
 | Copula | is **gun** |
+| Noun phrase | modifier of a modifier **tan** · dear little **fi** |
 | Names | **fo** |
 | Derivation | doer **no** · thing **gen** · tool **du** · place **pu** |'''
 

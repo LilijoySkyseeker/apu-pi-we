@@ -29,6 +29,9 @@ concrete LexApu of Lex = open Prelude in {
     apu_N = {s = "apu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     apu_V = {s = "apu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     apu_A = {s = "apu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    asutagu_N = {s = "asutagu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    asutagu_V = {s = "asutagu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    asutagu_A = {s = "asutagu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     awin_N = {s = "awin" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     awin_V = {s = "awin" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     awin_A = {s = "awin" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -587,6 +590,9 @@ concrete LexApu of Lex = open Prelude in {
     kolu_N = {s = "kolu" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     kolu_V = {s = "kolu" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     kolu_A = {s = "kolu" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
+    komu_N = {s = "komu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    komu_V = {s = "komu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    komu_A = {s = "komu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     konke_N = {s = "konke" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     konke_V = {s = "konke" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     konke_A = {s = "konke" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;

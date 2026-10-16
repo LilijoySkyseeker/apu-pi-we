@@ -12,7 +12,7 @@ A reading's structure is the set of units it builds, read from GF's bracketed Ap
 counting only units of two or more words: a one-word unit is a bare root in some role. Two readings
 with the same units differ only in the roles of bare roots. grammar/intended.tsv holds the
 intended structure of each sentence in this bracket notation, e.g.
-  to sin miya ewo man sigo kiyo nin leso   [S to sin miya [NP ewo [REL man sigo]] kiyo [ADV nin leso]]
+  to sin miya ewo gi sigo kiyo lin leso   [S to sin miya [NP ewo [REL gi sigo]] kiyo [ADV lin leso]]
 and whether the reference presents it as the precise form (then it must have one structural reading).
 
 Examples that aren't sentences: 2.10 (mm, huh?) is outside the grammar; an example made only of grammar
@@ -22,7 +22,7 @@ into one token (tokens()), since a name runs to the next grammar word or pause (
 
   python tools/gf_check.py              # every example; exit 1 if one fails to parse or misses its reading
   python tools/gf_check.py -v           # also list every structural reading
-  python tools/gf_check.py "to o unfu"  # one sentence: its structural readings and English
+  python tools/gf_check.py "to min unfu"  # one sentence: its structural readings and English
 Run inside the dev shell (direnv exec . python3 tools/gf_check.py); it builds grammar/Apupiwe.pgf if stale.
 """
 import csv, os, re, subprocess, sys, collections
@@ -40,7 +40,7 @@ OUTSIDE = {"2.10", "9.2.5"}  # interjections carry no grammar (2.10); arithmetic
 # Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
 OUTSIDE_SENT = {"mara sin obu": "casual speech: a name without en (11.1)",
                 "to nawi susi sa": "a speaker's borrowing, not in the lexicon (11.3)",
-                "to sin gugalu bu": "a speaker's borrowing used as a verb (11.3)"}
+                "to sin gugalu bun": "a speaker's borrowing used as a verb (11.3)"}
 UNIT = {"Cl0": "S", "Rel": "REL", "Adv": "ADV", "Manner": "ADV",
         "NP": "NP", "NPi": "NP", "NPq": "NP", "CN": "NP", "AP": "AP"}
 ORDER = ["S", "NP", "AP", "REL", "ADV"]
@@ -77,22 +77,22 @@ def gf(cmds):
 
 
 def tokens(sentence):
-    """Words and pauses. A name runs from en to the next grammar word or pause (11.1), so its words
-    are joined into one token for the grammar's String: en xi jinping sin oyi -> en xi_jinping sin oyi."""
+    """Words and pauses. A name runs from fo to the next grammar word or pause (11.1), so its words
+    are joined into one token for the grammar's String: fo xi jinping sin oyi -> fo xi_jinping sin oyi."""
     words = sentence.replace(",", " , ").split()
     out, i = [], 0
-    while i < len(words):  # en … kiyo: a name closed by kiyo may contain grammar words (11.1, 2026-10-13)
+    while i < len(words):  # fo … kiyo: a name closed by kiyo may contain grammar words (11.1, 2026-10-13)
         # kiyo closes an open relative clause, built word or topic first (4.4.4, 5.3.5, 5.4.4); it closes a
         # name only when none is open since the last kiyo
         opened = words[:i][len(words[:i]) - words[:i][::-1].index("kiyo"):] if "kiyo" in words[:i] else words[:i]
-        if words[i] == "en" and "kiyo" in words[i + 1:] and not set(opened) & {"man", "no", "ge", "du", "pu"}:
+        if words[i] == "fo" and "kiyo" in words[i + 1:] and not set(opened) & {"gi", "no", "gen", "du", "pu"}:
             j = words.index("kiyo", i + 1)
             if "," not in words[i + 1:j] and j > i + 1:
-                out += ["en", "_".join(words[i + 1:j]), "kiyo"]
+                out += ["fo", "_".join(words[i + 1:j]), "kiyo"]
                 i = j + 1
                 continue
         w = words[i]; i += 1
-        if len(out) >= 2 and out[-2] == "en" and w != "," and w not in GRAMMAR_WORDS:
+        if len(out) >= 2 and out[-2] == "fo" and w != "," and w not in GRAMMAR_WORDS:
             out[-1] += "_" + w
         else:
             out.append(w)

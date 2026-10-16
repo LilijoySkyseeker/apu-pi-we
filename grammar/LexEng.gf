@@ -30,6 +30,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     apu_N = D.language_N ;
     apu_V = P.mkV "language" ;
     apu_A = P.mkA "language" ;
+    asutagu_N = P.mkN "hashtag" ;
+    asutagu_V = P.mkV "hashtag" ;
+    asutagu_A = P.mkA "hashtag" ;
     awin_N = D.dust_N ;
     awin_V = D.dust_V ;
     awin_A = P.mkA "dusting" ;
@@ -588,6 +591,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kolu_N = D.stand_N ;
     kolu_V = I.stand_V ;
     kolu_A = P.mkA "standing" ;
+    komu_N = P.mkN ".com" ;
+    komu_V = P.mkV ".com" ;
+    komu_A = P.mkA ".com" ;
     konke_N = P.mkN "strongness" ;
     konke_V = P.mkV "strong" ;
     konke_A = D.strong_A ;

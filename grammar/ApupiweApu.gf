@@ -22,12 +22,12 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     FrameOpt, CondOpt, LinkOpt, Tail, ConfOpt, SrcOpt = SS ;
     CallOpt = {first, last : Str} ;
     Part = {s : Str ; m : Bool} ;                 -- m: already modified (7.1.3)
-    Stance = {s : Str ; m : Bool} ;               -- m: it is min (7.2.7)
+    Stance = {s : Str ; m : Bool} ;               -- m: it is bi (7.2.7)
     Op = {s : Str ; ke : Bool} ;                  -- ke: the comparative degree word (9.3.4)
     HabOpt, AspOpt, NumOpt, LaOpt = {s : Str ; e : Bool} ;   -- e: empty
     DetOpt = {s : Str ; e, al : Bool} ;           -- al: the determiner may stand alone
     Det = {s : Str ; alone : Bool} ;              -- alone: may stand alone as a noun phrase (5.2.8)
-    Prep = {s : Str ; wy, se, cd, mn : Bool} ;    -- wo/ya (4.4.1); se (9.3.4); takes an if/when clause (4.3.3); mn: fu, the manner word (4.4.1)
+    Prep = {s : Str ; wy, se, cd, mn : Bool} ;    -- kon/ya (4.4.1); se (9.3.4); takes an if/when clause (4.3.3); mn: fun, the manner word (4.4.1)
     Digit = {s, mul : Str ; z, one, small : Bool} ;   -- mul: before a place word (a 1 is dropped, 9.2.1)
     Sub100 = {s : Str ; z, one, hr : Bool} ;      -- hr: 1-12, an hour (8.3.1)
     Sub1000 = {s : Str ; z, one : Bool} ;
@@ -89,6 +89,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     NoCall = {first, last = []} ;
     SomeCall c = {first = c.s ++ "," ; last = "," ++ c.s} ;
     CallName n = ss ("fo" ++ n.s) ;
+    CallNameFi n = ss ("fo" ++ n.s ++ "fi") ;
     CallN n = ss n.s ;
     CallLanno = ss "lanno" ;
     LannoCall c = ss ("lanno" ++ c.s) ;
@@ -151,7 +152,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     MuMu = op ("su" ++ "su") ;
 
     UseVPm v = v ;
-    -- 4.4.1: after a time, wo and ya belong to that time; 9.3.4: after ke + quality, se is its standard
+    -- 4.4.1: after a time, kon and ya belong to that time; 9.3.4: after ke + quality, se is its standard
     -- 4.2.6: after a verb that is the object of the verb before it, phrases go with that verb (ComplVV)
     AdvVP v a = case <a.wy, v.et, a.se, v.ek, v.vv> of {
       <True, True, _, _, _> => vpa Predef.nonExist EV False False False ;
@@ -166,7 +167,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     BareManner a = {s = a.s ; e = gend a.gd ; p = False ; vm = False} ;
     VManner v = {s = v.s ; e = gend v.gd ; p = False ; vm = True} ;
 
-    -- et: wo/ya after a time word belong to it (4.4.1), whatever its role
+    -- et: kon/ya after a time word belong to it (4.4.1), whatever its role
     UseV v = {s = v.s ; e = gend v.gd ; p = False ; et = v.tm ; ek = False ; bare = True ; tobj = v.obj ; vv = False} ;
     ComplV v np = case andB v.res np.rs of {
       False => vpc (v.s ++ np.s) np.e np.p np.tm False v.obj ;
@@ -223,7 +224,9 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     CompAP a np = {s = "ke" ++ a.s ++ "se" ++ np.s ; e = np.e ; p = np.p ; act = False ; ek = False ; gd = False} ;
     EquAP a np = {s = a.s ++ "fun" ++ np.s ; e = np.e ; p = np.p ; act = a.act ; ek = False ; gd = False} ;
     RedupA a = {s = a.s ++ a.s ; e = EV ; p = False ; act = a.act ; ek = False ; gd = False} ;
+    ModMod a b = {s = a.s ++ "tan" ++ b.s ; e = EV ; p = False ; act = False ; ek = False ; gd = False} ;
 
+    EndearN n = {s = n.s ++ "fi" ; e = EN ; p = False ; tm = n.tm ; ba = n.act ; w1 = False} ;
     UseN n = {s = n.s ; e = case n.gd of {True => EG ; False => EN} ; p = False ; tm = n.tm ; ba = n.act ; w1 = True} ;
     -- 5.4.4: a gender word after a phrasal derived word is outside it, with no pause
     ModCN cn a =
@@ -231,8 +234,8 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       case <cn.e, a.gd> of {
         <ED, True> => {s = cn.s ++ a.s ; e = e ; p = orB cn.p a.p ; tm = cn.tm ; ba = cn.ba ; w1 = False} ;
         _ => {s = seq cn a.s ; e = e ; p = pz cn a.p ; tm = cn.tm ; ba = cn.ba ; w1 = False}} ;
-    -- 4.4.1 (2026-10-13): a relation phrase right after a noun may describe it; not fu, which after an object
-    -- marks manner (4.2.4); not after a pronoun (pronouns aren't CN); not a time noun + wo/ya (TimeAnchor)
+    -- 4.4.1 (2026-10-13): a relation phrase right after a noun may describe it; not fun, which after an object
+    -- marks manner (4.2.4); not after a pronoun (pronouns aren't CN); not a time noun + kon/ya (TimeAnchor)
     AdvCN cn pr np = case orB pr.mn (andB cn.tm pr.wy) of {
       False => {s = seq cn (pr.s ++ np.s) ; e = np.e ; p = pz cn np.p ; tm = cn.tm ; ba = cn.ba ; w1 = False} ;
       True => {s = Predef.nonExist ; e = EV ; p = False ; tm = False ; ba = False ; w1 = False}} ;
@@ -254,6 +257,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
             rs = andB cn.w1 (andB l.e (orB (andB n.e d.al) (andB (notB n.e) d.e)))}} ;
     PronQ pr l d = npr (pr.s ++ l.s ++ d.s) EN False False ;
     NameQ n = npr ("fo" ++ n.s) EM False False ;
+    NameFi n = npr ("fo" ++ n.s ++ "fi") EN False False ;
     NameKiyo n = npr ("fo" ++ n.s ++ "kiyo") EM False False ;
     TitleName cn n = case cn.e of {
       ER | EC => npr Predef.nonExist EV False False ;

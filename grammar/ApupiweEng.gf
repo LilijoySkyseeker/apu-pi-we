@@ -88,6 +88,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     NoCall = {first, last = []} ;
     SomeCall c = {first = c.s ++ "," ; last = "," ++ c.s} ;
     CallName n = {s = n.s} ;
+    CallNameFi n = {s = "dear" ++ n.s} ;
     CallN n = {s = (mkUtt (mkNP n)).s} ;
     CallLanno = {s = "sir/madam"} ;
     LannoCall c = {s = "honoured" ++ c.s} ;
@@ -192,7 +193,9 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     CompAP a np = let ap = mkAP a np in {ap = ap ; adv = sAdv (mkUtt ap).s} ;
     EquAP a np = let ap = mkAP as_CAdv (mkAP a) np in {ap = ap ; adv = sAdv (mkUtt ap).s} ;
     RedupA a = let ap = mkAP (P.mkAdA "truly") (mkAP a) in {ap = ap ; adv = sAdv (mkUtt ap).s} ;
+    ModMod a b = let ap = mkAP (P.mkAdA ((mkUtt (mkAP b)).s ++ BIND ++ "-" ++ BIND)) (mkAP a) in {ap = ap ; adv = sAdv (mkUtt ap).s} ;
 
+    EndearN n = mkCN (P.mkA "dear little") (mkCN n) ;
     UseN n = mkCN n ;
     ModCN cn a = mkCN a.ap cn ;
     AdvCN cn p np = mkCN cn (SyntaxEng.mkAdv p np) ;
@@ -214,6 +217,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
       True => case l.pl of {True => p.pl ; False => p.sg} ;
       False => addPost (case l.pl of {True => p.pl ; False => p.sg}) d.d.post}) ;
     NameQ n = asNP (strNP n.s) ;
+    NameFi n = asNP (strNP ("dear" ++ n.s)) ;
     NameKiyo n = asNP (strNP n.s) ;
     TitleName cn n = asNP (mkNP (mkCN cn (strNP n.s))) ;
     NumQ n = asNP (case n.z of {True => strNP "0" ; False => mkNP (mkDet n.card)}) ;

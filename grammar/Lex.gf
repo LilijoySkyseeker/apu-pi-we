@@ -32,6 +32,9 @@ abstract Lex = {
     apu_N : N ;  -- language
     apu_V : V ;  -- language
     apu_A : A ;  -- language
+    asutagu_N : N ;  -- hashtag
+    asutagu_V : V ;  -- hashtag
+    asutagu_A : A ;  -- hashtag
     awin_N : N ;  -- dust
     awin_V : V ;  -- dust
     awin_A : A ;  -- dust
@@ -590,6 +593,9 @@ abstract Lex = {
     kolu_N : N ;  -- stand
     kolu_V : V ;  -- stand
     kolu_A : A ;  -- stand
+    komu_N : N ;  -- .com (read aloud)
+    komu_V : V ;  -- .com (read aloud)
+    komu_A : A ;  -- .com (read aloud)
     konke_N : N ;  -- strong
     konke_V : V ;  -- strong
     konke_A : A ;  -- strong
