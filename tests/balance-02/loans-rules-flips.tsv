@@ -1,21 +1,29 @@
 rule	loan	group	recorded_verdict	columns	regions	families	flip
 B families: 7 of 13	doctor	coverage	pass	13	SEA:2 SA:3 WA:3 EU:3 SSA:2	6	pass -> fail
 C no single region decides	doctor	coverage	pass	13	SEA:2 SA:3 WA:3 EU:3 SSA:2	6	pass -> fail
+F 6 of 7 regions	doctor	coverage	pass	13	SEA:2 SA:3 WA:3 EU:3 SSA:2	6	pass -> fail
 A depth: 5 regions with 2+ languages	motorcycle	coverage	pass	14	EA:1 SEA:3 SA:3 WA:3 EU:3 AM:1	8	pass -> fail
 A depth: 5 regions with 2+ languages	sofa	coverage	fail	12	EA:3 SEA:4 SA:3 EU:2	8	pass -> fail
 C no single region decides	sofa	coverage	fail	12	EA:3 SEA:4 SA:3 EU:2	8	pass -> fail
+E 5 of 7 regions	sofa	coverage	fail	12	EA:3 SEA:4 SA:3 EU:2	8	pass -> fail
+F 6 of 7 regions	sofa	coverage	fail	12	EA:3 SEA:4 SA:3 EU:2	8	pass -> fail
+G 5 regions where half share	sofa	coverage	fail	12	EA:3 SEA:4 SA:3 EU:2	8	pass -> fail
 A depth: 5 regions with 2+ languages	lamp	coverage	pass	12	EA:2 SEA:2 SA:1 WA:3 EU:3 AM:1	7	pass -> fail
 C no single region decides	lamp	coverage	pass	12	EA:2 SEA:2 SA:1 WA:3 EU:3 AM:1	7	pass -> fail
 D es+qu one vote	lamp	coverage	pass	12	EA:2 SEA:2 SA:1 WA:3 EU:3 AM:1	7	pass -> fail
 C no single region decides	tomato	coverage	pass	12	EA:2 SEA:1 SA:2 WA:2 EU:2 SSA:2 AM:1	8	pass -> fail
 D es+qu one vote	tomato	coverage	pass	12	EA:2 SEA:1 SA:2 WA:2 EU:2 SSA:2 AM:1	8	pass -> fail
 C no single region decides	sauce	coverage	pass at 12 after the shape rule	12	EA:2 SEA:3 SA:3 WA:2 EU:2	8	pass -> fail
+F 6 of 7 regions	sauce	coverage	pass at 12 after the shape rule	12	EA:2 SEA:3 SA:3 WA:2 EU:2	8	pass -> fail
 A depth: 5 regions with 2+ languages	sugar	coverage	pass	13	SEA:1 SA:2 WA:3 EU:3 SSA:3 AM:1	7	pass -> fail
 C no single region decides	sugar	coverage	pass	13	SEA:1 SA:2 WA:3 EU:3 SSA:3 AM:1	7	pass -> fail
 A depth: 5 regions with 2+ languages	toast	coverage	pass	13	EA:3 SA:3 WA:3 EU:3 SSA:1	8	pass -> fail
 C no single region decides	toast	coverage	pass	13	EA:3 SA:3 WA:3 EU:3 SSA:1	8	pass -> fail
+F 6 of 7 regions	toast	coverage	pass	13	EA:3 SA:3 WA:3 EU:3 SSA:1	8	pass -> fail
+G 5 regions where half share	toast	coverage	pass	13	EA:3 SA:3 WA:3 EU:3 SSA:1	8	pass -> fail
 A depth: 5 regions with 2+ languages	T-shirt	coverage	pass	13	EA:3 SEA:2 SA:3 WA:3 EU:1 SSA:1	10	pass -> fail
 C no single region decides	T-shirt	coverage	pass	13	EA:3 SEA:2 SA:3 WA:3 EU:1 SSA:1	10	pass -> fail
+G 5 regions where half share	T-shirt	coverage	pass	13	EA:3 SEA:2 SA:3 WA:3 EU:1 SSA:1	10	pass -> fail
 C no single region decides	office	coverage	pass	13	EA:2 SEA:2 SA:3 WA:1 EU:2 SSA:3	9	pass -> fail
 C no single region decides	program	coverage	pass	13	EA:2 SEA:3 SA:2 WA:2 EU:3 SSA:1	7	pass -> fail
 B families: 7 of 13	project	coverage	fail	12	EA:2 SEA:2 SA:2 WA:2 EU:3 AM:1	6	pass -> fail
@@ -23,26 +31,39 @@ C no single region decides	project	coverage	fail	12	EA:2 SEA:2 SA:2 WA:2 EU:3 AM
 D es+qu one vote	project	coverage	fail	12	EA:2 SEA:2 SA:2 WA:2 EU:3 AM:1	6	pass -> fail
 C no single region decides	beer	coverage	pass	13	EA:2 SEA:3 SA:3 WA:2 EU:1 SSA:2	10	pass -> fail
 C no single region decides	code	coverage	pass	13	EA:2 SEA:3 SA:2 WA:3 EU:3	7	pass -> fail
+F 6 of 7 regions	code	coverage	pass	13	EA:2 SEA:3 SA:2 WA:3 EU:3	7	pass -> fail
 B families: 7 of 13	design	coverage	pass	12	EA:2 SEA:2 SA:2 WA:3 EU:3	6	pass -> fail
 C no single region decides	design	coverage	pass	12	EA:2 SEA:2 SA:2 WA:3 EU:3	6	pass -> fail
+F 6 of 7 regions	design	coverage	pass	12	EA:2 SEA:2 SA:2 WA:3 EU:3	6	pass -> fail
 B families: 7 of 13	restaurant	coverage	pass	12	EA:2 SEA:2 SA:2 WA:2 EU:3 AM:1	6	pass -> fail
 C no single region decides	restaurant	coverage	pass	12	EA:2 SEA:2 SA:2 WA:2 EU:3 AM:1	6	pass -> fail
 D es+qu one vote	restaurant	coverage	pass	12	EA:2 SEA:2 SA:2 WA:2 EU:3 AM:1	6	pass -> fail
 A depth: 5 regions with 2+ languages	pound	coverage	loan as a currency only	14	EA:3 SEA:3 SA:3 WA:1 EU:1 SSA:3	10	pass -> fail
+G 5 regions where half share	pound	coverage	loan as a currency only	14	EA:3 SEA:3 SA:3 WA:1 EU:1 SSA:3	10	pass -> fail
 A depth: 5 regions with 2+ languages	cigarette	coverage	pass	13	SEA:1 SA:3 WA:3 EU:3 SSA:3	6	pass -> fail
 B families: 7 of 13	cigarette	coverage	pass	13	SEA:1 SA:3 WA:3 EU:3 SSA:3	6	pass -> fail
 C no single region decides	cigarette	coverage	pass	13	SEA:1 SA:3 WA:3 EU:3 SSA:3	6	pass -> fail
+F 6 of 7 regions	cigarette	coverage	pass	13	SEA:1 SA:3 WA:3 EU:3 SSA:3	6	pass -> fail
+G 5 regions where half share	cigarette	coverage	pass	13	SEA:1 SA:3 WA:3 EU:3 SSA:3	6	pass -> fail
 C no single region decides	campaign	coverage	fail	12	EA:2 SEA:2 WA:2 EU:3 SSA:2 AM:1	8	pass -> fail
 D es+qu one vote	campaign	coverage	fail	12	EA:2 SEA:2 WA:2 EU:3 SSA:2 AM:1	8	pass -> fail
 A depth: 5 regions with 2+ languages	chemistry	coverage	pass	12	SEA:3 WA:3 EU:3 SSA:3	6	pass -> fail
 B families: 7 of 13	chemistry	coverage	pass	12	SEA:3 WA:3 EU:3 SSA:3	6	pass -> fail
 C no single region decides	chemistry	coverage	pass	12	SEA:3 WA:3 EU:3 SSA:3	6	pass -> fail
+E 5 of 7 regions	chemistry	coverage	pass	12	SEA:3 WA:3 EU:3 SSA:3	6	pass -> fail
+F 6 of 7 regions	chemistry	coverage	pass	12	SEA:3 WA:3 EU:3 SSA:3	6	pass -> fail
+G 5 regions where half share	chemistry	coverage	pass	12	SEA:3 WA:3 EU:3 SSA:3	6	pass -> fail
 A depth: 5 regions with 2+ languages	gene	coverage	pass	15	EA:1 SEA:4 SA:2 WA:3 EU:3 SSA:1 AM:1	9	pass -> fail
 B families: 7 of 13	platform	coverage	fail	12	EA:2 SEA:3 SA:2 WA:2 EU:3	6	pass -> fail
 C no single region decides	platform	coverage	fail	12	EA:2 SEA:3 SA:2 WA:2 EU:3	6	pass -> fail
+F 6 of 7 regions	platform	coverage	fail	12	EA:2 SEA:3 SA:2 WA:2 EU:3	6	pass -> fail
 A depth: 5 regions with 2+ languages	vaccine	coverage	pass	14	EA:2 SEA:4 SA:3 WA:1 EU:3 AM:1	8	pass -> fail
+F 6 of 7 regions	profile	coverage	pass	14	EA:2 SEA:4 SA:2 WA:3 EU:3	8	pass -> fail
 C no single region decides	kilo	metric	pass	12	EA:2 SEA:2 SA:3 WA:1 EU:2 SSA:2	8	pass -> fail
 A depth: 5 regions with 2+ languages	.com (com)	symbols	recorded: pass	14	EA:1 SEA:3 SA:3 WA:3 EU:3 SSA:1	9	pass -> fail
+G 5 regions where half share	.com (com)	symbols	recorded: pass	14	EA:1 SEA:3 SA:3 WA:3 EU:3 SSA:1	9	pass -> fail
 A depth: 5 regions with 2+ languages	hashtag (hashtag)	symbols	recorded: pass	13	EA:2 SEA:4 SA:1 WA:3 EU:3	8	pass -> fail
 C no single region decides	hashtag (hashtag)	symbols	recorded: pass	13	EA:2 SEA:4 SA:1 WA:3 EU:3	8	pass -> fail
+F 6 of 7 regions	hashtag (hashtag)	symbols	recorded: pass	13	EA:2 SEA:4 SA:1 WA:3 EU:3	8	pass -> fail
+G 5 regions where half share	hashtag (hashtag)	symbols	recorded: pass	13	EA:2 SEA:4 SA:1 WA:3 EU:3	8	pass -> fail
 C no single region decides	mother (mama)	imitative	recorded: pass, not adopted	13	EA:2 SEA:2 SA:2 WA:1 EU:2 SSA:3 AM:1	7	pass -> fail

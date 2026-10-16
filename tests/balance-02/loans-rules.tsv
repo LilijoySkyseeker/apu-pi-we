@@ -1,190 +1,190 @@
-loan	group	recorded_verdict	columns	regions	regions_with_2plus	families	languages	R0 now: 4 of 7 regions	A depth: 5 regions with 2+ languages	B families: 7 of 13	C no single region decides	D es+qu one vote
-ice cream	coverage	fail	11	5	4	8	ar bn hi id ja ko sw ta th tl yo	fail	fail	fail	fail	fail
-soup	coverage	fail	11	6	3	6	bn es fa fr hi id ja ru sw ta th	fail	fail	fail	fail	fail
-chocolate	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass
-doctor	coverage	pass	13	5	5	6	ar bn es fa fr hi id ru sw ta tl tr yo	pass	pass	fail	fail	pass
-banana	coverage	fail	5	2	2	3	es fr ja ko ru	fail	fail	fail	fail	fail
-giraffe	coverage	fail	11	4	4	5	ar bn es fa fr hi id ru th tl tr	fail	fail	fail	fail	fail
-motorcycle	coverage	pass	14	6	4	8	ar bn es fa fr hi id qu ru ta th tl tr zh	pass	fail	pass	pass	pass
-television	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-coffee	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass
-sweater	coverage	pass	14	6	6	8	ar bn es ha hi id ja ko ru sw ta tl tr yo	pass	pass	pass	pass	pass
-pajamas	coverage	pass	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta tl tr vi	pass	pass	pass	pass	pass
-radio	coverage	pass	18	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw ta tl tr vi yo	pass	pass	pass	pass	pass
-helicopter	coverage	pass	16	7	6	10	ar bn es fa fr hi id ja ko qu sw ta th tl tr yo	pass	pass	pass	pass	pass
-tractor	coverage	pass	18	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr zh	pass	pass	pass	pass	pass
-yogurt	coverage	fail	11	5	3	8	es fr id ja ko qu ru th tl tr vi	fail	fail	fail	fail	fail
-sofa	coverage	fail	12	4	4	8	bn es fr hi id ja ko ta th tl vi zh	pass	fail	pass	fail	pass
-park	coverage	fail	10	5	3	5	bn es fa fr hi qu ru ta tl tr	fail	fail	fail	fail	fail
-pasta	coverage	fail	11	5	4	6	bn es fa fr hi id ja ko ta th tl	fail	fail	fail	fail	fail
-lamp	coverage	pass	12	6	4	7	ar es fa fr hi id ja ko qu ru tl tr	pass	fail	pass	fail	fail
-penguin	coverage	pass	16	7	6	9	bn es fa fr hi id ja ko qu ru sw ta th tl tr yo	pass	pass	pass	pass	pass
-tomato	coverage	pass	12	7	5	8	ar bn es fr ha hi id ja ko qu tr yo	pass	pass	pass	fail	fail
-zebra	coverage	fail	10	5	4	4	bn es fa fr hi id qu ru tl tr	fail	fail	fail	fail	fail
-tea	coverage	pass	14	6	5	10	ar bn fa ha hi ja ko ru sw th tl tr vi zh	pass	pass	pass	pass	pass
-garage	coverage	pass	17	7	5	9	ar bn es fa fr ha hi id ja qu ru sw ta tl tr vi yo	pass	pass	pass	pass	pass
-cookie	coverage	pass	16	6	5	10	ar bn fa fr ha hi id ja ko sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-shorts	coverage	fail	10	5	4	6	ar bn es fr hi ja ru tl tr vi	fail	fail	fail	fail	fail
-party (political)	coverage	fail	9	5	3	4	bn es fr hi id qu ru tl tr	fail	fail	fail	fail	fail
-sandwich	coverage	pass	19	7	6	12	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass
-pizza	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass
-sauce	coverage	pass at 12 after the shape rule	12	5	5	8	bn fa fr hi id ja ko ru ta th tr vi	pass	pass	pass	fail	pass
-sugar	coverage	pass	13	6	4	7	ar es fa fr ha hi qu ru sw ta tl tr yo	pass	fail	pass	fail	pass
-soda	coverage	fail	5	4	1	3	es fr hi id sw	fail	fail	fail	fail	fail
-film	coverage	fail	11	5	5	6	ar bn fa fr hi id ru sw tr vi yo	fail	fail	fail	fail	fail
-toast	coverage	pass	13	5	4	8	ar bn es fa fr hi ja ko ru sw ta tr zh	pass	fail	pass	fail	pass
-balcony	coverage	pass	15	6	5	9	ar bn es fa fr hi id ja ko qu ru ta tl tr vi	pass	pass	pass	pass	pass
-circus	coverage	pass	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta tl tr vi	pass	pass	pass	pass	pass
-T-shirt	coverage	pass	13	6	4	10	ar bn fa fr hi ja ko sw ta th tl tr zh	pass	fail	pass	fail	pass
-music	coverage	fail	11	6	3	6	ar es fa fr hi id qu ru sw tl tr	fail	fail	fail	fail	fail
-university	coverage	fail	9	6	2	5	es fr hi id qu ru tl tr yo	fail	fail	fail	fail	fail
-video	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-bank	coverage	pass	15	6	5	7	ar bn es fa fr ha hi id qu ru sw ta tl tr yo	pass	pass	pass	pass	pass
-office	coverage	pass	13	6	5	9	bn es ha hi ja ko ru sw ta th tl tr yo	pass	pass	pass	fail	pass
-program	coverage	pass	13	6	5	7	bn es fa fr hi id ja ko ru sw th tl tr	pass	pass	pass	fail	pass
-technology	coverage	pass	15	7	5	9	ar bn es fa fr hi id ja ko qu ru sw th tl tr	pass	pass	pass	pass	pass
-computer	coverage	pass	16	7	6	9	ar bn es fa ha hi id ja ko qu ru sw ta th tl yo	pass	pass	pass	pass	pass
-business	coverage	fail	7	5	2	4	fa hi id ja ko ru tl	fail	fail	fail	fail	fail
-hotel	coverage	pass	17	7	6	9	ar bn es fa fr ha hi id ja ko qu ru sw ta tl tr yo	pass	pass	pass	pass	pass
-energy	coverage	fail	11	5	5	5	bn es fa fr hi id ja ko ru tl tr	fail	fail	fail	fail	fail
-sport	coverage	fail	8	6	2	6	fr hi ja ko ru sw tl tr	fail	fail	fail	fail	fail
-machine	coverage	pass	14	6	5	7	ar bn es fa fr ha hi id qu ru sw ta tl tr	pass	pass	pass	pass	pass
-president	coverage	fail	7	4	2	3	es fa fr id qu ru tl	fail	fail	fail	fail	fail
-data	coverage	fail	9	6	3	6	bn es hi id ja ko qu sw tl	fail	fail	fail	fail	fail
-professor	coverage	fail	11	5	5	5	bn es fa fr ha hi id ru sw tl tr	fail	fail	fail	fail	fail
-project	coverage	fail	12	6	5	6	bn es fa fr hi id ja ko qu ru tl tr	pass	pass	fail	fail	fail
-beer	coverage	pass	13	6	5	10	ar bn fr hi id ja sw ta th tr vi yo zh	pass	pass	pass	fail	pass
-code	coverage	pass	13	5	5	7	ar bn es fa fr hi id ja ko ru th tl tr	pass	pass	pass	fail	pass
-website	coverage	pass	14	6	5	8	bn es fa fr hi id ja ko qu ru th tl tr vi	pass	pass	pass	pass	pass
-democracy	coverage	fail	11	5	4	6	ar es fa fr ha id qu ru sw tl tr	fail	fail	fail	fail	fail
-bomb	coverage	pass	15	6	5	8	bn es fa fr ha hi id qu ru sw th tl tr vi yo	pass	pass	pass	pass	pass
-design	coverage	pass	12	5	5	6	ar bn es fa fr hi id ja ko ru tl tr	pass	pass	fail	fail	pass
-station	coverage	fail	11	5	4	6	bn es fr ha hi id ru sw ta tl tr	fail	fail	fail	fail	fail
-captain	coverage	pass	17	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass
-model	coverage	pass	14	6	5	8	ar bn es fa fr hi id ja ko ru sw th tl tr	pass	pass	pass	pass	pass
-virus	coverage	pass	17	7	5	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi	pass	pass	pass	pass	pass
-restaurant	coverage	pass	12	6	5	6	bn es fa fr hi id ja ko qu ru tl tr	pass	pass	fail	fail	fail
-ticket	coverage	fail	11	5	4	7	bn fr ha hi id ja ko sw ta tl yo	fail	fail	fail	fail	fail
-budget	coverage	fail	10	5	4	5	bn fa fr hi id ru sw ta tl tr	fail	fail	fail	fail	fail
-league	coverage	pass	15	7	5	9	bn es fa fr hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass
-album	coverage	pass	17	7	5	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi	pass	pass	pass	pass	pass
-philosophy	coverage	fail	11	5	4	5	ar es fa fr ha hi id ru sw tl tr	fail	fail	fail	fail	fail
-channel	coverage	fail	7	4	2	6	bn hi ja ko sw ta tl	fail	fail	fail	fail	fail
-robot	coverage	pass	18	7	6	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-mile	coverage	not core	18	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr yo	pass	pass	pass	pass	pass
-pound	coverage	loan as a currency only	14	6	4	10	bn fa ha hi id ja ko ru sw ta th vi yo zh	pass	fail	pass	pass	pass
-cigarette	coverage	pass	13	5	4	6	ar bn es fa fr ha hi ru sw ta tl tr yo	pass	fail	fail	fail	pass
-club	coverage	pass	17	7	5	12	bn es fr ha hi id ja ko qu ru sw ta th tl tr vi zh	pass	pass	pass	pass	pass
-campaign	coverage	fail	12	6	5	8	es fa fr ha id ja ko qu ru sw tl tr	pass	pass	pass	fail	fail
-taxi	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-gas	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-museum	coverage	fail	9	5	3	4	es fa fr hi id qu ru tl tr	fail	fail	fail	fail	fail
-alcohol	coverage	fail	8	4	3	6	ar es fr id ja ko ru tr	fail	fail	fail	fail	fail
-engine	coverage	fail	7	3	2	4	ar es fa fr qu ru tr	fail	fail	fail	fail	fail
-chemistry	coverage	pass	12	4	4	6	ar es fa fr ha id ru sw th tl tr yo	pass	fail	fail	fail	pass
-guitar	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass
-metal	coverage	fail	6	4	1	4	es fr ru sw tl tr	fail	fail	fail	fail	fail
-climate	coverage	fail	8	4	3	4	es fa fr id qu ru tl tr	fail	fail	fail	fail	fail
-gene	coverage	pass	15	7	4	9	ar bn es fa fr hi id qu ru sw th tl tr vi zh	pass	fail	pass	pass	pass
-pilot	coverage	fail	11	5	4	6	bn es fr hi id ja ko ru ta tl tr	fail	fail	fail	fail	fail
-fashion	coverage	fail	10	4	3	6	ar es fa fr id qu ru tl tr vi	fail	fail	fail	fail	fail
-plastic	coverage	pass	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass
-bar	coverage	pass	18	7	5	12	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi zh	pass	pass	pass	pass	pass
-version	coverage	fail	11	6	3	7	es fr hi id ja ko qu ru th tl tr	fail	fail	fail	fail	fail
-cinema	coverage	pass	16	6	5	8	ar bn es fa fr ha hi id qu ru sw ta tl tr vi yo	pass	pass	pass	pass	pass
-fuel	coverage	fail	6	3	2	5	ar fa id ru th tr	fail	fail	fail	fail	fail
-cream	coverage	fail	11	6	3	9	es fr id ja ko sw ta th tl tr vi	fail	fail	fail	fail	fail
-passport	coverage	pass	15	7	5	9	bn es fa fr ha hi id ja qu ru sw ta th tl tr	pass	pass	pass	pass	pass
-platform	coverage	fail	12	5	5	6	bn es fa fr hi id ja ko ru th tl tr	pass	pass	fail	fail	pass
-engineer	coverage	pass	14	6	5	8	bn es fr ha hi id ja ko qu ru sw ta tl yo	pass	pass	pass	pass	pass
-vaccine	coverage	pass	14	6	4	8	bn es fa fr hi id ja ko qu ru ta th tl vi	pass	fail	pass	pass	pass
-tunnel	coverage	fail	9	5	3	6	es fa fr ja ko qu ru tl tr	fail	fail	fail	fail	fail
-toilet	coverage	fail	10	5	3	6	ar bn fa fr hi id ja ru ta tr	fail	fail	fail	fail	fail
-studio	coverage	pass	15	6	5	9	ar bn es fa fr hi id ja ko ru sw th tl tr vi	pass	pass	pass	pass	pass
-profile	coverage	pass	14	5	5	8	ar bn es fa fr hi id ja ko ru th tl tr vi	pass	pass	pass	pass	pass
-pope	coverage	tradition	15	6	5	8	ar es fa fr ha hi id qu ru sw ta th tl tr yo	pass	pass	pass	pass	pass
-piano	coverage	pass	17	7	5	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi	pass	pass	pass	pass	pass
-physics	coverage	fail	11	4	4	6	ar es fa fr id ru sw th tl tr yo	fail	fail	fail	fail	fail
-mosque	coverage	tradition	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass
-medal	coverage	pass	14	6	5	8	ar bn es fa fr hi id ja ko qu ru tl tr vi	pass	pass	pass	pass	pass
-mask	coverage	pass	14	6	5	8	ar bn es fa fr hi id ja ko qu ru ta tl tr	pass	pass	pass	pass	pass
-dollar	older	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-internet	older	pass	17	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw th tl tr vi	pass	pass	pass	pass	pass
-hour	older	fail	4	3	1	3	es fr ha tl	fail	fail	fail	fail	fail
-minute, of time	older	fail	9	5	3	4	bn es fr ha hi id qu ru tl	fail	fail	fail	fail	fail
-second, of time	older	fail	7	4	2	3	bn es fr hi ru sw tl	fail	fail	fail	fail	fail
-email	older	pass	16	6	6	9	ar bn es fa fr ha hi id ja ko ru sw th tl tr vi	pass	pass	pass	pass	pass
-photo	older	fail	9	5	2	5	bn es fr ha hi id ru ta tr	fail	fail	fail	fail	fail
-degree (°)	older	fail	5	3	1	3	bn fr hi sw ta	fail	fail	fail	fail	fail
-battery	older	pass	17	6	6	9	ar bn es fa fr ha hi id ja ko ru sw ta th tl tr yo	pass	pass	pass	pass	pass
-euro	older	pass	16	6	6	9	ar bn es fa fr hi id ja ko ru sw th tl tr vi yo	pass	pass	pass	pass	pass
-yuan	older	pass	14	6	5	8	ar es fa fr ha hi id ko ru sw th tl tr zh	pass	pass	pass	pass	pass
-rupee	older	pass	16	6	5	11	ar es fa fr hi id ja ko ru sw ta th tl tr vi zh	pass	pass	pass	pass	pass
-police	older	fail	11	5	4	5	bn es fa fr hi id ru sw ta tl tr	fail	fail	fail	fail	fail
-camera	older	pass	16	6	6	9	ar bn es fr ha hi id ja ko ru sw ta tl tr vi yo	pass	pass	pass	pass	pass
-kilometre	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-kilo	metric	pass	12	6	5	8	bn fr hi ja ko ru sw ta th tr vi yo	pass	pass	pass	fail	pass
-metre	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-gram	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-kilogram	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-litre	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass
-centimetre	metric	pass	16	6	6	9	ar bn es fa fr hi id ja ko ru sw th tl tr vi yo	pass	pass	pass	pass	pass
-millimetre	metric	pass	14	6	5	9	ar es fa fr hi ja ko ru sw th tl tr vi yo	pass	pass	pass	pass	pass
-@ (at)	symbols	recorded: fail	8	4	3	7	ar fa hi id ja th tr zh	fail	fail	fail	fail	fail
-dot (dot)	symbols	recorded: fail	10	5	4	8	ar bn fa hi id ja ko sw ta th	fail	fail	fail	fail	fail
-.com (com)	symbols	recorded: pass	14	6	4	9	ar bn es fa fr hi id ko ru sw ta th tr vi	pass	fail	pass	pass	pass
-/ (slash)	symbols	recorded: fail	5	4	1	3	fa hi ja ko ru	fail	fail	fail	fail	fail
-\ (backslash)	symbols	recorded: fail	3	3	0	3	fa ja th	fail	fail	fail	fail	fail
-_ (underscore)	symbols	recorded: fail	1	1	0	1	id	fail	fail	fail	fail	fail
-- (dash)	symbols	recorded: fail	2	1	1	1	bn hi	fail	fail	fail	fail	fail
-# (hash)	symbols	recorded: fail	1	1	0	1	th	fail	fail	fail	fail	fail
-hashtag (hashtag)	symbols	recorded: pass	13	5	4	8	ar bn es fa fr id ja ko ru th tl tr vi	pass	fail	pass	fail	pass
-* (asterisk)	symbols	recorded: fail	3	2	1	2	es fr ja	fail	fail	fail	fail	fail
-& (ampersand)	symbols	recorded: fail	10	6	4	7	es fa hi id ja ko ru sw th tr	fail	fail	fail	fail	fail
-+ (plus)	symbols	recorded: fail	7	3	3	4	bn fr hi ja ko ru ta	fail	fail	fail	fail	fail
-− (minus)	symbols	recorded: fail	4	2	2	3	es ja ko ru	fail	fail	fail	fail	fail
-× (times)	symbols	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-÷ (divided by)	symbols	recorded: fail	2	1	1	1	es fr	fail	fail	fail	fail	fail
-= (equals)	symbols	recorded: fail	2	1	1	1	es fr	fail	fail	fail	fail	fail
-% (percent)	symbols	recorded: fail	8	3	3	5	es fr id ja ko ru th tl	fail	fail	fail	fail	fail
-www (double-u)	symbols	recorded: fail	8	4	3	7	ar bn hi ja ko th tl zh	fail	fail	fail	fail	fail
-mother (mama)	imitative	recorded: pass, not adopted	13	7	5	7	ar bn es ha hi id ja qu ru sw tl yo zh	pass	pass	pass	fail	pass
-father (papa)	imitative	recorded: fail	7	4	2	3	es fr hi id ja ru tl	fail	fail	fail	fail	fail
-father (baba)	imitative	recorded: fail	9	4	3	5	ar bn fa ha hi sw tr yo zh	fail	fail	fail	fail	fail
-grandmother (nana)	imitative	recorded: fail	4	2	2	2	bn fa hi tr	fail	fail	fail	fail	fail
-grandfather (dada)	imitative	recorded: fail	5	3	2	4	ar bn hi ja tr	fail	fail	fail	fail	fail
-baby (bebe)	imitative	recorded: fail	3	2	1	2	es fr tl	fail	fail	fail	fail	fail
-cat (mawu)	imitative	recorded: fail	3	2	1	3	th vi zh	fail	fail	fail	fail	fail
-dog (wawu)	imitative	recorded: fail	1	1	0	1	tl	fail	fail	fail	fail	fail
-cow (mumu)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail
-sheep (meme)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-goat (meme)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail
-duck (kuwaku)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-chicken (kuku)	imitative	recorded: fail	2	1	1	1	sw yo	fail	fail	fail	fail	fail
-bird (piyu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-cuckoo (kuku)	imitative	recorded: fail	5	4	1	3	es fa fr ja vi	fail	fail	fail	fail	fail
-crow (kaka)	imitative	recorded: fail	2	1	1	2	bn ta	fail	fail	fail	fail	fail
-owl (uwu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-frog (kulowa)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-bee (bese)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-wolf (lobo)	imitative	recorded: fail	2	2	0	2	es tl	fail	fail	fail	fail	fail
-pig (bubu)	imitative	recorded: fail	2	2	0	2	id ja	fail	fail	fail	fail	fail
-horse (dada)	imitative	recorded: fail	1	1	0	1	fr	fail	fail	fail	fail	fail
-donkey (iya)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-mouse (tutu)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail
-kiss (busu)	imitative	recorded: fail	5	3	2	3	ar es fa fr sw	fail	fail	fail	fail	fail
-knock (toku)	imitative	recorded: fail	1	1	0	1	bn	fail	fail	fail	fail	fail
-laugh (awu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-cry (wawa)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-sneeze (atu)	imitative	recorded: fail	1	1	0	1	bn	fail	fail	fail	fail	fail
-cough (kofu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-hiccup (iku)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-burp (gepu)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail
-vomit (uwaku)	imitative	recorded: fail	1	1	0	1	th	fail	fail	fail	fail	fail
-yawn (wamu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-snore (olu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
-sleep (nursery) (nene)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail
-eat, food (nursery) (mama)	imitative	recorded: fail	3	3	0	3	ko tr vi	fail	fail	fail	fail	fail
-pee (nursery) (pipi)	imitative	recorded: fail	3	1	1	1	es fr ru	fail	fail	fail	fail	fail
-poo (nursery) (kaka)	imitative	recorded: fail	5	2	2	3	ar es fr ru tr	fail	fail	fail	fail	fail
-bang, boom (bumu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail
+loan	group	recorded_verdict	columns	regions	regions_with_2plus	families	languages	R0 now: 4 of 7 regions	A depth: 5 regions with 2+ languages	B families: 7 of 13	C no single region decides	E 5 of 7 regions	F 6 of 7 regions	G 5 regions where half share	D es+qu one vote
+ice cream	coverage	fail	11	5	4	8	ar bn hi id ja ko sw ta th tl yo	fail	fail	fail	fail	fail	fail	fail	fail
+soup	coverage	fail	11	6	3	6	bn es fa fr hi id ja ru sw ta th	fail	fail	fail	fail	fail	fail	fail	fail
+chocolate	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass	pass	pass	pass
+doctor	coverage	pass	13	5	5	6	ar bn es fa fr hi id ru sw ta tl tr yo	pass	pass	fail	fail	pass	fail	pass	pass
+banana	coverage	fail	5	2	2	3	es fr ja ko ru	fail	fail	fail	fail	fail	fail	fail	fail
+giraffe	coverage	fail	11	4	4	5	ar bn es fa fr hi id ru th tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+motorcycle	coverage	pass	14	6	4	8	ar bn es fa fr hi id qu ru ta th tl tr zh	pass	fail	pass	pass	pass	pass	pass	pass
+television	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+coffee	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass	pass	pass	pass
+sweater	coverage	pass	14	6	6	8	ar bn es ha hi id ja ko ru sw ta tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+pajamas	coverage	pass	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+radio	coverage	pass	18	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw ta tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+helicopter	coverage	pass	16	7	6	10	ar bn es fa fr hi id ja ko qu sw ta th tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+tractor	coverage	pass	18	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr zh	pass	pass	pass	pass	pass	pass	pass	pass
+yogurt	coverage	fail	11	5	3	8	es fr id ja ko qu ru th tl tr vi	fail	fail	fail	fail	fail	fail	fail	fail
+sofa	coverage	fail	12	4	4	8	bn es fr hi id ja ko ta th tl vi zh	pass	fail	pass	fail	fail	fail	fail	pass
+park	coverage	fail	10	5	3	5	bn es fa fr hi qu ru ta tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+pasta	coverage	fail	11	5	4	6	bn es fa fr hi id ja ko ta th tl	fail	fail	fail	fail	fail	fail	fail	fail
+lamp	coverage	pass	12	6	4	7	ar es fa fr hi id ja ko qu ru tl tr	pass	fail	pass	fail	pass	pass	pass	fail
+penguin	coverage	pass	16	7	6	9	bn es fa fr hi id ja ko qu ru sw ta th tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+tomato	coverage	pass	12	7	5	8	ar bn es fr ha hi id ja ko qu tr yo	pass	pass	pass	fail	pass	pass	pass	fail
+zebra	coverage	fail	10	5	4	4	bn es fa fr hi id qu ru tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+tea	coverage	pass	14	6	5	10	ar bn fa ha hi ja ko ru sw th tl tr vi zh	pass	pass	pass	pass	pass	pass	pass	pass
+garage	coverage	pass	17	7	5	9	ar bn es fa fr ha hi id ja qu ru sw ta tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+cookie	coverage	pass	16	6	5	10	ar bn fa fr ha hi id ja ko sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+shorts	coverage	fail	10	5	4	6	ar bn es fr hi ja ru tl tr vi	fail	fail	fail	fail	fail	fail	fail	fail
+party (political)	coverage	fail	9	5	3	4	bn es fr hi id qu ru tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+sandwich	coverage	pass	19	7	6	12	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass	pass	pass	pass
+pizza	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass	pass	pass	pass
+sauce	coverage	pass at 12 after the shape rule	12	5	5	8	bn fa fr hi id ja ko ru ta th tr vi	pass	pass	pass	fail	pass	fail	pass	pass
+sugar	coverage	pass	13	6	4	7	ar es fa fr ha hi qu ru sw ta tl tr yo	pass	fail	pass	fail	pass	pass	pass	pass
+soda	coverage	fail	5	4	1	3	es fr hi id sw	fail	fail	fail	fail	fail	fail	fail	fail
+film	coverage	fail	11	5	5	6	ar bn fa fr hi id ru sw tr vi yo	fail	fail	fail	fail	fail	fail	fail	fail
+toast	coverage	pass	13	5	4	8	ar bn es fa fr hi ja ko ru sw ta tr zh	pass	fail	pass	fail	pass	fail	fail	pass
+balcony	coverage	pass	15	6	5	9	ar bn es fa fr hi id ja ko qu ru ta tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+circus	coverage	pass	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+T-shirt	coverage	pass	13	6	4	10	ar bn fa fr hi ja ko sw ta th tl tr zh	pass	fail	pass	fail	pass	pass	fail	pass
+music	coverage	fail	11	6	3	6	ar es fa fr hi id qu ru sw tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+university	coverage	fail	9	6	2	5	es fr hi id qu ru tl tr yo	fail	fail	fail	fail	fail	fail	fail	fail
+video	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+bank	coverage	pass	15	6	5	7	ar bn es fa fr ha hi id qu ru sw ta tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+office	coverage	pass	13	6	5	9	bn es ha hi ja ko ru sw ta th tl tr yo	pass	pass	pass	fail	pass	pass	pass	pass
+program	coverage	pass	13	6	5	7	bn es fa fr hi id ja ko ru sw th tl tr	pass	pass	pass	fail	pass	pass	pass	pass
+technology	coverage	pass	15	7	5	9	ar bn es fa fr hi id ja ko qu ru sw th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+computer	coverage	pass	16	7	6	9	ar bn es fa ha hi id ja ko qu ru sw ta th tl yo	pass	pass	pass	pass	pass	pass	pass	pass
+business	coverage	fail	7	5	2	4	fa hi id ja ko ru tl	fail	fail	fail	fail	fail	fail	fail	fail
+hotel	coverage	pass	17	7	6	9	ar bn es fa fr ha hi id ja ko qu ru sw ta tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+energy	coverage	fail	11	5	5	5	bn es fa fr hi id ja ko ru tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+sport	coverage	fail	8	6	2	6	fr hi ja ko ru sw tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+machine	coverage	pass	14	6	5	7	ar bn es fa fr ha hi id qu ru sw ta tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+president	coverage	fail	7	4	2	3	es fa fr id qu ru tl	fail	fail	fail	fail	fail	fail	fail	fail
+data	coverage	fail	9	6	3	6	bn es hi id ja ko qu sw tl	fail	fail	fail	fail	fail	fail	fail	fail
+professor	coverage	fail	11	5	5	5	bn es fa fr ha hi id ru sw tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+project	coverage	fail	12	6	5	6	bn es fa fr hi id ja ko qu ru tl tr	pass	pass	fail	fail	pass	pass	pass	fail
+beer	coverage	pass	13	6	5	10	ar bn fr hi id ja sw ta th tr vi yo zh	pass	pass	pass	fail	pass	pass	pass	pass
+code	coverage	pass	13	5	5	7	ar bn es fa fr hi id ja ko ru th tl tr	pass	pass	pass	fail	pass	fail	pass	pass
+website	coverage	pass	14	6	5	8	bn es fa fr hi id ja ko qu ru th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+democracy	coverage	fail	11	5	4	6	ar es fa fr ha id qu ru sw tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+bomb	coverage	pass	15	6	5	8	bn es fa fr ha hi id qu ru sw th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+design	coverage	pass	12	5	5	6	ar bn es fa fr hi id ja ko ru tl tr	pass	pass	fail	fail	pass	fail	pass	pass
+station	coverage	fail	11	5	4	6	bn es fr ha hi id ru sw ta tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+captain	coverage	pass	17	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+model	coverage	pass	14	6	5	8	ar bn es fa fr hi id ja ko ru sw th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+virus	coverage	pass	17	7	5	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+restaurant	coverage	pass	12	6	5	6	bn es fa fr hi id ja ko qu ru tl tr	pass	pass	fail	fail	pass	pass	pass	fail
+ticket	coverage	fail	11	5	4	7	bn fr ha hi id ja ko sw ta tl yo	fail	fail	fail	fail	fail	fail	fail	fail
+budget	coverage	fail	10	5	4	5	bn fa fr hi id ru sw ta tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+league	coverage	pass	15	7	5	9	bn es fa fr hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+album	coverage	pass	17	7	5	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+philosophy	coverage	fail	11	5	4	5	ar es fa fr ha hi id ru sw tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+channel	coverage	fail	7	4	2	6	bn hi ja ko sw ta tl	fail	fail	fail	fail	fail	fail	fail	fail
+robot	coverage	pass	18	7	6	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+mile	coverage	not core	18	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+pound	coverage	loan as a currency only	14	6	4	10	bn fa ha hi id ja ko ru sw ta th vi yo zh	pass	fail	pass	pass	pass	pass	fail	pass
+cigarette	coverage	pass	13	5	4	6	ar bn es fa fr ha hi ru sw ta tl tr yo	pass	fail	fail	fail	pass	fail	fail	pass
+club	coverage	pass	17	7	5	12	bn es fr ha hi id ja ko qu ru sw ta th tl tr vi zh	pass	pass	pass	pass	pass	pass	pass	pass
+campaign	coverage	fail	12	6	5	8	es fa fr ha id ja ko qu ru sw tl tr	pass	pass	pass	fail	pass	pass	pass	fail
+taxi	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+gas	coverage	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+museum	coverage	fail	9	5	3	4	es fa fr hi id qu ru tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+alcohol	coverage	fail	8	4	3	6	ar es fr id ja ko ru tr	fail	fail	fail	fail	fail	fail	fail	fail
+engine	coverage	fail	7	3	2	4	ar es fa fr qu ru tr	fail	fail	fail	fail	fail	fail	fail	fail
+chemistry	coverage	pass	12	4	4	6	ar es fa fr ha id ru sw th tl tr yo	pass	fail	fail	fail	fail	fail	fail	pass
+guitar	coverage	pass	20	7	6	12	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo zh	pass	pass	pass	pass	pass	pass	pass	pass
+metal	coverage	fail	6	4	1	4	es fr ru sw tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+climate	coverage	fail	8	4	3	4	es fa fr id qu ru tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+gene	coverage	pass	15	7	4	9	ar bn es fa fr hi id qu ru sw th tl tr vi zh	pass	fail	pass	pass	pass	pass	pass	pass
+pilot	coverage	fail	11	5	4	6	bn es fr hi id ja ko ru ta tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+fashion	coverage	fail	10	4	3	6	ar es fa fr id qu ru tl tr vi	fail	fail	fail	fail	fail	fail	fail	fail
+plastic	coverage	pass	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+bar	coverage	pass	18	7	5	12	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi zh	pass	pass	pass	pass	pass	pass	pass	pass
+version	coverage	fail	11	6	3	7	es fr hi id ja ko qu ru th tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+cinema	coverage	pass	16	6	5	8	ar bn es fa fr ha hi id qu ru sw ta tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+fuel	coverage	fail	6	3	2	5	ar fa id ru th tr	fail	fail	fail	fail	fail	fail	fail	fail
+cream	coverage	fail	11	6	3	9	es fr id ja ko sw ta th tl tr vi	fail	fail	fail	fail	fail	fail	fail	fail
+passport	coverage	pass	15	7	5	9	bn es fa fr ha hi id ja qu ru sw ta th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+platform	coverage	fail	12	5	5	6	bn es fa fr hi id ja ko ru th tl tr	pass	pass	fail	fail	pass	fail	pass	pass
+engineer	coverage	pass	14	6	5	8	bn es fr ha hi id ja ko qu ru sw ta tl yo	pass	pass	pass	pass	pass	pass	pass	pass
+vaccine	coverage	pass	14	6	4	8	bn es fa fr hi id ja ko qu ru ta th tl vi	pass	fail	pass	pass	pass	pass	pass	pass
+tunnel	coverage	fail	9	5	3	6	es fa fr ja ko qu ru tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+toilet	coverage	fail	10	5	3	6	ar bn fa fr hi id ja ru ta tr	fail	fail	fail	fail	fail	fail	fail	fail
+studio	coverage	pass	15	6	5	9	ar bn es fa fr hi id ja ko ru sw th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+profile	coverage	pass	14	5	5	8	ar bn es fa fr hi id ja ko ru th tl tr vi	pass	pass	pass	pass	pass	fail	pass	pass
+pope	coverage	tradition	15	6	5	8	ar es fa fr ha hi id qu ru sw ta th tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+piano	coverage	pass	17	7	5	11	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+physics	coverage	fail	11	4	4	6	ar es fa fr id ru sw th tl tr yo	fail	fail	fail	fail	fail	fail	fail	fail
+mosque	coverage	tradition	16	7	5	10	ar bn es fa fr hi id ja ko qu ru sw ta th tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+medal	coverage	pass	14	6	5	8	ar bn es fa fr hi id ja ko qu ru tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+mask	coverage	pass	14	6	5	8	ar bn es fa fr hi id ja ko qu ru ta tl tr	pass	pass	pass	pass	pass	pass	pass	pass
+dollar	older	pass	19	7	6	11	ar bn es fa fr ha hi id ja ko qu ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+internet	older	pass	17	7	6	10	ar bn es fa fr ha hi id ja ko qu ru sw th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+hour	older	fail	4	3	1	3	es fr ha tl	fail	fail	fail	fail	fail	fail	fail	fail
+minute, of time	older	fail	9	5	3	4	bn es fr ha hi id qu ru tl	fail	fail	fail	fail	fail	fail	fail	fail
+second, of time	older	fail	7	4	2	3	bn es fr hi ru sw tl	fail	fail	fail	fail	fail	fail	fail	fail
+email	older	pass	16	6	6	9	ar bn es fa fr ha hi id ja ko ru sw th tl tr vi	pass	pass	pass	pass	pass	pass	pass	pass
+photo	older	fail	9	5	2	5	bn es fr ha hi id ru ta tr	fail	fail	fail	fail	fail	fail	fail	fail
+degree (°)	older	fail	5	3	1	3	bn fr hi sw ta	fail	fail	fail	fail	fail	fail	fail	fail
+battery	older	pass	17	6	6	9	ar bn es fa fr ha hi id ja ko ru sw ta th tl tr yo	pass	pass	pass	pass	pass	pass	pass	pass
+euro	older	pass	16	6	6	9	ar bn es fa fr hi id ja ko ru sw th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+yuan	older	pass	14	6	5	8	ar es fa fr ha hi id ko ru sw th tl tr zh	pass	pass	pass	pass	pass	pass	pass	pass
+rupee	older	pass	16	6	5	11	ar es fa fr hi id ja ko ru sw ta th tl tr vi zh	pass	pass	pass	pass	pass	pass	pass	pass
+police	older	fail	11	5	4	5	bn es fa fr hi id ru sw ta tl tr	fail	fail	fail	fail	fail	fail	fail	fail
+camera	older	pass	16	6	6	9	ar bn es fr ha hi id ja ko ru sw ta tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+kilometre	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+kilo	metric	pass	12	6	5	8	bn fr hi ja ko ru sw ta th tr vi yo	pass	pass	pass	fail	pass	pass	pass	pass
+metre	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+gram	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+kilogram	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+litre	metric	pass	17	6	6	10	ar bn es fa fr hi id ja ko ru sw ta th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+centimetre	metric	pass	16	6	6	9	ar bn es fa fr hi id ja ko ru sw th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+millimetre	metric	pass	14	6	5	9	ar es fa fr hi ja ko ru sw th tl tr vi yo	pass	pass	pass	pass	pass	pass	pass	pass
+@ (at)	symbols	recorded: fail	8	4	3	7	ar fa hi id ja th tr zh	fail	fail	fail	fail	fail	fail	fail	fail
+dot (dot)	symbols	recorded: fail	10	5	4	8	ar bn fa hi id ja ko sw ta th	fail	fail	fail	fail	fail	fail	fail	fail
+.com (com)	symbols	recorded: pass	14	6	4	9	ar bn es fa fr hi id ko ru sw ta th tr vi	pass	fail	pass	pass	pass	pass	fail	pass
+/ (slash)	symbols	recorded: fail	5	4	1	3	fa hi ja ko ru	fail	fail	fail	fail	fail	fail	fail	fail
+\ (backslash)	symbols	recorded: fail	3	3	0	3	fa ja th	fail	fail	fail	fail	fail	fail	fail	fail
+_ (underscore)	symbols	recorded: fail	1	1	0	1	id	fail	fail	fail	fail	fail	fail	fail	fail
+- (dash)	symbols	recorded: fail	2	1	1	1	bn hi	fail	fail	fail	fail	fail	fail	fail	fail
+# (hash)	symbols	recorded: fail	1	1	0	1	th	fail	fail	fail	fail	fail	fail	fail	fail
+hashtag (hashtag)	symbols	recorded: pass	13	5	4	8	ar bn es fa fr id ja ko ru th tl tr vi	pass	fail	pass	fail	pass	fail	fail	pass
+* (asterisk)	symbols	recorded: fail	3	2	1	2	es fr ja	fail	fail	fail	fail	fail	fail	fail	fail
+& (ampersand)	symbols	recorded: fail	10	6	4	7	es fa hi id ja ko ru sw th tr	fail	fail	fail	fail	fail	fail	fail	fail
++ (plus)	symbols	recorded: fail	7	3	3	4	bn fr hi ja ko ru ta	fail	fail	fail	fail	fail	fail	fail	fail
+− (minus)	symbols	recorded: fail	4	2	2	3	es ja ko ru	fail	fail	fail	fail	fail	fail	fail	fail
+× (times)	symbols	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+÷ (divided by)	symbols	recorded: fail	2	1	1	1	es fr	fail	fail	fail	fail	fail	fail	fail	fail
+= (equals)	symbols	recorded: fail	2	1	1	1	es fr	fail	fail	fail	fail	fail	fail	fail	fail
+% (percent)	symbols	recorded: fail	8	3	3	5	es fr id ja ko ru th tl	fail	fail	fail	fail	fail	fail	fail	fail
+www (double-u)	symbols	recorded: fail	8	4	3	7	ar bn hi ja ko th tl zh	fail	fail	fail	fail	fail	fail	fail	fail
+mother (mama)	imitative	recorded: pass, not adopted	13	7	5	7	ar bn es ha hi id ja qu ru sw tl yo zh	pass	pass	pass	fail	pass	pass	pass	pass
+father (papa)	imitative	recorded: fail	7	4	2	3	es fr hi id ja ru tl	fail	fail	fail	fail	fail	fail	fail	fail
+father (baba)	imitative	recorded: fail	9	4	3	5	ar bn fa ha hi sw tr yo zh	fail	fail	fail	fail	fail	fail	fail	fail
+grandmother (nana)	imitative	recorded: fail	4	2	2	2	bn fa hi tr	fail	fail	fail	fail	fail	fail	fail	fail
+grandfather (dada)	imitative	recorded: fail	5	3	2	4	ar bn hi ja tr	fail	fail	fail	fail	fail	fail	fail	fail
+baby (bebe)	imitative	recorded: fail	3	2	1	2	es fr tl	fail	fail	fail	fail	fail	fail	fail	fail
+cat (mawu)	imitative	recorded: fail	3	2	1	3	th vi zh	fail	fail	fail	fail	fail	fail	fail	fail
+dog (wawu)	imitative	recorded: fail	1	1	0	1	tl	fail	fail	fail	fail	fail	fail	fail	fail
+cow (mumu)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail	fail	fail	fail
+sheep (meme)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+goat (meme)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail	fail	fail	fail
+duck (kuwaku)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+chicken (kuku)	imitative	recorded: fail	2	1	1	1	sw yo	fail	fail	fail	fail	fail	fail	fail	fail
+bird (piyu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+cuckoo (kuku)	imitative	recorded: fail	5	4	1	3	es fa fr ja vi	fail	fail	fail	fail	fail	fail	fail	fail
+crow (kaka)	imitative	recorded: fail	2	1	1	2	bn ta	fail	fail	fail	fail	fail	fail	fail	fail
+owl (uwu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+frog (kulowa)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+bee (bese)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+wolf (lobo)	imitative	recorded: fail	2	2	0	2	es tl	fail	fail	fail	fail	fail	fail	fail	fail
+pig (bubu)	imitative	recorded: fail	2	2	0	2	id ja	fail	fail	fail	fail	fail	fail	fail	fail
+horse (dada)	imitative	recorded: fail	1	1	0	1	fr	fail	fail	fail	fail	fail	fail	fail	fail
+donkey (iya)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+mouse (tutu)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail	fail	fail	fail
+kiss (busu)	imitative	recorded: fail	5	3	2	3	ar es fa fr sw	fail	fail	fail	fail	fail	fail	fail	fail
+knock (toku)	imitative	recorded: fail	1	1	0	1	bn	fail	fail	fail	fail	fail	fail	fail	fail
+laugh (awu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+cry (wawa)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+sneeze (atu)	imitative	recorded: fail	1	1	0	1	bn	fail	fail	fail	fail	fail	fail	fail	fail
+cough (kofu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+hiccup (iku)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+burp (gepu)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail	fail	fail	fail
+vomit (uwaku)	imitative	recorded: fail	1	1	0	1	th	fail	fail	fail	fail	fail	fail	fail	fail
+yawn (wamu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+snore (olu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail
+sleep (nursery) (nene)	imitative	recorded: fail	1	1	0	1	ja	fail	fail	fail	fail	fail	fail	fail	fail
+eat, food (nursery) (mama)	imitative	recorded: fail	3	3	0	3	ko tr vi	fail	fail	fail	fail	fail	fail	fail	fail
+pee (nursery) (pipi)	imitative	recorded: fail	3	1	1	1	es fr ru	fail	fail	fail	fail	fail	fail	fail	fail
+poo (nursery) (kaka)	imitative	recorded: fail	5	2	2	3	ar es fr ru tr	fail	fail	fail	fail	fail	fail	fail	fail
+bang, boom (bumu)	imitative	recorded: fail	0	0	0	0		fail	fail	fail	fail	fail	fail	fail	fail

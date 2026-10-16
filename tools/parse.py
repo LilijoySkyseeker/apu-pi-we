@@ -7,7 +7,7 @@ units (relation phrases, relative clauses, clauses, calls, stance) begin and end
 one reading under the pause rules (4.6).
 
   python parse.py               # every example in spec/reference.toml: no parse / several readings
-  python parse.py "to o unfu"   # one sentence and its readings
+  python parse.py "to min unfu"   # one sentence and its readings
   python parse.py --file F      # every sentence in a text (headings and {.attr} lines skipped)
 
 Needs lark: nix-shell -p 'python3.withPackages(ps: [ps.lark])'
@@ -33,39 +33,39 @@ sentence: (call ",")? (opener ",")* actp? clop* clause ("," choice)? end*
 choice: "yu"
 end: ","? stance | "," call
 call: np
-opener: "gi" "tan" | JOIN | relp | "pi" np | subcl
+opener: "bo" "win" | JOIN | relp | "pi" np | subcl
 subcl: phop* SUBLINK clop* clause
-actp: ("genso" | "ba")? ACT "nun"* | "nun"+
-clop: "kon" (N | "bo") | SOURCE
+actp: ("genso" | "ba")? ACT "fin"* | "fin"+
+clop: "pe" (N | "pa") | SOURCE
 clause: (np | heavy)? predicate (","? JOIN (np | heavy)? predicate)*
 heavy: np ","
-predicate: phop* "manni"? (asp* | "le" "mu") C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
+predicate: phop* "manni"? (asp* | "le" "su") C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
 // C (phop+ C): verb, operator, verb, as in keya mu neke "must not give"; le mu "still not" (8.1.3)
 result: phop* C  // after a pronoun object: muge go bi yomo, "make/do it so" (4.2)
 longobj: np
 obj: np
 gunarg: np obj? result? | relp | "wun" clause
-trail: ","? relp | ","? subcl | "wun" "min"? clop* clause
-relp: phop* REL (np | np predicate | relp) | "li" C obj | "li" "gun" gunarg  // li + verb + its object: purpose
+trail: ","? relp | ","? subcl | "wun" "bi"? clop* clause
+relp: phop* REL (np | np predicate | relp) | "fan" C obj | "fan" "gun" gunarg  // li + verb + its object: purpose
 np: phop* head det* ("pi" npi)* relcl? (JOIN np)?
 npi: phop* head det* ("pi" npi)* relcl?  // a pi phrase is one noun: a yen/lu list stays outside it (5.2)
-head: PRON | NAME | "lanno"? C N? | C ("ke" | "bi" | PHOP) C | DERIV C? (np | relp)? | DERIV "pi" np | N | DET | "yu" | "lanno" NAME?
-relcl: "man" clause REL?
+head: PRON | NAME | "lanno"? C N? | C ("ke" | "ten" | PHOP) C | DERIV C? (np | relp)? | DERIV "pi" np | N | DET | "yu" | "lanno" NAME?
+relcl: "gi" clause REL?
 date: C "pi" N "," C "pi" N
-stance: "min" | "a" | "buni" | "donon"
-phop: PHOP | "o" | "mu" | "fe" | "wi" | "na" | "ke" | "bi"
+stance: "bi" | "yan" | "buni" | "donon"
+phop: PHOP | "min" | "su" | "pon" | "yon" | "ga" | "ke" | "ten"
 asp: "sin" | "le" | "buntu"
-det: DET | "mesun" | "yu" | "bo" | "nen"
+det: DET | "mesun" | "yu" | "pa" | "nen"
 fragment: np | date | predicate | relp | subcl | "pi" np | stance | clop+ clause? | actp clause?
-ACT: "min" | "so" | "tin" | "fon" | "de" | "yo"
+ACT: "bi" | "ta" | "ti" | "fon" | "me" | "yo"
 SOURCE: "wanme" | "inwun" | "wemen"
-JOIN: "yen" | "lu" | "un"
-SUBLINK: "don" | "nin" | "wo" | "ya" | "gi"
-REL: "anko" | "nuwen" | "mon" | "tun" | "se" | "gan" | "li" | "ya" | "wo" | "fu" | "nin"
+JOIN: "yen" | "lu" | "ka"
+SUBLINK: "don" | "lin" | "kon" | "ya" | "bo"
+REL: "anko" | "nuwen" | "mon" | "tun" | "se" | "nan" | "fan" | "ya" | "kon" | "fun" | "lin"
 PHOP: "konsin" | "nedin" | "tason"
-DET: "la" | "tan" | "ben" | "we" | "in" | "kin" | "fa"
-PRON: "to" | "me" | "pen" | "din" | "wan" | "yi" | "sun" | "go" | "nen" | "bu"
-DERIV: "no" | "ge" | "du" | "pu"
+DET: "la" | "win" | "ben" | "we" | "go" | "kin" | "fen"
+PRON: "to" | "nun" | "kan" | "din" | "wan" | "yi" | "son" | "dan" | "nen" | "bun"
+DERIV: "no" | "gen" | "du" | "pu"
 C: "C"
 N: "N"
 NAME: "NAME"
@@ -91,7 +91,7 @@ def chunk(sentence):
         if out and w == out[-1] and w not in ("C", "N"):
             i += 1
             continue
-        if w == "en" and i + 1 < len(words):
+        if w == "fo" and i + 1 < len(words):
             # a name runs to the next grammar word or pause (11.1)
             i += 2
             while i < len(words) and words[i] != "," and words[i] not in NAME_ENDS:
@@ -117,7 +117,7 @@ PARSER = lark.Lark(GRAMMAR, parser="earley", lexer="dynamic", ambiguity="explici
 # (language.md 4.2), not to grammar words.
 UNITS = {"longobj", "heavy", "relp", "relcl", "subcl", "call", "choice", "obj", "opener", "stance", "trail"}
 SAME = {"subcl": "relp"}  # wo/ya/nin + a thing or + an event: the same relation, chosen by meaning
-STANCE = {"min", "a", "buni", "donon"}
+STANCE = {"bi", "yan", "buni", "donon"}
 
 
 def signature(tree):

@@ -4,7 +4,7 @@ This guide is for English speakers. The full rules are in the [language referenc
 
 ## Before you start
 
-The language is small and unfinished. It has 482 root words and 22 borrowed international words, plus the number words. On top of those come 61 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
+The language is small and unfinished. It has 482 root words and 22 borrowed international words, plus the number words. On top of those come 63 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
 
 Nothing changes shape. There are no verb endings, no plurals you have to add, no "a" or "the", no gender and nothing irregular. Almost all the difficulty is in sounds, word order and numbers. [§2.5](language.md#r-2-5) [§5.2.7](language.md#r-5-2-7)
 
@@ -140,9 +140,13 @@ Position can also make any word a noun. As an object, **sepi** "apologise" becom
 - after another verb, it means "to be": **momu gun tiwu** "want to be a child" [§4.7.6](language.md#r-4-7-6)
 - with no subject, it means "(it) is": **gun nimo** "(it's) money". "There is" uses **ibe** "have" with no subject: **ibe musu feli.** "There are many things." Without a subject **ibe** always means this, so to say who has something, name them: **to ibe pasu** "I have food". [§4.5.2](language.md#r-4-5-2) [§4.7.7](language.md#r-4-7-7)
 
-When several things follow a noun, they go in this order: describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **gi** clause. For example, **guyi kudu sa la win** "these two big houses". A number and **la** can go together, but once there's a number **la** is optional, so **guyi kudu sa win** means the same. You'll meet **pi** phrases in lesson 7 and **gi** clauses in lesson 12. [§5.1.1](language.md#r-5-1-1) [§5.2.6](language.md#r-5-2-6)
+When several things follow a noun, they go in this order: **fi** (below), then describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **gi** clause. For example, **guyi kudu sa la win** "these two big houses". A number and **la** can go together, but once there's a number **la** is optional, so **guyi kudu sa win** means the same. You'll meet **pi** phrases in lesson 7 and **gi** clauses in lesson 12. [§5.1.1](language.md#r-5-1-1) [§5.2.6](language.md#r-5-2-6)
 
 Gender is an ordinary describing word, and you only use it when it matters: **tiwu futa** "daughter", **tiwu lowu** "son". [§5.2.2](language.md#r-5-2-2)
+
+Each describing word after a noun describes the noun, so **demi wiwi buda** is "a red, dark cloth". To make a word describe the describing word before it, put **tan** between them: **demi wiwi tan buda** "a dark-red cloth" (red, dark-ish). **tan** joins only the word before it and the word after it, and it works after **gun** too: **demi gun wiwi tan buda.** "The cloth is dark red." [§5.2.11](language.md#r-5-2-11)
+
+For affection, put **fi** "dear little" right after a noun or a name, before any describing words: **totu fi** "doggy", **totu fi kudu** "the dear big dog", **fo mara fi** "dear Mara". It's a grammar word, so it also ends a name: in **fo mara fi obu** "dear Mara is coming", **obu** can't be read as part of the name (lesson 7). [§5.2.12](language.md#r-5-2-12)
 
 Small operator words go in front of what they cover. The degree words work this way: **ten kudu** "very big", **ke kudu** "bigger", **tason kudu** "rather big". So do **su** "not" and a few others, which come in lesson 4. "Bigger than" comes later, in lesson 9. [§6.2.1](language.md#r-6-2-1) [§6.2.6](language.md#r-6-2-6)
 
@@ -233,7 +237,7 @@ For a request, use **ta**: **ta neke to osa.** "Give me water?" "Please" is **ta
 | **son** | he or she in reported speech: the person whose words are reported [§10.3.4](language.md#r-10-3-4) |
 | **dan** | anyone, people in general [§10.3.5](language.md#r-10-3-5) |
 
-Watch out for **nun**. It means "you", and for a while you'll trip over it, both reading it and saying it. It only ever means the person you're talking to. When English uses "you" for people in general, as in "you never know", the word is **dan**. [§10.2.2](language.md#r-10-2-2) [§10.3.5](language.md#r-10-3-5)
+Watch out for **nun**. It means "you" and only ever means the person you're talking to. Don't confuse it with **me**, which isn't "me" but "I'll" (lesson 4). When English uses "you" for people in general, as in "you never know", the word is **dan**. [§10.2.2](language.md#r-10-2-2) [§10.3.5](language.md#r-10-3-5)
 
 For "my" and "your", use **pi** "of" after the noun: "my house" is **guyi pi to** (house of me), and "your house" is **guyi pi nun**. There's more on **pi** in lesson 7. [§5.2.9](language.md#r-5-2-9)
 
@@ -260,26 +264,25 @@ Many grammar words are spelled like English words and mean something else. Learn
 | Looks like | Means | Example |
 |---|---|---|
 | **to** | I (English "to" is **tun**) | **to obu** "I come" [§13.1](language.md#r-13-1) |
+| **me** | "I'll…", I intend (not "me"; "me" is **to**) | **me obu** "I'll come" [§7.1.4](language.md#r-7-1-4) |
 | **nun** | you | **nun obu** "you come" [§10.2.2](language.md#r-10-2-2) |
-| **yan** | "you know", at the end of a sentence (not "a") | **wan sin oyi bun, yan.** "She said it, you know." [§7.2.3](language.md#r-7-2-3) |
-| **min** | focus: this one, not another | **min to** "*me*" [§6.2.3](language.md#r-6-2-3) |
 | **no** | the one who… | **no tofo** "one who teaches", a teacher [§5.4.2](language.md#r-5-4-2) |
-| **dan** | anyone | [§10.3.5](language.md#r-10-3-5) |
 | **we** | all | **ewo we** "all people", everyone [§5.2.8](language.md#r-5-2-8) |
-| **yon** | even (not "we") | **yon to** "even me" [§6.2.3](language.md#r-6-2-3) |
 | **go** | some | **pasu go** "some food" [§5.2.8](language.md#r-5-2-8) |
 | **kin** | some but not all | **kin pi foto la** "some of the photos" [§5.2.8](language.md#r-5-2-8) |
 | **pa** | some (unspecified) | **ewo pa** "someone" [§5.2.8](language.md#r-5-2-8) |
 | **win** | this | **totu win** "this dog" [§5.2.8](language.md#r-5-2-8) |
 | **ben** | that | **guyi ben** "that house" [§5.2.8](language.md#r-5-2-8) |
-| **kan** | we, including you | **ta kan isi.** "Let's go." [§10.3.7](language.md#r-10-3-7) |
+| **dan** | anyone | [§10.3.5](language.md#r-10-3-5) |
 | **son** | he/she, in reported speech | lesson 5 [§10.3.4](language.md#r-10-3-4) |
-| **gun** | is | **guyi gun kudu.** "The house is big." [§4.7.1](language.md#r-4-7-1) |
-| **ti** | do it (a command) | **ti obu.** "Come." [§4.2.8](language.md#r-4-2-8) |
+| **bun** | it | **to nagu bun.** "I see it." [§10.3.2](language.md#r-10-3-2) |
+| **ten** | very (not the number; 10 is **yawu**) | **ten kudu** "very big" [§6.2.6](language.md#r-6-2-6) |
+| **ma** | five, a digit (lesson 9) | **ma yawu** "50" [§9.1.1](language.md#r-9-1-1) |
+| **fun** | like, about; how | **nawi pasu fun yobe** "eat food quickly" [§4.2.4](language.md#r-4-2-4) |
+| **tan** | joins two describing words (lesson 3), not a colour | **demi wiwi tan buda** "dark-red cloth" [§5.2.11](language.md#r-5-2-11) |
 | **fin** | politely | **ta fin …** "please …" [§10.2.1](language.md#r-10-2-1) |
+| **gun** | is | **guyi gun kudu.** "The house is big." [§4.7.1](language.md#r-4-7-1) |
 | **yen** | and | **mole yen wede** "mother and father" [§4.4.5](language.md#r-4-4-5) |
-| **ta** | a request | **ta neke to osa.** "Give me water?" [§4.2.8](language.md#r-4-2-8) |
-| **gi** | who, which | **ewo gi obu** "the person who comes" [§5.3.1](language.md#r-5-3-1) |
 | **sin** | done (finished) | **to sin nawi.** "I've eaten." [§8.1.2](language.md#r-8-1-2) |
 | **don** | if | [§12.1](language.md#r-12-1) |
 

@@ -75,6 +75,12 @@ RULES = {
     "C no single region decides": lambda c: len(c) >= 12 and all(
         (len(c) - n) / (20 - NREG[g]) >= 0.6 for g, n in regs(c).items()),
     # D: Spanish-Quechua counted once (loans.md pattern 2: the assumed Spanish loan "gives Spanish two votes")
+    # Regional alternatives (author, 2026-10-15: "should we be aiming for regional balance, not language balance?")
+    "E 5 of 7 regions": lambda c: len(c) >= 12 and len(regs(c)) >= 5,
+    "F 6 of 7 regions": lambda c: len(c) >= 12 and len(regs(c)) >= 6,
+    # G: a region counts when at least half its panel languages share the form (EA 2/3, SEA 2/4, SA 2/3, WA 2/3,
+    #    EU 2/3, SSA 2/3, AM 1/1); at least 5 such regions
+    "G 5 regions where half share": lambda c: len(c) >= 12 and sum(1 for g, n in regs(c).items() if n * 2 >= NREG[g]) >= 5,
     "D es+qu one vote": lambda c: (len(c) - (1 if {"es", "qu"} <= c else 0)) >= 12 and len(regs(c)) >= 4,
 }
 

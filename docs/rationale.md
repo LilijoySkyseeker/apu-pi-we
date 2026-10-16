@@ -189,7 +189,7 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 
 ## 8. The name
 
-**apu pi we** "everyone's language" [Claude proposed, author approved; since 2026-10-13 **apu** means only "language", and the name is to be settled after the short words and the final placement]: any language is **apu pi** + whose it is, and this one belongs to no people or place. Required **apu** to cover "language" (CLICS4: 50.2% of families lump word/language). *Recomputed 2026-10-12 (C36): the figure reproduces, but its uncertainty spans 40–61%, so the lump/split rule doesn't decide it; under the 20–50% band "language" would be built from **apu**, and the name would change only in length. Open for the author.* Rejected: **apu pi ewo** (reads as "human language" in general), an invented name (wouldn't follow the grammar).
+**apu pi we** "everyone's language" [Claude proposed, author approved; since 2026-10-13 **apu** means only "language", and the name was kept when the short words were rebuilt, 2026-10-15]: any language is **apu pi** + whose it is, and this one belongs to no people or place. Required **apu** to cover "language" (CLICS4: 50.2% of families lump word/language). *Recomputed 2026-10-12 (C36): the figure reproduces, but its uncertainty spans 40–61%, so the lump/split rule doesn't decide it; under the 20–50% band "language" would be built from **apu**, and the name would change only in length. Open for the author.* Rejected: **apu pi ewo** (reads as "human language" in general), an invented name (wouldn't follow the grammar).
 
 ---
 

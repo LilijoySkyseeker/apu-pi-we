@@ -2,7 +2,7 @@
 
 Hand translation has now used stale word forms three times: forms renamed in a rebuild
 (Ate for "far", ban for "rather"). This flags every word that isn't a current grammar word,
-root, number word or digit, or a name after the article "en".
+root, number word or digit, or a name after the article "fo".
 
   python check.py FILE...        # checks language lines in code blocks and **bold** spans
   python check.py --text "..."   # checks one string
@@ -20,7 +20,7 @@ def unknown(text):
     for i, t in enumerate(toks):
         if t.lower() in KNOWN:
             continue
-        if i > 0 and toks[i - 1].lower() == "en":   # a name
+        if i > 0 and toks[i - 1].lower() == "fo":   # a name
             continue
         if len(t) == 1 and t.isupper():   # a placeholder in a template (X, Y)
             continue
