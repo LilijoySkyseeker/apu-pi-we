@@ -128,7 +128,7 @@ The published site stays at v1 until the language is solid; then a v2 site is bu
 - Senary gets its own vocabulary and page (a separate project; its words are reserved in `data/senary.tsv`).
 - **Needs real human listeners or readers (running list; author, 2026-10-15: keep a running note of what really needs testing with humans).** Model or AI checks stand in until then; add to this list whenever a decision rests on one. Trigger for running them: listeners or readers from at least three language families, or money for a crowd study (~$150–300 for 60 listeners; `research/notes/unknown-unknowns.md` #1).
   - Listening: the mishearing model's ranking of word pairs (listening-01's 32 pairs; the final short words and roots), in noise, by listeners of several first languages (B2; cold review's first repair).
-  - Listening: recognition of adapted loans (**intelunetu**, **kilometulu** …) by speakers of the panel languages; screened by Codex 2026-10-15 (`tests/loans-adapted-01/`).
+  - Listening: recognition of adapted loans (**intelunetu**, **kilometulu** …) by speakers of the panel languages; screened by Codex 2026-10-15 (`tests/loans-adapted-01/`); test especially the two rules behind most low scores: affricates → **t**/**d** (**denu** gene) and final r → **-lu** (**metulu**, **dolalu**, **biyalu**).
   - Listening: stress heard as pitch plus force, including whispered and sung speech (reference 2.6, decided 2026-10-15).
   - Listening: sentences where a pause is the only cue to structure, and the **kiyo** alternative (auxlang survey R6).
   - Reading: **feko** as the answer after a negative question, read the same way by speakers of polarity- and truth-based languages (4.8.6; unmeasured).

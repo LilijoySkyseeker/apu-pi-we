@@ -2,3 +2,19 @@
 [0mdirenv: using flake
 [0mdirenv: nix-direnv: Using cached dev shell
 picked runs/full-ha-s6.tsv -> full-ha.tsv
+[0mdirenv: loading ~/work/repos/universal-language/.envrc
+[0mdirenv: using flake
+[0mdirenv: nix-direnv: Using cached dev shell
+picked runs/full-ha-s6.tsv -> full-ha.tsv
+picked runs/full-hb-s6.tsv -> full-hb.tsv
+[0mdirenv: loading ~/work/repos/universal-language/.envrc
+[0mdirenv: using flake
+[0mdirenv: nix-direnv: Using cached dev shell
+picked runs/full-ha-s6.tsv -> full-ha.tsv
+picked runs/full-hb-s6.tsv -> full-hb.tsv
+picked runs/mid-0.01-ha-s8.tsv -> mid-0.01-ha.tsv
+picked runs/mid-0.02-ha-s11.tsv -> mid-0.02-ha.tsv
+picked runs/mid-0.04-ha-s10.tsv -> mid-0.04-ha.tsv
+picked runs/mid-0.01-hb-s2.tsv -> mid-0.01-hb.tsv
+picked runs/mid-0.02-hb-s12.tsv -> mid-0.02-hb.tsv
+picked runs/mid-0.04-hb-s3.tsv -> mid-0.04-hb.tsv
