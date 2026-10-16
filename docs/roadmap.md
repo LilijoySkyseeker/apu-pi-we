@@ -131,6 +131,7 @@ The published site stays at v1 until the language is solid; then a v2 site is bu
   - Reading: **feko** as the answer after a negative question, read the same way by speakers of polarity- and truth-based languages (4.8.6; unmeasured).
   - Reading: verbs with no object (4.5.4; Codex read 16 of 16 as intended, 2026-10-15).
   - Native speakers: offensive-word grades for the non-European languages (`research/notes/offensive-strength.md`), and the symbol-name near misses (@, dot) in Tagalog, Swahili, Hausa, Yoruba (`tests/symbols-01/`).
+  - Listening: the six grammar-word pairs that differ only by a final -n (**ta/tan**, **fo/fon**, **yo/yon**, **ka/kan**, **ya/yan**, **fi/fin**; rule retired 2026-10-16).
   - Learners: a learner trial (B10) and human readers for meaning (B1), as the cold review asked; a cross-language word-learning test of invented vs world-sourced roots (the Globasa floorboard trigger).
 
 ## Deliberately not built

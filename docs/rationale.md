@@ -69,7 +69,7 @@ This is the language's most distinctive machinery. Root **sounds are arbitrary o
 [author asked to weigh drift heavily; evidence] A native language changes; the fast-changing layer is the one-syllable grammar words, which carry most of the precision machinery.
 - **Content words** must stay distinct after predicted changes: later-syllable e/i and o/u merge, middle p/t/k voice, final -n is lost, s/z merge. Implemented as `Inventory.content_key`: two words with the same key can't coexist.
 - **Grammar words** that can fill the same slot start with **different consonants** (`GROUPS_STRICT` in `build.py`), so vowel reduction can't merge them; words in the same wider position stay distinct after drift (`GROUPS_WIDE`, `grammar_key`).
-- **No two grammar words differ only by a final -n** (it's the first thing to go).
+- ~~**No two grammar words differ only by a final -n**~~ retired 2026-10-16 [author]: replaced by the position rule (no such pair among words that share a position) plus model v2's direct scoring of final-n loss (design log).
 
 ### 3.4 Juncture (`tools/juncture.py`)
 [Claude, idea from senary] Written tests can't hear word boundaries. Rules: no content word begins with a one-syllable digit's syllable (so "digit + grammar word" can't sound like a content word); no -n pairs; no grammar word ending in -n before a vowel-initial word that would be heard as another word. Run after any addition.
