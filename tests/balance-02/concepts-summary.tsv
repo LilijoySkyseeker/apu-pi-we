@@ -1,0 +1,4 @@
+run	spearman_all_canonicals	spearman_orig_top1500	enter_first1500_canonicals	leave_first1500_canonicals	enter_list_segment	leave_list_segment
+head	0.917	0.849	131	131	95	95
+split	0.902	0.832	149	149	107	107
+canon	0.880	0.767	154	154	119	119

@@ -1,0 +1,15 @@
+run	region	on_list_root	covered_by_phrase	content_not_on_list	below_merge_cut	below_cut_multi_synonym	share_missing_of_merged
+orig	EA	853	13	79	55	10	0.084
+orig	SEA	913	16	61	10	1	0.062
+orig	SA	751	13	62	174	130	0.075
+orig	WA	877	10	51	62	41	0.054
+orig	EU	883	9	75	33	12	0.078
+orig	SSA	711	12	64	213	124	0.081
+orig	AM	400	6	45	549	388	0.100
+head	EA	891	16	76	17	0	0.077
+head	SEA	911	18	68	3	0	0.068
+head	SA	910	14	73	3	0	0.073
+head	WA	919	16	64	1	1	0.064
+head	EU	918	15	62	5	0	0.062
+head	SSA	871	18	89	22	0	0.091
+head	AM	622	11	83	284	72	0.116

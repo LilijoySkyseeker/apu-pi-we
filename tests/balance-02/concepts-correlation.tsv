@@ -1,0 +1,15 @@
+run	region	spearman_region_mean_vs_final	mean_spearman_of_its_languages	per_language	spearman_final_without_region
+orig	EA	0.862	0.745	zh:0.77 ja:0.73 ko:0.73	0.9198
+orig	SEA	0.865	0.694	vi:0.62 th:0.74 id:0.71 tl:0.70	0.9560
+orig	SA	0.815	0.624	hi:0.69 bn:0.64 ta:0.54	0.9682
+orig	WA	0.881	0.723	fa:0.79 ar:0.63 tr:0.74	0.9386
+orig	EU	0.897	0.795	ru:0.70 es:0.83 fr:0.85	0.9179
+orig	SSA	0.799	0.574	sw:0.68 ha:0.63 yo:0.41	0.9778
+orig	AM	0.457	0.457	qu:0.46	0.9895
+head	EA	0.832	0.710	zh:0.67 ja:0.75 ko:0.71	0.9587
+head	SEA	0.843	0.635	vi:0.56 th:0.66 id:0.73 tl:0.60	0.9726
+head	SA	0.851	0.710	hi:0.78 bn:0.67 ta:0.68	0.9677
+head	WA	0.870	0.744	fa:0.76 ar:0.72 tr:0.75	0.9647
+head	EU	0.893	0.816	ru:0.79 es:0.84 fr:0.82	0.9550
+head	SSA	0.754	0.563	sw:0.66 ha:0.59 yo:0.43	0.9765
+head	AM	0.467	0.467	qu:0.47	0.9892

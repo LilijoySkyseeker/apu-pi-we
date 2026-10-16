@@ -1,0 +1,96 @@
+canonical	canon_rank_orig	canon_rank_fixed	judgement	note (added: Claude's reading)	enters_under
+fact	1265	297	missing	abstract; news and talk ("in fact")	head,split,canon
+common	1470	346	missing	ordinary, shared	head,split,canon
+accept	1505	380	missing	near tayu "agree" and efon "allow", but taking an offer or gift is neither	head,split,canon
+develop	1282	417	covered	guge "grow" (the glosses are "development, growth, progress")	head,split,canon
+fate	1262	434	missing	destiny; a SA/WA everyday concept (balance-01's SA example)	head,split,canon
+lack	1242	446	list	on roots-1500 (ladder: covered:mu ibe); rebuild noise	head,split,canon
+primary	1573	478	covered	bawe "important" for "main, chief" (near)	head,split,canon
+influence	1248	506	missing	formal; near lula "power, control" but not the same	head,split,canon
+duty	1272	509	covered	keya "must" as a noun phrase (what one must do)	head,split,canon
+deputy	1653	527	artefact	mixes "vice-" with "member of parliament" (fa, tr, ru deputat); formal	head,split,canon
+holy	1430	588	missing	sacred; religious everyday word (balance-01's SA example)	head,split,canon
+assistant	1323	634	covered	no yema (one who helps), derived word	head,split,canon
+status	1364	653	missing	formal (rank, position)	head,split,canon
+salary	1377	713	composes	nimo pi doku (money of work); everyday	head,split,canon
+avoid	1319	716	missing	everyday	head,split,canon
+suitable	1541	727	missing	fit, proper; near denku "correct"	head,split,canon
+guess	1629	737	missing	everyday	head,split,canon
+delicious	1459	753	composes	tenmi upe (tastes good); everyday	head,split,canon
+partner	1583	785	missing	mixes business, romantic partner and buddy (sonu covers buddy)	head,split,canon
+environment	1268	794	missing	formal, news	head,split,canon
+disappear	1278	797	missing	everyday	head,split,canon
+destroy	1283	815	missing	near alun "break"	head,split,canon
+stupid	1739	829	composes	mu gole (not smart)	head,split,canon
+current	1290	832	composes	pi eda (of now)	head,split,canon
+explode	1267	835	missing	everyday and news	head,split,canon
+accuse	1504	860	missing	legal, news	head,split,canon
+thread	1531	869	missing	sewing; concrete	head,split,canon
+waste	1333	882	missing	mixes "waste time/money" with trash (trash is bekin)	head,split,canon
+civil	1477	891	artefact	civic/civilian/polite mixed; formal	head,split,canon
+forgive	1584	897	missing	everyday; sepi is "apologise" (balance-01's SA example)	head,split,canon
+funny	1632	913	composes	pi bubo (that makes one laugh)	head,split,canon
+load	1418	926	missing	burden; near dinyo "carry"	head,split,canon
+hill	1255	930	covered	genne "mountain" (many glosses lump: "hill, mountain", "hill, small mountain"); a boundary question, not a gap	head,split,canon
+heap	2059	939	missing	pile; minor	head,split,canon
+warm	1334	940	missing	tikun is "hot"; warm sits between (boundary question)	head,split,canon
+disaster	1647	945	missing	news (balance-01's EA example)	head,split,canon
+fun	1437	966	covered	luse "play, for fun"	head,split,canon
+deliver	1285	967	artefact	mixes "orate", "issuing", parcel delivery; delivery composes with sege "send"	head,split,canon
+forbid	1772	980	composes	mu efon (not allow)	head,split,canon
+effective	1269	987	artefact	mixes competence, efficiency, effectiveness	head,split,canon
+unique	1519	990	missing	formal; composes "only one"	head,split,canon
+wonder	1928	992	artefact	mixes "ask oneself", "marvel" and an exclamation	head,split,canon
+celebrate	1304	996	missing	celebration, festival; everyday in every region	head,split,canon
+remainder	1564	1015	artefact	"remains" pulls in corpse glosses; rest/remainder composes with eni "other"	head,split,canon
+yell	1371	1022	covered	oyi dibon (compounds.tsv)	head,split,canon
+associate	1495	1028	artefact	overlaps partner and colleague	head,split,canon
+include	1619	1030	missing	formal-ish but frequent	head,split,canon
+vision	1516	1032	covered	nagu "see" (sight)	head,split,canon
+blame	1488	1039	missing	everyday	head,split,canon
+fill	1444	1043	composes	muge kete (make full)	head,split,canon
+exceed	1639	1052	missing	formal	head,split,canon
+link	1241	1063	list	du penyu (compounds.tsv); on roots-1500; rebuild noise	head,split,canon
+fit	1442	1066	artefact	overlaps suitable ("fit, proper, appropriate")	head,split,canon
+active	1707	1067	artefact	mixes "operative", "live", "energetic"; formal	head,split,canon
+decrease	1385	1070	missing	everyday; opposite of ginni "add" is not it	head,split,canon
+statue	1743	1071	missing	concrete (statue, idol)	head,split,canon
+staff	1744	1072	artefact	mixes stick (rod, staff) and personnel	head,split,canon
+participate	1785	1073	missing	formal	head,split,canon
+occupy	1593	1085	artefact	mixes take up space, conquer, live in	head,split,canon
+characteristic	1302	1093	missing	formal (feature, trait)	head,split,canon
+decline	1286	1101	artefact	mixes decrease, refuse and grammar's "decline"	head,split,canon
+contain	1294	1103	missing	overlaps include	head,split,canon
+obey	1403	1107	missing	everyday; near lefan "follow"	head,split,canon
+charm	1672	1108	artefact	mixes allure, amulet and spell (wase "magic")	head,split,canon
+familiar	1264	1122	missing	acquainted, known; near lugo "know"	head,canon
+merit	1238	1128	list	on roots-1500; rebuild noise	head,split,canon
+earthquake	1271	1130	missing	concrete, news (balance-01's EA example)	head,split,canon
+text	1348	1131	covered	kemin "document" or the message sense of liga/imeyilu; mixed	head,split,canon
+heal	1461	1135	missing	cure, remedy; everyday	head,split,canon
+medal	1239	1140	list	on roots-1500; rebuild noise	head,split,canon
+hate	1431	1142	missing	everyday; not covered by wigen "love"	head,split,canon
+attend	1322	1150	missing	be present at; partly mixed with "pay attention"	head,split
+decade	1288	1151	composes	yawu fawu (ten years)	head,split
+cruel	1291	1155	missing	everyday (one gloss is an intensifier)	head,split
+descend	1652	1159	composes	isi deba (go below)	head,split,canon
+superior	1357	1163	covered	tisan "high" (higher, superior)	head,split,canon
+trace	1343	1167	artefact	mixes trace, mark, footprint, track	head,split
+chain	1303	1171	missing	concrete	head
+acquaintance	1328	1172	composes	ewo pi lugo (a person one knows)	head
+track	1527	1178	artefact	mixes track, trace, line	head,split
+bell	1314	1184	missing	concrete	head,split
+kindness	1610	1191	missing	everyday virtue	head,split,canon
+nonsense	1406	1194	missing	colloquial	head,split
+fixed	2078	1199	artefact	mixes steady, immovable, set	head
+obstacle	1402	1205	missing	formal-ish	head,canon
+fraud	1438	1207	missing	deceit, cheating; near bunsi "steal"	head
+task	1536	1208	covered	doku "work, task, labour"	head,split
+achieve	1503	1209	missing	near wonku "reach"	head,split,canon
+cooperate	1661	1211	composes	doku fanmu (work together); formal	head,split,canon
+summary	1735	1230	missing	formal	head,canon
+endure	1866	1231	missing	bear, tolerate; everyday	head,split
+substitute	1543	1234	missing	replacement	head
+apply	1919	1237	artefact	mixes put on (yaga) and make use of (bone)	head,split
+acting	1502	1240	artefact	mixes performance and "acting (interim)"	head
+shelter	1550	1241	missing	refuge; composes with kuwi "protect"	head,split

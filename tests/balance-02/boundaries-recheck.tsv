@@ -1,0 +1,141 @@
+pair	lang	script_as_recorded	script_comma_split	words_a	words_b	separate_word
+moon|month	zh	split	split	月亮	月份	-
+moon|month	ja	nodata	nodata	月 月曜		-
+moon|month	ko	lump+sep	lump+sep	달	월 달	월 513%
+moon|month	vi	split	split	trăng nguyệt	tháng	-
+moon|month	th	lump+sep	lump+sep	เดือน มา จันทร์	เดือน ในเดือน เดือนแล้ว	มา 78%
+moon|month	id	lump+sep	lump+sep	bulan kamar	bulan sebulan purnama	kamar 32%
+moon|month	tl	lump	lump	buwan	buwan	-
+moon|month	hi	lump+sep	lump+sep	इंदु माह चाँद	महीने इंदु माह	चाँद 70%, महीने 251%
+moon|month	bn	split	split	চান চন্দ্র চাঁদ	মাসে মাস মাসের	-
+moon|month	ta	split	split	இந்து திங்கள் இந்துக்கள்	மாதம் மாதத்தில் மாதங்களுக்கு	-
+moon|month	fa	lump	lump	ماه	ماه	-
+moon|month	ar	nodata	nodata		شهر الشهر شهور	-
+moon|month	tr	lump	lump	ay uydu ayın	ay ayın aylar	-
+moon|month	ru	lump+sep	lump+sep	месяцев месяц месяца	месяцев месяц месяца	луна 16%
+moon|month	es	split	split	luna	meses mes	-
+moon|month	fr	split	lump+sep	lune	mois lune	mois 699%
+moon|month	sw	lump	lump	mwezi miezi	mwezi miezi	-
+moon|month	ha	lump	lump	wata watan watanni	wata watan watanni	-
+moon|month	yo	lump+sep	lump+sep	osu osù osupa	osu osù oṣù	osupa 12%
+moon|month	qu	lump	lump	killapi killa killakama	killapi killa killakama	-
+day|daytime	zh	nodata	nodata		一日 白天	-
+day|daytime	ja	split	split	当日	日間 昼間 昼	-
+day|daytime	ko	lump+sep	lump+sep	날 하루 주간	해 날 하루	해 200%
+day|daytime	vi	nodata	nodata	ngày hôm bữa		-
+day|daytime	th	lump+sep	lump+sep	วัน ค่ำ วันอันตราย	วัน	ค่ำ 16%
+day|daytime	id	split	split	hari sehari hr	siang	-
+day|daytime	tl	lump	lump	araw	araw	-
+day|daytime	hi	nodata	lump+sep	दिन दिनों दिवस	दिन दिनों	दिवस 10%
+day|daytime	bn	nodata	lump+sep	দিন দিবস দিবসে	দিবস দিবসে দিবসের	দিন 575%
+day|daytime	ta	split	split	நாள் நாட்கள் தினம்	எல் பகல்	-
+day|daytime	fa	lump	lump	روز روزها ایام	روز روزها نهار	-
+day|daytime	ar	nodata	lump+sep	يوم الأيام يومين	النهار	يوم 2630%
+day|daytime	tr	lump	lump	gün günü günler	gün günü günler	-
+day|daytime	ru	nodata	lump+sep	день дня дней	день дня дней	часов 24%
+day|daytime	es	nodata	nodata	día días época		-
+day|daytime	fr	lump+sep	lump+sep	suis était sont	journée journées	suis 2037%
+day|daytime	sw	nodata	split	siku	mchana	-
+day|daytime	ha	nodata	nodata	ranar rana kwana		-
+day|daytime	yo	nodata	nodata	ojo ọjọ́ òjó		-
+day|daytime	qu	nodata	nodata	p'unchaw p'unchawninmi p'unchawqa		-
+hear|listen	zh	nodata	nodata	听见		-
+hear|listen	ja	nodata	split	聴取	聞く 聞き 聞か	-
+hear|listen	ko	nodata	lump	들어 듣고 들었어	들어 듣고 들었어	-
+hear|listen	vi	lump	lump	nghe mắng	nghe mắng	-
+hear|listen	th	split	split	ยิน ได้ยิน	ฟัง	-
+hear|listen	id	nodata	split	dengar memeriksa diperiksa	dengarkan simak	-
+hear|listen	tl	nodata	nodata		makinig pakinggan nakikinig	-
+hear|listen	hi	nodata	lump	सुनो सुना सुन	सुनो सुना सुन	-
+hear|listen	bn	nodata	nodata	শুনতে শুনেছি শোনো		-
+hear|listen	ta	nodata	nodata	கேட்க கேள் கேட்டு		-
+hear|listen	fa	lump	lump	بشن شنیدم بشنوم	بشن شنیدم بشنوم	-
+hear|listen	ar	split	split	سمعت اسمع اسمعي	تسمع استمع تستمع	-
+hear|listen	tr	nodata	lump+sep	dinle duydum duydun	dinle dinleyin dinlemek	duydum 53%
+hear|listen	ru	nodata	split	слышал узнать слышала	слушай послушай послушайте	-
+hear|listen	es	nodata	split	siento entiendo entiendes	oiga oigan	-
+hear|listen	fr	split	split	entendre entends bravo	écoutez écouter écoutes	-
+hear|listen	sw	nodata	nodata	kusikia		-
+hear|listen	ha	lump+sep	lump+sep	ji jin	ji saurari	jin 54%
+hear|listen	yo	nodata	nodata			-
+hear|listen	qu	nodata	lump	uyarispa uyan uyarina	uyarispa uyan uyarina	-
+take|get	zh	split	split	take 拿到 服用	采取 获取 拿来	-
+take|get	ja	split	split	もらう 送れ もらい	受け 受ける 得る	-
+take|get	ko	nodata	split	잡아 타고 받아	먹고 받아 받고	-
+take|get	vi	split	split	đưa lấy mất	được bắt lãnh	-
+take|get	th	split	split	ขน	ได้ เป็น ต้องได้	-
+take|get	id	split	split	ambil bawa minum	dapat dapatkan mencapai	-
+take|get	tl	lump+sep	lump+sep	kinuha kunin kuha	nakuha kinuha kumuha	kuha 37%, nakuha 112%
+take|get	hi	nodata	lump	लिए ले लिया	लिए ले लिया	-
+take|get	bn	nodata	split	নেই নিতে তুলে	পাওয়া পেতে পাবে	-
+take|get	ta	nodata	split	எடுத்து எடுக்க வாங்க	பெற பெற்ற வாங்க	-
+take|get	fa	lump	lump+sep	گرفته گرفتم گرفتن	گرفته گرفتم گرفتن	برداشت 15%
+take|get	ar	split	split	إليك حسب دي	يوجد وجدت أخذ	-
+take|get	tr	nodata	lump+sep	aldım aldı almak	aldım anlıyorum aldı	giren 37%, anlıyorum 95%
+take|get	ru	split	split	им возьми взять	получил получить становится	-
+take|get	es	split	split	tomar toma tomó	llegar buscando conseguir	-
+take|get	fr	lump+sep	lump+sep	faut prendre prends	prendre prends prend	faut 184%, tomber 34%
+take|get	sw	split	split	kuchukua kubeba kutwaa	kupata kupokea wanapata	-
+take|get	ha	split	split	dauki dauka daukar	samu samun sami	-
+take|get	yo	nodata	nodata	gba gbà gbá		-
+take|get	qu	nodata	split	hap'irqan hap'isqan hap'ispa	chaskirqan chaskispa chaskin	-
+arm|hand	zh	nodata	nodata	武装 手臂 胳膊		-
+arm|hand	ja	split	split	アーム 腕	手 ハンド	-
+arm|hand	ko	split	split	팔 다리 폴	손	-
+arm|hand	vi	lump+sep	lump+sep	tay	đưa tay kim	đưa 110%
+arm|hand	th	nodata	nodata		มือ ถืออยู่ในมือท่านฉบับนี้คือ กร	-
+arm|hand	id	lump	lump	tangan lengan	tangan	-
+arm|hand	tl	split	split	braso bisig	kamay	-
+arm|hand	hi	nodata	split	हथियार हथियारों	कर हाथ हाथों	-
+arm|hand	bn	nodata	nodata		হাত কাঁটা	-
+arm|hand	ta	nodata	nodata		கை கைகளில் கையை	-
+arm|hand	fa	lump	lump	دست دستم شاخه	دست دستم چنگ	-
+arm|hand	ar	nodata	lump+sep	السلاح سلاح الأسلحة	جناح	السلاح 371%
+arm|hand	tr	split	split	ara arada arası	el elde ele	-
+arm|hand	ru	lump	lump+sep	руки оружие руку	стороны руки руку	оружие 54%, стороны 109%
+arm|hand	es	split	split	arma armas brazo	pasó pasar manos	-
+arm|hand	fr	split	split	bras	main mains pattes	-
+arm|hand	sw	lump	lump	mkono mikono mkononi	mkono mikono mkononi	-
+arm|hand	ha	lump+sep	lump+sep	hannu hannun	hannu hannun hannunsa	hannunsa 11%
+arm|hand	yo	nodata	nodata	apá apa		-
+arm|hand	qu	nodata	nodata		maki	-
+ghost|spirit	zh	split	split	鬼魂	精神	-
+ghost|spirit	ja	split	split	化け物 鬼 霊	気 心 たま	-
+ghost|spirit	ko	nodata	lump+sep	귀신	기 신 숨	기 19050%
+ghost|spirit	vi	split	split	ma	thần hồn	-
+ghost|spirit	th	split	split	ปีศาจ ผี	กำลังใจ	-
+ghost|spirit	id	split	split	hantu	jiwa semangat nyawa	-
+ghost|spirit	tl	lump+sep	lump+sep	espiritu multo	espiritu	multo 33%
+ghost|spirit	hi	nodata	lump+sep	भूत प्रेत	दिल जान दम	प्रेत 17%, दिल 978%
+ghost|spirit	bn	nodata	lump+sep	আত্মা আত্মার ভূত	দিল আত্মা আত্মার	দিল 142%
+ghost|spirit	ta	nodata	lump+sep	காற்று பேய் பேய்கள்	உள்ளது காற்று ஆன்மா	பேய் 31%, உள்ளது 2077%
+ghost|spirit	fa	lump	lump+sep	روح ارواح جن	نفس معنی روح	جن 18%, نفس 128%
+ghost|spirit	ar	nodata	lump	روح الروح الأرواح	روح الروح الأرواح	-
+ghost|spirit	tr	nodata	split	hayalet	ruh ruhu	-
+ghost|spirit	ru	lump+sep	lump+sep	душе дух призрак	души душу душе	призрак 57%, души 148%
+ghost|spirit	es	nodata	split	fantasma sombra fantasmas	corazón espíritu ánimo	-
+ghost|spirit	fr	nodata	split	fantôme ombre apparition	ressort entrain	-
+ghost|spirit	sw	nodata	nodata		roho	-
+ghost|spirit	ha	nodata	nodata		rai iska rayuka	-
+ghost|spirit	yo	nodata	nodata		emi èmi èmí	-
+ghost|spirit	qu	nodata	nodata		nuna samay samanku	-
+leg|foot	zh	nodata	nodata		英尺	-
+leg|foot	ja	nodata	nodata		足	-
+leg|foot	ko	lump+sep	lump+sep	발 다리	발 피트 굽	다리 85%, 피트 21%
+leg|foot	vi	lump+sep	lump+sep	chân giò chơn	chân gốc chơn	gốc 47%
+leg|foot	th	split	split	ขา	บาท ฟุต	-
+leg|foot	id	nodata	nodata		kaki	-
+leg|foot	tl	lump+sep	lump+sep	paa binti	paa talampakan	binti 16%, talampakan 13%
+leg|foot	hi	split	split	लात	पद चरण पैर	-
+leg|foot	bn	nodata	lump+sep	পায় পা	মূল পায় পা	মূল 118%
+leg|foot	ta	lump+sep	lump+sep	கால் காலில் கால்களை	அடி கிழக்கு கால்	அடி 151%
+leg|foot	fa	lump+sep	lump+sep	پا شاخ پو	پا قدم فوت	شاخ 15%, قدم 69%
+leg|foot	ar	nodata	nodata		آخر أخرى الأخرى	-
+leg|foot	tr	lump	lump+sep	ayak ayağa ayağı	ayak ayağa ayağı	bacak 20%
+leg|foot	ru	lump+sep	lump+sep	ноги ногу ног	ноги ногу ног	плечо 13%, футов 15%
+leg|foot	es	split	split	pierna etapa pata	pie pies queso	-
+leg|foot	fr	split	lump+sep	pied pieds jambes	pied pieds	jambes 48%
+leg|foot	sw	split	split	miguu mguu	futi	-
+leg|foot	ha	split	split	kafa kafar	san sau	-
+leg|foot	yo	nodata	nodata	tètè tete		-
+leg|foot	qu	nodata	lump+sep	chanka chaki chankay	chaki	chanka 264%
