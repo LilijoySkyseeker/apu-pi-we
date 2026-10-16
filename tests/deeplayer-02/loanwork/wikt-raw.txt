@@ -1,0 +1,575 @@
+=== dolphin
+--- [aquatic mammal] (18/20 panel languages present)
+  Mandarin: 海豚 (hǎitún), 海豬 (hǎizhū), 海豨 (hǎixī)
+  Japanese: 海豚 (いるか, iruka), イルカ (iruka)
+  Korean: 돌고래
+  Vietnamese: cá heo
+  Thai: โลมา, [[ปลา]][[โลมา]] (bplaa loo-maa)
+  Indonesian: lumba-lumba
+  Tagalog: lumba-lumba, lumbalumba
+  Hindi: सूंस, सूँस, शिशुमार, डॉल्फ़िन
+  Bengali: ডলফিন
+  Tamil: ஓங்கில்
+  Persian: دُلْفین
+  Arabic: دُلْفِين, دَرْفِيل, دُخَس
+  Turkish: yunus, delfin, ırgay
+  Russian: дельфи́н
+  Spanish: delfín
+  French: dauphin
+  Swahili: pomboo
+  Quechua: phujpuri
+--- [nautical: anchored spar or buoy for mooring] (0/20 panel languages present)
+--- [nautical: mooring post] (0/20 panel languages present)
+--- [maritime structure] (5/20 panel languages present)
+  Japanese: ドルフィン (dorufin)
+  Korean: 돌핀
+  Russian: причальный пал, куст свай
+  Spanish: duque de Alba
+  French: duc-d'Albe
+=== mule
+--- [offspring of male donkey and female horse] (17/20 panel languages present)
+  Mandarin: 馬騾, 騾子
+  Japanese: 騾馬 (raba), ラバ (raba), ミュール (myūru)
+  Korean: 노새
+  Vietnamese: la
+  Thai: ล่อ, ฬ่อ
+  Indonesian: bagal
+  Tagalog: mula
+  Hindi: खच्चर
+  Bengali: খচ্চর
+  Tamil: கோவேறுகழுதை
+  Persian: قاطر (qâter)
+  Arabic: بَغَل
+  Turkish: katır
+  Russian: мул
+  Spanish: mulo, mula, acémila
+  French: mule, mulet
+  Swahili: nyumbu, baghala
+--- [hybrid offspring of any two species of animals] (0/20 panel languages present)
+--- [hybrid plant] (0/20 panel languages present)
+--- [stubborn person] (0/20 panel languages present)
+--- [person paid to smuggle drugs] (4/20 panel languages present)
+  Mandarin: [[毒品]][[攜帶者]]
+  Russian: верблю́д, мул
+  Spanish: mula, burro
+  French: mule
+--- [numismatics: coin or medal minted with designs not normally seen on the same piece] (0/20 panel languages present)
+--- [role games: MMORPG character, or NPC companion] (0/20 panel languages present)
+--- [type of cocktail] (0/20 panel languages present)
+--- [sailing: type of triangular sail] (0/20 panel languages present)
+--- [type of cotton-spinning machine] (0/20 panel languages present)
+--- [backless shoe] (3/20 panel languages present)
+  Mandarin: 穆勒鞋
+  Japanese: ミュール
+  French: mule
+=== parrot
+--- [kind of bird] (17/20 panel languages present)
+  Mandarin: 鸚鵡 (yīngwǔ), 能言鳥 (néngyánniǎo), 鸚哥 (yīnggē), 鸚形目 (yīngxíngmù)
+  Japanese: オウム (ōmu), 鸚鵡, インコ (inko), 鸚哥
+  Korean: 앵무새
+  Vietnamese: vẹt, két
+  Thai: แก้ว, นกแก้ว (nók gɛ̂ɛo)
+  Indonesian: nuri
+  Tagalog: loro, pariko, piriko, pikoy
+  Hindi: तोता, तोती, शुक, सूआ
+  Bengali: টিয়া
+  Tamil: கிளி
+  Persian: طوطی (tuti), بپغا (bepġâ)
+  Arabic: بَبَّغَاء
+  Turkish: papağan, dudu
+  Russian: попуга́й
+  Spanish: papagayo, loro, cotorra, catana
+  French: perroquet
+  Swahili: kasuku, dura, kwao
+--- [person who repeats what was said] (7/20 panel languages present)
+  Mandarin: 肉喇叭, 應聲蟲
+  Hindi: तोता
+  Arabic: بَبَّغَاء
+  Turkish: papağan
+  Russian: попуга́й
+  Spanish: papagayo, loro, cotorra
+  Swahili: kasuku
+--- [(unchecked)] (0/20 panel languages present)
+--- [to repeat exactly without showing understanding] (6/20 panel languages present)
+  Mandarin: 鸚鵡學舌 (yīngwǔ xuéshé), 人云亦云 (rényúnyìyún)
+  Turkish: papağanlamak
+  Russian: механи́чески повторя́ть, попуга́йничать
+  Spanish: hablar como un papagayo, hablar por boca de ganso, [[repetir]] [[como]] [[loro]], lorear
+  French: perroqueter, perrucher
+  Swahili: kasuku
+=== camel
+--- [beast of burden] (19/20 panel languages present)
+  Mandarin: 駱駝 (luòtuó)
+  Japanese: 駱駝 (らくだ, rakuda), ラクダ (rakuda)
+  Korean: 낙타(駱駝), 락타(駱駝)
+  Vietnamese: lạc đà, 駱駝
+  Thai: อูฐ, โลโต
+  Indonesian: unta
+  Tagalog: kamelyo
+  Hindi: ऊँट, उष्ट्र, शुतुर, उंट
+  Bengali: উট
+  Tamil: ஒட்டகம்
+  Persian: شُتُر, شُتُر, اُشْتُر
+  Arabic: جَمَل, نَاقَة, بَعِير, إِبِل
+  Turkish: deve, hecin
+  Russian: верблю́д
+  Spanish: camello, dromedario, camella
+  French: chameau, chamelle
+  Swahili: ngamia
+  Hausa: raƙumi
+  Yoruba: ràkùnmí
+=== cockroach
+--- [type of insect] (18/20 panel languages present)
+  Mandarin: 蟑螂 (zhāngláng), 蜚蠊 (fěilián), 偷油婆 (tōuyóupó), 小強 (xiǎoqiáng)
+  Japanese: ゴキブリ (gokiburi), アブラムシ (abura-mushi), アマメ (amame)
+  Korean: 바퀴, 바퀴벌레
+  Vietnamese: gián
+  Thai: แมลงสาบ, สาบ
+  Indonesian: kecoak, kacoa, kecoa
+  Tagalog: ipis
+  Hindi: तिलचट्टा, तिलचटा, चपड़ा
+  Bengali: তেলাপোকা, আরশুলা
+  Tamil: கக்கலாத்து, கரப்பான் பூச்சி, கரப்பான்
+  Persian: مَادَرِ کَیکَان, سوسْک
+  Arabic: صُرْصُور
+  Turkish: hamam böceği, karafatma
+  Russian: тарака́н, пруса́к
+  Spanish: cucaracha, jate, curiana, fatula
+  French: cafard, blatte, coquerelle
+  Swahili: mende, kombamwiko
+  Hausa: kyankyaso
+=== frying pan
+--- [long-handled, shallow pan used for frying food] (15/20 panel languages present)
+  Mandarin: 平底鍋 (píngdǐguō), 煎鍋 (jiānguō)
+  Japanese: フライパン (furaipan)
+  Korean: 프라이팬, 후라이팬
+  Vietnamese: chảo, xanh
+  Thai: กระทะ
+  Tagalog: kawali
+  Hindi: कड़ाही, कड़ाहा, तवा
+  Bengali: ভাজার চাটু, ফ্রাইং প্যান
+  Persian: تابه (tâbe), ماهیتابه (mâhitâbe)
+  Arabic: مِقْلَاة
+  Turkish: tava
+  Russian: сковорода́, сковоро́дка
+  Spanish: sartén
+  French: poêle, poêle à frire, esquilette
+  Quechua: payla
+=== pepper
+--- [plant] (13/20 panel languages present)
+  Mandarin: 胡椒 (hújiāo)
+  Japanese: 胡椒 (こしょう, koshō)
+  Vietnamese: tiêu
+  Indonesian: lada
+  Tagalog: paminta
+  Hindi: मिर्च
+  Persian: مُرْچ, فِلْفِل, فِلْفِل
+  Arabic: فِلْفِل, فُلْفُل
+  Turkish: biber
+  Russian: пе́рец
+  Spanish: pimentero
+  French: poivrier
+  Swahili: mpilipili
+--- [spice] (18/20 panel languages present)
+  Mandarin: 胡椒 (hújiāo)
+  Japanese: 胡椒 (こしょう, koshō)
+  Korean: 고추, 후추
+  Vietnamese: tiêu
+  Thai: พริกไทย
+  Indonesian: merica, lada
+  Hindi: मिर्च
+  Bengali: মরিচ
+  Tamil: மிளகு
+  Persian: مُرْچ, فِلْفِل, فِلْفِل, مَرِچ
+  Arabic: فِلْفِل, فُلْفُل
+  Turkish: karabiber, biber
+  Russian: пе́рец, чёрный пе́рец
+  Spanish: pimienta
+  French: poivre
+  Swahili: pilipili manga
+  Yoruba: ata
+  Quechua: piminta
+--- [fruit of the capsicum] (10/20 panel languages present)
+  Mandarin: 菜椒 (càijiāo)
+  Thai: พริกหยวก
+  Indonesian: lada
+  Hindi: मिर्च
+  Persian: فِلْفِل
+  Turkish: biber, paprika
+  Russian: пе́рец, болга́рский пе́рец
+  Spanish: pimiento, chile, ají
+  French: piment, poivron
+  Swahili: pilipili hoho
+--- [(unchecked)] (0/20 panel languages present)
+--- [add pepper to] (3/20 panel languages present)
+  Turkish: biberlemek
+  Russian: перчи́ть, поперчи́ть
+  French: poivrer, [[assaisonner]] [[de]] [[poivre]]
+--- [strike with small particles] (1/20 panel languages present)
+  Spanish: acribillar
+--- [cover with lots of small things] (1/20 panel languages present)
+  French: recouvrir
+--- [add at frequent intervals] (1/20 panel languages present)
+  French: ponctuer
+=== cotton
+--- [any plant yielding fiber like that of ''Gossypium''] (20/20 panel languages present)
+  Mandarin: 棉花 (miánhua), 棉 (mián)
+  Japanese: 綿 (わた, wata)
+  Korean: 면화(棉花), 목화(木花), 면(綿)
+  Vietnamese: bông
+  Thai: ต้นฝ้าย, ฝ้าย
+  Indonesian: kapas, kapuk, katun
+  Tagalog: bulak, algudon
+  Hindi: कपास, गुड, पम्बा
+  Bengali: কার্পাস
+  Tamil: கொட்டை, பருத்தி, பஞ்சு, உத்தரி
+  Persian: پَنْبِه, پَخْتِه, پِمِّه
+  Arabic: قُطْن, قُطُن
+  Turkish: pamuk
+  Russian: хло́пок, хлопча́тник, хлопча́тая бума́га
+  Spanish: algodón
+  French: coton
+  Swahili: pamba
+  Hausa: auduga
+  Yoruba: òwú
+  Quechua: utku
+--- [fiber] (17/20 panel languages present)
+  Mandarin: 棉布 (miánbù), 棉紗 (miánshā), 棉絮 (miánxù)
+  Japanese: 綿糸 (めんし, menshi), コットン (kotton)
+  Korean: 솜, 면(綿)
+  Vietnamese: bông
+  Thai: ต้นฝ้าย, ฝ้าย
+  Indonesian: katun
+  Tagalog: bulak, algudon
+  Hindi: तूल, कपास, रूई
+  Bengali: তুলো, তুলা
+  Tamil: பஞ்சு
+  Persian: پَنْبِه
+  Turkish: pamuk
+  Russian: хло́пок, ва́та, хлопчатая бумага
+  Spanish: algodón
+  French: coton
+  Swahili: pamba
+  Yoruba: owu
+--- [fabric] (15/20 panel languages present)
+  Mandarin: 棉 (mián), 棉布 (miánbù)
+  Japanese: 綿生地 (めんきじ, menkiji), コットン (kotton), 木綿 (もめん, momen)
+  Korean: 목화(木花), 코튼, 면(綿), 면포(綿布)
+  Vietnamese: bông
+  Thai: ผ้าฝ้าย, ฝ้าย
+  Indonesian: katun
+  Hindi: कपास, सूती
+  Bengali: তুলা, কার্পাস
+  Tamil: பருத்தி
+  Persian: پَنْبِه, پَخْتِه, پِمِّه
+  Turkish: pamuk
+  Russian: хло́пок, [[хлопчатобумажный
+  Spanish: algodón
+  French: cotonnade
+  Yoruba: òwú
+--- [(unchecked)] (1/20 panel languages present)
+  Tamil: தூய்
+--- [made of cotton] (4/20 panel languages present)
+  Tamil: பருத்தி, பருத்தியாலான
+  Arabic: قُطْنِي
+  Russian: хло́пковый, хлопчатобума́жный, хлопча́тый
+  Spanish: algodón
+--- [have a good relationship] (1/20 panel languages present)
+  Spanish: llevarse bien
+=== silk
+--- [fiber] (17/20 panel languages present)
+  Mandarin: 絲 (sī), 絲線 (sīxiàn)
+  Japanese: 絹 (きぬ, kinu), 絹糸 (きぬいと, kinuito)
+  Korean: 명주(明紬), 비단(緋緞)
+  Vietnamese: tơ, chỉ tơ
+  Thai: ไหม
+  Indonesian: sutra
+  Hindi: कौशेय, रेशम, हरीर
+  Bengali: রেশম
+  Tamil: பட்டு
+  Persian: اَبْریشَم, اَبْریشُم, حَریر
+  Arabic: حَرِير, إبْرِيسِم, إبْرَيْسَم
+  Turkish: ipek
+  Russian: шёлк
+  Spanish: seda
+  French: soie
+  Swahili: hariri
+  Hausa: tsamiya
+--- [fabric] (15/20 panel languages present)
+  Mandarin: 絲 (sī), 絲綢 (sīchóu)
+  Japanese: 絹 (きぬ, kinu), 絹布 (けんぷ, kenpu), 絹地 (きぬじ, kinuji)
+  Korean: 비단(緋緞)
+  Vietnamese: vải lụa, lụa, tơ lụa, xoa
+  Thai: ไหม, ผ้าไหม, แพร
+  Tagalog: sutla, seda
+  Hindi: रेशम, कौशेय
+  Bengali: সিল্ক, রেশম
+  Tamil: பட்டு
+  Persian: سیلْک, دیبا, پَرْنِیان, پَرَنْد
+  Arabic: حَرِير, إبْرِيسِم, إبْرَيْسَم
+  Turkish: ipek
+  Russian: шёлк
+  Spanish: seda
+  French: soie
+=== tattoo
+--- [an image made in the skin with ink and a needle] (15/20 panel languages present)
+  Mandarin: 紋身 (wénshēn), 文身 (wénshēn), 刺青 (cìqīng)
+  Japanese: 刺青 (しせい, いれずみ, shisei, irezumi), 入れ墨 (いれずみ, irezumi), 文身 (いれずみ, irezumi), タトゥー (tatū)
+  Korean: 문신(文身), 타투
+  Vietnamese: xăm
+  Thai: รอยสัก
+  Indonesian: tato, rajah
+  Tagalog: pika, tato, batik
+  Hindi: गोदना
+  Bengali: উল্কি
+  Persian: خال‌کوبی (xâl-kubi), تتو (tatu), وشام (vešâm), وشم (vašm)
+  Arabic: وَشْم
+  Turkish: dövme
+  Russian: татуиро́вка, нако́лка, тату́
+  Spanish: tatuaje
+  French: tatouage
+--- [method of decorating the skin by inserting colored substances under the surface] (3/20 panel languages present)
+  Mandarin: 刺青 (cìqīng), 文身
+  Thai: การสัก
+  Russian: татуи́рование
+--- [(unchecked)] (0/20 panel languages present)
+--- [to apply a tattoo] (8/20 panel languages present)
+  Mandarin: 刺青 (cìqīng), 刺 (cì), 文身
+  Thai: สัก
+  Persian: خال کوبیدن
+  Arabic: وَشَمَ, وَشَّمَ
+  Turkish: dövme yapmak
+  Russian: татуи́ровать, вы́татуировать
+  Spanish: tatuar
+  French: tatouer
+--- [time to close the taps] (0/20 panel languages present)
+--- [signal] (1/20 panel languages present)
+  Spanish: retreta
+--- [military display or pageant] (2/20 panel languages present)
+  Japanese: タトゥー (tatū)
+  Spanish: parada
+=== candle
+--- [a light source] (19/20 panel languages present)
+  Mandarin: 蠟燭, 蠟 (là), 燭 (zhú)
+  Japanese: 蝋燭 (ろうそく, rōsoku)
+  Korean: 초, 양초, 납촉(蠟燭), 랍촉(蠟燭)
+  Vietnamese: nến, đèn cầy
+  Thai: เทียน
+  Indonesian: lilin
+  Tagalog: kandila, sasang
+  Hindi: मोमबत्ती, शमा
+  Bengali: মোমবাতি, শামা
+  Tamil: மெழுகுவர்த்தி, மெழுகுதிரி
+  Persian: شَمْع, شَمْع
+  Arabic: شَمْعَة, قِنْدِيل
+  Turkish: mum
+  Russian: свеча́, све́чка
+  Spanish: vela, candela, cirio, espelma
+  French: bougie, chandelle
+  Swahili: mshumaa
+  Hausa: kyandir
+  Quechua: wila
+=== tobacco
+--- [any plant of the genus ''Nicotiana''] (16/20 panel languages present)
+  Mandarin: 煙草
+  Japanese: タバコ (tabako), たばこ (tabako), 煙草 (たばこ, tabako, えんそう, ensō)
+  Korean: 담배, 연초(煙草)
+  Vietnamese: thuốc lá
+  Thai: ยาสูบ, บุหรี่
+  Indonesian: tembakau
+  Hindi: तम्बाकू, सुलफ़ा
+  Bengali: তামাক
+  Tamil: புகையிலை, தம்பாக்கு
+  Persian: تَنْبَاکُو, تَنْباکو, توتون
+  Arabic: تِبْغ, تَبْغ, دُخَان, دُخَّان
+  Turkish: tütün
+  Russian: таба́к
+  Spanish: tabaco
+  French: tabac
+  Swahili: mtumbaku
+--- [leaves of certain varieties of tobacco plant] (18/20 panel languages present)
+  Mandarin: 煙草, 煙葉
+  Japanese: タバコ (tabako), たばこ (tabako), 煙草 (たばこ, tabako, えんそう, ensō)
+  Korean: 담배, 연초(煙草)
+  Vietnamese: thuốc lá
+  Thai: ยาสูบ
+  Indonesian: tembakau
+  Tagalog: tabako
+  Hindi: तंबाकू
+  Bengali: তামাক
+  Tamil: புகையிலை
+  Persian: تَنْبَاکُو, تَنْباکو, توتون
+  Arabic: تَبْغ, تَبَغ
+  Turkish: tütün
+  Russian: таба́к
+  Spanish: tabaco
+  French: tabac
+  Swahili: tumbaku
+  Hausa: antusko, asara
+--- [variety] (0/20 panel languages present)
+--- [(unchecked)] (0/20 panel languages present)
+=== coconut
+--- [fruit of coco palm] (18/20 panel languages present)
+  Mandarin: 椰子 (yēzi)
+  Japanese: ココナッツ (kokonattsu), 椰子の実 (やしのみ, yashi no mi)
+  Korean: 코코넛, 야자열매
+  Vietnamese: dừa
+  Thai: มะพร้าว
+  Indonesian: kelapa, nyiur
+  Tagalog: niyog
+  Hindi: नारियल, नारिकेल
+  Bengali: ডাব, নারিকেল, নাইকল
+  Tamil: தேங்காய்
+  Persian: نارگیل (nârgêl)
+  Arabic: جَوْز الْهِنْد, نَارْجِيل
+  Turkish: Hindistan cevizi
+  Russian: коко́с, коко́совый оре́х
+  Spanish: coco, laña
+  French: noix de coco
+  Swahili: nazi, dafu
+  Yoruba: àgbọn
+--- [shelled seed] (8/20 panel languages present)
+  Mandarin: 椰種 (yēzhǒng)
+  Korean: 코코넛
+  Vietnamese: dừa
+  Thai: มะพร้าว
+  Indonesian: kelapa
+  Hindi: गरी का गोला
+  Persian: نارگیل (nârgil)
+  Russian: коко́с, коко́совый оре́х
+--- [edible flesh of coconut fruit] (7/20 panel languages present)
+  Mandarin: [[椰子]][[肉]] (yēziròu)
+  Vietnamese: dừa
+  Thai: เนื้อมะพร้าว
+  Tagalog: sapal, niyog
+  Hindi: गरी
+  Persian: نارگیل (nârgil)
+  Russian: коко́с
+--- [(unchecked)] (0/20 panel languages present)
+=== helmet
+--- [protective head covering] (16/20 panel languages present)
+  Mandarin: 鋼盔 (gāngkuī), 頭盔 (tóukuī)
+  Japanese: ヘルメット (herumetto), 兜 (かぶと, kabuto)
+  Korean: 투구, 헬멧
+  Vietnamese: mũ bảo hiểm, 帽保險, nón bảo hiểm, 𥶄保險
+  Thai: หมวกนิรภัย, หมวกเชื่อม
+  Indonesian: helm
+  Tagalog: helmet, almete
+  Hindi: हेलमेट, ख़ोद
+  Tamil: தலைக்கவசம்
+  Persian: کُلاهِ ایمَنی, خود, تَرْگ, تَرْک
+  Arabic: خُوذَة, بَيْضَة
+  Turkish: kask, miğfer, tolga
+  Russian: шлем, ка́ска, шело́м
+  Spanish: casco, yelmo, bacinete, casquete
+  French: casque
+  Swahili: helmeti, kofia ya chuma
+=== injection
+--- [act of injecting, or something injected] (15/20 panel languages present)
+  Mandarin: 注射
+  Japanese: 注射 (ちゅうしゃ, chūsha)
+  Korean: 주사(注射)
+  Vietnamese: tiêm
+  Thai: การฉีดยา, ฉีดยา
+  Indonesian: injeksi, suntikan
+  Hindi: इंजेक्शन
+  Bengali: ইনজেকশন
+  Persian: تَزریق (tazriq), اَنژِکسیون (anžeksyon)
+  Arabic: حُقْنَة, حَقْن
+  Turkish: enjeksiyon
+  Russian: инъе́кция, уко́л, влива́ние, впры́скивание
+  Spanish: inyección
+  French: injection
+  Swahili: sindano
+--- [medicine: something injected] (5/20 panel languages present)
+  Indonesian: suntikan
+  Persian: تَزریق (tazriq), اَنژِکسیون (anžeksyon)
+  Russian: инъе́кция
+  Spanish: inyección
+  French: injection
+--- [set theory: one-to-one mapping] (6/20 panel languages present)
+  Mandarin: 單射
+  Japanese: 単射 (たんしゃ, tansha)
+  Korean: 단사(單射)
+  Vietnamese: đơn ánh
+  Russian: инъе́кция
+  French: injection
+--- [computing: insertion of code] (4/20 panel languages present)
+  Japanese: インジェクション (injekushon)
+  Korean: 인젝션
+  Russian: внедре́ние
+  French: injection
+=== mattress
+--- [a pad on which a person can recline and sleep] (17/20 panel languages present)
+  Mandarin: 床墊 (chuángdiàn)
+  Japanese: 布団 (ふとん, futon), マットレス (mattoresu)
+  Korean: 매트리스, 요, 침대깔개
+  Vietnamese: nệm
+  Thai: ฟูก, เบาะ
+  Indonesian: kasur, tilam, matras
+  Tagalog: kutson
+  Hindi: गद्दा, गादी, गद्दी, तोशक
+  Bengali: তোশক
+  Tamil: மெத்தை
+  Persian: توشَک, تُشَک, دوشَک, بَرْخوابِه
+  Arabic: فِرَاش, مَرْتَبَة
+  Turkish: döşek, yatak, şilte
+  Russian: матра́с, матра́ц
+  Spanish: colchón
+  French: matelas
+  Swahili: godoro, mto
+--- [engineering: a flat structure of brushwood or similar material used to provide a foundation for a structure including embankments] (0/20 panel languages present)
+=== tin can
+--- [container] (10/20 panel languages present)
+  Mandarin: 罐頭 (guàntou, guàntóu)
+  Japanese: 罐詰め (かんづめ, kandzume), 缶 (かん, kan), 罐 (かん, kan)
+  Korean: 깡통, 캔
+  Vietnamese: lon thiếc, hộp thiếc
+  Thai: กระป๋อง, ปี๊บ
+  Persian: قوطیِ کُنْسِرْو
+  Arabic: عُبُوَّةُ الصَّفِيح, عُلْبَةُ الصَّفِيح
+  Turkish: konserve kutusu
+  Russian: жестя́нка, консе́рвная ба́нка, ба́нка, консе́рва
+  French: boîte de conserve
+=== calendar
+--- [system by which time is divided] (17/20 panel languages present)
+  Mandarin: 日曆, 曆 (lì), 曆法, 月份牌 (yuèfènpái)
+  Japanese: 暦 (こよみ, koyomi), カレンダー (karendā), 暦法 (れきほう, rekihō)
+  Korean: 역법(曆法), 력법(曆法), 력
+  Vietnamese: lịch, 歷
+  Thai: ปฏิทิน
+  Indonesian: kalender
+  Tagalog: kalendaryo
+  Hindi: कालदर्शक, पंचांग
+  Bengali: পঞ্জিকা
+  Tamil: நாட்காட்டி
+  Persian: تَقْویم, گاه‌شُماری, سالْنَما, سالْنامِه
+  Arabic: تَقْوِيم
+  Turkish: takvim
+  Russian: календа́рь
+  Spanish: calendario
+  French: calendrier
+  Swahili: kalenda
+--- [means to determine the date] (11/20 panel languages present)
+  Japanese: カレンダー (karendā)
+  Korean: 달력, 캘린더
+  Vietnamese: lịch
+  Indonesian: kalender
+  Hindi: जन्त्री, पत्रा
+  Arabic: تَقْوِيم
+  Turkish: takvim
+  Russian: календа́рь
+  Spanish: calendario
+  French: calendrier
+  Yoruba: kàlẹ́ńdà
+--- [list of planned events] (5/20 panel languages present)
+  Indonesian: jadwal, agenda
+  Turkish: takvim
+  Russian: расписа́ние
+  Spanish: agenda
+  French: agenda, emploi du temps, programme
+--- [orderly list] (1/20 panel languages present)
+  Russian: реги́стр
+--- [(unchecked)] (0/20 panel languages present)
+--- [to set a date for a proceeding in court] (1/20 panel languages present)
+  Spanish: calendarizar

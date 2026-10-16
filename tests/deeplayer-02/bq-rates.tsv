@@ -1,0 +1,47 @@
+wold_id	pair	concepticon	role	forms	varieties_lumping	families_lumping	family_balanced_pct	bootstrap_95	share_of_resamples_ge_50	flag
+1-37	well / spring	WELL/SPRING (OF WATER)	main	all forms	322/534	69/77	82.5	74-90	1.00	
+1-37	well / spring	WELL/SPRING (OF WATER)	main	no copies	14/226	5/19	3.6	1-8	0.00	
+1-861	put out a fire / close (tapi)	EXTINGUISH/SHUT	main	all forms	1/390	1/59	0.1	0-0	0.00	
+1-861	put out a fire / close (tapi)	EXTINGUISH/SHUT	main	no copies	1/390	1/59	0.1	0-0	0.00	
+3-585	hawk / eagle	HAWK/EAGLE	main	all forms	215/460	16/49	17.0	8-27	0.00	
+3-585	hawk / eagle	HAWK/EAGLE	main	no copies	26/271	14/49	13.3	6-22	0.00	
+4-345	claw / nail (tolin)	CLAW/FINGERNAIL	main	all forms	524/912	65/84	62.1	54-71	1.00	
+4-345	claw / nail (tolin)	CLAW/FINGERNAIL	main	no copies	300/688	55/78	53.9	44-63	0.80	near 50
+4-68	shiver / shake (susin)	SHIVER/SHAKE	main	all forms	21/471	13/69	7.2	2-13	0.00	
+4-68	shiver / shake (susin)	SHIVER/SHAKE	main	no copies	21/471	13/69	7.2	3-13	0.00	
+5-24	bake / roast	BAKE/ROAST (SOMETHING)	main	all forms	73/246	17/53	17.0	9-26	0.00	
+5-24	bake / roast	BAKE/ROAST (SOMETHING)	main	no copies	73/246	17/53	17.0	9-26	0.00	
+5-24	bake / fry	BAKE/FRY	aux	all forms	92/342	19/61	16.1	9-24	0.00	
+5-24	bake / fry	BAKE/FRY	aux	no copies	92/342	19/61	16.1	9-24	0.00	
+5-24	roast / fry (deeplayer-01's one root)	ROAST (SOMETHING)/FRY	aux	all forms	286/462	66/66	94.0	88-99	1.00	
+5-24	roast / fry (deeplayer-01's one root)	ROAST (SOMETHING)/FRY	aux	no copies	3/179	2/5	3.0	0-8	0.00	
+5-48	scrape / scratch (sumin)	SCRAPE/SCRATCH	main	all forms	8/126	6/24	10.0	2-20	0.00	
+5-48	scrape / scratch (sumin)	SCRAPE/SCRATCH	main	no copies	8/126	6/24	10.0	2-20	0.00	
+5-87	to milk / milk (tunlo)	DRAW MILK/MILK	main	all forms	6/472	3/56	0.3	0-1	0.00	
+5-87	to milk / milk (tunlo)	DRAW MILK/MILK	main	no copies	6/472	3/56	0.3	0-1	0.00	
+6-62	clothes button / lock key (tinli's other sense)	BUTTON/KEY	main	all forms	0/250	0/43	0.0	0-0	0.00	
+6-62	clothes button / lock key (tinli's other sense)	BUTTON/KEY	main	no copies	0/250	0/43	0.0	0-0	0.00	
+9-211	pound (in a mortar) / hit (payon)	POUND/STRIKE	main	all forms	87/792	18/66	11.0	5-18	0.00	
+9-211	pound (in a mortar) / hit (payon)	POUND/STRIKE	main	no copies	87/792	18/66	11.0	6-18	0.00	
+9-211	pound / beat	POUND/BEAT	aux	all forms	36/358	18/52	15.6	8-24	0.00	
+9-211	pound / beat	POUND/BEAT	aux	no copies	36/358	18/52	15.6	8-24	0.00	
+9-77	mat / carpet, rug	MAT/RUG	main	all forms	14/150	10/26	19.6	8-34	0.00	
+9-77	mat / carpet, rug	MAT/RUG	main	no copies	14/150	10/26	19.6	7-33	0.00	
+10-17	twist / turn (duko)	TWIST/TURN (SOMETHING)	main	all forms	9/356	7/49	1.0	0-2	0.00	
+10-17	twist / turn (duko)	TWIST/TURN (SOMETHING)	main	no copies	9/356	7/49	1.0	0-2	0.00	
+10-53	chase / follow (lefan)	PURSUE/FOLLOW	main	all forms	45/270	22/55	22.5	14-32	0.00	
+10-53	chase / follow (lefan)	PURSUE/FOLLOW	main	no copies	45/270	22/55	22.5	14-32	0.00	
+16-51	dare / brave	DARE/BRAVE	main	all forms	25/208	8/35	7.8	2-15	0.00	
+16-51	dare / brave	DARE/BRAVE	main	no copies	25/208	8/35	7.8	2-15	0.00	
+19-45	command / lead (wungu)	COMMAND/LEAD (GUIDE)	main	all forms	0/239	0/51	0.0	0-0	0.00	
+19-45	command / lead (wungu)	COMMAND/LEAD (GUIDE)	main	no copies	0/239	0/51	0.0	0-0	0.00	
+19-45	command / order	COMMAND/ORDER	aux	all forms	0/4	0/1	0.0	0-0	0.00	
+19-45	command / order	COMMAND/ORDER	aux	no copies	0/4	0/1	0.0	0-0	0.00	
+21-42	murder / kill (omen)	MURDER/KILL	main	all forms	44/239	23/56	26.3	16-37	0.00	
+21-42	murder / kill (omen)	MURDER/KILL	main	no copies	44/239	23/56	26.3	16-37	0.00	
+5-82	pepper / chili (part 2 fallback)	PEPPER/CHILI PEPPER	aux	all forms	26/177	9/30	14.8	5-27	0.00	
+5-82	pepper / chili (part 2 fallback)	PEPPER/CHILI PEPPER	aux	no copies	26/177	9/30	14.8	5-27	0.00	
+8-82	coconut / palm tree (part 2 fallback)	COCONUT/PALM TREE	aux	all forms	3/163	3/32	5.2	0-13	0.00	
+8-82	coconut / palm tree (part 2 fallback)	COCONUT/PALM TREE	aux	no copies	3/163	3/32	5.2	0-13	0.00	
+check	moon / month (reproduces balance-02's 69.9)	MOON/MONTH	aux	all forms	435/688	60/75	69.9	60-78	1.00	
+check	moon / month (reproduces balance-02's 69.9)	MOON/MONTH	aux	no copies	435/688	60/75	69.9	61-79	1.00	

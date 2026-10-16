@@ -1,0 +1,443 @@
+# deeplayer-02 part 2: the 18 WOLD loan candidates against the 20-language panel.
+# Format as tests/coverage-01/part3/loanwork/older.txt (emit.parse), plus mark u = no data found.
+# Marks: y counts; b everyday loan beside a native or formal word (counts once sourced); n doesn't; u unknown.
+# Sources: Wt the English Wiktionary translation table (wikt-raw.txt, fetched 2026-10-16 with
+# tests/lexicon-ladder-01/panel.py); We the foreign word's own entry (kaikki dumps in ~/work/cache/coverage);
+# subs N = OpenSubtitles 50k list count (~/work/cache/coverage/subs); Leipzig N = Leipzig 2017 community
+# corpus word count; M memory (counts only when a source is added). Rival rule: n when a word for the same
+# concept is >=5x as frequent in the column's text; broad rivals (needle, smoke) noted, not applied.
+# Shape rule: source shapes (author 2026-10-13); a borrowing language's own sound changes don't make a new shape.
+
+@ dolphin | dolphin | aquatic mammal
+zh 海豚 hǎitún | n | Wt
+ja イルカ iruka | n | Wt
+ko 돌고래 dolgorae | n | Wt
+vi cá heo | n | Wt
+th โลมา lomaa | n | Wt
+id lumba-lumba | n | Wt
+tl lumba-lumba | n | Wt
+hi सूंस sū̃s (river dolphin); डॉल्फ़िन listed 4th, not in subs | n | Wt
+bn ডলফিন ḍolfin | y | Wt
+ta ஓங்கில் ōṅkil | n | Wt
+fa دلفین dolfin | y | Wt
+ar دلفين dulfīn | y | Wt
+tr yunus (subs 995; delfin absent) | n | Wt, subs
+ru дельфин delʹfin | y | Wt
+es delfín | y | Wt
+fr dauphin (adapted dofen: no l, a different shape from delufin) | n | Wt
+sw pomboo | n | Wt
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu phujpuri | n | Wt
+median: delfin
+note: 5/3 (SA WA EU); ceiling 7 with ha yo; fail
+
+@ mule | mule | offspring of male donkey and female horse
+zh 騾子 luózi | n | Wt
+ja ラバ raba (ミュール listed 3rd) | n | Wt
+ko 노새 nosae | n | Wt
+vi la (< Chinese 騾) | n | Wt
+th ล่อ lɔ̂ɔ (< Chinese 騾) | n | Wt
+id bagal (< Arabic baghl) | n | Wt
+tl mula | y | Wt
+hi खच्चर khaccar | n | Wt
+bn খচ্চর khaccar | n | Wt
+ta கோவேறுகழுதை | n | Wt
+fa قاطر qāter | n | Wt
+ar بغل baghl | n | Wt
+tr katır | n | Wt
+ru мул mul | y | Wt
+es mula, mulo | y | Wt
+fr mule, mulet | y | Wt
+sw nyumbu, baghala | n | Wt
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu (no entry; Spanish mula likely) | u | M
+median: mula
+note: 4/2 (SEA EU); ceiling 7; the second family baghl (ar id sw) has 3; fail
+
+@ parrot | parrot | kind of bird
+zh 鸚鵡 yīngwǔ | n | Wt
+ja オウム ōmu, インコ inko | n | Wt
+ko 앵무새 aengmusae | n | Wt
+vi vẹt | n | Wt
+th นกแก้ว nók kɛ̂ɛw | n | Wt
+id nuri | n | Wt
+tl loro | n | Wt
+hi तोता totā | n | Wt
+bn টিয়া ṭiyā | n | Wt
+ta கிளி kiḷi | n | Wt
+fa طوطی tuti (bepġâ listed 2nd) | n | Wt
+ar ببغاء babbaghāʾ | y | Wt
+tr papağan | y | Wt
+ru попугай popugaj | y | Wt
+es loro first; papagayo listed | b | Wt
+fr perroquet | n | Wt
+sw kasuku | n | Wt
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu (no entry) | u | -
+median: papagaj
+note: 4/2 (WA EU); ceiling 7; the tuti/toto family (hi fa) has 2; fail
+
+@ camel | camel | beast of burden
+zh 駱駝 luòtuó | n | Wt
+ja ラクダ rakuda | n | Wt
+ko 낙타 nakta | n | Wt
+vi lạc đà | n | Wt
+th อูฐ ùut | n | Wt
+id unta | n | Wt
+tl kamelyo | y | Wt
+hi ऊँट ū̃ṭ | n | Wt
+bn উট uṭ | n | Wt
+ta ஒட்டகம் oṭṭakam | n | Wt
+fa شتر šotor | n | Wt
+ar جمل jamal (source of the family, but adapted damalu: d-m-l against kamelu k-m-l) | n | Wt
+tr deve | n | Wt
+ru верблюд verbljud | n | Wt
+es camello | y | Wt
+fr chameau (adapted kamo: no l) | n | Wt
+sw ngamia | n | Wt
+ha raƙumi | n | Wt
+yo ràkùnmí | n | Wt
+qu (no entry; Spanish camello likely) | u | M
+median: kamelo
+note: 2/2; the luotuo family (zh ja ko vi) has 4, the ushtra family (hi bn fa) 3; fail
+
+@ cockroach | cockroach | type of insect
+zh 蟑螂 zhāngláng | n | Wt
+ja ゴキブリ gokiburi | n | Wt
+ko 바퀴벌레 bakwibeolle | n | Wt
+vi gián | n | Wt
+th แมลงสาบ | n | Wt
+id kecoak (< Hokkien) | n | Wt
+tl ipis | n | Wt
+hi तिलचट्टा tilcaṭṭā | n | Wt
+bn তেলাপোকা telāpokā | n | Wt
+ta கரப்பான் karappāṉ (கக்கலாத்து < Dutch kakkerlak listed 1st) | n | Wt
+fa سوسک susk | n | Wt
+ar صرصور ṣarṣūr | n | Wt
+tr hamam böceği | n | Wt
+ru таракан tarakan | y | Wt
+es cucaracha (a different shape from tarakan) | n | Wt
+fr cafard, blatte | n | Wt
+sw mende | n | Wt
+ha kyankyaso | n | Wt
+yo (no entry) | u | -
+qu (no entry) | u | -
+median: tarakan
+note: tarakan (ru) and cucaracha (es) are different shapes; largest 1/1; fail
+
+@ frying pan | frying pan | long-handled, shallow pan used for frying food
+zh 平底鍋 píngdǐguō | n | Wt
+ja フライパン furaipan | y | Wt
+ko 프라이팬 peuraipaen | y | Wt
+vi chảo | n | Wt
+th กระทะ kràthá | n | Wt
+id wajan (not in table) | n | M
+tl kawali | n | Wt
+hi कड़ाही kaṛāhī; तवा tavā listed 3rd (a griddle) | n | Wt
+bn ভাজার চাটু; ফ্রাইং প্যান listed 2nd | b | Wt
+ta (no entry) | u | -
+fa تابه tâbe, ماهیتابه | n | Wt
+ar مقلاة miqlāh | n | Wt
+tr tava | n | Wt
+ru сковорода skovoroda | n | Wt
+es sartén | n | Wt
+fr poêle | n | Wt
+sw (no entry; kikaango) | n | M
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu payla (< Spanish paila) | n | Wt
+median: furaipan
+note: pan family 3/2 (EA SA); tava family (tr fa, hi griddle) 2-3; fail
+
+@ pepper | pepper | spice
+zh 胡椒 hújiāo | n | Wt
+ja 胡椒 koshō | n | Wt
+ko 후추 huchu | n | Wt
+vi tiêu | n | Wt
+th พริกไทย phrík thai | n | Wt
+id merica, lada | n | Wt
+tl paminta (not in table; < Spanish pimienta) | n | M
+hi मिर्च mirc | n | Wt
+bn মরিচ moric | n | Wt
+ta மிளகு miḷaku | n | Wt
+fa فلفل felfel (filfil shape) | n | Wt
+ar فلفل filfil (filfil shape) | n | Wt
+tr karabiber, biber | y | Wt
+ru перец perec | y | Wt
+es pimienta (pimienta shape) | n | Wt
+fr poivre | n | Wt
+sw pilipili manga (filfil shape) | n | Wt
+ha (no entry) | u | -
+yo ata | n | Wt
+qu piminta (pimienta shape) | n | Wt
+median: piper
+note: no shape reaches 5: piper (tr ru) 2, filfil (fa ar sw) 3, pimienta (es qu tl) 3, marica (hi bn id) 3; fail
+
+@ cotton | cotton | fiber
+zh 棉 mián | n | Wt
+ja 綿 men; コットン kotton listed 2nd | b | Wt
+ko 솜 som, 면 myeon | n | Wt
+vi bông | n | Wt
+th ฝ้าย fâai | n | Wt
+id katun (kapas also) | y | Wt
+tl bulak; algudon listed 2nd (al-qutn shape) | n | Wt
+hi कपास kapās, रूई | n | Wt
+bn তুলো tulo | n | Wt
+ta பஞ்சு pañcu | n | Wt
+fa پنبه panbe | n | Wt
+ar قطن quṭn (not in the fiber table) | y | M
+tr pamuk | n | Wt
+ru хлопок xlopok | n | Wt
+es algodón (al-qutn shape: alugodon, a different consonant set) | n | Wt
+fr coton | y | Wt
+sw pamba | n | Wt
+ha (no entry; auduga) | n | M
+yo owu | n | Wt
+qu (no entry; Spanish algodón likely) | u | M
+median: koton
+note: qutn shape 3/3 sourced (4/4 with Arabic quṭn, from memory); the panba family (fa tr sw) 3; al-qutn (es tl) 2; fail
+
+@ silk | silk | fiber
+zh 絲 sī | n | Wt
+ja 絹 kinu | n | Wt
+ko 비단 bidan, 명주 | n | Wt
+vi tơ | n | Wt
+th ไหม mǎi | n | Wt
+id sutra | n | Wt
+tl seda (not in table; < Spanish) | n | M
+hi रेशम resham (harīr listed 3rd) | n | Wt
+bn রেশম resham | n | Wt
+ta பட்டு paṭṭu | n | Wt
+fa ابریشم abrisham (harir listed 3rd) | n | Wt
+ar حرير ḥarīr | y | Wt
+tr ipek | n | Wt
+ru шёлк šëlk (silk shape, apart from harir) | n | Wt
+es seda | n | Wt
+fr soie | n | Wt
+sw hariri | y | Wt
+ha tsamiya | n | Wt
+yo (no entry) | u | -
+qu (no entry) | u | -
+median: harir
+note: no shape reaches 4: harir (ar sw) 2, silk (ru) 1, resham/abrisham (hi bn fa) 3, seda (es tl) 2; fail
+
+@ tattoo | tattoo | an image made in the skin with ink and a needle
+zh 纹身 wénshēn (subs 1382) | n | Wt, subs
+ja 入れ墨 irezumi, 刺青; タトゥー tatū listed 4th (subs list unusable for katakana) | b | Wt
+ko 문신 munsin; 타투 listed 2nd, but 문신* 146 vs 타투* 29 in subs (5.0x) | n | Wt, subs
+vi xăm | n | Wt
+th รอยสัก (subs 26) | n | Wt, subs
+id tato (subs 1359) | y | Wt, subs
+tl tato (subs 3), tattoo (subs 5) | y | Wt, subs
+hi गोदना godnā listed; टैटू ṭaiṭū subs 13, godnā absent | b | Wt, subs
+bn উল্কি ulki listed; ট্যাটু ṭyāṭu subs 33 vs ulki 2 | b | Wt, subs
+ta (no entry; no tattoo-type form in subs) | n | subs
+fa خالکوبی xâlkubi 394 vs تاتو tatu 73 in subs (5.4x) | n | Wt, subs
+ar وشم washm | n | Wt
+tr dövme | n | Wt
+ru татуировка tatuirovka, тату tatu (subs 1353) | y | Wt, subs
+es tatuaje (stem tatu- + -aje, as democracia was counted with democracy) | y | Wt
+fr tatouage (stem tatou- + -age) | y | Wt
+sw (no entry; chale is the native scarification word; no tattoo form in Leipzig) | n | Leipzig
+ha (no form found in Leipzig) | u | Leipzig
+yo (no form found in Leipzig) | u | Leipzig
+qu (no form found in Leipzig) | u | Leipzig
+median: tatu
+note: 8/4 (EA SEA SA EU); 10 if Korean and Persian are let past the five-times rule; ceiling 11 with the three unknown columns (13 if Korean and Persian were also let past the rule); fail
+
+@ candle | candle | a light source
+zh 蠟燭 làzhú | n | Wt
+ja 蝋燭 rōsoku | n | Wt
+ko 초 cho, 양초 | n | Wt
+vi nến | n | Wt
+th เทียน thian | n | Wt
+id lilin | n | Wt
+tl kandila (candela shape) | n | Wt
+hi मोमबत्ती mombattī (shamā listed 2nd) | n | Wt
+bn মোমবাতি mombāti (shāmā listed 2nd) | n | Wt
+ta மெழுகுவர்த்தி | n | Wt
+fa شمع šam' | y | Wt
+ar شمعة šamʿa | y | Wt
+tr mum | n | Wt
+ru свеча sveča | n | Wt
+es vela (candela listed 2nd) | n | Wt
+fr bougie | n | Wt
+sw mshumaa | y | Wt
+ha kyandir (candle shape; Leipzig 2) | n | Wt, Leipzig
+yo (no entry) | u | -
+qu wila (< Spanish vela) | n | Wt
+median: šamʕa
+note: shamʿ shape 3/2 (WA SSA), 5 counting hi bn second-listed shamā; candela shape (tl, es 2nd) 2; fail
+
+@ tobacco | tobacco | leaves of certain varieties of tobacco plant
+zh 煙草 yāncǎo | n | Wt
+ja タバコ tabako | y | Wt
+ko 담배 dambae (< Japanese tabako; a borrower's sound change, counted with its source as Japanese doru with dollar) | y | Wt, subs 520
+vi thuốc lá | n | Wt
+th ยาสูบ yaa sùup | n | Wt
+id tembakau (< Portuguese tabaco; subs 264) | y | Wt, subs
+tl tabako (subs 1) | y | Wt, subs
+hi तंबाकू tambākū (< Portuguese tabaco; subs 2) | y | Wt, subs
+bn তামাক tāmāk (subs 8) | y | Wt, subs
+ta புகையிலை pukaiyilai | n | Wt
+fa تنباکو tanbâku (subs 167 vs توتون tutun 18) | y | Wt, subs
+ar تبغ tabgh (subs 262; دخان "smoke" 1315 is a broad rival, not applied) | y | Wt, subs
+tr tütün (subs 1542) | n | Wt, subs
+ru табак tabak (subs 505) | y | Wt, subs
+es tabaco (subs 4600) | y | Wt, subs
+fr tabac (subs 3159) | y | Wt, subs
+sw tumbaku (Leipzig 190) | y | Wt, Leipzig
+ha taba (Leipzig 678, but taba is also the verb "touch, ever"; not separable) | u | Leipzig
+yo tábà, taba "tobacco, tobacco plant" (Leipzig 4) | y | We, Leipzig
+qu sayri (native; no tabaco in Leipzig) | n | Leipzig
+median: tabaku
+note: 13/6 (all but AM); 12/6 without Korean; pass
+text: Shapes: tambaku/tembakau/tanbaku (Indic, Malay, Persian, Swahili) and Korean dambae are borrowers' changes of Portuguese/Spanish tabaco, counted with it under the rerun's source-shape reading. Under the strict reading of adapted consonants they split (tabak shape ja tl ar ru es fr yo 7; tanbak shape id hi fa sw 4; bn ko apart) and tobacco fails. Final vowel: u (hi fa sw id, 4 regions) against o (ja tl es, 3 regions), so [tabaku].
+
+@ coconut | coconut | fruit of coco palm
+zh 椰子 yēzi | n | Wt
+ja ココナッツ kokonattsu | y | Wt
+ko 코코넛 kokoneot | y | Wt
+vi dừa | n | Wt
+th มะพร้าว maphráaw | n | Wt
+id kelapa | n | Wt
+tl niyog | n | Wt
+hi नारियल nāriyal | n | Wt
+bn নারিকেল nārikel | n | Wt
+ta தேங்காய் tēṅkāy | n | Wt
+fa نارگیل nârgil | n | Wt
+ar جوز الهند jawz al-hind (nārjīl listed 2nd) | n | Wt
+tr Hindistan cevizi | n | Wt
+ru кокос kokos | y | Wt
+es coco | y | Wt
+fr noix de coco | y | Wt
+sw nazi | n | Wt
+ha (no entry) | u | -
+yo àgbọn | n | Wt
+qu (no entry; Spanish coco likely) | u | M
+median: koko
+note: coco shape 5/2 (EA EU); ceiling 7; narikela shape (hi bn fa ar) 4; fail
+
+@ helmet | helmet | protective head covering
+zh 頭盔 tóukuī | n | Wt
+ja ヘルメット herumetto | y | Wt
+ko 헬멧 helmet (투구 is armour) | y | Wt
+vi mũ bảo hiểm | n | Wt
+th หมวกนิรภัย | n | Wt
+id helm (subs 777; the Dutch shape helm, adapted elumu, apart from elumetu) | n | Wt, subs
+tl helmet (subs 3) | y | Wt, subs
+hi हेलमेट helmeṭ (subs 11) | y | Wt, subs
+bn হেলমেট helmeṭ (subs 36) | y | subs
+ta ஹெல்மெட் (subs 1; தலைக்கவசம் absent) | b | Wt, subs
+fa کلاه ایمنی | n | Wt
+ar خوذة xūḏa | n | Wt
+tr kask (casque shape) | n | Wt
+ru шлем šlem | n | Wt
+es casco (casque shape) | n | Wt
+fr casque | n | Wt
+sw helmeti | y | Wt
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu (no entry; Spanish casco likely) | u | M
+median: helmet
+note: 7/4 (EA SEA SA SSA); 8 with Indonesian helm; ceiling 10; casque shape (tr es fr, ru kaska) 4; fail
+
+@ injection | injection | act of injecting, or something injected
+zh 注射 zhùshè | n | Wt
+ja 注射 chūsha | n | Wt
+ko 주사 jusa | n | Wt
+vi tiêm | n | Wt
+th ฉีดยา | n | Wt
+id suntikan 634 + suntik 287 vs injeksi 122 in subs (7.5x) | n | Wt, subs
+tl (no entry; iniksyon not in subs) | u | subs
+hi इंजेक्शन injekśan (subs 15) | y | Wt, subs
+bn ইনজেকশন injekśan (subs 34) | y | Wt, subs
+ta ஊசி ūci "needle" (subs 7; no injection form) | n | subs
+fa تزریق tazriq 330 vs آمپول âmpul 199; anžeksyon absent | n | Wt, subs
+ar حقنة ḥuqna | n | Wt
+tr enjeksiyon (subs 353; iğne "needle" is broad, not applied) | y | Wt, subs
+ru укол ukol 1120 vs инъекция/-и 547 (2x) | b | Wt, subs
+es inyección (subs 3809) | y | Wt, subs
+fr injection 2130 vs piqûre 2100 | y | Wt, subs
+sw sindano "needle" | n | Wt
+ha allura "needle" (Leipzig 13) | n | Leipzig
+yo abẹ́rẹ́ "needle" | n | M
+qu (no entry; Spanish inyección likely) | u | M
+median: injeksjon
+note: 6/3 (SA WA EU); ceiling 8; the world's other shared form is "needle" (sw ha yo ta tr colloquial); fail
+
+@ mattress | mattress | a pad on which a person can recline and sleep
+zh 床墊 chuángdiàn | n | Wt
+ja 布団 futon; マットレス mattoresu listed 2nd | b | Wt
+ko 매트리스 maeteuriseu | y | Wt
+vi nệm | n | Wt
+th ฟูก | n | Wt
+id kasur 732 vs matras 63 in subs (11.6x) | n | Wt, subs
+tl kutson (< Spanish colchón) | n | Wt
+hi गद्दा gaddā | n | Wt
+bn তোশক tośak | n | Wt
+ta மெத்தை mettai | n | Wt
+fa تشک tošak | n | Wt
+ar فراش firāš (مرتبة martaba: m-r-t-b, apart) | n | Wt
+tr döşek, yatak | n | Wt
+ru матрас matras (subs 583) | y | Wt, subs
+es colchón | n | Wt
+fr matelas (adapted matelasu, same consonants as matulasu) | y | Wt, subs
+sw godoro | n | Wt
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu (no entry) | u | -
+median: matras
+note: 4/2 (EA EU); the tošak family (fa bn tr döşek) 3; fail
+
+@ tin can | tin can | container
+zh 罐頭 guàntou | n | Wt
+ja 缶 kan (< English can) | y | Wt
+ko 깡통 kkangtong, 캔 kaen | y | Wt
+vi lon | n | Wt
+th กระป๋อง | n | Wt
+id kaleng | n | M
+tl lata | n | M
+hi डिब्बा ḍibbā | n | M
+bn টিন ṭin (tin shape) | n | M
+ta (no entry) | u | -
+fa قوطی کنسرو quti-ye konserv | n | Wt
+ar علبة ʿulba | n | Wt
+tr konserve kutusu | n | Wt
+ru банка banka, консерва | n | Wt
+es lata | n | M
+fr boîte de conserve | n | Wt
+sw (no entry; kopo) | n | M
+ha (no entry) | u | -
+yo (no entry) | u | -
+qu (no entry; Spanish lata likely) | u | M
+median: kan
+note: can shape 2/1 (EA); konserva (fa tr ru fr) 4 but names the contents; lata (es tl qu) 2-3; fail
+
+@ calendar | calendar | means to determine the date
+zh 日曆 rìlì (subs 215) | n | Wt, subs
+ja カレンダー karendā (first in this block; 暦 is the system) | y | Wt
+ko 달력 dallyeok (subs 22); 캘린더 listed 2nd, absent in subs | n | Wt, subs
+vi lịch | n | Wt
+th ปฏิทิน | n | Wt, subs
+id kalender (subs 333) | y | Wt, subs
+tl kalendaryo (subs 3) | y | Wt, subs
+hi कैलेंडर kailenḍar subs 4 vs पंचांग 1 (Wt lists kāldarśak, pañcāṅg, jantrī) | b | subs
+bn ক্যালেন্ডার kyālenḍār subs 9, পঞ্জিকা absent | b | subs
+ta காலண்டர் kālaṇṭar subs 2, நாட்காட்டி absent | b | subs
+fa تقویم taqvim | n | Wt, subs
+ar تقويم taqwīm (subs 733) | n | Wt, subs
+tr takvim (subs 588) | n | Wt, subs
+ru календарь kalendarʹ (subs 703) | y | Wt, subs
+es calendario (subs 3606) | y | Wt, subs
+fr calendrier (subs 2232) | y | Wt, subs
+sw kalenda (Leipzig 297; kaikki "calendar") | y | Wt, We, Leipzig
+ha kalandar 46, kalanda 7 (Leipzig) | y | Leipzig
+yo kàlẹ́ńdà (Leipzig kalenda 3) | y | Wt, Leipzig
+qu calendario (Leipzig 3) | y | Leipzig
+median: kalendar
+note: 13/6 (all but WA); pass, thin: four columns rest on 2-4 tokens (ta hi qu yo); no single column decides at 13
+text: Shapes: kalenda (sw yo, from non-rhotic English), calendario, calendrier and karendā keep k-l-n-d(-r) as source shapes (the dollar decision counted dola with dolar). Median: second vowel e (10) against a (ha ta fr); final r kept in 10 of 13; no -io ending (3 of 13).
