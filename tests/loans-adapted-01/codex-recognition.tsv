@@ -1,0 +1,81 @@
+concept	adapted	zh	ja	ko	vi	th	id	tl	hi	bn	ta	fa	ar	tr	ru	es	fr	sw	ha	yo	qu	total	flag	note
+dollar	dolalu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	Estimated scores; stress unspecified. Extra -alu; try dola.
+internet	intelunetu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	Intrusive -lu- breaks internet; try intanetu.
+kilometre	kilometulu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	-tulu obscures metre; try kilometa.
+email	imeyilu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	18	yes	AM=0; extra -yilu breaks mail; try imelu.
+battery	batali	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	18	yes	Vowel drift vs [Hausa báatìr̃](https://wold.clld.org/word/92181432432609071-1); r→l; try bateli.
+euro	yulo	0	2	2	1	2	1	2	2	2	2	2	2	1	1	1	0	2	2	2	1	30	no	-
+yuan	yuwan	2	0	1	0	2	2	2	2	1	1	2	2	2	2	2	2	1	1	1	0	28	yes	AM=0; different currency names or limited familiarity; no clear improvement.
+rupee	lupiya	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	0	0	0	18	yes	AM=0; r→l and extra -ya; try lupi.
+camera	kamela	0	2	2	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	19	yes	r→l; several languages use another root; no clear improvement.
+metre	metulu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	-tulu obscures metre; try meta.
+centimetre	sentimetulu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	-tulu obscures metre; try sentimeta.
+millimetre	milimetulu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	-tulu obscures metre; try milimeta.
+gram	gulamu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	gr split and r→l; no clear improvement.
+kilogram	kilogulamu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	gr split and r→l; no clear improvement.
+litre	litulu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	Vowel drift and extra syllable; try lita.
+kilogram, everyday short form	kilo	0	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	38	no	-
+.com (read aloud)	komu	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	1	38	no	-
+hashtag	asutagu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	18	yes	AM=0; lost h and split clusters; try asataga.
+chocolate	tokolatu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	Initial affricate lost; altered ending; try sokolate.
+doctor	dokutolu	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	16	yes	Extra syllables vs [Yoruba dókítà](https://www.lingref.com/cpp/acal/35/paper1304.pdf); try dokuta.
+motorcycle	moto	2	0	0	2	1	2	1	1	1	1	2	1	1	1	2	2	0	0	0	2	22	yes	SSA=0; several everyday roots differ; no clear improvement.
+television	telebisuyon	0	1	2	0	0	2	2	1	1	1	2	1	2	1	2	2	1	1	1	2	25	no	-
+coffee	kafe	2	1	1	2	2	1	2	1	1	1	1	0	1	1	2	2	0	1	1	2	25	no	-
+sweater	suwetalu	0	1	1	0	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	0	15	yes	AM=0; extra -lu and unfamiliar vowel sequence; try suweta.
+pajamas	pidama	0	1	1	1	0	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	j→d and initial vowel drift; try piyama.
+radio	ladiyo	0	1	2	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	r→l; some loans begin re-; no clear improvement.
+helicopter	elikoputelu	0	1	1	0	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	17	yes	pt split and extra -lu; try elikoputa.
+tractor	tulakutalu	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	18	yes	Two cluster splits and extra -lu; try tulakuta.
+lamp	lanpa	0	2	1	0	0	2	1	1	1	1	1	2	2	2	1	1	0	0	0	1	19	yes	SSA=0; m→n; several everyday roots differ; no clear improvement.
+penguin	penguwin	0	2	2	0	2	2	2	2	2	2	1	0	2	2	1	2	2	1	1	1	29	no	-
+tomato	tomate	0	2	2	0	0	2	0	2	2	0	0	2	2	2	2	2	0	2	2	2	26	no	-
+tea	tayu	0	0	0	0	0	0	0	1	0	0	1	1	1	1	0	0	1	1	0	0	7	yes	EA,SEA,AM=0; extra -yu obscures cha/te roots; try ta or te.
+garage	galasu	0	0	0	1	0	1	0	0	0	0	1	1	1	1	1	1	1	1	1	1	12	yes	EA,SA=0; r→l and j/zh→s obscure garage; no clear improvement.
+cookie	bisukuwitu	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1	1	1	1	0	16	yes	AM=0; extra vowels break biskwit; try bisukiti.
+sandwich	sanduwitu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	Final affricate lost; extra vowels; try sanduwisi.
+pizza	pisa	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	40	no	-
+sauce	sosu	0	2	2	2	1	1	1	2	2	2	2	2	2	2	0	2	2	0	0	0	27	yes	AM=0; salsa and unrelated roots remain opaque; no clear improvement.
+sugar	sukalu	0	0	0	0	0	0	2	0	0	1	1	1	1	1	1	1	1	1	1	1	13	yes	EA=0; r→l and vowel drift; try sukali.
+toast	tosutu	1	2	2	0	1	0	1	2	2	2	2	2	2	2	1	2	1	0	1	1	27	no	-
+balcony	balukon	0	2	2	1	0	2	2	2	2	2	2	2	2	2	2	2	2	0	2	2	33	no	-
+circus	silukasu	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	16	yes	rk split and r→l; try silikasu.
+T-shirt	tisalutu	0	1	1	0	0	0	1	1	1	1	1	1	1	0	0	1	1	1	1	0	13	yes	AM=0; shirt becomes salutu; try tisatu.
+video	bideyo	0	2	2	2	2	2	2	2	2	2	2	1	2	2	2	2	2	2	1	2	36	no	-
+bank	banki	0	2	1	0	0	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	33	no	-
+office	ofisu	0	2	2	0	1	0	1	2	2	2	0	0	2	2	1	1	2	2	2	1	25	no	-
+program	pulogulamu	0	2	1	0	1	1	1	1	1	1	0	0	1	1	1	1	1	0	1	1	16	yes	pr/gr split and both r→l; no clear improvement.
+technology	tekunolodi	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	16	yes	Clusters split and j/zh→d; try tekunoloyi.
+computer	konpuyutalu	0	1	1	0	1	1	1	1	1	1	1	1	0	1	1	0	1	1	1	1	16	yes	Extra vowels obscure -puter; try konputa.
+hotel	otelu	0	2	2	0	0	2	2	2	2	2	2	1	2	2	2	2	2	2	2	2	33	no	-
+machine	masina	0	1	1	0	0	1	1	2	2	2	2	1	1	2	1	2	2	0	2	1	24	no	-
+beer	biyalu	0	1	0	1	1	1	1	1	1	1	0	1	1	0	0	1	1	0	1	0	13	yes	AM=0; extra -yalu; several unrelated roots; try bia.
+code	kodu	0	2	2	1	1	2	1	2	2	2	2	2	2	2	0	2	2	2	2	0	31	yes	AM=0; AM uses codigo-type forms; no clear shared improvement.
+website	sayitu	0	1	2	1	2	1	2	2	2	2	2	1	2	2	1	1	1	0	2	0	27	yes	AM=0; split diphthong; AM root differs; try saito.
+bomb	bonba	0	1	0	1	1	2	2	1	1	1	2	0	2	2	2	2	2	2	2	2	28	no	-
+design	disayin	0	1	2	0	1	2	1	2	2	2	1	0	2	2	1	2	2	0	2	1	26	no	-
+captain	kaputan	0	1	1	0	2	1	2	2	2	2	2	1	2	2	2	2	1	1	1	2	29	no	-
+model	modelu	0	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	0	2	2	36	no	-
+virus	bilusu	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	18	yes	r→l and v→b; try filusu for v-initial forms.
+restaurant	lesutolan	0	2	2	0	0	1	1	1	1	1	1	0	1	1	1	1	1	0	0	1	16	yes	st split and both r→l; no clear improvement.
+league	liga	0	1	1	0	1	2	2	2	2	2	2	0	2	2	2	2	2	2	2	2	31	no	-
+album	alubumu	0	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	20	yes	Two extra syllables; try alubun (final m→n).
+robot	lobotu	0	2	2	0	0	1	1	2	2	2	1	2	2	2	2	2	2	0	1	1	27	no	-
+cigarette	sigaletu	0	1	0	0	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	15	yes	r→l; local endings differ; try sigaleta.
+club	kulabu	0	2	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	18	yes	cl split and final vowel; no clear improvement.
+taxi	takusi	0	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	21	yes	ks split; try takisi.
+gas	gasu	0	2	2	2	1	2	2	1	1	1	2	2	2	2	2	2	1	2	2	2	33	no	-
+chemistry	kimiya	0	0	0	0	2	2	1	0	0	0	0	2	2	2	1	0	2	2	0	1	17	yes	EA,SA=0; EA/SA roots differ; try kimi for shimi/khemi forms.
+guitar	gitalu	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	21	yes	Extra -lu obscures guitar; try gita.
+gene	denu	0	0	0	1	0	1	1	1	1	1	0	1	1	1	0	0	1	0	1	0	11	yes	EA,AM=0; j/zh/g→d obscures gene; try genu for g-initial forms.
+plastic	pulasutiku	0	2	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	19	yes	pl/st split into extra syllables; no clear improvement.
+bar	balu	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	19	yes	Extra -lu turns bar into two syllables; try ba.
+cinema	sinema	0	2	1	1	0	2	2	2	2	2	2	2	2	0	2	2	2	2	2	2	32	no	-
+passport	pasupolutu	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	17	yes	sp/rt split and r→l; try pasapotu.
+engineer	indiniyalu	0	1	1	0	0	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1	13	yes	WA=0; j/zh→d and extra -lu; try indiniya.
+vaccine	bakusin	0	1	2	1	1	1	1	1	1	1	1	1	0	1	1	1	0	0	0	1	16	yes	SSA=0; ks split; several unrelated roots; try wakusin.
+studio	sutudiyo	0	1	2	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	36	no	-
+profile	pulofilu	0	2	2	0	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	19	yes	pr split, r→l; file/fil vowels differ; no clear improvement.
+piano	piyano	0	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	38	no	-
+medal	medala	0	2	2	0	0	2	2	2	2	2	2	2	2	2	2	2	2	0	2	2	32	no	-
+mask	masuka	0	2	2	0	0	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	18	yes	sk split; no clearly better shared adaptation.
