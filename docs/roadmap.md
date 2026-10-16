@@ -72,7 +72,7 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 
 - **Everyday concepts from the non-European checklists** (Part 5 stage 6, 2026-10-13; `tests/coverage-01/part3/wordbank-nonwestern.tsv`): about 25 with no word: chili pepper, spicy, noodles, coconut, mango, ginger, lemon/lime, shrimp, chopsticks, basin, tray, kettle, cockroach, lizard, camel, bracelet, earring, machete, kite, squat, greet, hang; plus mortar, well, charcoal (no checklist asks). Widen-a-root candidates: hoe (spade), veranda (balcony), wrapper cloth / baby sling (cloth), sleeping mat (carpet), stiff staples like ugali (porridge), relish (soup/sauce), floor mattress (bed). Take them through the ladders with the rebalance's own findings (Part 5 stage 5).
 
-- **Rates** decided 2026-10-15 ("… relation word + unit + **mesun**"; design log): write into the reference's numbers section with three examples **after the short-word apply** finishes, using the new forms.
+- ~~**Rates**~~ done 2026-10-16: reference 9.2.6.
 
 - **The language's name is settled last** (author, 2026-10-13: the name doesn't have to be kept). **apu pi we** depends on the forms of "language" (**apu**), **pi** (in a voicing pair flagged by the auxlang survey) and **we**; after the short-word redo and the final placement, decide whether to keep or pin the name or let it follow the words. Renaming would also touch the repository, the site address and the README.
 
@@ -95,7 +95,7 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 - **Sense glosses for the new-root list** (Part 5 translators, 2026-10-13): labels like yard, spring, class, interest, raise, fan, party, capital, table are ambiguous English words; give each new concept a sense gloss before Part 4 places forms.
 
 - `tools/check.py` doesn't read plain `.txt` files (it only reads code blocks and bold); add a plain-text mode.
-- RB1 leftovers (author, 2026-10-15): the UDHR readings (Art 25.2, 26.2) and the guide's root count go with the v2 site rebuild; grammar function `LabelNP` → `LabelQ` after the short-word apply finishes (it's editing the grammar now).
+- RB1 leftovers (author, 2026-10-15): the UDHR readings (Art 25.2, 26.2) and the guide's root count go with the v2 site rebuild; grammar function rename: already `LabelQ` in the grammar (checked 2026-10-16).
 
 - **From the deletion audit** (2026-10-15): ~~`positions.py` counted GF's "command not parsed" as a parse~~ fixed 2026-10-15 (only `MkUtt` lines count; quote marks stripped from frames); its substitution counts must be **rerun** before the short-word rerun. ~~7.2.6 never checked~~ fixed: examples without an English gloss in quotes aren't extracted by `spec.py examples`, so 7.2.6 and the new 4.8.7 examples got glosses and intended readings (gf_check: 209 parse, all intended). **sun** appears in no frame. `tests/confusion-v2/results.txt` is out of date (rewrite with the next check run).
 

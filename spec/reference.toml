@@ -1419,6 +1419,15 @@ text = '''
 - Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **gimu**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de gimu wo gun yawu sa** "3 × 4 = 12". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3"). ÷ has no word yet.'''
 
 [[item]]
+id = "9.2.6"
+type = "bullet"
+title = "Rates"
+gap = 0
+text = '''
+- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi sa gimu mon dili mesun** "I eat twice a day" (on each day), **to neke de musu tun ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
+
+
+[[item]]
 id = "9.3"
 type = "heading"
 level = 3

@@ -216,3 +216,5 @@ totu fi	[NP totu fi]	no	fi right after the noun (5.2.12)
 fo mara fi	[NP fo mara fi]	no	
 totu fi kudu	[NP [NP totu fi] kudu]	no	fi before the describing words
 fo mara fi obu	[S [NP fo mara fi] obu]	yes	fi ends the name (5.2.12, 11.1)
+to nawi sa gimu mon dili mesun	[S to nawi sa gimu [ADV mon [NP dili mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
+to neke de musu tun ewo mesun	[S to neke de musu [ADV tun [NP ewo mesun]]]	no	relation phrase may also attach to the noun (4.4.1)

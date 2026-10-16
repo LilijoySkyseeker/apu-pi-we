@@ -308,6 +308,7 @@
 - <span id="r-9-2-3"></span>Labels (noun + **mena** + number) under 100 use the quantity reading (**dili mena yawu wo** "day 14"). Larger labels use the digit reading.
 - <span id="r-9-2-4"></span>Decimals use **mimi** "point": 1.5 = **ni mimi ma**. **guti** means minus. With **unun** "× 10 to the", **de unun guti ufo** = 3 × 10⁻⁶.
 - <span id="r-9-2-5"></span>Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **gimu**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de gimu wo gun yawu sa** "3 × 4 = 12". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3"). ÷ has no word yet.
+- <span id="r-9-2-6"></span>A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi sa gimu mon dili mesun** "I eat twice a day" (on each day), **to neke de musu tun ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).
 
 ### 9.3 Amounts and comparison
 
