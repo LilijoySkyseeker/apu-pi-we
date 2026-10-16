@@ -2,7 +2,7 @@
 Copied from shortwords-02/rebuild.py; changes for the rerun (README.md here):
   - offensive filter tiered (design log 2026-10-15): offensive.blocked(form) is a hard rule (H5);
     offensive.matches(form) is the small tie-break penalty ("C3 mode", 0.002 each). No "hard" mode.
-  - variants: confusion2.variants() now has 50 (src-av, src-lp). SW_VARIANTS=all|no-av|no-lp|half-a|half-b
+  - variants: confusion2.variants() now has 50 (src-av, src-lp). SW_VARIANTS=all|no-av|no-lp|half-a|half-b|default
     picks a subset (drop test, hold-out check); SW_OVERRIDE="param=value,..." sets a parameter in every v2
     variant (one-at-a-time sensitivity; value may be low/high/best from the parameter table).
   - --lock OF,ALL keeps those words at today's forms (the name apu pi we).
@@ -263,6 +263,8 @@ def _ov_value(k, v):
 
 def pick_variants():
     """The variant set for this run (env SW_VARIANTS, SW_OVERRIDE)."""
+    if VARSET == "default":   # added 2026-10-16: confusion2.variants() as it defaults now (48, av/lp off)
+        return M2.variants()
     vs = M2.variants(av=VARSET != "no-av", lp=VARSET != "no-lp")
     if VARSET in ("half-a", "half-b"):
         # hold-out split (added): stratified, half of the Latin-hypercube draws and half of the rest, fixed seed
