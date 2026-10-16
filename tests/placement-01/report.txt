@@ -1,0 +1,169 @@
+1555 content words (1457 roots placed, 98 fixed: loans and operators); 48 variants; robust score R = mean of worst 12 of conf_v / random median (1.0 = random lexicon)
+random medians, best variant: today 21.95, full list 123.35; v1 variant: today 33.94, full list 189.49
+today's lexicon (519 words, data/lexicon.tsv): R 0.3935 | best variant 0.2822 | worst variants worst-no-mid, worst-voicing, lhs-12
+A.json: R 0.1135 | J 33.899 | best variant 0.0882 | worst variants worst-no-mid, lhs-12, v1
+C-1.json: R 0.0610 | J 27.905 | best variant 0.0453 | worst variants worst-no-mid, v1, lhs-21
+C-2.json: R 0.0602 | J 27.872 | best variant 0.0446 | worst variants worst-no-mid, v1, lhs-21
+C-3.json: R 0.0613 | J 27.785 | best variant 0.0458 | worst variants worst-no-mid, v1, lhs-21
+chosen: C-3.json (lowest J)
+seeds agree on 206 of 1457 root forms (14%); on length for 1136
+three-syllable roots: 663: group oyogi, tongue ayiye, belly mikaka, star ewatu, leaf asona, sea ayafe, sand uliye, smoke abuyu, storm esimo, snow amogo, salt ameno, ash letawo, cow nuguli, snake itidu, insect asasi, egg eyagi, wing ubefu, tail odane, door ufafi, tool esawe, rope tilewo, boat uyili, bed aniwu, cup isofi, front ewinu, wide danoka, light, not heavy idefa, thick dofofe, wet etiba, dry eduke, soft oyaga, sharp doyosu, weak amoma, clean asemu, dirty awifi, beautiful ikasa, important imute, dead usafa, green emiya, yellow awumi, blue udubo, choose asawa, angry efani, call, phone or call to aliso, sing enako, write uliwo, laugh okoka, swim iliba, lie, lie down owasu, pull fiboge, throw dotike, hold omonu, close, shut etulo, cut ifelu, grow ofumi, buy ugowu, sell ewuwo, pay asugo, wash dilenu, cook iwule, win oyisa, idea igate, war inayo, peace peduta, game awosi, power, control ukuki, bag ugipo, smart alubu, POINT kutobi, MINUS lowayi, POWER panese, seed uyino, milk anotu, brain iteko, sneeze usiso, yawn oteye, loud adosu, shoulder apesi, air igewe, squeeze unelo, scratch egose, basket omemu, 6 dinome, 7 wiwali, 8 unune, 9 imasi, 100 mekole, 1000 mogawe, 10^6 ageke, 10^9 guwube, safe, not in danger ifipi, box, container iyado, marry, wedding ufayu, adjust, set etoto, apple eweye, window opowo, chair imuga, banana udanu, potato ipumi, cheek aseso, scissors utote, towel osufo, pig umagu, bucket oboti, juice obebe, hammer edewa, scarf uyisu, dress (the garment) udugi, plate, dish ifefo, kiss ikame, comb ulolu, broom upufe, block (toy building block) ekowa, drive (a vehicle) enoye, hug owidu, glove ufota, skirt apaka, oven iwisi, crocodile umiyu, ladder itiyi, pear eguyo, pen ebape, clap afega, boot eliti, pot, cooking pot efube, fox upako, knock ifote, ride oyeti, case (legal), lawsuit uweke, candidate uwewu, hero enedo, sport imimo, newspaper emipu, expert odiwa, judge (person; to judge) esegu, industry iwimi, debt oyuko, address (postal or email) asuyi, map emami, threaten efila, structure ewesa, product uwofa, generation owano, interview umeta, race, ethnic group (social category) egawu, professor iludo, literature etopi, announce ufulo, spring (water source) afofa, vehicle ofala, article (a written piece) efewo, parliament eyone, pressure olasa, democracy iwoyu, scene (of a play or film) ipuka, style, manner enula, sin ukiwe, bridge upani, secretary olefi, soul akigu, revolution unofu, network ibaya, arrest osube, wine olota, match, matchstick igoko, station (train, bus) efata, iron (the metal) akume, magazine okuda, luck episo, stage, phase epewi, stage (theatre platform) iseni, honey amusa, react ufuye, prove unato, measure emugi, mathematics ewoke, crisis awagu, role atose, pray, worship akema, travel anina, ring (finger ring) eyosu, pair, couple molute, palace ayako, direct, directly afoku, mayor emopa, population ofawi, detective ituse, bullet upesa, hall, large room ekunu, ticket apetu, budget usuwu, breakfast fabuse, witness elene, customer oyoma, brave iwego, benefit awade, standard, norm utisi, challenge isawu, tax olubi, philosophy isudi, course (of study) adoda, original upeki, content (what is inside) alame, channel (TV, radio) ayufi, major, main, chief upoya, identity emibe, advertisement iyapa, suit (the garment) iluwi, appointment atupa, regret esusu, desert eteme, skill agofo, praise enudu, the press, news media omaye, citizen eleyu, habit, routine bonomo, childhood nesuwa, title, heading onuga, divorce isesa, negative emawa, compare onuyu, pocket isuno, establish, found ofate, expression (phrase; facial) sipipo, fresh iyiwu, screen (display) ebuna, campaign ewuku, universe ufite, define inede, arrange opiwu, score, points aponi, imagine afinu, holy person (saint, widened) uyudu, crown (worn by a monarch) oseno, muscle udedi, pure imolo, tense, strained, nervous isito, supply ipadu, bow, bend the body ososa, bow (the weapon) migodu, adult otuso, offering, sacrifice ugeyu, expect atawe, museum imela, approach, come near igupe, comment amefa, invite iyita, element, component owuwu, invest iyetu, novel (a long story) uwida, poem onali, nurse ikine, engine, motor legepa, rose atili, wise uwame, coin eguli, chemistry edale, patient, sick person (in care) etayi, patient, enduring unusa, material, substance umaba, traffic asayu, consciousness esike, protest sogono, contribute diyuto, publish uwogo, raise, lift asote, prisoner mesisi, proud oyamu, perform uguwa, gender aweta, hell otuwi, guarantee akusu, terrorism ofepo, airport atiya, exchange eyomu, nerve awuka, virgin edasa, busy inebu, hole utiga, board, plank ebodi, punish idile, cross, go across edogu, civilization gomili, grain onetu, metal edamo, progress ayedu, popular osese, engineering butula, fail daduwo, needle fawonu, plot (of a story) banepo, charge (a battery) ewalo, throne fulele, climate obupa, signature okina, essay losabo, introduce esiyi, spy uneso, fever ufema, rape ademi, damage agaba, wheel tunudo, reward negiyi, poison atoyo, symptom usalo, loan (money lent) usaye, reference afuwa, wonder, an astonishing unexplained event (miracle is built: wonder of god) edesu, cabinet (government) egefi, capacity usidu, shock bofepi, angle eyuga, scholar fisaga, rare egelo, mission sipawe, trick, deceive ayali, steel paluki, farm imufu, essence, gist esoyo, tower ekebu, strike (labour) utono, tip, gratuity osida, religious leader (priest, widened) okafa, lover, partner in love egiko, surgery itomu, forehead ukinu, behave loboga, evil spirit, demon, devil odego, average doyene, treasure olake, flood igoda, former, ex- owoli, vegetable fuwati, continent doyumu, extreme atite, diamond iduso, presence ifoyi, shield omila, edition awepu, menstruation adifu, balance omipe, pilot iwama, corpse, dead body uyuta, sword ifano, invent eyebe, context utefo, messenger omofe, camp esumi, womb ebido, print ganofi, sum, total minipe, layer iposo, app, software application ilegi, bless, blessing ayuno, missile odipi, broadcast siwifa, factor idino, pole, post dafiti, handle amuwe, corruption egufa, dawn usoli, host (who receives guests) nakewu, fashion udimu, regular gunifa, ceremony efitu, amount fapola, place of worship (temple, widened) ayosa, grave elupo, script elada, innocent olema, giant fenadi, noble inisa, fan, supporter otole, fan (cooling device) fasasa, plain (flat open land) anamu, credit sifese, repeat ulana, manage ayewo, release, let go oneda, experiment uwuso, version usuna, describe okumo, emergency iyuma, reform ipeda, insurance ukawo, joint (of the body) enusi, rate (speed, ratio, rate of pay) dumodi, fence kimiwi, blind umuko, available momigo, fool ekeya, drunk uyeko, fuel (petrol, gasoline) ifeye, excuse onewe, satisfied okabu, detail afomo, improve fogiwi, settle omoso, wheat nakuko, cream (of milk; cosmetic) ulika, tribe ugela, anniversary ifugu, holiday atebo, spend nenafa, complex awewi, logic fofogi, normal kokesu, practice, training dumepu, mud kibiyu, income uyife, copper tenono, band (music group) abalu, honest ofige, curse uyade, evolution edigi, platform isiwa, pulse owise, surface iwafo, edit eleka, certificate daselo, trap genida, confess ewowi, instrument (musical) nabeli, shift (work shift) udaka, atmosphere (air layer; mood) esefe, argument, dispute sonala, access osini, arrow fewefu, volunteer kabine, coach moyowu, frame oweni, conclusion uwiku, pollution okadi, famous isola, opposite awiyo, note (a short written message) nanewa, register, enrol obiyi, valley uwumo, violence isaki, tunnel otaki, treat temeso, toilet akudi, tight gayude, suspect atuki, strict dugola, sensitive sogipa, schedule efoga, satellite ofiyo, retire dimata, represent itawa, reflection iyowo, recognize ukifa, receipt otama, prostitute uyayo, priority ekuye, prevent osame, pipe minafu, pillar monusu, physics sifoma, permanent ususi, pearl ayini, organ (of the body) dibiwe, native, indigenous motepa, mystery atapu, moral, ethics gupale, monster lipana, mix imeke, ghost akowu, percent dukugu, often ituya, sometimes abuto, never ekafo, later asegi, parent usoko, lunch dikefe, dinner ogato, cassava ilofe, millet, sorghum ayipa, deaf biyefi, shave okiti, fish (catch fish) elanu, herd, tend animals akano, biology tepenu, influence otogu, holy, sacred osatu, avoid ikiyo, partner (neutral in sex and setting) ubowe, environment, surroundings ufosu, destroy esako, explode, burst ewima, accuse, blame, hold responsible isotu, waste (use up for nothing) umoki, load, burden dufimi, heap, pile ikufo, warm oloyo, disaster ikemo, unique eyifo, celebrate, celebration uyomi, include, contain idoni, fill, make full gefage, exceed, go beyond useku, decrease, become or make less nunowo, statue feyime, participate, take part amele, characteristic, feature, trait unafe, obey fodufe, familiar, known pakifo, heal, cure iyuyi, hate figulo, cruel iwusa, descend, go down; land amagi, chain adune, acquaintance, person one knows okedo, bell nelaki, kind, kindness umidi, nonsense otito, obstacle mifawe, fraud, cheating finito, achieve sowige, summary isase, endure, bear, tolerate ameti, substitute, replacement uwuti, ancestor foliku, coal (fuel) ofodo, wild, not tamed or farmed solasi, cave tadimo, inherit, inheritance amafu, discrimination, unfair treatment of a group otime, attitude, stance mipima, comfortable, at ease siyopu, depend (on), be conditional on netege, worthy, deserving alide, well-being, welfare nagoti, infection, infect aguya, urgent tulipi, ceiling ogase, deny, say it isn't true ubose, pattern, repeated design nugeta, revenge memoyo, cliff, steep rock face newito, dew etiwu, firewood amote, nest apilo, eagle, large bird of prey ewoya, scale (of fish or snake) esena, flea bemelu, wasp emowu, lizard isuwe, beard edise, jaw ilona, snot, nasal mucus fotofo, beak adobi, elbow onibo, thigh alaya, heel sipili, kidney uyosi, waist oseka, hip iyena, hiccup ayowe, bury baliga, itch bepofu, pus afiwi, lazy ulawi, naked napefe, roast (cook over a fire or in dry heat) lemuso, peel nufone, sieve, strain ilifu, knead tiwoka, mortar (for pounding) fesuya, leather akafi, weave akesa, sew enimi, bead owawa, plant, sow (put seeds or plants in the ground) ekita, mushroom efusa, axe alawo, rub koyilu, clay aneyi, wrap kipafe, sink (go under water) asime, float aloyi, crawl anuli, stingy, mean with money owula, hook mosuyu, whistle itofa, scold agayi, drum dafisa, tick obeya, freeze, become ice soluwe, swamp, marsh, wet ground uyafu, rainbow usewi, orphan, a child whose parents have died abuge, shell (of egg, nut, snail, sea creature) ogofi, snail meyeso, blood vessel (vein, artery) ekiki, rib ilaye, eyebrow efolu, gums nasade, wrist anata, ankle oduno, scar sonaku, jug, water jar utasu, shelf usepe, brick gafawo, plough pesifu, hoe nukilo, gourd, calabash, pumpkin, squash tuyiba, nail (metal fastener) owefo, roll amulo, lend ogoye, borrow itefi, greedy efosi, flute uniki, foam, froth utada, vulture itoge, gnat, midge, sandfly dawupu, spleen banime, boil, abscess (on the skin) dawuna, lame, limping ikagi, spin (thread) fupego, spindle nuyasa, tree trunk ikesu, palm (the tree) asiku, bore, drill lemagu, hollow out sofewa, mould tugapi, carve tiwosu, pinch asifa, groan efafu, howl esopa, spear duweyo, sinew, tendon oloku, fry (cook in hot oil or fat) ogutu, put out, extinguish (a fire) kumowa, hawk (smaller bird of prey) nayisi, shiver, tremble epete, bake (in an oven or on hot ashes) kipuwo, scrape getipo, button (on clothes; also a push-button) sopuyi, floor (the surface walked on) osomu, pound (in a mortar) amiko, mat (woven, for sitting or sleeping) liyigo, twist, wring kusowa, chase, pursue adati, dare sopusa, murder (kill on purpose, unlawfully) mopayo, parrot abaso, cockroach iyoti, pepper (the spice) dabowi, cotton (plant and cloth) iyiki, candle figiga, mattress nalono, steam sokifu, swallow (food, drink) igubu, flour fakebi, harvest ekufi, bend omusi, fold bemisi, stretch upupu, hang, hang up idapu, mad, crazy ibife, refuse, say no to ugemi, stranger, a person one does not know siyayi
+today's roots moved: 357 of 478 (forced by the rules: 104)
+near pairs (above today's 99th percentile of pair confusion): best variant thr 1.74e-04: today 1249 of 124827 pairs, after 3157 of 585684; robust (worst-quarter mean) thr 5.07e-04: today 1249, after 3247
+  A (one at a time): best 3868, robust 4037
+frequency-weighted nearest-neighbour confusion (best variant): today 0.00368, after 0.00134
+B2 margin (single-feature neighbours that are real words): today's roots 4/2789 = 0.14%; new roots 0/9968 = 0.00%; all content words 2/10872 = 0.02%
+  A (one at a time): roots 6/9870 = 0.06%
+p-initial roots: today 15 of 478; after 37 of 1457 (all content words incl. loans: 46)
+  first-onset counts, new roots: V:573 f:90 s:86 t:81 d:79 m:76 n:76 k:63 g:63 l:61 w:61 j:60 b:51 p:37
+haplology + digit check (roots starting with dan don fan fun gen gi gun ke la lu mon nan no pi pon se sin su to wan we yen or a digit): passed; fixed words that do (kept by rule 2): lupiya (rupee), tokolatu (chocolate), suwetalu (sweater), pidama (pajamas), ladiyo (radio), tomate (tomato), pisa (pizza), sukalu (sugar), tosutu (toast), masina (machine), sayitu (website), gitalu (guitar), denu (gene), sutudiyo (studio), piyano (piano), masuka (mask), genso (not literally, joking (speech act)), wanme (seen, evidence by sight), wemen (inferred, it seems)
+unique drift keys: yes; reserved senary keys used: 0; second syllable onset: yes; blocked forms: 0
+juncture.py on the result: exit 1: digit+word: DE nun ~ gene denu
+digit+word: DE no ~ gene denu
+-n pair: REQUEST=ta / MODMOD=tan
+-n pair: ADVISE=fon / NAME=fo
+-n pair: WARN=yo / EVEN=yon
+-n pair: WE.incl=kan / BUT=ka
+-n pair: BEFORE=ya / YOUKNOW=yan
+-n pair: POLITE=fin / ENDEAR=fi
+offensive.matches (C3 tie-break only): new roots 114: futa (woman, female), sise (father), dako (name), mose (foot), fefi (stone), amogo (snow), fudi (plant, vegetation), kuyu (meat), pete (money), dili (day (24 hours)), bese (inside), gelu (near), sola (road), netu (long), goton (heavy), sida (full), uba (good), feko (true), kune (think), monu (want), tana (like, enjoy), gesi (understand), gugu (mean, signify), nagu (see), mido (ask (a question)), geka (talk), tuke (cry, weep), isi (go), meko (walk), kono (run, on foot), sigo (return), duko (start), bide (stay), ibe (have, possess), neke (give), dunu (get, obtain), dotu (work, labour; of a machine, function), bula (play, for fun), lite (way, method), batu (problem), sine (yesterday), eda (now), angi (mouth), doyu (sit), senfu (build), lota (thank), pesu (sibling), soto (north), guka (south), tato (liver), simo (spit), tamu (smell, sense or give off an odour), inan (vomit), tase (bark, of a tree), tuku (sweat), situ (shade, shadow from light), fogu (straight), wento (penis), denku (correct), lante (shallow), tenko (fart), tindu (swell), gando (boil), nemi (worm), bute (grind), silu (second, of time), tuso (early, before the expected time), guti (love), mika (tired), siso (storey, floor level of a building), siten (seek, search for), peyu (connect, join), lemo (enough, as much as needed), minso (oppose, be against), tito (ball (round toy)), dinka (table), dope (medicine), ode (school), ulolu (comb), kansa (tickle), yoko (film), teki (question), kaku (news), dina (music), wudo (state, polity), digu (situation), gayo (special), temo (next), babo (line, stripe, row), sikan (court (of law)), tiga (season), dilo (prepare), koda (secret), kunto (serious), gole (international), kundi (kingdom), teba (energy), boge (test, exam), dundo (unit (of measure)), tulo (match, contest), tude (step, pace), alame (content (what is inside)), diso (liquid), foken (positive), ake (opportunity), yiban (square, plaza), poka (investigate), popo (perfect), kalo (competition), pungo (success), tedi (lose (a contest)), geno (common, ordinary, usual), bedo (accept, take what is offered), amiko (pound (in a mortar)); today's roots 76
+
+antonym pairs, closest (best-variant / robust symmetric confusion):
+  5.97e-05 1.42e-05  gelu near  ~  linu far
+  4.77e-05 1.76e-05  iko tell  ~  mido ask (a question)
+  2.95e-05 1.63e-05  duko start  ~  fuki end
+  1.53e-05 7.04e-06  wiyu stand  ~  doyu sit
+  1.47e-05 5.37e-06  yeyan fast, quick  ~  ledon slow
+  9.67e-06 5.33e-06  dadan private, not for others  ~  dapun public
+  6.24e-06 2.07e-07  kige same  ~  eni other
+  3.59e-06 7.41e-07  uba good  ~  yomo bad
+  2.94e-06 6.89e-07  netu long  ~  dinfu short, not long
+  1.21e-06 4.44e-08  soto north  ~  guka south
+  1.12e-06 2.43e-07  dinome 6  ~  unune 8
+  9.39e-07 1.63e-07  dosi fall, drop down  ~  yoten rise, go up
+  7.12e-07 2.88e-07  unune 8  ~  guwube 10^9
+  5.39e-07 1.94e-08  ugowu buy  ~  ewuwo sell
+  5.06e-07 2.21e-07  udin future  ~  nuda past
+
+near pairs among frequent words (both tier >= 3), by robust confusion, top 25:
+  1.76e-02 6.26e-03  bute grind (t3, action)  ~  wupe market (t3, abstract)  W 1
+  1.67e-02 9.07e-03  wati tree (t3, nature)  ~  wabi world (t4, space)  W 1
+  1.46e-02 3.52e-03  tase bark, of a tree (t3, nature)  ~  kafe coffee (t3, loan)  W 1
+  1.35e-02 5.95e-03  tefu head (t3, body)  ~  pesu sibling (t3, people)  W 1
+  1.05e-02 3.59e-03  nusu fire (t3, nature)  ~  mosu relationship (t3, people)  W 1
+  1.05e-02 6.06e-03  duko start (t3, motion)  ~  wuko village (t3, space)  W 1
+  9.97e-03 6.90e-03  nupa fear (t3, mind)  ~  nuda past (t3, time)  W 1
+  9.51e-03 4.63e-03  mowa change, make or become different (t3, action)  ~  mofa master, lord (t3, people)  W 1
+  9.24e-03 2.63e-03  lite way, method (t3, abstract)  ~  liki union, alliance (t3, people)  W 1
+  9.20e-03 4.02e-03  wafo member (t3, people)  ~  babo line, stripe, row (t3, space)  W 1
+  9.08e-03 4.25e-03  nume live, be alive, dwell; life (t4, action)  ~  nuye crime (t3, people)  W 1
+  9.06e-03 2.90e-03  pagi flower (t3, nature)  ~  bayi soldier (t3, people)  W 1
+  8.35e-03 2.40e-03  dafi train (t3, thing)  ~  tapi condition (t3, abstract)  W 1
+  8.33e-03 3.01e-03  wuli need (to) (t4, mind)  ~  buni okay?, softens and invites agreement (stance, sentence end) (t4, abstract)  W 1
+  7.76e-03 3.62e-03  nemi worm (t3, animal)  ~  nefi speech (t4, sense)  W 1
+  7.76e-03 2.79e-03  dope medicine (t3, body)  ~  lofe responsible (t3, quality)  W 1
+  7.72e-03 4.06e-03  tayu agree (t3, mind)  ~  tamu smell, sense or give off an odour (t3, sense)  W 1
+  6.92e-03 2.14e-03  dako name (t3, people)  ~  tato liver (t4, body)  W 1
+  6.79e-03 2.54e-03  fufu space, room to fit (t3, space)  ~  bufo continue (t3, action)  W 1
+  6.60e-03 3.09e-03  insa cheap, low in price (t3, quality)  ~  wisa increase (t3, action)  W 1
+  6.48e-03 3.45e-03  obu come (t5, motion)  ~  yofu plan (t4, mind)  W 1
+  6.23e-03 2.00e-03  lebu document, file (t3, thing)  ~  bepu appearance, look (t3, sense)  W 1
+  6.20e-03 1.78e-03  babo line, stripe, row (t3, space)  ~  pago series (t3, abstract)  W 1
+  6.12e-03 3.04e-03  ake opportunity (t4, abstract)  ~  ame order, command (someone to do something) (t4, sense)  W 1
+  6.05e-03 1.95e-03  lodi bird (t3, animal)  ~  moti again (t3, time)  W 1
+
+all near pairs (robust, above today's 99th percentile), top 40:
+  2.93e-02 1.50e-02  kilo kilogram, everyday short form (t2)  ~  kiyo end of phrase (closes a relative clause, phrasal derived word or topic) (t3)
+  1.82e-02 5.43e-03  gelu near (t3)  ~  denu gene (t1)
+  1.76e-02 6.26e-03  bute grind (t3)  ~  wupe market (t3)
+  1.67e-02 9.07e-03  wati tree (t3)  ~  wabi world (t4)
+  1.46e-02 3.52e-03  tase bark, of a tree (t3)  ~  kafe coffee (t3)
+  1.44e-02 7.56e-03  siwa cart (t2)  ~  sida full (t2)
+  1.40e-02 7.11e-03  komu .com (read aloud) (t1)  ~  kodu code (computer code; a cipher) (t2)
+  1.35e-02 5.95e-03  tefu head (t3)  ~  pesu sibling (t3)
+  1.34e-02 7.09e-03  sanda listen (t2)  ~  sanwa rent, pay to use (t2)
+  1.16e-02 8.10e-03  mogo neck (t4)  ~  moto motorcycle (t2)
+  1.06e-02 3.10e-03  kifa bite (t4)  ~  pisa pizza (t2)
+  1.05e-02 3.59e-03  nusu fire (t3)  ~  mosu relationship (t3)
+  1.05e-02 6.06e-03  duko start (t3)  ~  wuko village (t3)
+  1.04e-02 2.47e-03  denu gene (t1)  ~  geno common, ordinary, usual (t3)
+  1.03e-02 7.27e-03  siso storey, floor level of a building (t2)  ~  diso liquid (t2)
+  9.97e-03 7.06e-03  pisa pizza (t2)  ~  wisa increase (t3)
+  9.97e-03 6.90e-03  nupa fear (t3)  ~  nuda past (t3)
+  9.60e-03 5.73e-03  witin turtle (t2)  ~  ditin spade, shovel (t2)
+  9.51e-03 4.63e-03  mowa change, make or become different (t3)  ~  mofa master, lord (t3)
+  9.24e-03 2.63e-03  lite way, method (t3)  ~  liki union, alliance (t3)
+  9.20e-03 4.02e-03  wafo member (t3)  ~  babo line, stripe, row (t3)
+  9.08e-03 4.25e-03  nume live, be alive, dwell; life (t4)  ~  nuye crime (t3)
+  9.06e-03 2.90e-03  pagi flower (t3)  ~  bayi soldier (t3)
+  8.78e-03 3.06e-03  wanu breathe (t3)  ~  balu bar (place serving drinks) (t1)
+  8.62e-03 5.28e-03  sowun offend (t2)  ~  sokun application, formal request (t2)
+  8.36e-03 2.41e-03  mewan high (t2)  ~  negan rabbit (t2)
+  8.35e-03 2.40e-03  dafi train (t3)  ~  tapi condition (t3)
+  8.33e-03 3.01e-03  wuli need (to) (t4)  ~  buni okay?, softens and invites agreement (stance, sentence end) (t4)
+  8.19e-03 2.38e-03  minwe whole (t2)  ~  ninge sound, noise (t3)
+  8.17e-03 4.44e-03  yesun exercise (physical) (t2)  ~  mesun each, every one separately (t3)
+  8.08e-03 2.61e-03  sigo return (t3)  ~  siwon countryside (t2)
+  8.07e-03 2.95e-03  kono run, on foot (t3)  ~  komu .com (read aloud) (t1)
+  7.76e-03 3.62e-03  nemi worm (t3)  ~  nefi speech (t4)
+  7.76e-03 2.79e-03  dope medicine (t3)  ~  lofe responsible (t3)
+  7.72e-03 4.06e-03  tayu agree (t3)  ~  tamu smell, sense or give off an odour (t3)
+  7.66e-03 2.57e-03  mika tired (t3)  ~  liga league (sports) (t2)
+  7.63e-03 2.21e-03  komu .com (read aloud) (t1)  ~  pumu word (t4)
+  7.61e-03 2.80e-03  leyi knee (t4)  ~  denyi victim (t2)
+  7.45e-03 2.53e-03  migi fight (t2)  ~  liki union, alliance (t3)
+  7.03e-03 1.74e-03  tufa salty (t3)  ~  dufan notice, become aware of (t2)
+
+frequent roots (tier >= 4) whose form changed:
+  t5 can, be able: lenu -> utu
+  t5 do; make: muge -> nufi
+  t5 good: upe -> uba
+  t5 know: lugo -> yuse
+  t5 thing: musu -> ado
+  t5 think: pume -> kune
+  t5 want: momu -> monu
+  t4 100: loki -> mekole
+  t4 6: ufo -> dinome
+  t4 7: oma -> wiwali
+  t4 8: kefi -> unune
+  t4 9: mape -> imasi
+  t4 big: kudu -> kubo
+  t4 bite: lasu -> kifa
+  t4 food: pasu -> gube
+  t4 happen: muwo -> fawe
+  t4 house, home: guyi -> duyi
+  t4 language: apu -> sote
+  t4 liver: gudu -> tato
+  t4 many: feli -> bimi
+  t4 need (to): wupi -> wuli
+  t4 place: kemu -> fela
+  t4 time, a span or a point (not an occasion): muyi -> fipa
+  t4 work, labour; of a machine, function: doku -> dotu
+
+new roots, tier >= 4:
+  t4 hour: yepi
+  t4 minute, of time: pewi
+  t4 school: ode
+  t4 bring: yuya
+  t4 last, final: somi
+  t4 world: wabi
+  t4 question: teki
+  t4 government: wine
+  t4 news: kaku
+  t4 song: kawa
+  t4 company: fiyi
+  t4 different: eso
+  t4 king: nata
+  t4 state, polity: wudo
+  t4 plan: yofu
+  t4 next: temo
+  t4 mind, intellect: mowi
+  t4 report: fuwe
+  t4 business: kusi
+  t4 speech: nefi
+  t4 information: sibi
+  t4 job, occupation: beya
+  t4 opportunity: ake
+  t4 moon: yumi
+  t4 word: pumu
+  t4 order, command (someone to do something): ame

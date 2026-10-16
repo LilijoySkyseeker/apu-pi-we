@@ -1,0 +1,165 @@
+1555 content words (1457 roots placed, 98 fixed: loans and operators); 48 variants; robust score R = mean of worst 12 of conf_v / random median (1.0 = random lexicon)
+random medians, best variant: today 21.95, full list 123.35; v1 variant: today 33.94, full list 189.49
+today's lexicon (519 words, data/lexicon.tsv): R 0.3935 | best variant 0.2822 | worst variants worst-no-mid, worst-voicing, lhs-12
+A-no3.json: R 0.2157 | J 42.627 | best variant 0.1710 | worst variants worst-no-mid, v1, lhs-21
+C-no3-1.json: R 0.1861 | J 38.279 | best variant 0.1435 | worst variants worst-no-mid, v1, lhs-21
+C-no3-2.json: R 0.1857 | J 38.223 | best variant 0.1425 | worst variants worst-no-mid, v1, lhs-21
+chosen: C-no3-2.json (lowest J)
+seeds agree on 751 of 1457 root forms (52%); on length for 1457
+three-syllable roots: 0
+today's roots moved: 262 of 478 (forced by the rules: 104)
+near pairs (above today's 99th percentile of pair confusion): best variant thr 1.74e-04: today 1249 of 124827 pairs, after 11017 of 1110117; robust (worst-quarter mean) thr 5.07e-04: today 1249, after 11713
+  A (one at a time): best 10986, robust 11607
+frequency-weighted nearest-neighbour confusion (best variant): today 0.00368, after 0.00363
+B2 margin (single-feature neighbours that are real words): today's roots 4/2789 = 0.14%; new roots 0/8635 = 0.00%; all content words 2/9539 = 0.02%
+  A (one at a time): roots 6/8615 = 0.07%
+p-initial roots: today 15 of 478; after 66 of 1457 (all content words incl. loans: 75)
+  first-onset counts, new roots: t:128 j:124 s:118 f:117 k:115 w:110 l:105 d:99 V:96 n:96 b:95 m:94 g:94 p:66
+haplology + digit check (roots starting with dan don fan fun gen gi gun ke la lu mon nan no pi pon se sin su to wan we yen or a digit): passed; fixed words that do (kept by rule 2): lupiya (rupee), tokolatu (chocolate), suwetalu (sweater), pidama (pajamas), ladiyo (radio), tomate (tomato), pisa (pizza), sukalu (sugar), tosutu (toast), masina (machine), sayitu (website), gitalu (guitar), denu (gene), sutudiyo (studio), piyano (piano), masuka (mask), genso (not literally, joking (speech act)), wanme (seen, evidence by sight), wemen (inferred, it seems)
+unique drift keys: yes; reserved senary keys used: 0; second syllable onset: yes; blocked forms: 0
+juncture.py on the result: exit 1: digit+word: DE nun ~ gene denu
+digit+word: DE no ~ gene denu
+-n pair: REQUEST=ta / MODMOD=tan
+-n pair: ADVISE=fon / NAME=fo
+-n pair: WARN=yo / EVEN=yon
+-n pair: WE.incl=kan / BUT=ka
+-n pair: BEFORE=ya / YOUKNOW=yan
+-n pair: POLITE=fin / ENDEAR=fi
+offensive.matches (C3 tie-break only): new roots 148: futa (woman, female), sise (father), mose (foot), fogen (blood), fefi (stone), gala (tree), yangi (sea), tisu (ash), goko (food), siye (cloth), pete (money), dili (day (24 hours)), bese (inside), dime (above), tedo (left, the side), sola (road), tutu (few), kugu (big), netu (long), sida (full), upe (good), yono (bad), poka (old, aged or worn), feko (true), gake (slow), timi (sick), tana (like, enjoy), gesi (understand), bunko (angry), nagu (see), mido (ask (a question)), tuke (cry, weep), isi (go), neko (walk), bina (fly, move through the air), kusa (leave, go away from), sigo (return), popo (follow), ibe (have, possess), neke (give), geno (find), dotu (work, labour; of a machine, function), kono (die), siten (cook), lite (way, method), batu (problem), yibo (yesterday), eda (now), tiga (panic), guti (MINUS), podo (year), doyu (sit), senfu (build), lota (thank), soto (north), guka (south), pamu (liver), pata (feather), yingi (root, of a plant), foku (smell, sense or give off an odour), tako (fat, body fat), tase (bark, of a tree), situ (shade, shadow from light), wento (penis), ganta (yawn), dusu (narrow), denku (correct), lante (shallow), tingu (swell), yiban (chicken), silu (occasion, a time (three times)), dumo (noon, midday), bidi (trust, rely on), tito (document, file), tawo (respect, honour), denka (truck), fide (baby), tonto (cat), tedi (dance), ode (school), kawi (teacher), kansa (turtle), tanke (kiss), telu (broom), dadu (forest), bisin (thirst), yuku (world), diba (music), gato (team), wuto (king), kaku (state, polity), digu (decide), temo (science), budu (voice), uli (next), teki (leader), bote (politics), miso (distance), diken (clear), kuna (message), tubi (information), beka (official, civil servant), puga (actor), aki (event), gega (rise, go up), nuko (activity), yonpi (interview), kuton (scene (of a play or film)), pasu (magazine), manya (crisis), dunto (role), kenki (ring (finger ring)), ginko (principle), tuso (benefit), mika (escape), sini (continue), kunto (score, points), tentun (coin), punku (airport), menso (nerve), genan (metal), koli (opportunity), dune (appear), sunden (religious leader (priest, widened)), dendu (presence), binte (corpse, dead body), kili (investigate), denda (corruption), sopa (believe; faith, belief), kinu (relationship), goyo (responsible), guda (exercise (physical)), pingi (mention), biku (competition), kando (prostitute), tunden (prevent), kude (always), kengo (never), dilan (lunch), kalo (fact), miden (waste (use up for nothing)), sikan (obey), tengon (lizard), tinta (jaw), ginpan (plant, sow (put seeds or plants in the ground)), gonle (hollow out), dunfu (groan), dindon (dare); today's roots 76
+
+antonym pairs, closest (best-variant / robust symmetric confusion):
+  2.67e-04 2.54e-04  folu stand  ~  doyu sit
+  4.77e-05 1.76e-05  iko tell  ~  mido ask (a question)
+  4.21e-05 1.65e-05  bubin strong  ~  undin weak
+  1.93e-05 4.08e-06  sogi happy  ~  bayi sad
+  1.02e-05 2.10e-06  ufo 6  ~  oma 7
+  9.71e-06 1.65e-06  ufo 6  ~  munfan 10^6
+  8.70e-06 1.05e-06  nenyun guest  ~  tensu host (who receives guests)
+  6.26e-06 2.18e-07  dune appear  ~  bomin disappear, vanish
+  6.24e-06 2.07e-07  kige same  ~  eni other
+  5.30e-06 6.93e-07  tinfo rich, wealthy  ~  sunko poor
+  3.87e-06 3.08e-07  fenwu hell  ~  konwo heaven, paradise
+  3.60e-06 1.22e-07  gonnu hold  ~  punyo release, let go
+  3.07e-06 7.25e-07  ufo 6  ~  munno 1000
+  2.51e-06 8.28e-07  gepu near  ~  gobi far
+  2.48e-06 4.35e-07  pebo answer  ~  naba question
+
+near pairs among frequent words (both tier >= 3), by robust confusion, top 25:
+  2.12e-02 8.29e-03  bote politics (t3, people)  ~  pope keep, retain (t3, action)  W 1
+  1.83e-02 5.50e-03  funo eye (t3, body)  ~  bulo master, lord (t3, people)  W 1
+  1.69e-02 7.82e-03  nade animal (t3, animal)  ~  name moon (t4, nature)  W 1
+  1.69e-02 8.77e-03  nuta fear (t3, mind)  ~  nuba job, occupation (t4, abstract)  W 1
+  1.60e-02 1.89e-03  dili day (24 hours) (t4, time)  ~  lini phone (t3, thing)  W 1
+  1.58e-02 5.92e-03  tula play, for fun (t3, action)  ~  kuna message (t3, sense)  W 1
+  1.55e-02 9.06e-03  sola road (t3, space)  ~  sopa believe; faith, belief (t3, mind)  W 1
+  1.51e-02 4.15e-03  etun gold (t3, nature)  ~  ipun class (school group) (t3, people)  W 1
+  1.50e-02 8.15e-03  wuye show (t3, sense)  ~  nuye energy (t3, thing)  W 1
+  1.49e-02 9.23e-03  sigo return (t3, motion)  ~  sifo project (t3, abstract)  W 1
+  1.46e-02 3.52e-03  tase bark, of a tree (t3, nature)  ~  kafe coffee (t3, loan)  W 1
+  1.35e-02 8.25e-03  futa woman, female (t3, people)  ~  fuba increase (t3, action)  W 1
+  1.34e-02 3.88e-03  bebu worm (t3, animal)  ~  fedu government (t4, people)  W 1
+  1.19e-02 6.53e-03  modi again (t3, time)  ~  mowi mind, intellect (t4, mind)  W 1
+  1.17e-02 4.03e-03  tusi cheap, low in price (t3, quality)  ~  tubi information (t4, thing)  W 1
+  1.16e-02 6.47e-03  libi kind, type (t3, abstract)  ~  lini phone (t3, thing)  W 1
+  1.15e-02 2.68e-03  doyu sit (t3, motion)  ~  goyo responsible (t3, quality)  W 1
+  1.15e-02 6.31e-03  dife dog (t3, animal)  ~  wife word (t4, sense)  W 1
+  1.14e-02 3.41e-03  sime louse (t3, animal)  ~  sini continue (t3, action)  W 1
+  1.10e-02 3.06e-03  lanmu list (t3, sense)  ~  lanno honoured one, title of respect (sir, madam, Mr, Ms) (t3, people)  W 1
+  1.05e-02 5.82e-03  fadun tired (t3, quality)  ~  fawun appearance, look (t3, sense)  W 1
+  1.04e-02 4.63e-03  gala tree (t3, nature)  ~  ganna early, before the expected time (t3, time)  W 1
+  9.99e-03 6.89e-03  pani fire (t3, nature)  ~  dani explain (t3, sense)  W 1
+  9.49e-03 3.05e-03  tusi cheap, low in price (t3, quality)  ~  kosi meeting (t3, people)  W 1
+  9.38e-03 4.14e-03  apu language (t4, sense)  ~  wafu hungry (t3, quality)  W 1
+
+all near pairs (robust, above today's 99th percentile), top 40:
+  4.63e-02 2.51e-02  manwe read (t2)  ~  mange quiet (t2)
+  4.50e-02 2.44e-02  wumon wet (t1)  ~  gumon drawer (t2)
+  4.40e-02 1.02e-02  binpin negative (t1)  ~  fintin argument, dispute (t1)
+  3.87e-02 1.90e-02  sonfa hair (t2)  ~  sonda plough (t1)
+  3.51e-02 1.75e-02  sunden religious leader (priest, widened) (t1)  ~  sunfen confess (t1)
+  3.40e-02 1.82e-02  pasu magazine (t2)  ~  gasu gas (state of matter; fuel gas) (t2)
+  3.36e-02 1.66e-02  yunfun sieve, strain (t1)  ~  yundun mat (woven, for sitting or sleeping) (t1)
+  3.29e-02 1.75e-02  fowin bee (t2)  ~  dowin sew (t1)
+  3.07e-02 1.58e-02  linfun chemistry (t1)  ~  lindun rib (t1)
+  3.05e-02 7.57e-03  bubin strong (t2)  ~  fufin income (t2)
+  3.01e-02 7.26e-03  bondo cup (t1)  ~  fongo straight (t3)
+  2.97e-02 8.43e-03  kanpon reflection (t1)  ~  panton hoe (t1)
+  2.97e-02 1.54e-02  nonfin plot (of a story) (t1)  ~  nondin mattress (t1)
+  2.95e-02 1.97e-02  tonlo rope (t1)  ~  onlo shoot (t2)
+  2.93e-02 1.50e-02  kilo kilogram, everyday short form (t2)  ~  kiyo end of phrase (closes a relative clause, phrasal derived word or topic) (t3)
+  2.69e-02 2.76e-03  panton hoe (t1)  ~  bandon twist, wring (t1)
+  2.56e-02 6.56e-03  kosi meeting (t3)  ~  konsin at least (t1)
+  2.45e-02 8.99e-03  tutu few (t3)  ~  tupun sour (t2)
+  2.37e-02 1.26e-02  punpa reason (t2)  ~  tunfa knife (t2)
+  2.32e-02 7.68e-03  yinka empty (t2)  ~  yita police (t3)
+  2.30e-02 3.97e-03  lonla flat, level (t2)  ~  nonna soldier (t3)
+  2.28e-02 6.04e-03  tedo left, the side (t2)  ~  pebo answer (t3)
+  2.27e-02 1.03e-03  datan constitution (t2)  ~  tadan band (music group) (t1)
+  2.14e-02 1.13e-02  yulo euro (t2)  ~  bulo master, lord (t3)
+  2.12e-02 8.29e-03  bote politics (t3)  ~  pope keep, retain (t3)
+  2.11e-02 1.60e-02  gelen swim (t1)  ~  elen goat (t2)
+  2.06e-02 8.27e-03  panme destroy (t2)  ~  tanmen warm (t1)
+  2.06e-02 7.60e-03  anken peace (t1)  ~  ante partner (neutral in sex and setting) (t2)
+  2.05e-02 7.93e-03  pangu subject, topic (t3)  ~  tangun statue (t1)
+  2.01e-02 9.67e-03  manyin extreme (t1)  ~  manbin fan (cooling device) (t1)
+  2.00e-02 1.09e-02  senyun yard, courtyard (t2)  ~  senbun eyebrow (t1)
+  2.00e-02 7.57e-03  santa doll (t2)  ~  sankan factor (t1)
+  1.95e-02 1.51e-02  binwun cotton (plant and cloth) (t1)  ~  inwun told, hearsay (t1)
+  1.94e-02 7.40e-03  tesin thick (t1)  ~  kensin hang, hang up (t1)
+  1.93e-02 1.45e-02  enman hero (t2)  ~  benman greedy (t1)
+  1.93e-02 4.48e-03  pisa pizza (t2)  ~  tesa lawyer (t3)
+  1.93e-02 7.35e-03  sonken desert (t1)  ~  sonte heel (t1)
+  1.92e-02 5.20e-03  punben tail (t1)  ~  tunden prevent (t1)
+  1.90e-02 3.27e-03  sunpan stingy, mean with money (t1)  ~  sunsan stretch (t1)
+  1.90e-02 2.64e-03  banso article (a written piece) (t2)  ~  banpo thigh (t1)
+
+frequent roots (tier >= 4) whose form changed:
+  t5 can, be able: lenu -> lilu
+  t5 come: obu -> ogu
+  t5 do; make: muge -> nufi
+  t5 know: lugo -> yuse
+  t5 thing: musu -> ado
+  t4 8: kefi -> manwon
+  t4 9: mape -> enfin
+  t4 bad: yomo -> yono
+  t4 big: kudu -> kugu
+  t4 bite: lasu -> kifa
+  t4 food: pasu -> goko
+  t4 happen: muwo -> fiki
+  t4 house, home: guyi -> ege
+  t4 liver: gudu -> pamu
+  t4 many: feli -> geyu
+  t4 need (to): wupi -> wubi
+  t4 place: kemu -> fela
+  t4 time, a span or a point (not an occasion): muyi -> fipa
+  t4 today: mefa -> nefa
+  t4 tomorrow: wuma -> wula
+  t4 work, labour; of a machine, function: doku -> dotu
+
+new roots, tier >= 4:
+  t4 hour: pewi
+  t4 minute, of time: yipi
+  t4 school: ode
+  t4 bring: yuya
+  t4 last, final: wali
+  t4 world: yuku
+  t4 question: naba
+  t4 government: fedu
+  t4 news: wine
+  t4 song: nefi
+  t4 company: fiyi
+  t4 different: eso
+  t4 king: wuto
+  t4 state, polity: kaku
+  t4 plan: yelo
+  t4 next: uli
+  t4 mind, intellect: mowi
+  t4 report: fuwe
+  t4 business: somi
+  t4 speech: ila
+  t4 information: tubi
+  t4 job, occupation: nuba
+  t4 opportunity: koli
+  t4 moon: name
+  t4 word: wife
+  t4 order, command (someone to do something): pumu
