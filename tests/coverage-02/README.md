@@ -121,12 +121,84 @@ A scan, not a full reclassification of all 983 items.
 
 ## Round 2 (the phrase line, author 2026-10-16)
 
-Task: `PROMPT.md` "Round 2"; decision (b) "When a phrase covers a concept" (`docs/design-log.md`, last entry). Round-1 files above stay as they were; round 2 writes `walk-r2.tsv` (from `src/walk-r2-manual.tsv` via `assemble_r2.py`) and `stretches-blind.tsv`.
+Task: `PROMPT.md` "Round 2"; decision (b) "When a phrase covers a concept" (`docs/design-log.md`, last entry). Round-1 files above stay as they were; round 2 writes `walk-r2.tsv` (round 1's `src/walk-manual.tsv` + `src/r2-overrides.tsv` + `src/walk-r2-extra.tsv`, via `assemble_r2.py`) and `stretches-blind.tsv`.
 
 ### Progress (round 2)
 
-- [ ] r2-1 reclassify round-1 P rows of 1243–1442 under the new line (`src/walk-r2-manual.tsv`)
-- [ ] r2-2 continue the walk from 1443, stretch by stretch, until the rule fires + one trend stretch
-- [ ] r2-3 `assemble_r2.py` → `walk-r2.tsv` and the table
-- [ ] r2-4 `stretches-blind.tsv` (1243–1442, rank + concept)
-- [ ] r2-5 README round-2 write-up (table, totals, questions)
+- [x] r2-1 round-1 P rows of 1243–1442 reclassified (`src/r2-overrides.tsv`); the calibration stretch too (`src/r2-calib-overrides.tsv`, added)
+- [x] r2-2 walk continued: the rule fires at once (1342); trend stretch 1343–1442; one more stretch 1443–1542 classified (`src/walk-r2-extra.tsv`, added: the result sits near 50%)
+- [x] r2-3 `assemble_r2.py` → `walk-r2.tsv`, `calibration-r2.tsv` (merged sources in `src/r2/`)
+- [x] r2-4 `stretches-blind.tsv`
+- [x] r2-5 write-up (below)
+
+Rerun: `direnv exec . python3 -B tests/coverage-02/assemble_r2.py` (also rebuilds the round-1 files, unchanged).
+
+### Method (round 2)
+
+- **The new line.** P only if the phrase is at most 3 syllables or is the compound the world itself uses. Roots have 2 syllables (500 of 520) and grammar words 1, so in practice: one root alone (in a plain or extended sense) or one root + one grammar word (**no**, **gen**, **du**, **pu**, **su**, **pi**, **nan**, **ten** …). A concept on the list without a form yet (**[care]**) counts as 2 syllables **(added)**: new roots come out at 2.
+- **World compounds.** Where a longer phrase is kept as P, the note names the languages that build it the same way. These are my calls from known forms, not a panel count **(added)**; none of them falls in the stopping stretch, so the stop doesn't depend on them.
+- **Unchanged.** Every other class (G, A, L, C, N, skips), the stretch boundaries and the denominator (classified candidates, skips out) stay as in round 1. Kept P rows carry the note "r2: P (phrase at most 3 syllables)"; changed rows say "r2: was P …".
+- **Months.** August (1478) is skipped as an existing decision (months and weekdays are **dunan/dili mena** + number).
+
+### Results (round 2)
+
+| Stretch (canonical rank) | Candidates | G | G share | G incl. alt:G | G share without A (added) | P | A | L | N | C |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1143–1242 (calibration: today's list) | 79 | 37 | 47% | 53% | 58% | 15 | 15 | 2 | 9 | 1 |
+| **1243–1342** (stops here) | 41 | 17 | **41%** | 46% | 52% | 12 | 8 | 1 | 3 | 0 |
+| 1343–1442 (trend) | 51 | 23 | **45%** | 49% | 62% | 10 | 14 | 3 | 0 | 1 |
+| 1443–1542 (second trend stretch, added) | 59 | 20 | **34%** | 36% | 43% | 23 | 12 | 1 | 3 | 0 |
+
+Round 1 for comparison: 24% / 22% (calibration 38%).
+
+- **Where it stops.** Still at the end of the first stretch, **rank 1342**. The new line lifts the share from 24% to 41%, not past 50%.
+- **What it adds.** **17 G** (round 1: 10). The 7 new ones are discrimination, attitude, worthy, welfare, infection, urgent, ceiling. With round 1's: ancestor, coal, wild, cave, inherit, comfortable, depend, deny, pattern, revenge.
+- **Trend.** 45% (23 G), then 34% (20 G). No climb towards 50% further down.
+  - 1343–1442 G: bay, fold, illusion, crazy, torture, artificial, bend, hang, bribe, cannon, steam, canal, weed, surround, stretch, suffer, leak, guilty, stranger, bet, pity/mercy, castle, loyal.
+  - 1443–1542 G: impression, accent, harvest, cage, wire/cable, virtue, tent, abuse, refuse, dam, excess, semen, envy/jealousy, swallow, powder, conspiracy, entrust, funeral, flour, generous.
+- **Calibration.** The list's own last stretch is at 47% under the new line, just under 50%. The edge of today's list and the knee are about the same place.
+- **How close it is.** The stop fires by 4 concepts. 21 of 41 would pass.
+  - The softest P rows are a single existing root in a stretched sense: shine = **wino**, overcome = **yiyin**, appoint = **waka**, reasonable = **kidun**, neighbourhood = [district], extraordinary = [special]. If a rater says four of them aren't covered, the first stretch reaches 51% and the walk goes on.
+  - A (artefacts) count as non-G candidates, as the decision lists them. Taken out of the denominator, the shares are 52%, 62%, 43%: the walk would stop at **1542**, with 60 G.
+  - So the blind second rating decides more than the line does.
+
+**The phrase routes of the 10 agreed additions under the new line (added).**
+- Roots now: heap (**musu fanmu**, 4), nonsense (**apu su yofu**, 5), obstacle (**musu gi bamo**, 5).
+- Phrases still: unique (**ga ni**, 2), participate (**yidu kin**, 3), familiar (**pi lugo**, 3), summary (**gen eten**, 3), shelter (**pu kuwi**, 3, after the keep/protect split), exceed (the comparison **ke … se**), earthquake (the world's compound "earth-shake": zh dizhen, ja jishin, de Erdbeben, ru zemletryasenie, hi bhūkamp).
+
+**Totals (approximate, added).** The round-1 total was about 1,440–1,460 roots. Add 7 walk G and 3 addition roots: about **1,450–1,470**. If A leaves the denominator, about 1,500–1,510 (stop at 1542).
+
+### Questions for the author (round 2)
+
+Round 1's questions 2 (a deep-layer pass), 6 (perfume, gay, football), 7 (drops) and 8 stand. Question 1 is answered by decision (b). Question 4 is answered above under the new line.
+
+1. **Do artefacts count in the denominator?**
+   - The decision lists artefacts among the non-G candidates, so I counted them: stop at 1342, 17 G.
+   - Without them: stop at 1542, 60 G.
+   - Argument for leaving them out: an A row is a pooled English label, not a concept. Its senses sit elsewhere in the ranking or on the list.
+   - Recommendation: keep the decision's wording and let the blind rater's A calls show whether mine are too generous. Add-back trigger: the rater marks most of my A rows as one concept.
+2. **Stretched single roots as P.**
+   - Are these covered: shine = **wino**, overcome = **yiyin**, appoint = **waka**, reasonable = **kidun**, neighbourhood = [district], extraordinary = [special]?
+   - They are 2 syllables, so the line admits them. Four G among them would flip the stop.
+3. **Lunch vs breakfast.**
+   - Lunch is P by the world-compound clause ("midday meal" in zh, ja, de, tr, sw, id, hi).
+   - Breakfast has a root (ladder 2.3), though it too is a compound in many languages.
+   - Keep both as they are, or make them match?
+4. **World-compound calls are mine, from memory:** useless, lunch, violation ("break the law"), export, import, decade, cooperate, organism. Only useless, lunch and violation fall in the walk's stretches, and none in the stopping stretch. Check them only if the walk is extended.
+5. **Boundary calls among the 7 new G:**
+   - discrimination (alt:N, a social-policy term).
+   - attitude vs opinion and view (on the list).
+   - worthy: one root "worth, deserve" with merit (on the list)?
+   - welfare vs health (on the list); the state-welfare sense is N.
+   - infection vs virus and **simi** "sick".
+   - urgent vs emergency (on the list).
+   - ceiling vs **kuwun** "roof": Arabic *saqf* and Hindi *chhat* lump them, Russian and Spanish split them; the lump rate is needed (rung 4).
+   - Round 1's question 5 (coal/charcoal, depend vs **gewan**, deny vs refuse, pattern, comfortable, wild) stands.
+6. **Boundary calls past the stop,** only if the walk goes on:
+   - Trend stretch: illusion vs dream; cannon (alt:N); weed (alt:P, built in many languages but not one way); guilty vs fault; stranger vs foreign; castle (alt:C, or [palace]); pity vs mercy.
+   - Second trend stretch: wire and cable one root (1471, 1544); refuse with deny; envy vs jealousy; powder vs **awin** "dust"; funeral vs bury (1695); excess, or a degree word "too" in the grammar; harvest vs **fanmu** "gather".
+7. **Loan candidates for the panel:** automatic (stopping stretch, unchanged); perfume, gay, football (trend stretch, unchanged); rhythm (1443–1542, new).
+8. **The blind file.**
+   - `stretches-blind.tsv` has all 200 ranks of 1243–1442, as asked. 108 of them are already on the list (skips; spy, Thursday …).
+   - Tell the rater to mark them "on the list", or filter them out before the run. Only the 92 candidates are compared.
+   - The rater needs the class definitions and the new line, but not my notes.
