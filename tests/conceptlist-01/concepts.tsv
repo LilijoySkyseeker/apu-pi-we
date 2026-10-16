@@ -1,0 +1,1506 @@
+concept	route	form	field	tier	rank	antonym	source	note
+person	root	ewo	people	5			LEX	
+child	root	tiwu	people	4		adult	LEX	
+man, male	root	lowu	people	3		woman, female	LEX	
+woman, female	root	futa	people	3		man, male	LEX	
+friend	root	sonu	people	3		enemy	LEX	
+family	root	yonyo	people	2			LEX	
+mother	root	mole	people	3		father	LEX	
+father	root	wede	people	3		mother	LEX	
+name	root	suso	people	3			LEX	
+group	root	funti	people	2			LEX	
+enemy	root	biton	people	2		friend	LEX	
+body	root	gawo	body	3			LEX	
+head	root	lukan	body	3			LEX	
+eye	root	funo	body	3			LEX	
+ear	root	wisa	body	2			LEX	
+nose	root	danki	body	2			LEX	
+tooth	root	fonma	body	2			LEX	
+tongue	root	lisun	body	1			LEX	
+hair	root	sonfa	body	2			LEX	
+hand	root	kiti	body	4			LEX	
+foot	root	pifo	body	3			LEX	
+leg	root	bendo	body	2			LEX	
+heart	root	mala	body	3			LEX	
+blood	root	makon	body	2			LEX	
+bone	root	gipo	body	2			LEX	
+skin	root	unne	body	2			LEX	
+back, of the body; behind	root	nebe	body	2		front	LEX	
+belly	root	suyon	body	1			LEX	
+water	root	osa	nature	5			LEX	
+fire	root	lumi	nature	3			LEX	
+ground, earth or soil	root	fowo	nature	3			LEX	
+stone	root	lutu	nature	3			LEX	
+sky	root	yaye	nature	2			LEX	
+sun	root	giwe	nature	3		moon	LEX	
+month	root	dunan	time	2			LEX	
+star	root	uwan	nature	2			LEX	
+rain	root	gegi	nature	3			LEX	
+wind	root	gulo	nature	2			LEX	
+tree	root	gala	nature	3			LEX	
+leaf	root	wonin	nature	1			LEX	
+wood, the material	root	kima	nature	2			LEX	
+sea	root	puya	nature	2			LEX	
+river	root	yolan	nature	2			LEX	
+mountain	root	genne	nature	2			LEX	
+sand	root	digan	nature	1			LEX	
+smoke	root	penso	nature	1			LEX	
+cloud	root	lanba	nature	1			LEX	
+light, brightness	root	wino	nature	3		dark	LEX	
+storm	root	lapo	nature	2			LEX	
+snow	root	binso	nature	1			LEX	
+ice	root	nokun	nature	1			LEX	
+salt	root	bunwu	nature	1			LEX	
+ash	root	sulen	nature	1			LEX	
+plant, vegetation	root	pinfe	nature	2			LEX	
+animal	root	noso	animal	3			LEX	
+dog	root	totu	animal	3			LEX	
+bird	root	lodi	animal	3			LEX	
+fish, the animal	root	woga	animal	3			LEX	
+horse	root	anbo	animal	2			LEX	
+cow	root	dunsa	animal	1			LEX	
+snake	root	dinbu	animal	1			LEX	
+insect	root	sunni	animal	1			LEX	
+egg	root	tika	animal	2			LEX	
+wing	root	yunbi	animal	1			LEX	
+tail	root	kenlo	animal	1			LEX	
+meat	root	fuyu	animal	2			LEX	
+house, home	root	guyi	thing	4			LEX	
+door	root	beya	thing	2			LEX	
+food	root	pasu	thing	4			LEX	
+tool	root	yetu	thing	2			LEX	
+rope	root	tenbe	thing	1			LEX	
+boat	root	binnu	thing	2			LEX	
+cart	root	siwa	thing	2			LEX	
+cloth	root	demi	thing	2			LEX	
+money	root	nimo	thing	3			LEX	
+book	root	ingo	thing	2			LEX	
+weapon	root	botan	thing	2			LEX	
+bed	root	soti	thing	2			LEX	
+cup	root	ladon	thing	1			LEX	
+thing	root	musu	thing	5			LEX	
+day (24 hours)	root	dili	time	4			LEX	
+night	root	yami	time	3		daytime	LEX	
+time, a span or a point (not an occasion)	root	muyi	time	4			LEX	
+morning	root	leso	time	2		evening; afternoon	LEX	
+evening	root	kegin	time	1		morning	LEX	
+moment	root	foke	time	2			LEX	
+inside	root	bese	space	3		outside	LEX	
+outside	root	aban	space	2		inside	LEX	
+above	root	bige	space	3		below	LEX	
+below	root	deba	space	3		above	LEX	
+front	root	sinye	space	2		back, of the body; behind	LEX	
+near	root	gelu	space	3		far	LEX	
+far	root	lini	space	3		near	LEX	
+left, the side	root	funbe	space	2		right, the side	LEX	
+right, the side	root	nata	space	2		left, the side	LEX	
+road	root	sola	space	3			LEX	
+many	root	feli	size	4		few	LEX	
+few	root	uyo	size	3		many	LEX	
+big	root	kudu	size	4		small	LEX	
+small	root	meli	size	4		big	LEX	
+long	root	netu	size	3		short, not long	LEX	
+short, not long	root	eten	size	2		long	LEX	
+wide	root	tugan	size	1		narrow	LEX	
+heavy	root	gogo	size	2		light, not heavy	LEX	
+light, not heavy	root	gamun	size	1		heavy	LEX	
+thick	root	woten	size	1		thin	LEX	
+full	root	kete	size	2		empty	LEX	
+empty	root	tapun	size	2		full	LEX	
+half	root	timon	size	2			LEX	
+whole	root	minwe	size	2			LEX	
+good	root	upe	quality	5		bad	LEX	
+bad	root	yomo	quality	4		good	LEX	
+new	root	duwa	quality	3		old, aged or worn	LEX	
+old, aged or worn	root	pani	quality	3		new; young	LEX	
+true	root	feko	quality	3		lie, tell an untruth	LEX	
+same	root	kige	quality	3		other; different	LEX	
+other	root	eni	quality	4		same	LEX	
+hot	root	tikun	quality	2		cold, not hot	LEX	
+cold, not hot	root	weki	quality	2		hot	LEX	
+wet	root	wulon	quality	1		dry	LEX	
+dry	root	kilan	quality	1		wet	LEX	
+hard, not soft	root	gufu	quality	2		soft	LEX	
+soft	root	tutin	quality	1		hard, not soft	LEX	
+sharp	root	tungi	quality	1		blunt	LEX	
+fast, quick	root	yobe	quality	2		slow	LEX	
+slow	root	gake	quality	2		fast, quick	LEX	
+strong	root	konke	quality	2		weak	LEX	
+weak	root	nensi	quality	1		strong	LEX	
+clean	root	inan	quality	1		dirty	LEX	
+dirty	root	bodu	quality	1		clean	LEX	
+beautiful	root	sesa	quality	2		ugly	LEX	
+important	root	bawe	quality	2			LEX	
+easy	root	bunle	quality	2		difficult	LEX	
+difficult	root	gofa	quality	2		easy	LEX	
+ready	root	wonwe	quality	2			LEX	
+sick	root	simi	quality	2		health	LEX	
+dead	root	fafin	quality	2			LEX	
+black	root	tago	color	2		white	LEX	
+white	root	pinda	color	2		black	LEX	
+red	root	wiwi	color	2			LEX	
+green	root	gisu	color	1			LEX	
+yellow	root	bilun	color	1			LEX	
+blue	root	deta	color	1			LEX	
+think	root	pume	mind	5			LEX	
+know	root	lugo	mind	5			LEX	
+want	root	momu	mind	5		fear	LEX	
+feel	root	feme	mind	4			LEX	
+like, enjoy	root	tana	mind	4			LEX	
+fear	root	nuta	mind	3		want; brave	LEX	
+hope	root	ganin	mind	2			LEX	
+remember	root	imu	mind	3		forget	LEX	
+forget	root	yakin	mind	2		remember	LEX	
+learn	root	yesa	mind	3		teach	LEX	
+understand	root	lafi	mind	3			LEX	
+mean, signify	root	yofu	mind	3			LEX	
+choose	root	waka	mind	2			LEX	
+need (to)	root	wupi	mind	4			LEX	
+must, have to	root	keya	mind	3			LEX	
+try	root	walo	mind	3			LEX	
+happy	root	sogi	mind	3		sad	LEX	
+angry	root	bonko	mind	2		calm	LEX	
+pain	root	wekun	mind	2			LEX	
+see	root	nagu	sense	5			LEX	
+hear	root	nulu	sense	4			LEX	
+say	root	oyi	sense	5			LEX	
+tell	root	iko	sense	4		ask (a question)	LEX	
+ask (a question)	root	mido	sense	3		tell	LEX	
+talk	root	kegu	sense	3			LEX	
+language	root	apu	sense	4			LEX	
+call, phone or call to	root	yebin	sense	2			LEX	
+show	root	wuye	sense	3			LEX	
+look, look at	root	miya	sense	3			LEX	
+listen	root	doma	sense	2			LEX	
+sing	root	yuyun	sense	1			LEX	
+write	root	tusi	sense	2			LEX	
+read	root	lilu	sense	2			LEX	
+laugh	root	bubo	sense	2			LEX	
+cry, weep	root	nowa	sense	2			LEX	
+go	root	isi	motion	5		come; return	LEX	
+come	root	obu	motion	5		go; leave, go away from	LEX	
+move	root	kobi	motion	3			LEX	
+walk	root	niba	motion	2			LEX	
+run, on foot	root	gabe	motion	3			LEX	
+fly, move through the air	root	bina	motion	2			LEX	
+swim	root	lonfe	motion	1			LEX	
+fall, drop down	root	dosi	motion	2		rise, go up	LEX	
+stand	root	kolu	motion	3		sit	LEX	
+lie, lie down	root	anle	motion	2			LEX	
+enter	root	inwa	motion	2		leave, go away from	LEX	
+leave, go away from	root	kusa	motion	3		enter; come	LEX	
+return	root	sigo	motion	3		go	LEX	
+arrive	root	liwon	motion	2			LEX	
+follow	root	lefan	motion	2			LEX	
+carry	root	dinyo	motion	2			LEX	
+push	root	dandi	motion	1		pull	LEX	
+pull	root	nunya	motion	1		push	LEX	
+throw	root	gitin	motion	1			LEX	
+turn, rotate or turn around	root	duko	motion	2			LEX	
+stop	root	bamo	motion	3		start; continue	LEX	
+start	root	tuko	motion	3		stop; end	LEX	
+wait	root	sefu	motion	3			LEX	
+stay	root	piyi	motion	3			LEX	
+do; make	root	muge	action	5			LEX	
+have, possess	root	ibe	action	5			LEX	
+give	root	neke	action	4		take	LEX	
+take	root	yidu	action	4		give	LEX	
+get, obtain	root	dunu	action	3			LEX	
+put	root	yaga	action	3			LEX	
+hold	root	yonnu	action	2		release, let go	LEX	
+use	root	bone	action	3			LEX	
+find	root	geno	action	3		lose, misplace; seek, search for	LEX	
+lose, misplace	root	agi	action	2		find; keep, retain (added)	LEX	
+protect	root	kuwi	action	2			LEX	
+open	root	benbi	action	2		close, shut; lock; cover, lid; to cover	LEX	
+close, shut	root	tapi	action	2		open	LEX	
+cut	root	fonsu	action	2			LEX	
+hit	root	payon	action	2			LEX	
+eat	root	nawi	action	4			LEX	
+drink	root	koye	action	3			LEX	
+sleep	root	wopo	action	3		wake	LEX	
+wake	root	unda	action	2		sleep	LEX	
+work, labour; of a machine, function	root	doku	action	4			LEX	
+play, for fun	root	luse	action	3			LEX	
+help	root	yema	action	4			LEX	
+fight	root	migi	action	2			LEX	
+die	root	kono	action	3		live, be alive, dwell; life; birth	LEX	
+live, be alive, dwell; life	root	nume	action	4		die	LEX	
+grow	root	guge	action	2			LEX	
+burn	root	onti	action	2			LEX	
+buy	root	bika	action	2		sell	LEX	
+sell	root	koda	action	2		buy	LEX	
+pay	root	unfu	action	2			LEX	
+wash	root	pensi	action	1			LEX	
+cook	root	siten	action	2			LEX	
+wear	root	yunko	action	2			LEX	
+hide	root	mibun	action	2			LEX	
+change, make or become different	root	kubo	action	3			LEX	
+happen	root	muwo	action	4			LEX	
+win	root	yiyin	action	2		lose (a contest) (decided)	LEX	
+way, method	root	lite	abstract	3			LEX	
+kind, type	root	niki	abstract	3			LEX	
+reason	root	ukun	abstract	2			LEX	
+problem	root	batu	abstract	3			LEX	
+idea	root	gason	abstract	2			LEX	
+story	root	weyu	abstract	2			LEX	
+law	root	wabun	abstract	2			LEX	
+war	root	pinpu	abstract	1		peace	LEX	
+peace	root	bonwi	abstract	1		war	LEX	
+game	root	bufe	abstract	2			LEX	
+power, control	root	lula	abstract	2			LEX	
+magic	root	wase	abstract	2			LEX	
+god	root	nosen	abstract	1			LEX	
+today	root	mefa	time	4			LEX	
+tomorrow	root	wuma	time	4		yesterday	LEX	
+yesterday	root	afe	time	3		tomorrow	LEX	
+now	root	eda	time	5			LEX	
+become	root	lewe	action	4			LEX	
+face	root	suku	body	3			LEX	
+apologise	root	sepi	sense	3			LEX	
+again	root	moti	time	3			LEX	
+teach	root	tofo	mind	3		learn	LEX	
+lead, guide	root	wungu	action	2			LEX	
+dream	root	sinun	mind	2			LEX	
+dark	root	buda	quality	2		light, brightness	LEX	
+wall	root	senmo	thing	2			LEX	
+calm	root	fanse	mind	2		angry; tense, strained, nervous	LEX	
+free, not held or controlled	root	enpa	quality	2			LEX	
+glass, the material	root	degun	thing	1			LEX	
+answer	root	febo	sense	3		question	LEX	
+system	root	yile	thing	3			LEX	
+offend	root	yenwu	mind	2			LEX	
+panic	root	banga	mind	2			LEX	
+number	root	wifu	abstract	3			LEX	
+bag	root	yufa	thing	2			LEX	
+paper	root	mabo	thing	2		document, file	LEX	
+lock	root	udin	action	2		open	LEX	
+smart	root	gole	mind	2		fool	LEX	
+watch, timepiece	root	aya	time	4			LEX	
+phone	root	liga	thing	3			LEX	
+card	root	mise	thing	2			LEX	
+bus	root	ensu	thing	2			LEX	
+dollar	kept loan	dolalu	loan	3			LEX	loan form fixed by the panel or the standard
+POINT	root	mimi	number	3			LEX; also LAD	number word; placed with the roots (placement weights number pairs x10)
+MINUS	root	guti	number	3			LEX	number word; placed with the roots (placement weights number pairs x10)
+mouth	root	fade	body	3			LEX	
+year	root	fawu	time	3			LEX	
+place	root	kemu	space	4			LEX	
+sad	root	bayi	mind	2		happy	LEX	
+sit	root	goyu	motion	3		stand	LEX	
+break	root	alun	action	2		repair	LEX	
+kill	root	omen	action	2			LEX	
+build	root	selo	action	2			LEX	
+disgust	root	bebu	mind	2			LEX	
+car	root	tale	thing	3			LEX	
+POWER	root	unun	number	2			LEX	number word; placed with the roots (placement weights number pairs x10)
+thank	root	lota	sense	3			LEX	
+rent, pay to use	root	sanwa	action	2			LEX	
+agree	root	tayu	mind	3			LEX	
+send	root	sege	action	3			LEX	
+end	root	fugi	time	3		start	LEX	
+allow	root	efon	action	3			LEX	
+sibling	root	faba	people	3			LEX	
+spouse	root	ofin	people	3			LEX	
+arm	root	inyi	body	3			LEX	
+north	root	soto	space	3		south	LEX	
+south	root	monna	space	3		north	LEX	
+east	root	anyu	space	3		west	LEX	
+west	root	munke	space	3		east	LEX	
+breast	root	egu	body	4			LEX	
+neck	root	mogo	body	4			LEX	
+liver	root	gudu	body	4			LEX	
+knee	root	leyi	body	4			LEX	
+grass	root	tunmu	nature	3			LEX	
+feather	root	suba	animal	3			LEX	
+root, of a plant	root	yinki	nature	3			LEX	
+spit	root	kefa	action	3			LEX	
+flower	root	meyen	nature	3			LEX	
+louse	root	akan	animal	3			LEX	
+nail, of a finger or toe	root	tolin	body	3			LEX	
+smell, sense or give off an odour	root	kanko	sense	3			LEX	
+tie, fasten with a knot	root	manfu	action	3			LEX	
+vomit	root	gabu	action	3			LEX	
+dust	root	awin	nature	3			LEX	
+throat	root	muban	body	3			LEX	
+fat, body fat	root	gimen	body	3			LEX	
+bark, of a tree	root	tase	nature	3			LEX	
+sweat	root	tiwe	body	3			LEX	
+thin	root	gunmo	size	3		thick	LEX	
+blow, of air	root	nanyo	action	3			LEX	
+finger	root	linma	body	3			LEX	
+navel	root	wuwu	body	3			LEX	
+thunder	root	seyun	nature	3			LEX	
+cough	root	dowin	action	3			LEX	
+rotten	root	yuson	quality	3		fresh	LEX	
+urinate	root	tibin	action	3			LEX	
+lung	root	badin	body	3			LEX	
+shade, shadow from light	root	situ	nature	3			LEX	
+breathe	root	togun	action	3			LEX	
+straight	root	fongo	quality	3		crooked	LEX	
+suck	root	maman	action	3			LEX	
+salty	root	lage	taste	3			LEX	
+seed	root	yikan	nature	2			LEX	
+milk	root	tunlo	thing	2			LEX	
+bitter	root	finlu	taste	2		sweet	LEX	
+ripe	root	bubin	quality	2		raw	LEX	
+penis	root	wento	body	2			LEX	
+blunt	root	linfa	quality	2		sharp	LEX	
+defecate	root	desin	action	2			LEX	
+round	root	kowan	quality	2			LEX	
+brain	root	lemon	body	2			LEX	
+sweet	root	sinta	taste	2		bitter	LEX	
+sneeze	root	tinne	action	2			LEX	
+horn	root	yansi	animal	2			LEX	
+smooth	root	windi	quality	2		rough	LEX	
+lip	root	gonge	body	2			LEX	
+touch	root	sanne	sense	2			LEX	
+yawn	root	ganpa	action	2			LEX	
+crush	root	monpa	action	2			LEX	
+raw	root	bewon	quality	2		ripe	LEX	
+deep	root	lawan	size	2		shallow	LEX	
+ant	root	tonde	animal	2			LEX	
+testicles	root	bosun	body	2			LEX	
+narrow	root	banlu	size	2		wide	LEX	
+buttocks	root	nunfo	body	2			LEX	
+sour	root	tufun	taste	2			LEX	
+flat, level	root	mawun	quality	2			LEX	
+crooked	root	ginda	quality	2		straight	LEX	
+correct	root	denku	quality	2		wrong	LEX	
+snore	root	nenmu	action	2			LEX	
+quiet	root	mange	quality	2		loud	LEX	
+young	root	loyen	quality	2		old, aged or worn	LEX	
+taste	root	tenmi	sense	2			LEX	
+toe	root	gonmi	body	2			LEX	
+vulva	root	kedon	body	2			LEX	
+side	root	sanfi	space	2			LEX	
+rough	root	nilen	quality	2		smooth	LEX	
+loud	root	dibon	quality	2		quiet	LEX	
+ugly	root	lanli	quality	2		beautiful	LEX	
+shallow	root	lante	size	2		deep	LEX	
+low	root	linku	space	2		high	LEX	
+fart	root	paben	action	2			LEX	
+mosquito	root	gonte	animal	2			LEX	
+between	root	lifin	space	2			LEX	
+wrong	root	gagan	quality	2		correct	LEX	
+dig	root	wenfe	action	2			LEX	
+shoulder	root	sonyu	body	2			LEX	
+fruit	root	tanun	nature	2			LEX	
+air	root	wunta	nature	2			LEX	
+fog	root	baken	nature	2			LEX	
+lightning	root	mufin	nature	2			LEX	
+lake	root	nenwa	nature	2			LEX	
+roof	root	kuwun	thing	2			LEX	
+climb	root	falan	motion	2			LEX	
+split	root	buyan	action	2			LEX	
+chew	root	sofen	action	2			LEX	
+squeeze	root	donbo	action	2			LEX	
+scratch	root	sumin	action	2			LEX	
+swell	root	tingu	action	2			LEX	
+stab	root	kunwa	action	2			LEX	
+steal	root	bunsi	action	2			LEX	
+hunt	root	fesun	action	2			LEX	
+shoot	root	onlo	action	2			LEX	
+flow	root	magan	motion	2			LEX	
+count	root	sunbu	mind	2			LEX	
+chicken	root	yiban	animal	2			LEX	
+intestines	root	gusen	body	2			LEX	
+armpit	root	senke	body	2			LEX	
+basket	root	kanga	thing	2			LEX	
+clothes	root	lonne	thing	2			LEX	
+goat	root	elen	animal	2			LEX	
+tuber	root	tengi	nature	2			LEX	
+rice	root	yegon	nature	2			LEX	
+field, open land	root	sekan	nature	2			LEX	
+boil	root	binla	action	2			LEX	
+reach	root	wonku	motion	2			LEX	
+gather, bring or come together	root	fanmu	action	2			LEX	
+internet	kept loan	intelunetu	loan	2			LEX	loan form fixed by the panel or the standard
+city	root	oton	space	3		village; countryside	LEX	
+bread	root	sowe	thing	3			LEX	
+onion	root	lengu	nature	2			LEX	
+worm	root	enna	animal	3			LEX	
+grind	root	inke	action	3			LEX	
+week	root	nelon	time	3			LEX	
+6	root	ufo	number	4			LEX	number word; placed with the roots (placement weights number pairs x10)
+7	root	oma	number	4			LEX	number word; placed with the roots (placement weights number pairs x10)
+8	root	kefi	number	4			LEX	number word; placed with the roots (placement weights number pairs x10)
+9	root	mape	number	4			LEX	number word; placed with the roots (placement weights number pairs x10)
+100	root	loki	number	4			LEX	number word; placed with the roots (placement weights number pairs x10)
+1000	root	munno	number	3			LEX	number word; placed with the roots (placement weights number pairs x10)
+10^6	root	tonen	number	3			LEX	number word; placed with the roots (placement weights number pairs x10)
+10^9	root	siwin	number	2			LEX	number word; placed with the roots (placement weights number pairs x10)
+hour	root		time	4			LEX; LOAN	failed loan (loans-rerun: fail 4/3); today's awuwa retires, a native root replaces it
+minute, of time	root		time	4			LEX; LOAN	failed loan (loans-rerun: fail 9/5); today's minitu retires, a native root replaces it
+second, of time	root		time	3			LEX; LOAN	failed loan (loans-rerun: fail 7/4); today's sekandu retires, a native root replaces it
+kilometre	kept loan	kilometulu	loan	2			LEX	loan form fixed by the panel or the standard
+can, be able	root	lenu	mind	5			LEX	
+bite	root	lasu	action	4			LEX	
+high	root	tisan	space	2		low	LEX	
+10	root	yawu	number	4			LEX	number word; placed with the roots (placement weights number pairs x10)
+fly, the insect	root	gekon	animal	2			LEX	
+occasion, a time (three times)	root	gimu	time	3			LEX	
+noon, midday	root	minfi	time	3			LEX	
+afternoon	root	duwun	time	3		morning	LEX	
+suddenly	root	finbi	time	2			LEX	
+late, after the expected time	root	yodun	time	3		early, before the expected time	LEX	
+early, before the expected time	root	ganna	time	3		late, after the expected time	LEX	
+trust, rely on	root	gewan	mind	3			LEX	
+love	root	wigen	mind	3		hate (added)	LEX	
+miss, feel the absence of	root	sanku	mind	2			LEX	
+disappointed	root	kinbo	mind	2			LEX	
+hungry	root	monyu	quality	3			LEX	
+tired	root	fadun	quality	3			LEX	
+strange, odd	root	lenya	quality	2			LEX	
+safe, not in danger	root	sonli	quality	2		danger	LEX	
+expensive	root	unwi	quality	3		cheap, low in price	LEX	
+cheap, low in price	root	tanbu	quality	3		expensive	LEX	
+room, of a building	root	fudon	thing	3			LEX	
+box, container	root	nansa	thing	2			LEX	
+storey, floor level of a building	root	sison	thing	2			LEX	
+oil, the liquid	root	yunen	thing	2			LEX	
+marry, wedding	root	bedan	action	2		divorce	LEX	
+a right, entitlement	root	sogan	abstract	2			LEX	
+complain	root	tayin	sense	2			LEX	
+email	kept loan	imeyilu	loan	3			LEX	loan form fixed by the panel or the standard
+photo	root		thing	3			LEX; LOAN	failed loan (loans-rerun: fail 9/5); today's foto retires, a native root replaces it
+degree (°)	root		abstract	2			LEX; LOAN	failed loan (loans-rerun: fail 5/3); today's diguli retires, a native root replaces it
+battery	kept loan	batali	loan	2			LEX	loan form fixed by the panel or the standard
+euro	kept loan	yulo	loan	2			LEX	loan form fixed by the panel or the standard
+yuan	kept loan	yuwan	loan	2			LEX	loan form fixed by the panel or the standard
+rupee	kept loan	lupiya	loan	2			LEX	loan form fixed by the panel or the standard
+police	root		people	3			LEX; LOAN; ADD1; ADD1	failed loan (loans-rerun: fail 11/5 (author 2026-10-13)); today's polisu retires, a native root replaces it
+seek, search for	root	ditun	action	3		find	LEX	
+remove, erase	root	nuton	action	3		add, put in more	LEX	
+share, let others have too	root	peton	action	3			LEX	
+connect, join	root	penyu	action	3			LEX	
+add, put in more	root	ginni	action	3		remove, erase	LEX	
+check, verify	root	loban	action	3			LEX	
+shake, vibrate	root	susin	motion	2			LEX	
+sound, noise	root	ninge	nature	3			LEX	
+page, sheet	root	lunyu	thing	3			LEX	
+key, button	root	tinli	thing	3			LEX	
+private, not for others	root	kunsu	quality	2		public	LEX	
+garbage, trash	root	bekin	thing	2			LEX	
+copy, make the same again	root	gayen	action	3			LEX	
+adjust, set	root	finsa	action	2			LEX	
+document, file	root	kemin	thing	3		paper	LEX	
+camera	kept loan	kamela	loan	2			LEX	loan form fixed by the panel or the standard
+enough, as much as needed	root	tonya	abstract	3			LEX	
+respect, honour	root	dundi	people	3			LEX	
+country, nation	root	gigin	people	3			LEX	
+rest, take a break	root	yenbo	action	3			LEX	
+fair, just	root	kidun	quality	3			LEX	
+oppose, be against	root	ninsu	action	3			LEX	
+metre	kept loan	metulu	loan	2			LEX	loan form fixed by the panel or the standard
+centimetre	kept loan	sentimetulu	loan	2			LEX	loan form fixed by the panel or the standard
+millimetre	kept loan	milimetulu	loan	2			LEX	loan form fixed by the panel or the standard
+gram	kept loan	gulamu	loan	2			LEX	loan form fixed by the panel or the standard
+kilogram	kept loan	kilogulamu	loan	2			LEX	loan form fixed by the panel or the standard
+litre	kept loan	litulu	loan	2			LEX	loan form fixed by the panel or the standard
+kilogram, everyday short form	kept loan	kilo	loan	2			LEX	loan form fixed by the panel or the standard
+.com (read aloud)	kept loan	komu	loan	1			LEX	loan form fixed by the panel or the standard
+hashtag	kept loan	asutagu	loan	1			LEX	loan form fixed by the panel or the standard
+duck	root		animal	2	1825		LAD; WB	
+mouse (the animal; also the computer mouse)	root		animal	2	1035		LAD; WB	
+sheep	root		animal	2	1351		LAD; WB	
+bicycle	root		thing	2	865		LAD; WB	
+doll	root		thing	2	1350		LAD; WB	
+ball (round toy)	root		thing	3	347		LAD; WB	
+ice cream	root		thing	2	1644		LAD; WB; LOAN	loan failed the panel (11/5): native root
+cake	root		thing	2	1170		LAD; WB	
+soup	root		thing	2	1092		LAD; WB; LOAN	loan failed the panel (11/6): native root
+apple	root		nature	2	1210		LAD; WB	
+chocolate	loan	tokolatu	loan	2	1113		LAD; WB; LOAN	panel 20/7; form fixed
+hat	root		thing	2	943		LAD; WB	
+shoe	root		thing	2	652		LAD; WB	
+sock	root		thing	2	2048		LAD; WB	
+kitchen	root		thing	2	931		LAD; WB	
+window	root		thing	2	570		LAD; WB	
+chair	root		thing	2	908		LAD; WB	
+spoon	root		thing	2	1745		LAD; WB	
+bottle	root		thing	2	909		LAD; WB	
+knife	root		thing	2	744		LAD; WB	
+soap	root		thing	2	1748		LAD; WB	
+pillow	root		thing	2	1602		LAD; WB	
+doctor	loan	dokutolu	loan	4	103		LAD; WB; LOAN	panel 13/5; form fixed
+monkey	root		animal	2	1149		LAD; WB	
+elephant	root		animal	2	1029		LAD; WB	
+butterfly	root		animal	2	2134		LAD; WB	
+lion	root		animal	2	886		LAD; WB	
+frog	root		animal	2	1972		LAD; WB	
+train	root		thing	3	409		LAD; WB	
+truck	root		thing	2	1413		LAD; WB	
+airplane	root		thing	2	1714		LAD; WB	
+orange (the fruit)	root		nature	2	1148		LAD; WB	
+banana	root		nature	2	1463		LAD; WB; LOAN	loan failed the panel (5/2): native root
+trousers	root		thing	2	1882		LAD; WB	
+table	root		thing	2	554		LAD; WB	
+blanket	root		thing	2	2008		LAD; WB	
+baby	root		people	3	420	adult	LAD; WB	
+jump	root		motion	2	838		LAD; WB	
+cat	root		animal	2	764		LAD; WB	
+tiger	root		animal	2	1156		LAD; WB	
+motorcycle	loan	moto	loan	2	1619		LAD; WB; LOAN	panel 14/6; form fixed
+potato	root		nature	2	1466		LAD; WB	
+coat	root		thing	2	1287		LAD; WB	
+cheek	root		body	2	1688		LAD; WB	
+bathroom	root		thing	2	1446		LAD; WB	
+television	loan	telebisuyon	loan	3	330		LAD; WB; LOAN	panel 19/7; form fixed
+scissors	root		thing	2			LAD; WB	
+medicine	root		body	3	275		LAD; WB	
+towel	root		thing	2	1885		LAD; WB	
+dance	root		action	3	401		LAD; WB	
+bee	root		animal	2	1701		LAD; WB	
+pig	root		animal	2	827		LAD; WB	
+bear (the animal)	root		animal	2	534		LAD; WB	
+rabbit	root		animal	2	1302		LAD; WB	
+balloon	root		thing	2	1858		LAD; WB	
+bucket	root		thing	2			LAD; WB	
+juice	root		thing	2	1176		LAD; WB	
+cheese	root		thing	2	973		LAD; WB	
+coffee	loan	kafe	loan	3	384		LAD; WB; LOAN	panel 20/7; form fixed
+carrot	root		nature	2			LAD; WB	
+sweater	loan	suwetalu	loan	2			LAD; WB; LOAN	panel 14/6; form fixed
+pajamas	loan	pidama	loan	2			LAD; WB; LOAN	panel 16/7; form fixed
+chin	root		body	2	2132		LAD; WB	
+fridge	root		thing	2	2064		LAD; WB	
+stairs	root		thing	2			LAD; WB	
+radio	loan	ladiyo	loan	2	637		LAD; WB; LOAN	panel 18/7; form fixed
+glasses, spectacles	root		thing	2	1976		LAD; WB	
+fork	root		thing	2	2230		LAD; WB	
+hammer	root		thing	2	1806		LAD; WB	
+shop	root		space	2	516		LAD; WB	
+school	root		space	4	69		LAD; WB	
+swing (playground seat)	root		thing	2	1508		LAD; WB	
+helicopter	loan	elikoputelu	loan	2	1965		LAD; WB; LOAN	panel 16/7; form fixed
+tractor	loan	tulakutalu	loan	2			LAD; WB; LOAN	panel 18/7; form fixed
+candy	root		thing	2	2293		LAD; WB	
+underwear	root		thing	2	1724		LAD; WB	
+scarf	root		thing	2			LAD; WB	
+dress (the garment)	root		thing	2	1256		LAD; WB	
+shirt	root		thing	2	1430		LAD; WB	
+plate, dish	root		thing	2	1117		LAD; WB	
+park	root		space	2	611		LAD; WB; LOAN	loan failed the panel (10/5): native root
+slide (playground slide)	root		thing	2	2179		LAD; WB	
+slide, slip (move smoothly over a surface)	root		motion	2			LAD	
+teacher	root		people	3	209	student	LAD; WB	
+turtle	root		animal	2			LAD; WB	
+toy	root		thing	2	1269		LAD; WB	
+bean	root		nature	2			LAD; WB	
+slipper	root		thing	2			LAD; WB	
+picture	root		thing	3	442		LAD; WB	
+wolf	root		animal	2	1187		LAD; WB	
+butter	root		thing	2	1456		LAD; WB	
+lamp	loan	lanpa	loan	2	1370		LAD; WB; LOAN	panel 12/6; form fixed
+brush	root		thing	2	2135		LAD; WB	
+draw (make a picture)	root		action	2	486		LAD; WB	
+kick	root		action	2	1271		LAD; WB	
+kiss	root		action	2	678		LAD; WB	
+penguin	loan	penguwin	loan	2			LAD; WB; LOAN	panel 16/7; form fixed
+pea	root		nature	2			LAD; WB	
+tomato	loan	tomate	loan	2	1886		LAD; WB; LOAN	panel 12/7; form fixed
+nut	root		nature	2	1518		LAD; WB	
+comb	root		thing	2	1993		LAD; WB	
+donkey	root		animal	2	1435		LAD; WB	
+grape	root		nature	2	1967		LAD; WB	
+garden	root		space	2	740		LAD; WB	
+strawberry	root		nature	2			LAD; WB	
+tea	root		thing	2	557		LAD; LOAN; ADD1; ADD1; ADD1	loan tayu fails once adapted (author 2026-10-15): invented root
+shower	root		thing	2	1109		LAD; WB	
+tickle	root		action	2			LAD; WB	
+paint	root		action	2	946		LAD; WB	
+broom	root		thing	2	2252		LAD; WB	
+owl	root		animal	2	1932		LAD; WB	
+squirrel	root		animal	2			LAD; WB	
+block (toy building block)	root		thing	2	899		LAD; WB	
+block, obstruct	root		action	2			LAD	
+gift	root		thing	3	406		LAD; WB	
+garage	loan	galasu	loan	2	1969		LAD; WB; LOAN	panel 17/7; form fixed
+sink, basin	root		action	2	1174		LAD; WB	
+forest	root		nature	2	518		LAD; WB	
+beach	root		nature	2	1114		LAD; WB	
+drive (a vehicle)	root		action	2	862		LAD; WB	
+hug	root		action	2	1464		LAD; WB	
+catch, capture	root		action	2	567		LAD; WB	
+spade, shovel	root		thing	2	2177		LAD; WB	
+cookie	loan	bisukuwitu	loan	2	1990		LAD; WB; LOAN	panel 16/6; form fixed
+shorts	root		thing	2			LAD; WB; LOAN	loan failed the panel (10/5): native root
+belt	root		thing	2	1079		LAD; WB	
+living room	root		thing	2	1944		LAD; WB	
+flag	root		thing	2	772		LAD; WB	
+cover, lid; to cover	root		action	2	457	open	LAD; WB	
+bring	root		motion	4	119		LAD; WB	
+goose	root		animal	2			LAD; WB	
+glove	root		thing	2	1968		LAD; WB	
+bowl	root		thing	2	1697		LAD; WB	
+drawer	root		thing	2	1826		LAD; WB	
+thirst	root		quality	2	1730		LAD; WB	
+skirt	root		thing	2	1511		LAD; WB	
+oven	root		thing	2			LAD; WB	
+party (social gathering, celebration)	root		people	3	199		LAD; WB	
+political party	root		people	2			LAD; LOAN	loan failed the panel (9/5): native root
+crocodile	root		animal	2	2125		LAD; WB	
+sandwich	loan	sanduwitu	loan	2	2057		LAD; WB; LOAN	panel 19/7; form fixed
+necklace	root		thing	2	1474		LAD; WB	
+ladder	root		thing	2	1247		LAD; WB	
+lick	root		action	2	2089		LAD; WB	
+pear	root		nature	2			LAD; WB	
+pizza	loan	pisa	loan	2	1226		LAD; WB; LOAN	panel 20/7; form fixed
+zipper	root		thing	2			LAD; WB	
+hurry	root		motion	2	911		LAD; WB	
+deer	root		animal	2	1832		LAD; WB	
+tissue	root		thing	2	1562		LAD; WB	
+stove	root		thing	2	1742		LAD; WB	
+wipe	root		action	2	2153		LAD; WB	
+pen	root		thing	2	1118		LAD; WB	
+wardrobe	root		thing	2	2273		LAD; WB	
+glue	root		thing	2	2110		LAD; WB	
+pour	root		action	2	1120		LAD; WB	
+sweep	root		action	2	1890		LAD; WB	
+repair	root		action	2	833	break	LAD; WB	
+clap	root		action	2			LAD; WB	
+pleasant	root		quality	2	900		LAD; WB	
+boot	root		thing	2			LAD; WB	
+cute	root		quality	2	1674		LAD; WB	
+porridge	root		thing	2			LAD; WB	
+sauce	loan	sosu	loan	2	1587		LAD; WB; LOAN	panel 16/6; form fixed
+cucumber	root		nature	2			LAD; WB	
+sugar	loan	sukalu	loan	2	842		LAD; WB; LOAN	panel 13/6; form fixed
+pot, cooking pot	root		thing	2			LAD; WB	
+tear, teardrop	root		body	2	1095		LAD; WB	
+tear, rip	root		action	2			LAD	
+naughty	root		quality	2			LAD; WB	
+melon	root		nature	2			LAD; WB	
+spill	root		action	2			LAD; WB	
+watermelon	root		nature	2			LAD; WB	
+soda	root		thing	2	2047		LAD; WB; LOAN	loan failed the panel (5/4): native root
+spider	root		animal	2	1495		LAD; WB; ADD1; ADD1; ADD1 (own root, 2026-10-16)	
+mirror	root		thing	2	947		LAD; WB	
+smile	root		sense	2	620		LAD; WB	
+last, final	root		abstract	4	39		LAD; WB	
+maize	root		nature	2	1297		LAD; WB	
+film	root		thing	3	153		LAD; WB; LOAN	loan failed the panel (11/5): native root
+fox	root		animal	2	1974		LAD; WB	
+toast	loan	tosutu	loan	2	1561		LAD; WB; LOAN	panel 13/5; form fixed
+balcony	loan	balukon	loan	2			LAD; WB; LOAN	panel 15/6; form fixed
+carpet	root		thing	2	1847		LAD; WB	
+gas station	root		space	2			LAD; WB	
+yard, courtyard	root		thing	2	1485		LAD; WB	
+knock	root		action	2			LAD; WB	
+ride	root		motion	2	1496		LAD; WB	
+bubble	root		thing	2			LAD; WB	
+circus	loan	silukasu	loan	2	2249		LAD; WB; LOAN	panel 16/7; form fixed
+T-shirt	loan	tisalutu	loan	2	2169		LAD; WB; LOAN	panel 13/6; form fixed
+hose	root		thing	2			LAD; WB	
+world	root		space	4	34		LAD	
+question	root		sense	4	54	answer	LAD	
+government	root		people	4	93		LAD	
+news	root		people	4	65		LAD	
+song	root		sense	4	130		LAD	
+music	root		abstract	3	161		LAD; LOAN	loan failed the panel (11/6): native root
+history	root		abstract	3	176		LAD	
+team	root		people	3	169		LAD	
+company	root		abstract	4	86		LAD	
+different	root		quality	4	73	same	LAD	
+king	root		people	4	146		LAD	
+hospital	root		body	3	216		LAD	
+state, polity	root		people	4	50		LAD	
+plan	root		mind	4	143		LAD	
+birth	root		action	3	235	die	LAD	
+date (romantic meeting)	root		people	2			LAD	
+decide	root		mind	3	234		LAD	
+university	root		people	3	210		LAD; LOAN	loan failed the panel (9/6): native root
+education	root		people	3	236		LAD	
+science	root		abstract	3	253		LAD	
+situation	root		abstract	3	177		LAD	
+video	loan	bideyo	loan	3	276		LAD; LOAN	panel 19/7; form fixed
+special	root		quality	3	227	normal; general, overall	LAD	
+voice	root		sense	3	211		LAD	
+next	root		time	4	129		LAD	
+member	root		people	3	259		LAD	
+leader	root		people	3	171		LAD	
+bank (financial)	loan	banki	loan	3	265		LAD; LOAN	panel 15/6; form fixed
+service	root		people	3	206		LAD	
+direction	root		space	3	232		LAD	
+office	loan	ofisu	loan	3	272		LAD; LOAN	panel 13/6; form fixed
+explain	root		sense	3	230		LAD	
+line, stripe, row	root		space	3	204		LAD	
+mind, intellect	root		mind	4	149		LAD	
+politics	root		people	3	296		LAD	
+price	root		abstract	3	240		LAD	
+report	root		sense	4	141		LAD	
+general, overall	root		quality	3	246	special	LAD	
+general (army rank)	root		people	1			LAD	
+future	root		time	3	332	past	LAD	
+case, instance	root		abstract	3	168		LAD	
+case (legal), lawsuit	root		people	2			LAD	
+election	root		people	3	318		LAD	
+promise	root		sense	3	254		LAD	
+society	root		people	3	294		LAD	
+program (software; broadcast programme)	loan	pulogulamu	loan	3	266		LAD; LOAN	panel 13/6; form fixed
+support	root		action	3	170		LAD	
+experience	root		mind	3	310		LAD	
+letter, mail	root		thing	3	212		LAD	
+letter of the alphabet	root		sense	2			LAD	
+past	root		time	3	189	future	LAD	
+minister	root		people	3	333		LAD	
+gold	root		nature	3	323		LAD	
+technology	loan	tekunolodi	loan	3	376		LAD; LOAN	panel 15/7; form fixed
+attack	root		action	3	186		LAD	
+computer	loan	konpuyutalu	loan	3	345		LAD; LOAN	panel 16/7; form fixed
+position, posture, post	root		space	3	228		LAD	
+court (of law)	root		people	3	352		LAD	
+health	root		body	3	339	sick	LAD	
+season	root		time	3	285		LAD	
+visit	root		motion	3	273		LAD	
+class (school group)	root		people	3	218		LAD	
+social class	root		people	2			LAD	
+soldier	root		people	3	195		LAD	
+level, degree	root		abstract	3	238		LAD	
+foreign	root		quality	3	349		LAD	
+culture	root		people	3	374		LAD	
+village	root		space	3	261	city	LAD	
+series	root		abstract	3	306		LAD	
+quality	root		abstract	3	382		LAD	
+space, room to fit	root		space	3	155		LAD	
+outer space	root		nature	2			LAD	
+committee	root		people	3	369		LAD	
+art	root		abstract	3	331		LAD	
+army	root		people	3	226		LAD	
+distance	root		space	3	305		LAD	
+island	root		nature	3	377		LAD	
+clear	root		quality	3	262		LAD	
+organization	root		people	3	320		LAD	
+market	root		abstract	3	270		LAD	
+prepare	root		action	3	342		LAD	
+business	root		abstract	4	135		LAD; LOAN	loan failed the panel (7/5): native root
+economy	root		abstract	2	465		LAD	
+nature	root		nature	3	365		LAD	
+interest, curiosity	root		mind	3	383		LAD	
+interest (on money)	root		abstract	2			LAD	
+weather	root		nature	2	455		LAD	
+middle, centre	root		space	3	231		LAD	
+message	root		sense	3	398		LAD	
+accident	root		abstract	3	386		LAD	
+community	root		people	3	348		LAD	
+process	root		abstract	2	473		LAD	
+attention	root		mind	3	267		LAD	
+value	root		abstract	3	359		LAD	
+secret	root		abstract	3	416		LAD	
+public	root		quality	3	268	private, not for others	LAD	
+hotel	loan	otelu	loan	3	424		LAD; LOAN	panel 17/7; form fixed
+candidate	root		people	2	511		LAD	
+serious	root		quality	2	489		LAD	
+meeting	root		people	3	174		LAD	
+international	root		quality	3	385		LAD	
+speech	root		sense	4	128		LAD	
+condition	root		abstract	3	182		LAD	
+region	root		space	3	188		LAD	
+building	root		thing	3	244		LAD	
+union, alliance	root		people	3	445		LAD	
+information	root		thing	4	98		LAD	
+religion	root		abstract	3	317		LAD; REL	
+lesson	root		people	2	456		LAD	
+energy	root		thing	3	421		LAD; LOAN	loan failed the panel (11/5): native root
+form (format; a form to fill in)	root		abstract	3	187		LAD	
+province	root		people	3	193		LAD	
+real	root		quality	3	343		LAD	
+danger	root		abstract	3	361	safe, not in danger	LAD	
+official, civil servant	root		people	3	191		LAD	
+vote	root		action	2	502		LAD	
+hero	root		people	2	479		LAD	
+communication	root		sense	2	503		LAD	
+limit	root		abstract	3	205		LAD	
+policy	root		people	2	546		LAD	
+increase	root		action	3	163	decrease, become or make less (added)	LAD	
+operation, undertaking	root		abstract	3	354		LAD	
+doubt	root		mind	3	340		LAD	
+translate	root		sense	2	598		LAD	
+create	root		action	3	295		LAD	
+republic	root		people	2	562		LAD	
+sex	root		body	2	563		LAD	
+electricity	root		thing	2	610		LAD	
+actor	root		people	2	536		LAD	
+example	root		abstract	3	435		LAD	
+sport	root		people	2	540		LAD; LOAN	loan failed the panel (8/6): native root
+newspaper	root		thing	2	574		LAD	
+event	root		abstract	3	219		LAD	
+record, recording	root		sense	3	438		LAD	
+rise, go up	root		motion	3	260	fall, drop down	LAD	
+modern	root		quality	2	573		LAD	
+expert	root		people	2	596		LAD	
+judge (person; to judge)	root		people	2	513		LAD	
+planet	loan		loan	2	621		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+possible	root		quality	3	309		LAD	
+machine	loan	masina	loan	3	392		LAD; LOAN	panel 14/6; form fixed
+industry	root		abstract	2	468		LAD	
+debt	root		abstract	2	613		LAD	
+president	root		people	3	201		LAD; LOAN	loan failed the panel (7/4): native root
+activity	root		abstract	3	405		LAD	
+test, exam	root		people	3	308		LAD	
+address (postal or email)	root		space	2	483		LAD	
+map	root		thing	2	641		LAD	
+birthday	root		time	2	646		LAD	
+threaten	root		sense	2	601		LAD	
+structure	root		abstract	2	499		LAD	
+governor	root		people	2	668		LAD	
+product	root		abstract	2	530		LAD	
+generation	root		people	2	597		LAD	
+origin, source	root		abstract	3	390		LAD	
+interview	root		sense	2	651		LAD	
+goal, aim, purpose	root		mind	3	355		LAD	
+period, era, interval	root		time	3	360		LAD	
+race, contest of speed	root		people	2	623		LAD	
+race, ethnic group (social category)	root		people	2			LAD	
+data	root		thing	3	418		LAD; LOAN	loan failed the panel (9/6): native root
+professor	root		people	2	718		LAD; LOAN	loan failed the panel (11/5): native root
+literature	root		abstract	2	670		LAD	
+slave	root		people	2	666		LAD	
+notice, become aware of	root		sense	2	551		LAD	
+alone	root		quality	3	256		LAD	
+announce	root		sense	2	628		LAD	
+spring (water source)	root		nature	1			LAD	
+project	root		abstract	3	329		LAD; LOAN	loan failed the panel (12/6): native root
+vehicle	root		thing	2	735		LAD	
+article (a written piece)	root		sense	2	538		LAD	
+beer	loan	biyalu	loan	2	746		LAD; LOAN	panel 13/6; form fixed
+parliament	root		people	2	751		LAD	
+code (computer code; a cipher)	loan	kodu	loan	2	496		LAD; LOAN	panel 13/5; form fixed
+pressure	root		abstract	2	648		LAD	
+website	loan	sayitu	loan	2	568		LAD; LOAN	panel 14/6; form fixed
+democracy	root		people	2	763		LAD; LOAN	loan failed the panel (11/5): native root
+unit (of measure)	root		abstract	2	770		LAD	
+scene (of a play or film)	root		abstract	2	689		LAD	
+style, manner	root		abstract	2	586		LAD	
+bomb	loan	bonba	loan	2	660		LAD; LOAN	panel 15/6; form fixed
+sin	root		abstract	2	644		LAD; REL	
+sign, signal, mark	root		sense	3	203		LAD	
+design	loan	disayin	loan	2	556		LAD; LOAN	panel 12/5; form fixed
+bridge	root		space	2	761		LAD	
+secretary	root		people	2	649		LAD	
+soul	root		abstract	2	566		LAD; REL	
+pregnant	root		body	2	801		LAD	
+constitution	root		people	2	806		LAD	
+revolution	root		people	2	705		LAD	
+theory	root		abstract	2	719		LAD	
+chapter	root		sense	2	708		LAD	
+subject, topic	root		abstract	3	366		LAD	
+analyze	root		mind	2	758		LAD	
+network	root		thing	2	677		LAD	
+student	root		people	3	389	teacher	LAD	
+appearance, look	root		sense	3	393		LAD	
+circle	root		space	2	707		LAD	
+arrest	root		action	2	728		LAD	
+wine	root		thing	2	830		LAD	
+match, contest	root		people	3	264		LAD	
+match, matchstick	root		thing	1			LAD	
+station (train, bus)	root		space	2	633		LAD; LOAN	loan failed the panel (11/5): native root
+iron (the metal)	root		nature	2	776		LAD	
+silver	root		nature	2	745		LAD	
+color	root		color	3	397		LAD	
+capital city	root		people	3	372		LAD	
+magazine	root		thing	2	695		LAD	
+captain	loan	kaputan	loan	2	615		LAD; LOAN	panel 17/7; form fixed
+luck	root		abstract	2	542		LAD	
+stage, phase	root		abstract	2	572		LAD	
+stage (theatre platform)	root		abstract	1			LAD	
+honey	root		thing	2	854		LAD	
+react	root		action	2	681		LAD	
+size	root		size	2	477		LAD	
+model (simplified representation; fashion model)	loan	modelu	loan	3	436		LAD; LOAN	panel 14/6; form fixed
+prove	root		mind	2	549		LAD	
+measure	root		action	2	493		LAD	
+mathematics	root		abstract	2	800		LAD	
+crisis	root		people	2	791		LAD	
+step, pace	root		motion	3	301		LAD	
+virus	loan	bilusu	loan	2	784		LAD; LOAN	panel 17/7; form fixed
+worker	root		people	2	560		LAD	
+pass, go past or through	root		motion	3	154		LAD	
+role	root		abstract	2	575		LAD	
+branch (of a tree)	root		nature	2	592		LAD	
+pray, worship	root		action	2	739		LAD; REL	
+crime	root		people	3	422		LAD	
+travel	root		motion	2	460		LAD	
+ring (finger ring)	root		thing	2	804		LAD	
+pair, couple	root		number	2	657		LAD	
+restaurant	loan	lesutolan	loan	2	893		LAD; LOAN	panel 12/6; form fixed
+transfer	root		action	2	741		LAD	
+palace	root		space	2	781		LAD	
+direct, directly	root		quality	2	539		LAD	
+mayor	root		people	2	823		LAD	
+population	root		people	2	796		LAD	
+corner	root		space	2	715		LAD	
+detective	root		people	2	783		LAD	
+bullet	root		thing	2	686		LAD	
+ministry	root		people	2	724		LAD	
+hall, large room	root		thing	2	712		LAD	
+ticket	root		thing	2	734		LAD; LOAN	loan failed the panel (11/5): native root
+principle	root		abstract	2	703		LAD	
+budget	root		abstract	2	816		LAD; LOAN	loan failed the panel (10/5): native root
+breakfast	root		thing	1	933		LAD	
+witness	root		people	2	505		LAD	
+customer	root		people	2	855		LAD	
+league (sports)	loan	liga	loan	2	693		LAD; LOAN	panel 15/7; form fixed
+serve	root		action	2	720		LAD	
+temperature	loan		loan	2	883		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+brave	root		quality	2	531	fear	LAD	
+benefit	root		abstract	2	458		LAD	
+standard, norm	root		abstract	2	762		LAD	
+escape	root		motion	3	426		LAD	
+album	loan	alubumu	loan	1	950		LAD; LOAN	panel 17/7; form fixed
+demand	root		sense	2	555		LAD	
+challenge	root		abstract	2	706		LAD	
+shape	root		space	3	379		LAD	
+tax	root		abstract	2	818		LAD	
+philosophy	root		abstract	1	962		LAD; LOAN	loan failed the panel (11/5): native root
+course (of study)	root		people	2	742		LAD	
+original	root		quality	2	548		LAD	
+matter, affair, issue	root		abstract	3	250		LAD	
+master, lord	root		people	3	314		LAD	
+content (what is inside)	root		abstract	2	679		LAD	
+profit	root		abstract	2	583		LAD	
+divide, division	root		action	3	411		LAD	
+rich, wealthy	root		quality	3	419	poor	LAD	
+channel (TV, radio)	root		thing	2	871		LAD; LOAN	loan failed the panel (12/6): native root
+cell (biological)	root		body	2	792		LAD	
+major, main, chief	root		quality	1	975		LAD	
+sentence (grammar)	root		sense	2	645		LAD	
+identity	root		people	2	845		LAD	
+advertisement	root		abstract	2	775		LAD	
+suit (the garment)	root		thing	2	603		LAD	
+bill, invoice	root		abstract	2	777		LAD	
+appointment	root		time	2	664		LAD	
+regret	root		mind	2	786		LAD	
+base, basis	root		abstract	3	241		LAD	
+robot	loan	lobotu	loan	1	997		LAD; LOAN	panel 18/7; form fixed
+spirit (a being)	root		abstract	3	338		LAD; REL	
+joke	root		sense	2	602		LAD	
+fund (money set aside)	root		abstract	2	684		LAD	
+view, scenery, perspective	root		sense	2	595		LAD	
+desert	root		nature	1	985		LAD	
+skill	root		mind	2	591		LAD	
+pound (the currency)	loan	pawundu	loan	1	1013		LOAN	a currency only; the weight is not core
+cigarette	loan	sigaletu	loan	1	1026		LAD; LOAN	panel 13/5; form fixed
+praise	root		sense	2	622		LAD	
+continue	root		action	3	288	stop	LAD	
+the press, news media	root		people	2			LAD	
+citizen	root		people	2	480		LAD	
+club, society	loan	kulabu	loan	2	454		LAD; LOAN	panel 17/7; form fixed
+habit, routine	root		mind	1	906		LAD	
+title, heading	root		sense	2	731		LAD	
+divorce	root		people	1	968	marry, wedding	LAD	
+negative	root		quality	1	932	positive	LAD	
+compare	root		mind	1	920		LAD	
+pocket	root		thing	1	924		LAD	
+character, personality	root		mind	2	490		LAD	
+establish, found	root		action	2	504		LAD	
+expression (phrase; facial)	root		sense	1	978		LAD	
+job, occupation	root		abstract	4	97		LAD	
+list	root		sense	3	370		LAD	
+fresh	root		quality	1	960	rotten	LAD	
+screen (display)	root		thing	1	993		LAD	
+campaign	root		people	1	1020		LAD; LOAN	loan failed the panel (12/6): native root
+universe	root		nature	2	774		LAD	
+define	root		sense	1	1082		LAD	
+cancer	root		body	2	844		LAD	
+arrange	root		action	2	680		LAD	
+sense (good sense; a sense organ)	root		mind	2	773		LAD	
+score, points	root		people	1	1061		LAD	
+imagine	root		mind	1	910		LAD	
+holy person (saint, widened)	root		people	1	959		LAD; REL	
+crown (worn by a monarch)	root		thing	1	1060		LAD	
+fault, flaw, defect	root		abstract	2	532		LAD	
+taxi	loan	takusi	loan	1	994		LAD; LOAN	panel 19/7; form fixed
+wound, injury	root		body	2	700		LAD	
+muscle	root		body	1	1011		LAD	
+pure	root		quality	2	584		LAD	
+gas (state of matter; fuel gas)	loan	gasu	loan	2	861		LAD; LOAN	panel 19/7; form fixed
+tense, strained, nervous	root		mind	1	1099	calm	LAD	
+supply	root		action	2	843		LAD	
+bow, bend the body	root		action	1	1057		LAD	
+bow (the weapon)	root		thing	1			LAD	
+effect, impact	root		abstract	3	394		LAD	
+adult	root		people	2	669	baby; child	LAD	
+offering, sacrifice	root		action	1	1006		LAD; REL	
+expect	root		mind	2	798		LAD	
+museum	root		space	1	1111		LAD; LOAN	loan failed the panel (9/5): native root
+approach, come near	root		motion	1	1010		LAD	
+comment	root		sense	2	694		LAD	
+invite	root		sense	2	851		LAD	
+alcohol	root		thing	2	768		LAD; LOAN	loan failed the panel (8/4): native root
+discuss	root		sense	2	748		LAD	
+professional	root		people	2	853		LAD	
+prison	root		people	2	675		LAD	
+element, component	root		abstract	1	970		LAD	
+invest	root		action	1	956		LAD	
+novel (a long story)	root		abstract	2	837		LAD	
+poem	root		abstract	1	934		LAD	
+nurse	root		people	1	929		LAD	
+engine, motor	root		thing	1	936		LAD; LOAN	loan failed the panel (7/3): native root
+rose	root		nature	1	1146		LAD	
+wise	root		mind	2	857		LAD	
+coin	root		abstract	1	1126		LAD	
+guest	root		people	2	779	host (who receives guests)	LAD	
+care	root		action	3	286		LAD	
+chemistry	root		abstract	1	1137		LAD; LOAN; ADD1; ADD1; ADD1	5-of-7-regions rule fails it (author 2026-10-15): root or phrase; no phrase meets the phrase line, so a root (added reading)
+patient, enduring	root		mind	2			LAD	
+worry	root		mind	3	304		LAD	
+material, substance	root		thing	2	702		LAD	
+traffic	root		thing	1	995		LAD	
+consciousness	root		mind	1	964		LAD	
+protest	root		action	1	949		LAD	
+contribute	root		action	1	1014		LAD	
+publish	root		sense	1	1134		LAD	
+poor	root		quality	2	537	rich, wealthy	LAD	
+raise, lift	root		action	2	487		LAD	
+guitar	loan	gitalu	loan	1	1173		LAD; LOAN	panel 20/7; form fixed
+prisoner	root		people	1	1076		LAD	
+proud	root		mind	1	952		LAD	
+perform	root		action	1	1027		LAD	
+gender	root		people	1	1144		LAD	
+claim	root		sense	2	880		LAD	
+hell	root		abstract	2	635	heaven, paradise (added)	LAD; REL	
+guarantee	root		sense	1	955		LAD	
+terrorism	root		people	1	1200		LAD	
+airport	root		thing	2	767		LAD	
+exchange	root		action	2	894		LAD	
+nerve	root		body	1	1204		LAD	
+virgin	root		body	1	1198		LAD	
+busy	root		quality	1	927		LAD	
+hole	root		space	2	685		LAD	
+board, plank	root		thing	1	963		LAD	
+punish	root		action	2	766		LAD	
+cross, go across	root		motion	2	729		LAD	
+civilization	root		people	1	1216		LAD	
+grain	root		nature	1	1004		LAD	
+metal	root		nature	2	874		LAD; LOAN	loan failed the panel (6/4): native root
+progress	root		abstract	2	691		LAD	
+popular	root		quality	1	1017		LAD	
+engineering	root		abstract	1	1112		LAD	
+fail	root		action	1	1086	success	LAD	
+liquid	root		nature	2	808		LAD	
+needle	root		thing	1	1213		LAD	
+plot (of a story)	root		abstract	1	1018		LAD	
+oxygen	loan		loan	1	1227		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+charge (a battery)	root		thing	1	1009		LAD	
+climate	root		nature	1	1008		LAD; LOAN	loan failed the panel (8/4): native root
+signature	root		sense	1	1003		LAD	
+essay	root		sense	1	1110		LAD	
+introduce	root		sense	1	1019		LAD	
+spy	root		people	1	1243		LAD	
+positive	root		quality	2	875	negative	LAD	
+fever	root		body	1	928		LAD	
+rape	root		people	1	1229		LAD	
+wave (of water; wave a hand)	root		nature	2	847		LAD	
+damage	root		action	2	616		LAD	
+wheel	root		thing	1	1115		LAD	
+reward	root		abstract	1	1051		LAD	
+border	root		space	2	593		LAD	
+poison	root		body	1	1007		LAD	
+symptom	root		body	1	1239		LAD	
+loan (money lent)	root		abstract	1	1192		LAD	
+reference	root		sense	1	954		LAD	
+opportunity	root		abstract	4	127		LAD	
+wonder, an astonishing unexplained event (miracle is built: wonder of god)	root		abstract	1	1058		LAD; REL	
+cabinet (government)	root		people	1	1265		LAD	
+capacity	root		size	1	1059		LAD	
+square (the shape)	root		space	2	858		LAD	
+square, plaza	root		space	2			LAD	
+shock	root		mind	1	1177		LAD	
+angle	root		space	1	1175		LAD	
+scholar	root		people	1	1001		LAD	
+rare	root		quality	1	1037		LAD	
+mission	root		abstract	1	935		LAD	
+trick, deceive	root		action	1	937		LAD	
+lawyer	root		people	3	430		LAD	
+appear	root		motion	3	152	disappear, vanish (added)	LAD	
+steel	root		nature	1	1278		LAD	
+farm	root		abstract	1	979		LAD	
+essence, gist	root		abstract	1	948		LAD	
+tower	root		space	1	1274		LAD	
+strike (labour)	root		abstract	1			LAD	
+tip, gratuity	root		abstract	1			LAD	
+religious leader (priest, widened)	root		people	1	977		LAD; REL	
+servant	root		people	2	805		LAD	
+lover, partner in love	root		people	1	912		LAD	
+surgery	root		body	1	1044		LAD	
+gene	loan	denu	loan	1	1288		LAD; LOAN	panel 15/7; form fixed
+forehead	root		body	1	1217		LAD	
+behave	root		action	1	944		LAD	
+evil spirit, demon, devil	root		abstract	2	864		LAD; REL	
+majority	root		abstract	2	561		LAD	
+average	root		number	2	665		LAD	
+treasure	root		abstract	1	1055		LAD	
+flood	root		nature	1	1196		LAD	
+former, ex-	root		quality	2	673		LAD	
+vegetable	root		nature	1	1212		LAD	
+continent	root		space	1	1310		LAD	
+extreme	root		quality	1	1084		LAD	
+diamond	root		nature	1	1317		LAD	
+presence	root		abstract	1	903		LAD	
+heaven, paradise	root		abstract	2	895	hell (added)	LAD; REL	
+shield	root		thing	1	1249		LAD	
+edition	root		sense	1	1136		LAD	
+menstruation	root		body	1	1127		LAD	
+balance	root		abstract	1	1141		LAD	
+pilot	root		people	1	1336		LAD; LOAN	loan failed the panel (11/5): native root
+sword	root		thing	2	803		LAD	
+investigate	root		mind	3	403		LAD	
+invent	root		action	1	1183		LAD	
+context	root		abstract	1	1344		LAD	
+messenger	root		people	1	1304		LAD	
+solve	root		mind	2	607		LAD	
+camp	root		space	2	876		LAD	
+womb	root		body	1	1338		LAD	
+print	root		action	1	1220		LAD	
+sum, total	root		number	2	696		LAD	
+layer	root		space	1	1106		LAD	
+app, software application	root		thing	2	514		LAD	
+application, formal request	root		sense	2			LAD	
+bless, blessing	root		action	1	1185	curse (added)	LAD; REL	
+missile	root		thing	1	1371		LAD	
+broadcast	root		thing	1	1123		LAD	
+factor	root		abstract	1	1375		LAD	
+pole, post	root		thing	1	1313		LAD	
+handle	root		thing	2	884		LAD	
+corruption	root		people	1	1270		LAD	
+edge, rim	root		space	2	826		LAD	
+dawn	root		time	1	1077		LAD	
+believe; faith, belief	root		mind	3	311		LAD; REL	
+host (who receives guests)	root		people	1	1339	guest	LAD	
+fashion	root		people	1	1056		LAD; LOAN	loan failed the panel (10/4): native root
+relationship	root		people	3	299		LAD	
+regular	root		quality	1	1366		LAD	
+ceremony	root		people	1	942		LAD	
+amount	root		number	3	433		LAD	
+place of worship (temple, widened)	root		abstract	1	976		LAD; REL	
+grave	root		abstract	2	870		LAD	
+spread	root		action	2	817		LAD	
+script	root		sense	1	1332		LAD	
+innocent	root		quality	1	1393		LAD	
+plastic	loan	pulasutiku	loan	1	1258		LAD; LOAN	panel 16/7; form fixed
+volume (loudness; a book volume)	root		size	2	881		LAD	
+noble	root		people	1	982		LAD	
+fan, supporter	root		people	1	1000		LAD	
+fan (cooling device)	root		thing	1			LAD	
+plain, simple	root		quality	2	879		LAD	
+credit	root		abstract	1	1295		LAD	
+bar (place serving drinks)	loan	balu	loan	1	1139		LAD; LOAN	panel 18/7; form fixed
+repeat	root		action	1	1299		LAD	
+responsible	root		quality	3	439		LAD	
+manage	root		action	2	627		LAD	
+release, let go	root		action	2	508	hold	LAD	
+department	root		abstract	3	362		LAD	
+tradition	root		people	2	760		LAD	
+experiment	root		abstract	1	972		LAD	
+contract	root		abstract	2	519		LAD	
+exercise (physical)	root		body	2	834		LAD	
+countryside	root		space	2	867	city	LAD	
+version	root		abstract	1	1426		LAD; LOAN	loan failed the panel (11/6): native root
+describe	root		sense	1	1023		LAD	
+emergency	root		abstract	2	841		LAD	
+reform	root		action	1	1064		LAD	
+insurance	root		abstract	1	1102		LAD	
+perfect	root		quality	3	378		LAD	
+joint (of the body)	root		body	1	1069		LAD	
+rate (speed, ratio, rate of pay)	root		number	1	1047		LAD	
+mass (physical quantity)	loan		loan	1	998		LAD	ladder 2 rung 1: the standard's form, adapted (no form yet; not panel-tested)
+mention	root		sense	2	690		LAD	
+cinema	loan	sinema	loan	1	1181		LAD; LOAN	panel 16/6; form fixed
+fence	root		thing	1	1179		LAD	
+blind	root		quality	1	1090		LAD; ADD1; ADD1; ADD1 (set with deaf, mute)	
+available	root		quality	1	1236		LAD; DROP; PL	lenu bone (4 syll) is over the line (re-checked 2026-10-16)
+fool	root		people	2	840	smart	LAD	
+drunk	root		quality	1	1414		LAD	
+fuel (petrol, gasoline)	root		thing	1	1002		LAD; LOAN	loan failed the panel (6/3): native root
+competition	root		people	3	423		LAD	
+excuse	root		sense	2	725		LAD	
+satisfied	root		mind	1	1152		LAD	
+detail	root		abstract	1	1154		LAD	
+ambassador	root		people	1	1447		LAD	
+improve	root		action	1	1104		LAD	
+settle	root		action	2	732		LAD	
+wheat	root		nature	1	1238		LAD	
+cream (of milk; cosmetic)	root		thing	1	1300		LAD; LOAN	loan failed the panel (11/6): native root
+tribe	root		people	1	1062		LAD	
+aspect	root		abstract	2	831		LAD	
+anniversary	root		time	1	1303		LAD	
+holiday	root		time	1	1180		LAD	
+spend	root		action	1	1094		LAD	
+complex	root		quality	2	836		LAD	
+logic	root		mind	1	1259		LAD	
+normal	root		quality	1	1473	special	LAD	
+passport	loan	pasupolutu	loan	1	1477		LAD; LOAN	panel 15/7; form fixed
+practice, training	root		action	1	958		LAD	
+mud	root		nature	1	1354		LAD	
+income	root		abstract	2	733		LAD	
+copper	root		nature	1	1482		LAD	
+band (music group)	root		abstract	1	1119		LAD	
+honest	root		quality	2	608		LAD	
+curse	root		action	1	1162	bless, blessing (added)	LAD; REL	
+port, harbour	root		space	2	863		LAD	
+evolution	root		nature	1	1487		LAD	
+platform	root		thing	1	1048		LAD; LOAN	loan failed the panel (12/5): native root
+lie, tell an untruth	root		sense	3		true	LAD; ADD1	
+pulse	root		body	1	1483		LAD	
+surface	root		space	1	905		LAD	
+edit	root		action	1	1358		LAD	
+reputation	root		people	2	755		LAD	
+certificate	root		people	1	1284		LAD	
+trap	root		thing	1	1164		LAD	
+confess	root		sense	1	1475		LAD	
+engineer	loan	indiniyalu	loan	1	1369		LAD; LOAN	panel 14/6; form fixed
+instrument (musical)	root		thing	1	1252		LAD	
+shift (work shift)	root		abstract	1	1322		LAD	
+atmosphere (air layer; mood)	root		nature	1	1512		LAD	
+argument, dispute	root		sense	1	941		LAD	
+access	root		abstract	1	915		LAD	
+victim	root		people	2	812		LAD	
+arrow	root		thing	1	1394		LAD	
+offer	root		sense	3	448		LAD	
+volunteer	root		people	1	1519		LAD	
+coach	root		people	1	1312		LAD	
+frame	root		thing	1	1036		LAD	
+conclusion	root		abstract	2	793		LAD	
+pollution	root		nature	1	1523		LAD	
+withdraw	root		motion	1	1083		LAD	
+famous	root		quality	2	550		LAD	
+opposite	root		abstract	2	892		LAD	
+note (a short written message)	root		sense	1	1046		LAD	
+register, enrol	root		sense	1	918		LAD	
+trade	root		abstract	2	790		LAD	
+valley	root		nature	1	1424		LAD	
+violence	root		people	1	921		LAD	
+vaccine	loan	bakusin	loan	1	1549		LAD; LOAN	panel 14/6; form fixed
+tunnel	root		thing	1	1554		LAD; LOAN	loan failed the panel (9/5): native root
+treat	root		action	1	1025		LAD	
+toilet	root		thing	1	953		LAD; LOAN	loan failed the panel (10/5): native root
+tight	root		quality	1	1301		LAD	
+suspect	root		mind	1	1316		LAD	
+success	root		abstract	2	523	fail	LAD	
+studio	loan	sutudiyo	loan	1	1571		LAD; LOAN	panel 15/6; form fixed
+strict	root		quality	1	1572		LAD	
+shame	root		mind	2	788		LAD	
+sensitive	root		quality	1	1450		LAD	
+schedule	root		time	1	1436		LAD	
+satellite	root		thing	1	1588		LAD	
+retire	root		action	1	1590		LAD	
+represent	root		action	1	1419		LAD	
+reflection	root		sense	1	1105		LAD	
+recognize	root		mind	1	961		LAD	
+receipt	root		abstract	1	1182		LAD; DROP; PL	kemin pi unfu (5 syll) is over the line (re-checked 2026-10-16)
+prostitute	root		people	1	983		LAD	
+profile (online, personal)	loan	pulofilu	loan	1	1596		LAD; LOAN	panel 14/5; form fixed
+priority	root		abstract	1	1242		LAD; DROP; PL	ke bawe se we (5 syll) is over the line (re-checked 2026-10-16)
+prevent	root		action	1	902		LAD	
+pipe	root		thing	1	1349		LAD	
+pillar	root		thing	1	1311		LAD	
+piano	loan	piyano	loan	1	1604		LAD; LOAN	panel 17/7; form fixed
+physics	root		abstract	1	1417		LAD; LOAN	loan failed the panel (11/4): native root
+permanent	root		quality	1	1129		LAD	
+pearl	root		nature	1	1608		LAD	
+organ (of the body)	root		body	1	1296		LAD	
+native, indigenous	root		people	1	1294		LAD	
+mystery	root		abstract	1	1080		LAD	
+moral, ethics	root		people	1	1367		LAD	
+monster	root		abstract	1	1195		LAD	
+mix	root		action	1	1116		LAD	
+medal	loan	medala	loan	1	1140		LAD; LOAN	panel 14/6; form fixed
+mask	loan	masuka	loan	1	1623		LAD; LOAN	panel 14/6; form fixed
+moon	root		nature	4	104	sun	ADD1	split from dunan (author 2026-10-13)
+ghost	root		abstract	2			ADD1	split from spirit (author 2026-10-13)
+word	root		sense	4	84		ADD1	split from apu (author 2026-10-13)
+keep, retain	root		action	3	414	lose, misplace (added)	ADD1	split from kuwi (author 2026-10-13)
+request, ask for	root		sense	2			ADD1	split from mido (author 2026-10-13)
+lose (a contest)	root		action	3	207	win (decided)	ADD1	split from agi (author 2026-10-13)
+daytime	root		time	2		night	ADD1	split from dili (author 2026-10-13)
+rule	root		abstract	3	175		ADD1	split from wabun (author 2026-10-13)
+percent	root		number	2			ADD1	author 2026-10-13, audit item 4
+always	root		time	2		never (added)	ADD1	inventory 2 (author 2026-10-13)
+often	root		time	2			ADD1	inventory 2
+sometimes	root		time	2			ADD1	inventory 2
+never	root		time	2		always (added)	ADD1	inventory 2
+later	root		time	2			ADD1	inventory 2
+here	root		space	2		there (added)	ADD1	grid check (author 2026-10-15)
+there	root		space	2		here (added)	ADD1	grid check (author 2026-10-15)
+parent	root		people	1	1611		ADD1	sex-neutral root (author 2026-10-16)
+lunch	root		thing	1	1425		ADD1	three meals as roots (author 2026-10-16)
+dinner	root		thing	2			ADD1	three meals as roots (author 2026-10-16)
+cassava	root		nature	2			ADD1	WOLD follow-up (author 2026-10-16)
+millet, sorghum	root		nature	2			ADD1	WOLD follow-up (author 2026-10-16)
+deaf	root		body	1	2238		ADD1	set with blind and mute (author 2026-10-16)
+mute, unable to speak	root		body	2			ADD1	set with blind and deaf (author 2026-10-16)
+order, command (someone to do something)	root		sense	4	76		ADD1; WOLD 19-45 BQ (decided: a root)	WOLD follow-up (author 2026-10-16); with ti
+relative, family member	root		people	2	543		ADD1	phrase ewo pi yonyo is 5 syll (author 2026-10-16)
+shave	root		action	2			ADD1	WOLD follow-up (author 2026-10-16)
+fish (catch fish)	root		action	2	580		ADD1	WOLD follow-up (author 2026-10-16)
+herd, tend animals	root		action	2			ADD1	WOLD follow-up (author 2026-10-16)
+fact	root		abstract	3	297		BAL	
+common, ordinary, usual	root		quality	3	346		BAL	split: 'shared' is the phrase pi we
+accept, take what is offered	root		action	3	380	refuse, say no to (added)	BAL	
+fate, destiny	root		abstract	3	434		BAL	
+influence	root		action	2	506		BAL	
+holy, sacred	root		quality	2	588		BAL; REL (sacred = holy)	root (author 2026-10-15); merged rank 588
+status, standing, rank in a group	root		people	2	653		BAL	
+avoid	root		action	2	716		BAL	
+suitable, fit, proper	root		quality	2	727		BAL	absorbs fit
+guess	root		mind	2	737		BAL	
+partner (neutral in sex and setting)	root		people	2	785		BAL	
+environment, surroundings	root		nature	2	794		BAL	separate from nature
+disappear, vanish	root		motion	2	797	appear (added)	BAL	
+destroy	root		action	2	815		BAL	separate from alun 'break'
+explode, burst	root		action	2	835		BAL	
+accuse, blame, hold responsible	root		sense	2	860		BAL	accuse and blame one root
+thread	root		thing	2	869		BAL	
+waste (use up for nothing)	root		action	2	882		BAL	
+forgive	root		mind	2	897		BAL	
+load, burden	root		thing	1	926		BAL	absorbs burden
+heap, pile	root		thing	1	939		BAL	phrase musu fanmu (4 syll) over the line (coverage-02 r2)
+warm	root		quality	1	940		BAL	separate from tikun 'hot'
+disaster	root		abstract	1	945		BAL	
+unique	root		quality	1	990		BAL	phrase-or-root decided: root (author 2026-10-16)
+celebrate, celebration	root		action	1	996		BAL	festival = 'time of celebrating'
+include, contain	root		action	1	1030		BAL	include and contain one root
+exceed, go beyond	root		action	1	1052		BAL	phrase-or-root decided: root (author 2026-10-16)
+decrease, become or make less	root		action	1	1070	increase (added)	BAL	
+statue	root		thing	1	1071		BAL	
+participate, take part	root		action	1	1073		BAL	phrase-or-root decided: root (author 2026-10-16)
+characteristic, feature, trait	root		abstract	1	1093		BAL	
+obey	root		action	1	1107		BAL	
+familiar, known	root		quality	1	1122		BAL	phrase-or-root decided: root (author 2026-10-16)
+heal, cure	root		action	1	1135		BAL	absorbs cure
+hate	root		mind	1	1142	love (added)	BAL	
+cruel	root		quality	1	1155		BAL	
+chain	root		thing	1	1171		BAL	
+bell	root		thing	1	1184		BAL	
+kind, kindness	root		quality	1	1191		BAL	
+nonsense	root		sense	1	1194		BAL	phrase apu su yofu (5 syll) over the line (coverage-02 r2)
+obstacle	root		thing	1	1205		BAL	phrase musu gi bamo (5 syll) over the line (coverage-02 r2)
+fraud, cheating	root		action	1	1207		BAL	
+achieve	root		action	1	1209		BAL	separate from wonku 'reach'
+summary	root		sense	1	1230		BAL	phrase-or-root decided: root (author 2026-10-16)
+endure, bear, tolerate	root		mind	1	1231		BAL	
+substitute, replacement	root		action	1	1234		BAL	
+ancestor	root		people	1	1253		WALK	
+coal (fuel)	root		nature	1	1260		WALK	one root; charcoal is wood + coal
+wild, not tamed or farmed	root		quality	1	1263		WALK	without the 'savage' judgement (C4)
+cave	root		nature	1	1282		WALK	
+inherit, inheritance	root		action	1	1285		WALK	
+discrimination, unfair treatment of a group	root		people	1	1289		WALK	
+attitude, stance	root		mind	1	1290		WALK	opinion is a phrase
+comfortable, at ease	root		quality	1	1298		WALK	separate from pleasant
+depend (on), be conditional on	root		abstract	1	1305		WALK	separate from gewan 'trust, rely on'
+worthy, deserving	root		quality	1	1307		WALK	covers merit
+well-being, welfare	root		abstract	1	1315		WALK	separate from health
+infection, infect	root		body	1	1319		WALK	virus stays a loan
+urgent	root		quality	1	1323		WALK	an emergency in speech is yo yo
+ceiling	root		thing	1	1325		WALK	separate from kuwun 'roof'
+deny, say it isn't true	root		sense	1	1330		WALK	separate from refuse
+pattern, repeated design	root		abstract	1	1333		WALK	
+revenge	root		action	1	1334		WALK	
+cliff, steep rock face	root		nature	1			WOLD-core	WOLD 1-222, 21/24 families with an own root
+dew	root		nature	1			WOLD-core	WOLD 1-64, 17/24 families with an own root
+firewood	root		nature	1			WOLD-core	WOLD 1-88, 21/24 families with an own root
+nest	root		animal	1	1615		WOLD-core	WOLD 3-58, 17/24 families with an own root
+eagle, large bird of prey	root		animal	1	2122		WOLD-core	WOLD 3-584, 19/24 families with an own root
+crow, raven	root		animal	1	1986		WOLD-core	WOLD 3-593, 17/24 families with an own root
+scale (of fish or snake)	root		animal	1	1429		WOLD-core	WOLD 3-653, 15/24 families with an own root
+flea	root		animal	1			WOLD-core	WOLD 3-813, 18/24 families with an own root
+wasp	root		animal	1			WOLD-core	WOLD 3-823, 22/24 families with an own root
+lizard	root		animal	1			WOLD-core	WOLD 3-96, 20/24 families with an own root
+beard	root		body	1	2141		WOLD-core	WOLD 4-142, 18/24 families with an own root
+jaw	root		body	1	2097		WOLD-core	WOLD 4-207, 15/24 families with an own root
+snot, nasal mucus	root		body	1			WOLD-core	WOLD 4-232, 20/24 families with an own root
+beak	root		body	1	2010		WOLD-core	WOLD 4-241, 15/24 families with an own root
+elbow	root		body	1			WOLD-core	WOLD 4-32, 17/24 families with an own root
+thigh	root		body	1	1888		WOLD-core	WOLD 4-351, 19/24 families with an own root
+heel	root		body	1	2107		WOLD-core	WOLD 4-372, 15/24 families with an own root
+kidney	root		body	1	1951		WOLD-core	WOLD 4-451, 15/24 families with an own root
+waist	root		body	1	1548		WOLD-core	WOLD 4-462, 18/24 families with an own root
+hip	root		body	1			WOLD-core	WOLD 4-463, 19/24 families with an own root
+hiccup	root		action	1			WOLD-core	WOLD 4-521, 16/24 families with an own root
+bury	root		action	1	1695		WOLD-core	WOLD 4-78, 17/24 families with an own root
+itch	root		body	1			WOLD-core	WOLD 4-854, 16/24 families with an own root
+pus	root		body	1	2305		WOLD-core	WOLD 4-857, 20/24 families with an own root
+lazy	root		quality	1	1630		WOLD-core	WOLD 4-92, 19/24 families with an own root
+naked	root		quality	1	1856		WOLD-core	WOLD 4-99, 17/24 families with an own root
+roast, fry (cook in fire, on a pan or in oil)	root		action	1			WOLD-core	WOLD 5-23, 20/24 families with an own root
+peel	root		action	1	1607		WOLD-core	WOLD 5-46, 16/24 families with an own root
+sieve, strain	root		action	1			WOLD-core	WOLD 5-47, 17/24 families with an own root
+knead	root		action	1	1948		WOLD-core	WOLD 5-54, 15/24 families with an own root
+mortar (for pounding)	root		thing	1			WOLD-core	WOLD 5-58, 17/24 families with an own root
+leather	root		thing	1	1629		WOLD-core	WOLD 6-29, 18/24 families with an own root
+weave	root		action	1	1872		WOLD-core; WOLD-codex (9-75, same root)	WOLD 6-33, 20/24 families with an own root
+sew	root		action	1	2055		WOLD-core	WOLD 6-35, 20/24 families with an own root
+bead	root		thing	1			WOLD-core	WOLD 6-76, 17/24 families with an own root
+plant, sow (put seeds or plants in the ground)	root		action	1			WOLD-core	WOLD 8-31, 18/24 families with an own root; also WOLD 8-531 (to plant)
+mushroom	root		nature	1			WOLD-core	WOLD 8-98, 15/24 families with an own root
+axe	root		action	1			WOLD-core	WOLD 9-25, 17/24 families with an own root
+rub	root		action	1	2060		WOLD-core	WOLD 9-31, 17/24 families with an own root
+clay	root		action	1	1842		WOLD-core	WOLD 9-73, 19/24 families with an own root
+wrap	root		action	1			WOLD-core	WOLD 10-14, 18/24 families with an own root
+sink (go under water)	root		motion	1	1174	float (added)	WOLD-core	WOLD 10-33, 15/24 families with an own root
+float	root		motion	1	1651	sink (go under water) (added)	WOLD-core	WOLD 10-34, 16/24 families with an own root
+crawl	root		motion	1			WOLD-core	WOLD 10-41, 20/24 families with an own root
+stingy, mean with money	root		quality	1			WOLD-core	WOLD 11-54, 15/24 families with an own root
+hook	root		thing	1			WOLD-core	WOLD 12-75, 16/24 families with an own root
+whistle	root		sense	1	2154		WOLD-core	WOLD 18-17, 17/24 families with an own root
+scold	root		sense	1	1910		WOLD-core	WOLD 18-39, 18/24 families with an own root
+drum	root		sense	1			WOLD-core	WOLD 18-72, 15/24 families with an own root
+tick	root		animal	1			WOLD-core	WOLD 3-835, 16/24 families with an own root
+freeze, become ice	root		action	1	1973		WOLD-core	WOLD 1-775, 15/24 families with an own root
+swamp, marsh, wet ground	root		nature	1			WOLD-edge	WOLD 1-38, 14/24 families with an own root
+rainbow	root		nature	1	2304		WOLD-edge	WOLD 1-59, 14/24 families with an own root
+orphan, a child whose parents have died	root		people	1			WOLD-edge	WOLD 2-75, 14/24 families with an own root
+shell (of egg, nut, snail, sea creature)	root		animal	1	1904		WOLD-edge	WOLD 3-655, 14/24 families with an own root
+snail	root		animal	1			WOLD-edge	WOLD 3-94, 14/24 families with an own root
+blood vessel (vein, artery)	root		body	1	1875		WOLD-edge	WOLD 4-151, 12/24 families with an own root
+rib	root		body	1	2061		WOLD-edge	WOLD 4-162, 14/24 families with an own root
+eyebrow	root		body	1			WOLD-edge	WOLD 4-212, 12/24 families with an own root
+gums	root		body	1			WOLD-edge	WOLD 4-271, 13/24 families with an own root
+wrist	root		body	1	2269		WOLD-edge	WOLD 4-321, 10/24 families with an own root
+ankle	root		body	1			WOLD-edge	WOLD 4-371, 13/24 families with an own root
+scar	root		body	1	1912		WOLD-edge	WOLD 4-858, 11/24 families with an own root
+jug, water jar	root		thing	1			WOLD-edge	WOLD 5-34, 11/24 families with an own root
+shelf	root		thing	1	1750		WOLD-edge	WOLD 7-47, 11/24 families with an own root
+brick	root		thing	1	2253		WOLD-edge	WOLD 7-62, 6/24 families with an own root
+plough	root		action	1			WOLD-edge	WOLD 8-21, 7/24 families with an own root
+hoe	root		nature	1	2212		WOLD-edge	WOLD 8-25, 11/24 families with an own root
+gourd, calabash, pumpkin, squash	root		nature	1			WOLD-edge	WOLD 8-93, 13/24 families with an own root; also WOLD 8-931 (the pumpkin or squash)
+nail (metal fastener)	root		action	1	1376		WOLD-edge	WOLD 9-5, 11/24 families with an own root
+roll	root		motion	1	1758		WOLD-edge	WOLD 10-15, 12/24 families with an own root
+lend	root		action	1	2204	borrow (added)	WOLD-edge	WOLD 11-61, 11/24 families with an own root
+borrow	root		action	1	2007	lend (added)	WOLD-edge	WOLD 11-62, 13/24 families with an own root
+greedy	root		quality	1			WOLD-edge	WOLD 16-83, 11/24 families with an own root
+flute	root		sense	1			WOLD-edge	WOLD 18-71, 14/24 families with an own root
+foam, froth	root		nature	1			WOLD-codex	WOLD 1-324, 20/24 families with an own root
+vulture	root		animal	1			WOLD-codex	WOLD 3-586, 17/24 families with an own root
+gnat, midge, sandfly	root		animal	1			WOLD-codex	WOLD 3-831, 17/24 families with an own root
+spleen	root		body	1			WOLD-codex	WOLD 4-452, 16/24 families with an own root
+boil, abscess (on the skin)	root		body	1	1461		WOLD-codex	WOLD 4-856, 18/24 families with an own root; the log's 'boil (bubble)' is this meaning, not boiling (binla)
+lame, limping	root		body	1			WOLD-codex	WOLD 4-94, 17/24 families with an own root; also WOLD 10-451 (to limp)
+spin (thread)	root		action	1			WOLD-codex	WOLD 6-31, 18/24 families with an own root
+spindle	root		thing	1			WOLD-codex	WOLD 6-32, 16/24 families with an own root
+tree trunk	root		nature	1			WOLD-codex	WOLD 8-73, 17/24 families with an own root
+palm (the tree)	root		nature	1			WOLD-codex	WOLD 8-81, 15/24 families with an own root
+bore, drill	root		action	1			WOLD-codex	WOLD 9-46, 15/24 families with an own root
+hollow out	root		action	1			WOLD-codex	WOLD 9-461, 16/24 families with an own root
+mould	root		action	1			WOLD-codex	WOLD 9-72, 15/24 families with an own root
+carve	root		action	1			WOLD-codex	WOLD 9-81, 15/24 families with an own root
+pinch	root		action	1			WOLD-codex	WOLD 15-712, 16/24 families with an own root
+groan	root		sense	1			WOLD-codex	WOLD 16-39, 17/24 families with an own root
+howl	root		sense	1			WOLD-codex	WOLD 18-19, 18/24 families with an own root
+spear	root		thing	1	2175		WOLD-codex	WOLD 20-26, 15/24 families with an own root
+sinew, tendon	root		body	1			WOLD-codex	WOLD 4-465, 18/24 families with an own root
+steam	root		nature	1	1388		WOLD-47	WOLD 1-831, 17/24 families
+swallow (food, drink)	root		action	1	1507		WOLD-47	WOLD 5-181, 19/24 families
+flour	root		thing	1	1529		WOLD-47	WOLD 5-55, 15/24 families
+harvest	root		action	1	1460		WOLD-47	WOLD 8-41, 6/24 families; every farming household; named in the 2026-10-16 'everyone's modern life' entry; fanmu 'gather' is too general (added)
+bend	root		action	1	1365		WOLD-47	WOLD 9-14, 15/24 families
+fold	root		action	1	1346		WOLD-47	WOLD 9-15, 17/24 families
+stretch	root		action	1	1404		WOLD-47	WOLD 9-32, 13/24 families; basic action, no short phrase
+hang, hang up	root		action	1	1379		WOLD-47	WOLD 9-341, 15/24 families
+mad, crazy	root		mind	1	1355		WOLD-47	WOLD 17-23, 17/24 families
+refuse, say no to	root		sense	1	1490	accept, take what is offered (added)	WOLD-47	WOLD 18-37, 6/24 families; kept because the author separated deny and refuse (2026-10-16); open question
+stranger, a person one does not know	root		people	1	1416		WOLD-47	WOLD 19-55, 10/24 families; 'ewo su lugo' is 5 syll; SSA gap (balance-02)

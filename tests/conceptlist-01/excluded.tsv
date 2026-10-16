@@ -1,0 +1,710 @@
+concept	reason	source	note
+honoured one, title of respect (sir, madam, Mr, Ms)	grammar: two-syllable operator, part of the short-word layer	LEX	lanno; kept fixed by part4/placement.py (FIXED), not placed with the roots
+okay?, softens and invites agreement (stance, sentence end)	grammar: two-syllable operator, part of the short-word layer	LEX	buni; kept fixed by part4/placement.py (FIXED), not placed with the roots
+it turned out, surprisingly (stance, sentence end)	grammar: two-syllable operator, part of the short-word layer	LEX	donon; kept fixed by part4/placement.py (FIXED), not placed with the roots
+almost, nearly	grammar: two-syllable operator, part of the short-word layer	LEX	nedin; kept fixed by part4/placement.py (FIXED), not placed with the roots
+each, every one separately	grammar: two-syllable operator, part of the short-word layer	LEX	mesun; kept fixed by part4/placement.py (FIXED), not placed with the roots
+usually, habitually	grammar: two-syllable operator, part of the short-word layer	LEX	manni; kept fixed by part4/placement.py (FIXED), not placed with the roots
+rather, somewhat	grammar: two-syllable operator, part of the short-word layer	LEX	tason; kept fixed by part4/placement.py (FIXED), not placed with the roots
+not literally, joking (speech act)	grammar: two-syllable operator, part of the short-word layer	LEX	genso; kept fixed by part4/placement.py (FIXED), not placed with the roots
+seen, evidence by sight	grammar: two-syllable operator, part of the short-word layer	LEX	wanme; kept fixed by part4/placement.py (FIXED), not placed with the roots
+told, hearsay	grammar: two-syllable operator, part of the short-word layer	LEX	inwun; kept fixed by part4/placement.py (FIXED), not placed with the roots
+inferred, it seems	grammar: two-syllable operator, part of the short-word layer	LEX	wemen; kept fixed by part4/placement.py (FIXED), not placed with the roots
+at least	grammar: two-syllable operator, part of the short-word layer	LEX	konsin; kept fixed by part4/placement.py (FIXED), not placed with the roots
+about to, soon	grammar: two-syllable operator, part of the short-word layer	LEX	buntu; kept fixed by part4/placement.py (FIXED), not placed with the roots
+until, up to (a time or point)	grammar: two-syllable operator, part of the short-word layer	LEX	anko; kept fixed by part4/placement.py (FIXED), not placed with the roots
+without	grammar: two-syllable operator, part of the short-word layer	LEX	nuwen; kept fixed by part4/placement.py (FIXED), not placed with the roots
+end of phrase (closes a relative clause, phrasal derived word or topic)	grammar: two-syllable operator, part of the short-word layer	LEX	kiyo; kept fixed by part4/placement.py (FIXED), not placed with the roots
+number label, ordinal (day 3, the third)	grammar: two-syllable operator, part of the short-word layer	LEX	mena; kept fixed by part4/placement.py (FIXED), not placed with the roots
+grandmother	covered by mole pi mole / mole pi wede	WB; LAD	kinship is composed (method 3.1); the ladder notes a root comes back if tests lose meaning
+uncle	covered by faba pi wede / faba pi mole	WB; LAD	parent's sibling, composed (method 3.1)
+grandfather	covered by wede pi mole / wede pi wede	WB; LAD	kinship composed (method 3.1)
+giraffe	culture-bound or long tail: borrowing or phrase	WB	region-bound species (Africa only); the loan panel failed it, so a phrase or a borrowing from an African language under the culture rule. Same doubt as elephant
+aunt	covered by faba pi wede / faba pi mole	WB; LAD	parent's sibling, composed (method 3.1)
+diaper	culture-bound or long tail: borrowing or phrase	WB	tied to some cultures' childcare (cloth, disposable or none); same class as bib and potty in the test. Unsure: disposables are sold in most countries today
+boy	phrase: built word (tiwu lowu)	WB	gender is a modifier (language.md 5.2): tiwu lowu; author 2026-10-13
+yogurt	culture-bound or long tail: borrowing or phrase	WB	tied to dairying cultures, as cheese (63); Chinese says suānnǎi 'sour milk'; the loan panel failed it, so a phrase. Unsure: sold widely today
+jam	culture-bound or long tail: borrowing or phrase	WB	a fruit preserve of some breakfast cuisines
+sofa	culture-bound or long tail: borrowing or phrase	WB	upholstered seating of some home styles; many households sit on mats, benches or chairs; the loan panel failed it. Unsure: common in urban homes worldwide
+toothbrush	covered by brush	WB; LAD	
+church	culture-bound: the tradition's own word, borrowed	WB; REL	each tradition's own word (religion decision, author 2026-10-13)
+pasta	culture-bound or long tail: borrowing or phrase	WB	an Italian dish; noodles would be the shared concept; the loan panel failed it
+washing machine	phrase: built word (appliance, not frequent: built-word default for modern things)	WB	appliance, not frequent: built-word default for modern things
+girl	phrase: built word (tiwu futa)	WB	gender is a modifier: tiwu futa; author 2026-10-13
+jacket	covered by coat	WB; LAD	
+zoo	culture-bound or long tail: borrowing or phrase	WB	a town institution, not in ordinary surroundings across most cultures; Japanese and Indonesian use native compounds ('animal garden', 'animal park'), so a phrase works. Unsure
+workplace	covered by pu doku	WB; LAD	place for working (derived word)
+zebra	culture-bound or long tail: borrowing or phrase	WB	region-bound species (Africa only); the loan panel failed it. Same doubt as elephant
+vacuum cleaner	phrase: built word (appliance, not frequent: built-word default for modern things)	WB	appliance, not frequent: built-word default for modern things
+potty	covered by toilet	WB; LAD	the test also names it as culture-bound
+pool	covered by pu lonfe	WB; LAD	place for swimming (derived word)
+chips	culture-bound or long tail: borrowing or phrase	WB	fries or crisps, dishes of some cuisines
+bib	culture-bound or long tail: borrowing or phrase	WB	named in the test as an example
+snowman	covered by ewo pi binso	WB; LAD	the test also names it as culture-bound (climate)
+puzzle	culture-bound or long tail: borrowing or phrase	WB	the jigsaw toy; some languages borrow (pazl, pazuru), others build (rompecabezas, pīntú). Unsure: puzzle as riddle is universal, but the Wordbank item is the toy
+pancake	culture-bound or long tail: borrowing or phrase	WB	named in the test as an example. Unsure: flat cakes are widespread (crêpe, dosa, injera, jianbing), so 'flat cake' is an easy phrase
+tights	culture-bound or long tail: borrowing or phrase	WB	a cold-climate garment of some cultures
+feed	covered by neke pasu	WB; LAD	give food
+stroller	culture-bound or long tail: borrowing or phrase	WB	named in the test as an example
+stick	covered by kima netu	WB; LAD	long wood
+clown	culture-bound or long tail: borrowing or phrase	WB	a circus entertainer of some cultures. Unsure: ritual clowns exist in many cultures
+sausage	culture-bound or long tail: borrowing or phrase	WB	a prepared meat dish of some cuisines. Unsure: widespread (Europe, Middle East, China, Latin America, southern Africa)
+raisin	covered by grape kilan	WB; LAD	dry grape, as pútáogān, kuru üzüm
+bathtub	culture-bound or long tail: borrowing or phrase	WB	tub bathing belongs to some cultures (Japan, Europe, North America); most of the world showers or bathes with a bucket
+playground	covered by pu luse	WB; LAD	place for playing (derived word)
+brown	covered by bilun buda	WB; LAD	dark yellow; six colour roots (method 3.1)
+orange (colour)	covered by orange	WB; LAD	
+fire truck	covered by truck pi lumi	WB; LAD	the test also names it as culture-bound (institution)
+chewing gum	culture-bound or long tail: borrowing or phrase	WB	a commercial confection of some cultures; chewing resins (mastic, chicle) and betel are regional. Unsure: sold widely today
+bedroom	covered by pu wopo	WB; LAD	place for sleeping
+sleepy	covered by momu wopo	WB; LAD	want to sleep, as tener sueño; the test names sleepy as a basic state, so a root would pass if the phrase proves costly
+pacifier	culture-bound or long tail: borrowing or phrase	WB	named in the test as an example
+firefighter	covered by no migi lumi	WB; LAD	one who fights fire
+crayon	culture-bound or long tail: borrowing or phrase	WB	named in the test as an example
+lollipop	covered by candy	WB; LAD	the test also names it as culture-bound
+bun	covered by sowe meli	WB; LAD	small bread
+son	phrase: tiwu lowu (4 syll; kept by a decided rule: gender is a modifier)	LAD	compounds.tsv
+age	grammar or construction	LAD	age is lived time, nume fawu N (language.md 8.2.4)
+state (condition)	covered by condition (merged)	LAD	same as 341
+date (calendar)	grammar or construction	LAD	a date is a dili label (language.md 8.3.3); 'what date' = dili mena yu
+opinion	phrase: 'what one thinks' (ge pume)	BAL	attitude decision (author 2026-10-16): opinion is a phrase
+daughter	phrase: tiwu futa (4 syll; kept by a decided rule: gender is a modifier)	LAD	compounds.tsv
+century	phrase: fawu loki (4 syll; over the 2026-10-16 phrase line: open question)	LAD	100 years; the Nth century is fawu loki mena N
+queen	phrase: king futa (4 syll; kept by a decided rule: gender is a modifier)	LAD	gender is a modifier (language.md 5.2); king is 248
+district	covered by region (merged)	LAD	a part of a city or country; ranks of administrative units vary by country
+kingdom	phrase: gigin pi king (5 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'country of a king'; empire, realm
+welcome	phrase: upe obu (4 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'well come' as bienvenido, hoş geldiniz; routines 10.2.5; not yet listed there
+Saturday	grammar or construction	LAD	dili mena ufo (language.md 8.3.2)
+Sunday	grammar or construction	LAD	dili mena oma (language.md 8.3.2)
+Monday	grammar or construction	LAD	dili mena fi (language.md 8.3.2)
+account	phrase: ge sunbu	LAD	compounds.tsv 'what is counted'
+Friday	grammar or construction	LAD	dili mena te (language.md 8.3.2)
+director	covered by leader (merged)	LAD	head of an organisation (264)
+prince	phrase: tiwu pi king (5 syll; kept by a decided rule: kinship composed + gender modifier)	LAD	kinship composed (method 3.1); princess the same
+exist	grammar or construction	LAD	there is is ibe with no subject (language.md 4.7.7)
+writer	phrase: no tusi	LAD	one who writes (derived word); author
+artist	phrase: no art	LAD	one who does art (derived word, as no wase); art is 309
+spring (season)	phrase: muyi pi meyen (5 syll; kept by a decided rule: seasons: to the sets pass (author 2026-10-16))	LAD	phrase 'time of flowers'; seasons are compounds (compounds.tsv summer, winter)
+May	grammar or construction	LAD	dunan mena te (language.md 8.3.3); modal 'may' is efon or kon
+present	phrase: eda	LAD	the present time is now; a gift is 135, to present is wuye show
+center	covered by middle (merged)	LAD	central, core (323)
+commander	phrase: no wungu	LAD	compounds.tsv 'one who leads'
+colonel	culture-bound: military or political title, borrowed (long tail)	DROP	
+festival	phrase: 'time of celebrating'; each culture's own festivals borrowed	BAL	celebrate decision (author 2026-10-16)
+user	phrase: no bone	LAD	one who uses (derived word)
+set	phrase: finsa	LAD	adjust, set; put is yaga; a set of things is funti group
+winter	phrase: muyi weki (4 syll; kept by a decided rule: seasons: to the sets pass)	LAD	compounds.tsv 'time cold'
+player	phrase: no luse	LAD	one who plays (derived word)
+independent	phrase: enpa	LAD	free, not held or controlled is the same concept; independence
+summer	phrase: muyi tikun (4 syll; kept by a decided rule: seasons: to the sets pass)	LAD	compounds.tsv 'time hot'
+library	phrase: guyi pi ingo (5 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'house of books' as túshūguǎn, kütüphane, toshokan
+target	covered by goal (merged)	LAD	what is aimed at; tsel', objetivo, mùbiāo, mokuhyō cover both (403)
+source	covered by origin (merged)	LAD	same labels 'origin, source' (401)
+owner	phrase: no ibe	LAD	one who has (derived word, as landlord no ibe guyi)
+seat	phrase: pu goyu	LAD	place for sitting (derived word); chair is 17
+personal	phrase: pi nen	LAD	of oneself; private is kunsu
+officer	covered by official (merged)	LAD	person with authority (354)
+tourism	covered by travel (merged)	LAD	travel for pleasure (490); tourist is 925
+net	covered by network (merged)	LAD	set', red, wǎng, ağ cover both (451)
+mile	culture-bound: outside the metric standard, borrowed by those who use it	LOAN	not core (decision 6: outside the metric standard; borrowed by those who use it)
+poet	phrase: no poem	LAD	one who makes poems (derived word); poem is 628
+figure	covered by shape (merged)	LAD	a body's shape (523); a figure as a number is wifu
+contact	phrase: yebin	LAD	get in touch is call; a phone contact is suso (compounds.tsv)
+press (push)	phrase: dandi	LAD	push
+Wednesday	grammar or construction	LAD	dili mena ka (language.md 8.3.2)
+factory	phrase: pu muge	LAD	place for making (derived word), as gōngchǎng, kōjō
+childhood	phrase: muyi pi tiwu (5 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'time of child'
+driver	phrase: no drive	LAD	one who drives (derived word); drive is 143
+politician	phrase: no politics	LAD	one who does politics (derived word); politics is 273
+March	grammar or construction	LAD	dunan mena ka (language.md 8.3.3)
+angel	culture-bound: the tradition's own word, borrowed	REL	religion decisions 2026-10-13 (b); ladder row never updated (coverage-02 drops.tsv)
+resolution	covered by decide (merged)	LAD	a formal decision (254)
+representative	phrase: no represent	LAD	one who represents (derived word); proxy, spokesperson; represent is 942
+chest	phrase: egu	LAD	breast and chest are one word in pecho, grud', mune; a box is nansa
+bishop	culture-bound: the tradition's own word, borrowed	REL	religion decisions 2026-10-13 (b); ladder row never updated (coverage-02 drops.tsv)
+foundation	covered by base (merged)	LAD	basis (547); a charity foundation is an organization
+knight	culture-bound: military or political title, borrowed (long tail)	DROP	
+gate	phrase: beya	LAD	door and gate are one word in mén, bāb, puerta, pintu
+finance	phrase: pi nimo	LAD	financial = of money
+Tuesday	grammar or construction	LAD	dili mena sa (language.md 8.3.2)
+local	phrase: pi kemu	LAD	of the place, as compounds.tsv local time
+mark	covered by sign (merged)	LAD	sign, mark (438)
+statistics	long tail: specialist term (loan or built word)	DROP	
+patient (sick person)	phrase: ewo simi (4 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'sick person'
+lieutenant	culture-bound: military or political title, borrowed (long tail)	DROP	
+statement	phrase: ge oyi	LAD	what is said (derived word)
+gun	phrase: du onlo	LAD	tool for shooting (derived word)
+throne	phrase: pu goyu pi king (6 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'seat of the king'
+rank	covered by level (merged)	LAD	a position on a scale (301)
+passenger	phrase: no [ride] (3 syll) meets the line	DROP; PL	
+term	dropped: no sense passes alone (mixed senses re-checked)	DROP	a word for a concept: covered by word; school term: covered by period; terms, conditions: covered by condition (sense readings added)
+Thursday	grammar or construction	LAD	dili mena da (language.md 8.3.2)
+bride	phrase: futa no bedan (5 syll; kept by a decided rule: gender is a modifier)	LAD	phrase 'woman who marries'; gender is a modifier
+cabinet (cupboard)	covered by wardrobe (merged)	LAD	storage furniture (186)
+psychology	long tail: specialist term (loan or built word)	DROP	
+medium	dropped: no sense passes alone (mixed senses re-checked)	DROP	middle-sized: covered by middle; mass media: covered by press (media); a spirit medium: culture-bound (sense readings added)
+deposit	dropped: no sense passes alone (mixed senses re-checked)	DROP	bank deposit: phrase yaga nimo (4 syll; long tail, rank of the sense alone unknown); mineral deposit: specialist; put down: yaga (sense readings added)
+strike (hit)	phrase: payon	LAD	hit
+tip (end)	covered by point (merged)	LAD	(268)
+reader	phrase: no lilu	LAD	one who reads (derived word)
+singer	phrase: no yuyun	LAD	one who sings (derived word)
+destination	phrase: pu liwon	LAD	place for arriving (derived word)
+lecture	covered by lesson (merged)	LAD	a teaching talk (347)
+row	covered by line (merged)	LAD	line, row (271)
+farmer	phrase: no farm	LAD	one who farms (derived word); farm is 725
+trial	dropped: no sense passes alone (mixed senses re-checked)	DROP	court trial: covered by case (legal) + court; a test: covered by test (sense readings added)
+sure	grammar or construction	LAD	certain = kon ufo (language.md 6.1.2)
+corpse	phrase: gawo fafin (4 syll; over the 2026-10-16 phrase line: open question)	LAD	dead body
+headquarters	phrase: pu wungu	LAD	place for leading (derived word)
+compound	dropped: no sense passes alone (mixed senses re-checked)	DROP	chemical compound: specialist (long tail); a walled compound: culture-bound housing form, phrase 'guyi la man senmo'; compound word: built word, a grammar term (sense readings added)
+grandchild	phrase: tiwu pi tiwu (5 syll; kept by a decided rule: kinship composed (method 3.1))	LAD	kinship composed (method 3.1)
+giant	phrase: ewo bi kudu (5 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'very big person'; huge is bi kudu
+plain (land)	phrase: sekan mawun (4 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'flat open land'
+agent	covered by representative (merged)	LAD	one who acts for another (601)
+princess	phrase: tiwu futa pi king (7 syll; kept by a decided rule: kinship composed + gender modifier)	LAD	kinship composed (method 3.1), as prince (405)
+agriculture	covered by farm (merged)	LAD	farming, cultivation (725)
+media	covered by press (media) (merged)	LAD	(564.b)
+federation	covered by union (merged)	LAD	union of states (344)
+last night	grammar or construction	LAD	time phrase yami pi afe 'night of yesterday' (language.md 8.2)
+suicide	phrase: omen nen	LAD	kill self (nen reflexive, language.md 10.3.6)
+champion	phrase: no yiyin	LAD	one who wins (derived word); winner
+thief	phrase: no bunsi	LAD	one who steals (derived word)
+guard	phrase: no kuwi	LAD	one who protects (derived word); guardian
+property	phrase: ge ibe	LAD	what one has (derived word); real estate is a phrase with land
+stress	covered by pressure (merged)	LAD	yālì, ḍaghṭ cover both (427); loan stress/sutoresu/stres is also widespread
+turn off	phrase: tapi	LAD	language.md 11.4 turn on/off benbi/tapi
+scientist	phrase: no science	LAD	one who does science (derived word); researcher
+eternity	phrase: we muyi	LAD	all time; eternal
+unity	covered by union (merged)	LAD	being one, solidarity (344)
+grade	dropped: no sense passes alone (mixed senses re-checked)	DROP	school mark: covered by wifu 'number' / score (on the list); level: covered by level; slope: rare (sense readings added)
+glory	phrase: dundi	LAD	respect, honour
+prophet	culture-bound: the tradition's own word, borrowed	REL	religion decisions 2026-10-13 (b); ladder row never updated (coverage-02 drops.tsv)
+circuit	long tail: specialist term (loan or built word)	DROP	
+formula	long tail: specialist term (loan or built word)	DROP	
+promotion	dropped: no sense passes alone (mixed senses re-checked)	DROP	job promotion: long tail (rank of the sense alone unknown; 'rise in level'); sales promotion: specialist (sense readings added)
+liar	phrase: no lie	LAD	one who lies (derived word); the verb lie, say what is untrue, is missing from the lexicon (884.b)
+relative	superseded: now the root 'relative, family member' (see concepts.tsv)	LAD	was: phrase: ewo pi yonyo (5 syll; over the 2026-10-16 phrase line: open question). phrase 'person of the family'
+prime minister	phrase: minister kudu (4 syll; over the 2026-10-16 phrase line: open question)	LAD	phrase 'big minister' as waziri mkuu; minister is 289
+single	dropped: no sense passes alone (mixed senses re-checked)	DROP	unmarried: phrase su bedan (3 syll); one alone: alone / na fi; a music single: specialist (sense readings added)
+background	dropped: no sense passes alone (mixed senses re-checked)	DROP	behind: nebe; setting: phrase; personal history: covered by history / weyu 'story' (sense readings added)
+idol	phrase: statue + holy ('a sacred image'); 'idol' frames others' images	REL	also pop idol; religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
+young man	phrase: lowu loyen (4 syll; kept by a decided rule: gender is a modifier)	LAD	man young; gender and age are modifiers
+warrior	phrase: no migi	LAD	compounds.tsv 'one who fights'
+transaction	covered by exchange (merged)	LAD	an exchange of money (665)
+tourist	phrase: no travel	LAD	one who travels (derived word); travel is 490
+sphere	long tail: specialist term (loan or built word)	DROP	
+software	covered by program (merged)	LAD	programs (284)
+September	grammar or construction	LAD	dunan mena mape (language.md 8.3.3)
+senator	culture-bound: military or political title, borrowed (long tail)	DROP	
+review	dropped: no sense passes alone (mixed senses re-checked)	DROP	check again: covered by loban 'check'; a critique (film review): long tail (sense readings added)
+ratio	covered by rate (merged)	LAD	proportion (836)
+principal	covered by major (merged)	LAD	main (537); a school principal is a leader
+presentation	phrase: ge wuye	LAD	what is shown (derived word)
+post (mail)	covered by letter (merged)	LAD	letter, mail (287)
+post (online)	covered by message (merged)	LAD	a published message (324)
+pope	culture-bound: the tradition's own word, borrowed	REL	religion decisions 2026-10-13 (b); ladder row never updated (coverage-02 drops.tsv)
+pink	phrase: wiwi pinda (4 syll; kept by a decided rule: colours: to the sets pass)	LAD	phrase 'red white'; six colour roots (method 3.1)
+patience	covered by patient (enduring) (merged)	LAD	(642.b)
+parent	superseded: now the root 'parent' (see concepts.tsv)	LAD	was: phrase: mole yen wede (5 syll; over the 2026-10-16 phrase line: open question). compounds.tsv parents; one parent is mole lu wede; flag: sibling has a sexless root and parent does not
+organism	phrase: musu man nume (5 syll; kept by a decided rule: world compound 'living thing' (coverage-02 r2 calibration))	LAD	phrase 'thing that lives'
+orbit	long tail: specialist term (loan or built word)	DROP	
+old man	phrase: lowu pani (4 syll; kept by a decided rule: gender is a modifier)	LAD	man old; gender and age are modifiers
+October	grammar or construction	LAD	dunan mena yawu (language.md 8.3.3)
+mosque	culture-bound: the tradition's own word, borrowed	REL	religion decisions 2026-10-13 (b); ladder row never updated (coverage-02 drops.tsv)
+merit	covered by worthy ('worthy, deserving' covers merit)	BAL	worthy decision (author 2026-10-16)
+link	phrase: du penyu	LAD	compounds.tsv 'thing for connecting'
+lack	phrase: mu ibe	LAD	not have; without is nuwen
+June	grammar or construction	LAD	dunan mena ufo (language.md 8.3.3)
+July	grammar or construction	LAD	dunan mena oma (language.md 8.3.3)
+journalist	phrase: no report	LAD	one who reports (derived word); report is 276
+January	grammar or construction	LAD	dunan mena fi (language.md 8.3.3)
+sofa	open: root or phrase (author 2026-10-15) vs borrowing (first-word filter 2026-10-13)	ADD1; WB	loan fails 5-of-7; wordbank-final had already made it a borrowing (culture-bound seating); see open questions
+develop	covered by guge 'grow'	BAL	balance-02 entrant judgement
+primary	covered by bawe 'important' for 'main, chief'	BAL	balance-02 entrant judgement
+duty	covered by keya 'must' as a noun phrase	BAL	balance-02 entrant judgement
+deputy	artefact: pooled English label (mixes 'vice-' with 'member of parliament' (fa, tr, ru deputat); formal)	BAL	
+assistant	covered by no yema	BAL	balance-02 entrant judgement
+salary	phrase: nimo pi doku (money of work); everyday (5 syll; over the 2026-10-16 phrase line: open question (not among the 51 the author added))	BAL	balance-02 entrant judged 'composes'
+delicious	phrase: tenmi upe (tastes good); everyday (4 syll; over the 2026-10-16 phrase line: open question (not among the 51 the author added))	BAL	balance-02 entrant judged 'composes'
+stupid	phrase: mu gole (not smart) (3 syll; meets the phrase line)	BAL	balance-02 entrant judged 'composes'
+current	phrase: pi eda (of now) (3 syll; meets the phrase line)	BAL	balance-02 entrant judged 'composes'
+civil	artefact: pooled English label (civic/civilian/polite mixed; formal)	BAL	
+funny	phrase: pi bubo (that makes one laugh) (3 syll; meets the phrase line)	BAL	balance-02 entrant judged 'composes'
+hill	covered by genne 'mountain'	BAL	balance-02 entrant judgement
+fun	covered by luse 'play, for fun'	BAL	balance-02 entrant judgement
+deliver	artefact: pooled English label (mixes 'orate', 'issuing', parcel delivery; delivery composes with sege 'send')	BAL	
+forbid	phrase: mu efon (not allow) (3 syll; meets the phrase line)	BAL	balance-02 entrant judged 'composes'
+effective	artefact: pooled English label (mixes competence, efficiency, effectiveness)	BAL	
+wonder	artefact: pooled English label (mixes 'ask oneself', 'marvel' and an exclamation)	BAL	
+remainder	artefact: pooled English label (remains pulls in corpse glosses; rest/remainder composes with eni 'other')	BAL	
+yell	covered by oyi dibon	BAL	balance-02 entrant judgement
+associate	artefact: pooled English label (overlaps partner and colleague)	BAL	
+vision	covered by nagu 'see'	BAL	balance-02 entrant judgement
+blame	covered by accuse (accuse and blame one root)	BAL	boundaries for the 51 additions (author 2026-10-16)
+fill	phrase: muge kete (make full) (4 syll; over the 2026-10-16 phrase line: open question (not among the 51 the author added))	BAL	balance-02 entrant judged 'composes'
+fit	artefact: pooled English label (overlaps suitable ('fit, proper, appropriate'))	BAL	
+active	artefact: pooled English label (mixes 'operative', 'live', 'energetic'; formal)	BAL	
+staff	artefact: pooled English label (mixes stick (rod, staff) and personnel)	BAL	
+occupy	artefact: pooled English label (mixes take up space, conquer, live in)	BAL	
+decline	artefact: pooled English label (mixes decrease, refuse and grammar's 'decline')	BAL	
+contain	covered by include (include and contain one root)	BAL	boundaries for the 51 additions (author 2026-10-16)
+charm	artefact: pooled English label (mixes allure, amulet and spell (wase 'magic'))	BAL	
+earthquake	phrase: fowo susin 'ground shake' (the world's compound)	BAL	boundaries for the 51 additions (author 2026-10-16)
+text	covered by kemin 'document' or the message sense of liga/imeyilu	BAL	balance-02 entrant judgement
+attend	phrase: 'go to' (isi tun)	BAL	boundaries for the 51 additions (author 2026-10-16)
+decade	phrase: yawu fawu (ten years) (world compound (coverage-02 r2 calibration); meets the phrase line)	BAL	balance-02 entrant judged 'composes'
+descend	phrase: isi deba (go below) (4 syll; over the 2026-10-16 phrase line: open question (not among the 51 the author added))	BAL	balance-02 entrant judged 'composes'
+superior	covered by tisan 'high'	BAL	balance-02 entrant judgement
+trace	artefact: pooled English label (mixes trace, mark, footprint, track)	BAL	
+acquaintance	phrase: ewo pi lugo (a person one knows) (5 syll; over the 2026-10-16 phrase line: open question (not among the 51 the author added))	BAL	balance-02 entrant judged 'composes'
+track	artefact: pooled English label (mixes track, trace, line)	BAL	
+fixed	artefact: pooled English label (mixes steady, immovable, set)	BAL	
+task	covered by doku 'work, task, labour'	BAL	balance-02 entrant judgement
+cooperate	phrase: doku fanmu (work together); formal (world compound (coverage-02 r2 calibration); meets the phrase line)	BAL	balance-02 entrant judged 'composes'
+apply	artefact: pooled English label (mixes put on (yaga) and make use of (bone))	BAL	
+acting	artefact: pooled English label (mixes performance and 'acting (interim)')	BAL	
+shelter	phrase: pu kuwi 'place that protects'	BAL	boundaries for the 51 additions (author 2026-10-16)
+common (shared)	phrase: pi we 'of all'	BAL	common split (author 2026-10-16)
+compose	artefact: pooled English label	WALK	pools composition (music), essay, chemical make-up and 'consist of'; write is tusi
+useful	phrase: pi bone 'of use' / upe fan bone	WALK	alt:G (many languages have a plain word, e.g. ru polezny); r2: P (phrase at most 3 syllables)
+verse	long tail: specialist or named	WALK	unit of a poem or scripture; poem is on the list
+fake	phrase: su [real] / su feko 'not true'	WALK	real is on the list; r2: P (phrase at most 3 syllables)
+cycle	artefact: pooled English label	WALK	pools bicycle (on the list) with cycle 'recurring period' (period on the list)
+interpret (interpretation)	artefact: pooled English label	WALK	pools interpreter/translate and interpretation/explain (both on the list)
+custody	long tail: specialist or named	WALK	legal: custody of a child, detention
+discipline	artefact: pooled English label	WALK	pools self-control, punishment and an academic field
+careful	phrase: nan [care] 'with care'; warning: yo + verb	WALK	care is on the list; r2: P (phrase at most 3 syllables)
+sole	artefact: pooled English label	WALK	pools 'only', the sole of the foot and the fish
+shine	phrase: wino 'light' used as a verb (giwe wino 'the sun shines') / neke wino	WALK	alt:G (basic perception verb); r2: P (phrase at most 3 syllables)
+athlete	phrase: no [sport] 'one who does sport'	WALK	sport is on the list; r2: P (phrase at most 3 syllables)
+forward	phrase: tun sinye 'to the front'	WALK	mirrors tun nebe 'backward' (compounds.tsv); r2: P (phrase at most 3 syllables)
+domain	artefact: pooled English label	WALK	pools field of knowledge, territory and internet domain
+automatic	pending: loan panel (automatic: avtomat/otomatik/otomatis/automático family)	WALK	stopping stretch; fallback panel later; fallback built doku nen 'works by itself'
+overcome	phrase: yiyin 'win (over)': yiyin batu 'overcome a problem'	WALK	r2: P (phrase at most 3 syllables)
+appoint	phrase: waka 'choose' (waka wan fan [position])	WALK	position is on the list; r2: P (phrase at most 3 syllables)
+neighborhood	phrase: kemu gelu 'nearby place' / [district]	WALK	built like no nume gelu 'neighbour'; r2: P (phrase at most 3 syllables)
+determination	artefact: pooled English label	WALK	pools resolve (will) and determining (decide is on the list)
+extension	artefact: pooled English label	WALK	pools extend, extension cord, phone line, file extension
+reasonable	phrase: fun ukun 'by reason' / kidun 'fair' (a reasonable price)	WALK	r2: P (phrase at most 3 syllables)
+particle	long tail: specialist or named	WALK	physics and grammar term
+rebel (rebellion)	phrase: no ninsu 'one who opposes'	WALK	rebellion: [revolution] on the list; r2: P (phrase at most 3 syllables)
+extraordinary	phrase: [special] / ten lenya 'very strange'	WALK	special is on the list; r2: P (phrase at most 3 syllables)
+mainland (WOLD 1-26)	long tail: too specific or specialist	WOLD	coastal/island term; 6 root families, 10 loan languages
+lagoon (WOLD 1-341)	long tail: too specific or specialist	WOLD	
+reef (WOLD 1-342)	long tail: too specific or specialist	WOLD	
+cape, headland (WOLD 1-343)	long tail: too specific or specialist	WOLD	
+tide (WOLD 1-352)	long tail: too specific or specialist	WOLD	coastal; 5/24 root families
+low tide (WOLD 1-353)	long tail: too specific or specialist	WOLD	
+high tide (WOLD 1-354)	long tail: too specific or specialist	WOLD	
+whirlpool (WOLD 1-362)	long tail: too specific or specialist	WOLD	9/24 root families
+well, dug water source (WOLD 1-37)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: well, dug water source)	WOLD	covered today by spring (water) (ladder)
+waterfall (WOLD 1-39)	phrase: osa dosi 'water falls'	WOLD	world compound (en waterfall, de Wasserfall, ru vodopad, fr chute d'eau); 4 syll
+put out (a fire) (WOLD 1-861)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: put out, extinguish (fire, flame))	WOLD	covered today by tapi 'close' (turn off)
+dolphin (WOLD 3-662)	pending: loan panel, deeplayer-02 unfinished	WOLD	12 loan languages (delfin family); panel test; else C
+twins (WOLD 2-458)	phrase: tiwu [pair] 'pair child'	WOLD	world compound (ja futago 'two-child', zh shuangbaotai, ko ssangdung-i); alt:D (9/24 root families, 8 loan languages)
+descendants, offspring (WOLD 2-57)	phrase: tiwu la 'children'	WOLD	3 syll; many languages say 'children' or 'seed' (he zera, ar dhurriyya)
+widowed person, one whose spouse has died (WOLD 2-76)	phrase or long tail: WOLD edge with an alternative (alt:P 'ewo pi ofin fafin' (7 syll))	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+(= widowed person) (WOLD 2-77)	phrase or long tail: WOLD edge with an alternative (same root as 2-76)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+livestock, farm animals (WOLD 3-15)	phrase or long tail: WOLD edge with an alternative (alt:P 'noso pi [farm]' (5 syll))	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+herder (WOLD 3-18)	phrase: no kuwi noso 'one who protects animals'	WOLD	5 syll; WOLD has no 'to herd'; alt:X
+stable, stall, pen (WOLD 3-19)	phrase: pu noso 'place of animals'	WOLD	3 syll
+calf (WOLD 3-24)	phrase: dunsa tiwu 'cow child'	WOLD	world compound (zh xiaoniu 'small cow', ja koushi 'child cow'); one pattern for all young animals
+lamb (WOLD 3-29)	phrase: [sheep] tiwu	WOLD	as calf
+kid (young goat) (WOLD 3-38)	phrase: elen tiwu	WOLD	as calf
+foal (WOLD 3-45)	phrase: anbo tiwu	WOLD	as calf
+mule (WOLD 3-47)	pending: loan panel, deeplayer-02 unfinished	WOLD	20 loan languages (mula/mul family); panel test
+seagull (WOLD 3-582)	long tail: too specific or specialist	WOLD	
+heron (WOLD 3-583)	long tail: too specific or specialist	WOLD	
+hawk (WOLD 3-585)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: hawk (smaller bird of prey))	WOLD	covered today by [eagle]
+parrot (WOLD 3-592)	pending: loan panel, deeplayer-02 unfinished	WOLD	16 loan languages (papagayo / babbagha' family); panel test; else D
+pigeon, dove (WOLD 3-594)	phrase or long tail: WOLD edge with an alternative (alt:L)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+opossum (WOLD 3-622)	culture-bound	WOLD	
+fin (WOLD 3-652)	long tail: too specific or specialist	WOLD	alt:D (14/24 root families)
+gill (WOLD 3-654)	long tail: too specific or specialist	WOLD	
+shark (WOLD 3-661)	long tail: too specific or specialist	WOLD	alt:L
+whale (WOLD 3-663)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+stingray (WOLD 3-664)	long tail: too specific or specialist	WOLD	
+eel (WOLD 3-665)	long tail: too specific or specialist	WOLD	
+camel (WOLD 3-78)	pending: loan panel, deeplayer-02 unfinished	WOLD	26 loan languages (gamal / kamel family); panel test
+nit (louse egg) (WOLD 3-812)	long tail: too specific or specialist	WOLD	alt:P 'akan tika'
+centipede (WOLD 3-814)	long tail: too specific or specialist	WOLD	note: the compounds' spider phrase 'small animal of many legs' fits centipede better
+cockroach (WOLD 3-816)	pending: loan panel, deeplayer-02 unfinished	WOLD	13 loan languages (tarakan, cucaracha …); in households across cultures: else D
+spider web (WOLD 3-819)	phrase: [net] pi [spider]	WOLD	world compound (de Spinnennetz, zh zhizhuwang 'spider net')
+beeswax (WOLD 3-821)	long tail: too specific or specialist	WOLD	see wax/candle (house)
+beehive (WOLD 3-822)	phrase: [nest] pi [bee]	WOLD	world compound (zh fengchao 'bee nest')
+firefly (WOLD 3-91)	long tail: too specific or specialist	WOLD	alt:P (zh yinghuochong 'glow-fire-insect')
+dandruff (WOLD 4-146)	long tail: too specific or specialist	WOLD	
+spine, backbone (WOLD 4-191)	phrase: gipo pi nebe 'bone of the back'	WOLD	world compound (en backbone, de Rückgrat)
+temple (of the head) (WOLD 4-201)	long tail: too specific or specialist	WOLD	
+skull (WOLD 4-202)	phrase: gipo pi lukan 'bone of the head'	WOLD	world compound (zh tougu, ja zugaikotsu 'head bone')
+eyelid (WOLD 4-213)	phrase: unne pi funo 'skin of the eye'	WOLD	world compound (zh yanpi 'eye skin', de Augenlid)
+eyelash (WOLD 4-214)	phrase: sonfa pi funo 'hair of the eye'	WOLD	world compound (ja matsuge, zh yanjiemao); alt:D
+blink (WOLD 4-215)	phrase or long tail: WOLD edge with an alternative (alt:P 'tapi funo' (4 syll))	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+earlobe (WOLD 4-221)	long tail: too specific or specialist	WOLD	
+earwax (WOLD 4-222)	long tail: too specific or specialist	WOLD	
+nostril (WOLD 4-231)	phrase: [hole] pi danki 'hole of the nose'	WOLD	world compound (zh bikong, de Nasenloch)
+molar (WOLD 4-272)	long tail: too specific or specialist	WOLD	
+nape (WOLD 4-281)	long tail: too specific or specialist	WOLD	alt:P 'nebe pi mogo'
+shoulder blade (WOLD 4-301)	long tail: too specific or specialist	WOLD	
+collarbone (WOLD 4-302)	long tail: too specific or specialist	WOLD	
+palm of the hand (WOLD 4-331)	phrase or long tail: WOLD edge with an alternative (alt:P 'bese pi kiti')	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+thumb (WOLD 4-342)	phrase: linma kudu 'big finger'	WOLD	world compound (zh damuzhi, ru bolshoy palets, tr başparmak)
+claw (WOLD 4-345)	pending: boundary question, deeplayer-02 unfinished (proposed one root)	WOLD	covered today by tolin 'nail, of a finger or toe'
+calf (of the leg) (WOLD 4-352)	long tail: too specific or specialist	WOLD	alt:D (body part, 13/24)
+footprint (WOLD 4-374)	phrase: [mark] pi pifo 'mark of the foot'	WOLD	world compound (zh jiaoyin 'foot print', de Fußspur)
+nipple, teat (WOLD 4-412)	phrase or long tail: WOLD edge with an alternative (alt:P)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+drool, dribble (WOLD 4-591)	long tail: too specific or specialist	WOLD	
+shiver, tremble (WOLD 4-68)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: shiver, tremble)	WOLD	covered today by susin 'shake, vibrate'
+beget (WOLD 4-71)	long tail: too specific or specialist	WOLD	
+conceive (WOLD 4-732)	long tail: too specific or specialist	WOLD	
+drown (WOLD 4-751)	phrase or long tail: WOLD edge with an alternative (alt:P 'kono nin osa')	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+goitre (WOLD 4-842)	long tail: too specific or specialist	WOLD	
+a cold (the illness) (WOLD 4-843)	phrase or long tail: WOLD edge with an alternative (alt:P)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+bruise (WOLD 4-852)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+blister (WOLD 4-855)	long tail: too specific or specialist	WOLD	alt:D
+bald (WOLD 4-93)	phrase: su sonfa 'no hair'	WOLD	3 syll
+deaf (WOLD 4-95)	superseded: now the root 'deaf' (see concepts.tsv)	WOLD	was: phrase: su nulu 'not hearing'. 3 syll; note blind is a root on the list (parity?)
+mute (WOLD 4-96)	superseded: now the root 'mute, unable to speak' (see concepts.tsv)	WOLD	was: phrase: su oyi 'not speaking'. 3 syll; as deaf
+unripe (WOLD 5-124)	phrase: su bubin 'not ripe'	WOLD	3 syll
+famine (WOLD 5-141)	phrase or long tail: WOLD edge with an alternative (alt:P 'monyu kudu' (4 syll))	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+choke (on food) (WOLD 5-19)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+bake (WOLD 5-24)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: bake (in an oven or on hot ashes))	WOLD	covered today by [roast]
+kettle (WOLD 5-27)	phrase: [pot] pi [tea] 'pot for tea'	WOLD	world compound (ru chaynik, tr çaydanlık 'tea thing'); 20 loan languages but no shared form
+pan, frying pan (WOLD 5-28)	pending: loan panel, deeplayer-02 unfinished	WOLD	19 loan languages (pan/Pfanne, tava/tawa family); panel test; else D
+saucer (WOLD 5-36)	long tail: too specific or specialist	WOLD	
+tongs (WOLD 5-391)	long tail: too specific or specialist	WOLD	
+dinner (WOLD 5-44)	superseded: now the root 'dinner' (see concepts.tsv)	WOLD	was: phrase: pasu pi kegin 'food of evening'. world compound (zh wanfan, ja bangohan, de Abendessen); as lunch
+supper (WOLD 5-45)	phrase: pasu pi kegin	WOLD	= dinner
+scrape (WOLD 5-48)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: scrape)	WOLD	covered today by sumin 'scratch'
+dough (WOLD 5-53)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+mill (WOLD 5-57)	phrase: pu inke 'place of grinding'	WOLD	3 syll
+pestle (WOLD 5-59)	phrase: du inke 'tool for grinding'	WOLD	3 syll
+fig (WOLD 5-75)	culture-bound	WOLD	
+olive (WOLD 5-78)	culture-bound	WOLD	21 loan languages; alt:L
+pepper (black) (WOLD 5-82)	pending: loan panel, deeplayer-02 unfinished	WOLD	21 loan languages (piper / pimienta / perets / biber family); panel test
+chili, hot pepper (WOLD 5-821)	phrase or long tail: WOLD edge with an alternative (alt:P '[pepper] tikun')	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+to milk (WOLD 5-87)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: milk (an animal))	WOLD	covered today by tunlo 'milk' (as a verb)
+mead (WOLD 5-91)	culture-bound	WOLD	
+yolk (WOLD 5-971)	phrase: bilun pi tika 'yellow of the egg'	WOLD	world compound (zh danhuang, de Eigelb, ru zheltok)
+tailor (WOLD 6-13)	phrase: no [sew] 'one who sews'	WOLD	3 syll once sew has a root
+wool (WOLD 6-22)	phrase or long tail: WOLD edge with an alternative (alt:P 'sonfa pi [sheep]')	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+linen (WOLD 6-23)	long tail: too specific or specialist	WOLD	
+cotton (WOLD 6-24)	pending: loan panel, deeplayer-02 unfinished	WOLD	16 loan languages (qutn / coton / algodón family); on the balance audit's gap list; panel test; else D
+silk (WOLD 6-25)	pending: loan panel, deeplayer-02 unfinished	WOLD	25 loan languages; panel test; else D
+felt (WOLD 6-27)	long tail: too specific or specialist	WOLD	
+loom (WOLD 6-34)	long tail: too specific or specialist	WOLD	
+awl (WOLD 6-37)	long tail: too specific or specialist	WOLD	
+dye (WOLD 6-39)	long tail: too specific or specialist	WOLD	alt:P 'muge [colour]'
+cloak (WOLD 6-41)	long tail: too specific or specialist	WOLD	
+poncho (WOLD 6-411)	culture-bound	WOLD	
+collar (WOLD 6-45)	long tail: too specific or specialist	WOLD	
+grass skirt (WOLD 6-461)	culture-bound	WOLD	
+shoemaker (WOLD 6-54)	long tail: too specific or specialist	WOLD	
+veil (WOLD 6-59)	culture-bound	WOLD	tied to particular traditions
+button (on clothes) (WOLD 6-62)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: button (on clothes))	WOLD	covered today by tinli 'key, button'
+pin (WOLD 6-63)	long tail: too specific or specialist	WOLD	
+jewellery, ornament (WOLD 6-71)	phrase or long tail: WOLD edge with an alternative (alt:P 'musu sesa' (4 syll))	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+(= jewellery) (WOLD 6-72)	phrase or long tail: WOLD edge with an alternative (same root as 6-71; diamond and pearl are on the list)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+bracelet (WOLD 6-74)	phrase: [ring] pi kiti 'ring of the hand'	WOLD	world compound (ja udewa 'arm ring', de Armreif)
+earring (WOLD 6-77)	phrase: [ring] pi wisa 'ring of the ear'	WOLD	world compound (en earring, de Ohrring, zh erhuan)
+headband, headdress (WOLD 6-78)	long tail: too specific or specialist	WOLD	
+tattoo (WOLD 6-79)	pending: loan panel, deeplayer-02 unfinished	WOLD	tatau-derived forms (en tattoo, fr tatouage, ru tatuirovka, id tato, ja tatū); panel test; else P
+handkerchief, rag (WOLD 6-81)	phrase: demi meli 'small cloth'	WOLD	world compound (es pañuelo 'little cloth', zh shoupa 'hand cloth'); 4 syll
+braid, plait (WOLD 6-921)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+razor (WOLD 6-93)	long tail: too specific or specialist	WOLD	alt:P 'du [shave]'; note 'shave' is not a WOLD meaning and has no root
+ointment (WOLD 6-94)	long tail: too specific or specialist	WOLD	
+garden house (WOLD 7-131)	long tail: too specific or specialist	WOLD	
+men's house (WOLD 7-16)	culture-bound	WOLD	
+doorpost (WOLD 7-221)	long tail: too specific or specialist	WOLD	
+floor (the surface walked on) (WOLD 7-26)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: floor (the surface walked on))	WOLD	covered today by sison 'storey, floor level'
+hearth, fireplace (WOLD 7-31)	phrase: pu lumi 'place of fire'	WOLD	3 syll
+chimney (WOLD 7-33)	phrase: [pipe] pi penso 'pipe of smoke'	WOLD	world compound (zh yancong, ja entotsu 'smoke pipe')
+candle (WOLD 7-46)	pending: loan panel, deeplayer-02 unfinished	WOLD	23 loan languages (shamʿa: ar, sw mshumaa, fa; candela/kandil family); on the balance audit's gap list; panel test; else
+trough (WOLD 7-48)	long tail: too specific or specialist	WOLD	
+thatch (WOLD 7-52)	long tail: too specific or specialist	WOLD	alt:D (rural roofs across the tropics)
+ridgepole (WOLD 7-53)	long tail: too specific or specialist	WOLD	
+rafter (WOLD 7-54)	long tail: too specific or specialist	WOLD	
+beam (WOLD 7-55)	long tail: too specific or specialist	WOLD	
+arch (WOLD 7-58)	long tail: too specific or specialist	WOLD	
+mason, builder (WOLD 7-61)	phrase: no selo 'one who builds'	WOLD	3 syll
+mortar (building) (WOLD 7-63)	long tail: too specific or specialist	WOLD	
+adobe (WOLD 7-64)	long tail: too specific or specialist	WOLD	
+ditch, channel dug for water (WOLD 8-17)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+furrow (WOLD 8-212)	long tail: too specific or specialist	WOLD	
+pitchfork (WOLD 8-26)	long tail: too specific or specialist	WOLD	
+rake (WOLD 8-27)	long tail: too specific or specialist	WOLD	
+mow (WOLD 8-32)	long tail: too specific or specialist	WOLD	alt:P 'fonsu tunmu'
+sickle, scythe (WOLD 8-33)	phrase: du [harvest] 'tool for harvesting'	WOLD	3 syll
+thresh (WOLD 8-34)	long tail: too specific or specialist	WOLD	alt:D
+threshing floor (WOLD 8-35)	long tail: too specific or specialist	WOLD	
+barley (WOLD 8-44)	culture-bound	WOLD	
+rye (WOLD 8-45)	culture-bound	WOLD	
+oats (WOLD 8-46)	culture-bound	WOLD	
+hay (WOLD 8-52)	phrase: tunmu kilan 'dry grass'	WOLD	world compound (zh gancao, ja hoshikusa 'dried grass')
+oak (WOLD 8-61)	long tail: too specific or specialist	WOLD	
+beech (WOLD 8-62)	long tail: too specific or specialist	WOLD	
+birch (WOLD 8-63)	long tail: too specific or specialist	WOLD	
+pine (WOLD 8-64)	long tail: too specific or specialist	WOLD	alt:D
+fir (WOLD 8-65)	long tail: too specific or specialist	WOLD	
+acorn (WOLD 8-66)	long tail: too specific or specialist	WOLD	
+vine, creeper (WOLD 8-67)	long tail: too specific or specialist	WOLD	
+tobacco (WOLD 8-68)	pending: loan panel, deeplayer-02 unfinished	WOLD	25 loan languages (tabak / tabaco / tambaku / tembakau); panel test
+tree stump (WOLD 8-72)	long tail: too specific or specialist	WOLD	alt:D
+forked branch (WOLD 8-74)	long tail: too specific or specialist	WOLD	
+sap (WOLD 8-76)	phrase: [juice] pi gala 'juice of the tree'	WOLD	world compound (zh shuye 'tree liquid')
+coconut (WOLD 8-82)	pending: loan panel, deeplayer-02 unfinished	WOLD	15 loan languages (coco / kokos family); panel test; else C
+citrus fruit (WOLD 8-83)	long tail: too specific or specialist	WOLD	
+banyan (WOLD 8-85)	culture-bound	WOLD	
+sweet potato (WOLD 8-91)	phrase: [potato] sinta 'sweet potato'	WOLD	world compound (en sweet potato, zh hongshu 'red tuber'); alt:cov tengi 'tuber'
+cassava, manioc (WOLD 8-92)	superseded: now the root 'cassava' (see concepts.tsv)	WOLD	was: culture-bound. a staple across Africa, Asia and South America (three regions): is it C? alt:D (question)
+bamboo (WOLD 8-94)	phrase or long tail: WOLD edge with an alternative (alt:C)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+sugar cane (WOLD 8-941)	phrase: [sugar] pinfe 'sugar plant'	WOLD	world compound (ru sakharny trostnik, es caña de azúcar)
+fish poison (WOLD 8-96)	culture-bound	WOLD	
+nettle (WOLD 8-97)	long tail: too specific or specialist	WOLD	
+untie (WOLD 9-161)	phrase: benbi manfu 'open the knot'	WOLD	most languages derive it (de losbinden, ru razvyazat', sw fungua); 4 syll
+pound (in a mortar) (WOLD 9-211)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: pound, crush (in a mortar))	WOLD	covered today by payon 'hit'
+adze (WOLD 9-251)	long tail: too specific or specialist	WOLD	
+skin (an animal) (WOLD 9-29)	long tail: too specific or specialist	WOLD	alt:P 'nuton unne'
+carpenter (WOLD 9-43)	long tail: too specific or specialist	WOLD	alt:P 'no selo' (builder) or 'no doku kima'
+saw (WOLD 9-48)	phrase or long tail: WOLD edge with an alternative (alt:L)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+blacksmith (WOLD 9-6)	long tail: too specific or specialist	WOLD	alt:P
+forge (WOLD 9-61)	long tail: too specific or specialist	WOLD	
+anvil (WOLD 9-62)	long tail: too specific or specialist	WOLD	
+cast (metal) (WOLD 9-63)	long tail: too specific or specialist	WOLD	
+lead (the metal) (WOLD 9-68)	long tail: too specific or specialist	WOLD	an element name: the standard (L3), like oxygen
+tin (WOLD 9-69)	long tail: too specific or specialist	WOLD	
+potter (WOLD 9-71)	long tail: too specific or specialist	WOLD	
+mat (woven, for sitting or sleeping) (WOLD 9-77)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: mat (woven, for sitting or sleeping))	WOLD	covered today by carpet (ladder: carpet, rug)
+net bag (WOLD 9-78)	culture-bound	WOLD	
+sculptor (WOLD 9-82)	long tail: too specific or specialist	WOLD	
+chisel (WOLD 9-84)	long tail: too specific or specialist	WOLD	
+twist, wring (WOLD 10-17)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: twist, wring)	WOLD	covered today by duko 'turn, rotate'
+drip (WOLD 10-24)	long tail: too specific or specialist	WOLD	alt:D (14/24 root families)
+dive (WOLD 10-351)	long tail: too specific or specialist	WOLD	alt:P 'lonfe deba'
+splash (WOLD 10-352)	long tail: too specific or specialist	WOLD	
+sail (travel by boat) (WOLD 10-36)	long tail: too specific or specialist	WOLD	
+kneel (WOLD 10-412)	phrase: goyu nan leyi 'sit on the knees'	WOLD	world compound (ru stat' na koleni 'stand on knees'); 4/24 root families only
+squat, crouch (WOLD 10-413)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+chase, pursue (WOLD 10-53)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: chase, pursue)	WOLD	covered today by lefan 'follow'
+axle (WOLD 10-77)	long tail: too specific or specialist	WOLD	
+yoke (WOLD 10-78)	long tail: too specific or specialist	WOLD	
+outrigger (WOLD 10-832)	culture-bound	WOLD	
+raft (WOLD 10-84)	long tail: too specific or specialist	WOLD	
+oar (WOLD 10-85)	long tail: too specific or specialist	WOLD	alt:D (one root oar/paddle)
+paddle (WOLD 10-851)	long tail: too specific or specialist	WOLD	
+row (a boat) (WOLD 10-852)	long tail: too specific or specialist	WOLD	
+rudder (WOLD 10-86)	long tail: too specific or specialist	WOLD	
+mast (WOLD 10-87)	long tail: too specific or specialist	WOLD	
+sail (WOLD 10-88)	long tail: too specific or specialist	WOLD	
+anchor (WOLD 10-89)	long tail: too specific or specialist	WOLD	
+beggar (WOLD 11-53)	phrase: no [request] 'one who asks'	WOLD	3 syll once request has its form
+owe (WOLD 11-63)	phrase: ibe [debt] 'have a debt'	WOLD	world phrase (es tener deuda); debt is on the list
+hire, employ (WOLD 11-77)	phrase: neke doku 'give work'	WOLD	4 syll; alt:D
+earn (WOLD 11-79)	phrase: dunu nimo 'get money'	WOLD	4 syll; alt:D
+merchant, trader (WOLD 11-84)	phrase: no koda 'one who sells'	WOLD	3 syll
+weigh (WOLD 11-92)	phrase or long tail: WOLD edge with an alternative (alt:P '[measure] gogo')	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+remains (WOLD 12-17)	long tail: too specific or specialist	WOLD	
+fathom (WOLD 12-541)	long tail: too specific or specialist	WOLD	
+cross (the shape, the mark) (WOLD 12-77)	long tail: too specific or specialist	WOLD	ladder 'cross' is the verb ('the cross shape is rare'); the religious symbol is each tradition's; 18 loan languages
+autumn (WOLD 14-77)	phrase: muyi pi [harvest] 'time of harvest'	WOLD	the other three seasons are phrases (muyi weki, muyi tikun, muyi pi meyen); de Herbst and en harvest share the source
+wrinkled (WOLD 15-89)	long tail: too specific or specialist	WOLD	alt:D (7/24 root families)
+fragrant (WOLD 15-25)	phrase: kanko upe 'smells good'	WOLD	4 syll; world phrase (de wohlriechend)
+stinking (WOLD 15-26)	phrase: kanko yomo 'smells bad'	WOLD	4 syll
+brackish (WOLD 15-39)	long tail: too specific or specialist	WOLD	
+dare (WOLD 16-51)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: dare)	WOLD	covered today by brave (ladder: courage)
+obscure, unclear (WOLD 17-35)	phrase: su [clear] 'not clear'	WOLD	3 syll
+betray (WOLD 17-441)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+whisper (WOLD 18-15)	phrase or long tail: WOLD edge with an alternative (alt:P 'oyi mange' (4 syll))	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+mumble (WOLD 18-16)	long tail: too specific or specialist	WOLD	
+stutter (WOLD 18-211)	long tail: too specific or specialist	WOLD	
+boast, brag (WOLD 18-45)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+rattle (WOLD 18-74)	long tail: too specific or specialist	WOLD	
+freeman (WOLD 19-44)	long tail: too specific or specialist	WOLD	
+club, cudgel (WOLD 20-22)	long tail: too specific or specialist	WOLD	ladder 'club' is the society (loan); alt:P 'kima netu' (stick)
+battle-axe (WOLD 20-222)	long tail: too specific or specialist	WOLD	
+sling (WOLD 20-23)	long tail: too specific or specialist	WOLD	
+armour (WOLD 20-31)	long tail: too specific or specialist	WOLD	
+helmet (WOLD 20-33)	pending: loan panel, deeplayer-02 unfinished	WOLD	helmet/casque-family forms (ja herumetto, id helm, sw helmeti, hi helmet; ru kaska, tr kask); motorcycle and work helmet
+fortress (WOLD 20-35)	long tail: too specific or specialist	WOLD	
+retreat (WOLD 20-45)	long tail: too specific or specialist	WOLD	alt:P 'isi nebe'
+booty (WOLD 20-48)	long tail: too specific or specialist	WOLD	
+ambush (WOLD 20-49)	long tail: too specific or specialist	WOLD	
+fisher (WOLD 20-51)	phrase: no fesun woga 'one who hunts fish'	WOLD	world pattern 'fish + person' (zh yumin); 5 syll; alt: a verb 'to fish' (not a WOLD meaning)
+fishing line (WOLD 20-53)	long tail: too specific or specialist	WOLD	
+bait (WOLD 20-56)	long tail: too specific or specialist	WOLD	alt:D
+plaintiff (WOLD 21-21)	long tail: too specific or specialist	WOLD	
+defendant (WOLD 21-22)	long tail: too specific or specialist	WOLD	
+condemn (WOLD 21-32)	long tail: too specific or specialist	WOLD	
+convict (WOLD 21-33)	long tail: too specific or specialist	WOLD	
+acquit (WOLD 21-34)	long tail: too specific or specialist	WOLD	
+fine (penalty) (WOLD 21-38)	long tail: too specific or specialist	WOLD	
+murder (WOLD 21-42)	pending: boundary question, deeplayer-02 unfinished (proposed two roots: murder (kill on purpose, unlawfully))	WOLD	covered today by omen 'kill'
+adultery (WOLD 21-43)	long tail: too specific or specialist	WOLD	
+arson (WOLD 21-46)	long tail: too specific or specialist	WOLD	
+perjury (WOLD 21-47)	long tail: too specific or specialist	WOLD	
+altar (WOLD 22-14)	culture-bound	WOLD	each tradition's word (religion decision 2026-10-13)
+preach (WOLD 22-22)	culture-bound	WOLD	each tradition's word
+fast (go without food) (WOLD 22-26)	phrase: su nawi 'not eat'	WOLD	3 syll
+fairy, elf (WOLD 22-44)	culture-bound	WOLD	a being of particular traditions
+injection (WOLD 23-23)	pending: loan panel, deeplayer-02 unfinished	WOLD	20 loan languages (inyección / inyeksi / injekshan family); panel test; else P '[needle] pi [medicine]'
+tap, faucet (WOLD 23-5)	phrase or long tail: WOLD edge with an alternative (alt:L)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+mattress (WOLD 23-53)	pending: loan panel, deeplayer-02 unfinished	WOLD	21 loan languages (matras / matelas / colchón family); panel test; else D
+postage stamp (WOLD 23-41)	long tail: too specific or specialist	WOLD	alt:L
+tin can (WOLD 23-54)	pending: loan panel, deeplayer-02 unfinished	WOLD	25 loan languages (kan / lata / konserva); panel test; else P 'nansa pi [metal]'
+screw (WOLD 23-55)	long tail: too specific or specialist	WOLD	24 loan languages; alt:L
+screwdriver (WOLD 23-555)	long tail: too specific or specialist	WOLD	
+calendar (the object) (WOLD 23-61)	pending: loan panel, deeplayer-02 unfinished	WOLD	kalendar / calendario / Kalender / kalenda / karendā family; on the balance audit's gap list (AM); date is grammar; pane
+brake (WOLD 23-18)	long tail: too specific or specialist	WOLD	alt:L
+licence plate (WOLD 23-35)	long tail: too specific or specialist	WOLD	
+postcard (WOLD 23-43)	long tail: too specific or specialist	WOLD	
+coyote (WOLD 3-862)	culture-bound	WOLD	
+quail (WOLD 3-865)	long tail: too specific or specialist	WOLD	
+raccoon (WOLD 3-866)	culture-bound	WOLD	
+reindeer, caribou (WOLD 3-871)	culture-bound	WOLD	
+elk, moose (WOLD 3-872)	culture-bound	WOLD	
+beaver (WOLD 3-873)	culture-bound	WOLD	
+sledge (WOLD 10-79)	culture-bound	WOLD	
+lasso (WOLD 8-29)	culture-bound	WOLD	
+larch (WOLD 8-991)	long tail: too specific or specialist	WOLD	
+conifer needle (WOLD 8-993)	long tail: too specific or specialist	WOLD	
+northern lights (WOLD 1-771)	long tail: too specific or specialist	WOLD	
+tan (hides) (WOLD 7-67)	long tail: too specific or specialist	WOLD	
+snowshoe (WOLD 6-98)	culture-bound	WOLD	
+circumcision (WOLD 22-5)	culture-bound	WOLD	alt:X
+initiation ceremony (WOLD 22-51)	culture-bound	WOLD	
+cone (WOLD 8-996)	long tail: too specific or specialist	WOLD	
+tapir (WOLD 3-99)	culture-bound	WOLD	
+whetstone (WOLD 9-93)	long tail: too specific or specialist	WOLD	
+tumpline (WOLD 9-92)	culture-bound	WOLD	
+digging stick (WOLD 8-28)	culture-bound	WOLD	
+cormorant (WOLD 3-597)	long tail: too specific or specialist	WOLD	
+shrimp, prawn (WOLD 3-833)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+termite (WOLD 3-834)	phrase or long tail: WOLD edge with an alternative (alt:X)	WOLD-edge	author 2026-10-16 option (b): the 33 edge items with an alternative stay out
+boomerang (WOLD 9-87)	culture-bound	WOLD	
+kangaroo (WOLD 3-88)	culture-bound	WOLD	
+anteater (WOLD 3-89)	culture-bound	WOLD	
+toucan (WOLD 3-598)	culture-bound	WOLD	
+jaguar (WOLD 3-9)	culture-bound	WOLD	
+manioc bread (WOLD 5-983)	culture-bound	WOLD	
+hammock (WOLD 7-66)	culture-bound	WOLD	
+millet, sorghum (WOLD 8-911)	superseded: now the root 'millet, sorghum' (see concepts.tsv)	WOLD	was: culture-bound. a staple in Africa and South Asia (two regions): C or D? (question)
+chameleon (WOLD 3-913)	long tail: too specific or specialist	WOLD	
+draw water, fetch water (WOLD 9-9)	phrase: yidu osa 'take water'	WOLD	a daily task for many rural households; 4 syll
+peg (WOLD 9-91)	long tail: too specific or specialist	WOLD	
+water buffalo (WOLD 3-917)	culture-bound	WOLD	Asian and African farm animal; 13 loan languages
+savanna (WOLD 1-411)	culture-bound	WOLD	one climate zone's landscape; 12 loan languages
+paddy (WOLD 8-121)	phrase: sekan yegon 'rice field'	WOLD	world compound
+the bay (WOLD 1-34)	long tail: bay, gulf (9/24 families; not a basic action, body part or household thing)	WOLD-47	
+the tent (WOLD 7-14)	long tail: tent (8/24 families; not in most households)	WOLD-47	
+to go down (WOLD 10-473)	phrase: deba 'below' as a verb, or isi deba (go down; 14/24 families, alternative noted in r2)	WOLD-47	
+to land (WOLD 10-92)	phrase: isi deba 'go down' (land; 12/24 families)	WOLD-47	
+to last (WOLD 14-252)	phrase: piyi 'stay' / le (to last; 8/24 families; the WOLD match to endure was a different sense)	WOLD-47	
+the pity (WOLD 16-35)	pending: sets pass (emotions; author 2026-10-16) - pity, mercy (9/24 families)	WOLD-47	
+the envy or jealousy (WOLD 16-44)	pending: sets pass (emotions; author 2026-10-16: envy/jealousy) (12/24 families)	WOLD-47	
+faithful (WOLD 16-65)	long tail: loyal, faithful (5/24 families)	WOLD-47	
+to surrender (WOLD 20-46)	phrase: neke nen 'give oneself' (3 syll) / bamo migi (surrender)	WOLD-47	
+guilty (WOLD 21-35)	phrase or long tail: guilty (3/24 families; ibe [fault])	WOLD-47	
+the omen (WOLD 22-47)	phrase: [sign] (omen; 2 syll)	WOLD-47	
+bay	past the stop (walk stopped at rank 1342 under both raters)	WALK	bay, gulf: part of the sea held by a curve of land
+illusion	past the stop (walk stopped at rank 1342 under both raters)	WALK	illusion: something seen or believed that is not real
+surrender	phrase (past the stop)	WALK	bamo migi 'stop fighting' / neke nen 'give oneself'
+harsh	phrase (past the stop)	WALK	gufu 'hard' (apu gufu 'harsh words') / ten yomo
+creator	phrase (past the stop)	WALK	no [create] 'one who creates'
+torture	past the stop (walk stopped at rank 1342 under both raters)	WALK	torture: cause great pain on purpose
+stable	artefact: pooled English label (past the stop)	WALK	—
+artificial	past the stop (walk stopped at rank 1342 under both raters)	WALK	artificial, made by people (not natural)
+attract	phrase (past the stop)	WALK	nunya 'pull' extended (nunya [attention])
+perfume	loan candidate (past the stop)	WALK	perfume: parfum/parfyum/perfume family
+homosexual (gay)	loan candidate (past the stop)	WALK	gay: gei/gay family
+disorder	artefact: pooled English label (past the stop)	WALK	—
+advance	artefact: pooled English label (past the stop)	WALK	—
+pack	artefact: pooled English label (past the stop)	WALK	—
+bribe	past the stop (walk stopped at rank 1342 under both raters)	WALK	money or gift given to make someone act wrongly
+cannon	past the stop (walk stopped at rank 1342 under both raters)	WALK	cannon: big gun firing heavy shot
+fairy	culture-bound (past the stop)	WALK	—
+appeal	artefact: pooled English label (past the stop)	WALK	—
+canal	past the stop (walk stopped at rank 1342 under both raters)	WALK	canal: dug waterway
+bond	artefact: pooled English label (past the stop)	WALK	—
+scatter	phrase (past the stop)	WALK	[spread] / gitin 'throw'
+draft	artefact: pooled English label (past the stop)	WALK	—
+weed	past the stop (walk stopped at rank 1342 under both raters)	WALK	weed: unwanted wild plant among crops
+surround	past the stop (walk stopped at rank 1342 under both raters)	WALK	be or go all around
+grace	artefact: pooled English label (past the stop)	WALK	—
+suffer	past the stop (walk stopped at rank 1342 under both raters)	WALK	suffer: undergo pain or hardship
+leak	past the stop (walk stopped at rank 1342 under both raters)	WALK	leak: escape slowly through a hole (water, gas, news)
+bastard	artefact: pooled English label (past the stop)	WALK	—
+specific (particular)	phrase (past the stop)	WALK	[special]
+tune	artefact: pooled English label (past the stop)	WALK	—
+football	loan candidate (past the stop)	WALK	football: futbol/football family
+guilty	past the stop (walk stopped at rank 1342 under both raters)	WALK	guilty: having done the wrong
+formation	artefact: pooled English label (past the stop)	WALK	—
+favor	artefact: pooled English label (past the stop)	WALK	—
+useless	phrase (past the stop)	WALK	su pi bone 'of no use' (4 syll)
+lunch	superseded: now the root 'lunch' (see concepts.tsv)	WALK	was: phrase (past the stop). pasu pi minfi 'noon meal' (5 syll)
+bet	past the stop (walk stopped at rank 1342 under both raters)	WALK	risk money or goods on an outcome
+drama	artefact: pooled English label (past the stop)	WALK	—
+scale	artefact: pooled English label (past the stop)	WALK	—
+pity (mercy)	past the stop (walk stopped at rank 1342 under both raters)	WALK	pity, mercy: feeling for another's suffering; sparing them
+castle	past the stop (walk stopped at rank 1342 under both raters)	WALK	fort, castle: fortified building
+violation	phrase (past the stop)	WALK	alun wabun 'break the law' (4 syll)
+loyal	past the stop (walk stopped at rank 1342 under both raters)	WALK	faithful to a person, group or cause
+embassy	phrase (past the stop)	WALK	pu [ambassador] 'ambassador's place'
+estimate	phrase (past the stop)	WALK	[guess]
+export	phrase (past the stop)	WALK	sege aban 'send out' (4 syll)
+communist	long tail: specialist or named (past the stop)	WALK	—
+import	phrase (past the stop)	WALK	dinyo bese 'carry in' (4 syll)
+rhythm	loan candidate (past the stop)	WALK	rhythm: ritm/ritmo/rythme/ritim/ritme family
+impression	past the stop (walk stopped at rank 1342 under both raters)	WALK	impression: the effect something leaves on the mind
+accent	past the stop (walk stopped at rank 1342 under both raters)	WALK	accent: way of pronouncing typical of a place or group
+ideal	phrase (past the stop)	WALK	[perfect]
+murderer	phrase (past the stop)	WALK	no omen 'one who kills' (3 syll)
+uniform	artefact: pooled English label (past the stop)	WALK	—
+cage	past the stop (walk stopped at rank 1342 under both raters)	WALK	cage: enclosure of bars for animals
+founder	phrase (past the stop)	WALK	no [establish] (3 syll)
+resident	phrase (past the stop)	WALK	no nume 'one who lives (here)' (3 syll)
+cable	past the stop (walk stopped at rank 1342 under both raters)	WALK	wire, cable: metal strand or line carrying power or signals
+virtue	past the stop (walk stopped at rank 1342 under both raters)	WALK	virtue: moral goodness; a good quality
+genius	phrase (past the stop)	WALK	ten gole 'very smart' (3 syll)
+minor	artefact: pooled English label (past the stop)	WALK	—
+tent	past the stop (walk stopped at rank 1342 under both raters)	WALK	tent: portable shelter of cloth
+maintain (maintenance)	phrase (past the stop)	WALK	[keep]
+advocate	artefact: pooled English label (past the stop)	WALK	—
+stroke	artefact: pooled English label (past the stop)	WALK	—
+abuse	past the stop (walk stopped at rank 1342 under both raters)	WALK	abuse, mistreat: treat cruelly or use wrongly
+dam	past the stop (walk stopped at rank 1342 under both raters)	WALK	dam: wall holding back water
+extra	phrase (past the stop)	WALK	ke 'more' / gen ginni 'what is added' (3 syll)
+faculty	artefact: pooled English label (past the stop)	WALK	—
+excess	past the stop (walk stopped at rank 1342 under both raters)	WALK	excess, too much: more than is needed or right
+semen	past the stop (walk stopped at rank 1342 under both raters)	WALK	semen
+expansion (expand)	phrase (past the stop)	WALK	guge 'grow' (2 syll) / [spread]
+temporary	phrase (past the stop)	WALK	fan foke 'for a moment' (3 syll)
+tank	artefact: pooled English label (past the stop)	WALK	—
+seal	artefact: pooled English label (past the stop)	WALK	—
+passage	artefact: pooled English label (past the stop)	WALK	—
+envy	past the stop (walk stopped at rank 1342 under both raters)	WALK	envy, jealousy: resent another's good fortune or rival
+follower	phrase (past the stop)	WALK	no lefan 'one who follows' (3 syll)
+output	phrase (past the stop)	WALK	gen muge 'what is made' (3 syll)
+powder	past the stop (walk stopped at rank 1342 under both raters)	WALK	powder: fine dry grains
+conspiracy	past the stop (walk stopped at rank 1342 under both raters)	WALK	conspiracy, plot: secret plan by several to do harm
+entrust	past the stop (walk stopped at rank 1342 under both raters)	WALK	entrust: give into another's care
+funeral	past the stop (walk stopped at rank 1342 under both raters)	WALK	funeral: the rites for a dead person
+lawsuit	phrase (past the stop)	WALK	[case (legal)]
+producer	phrase (past the stop)	WALK	no muge 'one who makes' (3 syll)
+acid	phrase (past the stop)	WALK	tufun 'sour' (2 syll)
+laboratory	phrase (past the stop)	WALK	pu [experiment] (3 syll)
+relate	artefact: pooled English label (past the stop)	WALK	—
+reverse	phrase (past the stop)	WALK	[opposite] / tun nebe 'to the back' (3 syll)
+omen	phrase (past the stop)	WALK	[sign]
+discharge	artefact: pooled English label (past the stop)	WALK	—
+carbon	long tail: specialist or named (past the stop)	WALK	—
+generous	past the stop (walk stopped at rank 1342 under both raters)	WALK	generous: giving freely
+loose	phrase (past the stop)	WALK	su [tight] 'not tight' (3 syll)
+breed	artefact: pooled English label (past the stop)	WALK	—
+brand	long tail: specialist or named (past the stop)	WALK	—
+inferior	phrase (past the stop)	WALK	ke linku 'lower' (3 syll)
+axis	artefact: pooled English label (past the stop)	WALK	—
+bunch	phrase (past the stop)	WALK	funti 'group' (2 syll)
+tinli 'key, button' and yebin 'call, phone'	pending: ladder 1 with the concept list (author 2026-10-15, judge's repairs)	LEX	both stay roots meanwhile; deeplayer-02 proposes a separate clothes button
+spelling-alphabet words (alufa, saluli ...)	outside the core: spelling alphabet, like units (author 2026-10-15)	-	not placed
+@ and the dot	covered by mon 'at' and mimi 'point' (author 2026-10-15)	-	
+defeat	covered by lose (a contest): the same sense (the ladder's own note reads 'lose a contest'); duplicate found by the sense check (added)	LAD; check	was admitted by LAD
