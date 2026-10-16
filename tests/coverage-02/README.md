@@ -202,3 +202,7 @@ Round 1's questions 2 (a deep-layer pass), 6 (perfume, gay, football), 7 (drops)
    - `stretches-blind.tsv` has all 200 ranks of 1243–1442, as asked. 108 of them are already on the list (skips; spy, Thursday …).
    - Tell the rater to mark them "on the list", or filter them out before the run. Only the 92 candidates are compared.
    - The rater needs the class definitions and the new line, but not my notes.
+
+## Blind second rater (Codex, 2026-10-16)
+
+Codex classified the 92 candidates of ranks 1243–1442 blind (`CODEX-PROMPT.md`, `codex-blind.tsv`; it saw the class definitions with the round-2 phrase line, the word lists and the method, not the walk's classes). Agreement with the walk: 64 of 92 (70%); most disagreements are G↔P (13) and A→P (6). G share per stretch: 1243–1342 Codex 37% (walk 41%), 1343–1442 Codex 45% (walk 45%). Under both raters the stop rule fires in the first stretch: the stop at rank 1342 comes from the data, not the rater.
