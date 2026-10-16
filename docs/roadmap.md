@@ -71,7 +71,7 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 
 - **Everyday concepts from the non-European checklists** (Part 5 stage 6, 2026-10-13; `tests/coverage-01/part3/wordbank-nonwestern.tsv`): about 25 with no word: chili pepper, spicy, noodles, coconut, mango, ginger, lemon/lime, shrimp, chopsticks, basin, tray, kettle, cockroach, lizard, camel, bracelet, earring, machete, kite, squat, greet, hang; plus mortar, well, charcoal (no checklist asks). Widen-a-root candidates: hoe (spade), veranda (balcony), wrapper cloth / baby sling (cloth), sleeping mat (carpet), stiff staples like ugali (porridge), relish (soup/sauce), floor mattress (bed). Take them through the ladders with the rebalance's own findings (Part 5 stage 5).
 
-- **Rates** (author, 2026-10-13): how to say "60 km per hour", "twice a day", "three per person"; the reference doesn't say. "rate" (rank 1,264) and "ratio" (1,512) are frequent. Decide whether a relation word, a root or a construction carries "per".
+- **Rates** decided 2026-10-15 ("… relation word + unit + **mesun**"; design log): write into the reference's numbers section with three examples **after the short-word apply** finishes, using the new forms.
 
 - **The language's name is settled last** (author, 2026-10-13: the name doesn't have to be kept). **apu pi we** depends on the forms of "language" (**apu**), **pi** (in a voicing pair flagged by the auxlang survey) and **we**; after the short-word redo and the final placement, decide whether to keep or pin the name or let it follow the words. Renaming would also touch the repository, the site address and the README.
 

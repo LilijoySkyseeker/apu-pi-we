@@ -154,7 +154,7 @@ def readings(tree):
     trees = lark.visitors.CollapseAmbiguities().transform(tree)
     sigs = {signature(t) for t in trees[:5000]}
     # 4.6: a pause before the verb only after a subject holding a clause or a phrasal derived word
-    sigs = {sg for sg in sigs if all("relcl[" in h or re.match(r"(no|ge|du|pu) ", h)
+    sigs = {sg for sg in sigs if all("relcl[" in h or re.match(r"(no|gen|du|pu) ", h)
                                      for h in re.findall(r"heavy\[([^]]*)", sg))}
     # 4.6: a pause between a recipient and a long object (here: more than one word)
     sigs = {sg for sg in sigs if all(len(o.split()) > 1 for o in re.findall(r"longobj\[([^]]*)", sg))}
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     for rid, apu, en in SPEC.examples(SPEC.load()):
         if re.search(r"\b[A-Z]\b|\bX\b", apu) or "…" in apu:
             continue  # templates and partial examples
-        if not set(re.sub(r"kon_ N", "", chunk(apu)).split()) & ({"C", "N", "NAME"} | PRONOUNS):
+        if not set(re.sub(r"pe_ N", "", chunk(apu)).split()) & ({"C", "N", "NAME"} | PRONOUNS):
             continue  # a grammar word cited on its own
         for s in clean(apu):
             n, t = parse(s)
