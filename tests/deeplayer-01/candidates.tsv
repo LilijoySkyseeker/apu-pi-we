@@ -1,0 +1,1461 @@
+wold_id	field	meaning	hits
+1-1	The physical world	the world	world [ladder:list] || world | world [candidates-02:roots-1500]
+1-21	The physical world	the land	land | land [candidates-02:root:fowo] || plain (land) [ladder:covered:sekan mawun] || field, open land [lexicon:root]
+1-212	The physical world	the soil	ground, earth or soil [lexicon:root] || earth | earth [candidates-02:root:fowo]
+1-213	The physical world	the dust	dust [lexicon:root] || dust | dust [candidates-02:root:awin]
+1-214	The physical world	the mud	mud [ladder:list] || mud | mud [candidates-02:roots-1500]
+1-215	The physical world	the sand	sand [lexicon:root] || sand | sand [candidates-02:root:digan]
+1-22	The physical world	the mountain or hill	hill [entrants-02:entrant:covered] || mountain [lexicon:root] || hill | hill [candidates-02:entrant:covered] || mountain | mountain [candidates-02:root:genne]
+1-222	The physical world	the cliff or precipice	
+1-23	The physical world	the plain	plain [ladder:list] || plain (land) [ladder:covered:sekan mawun] || plain | plain [candidates-02:roots-1500]
+1-24	The physical world	the valley	valley [ladder:list] || valley | valley [candidates-02:roots-1500]
+1-25	The physical world	the island	island [ladder:list] || island | island [candidates-02:roots-1500]
+1-26	The physical world	the mainland	
+1-27	The physical world	the shore	
+1-28	The physical world	the cave	cave [walk-02:walk:G]
+1-31	The physical world	the water	water [lexicon:root] || water | water [candidates-02:root:osa] || spring (water) [ladder:list]
+1-32	The physical world	the sea	sea [lexicon:root] || sea | sea [candidates-02:root:puya]
+1-322	The physical world	calm	calm [lexicon:root] || calm | calm [candidates-02:root:fanse]
+1-323	The physical world	rough(2)	sea [lexicon:root] || rough [lexicon:root] || sea | sea [candidates-02:root:puya]
+1-324	The physical world	the foam	
+1-329	The physical world	the ocean	
+1-33	The physical world	the lake	lake [lexicon:root] || lake | lake [candidates-02:root:nenwa]
+1-34	The physical world	the bay	bay [walk-02:walk:G]
+1-341	The physical world	the lagoon	
+1-342	The physical world	the reef	
+1-343	The physical world	the cape	
+1-35	The physical world	the wave	wave [ladder:list] || wave | wave [candidates-02:roots-1500]
+1-352	The physical world	the tide	
+1-353	The physical world	the low tide	low [lexicon:root] || low | low [candidates-02:root:linku] || cheap, low in price [lexicon:root]
+1-354	The physical world	the high tide	high [lexicon:root] || high | high [candidates-02:root:tisan]
+1-36	The physical world	the river or stream	body [lexicon:root] || water [lexicon:root] || river [lexicon:root] || body.time [compounds:phrase] || body | body [candidates-02:root:gawo] || fat, body fat [lexicon:root] || water | water [candidates-02:root:osa] || river | river [candidates-02:root:yolan]
+1-362	The physical world	the whirlpool	
+1-37	The physical world	the spring or well	spring [ladder:list] || spring (water) [ladder:list] || spring (season) [ladder:covered:muyi pi meyen] || spring | spring [candidates-02:roots-1500]
+1-38	The physical world	the swamp	
+1-39	The physical world	the waterfall	
+1-41	The physical world	the woods or forest	forest [ladder:list] || forest | forest [candidates-02:roots-1500 deep]
+1-43	The physical world	the wood	wood | wood [candidates-02:root:kima] || wood, the material [lexicon:root]
+1-44	The physical world	the stone or rock	stone [lexicon:root] || stone | stone [candidates-02:root:lutu]
+1-45	The physical world	the earthquake	earthquake [additions-02:proposed:built phrase] || earthquake [entrants-02:entrant:missing] || earthquake | earthquake [candidates-02:entrant:missing]
+1-51	The physical world	the sky	sky [lexicon:root] || sky | sky [candidates-02:root:yaye]
+1-52	The physical world	the sun	sun [lexicon:root] || sun | sun [candidates-02:root:giwe]
+1-53	The physical world	the moon	moon [additions-01:list] || moon | moon [candidates-02:additions]
+1-54	The physical world	the star	star [lexicon:root] || star | star [candidates-02:root:uwan]
+1-55	The physical world	the lightning	lightning [lexicon:root] || lightning | lightning [candidates-02:root:mufin]
+1-56	The physical world	the thunder	thunder [lexicon:root] || thunder | thunder [candidates-02:root:seyun]
+1-57	The physical world	the bolt of lightning	lightning [lexicon:root] || lightning | lightning [candidates-02:root:mufin]
+1-58	The physical world	the storm	storm [lexicon:root] || storm | storm [candidates-02:root:lapo]
+1-59	The physical world	the rainbow	
+1-61	The physical world	the light	light | light [candidates-02:root:wino] || light, not heavy [lexicon:root] || light, brightness [lexicon:root] || shade, shadow from light [lexicon:root] || light (weight) | lightly [candidates-02:root:gamun]
+1-62	The physical world	the darkness	
+1-63	The physical world	the shade or shadow	shade, shadow from light [lexicon:root] || shadow | shadow [candidates-02:root:situ]
+1-64	The physical world	the dew	
+1-71	The physical world	the air	air [lexicon:root] || air | air [candidates-02:root:wunta] || blow, of air [lexicon:root] || fly, move through the air [lexicon:root]
+1-72	The physical world	the wind	wind [lexicon:root] || wind | wind [candidates-02:root:gulo]
+1-73	The physical world	the cloud	cloud [lexicon:root] || cloud | cloud [candidates-02:root:lanba]
+1-74	The physical world	the fog	fog [lexicon:root]
+1-75	The physical world	the rain	rain [lexicon:root] || rain | rain [candidates-02:root:gegi]
+1-76	The physical world	the snow	snow [lexicon:root] || snow | snow [candidates-02:root:binso]
+1-77	The physical world	the ice	ice [lexicon:root] || ice cream [ladder:list] || ice | ice [candidates-02:root:nokun] || ice cream | ice cream [candidates-02:roots-1500 deep]
+1-78	The physical world	the weather	weather [ladder:list] || weather | weather [candidates-02:roots-1500]
+1-81	The physical world	the fire	fire [lexicon:root] || fire truck [ladder:covered:truck pi lumi] || fire | fire [candidates-02:root:lumi] || match (fire) [ladder:list]
+1-82	The physical world	the flame	
+1-83	The physical world	the smoke	smoke [lexicon:root] || smoke | smoke [candidates-02:root:penso]
+1-84	The physical world	the ash	ash [lexicon:root] || ash | ash [candidates-02:root:sulen]
+1-841	The physical world	the embers	
+1-851	The physical world	to burn(1)	burn [lexicon:root] || burn | burn [candidates-02:root:onti]
+1-852	The physical world	to burn(2)	burn [lexicon:root] || burn | burn [candidates-02:root:onti]
+1-86	The physical world	to light	light | light [candidates-02:root:wino] || light, not heavy [lexicon:root] || light, brightness [lexicon:root] || shade, shadow from light [lexicon:root] || light (weight) | lightly [candidates-02:root:gamun]
+1-861	The physical world	to extinguish	
+1-87	The physical world	the match	match [ladder:list] || match (fire) [ladder:list] || match | match [candidates-02:roots-1500]
+1-88	The physical world	the firewood	
+1-89	The physical world	the charcoal	
+2-1	Kinship	the person	person [lexicon:root] || person | person [candidates-02:root:ewo] || patient (sick person) [ladder:covered:ewo simi]
+2-21	Kinship	the man	old man [ladder:covered:lowu pani] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || old man | old man [candidates-02:roots-1500] || young man | young man [candidates-02:roots-1500]
+2-22	Kinship	the woman	woman, female [lexicon:root] || woman | woman [candidates-02:root:futa]
+2-23	Kinship	male(1)	person [lexicon:root] || man, male [lexicon:root] || person | person [candidates-02:root:ewo] || patient (sick person) [ladder:covered:ewo simi]
+2-24	Kinship	female(1)	person [lexicon:root] || woman, female [lexicon:root] || person | person [candidates-02:root:ewo] || patient (sick person) [ladder:covered:ewo simi]
+2-25	Kinship	the boy	boy [ladder:covered:tiwu lowu] || boy | boy [candidates-02:roots-1500 deep]
+2-251	Kinship	the young man	young man [ladder:covered:lowu loyen] || young man | young man [candidates-02:roots-1500] || young [lexicon:root] || old man [ladder:covered:lowu pani] || man, male [lexicon:root] || man | man [candidates-02:root:lowu] || young | young [candidates-02:root:loyen] || old man | old man [candidates-02:roots-1500]
+2-26	Kinship	the girl	girl [ladder:covered:tiwu futa] || girl | girl [candidates-02:roots-1500 deep]
+2-261	Kinship	the young woman	young [lexicon:root] || young man [ladder:covered:lowu loyen] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa] || young | young [candidates-02:root:loyen] || young man | young man [candidates-02:roots-1500]
+2-27	Kinship	the child(1)	child [lexicon:root] || young [lexicon:root] || young man [ladder:covered:lowu loyen] || child | child [candidates-02:root:tiwu] || young | young [candidates-02:root:loyen] || young man | young man [candidates-02:roots-1500]
+2-28	Kinship	the baby	baby [ladder:list] || baby | baby [candidates-02:roots-1500 deep]
+2-31	Kinship	the husband	husband | husband [candidates-02:root:ofin]
+2-32	Kinship	the wife	wife | wife [candidates-02:root:ofin]
+2-33	Kinship	to marry	marry, wedding [lexicon:root] || marry | marriage [candidates-02:root:bedan]
+2-34	Kinship	the wedding	marry, wedding [lexicon:root]
+2-341	Kinship	the divorce	divorce [ladder:list] || divorce | divorce [candidates-02:roots-1500]
+2-35	Kinship	the father	father [lexicon:root] || father | father [candidates-02:root:wede]
+2-36	Kinship	the mother	mother [lexicon:root] || mother | mother [candidates-02:root:mole]
+2-37	Kinship	the parents	parents [compounds:phrase] || parent | parents [candidates-02:roots-1500]
+2-38	Kinship	the married man	old man [ladder:covered:lowu pani] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || old man | old man [candidates-02:roots-1500] || young man | young man [candidates-02:roots-1500]
+2-39	Kinship	the married woman	woman, female [lexicon:root] || woman | woman [candidates-02:root:futa]
+2-41	Kinship	the son	son [compounds:phrase] || son [ladder:covered:tiwu lowu] || son | son [candidates-02:roots-1500]
+2-42	Kinship	the daughter	daughter [compounds:phrase] || daughter [ladder:covered:tiwu futa] || daughter | daughter [candidates-02:roots-1500]
+3-662	Animals	the porpoise or dolphin	
+2-43	Kinship	the child(2)	child [lexicon:root] || child | child [candidates-02:root:tiwu]
+2-44	Kinship	the brother	brother | brother [candidates-02:root:faba]
+2-444	Kinship	the older brother	brother | brother [candidates-02:root:faba]
+2-445	Kinship	the younger brother	brother | brother [candidates-02:root:faba]
+2-45	Kinship	the sister	sister | sister [candidates-02:root:faba]
+2-454	Kinship	the older sister	sister | sister [candidates-02:root:faba]
+2-455	Kinship	the younger sister	sister | sister [candidates-02:root:faba]
+2-456	Kinship	the sibling	sibling [lexicon:root] || sibling | sibling [candidates-02:root:faba]
+2-458	Kinship	the twins	
+2-46	Kinship	the grandfather	grandfather [ladder:covered:wede pi mole / wede pi wede] || grandfather | grandfather [candidates-02:roots-1500 deep]
+2-461	Kinship	the old man	old man [ladder:covered:lowu pani] || old man | old man [candidates-02:roots-1500] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || old | old [candidates-02:root:pani] || old, aged or worn [lexicon:root] || young man | young man [candidates-02:roots-1500]
+2-47	Kinship	the grandmother	grandmother [ladder:covered:mole pi mole / mole pi wede] || grandmother | grandmother [candidates-02:roots-1500 deep]
+2-471	Kinship	the old woman	old man [ladder:covered:lowu pani] || old | old [candidates-02:root:pani] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa] || old, aged or worn [lexicon:root] || old man | old man [candidates-02:roots-1500]
+2-48	Kinship	the grandson	
+2-49	Kinship	the granddaughter	
+2-51	Kinship	the uncle	uncle [ladder:covered:faba pi wede / faba pi mole] || uncle | uncle [candidates-02:roots-1500 deep]
+2-511	Kinship	the mother's brother	uncle [ladder:covered:faba pi wede / faba pi mole] || mother [lexicon:root] || uncle | uncle [candidates-02:roots-1500 deep] || mother | mother [candidates-02:root:mole] || brother | brother [candidates-02:root:faba]
+2-512	Kinship	the father's brother	uncle [ladder:covered:faba pi wede / faba pi mole] || father [lexicon:root] || uncle | uncle [candidates-02:roots-1500 deep] || father | father [candidates-02:root:wede] || brother | brother [candidates-02:root:faba]
+2-52	Kinship	the aunt	aunt [ladder:covered:faba pi wede / faba pi mole] || aunt | aunt [candidates-02:roots-1500 deep]
+2-521	Kinship	the mother's sister	aunt [ladder:covered:faba pi wede / faba pi mole] || mother [lexicon:root] || aunt | aunt [candidates-02:roots-1500 deep] || mother | mother [candidates-02:root:mole] || sister | sister [candidates-02:root:faba]
+2-522	Kinship	the father's sister	aunt [ladder:covered:faba pi wede / faba pi mole] || father [lexicon:root] || aunt | aunt [candidates-02:roots-1500 deep] || father | father [candidates-02:root:wede] || sister | sister [candidates-02:root:faba]
+2-53	Kinship	the nephew	
+2-54	Kinship	the niece	
+2-55	Kinship	the cousin	
+2-56	Kinship	the ancestors	
+2-57	Kinship	the descendants	
+2-61	Kinship	the father-in-law (of a man)	law [lexicon:root] || father [lexicon:root] || old man [ladder:covered:lowu pani] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || law | law [candidates-02:root:wabun] || father | father [candidates-02:root:wede]
+2-611	Kinship	the father-in-law (of a woman)	law [lexicon:root] || father [lexicon:root] || law | law [candidates-02:root:wabun] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa] || father | father [candidates-02:root:wede]
+2-62	Kinship	the mother-in-law (of a man)	law [lexicon:root] || mother [lexicon:root] || old man [ladder:covered:lowu pani] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || law | law [candidates-02:root:wabun] || mother | mother [candidates-02:root:mole]
+2-621	Kinship	the mother-in-law (of a woman)	law [lexicon:root] || mother [lexicon:root] || law | law [candidates-02:root:wabun] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa] || mother | mother [candidates-02:root:mole]
+2-63	Kinship	the son-in-law (of a man)	law [lexicon:root] || son [compounds:phrase] || son [ladder:covered:tiwu lowu] || old man [ladder:covered:lowu pani] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || son | son [candidates-02:roots-1500]
+2-631	Kinship	the son-in-law (of a woman)	law [lexicon:root] || son [compounds:phrase] || son [ladder:covered:tiwu lowu] || son | son [candidates-02:roots-1500] || law | law [candidates-02:root:wabun] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa]
+2-64	Kinship	the daughter-in-law (of a man)	law [lexicon:root] || old man [ladder:covered:lowu pani] || daughter [compounds:phrase] || daughter [ladder:covered:tiwu futa] || man, male [lexicon:root] || young man [ladder:covered:lowu loyen] || man | man [candidates-02:root:lowu] || law | law [candidates-02:root:wabun]
+2-641	Kinship	the daughter-in-law (of a woman)	law [lexicon:root] || daughter [compounds:phrase] || daughter [ladder:covered:tiwu futa] || law | law [candidates-02:root:wabun] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa] || daughter | daughter [candidates-02:roots-1500]
+2-71	Kinship	the stepfather	
+2-72	Kinship	the stepmother	
+2-73	Kinship	the stepson	
+2-74	Kinship	the stepdaughter	
+2-75	Kinship	the orphan	
+2-76	Kinship	the widow	
+2-77	Kinship	the widower	
+2-81	Kinship	the relatives	
+2-82	Kinship	the family	family [lexicon:root] || family | family [candidates-02:root:yonyo]
+2-91	Kinship	I	
+2-92	Kinship	you (singular)	thank | thank you [candidates-02:root:lota]
+2-93	Kinship	he/she/it	
+2-94	Kinship	we	
+2-941	Kinship	we (inclusive)	
+2-942	Kinship	we (exclusive)	
+2-95	Kinship	you (plural)	thank | thank you [candidates-02:root:lota]
+2-96	Kinship	they	
+3-11	Animals	the animal	animal [lexicon:root] || bat.the.animal [compounds:phrase] || animal | animal [candidates-02:root:noso] || fish, the animal [lexicon:root]
+3-12	Animals	male(2)	animal [lexicon:root] || man, male [lexicon:root] || bat.the.animal [compounds:phrase] || animal | animal [candidates-02:root:noso] || fish, the animal [lexicon:root]
+3-13	Animals	female(2)	animal [lexicon:root] || woman, female [lexicon:root] || bat.the.animal [compounds:phrase] || animal | animal [candidates-02:root:noso] || fish, the animal [lexicon:root]
+3-15	Animals	the livestock	
+3-16	Animals	the pasture	
+3-18	Animals	the herdsman	
+3-19	Animals	the stable or stall	
+3-2	Animals	the cattle	
+3-21	Animals	the bull	
+3-22	Animals	the ox	
+3-23	Animals	the cow	cow [lexicon:root] || cow | cow [candidates-02:root:dunsa]
+3-24	Animals	the calf	
+3-25	Animals	the sheep	sheep [ladder:list] || sheep | sheep [candidates-02:roots-1500 deep]
+3-26	Animals	the ram	
+3-28	Animals	the ewe	
+3-29	Animals	the lamb	
+3-32	Animals	the boar	pig [ladder:list] || man, male [lexicon:root] || pig | pig [candidates-02:roots-1500 deep]
+3-34	Animals	the sow	pig [ladder:list] || pig | pig [candidates-02:roots-1500 deep] || woman, female [lexicon:root]
+3-35	Animals	the pig	pig [ladder:list] || pig | pig [candidates-02:roots-1500 deep]
+3-36	Animals	the goat	goat [lexicon:root] || goat | goat [candidates-02:root:elen]
+3-37	Animals	the he-goat	goat [lexicon:root] || man, male [lexicon:root] || goat | goat [candidates-02:root:elen]
+3-38	Animals	the kid	goat [lexicon:root] || young [lexicon:root] || young man [ladder:covered:lowu loyen] || goat | goat [candidates-02:root:elen] || young | young [candidates-02:root:loyen] || young man | young man [candidates-02:roots-1500]
+3-41	Animals	the horse	horse [lexicon:root] || horse | horse [candidates-02:root:anbo]
+3-42	Animals	the stallion	
+3-44	Animals	the mare	
+3-45	Animals	the foal or colt	
+3-46	Animals	the donkey	donkey [ladder:list] || donkey | donkey [candidates-02:roots-1500 deep]
+3-47	Animals	the mule	
+3-5	Animals	the fowl	
+3-52	Animals	the cock/rooster	
+3-54	Animals	the hen	
+3-55	Animals	the chicken	chicken [lexicon:root] || chicken | chicken [candidates-02:root:yiban]
+3-56	Animals	the goose	goose [ladder:list]
+3-57	Animals	the duck	duck [ladder:list] || duck | duck [candidates-02:roots-1500 deep]
+3-58	Animals	the nest	
+3-581	Animals	the bird	bird [lexicon:root] || bird | bird [candidates-02:root:lodi]
+3-582	Animals	the seagull	
+3-583	Animals	the heron	
+3-584	Animals	the eagle	
+3-585	Animals	the hawk	
+3-586	Animals	the vulture	
+3-591	Animals	the bat	bat | bat [candidates-02:cover:no bina mon ya] || bat.the.animal [compounds:phrase]
+3-592	Animals	the parrot	
+3-593	Animals	the crow	
+3-594	Animals	the dove	
+3-596	Animals	the owl	owl [ladder:list] || owl | owl [candidates-02:roots-1500 deep]
+3-61	Animals	the dog	dog [lexicon:root] || dog | dog [candidates-02:root:totu]
+3-614	Animals	the rabbit	rabbit [ladder:list] || rabbit | rabbit [candidates-02:roots-1500 deep]
+3-62	Animals	the cat	cat [ladder:list] || cat | cat [candidates-02:roots-1500 deep]
+3-622	Animals	the opossum	
+3-63	Animals	the mouse or rat	mouse [ladder:list] || mouse | mouse [candidates-02:roots-1500 deep]
+3-65	Animals	the fish	fish | fish [candidates-02:root:woga] || fish, the animal [lexicon:root]
+3-652	Animals	the fin	
+3-653	Animals	the scale	
+3-654	Animals	the gill	
+3-655	Animals	the shell	
+3-661	Animals	the shark	
+3-663	Animals	the whale	
+3-664	Animals	the stingray	
+3-665	Animals	the freshwater eel	
+3-71	Animals	the wolf	wolf [ladder:list] || wolf | wolf [candidates-02:roots-1500 deep]
+3-72	Animals	the lion	lion [ladder:list] || lion | lion [candidates-02:roots-1500 deep]
+3-73	Animals	the bear	bear [ladder:list] || bear | bear [candidates-02:roots-1500 deep]
+3-74	Animals	the fox	fox [ladder:list] || fox | fox [candidates-02:roots-1500 deep]
+3-75	Animals	the deer	deer [ladder:list] || deer | deer [candidates-02:roots-1500 deep]
+3-76	Animals	the monkey	monkey [ladder:list] || monkey | monkey [candidates-02:roots-1500 deep]
+3-77	Animals	the elephant	elephant [ladder:list] || elephant | elephant [candidates-02:roots-1500 deep]
+3-78	Animals	the camel	
+3-81	Animals	the insect	insect [lexicon:root] || fly, the insect [lexicon:root] || insect | insect [candidates-02:root:sunni]
+3-811	Animals	the head louse	head [lexicon:root] || louse [lexicon:root] || head | head [candidates-02:root:lukan]
+3-812	Animals	the nit	
+3-813	Animals	the flea	
+3-814	Animals	the centipede	
+3-815	Animals	the scorpion	scorpion [compounds:phrase]
+3-816	Animals	the cockroach	
+3-817	Animals	the ant	ant [lexicon:root] || ant | ant [candidates-02:root:tonde]
+3-818	Animals	the spider	spider [compounds:phrase] || spider [ladder:list] || spider | spider [candidates-02:roots-1500 deep]
+3-819	Animals	the spider web	spider [compounds:phrase] || spider [ladder:list] || spider | spider [candidates-02:roots-1500 deep]
+3-82	Animals	the bee	bee [ladder:list] || bee | bee [candidates-02:roots-1500 deep]
+3-821	Animals	the beeswax	
+3-822	Animals	the beehive	
+3-823	Animals	the wasp	
+3-83	Animals	the fly	fly, the insect [lexicon:root] || insect [lexicon:root] || fly | fly [candidates-02:root:bina+gekon] || insect | insect [candidates-02:root:sunni] || fly, move through the air [lexicon:root]
+3-831	Animals	the sandfly or midge or gnat	
+3-832	Animals	the mosquito	mosquito [lexicon:root] || mosquito | mosquito [candidates-02:root:gonte]
+3-84	Animals	the worm	worm [lexicon:root] || worm | worm [candidates-02:root:enna]
+3-85	Animals	the snake	snake [lexicon:root] || snake | snake [candidates-02:root:dinbu]
+3-91	Animals	the firefly	
+3-92	Animals	the butterfly	butterfly [ladder:list] || butterfly | butterfly [candidates-02:roots-1500 deep]
+3-93	Animals	the grasshopper	grasshopper [compounds:phrase]
+3-94	Animals	the snail	
+3-95	Animals	the frog	frog [compounds:phrase] || frog [ladder:list] || frog | frog [candidates-02:roots-1500 deep]
+3-96	Animals	the lizard	
+3-97	Animals	the crocodile or alligator	crocodile [ladder:list] || crocodile | crocodile [candidates-02:roots-1500 deep]
+3-98	Animals	the turtle	turtle [compounds:phrase] || turtle [ladder:list]
+4-11	The body	the body	body [lexicon:root] || body.time [compounds:phrase] || body | body [candidates-02:root:gawo] || fat, body fat [lexicon:root] || back, of the body; behind [lexicon:root]
+4-12	The body	the skin or hide	skin [lexicon:root] || hide [lexicon:root] || skin | skin [candidates-02:root:unne] || hide | hide [candidates-02:root:mibun]
+4-13	The body	the flesh	
+4-14	The body	the hair	head [lexicon:root] || hair [lexicon:root] || head | head [candidates-02:root:lukan] || hair | hair [candidates-02:root:sonfa]
+4-142	The body	the beard	
+4-144	The body	the body hair	body [lexicon:root] || hair [lexicon:root] || body.time [compounds:phrase] || body | body [candidates-02:root:gawo] || hair | hair [candidates-02:root:sonfa] || fat, body fat [lexicon:root] || back, of the body; behind [lexicon:root]
+4-145	The body	the pubic hair	hair [lexicon:root] || hair | hair [candidates-02:root:sonfa]
+4-146	The body	the dandruff	
+4-15	The body	the blood	blood [lexicon:root] || blood | blood [candidates-02:root:makon]
+4-151	The body	the vein or artery	blood [lexicon:root] || blood | blood [candidates-02:root:makon]
+4-16	The body	the bone	bone [lexicon:root] || bone | bone [candidates-02:root:gipo]
+4-162	The body	the rib	
+4-17	The body	the horn	horn [lexicon:root] || horn | horn [candidates-02:root:yansi]
+4-18	The body	the tail	tail [lexicon:root] || tail | tail [candidates-02:root:kenlo]
+4-19	The body	the back	back | back [candidates-02:root:nebe] || back, of the body; behind [lexicon:root]
+4-191	The body	the spine	
+4-2	The body	the head	head [lexicon:root] || head | head [candidates-02:root:lukan]
+4-201	The body	the temples	
+4-202	The body	the skull	
+4-203	The body	the brain	brain [lexicon:root] || brain | brain [candidates-02:root:lemon]
+4-204	The body	the face	face [lexicon:root] || face | face [candidates-02:root:suku]
+4-205	The body	the forehead	forehead [ladder:list] || forehead | forehead [candidates-02:roots-1500]
+4-207	The body	the jaw	
+4-208	The body	the cheek	cheek [ladder:list] || cheek | cheek [candidates-02:roots-1500 deep]
+4-209	The body	the chin	chin [ladder:list] || chin | chin [candidates-02:roots-1500 deep]
+4-21	The body	the eye	eye [lexicon:root] || eye | eye [candidates-02:root:funo]
+4-212	The body	the eyebrow	
+4-213	The body	the eyelid	
+4-214	The body	the eyelash	
+4-215	The body	to blink	
+4-22	The body	the ear	ear [lexicon:root] || ear | ear [candidates-02:root:wisa]
+4-221	The body	the earlobe	
+4-222	The body	the earwax	
+4-23	The body	the nose	nose [lexicon:root] || nose | nose [candidates-02:root:danki]
+4-231	The body	the nostril	
+4-232	The body	the nasal mucus	
+4-24	The body	the mouth	mouth [lexicon:root] || mouth | mouth [candidates-02:root:fade]
+4-241	The body	the beak	
+4-25	The body	the lip	lip [lexicon:root] || lip | lip [candidates-02:root:gonge]
+4-26	The body	the tongue	tongue [lexicon:root] || tongue | tongue [candidates-02:root:lisun]
+4-27	The body	the tooth	tooth [lexicon:root] || tooth | tooth [candidates-02:root:fonma]
+4-271	The body	the gums	
+4-272	The body	the molar tooth	tooth [lexicon:root] || tooth | tooth [candidates-02:root:fonma]
+4-28	The body	the neck	neck [lexicon:root] || neck | neck [candidates-02:root:mogo]
+4-281	The body	the nape of the neck	neck [lexicon:root] || neck | neck [candidates-02:root:mogo]
+4-29	The body	the throat	throat [lexicon:root] || throat | throat [candidates-02:root:muban]
+4-3	The body	the shoulder	shoulder [lexicon:root] || shoulder | shoulder [candidates-02:root:sonyu]
+4-301	The body	the shoulderblade	
+4-302	The body	the collarbone	
+4-31	The body	the arm	arm [lexicon:root] || arm | arm [candidates-02:root:inyi]
+4-312	The body	the armpit	armpit [lexicon:root]
+4-32	The body	the elbow	
+4-321	The body	the wrist	
+4-33	The body	the hand	hand [lexicon:root] || hand | hand [candidates-02:root:kiti]
+4-331	The body	the palm of the hand	hand [lexicon:root] || hand | hand [candidates-02:root:kiti]
+4-34	The body	the finger	finger [lexicon:root] || finger | finger [candidates-02:root:linma] || nail, of a finger or toe [lexicon:root]
+4-342	The body	the thumb	
+4-344	The body	the fingernail	
+4-345	The body	the claw	
+4-35	The body	the leg	leg [lexicon:root] || leg | leg [candidates-02:root:bendo]
+4-351	The body	the thigh	leg [lexicon:root] || leg | leg [candidates-02:root:bendo]
+4-352	The body	the calf of the leg	leg [lexicon:root] || leg | leg [candidates-02:root:bendo]
+4-36	The body	the knee	knee [lexicon:root] || knee | knee [candidates-02:root:leyi]
+4-37	The body	the foot	foot [lexicon:root] || foot | foot [candidates-02:root:pifo] || run, on foot [lexicon:root]
+4-371	The body	the ankle	
+4-372	The body	the heel	
+4-374	The body	the footprint	
+4-38	The body	the toe	toe [lexicon:root] || toe | toe [candidates-02:root:gonmi] || nail, of a finger or toe [lexicon:root]
+4-392	The body	the wing	wing [lexicon:root] || wing | wing [candidates-02:root:yunbi]
+4-393	The body	the feather	feather [lexicon:root] || feather | feather [candidates-02:root:suba]
+4-4	The body	the chest	chest [ladder:covered:egu] || chest | chest [candidates-02:roots-1500]
+4-41	The body	the breast	breast [lexicon:root] || breast | breast [candidates-02:root:egu]
+4-412	The body	the nipple or teat	
+4-42	The body	the udder	
+4-43	The body	the navel	navel [lexicon:root] || navel | navel [candidates-02:root:wuwu]
+4-44	The body	the heart	heart [lexicon:root] || heart | heart [candidates-02:root:mala]
+4-441	The body	the lung	lung [lexicon:root] || lung | lung [candidates-02:root:badin]
+4-45	The body	the liver	liver [lexicon:root] || liver | liver [candidates-02:root:gudu]
+4-451	The body	the kidney	
+4-452	The body	the spleen	
+4-46	The body	the stomach	belly | stomach [candidates-02:root:suyon]
+4-461	The body	the intestines or guts	intestines [lexicon:root]
+4-462	The body	the waist	
+4-463	The body	the hip	
+4-464	The body	the buttocks	buttocks [lexicon:root]
+4-47	The body	the womb	womb [ladder:list] || womb | womb [candidates-02:roots-1500]
+4-49	The body	the testicles	testicles [lexicon:root] || testicles | testicle [candidates-02:root:bosun]
+4-492	The body	the penis	penis [lexicon:root] || penis | penis [candidates-02:root:wento]
+4-51	The body	to breathe	breathe [lexicon:root] || breathe | breath [candidates-02:root:togun]
+4-52	The body	to yawn	yawn [lexicon:root]
+4-521	The body	to hiccough	
+4-53	The body	to cough	cough [lexicon:root] || cough | cough [candidates-02:root:dowin]
+4-54	The body	to sneeze	sneeze [lexicon:root]
+4-55	The body	to perspire	sweat [lexicon:root] || sweat | sweat [candidates-02:root:tiwe]
+4-56	The body	to spit	spit [lexicon:root] || spit | spit [candidates-02:root:kefa]
+4-57	The body	to vomit	vomit [lexicon:root] || vomit | vomit [candidates-02:root:gabu]
+4-58	The body	to bite	bite [lexicon:root] || bite | bite [candidates-02:root:lasu]
+4-59	The body	to lick	lick [ladder:list] || lick | lick [candidates-02:roots-1500 deep]
+4-591	The body	to dribble	
+4-61	The body	to sleep	sleep [lexicon:root] || sleep | sleep [candidates-02:root:wopo]
+4-612	The body	to snore	snore [lexicon:root]
+4-62	The body	to dream	dream [lexicon:root] || dream | dream [candidates-02:root:sinun]
+4-63	The body	to wake up	wake [lexicon:root] || wake | wake up [candidates-02:root:unda]
+4-64	The body	to fart	fart [lexicon:root] || fart | fart [candidates-02:root:paben]
+4-65	The body	to piss	
+4-66	The body	to shit	defecate [lexicon:root] || shit | shit [candidates-02:root:desin]
+4-67	The body	to have sex	sex [ladder:list] || sex | sex [candidates-02:roots-1500] || have | have [candidates-02:root:ibe] || must, have to [lexicon:root] || have, possess [lexicon:root] || share, let others have too [lexicon:root]
+4-68	The body	to shiver	
+4-69	The body	to bathe	
+4-71	The body	to beget	
+4-72	The body	to be born	
+4-73	The body	pregnant	pregnant [ladder:list] || pregnant | pregnant [candidates-02:roots-1500]
+4-732	The body	to conceive	
+4-74	The body	to be alive	live, be alive, dwell; life [lexicon:root]
+4-75	The body	to die	die [lexicon:root] || die | die [candidates-02:root:kono]
+4-751	The body	to drown	
+4-76	The body	to kill	kill [lexicon:root] || kill | kill [candidates-02:root:omen]
+4-77	The body	the corpse	corpse [ladder:covered:gawo fafin] || corpse | corpse [candidates-02:roots-1500]
+4-78	The body	to bury	
+4-79	The body	the grave	grave [ladder:list] || grave | grave [candidates-02:roots-1500]
+4-81	The body	strong	strong [lexicon:root] || strong | strength [candidates-02:root:konke+lula]
+4-82	The body	weak	weak [lexicon:root] || weak | weak [candidates-02:root:nensi]
+4-83	The body	healthy	
+4-84	The body	sick/ill	sick [lexicon:root] || sick | disease [candidates-02:root:simi] || patient (sick person) [ladder:covered:ewo simi]
+4-841	The body	the fever	fever [ladder:list] || fever | fever [candidates-02:roots-1500]
+4-842	The body	the goitre/goiter	
+4-843	The body	the cold	common [additions-02:proposed:boundary question] || common [entrants-02:entrant:missing] || cold | cold [candidates-02:root:weki] || cold, not hot [lexicon:root] || sick | disease [candidates-02:root:simi] || common | common [candidates-02:entrant:missing]
+4-85	The body	the wound or sore	wound [ladder:list] || wound | wound [candidates-02:roots-1500]
+4-852	The body	the bruise	
+4-853	The body	the swelling	swell | swelling [candidates-02:root:tingu]
+4-854	The body	the itch	
+4-855	The body	the blister	
+4-856	The body	the boil	skin [lexicon:root] || boil [lexicon:root] || skin | skin [candidates-02:root:unne] || boil | boil [candidates-02:root:binla]
+4-857	The body	the pus	
+4-858	The body	the scar	
+4-86	The body	to cure	heal | cure [candidates-02:entrant:missing]
+4-87	The body	the physician	
+4-88	The body	the medicine	medicine [ladder:list] || medicine | medicine [candidates-02:roots-1500 deep]
+4-89	The body	the poison	poison [ladder:list] || poison | poison [candidates-02:roots-1500]
+4-91	The body	tired	tired [lexicon:root] || tired | tired [candidates-02:root:fadun]
+4-912	The body	to rest	rest | rest [candidates-02:root:yenbo] || rest, take a break [lexicon:root]
+4-92	The body	lazy	
+4-93	The body	bald	
+4-94	The body	lame	
+4-95	The body	deaf	
+4-96	The body	mute	
+4-97	The body	blind	blind [ladder:list] || blind | blind [candidates-02:roots-1500]
+4-98	The body	drunk	drunk [ladder:list] || drunk | drunk [candidates-02:roots-1500]
+4-99	The body	naked	
+5-11	Food and drink	to eat	eat [lexicon:root] || eat | eat [candidates-02:root:nawi]
+5-12	Food and drink	the food	food [lexicon:root] || food | food [candidates-02:root:pasu]
+5-121	Food and drink	cooked	
+5-122	Food and drink	raw	raw [lexicon:root] || raw | raw [candidates-02:root:bewon]
+5-123	Food and drink	ripe	ripe [lexicon:root] || ripe | mature [candidates-02:root:bubin]
+5-124	Food and drink	unripe	
+5-125	Food and drink	rotten	rotten [lexicon:root] || rotten | rotten [candidates-02:root:yuson]
+5-13	Food and drink	to drink	drink [lexicon:root] || drink | drink [candidates-02:root:koye]
+5-14	Food and drink	to be hungry	hungry [lexicon:root] || hungry | hunger [candidates-02:root:monyu]
+5-141	Food and drink	the famine	
+5-15	Food and drink	to be thirsty	
+5-16	Food and drink	to suck	suck [lexicon:root] || suck | suck [candidates-02:root:maman]
+5-18	Food and drink	to chew	chew [lexicon:root]
+5-181	Food and drink	to swallow	swallow [walk-02:walk:G]
+5-19	Food and drink	to choke	
+5-21	Food and drink	to cook	cook [lexicon:root] || cook | cook [candidates-02:root:siten]
+5-22	Food and drink	to boil	boil [lexicon:root] || liquid [ladder:list] || boil | boil [candidates-02:root:binla] || oil, the liquid [lexicon:root] || liquid | liquid [candidates-02:roots-1500]
+5-23	Food and drink	to roast or fry	
+5-24	Food and drink	to bake	
+5-25	Food and drink	the oven	oven [ladder:list]
+5-26	Food and drink	the pot	pot [ladder:list]
+5-27	Food and drink	the kettle	
+5-28	Food and drink	the pan	
+5-31	Food and drink	the dish	
+5-32	Food and drink	the plate	plate [ladder:list] || plate | plate [candidates-02:roots-1500 deep]
+5-33	Food and drink	the bowl	bowl [ladder:list] || bowl | bowl [candidates-02:roots-1500 deep]
+5-34	Food and drink	the jug/pitcher	
+5-35	Food and drink	the cup	cup [lexicon:root] || cup | cup [candidates-02:root:ladon]
+5-36	Food and drink	the saucer	
+5-37	Food and drink	the spoon	spoon [ladder:list] || spoon | spoon [candidates-02:roots-1500 deep]
+5-38	Food and drink	the knife(1)	knife [ladder:list] || knife | knife [candidates-02:roots-1500 deep]
+5-39	Food and drink	the fork	fork [ladder:list] || fork | fork [candidates-02:roots-1500 deep]
+5-391	Food and drink	the tongs	
+5-41	Food and drink	the meal	
+5-42	Food and drink	the breakfast	breakfast [ladder:list] || breakfast | breakfast [candidates-02:roots-1500]
+5-43	Food and drink	the lunch	lunch [walk-02:walk:P]
+5-44	Food and drink	the dinner	
+5-45	Food and drink	the supper	
+5-46	Food and drink	to peel	
+5-47	Food and drink	to sieve or to strain	
+5-48	Food and drink	to scrape	
+5-49	Food and drink	to stir or to mix	mix [ladder:list] || mix | mix [candidates-02:roots-1500]
+5-51	Food and drink	the bread	bread [lexicon:root] || bread | bread [candidates-02:root:sowe]
+5-53	Food and drink	the dough	
+5-54	Food and drink	to knead	
+5-55	Food and drink	the flour	flour [walk-02:walk:G]
+5-56	Food and drink	to crush or to grind	crush [lexicon:root] || grind [lexicon:root]
+5-57	Food and drink	the mill	
+5-58	Food and drink	the mortar(1)	
+5-59	Food and drink	the pestle	
+5-61	Food and drink	the meat	meat [lexicon:root] || meat | meat [candidates-02:root:fuyu]
+5-63	Food and drink	the sausage	sausage [ladder:list]
+5-64	Food and drink	the soup	soup [ladder:list] || soup | soup [candidates-02:roots-1500 deep]
+5-65	Food and drink	the vegetables	
+5-66	Food and drink	the bean	bean [ladder:list]
+5-7	Food and drink	the potato	potato [ladder:list] || potato | potato [candidates-02:roots-1500 deep]
+5-71	Food and drink	the fruit	fruit [lexicon:root] || fruit | fruit [candidates-02:root:tanun]
+5-712	Food and drink	the bunch	bunch [walk-02:walk:P]
+5-75	Food and drink	the fig	
+5-76	Food and drink	the grape	grape [ladder:list] || grape | grape [candidates-02:roots-1500 deep]
+5-77	Food and drink	the nut	nut [ladder:list] || nut | nut [candidates-02:roots-1500 deep]
+5-78	Food and drink	the olive	
+5-79	Food and drink	the oil	oil | oil [candidates-02:root:yunen] || oil, the liquid [lexicon:root]
+5-791	Food and drink	the grease or fat	fat | fat [candidates-02:root:gimen] || fat, body fat [lexicon:root]
+5-81	Food and drink	the salt	salt [lexicon:root] || salt | salt [candidates-02:root:bunwu]
+5-82	Food and drink	the pepper	
+5-821	Food and drink	the chili pepper	
+5-84	Food and drink	the honey	honey [ladder:list] || honey | honey [candidates-02:roots-1500]
+5-85	Food and drink	the sugar	sugar [ladder:list] || sugar | sugar [candidates-02:roots-1500 deep]
+5-86	Food and drink	the milk	milk [lexicon:root] || milk | milk [candidates-02:root:tunlo]
+5-87	Food and drink	to milk	milk [lexicon:root] || draw [ladder:list] || milk | milk [candidates-02:root:tunlo] || draw | drawing [candidates-02:roots-1500 deep]
+5-88	Food and drink	the cheese	cheese [ladder:list] || cheese | cheese [candidates-02:roots-1500 deep]
+5-89	Food and drink	the butter	butter [ladder:list] || butter | butter [candidates-02:roots-1500 deep]
+5-9	Food and drink	the drink	drink [lexicon:root] || drink | drink [candidates-02:root:koye]
+5-91	Food and drink	the mead	
+5-92	Food and drink	the wine	wine [ladder:list] || wine | wine [candidates-02:roots-1500]
+5-93	Food and drink	the beer	beer [ladder:list] || beer | beer [candidates-02:roots-1500]
+5-94	Food and drink	the fermented drink	drink [lexicon:root] || alcohol [ladder:list] || drink | drink [candidates-02:root:koye] || alcohol | alcohol [candidates-02:roots-1500]
+5-97	Food and drink	the egg	egg [lexicon:root] || egg | egg [candidates-02:root:tika]
+5-971	Food and drink	the yolk	
+6-11	Clothing and grooming	to put on	put [lexicon:root] || put | put [candidates-02:root:yaga] || add, put in more [lexicon:root]
+6-12	Clothing and grooming	the clothing or clothes	clothes [lexicon:root] || clothes | clothes [candidates-02:root:lonne]
+6-13	Clothing and grooming	the tailor	
+6-21	Clothing and grooming	the cloth	cloth [lexicon:root] || cloth | cloth [candidates-02:root:demi]
+6-22	Clothing and grooming	the wool	
+6-23	Clothing and grooming	the linen	
+6-24	Clothing and grooming	the cotton	
+6-25	Clothing and grooming	the silk	
+6-27	Clothing and grooming	the felt	
+6-28	Clothing and grooming	the fur	
+6-29	Clothing and grooming	the leather	
+6-31	Clothing and grooming	to spin	
+6-32	Clothing and grooming	the spindle	
+6-33	Clothing and grooming	to weave	
+6-34	Clothing and grooming	the loom	
+6-35	Clothing and grooming	to sew	
+6-36	Clothing and grooming	the needle(1)	needle [ladder:list] || needle | needle [candidates-02:roots-1500]
+6-37	Clothing and grooming	the awl	
+6-38	Clothing and grooming	the thread	thread [additions-02:proposed:root] || thread [entrants-02:entrant:missing] || thread | thread [candidates-02:entrant:missing]
+6-39	Clothing and grooming	to dye	
+6-41	Clothing and grooming	the cloak	
+6-411	Clothing and grooming	the poncho	
+7-37	The house	the ladder	ladder [ladder:list] || ladder | ladder [candidates-02:roots-1500 deep]
+6-42	Clothing and grooming	the (woman's) dress	dress [ladder:list] || woman, female [lexicon:root] || woman | woman [candidates-02:root:futa] || dress | dress [candidates-02:roots-1500 deep]
+6-43	Clothing and grooming	the coat	coat [ladder:list] || coat | coat [candidates-02:roots-1500 deep]
+6-44	Clothing and grooming	the shirt	shirt [ladder:list] || T-shirt [ladder:list] || shirt | shirt [candidates-02:roots-1500 deep] || T-shirt | t-shirt [candidates-02:roots-1500 deep]
+6-45	Clothing and grooming	the collar	
+6-46	Clothing and grooming	the skirt	skirt [ladder:list] || skirt | skirt [candidates-02:roots-1500 deep]
+6-461	Clothing and grooming	the grass-skirt	grass [lexicon:root] || skirt [ladder:list] || grass | grass [candidates-02:root:tunmu] || skirt | skirt [candidates-02:roots-1500 deep]
+6-48	Clothing and grooming	the trousers	trousers [ladder:list] || trousers | trousers, pants [candidates-02:roots-1500 deep]
+6-49	Clothing and grooming	the sock or stocking	sock [ladder:list] || sock | sock [candidates-02:roots-1500 deep]
+6-51	Clothing and grooming	the shoe	shoe [ladder:list] || shoe | shoe [candidates-02:roots-1500 deep]
+6-52	Clothing and grooming	the boot	boot [ladder:list]
+6-54	Clothing and grooming	the shoemaker	
+6-55	Clothing and grooming	the hat or cap	hat [ladder:list] || hat | hat [candidates-02:roots-1500 deep]
+6-57	Clothing and grooming	the belt	belt [ladder:list] || belt | belt [candidates-02:roots-1500 deep]
+6-58	Clothing and grooming	the glove	glove [ladder:list] || glove | glove [candidates-02:roots-1500 deep]
+6-59	Clothing and grooming	the veil	
+6-61	Clothing and grooming	the pocket	pocket [ladder:list] || pocket | pocket [candidates-02:roots-1500]
+6-62	Clothing and grooming	the button	key, button [lexicon:root] || button | button [candidates-02:root:tinli]
+6-63	Clothing and grooming	the pin	
+6-71	Clothing and grooming	the ornament or adornment	
+6-72	Clothing and grooming	the jewel	
+6-73	Clothing and grooming	the ring	ring [ladder:list] || ring | ring [candidates-02:roots-1500]
+6-74	Clothing and grooming	the bracelet	
+6-75	Clothing and grooming	the necklace	necklace [ladder:list] || necklace | necklace [candidates-02:roots-1500 deep]
+6-76	Clothing and grooming	the bead	
+6-77	Clothing and grooming	the earring	
+6-78	Clothing and grooming	the headband or headdress	
+6-79	Clothing and grooming	the tattoo	
+6-81	Clothing and grooming	the handkerchief or rag	
+6-82	Clothing and grooming	the towel	towel [ladder:list] || towel | towel [candidates-02:roots-1500 deep]
+6-91	Clothing and grooming	the comb	comb [ladder:list] || comb | comb [candidates-02:roots-1500 deep]
+6-92	Clothing and grooming	the brush	brush [ladder:list] || brush | brush [candidates-02:roots-1500 deep]
+6-921	Clothing and grooming	the plait/braid	
+6-93	Clothing and grooming	the razor	
+6-94	Clothing and grooming	the ointment	
+6-95	Clothing and grooming	the soap	soap [ladder:list] || soap | soap [candidates-02:roots-1500 deep]
+6-96	Clothing and grooming	the mirror	mirror [ladder:list] || mirror | mirror [candidates-02:roots-1500 deep]
+7-11	The house	to live	live, be alive, dwell; life [lexicon:root] || live | live [candidates-02:root:nume]
+7-12	The house	the house	move.house [compounds:phrase] || house, home [lexicon:root] || house | house [candidates-02:root:guyi]
+7-13	The house	the hut	
+7-131	The house	the garden-house	garden [ladder:list] || move.house [compounds:phrase] || house, home [lexicon:root] || house | house [candidates-02:root:guyi] || garden | garden [candidates-02:roots-1500 deep]
+7-14	The house	the tent	tent [walk-02:walk:G]
+7-15	The house	the yard or court	yard [ladder:list] || court [ladder:list] || court | court [candidates-02:roots-1500] || yard | courtyard [candidates-02:roots-1500 deep]
+7-16	The house	the men's house	move.house [compounds:phrase] || house, home [lexicon:root] || house | house [candidates-02:root:guyi]
+7-17	The house	the cookhouse	
+7-18	The house	the meeting house	meeting [ladder:list] || move.house [compounds:phrase] || house, home [lexicon:root] || house | house [candidates-02:root:guyi] || meeting | meeting [candidates-02:roots-1500]
+7-21	The house	the room	living room [ladder:list] || room | room [candidates-02:root:fudon] || room, of a building [lexicon:root] || living room | living room [candidates-02:roots-1500 deep]
+7-22	The house	the door or gate	door [lexicon:root] || gate [ladder:covered:beya] || door | door [candidates-02:root:beya] || gate | gate [candidates-02:roots-1500]
+7-221	The house	the doorpost	
+7-23	The house	the lock	lock [lexicon:root] || lock | lock [candidates-02:root:udin]
+7-231	The house	the latch or door-bolt	door [lexicon:root] || door | door [candidates-02:root:beya]
+7-24	The house	the key	key | key [candidates-02:root:tinli] || key, button [lexicon:root]
+7-25	The house	the window	window [ladder:list] || window | window [candidates-02:roots-1500 deep]
+7-26	The house	the floor	floor | floor [candidates-02:root:sison] || storey, floor level of a building [lexicon:root]
+7-27	The house	the wall	wall [lexicon:root] || move.house [compounds:phrase] || house, home [lexicon:root] || wall | wall [candidates-02:root:senmo] || house | house [candidates-02:root:guyi]
+7-31	The house	the fireplace	
+7-32	The house	the stove	stove [ladder:list] || stove | stove [candidates-02:roots-1500 deep]
+7-33	The house	the chimney	
+7-42	The house	the bed	bed [lexicon:root] || bed | bed [candidates-02:root:soti]
+7-421	The house	the pillow	pillow [ladder:list] || pillow | pillow [candidates-02:roots-1500 deep]
+7-422	The house	the blanket	blanket [ladder:list] || blanket | blanket [candidates-02:roots-1500 deep]
+7-43	The house	the chair	chair [ladder:list] || chair | chair [candidates-02:roots-1500 deep]
+7-44	The house	the table	table [ladder:list] || table | table [candidates-02:roots-1500 deep]
+7-45	The house	the lamp or torch	lamp [ladder:list] || lamp | lamp [candidates-02:roots-1500 deep]
+7-46	The house	the candle	
+7-47	The house	the shelf	
+7-48	The house	the trough	
+7-51	The house	the roof	roof [lexicon:root] || roof | roof [candidates-02:root:kuwun]
+7-52	The house	the thatch	
+7-53	The house	the ridgepole	
+7-54	The house	the rafter	
+7-55	The house	the beam	
+7-56	The house	the post or pole	pole [ladder:list] || post [ladder:list] || post (mail) [ladder:merge:letter] || post | post [candidates-02:roots-1500] || pole | pole [candidates-02:roots-1500] || post (online) [ladder:merge:message]
+7-57	The house	the board	board [ladder:list] || board | board [candidates-02:roots-1500]
+7-58	The house	the arch	
+7-61	The house	the mason	
+7-62	The house	the brick	
+7-63	The house	the mortar(2)	
+7-64	The house	the adobe	
+8-11	Agriculture and vegetation	the farmer	farmer [ladder:covered:no farm] || farmer | farmer [candidates-02:roots-1500]
+8-12	Agriculture and vegetation	the field	field | field [candidates-02:root:sekan] || field, open land [lexicon:root]
+8-13	Agriculture and vegetation	the garden	garden [ladder:list] || garden | garden [candidates-02:roots-1500 deep]
+8-15	Agriculture and vegetation	to cultivate	
+8-16	Agriculture and vegetation	the fence	fence [ladder:list] || fence | fence [candidates-02:roots-1500]
+8-17	Agriculture and vegetation	the ditch	
+8-21	Agriculture and vegetation	to plough/plow	
+8-212	Agriculture and vegetation	the furrow	
+8-22	Agriculture and vegetation	to dig	dig [lexicon:root] || dig | dig [candidates-02:root:wenfe]
+8-23	Agriculture and vegetation	the spade	spade [ladder:list] || spade | spade [candidates-02:roots-1500 deep]
+8-24	Agriculture and vegetation	the shovel	
+8-25	Agriculture and vegetation	the hoe	
+8-26	Agriculture and vegetation	the fork(2)/pitchfork	fork [ladder:list] || fork | fork [candidates-02:roots-1500 deep]
+8-27	Agriculture and vegetation	the rake	
+8-31	Agriculture and vegetation	to sow	
+8-311	Agriculture and vegetation	the seed	seed [lexicon:root] || seed | seed [candidates-02:root:yikan]
+8-32	Agriculture and vegetation	to mow	
+8-33	Agriculture and vegetation	the sickle or scythe	
+8-34	Agriculture and vegetation	to thresh	
+8-35	Agriculture and vegetation	the threshing-floor	floor | floor [candidates-02:root:sison] || storey, floor level of a building [lexicon:root]
+8-41	Agriculture and vegetation	the harvest	season [ladder:list] || harvest [walk-02:walk:G] || rainy.season [compounds:phrase] || spring (season) [ladder:covered:muyi pi meyen] || season | season [candidates-02:roots-1500]
+8-42	Agriculture and vegetation	the grain	grain [ladder:list] || grain | grain [candidates-02:roots-1500]
+8-43	Agriculture and vegetation	the wheat	wheat [ladder:list] || wheat | wheat [candidates-02:roots-1500]
+8-44	Agriculture and vegetation	the barley	
+8-45	Agriculture and vegetation	the rye	
+8-46	Agriculture and vegetation	the oats	
+8-47	Agriculture and vegetation	the maize/corn	maize [ladder:list] || maize | maize [candidates-02:roots-1500 deep]
+8-48	Agriculture and vegetation	the rice	rice [lexicon:root] || rice | rice [candidates-02:root:yegon]
+8-51	Agriculture and vegetation	the grass	grass [lexicon:root] || grass | grass [candidates-02:root:tunmu]
+8-52	Agriculture and vegetation	the hay	
+8-53	Agriculture and vegetation	the plant	plant, vegetation [lexicon:root] || plant | plant [candidates-02:root:pinfe] || root, of a plant [lexicon:root]
+8-531	Agriculture and vegetation	to plant	plant | plant [candidates-02:root:pinfe] || root, of a plant [lexicon:root] || plant, vegetation [lexicon:root]
+8-54	Agriculture and vegetation	the root	root | root [candidates-02:root:yinki] || root, of a plant [lexicon:root]
+8-55	Agriculture and vegetation	the branch	branch [ladder:list] || branch | branch [candidates-02:roots-1500]
+8-56	Agriculture and vegetation	the leaf	leaf [lexicon:root] || leaf | leaf [candidates-02:root:wonin]
+8-57	Agriculture and vegetation	the flower	flower [lexicon:root] || flower | flower [candidates-02:root:meyen]
+8-6	Agriculture and vegetation	the tree	tree [lexicon:root] || tree | tree [candidates-02:root:gala] || bark, of a tree [lexicon:root]
+8-61	Agriculture and vegetation	the oak	
+8-62	Agriculture and vegetation	the beech	
+8-63	Agriculture and vegetation	the birch	
+8-64	Agriculture and vegetation	the pine	
+8-65	Agriculture and vegetation	the fir	
+8-66	Agriculture and vegetation	the acorn	
+8-67	Agriculture and vegetation	the vine	
+8-68	Agriculture and vegetation	the tobacco	
+8-69	Agriculture and vegetation	to smoke	smoke [lexicon:root] || smoke | smoke [candidates-02:root:penso]
+8-691	Agriculture and vegetation	the pipe	pipe [ladder:list] || pipe | pipe [candidates-02:roots-1500]
+8-72	Agriculture and vegetation	the tree stump	tree [lexicon:root] || tree | tree [candidates-02:root:gala] || bark, of a tree [lexicon:root]
+8-73	Agriculture and vegetation	the tree trunk	tree [lexicon:root] || tree | tree [candidates-02:root:gala] || bark, of a tree [lexicon:root]
+8-74	Agriculture and vegetation	the forked branch	branch [ladder:list] || branch | branch [candidates-02:roots-1500]
+8-75	Agriculture and vegetation	the bark	bark | bark [candidates-02:root:tase] || bark, of a tree [lexicon:root]
+8-76	Agriculture and vegetation	the sap	
+8-81	Agriculture and vegetation	the palm tree	tree [lexicon:root] || tree | tree [candidates-02:root:gala] || bark, of a tree [lexicon:root]
+8-82	Agriculture and vegetation	the coconut	
+8-83	Agriculture and vegetation	the citrus fruit	fruit [lexicon:root] || fruit | fruit [candidates-02:root:tanun]
+8-84	Agriculture and vegetation	the banana	banana [ladder:list] || banana | banana [candidates-02:roots-1500 deep]
+8-85	Agriculture and vegetation	the banyan	
+8-91	Agriculture and vegetation	the sweet potato	sweet [lexicon:root] || potato [ladder:list] || sweet | sweet [candidates-02:root:sinta] || potato | potato [candidates-02:roots-1500 deep]
+8-912	Agriculture and vegetation	the yam	
+8-92	Agriculture and vegetation	the cassava/manioc	
+8-93	Agriculture and vegetation	the gourd	
+8-931	Agriculture and vegetation	the pumpkin or squash	
+8-94	Agriculture and vegetation	the bamboo	
+8-941	Agriculture and vegetation	the sugar cane	sugar [ladder:list] || sugar | sugar [candidates-02:roots-1500 deep]
+8-96	Agriculture and vegetation	the fish poison	poison [ladder:list] || fish | fish [candidates-02:root:woga] || poison | poison [candidates-02:roots-1500] || fish, the animal [lexicon:root]
+8-97	Agriculture and vegetation	the nettle	
+8-98	Agriculture and vegetation	the mushroom	
+9-11	Basic actions and technology	to do	do | do [candidates-02:root:muge] || do; make [lexicon:root]
+9-12	Basic actions and technology	the work	work, labour; of a machine, function [lexicon:root] || work | work [candidates-02:root:doku] || part.time.work [compounds:phrase] || strike (labour) [ladder:list]
+9-14	Basic actions and technology	to bend	bend [walk-02:walk:G]
+9-15	Basic actions and technology	to fold	fold [walk-02:walk:G]
+9-16	Basic actions and technology	to tie	tie | tie [candidates-02:root:manfu] || tie, fasten with a knot [lexicon:root]
+9-161	Basic actions and technology	to untie	
+9-18	Basic actions and technology	the chain	chain [additions-02:proposed:root] || chain [entrants-02:entrant:missing] || chain | chain [candidates-02:entrant:missing]
+9-19	Basic actions and technology	the rope	rope [lexicon:root] || rope | rope [candidates-02:root:tenbe]
+9-192	Basic actions and technology	the knot	knot | knot [candidates-02:root:manfu] || tie, fasten with a knot [lexicon:root]
+9-21	Basic actions and technology	to strike or hit or beat	strike (hit) [ladder:covered:payon] || hit [lexicon:root] || strike [ladder:list] || hit | hit [candidates-02:root:payon] || strike (labour) [ladder:list] || strike | strike [candidates-02:roots-1500]
+9-211	Basic actions and technology	to pound	pound [ladder:list] || pound | pound [candidates-02:roots-1500]
+9-22	Basic actions and technology	to cut	cut [lexicon:root] || cut | cut [candidates-02:root:fonsu]
+9-221	Basic actions and technology	to cut down	cut [lexicon:root] || cut | cut [candidates-02:root:fonsu] || below | down [candidates-02:root:deba] || lie, lie down [lexicon:root] || fall, drop down [lexicon:root] || descend | go down [candidates-02:entrant:composes]
+9-222	Basic actions and technology	to chop	
+9-223	Basic actions and technology	to stab	stab [lexicon:root] || stab | stab [candidates-02:root:kunwa]
+9-23	Basic actions and technology	the knife(2)	knife [ladder:list] || knife | knife [candidates-02:roots-1500 deep]
+9-24	Basic actions and technology	the scissors or shears	scissors [ladder:list]
+9-25	Basic actions and technology	the axe/ax	
+9-251	Basic actions and technology	the adze	
+9-26	Basic actions and technology	to break	break [lexicon:root] || destroy [additions-02:proposed:boundary question] || destroy [entrants-02:entrant:missing] || get, obtain [lexicon:root] || get | receive [candidates-02:root:dunu] || break | break [candidates-02:root:alun] || destroy | destroy [candidates-02:entrant:missing] || rest, take a break [lexicon:root]
+9-261	Basic actions and technology	broken	cold, not hot [lexicon:root] || hard, not soft [lexicon:root] || short, not long [lexicon:root] || light, not heavy [lexicon:root] || safe, not in danger [lexicon:root] || private, not for others [lexicon:root] || free, not held or controlled [lexicon:root] || not literally, joking (speech act) [lexicon:root]
+9-27	Basic actions and technology	to split	split [lexicon:root] || split | split [candidates-02:root:buyan]
+9-28	Basic actions and technology	to tear	tear [ladder:list] || tear (rip) [ladder:list] || tear | tear [candidates-02:roots-1500 deep]
+9-83	Basic actions and technology	the statue	statue [additions-02:proposed:root] || statue [entrants-02:entrant:missing] || statue | statue [candidates-02:entrant:missing]
+9-29	Basic actions and technology	to skin	skin [lexicon:root] || pull [lexicon:root] || skin | skin [candidates-02:root:unne] || pull | pull [candidates-02:root:nunya]
+9-31	Basic actions and technology	to rub	
+9-32	Basic actions and technology	to stretch	stretch [walk-02:walk:G]
+9-33	Basic actions and technology	to pull	pull [lexicon:root] || pull | pull [candidates-02:root:nunya]
+9-34	Basic actions and technology	to spread out	spread [ladder:list] || spread | spread [candidates-02:roots-1500]
+9-341	Basic actions and technology	to hang up	hang [walk-02:walk:G]
+9-342	Basic actions and technology	to press	press [ladder:list] || press (push) [ladder:covered:dandi] || press (media) [ladder:list] || press | press [candidates-02:roots-1500]
+9-343	Basic actions and technology	to squeeze	squeeze [lexicon:root] || squeeze | squeeze [candidates-02:root:donbo]
+9-35	Basic actions and technology	to pour	pour [ladder:list] || pour | pour [candidates-02:roots-1500 deep]
+9-36	Basic actions and technology	to wash	wash [lexicon:root] || wash | wash [candidates-02:root:pensi]
+9-37	Basic actions and technology	to sweep	sweep [ladder:list] || sweep | sweep [candidates-02:roots-1500 deep]
+9-38	Basic actions and technology	the broom	broom [ladder:list] || broom | broom [candidates-02:roots-1500 deep]
+9-422	Basic actions and technology	the tool	tool [lexicon:root] || tool | tool [candidates-02:root:yetu]
+9-43	Basic actions and technology	the carpenter	
+9-44	Basic actions and technology	to build	build [lexicon:root] || build | build [candidates-02:root:selo]
+9-46	Basic actions and technology	to bore	
+9-461	Basic actions and technology	to hollow out	
+9-48	Basic actions and technology	the saw	
+9-49	Basic actions and technology	the hammer	hammer [ladder:list] || hammer | hammer [candidates-02:roots-1500 deep]
+9-5	Basic actions and technology	the nail	tool [lexicon:root] || tool | tool [candidates-02:root:yetu] || nail | nail [candidates-02:root:tolin] || nail, of a finger or toe [lexicon:root]
+9-56	Basic actions and technology	the glue	glue [ladder:list] || glue | glue [candidates-02:roots-1500 deep]
+9-6	Basic actions and technology	the blacksmith	
+9-61	Basic actions and technology	to forge	
+9-62	Basic actions and technology	the anvil	
+9-63	Basic actions and technology	to cast	
+9-64	Basic actions and technology	the gold	gold [ladder:list] || gold | gold [candidates-02:roots-1500]
+9-65	Basic actions and technology	the silver	silver [ladder:list] || silver | silver [candidates-02:roots-1500]
+9-66	Basic actions and technology	the copper	copper [ladder:list] || copper | copper [candidates-02:roots-1500]
+9-67	Basic actions and technology	the iron	iron [ladder:list] || iron | iron [candidates-02:roots-1500]
+9-68	Basic actions and technology	the lead	element [ladder:list] || lead, guide [lexicon:root] || lead | lead [candidates-02:root:wungu] || element | element [candidates-02:roots-1500]
+9-69	Basic actions and technology	the tin or tinplate	
+9-71	Basic actions and technology	the potter	
+9-72	Basic actions and technology	to mould/mold	
+9-73	Basic actions and technology	the clay	
+9-74	Basic actions and technology	the glass	glass | glass [candidates-02:root:degun] || glass, the material [lexicon:root]
+9-75	Basic actions and technology	to weave or plait/braid	basket [lexicon:root] || basket | basket [candidates-02:root:kanga]
+9-76	Basic actions and technology	the basket	basket [lexicon:root] || basket | basket [candidates-02:root:kanga]
+9-77	Basic actions and technology	the mat	
+9-771	Basic actions and technology	the rug	
+9-78	Basic actions and technology	the netbag	
+9-79	Basic actions and technology	the fan	fan [ladder:list] || fan | fan [candidates-02:roots-1500] || fan (device) [ladder:list]
+9-791	Basic actions and technology	to fan	fan [ladder:list] || fan | fan [candidates-02:roots-1500] || fan (device) [ladder:list]
+9-81	Basic actions and technology	to carve	
+9-82	Basic actions and technology	the sculptor	
+9-84	Basic actions and technology	the chisel	
+9-88	Basic actions and technology	the paint	paint [ladder:list] || paint | painting [candidates-02:roots-1500 deep]
+9-89	Basic actions and technology	to paint	paint | painting [candidates-02:roots-1500 deep] || paint [ladder:list]
+10-11	Motion	to move	move [lexicon:root] || move.house [compounds:phrase] || move | move [candidates-02:root:kobi] || fly, move through the air [lexicon:root]
+10-12	Motion	to turn	turn off [ladder:covered:tapi] || turn | turn [candidates-02:root:duko] || turn off | turn off [candidates-02:roots-1500] || turn, rotate or turn around [lexicon:root]
+10-13	Motion	to turn around	turn, rotate or turn around [lexicon:root] || turn off [ladder:covered:tapi] || turn | turn [candidates-02:root:duko] || turn off | turn off [candidates-02:roots-1500]
+10-14	Motion	to wrap	
+10-15	Motion	to roll	
+10-16	Motion	to drop	fall, drop down [lexicon:root]
+10-17	Motion	to twist	turn, rotate or turn around [lexicon:root]
+10-21	Motion	to rise	move [lexicon:root] || rise [ladder:list] || move.house [compounds:phrase] || move | move [candidates-02:root:kobi] || rise | rise [candidates-02:roots-1500] || fly, move through the air [lexicon:root]
+10-22	Motion	to raise or lift	raise [ladder:list] || raise | raise [candidates-02:roots-1500]
+10-23	Motion	to fall	fall | fall [candidates-02:root:dosi] || fall, drop down [lexicon:root]
+10-24	Motion	to drip	liquid [ladder:list] || oil, the liquid [lexicon:root] || liquid | liquid [candidates-02:roots-1500]
+10-25	Motion	to throw	throw [lexicon:root] || throw | throw [candidates-02:root:gitin]
+10-252	Motion	to catch	catch [ladder:list] || catch | catch [candidates-02:roots-1500 deep]
+10-26	Motion	to shake	shake | shake [candidates-02:root:susin] || shake, vibrate [lexicon:root]
+10-32	Motion	to flow	flow [lexicon:root] || flow | flow [candidates-02:root:magan]
+10-33	Motion	to sink	sink [ladder:list] || descend [entrants-02:entrant:composes] || sink | sink [candidates-02:roots-1500 deep] || descend | go down [candidates-02:entrant:composes]
+10-34	Motion	to float	
+10-35	Motion	to swim	swim [lexicon:root] || swim | swim [candidates-02:root:lonfe]
+10-351	Motion	to dive	
+10-352	Motion	to splash	
+10-36	Motion	to sail	
+10-37	Motion	to fly	fly, move through the air [lexicon:root] || air [lexicon:root] || move [lexicon:root] || air | air [candidates-02:root:wunta] || fly | fly [candidates-02:root:bina+gekon] || move.house [compounds:phrase] || move | move [candidates-02:root:kobi] || blow, of air [lexicon:root]
+10-38	Motion	to blow	wind [lexicon:root] || wind | wind [candidates-02:root:gulo] || blow | blow [candidates-02:root:nanyo] || blow, of air [lexicon:root]
+10-41	Motion	to crawl	
+10-412	Motion	to kneel	
+10-413	Motion	to crouch	
+10-42	Motion	to slide or slip	slide (slip) [ladder:list] || slide [ladder:list] || slide | slide [candidates-02:roots-1500 deep]
+10-43	Motion	to jump	jump [ladder:list] || jump | jump [candidates-02:roots-1500 deep]
+10-431	Motion	to kick	kick [ladder:list] || kick | kick [candidates-02:roots-1500 deep]
+10-44	Motion	to dance	dance [ladder:list] || dance | dance [candidates-02:roots-1500 deep]
+10-45	Motion	to walk	walk [lexicon:root] || walk | walk [candidates-02:root:niba]
+10-451	Motion	to limp	
+10-46	Motion	to run	run | run [candidates-02:root:gabe] || run, on foot [lexicon:root]
+10-47	Motion	to go	go [lexicon:root] || go | go [candidates-02:root:isi] || descend | go down [candidates-02:entrant:composes] || leave, go away from [lexicon:root]
+10-471	Motion	to go up	go [lexicon:root] || go | go [candidates-02:root:isi] || descend | go down [candidates-02:entrant:composes] || leave, go away from [lexicon:root]
+10-472	Motion	to climb	climb [lexicon:root] || climb | climb [candidates-02:root:falan]
+10-473	Motion	to go down	descend | go down [candidates-02:entrant:composes] || go [lexicon:root] || go | go [candidates-02:root:isi] || descend [entrants-02:entrant:composes] || below | down [candidates-02:root:deba] || lie, lie down [lexicon:root] || fall, drop down [lexicon:root] || leave, go away from [lexicon:root]
+10-474	Motion	to go out	go [lexicon:root] || go | go [candidates-02:root:isi] || descend | go down [candidates-02:entrant:composes] || leave, go away from [lexicon:root]
+10-48	Motion	to come	come [lexicon:root] || come | come [candidates-02:root:obu] || gather, bring or come together [lexicon:root]
+10-481	Motion	to come back	come [lexicon:root] || come | come [candidates-02:root:obu] || back | back [candidates-02:root:nebe] || back, of the body; behind [lexicon:root] || gather, bring or come together [lexicon:root]
+10-49	Motion	to leave	leave | leave [candidates-02:root:kusa] || leave, go away from [lexicon:root]
+10-491	Motion	to disappear	disappear [additions-02:proposed:root] || disappear [entrants-02:entrant:missing] || disappear | disappear [candidates-02:entrant:missing]
+10-51	Motion	to flee	
+10-52	Motion	to follow	follow [lexicon:root] || follow | follow [candidates-02:root:lefan]
+10-53	Motion	to pursue	
+10-55	Motion	to arrive	arrive [lexicon:root] || arrive | arrive [candidates-02:root:liwon]
+10-56	Motion	to approach	approach [ladder:list] || approach | approach [candidates-02:roots-1500]
+10-57	Motion	to enter	enter [lexicon:root] || enter | enter [candidates-02:root:inwa]
+10-61	Motion	to carry	carry [lexicon:root] || carry | carry [candidates-02:root:dinyo]
+10-612	Motion	to carry in hand	hand [lexicon:root] || carry [lexicon:root] || hand | hand [candidates-02:root:kiti] || carry | carry [candidates-02:root:dinyo]
+10-613	Motion	to carry on shoulder	carry [lexicon:root] || shoulder [lexicon:root] || carry | carry [candidates-02:root:dinyo] || shoulder | shoulder [candidates-02:root:sonyu]
+10-614	Motion	to carry on head	head [lexicon:root] || carry [lexicon:root] || head | head [candidates-02:root:lukan] || carry | carry [candidates-02:root:dinyo]
+10-615	Motion	to carry under the arm	arm [lexicon:root] || carry [lexicon:root] || arm | arm [candidates-02:root:inyi] || carry | carry [candidates-02:root:dinyo]
+10-62	Motion	to bring	bring [ladder:list] || bring | bring [candidates-02:roots-1500 deep] || gather, bring or come together [lexicon:root]
+10-63	Motion	to send	send [lexicon:root] || send | send [candidates-02:root:sege]
+10-64	Motion	to lead	lead, guide [lexicon:root] || lead | lead [candidates-02:root:wungu]
+10-65	Motion	to drive	drive [ladder:list] || drive | drive [candidates-02:roots-1500 deep]
+10-66	Motion	to ride	ride [ladder:list] || ride | ride [candidates-02:roots-1500 deep]
+10-67	Motion	to push	push [lexicon:root] || push | push [candidates-02:root:dandi] || press (push) [ladder:covered:dandi]
+10-71	Motion	the road	road [lexicon:root] || road | road [candidates-02:root:sola]
+10-72	Motion	the path	
+10-74	Motion	the bridge	bridge [ladder:list] || bridge | bridge [candidates-02:roots-1500]
+10-75	Motion	the cart or wagon	cart [lexicon:root] || cart | carriage [candidates-02:root:siwa]
+10-76	Motion	the wheel	wheel [ladder:list] || wheel | wheel [candidates-02:roots-1500]
+10-77	Motion	the axle	
+10-78	Motion	the yoke	
+10-81	Motion	the ship	boat | ship [candidates-02:root:binnu]
+10-83	Motion	the boat	boat [lexicon:root] || boat | ship [candidates-02:root:binnu]
+10-831	Motion	the canoe	
+10-832	Motion	the outrigger	
+10-84	Motion	the raft	
+10-85	Motion	the oar	
+10-851	Motion	the paddle	
+10-852	Motion	to row	row [ladder:merge:line] || row | row [candidates-02:roots-1500]
+10-86	Motion	the rudder	
+10-87	Motion	the mast	
+10-88	Motion	the sail	
+10-89	Motion	the anchor	
+10-91	Motion	the port	port [ladder:list] || port | port [candidates-02:roots-1500]
+10-92	Motion	to land	descend [entrants-02:entrant:composes] || land | land [candidates-02:root:fowo] || plain (land) [ladder:covered:sekan mawun] || field, open land [lexicon:root] || descend | go down [candidates-02:entrant:composes]
+11-11	Possession	to have	have | have [candidates-02:root:ibe] || must, have to [lexicon:root] || have, possess [lexicon:root] || share, let others have too [lexicon:root]
+11-12	Possession	to own	own | own [candidates-02:root:ibe]
+11-13	Possession	to take	take [lexicon:root] || take | take [candidates-02:root:yidu] || rest, take a break [lexicon:root]
+11-14	Possession	to grasp	
+11-15	Possession	to hold	hold [lexicon:root] || hold | hold [candidates-02:root:yonnu]
+11-16	Possession	to get	get, obtain [lexicon:root] || get | receive [candidates-02:root:dunu]
+11-17	Possession	to keep	keep [additions-01:list] || keep | keep [candidates-02:additions]
+11-18	Possession	the thing	thing [lexicon:root] || thing | thing [candidates-02:root:musu]
+11-21	Possession	to give	give [lexicon:root] || give | give [candidates-02:root:neke] || smell, sense or give off an odour [lexicon:root]
+11-22	Possession	to give back	give [lexicon:root] || give | give [candidates-02:root:neke] || back | back [candidates-02:root:nebe] || back, of the body; behind [lexicon:root] || smell, sense or give off an odour [lexicon:root]
+11-24	Possession	to preserve	
+11-25	Possession	to rescue	
+11-27	Possession	to destroy	destroy [additions-02:proposed:boundary question] || destroy [entrants-02:entrant:missing] || destroy | destroy [candidates-02:entrant:missing]
+11-28	Possession	to injure	
+11-31	Possession	to look for	look | look [candidates-02:root:miya] || look, look at [lexicon:root]
+11-32	Possession	to find	find [lexicon:root] || find | find [candidates-02:root:geno]
+11-33	Possession	to lose	lose, misplace [lexicon:root] || lose | lose [candidates-02:root:agi] || lose (a contest) [additions-01:list]
+11-34	Possession	to let go	go [lexicon:root] || set [ladder:covered:finsa] || go | go [candidates-02:root:isi] || set | set [candidates-02:roots-1500] || adjust, set [lexicon:root] || free | free [candidates-02:root:enpa] || free.of.charge [compounds:phrase] || descend | go down [candidates-02:entrant:composes]
+11-43	Possession	the money	money [lexicon:root] || money | money [candidates-02:root:nimo] || interest (money) [ladder:list]
+11-44	Possession	the coin	coin [ladder:list] || coin | coin [candidates-02:roots-1500]
+11-51	Possession	rich	rich [ladder:list] || rich | wealth [candidates-02:roots-1500]
+11-52	Possession	poor	poor [ladder:list] || poor | poor [candidates-02:roots-1500]
+11-53	Possession	the beggar	
+11-54	Possession	stingy	
+11-61	Possession	to lend	
+11-62	Possession	to borrow	
+11-63	Possession	to owe	
+11-64	Possession	the debt	debt [ladder:list] || debt | debt [candidates-02:roots-1500]
+11-65	Possession	to pay	pay [lexicon:root] || pay | pay [candidates-02:root:unfu] || rent, pay to use [lexicon:root]
+11-66	Possession	the bill	bill [ladder:list] || bill | bill [candidates-02:roots-1500]
+11-69	Possession	the tax	tax [ladder:list] || tax | tax [candidates-02:roots-1500]
+11-77	Possession	to hire	
+11-78	Possession	the wages	
+11-79	Possession	to earn	
+11-81	Possession	to buy	buy [lexicon:root] || buy | buy [candidates-02:root:bika]
+11-82	Possession	to sell	sell [lexicon:root] || sell | sell [candidates-02:root:koda]
+11-83	Possession	to trade or barter	trade [ladder:list] || trade | trade [candidates-02:roots-1500]
+11-84	Possession	the merchant	
+11-85	Possession	the market	market [ladder:list] || market | market [candidates-02:roots-1500]
+11-86	Possession	the shop/store	shop [ladder:list] || shop | shop [candidates-02:roots-1500 deep]
+11-87	Possession	the price	price [ladder:list] || price | price [candidates-02:roots-1500] || cheap, low in price [lexicon:root]
+11-88	Possession	expensive	expensive [lexicon:root] || expensive | expensive [candidates-02:root:unwi]
+11-89	Possession	cheap	cheap | cheap [candidates-02:root:tanbu] || cheap, low in price [lexicon:root]
+11-91	Possession	to share	share | share [candidates-02:root:peton] || share, let others have too [lexicon:root]
+11-92	Possession	to weigh	
+12-01	Spatial relations	after	late, after the expected time [lexicon:root]
+12-011	Spatial relations	behind	behind | behind [candidates-02:root:nebe] || back, of the body; behind [lexicon:root]
+12-02	Spatial relations	beside	
+12-03	Spatial relations	down	below | down [candidates-02:root:deba] || lie, lie down [lexicon:root] || fall, drop down [lexicon:root] || descend | go down [candidates-02:entrant:composes]
+12-04	Spatial relations	before	early, before the expected time [lexicon:root]
+12-041	Spatial relations	in front of	front [lexicon:root] || front | front [candidates-02:root:sinye]
+12-05	Spatial relations	inside	inside [lexicon:root] || inside | inside [candidates-02:root:bese]
+12-06	Spatial relations	outside	outside [lexicon:root] || outside | outside [candidates-02:root:aban]
+12-07	Spatial relations	under	below [lexicon:root] || below | down [candidates-02:root:deba]
+12-08	Spatial relations	up	
+12-11	Spatial relations	the place	place [lexicon:root] || position [ladder:list] || place | place [candidates-02:root:kemu] || square (place) [ladder:list] || position | position [candidates-02:roots-1500]
+12-12	Spatial relations	to put	put [lexicon:root] || put | put [candidates-02:root:yaga] || add, put in more [lexicon:root]
+12-13	Spatial relations	to sit	sit [lexicon:root] || sit | sit [candidates-02:root:goyu]
+12-14	Spatial relations	to lie down	lie, lie down [lexicon:root] || lie | lie [candidates-02:root:anle] || below | down [candidates-02:root:deba] || lie (untruth) [ladder:list] || fall, drop down [lexicon:root] || descend | go down [candidates-02:entrant:composes] || lie (tell an untruth) [additions-01:list]
+12-15	Spatial relations	to stand	stand [lexicon:root] || stand | stand [candidates-02:root:kolu]
+12-16	Spatial relations	to remain	stay | remain [candidates-02:root:piyi]
+12-17	Spatial relations	the remains	
+12-21	Spatial relations	to gather	gather | collection [candidates-02:root:fanmu] || gather, bring or come together [lexicon:root]
+12-212	Spatial relations	to pick up	
+12-213	Spatial relations	to pile up	
+12-22	Spatial relations	to join	connect, join [lexicon:root]
+12-23	Spatial relations	to separate	separate | separate [candidates-02:root:buyan]
+12-232	Spatial relations	to divide	divide [ladder:list] || divide | division [candidates-02:roots-1500]
+12-24	Spatial relations	to open	open [lexicon:root] || open | open [candidates-02:root:benbi] || field, open land [lexicon:root]
+12-25	Spatial relations	to shut	close, shut [lexicon:root]
+12-26	Spatial relations	to cover	cover [ladder:list] || cover | cover [candidates-02:roots-1500 deep]
+12-27	Spatial relations	to hide	hide [lexicon:root] || hide | hide [candidates-02:root:mibun]
+12-31	Spatial relations	high	high [lexicon:root] || high | high [candidates-02:root:tisan]
+12-32	Spatial relations	low	low [lexicon:root] || low | low [candidates-02:root:linku] || cheap, low in price [lexicon:root]
+12-33	Spatial relations	the top	top | top [candidates-02:root:bige]
+12-34	Spatial relations	the bottom	bottom | bottom [candidates-02:root:deba]
+12-35	Spatial relations	the end(1)	end [lexicon:root] || space [ladder:list] || tip (end) [ladder:merge:point] || end | end [candidates-02:root:fugi] || space (outer) [ladder:list] || space | space [candidates-02:roots-1500] || it turned out, surprisingly (stance, sentence end) [lexicon:root] || okay?, softens and invites agreement (stance, sentence end) [lexicon:root]
+12-352	Spatial relations	pointed	
+12-353	Spatial relations	the edge	edge [ladder:list] || edge | edge [candidates-02:roots-1500]
+12-36	Spatial relations	the side	side [lexicon:root] || side | side [candidates-02:root:sanfi] || left, the side [lexicon:root] || right, the side [lexicon:root]
+12-37	Spatial relations	the middle	middle [ladder:list] || middle | middle [candidates-02:roots-1500]
+12-41	Spatial relations	right(1)	right | right [candidates-02:root:nata] || right, the side [lexicon:root] || a right, entitlement [lexicon:root]
+12-42	Spatial relations	left	left | left [candidates-02:root:funbe] || left, the side [lexicon:root]
+12-43	Spatial relations	near	near [lexicon:root] || near | near [candidates-02:root:gelu]
+12-44	Spatial relations	far	far [lexicon:root] || far | far [candidates-02:root:lini]
+12-45	Spatial relations	the east	east [lexicon:root] || east | east [candidates-02:root:anyu]
+12-46	Spatial relations	the west	west [lexicon:root] || west | west [candidates-02:root:munke]
+12-47	Spatial relations	the north	north [lexicon:root] || north | north [candidates-02:root:soto]
+12-48	Spatial relations	the south	south [lexicon:root] || south | south [candidates-02:root:monna]
+12-53	Spatial relations	to grow	grow [lexicon:root] || grow | grow [candidates-02:root:guge]
+12-54	Spatial relations	to measure	measure [ladder:list] || measure | measure [candidates-02:roots-1500]
+12-541	Spatial relations	the fathom	
+12-55	Spatial relations	big	big [lexicon:root] || big | big [candidates-02:root:kudu]
+12-56	Spatial relations	small	small [lexicon:root] || small | small [candidates-02:root:meli]
+12-57	Spatial relations	long	long [lexicon:root] || long | long [candidates-02:root:netu] || short, not long [lexicon:root]
+12-58	Spatial relations	tall	
+12-59	Spatial relations	short	short | short [candidates-02:root:eten] || short, not long [lexicon:root] || kilogram, everyday short form [lexicon:root]
+12-61	Spatial relations	wide	wide [lexicon:root] || wide | wide [candidates-02:root:tugan]
+12-62	Spatial relations	narrow	narrow [lexicon:root] || narrow | narrow [candidates-02:root:banlu]
+12-63	Spatial relations	thick	thick [lexicon:root] || thick | thick [candidates-02:root:woten]
+12-65	Spatial relations	thin	thin [lexicon:root] || shape [ladder:list] || thin | thin [candidates-02:root:gunmo] || shape | shape [candidates-02:roots-1500]
+12-67	Spatial relations	deep	deep [lexicon:root] || deep | deep [candidates-02:root:lawan]
+12-68	Spatial relations	shallow	shallow [lexicon:root] || shallow | shallow [candidates-02:root:lante]
+12-71	Spatial relations	flat	flat, level [lexicon:root] || flat | flat [candidates-02:root:mawun]
+12-73	Spatial relations	straight	straight [lexicon:root] || straight | straight [candidates-02:root:fongo]
+12-74	Spatial relations	crooked	crooked [lexicon:root]
+12-75	Spatial relations	the hook	
+12-76	Spatial relations	the corner	corner [ladder:list] || corner | corner [candidates-02:roots-1500]
+12-77	Spatial relations	the cross	cross [ladder:list] || cross | cross [candidates-02:roots-1500]
+12-78	Spatial relations	the square	square [ladder:list] || square (place) [ladder:list] || square | square [candidates-02:roots-1500]
+12-81	Spatial relations	round	round [lexicon:root] || round | round [candidates-02:root:kowan]
+12-82	Spatial relations	the circle	circle [ladder:list] || circle | circle [candidates-02:roots-1500]
+12-83	Spatial relations	the ball	ball [ladder:list] || ball | ball [candidates-02:roots-1500 deep]
+12-84	Spatial relations	the line	line [ladder:list] || line | line [candidates-02:roots-1500]
+12-85	Spatial relations	the hole	hole [ladder:list] || hole | hole [candidates-02:roots-1500]
+12-92	Spatial relations	similar	
+12-93	Spatial relations	to change	change | change [candidates-02:root:kubo] || change, make or become different [lexicon:root]
+13	Quantity	zero	
+13-01	Quantity	one	each, every one separately [lexicon:root] || honoured one, title of respect (sir, madam, Mr, Ms) [lexicon:root]
+13-02	Quantity	two	
+13-03	Quantity	three	occasion, a time (three times) [lexicon:root]
+13-04	Quantity	four	
+13-05	Quantity	five	
+13-06	Quantity	six	
+13-07	Quantity	seven	
+13-08	Quantity	eight	
+13-09	Quantity	nine	
+13-1	Quantity	ten	
+13-101	Quantity	eleven	
+13-102	Quantity	twelve	
+13-103	Quantity	fifteen	
+13-104	Quantity	twenty	
+13-105	Quantity	a hundred	
+13-106	Quantity	a thousand	
+13-107	Quantity	to count	count [lexicon:root] || the.count [compounds:phrase] || count | count [candidates-02:root:sunbu]
+13-14	Quantity	all	
+13-15	Quantity	many	many [lexicon:root]
+13-16	Quantity	more	add, put in more [lexicon:root]
+13-17	Quantity	few	few [lexicon:root]
+13-18	Quantity	enough	enough, as much as needed [lexicon:root]
+13-181	Quantity	some	
+13-19	Quantity	the crowd	crowd | crowd [candidates-02:root:funti]
+13-21	Quantity	full	full [lexicon:root] || full | full [candidates-02:root:kete]
+13-22	Quantity	empty	empty [lexicon:root] || empty | empty [candidates-02:root:tapun]
+13-23	Quantity	the part	part | part [candidates-02:cover:kin] || part.time.work [compounds:phrase]
+13-24	Quantity	the half	half [lexicon:root]
+13-33	Quantity	only	
+13-34	Quantity	first	
+13-35	Quantity	last	last [ladder:list] || last night [ladder:grammar] || last | last [candidates-02:roots-1500 deep] || last night | last night [candidates-02:roots-1500]
+13-36	Quantity	second	second, of time [lexicon:root]
+13-37	Quantity	the pair	pair [ladder:list] || pair | pair [candidates-02:roots-1500]
+13-38	Quantity	twice/two times	occasion, a time (three times) [lexicon:root]
+13-42	Quantity	third	number label, ordinal (day 3, the third) [lexicon:root]
+13-44	Quantity	three times	occasion, a time (three times) [lexicon:root]
+14-11	Time	the time	body.time [compounds:phrase] || local.time [compounds:phrase] || time | time [candidates-02:root:muyi] || part.time.work [compounds:phrase] || minute, of time [lexicon:root] || second, of time [lexicon:root] || late, after the expected time [lexicon:root] || occasion, a time (three times) [lexicon:root]
+14-12	Time	the age	age [ladder:grammar] || age | age [candidates-02:roots-1500]
+14-13	Time	new	new [lexicon:root] || new | new [candidates-02:root:duwa]
+14-14	Time	young	young [lexicon:root] || young man [ladder:covered:lowu loyen] || young | young [candidates-02:root:loyen] || young man | young man [candidates-02:roots-1500]
+14-15	Time	old	old man [ladder:covered:lowu pani] || old | old [candidates-02:root:pani] || old, aged or worn [lexicon:root] || old man | old man [candidates-02:roots-1500]
+14-16	Time	early	early | early [candidates-02:root:ganna] || early, before the expected time [lexicon:root]
+14-17	Time	late	late | late [candidates-02:root:yodun] || late, after the expected time [lexicon:root]
+14-18	Time	now	now [lexicon:root]
+14-19	Time	immediately	
+14-21	Time	fast	fast, quick [lexicon:root] || fast | quickly [candidates-02:root:yobe]
+14-22	Time	slow	slow [lexicon:root] || slow | slowly [candidates-02:root:gake]
+14-23	Time	to hurry	hurry [ladder:list] || hurry | hurry [candidates-02:roots-1500 deep]
+14-24	Time	to be late	late | late [candidates-02:root:yodun] || late, after the expected time [lexicon:root]
+14-25	Time	to begin	start | begin [candidates-02:root:tuko]
+14-252	Time	to last	last [ladder:list] || endure [additions-02:proposed:root] || endure [entrants-02:entrant:missing] || last night [ladder:grammar] || last | last [candidates-02:roots-1500 deep] || endure | endure [candidates-02:entrant:missing] || last night | last night [candidates-02:roots-1500]
+14-26	Time	the end(2)	end [lexicon:root] || body.time [compounds:phrase] || tip (end) [ladder:merge:point] || end | end [candidates-02:root:fugi] || local.time [compounds:phrase] || time | time [candidates-02:root:muyi] || part.time.work [compounds:phrase] || minute, of time [lexicon:root]
+14-27	Time	to finish	
+14-28	Time	to cease	
+14-29	Time	ready	ready [lexicon:root] || ready | ready [candidates-02:root:wonwe]
+14-31	Time	always	always [additions-01:list]
+14-32	Time	often	often [additions-01:list]
+14-33	Time	sometimes	sometimes [additions-01:list]
+14-331	Time	soon	about to, soon [lexicon:root]
+14-332	Time	for a long time	long [lexicon:root] || body.time [compounds:phrase] || local.time [compounds:phrase] || time | time [candidates-02:root:muyi] || long | long [candidates-02:root:netu] || part.time.work [compounds:phrase] || short, not long [lexicon:root] || minute, of time [lexicon:root]
+14-34	Time	never	never [additions-01:list]
+14-35	Time	again	again [lexicon:root] || copy, make the same again [lexicon:root]
+14-41	Time	the day(1)	day (24 hours) [lexicon:root] || day | day [candidates-02:root:dili] || number label, ordinal (day 3, the third) [lexicon:root]
+14-42	Time	the night	night [lexicon:root] || last night [ladder:grammar] || night | night [candidates-02:root:yami] || last night | last night [candidates-02:roots-1500]
+14-43	Time	the dawn	dawn [ladder:list] || dawn | dawn [candidates-02:roots-1500]
+14-44	Time	the morning	morning [lexicon:root] || morning | morning [candidates-02:root:leso]
+14-45	Time	the midday	noon, midday [lexicon:root]
+14-451	Time	the afternoon	afternoon [lexicon:root] || afternoon | afternoon [candidates-02:root:duwun]
+14-46	Time	the evening	evening [lexicon:root] || evening | evening [candidates-02:root:kegin]
+14-47	Time	today	today [lexicon:root] || today | today [candidates-02:root:mefa]
+14-48	Time	tomorrow	tomorrow [lexicon:root] || tomorrow | tomorrow [candidates-02:root:wuma]
+14-481	Time	the day after tomorrow	tomorrow [lexicon:root] || day | day [candidates-02:root:dili] || day (24 hours) [lexicon:root] || tomorrow | tomorrow [candidates-02:root:wuma] || late, after the expected time [lexicon:root] || number label, ordinal (day 3, the third) [lexicon:root]
+14-49	Time	yesterday	yesterday [lexicon:root] || yesterday | yesterday [candidates-02:root:afe]
+14-491	Time	the day before yesterday	yesterday [lexicon:root] || day | day [candidates-02:root:dili] || day (24 hours) [lexicon:root] || yesterday | yesterday [candidates-02:root:afe] || early, before the expected time [lexicon:root] || number label, ordinal (day 3, the third) [lexicon:root]
+14-51	Time	the hour	hour [lexicon:root] || hour | hour [candidates-02:root:awuwa]
+14-53	Time	the clock	clock | clock [candidates-02:root:aya]
+14-61	Time	the week	week [lexicon:root] || week | week [candidates-02:root:nelon]
+14-62	Time	Sunday	Sunday [ladder:grammar] || Sunday | sunday [candidates-02:roots-1500]
+14-63	Time	Monday	Monday [ladder:grammar] || Monday | monday [candidates-02:roots-1500]
+14-64	Time	Tuesday	Tuesday [ladder:grammar] || Tuesday | tuesday [candidates-02:roots-1500]
+14-65	Time	Wednesday	Wednesday [ladder:grammar] || Wednesday | wednesday [candidates-02:roots-1500]
+14-66	Time	Thursday	Thursday [ladder:grammar] || Thursday | thursday [candidates-02:roots-1500]
+14-67	Time	Friday	Friday [ladder:grammar] || Friday | friday [candidates-02:roots-1500]
+14-68	Time	Saturday	Saturday [ladder:grammar] || Saturday | saturday [candidates-02:roots-1500]
+14-71	Time	the month	month [lexicon:root] || month | month [candidates-02:root:dunan]
+14-73	Time	the year	year [lexicon:root] || leap.year [compounds:phrase] || year | year [candidates-02:root:fawu]
+14-74	Time	the winter	winter [compounds:phrase] || winter [ladder:covered:muyi weki] || winter | winter [candidates-02:roots-1500]
+14-75	Time	the spring(2)	spring [ladder:list] || spring (water) [ladder:list] || spring (season) [ladder:covered:muyi pi meyen] || spring | spring [candidates-02:roots-1500]
+14-76	Time	the summer	summer [compounds:phrase] || summer [ladder:covered:muyi tikun] || summer | summer [candidates-02:roots-1500]
+14-77	Time	the autumn/fall	fall | fall [candidates-02:root:dosi] || fall, drop down [lexicon:root]
+14-78	Time	the season	season [ladder:list] || rainy.season [compounds:phrase] || spring (season) [ladder:covered:muyi pi meyen] || season | season [candidates-02:roots-1500]
+15-21	Sense perception	to smell(1)	smell | smell [candidates-02:root:kanko] || smell, sense or give off an odour [lexicon:root]
+15-89	Sense perception	wrinkled	
+15-212	Sense perception	to sniff	
+15-22	Sense perception	to smell(2)	smell | smell [candidates-02:root:kanko] || smell, sense or give off an odour [lexicon:root]
+15-25	Sense perception	fragrant	
+15-26	Sense perception	stinking	
+15-31	Sense perception	to taste	taste [lexicon:root] || taste | taste [candidates-02:root:tenmi]
+15-35	Sense perception	sweet	sweet [lexicon:root] || sweet | sweet [candidates-02:root:sinta]
+15-36	Sense perception	salty	salty [lexicon:root] || salty | salty [candidates-02:root:lage]
+15-37	Sense perception	bitter	bitter [lexicon:root] || bitter | bitter [candidates-02:root:finlu]
+15-38	Sense perception	sour	sour [lexicon:root]
+15-39	Sense perception	brackish	
+15-41	Sense perception	to hear	hear [lexicon:root] || hear | hear [candidates-02:root:nulu]
+15-42	Sense perception	to listen	listen [lexicon:root] || listen | listen [candidates-02:root:doma]
+15-44	Sense perception	the sound or noise	sound, noise [lexicon:root] || sound | sound [candidates-02:root:ninge]
+15-45	Sense perception	loud	loud [lexicon:root] || loud | loud [candidates-02:root:dibon]
+15-46	Sense perception	quiet	quiet [lexicon:root] || quiet | quiet [candidates-02:root:mange]
+15-51	Sense perception	to see	see [lexicon:root] || see | see [candidates-02:root:nagu]
+15-52	Sense perception	to look	look | look [candidates-02:root:miya] || look, look at [lexicon:root]
+15-55	Sense perception	to show	show [lexicon:root] || show | show [candidates-02:root:wuye]
+15-56	Sense perception	to shine	shine [walk-02:walk:P]
+15-57	Sense perception	bright	
+15-61	Sense perception	the colour/color	color [ladder:list] || color | color [candidates-02:roots-1500] || orange (colour) [ladder:merge:orange]
+15-62	Sense perception	light(2)	color [ladder:list] || light | light [candidates-02:root:wino] || color | color [candidates-02:roots-1500] || light, not heavy [lexicon:root] || light, brightness [lexicon:root] || shade, shadow from light [lexicon:root] || light (weight) | lightly [candidates-02:root:gamun]
+15-63	Sense perception	dark	dark [lexicon:root] || dark | dark [candidates-02:root:buda]
+15-64	Sense perception	white	white [lexicon:root] || white | white [candidates-02:root:pinda]
+15-65	Sense perception	black	black [lexicon:root] || black | black [candidates-02:root:tago]
+15-66	Sense perception	red	red [lexicon:root] || red | red [candidates-02:root:wiwi]
+15-67	Sense perception	blue	blue [lexicon:root] || blue | blue [candidates-02:root:deta]
+15-68	Sense perception	green	green [lexicon:root] || green | green [candidates-02:root:gisu]
+15-69	Sense perception	yellow	yellow [lexicon:root] || yellow | yellow [candidates-02:root:bilun]
+15-71	Sense perception	to touch	touch [lexicon:root] || touch | touch [candidates-02:root:sanne]
+15-712	Sense perception	to pinch	
+15-72	Sense perception	to feel	feel [lexicon:root] || feel | feel [candidates-02:root:feme] || miss, feel the absence of [lexicon:root]
+15-74	Sense perception	hard	hard | hard [candidates-02:root:gufu] || hard, not soft [lexicon:root]
+15-75	Sense perception	soft	soft [lexicon:root] || soft | soft [candidates-02:root:tutin] || hard, not soft [lexicon:root]
+15-76	Sense perception	rough(1)	rough [lexicon:root]
+15-77	Sense perception	smooth	smooth [lexicon:root] || smooth | smooth [candidates-02:root:windi]
+15-78	Sense perception	sharp	sharp [lexicon:root] || sharp | sharp [candidates-02:root:tungi]
+15-79	Sense perception	blunt	blunt [lexicon:root]
+15-81	Sense perception	heavy	heavy [lexicon:root] || heavy | weight [candidates-02:root:gogo] || light, not heavy [lexicon:root]
+15-82	Sense perception	light(1)	light (weight) | lightly [candidates-02:root:gamun] || light | light [candidates-02:root:wino] || heavy | weight [candidates-02:root:gogo] || light, not heavy [lexicon:root] || light, brightness [lexicon:root] || shade, shadow from light [lexicon:root]
+15-83	Sense perception	wet	wet [lexicon:root] || wet | wet [candidates-02:root:wulon]
+15-84	Sense perception	dry	dry [lexicon:root] || dry | dry [candidates-02:root:kilan]
+15-85	Sense perception	hot	hot [lexicon:root] || hot | heat [candidates-02:root:tikun] || cold, not hot [lexicon:root]
+15-851	Sense perception	warm	warm [additions-02:proposed:boundary question] || warm [entrants-02:entrant:missing] || warm | warm [candidates-02:entrant:missing]
+15-86	Sense perception	cold	cold | cold [candidates-02:root:weki] || cold, not hot [lexicon:root]
+15-87	Sense perception	clean	clean [lexicon:root] || clean | clean [candidates-02:root:inan]
+15-88	Sense perception	dirty	dirty [lexicon:root] || dirty | dirty [candidates-02:root:bodu]
+16-11	Emotions and values	the soul or spirit	soul [ladder:list] || spirit [ladder:list] || soul | soul [candidates-02:roots-1500] || spirit | spirit [candidates-02:roots-1500]
+16-15	Emotions and values	surprised or astonished	
+16-18	Emotions and values	the good luck	good [lexicon:root] || luck [ladder:list] || good | good [candidates-02:root:upe] || luck | luck [candidates-02:roots-1500]
+16-19	Emotions and values	the bad luck	bad [lexicon:root] || luck [ladder:list] || bad | bad [candidates-02:root:yomo] || luck | luck [candidates-02:roots-1500]
+16-23	Emotions and values	happy	happy [lexicon:root] || happy | happy [candidates-02:root:sogi]
+16-25	Emotions and values	to laugh	laugh [lexicon:root] || laugh | laugh [candidates-02:root:bubo]
+16-251	Emotions and values	to smile	smile [ladder:list] || smile | smile [candidates-02:roots-1500 deep]
+16-26	Emotions and values	to play	play | play [candidates-02:root:luse] || play, for fun [lexicon:root]
+16-27	Emotions and values	to love	love [lexicon:root] || love | love [candidates-02:root:wigen]
+16-29	Emotions and values	to kiss	kiss [ladder:list] || kiss | kiss [candidates-02:roots-1500 deep]
+16-3	Emotions and values	to embrace	hug | embrace [candidates-02:roots-1500 deep]
+16-31	Emotions and values	the pain	pain [lexicon:root] || pain | pain [candidates-02:root:wekun]
+16-32	Emotions and values	the grief	
+16-33	Emotions and values	the anxiety	
+16-34	Emotions and values	to regret or be sorry	regret [ladder:list] || sorry | sorry [candidates-02:root:sepi] || regret | regret [candidates-02:roots-1500]
+16-35	Emotions and values	the pity	pity (mercy) [walk-02:walk:G]
+16-37	Emotions and values	to cry	cry, weep [lexicon:root] || cry | cry [candidates-02:root:nowa]
+16-38	Emotions and values	the tear	eye [lexicon:root] || tear [ladder:list] || eye | eye [candidates-02:root:funo] || tear (rip) [ladder:list] || tear | tear [candidates-02:roots-1500 deep]
+16-39	Emotions and values	to groan	
+16-41	Emotions and values	to hate	hate [additions-02:proposed:root] || hate [entrants-02:entrant:missing] || hate | hate [candidates-02:entrant:missing]
+16-42	Emotions and values	the anger	angry | anger [candidates-02:root:bonko]
+16-44	Emotions and values	the envy or jealousy	envy [walk-02:walk:G]
+16-45	Emotions and values	the shame	shame [ladder:list] || shame | shame [candidates-02:roots-1500]
+16-48	Emotions and values	proud	proud [ladder:list] || proud | pride [candidates-02:roots-1500]
+16-51	Emotions and values	to dare	
+16-52	Emotions and values	brave	brave [ladder:list] || brave | courage [candidates-02:roots-1500]
+16-53	Emotions and values	the fear	fear [lexicon:root] || fear | fear [candidates-02:root:nuta]
+16-54	Emotions and values	the danger	danger [ladder:list] || danger | danger [candidates-02:roots-1500] || safe, not in danger [lexicon:root]
+16-62	Emotions and values	to want	want [lexicon:root] || want | want [candidates-02:root:momu]
+16-622	Emotions and values	to choose	choose [lexicon:root] || choose | choice [candidates-02:root:waka]
+16-63	Emotions and values	to hope	hope [lexicon:root] || hope | hope [candidates-02:root:ganin]
+16-65	Emotions and values	faithful	
+16-66	Emotions and values	true	true [lexicon:root] || true | true [candidates-02:root:feko]
+16-67	Emotions and values	to lie(2)	lie | lie [candidates-02:root:anle] || lie, lie down [lexicon:root] || lie (untruth) [ladder:list] || lie (tell an untruth) [additions-01:list]
+16-68	Emotions and values	the deceit	
+16-69	Emotions and values	to forgive	forgive [additions-02:proposed:root] || forgive [entrants-02:entrant:missing] || forgive | pardon [candidates-02:entrant:missing]
+16-71	Emotions and values	good	good [lexicon:root] || good | good [candidates-02:root:upe]
+16-72	Emotions and values	bad	bad [lexicon:root] || bad | bad [candidates-02:root:yomo]
+16-73	Emotions and values	right(2)	correct [lexicon:root] || right | right [candidates-02:root:nata] || right, the side [lexicon:root] || correct | correct [candidates-02:root:denku] || a right, entitlement [lexicon:root]
+16-74	Emotions and values	wrong	wrong [lexicon:root] || wrong | mistake [candidates-02:root:gagan]
+16-76	Emotions and values	the fault	fault [ladder:list] || fault | fault [candidates-02:roots-1500]
+16-77	Emotions and values	the mistake	wrong | mistake [candidates-02:root:gagan]
+16-78	Emotions and values	the blame	blame [additions-02:proposed:boundary question] || blame [entrants-02:entrant:missing] || blame | blame [candidates-02:entrant:missing]
+16-79	Emotions and values	the praise	praise [ladder:list] || praise | praise [candidates-02:roots-1500]
+16-81	Emotions and values	beautiful	beautiful [lexicon:root] || beautiful | beautiful [candidates-02:root:sesa]
+16-82	Emotions and values	ugly	ugly [lexicon:root] || ugly | ugly [candidates-02:root:lanli]
+16-83	Emotions and values	greedy	
+16-84	Emotions and values	clever	
+17-11	Cognition	the mind	mind [ladder:list] || mind | mind [candidates-02:roots-1500]
+17-13	Cognition	to think(1)	think [lexicon:root] || think | think [candidates-02:root:pume]
+17-14	Cognition	to think(2)	think [lexicon:root] || believe [ladder:list] || think | think [candidates-02:root:pume] || believe | believe [candidates-02:roots-1500]
+17-15	Cognition	to believe	believe [ladder:list] || believe | believe [candidates-02:roots-1500]
+17-16	Cognition	to understand	understand [lexicon:root] || understand | understand [candidates-02:root:lafi]
+17-17	Cognition	to know	know [lexicon:root] || know | know [candidates-02:root:lugo]
+17-171	Cognition	to guess	guess [additions-02:proposed:root] || guess [entrants-02:entrant:missing] || guess | guess [candidates-02:entrant:missing]
+17-172	Cognition	to imitate	
+17-18	Cognition	to seem	
+17-19	Cognition	the idea	idea [lexicon:root] || idea | idea [candidates-02:root:gason]
+17-21	Cognition	wise	wise [ladder:list] || wise | wisdom [candidates-02:roots-1500]
+17-22	Cognition	stupid	stupid [entrants-02:entrant:composes] || stupid | stupid [candidates-02:entrant:composes]
+17-23	Cognition	mad	
+17-24	Cognition	to learn	learn [lexicon:root] || learn | study [candidates-02:root:yesa]
+17-242	Cognition	to study	learn | study [candidates-02:root:yesa]
+17-25	Cognition	to teach	teach [lexicon:root] || teach | teach [candidates-02:root:tofo]
+17-26	Cognition	the pupil	student [ladder:list] || student | student [candidates-02:roots-1500]
+17-27	Cognition	the teacher	teacher [ladder:list] || teacher | teacher [candidates-02:roots-1500 deep]
+17-28	Cognition	the school	school [ladder:list] || school | school [candidates-02:roots-1500 deep]
+17-31	Cognition	to remember	remember [lexicon:root] || remember | remember [candidates-02:root:imu]
+17-32	Cognition	to forget	forget [lexicon:root] || forget | forget [candidates-02:root:yakin]
+17-34	Cognition	clear	clear [ladder:list] || clear | clear [candidates-02:roots-1500]
+17-35	Cognition	obscure	
+17-36	Cognition	secret	secret [ladder:list] || secret | secret [candidates-02:roots-1500]
+17-37	Cognition	certain	sure | certain [candidates-02:roots-1500]
+17-38	Cognition	to explain	explain [ladder:list] || explain | explain [candidates-02:roots-1500]
+17-41	Cognition	the intention	intend | intention [candidates-02:cover:de]
+17-42	Cognition	the cause	cause | cause [candidates-02:root:ukun]
+17-43	Cognition	the doubt	doubt [ladder:list] || doubt | doubt [candidates-02:roots-1500]
+17-44	Cognition	to suspect	suspect [ladder:list] || suspect | suspect [candidates-02:roots-1500]
+17-441	Cognition	to betray	
+17-45	Cognition	the need or necessity	need (to) [lexicon:root] || need | need [candidates-02:root:wupi]
+17-46	Cognition	easy	easy [lexicon:root] || easy | easy [candidates-02:root:bunle]
+17-47	Cognition	difficult	difficult [lexicon:root] || difficult | difficult [candidates-02:root:gofa]
+17-48	Cognition	to try	try [lexicon:root] || try | try [candidates-02:root:walo]
+17-49	Cognition	the manner	
+17-51	Cognition	and	
+17-52	Cognition	because	
+17-53	Cognition	if	
+17-54	Cognition	or	
+17-55	Cognition	yes	
+17-56	Cognition	no	
+17-61	Cognition	how?	
+17-62	Cognition	how many?	many [lexicon:root]
+17-63	Cognition	how much?	enough, as much as needed [lexicon:root]
+17-64	Cognition	what?	
+17-65	Cognition	when?	
+17-66	Cognition	where?	
+17-67	Cognition	which?	
+17-68	Cognition	who?	
+17-69	Cognition	why?	
+18-11	Speech and language	the voice	voice [ladder:list] || voice | voice [candidates-02:roots-1500]
+18-12	Speech and language	to sing	sing [lexicon:root] || sing | sing [candidates-02:root:yuyun]
+18-13	Speech and language	to shout	yell | shout [candidates-02:entrant:covered]
+18-15	Speech and language	to whisper	
+18-16	Speech and language	to mumble	
+18-17	Speech and language	to whistle	
+18-18	Speech and language	to shriek	
+18-19	Speech and language	to howl	
+18-21	Speech and language	to speak or talk	talk [lexicon:root] || speak | speak [candidates-02:root:kegu]
+18-211	Speech and language	to stutter or stammer	
+18-22	Speech and language	to say	say [lexicon:root] || say | say [candidates-02:root:oyi]
+18-221	Speech and language	to tell	tell [lexicon:root] || tell | tell [candidates-02:root:iko] || lie (tell an untruth) [additions-01:list]
+18-222	Speech and language	the speech	speech [ladder:list] || speech | speech [candidates-02:roots-1500] || not literally, joking (speech act) [lexicon:root]
+18-23	Speech and language	to be silent	
+18-24	Speech and language	the language	language [lexicon:root] || the.language [compounds:phrase] || language | language [candidates-02:root:apu]
+18-26	Speech and language	the word	word [additions-01:list] || word | word [candidates-02:additions] || end of phrase (closes a relative clause, phrasal derived word or topic) [lexicon:root]
+18-28	Speech and language	the name	name [lexicon:root] || name | name [candidates-02:root:suso]
+18-31	Speech and language	to ask(1)	ask | ask [candidates-02:root:mido] || ask (a question) [lexicon:root]
+18-32	Speech and language	to answer	answer [lexicon:root] || answer | answer [candidates-02:root:febo]
+18-33	Speech and language	to admit	
+18-34	Speech and language	to deny	deny [walk-02:walk:G]
+18-35	Speech and language	to ask(2)	request [additions-01:list] || ask | ask [candidates-02:root:mido] || ask (a question) [lexicon:root] || application (request) [ladder:list]
+18-36	Speech and language	to promise	promise [ladder:list] || promise | promise [candidates-02:roots-1500]
+18-37	Speech and language	to refuse	refuse [walk-02:walk:G]
+18-38	Speech and language	to forbid	forbid [entrants-02:entrant:composes] || forbid | forbidden [candidates-02:entrant:composes]
+18-39	Speech and language	to scold	
+18-41	Speech and language	to call(1)	call | call [candidates-02:root:yebin] || call, phone or call to [lexicon:root]
+18-42	Speech and language	to call(2)	name [lexicon:root] || name | name [candidates-02:root:suso] || call | call [candidates-02:root:yebin] || call, phone or call to [lexicon:root]
+18-43	Speech and language	to announce	announce [ladder:list] || announce | announcement [candidates-02:roots-1500]
+18-44	Speech and language	to threaten	threaten [ladder:list] || threaten | threat [candidates-02:roots-1500]
+18-45	Speech and language	to boast	
+18-51	Speech and language	to write	write [lexicon:root] || write | write [candidates-02:root:tusi]
+18-52	Speech and language	to read	read [lexicon:root] || read | read [candidates-02:root:lilu] || .com (read aloud) [lexicon:root]
+18-56	Speech and language	the paper	paper [lexicon:root] || paper | paper [candidates-02:root:mabo]
+18-57	Speech and language	the pen	pen [ladder:list] || pen | pen [candidates-02:roots-1500 deep]
+18-61	Speech and language	the book	book [lexicon:root] || book | book [candidates-02:root:ingo]
+18-67	Speech and language	the poet	poet [ladder:covered:no poem] || poet | poet [candidates-02:roots-1500]
+18-71	Speech and language	the flute	
+18-72	Speech and language	the drum	
+18-73	Speech and language	the horn or trumpet	horn [lexicon:root] || instrument [ladder:list] || horn | horn [candidates-02:root:yansi] || instrument | instrument [candidates-02:roots-1500]
+18-74	Speech and language	the rattle	
+19-11	Social and political relations	the country	country, nation [lexicon:root] || country | country [candidates-02:root:gigin]
+19-12	Social and political relations	the native country	native [ladder:list] || country, nation [lexicon:root] || native | native [candidates-02:roots-1500] || country | country [candidates-02:root:gigin]
+19-15	Social and political relations	the town	
+19-16	Social and political relations	the village	village [ladder:list] || village | village [candidates-02:roots-1500]
+19-17	Social and political relations	the boundary	
+19-21	Social and political relations	the people	race (people) [ladder:list]
+19-23	Social and political relations	the clan	
+19-24	Social and political relations	the chieftain	
+19-25	Social and political relations	the walking stick	stick [compounds:phrase] || stick [ladder:covered:kima netu] || stick | stick [candidates-02:roots-1500 deep]
+19-31	Social and political relations	to rule or govern	rule [additions-01:list] || rule | rule [candidates-02:additions]
+19-32	Social and political relations	the king	king [ladder:list] || king | king [candidates-02:roots-1500]
+19-33	Social and political relations	the queen	queen [ladder:covered:king futa] || queen | queen [candidates-02:roots-1500]
+19-36	Social and political relations	the noble	noble [ladder:list] || noble | noble [candidates-02:roots-1500]
+19-37	Social and political relations	the citizen	citizen [ladder:list] || citizen | citizen [candidates-02:roots-1500]
+19-41	Social and political relations	the master	master [ladder:list] || master | master [candidates-02:roots-1500]
+19-42	Social and political relations	the slave	slave [ladder:list] || slave | slave [candidates-02:roots-1500]
+19-43	Social and political relations	the servant	servant [ladder:list] || servant | servant [candidates-02:roots-1500]
+19-44	Social and political relations	the freeman	
+19-45	Social and political relations	to command or order	
+19-46	Social and political relations	to obey	obey [additions-02:proposed:root] || obey [entrants-02:entrant:missing] || obey | obey [candidates-02:entrant:missing]
+19-47	Social and political relations	to permit	
+19-51	Social and political relations	the friend	friend [lexicon:root] || friend | friend [candidates-02:root:sonu]
+19-52	Social and political relations	the enemy	enemy [lexicon:root] || enemy | enemy [candidates-02:root:biton]
+19-54	Social and political relations	the neighbour	neighbour [compounds:phrase] || neighbour | neighbour [candidates-02:cover:no nume gelu]
+19-55	Social and political relations	the stranger	stranger [walk-02:walk:G]
+19-56	Social and political relations	the guest	guest [ladder:list] || guest | guest [candidates-02:roots-1500]
+19-57	Social and political relations	the host	host [ladder:list] || host | host [candidates-02:roots-1500]
+19-58	Social and political relations	to help	help [lexicon:root] || help | help [candidates-02:root:yema]
+19-59	Social and political relations	to prevent	prevent [ladder:list] || prevent | prevent [candidates-02:roots-1500]
+19-61	Social and political relations	the custom	
+19-62	Social and political relations	the quarrel	
+19-63	Social and political relations	the plot	plot [ladder:list] || plot | plot [candidates-02:roots-1500]
+19-65	Social and political relations	to meet	meet | meet [candidates-02:root:fanmu]
+19-72	Social and political relations	the prostitute	prostitute [ladder:list] || prostitute | prostitute [candidates-02:roots-1500]
+20-11	Warfare and hunting	to fight	fight [lexicon:root] || fight | fight [candidates-02:root:migi]
+20-13	Warfare and hunting	the war or battle	war [lexicon:root] || war | war [candidates-02:root:pinpu]
+20-14	Warfare and hunting	the peace	peace [lexicon:root] || peace | peace [candidates-02:root:bonwi]
+20-15	Warfare and hunting	the army	army [ladder:list] || army | army [candidates-02:roots-1500]
+20-17	Warfare and hunting	the soldier	soldier [ladder:list] || soldier | soldier [candidates-02:roots-1500]
+20-21	Warfare and hunting	the weapons	
+20-22	Warfare and hunting	the club	club [ladder:list] || club | club [candidates-02:roots-1500]
+20-222	Warfare and hunting	the battle-axe	
+20-23	Warfare and hunting	the sling	
+20-24	Warfare and hunting	the bow	bow [ladder:list] || bow | bow [candidates-02:roots-1500] || bow (weapon) [ladder:list]
+20-25	Warfare and hunting	the arrow	arrow [ladder:list] || arrow | arrow [candidates-02:roots-1500]
+20-26	Warfare and hunting	the spear	
+20-27	Warfare and hunting	the sword	sword [ladder:list] || sword | sword [candidates-02:roots-1500]
+20-28	Warfare and hunting	the gun	gun [ladder:covered:du onlo] || gun | gun [candidates-02:roots-1500]
+20-31	Warfare and hunting	the armour	
+20-33	Warfare and hunting	the helmet	
+20-34	Warfare and hunting	the shield	shield [ladder:list] || shield | shield [candidates-02:roots-1500]
+20-35	Warfare and hunting	the fortress	
+20-36	Warfare and hunting	the tower	tower [ladder:list] || tower | tower [candidates-02:roots-1500]
+20-41	Warfare and hunting	the victory	
+20-42	Warfare and hunting	the defeat	defeat [ladder:list] || defeat | defeat [candidates-02:roots-1500]
+20-43	Warfare and hunting	the attack	attack [ladder:list] || attack | attack [candidates-02:roots-1500]
+20-44	Warfare and hunting	to defend	
+20-45	Warfare and hunting	to retreat	
+20-46	Warfare and hunting	to surrender	surrender [walk-02:walk:P]
+20-47	Warfare and hunting	the captive or prisoner	prisoner [ladder:list] || prisoner | prisoner [candidates-02:roots-1500]
+20-471	Warfare and hunting	the guard	guard [ladder:covered:no kuwi] || guard | guard [candidates-02:roots-1500]
+20-48	Warfare and hunting	the booty	
+20-49	Warfare and hunting	the ambush	
+20-51	Warfare and hunting	the fisherman	
+20-52	Warfare and hunting	the fishhook	
+20-53	Warfare and hunting	the fishing line	line [ladder:list] || line | line [candidates-02:roots-1500]
+20-54	Warfare and hunting	the fishnet	
+20-55	Warfare and hunting	the fish trap	trap [ladder:list] || fish | fish [candidates-02:root:woga] || trap | trap [candidates-02:roots-1500] || fish, the animal [lexicon:root]
+20-56	Warfare and hunting	the bait	
+20-61	Warfare and hunting	to hunt	hunt [lexicon:root] || hunt | hunt [candidates-02:root:fesun]
+20-62	Warfare and hunting	to shoot	shoot [lexicon:root] || shoot | shoot [candidates-02:root:onlo]
+20-63	Warfare and hunting	to miss	target [ladder:merge:goal] || miss | miss [candidates-02:root:sanku] || target | target [candidates-02:roots-1500] || miss, feel the absence of [lexicon:root]
+20-64	Warfare and hunting	the trap	trap [ladder:list] || trap | trap [candidates-02:roots-1500]
+20-65	Warfare and hunting	to trap	trap [ladder:list] || catch [ladder:list] || trap | trap [candidates-02:roots-1500] || catch | catch [candidates-02:roots-1500 deep]
+21-11	Law	the law	law [lexicon:root] || law | law [candidates-02:root:wabun]
+21-15	Law	the court	court [ladder:list] || court | court [candidates-02:roots-1500]
+12-013	Spatial relations	at	
+21-16	Law	to adjudicate	
+21-17	Law	the judgment	
+21-18	Law	the judge	judge [ladder:list] || judge | judge [candidates-02:roots-1500]
+21-21	Law	the plaintiff	
+21-22	Law	the defendant	
+21-23	Law	the witness	witness [ladder:list] || witness | witness [candidates-02:roots-1500]
+21-24	Law	to swear	
+21-25	Law	the oath	
+21-31	Law	to accuse	accuse [additions-02:proposed:boundary question] || accuse [entrants-02:entrant:missing] || accuse | accusation [candidates-02:entrant:missing]
+21-32	Law	to condemn	
+21-33	Law	to convict	
+21-34	Law	to acquit	
+21-35	Law	guilty	guilty [walk-02:walk:G]
+21-36	Law	innocent	innocent [ladder:list] || innocent | innocent [candidates-02:roots-1500]
+21-37	Law	the penalty or punishment	punish | punishment [candidates-02:roots-1500]
+21-38	Law	the fine	
+21-39	Law	the prison	prison [ladder:list] || prison | prison [candidates-02:roots-1500]
+21-42	Law	the murder	
+21-43	Law	the adultery	
+21-44	Law	the rape	rape [ladder:list] || rape | rape [candidates-02:roots-1500]
+21-46	Law	the arson	
+21-47	Law	the perjury	
+21-51	Law	to steal	steal [lexicon:root] || steal | steal [candidates-02:root:bunsi]
+21-52	Law	the thief	thief [ladder:covered:no bunsi] || thief | thief [candidates-02:roots-1500]
+22-11	Religion and belief	the religion	religion [ladder:list] || religion | religion [candidates-02:roots-1500]
+22-12	Religion and belief	the god	god [lexicon:root] || god | god [candidates-02:root:nosen]
+22-13	Religion and belief	the temple	temple [ladder:list] || temple | temple [candidates-02:roots-1500]
+22-14	Religion and belief	the altar	
+22-15	Religion and belief	the sacrifice	sacrifice [ladder:list] || sacrifice | sacrifice [candidates-02:roots-1500]
+22-16	Religion and belief	to worship	
+22-17	Religion and belief	to pray	pray [ladder:list] || pray | prayer [candidates-02:roots-1500]
+22-18	Religion and belief	the priest	priest [ladder:list] || priest | priest [candidates-02:roots-1500]
+22-19	Religion and belief	holy	holy [additions-02:proposed:root (author)] || holy [entrants-02:entrant:missing] || holy | holy [candidates-02:entrant:missing]
+22-22	Religion and belief	to preach	
+22-23	Religion and belief	to bless	bless [ladder:list] || bless | blessing [candidates-02:roots-1500]
+22-24	Religion and belief	to curse	curse [ladder:list] || curse | curse [candidates-02:roots-1500]
+22-26	Religion and belief	to fast	food [lexicon:root] || fast, quick [lexicon:root] || food | food [candidates-02:root:pasu] || fast | quickly [candidates-02:root:yobe]
+22-31	Religion and belief	the heaven	heaven [ladder:list] || heaven | heaven [candidates-02:roots-1500]
+22-32	Religion and belief	the hell	hell [ladder:list] || hell | hell [candidates-02:roots-1500]
+22-35	Religion and belief	the demon	
+22-37	Religion and belief	the idol	idol [ladder:list] || idol | idol [candidates-02:roots-1500]
+22-42	Religion and belief	the magic	magic [lexicon:root] || magic | magic [candidates-02:root:wase]
+22-43	Religion and belief	the sorcerer or witch	wizard | witch [candidates-02:cover:no wase]
+22-44	Religion and belief	the fairy or elf	
+22-45	Religion and belief	the ghost	ghost [additions-01:list]
+22-47	Religion and belief	the omen	omen [walk-02:walk:P]
+23-1	Modern world	the radio	radio [ladder:list] || radio | radio [candidates-02:roots-1500 deep]
+23-11	Modern world	the television	television [ladder:list] || television | television [candidates-02:roots-1500 deep]
+23-12	Modern world	the telephone	phone | telephone [candidates-02:root:liga]
+23-135	Modern world	the motorcycle	motorcycle [ladder:list] || motorcycle | motorcycle [candidates-02:roots-1500 deep]
+23-14	Modern world	the car	car [lexicon:root] || car | car [candidates-02:root:tale] || park.a.car [compounds:phrase]
+23-15	Modern world	the bus	bus [lexicon:root] || bus | bus [candidates-02:root:ensu]
+23-16	Modern world	the airplane	airplane [ladder:list] || airplane | airplane [candidates-02:roots-1500 deep]
+23-17	Modern world	the electricity	electricity [compounds:phrase] || electricity [ladder:list] || electricity | electricity [candidates-02:roots-1500]
+23-175	Modern world	the battery	battery [lexicon:root] || battery | battery [candidates-02:root:batali]
+23-2	Modern world	the hospital	hospital [compounds:phrase] || hospital [ladder:list] || hospital | hospital [candidates-02:roots-1500]
+23-21	Modern world	the nurse	nurse [ladder:list] || nurse | nurse [candidates-02:roots-1500]
+23-22	Modern world	the pill or tablet	
+23-23	Modern world	the injection	
+23-5	Modern world	the tap/faucet	
+23-51	Modern world	the sink	sink [ladder:list] || sink | sink [candidates-02:roots-1500 deep]
+23-52	Modern world	the toilet	toilet [ladder:list] || toilet | toilet [candidates-02:roots-1500]
+23-53	Modern world	the mattress	
+23-3	Modern world	the government	government [ladder:list] || government | government [candidates-02:roots-1500]
+23-31	Modern world	the president	president [ladder:list] || president | president [candidates-02:roots-1500]
+23-32	Modern world	the minister	minister [ladder:list] || prime minister [ladder:covered:minister kudu] || minister | minister [candidates-02:roots-1500] || prime minister | prime minister [candidates-02:roots-1500]
+23-33	Modern world	the police	police [lexicon:root] || police [additions-01:list] || police | police [candidates-02:additions]
+23-34	Modern world	the driver's license	driver [ladder:covered:no drive] || driver | driver [candidates-02:roots-1500] || licence | license [candidates-02:cover:du efon]
+23-37	Modern world	the crime	crime [ladder:list] || crime | crime [candidates-02:roots-1500]
+23-38	Modern world	the election	election [ladder:list] || election | election [candidates-02:roots-1500]
+23-4	Modern world	the post/mail	post (mail) [ladder:merge:letter] || post [ladder:list] || post | post [candidates-02:roots-1500] || post (online) [ladder:merge:message]
+23-41	Modern world	the postage stamp	
+23-42	Modern world	the letter	letter [ladder:list] || letter | letter [candidates-02:roots-1500] || letter (alphabet) [ladder:list]
+23-44	Modern world	the bank	bank [ladder:list] || bank | bank [candidates-02:roots-1500]
+23-54	Modern world	the tin/can	can, be able [lexicon:root]
+23-55	Modern world	the screw	
+23-555	Modern world	the screwdriver	
+23-56	Modern world	the bottle	bottle [ladder:list] || bottle | bottle [candidates-02:roots-1500 deep]
+23-565	Modern world	the candy/sweets	candy | sweets [candidates-02:roots-1500 deep] || candy [ladder:list]
+23-24	Modern world	the spectacles/glasses	glasses [ladder:list] || glasses | eyeglasses [candidates-02:roots-1500 deep]
+23-57	Modern world	the plastic	plastic [ladder:list] || plastic | plastic [candidates-02:roots-1500]
+23-575	Modern world	the bomb	bomb [ladder:list] || bomb | bomb [candidates-02:roots-1500]
+23-58	Modern world	the workshop	
+23-59	Modern world	the cigarette	cigarette [ladder:list] || cigarette | cigarette [candidates-02:roots-1500]
+23-61	Modern world	the calendar	date (calendar) [ladder:grammar]
+23-62	Modern world	the film/movie	film [ladder:list] || film | film [candidates-02:roots-1500 deep]
+23-63	Modern world	the music	music [ladder:list] || music | music [candidates-02:roots-1500]
+23-64	Modern world	the song	song [ladder:list] || song | song [candidates-02:roots-1500]
+23-6	Modern world	the newspaper	newspaper [ladder:list] || newspaper | newspaper [candidates-02:roots-1500]
+23-385	Modern world	the address	address [ladder:list] || address | address [candidates-02:roots-1500]
+23-39	Modern world	the number	number [lexicon:root] || number | number [candidates-02:root:wifu] || number label, ordinal (day 3, the third) [lexicon:root]
+23-155	Modern world	the train	train [compounds:phrase] || train [ladder:list] || train | train [candidates-02:roots-1500 deep]
+23-36	Modern world	the birth certificate	birth [ladder:list] || certificate [ladder:list] || birth | birth [candidates-02:roots-1500] || certificate | certificate [candidates-02:roots-1500]
+23-18	Modern world	to brake	
+23-195	Modern world	the petroleum	
+23-185	Modern world	the motor	
+23-19	Modern world	the machine	machine [ladder:list] || washing machine [ladder:list] || machine | machine [candidates-02:roots-1500] || work, labour; of a machine, function [lexicon:root]
+23-13	Modern world	the bicycle	bicycle [compounds:phrase] || bicycle [ladder:list] || bicycle | bicycle [candidates-02:roots-1500 deep]
+23-395	Modern world	the street	
+19-445	Social and political relations	to liberate	
+19-565	Social and political relations	to invite	invite [ladder:list] || invite | invite [candidates-02:roots-1500]
+23-35	Modern world	the license plate	plate [ladder:list] || plate | plate [candidates-02:roots-1500 deep] || licence | license [candidates-02:cover:du efon]
+23-43	Modern world	the postcard	
+24-01	Miscellaneous function words	to be	
+24-02	Miscellaneous function words	to become	become [lexicon:root] || become | become [candidates-02:root:lewe] || change, make or become different [lexicon:root]
+24-03	Miscellaneous function words	without	without [lexicon:root]
+24-05	Miscellaneous function words	through	fly, move through the air [lexicon:root]
+24-13	Miscellaneous function words	same	same [lexicon:root] || same | same [candidates-02:root:kige] || copy, make the same again [lexicon:root]
+24-06	Miscellaneous function words	not	cold, not hot [lexicon:root] || hard, not soft [lexicon:root] || short, not long [lexicon:root] || light, not heavy [lexicon:root] || safe, not in danger [lexicon:root] || private, not for others [lexicon:root] || free, not held or controlled [lexicon:root] || not literally, joking (speech act) [lexicon:root]
+24-07	Miscellaneous function words	this	
+24-08	Miscellaneous function words	that	
+24-09	Miscellaneous function words	here	here [additions-01:list]
+24-1	Miscellaneous function words	there	there [additions-01:list]
+24-11	Miscellaneous function words	other	other [lexicon:root]
+4-493	The body	the vagina	vagina | vagina [candidates-02:root:kedon]
+23-9	Modern world	the tea	tea [ladder:list] || tea [additions-01:list] || tea | tea [candidates-02:additions]
+23-91	Modern world	the coffee	coffee [ladder:list] || coffee | coffee [candidates-02:roots-1500 deep]
+24-12	Miscellaneous function words	next	next [ladder:list] || next | next [candidates-02:roots-1500]
+3-862	Animals	the coyote	
+3-863	Animals	the hare	
+3-865	Animals	the quail	
+3-866	Animals	the raccoon	
+3-869	Animals	the squirrel	squirrel [ladder:list]
+3-871	Animals	the reindeer/caribou	
+3-872	Animals	the elk/moose	
+3-873	Animals	the beaver	
+10-79	Motion	the sledge/sled	
+8-29	Agriculture and vegetation	the lasso	
+8-991	Agriculture and vegetation	the larch	
+8-993	Agriculture and vegetation	the needle(2)	tree [lexicon:root] || needle [ladder:list] || tree | tree [candidates-02:root:gala] || bark, of a tree [lexicon:root] || needle | needle [candidates-02:roots-1500]
+1-771	The physical world	the arctic lights	
+4-465	The body	the sinew or tendon	
+7-67	The house	to tan	
+6-98	Clothing and grooming	the snowshoe	
+22-5	Religion and belief	the circumcision	
+22-51	Religion and belief	the initiation ceremony	ceremony [ladder:list] || ceremony | ceremony [candidates-02:roots-1500]
+8-996	Agriculture and vegetation	the cone	
+3-8112	Animals	the body louse	body [lexicon:root] || louse [lexicon:root] || body.time [compounds:phrase] || body | body [candidates-02:root:gawo] || fat, body fat [lexicon:root] || back, of the body; behind [lexicon:root]
+4-494	The body	the vulva	vulva [lexicon:root]
+3-99	Animals	the tapir	
+9-93	Basic actions and technology	the whetstone	
+9-92	Basic actions and technology	the tumpline	
+7-65	The house	the camp	camp [ladder:list] || camp | camp [candidates-02:roots-1500]
+8-28	Agriculture and vegetation	the digging stick (=yamstick)	stick [compounds:phrase] || stick [ladder:covered:kima netu] || stick | stick [candidates-02:roots-1500 deep]
+3-597	Animals	the cormorant	
+3-833	Animals	the prawns or shrimp	
+3-834	Animals	the termites	
+3-835	Animals	the tick	
+9-87	Basic actions and technology	the boomerang	
+3-88	Animals	the kangaroo	
+3-89	Animals	the anteater	
+3-598	Animals	the toucan	
+3-9	Animals	the jaguar	
+5-983	Food and drink	the manioc bread	bread [lexicon:root] || bread | bread [candidates-02:root:sowe]
+7-66	The house	the hammock	
+8-911	Agriculture and vegetation	the millet or sorghum	
+3-913	Animals	the chameleon	
+9-9	Basic actions and technology	to draw water	draw [ladder:list] || water [lexicon:root] || water | water [candidates-02:root:osa] || spring (water) [ladder:list] || draw | drawing [candidates-02:roots-1500 deep]
+9-91	Basic actions and technology	the peg	
+10-58	Motion	to go or return home	go [lexicon:root] || return [lexicon:root] || go | go [candidates-02:root:isi] || house, home [lexicon:root] || return | return [candidates-02:root:sigo] || descend | go down [candidates-02:entrant:composes] || leave, go away from [lexicon:root]
+3-917	Animals	the buffalo	
+1-411	The physical world	the savanna	
+1-831	The physical world	the steam	steam [walk-02:walk:G]
+2-4561	Kinship	the older sibling	sibling [lexicon:root] || sibling | sibling [candidates-02:root:faba]
+2-4562	Kinship	the younger sibling	sibling [lexicon:root] || sibling | sibling [candidates-02:root:faba]
+2-4711	Kinship	the grandparents	
+2-5	Kinship	the grandchild	grandchild [ladder:covered:tiwu pi tiwu] || grandchild | grandchild [candidates-02:roots-1500]
+2-541	Kinship	the sibling’s child	child [lexicon:root] || sibling [lexicon:root] || child | child [candidates-02:root:tiwu] || sibling | sibling [candidates-02:root:faba]
+2-622	Kinship	the parents-in-law	law [lexicon:root] || parents [compounds:phrase] || law | law [candidates-02:root:wabun] || parent | parents [candidates-02:roots-1500]
+2-6411	Kinship	the child-in-law	law [lexicon:root] || child [lexicon:root] || law | law [candidates-02:root:wabun] || child | child [candidates-02:root:tiwu]
+2-6412	Kinship	the sibling-in-law	law [lexicon:root] || sibling [lexicon:root] || law | law [candidates-02:root:wabun] || sibling | sibling [candidates-02:root:faba]
+2-931	Kinship	he	
+2-932	Kinship	she	
+2-933	Kinship	it	
+4-741	The body	the life	life | life [candidates-02:cover:pata] || live, be alive, dwell; life [lexicon:root]
+4-771	The body	the carcass	
+4-844	The body	the disease	sick | disease [candidates-02:root:simi]
+7-232	The house	the padlock	
+8-121	Agriculture and vegetation	the paddy	field | field [candidates-02:root:sekan] || field, open land [lexicon:root]
+11-29	Possession	to damage	damage [ladder:list] || damage | damage [candidates-02:roots-1500]
+12-081	Spatial relations	above	above [lexicon:root] || above | above [candidates-02:root:bige]
+13-231	Quantity	the piece	
+13-331	Quantity	alone	alone [ladder:list] || alone | alone [candidates-02:roots-1500]
+14-251	Time	the beginning	
+14-411	Time	the day(2)	night [lexicon:root] || day | day [candidates-02:root:dili] || last night [ladder:grammar] || cold, not hot [lexicon:root] || night | night [candidates-02:root:yami] || day (24 hours) [lexicon:root] || hard, not soft [lexicon:root] || short, not long [lexicon:root]
+22-131	Religion and belief	the church	church [ladder:list] || church | church [candidates-02:roots-1500 deep]
+22-132	Religion and belief	the mosque	mosque [ladder:list] || mosque | mosque [candidates-02:roots-1500]
+24-14	Miscellaneous function words	nothing	
+4-7501	The body	dead	dead [lexicon:root] || dead | dead [candidates-02:root:fafin]
+4-8541	The body	to scratch	scratch [lexicon:root]
+9-111	Basic actions and technology	to make	do; make [lexicon:root] || make | make [candidates-02:root:muge] || copy, make the same again [lexicon:root] || change, make or become different [lexicon:root]
+4-431	The body	the belly	belly [lexicon:root] || belly | stomach [candidates-02:root:suyon]
+9-311	Basic actions and technology	to wipe	wipe [ladder:list] || wipe | wipe [candidates-02:roots-1500 deep]
+1-775	The physical world	to freeze	
+24-04	Miscellaneous function words	with	
+12-012	Spatial relations	in	

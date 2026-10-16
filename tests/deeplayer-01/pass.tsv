@@ -1,0 +1,1461 @@
+wold_id	field	meaning	langs	families	root_families	loan_langs	class	D_tier	freq_rank	covered_by_or_phrase	gloss	note
+1-1	The physical world	the world	38	22	14	9	cov			world [ladder:list]		
+1-21	The physical world	the land	41	24	22	4	cov			land | land [candidates-02:root:fowo]		
+1-212	The physical world	the soil	39	24	24	1	cov			fowo		
+1-213	The physical world	the dust	41	24	16	5	cov			awin		
+1-214	The physical world	the mud	40	24	21	3	cov			mud [ladder:list]		
+1-215	The physical world	the sand	41	24	20	4	cov			digan		
+1-22	The physical world	the mountain or hill	41	24	22	3	cov			genne; hill (entrant, covered)		
+1-222	The physical world	the cliff or precipice	40	24	21	2	D	core			cliff, steep rock face	21/24 families have their own root
+1-23	The physical world	the plain	38	23	14	6	cov			plain (land) [ladder:covered:sekan mawun]		
+1-24	The physical world	the valley	37	21	17	5	cov			valley [ladder:list]		
+1-25	The physical world	the island	37	23	14	12	cov			island [ladder:list]		
+1-26	The physical world	the mainland	25	16	6	10	X				mainland	coastal/island term; 6 root families, 10 loan languages
+1-27	The physical world	the shore	38	24	16	2	cov			beach (ladder: includes shore, coast)		
+1-28	The physical world	the cave	41	24	19	6	cov			cave (walk G)		
+1-31	The physical world	the water	41	24	22	1	cov			osa		
+1-32	The physical world	the sea	39	23	8	16	cov			puya		
+1-322	The physical world	calm	31	18	10	6	cov			fanse		
+1-323	The physical world	rough(2)	28	16	5	5	cov			nilen "rough"		of the sea
+1-324	The physical world	the foam	41	24	20	3	P			[bubble] la "bubbles"	foam, froth	3 syll if bubble is 2; alt:D (20/24 root families; BQ: one root bubble/foam?)
+1-329	The physical world	the ocean	31	20	5	16	cov			puya (merged: sea, ocean)		
+1-33	The physical world	the lake	39	24	18	8	cov			nenwa		
+1-34	The physical world	the bay	23	14	9	6	cov			bay (walk G)		
+1-341	The physical world	the lagoon	22	14	8	7	X				lagoon	
+1-342	The physical world	the reef	20	13	7	4	X				reef	
+1-343	The physical world	the cape	18	12	5	5	X				cape, headland	
+1-35	The physical world	the wave	37	24	16	4	cov			wave [ladder:list]		
+1-352	The physical world	the tide	19	12	5	4	X				tide	coastal; 5/24 root families
+1-353	The physical world	the low tide	18	11	5	1	X				low tide	
+1-354	The physical world	the high tide	22	12	3	2	X				high tide	
+1-36	The physical world	the river or stream	41	24	20	4	cov			yolan		
+1-362	The physical world	the whirlpool	35	22	9	3	X				whirlpool	9/24 root families
+1-37	The physical world	the spring or well	39	23	14	6	BQ		578	spring (water) (ladder)	well, dug water source	WOLD lumps spring and well; "well" (a dug water source, households across cultures) has no entry; one root for both, or a phrase "pu osa"?
+1-38	The physical world	the swamp	38	23	14	6	D	edge			swamp, marsh, wet ground	14/24 root families
+1-39	The physical world	the waterfall	37	22	7	6	P		2272	osa dosi "water falls"	waterfall	world compound (en waterfall, de Wasserfall, ru vodopad, fr chute d'eau); 4 syll
+1-41	The physical world	the woods or forest	41	24	20	3	cov			forest [ladder:list]		
+1-43	The physical world	the wood	41	24	21	5	cov			kima		
+1-44	The physical world	the stone or rock	41	24	21	1	cov			lutu		
+1-45	The physical world	the earthquake	36	22	6	6	cov			earthquake (additions-02, built phrase)		
+1-51	The physical world	the sky	41	24	18	8	cov			yaye		
+1-52	The physical world	the sun	41	24	20	2	cov			giwe		
+1-53	The physical world	the moon	40	23	20	5	cov			moon (additions-01)		
+1-54	The physical world	the star	41	24	20	6	cov			uwan		
+1-55	The physical world	the lightning	41	24	11	7	cov			mufin		
+1-56	The physical world	the thunder	40	24	16	3	cov			seyun		
+1-57	The physical world	the bolt of lightning	36	21	8	8	cov			mufin		
+1-58	The physical world	the storm	38	23	10	6	cov			lapo		
+1-59	The physical world	the rainbow	41	24	14	2	D	edge	2304		rainbow	14/24 root families, 2 loan languages; children's word
+1-61	The physical world	the light	41	24	16	4	cov			wino		
+1-62	The physical world	the darkness	41	24	16	5	cov			buda "dark" (as a noun)		
+1-63	The physical world	the shade or shadow	41	24	20	3	cov			situ		
+1-64	The physical world	the dew	41	24	17	5	D	core			dew	17/24 root families; rural everyday
+1-71	The physical world	the air	36	20	11	13	cov			wunta		
+1-72	The physical world	the wind	41	24	22	4	cov			gulo		
+1-73	The physical world	the cloud	41	24	18	5	cov			lanba		
+1-74	The physical world	the fog	41	24	17	4	cov			baken		
+1-75	The physical world	the rain	41	24	20	3	cov			gegi		
+1-76	The physical world	the snow	33	20	14	5	cov			binso		
+1-77	The physical world	the ice	40	23	16	6	cov			nokun		
+1-78	The physical world	the weather	33	19	9	8	cov			weather [ladder:list]		
+1-81	The physical world	the fire	41	24	23	0	cov			lumi		
+1-82	The physical world	the flame	40	23	11	5	cov			lumi "fire"		flame lumped with fire (zh 火, many languages); split only if a test needs it
+1-83	The physical world	the smoke	41	24	22	2	cov			penso		
+1-84	The physical world	the ash	41	24	17	4	cov			sulen		
+1-841	The physical world	the embers	39	24	10	7	cov			coal (walk G: coal, charcoal)		embers = live coals; BQ minor
+1-851	The physical world	to burn(1)	41	24	14	3	cov			onti		
+1-852	The physical world	to burn(2)	41	24	20	1	cov			onti		
+1-86	The physical world	to light	41	24	17	1	cov			onti "burn" (transitive)		light a fire = make burn
+1-861	The physical world	to extinguish	41	24	13	5	BQ			tapi "close" (turn off)	put out (a fire)	tapi covers turn off (language.md 11.4); does it cover a fire? else root (13/24 root families)
+1-87	The physical world	the match	40	24	4	24	cov			match (fire) [ladder:list]		
+1-88	The physical world	the firewood	40	24	21	2	D	core			firewood	21/24 root families; fuel for most of the world's cooking fires; BQ vs kima "wood"
+1-89	The physical world	the charcoal	40	24	16	6	cov			coal (walk G: coal, charcoal)		
+2-1	Kinship	the person	39	22	18	7	cov			ewo		
+2-21	Kinship	the man	41	24	17	1	cov			lowu		
+2-22	Kinship	the woman	41	24	18	2	cov			futa		
+2-23	Kinship	male(1)	38	23	15	4	cov			lowu "male"		
+2-24	Kinship	female(1)	38	23	19	3	cov			futa "female"		
+2-25	Kinship	the boy	40	24	13	3	cov			tiwu lowu (ladder)		
+2-251	Kinship	the young man	39	24	11	6	cov			lowu loyen (ladder)		
+2-26	Kinship	the girl	40	24	14	2	cov			tiwu futa (ladder)		
+2-261	Kinship	the young woman	39	24	15	4	cov			futa loyen		
+2-27	Kinship	the child(1)	41	24	19	3	cov			tiwu		
+2-28	Kinship	the baby	39	24	13	5	cov			baby [ladder:list]		
+2-31	Kinship	the husband	41	24	20	4	cov			ofin "spouse" (+ lowu)		
+2-32	Kinship	the wife	41	24	19	2	cov			ofin "spouse" (+ futa)		
+2-33	Kinship	to marry	41	24	12	7	cov			bedan		
+2-34	Kinship	the wedding	38	22	7	8	cov			bedan "marry, wedding"		
+2-341	Kinship	the divorce	33	18	3	7	cov			divorce [ladder:list]		
+2-35	Kinship	the father	41	24	20	3	cov			wede		
+2-36	Kinship	the mother	41	24	24	0	cov			mole		
+2-37	Kinship	the parents	36	20	5	3	cov			parent (additions-01: root, author 2026-10-16) + plural		
+2-38	Kinship	the married man	28	18	5	2	cov			lowu pi ofin / ewo bedan		married person: the state of bedan
+2-39	Kinship	the married woman	29	20	4	1	cov			futa pi ofin / ewo bedan		
+2-41	Kinship	the son	40	24	20	2	cov			tiwu lowu		
+2-42	Kinship	the daughter	40	24	18	2	cov			tiwu futa		
+3-662	Animals	the porpoise or dolphin	21	14	6	12	L				dolphin	12 loan languages (delfin family); panel test; else C
+2-43	Kinship	the child(2)	40	23	19	3	cov			tiwu		
+2-44	Kinship	the brother	33	21	13	1	cov			faba (+ lowu)		
+2-444	Kinship	the older brother	35	23	15	1	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		older/younger modifiers
+2-445	Kinship	the younger brother	34	23	12	1	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-45	Kinship	the sister	34	22	13	3	cov			faba (+ futa)		
+2-454	Kinship	the older sister	36	24	13	1	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-455	Kinship	the younger sister	34	24	11	1	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-456	Kinship	the sibling	26	17	8	1	cov			faba		
+2-458	Kinship	the twins	38	22	9	8	P			tiwu [pair] "pair child"	twins	world compound (ja futago "two-child", zh shuangbaotai, ko ssangdung-i); alt:D (9/24 root families, 8 loan languages)
+2-46	Kinship	the grandfather	39	24	21	5	cov			grandfather [ladder:covered:wede pi mole / wede pi wede]		
+2-461	Kinship	the old man	36	24	10	5	cov			lowu pani (ladder)		
+2-47	Kinship	the grandmother	39	24	17	5	cov			grandmother [ladder:covered:mole pi mole / mole pi wede]		
+2-471	Kinship	the old woman	37	24	10	4	cov			futa pani		
+2-48	Kinship	the grandson	37	24	14	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		tiwu pi tiwu + lowu
+2-49	Kinship	the granddaughter	37	24	13	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-51	Kinship	the uncle	27	18	14	6	cov			uncle [ladder:covered:faba pi wede / faba pi mole]		
+2-511	Kinship	the mother's brother	34	23	19	6	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-512	Kinship	the father's brother	33	22	15	7	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-52	Kinship	the aunt	28	18	13	8	cov			aunt [ladder:covered:faba pi wede / faba pi mole]		
+2-521	Kinship	the mother's sister	34	23	16	6	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-522	Kinship	the father's sister	33	23	19	7	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-53	Kinship	the nephew	32	21	8	7	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		tiwu pi faba
+2-54	Kinship	the niece	32	21	10	5	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-55	Kinship	the cousin	34	22	10	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		tiwu pi faba pi mole/wede
+2-56	Kinship	the ancestors	39	23	9	8	cov			ancestor (walk G)		
+2-57	Kinship	the descendants	33	21	7	9	P			tiwu la "children"	descendants, offspring	3 syll; many languages say "children" or "seed" (he zera, ar dhurriyya)
+2-61	Kinship	the father-in-law (of a man)	39	24	11	4	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		wede pi ofin
+2-611	Kinship	the father-in-law (of a woman)	37	23	11	5	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-62	Kinship	the mother-in-law (of a man)	38	23	12	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-621	Kinship	the mother-in-law (of a woman)	36	22	12	5	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-63	Kinship	the son-in-law (of a man)	39	24	16	7	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-631	Kinship	the son-in-law (of a woman)	37	24	17	6	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-64	Kinship	the daughter-in-law (of a man)	38	24	17	5	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-641	Kinship	the daughter-in-law (of a woman)	37	24	17	5	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-71	Kinship	the stepfather	37	22	3	2	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		ofin pi mole
+2-72	Kinship	the stepmother	37	22	6	2	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-73	Kinship	the stepson	34	20	3	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-74	Kinship	the stepdaughter	33	20	3	4	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-75	Kinship	the orphan	38	23	14	6	D	edge			orphan, a child whose parents have died	14/24 root families; across cultures (care of orphans is a duty in most traditions)
+2-76	Kinship	the widow	38	23	7	8	D	edge	1545		widowed person, one whose spouse has died	7/24 root families but named everywhere (8 loan languages); one sex-neutral root for widow and widower (gender is a modifier); alt:P "ewo pi ofin fafin" (7 syll)
+2-77	Kinship	the widower	37	23	7	7	D	same			(= widowed person)	same root as 2-76
+2-81	Kinship	the relatives	40	24	12	10	cov			ewo pi yonyo (ladder: relative)		5 syll: under the 2026-10-16 phrase line this ladder phrase is long (BQ for the walk)
+2-82	Kinship	the family	39	22	12	15	cov			yonyo		
+2-91	Kinship	I	40	24	22	0	cov			grammar: I		
+2-92	Kinship	you (singular)	41	24	22	0	cov			grammar: YOU		
+2-93	Kinship	he/she/it	36	24	22	0	cov			grammar: HE/SHE, IT		
+2-94	Kinship	we	32	20	16	0	cov			grammar: WE		
+2-941	Kinship	we (inclusive)	29	19	16	0	cov			grammar: WE.incl		
+2-942	Kinship	we (exclusive)	29	19	16	0	cov			grammar: WE.excl		
+2-95	Kinship	you (plural)	41	24	16	2	cov			grammar: YOU + PLURAL		
+2-96	Kinship	they	39	24	13	3	cov			grammar: HE/SHE + PLURAL		
+3-11	Animals	the animal	41	24	13	16	cov			noso		
+3-12	Animals	male(2)	39	24	17	5	cov			lowu "male"		
+3-13	Animals	female(2)	39	24	18	4	cov			futa "female"		
+3-15	Animals	the livestock	35	20	8	8	D	edge	2088		livestock, farm animals	8/24 root families, 8 loan languages; kept by about a quarter of the world's workers' households; alt:P "noso pi [farm]" (5 syll)
+3-16	Animals	the pasture	34	21	8	10	cov			sekan "field, open land"		pasture = grazing field; BQ minor
+3-18	Animals	the herdsman	32	20	3	5	P			no kuwi noso "one who protects animals"	herder	5 syll; WOLD has no "to herd"; alt:X
+3-19	Animals	the stable or stall	37	22	10	8	P		1362	pu noso "place of animals"	stable, stall, pen	3 syll
+3-2	Animals	the cattle	30	19	9	9	cov			dunsa "cow, cattle"		
+3-21	Animals	the bull	37	23	7	11	cov			dunsa lowu		gender is a modifier
+3-22	Animals	the ox	34	20	5	16	cov			dunsa (lowu)		the draft ox; alt:D in ploughing regions
+3-23	Animals	the cow	39	24	10	11	cov			dunsa		
+3-24	Animals	the calf	38	23	8	7	P		2250	dunsa tiwu "cow child"	calf	world compound (zh xiaoniu "small cow", ja koushi "child cow"); one pattern for all young animals
+3-25	Animals	the sheep	38	22	13	13	cov			sheep [ladder:list]		
+3-26	Animals	the ram	31	17	7	6	cov			[sheep] lowu		
+3-28	Animals	the ewe	28	16	6	4	cov			[sheep] futa		
+3-29	Animals	the lamb	34	19	8	6	P			[sheep] tiwu	lamb	as calf
+3-32	Animals	the boar	34	21	10	4	cov			[pig] lowu		
+3-34	Animals	the sow	26	19	5	3	cov			[pig] futa		
+3-35	Animals	the pig	41	24	15	10	cov			pig [ladder:list]		
+3-36	Animals	the goat	38	21	11	15	cov			elen		
+3-37	Animals	the he-goat	30	18	4	9	cov			elen lowu		
+3-38	Animals	the kid	31	19	5	4	P			elen tiwu	kid (young goat)	as calf
+3-41	Animals	the horse	41	24	9	23	cov			anbo		
+3-42	Animals	the stallion	34	21	3	11	cov			anbo lowu		
+3-44	Animals	the mare	32	20	3	7	cov			anbo futa		
+3-45	Animals	the foal or colt	34	22	6	9	P			anbo tiwu	foal	as calf
+3-46	Animals	the donkey	36	20	7	21	cov			donkey [ladder:list]		
+3-47	Animals	the mule	29	16	4	20	L				mule	20 loan languages (mula/mul family); panel test
+3-5	Animals	the fowl	29	17	11	4	cov			yiban "chicken"		
+3-52	Animals	the cock/rooster	37	22	8	11	cov			yiban lowu		
+3-54	Animals	the hen	34	20	8	6	cov			yiban futa		
+3-55	Animals	the chicken	37	23	11	13	cov			yiban		
+3-56	Animals	the goose	35	22	11	16	cov			goose [ladder:list]		
+3-57	Animals	the duck	38	24	13	13	cov			duck [ladder:list]		
+3-58	Animals	the nest	41	24	17	5	D	core	1615		nest	17/24 root families
+3-581	Animals	the bird	41	24	19	3	cov			lodi		
+3-582	Animals	the seagull	22	16	10	5	X				seagull	
+3-583	Animals	the heron	29	19	14	6	X				heron	
+3-584	Animals	the eagle	37	23	19	5	D	core	2122		eagle, large bird of prey	19/24 root families; BQ: one root for eagle and hawk (raptor)?
+3-585	Animals	the hawk	38	23	18	5	BQ			[eagle]	hawk	18/24 root families; lump with eagle or a second root
+3-586	Animals	the vulture	32	19	17	3	X				vulture	17/24 root families; alt:D
+3-591	Animals	the bat	40	23	15	6	cov			no bina mon yami (compounds)		
+3-592	Animals	the parrot	35	21	13	16	L				parrot	16 loan languages (papagayo / babbagha' family); panel test; else D
+3-593	Animals	the crow	37	21	17	4	D	core	1986		crow, raven	17/24 root families; in towns and fields on every continent
+3-594	Animals	the dove	37	21	13	11	D	edge			pigeon, dove	13/24 root families, 11 loan languages; in every city; alt:L
+3-596	Animals	the owl	40	24	23	4	cov			owl [ladder:list]		
+3-61	Animals	the dog	41	24	20	3	cov			totu		
+3-614	Animals	the rabbit	36	21	13	12	cov			rabbit [ladder:list]		
+3-62	Animals	the cat	41	24	14	12	cov			cat [ladder:list]		
+3-622	Animals	the opossum	19	13	6	9	C				opossum	
+3-63	Animals	the mouse or rat	41	24	22	3	cov			mouse (ladder)		WOLD lumps mouse and rat
+3-65	Animals	the fish	41	24	18	4	cov			woga		
+3-652	Animals	the fin	33	20	14	2	X				fin	alt:D (14/24 root families)
+3-653	Animals	the scale	36	22	15	7	D	core	1429		scale (of fish or snake)	15/24 root families; fish is cleaned of scales in kitchens everywhere
+3-654	Animals	the gill	29	17	12	6	X				gill	
+3-655	Animals	the shell	36	21	14	5	D	edge	1904		shell (of egg, nut, snail, sea creature)	14/24 root families; BQ: lumped with tase "bark" or unne "skin" in some languages (husk, peel)
+3-661	Animals	the shark	22	14	5	9	X		1751		shark	alt:L
+3-663	Animals	the whale	24	14	5	9	D	edge	1717		whale	5/24 root families (inland languages), 9 loans with different forms; known everywhere today; "big fish" (zh jingyu) builds a known-wrong belief (C4); alt:X
+3-664	Animals	the stingray	18	11	9	3	X				stingray	
+3-665	Animals	the freshwater eel	26	14	9	1	X				eel	
+3-71	Animals	the wolf	30	18	11	6	cov			wolf [ladder:list]		
+3-72	Animals	the lion	36	20	8	23	cov			lion [ladder:list]		
+3-73	Animals	the bear	31	19	12	11	cov			bear [ladder:list]		
+3-74	Animals	the fox	35	21	17	4	cov			fox [ladder:list]		
+3-75	Animals	the deer	35	22	20	4	cov			deer [ladder:list]		
+3-76	Animals	the monkey	37	21	18	9	cov			monkey [ladder:list]		
+3-77	Animals	the elephant	34	18	8	23	cov			elephant [ladder:list]		
+3-78	Animals	the camel	31	18	3	26	L				camel	26 loan languages (gamal / kamel family); panel test
+3-81	Animals	the insect	34	20	12	12	cov			sunni		
+3-811	Animals	the head louse	41	24	23	1	cov			akan		
+3-812	Animals	the nit	37	22	11	2	X				nit (louse egg)	alt:P "akan tika"
+3-813	Animals	the flea	40	23	18	2	D	core			flea	18/24 root families
+3-814	Animals	the centipede	35	20	12	5	X				centipede	note: the compounds' spider phrase "small animal of many legs" fits centipede better
+3-815	Animals	the scorpion	34	18	11	12	cov			scorpion (compounds)		
+3-816	Animals	the cockroach	37	21	9	13	L		2247		cockroach	13 loan languages (tarakan, cucaracha …); in households across cultures: else D
+3-817	Animals	the ant	41	24	23	3	cov			tonde		
+3-818	Animals	the spider	41	24	19	8	cov			spider [compounds:phrase]		
+3-819	Animals	the spider web	38	23	4	2	P			[net] pi [spider]	spider web	world compound (de Spinnennetz, zh zhizhuwang "spider net")
+3-82	Animals	the bee	41	24	16	4	cov			bee [ladder:list]		
+3-821	Animals	the beeswax	34	21	8	4	X				beeswax	see wax/candle (house)
+3-822	Animals	the beehive	36	22	7	4	P			[nest] pi [bee]	beehive	world compound (zh fengchao "bee nest")
+3-823	Animals	the wasp	40	24	22	5	D	core			wasp	22/24 root families
+3-83	Animals	the fly	41	24	21	2	cov			gekon		
+3-831	Animals	the sandfly or midge or gnat	31	19	17	3	X				gnat, midge, sandfly	alt:P "gekon meli"
+3-832	Animals	the mosquito	40	24	19	7	cov			gonte		
+3-84	Animals	the worm	40	23	18	6	cov			enna		
+3-85	Animals	the snake	41	24	21	4	cov			dinbu		
+3-91	Animals	the firefly	35	21	11	2	X				firefly	alt:P (zh yinghuochong "glow-fire-insect")
+3-92	Animals	the butterfly	41	24	15	3	cov			butterfly [ladder:list]		
+3-93	Animals	the grasshopper	41	24	17	5	cov			grasshopper (compounds)		
+3-94	Animals	the snail	39	22	14	5	D	edge			snail	14/24 root families
+3-95	Animals	the frog	41	24	21	9	cov			frog [ladder:list]		
+3-96	Animals	the lizard	40	24	20	7	D	core			lizard	20/24 root families; in houses across the tropics
+3-97	Animals	the crocodile or alligator	37	20	9	17	cov			crocodile [ladder:list]		
+3-98	Animals	the turtle	37	21	16	7	cov			turtle [ladder:list]		
+4-11	The body	the body	40	24	23	3	cov			gawo		
+4-12	The body	the skin or hide	41	24	21	1	cov			unne		
+4-13	The body	the flesh	41	24	22	4	cov			fuyu "meat"		flesh lumped with meat (common)
+4-14	The body	the hair	41	24	20	1	cov			sonfa		
+4-142	The body	the beard	40	24	18	5	D	core	2141		beard	18/24 root families
+4-144	The body	the body hair	38	23	19	4	cov			sonfa		
+4-145	The body	the pubic hair	38	24	18	5	cov			sonfa		
+4-146	The body	the dandruff	37	24	10	7	X				dandruff	
+4-15	The body	the blood	41	24	22	1	cov			makon		
+4-151	The body	the vein or artery	41	24	12	5	D	edge	1875		blood vessel (vein, artery)	12/24 root families; on the balance audit's gap list
+4-16	The body	the bone	41	24	22	2	cov			gipo		
+4-162	The body	the rib	41	24	14	1	D	edge	2061		rib	14/24 root families
+4-17	The body	the horn	41	24	21	7	cov			yansi		
+4-18	The body	the tail	41	24	23	3	cov			kenlo		
+4-19	The body	the back	41	24	21	4	cov			nebe		
+4-191	The body	the spine	41	24	9	4	P			gipo pi nebe "bone of the back"	spine, backbone	world compound (en backbone, de Rückgrat)
+4-2	The body	the head	41	24	21	3	cov			lukan		
+4-201	The body	the temples	31	19	10	3	X				temple (of the head)	
+4-202	The body	the skull	39	23	5	5	P		1901	gipo pi lukan "bone of the head"	skull	world compound (zh tougu, ja zugaikotsu "head bone")
+4-203	The body	the brain	41	24	19	5	cov			lemon		
+4-204	The body	the face	41	24	21	4	cov			suku		
+4-205	The body	the forehead	41	24	20	2	cov			forehead [ladder:list]		
+4-207	The body	the jaw	40	24	15	3	D	core	2097		jaw	15/24 root families
+4-208	The body	the cheek	40	23	18	1	cov			cheek [ladder:list]		
+4-209	The body	the chin	41	24	19	1	cov			chin [ladder:list]		
+4-21	The body	the eye	41	24	20	2	cov			funo		
+4-212	The body	the eyebrow	41	24	12	5	D	edge			eyebrow	12/24 root families; body part
+4-213	The body	the eyelid	40	24	6	2	P			unne pi funo "skin of the eye"	eyelid	world compound (zh yanpi "eye skin", de Augenlid)
+4-214	The body	the eyelash	41	24	9	3	P			sonfa pi funo "hair of the eye"	eyelash	world compound (ja matsuge, zh yanjiemao); alt:D
+4-215	The body	to blink	41	24	10	5	D	edge			blink	10/24 root families; basic action; alt:P "tapi funo" (4 syll)
+4-22	The body	the ear	41	24	21	0	cov			wisa		
+4-221	The body	the earlobe	34	21	4	2	X				earlobe	
+4-222	The body	the earwax	36	23	6	1	X				earwax	
+4-23	The body	the nose	41	24	22	1	cov			danki		
+4-231	The body	the nostril	40	24	4	3	P			[hole] pi danki "hole of the nose"	nostril	world compound (zh bikong, de Nasenloch)
+4-232	The body	the nasal mucus	40	23	20	1	D	core			snot, nasal mucus	20/24 root families
+4-24	The body	the mouth	41	24	22	1	cov			fade		
+4-241	The body	the beak	39	23	15	6	D	core	2010		beak	15/24 root families
+4-25	The body	the lip	41	24	16	1	cov			gonge		
+4-26	The body	the tongue	41	24	21	2	cov			lisun		
+4-27	The body	the tooth	41	24	24	1	cov			fonma		
+4-271	The body	the gums	39	23	13	2	D	edge			gums	13/24 root families; body part
+4-272	The body	the molar tooth	39	23	14	2	X				molar	
+4-28	The body	the neck	41	24	21	3	cov			mogo		
+4-281	The body	the nape of the neck	37	22	14	5	X				nape	alt:P "nebe pi mogo"
+4-29	The body	the throat	41	24	18	4	cov			muban		
+4-3	The body	the shoulder	41	24	20	5	cov			sonyu		
+4-301	The body	the shoulderblade	37	23	10	4	X				shoulder blade	
+4-302	The body	the collarbone	34	23	6	6	X				collarbone	
+4-31	The body	the arm	40	24	22	3	cov			inyi		
+4-312	The body	the armpit	41	24	18	3	cov			senke		
+4-32	The body	the elbow	40	24	17	3	D	core			elbow	17/24 root families
+4-321	The body	the wrist	39	24	10	3	D	edge	2269		wrist	10/24 root families; body part (where a watch goes)
+4-33	The body	the hand	41	24	22	3	cov			kiti		
+4-331	The body	the palm of the hand	40	24	9	4	D	edge			palm of the hand	9/24 root families; body part; alt:P "bese pi kiti"
+4-34	The body	the finger	41	24	16	2	cov			linma		
+4-342	The body	the thumb	40	23	7	0	P		2288	linma kudu "big finger"	thumb	world compound (zh damuzhi, ru bolshoy palets, tr başparmak)
+4-344	The body	the fingernail	41	24	19	2	cov			tolin		
+4-345	The body	the claw	40	24	19	4	BQ			tolin "nail, of a finger or toe"	claw	19/24 root families; lump nail and claw (es uña) or a root
+4-35	The body	the leg	39	23	21	4	cov			bendo		
+4-351	The body	the thigh	41	24	19	2	D	core	1888		thigh	19/24 root families; on the balance audit's gap list
+4-352	The body	the calf of the leg	38	24	13	3	X				calf (of the leg)	alt:D (body part, 13/24)
+4-36	The body	the knee	41	24	20	2	cov			leyi		
+4-37	The body	the foot	41	24	21	2	cov			pifo		
+4-371	The body	the ankle	41	24	13	5	D	edge			ankle	13/24 root families
+4-372	The body	the heel	41	24	15	3	D	core	2107		heel	15/24 root families
+4-374	The body	the footprint	41	24	11	5	P		1816	[mark] pi pifo "mark of the foot"	footprint	world compound (zh jiaoyin "foot print", de Fußspur)
+4-38	The body	the toe	41	24	8	3	cov			gonmi		
+4-392	The body	the wing	41	24	21	4	cov			yunbi		
+4-393	The body	the feather	41	24	18	4	cov			suba		
+4-4	The body	the chest	41	24	21	5	cov			egu (ladder: chest covered)		
+4-41	The body	the breast	41	24	23	2	cov			egu		
+4-412	The body	the nipple or teat	39	24	10	0	D	edge			nipple, teat	10/24 root families; body part; alt:P
+4-42	The body	the udder	37	23	18	2	cov			egu "breast"		udder lumped with breast; BQ minor
+4-43	The body	the navel	41	24	22	4	cov			wuwu		
+4-44	The body	the heart	41	24	23	2	cov			mala		
+4-441	The body	the lung	40	24	14	9	cov			badin		
+4-45	The body	the liver	41	24	22	3	cov			gudu		
+4-451	The body	the kidney	41	24	15	7	D	core	1951		kidney	15/24 root families
+4-452	The body	the spleen	34	19	16	6	X				spleen	
+4-46	The body	the stomach	41	24	19	9	cov			suyon (merged: belly, stomach)		
+4-461	The body	the intestines or guts	41	24	17	5	cov			gusen		
+4-462	The body	the waist	38	23	18	4	D	core	1548		waist	18/24 root families
+4-463	The body	the hip	41	24	19	2	D	core			hip	19/24 root families
+4-464	The body	the buttocks	41	24	18	2	cov			nunfo		
+4-47	The body	the womb	40	23	10	6	cov			womb [ladder:list]		
+4-49	The body	the testicles	41	24	17	2	cov			bosun		
+4-492	The body	the penis	41	24	23	3	cov			wento		
+4-51	The body	to breathe	41	24	10	3	cov			togun		
+4-52	The body	to yawn	41	24	12	3	cov			ganpa		
+4-521	The body	to hiccough	41	24	16	4	D	core			hiccup	16/24 root families; bodily action
+4-53	The body	to cough	41	24	16	2	cov			dowin		
+4-54	The body	to sneeze	41	24	19	2	cov			tinne		
+4-55	The body	to perspire	41	24	10	3	cov			tiwe		
+4-56	The body	to spit	41	24	14	1	cov			kefa		
+4-57	The body	to vomit	40	24	18	2	cov			gabu		
+4-58	The body	to bite	41	24	19	1	cov			lasu		
+4-59	The body	to lick	41	24	18	4	cov			lick [ladder:list]		
+4-591	The body	to dribble	37	22	11	2	X				drool, dribble	
+4-61	The body	to sleep	41	24	18	2	cov			wopo		
+4-612	The body	to snore	41	24	12	5	cov			nenmu		
+4-62	The body	to dream	40	23	14	2	cov			sinun		
+4-63	The body	to wake up	41	24	15	3	cov			unda		
+4-64	The body	to fart	40	24	15	1	cov			paben		
+4-65	The body	to piss	40	24	15	3	cov			tibin		
+4-66	The body	to shit	41	24	14	1	cov			desin		
+4-67	The body	to have sex	40	23	16	2	cov			sex (ladder) as a verb		
+4-68	The body	to shiver	41	24	16	3	BQ			susin "shake, vibrate"	shiver, tremble	16/24 root families; lump with shake or a root
+4-69	The body	to bathe	41	24	15	4	cov			pensi "wash"		bathe = wash (the body); BQ minor
+4-71	The body	to beget	33	20	9	3	X				beget	
+4-72	The body	to be born	41	24	12	8	cov			birth (ladder) as a verb		
+4-73	The body	pregnant	40	24	12	2	cov			pregnant [ladder:list]		
+4-732	The body	to conceive	34	21	7	2	X				conceive	
+4-74	The body	to be alive	41	24	15	3	cov			nume		
+4-75	The body	to die	41	24	19	3	cov			kono		
+4-751	The body	to drown	39	23	13	3	D	edge	2123		drown	13/24 root families; alt:P "kono nin osa"
+4-76	The body	to kill	41	24	18	3	cov			omen		
+4-77	The body	the corpse	39	23	11	11	cov			gawo fafin (ladder: corpse)		
+4-78	The body	to bury	41	24	17	4	D	core	1695		bury	17/24 root families; funerals everywhere
+4-79	The body	the grave	41	24	13	11	cov			grave [ladder:list]		
+4-81	The body	strong	41	24	16	5	cov			konke		
+4-82	The body	weak	40	24	15	4	cov			nensi		
+4-83	The body	healthy	40	23	10	11	cov			health (ladder) as a quality		
+4-84	The body	sick/ill	41	24	16	4	cov			simi		
+4-841	The body	the fever	40	24	12	10	cov			fever [ladder:list]		
+4-842	The body	the goitre/goiter	30	18	9	3	X				goitre	
+4-843	The body	the cold	40	23	14	6	D	edge	565		a cold (the illness)	14/24 root families; the commonest illness; alt:P
+4-85	The body	the wound or sore	41	24	19	4	cov			wound [ladder:list]		
+4-852	The body	the bruise	39	23	14	1	D	edge			bruise	14/24 root families; alt:X
+4-853	The body	the swelling	40	24	16	2	cov			tingu		
+4-854	The body	the itch	39	24	16	0	D	core			itch	16/24 root families; basic sensation
+4-855	The body	the blister	39	23	11	3	X				blister	alt:D
+4-856	The body	the boil	39	23	18	4	X		1461		boil, abscess	alt:D
+4-857	The body	the pus	40	24	20	5	D	core	2305		pus	20/24 root families
+4-858	The body	the scar	38	21	11	6	D	edge	1912		scar	11/24 root families
+4-86	The body	to cure	40	23	9	6	cov			heal (additions-02: root)		
+4-87	The body	the physician	40	24	7	16	cov			doctor (ladder)		
+4-88	The body	the medicine	41	24	16	13	cov			medicine [ladder:list]		
+4-89	The body	the poison	40	24	13	14	cov			poison [ladder:list]		
+4-91	The body	tired	39	23	16	6	cov			fadun		
+4-912	The body	to rest	41	24	13	5	cov			yenbo		
+4-92	The body	lazy	41	24	19	5	D	core	1630		lazy	19/24 root families
+4-93	The body	bald	41	24	12	7	P			su sonfa "no hair"	bald	3 syll
+4-94	The body	lame	39	24	17	4	D	edge			lame, limping	17/24 root families; alt:X
+4-95	The body	deaf	40	23	12	3	P		2238	su nulu "not hearing"	deaf	3 syll; note blind is a root on the list (parity?)
+4-96	The body	mute	38	23	15	3	P			su oyi "not speaking"	mute	3 syll; as deaf
+4-97	The body	blind	40	23	16	3	cov			blind [ladder:list]		
+4-98	The body	drunk	41	24	13	2	cov			drunk [ladder:list]		
+4-99	The body	naked	40	23	17	2	D	core	1856		naked	17/24 root families
+5-11	Food and drink	to eat	41	24	21	1	cov			nawi		
+5-12	Food and drink	the food	40	24	11	5	cov			pasu		
+5-121	Food and drink	cooked	40	23	15	3	cov			siten (done)		cooked = siten + DONE
+5-122	Food and drink	raw	40	24	21	1	cov			bewon		
+5-123	Food and drink	ripe	41	24	16	3	cov			bubin		
+5-124	Food and drink	unripe	37	24	18	3	P			su bubin "not ripe"	unripe	3 syll
+5-125	Food and drink	rotten	41	24	15	6	cov			yuson		
+5-13	Food and drink	to drink	41	24	17	3	cov			koye		
+5-14	Food and drink	to be hungry	41	24	14	0	cov			monyu		
+5-141	Food and drink	the famine	36	21	12	5	D	edge			famine	12/24 root families; alt:P "monyu kudu" (4 syll)
+5-15	Food and drink	to be thirsty	41	24	10	2	cov			thirst (ladder)		
+5-16	Food and drink	to suck	41	24	19	2	cov			maman		
+5-18	Food and drink	to chew	41	24	19	1	cov			sofen		
+5-181	Food and drink	to swallow	40	24	19	2	cov			swallow (walk G)		
+5-19	Food and drink	to choke	38	23	13	4	D	edge			choke (on food)	13/24 root families; alt:X
+5-21	Food and drink	to cook	40	23	16	5	cov			siten		
+5-22	Food and drink	to boil	41	24	16	7	cov			binla		
+5-23	Food and drink	to roast or fry	41	24	20	4	D	core			roast, fry (cook in fire, on a pan or in oil)	20/24 root families; BQ: one root (WOLD lumps) or roast and fry apart
+5-24	Food and drink	to bake	37	24	15	6	BQ			[roast]	bake	15/24 root families; many languages lump bake and roast
+5-25	Food and drink	the oven	36	23	5	17	cov			oven [ladder:list]		
+5-26	Food and drink	the pot	41	24	19	6	cov			pot [ladder:list]		
+5-27	Food and drink	the kettle	34	20	8	20	P			[pot] pi [tea] "pot for tea"	kettle	world compound (ru chaynik, tr çaydanlık "tea thing"); 20 loan languages but no shared form
+5-28	Food and drink	the pan	39	23	7	19	L				pan, frying pan	19 loan languages (pan/Pfanne, tava/tawa family); panel test; else D
+5-31	Food and drink	the dish	37	21	9	21	cov			[plate] (ladder)		dish = plate or serving vessel
+5-32	Food and drink	the plate	40	24	10	23	cov			plate [ladder:list]		
+5-33	Food and drink	the bowl	39	23	13	16	cov			bowl [ladder:list]		
+5-34	Food and drink	the jug/pitcher	35	19	11	11	D	edge			jug, water jar	11/24 root families, 11 loans; a water vessel in households across cultures; BQ vs [pot], [bottle]
+5-35	Food and drink	the cup	40	24	7	21	cov			ladon		
+5-36	Food and drink	the saucer	31	19	2	17	X				saucer	
+5-37	Food and drink	the spoon	41	24	13	13	cov			spoon [ladder:list]		
+5-38	Food and drink	the knife(1)	37	24	15	9	cov			knife [ladder:list]		
+5-39	Food and drink	the fork	36	23	8	17	cov			fork [ladder:list]		
+5-391	Food and drink	the tongs	37	20	9	13	X				tongs	
+5-41	Food and drink	the meal	38	23	11	1	cov			pasu (merged: food, meal)		
+5-42	Food and drink	the breakfast	35	21	4	6	cov			breakfast [ladder:list]		
+5-43	Food and drink	the lunch	34	21	3	8	cov			pasu pi minfi (walk P)		5 syll; world compound (noon meal)
+5-44	Food and drink	the dinner	25	18	3	4	P			pasu pi kegin "food of evening"	dinner	world compound (zh wanfan, ja bangohan, de Abendessen); as lunch
+5-45	Food and drink	the supper	30	18	4	4	P			pasu pi kegin	supper	= dinner
+5-46	Food and drink	to peel	41	24	16	4	D	core	1607		peel	16/24 root families; food preparation
+5-47	Food and drink	to sieve or to strain	40	23	17	5	D	core			sieve, strain	17/24 root families; flour, rice, tea in households across cultures
+5-48	Food and drink	to scrape	39	24	19	3	BQ			sumin "scratch"	scrape	19/24 root families; lump with scratch or a root (scraping roots, skins, pots)
+5-49	Food and drink	to stir or to mix	41	24	18	4	cov			mix (ladder)		
+5-51	Food and drink	the bread	40	23	6	18	cov			sowe		
+5-53	Food and drink	the dough	36	22	9	9	D	edge			dough	9/24 root families; bread, flatbread, dumplings, tortillas across cultures; alt:X
+5-54	Food and drink	to knead	41	24	15	5	D	core	1948		knead	15/24 root families
+5-55	Food and drink	the flour	41	24	15	14	cov			flour (walk G)		
+5-56	Food and drink	to crush or to grind	41	24	18	1	cov			inke; monpa		
+5-57	Food and drink	the mill	32	20	7	9	P			pu inke "place of grinding"	mill	3 syll
+5-58	Food and drink	the mortar(1)	36	22	17	6	D	core			mortar (for pounding)	17/24 root families; a household tool in Africa, Asia and the Americas
+5-59	Food and drink	the pestle	34	20	10	5	P			du inke "tool for grinding"	pestle	3 syll
+5-61	Food and drink	the meat	41	24	19	5	cov			fuyu		
+5-63	Food and drink	the sausage	29	17	5	14	cov			sausage [ladder:list]		
+5-64	Food and drink	the soup	39	24	14	17	cov			soup [ladder:list]		
+5-65	Food and drink	the vegetables	36	23	14	9	cov			vegetable (ladder)		
+5-66	Food and drink	the bean	38	21	13	13	cov			bean [ladder:list]		
+5-7	Food and drink	the potato	38	23	10	16	cov			potato [ladder:list]		
+5-71	Food and drink	the fruit	39	22	12	8	cov			tanun		
+5-712	Food and drink	the bunch	34	20	16	6	cov			funti (walk P)		
+5-75	Food and drink	the fig	28	16	6	16	C				fig	
+5-76	Food and drink	the grape	33	20	7	15	cov			grape [ladder:list]		
+5-77	Food and drink	the nut	33	20	11	7	cov			nut [ladder:list]		
+5-78	Food and drink	the olive	23	13	2	21	C				olive	21 loan languages; alt:L
+5-79	Food and drink	the oil	40	23	11	19	cov			yunen		
+5-791	Food and drink	the grease or fat	40	24	20	5	cov			gimen		
+5-81	Food and drink	the salt	41	24	22	5	cov			bunwu		
+5-82	Food and drink	the pepper	34	20	4	21	L				pepper (black)	21 loan languages (piper / pimienta / perets / biber family); panel test
+5-821	Food and drink	the chili pepper	36	21	13	13	D	edge			chili, hot pepper	13/24 root families, 13 loans with different forms; everyday in Asian, African and American cooking; alt:P "[pepper] tikun"
+5-84	Food and drink	the honey	40	23	13	11	cov			honey [ladder:list]		
+5-85	Food and drink	the sugar	41	24	4	33	cov			sugar [ladder:list]		
+5-86	Food and drink	the milk	41	24	12	10	cov			tunlo		
+5-87	Food and drink	to milk	37	22	12	2	BQ		688	tunlo "milk" (as a verb)	to milk	12/24 root families; does a noun serve as the verb, or a phrase?
+5-88	Food and drink	the cheese	32	19	5	20	cov			cheese [ladder:list]		
+5-89	Food and drink	the butter	35	20	8	15	cov			butter [ladder:list]		
+5-9	Food and drink	the drink	39	23	9	3	cov			koye		
+5-91	Food and drink	the mead	16	10	1	4	C				mead	
+5-92	Food and drink	the wine	36	21	9	24	cov			wine [ladder:list]		
+5-93	Food and drink	the beer	37	21	6	24	cov			beer [ladder:list]		
+5-94	Food and drink	the fermented drink	31	21	13	12	cov			alcohol (ladder)		
+5-97	Food and drink	the egg	41	24	21	2	cov			tika		
+5-971	Food and drink	the yolk	38	24	8	1	P			bilun pi tika "yellow of the egg"	yolk	world compound (zh danhuang, de Eigelb, ru zheltok)
+6-11	Clothing and grooming	to put on	41	24	16	3	cov			yunko "wear"		put on = start wearing; BQ minor
+6-12	Clothing and grooming	the clothing or clothes	40	23	12	5	cov			lonne		
+6-13	Clothing and grooming	the tailor	30	17	2	7	P			no [sew] "one who sews"	tailor	3 syll once sew has a root
+6-21	Clothing and grooming	the cloth	40	24	16	12	cov			demi		
+6-22	Clothing and grooming	the wool	33	20	11	6	D	edge	2270		wool	11/24 root families; clothing in cold climates on every continent; alt:P "sonfa pi [sheep]"
+6-23	Clothing and grooming	the linen	21	13	1	14	X				linen	
+6-24	Clothing and grooming	the cotton	35	21	11	16	L		1678		cotton	16 loan languages (qutn / coton / algodón family); on the balance audit's gap list; panel test; else D
+6-25	Clothing and grooming	the silk	32	20	2	25	L		1582		silk	25 loan languages; panel test; else D
+6-27	Clothing and grooming	the felt	19	12	6	7	X				felt	
+6-28	Clothing and grooming	the fur	38	23	18	8	cov			sonfa "hair"		fur lumped with hair (common)
+6-29	Clothing and grooming	the leather	39	24	18	4	D	core	1629		leather	18/24 root families; shoes, belts, bags; BQ vs unne "skin, hide"
+6-31	Clothing and grooming	to spin	38	24	18	0	X				spin (thread)	alt:D (18/24 root families; a household craft, now fading)
+6-32	Clothing and grooming	the spindle	33	21	16	3	X				spindle	
+6-33	Clothing and grooming	to weave	37	22	20	2	D	core	1872		weave	20/24 root families; cloth, baskets, mats
+6-34	Clothing and grooming	the loom	28	17	11	3	X				loom	
+6-35	Clothing and grooming	to sew	41	24	20	4	D	core	2055		sew	20/24 root families
+6-36	Clothing and grooming	the needle(1)	41	24	11	14	cov			needle [ladder:list]		
+6-37	Clothing and grooming	the awl	27	19	9	9	X				awl	
+6-38	Clothing and grooming	the thread	40	23	18	10	cov			thread (additions-02: root)		
+6-39	Clothing and grooming	to dye	34	21	11	7	X				dye	alt:P "muge [colour]"
+6-41	Clothing and grooming	the cloak	24	15	2	15	X				cloak	
+6-411	Clothing and grooming	the poncho	18	12	6	10	C				poncho	
+7-37	The house	the ladder	41	24	14	7	cov			ladder [ladder:list]		
+6-42	Clothing and grooming	the (woman's) dress	38	23	10	14	cov			dress [ladder:list]		
+6-43	Clothing and grooming	the coat	36	22	4	21	cov			coat [ladder:list]		
+6-44	Clothing and grooming	the shirt	41	24	9	16	cov			shirt [ladder:list]		
+6-45	Clothing and grooming	the collar	35	22	12	10	X		1685		collar	
+6-46	Clothing and grooming	the skirt	40	23	11	20	cov			skirt [ladder:list]		
+6-461	Clothing and grooming	the grass-skirt	9	7	2	2	C				grass skirt	
+6-48	Clothing and grooming	the trousers	40	24	10	23	cov			trousers [ladder:list]		
+6-49	Clothing and grooming	the sock or stocking	40	23	5	25	cov			sock [ladder:list]		
+6-51	Clothing and grooming	the shoe	41	24	14	16	cov			shoe [ladder:list]		
+6-52	Clothing and grooming	the boot	37	22	6	23	cov			boot [ladder:list]		
+6-54	Clothing and grooming	the shoemaker	26	16	2	5	X				shoemaker	
+6-55	Clothing and grooming	the hat or cap	40	24	16	14	cov			hat [ladder:list]		
+6-57	Clothing and grooming	the belt	40	24	17	6	cov			belt [ladder:list]		
+6-58	Clothing and grooming	the glove	30	18	3	7	cov			glove [ladder:list]		
+6-59	Clothing and grooming	the veil	24	16	3	11	C		2030		veil	tied to particular traditions
+6-61	Clothing and grooming	the pocket	38	24	10	22	cov			pocket [ladder:list]		
+6-62	Clothing and grooming	the button	38	23	9	20	BQ		1222	tinli "key, button"	button (on clothes)	is the device button the same word as the clothes button? (zh kouzi vs anniu apart; en, ru knopka together)
+6-63	Clothing and grooming	the pin	33	20	8	15	X		2073		pin	
+6-71	Clothing and grooming	the ornament or adornment	35	20	11	9	D	edge			jewellery, ornament	11/24 root families; worn in every culture; one root also for 6-72 jewel; alt:P "musu sesa" (4 syll)
+6-72	Clothing and grooming	the jewel	26	17	6	11	D	same	1796		(= jewellery)	same root as 6-71; diamond and pearl are on the list
+6-73	Clothing and grooming	the ring	39	23	12	9	cov			ring [ladder:list]		
+6-74	Clothing and grooming	the bracelet	37	21	8	9	P		2006	[ring] pi kiti "ring of the hand"	bracelet	world compound (ja udewa "arm ring", de Armreif)
+6-75	Clothing and grooming	the necklace	39	23	18	5	cov			necklace [ladder:list]		
+6-76	Clothing and grooming	the bead	38	22	17	7	D	core			bead	17/24 root families
+6-77	Clothing and grooming	the earring	40	23	10	7	P			[ring] pi wisa "ring of the ear"	earring	world compound (en earring, de Ohrring, zh erhuan)
+6-78	Clothing and grooming	the headband or headdress	34	21	9	8	X				headband, headdress	
+6-79	Clothing and grooming	the tattoo	25	13	7	5	L		1735		tattoo	tatau-derived forms (en tattoo, fr tatouage, ru tatuirovka, id tato, ja tatū); panel test; else P
+6-81	Clothing and grooming	the handkerchief or rag	38	22	9	13	P			demi meli "small cloth"	handkerchief, rag	world compound (es pañuelo "little cloth", zh shoupa "hand cloth"); 4 syll
+6-82	Clothing and grooming	the towel	38	23	2	22	cov			towel [ladder:list]		
+6-91	Clothing and grooming	the comb	40	23	15	5	cov			comb [ladder:list]		
+6-92	Clothing and grooming	the brush	34	22	9	18	cov			brush [ladder:list]		
+6-921	Clothing and grooming	the plait/braid	38	24	9	5	D	edge			braid, plait	9/24 root families; hairstyle and rope work across cultures; alt:X
+6-93	Clothing and grooming	the razor	36	21	5	10	X				razor	alt:P "du [shave]"; note "shave" is not a WOLD meaning and has no root
+6-94	Clothing and grooming	the ointment	37	21	6	13	X				ointment	
+6-95	Clothing and grooming	the soap	41	24	3	31	cov			soap [ladder:list]		
+6-96	Clothing and grooming	the mirror	39	23	10	14	cov			mirror [ladder:list]		
+7-11	The house	to live	41	24	20	3	cov			nume		
+7-12	The house	the house	41	24	19	4	cov			guyi		
+7-13	The house	the hut	38	24	15	11	cov			guyi "house, home"		hut = a small house (guyi meli); BQ minor
+7-131	The house	the garden-house	17	12	4	4	X				garden house	
+7-14	The house	the tent	32	19	8	16	cov			tent (walk G)		
+7-15	The house	the yard or court	36	21	15	6	cov			yard (ladder)		
+7-16	The house	the men's house	10	7	3	1	C				men's house	
+7-17	The house	the cookhouse	32	20	4	9	cov			pu siten "kitchen" (compounds)		
+7-18	The house	the meeting house	24	17	5	3	cov			hall (ladder)		
+7-21	The house	the room	38	23	12	15	cov			fudon		
+7-22	The house	the door or gate	41	24	14	5	cov			beya		
+7-221	The house	the doorpost	31	17	6	4	X				doorpost	
+7-23	The house	the lock	36	22	8	16	cov			udin		
+7-231	The house	the latch or door-bolt	30	18	8	10	cov			udin "lock"		
+7-24	The house	the key	39	23	5	17	cov			tinli "key, button"		
+7-25	The house	the window	39	23	7	19	cov			window [ladder:list]		
+7-26	The house	the floor	39	22	16	6	BQ		813	sison "storey, floor level"	floor (the surface walked on)	16/24 root families; the surface and the level are apart in many languages (de Boden / Stock, zh diban / louceng)
+7-27	The house	the wall	38	21	17	10	cov			senmo		
+7-31	The house	the fireplace	38	23	10	5	P			pu lumi "place of fire"	hearth, fireplace	3 syll
+7-32	The house	the stove	31	18	6	15	cov			stove [ladder:list]		
+7-33	The house	the chimney	28	17	5	8	P			[pipe] pi penso "pipe of smoke"	chimney	world compound (zh yancong, ja entotsu "smoke pipe")
+7-42	The house	the bed	40	24	13	11	cov			soti		
+7-421	The house	the pillow	38	22	16	7	cov			pillow [ladder:list]		
+7-422	The house	the blanket	40	24	12	15	cov			blanket [ladder:list]		
+7-43	The house	the chair	41	24	7	19	cov			chair [ladder:list]		
+7-44	The house	the table	39	23	5	28	cov			table [ladder:list]		
+7-45	The house	the lamp or torch	41	24	12	20	cov			lamp [ladder:list]		
+7-46	The house	the candle	38	23	8	23	L		1691		candle	23 loan languages (shamʿa: ar, sw mshumaa, fa; candela/kandil family); on the balance audit's gap list; panel test; else D
+7-47	The house	the shelf	34	21	11	13	D	edge	1750		shelf	11/24 root families; in households everywhere
+7-48	The house	the trough	34	21	11	10	X				trough	
+7-51	The house	the roof	41	24	12	2	cov			kuwun		
+7-52	The house	the thatch	29	19	9	1	X				thatch	alt:D (rural roofs across the tropics)
+7-53	The house	the ridgepole	30	18	8	3	X				ridgepole	
+7-54	The house	the rafter	37	22	10	5	X				rafter	
+7-55	The house	the beam	40	23	14	9	X		1702		beam	
+7-56	The house	the post or pole	39	23	15	12	cov			pole, post (ladder)		
+7-57	The house	the board	39	23	11	15	cov			board [ladder:list]		
+7-58	The house	the arch	29	17	6	10	X		1862		arch	
+7-61	The house	the mason	26	15	3	11	P			no selo "one who builds"	mason, builder	3 syll
+7-62	The house	the brick	34	21	6	23	D	edge	2253		brick	6/24 root families, 23 loans with different forms (kirpich, ladrillo, matofali, bata); houses on every continent
+7-63	The house	the mortar(2)	24	12	7	8	X				mortar (building)	
+7-64	The house	the adobe	20	14	5	7	X				adobe	
+8-11	Agriculture and vegetation	the farmer	32	19	2	14	cov			no farm (ladder)		
+8-12	Agriculture and vegetation	the field	40	24	17	4	cov			sekan		
+8-13	Agriculture and vegetation	the garden	32	19	9	13	cov			garden [ladder:list]		
+8-15	Agriculture and vegetation	to cultivate	31	17	10	3	cov			farm (ladder: farming, cultivation) as a verb		
+8-16	Agriculture and vegetation	the fence	39	23	16	10	cov			fence [ladder:list]		
+8-17	Agriculture and vegetation	the ditch	36	20	10	11	D	edge	1664		ditch, channel dug for water	10/24 root families; irrigation and drainage; alt:X
+8-21	Agriculture and vegetation	to plough/plow	33	19	7	8	D	edge			plough	7/24 root families, 8 loans; on the balance audit's gap list (AM); named in the design log among the 51 but not among them (coverage-02 README)
+8-212	Agriculture and vegetation	the furrow	27	18	11	3	X				furrow	
+8-22	Agriculture and vegetation	to dig	40	24	19	3	cov			wenfe		
+8-23	Agriculture and vegetation	the spade	34	20	9	15	cov			spade [ladder:list]		
+8-24	Agriculture and vegetation	the shovel	36	22	9	22	cov			spade (ladder)		shovel lumped with spade
+8-25	Agriculture and vegetation	the hoe	36	22	11	10	D	edge	2212		hoe	11/24 root families; the commonest farming tool in Africa and Asia
+8-26	Agriculture and vegetation	the fork(2)/pitchfork	29	18	10	11	X				pitchfork	
+8-27	Agriculture and vegetation	the rake	35	20	7	11	X				rake	
+8-31	Agriculture and vegetation	to sow	38	21	18	2	D	core			plant, sow (put seeds or plants in the ground)	18/24 root families (sow), 13/24 (plant, 8-531); BQ: one root for both, or pinfe "plant" used as a verb
+8-311	Agriculture and vegetation	the seed	41	24	19	6	cov			yikan		
+8-32	Agriculture and vegetation	to mow	34	21	14	4	X				mow	alt:P "fonsu tunmu"
+8-33	Agriculture and vegetation	the sickle or scythe	33	21	8	13	P			du [harvest] "tool for harvesting"	sickle, scythe	3 syll
+8-34	Agriculture and vegetation	to thresh	33	20	12	4	X				thresh	alt:D
+8-35	Agriculture and vegetation	the threshing-floor	27	19	5	3	X				threshing floor	
+8-41	Agriculture and vegetation	the harvest	34	19	6	8	cov			harvest (walk G)		
+8-42	Agriculture and vegetation	the grain	30	19	11	8	cov			grain [ladder:list]		
+8-43	Agriculture and vegetation	the wheat	35	20	4	17	cov			wheat [ladder:list]		
+8-44	Agriculture and vegetation	the barley	28	16	4	15	C				barley	
+8-45	Agriculture and vegetation	the rye	17	11	3	6	C				rye	
+8-46	Agriculture and vegetation	the oats	21	13	2	14	C				oats	
+8-47	Agriculture and vegetation	the maize/corn	38	22	13	16	cov			maize [ladder:list]		
+8-48	Agriculture and vegetation	the rice	36	21	7	25	cov			yegon		
+8-51	Agriculture and vegetation	the grass	40	24	19	6	cov			tunmu		
+8-52	Agriculture and vegetation	the hay	33	21	12	5	P			tunmu kilan "dry grass"	hay	world compound (zh gancao, ja hoshikusa "dried grass")
+8-53	Agriculture and vegetation	the plant	34	20	10	10	cov			pinfe		
+8-531	Agriculture and vegetation	to plant	39	22	13	7	D	same	533		(= plant, sow)	same root as 8-31
+8-54	Agriculture and vegetation	the root	41	24	22	1	cov			yinki		
+8-55	Agriculture and vegetation	the branch	41	24	23	5	cov			branch [ladder:list]		
+8-56	Agriculture and vegetation	the leaf	41	24	22	2	cov			wonin		
+8-57	Agriculture and vegetation	the flower	41	24	18	5	cov			meyen		
+8-6	Agriculture and vegetation	the tree	41	24	20	6	cov			gala		
+8-61	Agriculture and vegetation	the oak	22	16	9	6	X				oak	
+8-62	Agriculture and vegetation	the beech	13	8	5	1	X				beech	
+8-63	Agriculture and vegetation	the birch	18	13	8	3	X				birch	
+8-64	Agriculture and vegetation	the pine	28	20	10	10	X				pine	alt:D
+8-65	Agriculture and vegetation	the fir	18	12	7	5	X				fir	
+8-66	Agriculture and vegetation	the acorn	17	11	5	3	X				acorn	
+8-67	Agriculture and vegetation	the vine	33	19	8	9	X				vine, creeper	
+8-68	Agriculture and vegetation	the tobacco	40	24	9	25	L		1727		tobacco	25 loan languages (tabak / tabaco / tambaku / tembakau); panel test
+8-69	Agriculture and vegetation	to smoke	40	24	12	5	cov			penso "smoke" as a verb		
+8-691	Agriculture and vegetation	the pipe	36	22	8	20	cov			pipe (ladder: tube)		tobacco pipe lumped with tube (en, de Pfeife); BQ minor
+8-72	Agriculture and vegetation	the tree stump	39	22	14	4	X				tree stump	alt:D
+8-73	Agriculture and vegetation	the tree trunk	40	24	17	3	D	edge			tree trunk	17/24 root families; on the balance audit's gap list (AM); alt:P "gawo pi gala"
+8-74	Agriculture and vegetation	the forked branch	32	20	9	2	X				forked branch	
+8-75	Agriculture and vegetation	the bark	40	24	20	5	cov			tase		
+8-76	Agriculture and vegetation	the sap	39	24	13	5	P			[juice] pi gala "juice of the tree"	sap	world compound (zh shuye "tree liquid")
+8-81	Agriculture and vegetation	the palm tree	29	18	15	8	D	edge			palm (the tree)	15/24 root families; across the tropics on every continent; alt:C
+8-82	Agriculture and vegetation	the coconut	31	17	6	15	L				coconut	15 loan languages (coco / kokos family); panel test; else C
+8-83	Agriculture and vegetation	the citrus fruit	28	17	4	16	X				citrus fruit	
+8-84	Agriculture and vegetation	the banana	36	20	10	21	cov			banana [ladder:list]		
+8-85	Agriculture and vegetation	the banyan	15	9	3	8	C				banyan	
+8-91	Agriculture and vegetation	the sweet potato	27	18	8	8	P			[potato] sinta "sweet potato"	sweet potato	world compound (en sweet potato, zh hongshu "red tuber"); alt:cov tengi "tuber"
+8-912	Agriculture and vegetation	the yam	22	14	4	7	cov			tengi "tuber"		
+8-92	Agriculture and vegetation	the cassava/manioc	27	16	8	11	C				cassava, manioc	a staple across Africa, Asia and South America (three regions): is it C? alt:D (question)
+8-93	Agriculture and vegetation	the gourd	31	19	13	8	D	edge			gourd, calabash, pumpkin, squash	13/24 root families each for gourd and pumpkin; one root for both (BQ); containers and food on every continent
+8-931	Agriculture and vegetation	the pumpkin or squash	38	21	13	16	D	same			(= gourd, pumpkin)	same root as 8-93
+8-94	Agriculture and vegetation	the bamboo	33	18	13	8	D	edge	2144		bamboo	13/24 root families; Asia, Africa, the Americas; alt:C
+8-941	Agriculture and vegetation	the sugar cane	31	17	10	7	P			[sugar] pinfe "sugar plant"	sugar cane	world compound (ru sakharny trostnik, es caña de azúcar)
+8-96	Agriculture and vegetation	the fish poison	16	11	7	2	C				fish poison	
+8-97	Agriculture and vegetation	the nettle	28	17	12	3	X				nettle	
+8-98	Agriculture and vegetation	the mushroom	40	23	15	11	D	core			mushroom	15/24 root families
+9-11	Basic actions and technology	to do	38	22	18	2	cov			muge		
+9-12	Basic actions and technology	the work	41	24	13	11	cov			doku		
+9-14	Basic actions and technology	to bend	41	24	15	2	cov			bend (walk G)		
+9-15	Basic actions and technology	to fold	41	24	17	3	cov			fold (walk G)		
+9-16	Basic actions and technology	to tie	41	24	18	4	cov			manfu		
+9-161	Basic actions and technology	to untie	41	24	15	3	P		1877	benbi manfu "open the knot"	untie	most languages derive it (de losbinden, ru razvyazat', sw fungua); 4 syll
+9-18	Basic actions and technology	the chain	38	21	9	17	cov			chain (additions-02: root)		
+9-19	Basic actions and technology	the rope	41	24	22	4	cov			tenbe		
+9-192	Basic actions and technology	the knot	39	24	20	4	cov			manfu		
+9-21	Basic actions and technology	to strike or hit or beat	41	24	21	1	cov			payon		
+9-211	Basic actions and technology	to pound	39	24	15	5	BQ		1013	payon "hit"	pound (in a mortar)	15/24 root families; ladder "pound" is the currency; lump with hit or a root (with mortar)
+9-22	Basic actions and technology	to cut	41	24	18	2	cov			fonsu		
+9-221	Basic actions and technology	to cut down	38	23	15	1	cov			fonsu		
+9-222	Basic actions and technology	to chop	39	23	17	0	cov			fonsu "cut"		chop lumped with cut
+9-223	Basic actions and technology	to stab	40	24	17	3	cov			kunwa		
+9-23	Basic actions and technology	the knife(2)	41	24	16	13	cov			knife [ladder:list]		
+9-24	Basic actions and technology	the scissors or shears	39	23	6	17	cov			scissors [ladder:list]		
+9-25	Basic actions and technology	the axe/ax	41	24	17	13	D	core			axe	17/24 root families; a household tool across cultures
+9-251	Basic actions and technology	the adze	26	16	6	7	X				adze	
+9-26	Basic actions and technology	to break	41	24	14	2	cov			alun		
+9-261	Basic actions and technology	broken	40	24	10	1	cov			alun (done)		
+9-27	Basic actions and technology	to split	41	24	16	5	cov			buyan		
+9-28	Basic actions and technology	to tear	41	24	17	1	cov			tear (rip) (ladder)		
+9-83	Basic actions and technology	the statue	25	15	6	9	cov			statue (additions-02: root)		
+9-29	Basic actions and technology	to skin	40	24	13	2	X		522		skin (an animal)	alt:P "nuton unne"
+9-31	Basic actions and technology	to rub	41	24	17	3	D	core	2060		rub	17/24 root families; on the balance audit's gap list (SSA); BQ vs sumin "scratch"
+9-32	Basic actions and technology	to stretch	40	24	13	3	cov			stretch (walk G)		
+9-33	Basic actions and technology	to pull	41	24	20	4	cov			nunya		
+9-34	Basic actions and technology	to spread out	41	24	13	5	cov			spread (ladder)		spread out (a cloth, a mat); BQ minor
+9-341	Basic actions and technology	to hang up	41	24	15	3	cov			hang (walk G)		
+9-342	Basic actions and technology	to press	38	23	16	8	cov			press (push) (ladder: dandi)		
+9-343	Basic actions and technology	to squeeze	41	24	20	3	cov			donbo		
+9-35	Basic actions and technology	to pour	41	24	19	3	cov			pour [ladder:list]		
+9-36	Basic actions and technology	to wash	41	24	18	2	cov			pensi		
+9-37	Basic actions and technology	to sweep	41	24	19	5	cov			sweep [ladder:list]		
+9-38	Basic actions and technology	the broom	38	23	7	6	cov			broom [ladder:list]		
+9-422	Basic actions and technology	the tool	37	22	8	10	cov			yetu		
+9-43	Basic actions and technology	the carpenter	35	20	3	16	X				carpenter	alt:P "no selo" (builder) or "no doku kima"
+9-44	Basic actions and technology	to build	41	24	17	4	cov			selo		
+9-46	Basic actions and technology	to bore	39	24	15	4	P			muge [hole] "make a hole"	bore, drill	4 syll; alt:D (15/24 root families)
+9-461	Basic actions and technology	to hollow out	40	24	16	2	X				hollow out	
+9-48	Basic actions and technology	the saw	37	23	9	15	D	edge			saw	9/24 root families, 15 loans with different forms; a household tool; alt:L
+9-49	Basic actions and technology	the hammer	39	23	12	15	cov			hammer [ladder:list]		
+9-5	Basic actions and technology	the nail	40	23	11	14	D	edge	1376		nail (metal fastener)	11/24 root families; tolin is the finger nail (zh ding vs zhijia, es clavo vs uña)
+9-56	Basic actions and technology	the glue	38	22	14	15	cov			glue [ladder:list]		
+9-6	Basic actions and technology	the blacksmith	35	21	3	10	X				blacksmith	alt:P
+9-61	Basic actions and technology	to forge	26	16	9	2	X				forge	
+9-62	Basic actions and technology	the anvil	25	15	8	4	X				anvil	
+9-63	Basic actions and technology	to cast	24	16	7	5	X				cast (metal)	
+9-64	Basic actions and technology	the gold	37	21	9	19	cov			gold [ladder:list]		
+9-65	Basic actions and technology	the silver	36	22	8	18	cov			silver [ladder:list]		
+9-66	Basic actions and technology	the copper	34	22	6	18	cov			copper [ladder:list]		
+9-67	Basic actions and technology	the iron	38	22	17	11	cov			iron [ladder:list]		
+9-68	Basic actions and technology	the lead	35	22	8	18	X		350		lead (the metal)	an element name: the standard (L3), like oxygen
+9-69	Basic actions and technology	the tin or tinplate	29	17	8	16	X		1728		tin	
+9-71	Basic actions and technology	the potter	30	18	3	4	X				potter	
+9-72	Basic actions and technology	to mould/mold	31	20	15	5	X				mould	
+9-73	Basic actions and technology	the clay	39	23	19	1	D	core	1842		clay	19/24 root families; pots, bricks and houses
+9-74	Basic actions and technology	the glass	38	23	6	21	cov			degun		
+9-75	Basic actions and technology	to weave or plait/braid	40	24	20	0	D	same	1872		(= weave)	same root as 6-33 (weave, plait)
+9-76	Basic actions and technology	the basket	40	23	17	11	cov			kanga		
+9-77	Basic actions and technology	the mat	33	17	12	9	BQ			carpet (ladder: carpet, rug)	mat (woven, for sitting or sleeping)	12/24 root families; one root with carpet or apart
+9-771	Basic actions and technology	the rug	29	16	8	16	cov			carpet (ladder)		
+9-78	Basic actions and technology	the netbag	21	15	9	9	C				net bag	
+9-79	Basic actions and technology	the fan	34	21	10	6	cov			fan (device) (ladder)		
+9-791	Basic actions and technology	to fan	34	21	13	2	cov			fan (device) as a verb		
+9-81	Basic actions and technology	to carve	37	22	15	4	X				carve	alt:D
+9-82	Basic actions and technology	the sculptor	24	14	2	5	X				sculptor	
+9-84	Basic actions and technology	the chisel	33	20	11	12	X				chisel	
+9-88	Basic actions and technology	the paint	40	24	11	20	cov			paint [ladder:list]		
+9-89	Basic actions and technology	to paint	40	24	9	13	cov			paint [ladder:list]		
+10-11	Motion	to move	40	23	11	7	cov			kobi		
+10-12	Motion	to turn	40	23	14	4	cov			duko		
+10-13	Motion	to turn around	41	24	10	5	cov			duko		
+10-14	Motion	to wrap	40	24	18	4	D	core			wrap	18/24 root families
+10-15	Motion	to roll	41	24	12	4	D	edge	1758		roll	12/24 root families
+10-16	Motion	to drop	38	24	12	2	cov			dosi "fall, drop down"		
+10-17	Motion	to twist	41	24	17	4	BQ			duko "turn, rotate"	twist, wring	17/24 root families; lump with turn or a root
+10-21	Motion	to rise	41	24	18	0	cov			rise (ladder: go up)		
+10-22	Motion	to raise or lift	41	24	13	2	cov			raise [ladder:list]		
+10-23	Motion	to fall	41	24	13	3	cov			dosi		
+10-24	Motion	to drip	39	24	14	2	X		1660		drip	alt:D (14/24 root families)
+10-25	Motion	to throw	41	24	18	0	cov			gitin		
+10-252	Motion	to catch	41	24	17	4	cov			catch [ladder:list]		
+10-26	Motion	to shake	41	24	14	5	cov			susin		
+10-32	Motion	to flow	39	24	16	2	cov			magan		
+10-33	Motion	to sink	41	24	15	4	D	core	1174		sink (go under water)	15/24 root families; ladder "sink" is the basin ("the verb sink is separate")
+10-34	Motion	to float	40	24	16	1	D	core	1651		float	16/24 root families; antonym of sink
+10-35	Motion	to swim	41	24	15	3	cov			lonfe		
+10-351	Motion	to dive	35	21	14	3	X		1981		dive	alt:P "lonfe deba"
+10-352	Motion	to splash	38	22	13	4	X				splash	
+10-36	Motion	to sail	20	13	3	1	X		1755		sail (travel by boat)	
+10-37	Motion	to fly	41	24	19	5	cov			bina		
+10-38	Motion	to blow	40	24	18	1	cov			nanyo		
+10-41	Motion	to crawl	40	24	20	4	D	core			crawl	20/24 root families; babies, insects
+10-412	Motion	to kneel	38	23	4	2	P			goyu nan leyi "sit on the knees"	kneel	world compound (ru stat' na koleni "stand on knees"); 4/24 root families only
+10-413	Motion	to crouch	38	22	12	5	D	edge			squat, crouch	12/24 root families; an everyday resting and working posture in much of the world; alt:X
+10-42	Motion	to slide or slip	39	24	19	3	cov			slide (slip) (ladder)		
+10-43	Motion	to jump	41	24	18	2	cov			jump [ladder:list]		
+10-431	Motion	to kick	40	24	18	5	cov			kick [ladder:list]		
+10-44	Motion	to dance	41	24	16	7	cov			dance [ladder:list]		
+10-45	Motion	to walk	40	24	16	1	cov			niba		
+10-451	Motion	to limp	39	24	11	4	D	same			(= lame, limp)	same root as 4-94
+10-46	Motion	to run	41	24	19	1	cov			gabe		
+10-47	Motion	to go	41	24	21	2	cov			isi		
+10-471	Motion	to go up	39	23	17	2	cov			falan; isi bige		
+10-472	Motion	to climb	39	23	18	3	cov			falan		
+10-473	Motion	to go down	41	24	14	3	cov			descend (coverage-02 round 2: G)		
+10-474	Motion	to go out	40	24	12	1	cov			isi aban		
+10-48	Motion	to come	41	24	19	1	cov			obu		
+10-481	Motion	to come back	41	24	16	4	cov			sigo		
+10-49	Motion	to leave	41	24	16	3	cov			kusa		
+10-491	Motion	to disappear	40	23	18	4	cov			disappear (additions-02: root)		
+10-51	Motion	to flee	41	24	15	2	cov			escape (ladder: flee)		
+10-52	Motion	to follow	39	23	15	1	cov			lefan		
+10-53	Motion	to pursue	40	24	13	4	BQ			lefan "follow"	chase, pursue	13/24 root families; lump with follow or a root
+10-55	Motion	to arrive	41	24	15	4	cov			liwon		
+10-56	Motion	to approach	38	23	9	1	cov			approach [ladder:list]		
+10-57	Motion	to enter	41	24	18	3	cov			inwa		
+10-61	Motion	to carry	40	24	22	2	cov			dinyo		
+10-612	Motion	to carry in hand	28	21	16	0	cov			dinyo		
+10-613	Motion	to carry on shoulder	32	22	16	3	cov			dinyo		
+10-614	Motion	to carry on head	24	17	7	4	cov			dinyo		
+10-615	Motion	to carry under the arm	25	20	11	1	cov			dinyo		
+10-62	Motion	to bring	40	24	13	0	cov			bring [ladder:list]		
+10-63	Motion	to send	40	24	13	5	cov			sege		
+10-64	Motion	to lead	38	23	10	4	cov			wungu		
+10-65	Motion	to drive	34	21	8	10	cov			drive [ladder:list]		
+10-66	Motion	to ride	34	23	14	4	cov			ride [ladder:list]		
+10-67	Motion	to push	41	24	16	5	cov			dandi		
+10-71	Motion	the road	40	23	20	5	cov			sola		
+10-72	Motion	the path	41	24	21	4	cov			sola "road"		path lumped with road (common); BQ minor
+10-74	Motion	the bridge	40	23	12	17	cov			bridge [ladder:list]		
+10-75	Motion	the cart or wagon	33	21	4	20	cov			siwa		
+10-76	Motion	the wheel	38	23	11	14	cov			wheel [ladder:list]		
+10-77	Motion	the axle	28	17	8	11	X				axle	
+10-78	Motion	the yoke	29	18	9	10	X				yoke	
+10-81	Motion	the ship	34	20	7	15	cov			binnu		
+10-83	Motion	the boat	38	24	10	17	cov			binnu		
+10-831	Motion	the canoe	30	19	10	11	cov			binnu		
+10-832	Motion	the outrigger	16	9	5	4	C				outrigger	
+10-84	Motion	the raft	28	17	8	10	X				raft	
+10-85	Motion	the oar	31	21	10	11	X				oar	alt:D (one root oar/paddle)
+10-851	Motion	the paddle	30	20	13	7	X				paddle	
+10-852	Motion	to row	33	20	13	7	X		914		row (a boat)	
+10-86	Motion	the rudder	27	17	5	11	X				rudder	
+10-87	Motion	the mast	24	15	4	6	X		2315		mast	
+10-88	Motion	the sail	25	15	5	10	X		1755		sail	
+10-89	Motion	the anchor	25	14	6	14	X		2150		anchor	
+10-91	Motion	the port	26	18	4	11	cov			port [ladder:list]		
+10-92	Motion	to land	32	19	12	4	cov			descend (round 2: G)		land (of a plane, a bird); BQ minor
+11-11	Possession	to have	32	20	18	0	cov			ibe		
+11-12	Possession	to own	32	21	13	6	cov			ibe		
+11-13	Possession	to take	41	24	19	2	cov			yidu		
+11-14	Possession	to grasp	38	24	19	1	cov			catch (ladder: catch, capture, seize)		
+11-15	Possession	to hold	40	24	18	2	cov			yonnu		
+11-16	Possession	to get	39	23	19	4	cov			dunu		
+11-17	Possession	to keep	37	23	13	2	cov			keep (additions-01)		
+11-18	Possession	the thing	40	24	14	7	cov			musu		
+11-21	Possession	to give	41	24	19	3	cov			neke		
+11-22	Possession	to give back	40	24	10	1	cov			neke sigo; return		
+11-24	Possession	to preserve	38	23	12	9	cov			keep (additions-01)		preserve = keep
+11-25	Possession	to rescue	37	22	12	10	cov			kuwi (merged: save, protect)		rescue = save; BQ minor
+11-27	Possession	to destroy	38	23	10	3	cov			destroy (additions-02: boundary question)		
+11-28	Possession	to injure	39	23	7	3	cov			wound (ladder: injury) as a verb		
+11-31	Possession	to look for	41	24	17	2	cov			ditun		
+11-32	Possession	to find	41	24	18	2	cov			geno		
+11-33	Possession	to lose	39	24	13	2	cov			agi		
+11-34	Possession	to let go	39	24	15	3	cov			release (ladder: let go)		
+11-43	Possession	the money	41	24	11	19	cov			nimo		
+11-44	Possession	the coin	39	23	6	18	cov			coin [ladder:list]		
+11-51	Possession	rich	37	22	11	9	cov			rich [ladder:list]		
+11-52	Possession	poor	39	23	13	12	cov			poor [ladder:list]		
+11-53	Possession	the beggar	37	21	9	6	P			no [request] "one who asks"	beggar	3 syll once request has its form
+11-54	Possession	stingy	38	22	15	6	D	core			stingy, mean with money	15/24 root families
+11-61	Possession	to lend	38	23	11	5	D	edge	2204		lend	11/24 root families; vocabulary-method §3 names lend/borrow as a pair confusing which changes what people do; BQ: does "loan" (ladder, a noun) serve as the verb?
+11-62	Possession	to borrow	40	23	13	5	D	edge	2007		borrow	13/24 root families; the other half of the pair
+11-63	Possession	to owe	34	21	11	5	P			ibe [debt] "have a debt"	owe	world phrase (es tener deuda); debt is on the list
+11-64	Possession	the debt	37	22	12	10	cov			debt [ladder:list]		
+11-65	Possession	to pay	40	24	14	10	cov			unfu		
+11-66	Possession	the bill	29	19	3	16	cov			bill [ladder:list]		
+11-69	Possession	the tax	35	19	7	20	cov			tax [ladder:list]		
+11-77	Possession	to hire	29	20	8	8	P		1646	neke doku "give work"	hire, employ	4 syll; alt:D
+11-78	Possession	the wages	39	22	7	16	cov			salary (entrant: composes "nimo pi doku")		
+11-79	Possession	to earn	34	22	12	4	P		1823	dunu nimo "get money"	earn	4 syll; alt:D
+11-81	Possession	to buy	41	24	15	6	cov			bika		
+11-82	Possession	to sell	40	24	14	7	cov			koda		
+11-83	Possession	to trade or barter	39	24	14	8	cov			trade [ladder:list]		
+11-84	Possession	the merchant	36	22	1	11	P		1622	no koda "one who sells"	merchant, trader	3 syll
+11-85	Possession	the market	37	20	8	23	cov			market [ladder:list]		
+11-86	Possession	the shop/store	39	23	3	25	cov			shop [ladder:list]		
+11-87	Possession	the price	38	22	11	15	cov			price [ladder:list]		
+11-88	Possession	expensive	41	24	9	10	cov			unwi		
+11-89	Possession	cheap	39	23	10	15	cov			tanbu		
+11-91	Possession	to share	41	24	16	5	cov			peton		
+11-92	Possession	to weigh	35	23	9	11	D	edge	1871		weigh	9/24 root families, 11 loans; daily at every market; alt:P "[measure] gogo"
+12-01	Spatial relations	after	40	24	15	2	cov			grammar: AFTER		
+12-011	Spatial relations	behind	41	24	17	1	cov			nebe		
+12-02	Spatial relations	beside	40	24	17	2	cov			sanfi "side" (at the side)		
+12-03	Spatial relations	down	41	24	17	3	cov			deba		
+12-04	Spatial relations	before	37	22	14	2	cov			grammar: BEFORE		
+12-041	Spatial relations	in front of	40	24	15	1	cov			sinye		
+12-05	Spatial relations	inside	41	24	17	4	cov			bese		
+12-06	Spatial relations	outside	41	24	15	3	cov			aban		
+12-07	Spatial relations	under	39	23	18	1	cov			deba		
+12-08	Spatial relations	up	40	24	19	0	cov			bige		
+12-11	Spatial relations	the place	40	23	19	8	cov			kemu		
+12-12	Spatial relations	to put	40	24	20	2	cov			yaga		
+12-13	Spatial relations	to sit	41	24	18	3	cov			goyu		
+12-14	Spatial relations	to lie down	41	24	20	2	cov			anle		
+12-15	Spatial relations	to stand	41	24	19	1	cov			kolu		
+12-16	Spatial relations	to remain	41	24	19	4	cov			piyi		
+12-17	Spatial relations	the remains	35	23	12	4	X				remains	
+12-21	Spatial relations	to gather	41	24	17	3	cov			fanmu		
+12-212	Spatial relations	to pick up	41	24	17	2	cov			yidu "take"; raise		
+12-213	Spatial relations	to pile up	39	24	13	6	cov			heap (additions-02, built phrase)		
+12-22	Spatial relations	to join	38	23	15	6	cov			penyu		
+12-23	Spatial relations	to separate	41	24	16	4	cov			buyan		
+12-232	Spatial relations	to divide	39	23	15	6	cov			divide [ladder:list]		
+12-24	Spatial relations	to open	41	24	16	2	cov			benbi		
+12-25	Spatial relations	to shut	41	24	17	4	cov			tapi		
+12-26	Spatial relations	to cover	40	24	16	4	cov			cover [ladder:list]		
+12-27	Spatial relations	to hide	41	24	18	3	cov			mibun		
+12-31	Spatial relations	high	41	24	14	4	cov			tisan		
+12-32	Spatial relations	low	40	24	18	3	cov			linku		
+12-33	Spatial relations	the top	41	24	18	5	cov			bige		
+12-34	Spatial relations	the bottom	40	24	18	4	cov			deba		
+12-35	Spatial relations	the end(1)	40	24	17	5	cov			fugi		
+12-352	Spatial relations	pointed	40	24	17	6	cov			tungi "sharp"		
+12-353	Spatial relations	the edge	40	24	21	4	cov			edge [ladder:list]		
+12-36	Spatial relations	the side	41	24	19	5	cov			sanfi		
+12-37	Spatial relations	the middle	41	24	19	4	cov			middle [ladder:list]		
+12-41	Spatial relations	right(1)	41	24	17	1	cov			nata		
+12-42	Spatial relations	left	41	24	16	4	cov			funbe		
+12-43	Spatial relations	near	41	24	16	5	cov			gelu		
+12-44	Spatial relations	far	41	24	21	1	cov			lini		
+12-45	Spatial relations	the east	38	23	9	7	cov			anyu		
+12-46	Spatial relations	the west	38	23	10	7	cov			munke		
+12-47	Spatial relations	the north	36	23	11	4	cov			soto		
+12-48	Spatial relations	the south	36	23	10	6	cov			monna		
+12-53	Spatial relations	to grow	41	24	19	3	cov			guge		
+12-54	Spatial relations	to measure	39	23	14	7	cov			measure [ladder:list]		
+12-541	Spatial relations	the fathom	22	14	12	3	X				fathom	
+12-55	Spatial relations	big	41	24	22	2	cov			kudu		
+12-56	Spatial relations	small	41	24	20	1	cov			meli		
+12-57	Spatial relations	long	41	24	20	1	cov			netu		
+12-58	Spatial relations	tall	41	24	16	3	cov			tisan "high"		tall lumped with high (common); BQ minor
+12-59	Spatial relations	short	40	23	17	4	cov			eten		
+12-61	Spatial relations	wide	41	24	18	2	cov			tugan		
+12-62	Spatial relations	narrow	40	23	15	4	cov			banlu		
+12-63	Spatial relations	thick	41	24	21	2	cov			woten		
+12-65	Spatial relations	thin	41	24	16	2	cov			gunmo		
+12-67	Spatial relations	deep	41	24	18	5	cov			lawan		
+12-68	Spatial relations	shallow	37	23	15	2	cov			lante		
+12-71	Spatial relations	flat	40	24	13	8	cov			mawun		
+12-73	Spatial relations	straight	40	24	16	5	cov			fongo		
+12-74	Spatial relations	crooked	41	24	16	4	cov			ginda		
+12-75	Spatial relations	the hook	38	24	16	7	D	core			hook	16/24 root families
+12-76	Spatial relations	the corner	40	24	21	3	cov			corner [ladder:list]		
+12-77	Spatial relations	the cross	38	23	7	18	X		729		cross (the shape, the mark)	ladder "cross" is the verb ("the cross shape is rare"); the religious symbol is each tradition's; 18 loan languages
+12-78	Spatial relations	the square	32	19	5	13	cov			square [ladder:list]		
+12-81	Spatial relations	round	41	24	13	7	cov			kowan		
+12-82	Spatial relations	the circle	39	23	17	7	cov			circle [ladder:list]		
+12-83	Spatial relations	the ball	39	23	12	20	cov			ball [ladder:list]		
+12-84	Spatial relations	the line	35	21	13	11	cov			line [ladder:list]		
+12-85	Spatial relations	the hole	41	24	21	3	cov			hole [ladder:list]		
+12-92	Spatial relations	similar	39	23	13	4	cov			fun "like" (merged: resemble)		
+12-93	Spatial relations	to change	39	24	14	6	cov			kubo		
+13	Quantity	zero	29	18	7	19	cov			data/numbers.tsv: mu		
+13-01	Quantity	one	41	24	18	2	cov			data/numbers.tsv (base 10)		
+13-02	Quantity	two	41	24	19	5	cov			data/numbers.tsv (base 10)		
+13-03	Quantity	three	41	24	19	6	cov			data/numbers.tsv (base 10)		
+13-04	Quantity	four	41	24	19	6	cov			data/numbers.tsv (base 10)		
+13-05	Quantity	five	41	24	17	5	cov			data/numbers.tsv (base 10)		
+13-06	Quantity	six	40	23	16	8	cov			data/numbers.tsv (base 10)		
+13-07	Quantity	seven	40	23	17	9	cov			data/numbers.tsv (base 10)		
+13-08	Quantity	eight	40	23	15	8	cov			data/numbers.tsv (base 10)		
+13-09	Quantity	nine	40	23	15	9	cov			data/numbers.tsv (base 10)		
+13-1	Quantity	ten	40	23	15	8	cov			data/numbers.tsv (base 10)		
+13-101	Quantity	eleven	40	23	3	8	cov			data/numbers.tsv (base 10)		
+13-102	Quantity	twelve	40	23	2	9	cov			data/numbers.tsv (base 10)		
+13-103	Quantity	fifteen	40	23	2	6	cov			data/numbers.tsv (base 10)		
+13-104	Quantity	twenty	40	23	7	8	cov			data/numbers.tsv (base 10)		
+13-105	Quantity	a hundred	40	23	11	14	cov			data/numbers.tsv (base 10)		
+13-106	Quantity	a thousand	40	23	6	20	cov			data/numbers.tsv (base 10)		
+13-107	Quantity	to count	40	23	14	9	cov			sunbu		
+13-14	Quantity	all	41	24	21	5	cov			grammar: ALL		
+13-15	Quantity	many	41	24	23	1	cov			feli		
+13-16	Quantity	more	37	22	13	6	cov			grammar: MORE		
+13-17	Quantity	few	40	23	18	2	cov			uyo		
+13-18	Quantity	enough	39	23	16	6	cov			tonya		
+13-181	Quantity	some	38	23	17	2	cov			grammar: SOME		
+13-19	Quantity	the crowd	37	23	8	5	cov			funti (merged: crowd)		
+13-21	Quantity	full	41	24	17	2	cov			kete		
+13-22	Quantity	empty	39	23	18	4	cov			tapun		
+13-23	Quantity	the part	38	24	13	7	cov			kin (merged: part)		
+13-24	Quantity	the half	39	24	17	2	cov			timon		
+13-33	Quantity	only	41	24	19	3	cov			grammar: ONLY		
+13-34	Quantity	first	41	24	11	2	cov			mena ni (ordinal; ladder: "first is mena fi")		
+13-35	Quantity	last	40	24	14	4	cov			last [ladder:list]		
+13-36	Quantity	second	36	21	6	2	cov			mena (ordinal)		
+13-37	Quantity	the pair	39	24	14	11	cov			pair [ladder:list]		
+13-38	Quantity	twice/two times	38	23	2	3	cov			gimu sa		
+13-42	Quantity	third	35	21	4	2	cov			mena (ordinal)		
+13-44	Quantity	three times	35	23	2	1	cov			gimu		
+14-11	Time	the time	40	24	12	16	cov			muyi		
+14-12	Time	the age	34	20	12	12	cov			age (ladder: grammar)		
+14-13	Time	new	41	24	19	2	cov			duwa		
+14-14	Time	young	40	24	15	6	cov			loyen		
+14-15	Time	old	41	24	18	2	cov			pani		
+14-16	Time	early	38	23	16	4	cov			ganna		
+14-17	Time	late	36	22	13	4	cov			yodun		
+14-18	Time	now	41	24	17	3	cov			eda		
+14-19	Time	immediately	41	24	12	5	cov			eda "now"		immediately = right now; BQ minor
+14-21	Time	fast	40	24	18	2	cov			yobe		
+14-22	Time	slow	41	24	18	2	cov			gake		
+14-23	Time	to hurry	39	23	15	7	cov			hurry [ladder:list]		
+14-24	Time	to be late	38	22	9	4	cov			yodun		
+14-25	Time	to begin	39	24	14	2	cov			tuko		
+14-252	Time	to last	30	16	8	3	cov			endure (additions-02: root)		
+14-26	Time	the end(2)	38	23	11	4	cov			fugi		
+14-27	Time	to finish	40	24	14	7	cov			fugi		
+14-28	Time	to cease	38	24	16	5	cov			bamo		
+14-29	Time	ready	38	22	13	8	cov			wonwe		
+14-31	Time	always	40	23	9	9	cov			always (additions-01)		
+14-32	Time	often	39	23	14	5	cov			often (additions-01)		
+14-33	Time	sometimes	38	21	6	1	cov			sometimes (additions-01)		
+14-331	Time	soon	38	21	14	3	cov			buntu		
+14-332	Time	for a long time	35	22	14	0	cov			muyi netu		
+14-34	Time	never	37	21	7	3	cov			never (additions-01)		
+14-35	Time	again	40	24	18	1	cov			moti		
+14-41	Time	the day(1)	41	24	20	4	cov			dili		
+14-42	Time	the night	41	24	21	2	cov			yami		
+14-43	Time	the dawn	41	24	7	8	cov			dawn [ladder:list]		
+14-44	Time	the morning	38	23	13	4	cov			leso		
+14-45	Time	the midday	40	24	7	2	cov			minfi		
+14-451	Time	the afternoon	38	23	13	4	cov			duwun		
+14-46	Time	the evening	39	24	17	3	cov			kegin		
+14-47	Time	today	41	24	15	2	cov			mefa		
+14-48	Time	tomorrow	41	24	19	2	cov			wuma		
+14-481	Time	the day after tomorrow	40	24	8	0	cov			wuma kon dili ni (reference 8.2)		
+14-49	Time	yesterday	41	24	21	1	cov			afe		
+14-491	Time	the day before yesterday	39	24	5	0	cov			afe ya dili ni (reference 8.2)		
+14-51	Time	the hour	40	23	5	31	cov			awuwa		
+14-53	Time	the clock	39	23	4	32	cov			aya		
+14-61	Time	the week	40	23	6	23	cov			nelon		
+14-62	Time	Sunday	39	22	2	19	cov			grammar (day names, ladder)		
+14-63	Time	Monday	39	22	2	21	cov			grammar (day names, ladder)		
+14-64	Time	Tuesday	38	21	2	20	cov			grammar (day names, ladder)		
+14-65	Time	Wednesday	38	21	1	20	cov			grammar (day names, ladder)		
+14-66	Time	Thursday	38	21	1	23	cov			grammar (day names, ladder)		
+14-67	Time	Friday	38	21	2	22	cov			grammar (day names, ladder)		
+14-68	Time	Saturday	38	21	2	25	cov			grammar (day names, ladder)		
+14-71	Time	the month	39	23	20	6	cov			dunan		
+14-73	Time	the year	41	24	18	6	cov			fawu		
+14-74	Time	the winter	37	24	13	2	cov			muyi weki (compounds)		
+14-75	Time	the spring(2)	34	22	10	5	cov			muyi pi meyen (ladder)		
+14-76	Time	the summer	36	24	11	4	cov			muyi tikun (compounds)		
+14-77	Time	the autumn/fall	33	20	11	5	P			muyi pi [harvest] "time of harvest"	autumn	the other three seasons are phrases (muyi weki, muyi tikun, muyi pi meyen); de Herbst and en harvest share the source
+14-78	Time	the season	31	20	6	14	cov			season [ladder:list]		
+15-21	Sense perception	to smell(1)	37	22	10	3	cov			kanko		
+15-89	Sense perception	wrinkled	39	23	7	2	X				wrinkled	alt:D (7/24 root families)
+15-212	Sense perception	to sniff	40	24	10	4	cov			kanko		
+15-22	Sense perception	to smell(2)	41	24	12	2	cov			kanko		
+15-25	Sense perception	fragrant	39	24	9	5	P			kanko upe "smells good"	fragrant	4 syll; world phrase (de wohlriechend)
+15-26	Sense perception	stinking	39	24	12	1	P			kanko yomo "smells bad"	stinking	4 syll
+15-31	Sense perception	to taste	36	21	8	7	cov			tenmi		
+15-35	Sense perception	sweet	41	24	17	2	cov			sinta		
+15-36	Sense perception	salty	39	24	14	4	cov			lage		
+15-37	Sense perception	bitter	41	24	20	0	cov			finlu		
+15-38	Sense perception	sour	40	23	18	1	cov			tufun		
+15-39	Sense perception	brackish	25	17	7	4	X				brackish	
+15-41	Sense perception	to hear	41	24	20	1	cov			nulu		
+15-42	Sense perception	to listen	41	24	15	2	cov			doma		
+15-44	Sense perception	the sound or noise	40	24	20	6	cov			ninge		
+15-45	Sense perception	loud	40	23	16	2	cov			dibon		
+15-46	Sense perception	quiet	39	23	17	2	cov			mange		
+15-51	Sense perception	to see	41	24	18	2	cov			nagu		
+15-52	Sense perception	to look	41	24	19	2	cov			miya		
+15-55	Sense perception	to show	41	24	11	1	cov			wuye		
+15-56	Sense perception	to shine	39	24	14	3	cov			shine (walk P)		
+15-57	Sense perception	bright	39	24	15	3	cov			wino "light, brightness"		
+15-61	Sense perception	the colour/color	34	20	14	16	cov			color (ladder)		
+15-62	Sense perception	light(2)	35	22	10	6	cov			wino		light (of colour)
+15-63	Sense perception	dark	38	23	14	3	cov			buda		
+15-64	Sense perception	white	41	24	17	3	cov			pinda		
+15-65	Sense perception	black	41	24	18	2	cov			tago		
+15-66	Sense perception	red	41	24	18	3	cov			wiwi		
+15-67	Sense perception	blue	41	24	16	8	cov			deta		
+15-68	Sense perception	green	41	24	14	5	cov			gisu		
+15-69	Sense perception	yellow	41	24	14	6	cov			bilun		
+15-71	Sense perception	to touch	39	22	17	2	cov			sanne		
+15-712	Sense perception	to pinch	41	24	16	4	D	edge			pinch	16/24 root families; alt:X
+15-72	Sense perception	to feel	40	24	18	3	cov			feme		
+15-74	Sense perception	hard	41	24	20	2	cov			gufu		
+15-75	Sense perception	soft	41	24	18	2	cov			tutin		
+15-76	Sense perception	rough(1)	38	23	15	4	cov			nilen		
+15-77	Sense perception	smooth	41	24	13	7	cov			windi		
+15-78	Sense perception	sharp	40	24	19	4	cov			tungi		
+15-79	Sense perception	blunt	36	21	13	4	cov			linfa		
+15-81	Sense perception	heavy	41	24	19	3	cov			gogo		
+15-82	Sense perception	light(1)	40	23	14	2	cov			gamun		
+15-83	Sense perception	wet	41	24	15	4	cov			wulon		
+15-84	Sense perception	dry	41	24	16	4	cov			kilan		
+15-85	Sense perception	hot	41	24	17	2	cov			tikun		
+15-851	Sense perception	warm	39	23	16	3	cov			warm (additions-02: boundary question)		
+15-86	Sense perception	cold	41	24	16	5	cov			weki		
+15-87	Sense perception	clean	39	23	14	5	cov			inan		
+15-88	Sense perception	dirty	41	24	16	4	cov			bodu		
+16-11	Emotions and values	the soul or spirit	41	24	13	13	cov			soul, spirit (ladder)		
+16-15	Emotions and values	surprised or astonished	38	23	14	6	cov			donon (merged: surprise)		as a state word; BQ: donon is a sentence-end stance, not "surprised" (alt:D, 14/24 root families)
+16-18	Emotions and values	the good luck	36	21	6	13	cov			luck (ladder)		
+16-19	Emotions and values	the bad luck	30	18	6	3	cov			yomo luck		
+16-23	Emotions and values	happy	41	24	11	6	cov			sogi		
+16-25	Emotions and values	to laugh	41	24	20	2	cov			bubo		
+16-251	Emotions and values	to smile	40	24	10	4	cov			smile [ladder:list]		
+16-26	Emotions and values	to play	41	24	18	1	cov			luse		
+16-27	Emotions and values	to love	41	24	16	5	cov			wigen		
+16-29	Emotions and values	to kiss	40	24	13	4	cov			kiss [ladder:list]		
+16-3	Emotions and values	to embrace	40	24	14	2	cov			hug (ladder: embrace)		
+16-31	Emotions and values	the pain	41	24	19	4	cov			wekun		
+16-32	Emotions and values	the grief	39	23	10	8	cov			bayi (merged: sorrow)		
+16-33	Emotions and values	the anxiety	38	23	10	3	cov			worry (ladder)		
+16-34	Emotions and values	to regret or be sorry	39	22	15	7	cov			regret [ladder:list]		
+16-35	Emotions and values	the pity	34	21	9	7	cov			pity (walk G)		
+16-37	Emotions and values	to cry	41	24	18	1	cov			nowa		
+16-38	Emotions and values	the tear	40	24	14	1	cov			tear (ladder: teardrop)		
+16-39	Emotions and values	to groan	39	24	17	3	X				groan	
+16-41	Emotions and values	to hate	40	24	13	5	cov			hate (additions-02: root)		
+16-42	Emotions and values	the anger	40	23	13	4	cov			bonko		
+16-44	Emotions and values	the envy or jealousy	38	22	12	4	cov			envy (walk G)		
+16-45	Emotions and values	the shame	38	22	14	2	cov			shame [ladder:list]		
+16-48	Emotions and values	proud	35	21	9	7	cov			proud [ladder:list]		
+16-51	Emotions and values	to dare	30	19	11	7	BQ		1835	brave (ladder: courage)	dare	11/24 root families; brave used as a verb, or a root
+16-52	Emotions and values	brave	40	24	13	6	cov			brave [ladder:list]		
+16-53	Emotions and values	the fear	38	23	12	3	cov			nuta		
+16-54	Emotions and values	the danger	36	22	12	10	cov			danger [ladder:list]		
+16-62	Emotions and values	to want	41	24	18	4	cov			momu		
+16-622	Emotions and values	to choose	40	24	17	4	cov			waka		
+16-63	Emotions and values	to hope	35	20	10	5	cov			ganin		
+16-65	Emotions and values	faithful	29	19	5	4	cov			loyal (walk G, trend stretch)		
+16-66	Emotions and values	true	41	24	17	4	cov			feko		
+16-67	Emotions and values	to lie(2)	41	24	13	2	cov			lie (tell an untruth) (additions-01)		
+16-68	Emotions and values	the deceit	35	21	13	4	cov			trick (ladder); fraud (additions-02)		
+16-69	Emotions and values	to forgive	36	23	7	9	cov			forgive (additions-02: root)		
+16-71	Emotions and values	good	41	24	22	3	cov			upe		
+16-72	Emotions and values	bad	41	24	19	2	cov			yomo		
+16-73	Emotions and values	right(2)	40	24	17	6	cov			denku		
+16-74	Emotions and values	wrong	38	23	7	6	cov			gagan		
+16-76	Emotions and values	the fault	33	21	9	11	cov			fault [ladder:list]		
+16-77	Emotions and values	the mistake	38	24	9	6	cov			gagan		
+16-78	Emotions and values	the blame	33	21	10	9	cov			blame (additions-02: boundary question)		
+16-79	Emotions and values	the praise	33	21	9	6	cov			praise [ladder:list]		
+16-81	Emotions and values	beautiful	41	24	13	6	cov			sesa		
+16-82	Emotions and values	ugly	41	24	11	5	cov			lanli		
+16-83	Emotions and values	greedy	32	20	11	6	D	edge			greedy	11/24 root families
+16-84	Emotions and values	clever	40	23	13	6	cov			gole		
+17-11	Cognition	the mind	37	23	13	6	cov			mind [ladder:list]		
+17-13	Cognition	to think(1)	39	23	14	7	cov			pume		
+17-14	Cognition	to think(2)	37	21	12	5	cov			pume; believe (ladder)		
+17-15	Cognition	to believe	40	23	13	13	cov			believe [ladder:list]		
+17-16	Cognition	to understand	41	24	12	9	cov			lafi		
+17-17	Cognition	to know	41	24	19	1	cov			lugo		
+17-171	Cognition	to guess	35	22	12	6	cov			guess (additions-02: root)		
+17-172	Cognition	to imitate	40	23	14	6	cov			gayen "copy"		imitate = copy someone; BQ minor
+17-18	Cognition	to seem	32	20	11	4	cov			wemen "inferred, it seems"		
+17-19	Cognition	the idea	37	23	5	14	cov			gason		
+17-21	Cognition	wise	38	23	8	6	cov			wise [ladder:list]		
+17-22	Cognition	stupid	38	23	18	7	cov			su gole (entrant: composes)		
+17-23	Cognition	mad	39	24	17	5	cov			crazy (walk G, trend stretch)		
+17-24	Cognition	to learn	41	24	12	9	cov			yesa		
+17-242	Cognition	to study	38	23	9	13	cov			yesa		
+17-25	Cognition	to teach	41	24	13	5	cov			tofo		
+17-26	Cognition	the pupil	38	23	4	9	cov			student (ladder: pupil)		
+17-27	Cognition	the teacher	41	24	6	16	cov			teacher [ladder:list]		
+17-28	Cognition	the school	41	24	1	26	cov			school [ladder:list]		
+17-31	Cognition	to remember	40	24	9	5	cov			imu		
+17-32	Cognition	to forget	41	24	12	2	cov			yakin		
+17-34	Cognition	clear	33	20	10	6	cov			clear [ladder:list]		
+17-35	Cognition	obscure	30	19	7	3	P			su [clear] "not clear"	obscure, unclear	3 syll
+17-36	Cognition	secret	35	21	8	11	cov			secret [ladder:list]		
+17-37	Cognition	certain	35	22	10	9	cov			sure (ladder: grammar, kon ufo)		
+17-38	Cognition	to explain	38	22	10	8	cov			explain [ladder:list]		
+17-41	Cognition	the intention	32	21	9	8	cov			grammar: INTEND (merged)		
+17-42	Cognition	the cause	31	19	7	14	cov			ukun		
+17-43	Cognition	the doubt	31	18	5	11	cov			doubt [ladder:list]		
+17-44	Cognition	to suspect	31	18	5	11	cov			suspect [ladder:list]		
+17-441	Cognition	to betray	35	21	6	11	D	edge	1854		betray	6/24 root families, 11 loans; a general social act; alt:X
+17-45	Cognition	the need or necessity	35	22	10	10	cov			wupi		
+17-46	Cognition	easy	39	22	8	12	cov			bunle		
+17-47	Cognition	difficult	40	23	15	6	cov			gofa		
+17-48	Cognition	to try	40	24	11	10	cov			walo		
+17-49	Cognition	the manner	31	18	14	5	cov			lite "way, method"		
+17-51	Cognition	and	35	21	18	4	cov			grammar: AND		
+17-52	Cognition	because	40	23	11	11	cov			grammar: BECAUSE		
+17-53	Cognition	if	39	22	19	3	cov			grammar: IF		
+17-54	Cognition	or	37	22	12	13	cov			grammar: OR		
+17-55	Cognition	yes	39	23	21	3	cov			grammar: echo answer, feko (reference 4.x: no yes/no words)		
+17-56	Cognition	no	38	22	17	4	cov			grammar: su + echo, su feko		
+17-61	Cognition	how?	41	24	16	0	cov			grammar: WH		
+17-62	Cognition	how many?	41	24	16	3	cov			grammar: WH		
+17-63	Cognition	how much?	41	24	14	3	cov			grammar: WH		
+17-64	Cognition	what?	41	24	21	1	cov			grammar: WH		
+17-65	Cognition	when?	41	24	16	1	cov			grammar: WH		
+17-66	Cognition	where?	41	24	14	0	cov			grammar: WH		
+17-67	Cognition	which?	41	24	19	0	cov			grammar: WH		
+17-68	Cognition	who?	41	24	22	1	cov			grammar: WH		
+17-69	Cognition	why?	41	24	13	0	cov			grammar: bo yu		
+18-11	Speech and language	the voice	41	24	19	7	cov			voice [ladder:list]		
+18-12	Speech and language	to sing	41	24	13	3	cov			yuyun		
+18-13	Speech and language	to shout	41	24	20	2	cov			oyi dibon "yell" (compounds)		
+18-15	Speech and language	to whisper	39	24	12	6	D	edge	2155		whisper	12/24 root families; alt:P "oyi mange" (4 syll)
+18-16	Speech and language	to mumble	32	20	12	1	X				mumble	
+18-17	Speech and language	to whistle	41	24	17	6	D	core	2154		whistle	17/24 root families
+18-18	Speech and language	to shriek	35	21	14	1	cov			oyi dibon "yell"		
+18-19	Speech and language	to howl	39	24	18	1	X				howl	
+18-21	Speech and language	to speak or talk	41	24	16	3	cov			kegu		
+18-211	Speech and language	to stutter or stammer	37	22	10	4	X				stutter	
+18-22	Speech and language	to say	41	24	21	0	cov			oyi		
+18-221	Speech and language	to tell	41	24	15	5	cov			iko		
+18-222	Speech and language	the speech	34	21	9	7	cov			speech [ladder:list]		
+18-23	Speech and language	to be silent	38	23	11	2	cov			mange "quiet"		
+18-24	Speech and language	the language	40	24	17	5	cov			apu		
+18-26	Speech and language	the word	38	23	15	6	cov			word (additions-01)		
+18-28	Speech and language	the name	41	24	21	3	cov			suso		
+18-31	Speech and language	to ask(1)	41	24	17	5	cov			mido		
+18-32	Speech and language	to answer	41	24	12	4	cov			febo		
+18-33	Speech and language	to admit	33	18	6	7	cov			confess (ladder: admit)		
+18-34	Speech and language	to deny	33	18	8	9	cov			deny (walk G)		
+18-35	Speech and language	to ask(2)	41	24	20	4	cov			request (additions-01)		
+18-36	Speech and language	to promise	36	21	3	11	cov			promise [ladder:list]		
+18-37	Speech and language	to refuse	37	21	6	6	cov			refuse (walk G)		
+18-38	Speech and language	to forbid	35	20	10	8	cov			su efon (entrant: composes)		
+18-39	Speech and language	to scold	39	24	18	3	D	core	1910		scold	18/24 root families
+18-41	Speech and language	to call(1)	40	24	14	5	cov			yebin		
+18-42	Speech and language	to call(2)	40	24	14	2	cov			yebin; suso		
+18-43	Speech and language	to announce	38	22	9	5	cov			announce [ladder:list]		
+18-44	Speech and language	to threaten	40	23	13	2	cov			threaten [ladder:list]		
+18-45	Speech and language	to boast	36	22	10	1	D	edge			boast, brag	10/24 root families; alt:X
+18-51	Speech and language	to write	41	24	15	11	cov			tusi		
+18-52	Speech and language	to read	40	24	12	15	cov			lilu		
+18-56	Speech and language	the paper	41	24	11	27	cov			mabo		
+18-57	Speech and language	the pen	37	21	2	24	cov			pen [ladder:list]		
+18-61	Speech and language	the book	41	24	9	22	cov			ingo		
+18-67	Speech and language	the poet	25	13	3	7	cov			no poem (ladder)		
+18-71	Speech and language	the flute	35	18	14	10	D	edge			flute	14/24 root families; music on every continent
+18-72	Speech and language	the drum	35	21	15	6	D	core			drum	15/24 root families; music on every continent
+18-73	Speech and language	the horn or trumpet	31	19	13	11	cov			yansi "horn"		
+18-74	Speech and language	the rattle	27	16	12	3	X				rattle	
+19-11	Social and political relations	the country	37	22	11	12	cov			gigin		
+19-12	Social and political relations	the native country	29	17	4	5	cov			gigin + native (ladder)		
+19-15	Social and political relations	the town	39	23	11	15	cov			oton "city"		town lumped with city; BQ minor
+19-16	Social and political relations	the village	40	24	13	9	cov			village [ladder:list]		
+19-17	Social and political relations	the boundary	37	21	13	14	cov			border (ladder: boundary)		
+19-21	Social and political relations	the people	38	22	8	12	cov			race (people) (ladder: ethnic group); tribe		
+19-23	Social and political relations	the clan	37	22	11	13	cov			tribe (ladder)		clan
+19-24	Social and political relations	the chieftain	37	24	13	7	cov			leader (ladder: chief)		
+19-25	Social and political relations	the walking stick	41	24	15	7	cov			kima netu "stick"		
+19-31	Social and political relations	to rule or govern	32	20	4	9	cov			rule (additions-01)		
+19-32	Social and political relations	the king	36	20	10	14	cov			king [ladder:list]		
+19-33	Social and political relations	the queen	30	18	5	10	cov			king futa (ladder)		
+19-36	Social and political relations	the noble	19	11	2	8	cov			noble [ladder:list]		
+19-37	Social and political relations	the citizen	24	15	4	10	cov			citizen [ladder:list]		
+19-41	Social and political relations	the master	33	21	9	12	cov			master [ladder:list]		
+19-42	Social and political relations	the slave	31	17	9	10	cov			slave [ladder:list]		
+19-43	Social and political relations	the servant	36	20	8	11	cov			servant [ladder:list]		
+19-44	Social and political relations	the freeman	21	15	1	6	X				freeman	
+19-45	Social and political relations	to command or order	37	21	10	11	BQ			grammar INSTRUCT act; wungu "lead"	order, command (someone to do)	10/24 root families; note coverage-02 rank 76 "order" (command or sequence) has no entry at all; a root, or the INSTRUCT act + iko?
+19-46	Social and political relations	to obey	35	21	11	2	cov			obey (additions-02: root)		
+19-47	Social and political relations	to permit	38	22	11	5	cov			efon		
+19-51	Social and political relations	the friend	41	24	15	12	cov			sonu		
+19-52	Social and political relations	the enemy	39	23	12	12	cov			biton		
+19-54	Social and political relations	the neighbour	37	22	9	7	cov			no nume gelu (compounds)		
+19-55	Social and political relations	the stranger	37	23	10	5	cov			stranger (walk G)		
+19-56	Social and political relations	the guest	35	21	10	8	cov			guest [ladder:list]		
+19-57	Social and political relations	the host	29	18	6	6	cov			host [ladder:list]		
+19-58	Social and political relations	to help	41	24	13	8	cov			yema		
+19-59	Social and political relations	to prevent	38	22	11	4	cov			prevent [ladder:list]		
+19-61	Social and political relations	the custom	38	23	9	16	cov			tradition (ladder: custom)		
+19-62	Social and political relations	the quarrel	40	24	10	6	cov			argument (ladder: dispute, quarrel)		
+19-63	Social and political relations	the plot	24	15	5	5	cov			plot [ladder:list]		
+19-65	Social and political relations	to meet	41	24	14	3	cov			fanmu		
+19-72	Social and political relations	the prostitute	36	21	7	10	cov			prostitute [ladder:list]		
+20-11	Warfare and hunting	to fight	41	24	13	4	cov			migi		
+20-13	Warfare and hunting	the war or battle	41	24	16	8	cov			pinpu		
+20-14	Warfare and hunting	the peace	34	21	5	14	cov			bonwi		
+20-15	Warfare and hunting	the army	35	22	5	19	cov			army [ladder:list]		
+20-17	Warfare and hunting	the soldier	39	23	6	21	cov			soldier [ladder:list]		
+20-21	Warfare and hunting	the weapons	37	22	8	11	cov			botan		
+20-22	Warfare and hunting	the club	35	21	12	12	X		454		club, cudgel	ladder "club" is the society (loan); alt:P "kima netu" (stick)
+20-222	Warfare and hunting	the battle-axe	17	11	5	4	X				battle-axe	
+20-23	Warfare and hunting	the sling	31	19	9	8	X				sling	
+20-24	Warfare and hunting	the bow	37	21	17	5	cov			bow (weapon) (ladder)		
+20-25	Warfare and hunting	the arrow	38	22	19	8	cov			arrow [ladder:list]		
+20-26	Warfare and hunting	the spear	39	23	15	8	D	edge	2175		spear	15/24 root families; hunting and fishing across cultures; alt:X
+20-27	Warfare and hunting	the sword	32	19	7	13	cov			sword [ladder:list]		
+20-28	Warfare and hunting	the gun	39	24	11	18	cov			du onlo (ladder: gun)		
+20-31	Warfare and hunting	the armour	22	15	6	8	X				armour	
+20-33	Warfare and hunting	the helmet	23	14	7	5	L		2215		helmet	helmet/casque-family forms (ja herumetto, id helm, sw helmeti, hi helmet; ru kaska, tr kask); motorcycle and work helmets everywhere; panel test; else P "[hat] gufu"
+20-34	Warfare and hunting	the shield	26	15	10	4	cov			shield [ladder:list]		
+20-35	Warfare and hunting	the fortress	23	13	5	9	X				fortress	
+20-36	Warfare and hunting	the tower	26	14	6	15	cov			tower [ladder:list]		
+20-41	Warfare and hunting	the victory	35	20	7	9	cov			yiyin "win"		
+20-42	Warfare and hunting	the defeat	32	19	9	6	cov			defeat [ladder:list]		
+20-43	Warfare and hunting	the attack	31	20	9	10	cov			attack [ladder:list]		
+20-44	Warfare and hunting	to defend	36	22	12	6	cov			kuwi "protect"		
+20-45	Warfare and hunting	to retreat	36	22	10	4	X				retreat	alt:P "isi nebe"
+20-46	Warfare and hunting	to surrender	31	19	3	6	cov			surrender (walk P)		
+20-47	Warfare and hunting	the captive or prisoner	34	21	4	9	cov			prisoner (ladder)		
+20-471	Warfare and hunting	the guard	34	21	5	12	cov			no kuwi (ladder: guard)		
+20-48	Warfare and hunting	the booty	24	16	6	4	X				booty	
+20-49	Warfare and hunting	the ambush	29	17	6	5	X				ambush	
+20-51	Warfare and hunting	the fisherman	33	24	2	6	P		2113	no fesun woga "one who hunts fish"	fisher	world pattern "fish + person" (zh yumin); 5 syll; alt: a verb "to fish" (not a WOLD meaning)
+20-52	Warfare and hunting	the fishhook	37	23	14	6	cov			[hook] (12-75, D)		fishhook = hook
+20-53	Warfare and hunting	the fishing line	32	21	9	6	X				fishing line	
+20-54	Warfare and hunting	the fishnet	38	23	13	6	cov			net (ladder: merged with network)		
+20-55	Warfare and hunting	the fish trap	27	18	10	5	cov			trap (ladder)		
+20-56	Warfare and hunting	the bait	31	19	12	5	X		1859		bait	alt:D
+20-61	Warfare and hunting	to hunt	40	24	16	4	cov			fesun		
+20-62	Warfare and hunting	to shoot	41	24	16	2	cov			onlo		
+20-63	Warfare and hunting	to miss	38	22	12	5	cov			fail (ladder)		miss a target
+20-64	Warfare and hunting	the trap	40	24	16	6	cov			trap [ladder:list]		
+20-65	Warfare and hunting	to trap	37	23	14	1	cov			trap (ladder) as a verb		
+21-11	Law	the law	33	20	4	20	cov			wabun		
+21-15	Law	the court	33	19	3	16	cov			court [ladder:list]		
+12-013	Spatial relations	at	33	19	19	0	cov			grammar: AT		
+21-16	Law	to adjudicate	27	16	5	7	cov			judge (ladder) as a verb		
+21-17	Law	the judgment	30	18	4	11	cov			judge (ladder); decide		
+21-18	Law	the judge	32	20	2	16	cov			judge [ladder:list]		
+21-21	Law	the plaintiff	29	18	1	9	X				plaintiff	
+21-22	Law	the defendant	30	21	2	6	X				defendant	
+21-23	Law	the witness	34	20	1	20	cov			witness [ladder:list]		
+21-24	Law	to swear	31	17	5	4	cov			promise (ladder)		swear an oath; BQ minor
+21-25	Law	the oath	31	17	7	4	cov			promise (ladder)		
+21-31	Law	to accuse	35	22	11	7	cov			accuse (additions-02: boundary question)		
+21-32	Law	to condemn	25	15	5	10	X				condemn	
+21-33	Law	to convict	25	17	4	6	X				convict	
+21-34	Law	to acquit	25	15	5	5	X				acquit	
+21-35	Law	guilty	33	21	3	11	cov			guilty (walk G)		
+21-36	Law	innocent	28	18	1	8	cov			innocent [ladder:list]		
+21-37	Law	the penalty or punishment	32	17	3	17	cov			punish (ladder: penalty)		
+21-38	Law	the fine	32	19	5	17	X				fine (penalty)	
+21-39	Law	the prison	38	23	6	18	cov			prison [ladder:list]		
+21-42	Law	the murder	35	23	5	2	BQ			omen "kill"	murder	23/24 families have a word, 5 own roots; kill and murder apart in many languages (en kill / murder, de töten / ermorden); law and news need it
+21-43	Law	the adultery	28	16	4	9	X				adultery	
+21-44	Law	the rape	32	21	4	8	cov			rape [ladder:list]		
+21-46	Law	the arson	25	16	4	3	X				arson	
+21-47	Law	the perjury	24	16	2	5	X				perjury	
+21-51	Law	to steal	41	24	17	3	cov			bunsi		
+21-52	Law	the thief	40	24	7	6	cov			no bunsi (ladder)		
+22-11	Religion and belief	the religion	32	18	2	20	cov			religion [ladder:list]		
+22-12	Religion and belief	the god	41	24	13	13	cov			nosen		
+22-13	Religion and belief	the temple	30	17	3	17	cov			temple [ladder:list]		
+22-14	Religion and belief	the altar	25	14	2	17	C				altar	each tradition's word (religion decision 2026-10-13)
+22-15	Religion and belief	the sacrifice	34	20	9	11	cov			sacrifice [ladder:list]		
+22-16	Religion and belief	to worship	32	21	8	5	cov			pray (religion.tsv: pray, worship)		
+22-17	Religion and belief	to pray	37	21	9	9	cov			pray [ladder:list]		
+22-18	Religion and belief	the priest	36	21	4	21	cov			priest [ladder:list]		
+22-19	Religion and belief	holy	34	21	6	10	cov			holy (additions-02: root, author)		
+22-22	Religion and belief	to preach	31	18	5	16	C				preach	each tradition's word
+22-23	Religion and belief	to bless	34	20	8	10	cov			bless [ladder:list]		
+22-24	Religion and belief	to curse	37	22	10	6	cov			curse [ladder:list]		
+22-26	Religion and belief	to fast	37	20	4	11	P		315	su nawi "not eat"	fast (go without food)	3 syll
+22-31	Religion and belief	the heaven	36	22	8	9	cov			heaven [ladder:list]		
+22-32	Religion and belief	the hell	34	20	5	12	cov			hell [ladder:list]		
+22-35	Religion and belief	the demon	36	21	10	12	cov			devil (religion.tsv: evil spirit, demon)		
+22-37	Religion and belief	the idol	25	15	7	9	cov			idol [ladder:list]		
+22-42	Religion and belief	the magic	36	21	7	9	cov			wase		
+22-43	Religion and belief	the sorcerer or witch	37	22	10	7	cov			no wase (compounds)		
+22-44	Religion and belief	the fairy or elf	25	15	4	8	C		1387		fairy, elf	a being of particular traditions
+22-45	Religion and belief	the ghost	37	23	14	5	cov			ghost (additions-01)		
+22-47	Religion and belief	the omen	32	20	10	10	cov			omen (walk P)		
+23-1	Modern world	the radio	35	21	2	27	cov			radio [ladder:list]		
+23-11	Modern world	the television	33	21	1	27	cov			television [ladder:list]		
+23-12	Modern world	the telephone	37	22	2	28	cov			liga		
+23-135	Modern world	the motorcycle	35	20	3	20	cov			motorcycle [ladder:list]		
+23-14	Modern world	the car	40	24	3	29	cov			tale		
+23-15	Modern world	the bus	38	22	3	27	cov			ensu		
+23-16	Modern world	the airplane	40	24	2	21	cov			airplane [ladder:list]		
+23-17	Modern world	the electricity	36	20	9	20	cov			lula pi mufin (compounds)		
+23-175	Modern world	the battery	34	20	3	24	cov			batali		
+23-2	Modern world	the hospital	39	22	1	20	cov			pu yema simi (compounds)		
+23-21	Modern world	the nurse	34	21	2	14	cov			nurse [ladder:list]		
+23-22	Modern world	the pill or tablet	34	20	4	19	cov			medicine (ladder)		pill = a unit of medicine; BQ minor
+23-23	Modern world	the injection	34	20	5	20	L		1802		injection	20 loan languages (inyección / inyeksi / injekshan family); panel test; else P "[needle] pi [medicine]"
+23-5	Modern world	the tap/faucet	31	18	6	15	D	edge			tap, faucet	6/24 root families, 15 loans (kran / keran family partly shared); in homes with running water everywhere; alt:L
+23-51	Modern world	the sink	27	18	2	13	cov			sink [ladder:list]		
+23-52	Modern world	the toilet	38	23	4	16	cov			toilet [ladder:list]		
+23-53	Modern world	the mattress	32	20	7	21	L				mattress	21 loan languages (matras / matelas / colchón family); panel test; else D
+23-3	Modern world	the government	35	20	6	20	cov			government [ladder:list]		
+23-31	Modern world	the president	32	20	6	19	cov			president [ladder:list]		
+23-32	Modern world	the minister	30	18	5	23	cov			minister [ladder:list]		
+23-33	Modern world	the police	38	23	3	30	cov			police (additions-01)		
+23-34	Modern world	the driver's license	28	17	3	12	cov			du efon (licence) + drive		
+23-37	Modern world	the crime	28	18	6	12	cov			crime [ladder:list]		
+23-38	Modern world	the election	32	20	4	15	cov			election [ladder:list]		
+23-4	Modern world	the post/mail	31	19	5	22	cov			post (mail) (ladder: merged with letter)		
+23-41	Modern world	the postage stamp	30	18	4	17	X				postage stamp	alt:L
+23-42	Modern world	the letter	41	24	8	23	cov			letter [ladder:list]		
+23-44	Modern world	the bank	32	19	1	26	cov			bank [ladder:list]		
+23-54	Modern world	the tin/can	37	23	6	25	L				tin can	25 loan languages (kan / lata / konserva); panel test; else P "nansa pi [metal]"
+23-55	Modern world	the screw	33	21	3	24	X		2056		screw	24 loan languages; alt:L
+23-555	Modern world	the screwdriver	31	19	2	16	X				screwdriver	
+23-56	Modern world	the bottle	40	24	9	24	cov			bottle [ladder:list]		
+23-565	Modern world	the candy/sweets	39	24	8	17	cov			candy [ladder:list]		
+23-24	Modern world	the spectacles/glasses	37	23	4	18	cov			glasses [ladder:list]		
+23-57	Modern world	the plastic	32	20	2	27	cov			plastic [ladder:list]		
+23-575	Modern world	the bomb	30	18	2	23	cov			bomb [ladder:list]		
+23-58	Modern world	the workshop	27	17	2	12	cov			pu doku (ladder: workplace)		
+23-59	Modern world	the cigarette	39	24	10	22	cov			cigarette [ladder:list]		
+23-61	Modern world	the calendar	30	19	2	22	L		1694		calendar (the object)	kalendar / calendario / Kalender / kalenda / karendā family; on the balance audit's gap list (AM); date is grammar; panel test; else P
+23-62	Modern world	the film/movie	35	20	3	26	cov			film [ladder:list]		
+23-63	Modern world	the music	34	20	10	17	cov			music [ladder:list]		
+23-64	Modern world	the song	40	24	16	6	cov			song [ladder:list]		
+23-6	Modern world	the newspaper	32	19	1	20	cov			newspaper [ladder:list]		
+23-385	Modern world	the address	28	17	3	20	cov			address [ladder:list]		
+23-39	Modern world	the number	36	20	6	21	cov			wifu		
+23-155	Modern world	the train	33	21	2	19	cov			siwa netu (compounds)		
+23-36	Modern world	the birth certificate	29	19	1	10	cov			certificate + birth (ladder)		
+23-18	Modern world	to brake	30	19	7	11	X		2137		brake	alt:L
+23-195	Modern world	the petroleum	35	21	5	20	cov			fuel (ladder); yunen		
+23-185	Modern world	the motor	35	21	1	32	cov			engine (ladder: motor)		
+23-19	Modern world	the machine	34	21	2	29	cov			machine [ladder:list]		
+23-13	Modern world	the bicycle	36	22	4	20	cov			siwa pi pifo (compounds)		
+23-395	Modern world	the street	40	24	16	15	cov			sola "road"		street lumped with road; BQ minor
+19-445	Social and political relations	to liberate	34	21	9	6	cov			release (ladder); enpa		
+19-565	Social and political relations	to invite	36	23	15	4	cov			invite [ladder:list]		
+23-35	Modern world	the license plate	27	18	1	11	X				licence plate	
+23-43	Modern world	the postcard	28	18	2	12	X				postcard	
+24-01	Miscellaneous function words	to be	33	22	19	2	cov			grammar: BE		
+24-02	Miscellaneous function words	to become	35	20	14	3	cov			lewe		
+24-03	Miscellaneous function words	without	30	18	11	4	cov			nuwen		
+24-05	Miscellaneous function words	through	29	18	13	3	cov			pass (ladder) as a verb		BQ: "through" has no relation word (13/24 root families); minor
+24-13	Miscellaneous function words	same	36	23	10	4	cov			kige		
+24-06	Miscellaneous function words	not	36	22	21	2	cov			grammar: NOT		
+24-07	Miscellaneous function words	this	40	24	20	0	cov			grammar: THIS		
+24-08	Miscellaneous function words	that	39	23	18	0	cov			grammar: THAT		
+24-09	Miscellaneous function words	here	41	24	10	1	cov			here (additions-01)		
+24-1	Miscellaneous function words	there	41	24	13	1	cov			there (additions-01)		
+24-11	Miscellaneous function words	other	41	24	18	3	cov			eni		
+4-493	The body	the vagina	39	23	17	6	cov			kedon		
+23-9	Modern world	the tea	38	23	3	31	cov			tea (additions-01)		
+23-91	Modern world	the coffee	39	23	2	33	cov			coffee [ladder:list]		
+24-12	Miscellaneous function words	next	37	22	11	2	cov			next [ladder:list]		
+3-862	Animals	the coyote	13	10	5	6	C				coyote	
+3-863	Animals	the hare	33	21	12	5	cov			[rabbit] (ladder)		hare lumped with rabbit; BQ minor
+3-865	Animals	the quail	27	17	14	4	X				quail	
+3-866	Animals	the raccoon	13	9	3	5	C				raccoon	
+3-869	Animals	the squirrel	33	21	16	7	cov			squirrel [ladder:list]		
+3-871	Animals	the reindeer/caribou	15	11	6	6	C				reindeer, caribou	
+3-872	Animals	the elk/moose	15	11	5	5	C				elk, moose	
+3-873	Animals	the beaver	14	9	4	5	C				beaver	
+10-79	Motion	the sledge/sled	19	12	6	8	C				sledge	
+8-29	Agriculture and vegetation	the lasso	21	15	5	9	C				lasso	
+8-991	Agriculture and vegetation	the larch	11	7	2	4	X				larch	
+8-993	Agriculture and vegetation	the needle(2)	22	14	9	3	X		1213		conifer needle	
+1-771	The physical world	the arctic lights	15	11	0	3	X				northern lights	
+4-465	The body	the sinew or tendon	36	20	18	3	X				sinew, tendon	alt:D (18/24 root families)
+7-67	The house	to tan	26	16	9	5	X				tan (hides)	
+6-98	Clothing and grooming	the snowshoe	12	9	3	1	C				snowshoe	
+22-5	Religion and belief	the circumcision	24	12	3	13	C				circumcision	alt:X
+22-51	Religion and belief	the initiation ceremony	14	10	4	1	C				initiation ceremony	
+8-996	Agriculture and vegetation	the cone	24	17	8	5	X				cone	
+3-8112	Animals	the body louse	37	24	23	1	cov			akan		
+4-494	The body	the vulva	32	18	14	9	cov			kedon		
+3-99	Animals	the tapir	18	12	7	7	C				tapir	
+9-93	Basic actions and technology	the whetstone	34	22	8	6	X				whetstone	
+9-92	Basic actions and technology	the tumpline	9	7	5	1	C				tumpline	
+7-65	The house	the camp	32	21	10	9	cov			camp [ladder:list]		
+8-28	Agriculture and vegetation	the digging stick (=yamstick)	20	15	7	1	C				digging stick	
+3-597	Animals	the cormorant	17	12	8	6	X				cormorant	
+3-833	Animals	the prawns or shrimp	26	16	11	7	D	edge			shrimp, prawn	11/24 root families; a common food on coasts and in Asia; alt:X
+3-834	Animals	the termites	29	18	12	7	D	edge			termite	12/24 root families; everyday in the tropics on four continents; alt:X
+3-835	Animals	the tick	32	18	16	5	D	core			tick	16/24 root families; on livestock and people
+9-87	Basic actions and technology	the boomerang	15	9	1	12	C				boomerang	
+3-88	Animals	the kangaroo	19	12	2	16	C				kangaroo	
+3-89	Animals	the anteater	23	17	9	3	C				anteater	
+3-598	Animals	the toucan	14	10	3	7	C				toucan	
+3-9	Animals	the jaguar	21	13	7	10	C				jaguar	
+5-983	Food and drink	the manioc bread	12	7	3	4	C				manioc bread	
+7-66	The house	the hammock	22	15	7	8	C				hammock	
+8-911	Agriculture and vegetation	the millet or sorghum	29	17	10	9	C				millet, sorghum	a staple in Africa and South Asia (two regions): C or D? (question)
+3-913	Animals	the chameleon	27	15	10	9	X				chameleon	
+9-9	Basic actions and technology	to draw water	33	22	10	1	P			yidu osa "take water"	draw water, fetch water	a daily task for many rural households; 4 syll
+9-91	Basic actions and technology	the peg	28	19	14	6	X				peg	
+10-58	Motion	to go or return home	36	23	12	1	cov			isi guyi		
+3-917	Animals	the buffalo	27	17	8	13	C				water buffalo	Asian and African farm animal; 13 loan languages
+1-411	The physical world	the savanna	24	15	8	12	C				savanna	one climate zone's landscape; 12 loan languages
+1-831	The physical world	the steam	38	24	17	5	cov			steam (walk G)		
+2-4561	Kinship	the older sibling	18	12	9	0	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-4562	Kinship	the younger sibling	19	13	8	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-4711	Kinship	the grandparents	24	14	6	5	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-5	Kinship	the grandchild	35	21	16	3	cov			grandchild [ladder:covered:tiwu pi tiwu]		
+2-541	Kinship	the sibling’s child	20	13	9	3	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-622	Kinship	the parents-in-law	24	15	9	4	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-6411	Kinship	the child-in-law	18	12	11	1	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-6412	Kinship	the sibling-in-law	25	16	13	0	cov			kinship rule (vocabulary-method §3.1: roots mother, father, parent, child, sibling, spouse; the rest composed)		
+2-931	Kinship	he	33	22	19	0	cov			grammar: HE/SHE		sex is a modifier
+2-932	Kinship	she	33	22	17	0	cov			grammar: HE/SHE		
+2-933	Kinship	it	28	19	14	0	cov			grammar: IT		
+4-741	The body	the life	38	23	14	5	cov			nume		
+4-771	The body	the carcass	34	22	10	6	cov			gawo fafin		carcass
+4-844	The body	the disease	40	24	13	9	cov			simi		
+7-232	The house	the padlock	30	20	4	13	cov			udin "lock"		
+8-121	Agriculture and vegetation	the paddy	16	10	3	3	P			sekan yegon "rice field"	paddy	world compound
+11-29	Possession	to damage	36	22	9	7	cov			damage [ladder:list]		
+12-081	Spatial relations	above	40	24	19	2	cov			bige		
+13-231	Quantity	the piece	38	23	12	3	cov			kin "part"		piece lumped with part; BQ minor
+13-331	Quantity	alone	40	24	12	1	cov			alone [ladder:list]		
+14-251	Time	the beginning	37	21	8	6	cov			tuko; origin (ladder)		
+14-411	Time	the day(2)	39	23	17	6	cov			daytime (additions-01)		
+22-131	Religion and belief	the church	37	21	1	23	cov			church [ladder:list]		
+22-132	Religion and belief	the mosque	20	10	0	14	cov			mosque [ladder:list]		
+24-14	Miscellaneous function words	nothing	34	20	7	2	cov			grammar: NONE		
+4-7501	The body	dead	41	24	13	3	cov			fafin		
+4-8541	The body	to scratch	41	24	18	1	cov			sumin		
+9-111	Basic actions and technology	to make	41	24	20	3	cov			muge		
+4-431	The body	the belly	40	24	18	4	cov			suyon		
+9-311	Basic actions and technology	to wipe	35	20	15	4	cov			wipe [ladder:list]		
+1-775	The physical world	to freeze	32	21	15	4	D	core	1973		freeze, become ice	15/24 root families; "lewe nokun" is 4 syll
+24-04	Miscellaneous function words	with	37	21	18	1	cov			grammar: WITH		
+12-012	Spatial relations	in	37	21	19	2	cov			grammar: AT; bese		

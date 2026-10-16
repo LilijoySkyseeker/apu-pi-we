@@ -1,0 +1,3390 @@
+source	concept	kind	detail
+lexicon	person	root	ewo
+lexicon	child	root	tiwu
+lexicon	man, male	root	lowu
+lexicon	woman, female	root	futa
+lexicon	friend	root	sonu
+lexicon	family	root	yonyo
+lexicon	mother	root	mole
+lexicon	father	root	wede
+lexicon	name	root	suso
+lexicon	group	root	funti
+lexicon	enemy	root	biton
+lexicon	body	root	gawo
+lexicon	head	root	lukan
+lexicon	eye	root	funo
+lexicon	ear	root	wisa
+lexicon	nose	root	danki
+lexicon	tooth	root	fonma
+lexicon	tongue	root	lisun
+lexicon	hair	root	sonfa
+lexicon	hand	root	kiti
+lexicon	foot	root	pifo
+lexicon	leg	root	bendo
+lexicon	heart	root	mala
+lexicon	blood	root	makon
+lexicon	bone	root	gipo
+lexicon	skin	root	unne
+lexicon	back, of the body; behind	root	nebe
+lexicon	belly	root	suyon
+lexicon	water	root	osa
+lexicon	fire	root	lumi
+lexicon	ground, earth or soil	root	fowo
+lexicon	stone	root	lutu
+lexicon	sky	root	yaye
+lexicon	sun	root	giwe
+lexicon	month	root	dunan
+lexicon	star	root	uwan
+lexicon	rain	root	gegi
+lexicon	wind	root	gulo
+lexicon	tree	root	gala
+lexicon	leaf	root	wonin
+lexicon	wood, the material	root	kima
+lexicon	sea	root	puya
+lexicon	river	root	yolan
+lexicon	mountain	root	genne
+lexicon	sand	root	digan
+lexicon	smoke	root	penso
+lexicon	cloud	root	lanba
+lexicon	light, brightness	root	wino
+lexicon	storm	root	lapo
+lexicon	snow	root	binso
+lexicon	ice	root	nokun
+lexicon	salt	root	bunwu
+lexicon	ash	root	sulen
+lexicon	plant, vegetation	root	pinfe
+lexicon	animal	root	noso
+lexicon	dog	root	totu
+lexicon	bird	root	lodi
+lexicon	fish, the animal	root	woga
+lexicon	horse	root	anbo
+lexicon	cow	root	dunsa
+lexicon	snake	root	dinbu
+lexicon	insect	root	sunni
+lexicon	egg	root	tika
+lexicon	wing	root	yunbi
+lexicon	tail	root	kenlo
+lexicon	meat	root	fuyu
+lexicon	house, home	root	guyi
+lexicon	door	root	beya
+lexicon	food	root	pasu
+lexicon	tool	root	yetu
+lexicon	rope	root	tenbe
+lexicon	boat	root	binnu
+lexicon	cart	root	siwa
+lexicon	cloth	root	demi
+lexicon	money	root	nimo
+lexicon	book	root	ingo
+lexicon	weapon	root	botan
+lexicon	bed	root	soti
+lexicon	cup	root	ladon
+lexicon	thing	root	musu
+lexicon	day (24 hours)	root	dili
+lexicon	night	root	yami
+lexicon	time, a span or a point (not an occasion)	root	muyi
+lexicon	morning	root	leso
+lexicon	evening	root	kegin
+lexicon	moment	root	foke
+lexicon	inside	root	bese
+lexicon	outside	root	aban
+lexicon	above	root	bige
+lexicon	below	root	deba
+lexicon	front	root	sinye
+lexicon	near	root	gelu
+lexicon	far	root	lini
+lexicon	left, the side	root	funbe
+lexicon	right, the side	root	nata
+lexicon	road	root	sola
+lexicon	many	root	feli
+lexicon	few	root	uyo
+lexicon	big	root	kudu
+lexicon	small	root	meli
+lexicon	long	root	netu
+lexicon	short, not long	root	eten
+lexicon	wide	root	tugan
+lexicon	heavy	root	gogo
+lexicon	light, not heavy	root	gamun
+lexicon	thick	root	woten
+lexicon	full	root	kete
+lexicon	empty	root	tapun
+lexicon	half	root	timon
+lexicon	whole	root	minwe
+lexicon	good	root	upe
+lexicon	bad	root	yomo
+lexicon	new	root	duwa
+lexicon	old, aged or worn	root	pani
+lexicon	true	root	feko
+lexicon	same	root	kige
+lexicon	other	root	eni
+lexicon	hot	root	tikun
+lexicon	cold, not hot	root	weki
+lexicon	wet	root	wulon
+lexicon	dry	root	kilan
+lexicon	hard, not soft	root	gufu
+lexicon	soft	root	tutin
+lexicon	sharp	root	tungi
+lexicon	fast, quick	root	yobe
+lexicon	slow	root	gake
+lexicon	strong	root	konke
+lexicon	weak	root	nensi
+lexicon	clean	root	inan
+lexicon	dirty	root	bodu
+lexicon	beautiful	root	sesa
+lexicon	important	root	bawe
+lexicon	easy	root	bunle
+lexicon	difficult	root	gofa
+lexicon	ready	root	wonwe
+lexicon	sick	root	simi
+lexicon	dead	root	fafin
+lexicon	black	root	tago
+lexicon	white	root	pinda
+lexicon	red	root	wiwi
+lexicon	green	root	gisu
+lexicon	yellow	root	bilun
+lexicon	blue	root	deta
+lexicon	think	root	pume
+lexicon	know	root	lugo
+lexicon	want	root	momu
+lexicon	feel	root	feme
+lexicon	like, enjoy	root	tana
+lexicon	fear	root	nuta
+lexicon	hope	root	ganin
+lexicon	remember	root	imu
+lexicon	forget	root	yakin
+lexicon	learn	root	yesa
+lexicon	understand	root	lafi
+lexicon	mean, signify	root	yofu
+lexicon	choose	root	waka
+lexicon	need (to)	root	wupi
+lexicon	must, have to	root	keya
+lexicon	try	root	walo
+lexicon	happy	root	sogi
+lexicon	angry	root	bonko
+lexicon	pain	root	wekun
+lexicon	see	root	nagu
+lexicon	hear	root	nulu
+lexicon	say	root	oyi
+lexicon	tell	root	iko
+lexicon	ask (a question)	root	mido
+lexicon	talk	root	kegu
+lexicon	language	root	apu
+lexicon	call, phone or call to	root	yebin
+lexicon	show	root	wuye
+lexicon	look, look at	root	miya
+lexicon	listen	root	doma
+lexicon	sing	root	yuyun
+lexicon	write	root	tusi
+lexicon	read	root	lilu
+lexicon	laugh	root	bubo
+lexicon	cry, weep	root	nowa
+lexicon	go	root	isi
+lexicon	come	root	obu
+lexicon	move	root	kobi
+lexicon	walk	root	niba
+lexicon	run, on foot	root	gabe
+lexicon	fly, move through the air	root	bina
+lexicon	swim	root	lonfe
+lexicon	fall, drop down	root	dosi
+lexicon	stand	root	kolu
+lexicon	lie, lie down	root	anle
+lexicon	enter	root	inwa
+lexicon	leave, go away from	root	kusa
+lexicon	return	root	sigo
+lexicon	arrive	root	liwon
+lexicon	follow	root	lefan
+lexicon	carry	root	dinyo
+lexicon	push	root	dandi
+lexicon	pull	root	nunya
+lexicon	throw	root	gitin
+lexicon	turn, rotate or turn around	root	duko
+lexicon	stop	root	bamo
+lexicon	start	root	tuko
+lexicon	wait	root	sefu
+lexicon	stay	root	piyi
+lexicon	do; make	root	muge
+lexicon	have, possess	root	ibe
+lexicon	give	root	neke
+lexicon	take	root	yidu
+lexicon	get, obtain	root	dunu
+lexicon	put	root	yaga
+lexicon	hold	root	yonnu
+lexicon	use	root	bone
+lexicon	find	root	geno
+lexicon	lose, misplace	root	agi
+lexicon	protect	root	kuwi
+lexicon	open	root	benbi
+lexicon	close, shut	root	tapi
+lexicon	cut	root	fonsu
+lexicon	hit	root	payon
+lexicon	eat	root	nawi
+lexicon	drink	root	koye
+lexicon	sleep	root	wopo
+lexicon	wake	root	unda
+lexicon	work, labour; of a machine, function	root	doku
+lexicon	play, for fun	root	luse
+lexicon	help	root	yema
+lexicon	fight	root	migi
+lexicon	die	root	kono
+lexicon	live, be alive, dwell; life	root	nume
+lexicon	grow	root	guge
+lexicon	burn	root	onti
+lexicon	buy	root	bika
+lexicon	sell	root	koda
+lexicon	pay	root	unfu
+lexicon	wash	root	pensi
+lexicon	cook	root	siten
+lexicon	wear	root	yunko
+lexicon	hide	root	mibun
+lexicon	change, make or become different	root	kubo
+lexicon	happen	root	muwo
+lexicon	win	root	yiyin
+lexicon	way, method	root	lite
+lexicon	kind, type	root	niki
+lexicon	reason	root	ukun
+lexicon	problem	root	batu
+lexicon	idea	root	gason
+lexicon	story	root	weyu
+lexicon	law	root	wabun
+lexicon	war	root	pinpu
+lexicon	peace	root	bonwi
+lexicon	game	root	bufe
+lexicon	power, control	root	lula
+lexicon	magic	root	wase
+lexicon	god	root	nosen
+lexicon	today	root	mefa
+lexicon	tomorrow	root	wuma
+lexicon	yesterday	root	afe
+lexicon	now	root	eda
+lexicon	become	root	lewe
+lexicon	face	root	suku
+lexicon	apologise	root	sepi
+lexicon	again	root	moti
+lexicon	teach	root	tofo
+lexicon	lead, guide	root	wungu
+lexicon	dream	root	sinun
+lexicon	dark	root	buda
+lexicon	wall	root	senmo
+lexicon	calm	root	fanse
+lexicon	free, not held or controlled	root	enpa
+lexicon	glass, the material	root	degun
+lexicon	answer	root	febo
+lexicon	system	root	yile
+lexicon	offend	root	yenwu
+lexicon	panic	root	banga
+lexicon	number	root	wifu
+lexicon	bag	root	yufa
+lexicon	paper	root	mabo
+lexicon	lock	root	udin
+lexicon	smart	root	gole
+lexicon	watch, timepiece	root	aya
+lexicon	phone	root	liga
+lexicon	card	root	mise
+lexicon	bus	root	ensu
+lexicon	dollar	root	dolalu
+lexicon	POINT	root	mimi
+lexicon	MINUS	root	guti
+lexicon	mouth	root	fade
+lexicon	year	root	fawu
+lexicon	place	root	kemu
+lexicon	sad	root	bayi
+lexicon	sit	root	goyu
+lexicon	break	root	alun
+lexicon	kill	root	omen
+lexicon	build	root	selo
+lexicon	disgust	root	bebu
+lexicon	car	root	tale
+lexicon	POWER	root	unun
+lexicon	thank	root	lota
+lexicon	rent, pay to use	root	sanwa
+lexicon	agree	root	tayu
+lexicon	send	root	sege
+lexicon	end	root	fugi
+lexicon	allow	root	efon
+lexicon	sibling	root	faba
+lexicon	spouse	root	ofin
+lexicon	arm	root	inyi
+lexicon	north	root	soto
+lexicon	south	root	monna
+lexicon	east	root	anyu
+lexicon	west	root	munke
+lexicon	breast	root	egu
+lexicon	neck	root	mogo
+lexicon	liver	root	gudu
+lexicon	knee	root	leyi
+lexicon	grass	root	tunmu
+lexicon	feather	root	suba
+lexicon	root, of a plant	root	yinki
+lexicon	spit	root	kefa
+lexicon	flower	root	meyen
+lexicon	louse	root	akan
+lexicon	nail, of a finger or toe	root	tolin
+lexicon	smell, sense or give off an odour	root	kanko
+lexicon	tie, fasten with a knot	root	manfu
+lexicon	vomit	root	gabu
+lexicon	dust	root	awin
+lexicon	throat	root	muban
+lexicon	fat, body fat	root	gimen
+lexicon	bark, of a tree	root	tase
+lexicon	sweat	root	tiwe
+lexicon	thin	root	gunmo
+lexicon	blow, of air	root	nanyo
+lexicon	finger	root	linma
+lexicon	navel	root	wuwu
+lexicon	thunder	root	seyun
+lexicon	cough	root	dowin
+lexicon	rotten	root	yuson
+lexicon	urinate	root	tibin
+lexicon	lung	root	badin
+lexicon	shade, shadow from light	root	situ
+lexicon	breathe	root	togun
+lexicon	straight	root	fongo
+lexicon	suck	root	maman
+lexicon	salty	root	lage
+lexicon	seed	root	yikan
+lexicon	milk	root	tunlo
+lexicon	bitter	root	finlu
+lexicon	ripe	root	bubin
+lexicon	penis	root	wento
+lexicon	blunt	root	linfa
+lexicon	defecate	root	desin
+lexicon	round	root	kowan
+lexicon	brain	root	lemon
+lexicon	sweet	root	sinta
+lexicon	sneeze	root	tinne
+lexicon	horn	root	yansi
+lexicon	smooth	root	windi
+lexicon	lip	root	gonge
+lexicon	touch	root	sanne
+lexicon	yawn	root	ganpa
+lexicon	crush	root	monpa
+lexicon	raw	root	bewon
+lexicon	deep	root	lawan
+lexicon	ant	root	tonde
+lexicon	testicles	root	bosun
+lexicon	narrow	root	banlu
+lexicon	buttocks	root	nunfo
+lexicon	sour	root	tufun
+lexicon	flat, level	root	mawun
+lexicon	crooked	root	ginda
+lexicon	correct	root	denku
+lexicon	snore	root	nenmu
+lexicon	quiet	root	mange
+lexicon	young	root	loyen
+lexicon	taste	root	tenmi
+lexicon	toe	root	gonmi
+lexicon	vulva	root	kedon
+lexicon	side	root	sanfi
+lexicon	rough	root	nilen
+lexicon	loud	root	dibon
+lexicon	ugly	root	lanli
+lexicon	shallow	root	lante
+lexicon	low	root	linku
+lexicon	fart	root	paben
+lexicon	mosquito	root	gonte
+lexicon	between	root	lifin
+lexicon	wrong	root	gagan
+lexicon	dig	root	wenfe
+lexicon	shoulder	root	sonyu
+lexicon	fruit	root	tanun
+lexicon	air	root	wunta
+lexicon	fog	root	baken
+lexicon	lightning	root	mufin
+lexicon	lake	root	nenwa
+lexicon	roof	root	kuwun
+lexicon	climb	root	falan
+lexicon	split	root	buyan
+lexicon	chew	root	sofen
+lexicon	squeeze	root	donbo
+lexicon	scratch	root	sumin
+lexicon	swell	root	tingu
+lexicon	stab	root	kunwa
+lexicon	steal	root	bunsi
+lexicon	hunt	root	fesun
+lexicon	shoot	root	onlo
+lexicon	flow	root	magan
+lexicon	count	root	sunbu
+lexicon	chicken	root	yiban
+lexicon	intestines	root	gusen
+lexicon	armpit	root	senke
+lexicon	basket	root	kanga
+lexicon	clothes	root	lonne
+lexicon	goat	root	elen
+lexicon	tuber	root	tengi
+lexicon	rice	root	yegon
+lexicon	field, open land	root	sekan
+lexicon	boil	root	binla
+lexicon	reach	root	wonku
+lexicon	gather, bring or come together	root	fanmu
+lexicon	internet	root	intelunetu
+lexicon	city	root	oton
+lexicon	bread	root	sowe
+lexicon	onion	root	lengu
+lexicon	worm	root	enna
+lexicon	grind	root	inke
+lexicon	week	root	nelon
+lexicon	6	root	ufo
+lexicon	7	root	oma
+lexicon	8	root	kefi
+lexicon	9	root	mape
+lexicon	100	root	loki
+lexicon	1000	root	munno
+lexicon	10^6	root	tonen
+lexicon	10^9	root	siwin
+lexicon	hour	root	awuwa
+lexicon	minute, of time	root	minitu
+lexicon	second, of time	root	sekandu
+lexicon	kilometre	root	kilometulu
+lexicon	can, be able	root	lenu
+lexicon	bite	root	lasu
+lexicon	high	root	tisan
+lexicon	10	root	yawu
+lexicon	fly, the insect	root	gekon
+lexicon	occasion, a time (three times)	root	gimu
+lexicon	honoured one, title of respect (sir, madam, Mr, Ms)	root	lanno
+lexicon	okay?, softens and invites agreement (stance, sentence end)	root	buni
+lexicon	it turned out, surprisingly (stance, sentence end)	root	donon
+lexicon	noon, midday	root	minfi
+lexicon	afternoon	root	duwun
+lexicon	almost, nearly	root	nedin
+lexicon	each, every one separately	root	mesun
+lexicon	suddenly	root	finbi
+lexicon	late, after the expected time	root	yodun
+lexicon	early, before the expected time	root	ganna
+lexicon	trust, rely on	root	gewan
+lexicon	love	root	wigen
+lexicon	miss, feel the absence of	root	sanku
+lexicon	disappointed	root	kinbo
+lexicon	hungry	root	monyu
+lexicon	tired	root	fadun
+lexicon	strange, odd	root	lenya
+lexicon	safe, not in danger	root	sonli
+lexicon	expensive	root	unwi
+lexicon	cheap, low in price	root	tanbu
+lexicon	room, of a building	root	fudon
+lexicon	box, container	root	nansa
+lexicon	storey, floor level of a building	root	sison
+lexicon	oil, the liquid	root	yunen
+lexicon	marry, wedding	root	bedan
+lexicon	a right, entitlement	root	sogan
+lexicon	complain	root	tayin
+lexicon	email	root	imeyilu
+lexicon	photo	root	foto
+lexicon	degree (°)	root	diguli
+lexicon	battery	root	batali
+lexicon	euro	root	yulo
+lexicon	yuan	root	yuwan
+lexicon	rupee	root	lupiya
+lexicon	police	root	polisu
+lexicon	usually, habitually	root	manni
+lexicon	rather, somewhat	root	tason
+lexicon	seek, search for	root	ditun
+lexicon	remove, erase	root	nuton
+lexicon	share, let others have too	root	peton
+lexicon	connect, join	root	penyu
+lexicon	add, put in more	root	ginni
+lexicon	check, verify	root	loban
+lexicon	shake, vibrate	root	susin
+lexicon	sound, noise	root	ninge
+lexicon	page, sheet	root	lunyu
+lexicon	key, button	root	tinli
+lexicon	private, not for others	root	kunsu
+lexicon	garbage, trash	root	bekin
+lexicon	copy, make the same again	root	gayen
+lexicon	adjust, set	root	finsa
+lexicon	document, file	root	kemin
+lexicon	camera	root	kamela
+lexicon	not literally, joking (speech act)	root	genso
+lexicon	seen, evidence by sight	root	wanme
+lexicon	told, hearsay	root	inwun
+lexicon	inferred, it seems	root	wemen
+lexicon	at least	root	konsin
+lexicon	about to, soon	root	buntu
+lexicon	enough, as much as needed	root	tonya
+lexicon	respect, honour	root	dundi
+lexicon	country, nation	root	gigin
+lexicon	rest, take a break	root	yenbo
+lexicon	fair, just	root	kidun
+lexicon	until, up to (a time or point)	root	anko
+lexicon	without	root	nuwen
+lexicon	oppose, be against	root	ninsu
+lexicon	end of phrase (closes a relative clause, phrasal derived word or topic)	root	kiyo
+lexicon	number label, ordinal (day 3, the third)	root	mena
+lexicon	metre	root	metulu
+lexicon	centimetre	root	sentimetulu
+lexicon	millimetre	root	milimetulu
+lexicon	gram	root	gulamu
+lexicon	kilogram	root	kilogulamu
+lexicon	litre	root	litulu
+lexicon	kilogram, everyday short form	root	kilo
+lexicon	.com (read aloud)	root	komu
+lexicon	hashtag	root	asutagu
+compounds	alien	phrase	no obu se yaye
+compounds	commander	phrase	no wungu
+compounds	coward	phrase	no nuta
+compounds	wizard	phrase	no wase
+compounds	warrior	phrase	no migi
+compounds	daughter	phrase	tiwu futa
+compounds	son	phrase	tiwu lowu
+compounds	parents	phrase	mole yen wede
+compounds	dragon	phrase	dinbu pi lumi
+compounds	stick	phrase	kima netu
+compounds	bedroom	phrase	pu wopo
+compounds	meditate	phrase	goyu pume
+compounds	backward	phrase	tun nebe
+compounds	spider	phrase	noso meli pi bendo feli
+compounds	turtle	phrase	noso gake
+compounds	frog	phrase	noso meli gi lonfe yen niba
+compounds	bat.the.animal	phrase	no bina mon yami
+compounds	scorpion	phrase	noso meli gi lasu nan kenlo
+compounds	grasshopper	phrase	noso meli pi tunmu
+compounds	leap.year	phrase	fawu netu
+compounds	local.time	phrase	muyi pi kemu
+compounds	the.count	phrase	sunbu pi muyi
+compounds	body.time	phrase	muyi pi gawo
+compounds	summer	phrase	muyi tikun
+compounds	winter	phrase	muyi weki
+compounds	rainy.season	phrase	muyi pi gegi
+compounds	the.language	phrase	apu pi we
+compounds	landlord	phrase	no ibe guyi
+compounds	neighbour	phrase	no nume gelu
+compounds	kitchen	phrase	pu siten
+compounds	warehouse	phrase	pu kuwi
+compounds	move.house	phrase	kubo pu nume
+compounds	park.a.car	phrase	yaga tale
+compounds	yell	phrase	oyi dibon
+compounds	part.time.work	phrase	doku pi timon
+compounds	free.of.charge	phrase	dan su unfu
+compounds	on.purpose	phrase	nan momu
+compounds	by.accident	phrase	su nan momu
+compounds	computer	phrase	du sunbu
+compounds	screen	phrase	du wuye
+compounds	password	phrase	apu pi udin
+compounds	account	phrase	gen sunbu
+compounds	settings	phrase	gen finsa la
+compounds	link	phrase	du penyu
+compounds	folder	phrase	nansa pi kemin
+compounds	keyboard	phrase	tinli la
+compounds	undo	phrase	muge sigo
+compounds	update	phrase	muge duwa
+compounds	scroll	phrase	kobi lunyu
+compounds	upload	phrase	sege tun bige
+compounds	screenshot	phrase	foto pi du wuye
+compounds	spam	phrase	imeyilu bekin
+compounds	train	phrase	siwa netu
+compounds	licence	phrase	du efon
+compounds	electricity	phrase	lula pi mufin
+compounds	hospital	phrase	pu yema simi
+compounds	bicycle	phrase	siwa pi pifo
+compounds	contacts (phone list)	phrase	suso la
+ladder	duck	list	keep/root children's first word
+ladder	mouse	list	keep/root computer mouse by a widespread metaphor
+ladder	sheep	list	keep/root 
+ladder	bicycle	list	keep/root compound siwa pi pifo exists; frequent modern concept, root per ladder 2.3
+ladder	doll	list	keep/root 
+ladder	ball	list	keep/root 
+ladder	ice cream	list	keep/loan? aisukurimu/es krim/aiskrimu/āys krīm; helado, morozhenoe differ
+ladder	cake	list	keep/root keki/kek widespread but torta/pastel/dàngāo differ
+ladder	soup	list	keep/loan? sup/sopa/supu/sūpu/shorba; Chinese tāng differs
+ladder	apple	list	keep/root 
+ladder	chocolate	list	keep/loan? chocolate/shokolad/chokoreto/qiǎokèlì
+ladder	hat	list	keep/root headwear incl. cap
+ladder	shoe	list	keep/root 
+ladder	sock	list	keep/root 
+ladder	kitchen	list	keep/root derived pu siten (compounds.tsv); frequent, root per ladder 2.3
+ladder	window	list	keep/root 
+ladder	chair	list	keep/root seat (520) is any place to sit
+ladder	spoon	list	keep/root 
+ladder	bottle	list	keep/root 
+ladder	knife	list	keep/root 
+ladder	soap	list	keep/root 
+ladder	pillow	list	keep/root 
+ladder	doctor	list	keep/loan? doktor/doctor/daktari/dokter; isha, yīshēng, ṭabīb differ
+ladder	grandmother	covered:mole pi mole / mole pi wede	covered:mole pi mole / mole pi wede/ kinship is composed (method 3.1), side always stated; flag: children's first word, 
+ladder	monkey	list	keep/root 
+ladder	elephant	list	keep/root 
+ladder	butterfly	list	keep/root 
+ladder	lion	list	keep/root 
+ladder	frog	list	keep/root compounds.tsv has a 9-syllable phrase; children's first word
+ladder	train	list	keep/root compound siwa netu exists; ladder 0 names trains as baseline
+ladder	truck	list	keep/root 
+ladder	airplane	list	keep/root plane, aircraft, jet
+ladder	orange	list	keep/root the fruit; colour is 197
+ladder	banana	list	keep/loan? banana/banan/banāna; xiāngjiāo, mawz, ndizi, pisang differ
+ladder	trousers	list	keep/root pants
+ladder	table	list	keep/root includes desk
+ladder	blanket	list	keep/root 
+ladder	uncle	covered:faba pi wede / faba pi mole	covered:faba pi wede / faba pi mole/ parent's sibling (method 3.1; language.md 10.1.3 uses faba pi wede); lowu if male
+ladder	grandfather	covered:wede pi mole / wede pi wede	covered:wede pi mole / wede pi wede/ kinship composed (method 3.1); same flag as grandmother
+ladder	baby	list	keep/root infant; tiwu is child/offspring
+ladder	jump	list	keep/root 
+ladder	cat	list	keep/root 
+ladder	tiger	list	keep/root 
+ladder	giraffe	list	keep/loan? zarāfa/jirafa/zhiraf/jirāf/jerapah; Chinese, Japanese, Swahili differ
+ladder	motorcycle	list	keep/loan? moto/mototsikl/mōtābaiku/sepeda motor; pikipiki, mótuōchē partly
+ladder	potato	list	keep/root a tuber (tengi) but a staple of its own
+ladder	coat	list	keep/root outer garment; includes jacket (115)
+ladder	cheek	list	keep/root 
+ladder	bathroom	list	keep/root washing room; toilet is 926
+ladder	television	list	keep/loan? TV/televizor/terebi/televisi/tilfāz; diànshì differs
+ladder	scissors	list	keep/root 
+ladder	medicine	list	keep/root drug, pill
+ladder	towel	list	keep/root 
+ladder	aunt	covered:faba pi wede / faba pi mole	covered:faba pi wede / faba pi mole/ same as uncle: sibling has no sex; futa if female (method 3.1)
+ladder	dance	list	keep/root 
+ladder	bee	list	keep/root 
+ladder	pig	list	keep/root 
+ladder	bear	list	keep/root the animal; carry is dinyo
+ladder	rabbit	list	keep/root 
+ladder	balloon	list	keep/root 
+ladder	bucket	list	keep/root 
+ladder	juice	list	keep/root 
+ladder	cheese	list	keep/root 
+ladder	coffee	list	keep/loan? kofe/café/kahawa/kōhī/kāfēi/qahwa
+ladder	carrot	list	keep/root 
+ladder	diaper	list	keep/root 
+ladder	sweater	list	keep/loan? sviter/suéter/sētā/sweta/sweter; máoyī, kanza differ
+ladder	pajamas	list	keep/loan? pijama/pizhama/pajama
+ladder	chin	list	keep/root 
+ladder	fridge	list	keep/root 
+ladder	stairs	list	keep/root 
+ladder	radio	list	keep/loan? radio/radiyo/rajio/redio; shōuyīnjī differs
+ladder	glasses	list	keep/root spectacles
+ladder	fork	list	keep/root 
+ladder	hammer	list	keep/root 
+ladder	shop	list	keep/root store; pu bika possible but frequent
+ladder	school	list	keep/root 
+ladder	swing	list	keep/root playground swing; the motion is tier 1
+ladder	boy	covered:tiwu lowu	covered:tiwu lowu/ gender is a modifier (language.md 5.2); same form as son
+ladder	helicopter	list	keep/loan? helikopter/herikoputā/hilikūbtar/helikopta; vertolyot, zhíshēngjī differ
+ladder	tractor	list	keep/loan? traktor/tractor/torakutā/tuōlājī
+ladder	yogurt	list	keep/loan? yogurt/yogurt/yōguruto; suānnǎi, dahī differ
+ladder	candy	list	keep/root sweets; includes lollipop (221)
+ladder	jam	list	keep/root 
+ladder	underwear	list	keep/root 
+ladder	scarf	list	keep/root 
+ladder	dress	list	keep/root the garment; clothes is lonne
+ladder	shirt	list	keep/root 
+ladder	sofa	list	keep/loan? sofa/shāfā/sofā/sofa
+ladder	toothbrush	merge:brush	merge:brush/ brush pi fonma
+ladder	plate	list	keep/root dish
+ladder	park	list	keep/loan? park/parque/pāku; gōngyuán differs; parking a car is yaga tale
+ladder	church	list	keep/borrow religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
+ladder	slide	list	split/root 1: playground slide; 2: slide, slip over a surface (94.b)
+ladder	slide (slip)	list	keep/root move smoothly over a surface; slip
+ladder	teacher	list	keep/root derived no tofo exists; frequent, root per ladder 2.3
+ladder	turtle	list	keep/root compound noso gake (slow animal) is not exact
+ladder	toy	list	keep/root du luse possible; frequent child word
+ladder	bean	list	keep/root 
+ladder	slipper	list	keep/root 
+ladder	picture	list	keep/root image, drawing, portrait; foto is a photograph only
+ladder	wolf	list	keep/root 
+ladder	butter	list	keep/root 
+ladder	pasta	list	keep/loan? pasta/pasuta/makarna/makaroni; Chinese miàntiáo differs
+ladder	washing machine	list	keep/root du pensi possible; frequent home appliance
+ladder	lamp	list	keep/loan? lampa/lámpara/lampe/lampu/ranpu/lamba; dēng, taa differ
+ladder	brush	list	keep/root includes toothbrush (90)
+ladder	girl	covered:tiwu futa	covered:tiwu futa/ gender is a modifier (language.md 5.2); same as daughter; matches boy (79)
+ladder	draw	list	keep/root make a picture; pull is nunya
+ladder	kick	list	keep/root 
+ladder	kiss	list	keep/root 
+ladder	penguin	list	keep/loan? pingvin/pingüino/pengin/penguin; qǐ'é differs
+ladder	pea	list	keep/root 
+ladder	tomato	list	keep/loan? tomat/tomate/tomato/tamatar/domates; xīhóngshì, nyanya differ
+ladder	nut	list	keep/root 
+ladder	jacket	merge:coat	merge:coat/ coat (47) covers outer garments incl. jacket
+ladder	comb	list	keep/root 
+ladder	zoo	list	keep/root pu noso possible; dōbutsuen, kebun binatang are native compounds
+ladder	workplace	covered:pu doku	covered:pu doku/ place for working (derived word, language.md 5.4)
+ladder	donkey	list	keep/root 
+ladder	zebra	list	keep/loan? zebra/cebra/zèbre/zebra; shimauma, bānmǎ, punda milia differ
+ladder	grape	list	keep/root 
+ladder	garden	list	keep/root 
+ladder	strawberry	list	keep/root 
+ladder	tea	list	keep/loan? cha/chai/çay/shai/chá dominate; te/teh/tea second form; panel decides between the two
+ladder	shower	list	keep/root dush/ducha/douche vs shower/shawā; two forms, mandi differs
+ladder	vacuum cleaner	list	keep/root 
+ladder	potty	merge:toilet	merge:toilet/ a child's toilet; toilet is 926
+ladder	tickle	list	keep/root 
+ladder	paint	list	keep/root paint, painting; draw (108) is line-making
+ladder	broom	list	keep/root 
+ladder	pool	covered:pu lonfe	covered:pu lonfe/ swimming pool = place for swimming (derived word)
+ladder	owl	list	keep/root 
+ladder	squirrel	list	keep/root 
+ladder	block	list	split/root 1: toy building block (children's word); 2: obstruct, hinder (134.b), from the frequency labels
+ladder	block (obstruct)	list	keep/root obstruct, hinder
+ladder	gift	list	keep/root "present; ge neke ""what is given"" is broader"
+ladder	chips	list	keep/root fries or crisps
+ladder	bib	list	keep/root 
+ladder	garage	list	keep/loan? garaj/garage/gareji/garasi/gareji/garazh; chēkù differs
+ladder	sink	list	keep/root basin; the verb sink is separate
+ladder	snowman	covered:ewo pi binso	covered:ewo pi binso/ "phrase (ladder 1.5) ""person of snow""; not in compounds.tsv"
+ladder	forest	list	keep/root includes jungle, grove
+ladder	beach	list	keep/root includes shore, coast
+ladder	drive	list	keep/root drive, steer a vehicle
+ladder	hug	list	keep/root embrace
+ladder	catch	list	keep/root catch, capture, seize
+ladder	spade	list	keep/root shovel
+ladder	puzzle	list	keep/root pazl/pazuru/puzzle but rompecabezas, pīntú, yapboz differ
+ladder	pancake	list	keep/root 
+ladder	cookie	list	keep/loan? biscuit: biskuit/bisküvi/biskwiti/bisuketto/biskvit; galleta, bǐnggān differ
+ladder	shorts	list	keep/loan? shorty/shōto/short/şort/shorts; celana pendek differs
+ladder	tights	list	keep/root 
+ladder	belt	list	keep/root 
+ladder	living room	list	keep/root sala/gostinaya/ima/kètīng are own words
+ladder	flag	list	keep/root banner
+ladder	cover	list	keep/root cover, lid (du + cover)
+ladder	feed	covered:neke pasu	covered:neke pasu/ give food
+ladder	bring	list	keep/root come carrying; most languages have a root (traer, prinesti, leta)
+ladder	goose	list	keep/root 
+ladder	glove	list	keep/root 
+ladder	bowl	list	keep/root 
+ladder	drawer	list	keep/root 
+ladder	thirst	list	keep/root thirsty; matches hungry (monyu)
+ladder	skirt	list	keep/root 
+ladder	stroller	list	keep/root pram
+ladder	oven	list	keep/root 
+ladder	party	list	split/root 1: celebration, gathering; 2: political party (166.b)
+ladder	party (political)	list	keep/loan? partiya/partido/parti/partai/pārṭī; dǎng, hizb, seitō, chama differ
+ladder	crocodile	list	keep/root wani, èyú, buaya, mamba differ
+ladder	stick	covered:kima netu	covered:kima netu/ "compounds.tsv ""wood long"""
+ladder	sandwich	list	keep/loan? sendvich/sándwich/sandoitchi/sandviç/sandwichi; sānmíngzhì
+ladder	necklace	list	keep/root 
+ladder	ladder	list	keep/root 
+ladder	clown	list	keep/root 
+ladder	lick	list	keep/root 
+ladder	pear	list	keep/root 
+ladder	sausage	list	keep/root 
+ladder	pizza	list	keep/loan? pizza/pitstsa/piza/pīsā/bǐsà
+ladder	zipper	list	keep/root 
+ladder	hurry	list	keep/root rush
+ladder	deer	list	keep/root 
+ladder	tissue	list	keep/root paper tissue
+ladder	stove	list	keep/root cooker; oven is 165
+ladder	wipe	list	keep/root 
+ladder	pen	list	keep/root 
+ladder	raisin	covered:grape kilan	covered:grape kilan/ "phrase ""dry grape"" as pútáogān, kuru üzüm, hoshibudō; grape is 121"
+ladder	bathtub	list	keep/root 
+ladder	wardrobe	list	keep/root closet
+ladder	glue	list	keep/root 
+ladder	playground	covered:pu luse	covered:pu luse/ place for playing (derived word)
+ladder	pour	list	keep/root 
+ladder	sweep	list	keep/root 
+ladder	repair	list	keep/root fix, restore
+ladder	clap	list	keep/root 
+ladder	pleasant	list	keep/root nice; narrower than upe good
+ladder	brown	covered:bilun buda	covered:bilun buda/ "phrase ""dark yellow""; six colour roots (method 3.1, author 2026-10-08), other colours compound; a
+ladder	boot	list	keep/root 
+ladder	cute	list	keep/root 
+ladder	orange (colour)	merge:orange	merge:orange/ named after the fruit (33), as naranja, orenji, chéngsè; six colour roots (method 3.1)
+ladder	fire truck	covered:truck pi lumi	covered:truck pi lumi/ "phrase ""truck of fire""; truck is 31"
+ladder	porridge	list	keep/root 
+ladder	sauce	list	keep/loan? sous/salsa/sōsu/saus/sos/sauce; jiàng differs
+ladder	cucumber	list	keep/root 
+ladder	chewing gum	list	keep/root 
+ladder	sugar	list	keep/loan? sukkar/azúcar/sakhar/sucre/şeker/shakkar/sukari; satō, táng, gula differ
+ladder	bedroom	covered:pu wopo	covered:pu wopo/ "compounds.tsv ""place for sleeping"""
+ladder	pot	list	keep/root cooking pot, saucepan
+ladder	tear	list	split/root 1: teardrop; 2: tear, rip (206.b)
+ladder	tear (rip)	list	keep/root pull apart; cut is fonsu, split is buyan
+ladder	naughty	list	keep/root 
+ladder	sleepy	covered:momu wopo	covered:momu wopo/ want to sleep, as tener sueño; tired is fadun
+ladder	melon	list	keep/root 
+ladder	spill	list	keep/root 
+ladder	watermelon	list	keep/root own root in most languages (sandía, arbuz); xīguā compound
+ladder	soda	list	keep/loan? soda/sōda/soda; gazirovka, qìshuǐ, refresco differ
+ladder	spider	list	keep/root compounds.tsv phrase is 9 syllables (as frog, 29)
+ladder	pacifier	list	keep/root dummy
+ladder	mirror	list	keep/root 
+ladder	firefighter	covered:no migi lumi	covered:no migi lumi/ "derived ""one who fights fire""; phrase"
+ladder	smile	list	keep/root laugh is bubo
+ladder	last	list	keep/root last, final; first is mena fi (grammar)
+ladder	crayon	list	keep/root 
+ladder	maize	list	keep/root corn
+ladder	lollipop	merge:candy	merge:candy/ candy (83) includes lollipop
+ladder	film	list	keep/loan? film/fil'm/firumu/filem/filamu/fīlm; diànyǐng, eiga, película differ
+ladder	fox	list	keep/root 
+ladder	bun	covered:sowe meli	covered:sowe meli/ "phrase ""small bread""; bread is sowe"
+ladder	toast	list	keep/loan? toasted bread: tost/tostada/tōsuto/toast; roti bakar, kǎo miànbāo differ; the drinking salute is rare
+ladder	balcony	list	keep/loan? balkon/balcón/barukonī/balkon; yángtái differs
+ladder	carpet	list	keep/root rug
+ladder	gas station	list	keep/root fuel station; fuel is 846
+ladder	yard	list	keep/root courtyard
+ladder	knock	list	keep/root 
+ladder	ride	list	keep/root ride a horse, bike or vehicle
+ladder	bubble	list	keep/root 
+ladder	circus	list	keep/loan? tsirk/circo/sākasu/sirkus/sirk/sarakasi; mǎxì differs
+ladder	T-shirt	list	keep/loan? tīshatsu/tişört/T xùshān/tisharṭ; futbolka, camiseta, kaos differ
+ladder	hose	list	keep/root 
+ladder	world	list	keep/root world, global
+ladder	question	list	keep/root "ge mido ""what is asked"" exists; frequent, root per ladder 2.3; question act is min"
+ladder	son	covered:tiwu lowu	covered:tiwu lowu/ compounds.tsv
+ladder	government	list	keep/root administration, authorities
+ladder	news	list	keep/root 
+ladder	song	list	keep/root "ge yuyun ""what is sung"" exists; frequent, root per ladder 2.3"
+ladder	music	list	keep/loan? musiqa/música/muzyka/musik/müzik/muziki; ongaku, yīnyuè, sangīt differ
+ladder	history	list	keep/root tārīkh/istoriya/sejarah/rekishi differ
+ladder	age	grammar	grammar/ age is lived time, nume fawu N (language.md 8.2.4)
+ladder	team	list	keep/root squad
+ladder	company	list	keep/root firm, corporation
+ladder	different	list	keep/root "mu kige ""not same"" exists (as bù tóng); frequent, root per ladder 2.3"
+ladder	king	list	keep/root monarch, emperor, sultan; gender is a modifier
+ladder	hospital	list	keep/root compound pu yema simi exists; ladder 0 names hospitals as baseline
+ladder	state	list	split/root 1: the state, polity; 2: state, condition (250.b); country gigin is the nation, province is 350
+ladder	state (condition)	merge:condition	merge:condition/ same as 341
+ladder	plan	list	keep/root strategy, planning
+ladder	birth	list	keep/root be born, give birth
+ladder	date	list	split/ 1: calendar date (253); 2: romantic date (253.b)
+ladder	date (calendar)	grammar	grammar/ "a date is a dili label (language.md 8.3.3); ""what date"" = dili mena yu"
+ladder	date (romantic)	list	keep/root 
+ladder	decide	list	keep/root decision; choose waka is picking among options
+ladder	university	list	keep/loan? universitet/universidad/universitas/üniversite/yunivarsiti; daigaku, dàxué, jāmi'a, chuo kikuu differ
+ladder	education	list	keep/root tofo teach and yesa learn are the acts
+ladder	science	list	keep/root 
+ladder	situation	list	keep/root 
+ladder	video	list	keep/loan? video/bideo/vidiyo; shìpín differs
+ladder	special	list	keep/root 
+ladder	voice	list	keep/root 
+ladder	next	list	keep/root "time offsets are wo + unit (8.2.2); ""next"" in a series has no word"
+ladder	member	list	keep/root 
+ladder	leader	list	keep/root boss, manager, chief; no wungu exists (compounds: commander); frequent, root per ladder 2.3
+ladder	bank	list	keep/loan? bank/banco/banque/bank/benki/bank; ginkō, yínháng differ
+ladder	service	list	keep/root servis/servicio/sābisu partly shared; layanan, fúwù differ
+ladder	direction	list	keep/root 
+ladder	point	list	keep/root point, dot; decimal point is mimi
+ladder	office	list	keep/loan? ofis/ofisi/ofisu/office/oficina; kantor, bàngōngshì differ
+ladder	explain	list	keep/root 
+ladder	line	list	keep/root line, stripe, row
+ladder	mind	list	keep/root intellect; think is pume
+ladder	politics	list	keep/root politika/política vs siyasa/siyaset/siasa: two forms
+ladder	opinion	list	keep/root point of view, belief
+ladder	price	list	keep/root cost, fee
+ladder	report	list	keep/root 
+ladder	daughter	covered:tiwu futa	covered:tiwu futa/ compounds.tsv
+ladder	general	list	split/root 1: general, overall; 2: army general (278.b)
+ladder	general (military)	list	keep/root military rank
+ladder	future	list	keep/root 
+ladder	case	list	split/root 1: case, instance; 2: legal case (280.b); container sense is nansa
+ladder	case (legal)	list	keep/root lawsuit
+ladder	election	list	keep/root elect; choose waka is broader
+ladder	promise	list	keep/root oath, vow
+ladder	society	list	keep/root 
+ladder	program	list	keep/loan? programma/programa/puroguramu/program/programu; chéngxù differs
+ladder	support	list	keep/root back up; help yema is broader
+ladder	experience	list	keep/root 
+ladder	letter	list	split/root 1: letter, mail; 2: letter of the alphabet (287.b)
+ladder	letter (alphabet)	list	keep/root 
+ladder	past	list	keep/root 
+ladder	minister	list	keep/root 
+ladder	gold	list	keep/root 
+ladder	technology	list	keep/loan? tekhnologiya/tecnología/teknoloji/teknologi/tekunorojī/teknolojia; jìshù differs
+ladder	attack	list	keep/root raid, assault
+ladder	computer	list	keep/loan? kompyuter/konpyūta/komputer/kompyuta; diànnǎo, ordenador, ḥāsūb differ; du sunbu exists (compounds.tsv)
+ladder	position	list	keep/root posture, post; location is kemu
+ladder	court	list	keep/root law court
+ladder	health	list	keep/root healthy
+ladder	season	list	keep/root 
+ladder	visit	list	keep/root 
+ladder	class	list	split/root 1: school class; 2: social class (299.b); kind is niki
+ladder	class (social)	list	keep/root 
+ladder	soldier	list	keep/root no migi exists (compounds: warrior); frequent, root per ladder 2.3
+ladder	level	list	keep/root degree, rank; storey is sison, flat is mawun
+ladder	foreign	list	keep/root foreigner, abroad
+ladder	culture	list	keep/root kul'tura/cultura/kültür vs bunka, wénhuà, thaqāfa, utamaduni
+ladder	village	list	keep/root 
+ladder	series	list	keep/root 
+ladder	quality	list	keep/root 
+ladder	space	list	split/root 1: space, room to fit; 2: outer space (307.b)
+ladder	space (outer)	list	keep/root beyond the sky; yaye is the sky as seen
+ladder	committee	list	keep/root council, commission
+ladder	art	list	keep/root 
+ladder	army	list	keep/root military, troops
+ladder	distance	list	keep/root how far; lini far is the quality
+ladder	island	list	keep/root 
+ladder	clear	list	keep/root obvious; also transparent
+ladder	organization	list	keep/root association, institution, agency
+ladder	market	list	keep/root 
+ladder	prepare	list	keep/root "muge wonwe ""make ready"" exists; frequent, root per ladder 2.3"
+ladder	business	list	keep/loan? biznes/bisnis/bijinesu/business; negocio, shāngyè, tijāra differ
+ladder	century	covered:fawu loki	covered:fawu loki/ 100 years; the Nth century is fawu loki mena N
+ladder	economy	list	keep/root ekonomika/ekonomi vs keizai, jīngjì, iqtiṣād, uchumi
+ladder	nature	list	keep/root the natural world, natural
+ladder	interest	list	split/root 1: interest, curiosity (interesting); 2: interest on money (321.b)
+ladder	interest (money)	list	keep/root 
+ladder	weather	list	keep/root 
+ladder	middle	list	keep/root centre; between is lifin
+ladder	message	list	keep/root 
+ladder	accident	list	keep/root "crash; ""by accident"" is mu gan momu"
+ladder	community	list	keep/root 
+ladder	queen	covered:king futa	covered:king futa/ gender is a modifier (language.md 5.2); king is 248
+ladder	process	list	keep/root procedure
+ladder	attention	list	keep/root pay attention
+ladder	value	list	keep/root worth, valuable
+ladder	secret	list	keep/root private kunsu and hide mibun are near
+ladder	public	list	keep/root 
+ladder	district	merge:region	merge:region/ a part of a city or country; ranks of administrative units vary by country
+ladder	hotel	list	keep/loan? hotel/otel'/hoteru/otel/hoteli/hoṭal; jiǔdiàn, funduq differ
+ladder	candidate	list	keep/root 
+ladder	serious	list	keep/root severe
+ladder	meeting	list	keep/root conference, assembly; gather fanmu is the act
+ladder	international	list	keep/root 
+ladder	kingdom	covered:gigin pi king	covered:gigin pi king/ "phrase ""country of a king""; empire, realm"
+ladder	speech	list	keep/root discourse, sermon
+ladder	condition	list	keep/root "state, condition; ""on condition"" is don"
+ladder	region	list	keep/root zone, area, territory
+ladder	building	list	keep/root "ge selo ""what is built"" exists; frequent, root per ladder 2.3"
+ladder	union	list	keep/root alliance, unite, trade union
+ladder	information	list	keep/root informatsiya/información/informasi vs xìnxī, jōhō, ma'lūmāt, habari
+ladder	religion	list	keep/root lexicon review candidate (method §0)
+ladder	lesson	list	keep/root a teaching session; class (299) is the group
+ladder	energy	list	keep/loan? energiya/energía/enerji/energi/enerugī; néngliàng, ṭāqa, nishati, ūrjā differ
+ladder	form	list	keep/root format, a form to fill in; shape is 523
+ladder	province	list	keep/root state, prefecture; first-level region of a country
+ladder	welcome	covered:upe obu	covered:upe obu/ "phrase ""well come"" as bienvenido, hoş geldiniz; routines 10.2.5; not yet listed there"
+ladder	real	list	keep/root reality, genuine; true feko is about statements
+ladder	danger	list	keep/root risk
+ladder	official	list	keep/root civil servant, officially
+ladder	vote	list	keep/root 
+ladder	hero	list	keep/root protagonist
+ladder	communication	list	keep/root communicate, telecommunication
+ladder	limit	list	keep/root restriction, boundary
+ladder	policy	list	keep/root 
+ladder	increase	list	keep/root grow guge and add ginni are near
+ladder	operation	list	keep/root undertaking; surgery is 733
+ladder	doubt	list	keep/root 
+ladder	translate	list	keep/root 
+ladder	create	list	keep/root muge make is broader
+ladder	republic	list	keep/root respublika/república vs jumhūriyya/cumhuriyet/jamhuri, gònghéguó, kyōwakoku
+ladder	Saturday	grammar	grammar/ dili mena ufo (language.md 8.3.2)
+ladder	Sunday	grammar	grammar/ dili mena oma (language.md 8.3.2)
+ladder	sex	list	keep/root intercourse, sexual; gender is 658
+ladder	electricity	list	keep/root compounds.tsv lula pi mufin; frequent, root per ladder 2.3
+ladder	actor	list	keep/root 
+ladder	Monday	grammar	grammar/ dili mena fi (language.md 8.3.2)
+ladder	example	list	keep/root sample, instance
+ladder	sport	list	keep/loan? sport/spor/supōtsu/esporte; deporte, olahraga, yùndòng, riyāḍa, michezo differ
+ladder	newspaper	list	keep/root gazeta/gazete/gazeti partly shared
+ladder	event	list	keep/root incident, phenomenon
+ladder	record	list	keep/root recording
+ladder	rise	list	keep/root go up; get up is kolu/unda
+ladder	modern	list	keep/root new duwa is broader
+ladder	expert	list	keep/root specialist
+ladder	judge	list	keep/root judgement, referee
+ladder	planet	list	keep/standard IAU 2006 definition fixes the concept; form planeta/planet vs wakusei, xíngxīng, sayyāra
+ladder	possible	list	keep/root possibility; can lenu is ability, kon is confidence
+ladder	machine	list	keep/loan? mashina/máquina/makine/mesin/mashine; jīqì, kikai differ
+ladder	industry	list	keep/root 
+ladder	debt	list	keep/root 
+ladder	president	list	keep/loan? prezident/presidente/presiden/prezidan; ra'īs, zǒngtǒng, daitōryō differ
+ladder	activity	list	keep/root 
+ladder	test	list	keep/root exam, quiz; check loban is to verify
+ladder	address	list	keep/root postal or email address
+ladder	map	list	keep/root 
+ladder	birthday	list	keep/root no standard phrase; compounds in most languages but frequent
+ladder	account	covered:ge sunbu	covered:ge sunbu/ "compounds.tsv ""what is counted"""
+ladder	Friday	grammar	grammar/ dili mena te (language.md 8.3.2)
+ladder	threaten	list	keep/root threat
+ladder	structure	list	keep/root framework; system yile is near
+ladder	governor	list	keep/root 
+ladder	defeat	list	keep/root lose a contest; agi is misplace
+ladder	product	list	keep/root goods, merchandise
+ladder	generation	list	keep/root 
+ladder	director	merge:leader	merge:leader/ head of an organisation (264)
+ladder	origin	list	keep/root beginning, source; start tuko is the act
+ladder	interview	list	keep/root 
+ladder	goal	list	keep/root aim, purpose; purpose clause is li + verb; the football goal is a separate sense
+ladder	period	list	keep/root era, interval; muyi is any span
+ladder	prince	covered:tiwu pi king	covered:tiwu pi king/ kinship composed (method 3.1); princess the same
+ladder	exist	grammar	grammar/ there is is ibe with no subject (language.md 4.7.7)
+ladder	race	list	split/root 1: race, contest; 2: race of people (407.b)
+ladder	race (people)	list	keep/root C4: biological races are known-wrong; describe as ancestry or ethnic group; root for the social category
+ladder	writer	covered:no tusi	covered:no tusi/ one who writes (derived word); author
+ladder	data	list	keep/loan? data/datos/donnée/dēta/data; dannye, veri, shùjù, bayānāt differ
+ladder	artist	covered:no art	covered:no art/ one who does art (derived word, as no wase); art is 309
+ladder	professor	list	keep/loan? professor/profesor/professeur/profesör/profesa/purofessā; jiàoshòu, kyōju, ustādh differ
+ladder	literature	list	keep/root 
+ladder	slave	list	keep/root 
+ladder	notice	list	keep/root become aware of; a posted notice is a sign (438)
+ladder	alone	list	keep/root lonely, solo; only na is a focus operator
+ladder	announce	list	keep/root declare
+ladder	spring	list	split/ 1: the season (417); 2: water spring (417.b)
+ladder	spring (season)	covered:muyi pi meyen	covered:muyi pi meyen/ "phrase ""time of flowers""; seasons are compounds (compounds.tsv summer, winter)"
+ladder	spring (water)	list	keep/root water source; a coil spring is rare
+ladder	project	list	keep/loan? proyekt/proyecto/projet/proje/proyek/purojekuto; xiàngmù, mashrū', mradi differ
+ladder	vehicle	list	keep/root van; car tale and cart siwa are kinds
+ladder	article	list	keep/root a written piece; article of law
+ladder	May	grammar	grammar/ "dunan mena te (language.md 8.3.3); modal ""may"" is efon or kon"
+ladder	present	covered:eda	covered:eda/ the present time is now; a gift is 135, to present is wuye show
+ladder	beer	list	keep/loan? bier/biru/bira/bīra/píjiǔ; pivo, cerveza differ
+ladder	parliament	list	keep/root congress, senate
+ladder	center	merge:middle	merge:middle/ central, core (323)
+ladder	code	list	keep/loan? kod/código/code/kōdo/kode/kodi; dàimǎ, ramz differ
+ladder	pressure	list	keep/root physical or social
+ladder	website	list	keep/loan? site: sayt/sitio/site/saito/situs; wǎngzhàn, mawqi', tovuti differ
+ladder	democracy	list	keep/loan? demokratiya/democracia/demokrasi/dīmuqrāṭiyya/demokrasia; mínzhǔ, minshushugi differ
+ladder	commander	covered:no wungu	covered:no wungu/ "compounds.tsv ""one who leads"""
+ladder	colonel	list	keep/root military rank
+ladder	unit	list	keep/root unit of measure
+ladder	scene	list	keep/root 
+ladder	festival	list	keep/root feast
+ladder	style	list	keep/root stil'/estilo/sutairu partly shared; gaya, fēnggé, uslūb differ
+ladder	bomb	list	keep/loan? bomba/bombe/bom/bomba; zhàdàn, bakudan, qunbula differ
+ladder	sin	list	keep/root 
+ladder	sign	list	keep/root signal, symbol, mark
+ladder	design	list	keep/loan? dizayn/dezain/desain/diseño; shèjì differs
+ladder	bridge	list	keep/root 
+ladder	secretary	list	keep/root 
+ladder	soul	list	keep/root spirit; a cultural concept, not a claim (C4 note)
+ladder	pregnant	list	keep/root 
+ladder	user	covered:no bone	covered:no bone/ one who uses (derived word)
+ladder	constitution	list	keep/root 
+ladder	revolution	list	keep/root 
+ladder	theory	list	keep/root teoriya/teori vs riron, lǐlùn, naẓariyya
+ladder	chapter	list	keep/root sura
+ladder	subject	list	keep/root topic, theme; school subject
+ladder	analyze	list	keep/root analysis
+ladder	network	list	keep/root net, web
+ladder	student	list	keep/root pupil; no yesa exists; frequent, root per ladder 2.3
+ladder	appearance	list	keep/root look
+ladder	circle	list	keep/root round kowan is the quality
+ladder	arrest	list	keep/root detain
+ladder	wine	list	keep/root 
+ladder	match	list	split/root 1: match, contest; 2: matchstick (457.b)
+ladder	match (fire)	list	keep/root matchstick
+ladder	station	list	keep/loan? stantsiya/estación/station/stasiun/istasyon/stesheni/sutēshon; zhàn, eki differ
+ladder	iron	list	keep/root the metal; the clothes iron is rare
+ladder	silver	list	keep/root 
+ladder	color	list	keep/root 
+ladder	set	covered:finsa	covered:finsa/ adjust, set; put is yaga; a set of things is funti group
+ladder	capital	list	keep/root capital city; financial capital is rare
+ladder	magazine	list	keep/root 
+ladder	winter	covered:muyi weki	covered:muyi weki/ "compounds.tsv ""time cold"""
+ladder	captain	list	keep/loan? kapitan/capitán/kapten/kaptan/kapteni/kyaputen/kaptān
+ladder	player	covered:no luse	covered:no luse/ one who plays (derived word)
+ladder	luck	list	keep/root fortune, lucky
+ladder	stage	list	split/root 1: stage, phase; 2: theatre stage (469.b)
+ladder	stage (theatre)	list	keep/root platform
+ladder	honey	list	keep/root 
+ladder	independent	covered:enpa	covered:enpa/ free, not held or controlled is the same concept; independence
+ladder	react	list	keep/root reaction
+ladder	size	list	keep/root dimension, magnitude
+ladder	model	list	keep/loan? model'/modelo/moderu/model; móxíng differs
+ladder	prove	list	keep/root proof, evidence
+ladder	measure	list	keep/root measurement
+ladder	summer	covered:muyi tikun	covered:muyi tikun/ "compounds.tsv ""time hot"""
+ladder	mathematics	list	keep/root arithmetic
+ladder	crisis	list	keep/root krizis/crisis/krisis/kriz vs wēijī, azma, kiki
+ladder	step	list	keep/root step, pace
+ladder	library	covered:guyi pi ingo	covered:guyi pi ingo/ "phrase ""house of books"" as túshūguǎn, kütüphane, toshokan"
+ladder	virus	list	keep/loan? virus/uirusu/virüs/virusi/fayrūs/vāyras; bìngdú differs
+ladder	worker	list	keep/root employee; no doku exists; frequent, root per ladder 2.3
+ladder	pass	list	keep/root go past or through; pass a test
+ladder	role	list	keep/root 
+ladder	branch	list	keep/root of a tree; branch office by metaphor
+ladder	pray	list	keep/root prayer, worship
+ladder	crime	list	keep/root criminal
+ladder	target	merge:goal	merge:goal/ what is aimed at; tsel', objetivo, mùbiāo, mokuhyō cover both (403)
+ladder	travel	list	keep/root trip, journey; isi go is broader
+ladder	ring	list	keep/root finger ring; a phone ringing is yebin
+ladder	pair	list	keep/root couple
+ladder	restaurant	list	keep/loan? restoran/restaurante/resutoran/resṭorān; cāntīng, maṭ'am, mgahawa differ
+ladder	transfer	list	keep/root 
+ladder	palace	list	keep/root 
+ladder	source	merge:origin	merge:origin/ "same labels ""origin, source"" (401)"
+ladder	direct	list	keep/root directly
+ladder	mayor	list	keep/root 
+ladder	population	list	keep/root 
+ladder	corner	list	keep/root 
+ladder	detective	list	keep/root 
+ladder	bullet	list	keep/root 
+ladder	ministry	list	keep/root government department
+ladder	hall	list	keep/root large room, corridor
+ladder	ticket	list	keep/loan? tiket/chiketto/tikiti/ṭikaṭ vs bilet/billete; piào, tadhkira differ
+ladder	principle	list	keep/root rule wabun is near
+ladder	budget	list	keep/loan? byudzhet/budget/bajet/bütçe/bajeti; presupuesto, yùsuàn, yosan differ
+ladder	breakfast	list	keep/root pasu pi leso possible (as zǎofàn); frequent, root per ladder 2.3
+ladder	witness	list	keep/root testimony
+ladder	customer	list	keep/root client, buyer; no bika exists; frequent, root per ladder 2.3
+ladder	league	list	keep/loan? liga/ligue/rīgu/lig/ligi; liánsài differs
+ladder	serve	list	keep/root serve food, serve people; help yema is broader
+ladder	temperature	list	keep/standard SI quantity (kelvin, °C); temperatura/temperatur vs ondo, wēndù, ḥarāra; degree is diguli
+ladder	brave	list	keep/root courage; coward is no nuta
+ladder	benefit	list	keep/root advantage
+ladder	standard	list	keep/root norm
+ladder	owner	covered:no ibe	covered:no ibe/ one who has (derived word, as landlord no ibe guyi)
+ladder	escape	list	keep/root flee
+ladder	album	list	keep/loan? al'bom/álbum/arubamu/album/albüm; zhuānjí differs
+ladder	seat	covered:pu goyu	covered:pu goyu/ place for sitting (derived word); chair is 17
+ladder	demand	list	keep/root ask mido is broader
+ladder	challenge	list	keep/root 
+ladder	shape	list	keep/root form
+ladder	tax	list	keep/root 
+ladder	personal	covered:pi nen	covered:pi nen/ of oneself; private is kunsu
+ladder	philosophy	list	keep/loan? filosofiya/filosofía/filsafat/felsefe/falsafa; zhéxué, tetsugaku differ
+ladder	course	list	keep/root course of study
+ladder	original	list	keep/root 
+ladder	matter	list	keep/root affair, issue (as Chinese shì); physical matter is rare
+ladder	master	list	keep/root lord
+ladder	content	list	keep/root what is inside, of a text or file
+ladder	profit	list	keep/root 
+ladder	divide	list	keep/root division; split buyan is to break apart
+ladder	rich	list	keep/root wealth
+ladder	channel	list	keep/loan? kanal/canal/channeru/kanal/chaneli; píndào differs
+ladder	cell	list	keep/root biological cell; a phone is liga
+ladder	major	list	keep/root main, chief; army rank is rare
+ladder	sentence	list	keep/root sentence, clause; a court sentence is rare
+ladder	identity	list	keep/root ID
+ladder	advertisement	list	keep/root reklama/reklam vs iklan/i'lān, kōkoku, guǎnggào
+ladder	officer	merge:official	merge:official/ person with authority (354)
+ladder	suit	list	keep/root the garment; lawsuit is 280.b
+ladder	tourism	merge:travel	merge:travel/ travel for pleasure (490); tourist is 925
+ladder	bill	list	keep/root invoice; a law bill is rare
+ladder	appointment	list	keep/root scheduled meeting
+ladder	regret	list	keep/root repent
+ladder	base	list	keep/root basis, basic, foundation
+ladder	robot	list	keep/loan? robot/robotto/roboti; jīqìrén differs
+ladder	spirit	list	keep/root ghost; soul (442) is a person's own
+ladder	joke	list	keep/root genso marks a joking speech act
+ladder	net	merge:network	merge:network/ set', red, wǎng, ağ cover both (451)
+ladder	fund	list	keep/root 
+ladder	view	list	keep/root scenery, perspective
+ladder	desert	list	keep/root 
+ladder	mile	list	keep/loan? not SI (L3 uses metric); used in US, UK; milya/milla/mairu
+ladder	skill	list	keep/root talent
+ladder	poet	covered:no poem	covered:no poem/ one who makes poems (derived word); poem is 628
+ladder	figure	merge:shape	merge:shape/ a body's shape (523); a figure as a number is wifu
+ladder	pound	list	keep/loan? currency (ISO 4217 GBP, EGP); funt/libra/paund/jineeh
+ladder	cigarette	list	keep/loan? sigareta/cigarrillo/sigaret/sigara/shigaretto/sijāra/sigreṭ; xiāngyān, rokok differ
+ladder	contact	covered:yebin	covered:yebin/ get in touch is call; a phone contact is suso (compounds.tsv)
+ladder	praise	list	keep/root 
+ladder	continue	list	keep/root proceed; le marks ongoing
+ladder	press	list	split/ 1: press, push on (564.a); 2: the press, news media (564.b)
+ladder	press (push)	covered:dandi	covered:dandi/ push
+ladder	press (media)	list	keep/root 
+ladder	citizen	list	keep/root citizenship
+ladder	Wednesday	grammar	grammar/ dili mena ka (language.md 8.3.2)
+ladder	club	list	keep/loan? klub/club/kurabu/kulüp/klabu/jùlèbù; nādī differs
+ladder	factory	covered:pu muge	covered:pu muge/ place for making (derived word), as gōngchǎng, kōjō
+ladder	habit	list	keep/root routine; manni marks habit on a verb
+ladder	childhood	covered:muyi pi tiwu	covered:muyi pi tiwu/ "phrase ""time of child"""
+ladder	title	list	keep/root heading; the respect title is lanno
+ladder	divorce	list	keep/root 
+ladder	negative	list	keep/root 
+ladder	compare	list	keep/root comparison
+ladder	pocket	list	keep/root 
+ladder	driver	covered:no drive	covered:no drive/ one who drives (derived word); drive is 143
+ladder	character	list	keep/root personality; a story's character
+ladder	establish	list	keep/root found, set up; start tuko is broader
+ladder	politician	covered:no politics	covered:no politics/ one who does politics (derived word); politics is 273
+ladder	March	grammar	grammar/ dunan mena ka (language.md 8.3.3)
+ladder	expression	list	keep/root phrase, facial expression
+ladder	job	list	keep/root occupation, profession; work doku is the activity
+ladder	list	list	keep/root 
+ladder	fresh	list	keep/root 
+ladder	screen	list	keep/root compounds.tsv du wuye; frequent, root per ladder 2.3
+ladder	angel	list	keep/borrow religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
+ladder	campaign	list	keep/loan? kampaniya/campaña/kanpēn/kampanye/kampanya/kampeni; huódòng differs
+ladder	universe	list	keep/root 
+ladder	define	list	keep/root definition
+ladder	cancer	list	keep/root rak/cáncer/kanker/kanser vs saraṭān, gan, ái
+ladder	arrange	list	keep/root organize
+ladder	resolution	merge:decide	merge:decide/ a formal decision (254)
+ladder	sense	list	keep/root good sense, a sense organ; meaning is yofu
+ladder	score	list	keep/root points; score a goal
+ladder	imagine	list	keep/root imagination, fantasy
+ladder	saint	list	keep/root 
+ladder	crown	list	keep/root 
+ladder	fault	list	keep/root flaw, defect
+ladder	taxi	list	keep/loan? taksi/taxi/takushī/teksi/taksi; chūzūchē differs
+ladder	wound	list	keep/root injury
+ladder	representative	covered:no represent	covered:no represent/ one who represents (derived word); proxy, spokesperson; represent is 942
+ladder	muscle	list	keep/root 
+ladder	pure	list	keep/root purity; clean inan is near
+ladder	gas	list	keep/loan? gaz/gas/gasu/gesi/gāz; qìtǐ differs
+ladder	tense	list	keep/root strained, nervous; grammatical tense is rare
+ladder	supply	list	keep/root provision
+ladder	bow	list	split/root 1: bow, bend the body; 2: bow, the weapon (607.b)
+ladder	bow (weapon)	list	keep/root 
+ladder	effect	list	keep/root impact, result
+ladder	adult	list	keep/root grown-up; matches baby (40)
+ladder	sacrifice	list	keep/root offering
+ladder	expect	list	keep/root hope ganin is near
+ladder	museum	list	keep/loan? muzey/museo/musée/muzium/müze/myūziyam; bówùguǎn, matḥaf, makumbusho differ
+ladder	approach	list	keep/root come near; method sense is lite
+ladder	chest	covered:egu	covered:egu/ breast and chest are one word in pecho, grud', mune; a box is nansa
+ladder	comment	list	keep/root remark
+ladder	invite	list	keep/root invitation
+ladder	alcohol	list	keep/loan? alkogol'/alcohol/alkohol/alkol/arukōru/kuḥūl; jiǔ, pombe differ
+ladder	discuss	list	keep/root debate; talk kegu is broader
+ladder	bishop	list	keep/borrow religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
+ladder	professional	list	keep/root 
+ladder	prison	list	keep/root jail
+ladder	element	list	keep/root chemical element (IUPAC) or a part
+ladder	invest	list	keep/root investment
+ladder	foundation	merge:base	merge:base/ basis (547); a charity foundation is an organization
+ladder	knight	list	keep/root 
+ladder	novel	list	keep/root story weyu is broader
+ladder	gate	covered:beya	covered:beya/ door and gate are one word in mén, bāb, puerta, pintu
+ladder	poem	list	keep/root poetry
+ladder	nurse	list	keep/root 
+ladder	engine	list	keep/loan? motor/mōtā/mota/motor; fādòngjī, enjin differ
+ladder	finance	covered:pi nimo	covered:pi nimo/ financial = of money
+ladder	Tuesday	grammar	grammar/ dili mena sa (language.md 8.3.2)
+ladder	rose	list	keep/root the flower; as a verb form it is rise (377)
+ladder	wise	list	keep/root wisdom; smart gole is quick thinking
+ladder	coin	list	keep/root 
+ladder	guest	list	keep/root visitor
+ladder	care	list	keep/root look after; keep/protect kuwi is near
+ladder	local	covered:pi kemu	covered:pi kemu/ of the place, as compounds.tsv local time
+ladder	chemistry	list	keep/loan? khimiya/química/kimia/kimya/kemia/kīmiyā'; huàxué, kagaku differ
+ladder	mark	merge:sign	merge:sign/ sign, mark (438)
+ladder	statistics	list	keep/root 
+ladder	patient	list	split/ 1: a sick person in care (642.a); 2: patient, enduring (642.b)
+ladder	patient (sick person)	covered:ewo simi	covered:ewo simi/ "phrase ""sick person"""
+ladder	patient (enduring)	list	keep/root 
+ladder	worry	list	keep/root concern, anxious; fear nuta is near
+ladder	material	list	keep/root substance
+ladder	traffic	list	keep/root 
+ladder	consciousness	list	keep/root 
+ladder	protest	list	keep/root oppose ninsu is the stance
+ladder	contribute	list	keep/root contribution
+ladder	lieutenant	list	keep/root military rank
+ladder	publish	list	keep/root 
+ladder	poor	list	keep/root poverty
+ladder	raise	list	keep/root lift
+ladder	guitar	list	keep/loan? gitara/guitarra/gitā/gitar/gitaa/jítā/gīṭār
+ladder	statement	covered:ge oyi	covered:ge oyi/ what is said (derived word)
+ladder	prisoner	list	keep/root captive
+ladder	proud	list	keep/root pride, arrogance
+ladder	perform	list	keep/root performance
+ladder	gender	list	keep/root sex as a category; man lowu, woman futa
+ladder	gun	covered:du onlo	covered:du onlo/ tool for shooting (derived word)
+ladder	claim	list	keep/root 
+ladder	hell	list	keep/root 
+ladder	guarantee	list	keep/root 
+ladder	terrorism	list	keep/root terrorizm/terorisme vs irhāb, kǒngbù, ugaidi
+ladder	airport	list	keep/root pu bina possible; baseline like train, hospital (ladder 0)
+ladder	exchange	list	keep/root 
+ladder	nerve	list	keep/root 
+ladder	virgin	list	keep/root 
+ladder	busy	list	keep/root occupied
+ladder	hole	list	keep/root 
+ladder	board	list	keep/root plank; board of directors is a group
+ladder	punish	list	keep/root penalty
+ladder	cross	list	keep/root go across; the cross shape is rare
+ladder	civilization	list	keep/root 
+ladder	grain	list	keep/root cereal grain; seed yikan is broader
+ladder	metal	list	keep/loan? metall/metal/metaru/metali; jīnshǔ, kinzoku, ma'dan differ
+ladder	progress	list	keep/root 
+ladder	popular	list	keep/root 
+ladder	engineering	list	keep/root 
+ladder	fail	list	keep/root failure
+ladder	liquid	list	keep/root 
+ladder	needle	list	keep/root 
+ladder	plot	list	keep/root story plot; conspiracy
+ladder	oxygen	list	keep/standard IUPAC element; form from the symbol name (oksigen/oxígeno/oksijen vs sanso, yǎng)
+ladder	charge	list	keep/root charge a battery; a fee is price (275)
+ladder	throne	covered:pu goyu pi king	covered:pu goyu pi king/ "phrase ""seat of the king"""
+ladder	rank	merge:level	merge:level/ a position on a scale (301)
+ladder	climate	list	keep/loan? klimat/clima/climat/iklim (via Arabic); qìhòu, kikō, manākh differ
+ladder	signature	list	keep/root sign one's name
+ladder	essay	list	keep/root 
+ladder	passenger	list	keep/root 
+ladder	term	list	keep/root a word for a concept; a span is period (404)
+ladder	introduce	list	keep/root introduction
+ladder	spy	list	keep/root 
+ladder	Thursday	grammar	grammar/ dili mena da (language.md 8.3.2)
+ladder	positive	list	keep/root 
+ladder	fever	list	keep/root 
+ladder	rape	list	keep/root 
+ladder	wave	list	keep/root of water; waving a hand
+ladder	damage	list	keep/root harm; break alun is broader
+ladder	wheel	list	keep/root 
+ladder	reward	list	keep/root prize, award
+ladder	bride	covered:futa no bedan	covered:futa no bedan/ "phrase ""woman who marries""; gender is a modifier"
+ladder	border	list	keep/root boundary; limit (358) is abstract
+ladder	poison	list	keep/root venom, toxin
+ladder	symptom	list	keep/root 
+ladder	loan	list	keep/root money lent; rent sanwa is paying to use
+ladder	reference	list	keep/root 
+ladder	opportunity	list	keep/root chance
+ladder	miracle	list	keep/root magic wase is near
+ladder	cabinet	list	split/root 1: government cabinet; 2: cupboard (710.b)
+ladder	cabinet (cupboard)	merge:wardrobe	merge:wardrobe/ storage furniture (186)
+ladder	capacity	list	keep/root 
+ladder	square	list	split/root 1: the shape; 2: town square (712.b)
+ladder	square (place)	list	keep/root plaza
+ladder	psychology	list	keep/root psikhologiya/psikologi vs xīnlǐxué, shinrigaku, 'ilm al-nafs
+ladder	shock	list	keep/root shocked; panic banga is near
+ladder	angle	list	keep/root 
+ladder	medium	list	keep/root middle-sized; mass media is press (564.b)
+ladder	scholar	list	keep/root learned person; expert (379) is skill
+ladder	rare	list	keep/root scarce
+ladder	deposit	list	keep/root 
+ladder	mission	list	keep/root 
+ladder	trick	list	keep/root 
+ladder	lawyer	list	keep/root attorney
+ladder	appear	list	keep/root "emerge; ""the sun appears"" (method 3b)"
+ladder	steel	list	keep/root 
+ladder	farm	list	keep/root farming, cultivation
+ladder	essence	list	keep/root gist
+ladder	tower	list	keep/root 
+ladder	strike	list	split/ 1: strike, hit (728.a); 2: labour strike (728.b)
+ladder	strike (hit)	covered:payon	covered:payon/ hit
+ladder	strike (labour)	list	keep/root 
+ladder	tip	list	split/ 1: pointed end (729.a); 2: gratuity (729.b); advice is fon
+ladder	tip (end)	merge:point	merge:point/ (268)
+ladder	tip (gratuity)	list	keep/root 
+ladder	priest	list	keep/root 
+ladder	servant	list	keep/root 
+ladder	lover	list	keep/root "girlfriend, boyfriend, partner; no wigen ""one who loves"" is ambiguous"
+ladder	surgery	list	keep/root operation
+ladder	reader	covered:no lilu	covered:no lilu/ one who reads (derived word)
+ladder	gene	list	keep/loan? gen/gene/jīn/jīyīn; idenshi differs
+ladder	forehead	list	keep/root brow
+ladder	singer	covered:no yuyun	covered:no yuyun/ one who sings (derived word)
+ladder	behave	list	keep/root conduct, behaviour
+ladder	devil	list	keep/root demon
+ladder	majority	list	keep/root "ke feli ""more"" phrases are near"
+ladder	average	list	keep/root mean
+ladder	treasure	list	keep/root 
+ladder	flood	list	keep/root 
+ladder	former	list	keep/root "ex-; ya ""before"" is a relation word"
+ladder	vegetable	list	keep/root 
+ladder	destination	covered:pu liwon	covered:pu liwon/ place for arriving (derived word)
+ladder	continent	list	keep/root 
+ladder	lecture	merge:lesson	merge:lesson/ a teaching talk (347)
+ladder	extreme	list	keep/root "bi ""very"" is degree"
+ladder	row	merge:line	merge:line/ line, row (271)
+ladder	farmer	covered:no farm	covered:no farm/ one who farms (derived word); farm is 725
+ladder	diamond	list	keep/root 
+ladder	presence	list	keep/root being there
+ladder	trial	list	keep/root court trial; try is walo
+ladder	heaven	list	keep/root paradise; the sky as seen is yaye
+ladder	shield	list	keep/root 
+ladder	sure	grammar	grammar/ certain = kon ufo (language.md 6.1.2)
+ladder	edition	list	keep/root 
+ladder	menstruation	list	keep/root 
+ladder	balance	list	keep/root 
+ladder	pilot	list	keep/loan? pilot/piloto/pilote/pairotto/pāylaṭ; fēixíngyuán, ṭayyār, rubani differ
+ladder	corpse	covered:gawo fafin	covered:gawo fafin/ dead body
+ladder	sword	list	keep/root 
+ladder	investigate	list	keep/root research, inquiry; seek ditun and check loban are near
+ladder	invent	list	keep/root invention; create (364) is broader
+ladder	context	list	keep/root 
+ladder	messenger	list	keep/root envoy
+ladder	solve	list	keep/root solution
+ladder	camp	list	keep/root 
+ladder	womb	list	keep/root 
+ladder	print	list	keep/root 
+ladder	sum	list	keep/root total; add is ginni
+ladder	layer	list	keep/root 
+ladder	headquarters	covered:pu wungu	covered:pu wungu/ place for leading (derived word)
+ladder	compound	list	keep/root 
+ladder	application	list	split/root 1: software app; 2: request, applying (776.b)
+ladder	application (request)	list	keep/root apply for a job
+ladder	bless	list	keep/root blessing
+ladder	missile	list	keep/root 
+ladder	broadcast	list	keep/root 
+ladder	factor	list	keep/root 
+ladder	pole	list	keep/root post; geographic pole
+ladder	handle	list	keep/root 
+ladder	corruption	list	keep/root 
+ladder	grandchild	covered:tiwu pi tiwu	covered:tiwu pi tiwu/ kinship composed (method 3.1)
+ladder	edge	list	keep/root rim; side sanfi is near
+ladder	dawn	list	keep/root 
+ladder	believe	list	keep/root faith, belief; trust gewan is near
+ladder	host	list	keep/root 
+ladder	fashion	list	keep/loan? moda/mode/fasshon/moda; shízhuāng differs
+ladder	relationship	list	keep/root relation
+ladder	regular	list	keep/root 
+ladder	ceremony	list	keep/root ritual
+ladder	amount	list	keep/root quantity
+ladder	temple	list	keep/root shrine
+ladder	grave	list	keep/root tomb
+ladder	spread	list	keep/root diffusion
+ladder	script	list	keep/root 
+ladder	innocent	list	keep/root 
+ladder	plastic	list	keep/loan? plastik/plástico/purasuchikku/plastiki/blāstīk; sùliào differs
+ladder	volume	list	keep/root loudness; book volume
+ladder	giant	covered:ewo bi kudu	covered:ewo bi kudu/ "phrase ""very big person""; huge is bi kudu"
+ladder	noble	list	keep/root 
+ladder	fan	list	split/root 1: fan, supporter, admirer; 2: cooling fan (803.b)
+ladder	fan (device)	list	keep/root 
+ladder	plain	list	split/root 1: plain, simple; 2: plain, flat land (804.b)
+ladder	plain (land)	covered:sekan mawun	covered:sekan mawun/ "phrase ""flat open land"""
+ladder	credit	list	keep/root 
+ladder	bar	list	keep/loan? drinking place: bar/bā/baa/jiǔbā; a metal bar is rare
+ladder	repeat	list	keep/root "repetition; moti ""again"" is near"
+ladder	responsible	list	keep/root responsibility, duty
+ladder	manage	list	keep/root management; lead wungu is near
+ladder	release	list	keep/root let go; free enpa is the state
+ladder	agent	merge:representative	merge:representative/ one who acts for another (601)
+ladder	princess	covered:tiwu futa pi king	covered:tiwu futa pi king/ kinship composed (method 3.1), as prince (405)
+ladder	agriculture	merge:farm	merge:farm/ farming, cultivation (725)
+ladder	department	list	keep/root part of an organisation
+ladder	tradition	list	keep/root custom, traditional
+ladder	experiment	list	keep/root test (388) is checking
+ladder	media	merge:press (media)	merge:press (media)/ (564.b)
+ladder	federation	merge:union	merge:union/ union of states (344)
+ladder	last night	grammar	grammar/ "time phrase yami pi afe ""night of yesterday"" (language.md 8.2)"
+ladder	contract	list	keep/root agree tayu is the act
+ladder	exercise	list	keep/root physical exercise; a school exercise
+ladder	suicide	covered:omen nen	covered:omen nen/ kill self (nen reflexive, language.md 10.3.6)
+ladder	countryside	list	keep/root rural
+ladder	version	list	keep/loan? versiya/versión/bājon/versi/versiyon; bǎnběn, toleo differ
+ladder	champion	covered:no yiyin	covered:no yiyin/ one who wins (derived word); winner
+ladder	thief	covered:no bunsi	covered:no bunsi/ one who steals (derived word)
+ladder	describe	list	keep/root description
+ladder	guard	covered:no kuwi	covered:no kuwi/ one who protects (derived word); guardian
+ladder	emergency	list	keep/root danger (353) is broader
+ladder	reform	list	keep/root change kubo is broader
+ladder	insurance	list	keep/root 
+ladder	perfect	list	keep/root 
+ladder	property	covered:ge ibe	covered:ge ibe/ what one has (derived word); real estate is a phrase with land
+ladder	joint	list	keep/root "of the body; ""joint"" as shared is gan"
+ladder	stress	merge:pressure	merge:pressure/ yālì, ḍaghṭ cover both (427); loan stress/sutoresu/stres is also widespread
+ladder	rate	list	keep/root ratio, speed, rate of pay
+ladder	mass	list	keep/standard SI quantity (kilogram); crowd and church Mass are rare
+ladder	mention	list	keep/root refer to
+ladder	cinema	list	keep/loan? kino/cine/cinéma/sinema/sīnimā; diànyǐngyuàn, eigakan differ
+ladder	fence	list	keep/root wall senmo is solid
+ladder	blind	list	keep/root 
+ladder	available	list	keep/root ready wonwe is near
+ladder	fool	list	keep/root idiot
+ladder	drunk	list	keep/root 
+ladder	turn off	covered:tapi	covered:tapi/ language.md 11.4 turn on/off benbi/tapi
+ladder	fuel	list	keep/loan? petrol, gasoline: benzin/bensin/petroli/gasorin/gasolina; two forms
+ladder	competition	list	keep/root contest, tournament; race (407) is a speed contest
+ladder	excuse	list	keep/root "justification; ""excuse me"" is sepi"
+ladder	satisfied	list	keep/root satisfaction
+ladder	detail	list	keep/root 
+ladder	scientist	covered:no science	covered:no science/ one who does science (derived word); researcher
+ladder	ambassador	list	keep/root 
+ladder	improve	list	keep/root "muge ke upe ""make better"" exists"
+ladder	settle	list	keep/root settle down, settlement
+ladder	eternity	covered:we muyi	covered:we muyi/ all time; eternal
+ladder	wheat	list	keep/root 
+ladder	unity	merge:union	merge:union/ being one, solidarity (344)
+ladder	cream	list	keep/loan? krem/crema/crème/kurīmu/krim/krimu; nǎiyóu differs
+ladder	tribe	list	keep/root 
+ladder	aspect	list	keep/root side sanfi is physical
+ladder	anniversary	list	keep/root 
+ladder	holiday	list	keep/root vacation; rest yenbo is near
+ladder	grade	list	keep/root school mark, school year
+ladder	spend	list	keep/root expense; pay unfu is near
+ladder	glory	covered:dundi	covered:dundi/ respect, honour
+ladder	prophet	list	keep/borrow religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
+ladder	complex	list	keep/root complicated; difficult gofa is near
+ladder	logic	list	keep/root reasoning; reason ukun is a cause
+ladder	normal	list	keep/root ordinary
+ladder	passport	list	keep/loan? pasport/pasaporte/paspor/pasaport/pasipoti/pasupōto; hùzhào, jawāz differ
+ladder	practice	list	keep/root practise, training
+ladder	mud	list	keep/root 
+ladder	income	list	keep/root revenue
+ladder	circuit	list	keep/root 
+ladder	copper	list	keep/root 
+ladder	band	list	keep/root music group
+ladder	formula	list	keep/root 
+ladder	honest	list	keep/root sincere; true feko is about statements
+ladder	curse	list	keep/root 
+ladder	port	list	keep/root harbour
+ladder	evolution	list	keep/root evolve
+ladder	platform	list	keep/loan? platforma/plataforma/plateforme/platform/purattohōmu; píngtái, jukwaa differ
+ladder	promotion	list	keep/root at work; marketing
+ladder	liar	covered:no lie	covered:no lie/ one who lies (derived word); the verb lie, say what is untrue, is missing from the lexicon (884.b)
+ladder	lie (untruth)	list	keep/root say what one knows is false; not in the 983 list, found through liar
+ladder	pulse	list	keep/root 
+ladder	surface	list	keep/root 
+ladder	edit	list	keep/root adjust finsa and change kubo are broader
+ladder	reputation	list	keep/root 
+ladder	certificate	list	keep/root diploma; document kemin is broader
+ladder	trap	list	keep/root 
+ladder	relative	covered:ewo pi yonyo	covered:ewo pi yonyo/ "phrase ""person of the family"""
+ladder	confess	list	keep/root admit, acknowledge
+ladder	engineer	list	keep/loan? inzhener/ingeniero/insinyur/injinia vs muhandis/mühendis; gōngchéngshī differs
+ladder	instrument	list	keep/root musical instrument; tool yetu is broader
+ladder	prime minister	covered:minister kudu	covered:minister kudu/ "phrase ""big minister"" as waziri mkuu; minister is 289"
+ladder	single	list	keep/root unmarried; one alone is na fi
+ladder	shift	list	keep/root work shift
+ladder	atmosphere	list	keep/root air layer, mood; air wunta is near
+ladder	argument	list	keep/root dispute, argue; fight migi is physical
+ladder	access	list	keep/root enter inwa is near
+ladder	victim	list	keep/root 
+ladder	arrow	list	keep/root 
+ladder	offer	list	keep/root give neke is the act of handing over
+ladder	volunteer	list	keep/root 
+ladder	coach	list	keep/root trainer; teacher (95) is near
+ladder	frame	list	keep/root picture frame; framework is structure (395)
+ladder	conclusion	list	keep/root end fugi is broader
+ladder	pollution	list	keep/root dirty bodu is the quality
+ladder	withdraw	list	keep/root retreat, take out money; leave kusa is broader
+ladder	background	list	keep/root 
+ladder	famous	list	keep/root fame, celebrity
+ladder	opposite	list	keep/root oppose ninsu is the stance
+ladder	note	list	keep/root written note; musical note
+ladder	register	list	keep/root registration
+ladder	idol	list	keep/phrase also pop idol; religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026
+ladder	trade	list	keep/root commerce
+ladder	valley	list	keep/root 
+ladder	young man	covered:lowu loyen	covered:lowu loyen/ man young; gender and age are modifiers
+ladder	warrior	covered:no migi	covered:no migi/ "compounds.tsv ""one who fights"""
+ladder	violence	list	keep/root violent
+ladder	vaccine	list	keep/loan? vaktsina/vacuna/vaccin/vaksin/wakuchin; aşı, chanjo, yìmiáo, ṭīkā differ
+ladder	tunnel	list	keep/loan? tunnel'/túnel/tünel/tonneru; suìdào, terowongan, nafaq differ
+ladder	treat	list	keep/root treatment, therapy
+ladder	transaction	merge:exchange	merge:exchange/ an exchange of money (665)
+ladder	tourist	covered:no travel	covered:no travel/ one who travels (derived word); travel is 490
+ladder	toilet	list	keep/loan? tualet/toilet/toire/tuvalet; cèsuǒ, choo, ḥammām differ
+ladder	tight	list	keep/root 
+ladder	suspect	list	keep/root suspicion
+ladder	success	list	keep/root succeed
+ladder	studio	list	keep/loan? studiya/estudio/studio/sutajio/stüdyo
+ladder	strict	list	keep/root 
+ladder	sphere	list	keep/root round kowan is the quality
+ladder	software	merge:program	merge:program/ programs (284)
+ladder	shame	list	keep/root ashamed
+ladder	September	grammar	grammar/ dunan mena mape (language.md 8.3.3)
+ladder	sensitive	list	keep/root 
+ladder	senator	list	keep/root 
+ladder	schedule	list	keep/root timetable; plan (251) is broader
+ladder	satellite	list	keep/root 
+ladder	review	list	keep/root check loban is near
+ladder	retire	list	keep/root retirement
+ladder	represent	list	keep/root representation; representative is no + this (601)
+ladder	reflection	list	keep/root reflect light or thought
+ladder	recognize	list	keep/root identify; know lugo is broader
+ladder	receipt	list	keep/root 
+ladder	ratio	merge:rate	merge:rate/ proportion (836)
+ladder	prostitute	list	keep/root 
+ladder	profile	list	keep/loan? profil'/perfil/profil/purofīru; wasifu differs
+ladder	priority	list	keep/root important bawe is the quality
+ladder	principal	merge:major	merge:major/ main (537); a school principal is a leader
+ladder	prevent	list	keep/root stop bamo is near
+ladder	presentation	covered:ge wuye	covered:ge wuye/ what is shown (derived word)
+ladder	post	list	split/ 1: post, mail (953.a); 2: an online post (953.b); a job post is position
+ladder	post (mail)	merge:letter	merge:letter/ letter, mail (287)
+ladder	post (online)	merge:message	merge:message/ a published message (324)
+ladder	pope	list	keep/loan? papa/pape/paus/bābā; jiàohuáng, kyōkō differ
+ladder	pipe	list	keep/root tube
+ladder	pink	covered:wiwi pinda	covered:wiwi pinda/ "phrase ""red white""; six colour roots (method 3.1)"
+ladder	pillar	list	keep/root column
+ladder	piano	list	keep/loan? piano/pianino/piyano/biyānū; gāngqín differs
+ladder	physics	list	keep/loan? fizika/física/fisika/fizik/fizikia/fīziyā'; wùlǐ, butsuri differ
+ladder	permanent	list	keep/root 
+ladder	pearl	list	keep/root 
+ladder	patience	merge:patient (enduring)	merge:patient (enduring)/ (642.b)
+ladder	parent	covered:mole yen wede	covered:mole yen wede/ compounds.tsv parents; one parent is mole lu wede; flag: sibling has a sexless root and parent do
+ladder	organism	covered:musu man nume	covered:musu man nume/ "phrase ""thing that lives"""
+ladder	organ	list	keep/root body organ; musical organ is rare
+ladder	orbit	list	keep/root 
+ladder	old man	covered:lowu pani	covered:lowu pani/ man old; gender and age are modifiers
+ladder	October	grammar	grammar/ dunan mena yawu (language.md 8.3.3)
+ladder	native	list	keep/root local (638) is near
+ladder	mystery	list	keep/root secret (331) is hidden on purpose
+ladder	mosque	list	keep/loan? masjid/mezquita/mosquée/mescit/msikiti/mosuku; mechet', qīngzhēnsì differ
+ladder	moral	list	keep/root ethics
+ladder	monster	list	keep/root 
+ladder	mix	list	keep/root mixture
+ladder	merit	list	keep/root 
+ladder	medal	list	keep/loan? medal'/medalla/médaille/medali/madalya/medaru/mīdāliya; jiǎngpái differs
+ladder	mask	list	keep/loan? maska/máscara/masque/masker/maske/masuku; kǒuzhào, barakoa differ
+ladder	link	covered:du penyu	covered:du penyu/ "compounds.tsv ""thing for connecting"""
+ladder	lack	covered:mu ibe	covered:mu ibe/ not have; without is nuwen
+ladder	June	grammar	grammar/ dunan mena ufo (language.md 8.3.3)
+ladder	July	grammar	grammar/ dunan mena oma (language.md 8.3.3)
+ladder	journalist	covered:no report	covered:no report/ one who reports (derived word); report is 276
+ladder	January	grammar	grammar/ dunan mena fi (language.md 8.3.3)
+additions-01	moon	list	split from dunan (author, 2026-10-13); first words (Wordbank) and modern use
+additions-01	ghost	list	split from spirit by the religion decision (author, 2026-10-13): core
+additions-01	word	list	split from apu by the word/language decision (author, 2026-10-13): core
+additions-01	keep	list	split from kuwi (author, 2026-10-13): core, tier 2
+additions-01	request	list	split from mido: core
+additions-01	lose (a contest)	list	split from agi: core; antonym of yiyin "win"
+additions-01	daytime	list	split from dili: core
+additions-01	rule	list	split from wabun: core
+additions-01	percent	list	native root (author, 2026-10-13; audit item 4): frequent (rank 436, 11 languages), loan failed the p
+additions-01	always	list	root (author, 2026-10-13; inventory 2): rank 47; the grid mon gimu we stays as the regular form
+additions-01	often	list	root (inventory 2): rank 744
+additions-01	sometimes	list	root (inventory 2): rank 1,220
+additions-01	never	list	root (inventory 2): rank 1,244
+additions-01	later	list	root (inventory 2): rank 1,574; also the judge's core-grammar repair 7
+additions-01	police	list	native root (author, 2026-10-13): loan fails the re-run panel, 11/20
+additions-01	here	list	root (author, 2026-10-15; grid check): rank 6; the grid phrase mon kemu tan stays as the regular for
+additions-01	there	list	root (author, 2026-10-15; grid check): rank 39; the grid phrase mon kemu ben stays as the regular fo
+additions-01	tea	list	root (author, 2026-10-15): the loan fails once adapted (tayu; the te family gives the digit te); inv
+additions-01	sofa	list	root or phrase (author, 2026-10-15): the loan fails the 5-of-7-regions rule
+additions-01	chemistry	list	root or phrase (author, 2026-10-15): the loan fails the 5-of-7-regions rule
+additions-01	parent	list	root (author, 2026-10-16): sex-neutral, by C4; mole yen wede no longer the standard phrase
+additions-01	lie (tell an untruth)	list	root (author, 2026-10-16)
+candidates-02	do | do	root:muge	act; merged with do
+candidates-02	say | say	root:oyi	express; merged with say
+candidates-02	have | have	root:ibe	possession; merged with have
+candidates-02	time | time	root:muyi	span; merged with time
+candidates-02	year | year	root:fawu	annual; merged with year
+candidates-02	want | want	root:momu	desire; merged with want
+candidates-02	go | go	root:isi	
+candidates-02	day | day	root:dili	daytime; merged with day
+candidates-02	know | know	root:lugo	noun; merged with know
+candidates-02	person | person	root:ewo	merged with person
+candidates-02	work | work	root:doku	labor; merged with work
+candidates-02	good | good	root:upe	adverb well; merged with good
+candidates-02	place | place	root:kemu	site; merged with place
+candidates-02	give | give	root:neke	donation; merged with give
+candidates-02	see | see	root:nagu	visible; merged with see
+candidates-02	thing | thing	root:musu	object; merged with thing
+candidates-02	come | come	root:obu	
+candidates-02	life | life	cover:pata	lifetime; merged with life
+candidates-02	today | today	root:mefa	
+candidates-02	child | child	root:tiwu	offspring; merged with child
+candidates-02	woman | woman	root:futa	female; merged with woman
+candidates-02	leave | leave	root:kusa	exit; merged with leave
+candidates-02	man | man	root:lowu	male; merged with man
+candidates-02	house | house	root:guyi	residence; merged with house
+candidates-02	name | name	root:suso	nickname; merged with name
+candidates-02	end | end	root:fugi	finish; merged with end
+candidates-02	new | new	root:duwa	recent; merged with new
+candidates-02	think | think	root:pume	noun; merged with think
+candidates-02	help | help	root:yema	assistance; merged with help
+candidates-02	love | love	root:wigen	beloved; merged with love
+candidates-02	big | big	root:kudu	merged with big; also 'excellent'
+candidates-02	father | father	root:wede	
+candidates-02	mother | mother	root:mole	
+candidates-02	world | world	roots-1500	global; merged with world
+candidates-02	right | right	root:nata	side; also correct (denku), entitlement (sogan)
+candidates-02	need | need	root:wupi	necessity; merged with need
+candidates-02	friend | friend	root:sonu	noun; merged with friend
+candidates-02	way | way	root:lite	method; merged with way
+candidates-02	last | last	roots-1500 deep	final/previous
+candidates-02	speak | speak	root:kegu	talk; merged with speak
+candidates-02	family | family	root:yonyo	lineage; merged with family
+candidates-02	use | use	root:bone	consumption; merged with use
+candidates-02	country | country	root:gigin	adjective; merged with country
+candidates-02	take | take	root:yidu	pick up; merged with take
+candidates-02	happen | happen	root:muwo	occurrence; merged with happen
+candidates-02	true | true	root:feko	noun; merged with true
+candidates-02	cause | cause	root:ukun	noun sense = reason; verb not covered
+candidates-02	head | head	root:lukan	
+candidates-02	stop | stop	root:bamo	pause; merged with stop
+candidates-02	state | state	roots-1500	polity sense
+candidates-02	make | make	root:muge	production; merged with make
+candidates-02	small | small	root:meli	merged with small
+candidates-02	die | die	root:kono	noun; merged with die
+candidates-02	question | question	roots-1500	result noun of ask (ge mido)
+candidates-02	problem | problem	root:batu	issue; merged with problem
+candidates-02	money | money	root:nimo	cash; merged with money
+candidates-02	return | return	root:sigo	merged with return
+candidates-02	same | same	root:kige	equal; merged with same
+candidates-02	number | number	root:wifu	digit; merged with number
+candidates-02	face | face	root:suku	
+candidates-02	night | night	root:yami	
+candidates-02	become | become	root:lewe	
+candidates-02	group | group	root:funti	gang; merged with group
+candidates-02	eat | eat	root:nawi	
+candidates-02	news | news	roots-1500	
+candidates-02	important | important	root:bawe	noun; merged with important
+candidates-02	change | change	root:kubo	transition; merged with change
+candidates-02	wife | wife	root:ofin	spouse
+candidates-02	school | school	roots-1500 deep	academy; merged with school
+candidates-02	like | like	root:tana	enjoy (tana); similar to (fu)
+candidates-02	son | son	roots-1500	
+candidates-02	water | water	root:osa	
+candidates-02	different | different	roots-1500	compose mu kige
+candidates-02	god | god	root:nosen	goddess; merged with god
+candidates-02	call | call	root:yebin	summon; merged with call
+candidates-02	body | body	root:gawo	physical; merged with body
+candidates-02	live | live	root:nume	alive; merged with live
+candidates-02	kill | kill	root:omen	murder; merged with kill
+candidates-02	war | war	root:pinpu	
+candidates-02	side | side	root:sanfi	
+candidates-02	week | week	root:nelon	weekly; merged with week
+candidates-02	reason | reason	root:ukun	motive; merged with reason
+candidates-02	word | word	additions	words; merged with word
+candidates-02	power | power	root:lula	authority; merged with power
+candidates-02	company | company	roots-1500	business firm
+candidates-02	month | month	root:dunan	monthly; merged with month
+candidates-02	city | city	root:oton	municipality; merged with city
+candidates-02	understand | understand	root:lafi	noun; merged with understand
+candidates-02	part | part	cover:kin	PART
+candidates-02	outside | outside	root:aban	external; merged with outside
+candidates-02	hour | hour	root:awuwa	o'clock; merged with hour
+candidates-02	government | government	roots-1500	administration; merged with government
+candidates-02	hand | hand	root:kiti	
+candidates-02	old | old	root:pani	ancient; merged with old
+candidates-02	hope | hope	root:ganin	merged with hope
+candidates-02	job | job	roots-1500	occupation; merged with job
+candidates-02	information | information	roots-1500	
+candidates-02	show | show	root:wuye	reveal; merged with show
+candidates-02	inside | inside	root:bese	interior; merged with inside
+candidates-02	play | play	root:luse	
+candidates-02	room | room	root:fudon	merged with room
+candidates-02	doctor | doctor	roots-1500 deep	merged with doctor
+candidates-02	moon | moon	additions	
+candidates-02	food | food	root:pasu	meal; merged with food
+candidates-02	minute | minute	root:minitu	
+candidates-02	book | book	root:ingo	textbook; merged with book
+candidates-02	kind | kind	root:niki	type sense
+candidates-02	write | write	root:tusi	noun; merged with write
+candidates-02	tell | tell	root:iko	inform; merged with tell
+candidates-02	tomorrow | tomorrow	root:wuma	
+candidates-02	find | find	root:geno	discovery; merged with find
+candidates-02	language | language	root:apu	dialect; merged with language
+candidates-02	story | story	root:weyu	legend; merged with story
+candidates-02	put | put	root:yaga	lay; merged with put
+candidates-02	heart | heart	root:mala	plural/card suit; merged with heart
+candidates-02	eye | eye	root:funo	
+candidates-02	age | age	roots-1500	year of age; merged with age
+candidates-02	bring | bring	roots-1500 deep	compose dinyo obu
+candidates-02	police | police	additions	merged with police
+candidates-02	get | receive	root:dunu	receive; merged with get
+candidates-02	bad | bad	root:yomo	evil; merged with bad
+candidates-02	law | law	root:wabun	legal; merged with law
+candidates-02	meet | meet	root:fanmu	come together
+candidates-02	beautiful | beautiful	root:sesa	noun; merged with beautiful
+candidates-02	open | open	root:benbi	noun; merged with open
+candidates-02	opportunity | opportunity	roots-1500	chance; merged with opportunity
+candidates-02	speech | speech	roots-1500	discourse; merged with speech
+candidates-02	next | next	roots-1500	following; merged with next
+candidates-02	song | song	roots-1500	result noun of sing (ge yuyun)
+candidates-02	game | game	root:bufe	
+candidates-02	fear | fear	root:nuta	terror; merged with fear
+candidates-02	enter | enter	root:inwa	entry; merged with enter
+candidates-02	system | system	root:yile	
+candidates-02	business | business	roots-1500	commercial; merged with business
+candidates-02	remember | remember	root:imu	noun; merged with remember
+candidates-02	light | light	root:wino	brightness; 'not heavy' is gamun
+candidates-02	girl | girl	roots-1500 deep	tiwu futa means daughter
+candidates-02	mean | meaning	root:yofu	noun; merged with mean
+candidates-02	back | back	root:nebe	rear; merged with back
+candidates-02	report | report	roots-1500	
+candidates-02	complete | complete	root:minwe	whole; verb sense near sin DONE
+candidates-02	plan | plan	roots-1500	strategy; merged with plan
+candidates-02	ask | ask	root:mido	request; merged with ask
+candidates-02	arrive | arrive	root:liwon	noun; merged with arrive
+candidates-02	king | king	roots-1500	emperor; merged with king
+candidates-02	move | move	root:kobi	noun; merged with move
+candidates-02	learn | study	root:yesa	merged with learn
+candidates-02	mind | mind	roots-1500	merged with mind
+candidates-02	look | look	root:miya	observation; merged with look
+candidates-02	opinion | opinion	roots-1500	near think (pume)
+candidates-02	appear | appear	roots-1500	emerge; merged with appear
+candidates-02	film | film	roots-1500 deep	merged with film
+candidates-02	pass | pass	roots-1500	passing; merged with pass
+candidates-02	space | space	roots-1500	room or outer space
+candidates-02	turn | turn	root:duko	rotation; merged with turn
+candidates-02	start | begin	root:tuko	noun; merged with start
+candidates-02	yesterday | yesterday	root:afe	
+candidates-02	wait | wait	root:sefu	merged with wait
+candidates-02	field | field	root:sekan	
+candidates-02	music | music	roots-1500	musical; merged with music
+candidates-02	earth | earth	root:fowo	planet/ground
+candidates-02	increase | increase	roots-1500	near add (ginni)
+candidates-02	young | young	root:loyen	noun; merged with young
+candidates-02	result | result	cover:ge	RESULT nominalizer
+candidates-02	hear | hear	root:nulu	hearing; merged with hear
+candidates-02	road | road	root:sola	merged with road
+candidates-02	case | case	roots-1500	instance or legal case
+candidates-02	team | team	roots-1500	kind of group (funti)
+candidates-02	support | support	roots-1500	near help (yema)
+candidates-02	leader | leader	roots-1500	boss; merged with leader
+candidates-02	fall | fall	root:dosi	drop; merged with fall
+candidates-02	sound | sound	root:ninge	noise; merged with sound
+candidates-02	meeting | meeting	roots-1500	conference; merged with meeting
+candidates-02	rule | rule	additions	regulation; merged with rule
+candidates-02	history | history	roots-1500	historical; merged with history
+candidates-02	situation | situation	roots-1500	
+candidates-02	date | date	roots-1500	calendar date
+candidates-02	exist | exist	roots-1500	noun; merged with exist; near gun BE
+candidates-02	point | point	roots-1500	mimi is decimal point only
+candidates-02	correct | correct	root:denku	exact; merged with correct
+candidates-02	condition | condition	roots-1500	merged with condition
+candidates-02	fire | fire	root:lumi	flame; merged with fire
+candidates-02	morning | morning	root:leso	in the morning; merged with morning
+candidates-02	feel | feel	root:feme	noun; merged with feel
+candidates-02	attack | attack	roots-1500	raid; merged with attack
+candidates-02	form | form	roots-1500	shape or document form
+candidates-02	region | region	roots-1500	merged with region
+candidates-02	past | past	roots-1500	
+candidates-02	easy | easy	root:bunle	simple; merged with easy
+candidates-02	official | official	roots-1500	officially; merged with official
+candidates-02	sleep | sleep	root:wopo	sleepiness; merged with sleep
+candidates-02	province | province	roots-1500	provincial; merged with province
+candidates-02	free | free	root:enpa	not held; free of charge is go mu unfu
+candidates-02	soldier | soldier	roots-1500	warrior
+candidates-02	weapon | weapon	root:botan	armed; merged with weapon
+candidates-02	husband | husband	root:ofin	spouse
+candidates-02	ready | ready	root:wonwe	merged with ready
+candidates-02	party | party	roots-1500 deep	political or celebration
+candidates-02	drink | drink	root:koye	noun; merged with drink
+candidates-02	president | president	roots-1500	presidency; merged with president
+candidates-02	strong | strength	root:konke+lula	noun; merged with strong
+candidates-02	sign | sign	roots-1500	signal; merged with sign
+candidates-02	line | line	roots-1500	stripe; merged with line
+candidates-02	limit | limit	roots-1500	limited; merged with limit
+candidates-02	service | service	roots-1500	
+candidates-02	lose | lose	root:agi	misplace; losing a contest not covered
+candidates-02	send | send	root:sege	dispatch; merged with send
+candidates-02	teacher | teacher	roots-1500 deep	compose no tofo
+candidates-02	university | university	roots-1500	college; merged with university
+candidates-02	voice | voice	roots-1500	
+candidates-02	letter | letter	roots-1500	mail or alphabet letter
+candidates-02	top | top	root:bige	above
+candidates-02	hold | hold	root:yonnu	
+candidates-02	long | long	root:netu	length; merged with long
+candidates-02	hospital | hospital	roots-1500	clinic; merged with hospital
+candidates-02	buy | buy	root:bika	purchase; merged with buy
+candidates-02	class | class	roots-1500	school class or category
+candidates-02	event | event	roots-1500	near happen (muwo)
+candidates-02	south | south	root:monna	southern; merged with south
+candidates-02	pay | pay	root:unfu	payment; merged with pay
+candidates-02	front | front	root:sinye	
+candidates-02	answer | answer	root:febo	response; merged with answer
+candidates-02	blood | blood	root:makon	
+candidates-02	difficult | difficult	root:gofa	noun; merged with difficult
+candidates-02	army | army	roots-1500	adjective; merged with army
+candidates-02	special | special	roots-1500	
+candidates-02	position | position	roots-1500	
+candidates-02	door | door	root:beya	
+candidates-02	explain | explain	roots-1500	noun; merged with explain
+candidates-02	middle | middle	roots-1500	
+candidates-02	direction | direction	roots-1500	
+candidates-02	present | present	roots-1500	gift or current time, ambiguous
+candidates-02	decide | decision	roots-1500	noun; near choose (waka)
+candidates-02	birth | birth	roots-1500	merged with birth
+candidates-02	education | education	roots-1500	near teach (tofo)
+candidates-02	seek | search	root:ditun	search; merged with seek
+candidates-02	level | level	roots-1500	
+candidates-02	stay | remain	root:piyi	remain; merged with stay
+candidates-02	price | price	roots-1500	cost; merged with price
+candidates-02	base | base	roots-1500	basis; merged with base
+candidates-02	idea | idea	root:gason	concept; merged with idea
+candidates-02	agree | agreement	root:tayu	noun; merged with agree
+candidates-02	building | building	roots-1500	near house (guyi)
+candidates-02	follow | follow	root:lefan	pursue; merged with follow
+candidates-02	general | general	roots-1500	ambiguous adj/military rank
+candidates-02	daughter | daughter	roots-1500	
+candidates-02	river | river	root:yolan	stream; merged with river
+candidates-02	dream | dream	root:sinun	
+candidates-02	matter | matter	roots-1500	affair/issue
+candidates-02	force | force	root:lula	forced; merged with force
+candidates-02	sir | sir	root:lanno	mister; merged with sir
+candidates-02	science | science	roots-1500	adjective; merged with science
+candidates-02	promise | promise	roots-1500	oath; merged with promise
+candidates-02	happy | happy	root:sogi	happiness; merged with happy
+candidates-02	alone | alone	roots-1500	near na ONLY
+candidates-02	read | read	root:lilu	noun; merged with read
+candidates-02	land | land	root:fowo	merged with land
+candidates-02	member | member	roots-1500	membership; merged with member
+candidates-02	rise | rise	roots-1500	get up; merged with rise
+candidates-02	village | village	roots-1500	villager; merged with village
+candidates-02	clear | clear	roots-1500	obvious; merged with clear
+candidates-02	win | win	root:yiyin	noun; merged with win
+candidates-02	match | match	roots-1500	contest
+candidates-02	bank | bank	roots-1500	
+candidates-02	program | program	roots-1500	programming; merged with program
+candidates-02	attention | attention	roots-1500	pay attention; merged with attention
+candidates-02	public | public	roots-1500	opposite of private (kunsu)
+candidates-02	sure | certain	roots-1500	certain; also 'a certain' (bo/in)
+candidates-02	market | market	roots-1500	
+candidates-02	hard | hard	root:gufu	not soft; 'difficult' is gofa
+candidates-02	office | office	roots-1500	bureau; merged with office
+candidates-02	visit | visit	roots-1500	
+candidates-02	peace | peace	root:bonwi	peaceful; merged with peace
+candidates-02	medicine | medicine	roots-1500 deep	drug; merged with medicine
+candidates-02	video | video	roots-1500	
+candidates-02	sit | sit	root:goyu	sit down; merged with sit
+candidates-02	lie | lie	root:anle	lie down; 'tell a lie' not covered
+candidates-02	moment | moment	root:foke	merged with moment
+candidates-02	control | control	root:lula	regulate; merged with control
+candidates-02	sun | sun	root:giwe	solar; merged with sun
+candidates-02	rest | rest	root:yenbo	break sense; 'remainder' not covered
+candidates-02	forget | forget	root:yakin	
+candidates-02	evening | evening	root:kegin	
+candidates-02	season | season	roots-1500	
+candidates-02	care | care	roots-1500	look after; merged with care
+candidates-02	fight | fight	root:migi	battle; merged with fight
+candidates-02	continue | continue	roots-1500	noun; merged with continue
+candidates-02	hit | hit	root:payon	beat; merged with hit
+candidates-02	run | run	root:gabe	running; merged with run
+candidates-02	pain | pain	root:wekun	merged with pain
+candidates-02	sick | disease	root:simi	disease; merged with sick
+candidates-02	foot | foot	root:pifo	
+candidates-02	society | society	roots-1500	social; merged with society
+candidates-02	create | create	roots-1500	noun; merged with create
+candidates-02	politics | politics	roots-1500	adjective; merged with politics
+candidates-02	fact | fact	entrant:missing	near true (feko)
+candidates-02	animal | animal	root:noso	creature; merged with animal
+candidates-02	relationship | relation	roots-1500	merged with relationship
+candidates-02	arm | arm	root:inyi	
+candidates-02	step | step	roots-1500	merged with step
+candidates-02	boy | boy	roots-1500 deep	tiwu lowu means son
+candidates-02	far | far	root:lini	
+candidates-02	worry | worry	roots-1500	near fear (nuta)
+candidates-02	distance | distance	roots-1500	near far (lini)
+candidates-02	series | series	roots-1500	
+candidates-02	air | air	root:wunta	
+candidates-02	test | test	roots-1500	near check (loban)
+candidates-02	possible | possible	roots-1500	noun; merged with possible
+candidates-02	experience | experience	roots-1500	
+candidates-02	believe | believe	roots-1500	near trust (gewan)
+candidates-02	close | close	root:tapi+gelu	shut (tapi); near (gelu)
+candidates-02	early | early	root:ganna	
+candidates-02	master | master	roots-1500	lord; merged with master
+candidates-02	fast | quickly	root:yobe	noun; merged with fast
+candidates-02	listen | listen	root:doma	
+candidates-02	religion | religion	roots-1500	religious; merged with religion
+candidates-02	election | election	roots-1500	elect; merged with election
+candidates-02	north | north	root:soto	merged with north
+candidates-02	organization | organization	roots-1500	merged with organization
+candidates-02	source | source	roots-1500	merged with source
+candidates-02	walk | walk	root:niba	
+candidates-02	gold | gold	roots-1500	golden; merged with gold
+candidates-02	thank | thank you	root:lota	merged with thank
+candidates-02	dollar | dollar	root:dolalu	
+candidates-02	mouth | mouth	root:fade	
+candidates-02	red | red	root:wiwi	
+candidates-02	watch | watch	root:aya+miya	timepiece (aya); look at (miya)
+candidates-02	project | project	roots-1500	
+candidates-02	television | television	roots-1500 deep	
+candidates-02	art | art	roots-1500	
+candidates-02	future | future	roots-1500	
+candidates-02	minister | minister	roots-1500	
+candidates-02	marry | marriage	root:bedan	noun; merged with marry
+candidates-02	rain | rain	root:gegi	
+candidates-02	tree | tree	root:gala	
+candidates-02	respect | respect	root:dundi	dignity/honour; merged with respect
+candidates-02	spirit | spirit	roots-1500	ghost; merged with spirit
+candidates-02	health | health	roots-1500	healthy; merged with health
+candidates-02	doubt | doubt	roots-1500	
+candidates-02	grow | grow	root:guge	growth; merged with grow
+candidates-02	prepare | prepare	roots-1500	near ready (wonwe)
+candidates-02	real | real	roots-1500	noun; merged with real
+candidates-02	reach | reach	root:wonku	
+candidates-02	computer | computer	roots-1500	
+candidates-02	common | common	entrant:missing	widespread; merged with common
+candidates-02	ball | ball	roots-1500 deep	
+candidates-02	community | community	roots-1500	
+candidates-02	foreign | foreign	roots-1500	foreigner; merged with foreign
+candidates-02	lead | lead	root:wungu	guide; merged with lead
+candidates-02	sell | sell	root:koda	sale; merged with sell
+candidates-02	court | court	roots-1500	judicial; merged with court
+candidates-02	strange | strange	root:lenya	unfamiliar; merged with strange
+candidates-02	operation | operation	roots-1500	
+candidates-02	goal | goal	roots-1500	aim or sports goal
+candidates-02	center | center	roots-1500	adjective; merged with center
+candidates-02	whole | whole	root:minwe	
+candidates-02	dog | dog	root:totu	
+candidates-02	value | value	roots-1500	valuable; merged with value
+candidates-02	period | period	roots-1500	era; merged with period
+candidates-02	danger | danger	roots-1500	opposite of safe (sonli)
+candidates-02	department | department	roots-1500	
+candidates-02	black | black	root:tago	
+candidates-02	allow | permission	root:efon	permission; merged with allow
+candidates-02	nature | natural	roots-1500	adjective; merged with nature
+candidates-02	subject | subject	roots-1500	topic or school subject
+candidates-02	carry | carry	root:dinyo	transport; merged with carry
+candidates-02	trust | trust	root:gewan	rely on; merged with trust
+candidates-02	committee | committee	roots-1500	council; merged with committee
+candidates-02	list | list	roots-1500	
+candidates-02	straight | straight	root:fongo	
+candidates-02	capital | capital	roots-1500	city or money
+candidates-02	star | star	root:uwan	
+candidates-02	culture | culture	roots-1500	cultural; merged with culture
+candidates-02	try | try	root:walo	attempt; merged with try
+candidates-02	technology | technology	roots-1500	technical; merged with technology
+candidates-02	island | island	roots-1500	
+candidates-02	perfect | perfect	roots-1500	perfection; merged with perfect
+candidates-02	shape | shape	roots-1500	merged with shape
+candidates-02	accept | accept	entrant:missing	noun; merged with accept
+candidates-02	wrong | mistake	root:gagan	mistake; merged with wrong
+candidates-02	quality | quality	roots-1500	
+candidates-02	interest | interest	roots-1500	interesting; merged with interest
+candidates-02	coffee | coffee	roots-1500 deep	
+candidates-02	international | international	roots-1500	
+candidates-02	accident | accident	roots-1500	mu gan momu is adverb 'by accident'
+candidates-02	district | district	roots-1500	
+candidates-02	save | save	root:kuwi	keep/protect; rescue sense
+candidates-02	student | student	roots-1500	pupil; merged with student
+candidates-02	origin | origin	roots-1500	originally; merged with origin
+candidates-02	cry | cry	root:nowa	merged with cry
+candidates-02	machine | machine	roots-1500	mechanism; merged with machine
+candidates-02	appearance | appearance	roots-1500	merged with appearance
+candidates-02	effect | effect	roots-1500	impact; merged with effect
+candidates-02	enemy | enemy	root:biton	opponent; merged with enemy
+candidates-02	stone | stone	root:lutu	rock; merged with stone
+candidates-02	color | color	roots-1500	
+candidates-02	message | message	roots-1500	
+candidates-02	high | high	root:tisan	height; merged with high
+candidates-02	choose | choice	root:waka	choice; merged with choose
+candidates-02	dance | dance	roots-1500 deep	
+candidates-02	west | west	root:munke	western; merged with west
+candidates-02	investigate | research	roots-1500	noun; merged with investigate
+candidates-02	set | set	roots-1500	put or group, ambiguous
+candidates-02	activity | activity	roots-1500	
+candidates-02	gift | gift	roots-1500 deep	merged with gift
+candidates-02	protect | protect	root:kuwi	noun; merged with protect
+candidates-02	page | page	root:lunyu	sheet; merged with page
+candidates-02	train | train	roots-1500 deep	vehicle sense
+candidates-02	director | director	roots-1500	
+candidates-02	divide | division	roots-1500	noun; merged with divide
+candidates-02	phone | telephone	root:liga	merged with phone
+candidates-02	east | east	root:anyu	eastern; merged with east
+candidates-02	keep | keep	additions	preservation; merged with keep
+candidates-02	mountain | mountain	root:genne	merged with mountain
+candidates-02	secret | secret	roots-1500	near private (kunsu)
+candidates-02	develop | development	entrant:covered	development; merged with develop
+candidates-02	data | data	roots-1500	
+candidates-02	rich | wealth	roots-1500	wealth; merged with rich
+candidates-02	baby | baby	roots-1500 deep	near child (tiwu)
+candidates-02	energy | energy	roots-1500	near power (lula)
+candidates-02	crime | crime	roots-1500	criminal; merged with crime
+candidates-02	competition | competition	roots-1500	championship; merged with competition
+candidates-02	hotel | hotel	roots-1500	
+candidates-02	throw | throw	root:gitin	throw away; merged with throw
+candidates-02	escape | escape	roots-1500	flee; merged with escape
+candidates-02	property | property	roots-1500	real estate; merged with property
+candidates-02	sky | sky	root:yaye	
+candidates-02	internet | internet	root:intelunetu	web; merged with internet
+candidates-02	lawyer | lawyer	roots-1500	merged with lawyer
+candidates-02	cut | cut	root:fonsu	cutting; merged with cut
+candidates-02	degree | degree	root:diguli	unit sense; academic degree not covered
+candidates-02	amount | amount	roots-1500	quantity; merged with amount
+candidates-02	fate | fate	entrant:missing	merged with fate
+candidates-02	example | example	roots-1500	sample; merged with example
+candidates-02	model | model	roots-1500	
+candidates-02	century | century	roots-1500	
+candidates-02	record | record	roots-1500	recording; merged with record
+candidates-02	responsible | responsibility	roots-1500	noun; merged with responsible
+candidates-02	document | document	root:kemin	
+candidates-02	separate | separate	root:buyan	split apart
+candidates-02	picture | picture	roots-1500 deep	image; merged with picture
+candidates-02	key | key	root:tinli	
+candidates-02	left | left	root:funbe	side
+candidates-02	union | union	roots-1500	alliance; merged with union
+candidates-02	lack | lack	roots-1500	near nuwen (without)
+candidates-02	fair | justice	root:kidun	justice; merged with fair
+candidates-02	offer | offer	roots-1500	
+candidates-02	church | church	roots-1500 deep	
+candidates-02	build | build	root:selo	construction; merged with build
+candidates-02	check | check	root:loban	examine; merged with check
+candidates-02	personal | personal	roots-1500	near private (kunsu)
+candidates-02	target | target	roots-1500	
+candidates-02	club | club	roots-1500	
+candidates-02	weather | weather	roots-1500	
+candidates-02	lesson | lesson	roots-1500	seminar; merged with lesson
+candidates-02	cover | cover	roots-1500 deep	covered; merged with cover
+candidates-02	benefit | benefit	roots-1500	advantage; merged with benefit
+candidates-02	count | count	root:sunbu	
+candidates-02	travel | travel	roots-1500	tour; merged with travel
+candidates-02	white | white	root:pinda	
+candidates-02	bird | bird	root:lodi	
+candidates-02	safe | security	root:sonli	security; merged with safe
+candidates-02	sea | sea	root:puya	ocean; merged with sea
+candidates-02	economy | economy	roots-1500	economics; merged with economy
+candidates-02	oil | oil	root:yunen	
+candidates-02	dead | dead	root:fafin	dead person; merged with dead
+candidates-02	industry | industry	roots-1500	industrial; merged with industry
+candidates-02	wall | wall	root:senmo	
+candidates-02	hair | hair	root:sonfa	fur; merged with hair
+candidates-02	full | full	root:kete	
+candidates-02	car | car	root:tale	automobile; merged with car
+candidates-02	process | process	roots-1500	processing; merged with process
+candidates-02	near | near	root:gelu	vicinity; merged with near
+candidates-02	queen | queen	roots-1500	
+candidates-02	penis | penis	root:wento	
+candidates-02	size | size	roots-1500	dimension; merged with size
+candidates-02	primary | main	entrant:covered	main; merged with primary
+candidates-02	hero | hero	roots-1500	protagonist; merged with hero
+candidates-02	citizen | citizen	roots-1500	citizenship; merged with citizen
+candidates-02	rank | rank	roots-1500	ranking; merged with rank
+candidates-02	advise | advice	cover:fon	suggestion; ADVISE marker
+candidates-02	address | address	roots-1500	
+candidates-02	short | short	root:eten	brief; merged with short
+candidates-02	guard | guard	roots-1500	compose no kuwi
+candidates-02	draw | drawing	roots-1500 deep	noun; merged with draw
+candidates-02	raise | raise	roots-1500	lift; merged with raise
+candidates-02	smell | smell	root:kanko	merged with smell
+candidates-02	serious | serious	roots-1500	severe; merged with serious
+candidates-02	character | character	roots-1500	personality; merged with character
+candidates-02	bus | bus	root:ensu	
+candidates-02	fruit | fruit	root:tanun	
+candidates-02	measure | measure	roots-1500	measurement; merged with measure
+candidates-02	horse | horse	root:anbo	
+candidates-02	taste | taste	root:tenmi	
+candidates-02	code | code	roots-1500	
+candidates-02	teach | teach	root:tofo	training; merged with teach
+candidates-02	festival | festival	roots-1500	feast; merged with festival
+candidates-02	structure | structure	roots-1500	framework; merged with structure
+candidates-02	kingdom | kingdom	roots-1500	empire; merged with kingdom
+candidates-02	paper | paper	root:mabo	
+candidates-02	vote | vote	roots-1500	voting; merged with vote
+candidates-02	communication | communication	roots-1500	communicate; merged with communication
+candidates-02	establish | establishment	roots-1500	noun; merged with establish
+candidates-02	witness | witness	roots-1500	testimony; merged with witness
+candidates-02	influence | influence	entrant:missing	merged with influence
+candidates-02	touch | touch	root:sanne	
+candidates-02	release | release	roots-1500	near free (enpa)
+candidates-02	duty | duty	entrant:covered	merged with duty
+candidates-02	ground | ground	root:fowo	soil; merged with ground
+candidates-02	candidate | candidate	roots-1500	
+candidates-02	photo | photograph	root:foto	merged with photo
+candidates-02	judge | judge	roots-1500	judgement; merged with judge
+candidates-02	application | application	roots-1500	
+candidates-02	leg | leg	root:bendo	
+candidates-02	shop | shop	roots-1500 deep	store; 'keep in store' not included
+candidates-02	suddenly | suddenly	root:finbi	merged with suddenly
+candidates-02	forest | forest	roots-1500 deep	jungle; merged with forest
+candidates-02	contract | contract	roots-1500	
+candidates-02	sing | sing	root:yuyun	singing; merged with sing
+candidates-02	foundation | foundation	roots-1500	
+candidates-02	skin | skin	root:unne	
+candidates-02	success | success	roots-1500	succeed; merged with success
+candidates-02	wind | wind	root:gulo	
+candidates-02	flower | flower	root:meyen	blossom; merged with flower
+candidates-02	green | green	root:gisu	
+candidates-02	deputy | deputy	entrant:artefact	
+candidates-02	break | break	root:alun	broken; merged with break
+candidates-02	brain | brain	root:lemon	brains; merged with brain
+candidates-02	product | product	roots-1500	merchandise; merged with product
+candidates-02	brave | courage	roots-1500	courage; merged with brave
+candidates-02	fault | fault	roots-1500	blame or defect
+candidates-02	plant | plant	root:pinfe	
+candidates-02	bear | bear	roots-1500 deep	animal or carry, ambiguous
+candidates-02	pull | pull	root:nunya	
+candidates-02	actor | actor	roots-1500	
+candidates-02	poor | poor	roots-1500	poverty; merged with poor
+candidates-02	article | article	roots-1500	
+candidates-02	direct | direct	roots-1500	directly; merged with direct
+candidates-02	sport | sport	roots-1500	merged with sport
+candidates-02	account | account	roots-1500	
+candidates-02	luck | luck	roots-1500	lucky; merged with luck
+candidates-02	relative | relative	roots-1500	family member; near yonyo
+candidates-02	mark | mark	roots-1500	
+candidates-02	bed | bed	root:soti	
+candidates-02	policy | policy	roots-1500	
+candidates-02	welcome | welcome	roots-1500	
+candidates-02	original | original	roots-1500	
+candidates-02	prove | evidence	roots-1500	noun; merged with prove
+candidates-02	famous | famous	roots-1500	fame; merged with famous
+candidates-02	notice | notice	roots-1500	
+candidates-02	remove | remove	root:nuton	take away; merged with remove
+candidates-02	function | function	root:doku	of a machine
+candidates-02	table | table	roots-1500 deep	desk; merged with table
+candidates-02	demand | demand	roots-1500	near ask/want
+candidates-02	design | design	roots-1500	designer; merged with design
+candidates-02	tea | tea	additions	
+candidates-02	calm | calm	root:fanse	tranquility; merged with calm
+candidates-02	patient | patient	roots-1500	sick person or adj, ambiguous
+candidates-02	worker | worker	roots-1500	compose no doku
+candidates-02	majority | majority	roots-1500	
+candidates-02	republic | republic	roots-1500	
+candidates-02	sex | sex	roots-1500	adjective; merged with sex
+candidates-02	bottom | bottom	root:deba	below
+candidates-02	cold | cold	root:weki	cool; merged with cold
+candidates-02	soul | soul	roots-1500	merged with soul
+candidates-02	catch | catch	roots-1500 deep	capture; merged with catch
+candidates-02	website | website	roots-1500	web page; merged with website
+candidates-02	defeat | defeat	roots-1500	be defeated; merged with defeat
+candidates-02	window | window	roots-1500 deep	
+candidates-02	share | share	root:peton	distribution; merged with share
+candidates-02	stage | stage	roots-1500	phase; merged with stage
+candidates-02	modern | modern	roots-1500	near new (duwa)
+candidates-02	newspaper | newspaper	roots-1500	
+candidates-02	role | role	roots-1500	
+candidates-02	clothes | clothes	root:lonne	merged with clothes
+candidates-02	round | round	root:kowan	
+candidates-02	spring | spring	roots-1500	season or water source
+candidates-02	corpse | corpse	roots-1500	compose gawo fafin
+candidates-02	fish | fish	root:woga	
+candidates-02	seat | seat	roots-1500	near sit (goyu)
+candidates-02	local | local	roots-1500	
+candidates-02	profit | profit	roots-1500	profitable; merged with profit
+candidates-02	pure | pure	roots-1500	purity; merged with pure
+candidates-02	behind | behind	root:nebe	
+candidates-02	style | style	roots-1500	
+candidates-02	hide | hide	root:mibun	hidden; merged with hide
+candidates-02	holy | holy	entrant:missing	merged with holy
+candidates-02	owner | owner	roots-1500	compose no ibe
+candidates-02	card | card	root:mise	playing card; merged with card
+candidates-02	skill | skill	roots-1500	talent; merged with skill
+candidates-02	branch | branch	roots-1500	
+candidates-02	border | border	roots-1500	boundary; merged with border
+candidates-02	miss | miss	root:sanku	feel absence; 'miss a target' not covered
+candidates-02	view | view	roots-1500	scenery; merged with view
+candidates-02	expert | expert	roots-1500	specialist; merged with expert
+candidates-02	generation | generation	roots-1500	
+candidates-02	translate | translation	roots-1500	noun; merged with translate
+candidates-02	prince | prince	roots-1500	
+candidates-02	ear | ear	root:wisa	
+candidates-02	threaten | threat	roots-1500	noun; merged with threaten
+candidates-02	joke | joke	roots-1500	genso marks speech as joking
+candidates-02	suit | suit	roots-1500	
+candidates-02	clean | clean	root:inan	cleanliness; merged with clean
+candidates-02	Saturday | saturday	roots-1500	
+candidates-02	Sunday | sunday	roots-1500	
+candidates-02	solve | solution	roots-1500	solution; merged with solve
+candidates-02	honest | honest	roots-1500	near true (feko)
+candidates-02	post | post	roots-1500	
+candidates-02	electricity | electricity	roots-1500	
+candidates-02	park | park	roots-1500 deep	noun; verb 'park a car' is yaga tale
+candidates-02	connect | connection	root:penyu	noun; merged with connect
+candidates-02	debt | debt	roots-1500	
+candidates-02	Monday | monday	roots-1500	
+candidates-02	captain | captain	roots-1500	
+candidates-02	damage | damage	roots-1500	near break (alun)
+candidates-02	chest | chest	roots-1500	near breast (egu)
+candidates-02	deep | deep	root:lawan	depth; merged with deep
+candidates-02	tool | tool	root:yetu	equipment; merged with tool
+candidates-02	smile | smile	roots-1500 deep	near laugh (bubo)
+candidates-02	planet | planet	roots-1500	
+candidates-02	praise | praise	roots-1500	glorify; merged with praise
+candidates-02	race | race	roots-1500	contest or ethnic group
+candidates-02	fly | fly	root:bina+gekon	verb (bina); insect (gekon)
+candidates-02	late | late	root:yodun	delay; merged with late
+candidates-02	stand | stand	root:kolu	standing; merged with stand
+candidates-02	manage | manage	roots-1500	near lead (wungu)
+candidates-02	announce | announcement	roots-1500	noun; merged with announce
+candidates-02	hot | heat	root:tikun	heat; merged with hot
+candidates-02	angry | anger	root:bonko	anger; merged with angry
+candidates-02	agent | agent	roots-1500	
+candidates-02	dark | dark	root:buda	darkness; merged with dark
+candidates-02	station | station	roots-1500	
+candidates-02	assistant | assistant	entrant:covered	compose no yema
+candidates-02	hell | hell	roots-1500	
+candidates-02	bag | bag	root:yufa	pouch; merged with bag
+candidates-02	radio | radio	roots-1500 deep	
+candidates-02	representative | representative	roots-1500	proxy; merged with representative
+candidates-02	independent | independence	roots-1500	noun; near free (enpa)
+candidates-02	surprise | surprise	root:donon	surprisingly (stance)
+candidates-02	map | map	roots-1500	
+candidates-02	tooth | tooth	root:fonma	
+candidates-02	neck | neck	root:mogo	nape; merged with neck
+candidates-02	sin | sin	roots-1500	
+candidates-02	sentence | sentence	roots-1500	clause or court sentence
+candidates-02	birthday | birthday	roots-1500	
+candidates-02	artist | artist	roots-1500	
+candidates-02	pressure | pressure	roots-1500	
+candidates-02	secretary | secretary	roots-1500	
+candidates-02	empty | empty	root:tapun	vacant; merged with empty
+candidates-02	interview | interview	roots-1500	
+candidates-02	shoe | shoe	roots-1500 deep	
+candidates-02	status | status	entrant:missing	
+candidates-02	blue | blue	root:deta	
+candidates-02	Friday | friday	roots-1500	
+candidates-02	prime minister | prime minister	roots-1500	
+candidates-02	pair | pair	roots-1500	couple; merged with pair
+candidates-02	above | above	root:bige	upper; merged with above
+candidates-02	heavy | weight	root:gogo	noun; merged with heavy
+candidates-02	bomb | bomb	roots-1500	
+candidates-02	cup | cup	root:ladon	
+candidates-02	leaf | leaf	root:wonin	
+candidates-02	writer | writer	roots-1500	compose no tusi
+candidates-02	appointment | appointment	roots-1500	
+candidates-02	average | average	roots-1500	merged with average
+candidates-02	slave | slave	roots-1500	slavery; merged with slave
+candidates-02	private | private	root:kunsu	privacy; merged with private
+candidates-02	governor | governor	roots-1500	
+candidates-02	adult | adult	roots-1500	maturity; merged with adult
+candidates-02	literature | literature	roots-1500	literary; merged with literature
+candidates-02	egg | egg	root:tika	
+candidates-02	gather | collection	root:fanmu	collection; merged with gather
+candidates-02	former | former	roots-1500	
+candidates-02	statement | statement	roots-1500	
+candidates-02	prison | prison	roots-1500	merged with prison
+candidates-02	gun | gun	roots-1500	kind of weapon (botan)
+candidates-02	network | network	roots-1500	
+candidates-02	kiss | kiss	roots-1500 deep	
+candidates-02	content | content	roots-1500	
+candidates-02	arrange | arrange	roots-1500	noun; merged with arrange
+candidates-02	react | reaction	roots-1500	noun; merged with react
+candidates-02	intend | intention	cover:de	intention; INTEND marker
+candidates-02	figure | figure	roots-1500	
+candidates-02	fund | fund	roots-1500	
+candidates-02	hole | hole	roots-1500	
+candidates-02	bullet | bullet	roots-1500	
+candidates-02	gate | gate	roots-1500	near door (beya)
+candidates-02	milk | milk	root:tunlo	
+candidates-02	scene | scene	roots-1500	
+candidates-02	mention | mention	roots-1500	near say (oyi)
+candidates-02	progress | progress	roots-1500	progressive; merged with progress
+candidates-02	colonel | colonel	roots-1500	
+candidates-02	league | league	roots-1500	
+candidates-02	comment | comment	roots-1500	remark; merged with comment
+candidates-02	magazine | magazine	roots-1500	
+candidates-02	sum | total	roots-1500	total; merged with sum
+candidates-02	breast | breast	root:egu	
+candidates-02	finger | finger	root:linma	
+candidates-02	nose | nose	root:danki	
+candidates-02	wound | wound	roots-1500	injury; merged with wound
+candidates-02	stick | stick	roots-1500 deep	
+candidates-02	material | material	roots-1500	substance; merged with material
+candidates-02	principle | principle	roots-1500	
+candidates-02	breathe | breath	root:togun	noun; merged with breathe
+candidates-02	revolution | revolution	roots-1500	revolutionary; merged with revolution
+candidates-02	challenge | challenge	roots-1500	
+candidates-02	circle | circle	roots-1500	near round (kowan)
+candidates-02	chapter | chapter	roots-1500	sura; merged with chapter
+candidates-02	root | root	root:yinki	
+candidates-02	sorry | sorry	root:sepi	apologise
+candidates-02	afternoon | afternoon	root:duwun	
+candidates-02	hall | hall	roots-1500	
+candidates-02	salary | salary	entrant:composes	near pay (unfu)
+candidates-02	rent | rent	root:sanwa	
+candidates-02	corner | corner	roots-1500	
+candidates-02	avoid | avoid	entrant:missing	evade; merged with avoid
+candidates-02	sweet | sweet	root:sinta	noun; merged with sweet
+candidates-02	professor | professor	roots-1500	near teacher
+candidates-02	theory | theory	roots-1500	hypothesis; merged with theory
+candidates-02	serve | serve	roots-1500	
+candidates-02	box | box	root:nansa	
+candidates-02	low | low	root:linku	lower; merged with low
+candidates-02	wear | wear	root:yunko	put on; merged with wear
+candidates-02	ministry | ministry	roots-1500	
+candidates-02	excuse | excuse	roots-1500	near apologise (sepi)
+candidates-02	crowd | crowd	root:funti	group of people
+candidates-02	suitable | suitable	entrant:missing	appropriate; merged with suitable
+candidates-02	arrest | arrest	roots-1500	detention; merged with arrest
+candidates-02	cross | cross	roots-1500	
+candidates-02	quiet | quiet	root:mange	silence; merged with quiet
+candidates-02	title | title	roots-1500	heading; merged with title
+candidates-02	settle | settle	roots-1500	settlement; merged with settle
+candidates-02	income | income	roots-1500	merged with income
+candidates-02	ticket | ticket	roots-1500	
+candidates-02	vehicle | vehicle	roots-1500	generic; cart (siwa) and car (tale) exist
+candidates-02	warn | warning	cover:yo	warning; WARN marker
+candidates-02	guess | guess	entrant:missing	
+candidates-02	May | may	roots-1500	probably the month (modal would gloss as can)
+candidates-02	pray | prayer	roots-1500	noun; merged with pray
+candidates-02	garden | garden	roots-1500 deep	
+candidates-02	transfer | transfer	roots-1500	near send (sege)
+candidates-02	course | course	roots-1500	
+candidates-02	laugh | laugh	root:bubo	laughter; merged with laugh
+candidates-02	knife | knife	roots-1500 deep	
+candidates-02	silver | silver	roots-1500	
+candidates-02	beer | beer	roots-1500	
+candidates-02	user | user	roots-1500	compose no bone
+candidates-02	discuss | discussion	roots-1500	noun; near speak (kegu)
+candidates-02	factory | factory	roots-1500	
+candidates-02	March | march	roots-1500	month (or walk)
+candidates-02	parliament | parliament	roots-1500	congress; merged with parliament
+candidates-02	cheap | cheap	root:tanbu	merged with cheap
+candidates-02	delicious | delicious	entrant:composes	
+candidates-02	wood | wood	root:kima	log; merged with wood
+candidates-02	reputation | reputation	roots-1500	
+candidates-02	burn | burn	root:onti	ignite; merged with burn
+candidates-02	commander | commander	roots-1500	
+candidates-02	analyze | analysis	roots-1500	noun; merged with analyze
+candidates-02	contact | contact	roots-1500	suso la is only the phone list
+candidates-02	tradition | tradition	roots-1500	adjective; merged with tradition
+candidates-02	bridge | bridge	roots-1500	
+candidates-02	standard | standard	roots-1500	norm; merged with standard
+candidates-02	democracy | democracy	roots-1500	adjective; merged with democracy
+candidates-02	cat | cat	roots-1500 deep	
+candidates-02	yellow | yellow	root:bilun	
+candidates-02	punish | punishment	roots-1500	noun; merged with punish
+candidates-02	airport | airport	roots-1500	
+candidates-02	alcohol | alcohol	roots-1500	
+candidates-02	sad | sad	root:bayi	sorrow; merged with sad
+candidates-02	unit | unit	roots-1500	unit of measure; merged with unit
+candidates-02	smoke | smoke	root:penso	smoking; merged with smoke
+candidates-02	flag | flag	roots-1500 deep	merged with flag
+candidates-02	sense | sense	roots-1500	
+candidates-02	universe | universe	roots-1500	
+candidates-02	advertisement | advertisement	roots-1500	publicity; merged with advertisement
+candidates-02	iron | iron	roots-1500	
+candidates-02	bill | bill	roots-1500	
+candidates-02	add | add	root:ginni	addition; merged with add
+candidates-02	guest | guest	roots-1500	merged with guest
+candidates-02	player | player	roots-1500	compose no luse
+candidates-02	palace | palace	roots-1500	
+candidates-02	copy | copy	root:gayen	imitate; merged with copy
+candidates-02	detective | detective	roots-1500	
+candidates-02	virus | virus	roots-1500	
+candidates-02	partner | partner	entrant:missing	partnership; merged with partner
+candidates-02	regret | regret	roots-1500	repent; merged with regret
+candidates-02	smart | intelligence	root:gole	intelligence; merged with smart
+candidates-02	shame | shame	roots-1500	ashamed; merged with shame
+candidates-02	seed | seed	root:yikan	kernel; merged with seed
+candidates-02	trade | trade	roots-1500	commerce; merged with trade
+candidates-02	crisis | crisis	roots-1500	
+candidates-02	cell | cell	roots-1500	
+candidates-02	conclusion | conclusion	roots-1500	
+candidates-02	environment | environment	entrant:missing	surroundings; merged with environment
+candidates-02	fat | fat	root:gimen	body fat; adjective 'fat' not covered
+candidates-02	population | population	roots-1500	
+candidates-02	disappear | disappear	entrant:missing	vanish; merged with disappear
+candidates-02	expect | expect	roots-1500	noun; merged with expect
+candidates-02	slow | slowly	root:gake	adverb; merged with slow
+candidates-02	mathematics | mathematics	roots-1500	arithmetic; merged with mathematics
+candidates-02	pregnant | pregnant	roots-1500	pregnancy; merged with pregnant
+candidates-02	glass | glass	root:degun	material; drinking glass near cup
+candidates-02	sword | sword	roots-1500	
+candidates-02	ring | ring	roots-1500	
+candidates-02	servant | servant	roots-1500	
+candidates-02	constitution | constitution	roots-1500	constitutional; merged with constitution
+candidates-02	princess | princess	roots-1500	
+candidates-02	liquid | liquid	roots-1500	
+candidates-02	thief | thief	roots-1500	compose no bunsi
+candidates-02	strike | strike	roots-1500	hit or labour strike
+candidates-02	clock | clock	root:aya	merged with clock
+candidates-02	victim | victim	roots-1500	
+candidates-02	floor | floor	root:sison	storey; floor surface not covered
+candidates-02	winter | winter	roots-1500	
+candidates-02	destroy | destroy	entrant:missing	near break (alun)
+candidates-02	budget | budget	roots-1500	
+candidates-02	spread | spread	roots-1500	diffusion; merged with spread
+candidates-02	tax | tax	roots-1500	
+candidates-02	tongue | tongue	root:lisun	
+candidates-02	resolution | resolution	roots-1500	
+candidates-02	press | press	roots-1500	media or push
+candidates-02	grandfather | grandfather	roots-1500 deep	paternal grandfather; merged with grandfather
+candidates-02	mayor | mayor	roots-1500	
+candidates-02	push | push	root:dandi	
+candidates-02	belly | stomach	root:suyon	stomach; merged with belly
+candidates-02	edge | edge	roots-1500	merged with edge
+candidates-02	pig | pig	roots-1500 deep	merged with pig
+candidates-02	meat | meat	root:fuyu	flesh; merged with meat
+candidates-02	stupid | stupid	entrant:composes	opposite of smart (gole)
+candidates-02	wine | wine	roots-1500	
+candidates-02	aspect | aspect	roots-1500	
+candidates-02	current | current	entrant:composes	present or flow, ambiguous
+candidates-02	repair | fix	roots-1500 deep	fix; merged with repair
+candidates-02	exercise | exercise	roots-1500	merged with exercise
+candidates-02	explode | explosion	entrant:missing	noun; merged with explode
+candidates-02	complex | complex	roots-1500	
+candidates-02	novel | novel	roots-1500	
+candidates-02	jump | jump	roots-1500 deep	
+candidates-02	complain | complaint	root:tayin	complaint; merged with complain
+candidates-02	fool | fool	roots-1500	idiot; merged with fool
+candidates-02	emergency | emergency	roots-1500	
+candidates-02	sugar | sugar	roots-1500 deep	
+candidates-02	supply | supply	roots-1500	provision; merged with supply
+candidates-02	cancer | cancer	roots-1500	
+candidates-02	identity | identity	roots-1500	identification; merged with identity
+candidates-02	net | net	roots-1500	grid; merged with net
+candidates-02	wave | wave	roots-1500	
+candidates-02	boat | ship	root:binnu	ship; merged with boat
+candidates-02	flow | flow	root:magan	
+candidates-02	flat | flat	root:mawun	horizontal; merged with flat
+candidates-02	invite | invite	roots-1500	noun; merged with invite
+candidates-02	weak | weak	root:nensi	noun; merged with weak
+candidates-02	professional | professional	roots-1500	
+candidates-02	honey | honey	roots-1500	
+candidates-02	customer | customer	roots-1500	client; merged with customer
+candidates-02	file | file	root:kemin	
+candidates-02	wise | wisdom	roots-1500	wisdom; near smart (gole)
+candidates-02	square | square	roots-1500	
+candidates-02	roof | roof	root:kuwun	
+candidates-02	accuse | accusation	entrant:missing	noun; merged with accuse
+candidates-02	gas | gas	roots-1500	natural gas; merged with gas
+candidates-02	drive | drive	roots-1500 deep	driving; merged with drive
+candidates-02	port | port	roots-1500	merged with port
+candidates-02	devil | devil	roots-1500	demon; merged with devil
+candidates-02	bicycle | bicycle	roots-1500 deep	
+candidates-02	dirty | dirty	root:bodu	dirt; merged with dirty
+candidates-02	countryside | countryside	roots-1500	rural; merged with countryside
+candidates-02	grandmother | grandmother	roots-1500 deep	
+candidates-02	thread | thread	entrant:missing	near rope (tenbe)
+candidates-02	grave | grave	roots-1500	tomb; merged with grave
+candidates-02	channel | channel	roots-1500	
+candidates-02	summer | summer	roots-1500	
+candidates-02	bone | bone	root:gipo	
+candidates-02	metal | metal	roots-1500	
+candidates-02	positive | positive	roots-1500	
+candidates-02	camp | camp	roots-1500	
+candidates-02	lake | lake	root:nenwa	pond; merged with lake
+candidates-02	library | library	roots-1500	
+candidates-02	plain | plain	roots-1500	simple or flat land, ambiguous
+candidates-02	claim | claim	roots-1500	
+candidates-02	volume | volume	roots-1500	
+candidates-02	waste | waste	entrant:missing	near garbage (bekin)
+candidates-02	temperature | temperature	roots-1500	
+candidates-02	handle | handle	roots-1500	
+candidates-02	tie | tie	root:manfu	
+candidates-02	lion | lion	roots-1500 deep	
+candidates-02	steal | steal	root:bunsi	theft; merged with steal
+candidates-02	cook | cook	root:siten	cooking; merged with cook
+candidates-02	poet | poet	roots-1500	
+candidates-02	shoot | shoot	root:onlo	shot; merged with shoot
+candidates-02	civil | civil	entrant:artefact	
+candidates-02	opposite | opposite	roots-1500	
+candidates-02	restaurant | restaurant	roots-1500	
+candidates-02	exchange | exchange	roots-1500	
+candidates-02	heaven | heaven	roots-1500	near sky (yaye)
+candidates-02	climb | climb	root:falan	mount; merged with climb
+candidates-02	forgive | pardon	entrant:missing	pardon; merged with forgive
+candidates-02	snake | snake	root:dinbu	merged with snake
+candidates-02	block | block	roots-1500 deep	obstruct; merged with block
+candidates-02	pleasant | pleasant	roots-1500 deep	near good (upe)
+candidates-02	ice | ice	root:nokun	
+candidates-02	prevent | prevent	roots-1500	noun; merged with prevent
+candidates-02	presence | presence	roots-1500	
+candidates-02	oppose | opposition	root:ninsu	noun; merged with oppose
+candidates-02	surface | surface	roots-1500	merged with surface
+candidates-02	habit | habit	roots-1500	near manni (usually)
+candidates-02	soft | soft	root:tutin	
+candidates-02	chair | chair	roots-1500 deep	
+candidates-02	bottle | bottle	roots-1500 deep	
+candidates-02	imagine | imagination	roots-1500	noun; merged with imagine
+candidates-02	hurry | hurry	roots-1500 deep	near fast (yobe)
+candidates-02	lover | lover	roots-1500	compose no wigen
+candidates-02	funny | funny	entrant:composes	near laugh (bubo)
+candidates-02	row | row	roots-1500	
+candidates-02	access | access	roots-1500	
+candidates-02	camera | camera	root:kamela	
+candidates-02	metre | meter	root:metulu	
+candidates-02	register | registration	roots-1500	noun; merged with register
+candidates-02	federation | federation	roots-1500	federal; merged with federation
+candidates-02	compare | comparison	roots-1500	noun; merged with compare
+candidates-02	violence | violence	roots-1500	violent; merged with violence
+candidates-02	officer | officer	roots-1500	
+candidates-02	wake | wake up	root:unda	awake; merged with wake
+candidates-02	pocket | pocket	roots-1500	
+candidates-02	snow | snow	root:binso	
+candidates-02	load | load	entrant:missing	
+candidates-02	busy | busy	roots-1500	occupied; merged with busy
+candidates-02	fever | fever	roots-1500	
+candidates-02	nurse | nurse	roots-1500	
+candidates-02	hill | hill	entrant:covered	near mountain (genne)
+candidates-02	kitchen | kitchen	roots-1500 deep	
+candidates-02	negative | negative	roots-1500	
+candidates-02	breakfast | breakfast	roots-1500	
+candidates-02	poem | poetry	roots-1500	poetry; merged with poem
+candidates-02	mission | mission	roots-1500	
+candidates-02	engine | engine	roots-1500	motor; merged with engine
+candidates-02	trick | trick	roots-1500	
+candidates-02	media | media	roots-1500	
+candidates-02	heap | heap	entrant:missing	merged with heap
+candidates-02	warm | warm	entrant:missing	near hot (tikun)
+candidates-02	argument | argument	roots-1500	quarrel or reasoning
+candidates-02	ceremony | ceremony	roots-1500	ritual; merged with ceremony
+candidates-02	hat | hat	roots-1500 deep	
+candidates-02	behave | conduct	roots-1500	conduct; merged with behave
+candidates-02	disaster | disaster	entrant:missing	
+candidates-02	paint | painting	roots-1500 deep	painting; merged with paint
+candidates-02	mirror | mirror	roots-1500 deep	
+candidates-02	essence | essence	roots-1500	gist; merged with essence
+candidates-02	protest | protest	roots-1500	
+candidates-02	album | album	roots-1500	
+candidates-02	madam | madam	root:lanno	
+candidates-02	proud | pride	roots-1500	pride; merged with proud
+candidates-02	toilet | toilet	roots-1500	
+candidates-02	reference | reference	roots-1500	
+candidates-02	guarantee | guarantee	roots-1500	
+candidates-02	invest | investment	roots-1500	noun; merged with invest
+candidates-02	agriculture | agriculture	roots-1500	
+candidates-02	practice | practice	roots-1500	
+candidates-02	saint | saint	roots-1500	
+candidates-02	fresh | fresh	roots-1500	
+candidates-02	recognize | recognition	roots-1500	noun; merged with recognize
+candidates-02	philosophy | philosophy	roots-1500	
+candidates-02	board | board	roots-1500	plank; merged with board
+candidates-02	consciousness | consciousness	roots-1500	
+candidates-02	storm | storm	root:lapo	merged with storm
+candidates-02	fun | fun	entrant:covered	entertainment; merged with fun
+candidates-02	deliver | deliver	entrant:artefact	delivery; merged with deliver
+candidates-02	divorce | divorce	roots-1500	
+candidates-02	patience | patience	roots-1500	
+candidates-02	element | element	roots-1500	
+candidates-02	occasion | occasion	root:gimu	merged with occasion
+candidates-02	experiment | experiment	roots-1500	
+candidates-02	cheese | cheese	roots-1500 deep	
+candidates-02	knee | knee	root:leyi	
+candidates-02	major | major	roots-1500	
+candidates-02	temple | temple	roots-1500	shrine; merged with temple
+candidates-02	priest | priest	roots-1500	
+candidates-02	expression | expression	roots-1500	
+candidates-02	farm | farm	roots-1500	cultivation; merged with farm
+candidates-02	forbid | forbidden	entrant:composes	prohibition; merged with forbid
+candidates-02	brother | brother	root:faba	sibling
+candidates-02	noble | noble	roots-1500	
+candidates-02	prostitute | prostitute	roots-1500	
+candidates-02	champion | champion	roots-1500	winner; merged with champion
+candidates-02	desert | desert	roots-1500	
+candidates-02	tourism | tourism	roots-1500	
+candidates-02	effective | effective	entrant:artefact	efficient; merged with effective
+candidates-02	chicken | chicken	root:yiban	hen; merged with chicken
+candidates-02	driver | driver	roots-1500	
+candidates-02	unique | unique	entrant:missing	
+candidates-02	wide | wide	root:tugan	width; merged with wide
+candidates-02	wonder | wonder	entrant:artefact	
+candidates-02	screen | screen	roots-1500	monitor; merged with screen
+candidates-02	taxi | taxi	roots-1500	near car (tale)
+candidates-02	traffic | traffic	roots-1500	
+candidates-02	celebrate | celebration	entrant:missing	celebration; merged with celebrate
+candidates-02	robot | robot	roots-1500	
+candidates-02	mass | mass	roots-1500	
+candidates-02	sand | sand	root:digan	
+candidates-02	fan | fan	roots-1500	supporter; merged with fan
+candidates-02	scholar | scholar	roots-1500	
+candidates-02	fuel | gasoline	roots-1500	petrol; merged with fuel
+candidates-02	signature | signature	roots-1500	
+candidates-02	grain | grain	roots-1500	near seed (yikan)
+candidates-02	salt | salt	root:bunwu	
+candidates-02	sacrifice | sacrifice	roots-1500	offering; merged with sacrifice
+candidates-02	poison | poison	roots-1500	venom; merged with poison
+candidates-02	climate | climate	roots-1500	
+candidates-02	charge | charge	roots-1500	
+candidates-02	approach | approach	roots-1500	near near (gelu)
+candidates-02	muscle | muscle	roots-1500	
+candidates-02	grass | grass	root:tunmu	
+candidates-02	pound | pound	roots-1500	unit or currency
+candidates-02	contribute | contribution	roots-1500	noun; merged with contribute
+candidates-02	remainder | remainder	entrant:artefact	remains; merged with remainder
+candidates-02	mile | mile	roots-1500	
+candidates-02	popular | popular	roots-1500	noun; merged with popular
+candidates-02	plot | plot	roots-1500	
+candidates-02	introduce | introduction	roots-1500	noun; merged with introduce
+candidates-02	campaign | campaign	roots-1500	
+candidates-02	cloud | cloud	root:lanba	
+candidates-02	yell | shout	entrant:covered	shout; merged with yell
+candidates-02	describe | description	roots-1500	noun; merged with describe
+candidates-02	old man | old man	roots-1500	compose lowu pani
+candidates-02	treat | treatment	roots-1500	treatment; merged with treat
+candidates-02	cigarette | cigarette	roots-1500	
+candidates-02	perform | performance	roots-1500	noun; merged with perform
+candidates-02	associate | associate	entrant:artefact	
+candidates-02	elephant | elephant	roots-1500 deep	
+candidates-02	include | include	entrant:missing	involve; merged with include
+candidates-02	lecture | lecture	roots-1500	
+candidates-02	vision | vision	entrant:covered	
+candidates-02	angel | angel	roots-1500	
+candidates-02	Wednesday | wednesday	roots-1500	
+candidates-02	mouse | mouse	roots-1500 deep	
+candidates-02	frame | frame	roots-1500	merged with frame
+candidates-02	rare | rare	roots-1500	scarce; merged with rare
+candidates-02	blow | blow	root:nanyo	of air; 'a blow' not covered
+candidates-02	blame | blame	entrant:missing	
+candidates-02	magic | magic	root:wase	
+candidates-02	calculate | calculation	root:sunbu	calculation; count
+candidates-02	tip | tip	roots-1500	
+candidates-02	fill | fill	entrant:composes	near full (kete)
+candidates-02	surgery | surgery	roots-1500	
+candidates-02	childhood | childhood	roots-1500	compose muyi pi tiwu
+candidates-02	note | note	roots-1500	
+candidates-02	rate | rate	roots-1500	
+candidates-02	platform | platform	roots-1500	
+candidates-02	finance | finance	roots-1500	financial; merged with finance
+candidates-02	hungry | hunger	root:monyu	noun; merged with hungry
+candidates-02	reward | prize	roots-1500	prize; merged with reward
+candidates-02	exceed | exceed	entrant:missing	surpass; merged with exceed
+candidates-02	expensive | expensive	root:unwi	
+candidates-02	throat | throat	root:muban	
+candidates-02	treasure | treasure	roots-1500	
+candidates-02	fashion | fashion	roots-1500	
+candidates-02	bow | bow	roots-1500	bend or weapon
+candidates-02	miracle | miracle	roots-1500	near magic (wase)
+candidates-02	capacity | capacity	roots-1500	
+candidates-02	crown | crown	roots-1500	
+candidates-02	score | score	roots-1500	score a goal; merged with score
+candidates-02	tribe | tribe	roots-1500	
+candidates-02	link | link	roots-1500	
+candidates-02	reform | reform	roots-1500	
+candidates-02	rice | rice	root:yegon	
+candidates-02	fit | fit	entrant:artefact	
+candidates-02	active | active	entrant:artefact	
+candidates-02	politician | politician	roots-1500	
+candidates-02	joint | joint	roots-1500	
+candidates-02	decrease | decrease	entrant:missing	reduction; merged with decrease
+candidates-02	statue | statue	entrant:missing	
+candidates-02	staff | staff	entrant:artefact	personnel; merged with staff
+candidates-02	participate | participation	entrant:missing	participation; merged with participate
+candidates-02	sphere | sphere	roots-1500	
+candidates-02	bread | bread	root:sowe	
+candidates-02	prisoner | prisoner	roots-1500	merged with prisoner
+candidates-02	dawn | dawn	roots-1500	near morning (leso)
+candidates-02	glory | glory	roots-1500	
+candidates-02	belt | belt	roots-1500 deep	
+candidates-02	mystery | mystery	roots-1500	mysterious; merged with mystery
+candidates-02	noon | noon	root:minfi	merged with noon
+candidates-02	define | definition	roots-1500	noun; merged with define
+candidates-02	withdraw | withdraw	roots-1500	withdrawal; merged with withdraw
+candidates-02	extreme | extreme	roots-1500	
+candidates-02	occupy | occupy	entrant:artefact	
+candidates-02	fail | failure	roots-1500	failure; merged with fail
+candidates-02	lip | lip	root:gonge	
+candidates-02	wing | wing	root:yunbi	
+candidates-02	shadow | shadow	root:situ	merged with shadow
+candidates-02	blind | blind	roots-1500	
+candidates-02	singer | singer	roots-1500	compose no yuyun
+candidates-02	soup | soup	roots-1500 deep	
+candidates-02	characteristic | characteristic	entrant:missing	attribute; merged with characteristic
+candidates-02	spend | spend	roots-1500	near pay (unfu)
+candidates-02	tear | tear	roots-1500 deep	teardrop or rip, ambiguous
+candidates-02	throne | throne	roots-1500	
+candidates-02	warrior | warrior	roots-1500	fighter; merged with warrior
+candidates-02	knight | knight	roots-1500	
+candidates-02	tense | tense	roots-1500	verb tense or nervous, ambiguous
+candidates-02	garbage | garbage	root:bekin	
+candidates-02	decline | decline	entrant:artefact	
+candidates-02	insurance | insurance	roots-1500	
+candidates-02	contain | contain	entrant:missing	
+candidates-02	improve | improvement	roots-1500	noun; merged with improve
+candidates-02	reflection | reflection	roots-1500	reflect; merged with reflection
+candidates-02	layer | layer	roots-1500	
+candidates-02	obey | obey	entrant:missing	
+candidates-02	charm | charm	entrant:artefact	
+candidates-02	shower | shower	roots-1500 deep	
+candidates-02	essay | essay	roots-1500	
+candidates-02	museum | museum	roots-1500	
+candidates-02	engineering | engineering	roots-1500	
+candidates-02	chocolate | chocolate	roots-1500 deep	
+candidates-02	beach | coast	roots-1500 deep	shore; merged with beach
+candidates-02	wheel | wheel	roots-1500	
+candidates-02	mix | mix	roots-1500	mixture; merged with mix
+candidates-02	plate | plate	roots-1500 deep	dish; merged with plate
+candidates-02	pen | pen	roots-1500 deep	
+candidates-02	band | band	roots-1500	
+candidates-02	pour | pour	roots-1500 deep	
+candidates-02	cloth | cloth	root:demi	fabric; merged with cloth
+candidates-02	familiar | familiar	entrant:missing	
+candidates-02	broadcast | broadcast	roots-1500	broadcasting; merged with broadcast
+candidates-02	bishop | bishop	roots-1500	
+candidates-02	eternity | eternal	roots-1500	eternal; merged with eternity
+candidates-02	coin | coin	roots-1500	
+candidates-02	menstruation | menstruation	roots-1500	
+candidates-02	merit | merit	roots-1500	
+candidates-02	permanent | permanent	roots-1500	permanence; merged with permanent
+candidates-02	earthquake | earthquake	entrant:missing	
+candidates-02	text | text	entrant:covered	
+candidates-02	dry | dry	root:kilan	
+candidates-02	bride | bride	roots-1500	
+candidates-02	publish | publication	roots-1500	noun; merged with publish
+candidates-02	heal | cure	entrant:missing	cure; merged with heal
+candidates-02	edition | edition	roots-1500	
+candidates-02	chemistry | chemistry	roots-1500	chemical; merged with chemistry
+candidates-02	lock | lock	root:udin	
+candidates-02	bar | bar	roots-1500	
+candidates-02	medal | medal	roots-1500	
+candidates-02	balance | balance	roots-1500	
+candidates-02	hate | hate	entrant:missing	hatred; merged with hate
+candidates-02	tail | tail	root:kenlo	tails; merged with tail
+candidates-02	gender | gender	roots-1500	merged with gender
+candidates-02	Tuesday | tuesday	roots-1500	
+candidates-02	rose | rose	roots-1500	
+candidates-02	grade | grade	roots-1500	
+candidates-02	orange | orange	roots-1500 deep	
+candidates-02	monkey | monkey	roots-1500 deep	
+candidates-02	attend | attend	entrant:missing	
+candidates-02	decade | decade	entrant:composes	
+candidates-02	satisfied | satisfaction	roots-1500	noun; merged with satisfied
+candidates-02	statistics | statistics	roots-1500	
+candidates-02	detail | detail	roots-1500	detailed; merged with detail
+candidates-02	cruel | cruel	entrant:missing	
+candidates-02	tiger | tiger	roots-1500 deep	
+candidates-02	trial | trial	roots-1500	
+candidates-02	insect | insect	root:sunni	
+candidates-02	descend | go down	entrant:composes	go down; merged with descend
+candidates-02	cow | cow	root:dunsa	cattle; merged with cow
+candidates-02	lieutenant | lieutenant	roots-1500	
+candidates-02	curse | curse	roots-1500	
+candidates-02	superior | supreme	entrant:covered	supreme; merged with superior
+candidates-02	trap | trap	roots-1500	
+candidates-02	single | single	roots-1500	
+candidates-02	term | term	roots-1500	
+candidates-02	trace | trace	entrant:artefact	
+candidates-02	deposit | deposit	roots-1500	
+candidates-02	rope | rope	root:tenbe	string; merged with rope
+candidates-02	cake | cake	roots-1500 deep	
+candidates-02	chain | chain	entrant:missing	
+candidates-02	acquaintance | acquaintance	entrant:composes	
+candidates-02	guitar | guitar	roots-1500	
+candidates-02	sink | sink	roots-1500 deep	
+candidates-02	angle | angle	roots-1500	
+candidates-02	juice | juice	roots-1500 deep	
+candidates-02	shock | shock	roots-1500	shocked; merged with shock
+candidates-02	track | track	entrant:artefact	
+candidates-02	fence | fence	roots-1500	
+candidates-02	holiday | holiday	roots-1500	vacation; merged with holiday
+candidates-02	cinema | cinema	roots-1500	
+candidates-02	receipt | receipt	roots-1500	
+candidates-02	invent | invent	roots-1500	noun; merged with invent
+candidates-02	bell | bell	entrant:missing	
+candidates-02	bless | blessing	roots-1500	noun; merged with bless
+candidates-02	ugly | ugly	root:lanli	
+candidates-02	wolf | wolf	roots-1500 deep	
+candidates-02	passenger | passenger	roots-1500	
+candidates-02	shoulder | shoulder	root:sonyu	
+candidates-02	reader | reader	roots-1500	compose no lilu
+candidates-02	kindness | kindness	entrant:missing	humane; merged with kindness
+candidates-02	loan | loan	roots-1500	
+candidates-02	stress | stress	roots-1500	
+candidates-02	nonsense | nonsense	entrant:missing	
+candidates-02	monster | monster	roots-1500	
+candidates-02	flood | flood	roots-1500	
+candidates-02	farmer | farmer	roots-1500	
+candidates-02	virgin | virgin	roots-1500	
+candidates-02	fixed | fixed	entrant:artefact	
+candidates-02	terrorism | terrorism	roots-1500	terrorist; merged with terrorism
+candidates-02	thin | thin	root:gunmo	lean; merged with thin
+candidates-02	prophet | prophet	roots-1500	
+candidates-02	psychology | psychology	roots-1500	
+candidates-02	nerve | nerve	roots-1500	
+candidates-02	obstacle | obstacle	entrant:missing	hindrance; merged with obstacle
+candidates-02	review | review	roots-1500	near check (loban)
+candidates-02	fraud | fraud	entrant:missing	
+candidates-02	task | task	entrant:covered	near work (doku)
+candidates-02	achieve | achievement	entrant:missing	noun; merged with achieve
+candidates-02	apple | apple	roots-1500 deep	
+candidates-02	cooperate | cooperation	entrant:composes	noun; merged with cooperate
+candidates-02	vegetable | vegetable	roots-1500	
+candidates-02	needle | needle	roots-1500	
+candidates-02	urinate | urine	root:tibin	urine; merged with urinate
+candidates-02	promotion | promotion	roots-1500	promote; merged with promotion
+candidates-02	civilization | civilization	roots-1500	
+candidates-02	forehead | forehead	roots-1500	merged with forehead
+candidates-02	medium | medium	roots-1500	
+candidates-02	organism | organism	roots-1500	
+candidates-02	print | print	roots-1500	printing; merged with print
+candidates-02	turn off | turn off	roots-1500	
+candidates-02	button | button	root:tinli	
+candidates-02	sharp | sharp	root:tungi	
+candidates-02	background | background	roots-1500	
+candidates-02	headquarters | headquarters	roots-1500	
+candidates-02	pizza | pizza	roots-1500 deep	
+candidates-02	oxygen | oxygen	roots-1500	
+candidates-02	unity | unity	roots-1500	solidarity; merged with unity
+candidates-02	rape | rape	roots-1500	
+candidates-02	summary | summary	entrant:missing	summarize; merged with summary
+candidates-02	endure | endure	entrant:missing	
+candidates-02	crack | crack	root:buyan	split
+candidates-02	compound | compound	roots-1500	
+candidates-02	substitute | substitute	entrant:missing	merged with substitute
+candidates-02	vomit | vomit	root:gabu	
+candidates-02	available | available	roots-1500	
+candidates-02	apply | apply	entrant:artefact	
+candidates-02	wheat | wheat	roots-1500	
+candidates-02	symptom | symptom	roots-1500	
+candidates-02	acting | acting	entrant:artefact	
+candidates-02	shelter | shelter	entrant:missing	
+candidates-02	priority | priority	roots-1500	
+candidates-02	spy | spy	roots-1500	
+candidates-02	Thursday | thursday	roots-1500	
+candidates-02	ladder | ladder	roots-1500 deep	
+candidates-02	tired | tired	root:fadun	tiredness; merged with tired
+candidates-02	shield | shield	roots-1500	
+candidates-02	instrument | instrument	roots-1500	musical instrument; merged with instrument
+candidates-02	swim | swim	root:lonfe	swimming; merged with swim
+candidates-02	dress | dress	roots-1500 deep	garment; near clothes (lonne)
+candidates-02	plastic | plastic	roots-1500	
+candidates-02	logic | logic	roots-1500	reasoning; merged with logic
+candidates-02	formula | formula	roots-1500	
+candidates-02	spouse | spouse	root:ofin	
+candidates-02	cabinet | cabinet	roots-1500	
+candidates-02	toy | toy	roots-1500 deep	
+candidates-02	corruption | corruption	roots-1500	corrupt; merged with corruption
+candidates-02	kick | kick	roots-1500 deep	
+candidates-02	tower | tower	roots-1500	
+candidates-02	resemble | resemble	cover:fu	LIKE
+candidates-02	warehouse | warehouse	cover:pu kuwi	
+candidates-02	hunt | hunt	root:fesun	hunting; merged with hunt
+candidates-02	steel | steel	roots-1500	
+candidates-02	wizard | witch	cover:no wase	magician; merged with wizard
+candidates-02	certificate | certificate	roots-1500	diploma; merged with certificate
+candidates-02	ash | ash	root:sulen	
+candidates-02	coat | coat	roots-1500 deep	jacket; merged with coat
+candidates-02	gene | gene	roots-1500	
+candidates-02	shit | shit	root:desin	noun of defecate; also expletive
+candidates-02	wash | wash	root:pensi	
+candidates-02	native | native	roots-1500	
+candidates-02	credit | credit	roots-1500	
+candidates-02	organ | organ	roots-1500	
+candidates-02	maize | maize	roots-1500 deep	merged with maize
+candidates-02	repeat | repeat	roots-1500	noun; near again (moti)
+candidates-02	cream | cream	roots-1500	
+candidates-02	tight | tight	roots-1500	tightly; merged with tight
+candidates-02	rabbit | rabbit	roots-1500 deep	
+candidates-02	anniversary | anniversary	roots-1500	
+candidates-02	messenger | messenger	roots-1500	envoy; merged with messenger
+candidates-02	vagina | vagina	root:kedon	vulva
+candidates-02	destination | destination	roots-1500	
+candidates-02	continent | continent	roots-1500	
+candidates-02	pillar | pillar	roots-1500	column; merged with pillar
+candidates-02	coach | coach	roots-1500	trainer; merged with coach
+candidates-02	pole | pole	roots-1500	
+candidates-02	ratio | ratio	roots-1500	proportion; merged with ratio
+candidates-02	suspect | suspect	roots-1500	suspicion; merged with suspect
+candidates-02	diamond | diamond	roots-1500	gems or card suit
+candidates-02	lung | lung	root:badin	
+candidates-02	shift | shift	roots-1500	
+candidates-02	sister | sister	root:faba	sibling
+candidates-02	horn | horn	root:yansi	
+candidates-02	liar | liar	roots-1500	agent noun of lie (untruth)
+candidates-02	script | script	roots-1500	writing system
+candidates-02	pilot | pilot	roots-1500	
+candidates-02	womb | womb	roots-1500	
+candidates-02	host | host	roots-1500	
+candidates-02	bite | bite	root:lasu	
+candidates-02	circuit | circuit	roots-1500	
+candidates-02	context | context	roots-1500	
+candidates-02	loud | loud	root:dibon	
+candidates-02	ripe | mature	root:bubin	mature; merged with ripe
+candidates-02	pipe | pipe	roots-1500	tube; merged with pipe
+candidates-02	doll | doll	roots-1500 deep	
+candidates-02	sheep | sheep	roots-1500 deep	
+candidates-02	mud | mud	roots-1500	
+candidates-02	worm | worm	root:enna	
+candidates-02	liver | liver	root:gudu	
+candidates-02	edit | edit	roots-1500	
+candidates-02	young man | young man	roots-1500	compose lowu loyen
+candidates-02	regular | regular	roots-1500	near manni (usually)
+candidates-02	moral | moral	roots-1500	morality; merged with moral
+candidates-02	engineer | engineer	roots-1500	
+candidates-02	lamp | lamp	roots-1500 deep	merged with lamp
+candidates-02	missile | missile	roots-1500	
+candidates-02	own | own	root:ibe	possess (ibe); one's own (nen)
+candidates-02	factor | factor	roots-1500	
+candidates-02	nail | nail	root:tolin	of finger/toe; metal nail not covered
+candidates-02	grandchild | grandchild	roots-1500	grandson; merged with grandchild
+candidates-02	raw | raw	root:bewon	
+candidates-02	feed | feed	roots-1500 deep	near eat (nawi)
+candidates-02	principal | principal	roots-1500	
+candidates-02	lightning | lightning	root:mufin	
+candidates-02	goat | goat	root:elen	
+candidates-02	innocent | innocent	roots-1500	
+candidates-02	arrow | arrow	roots-1500	
+candidates-02	idol | idol	roots-1500	
+candidates-02	below | down	root:deba	down; merged with below
+candidates-02	thick | thick	root:woten	thickness; merged with thick
+candidates-02	giant | giant	roots-1500	near big (kudu)
+candidates-02	uncle | uncle	roots-1500 deep	maternal uncle; merged with uncle
+candidates-02	cart | carriage	root:siwa	carriage
+candidates-02	truck | truck	roots-1500 deep	kind of vehicle
+candidates-02	drunk | drunk	roots-1500	drunkard; merged with drunk
+candidates-02	physics | physics	roots-1500	
+candidates-02	represent | representation	roots-1500	noun; merged with represent
+candidates-02	last night | last night	roots-1500	compose yami + afe
+candidates-02	suicide | suicide	roots-1500	
+candidates-02	valley | valley	roots-1500	
+candidates-02	version | version	roots-1500	
+candidates-02	shirt | shirt	roots-1500 deep	
+candidates-02	journalist | journalist	roots-1500	reporter; merged with journalist
+candidates-02	password | password	cover:apu pi udin	
+candidates-02	donkey | donkey	roots-1500 deep	
+candidates-02	schedule | schedule	roots-1500	
+candidates-02	mosque | mosque	roots-1500	
+candidates-02	disgust | disgusting	root:bebu	disgusting; merged with disgust
+candidates-02	smooth | smooth	root:windi	
+candidates-02	pink | pink	roots-1500	
+candidates-02	scientist | scientist	roots-1500	researcher; merged with scientist
+candidates-02	bathroom | bathroom	roots-1500 deep	
+candidates-02	ambassador | ambassador	roots-1500	
+candidates-02	sensitive | sensitive	roots-1500	sensitivity; merged with sensitive
+candidates-02	presentation | presentation	roots-1500	
+candidates-02	tourist | tourist	roots-1500	
+candidates-02	butter | butter	roots-1500 deep	
+candidates-02	offend | insult	root:yenwu	insult; merged with offend
+candidates-02	boil | boil	root:binla	
+candidates-02	banana | banana	roots-1500 deep	
+candidates-02	hug | embrace	roots-1500 deep	embrace; merged with hug
+candidates-02	potato | potato	roots-1500 deep	kind of tuber (tengi)
+candidates-02	pope | pope	roots-1500	
+candidates-02	aunt | aunt	roots-1500 deep	paternal aunt; merged with aunt
+candidates-02	normal | normal	roots-1500	near manni (usually)
+candidates-02	necklace | necklace	roots-1500 deep	
+candidates-02	confess | acknowledge	roots-1500	noun; merged with confess
+candidates-02	passport | passport	roots-1500	
+candidates-02	copper | copper	roots-1500	
+candidates-02	pulse | pulse	roots-1500	
+candidates-02	yard | courtyard	roots-1500 deep	courtyard; merged with yard
+candidates-02	evolution | evolution	roots-1500	evolve; merged with evolution
+candidates-02	pool | pool	roots-1500 deep	swimming pool; merged with pool
+candidates-02	adjust | adjust	root:finsa	adjustment; merged with adjust
+candidates-02	spider | spider	roots-1500 deep	
+candidates-02	ride | ride	roots-1500 deep	
+candidates-02	rotten | rotten	root:yuson	
+candidates-02	swing | swing	roots-1500 deep	
+candidates-02	skirt | skirt	roots-1500 deep	
+candidates-02	atmosphere | atmosphere	roots-1500	
+candidates-02	testicles | testicle	root:bosun	
+candidates-02	setting | setting	cover:ge finsa la	configuration sense
+candidates-02	split | split	root:buyan	
+candidates-02	nut | nut	roots-1500 deep	
+candidates-02	volunteer | volunteer	roots-1500	
+candidates-02	pollution | pollution	roots-1500	
+candidates-02	wet | wet	root:wulon	
+candidates-02	shake | shake	root:susin	
+candidates-02	feather | feather	root:suba	
+candidates-02	vaccine | vaccine	roots-1500	
+candidates-02	tunnel | tunnel	roots-1500	
+candidates-02	transaction | transaction	roots-1500	
+candidates-02	toast | toast	roots-1500 deep	toasted bread or drinking salute
+candidates-02	tissue | tissue	roots-1500 deep	
+candidates-02	suck | suck	root:maman	
+candidates-02	studio | studio	roots-1500	
+candidates-02	strict | strict	roots-1500	
+candidates-02	sting | sting	root:lasu	bite
+candidates-02	stab | stab	root:kunwa	
+candidates-02	software | software	roots-1500	
+candidates-02	September | september	roots-1500	
+candidates-02	senator | senator	roots-1500	
+candidates-02	sauce | sauce	roots-1500 deep	
+candidates-02	satellite | satellite	roots-1500	
+candidates-02	retire | retirement	roots-1500	noun; merged with retire
+candidates-02	profile | profile	roots-1500	
+candidates-02	pillow | pillow	roots-1500 deep	
+candidates-02	piano | piano	roots-1500	
+candidates-02	pearl | pearl	roots-1500	
+candidates-02	parent | parents	roots-1500	merged with parent
+candidates-02	orbit | orbit	roots-1500	
+candidates-02	October | october	roots-1500	
+candidates-02	neighbour | neighbour	cover:no nume gelu	
+candidates-02	narrow | narrow	root:banlu	
+candidates-02	motorcycle | motorcycle	roots-1500 deep	
+candidates-02	mask | mask	roots-1500	
+candidates-02	kilometre | kilometre	root:kilometulu	
+candidates-02	June | june	roots-1500	
+candidates-02	July | july	roots-1500	
+candidates-02	January | january	roots-1500	
+candidates-02	ice cream | ice cream	roots-1500 deep	
+candidates-02	dust | dust	root:awin	
+candidates-02	dragon | dragon	cover:dinbu pi lumi	
+candidates-02	dig | dig	root:wenfe	
+candidates-02	cute | cute	roots-1500 deep	near beautiful (sesa)
+candidates-02	coward | coward	cover:no nuta	
+candidates-02	clown | clown	roots-1500 deep	
+candidates-02	cheek | cheek	roots-1500 deep	
+candidates-02	brown | brown	roots-1500 deep	
+candidates-02	bowl | bowl	roots-1500 deep	near cup (ladon)
+candidates-02	bee | bee	roots-1500 deep	
+candidates-02	battery | battery	root:batali	
+candidates-02	basket | basket	root:kanga	
+candidates-02	airplane | airplane	roots-1500 deep	plane; flat-surface sense not covered
+candidates-02	update | update	cover:muge duwa	upgrade; merged with update
+candidates-02	underwear | underwear	roots-1500 deep	
+candidates-02	thunder | thunder	root:seyun	
+candidates-02	thirst | thirst	roots-1500 deep	
+candidates-02	sweat | sweat	root:tiwe	
+candidates-02	stove | stove	roots-1500 deep	
+candidates-02	squeeze | squeeze	root:donbo	
+candidates-02	spoon | spoon	roots-1500 deep	
+candidates-02	spit | spit	root:kefa	
+candidates-02	soap | soap	roots-1500 deep	
+candidates-02	rumor | rumor	root:inwun	hearsay
+candidates-02	panic | panic	root:banga	
+candidates-02	onion | onion	root:lengu	
+candidates-02	hammer | hammer	roots-1500 deep	
+candidates-02	euro | euro	root:yulo	
+candidates-02	duck | duck	roots-1500 deep	
+candidates-02	drawer | drawer	roots-1500 deep	
+candidates-02	delete | delete	root:nuton	remove, erase
+candidates-02	deer | deer	roots-1500 deep	
+candidates-02	cough | cough	root:dowin	
+candidates-02	container | container	root:nansa	
+candidates-02	carpet | carpet	roots-1500 deep	
+candidates-02	balloon | balloon	roots-1500 deep	
+candidates-02	trousers | trousers, pants	roots-1500 deep	merged with trousers
+candidates-02	towel | towel	roots-1500 deep	
+candidates-02	tomato | tomato	roots-1500 deep	
+candidates-02	sweep | sweep	roots-1500 deep	
+candidates-02	subtract | subtract	root:guti	MINUS
+candidates-02	sofa | sofa	roots-1500 deep	
+candidates-02	owl | owl	roots-1500 deep	
+candidates-02	living room | living room	roots-1500 deep	
+candidates-02	licence | license	cover:du efon	merged with licence
+candidates-02	knot | knot	root:manfu	tie with a knot
+candidates-02	kilogram | kilogram	root:kilogulamu	
+candidates-02	helicopter | helicopter	roots-1500 deep	
+candidates-02	grape | grape	roots-1500 deep	
+candidates-02	glove | glove	roots-1500 deep	
+candidates-02	garage | garage	roots-1500 deep	
+candidates-02	frog | frog	roots-1500 deep	
+candidates-02	fox | fox	roots-1500 deep	
+candidates-02	fart | fart	root:paben	
+candidates-02	glasses | eyeglasses	roots-1500 deep	spectacles
+candidates-02	email | email	root:imeyilu	
+candidates-02	cookie | cookie	roots-1500 deep	
+candidates-02	comb | comb	roots-1500 deep	
+candidates-02	blanket | blanket	roots-1500 deep	
+candidates-02	bat | bat	cover:no bina mon ya	animal sense; club sense not covered
+candidates-02	bark | bark	root:tase	tree bark (tase); dog's bark not covered
+candidates-02	alien | alien	cover:no obu se yaye	extraterrestrial; 'foreigner' sense near foreign
+candidates-02	workplace | workplace	roots-1500 deep	compose pu doku
+candidates-02	swell | swelling	root:tingu	swelling; merged with swell
+candidates-02	soda | soda	roots-1500 deep	
+candidates-02	sock | sock	roots-1500 deep	
+candidates-02	sibling | sibling	root:faba	younger sibling
+candidates-02	shallow | shallow	root:lante	
+candidates-02	sandwich | sandwich	roots-1500 deep	
+candidates-02	salty | salty	root:lage	
+candidates-02	fridge | refrigerator	roots-1500 deep	refrigerator
+candidates-02	navel | navel	root:wuwu	
+candidates-02	mosquito | mosquito	root:gonte	
+candidates-02	lick | lick	roots-1500 deep	
+candidates-02	glue | glue	roots-1500 deep	
+candidates-02	crocodile | crocodile	roots-1500 deep	
+candidates-02	chin | chin	roots-1500 deep	
+candidates-02	butterfly | butterfly	roots-1500 deep	
+candidates-02	brush | brush	roots-1500 deep	
+candidates-02	bitter | bitter	root:finlu	
+candidates-02	wipe | wipe	roots-1500 deep	
+candidates-02	upload | upload	cover:sege tun bige	
+candidates-02	T-shirt | t-shirt	roots-1500 deep	
+candidates-02	spade | spade	roots-1500 deep	
+candidates-02	slide | slide	roots-1500 deep	near slip
+candidates-02	keyboard | keyboard	cover:tinli la	
+candidates-02	gram | gram	root:gulamu	
+candidates-02	fork | fork	roots-1500 deep	
+candidates-02	circus | circus	roots-1500 deep	
+candidates-02	broom | broom	roots-1500 deep	
+candidates-02	ant | ant	root:tonde	
+candidates-02	wardrobe | wardrobe, closet	roots-1500 deep	
+candidates-02	toe | toe	root:gonmi	
+candidates-02	candy | sweets	roots-1500 deep	sweets
+candidates-02	litre | litre	root:litulu	
+candidates-02	light (weight) | lightly	root:gamun	lightly
+additions-02	fact	proposed:root	something that is the case; "in fact"
+additions-02	common	proposed:boundary question	shared by many; ordinary, usual
+additions-02	accept	proposed:root	take what is offered; agree to receive
+additions-02	fate	proposed:root	destiny; what is fated to happen
+additions-02	influence	proposed:root	affect how someone thinks or acts; the effect itself
+additions-02	holy	proposed:root (author)	sacred, holy
+additions-02	status	proposed:boundary question	standing, rank or position in a group
+additions-02	avoid	proposed:root	keep away from, not do
+additions-02	suitable	proposed:root	fitting, proper for a purpose
+additions-02	guess	proposed:root	say or think without knowing for sure
+additions-02	partner	proposed:boundary question	one who shares an activity or life with another
+additions-02	environment	proposed:boundary question	the natural world around people; surroundings
+additions-02	disappear	proposed:root	stop being seen, vanish
+additions-02	destroy	proposed:boundary question	damage so it no longer exists or works
+additions-02	explode	proposed:root	burst violently
+additions-02	accuse	proposed:boundary question	say someone did wrong (formally or not)
+additions-02	thread	proposed:root	thin strand for sewing
+additions-02	waste	proposed:root	use up for nothing (time, money, food)
+additions-02	forgive	proposed:root	stop blaming someone for a wrong
+additions-02	load	proposed:root	something carried; burden; put on to carry
+additions-02	heap	proposed:built phrase	pile of things
+additions-02	warm	proposed:boundary question	pleasantly hot, between cold and hot
+additions-02	disaster	proposed:root	a sudden event causing great harm
+additions-02	unique	proposed:built phrase	the only one of its kind
+additions-02	celebrate	proposed:boundary question	mark a happy occasion with a gathering
+additions-02	include	proposed:boundary question	have as a part
+additions-02	blame	proposed:boundary question	hold responsible for a wrong
+additions-02	exceed	proposed:built phrase	be more than, go beyond
+additions-02	decrease	proposed:root	become or make less
+additions-02	statue	proposed:root	carved or cast figure
+additions-02	participate	proposed:built phrase	take part
+additions-02	characteristic	proposed:root	a feature or trait that marks something
+additions-02	contain	proposed:boundary question	have inside
+additions-02	obey	proposed:root	do as told
+additions-02	familiar	proposed:built phrase	known, acquainted with
+additions-02	earthquake	proposed:built phrase	shaking of the ground
+additions-02	heal	proposed:root	make or become healthy again; cure
+additions-02	hate	proposed:root	strong dislike
+additions-02	attend	proposed:boundary question	be present at
+additions-02	cruel	proposed:root	causing suffering on purpose
+additions-02	chain	proposed:root	linked metal rings
+additions-02	bell	proposed:root	hollow object that rings when struck
+additions-02	kindness	proposed:root	being good to others
+additions-02	nonsense	proposed:built phrase	words without meaning
+additions-02	obstacle	proposed:built phrase	thing in the way
+additions-02	fraud	proposed:root	deceiving for gain; cheating
+additions-02	achieve	proposed:boundary question	succeed in reaching a goal
+additions-02	summary	proposed:built phrase	short statement of the main points
+additions-02	endure	proposed:root	bear, tolerate (pain, hardship)
+additions-02	substitute	proposed:root	put or be in place of another
+additions-02	shelter	proposed:built phrase	place that protects
+walk-02	useful	walk:P	pi bone "of use" / upe fan bone
+walk-02	fake	walk:P	su [real] / su feko "not true"
+walk-02	ancestor	walk:G	a person one descends from, generations back
+walk-02	coal	walk:G	coal, charcoal: black fuel from the ground or burnt wood
+walk-02	wild	walk:G	not tamed, kept or grown by people (animal, plant, land)
+walk-02	careful	walk:P	nan [care] "with care"; warning: yo + verb
+walk-02	shine	walk:P	wino "light" used as a verb (giwe wino "the sun shines") / neke wino
+walk-02	athlete	walk:P	no [sport] "one who does sport"
+walk-02	forward	walk:P	tun sinye "to the front"
+walk-02	automatic	walk:L	automatic: avtomat/otomatik/otomatis/automático family
+walk-02	cave	walk:G	natural hollow in rock or a hillside
+walk-02	inherit (inheritance)	walk:G	receive property or a trait from those before (on death, from parents)
+walk-02	discrimination	walk:G	treat people unfairly because of their group
+walk-02	attitude	walk:G	attitude: a settled way of thinking or feeling about something
+walk-02	overcome	walk:P	yiyin "win (over)": yiyin batu "overcome a problem"
+walk-02	comfortable	walk:G	pleasant to be in or use; at ease
+walk-02	depend (dependence)	walk:G	depend on: be decided by; need in order to work
+walk-02	worthy	walk:G	worthy, deserve: be right to get (reward, punishment)
+walk-02	appoint	walk:P	waka "choose" (waka wan fan [position])
+walk-02	welfare	walk:G	welfare, well-being: being well off in health and living
+walk-02	neighborhood	walk:P	kemu gelu "nearby place" / [district]
+walk-02	infection	walk:G	infect, infection: pass or catch an illness
+walk-02	urgent	walk:G	urgent: needing action now
+walk-02	ceiling	walk:G	ceiling: the inside top of a room
+walk-02	reasonable	walk:P	fun ukun "by reason" / kidun "fair" (a reasonable price)
+walk-02	deny	walk:G	say that something is not true; refuse to admit
+walk-02	pattern	walk:G	a regular arrangement or repeated way (of shapes, of behaviour)
+walk-02	revenge	walk:G	harm done in return for harm
+walk-02	rebel (rebellion)	walk:P	no ninsu "one who opposes"
+walk-02	extraordinary	walk:P	[special] / ten lenya "very strange"
+walk-02	bay	walk:G	bay, gulf: part of the sea held by a curve of land
+walk-02	fold	walk:G	bend (cloth, paper) over onto itself
+walk-02	illusion	walk:G	illusion: something seen or believed that is not real
+walk-02	surrender	walk:P	bamo migi "stop fighting" / neke nen "give oneself"
+walk-02	harsh	walk:P	gufu "hard" (apu gufu "harsh words") / ten yomo
+walk-02	crazy	walk:G	mad; wildly foolish (colloquial)
+walk-02	creator	walk:P	no [create] "one who creates"
+walk-02	torture	walk:G	torture: cause great pain on purpose
+walk-02	artificial	walk:G	artificial, made by people (not natural)
+walk-02	attract	walk:P	nunya "pull" extended (nunya [attention])
+walk-02	bend	walk:G	make or become curved
+walk-02	perfume	walk:L	perfume: parfum/parfyum/perfume family
+walk-02	homosexual (gay)	walk:L	gay: gei/gay family
+walk-02	hang	walk:G	attach from above so it hangs down; be hanging
+walk-02	bribe	walk:G	money or gift given to make someone act wrongly
+walk-02	cannon	walk:G	cannon: big gun firing heavy shot
+walk-02	steam	walk:G	steam: water as hot gas or mist
+walk-02	canal	walk:G	canal: dug waterway
+walk-02	scatter	walk:P	[spread] / gitin "throw"
+walk-02	weed	walk:G	weed: unwanted wild plant among crops
+walk-02	surround	walk:G	be or go all around
+walk-02	stretch	walk:G	pull or reach out to full length
+walk-02	suffer	walk:G	suffer: undergo pain or hardship
+walk-02	leak	walk:G	leak: escape slowly through a hole (water, gas, news)
+walk-02	specific (particular)	walk:P	[special]
+walk-02	football	walk:L	football: futbol/football family
+walk-02	guilty	walk:G	guilty: having done the wrong
+walk-02	stranger	walk:G	stranger: a person one does not know
+walk-02	useless	walk:P	su pi bone "of no use" (4 syll)
+walk-02	lunch	walk:P	pasu pi minfi "noon meal" (5 syll)
+walk-02	bet	walk:G	risk money or goods on an outcome
+walk-02	pity (mercy)	walk:G	pity, mercy: feeling for another's suffering; sparing them
+walk-02	castle	walk:G	fort, castle: fortified building
+walk-02	violation	walk:P	alun wabun "break the law" (4 syll)
+walk-02	loyal	walk:G	faithful to a person, group or cause
+walk-02	embassy	walk:P	pu [ambassador] "ambassador's place"
+walk-02	estimate	walk:P	[guess]
+walk-02	export	walk:P	sege aban "send out" (4 syll)
+walk-02	import	walk:P	dinyo bese "carry in" (4 syll)
+walk-02	rhythm	walk:L	rhythm: ritm/ritmo/rythme/ritim/ritme family
+walk-02	impression	walk:G	impression: the effect something leaves on the mind
+walk-02	accent	walk:G	accent: way of pronouncing typical of a place or group
+walk-02	ideal	walk:P	[perfect]
+walk-02	harvest	walk:G	harvest: gather ripe crops; the crop gathered
+walk-02	murderer	walk:P	no omen "one who kills" (3 syll)
+walk-02	cage	walk:G	cage: enclosure of bars for animals
+walk-02	founder	walk:P	no [establish] (3 syll)
+walk-02	resident	walk:P	no nume "one who lives (here)" (3 syll)
+walk-02	cable	walk:G	wire, cable: metal strand or line carrying power or signals
+walk-02	virtue	walk:G	virtue: moral goodness; a good quality
+walk-02	genius	walk:P	ten gole "very smart" (3 syll)
+walk-02	tent	walk:G	tent: portable shelter of cloth
+walk-02	maintain	walk:P	[keep]
+walk-02	abuse	walk:G	abuse, mistreat: treat cruelly or use wrongly
+walk-02	refuse	walk:G	refuse: say no to (an offer, a request)
+walk-02	dam	walk:G	dam: wall holding back water
+walk-02	extra	walk:P	ke "more" / gen ginni "what is added" (3 syll)
+walk-02	excess	walk:G	excess, too much: more than is needed or right
+walk-02	semen	walk:G	semen
+walk-02	expansion	walk:P	guge "grow" (2 syll) / [spread]
+walk-02	temporary	walk:P	fan foke "for a moment" (3 syll)
+walk-02	envy	walk:G	envy, jealousy: resent another's good fortune or rival
+walk-02	swallow	walk:G	swallow: make food or drink go down the throat
+walk-02	follower	walk:P	no lefan "one who follows" (3 syll)
+walk-02	output	walk:P	gen muge "what is made" (3 syll)
+walk-02	powder	walk:G	powder: fine dry grains
+walk-02	conspiracy	walk:G	conspiracy, plot: secret plan by several to do harm
+walk-02	entrust	walk:G	entrust: give into another's care
+walk-02	funeral	walk:G	funeral: the rites for a dead person
+walk-02	lawsuit	walk:P	[case (legal)]
+walk-02	producer	walk:P	no muge "one who makes" (3 syll)
+walk-02	acid	walk:P	tufun "sour" (2 syll)
+walk-02	laboratory	walk:P	pu [experiment] (3 syll)
+walk-02	flour	walk:G	flour: grain ground to powder
+walk-02	reverse	walk:P	[opposite] / tun nebe "to the back" (3 syll)
+walk-02	omen	walk:P	[sign]
+walk-02	generous	walk:G	generous: giving freely
+walk-02	loose	walk:P	su [tight] "not tight" (3 syll)
+walk-02	inferior	walk:P	ke linku "lower" (3 syll)
+walk-02	bunch	walk:P	funti "group" (2 syll)
+entrants-02	fact	entrant:missing	abstract; news and talk ("in fact")
+entrants-02	common	entrant:missing	ordinary, shared
+entrants-02	accept	entrant:missing	near tayu "agree" and efon "allow", but taking an offer or gift is neither
+entrants-02	develop	entrant:covered	guge "grow" (the glosses are "development, growth, progress")
+entrants-02	fate	entrant:missing	destiny; a SA/WA everyday concept (balance-01's SA example)
+entrants-02	lack	entrant:list	on roots-1500 (ladder: covered:mu ibe); rebuild noise
+entrants-02	primary	entrant:covered	bawe "important" for "main, chief" (near)
+entrants-02	influence	entrant:missing	formal; near lula "power, control" but not the same
+entrants-02	duty	entrant:covered	keya "must" as a noun phrase (what one must do)
+entrants-02	deputy	entrant:artefact	mixes "vice-" with "member of parliament" (fa, tr, ru deputat); formal
+entrants-02	holy	entrant:missing	sacred; religious everyday word (balance-01's SA example)
+entrants-02	assistant	entrant:covered	no yema (one who helps), derived word
+entrants-02	status	entrant:missing	formal (rank, position)
+entrants-02	salary	entrant:composes	nimo pi doku (money of work); everyday
+entrants-02	avoid	entrant:missing	everyday
+entrants-02	suitable	entrant:missing	fit, proper; near denku "correct"
+entrants-02	guess	entrant:missing	everyday
+entrants-02	delicious	entrant:composes	tenmi upe (tastes good); everyday
+entrants-02	partner	entrant:missing	mixes business, romantic partner and buddy (sonu covers buddy)
+entrants-02	environment	entrant:missing	formal, news
+entrants-02	disappear	entrant:missing	everyday
+entrants-02	destroy	entrant:missing	near alun "break"
+entrants-02	stupid	entrant:composes	mu gole (not smart)
+entrants-02	current	entrant:composes	pi eda (of now)
+entrants-02	explode	entrant:missing	everyday and news
+entrants-02	accuse	entrant:missing	legal, news
+entrants-02	thread	entrant:missing	sewing; concrete
+entrants-02	waste	entrant:missing	mixes "waste time/money" with trash (trash is bekin)
+entrants-02	civil	entrant:artefact	civic/civilian/polite mixed; formal
+entrants-02	forgive	entrant:missing	everyday; sepi is "apologise" (balance-01's SA example)
+entrants-02	funny	entrant:composes	pi bubo (that makes one laugh)
+entrants-02	load	entrant:missing	burden; near dinyo "carry"
+entrants-02	hill	entrant:covered	genne "mountain" (many glosses lump: "hill, mountain", "hill, small mountain"); a boundary question,
+entrants-02	heap	entrant:missing	pile; minor
+entrants-02	warm	entrant:missing	tikun is "hot"; warm sits between (boundary question)
+entrants-02	disaster	entrant:missing	news (balance-01's EA example)
+entrants-02	fun	entrant:covered	luse "play, for fun"
+entrants-02	deliver	entrant:artefact	mixes "orate", "issuing", parcel delivery; delivery composes with sege "send"
+entrants-02	forbid	entrant:composes	mu efon (not allow)
+entrants-02	effective	entrant:artefact	mixes competence, efficiency, effectiveness
+entrants-02	unique	entrant:missing	formal; composes "only one"
+entrants-02	wonder	entrant:artefact	mixes "ask oneself", "marvel" and an exclamation
+entrants-02	celebrate	entrant:missing	celebration, festival; everyday in every region
+entrants-02	remainder	entrant:artefact	"remains" pulls in corpse glosses; rest/remainder composes with eni "other"
+entrants-02	yell	entrant:covered	oyi dibon (compounds.tsv)
+entrants-02	associate	entrant:artefact	overlaps partner and colleague
+entrants-02	include	entrant:missing	formal-ish but frequent
+entrants-02	vision	entrant:covered	nagu "see" (sight)
+entrants-02	blame	entrant:missing	everyday
+entrants-02	fill	entrant:composes	muge kete (make full)
+entrants-02	exceed	entrant:missing	formal
+entrants-02	link	entrant:list	du penyu (compounds.tsv); on roots-1500; rebuild noise
+entrants-02	fit	entrant:artefact	overlaps suitable ("fit, proper, appropriate")
+entrants-02	active	entrant:artefact	mixes "operative", "live", "energetic"; formal
+entrants-02	decrease	entrant:missing	everyday; opposite of ginni "add" is not it
+entrants-02	statue	entrant:missing	concrete (statue, idol)
+entrants-02	staff	entrant:artefact	mixes stick (rod, staff) and personnel
+entrants-02	participate	entrant:missing	formal
+entrants-02	occupy	entrant:artefact	mixes take up space, conquer, live in
+entrants-02	characteristic	entrant:missing	formal (feature, trait)
+entrants-02	decline	entrant:artefact	mixes decrease, refuse and grammar's "decline"
+entrants-02	contain	entrant:missing	overlaps include
+entrants-02	obey	entrant:missing	everyday; near lefan "follow"
+entrants-02	charm	entrant:artefact	mixes allure, amulet and spell (wase "magic")
+entrants-02	familiar	entrant:missing	acquainted, known; near lugo "know"
+entrants-02	merit	entrant:list	on roots-1500; rebuild noise
+entrants-02	earthquake	entrant:missing	concrete, news (balance-01's EA example)
+entrants-02	text	entrant:covered	kemin "document" or the message sense of liga/imeyilu; mixed
+entrants-02	heal	entrant:missing	cure, remedy; everyday
+entrants-02	medal	entrant:list	on roots-1500; rebuild noise
+entrants-02	hate	entrant:missing	everyday; not covered by wigen "love"
+entrants-02	attend	entrant:missing	be present at; partly mixed with "pay attention"
+entrants-02	decade	entrant:composes	yawu fawu (ten years)
+entrants-02	cruel	entrant:missing	everyday (one gloss is an intensifier)
+entrants-02	descend	entrant:composes	isi deba (go below)
+entrants-02	superior	entrant:covered	tisan "high" (higher, superior)
+entrants-02	trace	entrant:artefact	mixes trace, mark, footprint, track
+entrants-02	chain	entrant:missing	concrete
+entrants-02	acquaintance	entrant:composes	ewo pi lugo (a person one knows)
+entrants-02	track	entrant:artefact	mixes track, trace, line
+entrants-02	bell	entrant:missing	concrete
+entrants-02	kindness	entrant:missing	everyday virtue
+entrants-02	nonsense	entrant:missing	colloquial
+entrants-02	fixed	entrant:artefact	mixes steady, immovable, set
+entrants-02	obstacle	entrant:missing	formal-ish
+entrants-02	fraud	entrant:missing	deceit, cheating; near bunsi "steal"
+entrants-02	task	entrant:covered	doku "work, task, labour"
+entrants-02	achieve	entrant:missing	near wonku "reach"
+entrants-02	cooperate	entrant:composes	doku fanmu (work together); formal
+entrants-02	summary	entrant:missing	formal
+entrants-02	endure	entrant:missing	bear, tolerate; everyday
+entrants-02	substitute	entrant:missing	replacement
+entrants-02	apply	entrant:artefact	mixes put on (yaga) and make use of (bone)
+entrants-02	acting	entrant:artefact	mixes performance and "acting (interim)"
+entrants-02	shelter	entrant:missing	refuge; composes with kuwi "protect"

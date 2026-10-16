@@ -1,0 +1,1461 @@
+wold_id	field	meaning	concepticon	langs	fams	root_langs	root_fams	loan_langs	borrowed_score
+1-1	The physical world	the world	WORLD	38	22	18	14	9	0.40
+1-21	The physical world	the land	LAND	41	24	35	22	4	0.27
+1-212	The physical world	the soil	EARTH (SOIL)	39	24	37	24	1	0.10
+1-213	The physical world	the dust	DUST	41	24	29	16	5	0.23
+1-214	The physical world	the mud	MUD	40	24	30	21	3	0.15
+1-215	The physical world	the sand	SAND	41	24	33	20	4	0.10
+1-22	The physical world	the mountain or hill	MOUNTAIN OR HILL	41	24	38	22	3	0.17
+1-222	The physical world	the cliff or precipice	PRECIPICE	40	24	33	21	2	0.17
+1-23	The physical world	the plain	PLAIN	38	23	19	14	6	0.26
+1-24	The physical world	the valley	VALLEY	37	21	25	17	5	0.18
+1-25	The physical world	the island	ISLAND	37	23	18	14	12	0.39
+1-26	The physical world	the mainland	MAINLAND	25	16	6	6	10	0.42
+1-27	The physical world	the shore	SHORE	38	24	21	16	2	0.15
+1-28	The physical world	the cave	CAVE	41	24	27	19	6	0.20
+1-31	The physical world	the water	WATER	41	24	38	22	1	0.09
+1-32	The physical world	the sea	SEA	39	23	15	8	16	0.46
+1-322	The physical world	calm	CALM	31	18	15	10	6	0.26
+1-323	The physical world	rough(2)	ROUGH (OF SEA)	28	16	9	5	5	0.16
+1-324	The physical world	the foam	FOAM	41	24	30	20	3	0.15
+1-329	The physical world	the ocean	OCEAN	31	20	5	5	16	0.61
+1-33	The physical world	the lake	LAKE	39	24	24	18	8	0.21
+1-34	The physical world	the bay	BAY	23	14	12	9	6	0.34
+1-341	The physical world	the lagoon	LAGOON	22	14	9	8	7	0.39
+1-342	The physical world	the reef	REEF	20	13	9	7	4	0.24
+1-343	The physical world	the cape	CAPE	18	12	8	5	5	0.37
+1-35	The physical world	the wave	WAVE	37	24	25	16	4	0.13
+1-352	The physical world	the tide	TIDE	19	12	6	5	4	0.17
+1-353	The physical world	the low tide	LOW TIDE	18	11	6	5	1	0.12
+1-354	The physical world	the high tide	HIGH TIDE	22	12	6	3	2	0.14
+1-36	The physical world	the river or stream	FLOWING BODY OF WATER	41	24	30	20	4	0.22
+1-362	The physical world	the whirlpool	WHIRLPOOL	35	22	13	9	3	0.10
+1-37	The physical world	the spring or well	SPRING OR WELL	39	23	22	14	6	0.21
+1-38	The physical world	the swamp	SWAMP	38	23	23	14	6	0.21
+1-39	The physical world	the waterfall	WATERFALL	37	22	8	7	6	0.22
+1-41	The physical world	the woods or forest	FOREST	41	24	33	20	3	0.16
+1-43	The physical world	the wood	WOOD	41	24	32	21	5	0.14
+1-44	The physical world	the stone or rock	STONE OR ROCK	41	24	37	21	1	0.10
+1-45	The physical world	the earthquake	EARTHQUAKE	36	22	6	6	6	0.25
+1-51	The physical world	the sky	SKY	41	24	26	18	8	0.27
+1-52	The physical world	the sun	SUN	41	24	31	20	2	0.14
+1-53	The physical world	the moon	MOON	40	23	30	20	5	0.28
+1-54	The physical world	the star	STAR	41	24	31	20	6	0.17
+1-55	The physical world	the lightning	LIGHTNING	41	24	18	11	7	0.16
+1-56	The physical world	the thunder	THUNDER	40	24	25	16	3	0.10
+1-57	The physical world	the bolt of lightning	BOLT (OF LIGHTNING)	36	21	14	8	8	0.26
+1-58	The physical world	the storm	STORM	38	23	16	10	6	0.24
+1-59	The physical world	the rainbow	RAINBOW	41	24	18	14	2	0.14
+1-61	The physical world	the light	LIGHT (RADIATION)	41	24	26	16	4	0.21
+1-62	The physical world	the darkness	DARKNESS	41	24	18	16	5	0.15
+1-63	The physical world	the shade or shadow	SHADE	41	24	32	20	3	0.11
+1-64	The physical world	the dew	DEW	41	24	28	17	5	0.16
+1-71	The physical world	the air	AIR	36	20	19	11	13	0.48
+1-72	The physical world	the wind	WIND	41	24	35	22	4	0.17
+1-73	The physical world	the cloud	CLOUD	41	24	31	18	5	0.16
+1-74	The physical world	the fog	FOG	41	24	29	17	4	0.14
+1-75	The physical world	the rain	RAIN (PRECIPITATION)	41	24	34	20	3	0.08
+1-76	The physical world	the snow	SNOW	33	20	22	14	5	0.24
+1-77	The physical world	the ice	ICE	40	23	25	16	6	0.23
+1-78	The physical world	the weather	WEATHER	33	19	18	9	8	0.36
+1-81	The physical world	the fire	FIRE	41	24	40	23	0	0.04
+1-82	The physical world	the flame	FLAME	40	23	15	11	5	0.18
+1-83	The physical world	the smoke	SMOKE (EXHAUST)	41	24	33	22	2	0.08
+1-84	The physical world	the ash	ASH	41	24	27	17	4	0.15
+1-841	The physical world	the embers	EMBERS	39	24	15	10	7	0.25
+1-851	The physical world	to burn(1)	BURN (SOMETHING)	41	24	23	14	3	0.10
+1-852	The physical world	to burn(2)	BURNING	41	24	30	20	1	0.05
+1-86	The physical world	to light	LIGHT (IGNITE)	41	24	24	17	1	0.06
+1-861	The physical world	to extinguish	EXTINGUISH	41	24	17	13	5	0.15
+1-87	The physical world	the match	MATCH	40	24	5	4	24	0.67
+1-88	The physical world	the firewood	FIREWOOD	40	24	27	21	2	0.05
+1-89	The physical world	the charcoal	CHARCOAL	40	24	22	16	6	0.26
+2-1	Kinship	the person	PERSON	39	22	28	18	7	0.32
+2-21	Kinship	the man	MAN	41	24	28	17	1	0.10
+2-22	Kinship	the woman	WOMAN	41	24	29	18	2	0.16
+2-23	Kinship	male(1)	MALE (OF PERSON)	38	23	20	15	4	0.19
+2-24	Kinship	female(1)	FEMALE (OF PERSON)	38	23	23	19	3	0.16
+2-25	Kinship	the boy	BOY	40	24	20	13	3	0.17
+2-251	Kinship	the young man	YOUNG MAN	39	24	13	11	6	0.24
+2-26	Kinship	the girl	GIRL	40	24	20	14	2	0.14
+2-261	Kinship	the young woman	YOUNG WOMAN	39	24	18	15	4	0.17
+2-27	Kinship	the child(1)	CHILD (YOUNG HUMAN)	41	24	30	19	3	0.15
+2-28	Kinship	the baby	BABY	39	24	18	13	5	0.22
+2-31	Kinship	the husband	HUSBAND	41	24	31	20	4	0.20
+2-32	Kinship	the wife	WIFE	41	24	30	19	2	0.18
+2-33	Kinship	to marry	MARRY	41	24	18	12	7	0.14
+2-34	Kinship	the wedding	WEDDING	38	22	12	7	8	0.25
+2-341	Kinship	the divorce	DIVORCE	33	18	4	3	7	0.25
+2-35	Kinship	the father	FATHER	41	24	29	20	3	0.25
+2-36	Kinship	the mother	MOTHER	41	24	35	24	0	0.19
+2-37	Kinship	the parents	PARENTS	36	20	6	5	3	0.12
+2-38	Kinship	the married man	MARRIED MAN	28	18	7	5	2	0.05
+2-39	Kinship	the married woman	MARRIED WOMAN	29	20	6	4	1	0.01
+2-41	Kinship	the son	SON	40	24	29	20	2	0.11
+2-42	Kinship	the daughter	DAUGHTER	40	24	27	18	2	0.12
+3-662	Animals	the porpoise or dolphin	DOLPHIN	21	14	7	6	12	0.55
+2-43	Kinship	the child(2)	CHILD (DESCENDANT)	40	23	32	19	3	0.07
+2-44	Kinship	the brother	BROTHER	33	21	23	13	1	0.06
+2-444	Kinship	the older brother	OLDER BROTHER	35	23	21	15	1	0.06
+2-445	Kinship	the younger brother	YOUNGER BROTHER	34	23	17	12	1	0.03
+2-45	Kinship	the sister	SISTER	34	22	22	13	3	0.12
+2-454	Kinship	the older sister	OLDER SISTER	36	24	17	13	1	0.06
+2-455	Kinship	the younger sister	YOUNGER SISTER	34	24	17	11	1	0.01
+2-456	Kinship	the sibling	SIBLING	26	17	10	8	1	0.14
+2-458	Kinship	the twins	TWINS	38	22	13	9	8	0.23
+2-46	Kinship	the grandfather	GRANDFATHER	39	24	23	21	5	0.27
+2-461	Kinship	the old man	OLD MAN	36	24	13	10	5	0.23
+2-47	Kinship	the grandmother	GRANDMOTHER	39	24	20	17	5	0.27
+2-471	Kinship	the old woman	OLD WOMAN	37	24	12	10	4	0.13
+2-48	Kinship	the grandson	GRANDSON	37	24	19	14	3	0.10
+2-49	Kinship	the granddaughter	GRANDDAUGHTER	37	24	17	13	3	0.10
+2-51	Kinship	the uncle	UNCLE	27	18	18	14	6	0.30
+2-511	Kinship	the mother's brother	MATERNAL UNCLE (MOTHER'S BROTHER)	34	23	22	19	6	0.21
+2-512	Kinship	the father's brother	PATERNAL UNCLE (FATHER'S BROTHER)	33	22	17	15	7	0.22
+2-52	Kinship	the aunt	AUNT	28	18	16	13	8	0.24
+2-521	Kinship	the mother's sister	MATERNAL AUNT (MOTHER'S SISTER)	34	23	18	16	6	0.22
+2-522	Kinship	the father's sister	PATERNAL AUNT (FATHER'S SISTER)	33	23	22	19	7	0.28
+2-53	Kinship	the nephew	NEPHEW	32	21	11	8	7	0.19
+2-54	Kinship	the niece	NIECE	32	21	11	10	5	0.15
+2-55	Kinship	the cousin	COUSIN	34	22	14	10	3	0.12
+2-56	Kinship	the ancestors	ANCESTORS	39	23	11	9	8	0.28
+2-57	Kinship	the descendants	DESCENDANTS	33	21	10	7	9	0.35
+2-61	Kinship	the father-in-law (of a man)	FATHER-IN-LAW (OF MAN)	39	24	17	11	4	0.13
+2-611	Kinship	the father-in-law (of a woman)	FATHER-IN-LAW (OF WOMAN)	37	23	17	11	5	0.17
+2-62	Kinship	the mother-in-law (of a man)	MOTHER-IN-LAW (OF MAN)	38	23	16	12	3	0.12
+2-621	Kinship	the mother-in-law (of a woman)	MOTHER-IN-LAW (OF WOMAN)	36	22	15	12	5	0.19
+2-63	Kinship	the son-in-law (of a man)	SON-IN-LAW (OF MAN)	39	24	22	16	7	0.20
+2-631	Kinship	the son-in-law (of a woman)	SON-IN-LAW (OF WOMAN)	37	24	22	17	6	0.22
+2-64	Kinship	the daughter-in-law (of a man)	DAUGHTER-IN-LAW (OF MAN)	38	24	23	17	5	0.09
+2-641	Kinship	the daughter-in-law (of a woman)	DAUGHTER-IN-LAW (OF WOMAN)	37	24	23	17	5	0.11
+2-71	Kinship	the stepfather	STEPFATHER	37	22	3	3	2	0.12
+2-72	Kinship	the stepmother	STEPMOTHER	37	22	6	6	2	0.14
+2-73	Kinship	the stepson	STEPSON	34	20	4	3	3	0.07
+2-74	Kinship	the stepdaughter	STEPDAUGHTER	33	20	3	3	4	0.10
+2-75	Kinship	the orphan	ORPHAN	38	23	22	14	6	0.23
+2-76	Kinship	the widow	WIDOW	38	23	11	7	8	0.27
+2-77	Kinship	the widower	WIDOWER	37	23	10	7	7	0.21
+2-81	Kinship	the relatives	RELATIVES	40	24	16	12	10	0.40
+2-82	Kinship	the family	FAMILY	39	22	15	12	15	0.42
+2-91	Kinship	I	I	40	24	38	22	0	0.03
+2-92	Kinship	you (singular)	THOU	41	24	38	22	0	0.04
+2-93	Kinship	he/she/it	HE OR SHE OR IT	36	24	34	22	0	0.00
+2-94	Kinship	we	WE	32	20	26	16	0	0.01
+2-941	Kinship	we (inclusive)	WE (INCLUSIVE)	29	19	23	16	0	0.00
+2-942	Kinship	we (exclusive)	WE (EXCLUSIVE)	29	19	22	16	0	0.00
+2-95	Kinship	you (plural)	YOU	41	24	26	16	2	0.04
+2-96	Kinship	they	THEY	39	24	22	13	3	0.07
+3-11	Animals	the animal	ANIMAL	41	24	19	13	16	0.46
+3-12	Animals	male(2)	MALE (OF ANIMAL)	39	24	23	17	5	0.17
+3-13	Animals	female(2)	FEMALE (OF ANIMAL)	39	24	24	18	4	0.12
+3-15	Animals	the livestock	LIVESTOCK	35	20	15	8	8	0.28
+3-16	Animals	the pasture	PASTURE	34	21	14	8	10	0.36
+3-18	Animals	the herdsman	HERDSMAN	32	20	5	3	5	0.21
+3-19	Animals	the stable or stall	STABLE	37	22	18	10	8	0.25
+3-2	Animals	the cattle	CATTLE	30	19	12	9	9	0.32
+3-21	Animals	the bull	BULL	37	23	17	7	11	0.31
+3-22	Animals	the ox	OX	34	20	12	5	16	0.49
+3-23	Animals	the cow	COW	39	24	19	10	11	0.30
+3-24	Animals	the calf	CALF	38	23	14	8	7	0.21
+3-25	Animals	the sheep	SHEEP	38	22	23	13	13	0.43
+3-26	Animals	the ram	RAM	31	17	15	7	6	0.19
+3-28	Animals	the ewe	EWE	28	16	14	6	4	0.09
+3-29	Animals	the lamb	LAMB	34	19	14	8	6	0.20
+3-32	Animals	the boar	BOAR (MALE PIG)	34	21	15	10	4	0.23
+3-34	Animals	the sow	SOW (FEMALE PIG)	26	19	10	5	3	0.14
+3-35	Animals	the pig	PIG	41	24	28	15	10	0.30
+3-36	Animals	the goat	GOAT	38	21	21	11	15	0.37
+3-37	Animals	the he-goat	MALE GOAT	30	18	9	4	9	0.28
+3-38	Animals	the kid	YOUNG GOAT (KID)	31	19	7	5	4	0.12
+3-41	Animals	the horse	HORSE	41	24	16	9	23	0.57
+3-42	Animals	the stallion	STALLION	34	21	8	3	11	0.31
+3-44	Animals	the mare	MARE	32	20	9	3	7	0.27
+3-45	Animals	the foal or colt	FOAL	34	22	9	6	9	0.21
+3-46	Animals	the donkey	DONKEY	36	20	11	7	21	0.63
+3-47	Animals	the mule	MULE	29	16	4	4	20	0.69
+3-5	Animals	the fowl	FOWL	29	17	14	11	4	0.15
+3-52	Animals	the cock/rooster	ROOSTER	37	22	12	8	11	0.30
+3-54	Animals	the hen	HEN	34	20	15	8	6	0.13
+3-55	Animals	the chicken	CHICKEN	37	23	16	11	13	0.37
+3-56	Animals	the goose	GOOSE	35	22	16	11	16	0.47
+3-57	Animals	the duck	DUCK	38	24	18	13	13	0.46
+3-58	Animals	the nest	NEST	41	24	28	17	5	0.12
+3-581	Animals	the bird	BIRD	41	24	34	19	3	0.16
+3-582	Animals	the seagull	SEAGULL	22	16	13	10	5	0.21
+3-583	Animals	the heron	HERON	29	19	19	14	6	0.20
+3-584	Animals	the eagle	EAGLE	37	23	25	19	5	0.25
+3-585	Animals	the hawk	HAWK	38	23	27	18	5	0.16
+3-586	Animals	the vulture	VULTURE	32	19	23	17	3	0.11
+3-591	Animals	the bat	BAT	40	23	24	15	6	0.22
+3-592	Animals	the parrot	PARROT	35	21	14	13	16	0.50
+3-593	Animals	the crow	CROW	37	21	29	17	4	0.14
+3-594	Animals	the dove	DOVE	37	21	21	13	11	0.26
+3-596	Animals	the owl	OWL	40	24	31	23	4	0.15
+3-61	Animals	the dog	DOG	41	24	33	20	3	0.16
+3-614	Animals	the rabbit	RABBIT	36	21	16	13	12	0.44
+3-62	Animals	the cat	CAT	41	24	21	14	12	0.34
+3-622	Animals	the opossum	OPOSSUM	19	13	6	6	9	0.48
+3-63	Animals	the mouse or rat	MUROID (MOUSE OR RAT)	41	24	36	22	3	0.18
+3-65	Animals	the fish	FISH	41	24	34	18	4	0.15
+3-652	Animals	the fin	FIN	33	20	23	14	2	0.07
+3-653	Animals	the scale	SCALE	36	22	21	15	7	0.21
+3-654	Animals	the gill	GILL	29	17	19	12	6	0.19
+3-655	Animals	the shell	SHELL	36	21	23	14	5	0.21
+3-661	Animals	the shark	SHARK	22	14	9	5	9	0.43
+3-663	Animals	the whale	WHALE	24	14	8	5	9	0.43
+3-664	Animals	the stingray	STINGRAY	18	11	12	9	3	0.24
+3-665	Animals	the freshwater eel	FRESHWATER EEL	26	14	17	9	1	0.17
+3-71	Animals	the wolf	WOLF	30	18	16	11	6	0.27
+3-72	Animals	the lion	LION	36	20	10	8	23	0.66
+3-73	Animals	the bear	BEAR	31	19	20	12	11	0.35
+3-74	Animals	the fox	FOX	35	21	26	17	4	0.17
+3-75	Animals	the deer	DEER	35	22	28	20	4	0.15
+3-76	Animals	the monkey	MONKEY	37	21	25	18	9	0.33
+3-77	Animals	the elephant	ELEPHANT	34	18	10	8	23	0.64
+3-78	Animals	the camel	CAMEL	31	18	3	3	26	0.84
+3-81	Animals	the insect	INSECT	34	20	13	12	12	0.44
+3-811	Animals	the head louse	HEAD LOUSE	41	24	38	23	1	0.05
+3-812	Animals	the nit	NIT	37	22	21	11	2	0.05
+3-813	Animals	the flea	FLEA	40	23	29	18	2	0.07
+3-814	Animals	the centipede	CENTIPEDE	35	20	16	12	5	0.14
+3-815	Animals	the scorpion	SCORPION	34	18	17	11	12	0.32
+3-816	Animals	the cockroach	COCKROACH	37	21	15	9	13	0.36
+3-817	Animals	the ant	ANT	41	24	35	23	3	0.12
+3-818	Animals	the spider	SPIDER	41	24	25	19	8	0.25
+3-819	Animals	the spider web	SPIDER WEB	38	23	5	4	2	0.08
+3-82	Animals	the bee	BEE	41	24	25	16	4	0.14
+3-821	Animals	the beeswax	BEESWAX	34	21	13	8	4	0.10
+3-822	Animals	the beehive	BEEHIVE	36	22	11	7	4	0.13
+3-823	Animals	the wasp	WASP	40	24	30	22	5	0.16
+3-83	Animals	the fly	FLY (INSECT)	41	24	34	21	2	0.05
+3-831	Animals	the sandfly or midge or gnat	SANDFLY	31	19	23	17	3	0.08
+3-832	Animals	the mosquito	MOSQUITO	40	24	26	19	7	0.22
+3-84	Animals	the worm	WORM	40	23	29	18	6	0.12
+3-85	Animals	the snake	SNAKE	41	24	32	21	4	0.15
+3-91	Animals	the firefly	FIREFLY	35	21	16	11	2	0.10
+3-92	Animals	the butterfly	BUTTERFLY	41	24	23	15	3	0.14
+3-93	Animals	the grasshopper	GRASSHOPPER	41	24	25	17	5	0.11
+3-94	Animals	the snail	SNAIL	39	22	22	14	5	0.21
+3-95	Animals	the frog	FROG	41	24	29	21	9	0.22
+3-96	Animals	the lizard	LIZARD	40	24	30	20	7	0.23
+3-97	Animals	the crocodile or alligator	CROCODILE	37	20	15	9	17	0.53
+3-98	Animals	the turtle	TURTLE	37	21	25	16	7	0.24
+4-11	The body	the body	BODY	40	24	34	23	3	0.19
+4-12	The body	the skin or hide	SKIN	41	24	34	21	1	0.11
+4-13	The body	the flesh	FLESH	41	24	36	22	4	0.15
+4-14	The body	the hair	HAIR (HEAD)	41	24	33	20	1	0.06
+4-142	The body	the beard	BEARD	40	24	29	18	5	0.17
+4-144	The body	the body hair	HAIR (BODY)	38	23	26	19	4	0.12
+4-145	The body	the pubic hair	PUBIC HAIR	38	24	22	18	5	0.17
+4-146	The body	the dandruff	DANDRUFF	37	24	14	10	7	0.26
+4-15	The body	the blood	BLOOD	41	24	39	22	1	0.10
+4-151	The body	the vein or artery	BLOOD VESSEL	41	24	18	12	5	0.26
+4-16	The body	the bone	BONE	41	24	35	22	2	0.08
+4-162	The body	the rib	RIB	41	24	23	14	1	0.11
+4-17	The body	the horn	HORN (ANATOMY)	41	24	32	21	7	0.16
+4-18	The body	the tail	TAIL	41	24	37	23	3	0.12
+4-19	The body	the back	BACK	41	24	34	21	4	0.08
+4-191	The body	the spine	SPINE	41	24	11	9	4	0.14
+4-2	The body	the head	HEAD	41	24	36	21	3	0.20
+4-201	The body	the temples	TEMPLES	31	19	18	10	3	0.18
+4-202	The body	the skull	SKULL	39	23	8	5	5	0.18
+4-203	The body	the brain	BRAIN	41	24	32	19	5	0.13
+4-204	The body	the face	FACE	41	24	31	21	4	0.27
+4-205	The body	the forehead	FOREHEAD	41	24	28	20	2	0.07
+4-207	The body	the jaw	JAW	40	24	23	15	3	0.13
+4-208	The body	the cheek	CHEEK	40	23	32	18	1	0.07
+4-209	The body	the chin	CHIN	41	24	29	19	1	0.06
+4-21	The body	the eye	EYE	41	24	32	20	2	0.10
+4-212	The body	the eyebrow	EYEBROW	41	24	20	12	5	0.15
+4-213	The body	the eyelid	EYELID	40	24	8	6	2	0.04
+4-214	The body	the eyelash	EYELASH	41	24	12	9	3	0.07
+4-215	The body	to blink	BLINK	41	24	11	10	5	0.14
+4-22	The body	the ear	EAR	41	24	37	21	0	0.10
+4-221	The body	the earlobe	EARLOBE	34	21	5	4	2	0.09
+4-222	The body	the earwax	EARWAX	36	23	8	6	1	0.08
+4-23	The body	the nose	NOSE	41	24	38	22	1	0.03
+4-231	The body	the nostril	NOSTRIL	40	24	4	4	3	0.07
+4-232	The body	the nasal mucus	NASAL MUCUS (SNOT)	40	23	32	20	1	0.07
+4-24	The body	the mouth	MOUTH	41	24	38	22	1	0.08
+4-241	The body	the beak	BEAK	39	23	22	15	6	0.26
+4-25	The body	the lip	LIP	41	24	25	16	1	0.08
+4-26	The body	the tongue	TONGUE	41	24	35	21	2	0.07
+4-27	The body	the tooth	TOOTH	41	24	39	24	1	0.12
+4-271	The body	the gums	GUMS	39	23	21	13	2	0.14
+4-272	The body	the molar tooth	MOLAR TOOTH	39	23	21	14	2	0.09
+4-28	The body	the neck	NECK	41	24	34	21	3	0.10
+4-281	The body	the nape of the neck	NAPE (OF NECK)	37	22	22	14	5	0.17
+4-29	The body	the throat	THROAT	41	24	33	18	4	0.13
+4-3	The body	the shoulder	SHOULDER	41	24	30	20	5	0.13
+4-301	The body	the shoulderblade	SHOULDERBLADE	37	23	12	10	4	0.23
+4-302	The body	the collarbone	COLLARBONE	34	23	6	6	6	0.16
+4-31	The body	the arm	ARM	40	24	34	22	3	0.09
+4-312	The body	the armpit	ARMPIT	41	24	28	18	3	0.15
+4-32	The body	the elbow	ELBOW	40	24	22	17	3	0.09
+4-321	The body	the wrist	WRIST	39	24	12	10	3	0.13
+4-33	The body	the hand	HAND	41	24	35	22	3	0.15
+4-331	The body	the palm of the hand	PALM OF HAND	40	24	13	9	4	0.11
+4-34	The body	the finger	FINGER	41	24	26	16	2	0.05
+4-342	The body	the thumb	THUMB	40	23	11	7	0	0.08
+4-344	The body	the fingernail	FINGERNAIL	41	24	30	19	2	0.08
+4-345	The body	the claw	CLAW	40	24	31	19	4	0.12
+4-35	The body	the leg	LEG	39	23	32	21	4	0.15
+4-351	The body	the thigh	UPPER LEG (THIGH)	41	24	30	19	2	0.09
+4-352	The body	the calf of the leg	CALF OF LEG	38	24	20	13	3	0.07
+4-36	The body	the knee	KNEE	41	24	33	20	2	0.09
+4-37	The body	the foot	FOOT	41	24	35	21	2	0.14
+4-371	The body	the ankle	ANKLE	41	24	18	13	5	0.11
+4-372	The body	the heel	HEEL	41	24	25	15	3	0.06
+4-374	The body	the footprint	FOOTPRINT	41	24	16	11	5	0.13
+4-38	The body	the toe	TOE	41	24	16	8	3	0.09
+4-392	The body	the wing	WING	41	24	32	21	4	0.12
+4-393	The body	the feather	FEATHER	41	24	29	18	4	0.11
+4-4	The body	the chest	CHEST	41	24	32	21	5	0.17
+4-41	The body	the breast	BREAST	41	24	36	23	2	0.05
+4-412	The body	the nipple or teat	NIPPLE	39	24	15	10	0	0.06
+4-42	The body	the udder	UDDER	37	23	30	18	2	0.05
+4-43	The body	the navel	NAVEL	41	24	35	22	4	0.12
+4-44	The body	the heart	HEART	41	24	37	23	2	0.22
+4-441	The body	the lung	LUNG	40	24	22	14	9	0.26
+4-45	The body	the liver	LIVER	41	24	36	22	3	0.13
+4-451	The body	the kidney	KIDNEY	41	24	27	15	7	0.17
+4-452	The body	the spleen	SPLEEN	34	19	25	16	6	0.20
+4-46	The body	the stomach	STOMACH	41	24	28	19	9	0.32
+4-461	The body	the intestines or guts	INTESTINES	41	24	29	17	5	0.17
+4-462	The body	the waist	WAIST	38	23	28	18	4	0.16
+4-463	The body	the hip	HIP	41	24	32	19	2	0.12
+4-464	The body	the buttocks	BUTTOCKS	41	24	31	18	2	0.10
+4-47	The body	the womb	WOMB	40	23	17	10	6	0.29
+4-49	The body	the testicles	TESTICLES	41	24	28	17	2	0.21
+4-492	The body	the penis	PENIS	41	24	34	23	3	0.29
+4-51	The body	to breathe	BREATHE	41	24	15	10	3	0.12
+4-52	The body	to yawn	YAWN	41	24	16	12	3	0.12
+4-521	The body	to hiccough	HICCOUGH	41	24	24	16	4	0.13
+4-53	The body	to cough	COUGH	41	24	24	16	2	0.06
+4-54	The body	to sneeze	SNEEZE	41	24	26	19	2	0.12
+4-55	The body	to perspire	SWEAT (PERSPIRE)	41	24	15	10	3	0.15
+4-56	The body	to spit	SPIT	41	24	23	14	1	0.06
+4-57	The body	to vomit	VOMIT	40	24	28	18	2	0.22
+4-58	The body	to bite	BITE	41	24	29	19	1	0.04
+4-59	The body	to lick	LICK	41	24	28	18	4	0.16
+4-591	The body	to dribble	DRIBBLE	37	22	14	11	2	0.10
+4-61	The body	to sleep	SLEEP	41	24	29	18	2	0.10
+4-612	The body	to snore	SNORE	41	24	18	12	5	0.12
+4-62	The body	to dream	DREAM (SOMETHING)	40	23	18	14	2	0.09
+4-63	The body	to wake up	WAKE UP	41	24	23	15	3	0.11
+4-64	The body	to fart	FART	40	24	25	15	1	0.04
+4-65	The body	to piss	PISS	40	24	20	15	3	0.19
+4-66	The body	to shit	SHIT (DEFECATE)	41	24	21	14	1	0.15
+4-67	The body	to have sex	COPULATE	40	23	23	16	2	0.12
+4-68	The body	to shiver	SHIVER	41	24	25	16	3	0.07
+4-69	The body	to bathe	BATHE	41	24	20	15	4	0.12
+4-71	The body	to beget	BEGET	33	20	15	9	3	0.16
+4-72	The body	to be born	BE BORN	41	24	16	12	8	0.17
+4-73	The body	pregnant	PREGNANT	40	24	16	12	2	0.07
+4-732	The body	to conceive	CONCEIVE	34	21	10	7	2	0.09
+4-74	The body	to be alive	BE ALIVE	41	24	23	15	3	0.13
+4-75	The body	to die	DIE	41	24	32	19	3	0.20
+4-751	The body	to drown	DROWN	39	23	17	13	3	0.16
+4-76	The body	to kill	KILL	41	24	25	18	3	0.08
+4-77	The body	the corpse	CORPSE	39	23	17	11	11	0.37
+4-78	The body	to bury	BURY	41	24	27	17	4	0.12
+4-79	The body	the grave	GRAVE	41	24	21	13	11	0.30
+4-81	The body	strong	STRONG	41	24	24	16	5	0.28
+4-82	The body	weak	WEAK	40	24	23	15	4	0.17
+4-83	The body	healthy	HEALTHY	40	23	15	10	11	0.35
+4-84	The body	sick/ill	SICK	41	24	26	16	4	0.18
+4-841	The body	the fever	FEVER	40	24	19	12	10	0.31
+4-842	The body	the goitre/goiter	GOITER	30	18	14	9	3	0.14
+4-843	The body	the cold	COMMON COLD (DISEASE)	40	23	21	14	6	0.19
+4-85	The body	the wound or sore	WOUND	41	24	30	19	4	0.15
+4-852	The body	the bruise	BRUISE	39	23	20	14	1	0.07
+4-853	The body	the swelling	SWELLING	40	24	20	16	2	0.12
+4-854	The body	the itch	ITCH	39	24	20	16	0	0.03
+4-855	The body	the blister	BLISTER	39	23	20	11	3	0.10
+4-856	The body	the boil	BOIL (OF SKIN)	39	23	26	18	4	0.13
+4-857	The body	the pus	PUS	40	24	32	20	5	0.12
+4-858	The body	the scar	SCAR	38	21	20	11	6	0.24
+4-86	The body	to cure	CURE	40	23	14	9	6	0.19
+4-87	The body	the physician	PHYSICIAN	40	24	9	7	16	0.59
+4-88	The body	the medicine	MEDICINE	41	24	19	16	13	0.42
+4-89	The body	the poison	POISON	40	24	19	13	14	0.44
+4-91	The body	tired	TIRED	39	23	24	16	6	0.20
+4-912	The body	to rest	REST	41	24	18	13	5	0.21
+4-92	The body	lazy	LAZY	41	24	29	19	5	0.24
+4-93	The body	bald	BALD	41	24	20	12	7	0.19
+4-94	The body	lame	LAME	39	24	25	17	4	0.18
+4-95	The body	deaf	DEAF	40	23	19	12	3	0.16
+4-96	The body	mute	MUTE	38	23	22	15	3	0.12
+4-97	The body	blind	BLIND	40	23	26	16	3	0.11
+4-98	The body	drunk	DRUNK	41	24	18	13	2	0.07
+4-99	The body	naked	NAKED	40	23	26	17	2	0.08
+5-11	Food and drink	to eat	EAT	41	24	34	21	1	0.08
+5-12	Food and drink	the food	FOOD	40	24	16	11	5	0.17
+5-121	Food and drink	cooked	COOKED	40	23	21	15	3	0.06
+5-122	Food and drink	raw	RAW	40	24	33	21	1	0.05
+5-123	Food and drink	ripe	RIPE	41	24	26	16	3	0.09
+5-124	Food and drink	unripe	UNRIPE	37	24	23	18	3	0.10
+5-125	Food and drink	rotten	ROTTEN	41	24	23	15	6	0.16
+5-13	Food and drink	to drink	DRINK	41	24	29	17	3	0.10
+5-14	Food and drink	to be hungry	BE HUNGRY	41	24	21	14	0	0.03
+5-141	Food and drink	the famine	FAMINE	36	21	16	12	5	0.17
+5-15	Food and drink	to be thirsty	BE THIRSTY	41	24	12	10	2	0.07
+5-16	Food and drink	to suck	SUCK	41	24	31	19	2	0.06
+5-18	Food and drink	to chew	CHEW	41	24	30	19	1	0.07
+5-181	Food and drink	to swallow	SWALLOW	40	24	26	19	2	0.08
+5-19	Food and drink	to choke	CHOKE	38	23	17	13	4	0.17
+5-21	Food and drink	to cook	COOK (SOMETHING)	40	23	23	16	5	0.18
+5-22	Food and drink	to boil	BOIL (OF LIQUID)	41	24	23	16	7	0.18
+5-23	Food and drink	to roast or fry	ROAST OR FRY	41	24	30	20	4	0.28
+5-24	Food and drink	to bake	BAKE	37	24	23	15	6	0.16
+5-25	Food and drink	the oven	OVEN	36	23	11	5	17	0.51
+5-26	Food and drink	the pot	POT	41	24	28	19	6	0.33
+5-27	Food and drink	the kettle	KETTLE	34	20	11	8	20	0.68
+5-28	Food and drink	the pan	PAN	39	23	9	7	19	0.55
+5-31	Food and drink	the dish	DISH	37	21	15	9	21	0.55
+5-32	Food and drink	the plate	PLATE	40	24	14	10	23	0.54
+5-33	Food and drink	the bowl	BOWL	39	23	20	13	16	0.56
+5-34	Food and drink	the jug/pitcher	JUG	35	19	17	11	11	0.40
+5-35	Food and drink	the cup	CUP	40	24	10	7	21	0.62
+5-36	Food and drink	the saucer	SAUCER	31	19	3	2	17	0.50
+5-37	Food and drink	the spoon	SPOON	41	24	21	13	13	0.40
+5-38	Food and drink	the knife(1)	KNIFE (FOR EATING)	37	24	22	15	9	0.26
+5-39	Food and drink	the fork	FORK	36	23	10	8	17	0.54
+5-391	Food and drink	the tongs	TONGS	37	20	14	9	13	0.40
+5-41	Food and drink	the meal	MEAL	38	23	20	11	1	0.14
+5-42	Food and drink	the breakfast	BREAKFAST	35	21	4	4	6	0.26
+5-43	Food and drink	the lunch	LUNCH	34	21	8	3	8	0.26
+5-44	Food and drink	the dinner	DINNER (SUPPER)	25	18	3	3	4	0.18
+5-45	Food and drink	the supper	DINNER (SUPPER)	30	18	7	4	4	0.19
+5-46	Food and drink	to peel	PEEL	41	24	21	16	4	0.15
+5-47	Food and drink	to sieve or to strain	SIEVE OR STRAIN	40	23	26	17	5	0.17
+5-48	Food and drink	to scrape	SCRAPE	39	24	27	19	3	0.09
+5-49	Food and drink	to stir or to mix	MIX	41	24	24	18	4	0.13
+5-51	Food and drink	the bread	BREAD	40	23	12	6	18	0.48
+5-53	Food and drink	the dough	DOUGH	36	22	16	9	9	0.31
+5-54	Food and drink	to knead	KNEAD	41	24	27	15	5	0.15
+5-55	Food and drink	the flour	FLOUR	41	24	22	15	14	0.35
+5-56	Food and drink	to crush or to grind	GRIND	41	24	29	18	1	0.08
+5-57	Food and drink	the mill	MILL	32	20	11	7	9	0.30
+5-58	Food and drink	the mortar(1)	MORTAR	36	22	25	17	6	0.18
+5-59	Food and drink	the pestle	PESTLE	34	20	11	10	5	0.15
+5-61	Food and drink	the meat	MEAT	41	24	34	19	5	0.13
+5-63	Food and drink	the sausage	SAUSAGE	29	17	10	5	14	0.53
+5-64	Food and drink	the soup	SOUP	39	24	18	14	17	0.53
+5-65	Food and drink	the vegetables	VEGETABLES	36	23	18	14	9	0.26
+5-66	Food and drink	the bean	BEAN	38	21	19	13	13	0.41
+5-7	Food and drink	the potato	POTATO	38	23	11	10	16	0.42
+5-71	Food and drink	the fruit	FRUIT	39	22	19	12	8	0.25
+5-712	Food and drink	the bunch	BUNCH	34	20	22	16	6	0.14
+5-75	Food and drink	the fig	FIG	28	16	7	6	16	0.56
+5-76	Food and drink	the grape	GRAPE	33	20	12	7	15	0.46
+5-77	Food and drink	the nut	NUT	33	20	21	11	7	0.27
+5-78	Food and drink	the olive	OLIVE	23	13	2	2	21	0.93
+5-79	Food and drink	the oil	OIL (ORGANIC SUBSTANCE)	40	23	14	11	19	0.60
+5-791	Food and drink	the grease or fat	FAT (ORGANIC SUBSTANCE)	40	24	31	20	5	0.18
+5-81	Food and drink	the salt	SALT	41	24	34	22	5	0.15
+5-82	Food and drink	the pepper	PEPPER	34	20	5	4	21	0.66
+5-821	Food and drink	the chili pepper	CHILI PEPPER	36	21	15	13	13	0.41
+5-84	Food and drink	the honey	HONEY	40	23	22	13	11	0.31
+5-85	Food and drink	the sugar	SUGAR	41	24	4	4	33	0.79
+5-86	Food and drink	the milk	MILK	41	24	23	12	10	0.31
+5-87	Food and drink	to milk	DRAW MILK	37	22	18	12	2	0.07
+5-88	Food and drink	the cheese	CHEESE	32	19	7	5	20	0.66
+5-89	Food and drink	the butter	BUTTER	35	20	11	8	15	0.49
+5-9	Food and drink	the drink	BEVERAGE	39	23	12	9	3	0.08
+5-91	Food and drink	the mead	MEAD	16	10	4	1	4	0.32
+5-92	Food and drink	the wine	WINE	36	21	10	9	24	0.74
+5-93	Food and drink	the beer	BEER	37	21	10	6	24	0.68
+5-94	Food and drink	the fermented drink	ALCOHOL (FERMENTED DRINK)	31	21	15	13	12	0.48
+5-97	Food and drink	the egg	EGG	41	24	33	21	2	0.09
+5-971	Food and drink	the yolk	YOLK	38	24	13	8	1	0.03
+6-11	Clothing and grooming	to put on	PUT ON	41	24	23	16	3	0.07
+6-12	Clothing and grooming	the clothing or clothes	CLOTHES	40	23	19	12	5	0.20
+6-13	Clothing and grooming	the tailor	TAILOR	30	17	2	2	7	0.29
+6-21	Clothing and grooming	the cloth	CLOTH	40	24	23	16	12	0.36
+6-22	Clothing and grooming	the wool	WOOL	33	20	16	11	6	0.32
+6-23	Clothing and grooming	the linen	LINEN	21	13	3	1	14	0.66
+6-24	Clothing and grooming	the cotton	COTTON	35	21	13	11	16	0.49
+6-25	Clothing and grooming	the silk	SILK	32	20	3	2	25	0.80
+6-27	Clothing and grooming	the felt	FELT	19	12	9	6	7	0.39
+6-28	Clothing and grooming	the fur	FUR	38	23	25	18	8	0.29
+6-29	Clothing and grooming	the leather	LEATHER	39	24	27	18	4	0.14
+6-31	Clothing and grooming	to spin	SPIN	38	24	27	18	0	0.01
+6-32	Clothing and grooming	the spindle	SPINDLE	33	21	21	16	3	0.10
+6-33	Clothing and grooming	to weave	WEAVE	37	22	30	20	2	0.07
+6-34	Clothing and grooming	the loom	LOOM	28	17	14	11	3	0.16
+6-35	Clothing and grooming	to sew	SEW	41	24	30	20	4	0.11
+6-36	Clothing and grooming	the needle(1)	NEEDLE (FOR SEWING)	41	24	20	11	14	0.37
+6-37	Clothing and grooming	the awl	AWL	27	19	14	9	9	0.28
+6-38	Clothing and grooming	the thread	THREAD	40	23	25	18	10	0.28
+6-39	Clothing and grooming	to dye	DYE	34	21	13	11	7	0.22
+6-41	Clothing and grooming	the cloak	CLOAK	24	15	3	2	15	0.70
+6-411	Clothing and grooming	the poncho	PONCHO	18	12	7	6	10	0.58
+7-37	The house	the ladder	LADDER	41	24	23	14	7	0.23
+6-42	Clothing and grooming	the (woman's) dress	DRESS	38	23	11	10	14	0.47
+6-43	Clothing and grooming	the coat	COAT	36	22	6	4	21	0.61
+6-44	Clothing and grooming	the shirt	SHIRT	41	24	17	9	16	0.51
+6-45	Clothing and grooming	the collar	COLLAR	35	22	16	12	10	0.37
+6-46	Clothing and grooming	the skirt	SKIRT	40	23	17	11	20	0.61
+6-461	Clothing and grooming	the grass-skirt	GRASS-SKIRT	9	7	2	2	2	0.25
+6-48	Clothing and grooming	the trousers	TROUSERS	40	24	12	10	23	0.56
+6-49	Clothing and grooming	the sock or stocking	STOCKING	40	23	5	5	25	0.68
+6-51	Clothing and grooming	the shoe	SHOE	41	24	20	14	16	0.45
+6-52	Clothing and grooming	the boot	BOOT	37	22	9	6	23	0.67
+6-54	Clothing and grooming	the shoemaker	SHOEMAKER	26	16	3	2	5	0.24
+6-55	Clothing and grooming	the hat or cap	HEADGEAR	40	24	20	16	14	0.49
+6-57	Clothing and grooming	the belt	BELT	40	24	22	17	6	0.30
+6-58	Clothing and grooming	the glove	GLOVE	30	18	4	3	7	0.23
+6-59	Clothing and grooming	the veil	VEIL	24	16	5	3	11	0.60
+6-61	Clothing and grooming	the pocket	POCKET	38	24	13	10	22	0.60
+6-62	Clothing and grooming	the button	BUTTON	38	23	15	9	20	0.59
+6-63	Clothing and grooming	the pin	PIN	33	20	11	8	15	0.58
+6-71	Clothing and grooming	the ornament or adornment	ORNAMENT	35	20	14	11	9	0.31
+6-72	Clothing and grooming	the jewel	JEWEL	26	17	8	6	11	0.48
+6-73	Clothing and grooming	the ring	RING	39	23	20	12	9	0.22
+6-74	Clothing and grooming	the bracelet	BRACELET	37	21	10	8	9	0.20
+6-75	Clothing and grooming	the necklace	NECKLACE	39	23	24	18	5	0.24
+6-76	Clothing and grooming	the bead	BEAD	38	22	25	17	7	0.25
+6-77	Clothing and grooming	the earring	EARRING	40	23	14	10	7	0.21
+6-78	Clothing and grooming	the headband or headdress	HEADBAND OR HEADDRESS	34	21	12	9	8	0.37
+6-79	Clothing and grooming	the tattoo	TATTOO	25	13	12	7	5	0.23
+6-81	Clothing and grooming	the handkerchief or rag	RAG	38	22	10	9	13	0.48
+6-82	Clothing and grooming	the towel	TOWEL	38	23	4	2	22	0.66
+6-91	Clothing and grooming	the comb	COMB	40	23	23	15	5	0.17
+6-92	Clothing and grooming	the brush	BRUSH	34	22	11	9	18	0.48
+6-921	Clothing and grooming	the plait/braid	BRAID	38	24	17	9	5	0.22
+6-93	Clothing and grooming	the razor	RAZOR	36	21	7	5	10	0.34
+6-94	Clothing and grooming	the ointment	OINTMENT	37	21	10	6	13	0.43
+6-95	Clothing and grooming	the soap	SOAP	41	24	6	3	31	0.78
+6-96	Clothing and grooming	the mirror	MIRROR	39	23	12	10	14	0.40
+7-11	The house	to live	DWELL (LIVE, RESIDE)	41	24	30	20	3	0.15
+7-12	The house	the house	HOUSE	41	24	34	19	4	0.11
+7-13	The house	the hut	HUT	38	24	18	15	11	0.39
+7-131	The house	the garden-house	GARDEN-HOUSE	17	12	6	4	4	0.31
+7-14	The house	the tent	TENT	32	19	9	8	16	0.64
+7-15	The house	the yard or court	YARD	36	21	24	15	6	0.23
+7-16	The house	the men's house	MEN'S HOUSE	10	7	3	3	1	0.13
+7-17	The house	the cookhouse	COOKHOUSE	32	20	5	4	9	0.33
+7-18	The house	the meeting house	MEETING HOUSE	24	17	5	5	3	0.25
+7-21	The house	the room	ROOM	38	23	16	12	15	0.51
+7-22	The house	the door or gate	DOOR	41	24	27	14	5	0.23
+7-221	The house	the doorpost	DOORPOST	31	17	7	6	4	0.23
+7-23	The house	the lock	LOCK	36	22	10	8	16	0.51
+7-231	The house	the latch or door-bolt	LATCH	30	18	11	8	10	0.40
+7-24	The house	the key	KEY	39	23	9	5	17	0.47
+7-25	The house	the window	WINDOW	39	23	10	7	19	0.57
+7-26	The house	the floor	FLOOR	39	22	24	16	6	0.35
+7-27	The house	the wall	WALL (OF HOUSE)	38	21	25	17	10	0.34
+7-31	The house	the fireplace	FIREPLACE	38	23	15	10	5	0.23
+7-32	The house	the stove	STOVE	31	18	9	6	15	0.58
+7-33	The house	the chimney	CHIMNEY	28	17	6	5	8	0.34
+7-42	The house	the bed	BED	40	24	21	13	11	0.39
+7-421	The house	the pillow	PILLOW	38	22	21	16	7	0.26
+7-422	The house	the blanket	BLANKET	40	24	15	12	15	0.48
+7-43	The house	the chair	CHAIR	41	24	12	7	19	0.47
+7-44	The house	the table	TABLE	39	23	7	5	28	0.74
+7-45	The house	the lamp or torch	TORCH OR LAMP	41	24	17	12	20	0.65
+7-46	The house	the candle	CANDLE	38	23	10	8	23	0.63
+7-47	The house	the shelf	SHELF	34	21	13	11	13	0.44
+7-48	The house	the trough	TROUGH	34	21	19	11	10	0.31
+7-51	The house	the roof	ROOF	41	24	19	12	2	0.14
+7-52	The house	the thatch	THATCH	29	19	12	9	1	0.03
+7-53	The house	the ridgepole	RIDGEPOLE	30	18	14	8	3	0.12
+7-54	The house	the rafter	RAFTER	37	22	17	10	5	0.17
+7-55	The house	the beam	BEAM	40	23	23	14	9	0.30
+7-56	The house	the post or pole	POST	39	23	23	15	12	0.39
+7-57	The house	the board	BOARD	39	23	19	11	15	0.38
+7-58	The house	the arch	ARCH	29	17	10	6	10	0.46
+7-61	The house	the mason	MASON	26	15	3	3	11	0.42
+7-62	The house	the brick	BRICK	34	21	6	6	23	0.66
+7-63	The house	the mortar(2)	MORTAR BINDER	24	12	11	7	8	0.50
+7-64	The house	the adobe	ADOBE	20	14	6	5	7	0.31
+8-11	Agriculture and vegetation	the farmer	FARMER	32	19	2	2	14	0.44
+8-12	Agriculture and vegetation	the field	FIELD	40	24	30	17	4	0.19
+8-13	Agriculture and vegetation	the garden	GARDEN	32	19	16	9	13	0.46
+8-15	Agriculture and vegetation	to cultivate	CULTIVATE	31	17	14	10	3	0.14
+8-16	Agriculture and vegetation	the fence	FENCE	39	23	26	16	10	0.27
+8-17	Agriculture and vegetation	the ditch	DITCH	36	20	15	10	11	0.48
+8-21	Agriculture and vegetation	to plough/plow	PLOUGH	33	19	15	7	8	0.26
+8-212	Agriculture and vegetation	the furrow	FURROW	27	18	17	11	3	0.19
+8-22	Agriculture and vegetation	to dig	DIG	40	24	29	19	3	0.11
+8-23	Agriculture and vegetation	the spade	SPADE	34	20	12	9	15	0.50
+8-24	Agriculture and vegetation	the shovel	SHOVEL	36	22	12	9	22	0.61
+8-25	Agriculture and vegetation	the hoe	HOE	36	22	18	11	10	0.29
+8-26	Agriculture and vegetation	the fork(2)/pitchfork	PITCHFORK	29	18	14	10	11	0.41
+8-27	Agriculture and vegetation	the rake	RAKE	35	20	10	7	11	0.35
+8-31	Agriculture and vegetation	to sow	SOW SEEDS	38	21	27	18	2	0.07
+8-311	Agriculture and vegetation	the seed	SEED	41	24	28	19	6	0.20
+8-32	Agriculture and vegetation	to mow	MOW	34	21	20	14	4	0.16
+8-33	Agriculture and vegetation	the sickle or scythe	SICKLE OR SCYTHE	33	21	16	8	13	0.52
+8-34	Agriculture and vegetation	to thresh	THRESH	33	20	18	12	4	0.17
+8-35	Agriculture and vegetation	the threshing-floor	THRESHING-FLOOR	27	19	9	5	3	0.18
+8-41	Agriculture and vegetation	the harvest	HARVEST OR HARVEST SEASON	34	19	12	6	8	0.27
+8-42	Agriculture and vegetation	the grain	GRAIN	30	19	16	11	8	0.39
+8-43	Agriculture and vegetation	the wheat	WHEAT	35	20	10	4	17	0.52
+8-44	Agriculture and vegetation	the barley	BARLEY	28	16	10	4	15	0.55
+8-45	Agriculture and vegetation	the rye	RYE	17	11	6	3	6	0.33
+8-46	Agriculture and vegetation	the oats	OAT	21	13	5	2	14	0.68
+8-47	Agriculture and vegetation	the maize/corn	MAIZE	38	22	17	13	16	0.39
+8-48	Agriculture and vegetation	the rice	RICE	36	21	11	7	25	0.62
+8-51	Agriculture and vegetation	the grass	GRASS	40	24	32	19	6	0.17
+8-52	Agriculture and vegetation	the hay	HAY	33	21	21	12	5	0.15
+8-53	Agriculture and vegetation	the plant	PLANT (VEGETATION)	34	20	13	10	10	0.36
+8-531	Agriculture and vegetation	to plant	PLANT (SOMETHING)	39	22	20	13	7	0.23
+8-54	Agriculture and vegetation	the root	ROOT	41	24	36	22	1	0.06
+8-55	Agriculture and vegetation	the branch	BRANCH OR TWIG	41	24	33	23	5	0.17
+8-56	Agriculture and vegetation	the leaf	LEAF	41	24	37	22	2	0.10
+8-57	Agriculture and vegetation	the flower	FLOWER	41	24	30	18	5	0.25
+8-6	Agriculture and vegetation	the tree	TREE	41	24	29	20	6	0.25
+8-61	Agriculture and vegetation	the oak	OAK	22	16	13	9	6	0.29
+8-62	Agriculture and vegetation	the beech	BEECH	13	8	9	5	1	0.14
+8-63	Agriculture and vegetation	the birch	BIRCH	18	13	12	8	3	0.19
+8-64	Agriculture and vegetation	the pine	PINE	28	20	13	10	10	0.41
+8-65	Agriculture and vegetation	the fir	FIR	18	12	11	7	5	0.32
+8-66	Agriculture and vegetation	the acorn	ACORN	17	11	7	5	3	0.17
+8-67	Agriculture and vegetation	the vine	VINE	33	19	11	8	9	0.19
+8-68	Agriculture and vegetation	the tobacco	TOBACCO	40	24	10	9	25	0.66
+8-69	Agriculture and vegetation	to smoke	SMOKE (INHALE)	40	24	18	12	5	0.20
+8-691	Agriculture and vegetation	the pipe	PIPE	36	22	9	8	20	0.60
+8-72	Agriculture and vegetation	the tree stump	TREE STUMP	39	22	21	14	4	0.12
+8-73	Agriculture and vegetation	the tree trunk	TREE TRUNK	40	24	23	17	3	0.10
+8-74	Agriculture and vegetation	the forked branch	FORKED BRANCH	32	20	14	9	2	0.14
+8-75	Agriculture and vegetation	the bark	BARK	40	24	27	20	5	0.16
+8-76	Agriculture and vegetation	the sap	SAP	39	24	22	13	5	0.20
+8-81	Agriculture and vegetation	the palm tree	PALM TREE	29	18	18	15	8	0.30
+8-82	Agriculture and vegetation	the coconut	COCONUT	31	17	8	6	15	0.49
+8-83	Agriculture and vegetation	the citrus fruit	CITRUS FRUIT	28	17	4	4	16	0.60
+8-84	Agriculture and vegetation	the banana	BANANA	36	20	13	10	21	0.62
+8-85	Agriculture and vegetation	the banyan	BANYAN	15	9	4	3	8	0.50
+8-91	Agriculture and vegetation	the sweet potato	SWEET POTATO	27	18	8	8	8	0.35
+8-912	Agriculture and vegetation	the yam	YAM	22	14	6	4	7	0.30
+8-92	Agriculture and vegetation	the cassava/manioc	CASSAVA	27	16	10	8	11	0.43
+8-93	Agriculture and vegetation	the gourd	GOURD	31	19	17	13	8	0.26
+8-931	Agriculture and vegetation	the pumpkin or squash	PUMPKIN	38	21	17	13	16	0.40
+8-94	Agriculture and vegetation	the bamboo	BAMBOO	33	18	20	13	8	0.36
+8-941	Agriculture and vegetation	the sugar cane	SUGAR CANE	31	17	15	10	7	0.25
+8-96	Agriculture and vegetation	the fish poison	FISH POISON	16	11	8	7	2	0.21
+8-97	Agriculture and vegetation	the nettle	NETTLE	28	17	18	12	3	0.15
+8-98	Agriculture and vegetation	the mushroom	MUSHROOM	40	23	22	15	11	0.27
+9-11	Basic actions and technology	to do	DO	38	22	31	18	2	0.03
+9-12	Basic actions and technology	the work	WORK (LABOUR)	41	24	21	13	11	0.36
+9-14	Basic actions and technology	to bend	BEND	41	24	24	15	2	0.12
+9-15	Basic actions and technology	to fold	FOLD	41	24	25	17	3	0.10
+9-16	Basic actions and technology	to tie	TIE	41	24	31	18	4	0.12
+9-161	Basic actions and technology	to untie	UNTIE	41	24	21	15	3	0.08
+9-18	Basic actions and technology	the chain	CHAIN	38	21	13	9	17	0.56
+9-19	Basic actions and technology	the rope	ROPE	41	24	34	22	4	0.15
+9-192	Basic actions and technology	the knot	KNOT	39	24	29	20	4	0.11
+9-21	Basic actions and technology	to strike or hit or beat	STRIKE OR BEAT	41	24	34	21	1	0.04
+9-211	Basic actions and technology	to pound	POUND	39	24	23	15	5	0.22
+9-22	Basic actions and technology	to cut	CUT	41	24	30	18	2	0.08
+9-221	Basic actions and technology	to cut down	CUT DOWN	38	23	22	15	1	0.07
+9-222	Basic actions and technology	to chop	CHOP	39	23	27	17	0	0.05
+9-223	Basic actions and technology	to stab	STAB TO DEATH	40	24	27	17	3	0.10
+9-23	Basic actions and technology	the knife(2)	KNIFE	41	24	23	16	13	0.38
+9-24	Basic actions and technology	the scissors or shears	SHEARS	39	23	12	6	17	0.48
+9-25	Basic actions and technology	the axe/ax	AXE	41	24	25	17	13	0.35
+9-251	Basic actions and technology	the adze	ADZE	26	16	12	6	7	0.34
+9-26	Basic actions and technology	to break	BREAK (DESTROY OR GET DESTROYED)	41	24	22	14	2	0.07
+9-261	Basic actions and technology	broken	BROKEN (NOT WORKING)	40	24	15	10	1	0.09
+9-27	Basic actions and technology	to split	SPLIT	41	24	21	16	5	0.14
+9-28	Basic actions and technology	to tear	TEAR (SHRED)	41	24	30	17	1	0.06
+9-83	Basic actions and technology	the statue	STATUE	25	15	7	6	9	0.34
+9-29	Basic actions and technology	to skin	PULL OFF (SKIN)	40	24	19	13	2	0.11
+9-31	Basic actions and technology	to rub	RUB	41	24	26	17	3	0.17
+9-32	Basic actions and technology	to stretch	STRETCH	40	24	19	13	3	0.09
+9-33	Basic actions and technology	to pull	PULL	41	24	31	20	4	0.14
+9-34	Basic actions and technology	to spread out	SPREAD OUT	41	24	18	13	5	0.10
+9-341	Basic actions and technology	to hang up	HANG UP	41	24	26	15	3	0.11
+9-342	Basic actions and technology	to press	PRESS	38	23	21	16	8	0.20
+9-343	Basic actions and technology	to squeeze	SQUEEZE	41	24	29	20	3	0.18
+9-35	Basic actions and technology	to pour	POUR	41	24	30	19	3	0.13
+9-36	Basic actions and technology	to wash	WASH	41	24	30	18	2	0.10
+9-37	Basic actions and technology	to sweep	SWEEP	41	24	26	19	5	0.13
+9-38	Basic actions and technology	the broom	BROOM	38	23	13	7	6	0.18
+9-422	Basic actions and technology	the tool	TOOL	37	22	10	8	10	0.35
+9-43	Basic actions and technology	the carpenter	CARPENTER	35	20	3	3	16	0.51
+9-44	Basic actions and technology	to build	BUILD	41	24	23	17	4	0.20
+9-46	Basic actions and technology	to bore	BORE	39	24	22	15	4	0.15
+9-461	Basic actions and technology	to hollow out	HOLLOW OUT	40	24	21	16	2	0.04
+9-48	Basic actions and technology	the saw	SAW	37	23	13	9	15	0.42
+9-49	Basic actions and technology	the hammer	HAMMER	39	23	17	12	15	0.45
+9-5	Basic actions and technology	the nail	NAIL (TOOL)	40	23	19	11	14	0.41
+9-56	Basic actions and technology	the glue	GLUE	38	22	17	14	15	0.42
+9-6	Basic actions and technology	the blacksmith	BLACKSMITH	35	21	7	3	10	0.29
+9-61	Basic actions and technology	to forge	FORGE	26	16	12	9	2	0.09
+9-62	Basic actions and technology	the anvil	ANVIL	25	15	9	8	4	0.28
+9-63	Basic actions and technology	to cast	CAST	24	16	11	7	5	0.32
+9-64	Basic actions and technology	the gold	GOLD	37	21	15	9	19	0.57
+9-65	Basic actions and technology	the silver	SILVER	36	22	11	8	18	0.51
+9-66	Basic actions and technology	the copper	COPPER	34	22	8	6	18	0.59
+9-67	Basic actions and technology	the iron	IRON	38	22	24	17	11	0.27
+9-68	Basic actions and technology	the lead	LEAD (CHEMICAL ELEMENT)	35	22	13	8	18	0.53
+9-69	Basic actions and technology	the tin or tinplate	TIN OR TINPLATE	29	17	10	8	16	0.58
+9-71	Basic actions and technology	the potter	POTTER	30	18	3	3	4	0.17
+9-72	Basic actions and technology	to mould/mold	MOLD	31	20	18	15	5	0.16
+9-73	Basic actions and technology	the clay	CLAY	39	23	29	19	1	0.10
+9-74	Basic actions and technology	the glass	GLASS	38	23	10	6	21	0.62
+9-75	Basic actions and technology	to weave or plait/braid	BRAID (VERB) OR WEAVE (BASKET)	40	24	30	20	0	0.08
+9-76	Basic actions and technology	the basket	BASKET	40	23	26	17	11	0.42
+9-77	Basic actions and technology	the mat	MAT	33	17	19	12	9	0.29
+9-771	Basic actions and technology	the rug	RUG	29	16	8	8	16	0.67
+9-78	Basic actions and technology	the netbag	NETBAG	21	15	10	9	9	0.49
+9-79	Basic actions and technology	the fan	FAN (OBJECT)	34	21	12	10	6	0.26
+9-791	Basic actions and technology	to fan	FAN (ACTION)	34	21	18	13	2	0.13
+9-81	Basic actions and technology	to carve	CARVE	37	22	23	15	4	0.27
+9-82	Basic actions and technology	the sculptor	SCULPTOR	24	14	2	2	5	0.22
+9-84	Basic actions and technology	the chisel	CHISEL	33	20	14	11	12	0.41
+9-88	Basic actions and technology	the paint	PAINT (PIGMENTS)	40	24	14	11	20	0.52
+9-89	Basic actions and technology	to paint	PAINTING	40	24	12	9	13	0.33
+10-11	Motion	to move	MOVE	40	23	14	11	7	0.28
+10-12	Motion	to turn		40	23	19	14	4	0.15
+10-13	Motion	to turn around	TURN AROUND	41	24	14	10	5	0.10
+10-14	Motion	to wrap	WRAP	40	24	25	18	4	0.11
+10-15	Motion	to roll	ROLL	41	24	19	12	4	0.19
+10-16	Motion	to drop	DROP (SOMETHING)	38	24	16	12	2	0.04
+10-17	Motion	to twist	TWIST (AROUND)	41	24	24	17	4	0.16
+10-21	Motion	to rise	RISE (MOVE UPWARDS)	41	24	29	18	0	0.01
+10-22	Motion	to raise or lift	LIFT	41	24	19	13	2	0.09
+10-23	Motion	to fall	FALL	41	24	27	13	3	0.05
+10-24	Motion	to drip	DRIP (EMIT LIQUID)	39	24	21	14	2	0.06
+10-25	Motion	to throw	THROW	41	24	31	18	0	0.04
+10-252	Motion	to catch	CATCH	41	24	28	17	4	0.16
+10-26	Motion	to shake	SHAKE	41	24	23	14	5	0.17
+10-32	Motion	to flow	FLOW	39	24	24	16	2	0.04
+10-33	Motion	to sink	SINK (DESCEND)	41	24	24	15	4	0.10
+10-34	Motion	to float	FLOAT	40	24	24	16	1	0.05
+10-35	Motion	to swim	SWIM	41	24	24	15	3	0.10
+10-351	Motion	to dive	DIVE	35	21	19	14	3	0.16
+10-352	Motion	to splash	SPLASH	38	22	18	13	4	0.12
+10-36	Motion	to sail	SAIL	20	13	5	3	1	0.15
+10-37	Motion	to fly	FLY (MOVE THROUGH AIR)	41	24	31	19	5	0.13
+10-38	Motion	to blow	BLOW (OF WIND)	40	24	29	18	1	0.04
+10-41	Motion	to crawl	CRAWL OR CREEP	40	24	24	20	4	0.11
+10-412	Motion	to kneel	KNEEL	38	23	7	4	2	0.07
+10-413	Motion	to crouch	CROUCH	38	22	18	12	5	0.22
+10-42	Motion	to slide or slip	SLIP	39	24	27	19	3	0.11
+10-43	Motion	to jump	JUMP	41	24	30	18	2	0.06
+10-431	Motion	to kick	KICK	40	24	23	18	5	0.14
+10-44	Motion	to dance	DANCE	41	24	21	16	7	0.29
+10-45	Motion	to walk	WALK	40	24	27	16	1	0.09
+10-451	Motion	to limp	LIMP	39	24	16	11	4	0.17
+10-46	Motion	to run	RUN	41	24	29	19	1	0.02
+10-47	Motion	to go	GO	41	24	36	21	2	0.04
+10-471	Motion	to go up	GO UP (ASCEND)	39	23	23	17	2	0.11
+10-472	Motion	to climb	CLIMB	39	23	26	18	3	0.05
+10-473	Motion	to go down	GO DOWN (DESCEND)	41	24	21	14	3	0.12
+10-474	Motion	to go out	GO OUT	40	24	19	12	1	0.03
+10-48	Motion	to come	COME	41	24	33	19	1	0.03
+10-481	Motion	to come back	COME BACK	41	24	22	16	4	0.18
+10-49	Motion	to leave	LEAVE	41	24	25	16	3	0.14
+10-491	Motion	to disappear	DISAPPEAR	40	23	24	18	4	0.13
+10-51	Motion	to flee	FLEE	41	24	24	15	2	0.12
+10-52	Motion	to follow	FOLLOW	39	23	25	15	1	0.07
+10-53	Motion	to pursue	PURSUE	40	24	18	13	4	0.16
+10-55	Motion	to arrive	ARRIVE	41	24	24	15	4	0.17
+10-56	Motion	to approach	APPROACH	38	23	12	9	1	0.07
+10-57	Motion	to enter	ENTER	41	24	23	18	3	0.07
+10-61	Motion	to carry	CARRY	40	24	33	22	2	0.08
+10-612	Motion	to carry in hand	CARRY IN HAND	28	21	19	16	0	0.11
+10-613	Motion	to carry on shoulder	CARRY ON SHOULDER	32	22	19	16	3	0.10
+10-614	Motion	to carry on head	CARRY ON HEAD	24	17	8	7	4	0.19
+10-615	Motion	to carry under the arm	CARRY UNDER ARM	25	20	13	11	1	0.08
+10-62	Motion	to bring	BRING	40	24	21	13	0	0.02
+10-63	Motion	to send	SEND	40	24	20	13	5	0.13
+10-64	Motion	to lead	LEAD (GUIDE)	38	23	17	10	4	0.16
+10-65	Motion	to drive	DRIVE	34	21	15	8	10	0.33
+10-66	Motion	to ride	RIDE	34	23	20	14	4	0.20
+10-67	Motion	to push	PUSH	41	24	24	16	5	0.17
+10-71	Motion	the road	ROAD	40	23	31	20	5	0.31
+10-72	Motion	the path	PATH	41	24	31	21	4	0.21
+10-74	Motion	the bridge	BRIDGE	40	23	19	12	17	0.42
+10-75	Motion	the cart or wagon	CART	33	21	8	4	20	0.67
+10-76	Motion	the wheel	WHEEL	38	23	16	11	14	0.46
+10-77	Motion	the axle	AXLE	28	17	13	8	11	0.45
+10-78	Motion	the yoke	YOKE	29	18	15	9	10	0.41
+10-81	Motion	the ship	SHIP	34	20	13	7	15	0.61
+10-83	Motion	the boat	BOAT	38	24	15	10	17	0.54
+10-831	Motion	the canoe	CANOE	30	19	14	10	11	0.44
+10-832	Motion	the outrigger	OUTRIGGER	16	9	7	5	4	0.25
+10-84	Motion	the raft	RAFT	28	17	12	8	10	0.34
+10-85	Motion	the oar	OAR	31	21	14	10	11	0.46
+10-851	Motion	the paddle	PADDLE	30	20	17	13	7	0.28
+10-852	Motion	to row	ROW	33	20	16	13	7	0.21
+10-86	Motion	the rudder	RUDDER	27	17	8	5	11	0.46
+10-87	Motion	the mast	MAST	24	15	10	4	6	0.34
+10-88	Motion	the sail	SAILCLOTH	25	15	11	5	10	0.40
+10-89	Motion	the anchor	ANCHOR	25	14	8	6	14	0.58
+10-91	Motion	the port	PORT	26	18	6	4	11	0.43
+10-92	Motion	to land	LAND (DESCEND)	32	19	14	12	4	0.19
+11-11	Possession	to have	HAVE	32	20	27	18	0	0.04
+11-12	Possession	to own	OWN	32	21	18	13	6	0.26
+11-13	Possession	to take	TAKE	41	24	31	19	2	0.10
+11-14	Possession	to grasp	SEIZE	38	24	28	19	1	0.03
+11-15	Possession	to hold	HOLD	40	24	30	18	2	0.10
+11-16	Possession	to get	GET	39	23	26	19	4	0.16
+11-17	Possession	to keep	KEEP	37	23	19	13	2	0.15
+11-18	Possession	the thing	THING	40	24	25	14	7	0.23
+11-21	Possession	to give	GIVE	41	24	29	19	3	0.09
+11-22	Possession	to give back	GIVE BACK	40	24	12	10	1	0.09
+11-24	Possession	to preserve	PRESERVE	38	23	16	12	9	0.24
+11-25	Possession	to rescue	RESCUE	37	22	16	12	10	0.37
+11-27	Possession	to destroy	DESTROY	38	23	17	10	3	0.18
+11-28	Possession	to injure	INJURE	39	23	15	7	3	0.19
+11-31	Possession	to look for	LOOK FOR	41	24	29	17	2	0.08
+11-32	Possession	to find	FIND	41	24	30	18	2	0.09
+11-33	Possession	to lose	MISPLACE	39	24	20	13	2	0.04
+11-34	Possession	to let go	LET GO OR SET FREE	39	24	19	15	3	0.12
+11-43	Possession	the money	MONEY	41	24	18	11	19	0.54
+11-44	Possession	the coin	COIN	39	23	8	6	18	0.53
+11-51	Possession	rich	RICH	37	22	15	11	9	0.28
+11-52	Possession	poor	POOR	39	23	16	13	12	0.45
+11-53	Possession	the beggar	BEGGAR	37	21	9	9	6	0.21
+11-54	Possession	stingy	STINGY	38	22	22	15	6	0.22
+11-61	Possession	to lend	LEND	38	23	17	11	5	0.08
+11-62	Possession	to borrow	BORROW	40	23	19	13	5	0.11
+11-63	Possession	to owe	OWE	34	21	15	11	5	0.19
+11-64	Possession	the debt	DEBT	37	22	21	12	10	0.31
+11-65	Possession	to pay	PAY	40	24	20	14	10	0.30
+11-66	Possession	the bill	BILL	29	19	5	3	16	0.63
+11-69	Possession	the tax	TAX	35	19	11	7	20	0.59
+11-77	Possession	to hire	HIRE	29	20	9	8	8	0.38
+11-78	Possession	the wages	WAGES	39	22	11	7	16	0.53
+11-79	Possession	to earn	EARN	34	22	15	12	4	0.19
+11-81	Possession	to buy	BUY	41	24	24	15	6	0.15
+11-82	Possession	to sell	SELL	40	24	22	14	7	0.17
+11-83	Possession	to trade or barter	TRADE OR BARTER	39	24	17	14	8	0.26
+11-84	Possession	the merchant	MERCHANT	36	22	1	1	11	0.33
+11-85	Possession	the market	MARKET	37	20	9	8	23	0.67
+11-86	Possession	the shop/store	STORE	39	23	5	3	25	0.70
+11-87	Possession	the price	PRICE	38	22	13	11	15	0.43
+11-88	Possession	expensive	EXPENSIVE	41	24	16	9	10	0.30
+11-89	Possession	cheap	CHEAP	39	23	11	10	15	0.43
+11-91	Possession	to share	SHARE	41	24	23	16	5	0.13
+11-92	Possession	to weigh	WEIGH	35	23	11	9	11	0.39
+12-01	Spatial relations	after	AFTER	40	24	24	15	2	0.08
+12-011	Spatial relations	behind	BEHIND	41	24	25	17	1	0.02
+12-02	Spatial relations	beside	BESIDE	40	24	22	17	2	0.07
+12-03	Spatial relations	down	DOWN	41	24	22	17	3	0.05
+12-04	Spatial relations	before	BEFORE	37	22	21	14	2	0.10
+12-041	Spatial relations	in front of	IN FRONT OF	40	24	20	15	1	0.06
+12-05	Spatial relations	inside	INSIDE	41	24	22	17	4	0.08
+12-06	Spatial relations	outside	OUTSIDE	41	24	20	15	3	0.05
+12-07	Spatial relations	under	BELOW OR UNDER	39	23	26	18	1	0.03
+12-08	Spatial relations	up	UP	40	24	26	19	0	0.00
+12-11	Spatial relations	the place	PLACE (POSITION)	40	23	30	19	8	0.25
+12-12	Spatial relations	to put	PUT	40	24	30	20	2	0.06
+12-13	Spatial relations	to sit	SIT	41	24	30	18	3	0.09
+12-14	Spatial relations	to lie down	LIE DOWN	41	24	27	20	2	0.02
+12-15	Spatial relations	to stand	STAND	41	24	31	19	1	0.02
+12-16	Spatial relations	to remain	REMAIN	41	24	31	19	4	0.14
+12-17	Spatial relations	the remains	REMAINS	35	23	13	12	4	0.23
+12-21	Spatial relations	to gather	GATHER	41	24	27	17	3	0.14
+12-212	Spatial relations	to pick up	PICK UP	41	24	23	17	2	0.10
+12-213	Spatial relations	to pile up	PILE UP	39	24	16	13	6	0.17
+12-22	Spatial relations	to join	JOIN	38	23	20	15	6	0.17
+12-23	Spatial relations	to separate	SEPARATE	41	24	22	16	4	0.18
+12-232	Spatial relations	to divide	DIVIDE	39	23	23	15	6	0.19
+12-24	Spatial relations	to open	OPEN	41	24	26	16	2	0.10
+12-25	Spatial relations	to shut	SHUT	41	24	24	17	4	0.18
+12-26	Spatial relations	to cover	COVER	40	24	24	16	4	0.09
+12-27	Spatial relations	to hide	HIDE (CONCEAL)	41	24	30	18	3	0.07
+12-31	Spatial relations	high	HIGH	41	24	23	14	4	0.12
+12-32	Spatial relations	low	LOW	40	24	25	18	3	0.10
+12-33	Spatial relations	the top	TOP	41	24	31	18	5	0.26
+12-34	Spatial relations	the bottom	BOTTOM	40	24	29	18	4	0.09
+12-35	Spatial relations	the end(1)	END (OF SPACE)	40	24	29	17	5	0.10
+12-352	Spatial relations	pointed	POINTED	40	24	21	17	6	0.15
+12-353	Spatial relations	the edge	EDGE	40	24	33	21	4	0.13
+12-36	Spatial relations	the side	SIDE	41	24	31	19	5	0.14
+12-37	Spatial relations	the middle	MIDDLE	41	24	29	19	4	0.15
+12-41	Spatial relations	right(1)	RIGHT	41	24	29	17	1	0.04
+12-42	Spatial relations	left	LEFT	41	24	28	16	4	0.15
+12-43	Spatial relations	near	NEAR	41	24	28	16	5	0.12
+12-44	Spatial relations	far	FAR	41	24	33	21	1	0.06
+12-45	Spatial relations	the east	EAST	38	23	15	9	7	0.23
+12-46	Spatial relations	the west	WEST	38	23	15	10	7	0.24
+12-47	Spatial relations	the north	NORTH	36	23	17	11	4	0.20
+12-48	Spatial relations	the south	SOUTH	36	23	16	10	6	0.26
+12-53	Spatial relations	to grow	GROW	41	24	27	19	3	0.04
+12-54	Spatial relations	to measure	MEASURE	39	23	19	14	7	0.20
+12-541	Spatial relations	the fathom	FATHOM	22	14	17	12	3	0.17
+12-55	Spatial relations	big	BIG	41	24	36	22	2	0.11
+12-56	Spatial relations	small	SMALL	41	24	35	20	1	0.09
+12-57	Spatial relations	long	LONG	41	24	32	20	1	0.04
+12-58	Spatial relations	tall	TALL	41	24	29	16	3	0.08
+12-59	Spatial relations	short	SHORT	40	23	28	17	4	0.10
+12-61	Spatial relations	wide	WIDE	41	24	29	18	2	0.04
+12-62	Spatial relations	narrow	NARROW	40	23	25	15	4	0.09
+12-63	Spatial relations	thick	THICK	41	24	31	21	2	0.05
+12-65	Spatial relations	thin	THIN (OF SHAPE OF OBJECT)	41	24	28	16	2	0.13
+12-67	Spatial relations	deep	DEEP	41	24	28	18	5	0.15
+12-68	Spatial relations	shallow	SHALLOW	37	23	20	15	2	0.10
+12-71	Spatial relations	flat	FLAT	40	24	20	13	8	0.29
+12-73	Spatial relations	straight	STRAIGHT	40	24	25	16	5	0.13
+12-74	Spatial relations	crooked	CROOKED	41	24	25	16	4	0.10
+12-75	Spatial relations	the hook	HOOK	38	24	23	16	7	0.22
+12-76	Spatial relations	the corner	CORNER	40	24	33	21	3	0.20
+12-77	Spatial relations	the cross	CROSS	38	23	11	7	18	0.50
+12-78	Spatial relations	the square	SQUARE	32	19	5	5	13	0.45
+12-81	Spatial relations	round	ROUND	41	24	23	13	7	0.18
+12-82	Spatial relations	the circle	CIRCLE	39	23	24	17	7	0.25
+12-83	Spatial relations	the ball	BALL	39	23	17	12	20	0.57
+12-84	Spatial relations	the line	LINE	35	21	21	13	11	0.47
+12-85	Spatial relations	the hole	HOLE	41	24	36	21	3	0.10
+12-92	Spatial relations	similar	SIMILAR	39	23	20	13	4	0.17
+12-93	Spatial relations	to change	CHANGE	39	24	20	14	6	0.27
+13	Quantity	zero	ZERO	29	18	8	7	19	0.72
+13-01	Quantity	one	ONE	41	24	34	18	2	0.13
+13-02	Quantity	two	TWO	41	24	32	19	5	0.23
+13-03	Quantity	three	THREE	41	24	32	19	6	0.22
+13-04	Quantity	four	FOUR	41	24	33	19	6	0.21
+13-05	Quantity	five	FIVE	41	24	30	17	5	0.23
+13-06	Quantity	six	SIX	40	23	29	16	8	0.26
+13-07	Quantity	seven	SEVEN	40	23	29	17	9	0.29
+13-08	Quantity	eight	EIGHT	40	23	27	15	8	0.26
+13-09	Quantity	nine	NINE	40	23	27	15	9	0.29
+13-1	Quantity	ten	TEN	40	23	26	15	8	0.28
+13-101	Quantity	eleven	ELEVEN	40	23	5	3	8	0.23
+13-102	Quantity	twelve	TWELVE	40	23	4	2	9	0.23
+13-103	Quantity	fifteen	FIFTEEN	40	23	3	2	6	0.18
+13-104	Quantity	twenty	TWENTY	40	23	11	7	8	0.23
+13-105	Quantity	a hundred	HUNDRED	40	23	16	11	14	0.42
+13-106	Quantity	a thousand	THOUSAND	40	23	12	6	20	0.58
+13-107	Quantity	to count	COUNT	40	23	19	14	9	0.23
+13-14	Quantity	all	ALL	41	24	30	21	5	0.19
+13-15	Quantity	many	MANY	41	24	34	23	1	0.14
+13-16	Quantity	more	MORE	37	22	20	13	6	0.23
+13-17	Quantity	few	FEW	40	23	28	18	2	0.09
+13-18	Quantity	enough	ENOUGH	39	23	23	16	6	0.21
+13-181	Quantity	some	SOME	38	23	22	17	2	0.10
+13-19	Quantity	the crowd	CROWD	37	23	14	8	5	0.29
+13-21	Quantity	full	FULL	41	24	29	17	2	0.11
+13-22	Quantity	empty	EMPTY	39	23	29	18	4	0.14
+13-23	Quantity	the part	PART	38	24	22	13	7	0.24
+13-24	Quantity	the half	HALF	39	24	25	17	2	0.16
+13-33	Quantity	only	ONLY	41	24	28	19	3	0.17
+13-34	Quantity	first	FIRST	41	24	16	11	2	0.12
+13-35	Quantity	last	LAST (FINAL)	40	24	16	14	4	0.11
+13-36	Quantity	second	SECOND	36	21	8	6	2	0.08
+13-37	Quantity	the pair	PAIR	39	24	20	14	11	0.36
+13-38	Quantity	twice/two times	TWICE	38	23	2	2	3	0.11
+13-42	Quantity	third	THIRD	35	21	5	4	2	0.08
+13-44	Quantity	three times	THREE TIMES	35	23	3	2	1	0.09
+14-11	Time	the time	TIME	40	24	21	12	16	0.54
+14-12	Time	the age	AGE	34	20	14	12	12	0.45
+14-13	Time	new	NEW	41	24	32	19	2	0.08
+14-14	Time	young	YOUNG	40	24	27	15	6	0.16
+14-15	Time	old	OLD	41	24	33	18	2	0.10
+14-16	Time	early	EARLY	38	23	24	16	4	0.17
+14-17	Time	late	LATE	36	22	22	13	4	0.13
+14-18	Time	now	NOW	41	24	28	17	3	0.10
+14-19	Time	immediately	IMMEDIATELY	41	24	16	12	5	0.23
+14-21	Time	fast	FAST	40	24	29	18	2	0.11
+14-22	Time	slow	SLOW	41	24	29	18	2	0.08
+14-23	Time	to hurry	HURRY	39	23	21	15	7	0.19
+14-24	Time	to be late	BE LATE	38	22	13	9	4	0.17
+14-25	Time	to begin	BEGIN	39	24	23	14	2	0.13
+14-252	Time	to last	LAST (ENDURE)	30	16	16	8	3	0.18
+14-26	Time	the end(2)	END (OF TIME)	38	23	18	11	4	0.13
+14-27	Time	to finish	FINISH	40	24	17	14	7	0.22
+14-28	Time	to cease	CEASE	38	24	18	16	5	0.14
+14-29	Time	ready	READY	38	22	21	13	8	0.32
+14-31	Time	always	ALWAYS	40	23	13	9	9	0.29
+14-32	Time	often	OFTEN	39	23	19	14	5	0.15
+14-33	Time	sometimes	SOMETIMES	38	21	9	6	1	0.06
+14-331	Time	soon	SOON	38	21	21	14	3	0.06
+14-332	Time	for a long time	FOR A LONG TIME	35	22	20	14	0	0.08
+14-34	Time	never	NEVER	37	21	11	7	3	0.15
+14-35	Time	again	AGAIN	40	24	27	18	1	0.11
+14-41	Time	the day(1)	DAY (24 HOURS)	41	24	33	20	4	0.14
+14-42	Time	the night	NIGHT	41	24	36	21	2	0.07
+14-43	Time	the dawn	DAWN	41	24	9	7	8	0.33
+14-44	Time	the morning	MORNING	38	23	19	13	4	0.14
+14-45	Time	the midday	MIDDAY	40	24	8	7	2	0.10
+14-451	Time	the afternoon	AFTERNOON	38	23	15	13	4	0.16
+14-46	Time	the evening	EVENING	39	24	26	17	3	0.13
+14-47	Time	today	TODAY	41	24	21	15	2	0.05
+14-48	Time	tomorrow	TOMORROW	41	24	28	19	2	0.06
+14-481	Time	the day after tomorrow	DAY AFTER TOMORROW	40	24	10	8	0	0.01
+14-49	Time	yesterday	YESTERDAY	41	24	34	21	1	0.04
+14-491	Time	the day before yesterday	DAY BEFORE YESTERDAY	39	24	7	5	0	0.02
+14-51	Time	the hour	HOUR	40	23	7	5	31	0.76
+14-53	Time	the clock	CLOCK	39	23	5	4	32	0.74
+14-61	Time	the week	WEEK	40	23	13	6	23	0.63
+14-62	Time	Sunday	SUNDAY	39	22	4	2	19	0.49
+14-63	Time	Monday	MONDAY	39	22	3	2	21	0.54
+14-64	Time	Tuesday	TUESDAY	38	21	4	2	20	0.53
+14-65	Time	Wednesday	WEDNESDAY	38	21	3	1	20	0.54
+14-66	Time	Thursday	THURSDAY	38	21	3	1	23	0.61
+14-67	Time	Friday	FRIDAY	38	21	5	2	22	0.57
+14-68	Time	Saturday	SATURDAY	38	21	3	2	25	0.66
+14-71	Time	the month	MONTH	39	23	29	20	6	0.19
+14-73	Time	the year	YEAR	41	24	30	18	6	0.19
+14-74	Time	the winter	WINTER	37	24	21	13	2	0.09
+14-75	Time	the spring(2)	SPRINGTIME	34	22	14	10	5	0.16
+14-76	Time	the summer	SUMMER	36	24	20	11	4	0.13
+14-77	Time	the autumn/fall	AUTUMN	33	20	16	11	5	0.16
+14-78	Time	the season	SEASON	31	20	7	6	14	0.38
+15-21	Sense perception	to smell(1)	SMELL (STINK)	37	22	16	10	3	0.11
+15-89	Sense perception	wrinkled	WRINKLED	39	23	10	7	2	0.08
+15-212	Sense perception	to sniff	SNIFF	40	24	16	10	4	0.11
+15-22	Sense perception	to smell(2)	SMELL (PERCEIVE)	41	24	18	12	2	0.10
+15-25	Sense perception	fragrant	FRAGRANT	39	24	12	9	5	0.10
+15-26	Sense perception	stinking	STINKING	39	24	18	12	1	0.02
+15-31	Sense perception	to taste	TASTE (SOMETHING)	36	21	11	8	7	0.24
+15-35	Sense perception	sweet	SWEET	41	24	30	17	2	0.09
+15-36	Sense perception	salty	SALTY	39	24	19	14	4	0.06
+15-37	Sense perception	bitter	BITTER	41	24	31	20	0	0.03
+15-38	Sense perception	sour	SOUR	40	23	29	18	1	0.06
+15-39	Sense perception	brackish	BRACKISH	25	17	9	7	4	0.18
+15-41	Sense perception	to hear	HEAR	41	24	34	20	1	0.05
+15-42	Sense perception	to listen	LISTEN	41	24	24	15	2	0.03
+15-44	Sense perception	the sound or noise	SOUND OR NOISE	40	24	26	20	6	0.19
+15-45	Sense perception	loud	LOUD	40	23	23	16	2	0.05
+15-46	Sense perception	quiet	QUIET	39	23	27	17	2	0.16
+15-51	Sense perception	to see	SEE	41	24	32	18	2	0.08
+15-52	Sense perception	to look	LOOK	41	24	31	19	2	0.09
+15-55	Sense perception	to show	SHOW	41	24	17	11	1	0.06
+15-56	Sense perception	to shine	SHINE	39	24	21	14	3	0.10
+15-57	Sense perception	bright	BRIGHT	39	24	23	15	3	0.05
+15-61	Sense perception	the colour/color	COLOR	34	20	14	14	16	0.60
+15-62	Sense perception	light(2)	LIGHT (COLOR)	35	22	16	10	6	0.13
+15-63	Sense perception	dark	DARK	38	23	23	14	3	0.10
+15-64	Sense perception	white	WHITE	41	24	29	17	3	0.16
+15-65	Sense perception	black	BLACK	41	24	30	18	2	0.05
+15-66	Sense perception	red	RED	41	24	30	18	3	0.07
+15-67	Sense perception	blue	BLUE	41	24	25	16	8	0.24
+15-68	Sense perception	green	GREEN	41	24	23	14	5	0.17
+15-69	Sense perception	yellow	YELLOW	41	24	27	14	6	0.15
+15-71	Sense perception	to touch	TOUCH	39	22	27	17	2	0.10
+15-712	Sense perception	to pinch	PINCH	41	24	25	16	4	0.13
+15-72	Sense perception	to feel	FEEL	40	24	28	18	3	0.12
+15-74	Sense perception	hard	HARD	41	24	30	20	2	0.08
+15-75	Sense perception	soft	SOFT	41	24	29	18	2	0.08
+15-76	Sense perception	rough(1)	ROUGH	38	23	21	15	4	0.15
+15-77	Sense perception	smooth	SMOOTH	41	24	24	13	7	0.17
+15-78	Sense perception	sharp	SHARP	40	24	28	19	4	0.10
+15-79	Sense perception	blunt	BLUNT	36	21	20	13	4	0.12
+15-81	Sense perception	heavy	HEAVY	41	24	31	19	3	0.09
+15-82	Sense perception	light(1)	LIGHT (WEIGHT)	40	23	24	14	2	0.08
+15-83	Sense perception	wet	WET	41	24	28	15	4	0.10
+15-84	Sense perception	dry	DRY	41	24	25	16	4	0.08
+15-85	Sense perception	hot	HOT	41	24	27	17	2	0.09
+15-851	Sense perception	warm	WARM	39	23	27	16	3	0.09
+15-86	Sense perception	cold	COLD	41	24	26	16	5	0.10
+15-87	Sense perception	clean	CLEAN	39	23	22	14	5	0.14
+15-88	Sense perception	dirty	DIRTY	41	24	23	16	4	0.13
+16-11	Emotions and values	the soul or spirit	SOUL	41	24	21	13	13	0.40
+16-15	Emotions and values	surprised or astonished	SURPRISED	38	23	16	14	6	0.23
+16-18	Emotions and values	the good luck	GOOD LUCK	36	21	8	6	13	0.44
+16-19	Emotions and values	the bad luck	BAD LUCK	30	18	8	6	3	0.23
+16-23	Emotions and values	happy	HAPPY	41	24	18	11	6	0.18
+16-25	Emotions and values	to laugh	LAUGH	41	24	30	20	2	0.06
+16-251	Emotions and values	to smile	SMILE	40	24	13	10	4	0.14
+16-26	Emotions and values	to play	PLAY	41	24	28	18	1	0.04
+16-27	Emotions and values	to love	LOVE	41	24	24	16	5	0.15
+16-29	Emotions and values	to kiss	KISS	40	24	20	13	4	0.20
+16-3	Emotions and values	to embrace	EMBRACE	40	24	21	14	2	0.18
+16-31	Emotions and values	the pain	PAIN	41	24	27	19	4	0.12
+16-32	Emotions and values	the grief	GRIEF	39	23	14	10	8	0.34
+16-33	Emotions and values	the anxiety	ANXIETY	38	23	14	10	3	0.15
+16-34	Emotions and values	to regret or be sorry	REGRET	39	22	15	15	7	0.27
+16-35	Emotions and values	the pity	PITY	34	21	11	9	7	0.30
+16-37	Emotions and values	to cry	CRY	41	24	30	18	1	0.13
+16-38	Emotions and values	the tear	TEAR (OF EYE)	40	24	22	14	1	0.06
+16-39	Emotions and values	to groan	GROAN	39	24	24	17	3	0.14
+16-41	Emotions and values	to hate	HATE	40	24	18	13	5	0.11
+16-42	Emotions and values	the anger	ANGER	40	23	23	13	4	0.22
+16-44	Emotions and values	the envy or jealousy	ENVY	38	22	18	12	4	0.29
+16-45	Emotions and values	the shame	SHAME	38	22	24	14	2	0.12
+16-48	Emotions and values	proud	PROUD	35	21	12	9	7	0.33
+16-51	Emotions and values	to dare	DARE	30	19	15	11	7	0.24
+16-52	Emotions and values	brave	BRAVE	40	24	16	13	6	0.28
+16-53	Emotions and values	the fear	FEAR (FRIGHT)	38	23	22	12	3	0.12
+16-54	Emotions and values	the danger	DANGER	36	22	17	12	10	0.36
+16-62	Emotions and values	to want	WANT	41	24	27	18	4	0.12
+16-622	Emotions and values	to choose	CHOOSE	40	24	24	17	4	0.14
+16-63	Emotions and values	to hope	HOPE (SOMETHING)	35	20	13	10	5	0.24
+16-65	Emotions and values	faithful	FAITHFUL	29	19	7	5	4	0.21
+16-66	Emotions and values	true	TRUE	41	24	26	17	4	0.23
+16-67	Emotions and values	to lie(2)	LIE (MISLEAD)	41	24	18	13	2	0.09
+16-68	Emotions and values	the deceit	DECEIT	35	21	15	13	4	0.17
+16-69	Emotions and values	to forgive	FORGIVE	36	23	8	7	9	0.34
+16-71	Emotions and values	good	GOOD	41	24	33	22	3	0.11
+16-72	Emotions and values	bad	BAD	41	24	29	19	2	0.09
+16-73	Emotions and values	right(2)	CORRECT (RIGHT)	40	24	27	17	6	0.27
+16-74	Emotions and values	wrong	WRONG	38	23	13	7	6	0.16
+16-76	Emotions and values	the fault	FAULT	33	21	16	9	11	0.42
+16-77	Emotions and values	the mistake	MISTAKE	38	24	13	9	6	0.19
+16-78	Emotions and values	the blame	BLAME	33	21	15	10	9	0.32
+16-79	Emotions and values	the praise	PRAISE	33	21	12	9	6	0.20
+16-81	Emotions and values	beautiful	BEAUTIFUL	41	24	23	13	6	0.22
+16-82	Emotions and values	ugly	UGLY	41	24	15	11	5	0.25
+16-83	Emotions and values	greedy	GREEDY	32	20	13	11	6	0.29
+16-84	Emotions and values	clever	CLEVER	40	23	23	13	6	0.23
+17-11	Cognition	the mind	MIND	37	23	24	13	6	0.28
+17-13	Cognition	to think(1)	THINK (REFLECT)	39	23	18	14	7	0.23
+17-14	Cognition	to think(2)	THINK (BELIEVE)	37	21	21	12	5	0.21
+17-15	Cognition	to believe	BELIEVE	40	23	21	13	13	0.37
+17-16	Cognition	to understand	UNDERSTAND	41	24	17	12	9	0.29
+17-17	Cognition	to know	KNOW (SOMETHING)	41	24	32	19	1	0.07
+17-171	Cognition	to guess	GUESS	35	22	15	12	6	0.22
+17-172	Cognition	to imitate	IMITATE	40	23	15	14	6	0.23
+17-18	Cognition	to seem	SEEM	32	20	13	11	4	0.10
+17-19	Cognition	the idea	IDEA	37	23	8	5	14	0.49
+17-21	Cognition	wise	WISE	38	23	12	8	6	0.22
+17-22	Cognition	stupid	STUPID	38	23	27	18	7	0.36
+17-23	Cognition	mad	MAD	39	24	23	17	5	0.16
+17-24	Cognition	to learn	LEARN	41	24	18	12	9	0.26
+17-242	Cognition	to study	STUDY	38	23	9	9	13	0.42
+17-25	Cognition	to teach	TEACH	41	24	18	13	5	0.10
+17-26	Cognition	the pupil	PUPIL (STUDENT)	38	23	4	4	9	0.34
+17-27	Cognition	the teacher	TEACHER	41	24	6	6	16	0.51
+17-28	Cognition	the school	SCHOOL	41	24	1	1	26	0.69
+17-31	Cognition	to remember	REMEMBER	40	24	13	9	5	0.14
+17-32	Cognition	to forget	FORGET	41	24	19	12	2	0.07
+17-34	Cognition	clear	CLEAR	33	20	14	10	6	0.30
+17-35	Cognition	obscure	OBSCURE	30	19	9	7	3	0.14
+17-36	Cognition	secret	SECRET	35	21	11	8	11	0.37
+17-37	Cognition	certain	CERTAIN	35	22	13	10	9	0.33
+17-38	Cognition	to explain	EXPLAIN	38	22	12	10	8	0.28
+17-41	Cognition	the intention	INTENTION	32	21	10	9	8	0.45
+17-42	Cognition	the cause	CAUSE	31	19	10	7	14	0.49
+17-43	Cognition	the doubt	DOUBT	31	18	7	5	11	0.44
+17-44	Cognition	to suspect	SUSPECT	31	18	6	5	11	0.39
+17-441	Cognition	to betray	BETRAY	35	21	7	6	11	0.36
+17-45	Cognition	the need or necessity	NEED (NOUN)	35	22	11	10	10	0.29
+17-46	Cognition	easy	EASY	39	22	13	8	12	0.37
+17-47	Cognition	difficult	DIFFICULT	40	23	23	15	6	0.25
+17-48	Cognition	to try	TRY	40	24	14	11	10	0.35
+17-49	Cognition	the manner	MANNER	31	18	23	14	5	0.35
+17-51	Cognition	and	AND	35	21	29	18	4	0.19
+17-52	Cognition	because	BECAUSE	40	23	14	11	11	0.35
+17-53	Cognition	if	IF	39	22	31	19	3	0.16
+17-54	Cognition	or	OR	37	22	20	12	13	0.39
+17-55	Cognition	yes	YES	39	23	34	21	3	0.14
+17-56	Cognition	no	NO	38	22	29	17	4	0.16
+17-61	Cognition	how?	HOW	41	24	25	16	0	0.02
+17-62	Cognition	how many?	HOW MANY PIECES	41	24	22	16	3	0.06
+17-63	Cognition	how much?	HOW MUCH	41	24	21	14	3	0.05
+17-64	Cognition	what?	WHAT	41	24	34	21	1	0.03
+17-65	Cognition	when?	WHEN	41	24	25	16	1	0.05
+17-66	Cognition	where?	WHERE	41	24	27	14	0	0.00
+17-67	Cognition	which?	WHICH	41	24	28	19	0	0.01
+17-68	Cognition	who?	WHO	41	24	34	22	1	0.03
+17-69	Cognition	why?	WHY	41	24	17	13	0	0.01
+18-11	Speech and language	the voice	VOICE	41	24	29	19	7	0.27
+18-12	Speech and language	to sing	SING	41	24	21	13	3	0.06
+18-13	Speech and language	to shout	SHOUT	41	24	28	20	2	0.10
+18-15	Speech and language	to whisper	WHISPER	39	24	15	12	6	0.16
+18-16	Speech and language	to mumble	MUMBLE	32	20	16	12	1	0.09
+18-17	Speech and language	to whistle	WHISTLE	41	24	20	17	6	0.14
+18-18	Speech and language	to shriek	SHRIEK	35	21	19	14	1	0.18
+18-19	Speech and language	to howl	HOWL	39	24	26	18	1	0.04
+18-21	Speech and language	to speak or talk	SPEAK	41	24	23	16	3	0.09
+18-211	Speech and language	to stutter or stammer	STUTTER	37	22	15	10	4	0.13
+18-22	Speech and language	to say	SAY	41	24	35	21	0	0.03
+18-221	Speech and language	to tell	TELL	41	24	21	15	5	0.14
+18-222	Speech and language	the speech	SPEECH	34	21	10	9	7	0.34
+18-23	Speech and language	to be silent	BE SILENT	38	23	15	11	2	0.07
+18-24	Speech and language	the language	LANGUAGE	40	24	27	17	5	0.31
+18-26	Speech and language	the word	WORD	38	23	26	15	6	0.25
+18-28	Speech and language	the name	NAME	41	24	34	21	3	0.09
+18-31	Speech and language	to ask(1)	ASK (INQUIRE)	41	24	26	17	5	0.13
+18-32	Speech and language	to answer	ANSWER	41	24	17	12	4	0.22
+18-33	Speech and language	to admit	ADMIT	33	18	7	6	7	0.36
+18-34	Speech and language	to deny	DENY	33	18	12	8	9	0.37
+18-35	Speech and language	to ask(2)	ASK (REQUEST)	41	24	30	20	4	0.09
+18-36	Speech and language	to promise	PROMISE	36	21	5	3	11	0.32
+18-37	Speech and language	to refuse	REFUSE	37	21	10	6	6	0.20
+18-38	Speech and language	to forbid	FORBID	35	20	14	10	8	0.32
+18-39	Speech and language	to scold	SCOLD	39	24	24	18	3	0.17
+18-41	Speech and language	to call(1)	CALL	40	24	22	14	5	0.11
+18-42	Speech and language	to call(2)	CALL BY NAME	40	24	19	14	2	0.08
+18-43	Speech and language	to announce	ANNOUNCE	38	22	11	9	5	0.24
+18-44	Speech and language	to threaten	THREATEN	40	23	16	13	2	0.12
+18-45	Speech and language	to boast	BOAST	36	22	13	10	1	0.08
+18-51	Speech and language	to write	WRITE	41	24	23	15	11	0.29
+18-52	Speech and language	to read	READ	40	24	16	12	15	0.43
+18-56	Speech and language	the paper	PAPER	41	24	13	11	27	0.72
+18-57	Speech and language	the pen	PEN	37	21	4	2	24	0.73
+18-61	Speech and language	the book	BOOK	41	24	16	9	22	0.62
+18-67	Speech and language	the poet	POET	25	13	4	3	7	0.38
+18-71	Speech and language	the flute	FLUTE	35	18	19	14	10	0.33
+18-72	Speech and language	the drum	DRUM	35	21	24	15	6	0.39
+18-73	Speech and language	the horn or trumpet	BRASS INSTRUMENT (HORN OR TRUMPET)	31	19	16	13	11	0.47
+18-74	Speech and language	the rattle	RATTLE	27	16	16	12	3	0.20
+19-11	Social and political relations	the country	COUNTRY	37	22	20	11	12	0.48
+19-12	Social and political relations	the native country	NATIVE COUNTRY	29	17	4	4	5	0.17
+19-15	Social and political relations	the town	TOWN	39	23	16	11	15	0.47
+19-16	Social and political relations	the village	VILLAGE	40	24	24	13	9	0.29
+19-17	Social and political relations	the boundary	BOUNDARY	37	21	16	13	14	0.43
+19-21	Social and political relations	the people	PEOPLE	38	22	12	8	12	0.38
+19-23	Social and political relations	the clan	CLAN	37	22	16	11	13	0.45
+19-24	Social and political relations	the chieftain	CHIEFTAIN	37	24	16	13	7	0.34
+19-25	Social and political relations	the walking stick	WALKING STICK	41	24	24	15	7	0.24
+19-31	Social and political relations	to rule or govern	RULE	32	20	6	4	9	0.38
+19-32	Social and political relations	the king	KING	36	20	17	10	14	0.53
+19-33	Social and political relations	the queen	QUEEN	30	18	7	5	10	0.32
+19-36	Social and political relations	the noble	NOBLE	19	11	3	2	8	0.38
+19-37	Social and political relations	the citizen	CITIZEN	24	15	4	4	10	0.43
+19-41	Social and political relations	the master	MASTER	33	21	15	9	12	0.38
+19-42	Social and political relations	the slave	SLAVE	31	17	14	9	10	0.38
+19-43	Social and political relations	the servant	SERVANT	36	20	10	8	11	0.36
+19-44	Social and political relations	the freeman	FREEMAN	21	15	1	1	6	0.25
+19-45	Social and political relations	to command or order	COMMAND	37	21	11	10	11	0.42
+19-46	Social and political relations	to obey	OBEY	35	21	12	11	2	0.11
+19-47	Social and political relations	to permit	PERMIT	38	22	14	11	5	0.26
+19-51	Social and political relations	the friend	FRIEND	41	24	23	15	12	0.41
+19-52	Social and political relations	the enemy	ENEMY	39	23	14	12	12	0.45
+19-54	Social and political relations	the neighbour	NEIGHBOUR	37	22	13	9	7	0.21
+19-55	Social and political relations	the stranger	STRANGER	37	23	12	10	5	0.22
+19-56	Social and political relations	the guest	GUEST	35	21	18	10	8	0.26
+19-57	Social and political relations	the host	HOST	29	18	6	6	6	0.21
+19-58	Social and political relations	to help	HELP	41	24	21	13	8	0.22
+19-59	Social and political relations	to prevent	PREVENT	38	22	17	11	4	0.24
+19-61	Social and political relations	the custom	CUSTOM	38	23	12	9	16	0.47
+19-62	Social and political relations	the quarrel	QUARREL	40	24	16	10	6	0.18
+19-63	Social and political relations	the plot	PLOT	24	15	7	5	5	0.33
+19-65	Social and political relations	to meet	MEET	41	24	22	14	3	0.08
+19-72	Social and political relations	the prostitute	PROSTITUTE	36	21	11	7	10	0.35
+20-11	Warfare and hunting	to fight	FIGHT	41	24	21	13	4	0.13
+20-13	Warfare and hunting	the war or battle	BATTLE	41	24	24	16	8	0.34
+20-14	Warfare and hunting	the peace	PEACE	34	21	9	5	14	0.39
+20-15	Warfare and hunting	the army	ARMY	35	22	9	5	19	0.56
+20-17	Warfare and hunting	the soldier	SOLDIER	39	23	10	6	21	0.58
+20-21	Warfare and hunting	the weapons	WEAPONS	37	22	12	8	11	0.34
+20-22	Warfare and hunting	the club	CLUB	35	21	19	12	12	0.37
+20-222	Warfare and hunting	the battle-axe	BATTLE-AXE	17	11	5	5	4	0.26
+20-23	Warfare and hunting	the sling	SLING	31	19	11	9	8	0.31
+20-24	Warfare and hunting	the bow	BOW	37	21	25	17	5	0.16
+20-25	Warfare and hunting	the arrow	ARROW	38	22	25	19	8	0.19
+20-26	Warfare and hunting	the spear	SPEAR	39	23	25	15	8	0.25
+20-27	Warfare and hunting	the sword	SWORD	32	19	12	7	13	0.45
+20-28	Warfare and hunting	the gun	GUN	39	24	14	11	18	0.59
+20-31	Warfare and hunting	the armour	ARMOUR	22	15	6	6	8	0.37
+20-33	Warfare and hunting	the helmet	HELMET	23	14	11	7	5	0.36
+20-34	Warfare and hunting	the shield	SHIELD	26	15	18	10	4	0.22
+20-35	Warfare and hunting	the fortress	FORTRESS	23	13	7	5	9	0.48
+20-36	Warfare and hunting	the tower	TOWER	26	14	7	6	15	0.50
+20-41	Warfare and hunting	the victory	VICTORY	35	20	10	7	9	0.33
+20-42	Warfare and hunting	the defeat	DEFEAT	32	19	10	9	6	0.22
+20-43	Warfare and hunting	the attack	ATTACK	31	20	10	9	10	0.33
+20-44	Warfare and hunting	to defend	DEFEND	36	22	15	12	6	0.19
+20-45	Warfare and hunting	to retreat	RETREAT	36	22	12	10	4	0.13
+20-46	Warfare and hunting	to surrender	SURRENDER	31	19	4	3	6	0.21
+20-47	Warfare and hunting	the captive or prisoner	PRISONER	34	21	6	4	9	0.39
+20-471	Warfare and hunting	the guard	GUARD	34	21	5	5	12	0.43
+20-48	Warfare and hunting	the booty	BOOTY	24	16	10	6	4	0.27
+20-49	Warfare and hunting	the ambush	AMBUSH	29	17	12	6	5	0.17
+20-51	Warfare and hunting	the fisherman	FISHERMAN	33	24	3	2	6	0.18
+20-52	Warfare and hunting	the fishhook	FISHHOOK	37	23	18	14	6	0.18
+20-53	Warfare and hunting	the fishing line	FISHING LINE	32	21	10	9	6	0.25
+20-54	Warfare and hunting	the fishnet	FISHNET	38	23	17	13	6	0.26
+20-55	Warfare and hunting	the fish trap	FISH TRAP	27	18	16	10	5	0.23
+20-56	Warfare and hunting	the bait	BAIT	31	19	18	12	5	0.15
+20-61	Warfare and hunting	to hunt	HUNT	40	24	25	16	4	0.10
+20-62	Warfare and hunting	to shoot	SHOOT	41	24	24	16	2	0.09
+20-63	Warfare and hunting	to miss	MISS (A TARGET)	38	22	17	12	5	0.16
+20-64	Warfare and hunting	the trap	TRAP (PITFALL)	40	24	26	16	6	0.24
+20-65	Warfare and hunting	to trap	TRAP (CATCH)	37	23	21	14	1	0.06
+21-11	Law	the law	LAW	33	20	9	4	20	0.63
+21-15	Law	the court	COURT	33	19	6	3	16	0.55
+12-013	Spatial relations	at	AT	33	19	32	19	0	0.05
+21-16	Law	to adjudicate	ADJUDICATE	27	16	8	5	7	0.31
+21-17	Law	the judgment	JUDGMENT	30	18	6	4	11	0.38
+21-18	Law	the judge	JUDGE	32	20	2	2	16	0.54
+21-21	Law	the plaintiff	PLAINTIFF	29	18	1	1	9	0.28
+21-22	Law	the defendant	DEFENDANT	30	21	2	2	6	0.20
+21-23	Law	the witness	WITNESS	34	20	1	1	20	0.58
+21-24	Law	to swear	SWEAR	31	17	12	5	4	0.24
+21-25	Law	the oath	OATH	31	17	15	7	4	0.22
+21-31	Law	to accuse	ACCUSE	35	22	11	11	7	0.36
+21-32	Law	to condemn	CONDEMN	25	15	5	5	10	0.47
+21-33	Law	to convict	CONVICT	25	17	4	4	6	0.21
+21-34	Law	to acquit	ACQUIT	25	15	7	5	5	0.19
+21-35	Law	guilty	GUILTY	33	21	4	3	11	0.36
+21-36	Law	innocent	INNOCENT	28	18	1	1	8	0.31
+21-37	Law	the penalty or punishment	PUNISHMENT	32	17	4	3	17	0.61
+21-38	Law	the fine	FINE (PENALTY)	32	19	7	5	17	0.54
+21-39	Law	the prison	PRISON	38	23	7	6	18	0.51
+21-42	Law	the murder	MURDER	35	23	9	5	2	0.14
+21-43	Law	the adultery	ADULTERY	28	16	5	4	9	0.37
+21-44	Law	the rape	RAPE	32	21	4	4	8	0.33
+21-46	Law	the arson	ARSON	25	16	4	4	3	0.13
+21-47	Law	the perjury	PERJURY	24	16	2	2	5	0.19
+21-51	Law	to steal	STEAL	41	24	28	17	3	0.13
+21-52	Law	the thief	THIEF	40	24	13	7	6	0.17
+22-11	Religion and belief	the religion	RELIGION	32	18	3	2	20	0.65
+22-12	Religion and belief	the god	DEITY	41	24	23	13	13	0.37
+22-13	Religion and belief	the temple	TEMPLE	30	17	3	3	17	0.62
+22-14	Religion and belief	the altar	ALTAR	25	14	3	2	17	0.69
+22-15	Religion and belief	the sacrifice	SACRIFICE	34	20	10	9	11	0.36
+22-16	Religion and belief	to worship	WORSHIP	32	21	9	8	5	0.25
+22-17	Religion and belief	to pray	PRAY	37	21	15	9	9	0.38
+22-18	Religion and belief	the priest	PRIEST	36	21	6	4	21	0.62
+22-19	Religion and belief	holy	HOLY	34	21	9	6	10	0.29
+22-22	Religion and belief	to preach	PREACH	31	18	5	5	16	0.58
+22-23	Religion and belief	to bless	BLESS	34	20	9	8	10	0.29
+22-24	Religion and belief	to curse	CURSE	37	22	16	10	6	0.17
+22-26	Religion and belief	to fast	ABSTAIN FROM FOOD	37	20	5	4	11	0.30
+22-31	Religion and belief	the heaven	HEAVEN	36	22	15	8	9	0.38
+22-32	Religion and belief	the hell	HELL	34	20	10	5	12	0.49
+22-35	Religion and belief	the demon	DEMON	36	21	14	10	12	0.44
+22-37	Religion and belief	the idol	IDOL	25	15	9	7	9	0.38
+22-42	Religion and belief	the magic	MAGIC	36	21	9	7	9	0.34
+22-43	Religion and belief	the sorcerer or witch	MAGICIAN	37	22	12	10	7	0.23
+22-44	Religion and belief	the fairy or elf	ELF OR FAIRY	25	15	7	4	8	0.49
+22-45	Religion and belief	the ghost	GHOST	37	23	21	14	5	0.30
+22-47	Religion and belief	the omen	OMEN	32	20	12	10	10	0.35
+23-1	Modern world	the radio	RADIO	35	21	2	2	27	0.76
+23-11	Modern world	the television	TELEVISION	33	21	1	1	27	0.84
+23-12	Modern world	the telephone	TELEPHONE	37	22	2	2	28	0.73
+23-135	Modern world	the motorcycle	MOTORCYCLE	35	20	4	3	20	0.63
+23-14	Modern world	the car	CAR	40	24	4	3	29	0.79
+23-15	Modern world	the bus	BUS	38	22	3	3	27	0.73
+23-16	Modern world	the airplane	AIRPLANE	40	24	2	2	21	0.59
+23-17	Modern world	the electricity	ELECTRICITY	36	20	11	9	20	0.66
+23-175	Modern world	the battery	BATTERY	34	20	3	3	24	0.75
+23-2	Modern world	the hospital	HOSPITAL	39	22	1	1	20	0.56
+23-21	Modern world	the nurse	NURSE	34	21	2	2	14	0.45
+23-22	Modern world	the pill or tablet	PILL	34	20	4	4	19	0.61
+23-23	Modern world	the injection	INJECTION	34	20	5	5	20	0.63
+23-5	Modern world	the tap/faucet	FAUCET	31	18	8	6	15	0.52
+23-51	Modern world	the sink	SINK (BASIN)	27	18	2	2	13	0.42
+23-52	Modern world	the toilet	TOILET	38	23	5	4	16	0.53
+23-53	Modern world	the mattress	MATTRESS	32	20	7	7	21	0.65
+23-3	Modern world	the government	GOVERNMENT	35	20	6	6	20	0.63
+23-31	Modern world	the president	PRESIDENT	32	20	6	6	19	0.68
+23-32	Modern world	the minister	MINISTER	30	18	5	5	23	0.77
+23-33	Modern world	the police	POLICE	38	23	3	3	30	0.80
+23-34	Modern world	the driver's license	DRIVER'S LICENSE	28	17	3	3	12	0.46
+23-37	Modern world	the crime	CRIME	28	18	7	6	12	0.48
+23-38	Modern world	the election	ELECTION	32	20	4	4	15	0.48
+23-4	Modern world	the post/mail	MAIL	31	19	5	5	22	0.69
+23-41	Modern world	the postage stamp	POSTAGE STAMP	30	18	5	4	17	0.61
+23-42	Modern world	the letter	LETTER	41	24	11	8	23	0.58
+23-44	Modern world	the bank	BANK	32	19	1	1	26	0.84
+23-54	Modern world	the tin/can	CAN	37	23	8	6	25	0.69
+23-55	Modern world	the screw	SCREW	33	21	3	3	24	0.75
+23-555	Modern world	the screwdriver	SCREWDRIVER	31	19	2	2	16	0.59
+23-56	Modern world	the bottle	BOTTLE	40	24	14	9	24	0.60
+23-565	Modern world	the candy/sweets	CANDY	39	24	9	8	17	0.56
+23-24	Modern world	the spectacles/glasses	SPECTACLES	37	23	4	4	18	0.52
+23-57	Modern world	the plastic	PLASTIC	32	20	2	2	27	0.84
+23-575	Modern world	the bomb	BOMB	30	18	2	2	23	0.77
+23-58	Modern world	the workshop	WORKSHOP	27	17	3	2	12	0.45
+23-59	Modern world	the cigarette	CIGARETTE	39	24	10	10	22	0.63
+23-61	Modern world	the calendar	CALENDAR	30	19	3	2	22	0.77
+23-62	Modern world	the film/movie	MOVIE	35	20	4	3	26	0.74
+23-63	Modern world	the music	MUSIC	34	20	12	10	17	0.58
+23-64	Modern world	the song	SONG	40	24	24	16	6	0.22
+23-6	Modern world	the newspaper	NEWSPAPER	32	19	1	1	20	0.68
+23-385	Modern world	the address	ADDRESS	28	17	3	3	20	0.69
+23-39	Modern world	the number	NUMBER	36	20	11	6	21	0.66
+23-155	Modern world	the train	TRAIN	33	21	2	2	19	0.60
+23-36	Modern world	the birth certificate	BIRTH CERTIFICATE	29	19	1	1	10	0.38
+23-18	Modern world	to brake	BRAKE	30	19	8	7	11	0.42
+23-195	Modern world	the petroleum	PETROLEUM	35	21	6	5	20	0.65
+23-185	Modern world	the motor	MOTOR	35	21	1	1	32	0.91
+23-19	Modern world	the machine	MACHINE	34	21	2	2	29	0.89
+23-13	Modern world	the bicycle	BICYCLE	36	22	5	4	20	0.62
+23-395	Modern world	the street	STREET	40	24	20	16	15	0.49
+19-445	Social and political relations	to liberate	LIBERATE	34	21	10	9	6	0.20
+19-565	Social and political relations	to invite	INVITE	36	23	20	15	4	0.20
+23-35	Modern world	the license plate	LICENSE PLATE	27	18	1	1	11	0.38
+23-43	Modern world	the postcard	POSTCARD	28	18	2	2	12	0.47
+24-01	Miscellaneous function words	to be	BE	33	22	29	19	2	0.07
+24-02	Miscellaneous function words	to become	BECOME	35	20	22	14	3	0.17
+24-03	Miscellaneous function words	without	WITHOUT	30	18	16	11	4	0.22
+24-05	Miscellaneous function words	through	THROUGH	29	18	22	13	3	0.11
+24-13	Miscellaneous function words	same	SAME	36	23	13	10	4	0.11
+24-06	Miscellaneous function words	not	NOT	36	22	30	21	2	0.04
+24-07	Miscellaneous function words	this	THIS	40	24	30	20	0	0.00
+24-08	Miscellaneous function words	that	THAT	39	23	28	18	0	0.03
+24-09	Miscellaneous function words	here	HERE	41	24	18	10	1	0.02
+24-1	Miscellaneous function words	there	THERE	41	24	21	13	1	0.02
+24-11	Miscellaneous function words	other	OTHER	41	24	30	18	3	0.09
+4-493	The body	the vagina	VAGINA	39	23	24	17	6	0.34
+23-9	Modern world	the tea	TEA	38	23	3	3	31	0.83
+23-91	Modern world	the coffee	COFFEE	39	23	3	2	33	0.86
+24-12	Miscellaneous function words	next	NEXT	37	22	16	11	2	0.03
+3-862	Animals	the coyote	COYOTE	13	10	6	5	6	0.40
+3-863	Animals	the hare	HARE	33	21	19	12	5	0.14
+3-865	Animals	the quail	QUAIL	27	17	19	14	4	0.15
+3-866	Animals	the raccoon	RACCOON	13	9	3	3	5	0.43
+3-869	Animals	the squirrel	SQUIRREL	33	21	19	16	7	0.23
+3-871	Animals	the reindeer/caribou	REINDEER	15	11	6	6	6	0.54
+3-872	Animals	the elk/moose	ELK	15	11	7	5	5	0.31
+3-873	Animals	the beaver	BEAVER	14	9	7	4	5	0.44
+10-79	Motion	the sledge/sled	SLED	19	12	7	6	8	0.43
+8-29	Agriculture and vegetation	the lasso	LASSO	21	15	5	5	9	0.51
+8-991	Agriculture and vegetation	the larch	LARCH	11	7	3	2	4	0.36
+8-993	Agriculture and vegetation	the needle(2)	NEEDLE TREE	22	14	15	9	3	0.13
+1-771	The physical world	the arctic lights	ARCTIC LIGHTS	15	11	0	0	3	0.22
+4-465	The body	the sinew or tendon	TENDON	36	20	29	18	3	0.17
+7-67	The house	to tan	TAN	26	16	9	9	5	0.22
+6-98	Clothing and grooming	the snowshoe	SNOWSHOE	12	9	3	3	1	0.14
+22-5	Religion and belief	the circumcision	CIRCUMCISION	24	12	3	3	13	0.52
+22-51	Religion and belief	the initiation ceremony	INITIATION CEREMONY	14	10	4	4	1	0.16
+8-996	Agriculture and vegetation	the cone	CONE	24	17	10	8	5	0.22
+3-8112	Animals	the body louse	BODY LOUSE	37	24	34	23	1	0.05
+4-494	The body	the vulva	VULVA	32	18	17	14	9	0.32
+3-99	Animals	the tapir	TAPIR	18	12	7	7	7	0.45
+9-93	Basic actions and technology	the whetstone	WHETSTONE	34	22	8	8	6	0.13
+9-92	Basic actions and technology	the tumpline	TUMPLINE	9	7	6	5	1	0.12
+7-65	The house	the camp	CAMP	32	21	12	10	9	0.37
+8-28	Agriculture and vegetation	the digging stick (=yamstick)	DIGGING STICK	20	15	10	7	1	0.06
+3-597	Animals	the cormorant	CORMORANT	17	12	9	8	6	0.36
+3-833	Animals	the prawns or shrimp	CRUSTACEANS (PRAWNS OR SHRIMP)	26	16	17	11	7	0.37
+3-834	Animals	the termites	TERMITE	29	18	16	12	7	0.27
+3-835	Animals	the tick	TICK	32	18	24	16	5	0.15
+9-87	Basic actions and technology	the boomerang	BOOMERANG	15	9	1	1	12	0.78
+3-88	Animals	the kangaroo	KANGAROO	19	12	2	2	16	0.84
+3-89	Animals	the anteater	ANTEATER	23	17	9	9	3	0.11
+3-598	Animals	the toucan	TOUCAN	14	10	3	3	7	0.50
+3-9	Animals	the jaguar	JAGUAR	21	13	8	7	10	0.41
+5-983	Food and drink	the manioc bread	MANIOC BREAD	12	7	3	3	4	0.33
+7-66	The house	the hammock	HAMMOCK	22	15	8	7	8	0.40
+8-911	Agriculture and vegetation	the millet or sorghum	MILLET	29	17	16	10	9	0.29
+3-913	Animals	the chameleon	CHAMELEON	27	15	13	10	9	0.32
+9-9	Basic actions and technology	to draw water	DRAW (WATER)	33	22	16	10	1	0.03
+9-91	Basic actions and technology	the peg	PEG	28	19	19	14	6	0.32
+10-58	Motion	to go or return home	RETURN HOME	36	23	16	12	1	0.03
+3-917	Animals	the buffalo	BUFFALO	27	17	9	8	13	0.54
+1-411	The physical world	the savanna	SAVANNA	24	15	9	8	12	0.58
+1-831	The physical world	the steam	STEAM	38	24	26	17	5	0.23
+2-4561	Kinship	the older sibling	OLDER SIBLING	18	12	12	9	0	0.06
+2-4562	Kinship	the younger sibling	YOUNGER SIBLING	19	13	12	8	3	0.17
+2-4711	Kinship	the grandparents	GRANDPARENTS	24	14	7	6	5	0.19
+2-5	Kinship	the grandchild	GRANDCHILD	35	21	22	16	3	0.13
+2-541	Kinship	the sibling’s child	SIBLING'S CHILD	20	13	11	9	3	0.22
+2-622	Kinship	the parents-in-law	PARENTS-IN-LAW	24	15	10	9	4	0.11
+2-6411	Kinship	the child-in-law	CHILD-IN-LAW	18	12	13	11	1	0.04
+2-6412	Kinship	the sibling-in-law	SIBLING-IN-LAW	25	16	19	13	0	0.12
+2-931	Kinship	he	HE	33	22	29	19	0	0.06
+2-932	Kinship	she	SHE	33	22	27	17	0	0.05
+2-933	Kinship	it	IT	28	19	21	14	0	0.03
+4-741	The body	the life	LIFE	38	23	18	14	5	0.28
+4-771	The body	the carcass	CARCASS	34	22	15	10	6	0.26
+4-844	The body	the disease	DISEASE	40	24	17	13	9	0.34
+7-232	The house	the padlock	PADLOCK	30	20	5	4	13	0.46
+8-121	Agriculture and vegetation	the paddy	PADDY FIELD	16	10	5	3	3	0.16
+11-29	Possession	to damage	DAMAGE	36	22	12	9	7	0.25
+12-081	Spatial relations	above	ABOVE	40	24	27	19	2	0.03
+13-231	Quantity	the piece	PIECE	38	23	19	12	3	0.16
+13-331	Quantity	alone	ALONE	40	24	21	12	1	0.10
+14-251	Time	the beginning	BEGINNING	37	21	9	8	6	0.22
+14-411	Time	the day(2)	DAY (NOT NIGHT)	39	23	29	17	6	0.19
+22-131	Religion and belief	the church	CHURCH	37	21	1	1	23	0.66
+22-132	Religion and belief	the mosque	MOSQUE	20	10	0	0	14	0.73
+24-14	Miscellaneous function words	nothing	NOTHING	34	20	11	7	2	0.11
+4-7501	The body	dead	DEAD	41	24	22	13	3	0.10
+4-8541	The body	to scratch	SCRATCH	41	24	30	18	1	0.09
+9-111	Basic actions and technology	to make	MAKE	41	24	33	20	3	0.08
+4-431	The body	the belly	BELLY	40	24	32	18	4	0.16
+9-311	Basic actions and technology	to wipe	WIPE	35	20	23	15	4	0.14
+1-775	The physical world	to freeze	FREEZE	32	21	17	15	4	0.13
+24-04	Miscellaneous function words	with	WITH	37	21	32	18	1	0.09
+12-012	Spatial relations	in	IN	37	21	30	19	2	0.05
