@@ -1,0 +1,6 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.053 seconds.
+Prefix dict has been built successfully.
+seed 9: changed 13  objective 1.0799  robust score 0.5099  penalties (39, 48, 2)  violations 0
+wrote runs/mid-0.02-hb-s9.tsv

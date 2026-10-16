@@ -1,0 +1,5 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.049 seconds.
+Prefix dict has been built successfully.
+REOPT mid-lock-0.02.tsv variants=all override=L2_voicing_m=low | moved 20 | objective 1.0412 -> 1.0131 | robust 0.3812 -> 0.3951 | REQUEST bun->so; WE.incl fun->yon; LOGOPHOR pon->fun; SOME yon->nun; ONGOING pan->me; OR men->fo; BUT pen->win; VERY win->ten; LIKE fo->son; ONLY ten->pon; EXCLAIM sun->ba; SELF nun->bun; POLITE fan->sun; IT len->gen; RESULT gen->pan; EVEN son->wi; FOCUS ba->len; YOUKNOW wi->fan; D0 su->ne; D5 ne->su

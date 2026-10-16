@@ -1,0 +1,5 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.047 seconds.
+Prefix dict has been built successfully.
+REOPT full.tsv variants=all override=reseg_n_V=high | moved 9 | objective 0.3248 -> 0.3235 | robust 0.2428 -> 0.2415 | OBVIATIVE de->don; NONE don->de; WITH nun->mon; AND wan->nun; WHO.rel mon->wan; BE ti->gun; ALSO gun->ti; D1 gi->sa; D2 sa->gi

@@ -1,0 +1,5 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.046 seconds.
+Prefix dict has been built successfully.
+REOPT mid-lock-0.01.tsv variants=all override=glide_hiatus=high | moved 35 | objective 0.8101 -> 0.7988 | robust 0.3081 -> 0.3148 | REQUEST ta->bun; INSTRUCT ti->fin; INTEND me->de; UNSPEC pa->bo; CONF pe->lo; WE.incl kan->ya; LOGOPHOR gen->son; SOME go->fan; NONE fen->gen; WITH nan->ta; FOR fan->fen; BEFORE ya->kon; AFTER kon->wo; BUT ka->pan; BECAUSE bo->gi; WHO.rel fun->me; MORE ke->ten; VERY ten->nan; LIKE son->fun; GENERIC dan->go; ONLY ga->kan; WHILE min->lin; POLITE fin->pe; IT bun->dan; RESULT gi->ti; NAME fo->pon; ALSO pon->ga; FOCUS lin->min; YOUKNOW yan->won; MODMOD tan->yan; D0 ma->ke; D1 ni->mu; D3 de->fo; D4 mu->ni; D5 wo->ma

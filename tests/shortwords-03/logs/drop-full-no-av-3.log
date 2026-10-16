@@ -1,0 +1,5 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.025 seconds.
+Prefix dict has been built successfully.
+REOPT full.tsv variants=no-av override=none | moved 0 | objective 0.3247 -> 0.3247 | robust 0.2427 -> 0.2427 | 
