@@ -63,7 +63,7 @@ A background deep dive into the design, engineering and principles of other inte
 
 ### Judge's repairs not yet taken up
 
-Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call/phone) through ladder 1 with the concept list; the sound rules into the reference with the accent-tolerance step; **bare noun + noun as a loose compound** (would change 5.2.3), its own decision for the author.
+Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call/phone) through ladder 1 with the concept list; the sound rules into the reference with the accent-tolerance step; bare noun + noun decided 2026-10-15 (kept restricted).
 
 ### Checks
 
