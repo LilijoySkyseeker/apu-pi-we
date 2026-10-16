@@ -2,3 +2,5 @@ Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.
 Dumping model to file cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
 Loading model cost 0.045 seconds.
 Prefix dict has been built successfully.
+seed 4: changed 11  objective 1.2992  robust score 0.5492  penalties (39, 48, 2)  violations 0
+wrote runs/mid-0.04-s4.tsv
