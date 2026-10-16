@@ -24,6 +24,8 @@ case "$1" in
     for vs in no-av no-lp; do for s in 1 2 3; do
       echo "SW_VARIANTS=$vs $R reopt --layer $LAYER $OPTS --steps ${STEPS:-100000} --seed $s --out runs/drop-$NAME-$vs-$s.tsv > logs/drop-$NAME-$vs-$s.log 2>&1"
     done; done | par ;;
+  sens-score) # added: each option's layer scored at each parameter's low and high end (does the ranking hold?) -> sens-score.txt
+    { $R score $LAYERS; for k in $SENS_PARAMS; do for v in low high; do SW_OVERRIDE=$k=$v $R score $LAYERS; done; done; } 2>/dev/null | grep '^SCORE' > sens-score.txt ;;
   holdout) # hold-out check (notes §6.6): each free option optimised on one half of the variants (half-a / half-b,
            # split in rebuild.py), then every layer scored on both halves -> holdout.txt. Resumable (runs.sh skips done runs).
     for H in a b; do SW_VARIANTS=half-$H TAG=-h$H bash runs.sh patch-free & done

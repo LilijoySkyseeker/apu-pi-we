@@ -40,6 +40,16 @@ case "$1" in
     for k in ${KEEPS:-0.02 0.04}; do
       pick mid-$k${TAG:-}.tsv runs/mid-$k${TAG:-}-s*.tsv; pick mid-lock-$k${TAG:-}.tsv runs/mid-lock-$k${TAG:-}-s*.tsv
     done ;;
+  mid-alt) # added: the keep sweep also started from a lower-keep layer (FROM=0.02), since at 0.04 11 of 12 seeds
+           # never left the patch (a local trap); picked together with the patch-started seeds
+    for k in ${KEEPS:-0.04}; do for s in $SEEDS; do
+      echo "$R full --keep $k --start mid-$FROM${TAG:-}.tsv --steps ${STEPS:-400000} --seeds 1 --seed0 $s --out runs/mid-$k${TAG:-}-from$FROM-s$s.tsv > logs/mid-$k${TAG:-}-from$FROM-s$s.log 2>&1"
+      echo "$R full --keep $k --start mid-lock-$FROM${TAG:-}.tsv --lock OF,ALL --steps ${STEPS:-400000} --seeds 1 --seed0 $s --out runs/mid-lock-$k${TAG:-}-from$FROM-s$s.tsv > logs/mid-lock-$k${TAG:-}-from$FROM-s$s.log 2>&1"
+    done; done | par
+    for k in ${KEEPS:-0.04}; do
+      pick mid-$k${TAG:-}.tsv runs/mid-$k${TAG:-}-s*.tsv runs/mid-$k${TAG:-}-from*-s*.tsv
+      pick mid-lock-$k${TAG:-}.tsv runs/mid-lock-$k${TAG:-}-s*.tsv runs/mid-lock-$k${TAG:-}-from*-s*.tsv
+    done ;;
   full-free)   # full rebuild, free only (hold-out, drop test); variant set from $SW_VARIANTS
     for s in $SEEDS; do
       echo "$R full --steps ${STEPS:-1500000} --seeds 1 --seed0 $s --out runs/full${TAG:-}-s$s.tsv > logs/full${TAG:-}-s$s.log 2>&1"

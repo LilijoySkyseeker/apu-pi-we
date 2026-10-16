@@ -10,7 +10,8 @@ Question: the dry run (`tests/shortwords-02/`) rerun with what changed since, so
 - [x] host crash ~16:26, resumed 21:00. Checked every file: all `runs/full-s1..12`, `full-lock-s1..12`, `mid-0.02-s1..12`, `mid-lock-0.02-s1..12`, `mid-0.04-s1`, `mid-lock-0.04-s1` have 71 lines and a "wrote" line in their log; `patch.tsv`, `patch-lock.tsv` complete (log ends "wrote", 16:14); `full.tsv`/`full-lock.tsv` picked (s9, lock s1). Killed mid-run: hold-out `-ha` batch (no files written). Since then rebuild.py writes layers atomically and `runs.sh`/`checks.sh` skip any command whose `--out` file exists, so a step is resumed by rerunning it.
 - [x] patch free / locked (200k steps per change set)
 - [x] full free / locked (12 seeds × 1.5M steps)
-- [ ] keep sweep 0.02 done; 0.04 seeds 2–12 free/locked running (`runs.sh mid`) (+1 point if the curve needs it)
+- [x] keep sweep 0.02, 0.04 from the patch (`runs.sh mid`): picked mid-0.02 = s11 (25 changes), mid-lock-0.02 = s2; mid-0.04 = s11 (14 changes), mid-lock-0.04 = the patch (all 12 seeds stuck). 11 of 12 free seeds at 0.04 and 6–7 of 12 at 0.02 never left the patch.
+- [ ] running (`logs/batch-mid3.log`): `FROM=0.02 KEEPS=0.04 runs.sh mid-alt` (0.04 also started from mid-0.02, added: the patch is a trap) then `KEEPS=0.01 runs.sh mid` (third point: gap between 25 and 66 changes)
 - [ ] hold-out check
 - [ ] sensitivity
 - [ ] drop test
