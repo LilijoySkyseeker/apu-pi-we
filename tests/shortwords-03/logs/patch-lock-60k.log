@@ -1,0 +1,20 @@
+[0mdirenv: loading ~/work/repos/universal-language/.envrc
+[0mdirenv: using flake
+[0mdirenv: nix-direnv: Using cached dev shell
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.145 seconds.
+Prefix dict has been built successfully.
+12 merger pairs; minimum change set 13 words; 16 such sets
+  set 0: INSTRUCT UNSPEC THAT.dem SOME BUT VERY RESULT PLACE NAME FOCUS YOUKNOW MODMOD D1  objective 0.8478  mergers left 0
+  set 1: INSTRUCT UNSPEC WE.incl SOME BUT VERY RESULT PLACE NAME FOCUS YOUKNOW MODMOD D1  objective 0.8601  mergers left 0
+  set 2: no legal start found, skipped
+  set 3: INSTRUCT UNSPEC THAT.dem SOME BUT MORE VERY PLACE NAME FOCUS YOUKNOW MODMOD D1  objective 0.8563  mergers left 0
+  set 4: no legal start found, skipped
+  set 5: UNSPEC WE.incl WE.excl SOME BUT VERY RESULT PLACE NAME FOCUS YOUKNOW MODMOD D1  objective 0.8626  mergers left 0
+  set 6: UNSPEC WE.incl WE.excl SOME BUT MORE VERY PLACE NAME FOCUS YOUKNOW MODMOD D1  objective 0.8591  mergers left 0
+  set 7: UNSPEC WE.excl THAT.dem SOME BUT MORE VERY PLACE NAME FOCUS YOUKNOW MODMOD D1  objective 0.8487  mergers left 0
+  set 8: INSTRUCT WE.incl SOME BUT VERY RESULT PLACE NAME FOCUS YOUKNOW MODMOD D0 D1  objective 0.8614  mergers left 0
+  set 9: no legal start found, skipped
+  set 10: INSTRUCT THAT.dem SOME BUT MORE VERY PLACE NAME FOCUS YOUKNOW MODMOD D0 D1  objective 0.8680  mergers left 0
+  set 11: INSTRUCT WE.incl SOME BUT MORE VERY PLACE NAME FOCUS YOUKNOW MODMOD D0 D1  objective 0.8570  mergers left 0

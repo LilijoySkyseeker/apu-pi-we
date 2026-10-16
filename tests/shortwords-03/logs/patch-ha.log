@@ -1,0 +1,12 @@
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.061 seconds.
+Prefix dict has been built successfully.
+12 merger pairs; minimum change set 13 words; 16 such sets
+  set 0: INSTRUCT UNSPEC THAT.dem SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8523  mergers left 0
+  set 1: INSTRUCT UNSPEC WE.incl SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8509  mergers left 0
+  set 2: INSTRUCT UNSPEC WE.incl SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8479  mergers left 0
+  set 3: INSTRUCT UNSPEC THAT.dem SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8634  mergers left 0
+  set 4: UNSPEC WE.excl THAT.dem SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8763  mergers left 0
+  set 5: UNSPEC WE.incl WE.excl SOME OF BUT RESULT PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8810  mergers left 0
+  set 6: UNSPEC WE.incl WE.excl SOME OF BUT MORE PLACE NAME FOCUS YOUKNOW MODMOD ENDEAR  objective 0.8762  mergers left 0

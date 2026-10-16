@@ -1,0 +1,5 @@
+[0mdirenv: loading ~/work/repos/universal-language/.envrc
+[0mdirenv: using flake
+[0mdirenv: nix-direnv: Using cached dev shell
+picked runs/full-s9.tsv -> full.tsv
+picked runs/full-lock-s1.tsv -> full-lock.tsv
