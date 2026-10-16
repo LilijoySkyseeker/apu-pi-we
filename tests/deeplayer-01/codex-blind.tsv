@@ -1,0 +1,328 @@
+wold_id	meaning	class	note
+1-222	the cliff or precipice	S	Widespread landform; strong independent naming across families.
+1-26	the mainland	B	General geographical relation; a larger-land phrase may suffice.
+1-324	the foam	S	Common substance and state across many everyday contexts.
+1-341	the lagoon	B	Recognizable landform, but geographically limited.
+1-342	the reef	B	Important in coastal life; less general elsewhere.
+1-343	the cape	B	Geographical feature reasonably described as projecting land.
+1-352	the tide	S	Basic recurring phenomenon in coastal life.
+1-353	the low tide	B	Ordinary modifier of tide once tide is named.
+1-354	the high tide	B	Ordinary modifier of tide once tide is named.
+1-362	the whirlpool	B	General phenomenon; a rotating-water description is plausible.
+1-38	the swamp	S	Widespread environment with substantial independent naming.
+1-39	the waterfall	P	osa dosi — falling water; familiar compound.
+1-59	the rainbow	S	Widespread recognizable phenomenon with independent naming.
+1-64	the dew	S	Common natural phenomenon across many families.
+1-88	the firewood	S	Everyday fuel with exceptionally broad independent naming.
+2-458	the twins	B	General kinship concept; same-birth description is plausible.
+2-57	the descendants	B	General relationship, but recursive kinship phrasing may suffice.
+2-75	the orphan	S	Widespread human circumstance not captured by a short root.
+2-76	the widow	B	General circumstance; deceased-spouse description avoids gendered roots.
+2-77	the widower	B	General circumstance; deceased-spouse description avoids gendered roots.
+3-15	the livestock	B	General livelihood category; kept-animal phrase is plausible.
+3-18	the herdsman	B	General occupation readily described through tending livestock.
+3-19	the stable or stall	B	Common animal shelter; animal-house compound is plausible.
+3-24	the calf	P	tiwu pi dunsa — cow's young.
+3-29	the lamb	B	Young-sheep compound is suitable, but sheep lacks a root.
+3-38	the kid	P	tiwu pi elen — goat's young.
+3-45	the foal or colt	P	tiwu pi anbo — horse's young.
+3-58	the nest	S	Basic animal structure with broad independent naming.
+3-582	the seagull	B	Familiar coastal bird, but limited ecological generality.
+3-583	the heron	S	Broad independent naming supports this everyday bird category.
+3-584	the eagle	S	Very broad independent naming across families.
+3-586	the vulture	S	Broad independent naming and a distinctive ecological category.
+3-593	the crow	S	Widespread familiar bird with strong independent naming.
+3-594	the dove	S	Broadly familiar bird category with substantial independent naming.
+3-652	the fin	S	Basic animal body part.
+3-653	the scale	S	Basic animal covering distinct from ordinary skin.
+3-654	the gill	S	Basic animal organ with no adequate existing root.
+3-655	the shell	S	Basic protective body structure across animal kinds.
+3-661	the shark	B	Salient marine animal, but weaker cross-family root evidence.
+3-663	the whale	B	Salient animal category, but weaker cross-family root evidence.
+3-664	the stingray	B	Distinctive animal important in some aquatic environments.
+3-665	the freshwater eel	B	Useful animal category, but freshwater restriction narrows it.
+3-812	the nit	P	tika pi akan — louse egg.
+3-813	the flea	S	Widespread household parasite with strong independent naming.
+3-814	the centipede	B	Recognizable widespread animal; core necessity is less clear.
+3-819	the spider web	B	Spider-net compound is suitable, but its components lack roots.
+3-821	the beeswax	B	Useful material; bee-specific meaning favors a compound.
+3-822	the beehive	B	Bee-home compound is plausible, but bee lacks a root.
+3-823	the wasp	S	Exceptionally broad independent naming across families.
+3-831	the sandfly or midge or gnat	S	Widespread biting-insect category with strong independent naming.
+3-91	the firefly	B	Familiar distinctive insect, but geographically uneven.
+3-94	the snail	S	Widespread animal with substantial independent naming.
+3-96	the lizard	S	Very broad independent naming across families.
+4-142	the beard	S	Common body feature with strong independent naming.
+4-146	the dandruff	B	Common bodily condition; skin-flake description is plausible.
+4-151	the vein or artery	S	Basic visible anatomical structure.
+4-162	the rib	S	Basic body part with broad independent naming.
+4-191	the spine	S	Basic structural body part.
+4-201	the temples	S	Recognizable body region without an adequate short expression.
+4-202	the skull	P	gipo pi lukan — head bone; familiar compound.
+4-207	the jaw	S	Basic body part with broad independent naming.
+4-212	the eyebrow	S	Basic facial feature; eye-hair conflates it with eyelashes.
+4-213	the eyelid	B	Basic body part, but an eye-cover compound is plausible.
+4-214	the eyelash	S	Basic facial feature distinct from eyebrow and ordinary hair.
+4-215	to blink	S	Basic bodily action.
+4-221	the earlobe	B	Body part reasonably expressed as the ear's hanging portion.
+4-222	the earwax	B	Common secretion; ear-specific compound is plausible.
+4-231	the nostril	B	Familiar nose-hole compound, but hole lacks a root.
+4-232	the nasal mucus	S	Universal bodily substance with very broad independent naming.
+4-241	the beak	S	Basic animal body part with broad independent naming.
+4-271	the gums	S	Basic body tissue distinct from teeth and lips.
+4-272	the molar tooth	S	Basic tooth category with broad independent naming.
+4-281	the nape of the neck	P	nebe pi mogo — back of neck.
+4-301	the shoulderblade	B	Basic bone, but shoulder-bone description is plausible.
+4-302	the collarbone	B	Basic bone, but a positional compound is plausible.
+4-32	the elbow	S	Basic joint with strong independent naming.
+4-321	the wrist	S	Basic joint needed in everyday bodily reference.
+4-331	the palm of the hand	S	Basic hand surface distinct from the whole hand.
+4-342	the thumb	S	Basic digit distinguished in ordinary actions.
+4-351	the thigh	S	Basic body region with very broad independent naming.
+4-352	the calf of the leg	S	Basic body region distinct from the whole leg.
+4-371	the ankle	S	Basic joint with substantial independent naming.
+4-372	the heel	S	Basic body part with broad independent naming.
+4-374	the footprint	B	Familiar foot-mark compound, but mark lacks a root.
+4-412	the nipple or teat	S	Basic body part central to feeding.
+4-451	the kidney	S	Basic organ with broad independent naming.
+4-452	the spleen	S	Body organ with strong cross-family naming evidence.
+4-462	the waist	S	Basic body region with strong independent naming.
+4-463	the hip	S	Basic body region with strong independent naming.
+4-521	to hiccough	S	Basic involuntary bodily action.
+4-591	to dribble	S	Basic bodily process distinct from deliberate spitting.
+4-71	to beget	B	General reproductive relation; parenthood phrasing is plausible.
+4-732	to conceive	B	General reproductive event; becoming-pregnant phrasing is plausible.
+4-751	to drown	S	Basic danger and bodily event not equivalent to sinking.
+4-78	to bury	S	General action across disposal, storage, and funerary contexts.
+4-842	the goitre/goiter	X	Specific medical condition rather than a basic bodily category.
+4-843	the cold	S	Common everyday illness distinct from low temperature.
+4-852	the bruise	S	Common bodily injury with substantial independent naming.
+4-854	the itch	S	Basic bodily sensation.
+4-855	the blister	S	Common bodily condition distinct from swelling generally.
+4-856	the boil	S	Common skin condition with strong independent naming.
+4-857	the pus	S	Basic bodily substance with very broad independent naming.
+4-858	the scar	S	Common lasting body feature distinct from an active wound.
+4-92	lazy	S	General behavioral disposition; inactivity alone does not express it.
+4-93	bald	B	General bodily state; hairlessness phrasing is plausible.
+4-94	lame	S	General impaired-mobility state with strong independent naming.
+4-95	deaf	B	General sensory state; not hearing alone can be temporary.
+4-96	mute	B	General communicative state; inability needs more than simple negation.
+4-99	naked	S	Basic bodily state with strong independent naming.
+5-124	unripe	P	su bubin — not ripe.
+5-141	the famine	S	Widespread collective condition distinct from individual hunger.
+5-19	to choke	S	Basic bodily event and everyday danger.
+5-23	to roast or fry	S	Basic cooking process distinct from boiling.
+5-27	the kettle	S	Common household vessel with a distinct everyday function.
+5-34	the jug/pitcher	S	Common household pouring vessel.
+5-36	the saucer	B	Secondary vessel; plate-for-cup description is plausible.
+5-391	the tongs	S	Common household gripping tool.
+5-44	the dinner	B	Meal boundaries vary; main-meal description is plausible.
+5-45	the supper	B	Evening-meal expression is adequate without a separate root.
+5-46	to peel	S	Basic food preparation and removal action.
+5-47	to sieve or to strain	S	Basic household separation process.
+5-53	the dough	S	Common food material with distinctive handling properties.
+5-54	to knead	S	Basic manual action across food and material preparation.
+5-57	the mill	P	du inke — grinding device.
+5-58	the mortar(1)	S	Widespread household grinding vessel with strong independent naming.
+5-59	the pestle	S	Widespread household pounding implement.
+5-821	the chili pepper	S	Widespread contemporary food ingredient with substantial independent naming.
+5-971	the yolk	B	Basic egg component; yellow-of-egg compound is plausible.
+6-13	the tailor	B	General occupation; sewing-person derivation is appropriate.
+6-22	the wool	B	Important material; animal-hair description is plausible.
+6-23	the linen	X	Specific textile material with weak independent root evidence.
+6-27	the felt	X	Specific textile construction rather than a core material category.
+6-29	the leather	S	Widespread everyday material distinct from living skin.
+6-31	to spin	S	Basic fiber-working action with strong independent naming.
+6-32	the spindle	S	Widespread textile implement with strong independent naming.
+6-33	to weave	S	Basic making process with very broad independent naming.
+6-34	the loom	B	General textile tool; weaving-device derivation is plausible.
+6-35	to sew	S	Basic household action with very broad independent naming.
+6-37	the awl	B	General piercing implement; tool derivation is plausible.
+6-39	to dye	S	General transformation of cloth and other materials.
+6-41	the cloak	B	General garment type, but clothing description may suffice.
+6-45	the collar	B	Common garment part; neck-part compound is plausible.
+6-54	the shoemaker	B	General occupation suited to a maker compound.
+6-63	the pin	S	Common household fastening object.
+6-71	the ornament or adornment	B	General category; beautifying-object description is plausible.
+6-72	the jewel	B	General valued-object category, but narrower than basic adornment.
+6-74	the bracelet	B	Common adornment suited to a wrist-ring compound.
+6-76	the bead	S	Widespread small object with strong independent naming.
+6-77	the earring	B	Common adornment suited to an ear-ring compound.
+6-78	the headband or headdress	B	Broad accessory category reasonably expressed through headwear compounds.
+6-81	the handkerchief or rag	B	demi covers cloth; specific use needs contextual qualification.
+6-921	the plait/braid	B	General structure; derivation from braiding is plausible.
+6-93	the razor	B	Common household tool suited to a shaving-tool derivation.
+6-94	the ointment	S	Common household preparation distinct from ordinary oil.
+7-131	the garden-house	X	Narrow building type rather than a core shelter category.
+7-221	the doorpost	B	Ordinary door-post compound, but post lacks a root.
+7-31	the fireplace	P	pu lumi — place for fire.
+7-33	the chimney	B	General building feature; smoke-outlet description is plausible.
+7-47	the shelf	S	Common household structure with a distinct everyday function.
+7-48	the trough	S	Widespread household and livestock container.
+7-52	the thatch	B	Important roof material; vegetation-roof description is plausible.
+7-53	the ridgepole	X	Specific structural member suited to a building compound.
+7-54	the rafter	B	Common structural member; roof-beam compound is plausible.
+7-55	the beam	S	General structural object with broad independent naming.
+7-58	the arch	B	General structural shape; curved-opening description is plausible.
+7-61	the mason	B	General occupation suited to a material-worker compound.
+7-62	the brick	S	Common building object across contemporary rural and urban life.
+7-63	the mortar(2)	S	Common construction material distinct from earth and clay.
+7-64	the adobe	B	Earth-based building material suited to a qualified compound.
+8-17	the ditch	S	Basic constructed land feature across drainage and farming.
+8-21	to plough/plow	S	Basic agricultural action distinct from digging generally.
+8-212	the furrow	B	General agricultural feature; plough-channel description is plausible.
+8-25	the hoe	S	Widespread basic agricultural tool.
+8-26	the fork(2)/pitchfork	B	General agricultural tool; qualified fork category is plausible.
+8-27	the rake	S	Common agricultural and household grounds tool.
+8-31	to sow	S	Basic agricultural action with strong independent naming.
+8-32	to mow	B	Basic action, but grass-cutting compound is plausible.
+8-33	the sickle or scythe	B	Widespread harvesting tool suited to a cutting-tool compound.
+8-34	to thresh	S	Basic agricultural processing action.
+8-35	the threshing-floor	B	Place derivation is appropriate once threshing is named.
+8-52	the hay	P	tunmu kilan — dry grass.
+8-531	to plant	S	Basic cultivation action distinct from sowing and putting.
+8-61	the oak	B	Important regional tree category; global core status is debatable.
+8-62	the beech	X	Regional tree category with limited cross-family support.
+8-63	the birch	B	Important regional tree category; global core status is debatable.
+8-64	the pine	B	Widespread tree category, but ecological generality is uneven.
+8-65	the fir	X	Narrower regional tree distinction.
+8-66	the acorn	B	Useful food and seed category suited to an oak-fruit compound.
+8-67	the vine	S	General plant growth form across unrelated useful plants.
+8-72	the tree stump	S	Common physical object with broad independent naming.
+8-73	the tree trunk	S	Basic plant part with strong independent naming.
+8-74	the forked branch	B	General shape reasonably described through branching.
+8-76	the sap	S	Basic plant substance with substantial independent naming.
+8-81	the palm tree	S	Major everyday tree category with broad independent naming.
+8-83	the citrus fruit	B	Widespread food category, but a narrower botanical grouping.
+8-91	the sweet potato	B	Important staple; separation from generic tuber is debatable.
+8-93	the gourd	S	Widespread plant and household-material category.
+8-931	the pumpkin or squash	S	Widespread food category with substantial independent naming.
+8-94	the bamboo	S	Widespread practical plant material with substantial independent naming.
+8-941	the sugar cane	B	Important crop, but a crop-specific compound is plausible.
+8-97	the nettle	B	Familiar plant category; stinging-plant description is plausible.
+8-98	the mushroom	S	Basic recognizable food and organism category.
+9-161	to untie	B	Basic reversal of tying; no verified short reversal construction.
+9-25	the axe/ax	S	Basic tool with strong independent naming.
+9-251	the adze	B	Widespread woodworking tool, but narrower than axe.
+9-29	to skin	B	Basic processing action suited to a skin-removal compound.
+9-31	to rub	S	Basic physical action.
+9-43	the carpenter	B	General occupation suited to a wood-worker compound.
+9-46	to bore	S	Basic hole-making action distinct from stabbing and digging.
+9-461	to hollow out	S	Basic material-shaping action with strong independent naming.
+9-48	the saw	S	Common household and construction tool.
+9-5	the nail	S	Common fastening object distinct from a bodily nail.
+9-6	the blacksmith	B	General occupation suited to a metal-worker compound.
+9-61	to forge	B	General metalworking process, but more specialized than basic shaping.
+9-62	the anvil	B	Widespread craft tool; narrower household relevance.
+9-63	to cast	B	General manufacturing process; mold-pouring description is plausible.
+9-68	the lead	X	Specific metal without a compelling general-experience root requirement.
+9-69	the tin or tinplate	X	Specific metal or coating suited to a material name.
+9-71	the potter	B	General occupation suited to a vessel-maker compound.
+9-72	to mould/mold	S	Basic shaping action across household and craft contexts.
+9-73	the clay	S	Basic natural and household material with strong independent naming.
+9-75	to weave or plait/braid	S	Basic interlacing action with very broad independent naming.
+9-81	to carve	S	Basic shaping action distinct from cutting generally.
+9-82	the sculptor	X	Specialized artistic role suited to an agent derivation.
+9-84	the chisel	B	Common craft tool; a functional compound is plausible.
+10-14	to wrap	S	Basic household and manual action.
+10-15	to roll	S	Basic motion distinct from rotation alone.
+10-24	to drip	S	Basic liquid motion distinct from general flow.
+10-33	to sink	S	Basic motion and physical behavior.
+10-34	to float	S	Basic physical state and behavior.
+10-351	to dive	S	Basic bodily motion distinct from entering generally.
+10-352	to splash	S	Basic liquid action across washing, play, and movement.
+10-36	to sail	B	General transport action suited to boat-travel phrasing.
+10-41	to crawl	S	Basic mode of bodily movement.
+10-412	to kneel	B	Basic posture suited to a knee-support compound.
+10-413	to crouch	S	Basic bodily posture distinct from sitting.
+10-451	to limp	S	Basic movement pattern distinct from general walking.
+10-77	the axle	B	General mechanical part; centrality to core vocabulary is debatable.
+10-78	the yoke	B	Widespread agricultural implement, but narrower functional scope.
+10-84	the raft	B	General watercraft type suited to a platform-boat description.
+10-85	the oar	S	Basic manual propulsion tool across water-based livelihoods.
+10-851	the paddle	B	General propulsion tool; separation from oar is debatable.
+10-852	to row	S	Basic transport action across water-based livelihoods.
+10-86	the rudder	B	General boat part suited to a steering-tool compound.
+10-87	the mast	B	General boat part suited to a sail-support compound.
+10-88	the sail	B	General propulsion object; wind-cloth compound is plausible.
+10-89	the anchor	B	General transport tool suited to a holding-device compound.
+11-53	the beggar	B	General social role, but asking-question root is insufficient.
+11-54	stingy	S	General disposition with broad independent naming.
+11-61	to lend	S	Basic transaction distinct from giving and renting.
+11-62	to borrow	S	Basic transaction distinct from taking and renting.
+11-63	to owe	S	Basic social and economic relation.
+11-77	to hire	B	sanwa covers paid use; employing someone needs distinction.
+11-79	to earn	S	Basic economic relation distinct from merely obtaining.
+11-84	the merchant	P	no koda — one who sells.
+11-92	to weigh	B	General measurement action; weight-measurement compound is plausible.
+12-17	the remains	B	General residual category suited to a remaining-thing expression.
+12-541	the fathom	X	Specific measurement unit outside core experiential vocabulary.
+12-75	the hook	S	Basic household object and shape with strong independent naming.
+12-77	the cross	B	General shape suited to an intersecting-lines description.
+14-77	the autumn/fall	B	Seasonal category with uneven climatic relevance.
+15-89	wrinkled	B	Common surface state; fold-based description is plausible.
+15-25	fragrant	B	General sensory quality; good-smelling compound is plausible.
+15-26	stinking	B	General sensory quality; bad-smelling compound is plausible.
+15-39	brackish	B	Useful water quality; slight-saltiness phrasing is plausible.
+15-712	to pinch	S	Basic manual action distinct from squeezing generally.
+16-39	to groan	S	Basic bodily vocalization with strong independent naming.
+16-83	greedy	S	General disposition distinct from ordinary wanting.
+17-35	obscure	B	General quality spanning unclear, hidden, and little-known senses.
+17-441	to betray	S	General social action distinct from opposition or offending.
+18-15	to whisper	S	Basic speech action distinct from merely speaking quietly.
+18-16	to mumble	B	Common speech behavior; unclear-speaking description is plausible.
+18-17	to whistle	S	Basic human sound-making action with broad independent naming.
+18-19	to howl	S	Basic vocalization with strong independent naming.
+18-211	to stutter or stammer	S	Common speech pattern without an adequate short expression.
+18-39	to scold	S	General social speech action with strong independent naming.
+18-45	to boast	B	General speech action; self-praising description is plausible.
+18-71	the flute	S	Widespread basic musical instrument.
+18-72	the drum	S	Widespread basic musical instrument.
+18-74	the rattle	P	du susin — shaking instrument.
+19-44	the freeman	P	no enpa — one who is free.
+20-22	the club	B	Basic weapon suited to a striking-stick compound.
+20-222	the battle-axe	X	Specialized weapon subtype suited to a compound.
+20-23	the sling	B	Widespread simple device, but narrower everyday relevance.
+20-26	the spear	S	Widespread basic hunting tool with broad independent naming.
+20-31	the armour	B	General protective equipment suited to protective-clothing phrasing.
+20-35	the fortress	B	General defensive structure suited to a fortified-place description.
+20-45	to retreat	B	sigo covers return; tactical withdrawal adds a narrower meaning.
+20-48	the booty	B	General conflict-related category suited to seized-goods phrasing.
+20-49	the ambush	B	General tactic, but hidden-attack description is plausible.
+20-51	the fisherman	B	General occupation; fishing needs expression before agent derivation.
+20-53	the fishing line	B	Familiar fishing-line compound, but fishing lacks a root.
+20-56	the bait	S	General hunting and trapping object with substantial independent naming.
+21-21	the plaintiff	X	Specialized legal role suited to descriptive terminology.
+21-22	the defendant	X	Specialized legal role suited to descriptive terminology.
+21-32	to condemn	B	General evaluative or legal action; sense-specific phrasing is plausible.
+21-33	to convict	X	Specific judicial determination suited to legal terminology.
+21-34	to acquit	X	Specific judicial determination suited to legal terminology.
+21-38	the fine	B	Common legal consequence suited to a penalty-payment compound.
+21-43	the adultery	B	General social concept, but marriage-specific phrasing is plausible.
+21-46	the arson	X	Specific criminal category; deliberate-burning description is suitable.
+21-47	the perjury	X	Specific legal offense suited to an oath-falsehood compound.
+22-26	to fast	P	su nawi — not eat; duration and intent supplied contextually.
+23-5	the tap/faucet	S	Common household water-control device in contemporary life.
+23-41	the postage stamp	B	Common postal object suited to a postage-marker compound.
+23-55	the screw	S	Common household fastener distinct from a nail.
+23-555	the screwdriver	B	Common tool; screw-turning compound needs a screw term.
+23-18	to brake	B	bamo covers stopping; controlled slowing needs additional expression.
+23-35	the license plate	B	Common identifying object suited to a vehicle-number compound.
+23-43	the postcard	B	Common communication object suited to a mail-card compound.
+3-865	the quail	S	Broad independent naming supports this familiar bird category.
+8-991	the larch	X	Narrow regional tree category with little cross-family support.
+8-993	the needle(2)	B	Plant-part category suited to a needle-leaf compound.
+1-771	the arctic lights	X	Geographically restricted phenomenon with no independent-root support here.
+4-465	the sinew or tendon	S	Basic body tissue with strong independent naming.
+7-67	to tan	B	General material-processing action, but narrower craft relevance.
+8-996	the cone	B	Plant structure suited to a tree-specific seed-container description.
+9-93	the whetstone	P	lutu pi tungi — sharpening stone; familiar compound.
+3-597	the cormorant	B	Recognizable fishing bird, but ecological scope is limited.
+3-833	the prawns or shrimp	S	Widespread everyday animal and food category.
+3-834	the termites	S	Widespread household and agricultural pests.
+3-835	the tick	S	Common parasite with strong independent naming.
+3-913	the chameleon	B	Distinctive animal, but geographically limited.
+9-9	to draw water	B	Basic household action; water-fetching description is plausible.
+9-91	the peg	S	Basic fastening object with broad independent naming.
+8-121	the paddy	B	Rice-field compound is plausible; meaning may also denote unhusked rice.
+1-775	to freeze	S	Basic physical transformation distinct from merely becoming cold.

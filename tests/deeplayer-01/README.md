@@ -185,3 +185,7 @@ Caveats:
 - One rater. A blind second classification of the D/X line (Codex, as the coverage-02 decision did for its stretches) would show how much is mine.
 - WOLD's sample has 8 Indo-European languages of 41. Root-family counts limit that skew, but "unanalyzable" is the contributors' judgement.
 - Doghouse flag, once: the decision asked for this route. The edge tier and its add-back trigger are there to keep it from turning into a word-collecting exercise.
+
+## Blind second rater (Codex, 2026-10-16) and the author's decision
+
+Codex rated the 327 uncovered D/B/P/X meanings blind (`CODEX-PROMPT.md`, `codex-blind.tsv`). It rated all 51 core-D meanings strong; below that it was more generous (53 edge-D and 42 X rated strong). Tie-break by the strong tier's own measure (native single-root words in at least 15 of 24 families): 20 disputed meanings meet it and were rated strong by Codex: foam, weave/plait, boil (bubble), spin, howl, sinew/tendon, vulture, gnat, lame, tree trunk, groan, spleen, spindle, hollow out, pinch, palm tree, bore (drill), mould, carve, spear. Author (2026-10-16): add them. WOLD route total: 51 core + 24 clear edge + 20 = ~95 roots.

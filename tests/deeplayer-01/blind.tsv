@@ -1,0 +1,328 @@
+wold_id	field	meaning	root_families
+1-222	The physical world	the cliff or precipice	21
+1-26	The physical world	the mainland	6
+1-324	The physical world	the foam	20
+1-341	The physical world	the lagoon	8
+1-342	The physical world	the reef	7
+1-343	The physical world	the cape	5
+1-352	The physical world	the tide	5
+1-353	The physical world	the low tide	5
+1-354	The physical world	the high tide	3
+1-362	The physical world	the whirlpool	9
+1-38	The physical world	the swamp	14
+1-39	The physical world	the waterfall	7
+1-59	The physical world	the rainbow	14
+1-64	The physical world	the dew	17
+1-88	The physical world	the firewood	21
+2-458	Kinship	the twins	9
+2-57	Kinship	the descendants	7
+2-75	Kinship	the orphan	14
+2-76	Kinship	the widow	7
+2-77	Kinship	the widower	7
+3-15	Animals	the livestock	8
+3-18	Animals	the herdsman	3
+3-19	Animals	the stable or stall	10
+3-24	Animals	the calf	8
+3-29	Animals	the lamb	8
+3-38	Animals	the kid	5
+3-45	Animals	the foal or colt	6
+3-58	Animals	the nest	17
+3-582	Animals	the seagull	10
+3-583	Animals	the heron	14
+3-584	Animals	the eagle	19
+3-586	Animals	the vulture	17
+3-593	Animals	the crow	17
+3-594	Animals	the dove	13
+3-652	Animals	the fin	14
+3-653	Animals	the scale	15
+3-654	Animals	the gill	12
+3-655	Animals	the shell	14
+3-661	Animals	the shark	5
+3-663	Animals	the whale	5
+3-664	Animals	the stingray	9
+3-665	Animals	the freshwater eel	9
+3-812	Animals	the nit	11
+3-813	Animals	the flea	18
+3-814	Animals	the centipede	12
+3-819	Animals	the spider web	4
+3-821	Animals	the beeswax	8
+3-822	Animals	the beehive	7
+3-823	Animals	the wasp	22
+3-831	Animals	the sandfly or midge or gnat	17
+3-91	Animals	the firefly	11
+3-94	Animals	the snail	14
+3-96	Animals	the lizard	20
+4-142	The body	the beard	18
+4-146	The body	the dandruff	10
+4-151	The body	the vein or artery	12
+4-162	The body	the rib	14
+4-191	The body	the spine	9
+4-201	The body	the temples	10
+4-202	The body	the skull	5
+4-207	The body	the jaw	15
+4-212	The body	the eyebrow	12
+4-213	The body	the eyelid	6
+4-214	The body	the eyelash	9
+4-215	The body	to blink	10
+4-221	The body	the earlobe	4
+4-222	The body	the earwax	6
+4-231	The body	the nostril	4
+4-232	The body	the nasal mucus	20
+4-241	The body	the beak	15
+4-271	The body	the gums	13
+4-272	The body	the molar tooth	14
+4-281	The body	the nape of the neck	14
+4-301	The body	the shoulderblade	10
+4-302	The body	the collarbone	6
+4-32	The body	the elbow	17
+4-321	The body	the wrist	10
+4-331	The body	the palm of the hand	9
+4-342	The body	the thumb	7
+4-351	The body	the thigh	19
+4-352	The body	the calf of the leg	13
+4-371	The body	the ankle	13
+4-372	The body	the heel	15
+4-374	The body	the footprint	11
+4-412	The body	the nipple or teat	10
+4-451	The body	the kidney	15
+4-452	The body	the spleen	16
+4-462	The body	the waist	18
+4-463	The body	the hip	19
+4-521	The body	to hiccough	16
+4-591	The body	to dribble	11
+4-71	The body	to beget	9
+4-732	The body	to conceive	7
+4-751	The body	to drown	13
+4-78	The body	to bury	17
+4-842	The body	the goitre/goiter	9
+4-843	The body	the cold	14
+4-852	The body	the bruise	14
+4-854	The body	the itch	16
+4-855	The body	the blister	11
+4-856	The body	the boil	18
+4-857	The body	the pus	20
+4-858	The body	the scar	11
+4-92	The body	lazy	19
+4-93	The body	bald	12
+4-94	The body	lame	17
+4-95	The body	deaf	12
+4-96	The body	mute	15
+4-99	The body	naked	17
+5-124	Food and drink	unripe	18
+5-141	Food and drink	the famine	12
+5-19	Food and drink	to choke	13
+5-23	Food and drink	to roast or fry	20
+5-27	Food and drink	the kettle	8
+5-34	Food and drink	the jug/pitcher	11
+5-36	Food and drink	the saucer	2
+5-391	Food and drink	the tongs	9
+5-44	Food and drink	the dinner	3
+5-45	Food and drink	the supper	4
+5-46	Food and drink	to peel	16
+5-47	Food and drink	to sieve or to strain	17
+5-53	Food and drink	the dough	9
+5-54	Food and drink	to knead	15
+5-57	Food and drink	the mill	7
+5-58	Food and drink	the mortar(1)	17
+5-59	Food and drink	the pestle	10
+5-821	Food and drink	the chili pepper	13
+5-971	Food and drink	the yolk	8
+6-13	Clothing and grooming	the tailor	2
+6-22	Clothing and grooming	the wool	11
+6-23	Clothing and grooming	the linen	1
+6-27	Clothing and grooming	the felt	6
+6-29	Clothing and grooming	the leather	18
+6-31	Clothing and grooming	to spin	18
+6-32	Clothing and grooming	the spindle	16
+6-33	Clothing and grooming	to weave	20
+6-34	Clothing and grooming	the loom	11
+6-35	Clothing and grooming	to sew	20
+6-37	Clothing and grooming	the awl	9
+6-39	Clothing and grooming	to dye	11
+6-41	Clothing and grooming	the cloak	2
+6-45	Clothing and grooming	the collar	12
+6-54	Clothing and grooming	the shoemaker	2
+6-63	Clothing and grooming	the pin	8
+6-71	Clothing and grooming	the ornament or adornment	11
+6-72	Clothing and grooming	the jewel	6
+6-74	Clothing and grooming	the bracelet	8
+6-76	Clothing and grooming	the bead	17
+6-77	Clothing and grooming	the earring	10
+6-78	Clothing and grooming	the headband or headdress	9
+6-81	Clothing and grooming	the handkerchief or rag	9
+6-921	Clothing and grooming	the plait/braid	9
+6-93	Clothing and grooming	the razor	5
+6-94	Clothing and grooming	the ointment	6
+7-131	The house	the garden-house	4
+7-221	The house	the doorpost	6
+7-31	The house	the fireplace	10
+7-33	The house	the chimney	5
+7-47	The house	the shelf	11
+7-48	The house	the trough	11
+7-52	The house	the thatch	9
+7-53	The house	the ridgepole	8
+7-54	The house	the rafter	10
+7-55	The house	the beam	14
+7-58	The house	the arch	6
+7-61	The house	the mason	3
+7-62	The house	the brick	6
+7-63	The house	the mortar(2)	7
+7-64	The house	the adobe	5
+8-17	Agriculture and vegetation	the ditch	10
+8-21	Agriculture and vegetation	to plough/plow	7
+8-212	Agriculture and vegetation	the furrow	11
+8-25	Agriculture and vegetation	the hoe	11
+8-26	Agriculture and vegetation	the fork(2)/pitchfork	10
+8-27	Agriculture and vegetation	the rake	7
+8-31	Agriculture and vegetation	to sow	18
+8-32	Agriculture and vegetation	to mow	14
+8-33	Agriculture and vegetation	the sickle or scythe	8
+8-34	Agriculture and vegetation	to thresh	12
+8-35	Agriculture and vegetation	the threshing-floor	5
+8-52	Agriculture and vegetation	the hay	12
+8-531	Agriculture and vegetation	to plant	13
+8-61	Agriculture and vegetation	the oak	9
+8-62	Agriculture and vegetation	the beech	5
+8-63	Agriculture and vegetation	the birch	8
+8-64	Agriculture and vegetation	the pine	10
+8-65	Agriculture and vegetation	the fir	7
+8-66	Agriculture and vegetation	the acorn	5
+8-67	Agriculture and vegetation	the vine	8
+8-72	Agriculture and vegetation	the tree stump	14
+8-73	Agriculture and vegetation	the tree trunk	17
+8-74	Agriculture and vegetation	the forked branch	9
+8-76	Agriculture and vegetation	the sap	13
+8-81	Agriculture and vegetation	the palm tree	15
+8-83	Agriculture and vegetation	the citrus fruit	4
+8-91	Agriculture and vegetation	the sweet potato	8
+8-93	Agriculture and vegetation	the gourd	13
+8-931	Agriculture and vegetation	the pumpkin or squash	13
+8-94	Agriculture and vegetation	the bamboo	13
+8-941	Agriculture and vegetation	the sugar cane	10
+8-97	Agriculture and vegetation	the nettle	12
+8-98	Agriculture and vegetation	the mushroom	15
+9-161	Basic actions and technology	to untie	15
+9-25	Basic actions and technology	the axe/ax	17
+9-251	Basic actions and technology	the adze	6
+9-29	Basic actions and technology	to skin	13
+9-31	Basic actions and technology	to rub	17
+9-43	Basic actions and technology	the carpenter	3
+9-46	Basic actions and technology	to bore	15
+9-461	Basic actions and technology	to hollow out	16
+9-48	Basic actions and technology	the saw	9
+9-5	Basic actions and technology	the nail	11
+9-6	Basic actions and technology	the blacksmith	3
+9-61	Basic actions and technology	to forge	9
+9-62	Basic actions and technology	the anvil	8
+9-63	Basic actions and technology	to cast	7
+9-68	Basic actions and technology	the lead	8
+9-69	Basic actions and technology	the tin or tinplate	8
+9-71	Basic actions and technology	the potter	3
+9-72	Basic actions and technology	to mould/mold	15
+9-73	Basic actions and technology	the clay	19
+9-75	Basic actions and technology	to weave or plait/braid	20
+9-81	Basic actions and technology	to carve	15
+9-82	Basic actions and technology	the sculptor	2
+9-84	Basic actions and technology	the chisel	11
+10-14	Motion	to wrap	18
+10-15	Motion	to roll	12
+10-24	Motion	to drip	14
+10-33	Motion	to sink	15
+10-34	Motion	to float	16
+10-351	Motion	to dive	14
+10-352	Motion	to splash	13
+10-36	Motion	to sail	3
+10-41	Motion	to crawl	20
+10-412	Motion	to kneel	4
+10-413	Motion	to crouch	12
+10-451	Motion	to limp	11
+10-77	Motion	the axle	8
+10-78	Motion	the yoke	9
+10-84	Motion	the raft	8
+10-85	Motion	the oar	10
+10-851	Motion	the paddle	13
+10-852	Motion	to row	13
+10-86	Motion	the rudder	5
+10-87	Motion	the mast	4
+10-88	Motion	the sail	5
+10-89	Motion	the anchor	6
+11-53	Possession	the beggar	9
+11-54	Possession	stingy	15
+11-61	Possession	to lend	11
+11-62	Possession	to borrow	13
+11-63	Possession	to owe	11
+11-77	Possession	to hire	8
+11-79	Possession	to earn	12
+11-84	Possession	the merchant	1
+11-92	Possession	to weigh	9
+12-17	Spatial relations	the remains	12
+12-541	Spatial relations	the fathom	12
+12-75	Spatial relations	the hook	16
+12-77	Spatial relations	the cross	7
+14-77	Time	the autumn/fall	11
+15-89	Sense perception	wrinkled	7
+15-25	Sense perception	fragrant	9
+15-26	Sense perception	stinking	12
+15-39	Sense perception	brackish	7
+15-712	Sense perception	to pinch	16
+16-39	Emotions and values	to groan	17
+16-83	Emotions and values	greedy	11
+17-35	Cognition	obscure	7
+17-441	Cognition	to betray	6
+18-15	Speech and language	to whisper	12
+18-16	Speech and language	to mumble	12
+18-17	Speech and language	to whistle	17
+18-19	Speech and language	to howl	18
+18-211	Speech and language	to stutter or stammer	10
+18-39	Speech and language	to scold	18
+18-45	Speech and language	to boast	10
+18-71	Speech and language	the flute	14
+18-72	Speech and language	the drum	15
+18-74	Speech and language	the rattle	12
+19-44	Social and political relations	the freeman	1
+20-22	Warfare and hunting	the club	12
+20-222	Warfare and hunting	the battle-axe	5
+20-23	Warfare and hunting	the sling	9
+20-26	Warfare and hunting	the spear	15
+20-31	Warfare and hunting	the armour	6
+20-35	Warfare and hunting	the fortress	5
+20-45	Warfare and hunting	to retreat	10
+20-48	Warfare and hunting	the booty	6
+20-49	Warfare and hunting	the ambush	6
+20-51	Warfare and hunting	the fisherman	2
+20-53	Warfare and hunting	the fishing line	9
+20-56	Warfare and hunting	the bait	12
+21-21	Law	the plaintiff	1
+21-22	Law	the defendant	2
+21-32	Law	to condemn	5
+21-33	Law	to convict	4
+21-34	Law	to acquit	5
+21-38	Law	the fine	5
+21-43	Law	the adultery	4
+21-46	Law	the arson	4
+21-47	Law	the perjury	2
+22-26	Religion and belief	to fast	4
+23-5	Modern world	the tap/faucet	6
+23-41	Modern world	the postage stamp	4
+23-55	Modern world	the screw	3
+23-555	Modern world	the screwdriver	2
+23-18	Modern world	to brake	7
+23-35	Modern world	the license plate	1
+23-43	Modern world	the postcard	2
+3-865	Animals	the quail	14
+8-991	Agriculture and vegetation	the larch	2
+8-993	Agriculture and vegetation	the needle(2)	9
+1-771	The physical world	the arctic lights	0
+4-465	The body	the sinew or tendon	18
+7-67	The house	to tan	9
+8-996	Agriculture and vegetation	the cone	8
+9-93	Basic actions and technology	the whetstone	8
+3-597	Animals	the cormorant	8
+3-833	Animals	the prawns or shrimp	11
+3-834	Animals	the termites	12
+3-835	Animals	the tick	16
+3-913	Animals	the chameleon	10
+9-9	Basic actions and technology	to draw water	10
+9-91	Basic actions and technology	the peg	14
+8-121	Agriculture and vegetation	the paddy	3
+1-775	The physical world	to freeze	15
