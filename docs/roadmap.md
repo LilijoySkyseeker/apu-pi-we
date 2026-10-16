@@ -85,6 +85,8 @@ Worked 2026-10-15 (design log). Left: **tinli** (key/button) and **yebin** (call
 - **Gaps found by the ladder pass** (2026-10-13): "parent" has no root (only **mole yen wede**) while "sibling" has a sexless root; "lie, say what is untrue" has no root (needed for "liar").
 
 
+- **Sets pass** (author, 2026-10-16): after the WOLD deep-layer pass, handle collections of ideas as sets (meals, times of day, days, months, seasons, directions, kin, body parts, colours, weather, emotions, opposites …): complete, logical and on the same level; one decision per set where members disagree (design log).
+
 ### Documentation for agents (author, 2026-10-13)
 
 - **Rework the docs so agents can use the language correctly.** The translators missed existing solutions (e.g. **kiyo** closing a built word) because the reference states rules without enough worked examples for producing text. Research current best practice for documentation aimed at LLM agents (task-oriented guides, worked examples per construction, a "how to say X" index, common mistakes with fixes, a short machine-checkable cheat sheet), then rework: a writer's guide for translating into Apupiwe with examples for every construction, kept in step with the reference by the same rule-tag checks as the lessons. Source: the coverage translators' notes (`tests/coverage-01/part2b/notes-*.md`) and the grammar gaps they raised.
