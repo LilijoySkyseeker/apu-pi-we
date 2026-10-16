@@ -783,7 +783,7 @@ type = "bullet"
 title = "A modifier of a modifier"
 gap = 0
 text = '''
-- Describing words after a noun each describe the noun: **to ibe demi wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe demi wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works wherever a describing word does: **demi gun wiwi tan buda** "the cloth is dark red".'''
+- Describing words after a noun each describe the noun: **to ibe demi wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe demi wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works after **gun** too: **demi gun wiwi tan buda** "the cloth is dark red".'''
 
 [[item]]
 id = "5.2.12"

@@ -163,7 +163,7 @@
 
 - <span id="r-5-2-1"></span>Describing words follow the noun: **guyi kudu** "big house". For a clear description, use **gi** (5.3).
 - <span id="r-5-2-2"></span>Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **no wungu futa** "the leader, a woman".
-- <span id="r-5-2-11"></span>Describing words after a noun each describe the noun: **to ibe demi wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe demi wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works wherever a describing word does: **demi gun wiwi tan buda** "the cloth is dark red".
+- <span id="r-5-2-11"></span>Describing words after a noun each describe the noun: **to ibe demi wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe demi wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works after **gun** too: **demi gun wiwi tan buda** "the cloth is dark red".
 - <span id="r-5-2-12"></span>**fi** right after a noun or a name adds affection, "dear little": **totu fi** "doggy", **fo mara fi** "dear Mara". It comes before the noun's describing words: **totu fi kudu** "the dear big dog". As a grammar word it also ends a name, so a content word can follow it with no pause: **fo mara fi obu** "dear Mara is coming".
 - <span id="r-5-2-3"></span>Noun + noun is used only for gender and for the compounds in `compounds.tsv`. Other relations use **pi** or a relative clause.
 - <span id="r-5-2-4"></span>Numbers and times can stand alone as noun phrases: **yawu gun upe** "ten is fine", **wuma gun upe** "tomorrow is fine".
