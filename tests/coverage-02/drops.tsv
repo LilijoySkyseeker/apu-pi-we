@@ -1,0 +1,35 @@
+concept	where	class	proposal (added: Claude's reading; proposals, not decisions)
+angel	roots-1500, ladder keep/root	C	religion decision 2026-10-13(b): "angel ... stay each tradition's own words"; the ladder row was never updated
+bishop	roots-1500, ladder keep/root	C	same decision: borrowed
+prophet	roots-1500, ladder keep/root	C	same decision: borrowed
+church	roots-1500 (first words)	C	same decision: borrowed; the general "place of worship" is temple (widened)
+mosque	roots-1500, ladder loan?	C	religion.tsv: masudidu, borrowed as the tradition's word (not a core loan)
+pope	roots-1500, ladder loan?	C	religion.tsv: papa, borrowed title
+idol	roots-1500, ladder keep/root	C	religion.tsv: "neutral: a sacred image or statue (phrase)"; with statue (agreed addition) and holy as roots it is statue + holy
+saint	roots-1500, ladder keep/root	P	widened to "holy person" (2026-10-13); once holy is a root this is ewo [holy], two words
+knight	roots-1500, ladder keep/root	C	a European feudal rank; other societies' ranks are borrowed alike
+senator	roots-1500, ladder keep/root	C	an institution of particular states; parliament (on the list) covers the general concept
+lieutenant	roots-1500, ladder keep/root	N	military rank; rank ladders differ by army
+colonel	roots-1500, ladder keep/root	N	military rank
+statistics	roots-1500, ladder keep/root	N	field of study (method 1: specialist terms come from use)
+psychology	roots-1500, ladder keep/root	N	field of study; the ladder note shows no shared form, so a built word
+circuit	roots-1500, ladder keep/root	N	electrical term; also pools a race circuit
+orbit	roots-1500, ladder keep/root	N	astronomy term
+formula	roots-1500, ladder keep/root	N	maths/chemistry term; also pools "baby formula"
+sphere	roots-1500, ladder keep/root	N	geometry; round is kowan
+compound	roots-1500, ladder keep/root	A	pools a chemical compound, an enclosure and a compound word; ladder note empty
+grade	roots-1500, ladder keep/root	A	pools a school mark, a level and a slope
+trial	roots-1500, ladder keep/root	A	pools a court trial and a test (test is on the list)
+single	roots-1500, ladder keep/root	A	pools unmarried, one alone and a music single
+term	roots-1500, ladder keep/root	A	pools a word, a school term and conditions
+deposit	roots-1500, ladder keep/root	A	pools a bank deposit, a mineral deposit and putting down
+review	roots-1500, ladder keep/root	A	pools review and check (loban "check, verify" exists)
+promotion	roots-1500, ladder keep/root	A	pools a job promotion and a sales promotion
+medium	roots-1500, ladder keep/root	A	pools middle-sized and mass media (press 564.b covers media)
+background	roots-1500, ladder keep/root	A	pools behind (nebe), a setting and personal history
+receipt	roots-1500, ladder keep/root	P	kemin pi unfu "document of paying"
+passenger	roots-1500, ladder keep/root	P	no [ride] "one who rides"
+available	roots-1500, ladder keep/root	P	lenu bone / lenu dunu "can be used / had"
+priority	roots-1500, ladder keep/root	P	ke bawe se we "most important"
+day and month names (14) and last night	roots-1500, ladder grammar	P	already phrases (reference 8.3); housekeeping: count them out of the root total
+93 ladder rows "covered:", 36 "merge:"	roots-1500	P	already not roots; housekeeping: count them out of the root total
