@@ -522,7 +522,7 @@ def _transform(u, d):
     return lo + u * (hi - lo)
 
 
-def variants(n_lhs=32, seed=2026, av=True, lp=True):
+def variants(n_lhs=32, seed=2026, av=False, lp=False):
     """The §6 variant set: [(name, params)].
     best; n_lhs Latin-hypercube draws (uniform / log-uniform per the TSV; C_pattern stratified over
     its categories; vowel shares Dirichlet around the best values, concentration 20); fixed corners:
@@ -534,6 +534,8 @@ def variants(n_lhs=32, seed=2026, av=True, lp=True):
     lp: add "src-lp", a listener without high frequencies (mix4 changed by the unfiltered -> 2500 Hz
     low-pass change of one study, pattern "lp"; everything else at best values; design log
     2026-10-15), after src-av. lp=False gives the variants used before it, unchanged.
+    Both default to off (author, 2026-10-15, Decision 2): by the agreed drop test they changed no form in
+    the chosen or the full short-word layer; the code is kept, so av=True, lp=True gives the 50-variant set.
     The study patterns used directly ("av-direct", "lp-direct") are not variants."""
     rng = np.random.default_rng(seed)
     best = best_params()
@@ -604,12 +606,12 @@ def check(p):
 
 
 if __name__ == "__main__":
-    V = variants()
+    V = variants(av=True, lp=True)
     for name, p in V:
         check(p)
-    print(f"{len(V)} variants, all syllable matrices stochastic")
-    assert [n for n, _ in variants(av=False, lp=False)] == [n for n, _ in V if n not in ("src-av", "src-lp")]
-    assert [n for n, _ in variants(lp=False)] == [n for n, _ in V if n != "src-lp"]
+    print(f"{len(V)} variants with src-av and src-lp, all syllable matrices stochastic; {len(variants())} by default")
+    assert [n for n, _ in variants()] == [n for n, _ in V if n not in ("src-av", "src-lp")]
+    assert [n for n, _ in variants(av=True)] == [n for n, _ in V if n != "src-lp"]
     # src-av / src-lp: the study's change applied to mix4 (§8.5, §9.5). Consonants the study lacks keep
     # mix4's rows and columns exactly; the tested rows keep mix4's total error.
     E0 = best_params()["E_C"]

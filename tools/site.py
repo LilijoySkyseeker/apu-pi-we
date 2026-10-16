@@ -22,7 +22,8 @@ GRAMMAR_GLOSS = {"Q": "question", "WH": "what, which", "UNSPEC": "some (unspecif
                  "THAT.dem": "that", "THAT.comp": "that (a clause)", "WHO.rel": "who, which (describes)",
                  "WE.incl": "we (with you)", "WE.excl": "we (not you)", "YOUKNOW": "you know", "GENERIC": "one, people",
                  "UNSPEC": "some, any", "DONE": "done (aspect)", "ONGOING": "ongoing (aspect)", "AGENT": "one who",
-                 "RESULT": "thing done", "TOOL": "thing for", "PLACE": "place for", "NAME": "name follows"}
+                 "RESULT": "thing done", "TOOL": "thing for", "PLACE": "place for", "NAME": "name follows",
+                 "MODMOD": "the next word describes the one before", "ENDEAR": "dear little"}
 
 
 def tsv(name):
