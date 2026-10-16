@@ -487,11 +487,13 @@ def old_assign():
 
 
 def write_layer(name, a, note=""):
-    with open(os.path.join(HERE, name), "w") as fh:
+    path = os.path.join(HERE, name)
+    with open(path + ".tmp", "w") as fh:     # atomic (added after the host crash): a layer file that exists is complete
         fh.write(f"# {note}\n" if note else "")
         fh.write("gloss\tclass\tfreq\told\tnew\n")
         for i, w in enumerate(WORDS):
             fh.write(f"{w['gloss']}\t{w['cls']}\t{w['freq']:g}\t{w['old']}\t{NAME[a[i]]}\n")
+    os.replace(path + ".tmp", path)
 
 
 def read_layer(name):

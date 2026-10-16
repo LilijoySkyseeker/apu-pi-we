@@ -111,7 +111,7 @@ From `research/reviews/cold-review-2026-10/reports/C-verdict.md` §2 (area verdi
 
 - **A non-Claude model for one month** (author, 2026-10-15: one month of ChatGPT Plus, to be connected here by the author in another session, likely through OpenAI's Codex CLI, which signs in with a Plus account; Plus has no API access). Planned uses, all reviewing the foundation before v2 fixes it: (1) an outside design review now, and again on the final forms if the placement lands within the month (decision 13, held until it's connected); (2) the judge's non-Claude rater for blind translation and back-translation; (3) a fresh non-Claude agent writing Apupiwe from the docs alone, to find where the docs fail (process risk 3, and a check for the docs rework).
 
-- **Nursery and imitative words, panel done** (2026-10-15, `tests/imitative-01/README.md`): 40 tests, one pass: mother as *mama* (13/20, 7 regions; 11 if Hindi/Bengali geminates are read as two letters). The world shares the animal and action *sounds* (interjections, 2.10), not names for them. **For the author:** *mama* replacing **mole**, beside it as a familiar word, or no loan (if adopted, **maman** "suck" moves); papa/baba counted as one form (it would pass) or two (it fails, as the rule reads now); the geminate reading.
+- ~~**Nursery and imitative words**~~ done 2026-10-15: only *mama* passed, borderline; no loan, **mole** stays (design log).
 
 ### Website: frozen at v1 (author, 2026-10-13)
 

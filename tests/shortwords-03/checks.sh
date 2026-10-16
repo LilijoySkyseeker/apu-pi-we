@@ -6,7 +6,8 @@ mkdir -p runs logs
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
 P=${P:-15}
 R="python3 rebuild.py"
-par() { xargs -P "$P" -I{} sh -c '{}'; }
+# resumable (added after the host crash): a command whose --out file exists is skipped (rebuild.py writes atomically)
+par() { while IFS= read -r c; do o=$(printf '%s\n' "$c" | sed -n 's/.*--out \([^ ]*\).*/\1/p'); [ -n "$o" ] && [ -f "$o" ] && continue; printf '%s\n' "$c"; done | xargs -P "$P" -I{} sh -c '{}'; }
 # main model parameters (added: notes §7's biggest uncertainties and §6.5's candidates; glide_hiatus = front and back together)
 SENS_PARAMS=${SENS_PARAMS:-"voice_mult L2_voicing_m reseg_n_V gem_n_N coda_loss coda_add glide_hiatus V_ratio L2_mid_m E_C C_none_after_vowel"}
 
@@ -23,5 +24,13 @@ case "$1" in
     for vs in no-av no-lp; do for s in 1 2 3; do
       echo "SW_VARIANTS=$vs $R reopt --layer $LAYER $OPTS --steps ${STEPS:-100000} --seed $s --out runs/drop-$NAME-$vs-$s.tsv > logs/drop-$NAME-$vs-$s.log 2>&1"
     done; done | par ;;
+  holdout) # hold-out check (notes §6.6): each free option optimised on one half of the variants (half-a / half-b,
+           # split in rebuild.py), then every layer scored on both halves -> holdout.txt. Resumable (runs.sh skips done runs).
+    for H in a b; do SW_VARIANTS=half-$H TAG=-h$H bash runs.sh patch-free & done
+    for H in a b; do SW_VARIANTS=half-$H TAG=-h$H bash runs.sh full-free; done
+    wait
+    for H in a b; do SW_VARIANTS=half-$H TAG=-h$H KEEPS="${KEEPS:-0.02 0.04}" bash runs.sh mid-free; done
+    L=""; for H in a b; do for o in full mid-0.02 mid-0.04 patch; do L="$L $o-h$H.tsv"; done; done
+    { for H in a b; do SW_VARIANTS=half-$H $R score $L full.tsv mid-0.02.tsv mid-0.04.tsv patch.tsv; done; } 2>/dev/null | grep '^SCORE' > holdout.txt ;;
   *) echo "unknown step $1"; exit 1 ;;
 esac

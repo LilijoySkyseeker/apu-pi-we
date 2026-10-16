@@ -9,7 +9,8 @@ P=${P:-15}
 R="python3 rebuild.py"
 SEEDS=${SEEDS:-"1 2 3 4 5 6 7 8 9 10 11 12"}
 
-par() { xargs -P "$P" -I{} sh -c '{}'; }
+# resumable (added after the host crash): a command whose --out file exists is skipped (rebuild.py writes atomically)
+par() { while IFS= read -r c; do o=$(printf '%s\n' "$c" | sed -n 's/.*--out \([^ ]*\).*/\1/p'); [ -n "$o" ] && [ -f "$o" ] && continue; printf '%s\n' "$c"; done | xargs -P "$P" -I{} sh -c '{}'; }
 
 # best of a set of seed files by objective (header line) -> $1
 pick() {
@@ -50,7 +51,7 @@ case "$1" in
     done; done | par
     for k in ${KEEPS:-0.02 0.04}; do pick mid-$k${TAG:-}.tsv runs/mid-$k${TAG:-}-s*.tsv; done ;;
   patch-free)
-    $R patch --steps ${PSTEPS:-200000} --out patch${TAG:-}.tsv > logs/patch${TAG:-}.log 2>&1 ;;
+    [ -f patch${TAG:-}.tsv ] || $R patch --steps ${PSTEPS:-200000} --out patch${TAG:-}.tsv > logs/patch${TAG:-}.log 2>&1 ;;
   *) echo "unknown step $1"; exit 1 ;;
 esac
 # hold-out check: SW_VARIANTS=half-a TAG=-ha bash runs.sh full-free | patch-free | mid-free, then
