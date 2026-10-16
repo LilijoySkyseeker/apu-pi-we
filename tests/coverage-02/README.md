@@ -118,3 +118,15 @@ A scan, not a full reclassification of all 983 items.
 8. **Uncertain:**
    - One rater classified everything. If the author doubts the stop, a blind reclassification of the two stretches by Codex would show whether the P/G line is mine or the data's. This is not done here: it would add a step.
    - Noticed in passing: `docs/language.md` is older than `spec/reference.toml` (it still shows **fu**, **gan**, **mu**; the reference has **fun**, **nan**, **su**). Is a `spec.py build` pending?
+
+## Round 2 (the phrase line, author 2026-10-16)
+
+Task: `PROMPT.md` "Round 2"; decision (b) "When a phrase covers a concept" (`docs/design-log.md`, last entry). Round-1 files above stay as they were; round 2 writes `walk-r2.tsv` (from `src/walk-r2-manual.tsv` via `assemble_r2.py`) and `stretches-blind.tsv`.
+
+### Progress (round 2)
+
+- [ ] r2-1 reclassify round-1 P rows of 1243–1442 under the new line (`src/walk-r2-manual.tsv`)
+- [ ] r2-2 continue the walk from 1443, stretch by stretch, until the rule fires + one trend stretch
+- [ ] r2-3 `assemble_r2.py` → `walk-r2.tsv` and the table
+- [ ] r2-4 `stretches-blind.tsv` (1243–1442, rank + concept)
+- [ ] r2-5 README round-2 write-up (table, totals, questions)

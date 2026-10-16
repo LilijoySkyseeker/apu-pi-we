@@ -90,7 +90,6 @@ sofa
 toothbrush
 plate
 park
-church
 slide
 teacher
 turtle
@@ -583,7 +582,6 @@ job
 list
 fresh
 screen
-angel
 campaign
 universe
 define
@@ -616,7 +614,6 @@ comment
 invite
 alcohol
 discuss
-bishop
 professional
 prison
 element
@@ -863,7 +860,6 @@ holiday
 grade
 spend
 glory
-prophet
 complex
 logic
 normal
@@ -912,7 +908,6 @@ famous
 opposite
 note
 register
-idol
 trade
 valley
 young man

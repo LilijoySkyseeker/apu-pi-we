@@ -91,7 +91,7 @@ n	concept	status	route	field	tier	antonym	note
 90	toothbrush	merge:brush		home	2		brush pi fonma
 91	plate	keep	root	home	2		dish
 92	park	keep	loan?	place	3		park/parque/pāku; gōngyuán differs; parking a car is yaga tale
-93	church	keep	root	religion	2		
+93	church	keep	borrow	religion	2		religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
 94	slide	split	root	thing	1		1: playground slide; 2: slide, slip over a surface (94.b)
 94.b	slide (slip)	keep	root	motion	2		move smoothly over a surface; slip
 95	teacher	keep	root	people	3	student	derived no tofo exists; frequent, root per ladder 2.3
@@ -135,12 +135,12 @@ n	concept	status	route	field	tier	antonym	note
 133	squirrel	keep	root	animal	1		
 134	block	split	root	thing	1		1: toy building block (children's word); 2: obstruct, hinder (134.b), from the frequency labels
 134.b	block (obstruct)	keep	root	action	2		obstruct, hinder
-135	gift	keep	root	thing	3		present; ge neke "what is given" is broader
+135	gift	keep	root	thing	3		"present; ge neke ""what is given"" is broader"
 136	chips	keep	root	food	1		fries or crisps
 137	bib	keep	root	clothing	1		
 138	garage	keep	loan?	home	2		garaj/garage/gareji/garasi/gareji/garazh; chēkù differs
 139	sink	keep	root	home	2		basin; the verb sink is separate
-140	snowman	covered:ewo pi binso		thing	1		phrase (ladder 1.5) "person of snow"; not in compounds.tsv
+140	snowman	covered:ewo pi binso		thing	1		"phrase (ladder 1.5) ""person of snow""; not in compounds.tsv"
 141	forest	keep	root	nature	3		includes jungle, grove
 142	beach	keep	root	nature	2		includes shore, coast
 143	drive	keep	root	action	3		drive, steer a vehicle
@@ -169,7 +169,7 @@ n	concept	status	route	field	tier	antonym	note
 166	party	split	root	society	3		1: celebration, gathering; 2: political party (166.b)
 166.b	party (political)	keep	loan?	society	2		partiya/partido/parti/partai/pārṭī; dǎng, hizb, seitō, chama differ
 167	crocodile	keep	root	animal	1		wani, èyú, buaya, mamba differ
-168	stick	covered:kima netu		thing	2		compounds.tsv "wood long"
+168	stick	covered:kima netu		thing	2		"compounds.tsv ""wood long"""
 169	sandwich	keep	loan?	food	2		sendvich/sándwich/sandoitchi/sandviç/sandwichi; sānmíngzhì
 170	necklace	keep	root	clothing	1		
 171	ladder	keep	root	thing	1		
@@ -185,7 +185,7 @@ n	concept	status	route	field	tier	antonym	note
 181	stove	keep	root	home	2		cooker; oven is 165
 182	wipe	keep	root	action	2		
 183	pen	keep	root	thing	2		
-184	raisin	covered:grape kilan		food	1		phrase "dry grape" as pútáogān, kuru üzüm, hoshibudō; grape is 121
+184	raisin	covered:grape kilan		food	1		"phrase ""dry grape"" as pútáogān, kuru üzüm, hoshibudō; grape is 121"
 185	bathtub	keep	root	home	1		
 186	wardrobe	keep	root	home	1		closet
 187	glue	keep	root	thing	1		
@@ -195,17 +195,17 @@ n	concept	status	route	field	tier	antonym	note
 191	repair	keep	root	action	3	break	fix, restore
 192	clap	keep	root	action	1		
 193	pleasant	keep	root	quality	2	unpleasant	nice; narrower than upe good
-194	brown	covered:bilun buda		color	2		phrase "dark yellow"; six colour roots (method 3.1, author 2026-10-08), other colours compound; add a root if tests lose colour meaning
+194	brown	covered:bilun buda		color	2		"phrase ""dark yellow""; six colour roots (method 3.1, author 2026-10-08), other colours compound; add a root if tests lose colour meaning"
 195	boot	keep	root	clothing	1		
 196	cute	keep	root	quality	2		
 197	orange (colour)	merge:orange		color	2		named after the fruit (33), as naranja, orenji, chéngsè; six colour roots (method 3.1)
-198	fire truck	covered:truck pi lumi		transport	1		phrase "truck of fire"; truck is 31
+198	fire truck	covered:truck pi lumi		transport	1		"phrase ""truck of fire""; truck is 31"
 199	porridge	keep	root	food	1		
 200	sauce	keep	loan?	food	2		sous/salsa/sōsu/saus/sos/sauce; jiàng differs
 201	cucumber	keep	root	food	1		
 202	chewing gum	keep	root	food	1		
 203	sugar	keep	loan?	food	2		sukkar/azúcar/sakhar/sucre/şeker/shakkar/sukari; satō, táng, gula differ
-204	bedroom	covered:pu wopo		home	2		compounds.tsv "place for sleeping"
+204	bedroom	covered:pu wopo		home	2		"compounds.tsv ""place for sleeping"""
 205	pot	keep	root	home	2		cooking pot, saucepan
 206	tear	split	root	body	1		1: teardrop; 2: tear, rip (206.b)
 206.b	tear (rip)	keep	root	action	2		pull apart; cut is fonsu, split is buyan
@@ -218,7 +218,7 @@ n	concept	status	route	field	tier	antonym	note
 213	spider	keep	root	animal	1		compounds.tsv phrase is 9 syllables (as frog, 29)
 214	pacifier	keep	root	thing	1		dummy
 215	mirror	keep	root	home	2		
-216	firefighter	covered:no migi lumi		people	1		derived "one who fights fire"; phrase
+216	firefighter	covered:no migi lumi		people	1		"derived ""one who fights fire""; phrase"
 217	smile	keep	root	sense	3		laugh is bubo
 218	last	keep	root	abstract	4		last, final; first is mena fi (grammar)
 219	crayon	keep	root	thing	1		
@@ -226,7 +226,7 @@ n	concept	status	route	field	tier	antonym	note
 221	lollipop	merge:candy		food	1		candy (83) includes lollipop
 222	film	keep	loan?	tech	3		film/fil'm/firumu/filem/filamu/fīlm; diànyǐng, eiga, película differ
 223	fox	keep	root	animal	1		
-224	bun	covered:sowe meli		food	1		phrase "small bread"; bread is sowe
+224	bun	covered:sowe meli		food	1		"phrase ""small bread""; bread is sowe"
 225	toast	keep	loan?	food	1		toasted bread: tost/tostada/tōsuto/toast; roti bakar, kǎo miànbāo differ; the drinking salute is rare
 226	balcony	keep	loan?	home	1		balkon/balcón/barukonī/balkon; yángtái differs
 227	carpet	keep	root	home	1		rug
@@ -239,17 +239,17 @@ n	concept	status	route	field	tier	antonym	note
 234	T-shirt	keep	loan?	clothing	2		tīshatsu/tişört/T xùshān/tisharṭ; futbolka, camiseta, kaos differ
 235	hose	keep	root	thing	1		
 236	world	keep	root	space	4		world, global
-237	question	keep	root	sense	4	answer	ge mido "what is asked" exists; frequent, root per ladder 2.3; question act is min
+237	question	keep	root	sense	4	answer	"ge mido ""what is asked"" exists; frequent, root per ladder 2.3; question act is min"
 238	son	covered:tiwu lowu		people	3		compounds.tsv
 239	government	keep	root	society	4		administration, authorities
 240	news	keep	root	society	4		
-241	song	keep	root	sense	3		ge yuyun "what is sung" exists; frequent, root per ladder 2.3
+241	song	keep	root	sense	3		"ge yuyun ""what is sung"" exists; frequent, root per ladder 2.3"
 242	music	keep	loan?	art	4		musiqa/música/muzyka/musik/müzik/muziki; ongaku, yīnyuè, sangīt differ
 243	history	keep	root	abstract	3		tārīkh/istoriya/sejarah/rekishi differ
 244	age	grammar		time	3		age is lived time, nume fawu N (language.md 8.2.4)
 245	team	keep	root	society	3		squad
 246	company	keep	root	work	4		firm, corporation
-247	different	keep	root	quality	4	same	mu kige "not same" exists (as bù tóng); frequent, root per ladder 2.3
+247	different	keep	root	quality	4	same	"mu kige ""not same"" exists (as bù tóng); frequent, root per ladder 2.3"
 248	king	keep	root	society	3		monarch, emperor, sultan; gender is a modifier
 249	hospital	keep	root	health	3		compound pu yema simi exists; ladder 0 names hospitals as baseline
 250	state	split	root	society	3		1: the state, polity; 2: state, condition (250.b); country gigin is the nation, province is 350
@@ -257,7 +257,7 @@ n	concept	status	route	field	tier	antonym	note
 251	plan	keep	root	mind	3		strategy, planning
 252	birth	keep	root	action	3	die	be born, give birth
 253	date	split			3		1: calendar date (253); 2: romantic date (253.b)
-253.a	date (calendar)	grammar		time	3		a date is a dili label (language.md 8.3.3); "what date" = dili mena yu
+253.a	date (calendar)	grammar		time	3		"a date is a dili label (language.md 8.3.3); ""what date"" = dili mena yu"
 253.b	date (romantic)	keep	root	society	2		
 254	decide	keep	root	mind	4		decision; choose waka is picking among options
 255	university	keep	loan?	society	3		universitet/universidad/universitas/üniversite/yunivarsiti; daigaku, dàxué, jāmi'a, chuo kikuu differ
@@ -267,7 +267,7 @@ n	concept	status	route	field	tier	antonym	note
 259	video	keep	loan?	tech	3		video/bideo/vidiyo; shìpín differs
 260	special	keep	root	quality	3	normal	
 261	voice	keep	root	sense	3		
-262	next	keep	root	time	4		time offsets are wo + unit (8.2.2); "next" in a series has no word
+262	next	keep	root	time	4		"time offsets are wo + unit (8.2.2); ""next"" in a series has no word"
 263	member	keep	root	society	3		
 264	leader	keep	root	people	3		boss, manager, chief; no wungu exists (compounds: commander); frequent, root per ladder 2.3
 265	bank	keep	loan?	money	3		bank/banco/banque/bank/benki/bank; ginkō, yínháng differ
@@ -326,7 +326,7 @@ n	concept	status	route	field	tier	antonym	note
 313	clear	keep	root	quality	3		obvious; also transparent
 314	organization	keep	root	society	3		association, institution, agency
 315	market	keep	root	money	3		
-316	prepare	keep	root	action	3		muge wonwe "make ready" exists; frequent, root per ladder 2.3
+316	prepare	keep	root	action	3		"muge wonwe ""make ready"" exists; frequent, root per ladder 2.3"
 317	business	keep	loan?	work	3		biznes/bisnis/bijinesu/business; negocio, shāngyè, tijāra differ
 318	century	covered:fawu loki		time	2		100 years; the Nth century is fawu loki mena N
 319	economy	keep	root	money	3		ekonomika/ekonomi vs keizai, jīngjì, iqtiṣād, uchumi
@@ -336,7 +336,7 @@ n	concept	status	route	field	tier	antonym	note
 322	weather	keep	root	nature	3		
 323	middle	keep	root	space	3		centre; between is lifin
 324	message	keep	root	sense	3		
-325	accident	keep	root	abstract	3		crash; "by accident" is mu gan momu
+325	accident	keep	root	abstract	3		"crash; ""by accident"" is mu gan momu"
 326	community	keep	root	society	3		
 327	queen	covered:king futa		society	2		gender is a modifier (language.md 5.2); king is 248
 328	process	keep	root	abstract	3		procedure
@@ -350,11 +350,11 @@ n	concept	status	route	field	tier	antonym	note
 336	serious	keep	root	quality	3		severe
 337	meeting	keep	root	society	3		conference, assembly; gather fanmu is the act
 338	international	keep	root	society	3		
-339	kingdom	covered:gigin pi king		society	2		phrase "country of a king"; empire, realm
+339	kingdom	covered:gigin pi king		society	2		"phrase ""country of a king""; empire, realm"
 340	speech	keep	root	sense	3		discourse, sermon
-341	condition	keep	root	abstract	3		state, condition; "on condition" is don
+341	condition	keep	root	abstract	3		"state, condition; ""on condition"" is don"
 342	region	keep	root	space	3		zone, area, territory
-343	building	keep	root	home	3		ge selo "what is built" exists; frequent, root per ladder 2.3
+343	building	keep	root	home	3		"ge selo ""what is built"" exists; frequent, root per ladder 2.3"
 344	union	keep	root	society	3		alliance, unite, trade union
 345	information	keep	root	tech	3		informatsiya/información/informasi vs xìnxī, jōhō, ma'lūmāt, habari
 346	religion	keep	root	religion	2		lexicon review candidate (method §0)
@@ -362,7 +362,7 @@ n	concept	status	route	field	tier	antonym	note
 348	energy	keep	loan?	tech	3		energiya/energía/enerji/energi/enerugī; néngliàng, ṭāqa, nishati, ūrjā differ
 349	form	keep	root	abstract	3		format, a form to fill in; shape is 523
 350	province	keep	root	society	2		state, prefecture; first-level region of a country
-351	welcome	covered:upe obu		sense	3		phrase "well come" as bienvenido, hoş geldiniz; routines 10.2.5; not yet listed there
+351	welcome	covered:upe obu		sense	3		"phrase ""well come"" as bienvenido, hoş geldiniz; routines 10.2.5; not yet listed there"
 352	real	keep	root	quality	3		reality, genuine; true feko is about statements
 353	danger	keep	root	abstract	3	safe, not in danger	risk
 354	official	keep	root	society	2		civil servant, officially
@@ -403,7 +403,7 @@ n	concept	status	route	field	tier	antonym	note
 389	address	keep	root	space	3		postal or email address
 390	map	keep	root	thing	2		
 391	birthday	keep	root	time	3		no standard phrase; compounds in most languages but frequent
-392	account	covered:ge sunbu		money	2		compounds.tsv "what is counted"
+392	account	covered:ge sunbu		money	2		"compounds.tsv ""what is counted"""
 393	Friday	grammar		time	3		dili mena te (language.md 8.3.2)
 394	threaten	keep	root	sense	2		threat
 395	structure	keep	root	abstract	2		framework; system yile is near
@@ -417,7 +417,7 @@ n	concept	status	route	field	tier	antonym	note
 403	goal	keep	root	mind	3		aim, purpose; purpose clause is li + verb; the football goal is a separate sense
 404	period	keep	root	time	3		era, interval; muyi is any span
 405	prince	covered:tiwu pi king		society	1		kinship composed (method 3.1); princess the same
-406	exist	grammar		abstract	3		"there is" is ibe with no subject (language.md 4.7.7)
+406	exist	grammar		abstract	3		there is is ibe with no subject (language.md 4.7.7)
 407	race	split	root	society	2		1: race, contest; 2: race of people (407.b)
 407.b	race (people)	keep	root	society	2		C4: biological races are known-wrong; describe as ancestry or ethnic group; root for the social category
 408	writer	covered:no tusi		people	2		one who writes (derived word); author
@@ -430,12 +430,12 @@ n	concept	status	route	field	tier	antonym	note
 415	alone	keep	root	quality	3		lonely, solo; only na is a focus operator
 416	announce	keep	root	sense	2		declare
 417	spring	split			2		1: the season (417); 2: water spring (417.b)
-417.a	spring (season)	covered:muyi pi meyen		time	2		phrase "time of flowers"; seasons are compounds (compounds.tsv summer, winter)
+417.a	spring (season)	covered:muyi pi meyen		time	2		"phrase ""time of flowers""; seasons are compounds (compounds.tsv summer, winter)"
 417.b	spring (water)	keep	root	nature	1		water source; a coil spring is rare
 418	project	keep	loan?	work	3		proyekt/proyecto/projet/proje/proyek/purojekuto; xiàngmù, mashrū', mradi differ
 419	vehicle	keep	root	transport	2		van; car tale and cart siwa are kinds
 420	article	keep	root	sense	2		a written piece; article of law
-421	May	grammar		time	2		dunan mena te (language.md 8.3.3); modal "may" is efon or kon
+421	May	grammar		time	2		"dunan mena te (language.md 8.3.3); modal ""may"" is efon or kon"
 422	present	covered:eda		time	3		the present time is now; a gift is 135, to present is wuye show
 423	beer	keep	loan?	food	2		bier/biru/bira/bīra/píjiǔ; pivo, cerveza differ
 424	parliament	keep	root	society	2		congress, senate
@@ -444,7 +444,7 @@ n	concept	status	route	field	tier	antonym	note
 427	pressure	keep	root	abstract	2		physical or social
 428	website	keep	loan?	tech	3		site: sayt/sitio/site/saito/situs; wǎngzhàn, mawqi', tovuti differ
 429	democracy	keep	loan?	society	2		demokratiya/democracia/demokrasi/dīmuqrāṭiyya/demokrasia; mínzhǔ, minshushugi differ
-430	commander	covered:no wungu		society	2		compounds.tsv "one who leads"
+430	commander	covered:no wungu		society	2		"compounds.tsv ""one who leads"""
 431	colonel	keep	root	society	1		military rank
 432	unit	keep	root	abstract	2		unit of measure
 433	scene	keep	root	art	2		
@@ -480,24 +480,24 @@ n	concept	status	route	field	tier	antonym	note
 462	set	covered:finsa		action	3		adjust, set; put is yaga; a set of things is funti group
 463	capital	keep	root	society	2		capital city; financial capital is rare
 464	magazine	keep	root	thing	2		
-465	winter	covered:muyi weki		time	2		compounds.tsv "time cold"
+465	winter	covered:muyi weki		time	2		"compounds.tsv ""time cold"""
 466	captain	keep	loan?	society	2		kapitan/capitán/kapten/kaptan/kapteni/kyaputen/kaptān
 467	player	covered:no luse		people	2		one who plays (derived word)
 468	luck	keep	root	abstract	3		fortune, lucky
 469	stage	split	root	abstract	2		1: stage, phase; 2: theatre stage (469.b)
 469.b	stage (theatre)	keep	root	art	1		platform
 470	honey	keep	root	food	2		
-471	independent	covered:enpa		society	2		"free, not held or controlled" is the same concept; independence
+471	independent	covered:enpa		society	2		free, not held or controlled is the same concept; independence
 472	react	keep	root	action	2		reaction
 473	size	keep	root	size	3		dimension, magnitude
 474	model	keep	loan?	abstract	2		model'/modelo/moderu/model; móxíng differs
 475	prove	keep	root	mind	3		proof, evidence
 476	measure	keep	root	action	2		measurement
-477	summer	covered:muyi tikun		time	2		compounds.tsv "time hot"
+477	summer	covered:muyi tikun		time	2		"compounds.tsv ""time hot"""
 478	mathematics	keep	root	abstract	2		arithmetic
 479	crisis	keep	root	society	2		krizis/crisis/krisis/kriz vs wēijī, azma, kiki
 480	step	keep	root	motion	2		step, pace
-481	library	covered:guyi pi ingo		place	2		phrase "house of books" as túshūguǎn, kütüphane, toshokan
+481	library	covered:guyi pi ingo		place	2		"phrase ""house of books"" as túshūguǎn, kütüphane, toshokan"
 482	virus	keep	loan?	health	2		virus/uirusu/virüs/virusi/fayrūs/vāyras; bìngdú differs
 483	worker	keep	root	work	3		employee; no doku exists; frequent, root per ladder 2.3
 484	pass	keep	root	motion	3		go past or through; pass a test
@@ -512,7 +512,7 @@ n	concept	status	route	field	tier	antonym	note
 493	restaurant	keep	loan?	food	3		restoran/restaurante/resutoran/resṭorān; cāntīng, maṭ'am, mgahawa differ
 494	transfer	keep	root	action	2		
 495	palace	keep	root	place	1		
-496	source	merge:origin		abstract	2		same labels "origin, source" (401)
+496	source	merge:origin		abstract	2		"same labels ""origin, source"" (401)"
 497	direct	keep	root	quality	2		directly
 498	mayor	keep	root	society	2		
 499	population	keep	root	society	2		
@@ -541,7 +541,7 @@ n	concept	status	route	field	tier	antonym	note
 522	challenge	keep	root	abstract	2		
 523	shape	keep	root	space	3		form
 524	tax	keep	root	money	2		
-525	personal	covered:pi nen		quality	2		"of oneself"; private is kunsu
+525	personal	covered:pi nen		quality	2		of oneself; private is kunsu
 526	philosophy	keep	loan?	abstract	2		filosofiya/filosofía/filsafat/felsefe/falsafa; zhéxué, tetsugaku differ
 527	course	keep	root	society	2		course of study
 528	original	keep	root	quality	2		
@@ -588,7 +588,7 @@ n	concept	status	route	field	tier	antonym	note
 567	club	keep	loan?	society	2		klub/club/kurabu/kulüp/klabu/jùlèbù; nādī differs
 568	factory	covered:pu muge		work	2		place for making (derived word), as gōngchǎng, kōjō
 569	habit	keep	root	mind	2		routine; manni marks habit on a verb
-570	childhood	covered:muyi pi tiwu		time	2		phrase "time of child"
+570	childhood	covered:muyi pi tiwu		time	2		"phrase ""time of child"""
 571	title	keep	root	sense	2		heading; the respect title is lanno
 572	divorce	keep	root	society	2	marry, wedding	
 573	negative	keep	root	quality	2	positive	
@@ -604,7 +604,7 @@ n	concept	status	route	field	tier	antonym	note
 583	list	keep	root	sense	2		
 584	fresh	keep	root	quality	2	rotten	
 585	screen	keep	root	tech	3		compounds.tsv du wuye; frequent, root per ladder 2.3
-586	angel	keep	root	religion	1		
+586	angel	keep	borrow	religion	1		religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
 587	campaign	keep	loan?	society	2		kampaniya/campaña/kanpēn/kampanye/kampanya/kampeni; huódòng differs
 588	universe	keep	root	nature	2		
 589	define	keep	root	sense	2		definition
@@ -638,7 +638,7 @@ n	concept	status	route	field	tier	antonym	note
 616	invite	keep	root	sense	2		invitation
 617	alcohol	keep	loan?	food	2		alkogol'/alcohol/alkohol/alkol/arukōru/kuḥūl; jiǔ, pombe differ
 618	discuss	keep	root	sense	3		debate; talk kegu is broader
-619	bishop	keep	root	religion	1		
+619	bishop	keep	borrow	religion	1		religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
 620	professional	keep	root	work	2		
 621	prison	keep	root	society	2		jail
 622	element	keep	root	abstract	2		chemical element (IUPAC) or a part
@@ -657,12 +657,12 @@ n	concept	status	route	field	tier	antonym	note
 635	coin	keep	root	money	2		
 636	guest	keep	root	people	2	host	visitor
 637	care	keep	root	action	3		look after; keep/protect kuwi is near
-638	local	covered:pi kemu		space	2		"of the place", as compounds.tsv local time
+638	local	covered:pi kemu		space	2		of the place, as compounds.tsv local time
 639	chemistry	keep	loan?	abstract	1		khimiya/química/kimia/kimya/kemia/kīmiyā'; huàxué, kagaku differ
 640	mark	merge:sign		sense	2		sign, mark (438)
 641	statistics	keep	root	abstract	1		
 642	patient	split			2		1: a sick person in care (642.a); 2: patient, enduring (642.b)
-642.a	patient (sick person)	covered:ewo simi		health	2		phrase "sick person"
+642.a	patient (sick person)	covered:ewo simi		health	2		"phrase ""sick person"""
 642.b	patient (enduring)	keep	root	mind	2		
 643	worry	keep	root	mind	3		concern, anxious; fear nuta is near
 644	material	keep	root	thing	2		substance
@@ -706,7 +706,7 @@ n	concept	status	route	field	tier	antonym	note
 682	plot	keep	root	art	1		story plot; conspiracy
 683	oxygen	keep	standard	nature	1		IUPAC element; form from the symbol name (oksigen/oxígeno/oksijen vs sanso, yǎng)
 684	charge	keep	root	tech	2		charge a battery; a fee is price (275)
-685	throne	covered:pu goyu pi king		society	1		phrase "seat of the king"
+685	throne	covered:pu goyu pi king		society	1		"phrase ""seat of the king"""
 686	rank	merge:level		society	2		a position on a scale (301)
 687	climate	keep	loan?	nature	2		klimat/clima/climat/iklim (via Arabic); qìhòu, kikō, manākh differ
 688	signature	keep	root	sense	2		sign one's name
@@ -723,7 +723,7 @@ n	concept	status	route	field	tier	antonym	note
 699	damage	keep	root	action	2		harm; break alun is broader
 700	wheel	keep	root	thing	2		
 701	reward	keep	root	abstract	2		prize, award
-702	bride	covered:futa no bedan		people	1		phrase "woman who marries"; gender is a modifier
+702	bride	covered:futa no bedan		people	1		"phrase ""woman who marries""; gender is a modifier"
 703	border	keep	root	space	2		boundary; limit (358) is abstract
 704	poison	keep	root	health	2		venom, toxin
 705	symptom	keep	root	health	1		
@@ -746,7 +746,7 @@ n	concept	status	route	field	tier	antonym	note
 720	mission	keep	root	work	2		
 721	trick	keep	root	action	2		
 722	lawyer	keep	root	society	2		attorney
-723	appear	keep	root	motion	3		emerge; "the sun appears" (method 3b)
+723	appear	keep	root	motion	3		"emerge; ""the sun appears"" (method 3b)"
 724	steel	keep	root	nature	1		
 725	farm	keep	root	work	2		farming, cultivation
 726	essence	keep	root	abstract	1		gist
@@ -759,7 +759,7 @@ n	concept	status	route	field	tier	antonym	note
 729.b	tip (gratuity)	keep	root	money	1		
 730	priest	keep	root	religion	2		
 731	servant	keep	root	people	1		
-732	lover	keep	root	people	3		girlfriend, boyfriend, partner; no wigen "one who loves" is ambiguous
+732	lover	keep	root	people	3		"girlfriend, boyfriend, partner; no wigen ""one who loves"" is ambiguous"
 733	surgery	keep	root	health	2		operation
 734	reader	covered:no lilu		people	2		one who reads (derived word)
 735	gene	keep	loan?	health	1		gen/gene/jīn/jīyīn; idenshi differs
@@ -767,16 +767,16 @@ n	concept	status	route	field	tier	antonym	note
 737	singer	covered:no yuyun		people	2		one who sings (derived word)
 738	behave	keep	root	action	2		conduct, behaviour
 739	devil	keep	root	religion	1		demon
-740	majority	keep	root	abstract	2		ke feli "more" phrases are near
+740	majority	keep	root	abstract	2		"ke feli ""more"" phrases are near"
 741	average	keep	root	number	2		mean
 742	treasure	keep	root	money	1		
 743	flood	keep	root	nature	2		
-744	former	keep	root	time	2		ex-; ya "before" is a relation word
+744	former	keep	root	time	2		"ex-; ya ""before"" is a relation word"
 745	vegetable	keep	root	food	2		
 746	destination	covered:pu liwon		space	1		place for arriving (derived word)
 747	continent	keep	root	space	1		
 748	lecture	merge:lesson		society	2		a teaching talk (347)
-749	extreme	keep	root	quality	1		bi "very" is degree
+749	extreme	keep	root	quality	1		"bi ""very"" is degree"
 750	row	merge:line		space	2		line, row (271)
 751	farmer	covered:no farm		people	2		one who farms (derived word); farm is 725
 752	diamond	keep	root	nature	1		
@@ -789,7 +789,7 @@ n	concept	status	route	field	tier	antonym	note
 759	menstruation	keep	root	body	2		
 760	balance	keep	root	abstract	2		
 761	pilot	keep	loan?	transport	1		pilot/piloto/pilote/pairotto/pāylaṭ; fēixíngyuán, ṭayyār, rubani differ
-762	corpse	covered:gawo fafin		body	1		"dead body"
+762	corpse	covered:gawo fafin		body	1		dead body
 763	sword	keep	root	thing	1		
 764	investigate	keep	root	mind	2		research, inquiry; seek ditun and check loban are near
 765	invent	keep	root	action	1		invention; create (364) is broader
@@ -829,15 +829,15 @@ n	concept	status	route	field	tier	antonym	note
 798	innocent	keep	root	society	2		
 799	plastic	keep	loan?	thing	2		plastik/plástico/purasuchikku/plastiki/blāstīk; sùliào differs
 800	volume	keep	root	size	1		loudness; book volume
-801	giant	covered:ewo bi kudu		people	1		phrase "very big person"; huge is bi kudu
+801	giant	covered:ewo bi kudu		people	1		"phrase ""very big person""; huge is bi kudu"
 802	noble	keep	root	society	1		
 803	fan	split	root	people	2		1: fan, supporter, admirer; 2: cooling fan (803.b)
 803.b	fan (device)	keep	root	home	1		
 804	plain	split	root	quality	2		1: plain, simple; 2: plain, flat land (804.b)
-804.b	plain (land)	covered:sekan mawun		nature	1		phrase "flat open land"
+804.b	plain (land)	covered:sekan mawun		nature	1		"phrase ""flat open land"""
 805	credit	keep	root	money	2		
 806	bar	keep	loan?	place	2		drinking place: bar/bā/baa/jiǔbā; a metal bar is rare
-807	repeat	keep	root	action	2		repetition; moti "again" is near
+807	repeat	keep	root	action	2		"repetition; moti ""again"" is near"
 808	responsible	keep	root	society	2		responsibility, duty
 809	manage	keep	root	work	2		management; lead wungu is near
 810	release	keep	root	action	2	hold	let go; free enpa is the state
@@ -849,10 +849,10 @@ n	concept	status	route	field	tier	antonym	note
 816	experiment	keep	root	abstract	1		test (388) is checking
 817	media	merge:press (media)		society	2		(564.b)
 818	federation	merge:union		society	1		union of states (344)
-819	last night	grammar		time	2		time phrase yami pi afe "night of yesterday" (language.md 8.2)
+819	last night	grammar		time	2		"time phrase yami pi afe ""night of yesterday"" (language.md 8.2)"
 820	contract	keep	root	work	2		agree tayu is the act
 821	exercise	keep	root	health	2		physical exercise; a school exercise
-822	suicide	covered:omen nen		action	1		"kill self" (nen reflexive, language.md 10.3.6)
+822	suicide	covered:omen nen		action	1		kill self (nen reflexive, language.md 10.3.6)
 823	countryside	keep	root	place	2	city	rural
 824	version	keep	loan?	abstract	2		versiya/versión/bājon/versi/versiyon; bǎnběn, toleo differ
 825	champion	covered:no yiyin		people	1		one who wins (derived word); winner
@@ -864,7 +864,7 @@ n	concept	status	route	field	tier	antonym	note
 831	insurance	keep	root	money	2		
 832	perfect	keep	root	quality	2		
 833	property	covered:ge ibe		money	2		what one has (derived word); real estate is a phrase with land
-834	joint	keep	root	body	1		of the body; "joint" as shared is gan
+834	joint	keep	root	body	1		"of the body; ""joint"" as shared is gan"
 835	stress	merge:pressure		mind	2		yālì, ḍaghṭ cover both (427); loan stress/sutoresu/stres is also widespread
 836	rate	keep	root	number	1		ratio, speed, rate of pay
 837	mass	keep	standard	nature	1		SI quantity (kilogram); crowd and church Mass are rare
@@ -878,14 +878,14 @@ n	concept	status	route	field	tier	antonym	note
 845	turn off	covered:tapi		action	2		language.md 11.4 turn on/off benbi/tapi
 846	fuel	keep	loan?	thing	2		petrol, gasoline: benzin/bensin/petroli/gasorin/gasolina; two forms
 847	competition	keep	root	society	2		contest, tournament; race (407) is a speed contest
-848	excuse	keep	root	sense	1		justification; "excuse me" is sepi
+848	excuse	keep	root	sense	1		"justification; ""excuse me"" is sepi"
 849	satisfied	keep	root	mind	2		satisfaction
 850	detail	keep	root	abstract	2		
 851	scientist	covered:no science		people	2		one who does science (derived word); researcher
 852	ambassador	keep	root	society	1		
-853	improve	keep	root	action	2		muge ke upe "make better" exists
+853	improve	keep	root	action	2		"muge ke upe ""make better"" exists"
 854	settle	keep	root	action	1		settle down, settlement
-855	eternity	covered:we muyi		time	1		"all time"; eternal
+855	eternity	covered:we muyi		time	1		all time; eternal
 856	wheat	keep	root	food	2		
 857	unity	merge:union		society	1		being one, solidarity (344)
 858	cream	keep	loan?	food	1		krem/crema/crème/kurīmu/krim/krimu; nǎiyóu differs
@@ -896,7 +896,7 @@ n	concept	status	route	field	tier	antonym	note
 863	grade	keep	root	society	2		school mark, school year
 864	spend	keep	root	money	3		expense; pay unfu is near
 865	glory	covered:dundi		religion	1		respect, honour
-866	prophet	keep	root	religion	1		
+866	prophet	keep	borrow	religion	1		religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
 867	complex	keep	root	quality	2		complicated; difficult gofa is near
 868	logic	keep	root	mind	1		reasoning; reason ukun is a cause
 869	normal	keep	root	quality	3	special	ordinary
@@ -922,11 +922,11 @@ n	concept	status	route	field	tier	antonym	note
 888	reputation	keep	root	society	1		
 889	certificate	keep	root	society	1		diploma; document kemin is broader
 890	trap	keep	root	thing	1		
-891	relative	covered:ewo pi yonyo		people	2		phrase "person of the family"
+891	relative	covered:ewo pi yonyo		people	2		"phrase ""person of the family"""
 892	confess	keep	root	sense	2		admit, acknowledge
 893	engineer	keep	loan?	work	2		inzhener/ingeniero/insinyur/injinia vs muhandis/mühendis; gōngchéngshī differs
 894	instrument	keep	root	thing	1		musical instrument; tool yetu is broader
-895	prime minister	covered:minister kudu		society	2		phrase "big minister" as waziri mkuu; minister is 289
+895	prime minister	covered:minister kudu		society	2		"phrase ""big minister"" as waziri mkuu; minister is 289"
 896	single	keep	root	people	2		unmarried; one alone is na fi
 897	shift	keep	root	work	1		work shift
 898	atmosphere	keep	root	nature	1		air layer, mood; air wunta is near
@@ -946,11 +946,11 @@ n	concept	status	route	field	tier	antonym	note
 912	opposite	keep	root	abstract	2		oppose ninsu is the stance
 913	note	keep	root	sense	2		written note; musical note
 914	register	keep	root	sense	1		registration
-915	idol	keep	root	religion	1		also pop idol
+915	idol	keep	phrase	religion	1		also pop idol; religion decision 2026-10-13 (tradition word, borrowed by sound / neutral phrase); fixed 2026-10-16
 916	trade	keep	root	money	2		commerce
 917	valley	keep	root	nature	1		
-918	young man	covered:lowu loyen		people	2		"man young"; gender and age are modifiers
-919	warrior	covered:no migi		people	1		compounds.tsv "one who fights"
+918	young man	covered:lowu loyen		people	2		man young; gender and age are modifiers
+919	warrior	covered:no migi		people	1		"compounds.tsv ""one who fights"""
 920	violence	keep	root	society	2		violent
 921	vaccine	keep	loan?	health	2		vaktsina/vacuna/vaccin/vaksin/wakuchin; aşı, chanjo, yìmiáo, ṭīkā differ
 922	tunnel	keep	loan?	transport	1		tunnel'/túnel/tünel/tonneru; suìdào, terowongan, nafaq differ
@@ -989,7 +989,7 @@ n	concept	status	route	field	tier	antonym	note
 953.b	post (online)	merge:message		tech	2		a published message (324)
 954	pope	keep	loan?	religion	1		papa/pape/paus/bābā; jiàohuáng, kyōkō differ
 955	pipe	keep	root	thing	1		tube
-956	pink	covered:wiwi pinda		color	1		phrase "red white"; six colour roots (method 3.1)
+956	pink	covered:wiwi pinda		color	1		"phrase ""red white""; six colour roots (method 3.1)"
 957	pillar	keep	root	home	1		column
 958	piano	keep	loan?	art	1		piano/pianino/piyano/biyānū; gāngqín differs
 959	physics	keep	loan?	abstract	1		fizika/física/fisika/fizik/fizikia/fīziyā'; wùlǐ, butsuri differ
@@ -997,10 +997,10 @@ n	concept	status	route	field	tier	antonym	note
 961	pearl	keep	root	nature	1		
 962	patience	merge:patient (enduring)		mind	1		(642.b)
 963	parent	covered:mole yen wede		people	3		compounds.tsv parents; one parent is mole lu wede; flag: sibling has a sexless root and parent does not
-964	organism	covered:musu man nume		nature	1		phrase "thing that lives"
+964	organism	covered:musu man nume		nature	1		"phrase ""thing that lives"""
 965	organ	keep	root	body	1		body organ; musical organ is rare
 966	orbit	keep	root	space	1		
-967	old man	covered:lowu pani		people	2		"man old"; gender and age are modifiers
+967	old man	covered:lowu pani		people	2		man old; gender and age are modifiers
 968	October	grammar		time	2		dunan mena yawu (language.md 8.3.3)
 969	native	keep	root	society	1		local (638) is near
 970	mystery	keep	root	abstract	1		secret (331) is hidden on purpose
@@ -1011,8 +1011,8 @@ n	concept	status	route	field	tier	antonym	note
 975	merit	keep	root	abstract	1		
 976	medal	keep	loan?	society	1		medal'/medalla/médaille/medali/madalya/medaru/mīdāliya; jiǎngpái differs
 977	mask	keep	loan?	thing	1		maska/máscara/masque/masker/maske/masuku; kǒuzhào, barakoa differ
-978	link	covered:du penyu		tech	2		compounds.tsv "thing for connecting"
-979	lack	covered:mu ibe		abstract	2		"not have"; without is nuwen
+978	link	covered:du penyu		tech	2		"compounds.tsv ""thing for connecting"""
+979	lack	covered:mu ibe		abstract	2		not have; without is nuwen
 980	June	grammar		time	2		dunan mena ufo (language.md 8.3.3)
 981	July	grammar		time	2		dunan mena oma (language.md 8.3.3)
 982	journalist	covered:no report		people	2		one who reports (derived word); report is 276
