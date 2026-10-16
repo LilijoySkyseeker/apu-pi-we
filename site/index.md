@@ -10,7 +10,7 @@ It is still being designed, so words and rules change from time to time. It's de
 
 Article 1 of the Universal Declaration of Human Rights:
 
-**ewo we tuko nume gan enpa, yen ibe bawe kige yen sogan kige. wan la lenu pume, yen lenu lugo musu upe yen musu yomo. wan la keya muge nen nen fu faba la.**
+**ewo we tuko nume nan enpa, yen ibe bawe kige yen sogan kige. wan la lenu pume, yen lenu lugo musu upe yen musu yomo. wan la keya muge nen nen fun faba la.**
 
     ewo     we   tuko   nume  gan   enpa,  yen  ibe   bawe        kige  yen  sogan  kige.
     person  all  start  live  with  free   and  have  importance  same  and  right  same

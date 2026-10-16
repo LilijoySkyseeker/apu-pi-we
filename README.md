@@ -38,7 +38,7 @@ A few things about it:
 
 - Words never change shape. There are no verb endings, required plurals, genders or irregular forms.
 - The most common meanings get the shortest words. Most grammar words are one syllable.
-- You can say how sure you are with a number, in sixths: **kon te** is five out of six.
+- You can say how sure you are with a number, in sixths: **pe ma** is five out of six.
 - There is always a precise way to say something, and you can skip it when context already makes it clear.
 - The basic vocabulary comes from meanings that languages around the world share, and every word is checked against swear words in 34 major languages so it doesn't sound like one.
 

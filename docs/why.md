@@ -24,11 +24,11 @@ Most of the world's languages don't mark gender in their pronouns, and those tha
 
 ## Why are there two words for "we"?
 
-**pen** is "we, including you" and **din** is "we, not including you". Many languages around the world make this distinction, and it is among the most stable features languages have. English "we" leaves the listener guessing whether they are included.
+**kan** is "we, including you" and **din** is "we, not including you". Many languages around the world make this distinction, and it is among the most stable features languages have. English "we" leaves the listener guessing whether they are included.
 
 ## Why do you say how sure you are in sixths?
 
-Words like "probably" and "likely" mean very different things to different people. A number doesn't. **kon** plus a number from 0 to 6 gives seven steps, and every step but certainty is a one-syllable digit. It also suits a language whose digits once counted in sixes. [The confidence scale](language.md#61-clause-operators).
+Words like "probably" and "likely" mean very different things to different people. A number doesn't. **pe** plus a number from 0 to 6 gives seven steps, and every step but certainty is a one-syllable digit. It also suits a language whose digits once counted in sixes. [The confidence scale](language.md#61-clause-operators).
 
 ## Many languages use one word for "moon" and "month". Why doesn't this one?
 
@@ -40,4 +40,4 @@ The vowels a, e, i, o and u are the most common vowel system in the world, and t
 
 ## Why no capital letters and no question marks?
 
-Writing marks only what the voice marks in speech. Names already have **en** in front of them, so capitals would carry nothing, and on a phone l, I and 1 are easy to confuse. A question starts with **min** or contains a question word, so the reader knows it's a question from the first word; a "?" at the end arrives too late to help. [More on writing](rationale.md#6-writing-researchnotes-human-test-01).
+Writing marks only what the voice marks in speech. Names already have **fo** in front of them, so capitals would carry nothing, and on a phone l, I and 1 are easy to confuse. A question starts with **bi** or contains a question word, so the reader knows it's a question from the first word; a "?" at the end arrives too late to help. [More on writing](rationale.md#6-writing-researchnotes-human-test-01).
