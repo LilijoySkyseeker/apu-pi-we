@@ -1,0 +1,54 @@
+loan	won (languages whose variant the median took)	lost
+chocolate	vi id tl fa ar tr ru es fr	ja hi bn ta sw yo th
+chocolate	-	fa ar ru fr yo vi
+doctor	tl fa ar tr ru es	hi bn ta sw
+motorcycle	-	id tl hi bn fa
+coffee	zh vi th tl ru es fr qu	ja ko id hi bn ta ha yo
+sweater	id tl hi bn ta ar ru	-
+pajamas	id fa ar tr ru es fr qu	ja tl hi bn ta
+pajamas	ja tl hi bn ta ar	fa tr ru fr es qu id
+radio	ja ko vi id tl fa ar tr ru es fr qu	hi bn sw ha yo
+helicopter	id tl fa tr es fr	ja ko th hi bn sw
+tractor	ja ko th hi bn ta sw ha	id fa ru es qu
+tomato	es qu tr	ja ko bn ar ha yo
+tea	hi fa ar tr ru sw ha	zh ja ko vi th tl bn
+tea	-	ar ha
+tea	-	id ta es fr yo qu
+garage	fa ar tr ru fr	ja hi bn sw
+cookie	-	ja ko th tl
+sandwich	th tl es fr sw ar	hi ta tr fa
+pizza	th tl bn ta fa ar tr ru fr	ja ko id hi sw
+sauce	-	tl ar es qu
+balcony	-	ja ko bn ta
+circus	vi id tl fa ar tr ru es fr qu	ja ko hi bn sw
+T-shirt	ja hi bn	fa sw tr fr
+video	vi id tl tr ru es fr qu	th hi bn ta fa ar ha yo
+bank	ta sw ha yo tl es qu tr	id hi bn fa ar ru fr
+program	th id hi bn tr fr ko	tl ru es qu ja sw
+technology	hi ar tr sw	tl es qu fa fr id ru
+technology	th id hi fa tr fr	tl ar ru es sw qu
+computer	ja th id tl es sw yo	hi bn ta fa ar ru ha
+machine	bn fa ru fr sw ha	tl ar tr es qu
+beer	vi th hi bn ta sw yo	-
+beer	-	vi th sw yo
+website	ja ko th tl hi bn ru	id tr es fr
+bomb	tl tr ru es qu	yo fa fr
+model	ko id hi bn fa tr ru fr	tl es qu
+virus	-	ko th hi bn
+league	id tl ru es qu ja ko sw	th hi bn ta fa tr fr
+album	ja id tl ar es fr qu tr	ko th hi bn ta sw vi fa ru
+cigarette	hi bn ta fa ru fr	ar tr sw
+club	ja tl hi bn sw vi	id ru es qu tr
+gas	ko th id tl hi bn es sw ha yo qu	fa ar tr ru fr
+gene	zh hi bn ar sw	id tr ru vi fa fr tl es qu
+engineer	ja ko hi sw ha yo	-
+studio	-	tl fa ar es qu
+medal	tl ar tr es qu	-
+mask	ru tl es qu	-
+dollar	id tl hi bn ta fa ar tr ru es fr qu	ja ko vi th sw ha yo
+internet	id tl fa tr ru es fr qu	ja hi bn ar sw ha
+email	ko tl bn fa ar tr ru es sw	th id hi fr ha
+battery	ko th bn ta ar tr ru	ja id tl es
+euro	ja ko th hi bn fa ar ru yo	vi id tl tr es fr sw
+rupee	tl hi ta fa ar ru es sw	zh ja ko vi th id tr fr
+hashtag	-	ko th ru

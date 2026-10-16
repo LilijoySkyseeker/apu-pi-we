@@ -1,0 +1,134 @@
+concept	group	verdict	columns	regions	EA	SEA	SA	WA	EU	SSA	AM	decisive
+ice cream	coverage	fail	11	5	ja ko	id th tl	bn hi ta	ar	-	sw yo	-	-
+soup	coverage	fail	11	6	ja	id th	bn hi ta	fa	es fr ru	sw	-	-
+chocolate	coverage	pass	20	7	ja ko zh	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+doctor	coverage	pass	13	5	-	id tl	bn hi ta	ar fa tr	es fr ru	sw yo	-	SEA SA WA EU SSA
+banana	coverage	fail	5	2	ja ko	-	-	-	es fr ru	-	-	-
+giraffe	coverage	fail	11	4	-	id th tl	bn hi	ar fa tr	es fr ru	-	-	-
+motorcycle	coverage	pass	14	6	zh	id th tl	bn hi ta	ar fa tr	es fr ru	-	qu	SEA SA WA EU
+television	coverage	pass	19	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+coffee	coverage	pass	20	7	ja ko zh	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+sweater	coverage	pass	14	6	ja ko	id tl	bn hi ta	ar tr	es ru	ha sw yo	-	SA SSA
+pajamas	coverage	pass	16	7	ja ko	id tl vi	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+radio	coverage	pass	18	7	ja ko	id tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+helicopter	coverage	pass	16	7	ja ko	id th tl	bn hi ta	ar fa tr	es fr	sw yo	qu	-
+tractor	coverage	pass	18	7	ja ko zh	id th tl	bn hi ta	ar fa tr	es fr ru	ha sw	qu	-
+yogurt	coverage	fail	11	5	ja ko	id th tl vi	-	tr	es fr ru	-	qu	-
+sofa	coverage	fail	12	4	ja ko zh	id th tl vi	bn hi ta	-	es fr	-	-	-
+park	coverage	fail	10	5	-	tl	bn hi ta	fa tr	es fr ru	-	qu	-
+pasta	coverage	fail	11	5	ja ko	id th tl	bn hi ta	fa	es fr	-	-	-
+lamp	coverage	pass	12	6	ja ko	id tl	hi	ar fa tr	es fr ru	-	qu	EA SEA SA WA EU AM
+penguin	coverage	pass	16	7	ja ko	id th tl	bn hi ta	fa tr	es fr ru	sw yo	qu	-
+tomato	coverage	pass	12	7	ja ko	id	bn hi	ar tr	es fr	ha yo	qu	EA SEA SA WA EU SSA AM
+zebra	coverage	fail	10	5	-	id tl	bn hi	fa tr	es fr ru	-	qu	-
+tea	coverage	pass	14	6	ja ko zh	th tl vi	bn hi	ar fa tr	ru	ha sw	-	EA SEA WA
+garage	coverage	pass	17	7	ja	id tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+cookie	coverage	pass	16	6	ja ko	id th tl vi	bn hi ta	ar fa tr	fr	ha sw yo	-	-
+shorts	coverage	fail	10	5	ja	tl vi	bn hi	ar tr	es fr ru	-	-	-
+party (political)	coverage	fail	9	5	-	id tl	bn hi	tr	es fr ru	-	qu	-
+sandwich	coverage	pass	19	7	ja ko zh	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	qu	-
+pizza	coverage	pass	20	7	ja ko zh	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+sauce	coverage	pass at 12 after the shape rule	12	5	ja ko	id th vi	bn hi ta	fa tr	fr ru	-	-	EA SEA SA WA EU
+sugar	coverage	pass	13	6	-	tl	hi ta	ar fa tr	es fr ru	ha sw yo	qu	SA WA EU SSA
+soda	coverage	fail	5	4	-	id	hi	-	es fr	sw	-	-
+film	coverage	fail	11	5	-	id vi	bn hi	ar fa tr	fr ru	sw yo	-	-
+toast	coverage	pass	13	5	ja ko zh	-	bn hi ta	ar fa tr	es fr ru	sw	-	EA SA WA EU
+balcony	coverage	pass	15	6	ja ko	id tl vi	bn hi ta	ar fa tr	es fr ru	-	qu	-
+circus	coverage	pass	16	7	ja ko	id tl vi	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+T-shirt	coverage	pass	13	6	ja ko zh	th tl	bn hi ta	ar fa tr	fr	sw	-	EA SEA SA WA
+music	coverage	fail	11	6	-	id tl	hi	ar fa tr	es fr ru	sw	qu	-
+university	coverage	fail	9	6	-	id tl	hi	tr	es fr ru	yo	qu	-
+video	coverage	pass	19	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+bank	coverage	pass	15	6	-	id tl	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+office	coverage	pass	13	6	ja ko	th tl	bn hi ta	tr	es ru	ha sw yo	-	EA SEA SA EU SSA
+program	coverage	pass	13	6	ja ko	id th tl	bn hi	fa tr	es fr ru	sw	-	EA SEA SA WA EU
+technology	coverage	pass	15	7	ja ko	id th tl	bn hi	ar fa tr	es fr ru	sw	qu	-
+computer	coverage	pass	16	7	ja ko	id th tl	bn hi ta	ar fa	es ru	ha sw yo	qu	-
+business	coverage	fail	7	5	ja ko	id tl	hi	fa	ru	-	-	-
+hotel	coverage	pass	17	7	ja ko	id tl	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+energy	coverage	fail	11	5	ja ko	id tl	bn hi	fa tr	es fr ru	-	-	-
+sport	coverage	fail	8	6	ja ko	tl	hi	tr	fr ru	sw	-	-
+machine	coverage	pass	14	6	-	id tl	bn hi ta	ar fa tr	es fr ru	ha sw	qu	SA WA EU
+president	coverage	fail	7	4	-	id tl	-	fa	es fr ru	-	qu	-
+data	coverage	fail	9	6	ja ko	id tl	bn hi	-	es	sw	qu	-
+professor	coverage	fail	11	5	-	id tl	bn hi	fa tr	es fr ru	ha sw	-	-
+project	coverage	fail	12	6	ja ko	id tl	bn hi	fa tr	es fr ru	-	qu	-
+beer	coverage	pass	13	6	ja zh	id th vi	bn hi ta	ar tr	fr	sw yo	-	EA SEA SA WA SSA
+code	coverage	pass	13	5	ja ko	id th tl	bn hi	ar fa tr	es fr ru	-	-	EA SEA SA WA EU
+website	coverage	pass	14	6	ja ko	id th tl vi	bn hi	fa tr	es fr ru	-	qu	SEA EU
+democracy	coverage	fail	11	5	-	id tl	-	ar fa tr	es fr ru	ha sw	qu	-
+bomb	coverage	pass	15	6	-	id th tl vi	bn hi	fa tr	es fr ru	ha sw yo	qu	SEA
+design	coverage	pass	12	5	ja ko	id tl	bn hi	ar fa tr	es fr ru	-	-	EA SEA SA WA EU
+station	coverage	fail	11	5	-	id tl	bn hi ta	tr	es fr ru	ha sw	-	-
+captain	coverage	pass	17	7	ja ko	id th tl	bn hi ta	ar fa tr	es fr ru	ha sw	qu	-
+model	coverage	pass	14	6	ja ko	id th tl	bn hi	ar fa tr	es fr ru	sw	-	SEA WA EU
+virus	coverage	pass	17	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+restaurant	coverage	pass	12	6	ja ko	id tl	bn hi	fa tr	es fr ru	-	qu	EA SEA SA WA EU AM
+ticket	coverage	fail	11	5	ja ko	id tl	bn hi ta	-	fr	ha sw yo	-	-
+budget	coverage	fail	10	5	-	id tl	bn hi ta	fa tr	fr ru	sw	-	-
+league	coverage	pass	15	7	ja ko	id th tl	bn hi ta	fa tr	es fr ru	sw	qu	-
+album	coverage	pass	17	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+philosophy	coverage	fail	11	5	-	id tl	hi	ar fa tr	es fr ru	ha sw	-	-
+channel	coverage	fail	7	4	ja ko	tl	bn hi ta	-	-	sw	-	-
+robot	coverage	pass	18	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	qu	-
+mile	coverage	not core	18	7	ja ko	id th tl	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+pound	coverage	loan as a currency only	14	6	ja ko zh	id th vi	bn hi ta	fa	ru	ha sw yo	-	EA SEA SA SSA
+cigarette	coverage	pass	13	5	-	tl	bn hi ta	ar fa tr	es fr ru	ha sw yo	-	SA WA EU SSA
+club	coverage	pass	17	7	ja ko zh	id th tl vi	bn hi ta	tr	es fr ru	ha sw	qu	-
+campaign	coverage	fail	12	6	ja ko	id tl	-	fa tr	es fr ru	ha sw	qu	-
+taxi	coverage	pass	19	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+gas	coverage	pass	19	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+museum	coverage	fail	9	5	-	id tl	hi	fa tr	es fr ru	-	qu	-
+alcohol	coverage	fail	8	4	ja ko	id	-	ar tr	es fr ru	-	-	-
+engine	coverage	fail	7	3	-	-	-	ar fa tr	es fr ru	-	qu	-
+chemistry	coverage	pass	12	4	-	id th tl	-	ar fa tr	es fr ru	ha sw yo	-	SEA WA EU SSA
+guitar	coverage	pass	20	7	ja ko zh	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+metal	coverage	fail	6	4	-	tl	-	tr	es fr ru	sw	-	-
+climate	coverage	fail	8	4	-	id tl	-	fa tr	es fr ru	-	qu	-
+gene	coverage	pass	15	7	zh	id th tl vi	bn hi	ar fa tr	es fr ru	sw	qu	SEA
+pilot	coverage	fail	11	5	ja ko	id tl	bn hi ta	tr	es fr ru	-	-	-
+fashion	coverage	fail	10	4	-	id tl vi	-	ar fa tr	es fr ru	-	qu	-
+plastic	coverage	pass	16	7	ja ko	id th tl	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+bar	coverage	pass	18	7	ja ko zh	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+version	coverage	fail	11	6	ja ko	id th tl	hi	tr	es fr ru	-	qu	-
+cinema	coverage	pass	16	6	-	id tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+fuel	coverage	fail	6	3	-	id th	-	ar fa tr	ru	-	-	-
+cream	coverage	fail	11	6	ja ko	id th tl vi	ta	tr	es fr	sw	-	-
+passport	coverage	pass	15	7	ja	id th tl	bn hi ta	fa tr	es fr ru	ha sw	qu	-
+platform	coverage	fail	12	5	ja ko	id th tl	bn hi	fa tr	es fr ru	-	-	-
+engineer	coverage	pass	14	6	ja ko	id tl	bn hi ta	-	es fr ru	ha sw yo	qu	SA EU SSA
+vaccine	coverage	pass	14	6	ja ko	id th tl vi	bn hi ta	fa	es fr ru	-	qu	SEA SA EU
+tunnel	coverage	fail	9	5	ja ko	tl	-	fa tr	es fr ru	-	qu	-
+toilet	coverage	fail	10	5	ja	id	bn hi ta	ar fa tr	fr ru	-	-	-
+studio	coverage	pass	15	6	ja ko	id th tl vi	bn hi	ar fa tr	es fr ru	sw	-	SEA
+profile	coverage	pass	14	5	ja ko	id th tl vi	bn hi	ar fa tr	es fr ru	-	-	SEA WA EU
+pope	coverage	tradition	15	6	-	id th tl	hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+piano	coverage	pass	17	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+physics	coverage	fail	11	4	-	id th tl	-	ar fa tr	es fr ru	sw yo	-	-
+mosque	coverage	tradition	16	7	ja ko	id th tl	bn hi ta	ar fa tr	es fr ru	sw	qu	-
+medal	coverage	pass	14	6	ja ko	id tl vi	bn hi	ar fa tr	es fr ru	-	qu	SEA WA EU
+mask	coverage	pass	14	6	ja ko	id tl	bn hi ta	ar fa tr	es fr ru	-	qu	SA WA EU
+dollar	older	pass	19	7	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	ha sw yo	qu	-
+internet	older	pass	17	7	ja ko	id th tl vi	bn hi	ar fa tr	es fr ru	ha sw	qu	-
+hour	older	fail	4	3	-	tl	-	-	es fr	ha	-	-
+minute, of time	older	fail	9	5	-	id tl	bn hi	-	es fr ru	ha	qu	-
+second, of time	older	fail	7	4	-	tl	bn hi	-	es fr ru	sw	-	-
+email	older	pass	16	6	ja ko	id th tl vi	bn hi	ar fa tr	es fr ru	ha sw	-	-
+photo	older	fail	9	5	-	id	bn hi ta	tr	es fr ru	ha	-	-
+degree (°)	older	fail	5	3	-	-	bn hi ta	-	fr	sw	-	-
+battery	older	pass	17	6	ja ko	id th tl	bn hi ta	ar fa tr	es fr ru	ha sw yo	-	-
+euro	older	pass	16	6	ja ko	id th tl vi	bn hi	ar fa tr	es fr ru	sw yo	-	-
+yuan	older	pass	14	6	ko zh	id th tl	hi	ar fa tr	es fr ru	ha sw	-	SEA WA EU
+rupee	older	pass	16	6	ja ko zh	id th tl vi	hi ta	ar fa tr	es fr ru	sw	-	-
+police	older	fail	11	5	-	id tl	bn hi ta	fa tr	es fr ru	sw	-	-
+camera	older	pass	16	6	ja ko	id tl vi	bn hi ta	ar tr	es fr ru	ha sw yo	-	-
+.com	symbols	pass	14	6	ko	id th vi	bn hi ta	ar fa tr	es fr ru	sw	-	SEA SA WA EU
+hashtag	symbols	pass	13	5	ja ko	id th tl vi	bn	ar fa tr	es fr ru	-	-	EA SEA WA EU
+kilometre	metric	pass	17	6	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	-	-
+kilo	metric	pass	12	6	ja ko	th vi	bn hi ta	tr	fr ru	sw yo	-	EA SEA SA WA EU SSA
+metre	metric	pass	17	6	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	-	-
+gram	metric	pass	17	6	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	-	-
+kilogram	metric	pass	17	6	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	-	-
+litre	metric	pass	17	6	ja ko	id th tl vi	bn hi ta	ar fa tr	es fr ru	sw yo	-	-
+centimetre	metric	pass	16	6	ja ko	id th tl vi	bn hi	ar fa tr	es fr ru	sw yo	-	-
+millimetre	metric	pass	14	6	ja ko	th tl vi	hi	ar fa tr	es fr ru	sw yo	-	SEA WA EU

@@ -1,0 +1,8 @@
+region	panel_languages	spearman_region_mean_vs_final	mean_spearman_of_its_languages	per_language	spearman_final_without_region
+EA	3	0.862	0.745	zh:0.77 ja:0.73 ko:0.73	0.9198
+SEA	4	0.865	0.694	vi:0.62 th:0.74 id:0.71 tl:0.70	0.9560
+SA	3	0.815	0.624	hi:0.69 bn:0.64 ta:0.54	0.9682
+WA	3	0.881	0.723	fa:0.79 ar:0.63 tr:0.74	0.9386
+EU	3	0.897	0.795	ru:0.70 es:0.83 fr:0.85	0.9179
+SSA	3	0.799	0.574	sw:0.68 ha:0.63 yo:0.41	0.9778
+AM	1	0.457	0.457	qu:0.46	0.9895

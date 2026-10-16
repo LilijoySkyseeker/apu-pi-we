@@ -1,0 +1,21 @@
+pair	decision	design_log	lump	lump_but_separate_word_in_modern_use	split	no_data	EA lump/lump+sep/split/nodata	SEA lump/lump+sep/split/nodata	SA lump/lump+sep/split/nodata	WA lump/lump+sep/split/nodata	EU lump/lump+sep/split/nodata	SSA lump/lump+sep/split/nodata	AM lump/lump+sep/split/nodata
+moon|month	split	Moon and month are two words	tl fa tr sw ha qu	ko th id hi ru yo	zh vi bn ta es fr	ja ar	0/1/1/1	1/2/1/0	0/1/2/0	2/0/0/1	0/1/2/0	2/1/0/0	1/0/0/0
+word|language	split	Word and language are two words	-	tl ta qu	zh vi th id hi bn fa ar tr ru es fr sw ha	ja ko yo	0/0/1/2	0/1/3/0	0/1/2/0	0/0/3/0	0/0/3/0	0/0/2/1	0/1/0/0
+protect|keep	split	remaining boundary cases: kuwi = protect / keep	-	-	zh vi th id fr	ja ko tl hi bn ta fa ar tr ru es sw ha yo qu	0/0/1/2	0/0/3/1	0/0/0/3	0/0/0/3	0/0/1/2	0/0/0/3	0/0/0/1
+ask|request	split	remaining boundary cases: mido = ask / request	zh	fr	ja ko th tl fa es ha	vi id hi bn ta ar tr ru sw yo qu	1/0/2/0	0/0/2/2	0/0/0/3	0/0/1/2	0/1/1/1	0/0/1/2	0/0/0/1
+day|daytime	split	remaining boundary cases: dili = day / daytime (rung 1 standard)	tl fa tr	ko th fr	ja id ta	zh vi hi bn ar ru es sw ha yo qu	0/1/1/1	1/1/1/1	0/0/1/2	2/0/0/1	0/1/0/2	0/0/0/3	0/0/0/1
+law|rule	split	remaining boundary cases: wabun = law / rule	yo	fa ru	zh ja ko vi th id tl hi bn tr es fr ha	ta ar sw qu	0/0/3/0	0/0/4/0	0/0/2/1	0/1/1/1	0/1/2/0	1/0/1/1	0/0/0/1
+need|should	split	remaining boundary cases: wupi narrowed; should is advice (fon)	-	-	zh vi id es ha	ja ko th tl hi bn ta fa ar tr ru fr sw yo qu	0/0/1/2	0/0/2/2	0/0/0/3	0/0/0/3	0/0/1/2	0/0/1/2	0/0/0/1
+power|strength	split	remaining boundary cases: lula = power; strength is konke	-	zh tl	ja ko vi hi fa ru es fr ha	th id bn ta ar tr sw yo qu	0/1/2/0	0/1/1/2	0/0/1/2	0/0/1/2	0/0/3/0	0/0/1/2	0/0/0/1
+live|life	lump	remaining boundary cases: nume also means life (pata removed)	-	-	zh ja ko vi th id tl hi ta fa ar tr ru es fr sw ha yo qu	bn	0/0/3/0	0/0/4/0	0/0/2/1	0/0/3/0	0/0/3/0	0/0/3/0	0/0/1/0
+leg|foot	split	remaining boundary cases: kept apart	tr	ko vi tl ta fa ru	th hi es fr sw ha	zh ja id bn ar yo qu	0/1/0/2	0/2/1/1	0/1/1/1	1/1/0/1	0/1/2/0	0/0/2/1	0/0/0/1
+tree|wood	split	remaining boundary cases: kept apart	sw	ko tl fa ru	ja id bn es	zh vi th hi ta ar tr fr ha yo qu	0/1/1/1	0/1/1/2	0/0/1/2	0/1/0/2	0/1/1/1	1/0/0/2	0/0/0/1
+hear|listen	split	remaining boundary cases: 20-50% band deleted, two roots	vi fa	ha	th ar fr	zh ja ko id tl hi bn ta tr ru es sw yo qu	0/0/0/3	1/0/1/2	0/0/0/3	1/0/1/1	0/0/1/2	0/1/0/2	0/0/0/1
+see|look	split	remaining boundary cases: 20-50% band deleted, two roots	-	-	zh ja vi th id ru es fr ha yo	ko tl hi bn ta fa ar tr sw qu	0/0/2/1	0/0/3/1	0/0/0/3	0/0/0/3	0/0/3/0	0/0/2/1	0/0/0/1
+paper|book	split	remaining boundary cases: 20-50% band deleted, two roots	-	-	zh ja ko vi id tl hi bn fa ar tr ru es fr sw ha yo	th ta qu	0/0/3/0	0/0/3/1	0/0/2/1	0/0/3/0	0/0/3/0	0/0/3/0	0/0/0/1
+land|country	split	remaining boundary cases: 20-50% band deleted, two roots	-	fr	th id tl hi bn ta fa ru es sw ha yo	zh ja ko vi ar tr qu	0/0/0/3	0/0/3/1	0/0/3/0	0/0/1/2	0/1/2/0	0/0/3/0	0/0/0/1
+take|get	split	remaining boundary cases: 20-50% band deleted, two roots	fa	tl fr	zh ja vi th id ar ru es sw ha	ko hi bn ta tr yo qu	0/0/2/1	0/1/3/0	0/0/0/3	1/0/1/1	0/1/2/0	0/0/2/1	0/0/0/1
+arm|hand	split	remaining boundary cases: 20-50% band deleted, two roots	id fa ru sw	vi ha	ja ko tl tr es fr	zh th hi bn ta ar yo qu	0/0/2/1	1/1/1/1	0/0/0/3	1/0/1/1	1/0/2/0	1/1/0/1	0/0/0/1
+soul|spirit	split	soul, ghost, miracle and devil are core concepts	-	id fa ru	zh ja ko vi tl ha	th hi bn ta ar tr es fr sw yo qu	0/0/3/0	0/1/2/1	0/0/0/3	0/1/0/2	0/1/0/2	0/0/1/2	0/0/0/1
+ghost|spirit	split	soul, ghost, miracle and devil are core concepts	fa	tl ru	zh ja vi th id	ko hi bn ta ar tr es fr sw ha yo qu	0/0/2/1	0/1/3/0	0/0/0/3	1/0/0/2	0/1/0/2	0/0/0/3	0/0/0/1
+devil|demon	lump	soul, ghost, miracle and devil: evil spirit, demon, devil one concept	bn	zh ko	hi ru fr	ja vi th id tl ta fa ar tr es sw ha yo qu	0/2/0/1	0/0/0/4	1/0/1/1	0/0/0/3	0/0/2/1	0/0/0/3	0/0/0/1

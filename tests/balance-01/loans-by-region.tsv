@@ -1,0 +1,22 @@
+set	region	panel_languages	loans	cognate_columns	share_of_columns	share_of_panel	columns_per_language_slot	decisive	region_absent
+panel loans (coverage + older), passing	EA	3	71	135	0.123	0.15	0.634	13	8
+panel loans (coverage + older), passing	SEA	4	71	219	0.199	0.20	0.771	24	1
+panel loans (coverage + older), passing	SA	3	71	187	0.170	0.15	0.878	21	1
+panel loans (coverage + older), passing	WA	3	71	189	0.172	0.15	0.887	22	1
+panel loans (coverage + older), passing	EU	3	71	197	0.179	0.15	0.925	23	0
+panel loans (coverage + older), passing	SSA	3	71	128	0.116	0.15	0.601	10	12
+panel loans (coverage + older), passing	AM	1	71	47	0.043	0.05	0.662	3	24
+all lexicon-bound passing loans (+ symbols, metric)	EA	3	81	154	0.123	0.15	0.634	15	8
+all lexicon-bound passing loans (+ symbols, metric)	SEA	4	81	255	0.203	0.20	0.787	28	1
+all lexicon-bound passing loans (+ symbols, metric)	SA	3	81	212	0.169	0.15	0.872	23	1
+all lexicon-bound passing loans (+ symbols, metric)	WA	3	81	217	0.173	0.15	0.893	26	1
+all lexicon-bound passing loans (+ symbols, metric)	EU	3	81	226	0.180	0.15	0.930	27	0
+all lexicon-bound passing loans (+ symbols, metric)	SSA	3	81	145	0.115	0.15	0.597	11	13
+all lexicon-bound passing loans (+ symbols, metric)	AM	1	81	47	0.037	0.05	0.580	3	34
+panel candidates that failed the count	EA	3	49	42	0.092	0.15	0.286	0	27
+panel candidates that failed the count	SEA	4	49	94	0.205	0.20	0.480	0	3
+panel candidates that failed the count	SA	3	49	75	0.163	0.15	0.510	0	14
+panel candidates that failed the count	WA	3	49	73	0.159	0.15	0.497	0	10
+panel candidates that failed the count	EU	3	49	122	0.266	0.15	0.830	0	2
+panel candidates that failed the count	SSA	3	49	35	0.076	0.15	0.238	0	24
+panel candidates that failed the count	AM	1	49	18	0.039	0.05	0.367	0	31

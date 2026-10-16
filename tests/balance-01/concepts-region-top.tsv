@@ -1,0 +1,15 @@
+top_K	region	panel_languages	on_list_root	covered_by_phrase	content_not_on_list	below_merge_cut	below_cut_multi_synonym_label	share_missing_of_merged	share_not_on_list_incl_below_cut
+300	EA	3	286	5	4	5	0	0.014	0.030
+300	SEA	4	292	3	5	0	0	0.017	0.017
+300	SA	3	283	3	5	9	8	0.017	0.047
+300	WA	3	294	2	3	1	1	0.010	0.013
+300	EU	3	286	6	7	1	0	0.023	0.027
+300	SSA	3	285	6	1	8	7	0.003	0.030
+300	AM	1	150	2	11	137	103	0.067	0.493
+1000	EA	3	853	13	79	55	10	0.084	0.134
+1000	SEA	4	913	16	61	10	1	0.062	0.071
+1000	SA	3	751	13	62	174	130	0.075	0.236
+1000	WA	3	877	10	51	62	41	0.054	0.113
+1000	EU	3	883	9	75	33	12	0.078	0.108
+1000	SSA	3	711	12	64	213	124	0.081	0.277
+1000	AM	1	400	6	45	549	388	0.100	0.594

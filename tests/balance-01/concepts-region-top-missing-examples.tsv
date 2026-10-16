@@ -1,0 +1,281 @@
+region	label	status	global_rank	region_log_share
+EA	be different	below_cut	7433	-3.53
+EA	english language	missing	22689	-3.65
+EA	partner	missing	46161	-3.67
+EA	order	missing	120	-3.71
+EA	everybody	below_cut	23483	-3.72
+EA	from now on	below_cut	27469	-3.76
+EA	et cetera	below_cut	23328	-3.79
+EA	duty	missing	21462	-3.82
+EA	be sorry	below_cut	8492	-3.85
+EA	impression	missing	33238	-3.89
+EA	last time	below_cut	36613	-3.89
+EA	every year	below_cut	23479	-3.89
+EA	implementation	missing	33152	-3.91
+EA	last year	missing	36616	-3.93
+EA	not be	below_cut	43261	-3.95
+EA	next time	below_cut	42927	-3.96
+EA	personnel	missing	47231	-3.99
+EA	achievement	missing	2039	-3.99
+EA	disaster	missing	19959	-3.99
+EA	characteristic	missing	13204	-4.02
+EA	come down	missing	14787	-4.03
+EA	staff	missing	59818	-4.04
+EA	advance	missing	3003	-4.05
+EA	electron	missing	22143	-4.05
+EA	black person	missing	10002	-4.07
+EA	include	missing	33685	-4.08
+EA	white person	missing	69022	-4.08
+EA	baseball	missing	6773	-4.09
+EA	aviation	missing	6202	-4.09
+EA	pattern	missing	46477	-4.10
+EA	brothers	below_cut	11268	-4.13
+EA	download	missing	20965	-4.15
+EA	ah!, oh	below_cut	3414	-4.15
+EA	earthquake	missing	21646	-4.15
+EA	blog	missing	10187	-4.17
+EA	cannot	below_cut	12060	-4.17
+EA	influence	missing	34092	-4.18
+EA	old person	missing	44281	-4.19
+EA	self-confidence	missing	55852	-4.20
+EA	exception	missing	23693	-4.22
+SEA	order	missing	120	-3.31
+SEA	delicious	missing	18847	-3.83
+SEA	suitable	missing	61556	-3.89
+SEA	obey	missing	43655	-3.92
+SEA	disappear	missing	19931	-4.05
+SEA	hill	missing	31727	-4.11
+SEA	get off	missing	28377	-4.17
+SEA	decline	missing	18532	-4.20
+SEA	careful	missing	1357	-4.21
+SEA	kidney	missing	35874	-4.29
+SEA	fold	missing	26513	-4.34
+SEA	loose	missing	38356	-4.36
+SEA	acute	below_cut	2762	-4.39
+SEA	do not	below_cut	20628	-4.42
+SEA	subordinate	missing	61276	-4.48
+SEA	accept	missing	1827	-4.53
+SEA	cruel	missing	17593	-4.57
+SEA	contain	missing	16314	-4.58
+SEA	fun	missing	27672	-4.59
+SEA	main	missing	38921	-4.60
+SEA	exceed	missing	23648	-4.60
+SEA	salary	missing	54804	-4.62
+SEA	holy	missing	31992	-4.62
+SEA	decrease	missing	18562	-4.63
+SEA	bud	missing	11314	-4.63
+SEA	avoid	missing	6207	-4.68
+SEA	guess	missing	30074	-4.68
+SEA	worthy	missing	69905	-4.68
+SEA	appropriate	missing	4864	-4.70
+SEA	ill	below_cut	32850	-4.70
+SEA	domain	missing	20776	-4.71
+SEA	vice	missing	67648	-4.71
+SEA	common	missing	15066	-4.73
+SEA	bait	missing	6518	-4.73
+SEA	whisper	missing	69002	-4.78
+SEA	inspiration	missing	34443	-4.80
+SEA	advance	missing	3003	-4.80
+SEA	extend	missing	24285	-4.81
+SEA	tone	missing	64454	-4.81
+SEA	destroy	missing	19305	-4.81
+SA	marriage, wedding	below_cut	39813	-3.38
+SA	holy, sacred	missing	32004	-3.64
+SA	forgiveness, pardon	missing	26951	-3.75
+SA	mango	missing	39546	-3.93
+SA	other, different	below_cut	45387	-3.98
+SA	breath, respiration	below_cut	10975	-4.03
+SA	paisa	below_cut	45827	-4.09
+SA	distance, remoteness	below_cut	20340	-4.21
+SA	bribe	missing	11016	-4.29
+SA	sometimes, once in a while	below_cut	58809	-4.30
+SA	baby, infant	below_cut	6338	-4.31
+SA	closed, shut	below_cut	14226	-4.31
+SA	thanks, thank you	below_cut	63371	-4.33
+SA	export	missing	24137	-4.34
+SA	beautiful, pretty	below_cut	8934	-4.39
+SA	house, home	below_cut	32345	-4.40
+SA	paddy	below_cut	45752	-4.42
+SA	vocative particle: o	below_cut	67947	-4.44
+SA	earn	missing	21596	-4.44
+SA	interpretation	missing	34778	-4.45
+SA	order	missing	120	-4.46
+SA	door, gate	below_cut	20880	-4.46
+SA	outdoors, out	below_cut	45454	-4.48
+SA	seem, appear	below_cut	55776	-4.53
+SA	pronunciation	missing	49975	-4.53
+SA	float	missing	26343	-4.55
+SA	child, infant	below_cut	13538	-4.56
+SA	influence, power	missing	34102	-4.56
+SA	life, soul	below_cut	37510	-4.58
+SA	each, every	below_cut	21541	-4.59
+SA	overseas, abroad	below_cut	45616	-4.59
+SA	auction	missing	6039	-4.61
+SA	son, child	below_cut	58836	-4.61
+SA	almost, nearly, about	below_cut	3758	-4.62
+SA	wire	missing	69350	-4.62
+SA	destiny, fate	missing	19298	-4.62
+SA	depart, leave	below_cut	19012	-4.62
+SA	face, countenance	below_cut	24496	-4.63
+SA	work, task, labour	below_cut	69758	-4.64
+SA	plough	missing	48251	-4.64
+WA	er, so, uh, well	below_cut	23115	-3.52
+WA	agenda	missing	3310	-3.73
+WA	acceptance	missing	1850	-3.79
+WA	order	missing	120	-3.83
+WA	imam	missing	32949	-3.99
+WA	there is, there are	below_cut	63582	-4.00
+WA	remedy, cure	missing	52652	-4.01
+WA	section, division	below_cut	55624	-4.10
+WA	martyr	missing	39854	-4.12
+WA	explosion	missing	24122	-4.13
+WA	weigh	missing	68695	-4.16
+WA	universal	missing	66279	-4.19
+WA	end, conclusion	below_cut	22535	-4.20
+WA	execution	missing	23863	-4.22
+WA	particular	missing	46126	-4.29
+WA	attribute	missing	6034	-4.32
+WA	waist	missing	68063	-4.33
+WA	comfortable	missing	14915	-4.33
+WA	kill, to murder	below_cut	35890	-4.36
+WA	hello, hi	below_cut	31348	-4.38
+WA	last, final	below_cut	36623	-4.38
+WA	tonight	missing	64465	-4.42
+WA	humane	missing	32510	-4.43
+WA	civil	missing	13838	-4.43
+WA	architecture	missing	4982	-4.44
+WA	first, firstly	below_cut	26023	-4.45
+WA	menu	missing	40581	-4.45
+WA	digital	missing	19719	-4.46
+WA	canal	missing	12007	-4.46
+WA	denial	missing	18969	-4.47
+WA	tension	missing	63099	-4.51
+WA	whole, all	below_cut	69078	-4.52
+WA	acid	missing	2046	-4.54
+WA	place, location, position	below_cut	47875	-4.54
+WA	few, little	below_cut	25459	-4.54
+WA	attachment	missing	5895	-4.54
+WA	refusal	missing	52161	-4.56
+WA	otherwise	below_cut	45398	-4.60
+WA	advanced	missing	3021	-4.60
+WA	past, last	below_cut	46370	-4.60
+EU	as	below_cut	5343	-2.78
+EU	fact	missing	24536	-3.11
+EU	order	missing	120	-3.23
+EU	december	missing	18447	-3.67
+EU	november	missing	43486	-3.68
+EU	attend	missing	5954	-3.70
+EU	february	missing	25145	-3.71
+EU	forward	missing	27110	-3.78
+EU	apartment, flat	missing	4609	-3.84
+EU	clearly	below_cut	14048	-3.87
+EU	say, to tell	below_cut	55091	-3.93
+EU	suffer	missing	61461	-3.93
+EU	august	missing	6068	-3.93
+EU	ex	below_cut	23562	-3.96
+EU	episode	missing	23026	-3.99
+EU	but	below_cut	11619	-4.01
+EU	audience	missing	6045	-4.04
+EU	laboratory	missing	36294	-4.06
+EU	work, to function	below_cut	69762	-4.06
+EU	belong	below_cut	9538	-4.08
+EU	prefer	below_cut	49107	-4.11
+EU	earn	missing	21596	-4.12
+EU	formation	missing	27022	-4.13
+EU	task	missing	62721	-4.14
+EU	tribunal	below_cut	65232	-4.14
+EU	thank you, thanks	below_cut	63360	-4.16
+EU	sergeant	missing	56131	-4.18
+EU	majesty	below_cut	38995	-4.18
+EU	concert	missing	15723	-4.19
+EU	colleague	below_cut	14554	-4.21
+EU	reception	missing	51807	-4.22
+EU	guilty	missing	30132	-4.23
+EU	pity	missing	47766	-4.23
+EU	castle	missing	12452	-4.23
+EU	refuse	missing	52166	-4.23
+EU	exit, way out	below_cut	23969	-4.25
+EU	occupy, to take up	below_cut	43865	-4.26
+EU	exception	missing	23693	-4.28
+EU	tone	missing	64454	-4.28
+EU	wrestling	missing	69967	-4.29
+SSA	wild animal	missing	69196	-3.89
+SSA	beating	below_cut	8900	-3.98
+SSA	region, state	below_cut	52217	-4.10
+SSA	town, village	below_cut	64713	-4.14
+SSA	inside, interior	below_cut	34395	-4.29
+SSA	see, to find	below_cut	55714	-4.30
+SSA	part, section	below_cut	46068	-4.35
+SSA	business, trade, commerce	below_cut	11603	-4.36
+SSA	chance, opportunity	below_cut	13068	-4.42
+SSA	faith, belief	below_cut	24648	-4.59
+SSA	naira	below_cut	42203	-4.59
+SSA	implement	missing	33145	-4.61
+SSA	shilling	below_cut	56746	-4.61
+SSA	affect	below_cut	3140	-4.63
+SSA	long, tall	below_cut	38246	-4.64
+SSA	relate	missing	52357	-4.64
+SSA	environment	missing	22987	-4.64
+SSA	trouble, problem, difficulty	below_cut	65349	-4.65
+SSA	bad, evil, wicked	below_cut	6463	-4.69
+SSA	deputy	missing	19128	-4.70
+SSA	accusation	missing	1998	-4.70
+SSA	english language	missing	22689	-4.70
+SSA	order	missing	120	-4.71
+SSA	alternative	missing	3832	-4.73
+SSA	census	below_cut	12822	-4.73
+SSA	flour	missing	26390	-4.74
+SSA	develop	missing	19425	-4.75
+SSA	kingdom, realm	below_cut	36066	-4.77
+SSA	theft, robbery	below_cut	63534	-4.78
+SSA	infection	missing	34040	-4.79
+SSA	wickedness	below_cut	69131	-4.79
+SSA	graduation	missing	29505	-4.79
+SSA	editor	missing	21836	-4.79
+SSA	billion	below_cut	9867	-4.80
+SSA	sheikh	below_cut	56703	-4.80
+SSA	dirt, filth	below_cut	19882	-4.83
+SSA	hatred	missing	30705	-4.84
+SSA	hajji	below_cut	30288	-4.85
+SSA	earring	below_cut	21610	-4.85
+SSA	chiefs	below_cut	13515	-4.86
+AM	calendar	missing	11811	-1.52
+AM	ordinal	below_cut	45186	-1.67
+AM	julian	below_cut	35569	-1.70
+AM	town, city, place	below_cut	64712	-1.74
+AM	elevated	below_cut	22184	-1.77
+AM	beginning, origin	below_cut	9273	-1.82
+AM	being, essence	below_cut	9475	-1.86
+AM	another, other	below_cut	4271	-2.05
+AM	leap year	below_cut	36946	-2.05
+AM	head, top	below_cut	31123	-2.07
+AM	gregorian	below_cut	29815	-2.11
+AM	said, so-called	below_cut	54774	-2.14
+AM	striped, streaked	below_cut	60963	-2.22
+AM	nation, country, fatherland	below_cut	42439	-2.22
+AM	capital, principal	below_cut	12119	-2.24
+AM	madam, lady	below_cut	38789	-2.25
+AM	begin, start	below_cut	9245	-2.30
+AM	leader, guide	below_cut	36880	-2.37
+AM	celebration, party, festival, ritual	below_cut	12773	-2.39
+AM	vein	missing	67375	-2.41
+AM	person, human being	below_cut	47180	-2.43
+AM	mighty, powerful	below_cut	40850	-2.44
+AM	big, tall, grand, high, large, long, great, important	below_cut	9834	-2.49
+AM	talk, speech, discourse, conversation	below_cut	62621	-2.51
+AM	region, area, district, zone, country, nation	below_cut	52208	-2.52
+AM	matrix	below_cut	40031	-2.55
+AM	maturation, ripening	below_cut	40060	-2.55
+AM	life, culture, living energy	below_cut	37500	-2.58
+AM	first, remote in time	below_cut	26029	-2.60
+AM	upper, high, elevated, superior	below_cut	66554	-2.60
+AM	perhaps, maybe, possibly, probably	below_cut	46873	-2.62
+AM	decade	missing	18416	-2.66
+AM	many, much, a lot	below_cut	39678	-2.66
+AM	die, perish	below_cut	19613	-2.68
+AM	all, every, each, any	below_cut	3659	-2.69
+AM	event to redistribute farmland	below_cut	23439	-2.69
+AM	drawing, painting, image, graphic	below_cut	21082	-2.69
+AM	earth, ground, world	below_cut	21622	-2.70
+AM	farmland	below_cut	24915	-2.71
+AM	rich, wealthy, prosperous	below_cut	53672	-2.74
